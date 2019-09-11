@@ -1,0 +1,254 @@
+#+TITLE: Niemann-Pick Disease
+#+SUBTITLE: Sphingolipid and Cholesterol Degradation
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+
+* Introduction
+
+** Niemann-Pick Disease
+- There are two distinct diseases called Niemann-Pick
+  - Types A and B (acid sphingomyelinase deficiency)
+  - Type C (cholesterol recycling)
+
+** Niemann-Pick A & B
+- Incidence of Niemann-Pick A among Ashkenazi Jews ~ 1:40,000.
+- Incidence of both Niemann–Pick A and B in all other populations ~ 1:250,000.
+- Niemann-Pick Type A and B are caused by deficiency of acid sphingomyelinase (ASM).
+  - sphingomyelinase is required to metabolize sphingomyelin.
+  - results in progressive accumulation of sphingomyelin in systemic organs
+    - brain accumulation in neuronal forms
+  - There is growing evidence that NPA & NPB represent opposite ends of a continuum.
+    - NPA generally have little or no ASM production (less than 1% of normal).
+    - NPB have approximately 10% of normal level of ASM.
+
+** Sphingomyelin and Sphingomyelinase
+
+#+CAPTION[]:Sphingomyelin
+#+NAME: fig:sphingomyelin
+#+ATTR_LaTeX: :width 0.8\textwidth
+[[file:./lsd/niemann_pick/figures/sphingomyelin.png]]
+
+#+CAPTION[]: Sphingomyelinase
+#+NAME: fig:sphingomyelinase
+#+ATTR_LaTeX: :width 0.8\textwidth
+[[file:./lsd/niemann_pick/figures/sphingomyelinase.png]]
+
+
+** Sphingolipid degradation
+
+#+CAPTION[]:Sphingolipid degradation
+#+NAME: fig:sld
+#+ATTR_LaTeX: :width 0.6\textwidth
+[[file:./lsd/niemann_pick/figures/sl_degradation.png]]
+
+** Niemann-Pick C
+- a fatal, neuro-degenerative disease that affects ~ 1:150,000
+  - sometimes referred to as Childhood Alzheimer’s
+  - extremely heterogeneous
+  - biochemically, genetically and clinically distinct from Niemann-Pick A and B. 
+- Accumulation of unesterified cholesterol, sphingomyelin, glycolipids in systemic organs
+- GM2 and GM3 accumulate in brain
+  - no increase in cholesterol
+- NPC has two sub types NP-C1 (95%) and NP-C2 (5%)
+
+** Niemann-Pick C
+
+- LDL cholesterol enters cells via endocytosis at the LDL receptor.
+- delivered to the late-stage endosomes and lysosomes
+- hydrolyzed and released as free cholesterol.
+- Unesterified cholesterol is transported to the plasma membrane and the ER for recycling.
+
+- In NP-C, the LDL-cholesterol is trapped in lysosomes
+
+#+CAPTION[]: Cholesterol Transport
+#+NAME: fig:
+#+ATTR_LaTeX: :width 0.8\textwidth
+[[file:./lsd/niemann_pick/figures/cholesterol1.jpg]]
+
+
+** NPC1 & NPC2
+
+#+CAPTION[]: NPC1 & NPC2
+#+NAME: fig:npc
+#+ATTR_LaTeX: :width 0.65\textwidth
+[[file:./lsd/niemann_pick/figures/Niemann-Pick-C-Brown-and-Goldstein.png]]
+
+- NPC1 is a lysosomal membrane protein involved in transport in the endosomal-lysosomal system
+- NPC2 acts in cooperation with the NPC1
+- The disruption of transport results in accumulation of cholesterol and glycolipids in lysosomes.
+
+** Lysosomal Protein Trafficking
+
+#+CAPTION[]:Lysosomal protein trafficking receptors
+#+NAME: fig:traf
+#+ATTR_LaTeX: :width 0.65\textwidth
+[[file:./lsd/niemann_pick/figures/lysosome_trafficking.jpeg]]
+
+- lysosomal trafficking of acid sphingomyelinase is mediated by sortilin and mannose 6-phosphate receptor.
+- MPR alone is sufficient to transport NPC2 to the endo/lysosomal compartment
+- Sorting of LMPs from Golgi/PM to endosomal system is mediated by
+  signals in the cytosolic domain
+
+** Genetics
+
+*** Niemann-Pick A & B
+- Mutations in SMPD1
+- Good phenotype-genotype correlation
+*** Niemann-Pick C
+- Autosomal recessive inheritance,
+- Mutations in NPC1 (95%) and NPC2 (5%)
+
+* Clinical Findings
+
+** Niemann-Pick A & B symptoms
+
+*** Niemann-Pick A symptoms
+- hepatosplenomegaly by age 3 months
+- Failure to thrive
+- Psychomotor regression at age 1
+  - progressive loss of abilities – mental and physical
+- Interstitial lung disease resulting in lung infections and lung failure
+- Cherry-red spot identified with eye examination (100%)
+
+*** Niemann-Pick B symptoms
+- Symptoms outlined under NPA (but less severe)
+- Thrombocytopenia 
+- Short stature
+- Cherry-red spot identified with eye examination (50%)
+
+** Niemann-Pick C symptoms
+
+- onset of the disease can happen at any age.
+  - often school age children.
+  - also adults
+
+- Symptoms may include:
+  - Jaundice at birth or shortly afterwards
+  - Hepatosplenomegaly
+  - Vertical supranuclear gaze palzy
+  - Ataxia
+  - Dystonia
+  - Dysarthria
+  - Cognitive dysfunction/dementia
+  - Cataplexy
+  - Tremors accompanying movement
+  - Seizures
+  - Dysphagia
+
+*** Definitions:
+- Vertical Supranuclear Gaze Palzy: Difficulty with Upward & Downward Eye Movement 
+- Ataxia: Unsteadiness with Gait, Clumsiness or Walking 
+- Dystonia:  neurological movement disorder syndrome in which sustained or repetitive muscle contractions result in twisting and repetitive movements or abnormal fixed postures
+- Dysarthria: Slurred Irregular Speech 
+- Cognitive Dysfunction/Dementia: Learning Difficulties & Progressive Intellectual Decline 
+- Cataplexy: Sudden Loss of Muscle Tone Which May Lead to Unexpected Falls 
+- Dysphagia:Swallowing Problems 
+- Thrombocytopenia: low number of platelets
+
+** Niemann-Pick C neurological forms
+
+\small
+- Classification by neurological form is widely used
+- correlation between age at neurological onset and course of disease
+  and lifespan has been established
+
+**** Early infantile          
+- pre-existing hepatosplenomegaly
+- delay in motor milestones 9m-2yrs
+- survival <6 years
+
+**** Late-infantile
+- classic NPC, 60-70% of cases
+- language delay
+- Ataxia, 3-5 yrs
+- Cognitive dysfunction, 6-12 yrs 
+
+**** Adult 
+- diagnosis 15->60yrs.
+- insidious presentation
+- ataxia, dystonia, dysarthria, movement disorders
+- variable cognitive dysfunction
+- Vertical gaze palzy common
+
+* Laboratory Investigations
+** Newborn Screening
+- New York state is conducting a pilot newborn screening program for four lysosomal storage disorders.
+- Pompe, Gaucher, Niemann-Pick A/B, Fabry, and MPS 1
+
+- 4 years, 65,605 infants participated, representing an overall consent rate of 73%.
+  - Sixty-nine infants were screen-positive.
+  - Twenty-three were confirmed true positives, all of whom were predicted to have late-onset phenotypes.
+  - Six of the 69 currently have undetermined disease status.
+
+** Biomarkers: oxysterols
+
+- Plasma oxysterols
+  - oxysterols cholestane-3\beta, 5\alpha, 6\beta-triol
+  - 7-ketocholesterol
+
+
+
+#+CAPTION[]: Klinke, G. Clin Biochem 2015
+#+NAME: fig:
+#+ATTR_LaTeX: :width 0.7\textwidth
+[[file:./lsd/niemann_pick/figures/biomarkers.jpg]]
+
+** Biomarkers: lysosphingomylin
+
+- Plasma and DBS
+  - lysosphingomylin 
+  - lysosphingomylin-509
+
+#+CAPTION[]: Kuckar, L. Anal Biochem. 2017
+#+NAME: fig:
+#+ATTR_LaTeX: :width 0.8\textwidth
+[[file:./lsd/niemann_pick/figures/biomarkersII.jpg]]
+
+** Enzymology: Niemann-Pick A & B
+
+- Deficient ASM activity in leukocytes or cultured cells.
+  - use of native or radio-labelled substrate preferred to fluorescent substrate
+    - 6-hexadecanoylamino-4-methylumbelliferyl-phosphorylcholine
+    - Does not detect Q292K mutation
+
+** Pathology: Niemann-Pick A & B
+
+#+CAPTION[]: Foam cells in bone marrow
+#+NAME: fig:foam
+#+ATTR_LaTeX: :width 0.45\textwidth
+[[file:./lsd/niemann_pick/figures/foam_cells.png]]
+
+** Niemann-Pick C
+- Filipin test
+  - Streptomyces filipinensis - anti-fungal
+  - culture fibroblasts in an LDL-enriched medium
+  - pathognomonic free cholesterol accumulation in lysosomes
+  - fluorescence microscopy after filipin staining
+  - unequivocal results in ~ 85% of patients
+
+#+CAPTION[]:Filipin staining (red:filipin, green:CellMask)
+#+NAME: fig:filipin
+#+ATTR_LaTeX: :width 0.5\textwidth
+[[file:./lsd/niemann_pick/figures/filipin.png]]
+
+* Treatment
+** Treatment: Niemann-Pick A&B 
+- No approved treatments
+- Olipudase alfa, a recombinant human acid sphingomyelinase (ASM), is
+  an enzyme replacement therapy for the treatment of nonneurologic
+  manifestations of acid sphingomyelinase deficiency (ASMD).
+- ongoing, open-label, long-term study (NCT02004704) assessed safety
+  and efficacy of olipudase alfa following 30 months of treatment in
+  five adult patients with ASMD.
+- There were no deaths, serious or severe events, or discontinuations
+  during 30 months of treatment.
+- Chitotriosidase in serum and lyso-sphingomyelin in dried blood spots
+  decreased with olipudase alfa treatment
+
+** Treatment: Niemann-Pick C
+- substrate reduction therapy
+  - miglustat approved for treatment of neurological manifestations
+  - miglustat is an iminosugar, a synthetic analogue of D-glucose
+
+

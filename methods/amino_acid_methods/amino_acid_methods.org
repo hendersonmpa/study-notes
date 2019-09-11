@@ -1,0 +1,664 @@
+#+TITLE: Laboratory Methods for Quantitative Amino Acid Analysis in Biological Matrices
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+:PROPERTIES:
+#+DRAWERS: PROPERTIES
+#+LaTeX_CLASS: beamer
+#+LaTeX_CLASS_OPTIONS: [presentation, smaller]
+#+BEAMER_THEME: Frankfurt [height=20pt]
+#+BEAMER_COLOR_THEME: whale
+#+BEAMER_FRAME_LEVEL: 2
+#+COLUMNS: %40ITEM %10BEAMER_env(Env) %9BEAMER_envargs(Env Args) %4BEAMER_col(Col) %10BEAMER_extra(Extra)
+#+OPTIONS: H:2 toc:nil
+#+PROPERTY: header-args:R :session *R*
+#+PROPERTY: header-args :cache no
+#+PROPERTY: header-args :tangle yes
+#+STARTUP: beamer
+#+STARTUP: overview
+#+STARTUP: hidestars
+#+STARTUP: indent
+# #+BEAMER_HEADER: \subtitle{What is an Automated and Reproducible Report?}
+#+BEAMER_HEADER: \institute[NSO]{Newborn Screening Ontario | The University of Ottawa}
+#+BEAMER_HEADER: \titlegraphic{\includegraphics[height=1cm,keepaspectratio]{../logos/NSO_logo.pdf}\includegraphics[height=1cm,keepaspectratio]{../logos/cheo-logo.png} \includegraphics[height=1cm,keepaspectratio]{../logos/UOlogoBW.eps}}
+#+latex_header: \hypersetup{colorlinks,linkcolor=white,urlcolor=blue}
+#+LaTeX_header: \usepackage{textpos}
+#+LaTeX_header: \usepackage{textgreek}
+#+LaTeX_header: \usepackage[version=4]{mhchem}
+#+LaTeX_header: \usepackage{chemfig}
+#+LaTeX_header: \usepackage{siunitx}
+#+LaTex_HEADER: \usepackage[usenames,dvipsnames]{xcolor}
+#+LaTeX_HEADER: \usepackage[T1]{fontenc}
+#+LaTeX_HEADER: \usepackage{lmodern}
+#+LaTeX_HEADER: \usepackage{verbatim}
+#+LaTeX_HEADER: \usepackage{tikz}
+#+LaTeX_HEADER: \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
+:END:
+
+#+BEGIN_LaTeX
+%\logo{\includegraphics[width=1cm,height=1cm,keepaspectratio]{../logos/NSO_logo_small.pdf}~%
+%    \includegraphics[width=1cm,height=1cm,keepaspectratio]{../logos/UOlogoBW.eps}%
+%}
+
+\vspace{220pt}}
+\beamertemplatenavigationsymbolsempty
+\setbeamertemplate{caption}[numbered]
+\setbeamerfont{caption}{size=\tiny}
+% \addtobeamertemplate{frametitle}{}{%
+% \begin{textblock*}{100mm}(.85\textwidth,-1cm)
+% \includegraphics[height=1cm,width=2cm]{cat}
+% \end{textblock*}}
+
+\tikzstyle{chemical} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=none]
+\tikzstyle{hardware} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=gray!30]
+\tikzstyle{ms} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=orange, fill=none]
+\tikzstyle{msw} = [rectangle, rounded corners, text width=7em, minimum height=1em,text centered, draw=orange, fill=none]
+\tikzstyle{label} = [rectangle,text width=5em, minimum height=1em, text centered, draw=none, fill=none]
+\tikzstyle{hl} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=red!30]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+\tikzstyle{hl-arrow} = [ultra thick,->,>=stealth,draw=red]
+
+#+END_LaTeX
+
+* Introduction
+** Amino Acids: A Very Short Introduction
+- Amino acids are mono or dicarboxylic acids with one or more amino groups.
+  - Zwitterion at ph 7.45
+
+- Proteinogenic amino acids (22)
+  - 21 amino acids naturally incorportated into polypeptides in humans
+  - 20 genetically encoded
+  - selenocysteine
+
+- Non-proteinogenic
+  - post-translational modification
+    - hydroxylation of proline \to hydroxyproline
+  - Not found in proteins
+    - gamma-aminobutryic acid
+    - ornithine, citrulline
+
+- 76 amino acids of biological interest in humans
+
+** COMMENT Indications for Measurement of Amino Acids
+1. Lethargy, coma, seizures or vomiting in a neonate
+2. Hyperammonaemia
+3. Ketosis
+4. Metabolic acidosis or lactic acidaemia
+5. Alkalosis
+6. Metabolic decompensation
+7. Unexplained developmental delay or developmental regression
+8. Polyuria, polydipsia and dehydration
+9. Unexplained liver dysfunction
+10. Unexplained neurological symptoms
+11. Abnormal amino acid results on newborn screening programme
+12. Previous sibling with similar clinical presentation
+13. Clinical presentation specific to an amino acid disorder
+14. Monitoring treatment and diet.
+
+** Indications for Measurement of Amino Acids 
+- Diagnosis of inborn errors of amino acid metabolism and transport
+- Diet monitoring in patients with known IEM
+- Nutritional assessment of patients with non-metabolic conditions [e.g. short bowel syndrome] 
+
+** Quantitative Amino Acid Analysis
+***                                                                 :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.5
+:END:
+
+[[./figures/Moore_Stein.png]]
+
+***                                                                 :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.5
+:END:
+
+- Stanford Moore (left) and William Stein (right) about 1965 in front
+  of the original amino acid analyzer.
+- Ion-exchange chromatography with post-column ninhydrin detection
+
+** Metbionet Guidelines for Amino Acid Analysis.
+
+*** Plasma Profile for Diagnosis of Amino Acid Disorders
+
+****                                                               :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.3
+:END:
+- Alanine
+- Alloisoleucine
+- Arginine
+- Argininosuccinic acid
+- Cystine
+- Citrulline
+- Glutamic acid
+
+
+****                                                               :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.3
+:END:
+- Glutamine
+- Glycine
+- Histidine
+- Homocysteine*
+- Isoleucine
+- Leucine
+- Lysine
+- Methionine
+****                                                               :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.3
+:END:
+
+- Ornithine
+- Phenylalanine
+- Proline
+- Serine
+- Sulphocysteine**
+- Taurine
+- Threonine
+- Tyrosine
+- Valine
+
+***                                                       :B_ignoreheading:
+:PROPERTIES:
+:BEAMER_env: ignoreheading
+:END:
+- *Plasma total homocysteine is not detected by routine methods, plasma free homocystine analysis has poor clinical sensitivity.
+- **Sulphocysteine may not be detectable in plasma using routine methods
+** Plasma
+- Patient prep
+  - Fasting (overnight preferred, 4 hours minimum). Infants and children should be
+    drawn just before next feeding (2-3 hours without TPN if possible).
+- Sample
+  - LiHeparin venous plasma
+  - Prompt separation and deproteinisation is essential for accurate measurement of (free) sulphur containing amino acids.
+  - Protein binding: cystine and homocystine
+  - release of arginase from RBCs
+  - store at -20\degree{}C to limit glutamine decomposition
+
+** Plasma - Pre-analytical
+
+- Serum should not be used because there may be deamination (asparagine to
+  aspartic acid and glutamine to glutamic acid), loss of sulphur
+  containing amino acids and release of oligopeptides.
+- EDTA plasma is recommended in some labs as the specimen of
+  choice. The older literature reports ninhydrin positive artefacts in
+  EDTA plasma but modern tubes do not seem to have this problem.
+- Haemolysis will cause increases in serine, glycine, taurine,
+  phosphoethanolamine, aspartic acid, glutamic acid, ornithine and
+  decreased arginine.
+- Delayed separation or leucocyte and platelet contamination will
+  cause increased serine, glycine, taurine, phosphoethanolamine,
+  ornithine, glutamic acid and decreased arginine, homocystine,
+  cystine.
+- Phenylalanine and tyrosine increase if specimen separation is
+  delayed 
+- Amino acids are more stable in frozen deproteinised plasma than
+  in frozen native plasma.
+- Capillary blood may be used with careful cleaning of the skin prior
+  to specimen collection provided the blood is flowing freely.
+- Free tryptophan may be lost when using sulphosalicylic acid as
+  deproteinising agent.
+  - trichloroacetic acid is the deproteinising agent of choice for
+    this amino acid.
+- Sodium metabisulphite, found in some intravenous preparations as a
+  preservative, can cause the conversion of cystine to sulphocysteine.
+
+** Urine
+- Urine
+  - 24 hour or random urine
+  - preservative free bottle
+  - Specimen quality is checked by testing for nitrite and pH.
+    - Specimen deterioration causes:
+      - \downarrow serine
+      - \uparrow \downarrow alanine
+      - increased glycine
+      - decarboxylation of glutamic acid \to \gamma{}-aminobutyric acid
+      - breakdown of phosphoethanolamine \to ethanolamine and phosphate
+      - breakdown of cystathionine \to homocystine
+      - hydrolysis of peptides causing \uparrow proline
+  - Fecal contamination causes increased proline, glutamic acid, branched chain amino acids but not hydroxyproline.
+  - Faecal bacteria can produce \gamma{}-aminobutyric acid from glutamic acid and b-alanine from aspartic acid
+  - reported in \micro{}mol/g creatinine
+  - Aminoaciduria due to overflow and amino acid transport defects.
+
+** Cerebral Spinal Fluid
+  - free of blood contamination
+  - which tube is used?
+  - investigation of neurological disorders and essential for the
+    diagnosis of non-ketotic hyperglycinaemia.
+  - CSF/Plasma ratio of amino acids is more informative than an isolated CSF sample.
+    - A paired plasma sample should be obtained within two hours.
+** Dried Blood Spot
+  - Collected from free flowing blood spotted onto filter paper
+  - Newborn Screening
+  - Monitoring Therapy/Diet
+  - Each DBS is assume to contain 3.2 \micro{}L of blood
+  - The quantity of blood present in the paper varies by
+    - hematocrit
+    - degree of saturation
+    - the cotton fiber paper
+    - the environment  when applying blood (humidity and temperature).
+  - Because of these numerous factors, a dried blood spot is a highly
+    imprecise specimen compared with liquids such as urine, blood, and plasma.
+
+  - Amniotic Fluid
+    - prenatal diagnosis of IMD
+
+    - Still used?
+
+** COMMENT Sample prep
+- Hydrophillic amino acids require deprotonization with acetonitrile or alcohol
+- Deproteination to release cysteine, homocysteine and tryptophan.
+
+** ERNDIM Plasma Amino Acids Survey
+
+#+ATTR_LATEX: :height 0.9\textheight
+[[./figures/erndim.png]]
+
+* Amino Acid Analyser
+** Amino Acid Analyser Schematic
+
+#+BEGIN_LaTeX
+\begin{center}
+\begin{tikzpicture}[node distance=9em]
+% nodes
+\node(column)[msw, right of=extraction]{Chromatography};
+\node(derivatization)[msw, right of=column]{Ninhyrin Derivatization};
+\node(detector)[ms, right of=derivatization]{UV Detector};
+% arrows
+\draw[arrow](column) -- (derivatization);
+\draw[arrow](derivatization) -- (detector);
+\end{tikzpicture}
+
+\vspace{2em}
+
+\schemedebug{false}
+\schemestart
+\chemfig[][scale=.33]{*6(=*5(-(=O)-(-[6]OH)(-[8]OH)-(=O)-)-=-=-)}
+\+
+\chemfig[][scale=.5]{{\color{red}R}-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]OH}
+\arrow{-U>[][{\tiny \ce{2H2O}}]}
+\chemfig[][scale=.33]{*6(=*5(-(=O)-(=N-[::-60](-[::-60]{\color{red}R})-[::60](=[::60]O)-[::-60]OH)-(=O)-)-=-=-)}
+\arrow{->[][]}
+\chemfig[][scale=.33]{*6(=*5(-(=O)-(-N=*5(-(=O)-(*6(-=-=-))--(=O)-))-(=O)-)-=-=-)}
+\schemestop
+
+\schemedebug{false}
+\schemestart
+\chemfig[][scale=.33]{*6(=*5(-(=O)-(-[6]OH)(-[8]OH)-(=O)-)-=-=-)}
+\+
+\chemfig[][scale=.33]{H-*5(N----(-COOH)-)}
+\arrow{->[][]}
+\chemfig[][scale=.33]{*6(=*5(-(=O)-(-*5(N-----))-(=O)-)-=-=-)}
+\schemestop
+\end{center}
+#+END_LaTeX
+
+** Amino Acid Analyser
+- Cation-exchange chromatography using a lithium buffer system
+  followed by post-column derivatization with ninhydrin
+
+
+
+
+***                                                                 :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.5
+:END:
+
+- Samples are de-proteinized with sulfosalicylic acid prior to
+  injection
+- Utilizes a lithium-based cation-exchange column
+- Eluting amino acids undergo post column reaction with ninhydrin
+- Optical detection in the visible spectrum
+  - amino acids: 570nm
+  - imino acids 440 nm
+
+***                                                                 :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.5
+:END:
+
+[[./figures/212.jpg]]
+
+** Amino Acid Analyser 
+
+[[./figures/aaachrom.png]]
+
+** Pros and Cons of Amino Acid Analysers
+
+*** Pros
+- Standardized and established technology
+- Interpretive experience
+*** Cons
+- Long run time (90 – 150 minutes)
+- Lack of analyte specificity (identification by retention time)
+  - antibiotics (ampicillin, amoxicillin, and gentamicin), acetaminophen
+- Co-eluting substances cannot be separated and distinguished on a standard IEC chromatogram
+  - Homocitrulline co-elutes with methionine 
+  - ASA co-elutes with leucine
+  - Alloisoleucine co-elutes with cystathionine
+  - Tryptophan co-elutes with histidine
+
+* FIA-MS/MS
+
+** FIA-MS/MS sample 
+
+- Amino acids in the DBS eluate are esterified as butyl esters with butanol-hydrogen chloride.
+
+#+BEGIN_LaTeX
+\centering
+\schemedebug{false}
+\schemestart
+\chemname{\chemfig[][scale=.33]{{\color{red}R}-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]OH}}{\tiny \textalpha{}-amino acid}
+\+
+\chemname{\chemfig[][scale=.33]{HO-[::30]-[::-60]-[::60]-[::-60]}}{\tiny n-butanol}
+\arrow{-U>[][{\tiny \ce{H2O}}]}
+\chemname{\chemfig[][scale=.33]{{\color{red}R}-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\tiny AA butyl ester}
+\schemestop
+#+END_LaTeX
+
+
+- Solvent delivery is via HPLC with no chromatography, called flow injection analysis.
+- 10 \micro{}L of sample extract is injected into a flowing stream operating at ~ 0.15 ml/min.
+
+- Typical injection rates between samples are 2 min, giving a potential 400-
+  to 600-sample capacity per instrument per day.
+  - volume is typically 200-400 specimens per instrument per day
+  - maintenance issues, repeat specimen analysis.
+    
+** FIA-MS/MS schematic
+#+BEGIN_LaTeX
+\begin{center}
+\begin{tikzpicture}[node distance=7em]
+% nodes
+\node(ms1)[ms]{MS1: Mass Filter};
+\node(cc)[ms, right of=ms1]{Collision cell};
+\node(ms2)[ms, right of=cc]{MS2: Mass Filter};
+\node(ion)[ms, below of=ms1,yshift=3em]{Ionization};
+\node(lc)[msw, below of=ion,yshift=3em]{Injection};
+\node(detector)[ms, below of=ms2, yshift=3em]{Detector};
+% arrows
+\draw[arrow](lc) -- (ion);
+\draw[arrow](ion) -- (ms1);
+\draw[arrow](ms1) -- (cc);
+\draw[arrow](cc) -- (ms2);
+\draw[arrow](ms2) -- (detector);
+\end{tikzpicture}
+\end{center}
+#+END_LaTeX
+
+
+** FIA-MS/MS transitions
+
+- Electrospray ionization in positive mode
+- \alpha{}-amino acids fragment to produce the neutral butyl formate molecule (102 Da). 
+- A neutral loss scan is used to identify parent molecules with a NL of 102 Da.
+- MRM is used to detected amino acids with basic functional groups
+  - arginine, ornithine and citrulline
+
+#+BEGIN_LaTeX
+\centering
+\schemedebug{false}
+\schemestart
+\chemname{\chemfig[][scale=.33]{{\color{red}R}-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\tiny AA butyl ester}
+\arrow{->[{\tiny fragmentation}]}
+\chemname{\chemfig[][scale=.33]{{\color{red}R}-[::60]=NH_2^{+}}}{\tiny fragment}
+\+
+\chemname{\chemfig[][scale=.33]{H-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\tiny butyl formate (102 Da)}
+\schemestop
+#+END_LaTeX
+
+** FIA-MS/MS  MRM
+
+- Citrulline contains a labile amino group that fragments together with butyl formate.
+- CID results in net neutral fragmentation of butyl formate (102 Da) plus \ce{NH3} (17 Da)
+- [[https://en.wikipedia.org/wiki/Selected_reaction_monitoring][SRM]] Citrulline-Bu 232.15 Da \to 113 Da , loss of 119 Da  
+
+#+BEGIN_LaTeX
+\centering
+\schemedebug{false}
+\schemestart
+\chemname{\chemfig[][scale=.33]{H_2N-[::30,,2,](=[::60]O)-[::-60]NH-[::60]-[::-60]-[::60]-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]OH}}{\tiny citrulline 175 Da}
+\+
+\chemname{\chemfig[][scale=.33]{HO-[::30]-[::-60]-[::60]-[::-60]}}{\tiny n-butanol 74 Da}
+\arrow{-U>[][{\tiny \ce{H2O}}]}
+\chemname{\chemfig[][scale=.33]{H_2N-[::30,,2,](=[::60]O)-[::-60]NH-[::60]-[::-60]-[::60]-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\tiny 232 Da}
+\schemestop
+#+END_LaTeX
+
+
+
+#+BEGIN_LaTeX
+\centering
+\schemedebug{false}
+\schemestart
+\chemname{\chemfig[][scale=.33]{H_2N-[::60]-[::-60]-[::60]-[::-60]-[::60]N=O=C}}{\tiny 113 Da}
+\+
+\chemname{\chemfig[][scale=.33]{H-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\tiny 102 Da}
+\+
+\chemname{\chemfig[][scale=.43]{NH_3}}{\tiny 17 Da}
+\schemestop
+#+END_LaTeX
+
+- Its name is derived from citrullus, the Latin word for watermelon, from which it was first isolated in 1914 by Koga and Odake. 
+
+
+** FIA-MS/MS Amino Acid Scan
+*** Quantified Amino Acids
+****                                                               :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.5
+:END:
+- Glycine
+- Alanine
+- Valine
+- Leucine
+- Methionine
+- Phenylalanine
+****                                                               :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.5
+:END:
+- Tyrosine
+- Ornithine
+- Citruline
+- Arginine
+- \color{blue}Succinylacetone
+
+
+** Pros and Cons of FIA-MS/MS using DBS
+- As compared to AAA and LC-MS/MS 
+*** Pros
+- ~ 2 min analysis time
+- Analyte specificity
+- Acylcarnitines quantified simultaneously
+
+*** Cons
+- Variability in DBS sample as described above
+- Iso-baric compounds
+  - leucine, Isoleucine, Alloisoleucine
+- Fewer AA quantified
+  - homocystine (free)
+  - glutamine
+
+* LC-MS/MS
+** LC-MS/MS schematic
+#+BEGIN_LaTeX
+\begin{center}
+\begin{tikzpicture}[node distance=7em]
+% nodes
+\node(ms1)[ms]{MS1: Mass Filter};
+\node(cc)[ms, right of=ms1]{Collision cell};
+\node(ms2)[ms, right of=cc]{MS2: Mass Filter};
+\node(ion)[ms, below of=ms1,yshift=3em]{Ionization};
+\node(lc)[msw, below of=ion,yshift=3em]{Chromatography};
+\node(detector)[ms, below of=ms2, yshift=3em]{Detector};
+% arrows
+\draw[arrow](lc) -- (ion);
+\draw[arrow](ion) -- (ms1);
+\draw[arrow](ms1) -- (cc);
+\draw[arrow](cc) -- (ms2);
+\draw[arrow](ms2) -- (detector);
+\end{tikzpicture}
+\end{center}
+#+END_LaTeX
+
+
+
+** Inlet table                                                     :noexport:
+#+tblname: data-table
+| Time | Flow |   %A |   %B |
+|------+------+------+------|
+|    0 | 0.65 | 99.5 |  0.5 |
+| 14.0 | 0.65 | 70.0 | 30.0 |
+| 17.5 | 0.65 | 70.0 | 30.0 |
+| 18.5 | 0.65 | 99.5 |  0.5 |
+| 19.5 | 0.65 | 99.5 |  0.5 |
+| 24.0 |  0.7 | 99.5 |  0.5 |
+| 25.0 | 0.65 | 99.8 |  0.5 |
+
+** LC-MS/MS sample prep
+- 10 \micro{}L of sample is mixed with 990 \micro{}L of IS in 0.5 mM Perfluoroheptanoic acid and centrifuge to deproteinize.
+- 200 \micro{}L of supernatant is removed
+- 7.5 \micro{}L is injected onto an octadecylsilyl (C18) stationary phase.
+
+
+#+begin_src gnuplot :var data=data-table :file ./figures/outletmethod.png
+set title "UPLC Gradient"
+set xlabel "min"
+
+set xrange [0:26]
+
+set ylabel "percent"
+set yrange [0:100]
+
+plot data u 1:3 w lp lw 2 title 'A', \
+     data u 1:4 w lp lw 2 title 'B'
+
+#+end_src
+
+#+ATTR_LATEX: :width 0.7\textwidth
+#+RESULTS:
+[[file:./figures/outletmethod.png]]
+
+
+** Ion-Pairing Chromatography
+
+#+BEGIN_LaTeX
+\centering
+\chemfig[][scale=.70]{CF_3-{(CF_2)_4}-CF_2-[::30](=[::60]O)-[::-60]OH}
+
+\vspace{3em}
+
+\ce{AA+ + PFHA-  <=> AA+ PFHA-}
+#+END_LaTeX
+
+
+** LC- MS/MS transitions
+- ESI in positive mode
+  - MRM
+
+*** Quantified amino acids
+\scriptsize
+****                                                               :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.3
+:END:
+- phosphoserine
+- taurine
+- phosphoethanolamine
+- aspartate
+- hydroxyproline
+- threonine
+- serine
+- asparagine
+- glutamate
+- glutamine
+- sarcosine
+- aminoadipic
+- proline
+- glycine
+
+****                                                               :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.3
+:END:
+
+
+- alanine
+- citulline
+- 2-aminobutyric
+- valine
+- cystine
+- saccharopine
+- methionine
+- alloisoleucine
+- cystathionine
+- isoleucine
+- leucine
+- arginosuccinic acid
+- tyrosine
+- \beta{}-alanine
+
+****                                                               :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.3
+:END:
+
+
+
+- phenylalanine
+- aminoisobutyric
+- \gamma{}-aminobutryic
+- ethanolamine
+- hydroxylysine
+- ornithine
+- lysine
+- 1-methylhistidine
+- histidine
+- tryptophan
+- 3-methylhistidine
+- anserine
+- carnosine
+- arginine
+- s-sulfocyteine*
+
+
+
+
+** Pros and Cons of LC-MS/MS
+- As compared to FIA-MS/MS 
+*** Pros
+- 43 vs 11 amino acids quantified
+  - Leu/Ile/Allo 
+- Iso-baric compounds resolved
+  - Leucine, Isoleucine, Alloisoleucine
+*** Cons
+- Too slow for NBS
+- Manual peak integration
+
+
+** Pros and Cons of LC-MS/MS
+- As compared to AAA 
+*** Pros
+- ~ 30 min shorter analysis time
+- Analyte specificity
+  - Based on MRM rather than RT and ninhydrin reactivity
+    - gentamycin, acetaminophen, dopamine analogs
+  - Co-eluting substances cannot be separated and distinguished on a
+    standard IEC chromatogram
+    - Homocitrulline co-elutes with methionine
+    - ASA co-elutes with leucine
+    - Alloisoleucine co-elutes with cystathionine
+    - Tryptophan co-elutes with histidine
+- Long term reagent expense
+
+*** Cons
+- Upfront hardware expense
+- Manual peak integration
+- Lab developed test - not standardized
+- Changing LOQ with equipment age 
+

@@ -1,0 +1,184 @@
+#+TITLE: Mucopolysaccharidoses Overview
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+* Introduction
+** Proteoglycans 
+
+#+CAPTION[Proteoglycans]: Proteoglycans
+#+NAME: fig:pg
+#+ATTR_LaTeX: :width 0.8\textwidth
+[[file:./lsd/mps/figures/ch17f01.jpg]]
+
+** Proteoglycans function
+
+- Structural proteins of the ECM are embedded in gels formed from
+  proteoglycans.
+- Composed of glycosaminoglycans (GAGs) linked to a protien core.
+- Negatively charged GAGs bind Na^{+}
+  - draws water to create a gel 
+- Found in interstitial connective tissues such as: 
+  - synovial fluid
+  - vitreous humour, cornea
+  - arterial walls
+  - bone, cartilage
+
+** Proteoglycans synthesis
+
+#+CAPTION[Proteoglycan Synthesis]: Proteoglycan Synthesis
+#+NAME: fig:synth
+#+ATTR_LaTeX: :width 0.8\textwidth
+[[file:./lsd/mps/figures/ch3f1.jpg]]
+
+
+** Glycosaminoglycans
+
+1. heparan
+2. heparan sulfate
+3. chondroitin sulfate
+4. dermatan sulfate
+5. keratan sulfate
+6. hyaluronan (not typically protein bound)
+
+
+- GAGs are composed of repeating units of disaccharides.
+  - hexosamine and a hexose or hexuronic acid
+
+** Symbol Nomenclature for Glycans (SNFG)
+
+#+CAPTION[Glycan Nomenclature]: Glycan Nomenclature
+#+NAME: fig:snfg
+#+ATTR_LaTeX: :width 0.8\textwidth
+[[file:./lsd/mps/figures/snfg.png]]
+
+
+** Glycosaminoglycans
+
+#+CAPTION[Glycosaminoglycans]: Glycosaminoglycans
+#+NAME: fig:gags
+#+ATTR_LaTeX: :width 0.8\textwidth
+[[file:./lsd/mps/figures/ch17f02.jpg]]
+
+** GAGs
+
+*** Hyaluronan 
+- not sulfated, not protein bound
+- forms in the plasma membrane instead of the Golgi
+- connective, epithelial, and neural tissues.
+- cell proliferation and migration
+
+*** Chondroitin sulfate
+- O-xylose-linked to core proteins
+- structural component of cartilage 
+
+*** Dermatan sulfate
+- O-xylose-linked to core proteins
+- skin, blood vessels, heart valves, tendons, and lungs.O
+- coagulation, cardiovascular disease, carcinogenesis, infection, wound repair, and fibrosis
+
+** GAGs
+
+*** Heparan Sulfate
+- O-xylose-linked to core proteins
+- developmental processes,angiogenesis, blood coagulation, tumour metastasis.
+
+*** Keratan sulfate
+- KSI was isolated from corneal tissue and KSII from skeletal tissue
+  - KSI is N-linked to specific asparagine amino acids via
+    N-acetylglucosamine
+  - KSII is O-linked to specific Serine or Threonine amino acids via
+    N-acetyl galactosamine.
+  - cornea, cartilage,bone, CNS
+
+
+* Mucopolysaccharidoses
+
+** Mucopolysaccharidoses  
+- type of lysosomal storage disease
+- a group of metabolic disorders caused by the absence or
+  malfunctioning of lysosomal enzymes needed to break down
+  glycosaminoglycans.
+- can be a result of decreased expression, stability, and activity of
+  one of the eleven enzymes required for glycosaminoglycans
+  degradation
+- GAGs collect in the cells, blood and connective tissues.
+  - The result is permanent, progressive cellular damage which affects:
+    - appearance
+    - physical abilities
+    - organ and system functioning,
+    - in most cases, mental development. 
+
+** Glycosaminoglycan degradation
+
+#+CAPTION[Glycosaminoglycan Degradation]: Glycosaminoglycan Degradation
+#+NAME: fig:degradation
+#+ATTR_LaTeX: :width 0.8\textwidth
+[[file:./lsd/mps/figures/ch16f9.jpg]]
+
+
+** Mucopolysaccharidoses  
+
+\small
+| Name                    | Enzyme                   | GAG      |
+|-------------------------+--------------------------+----------|
+| MPS I (Hurler)          | \alpha-iduronidase       | HS,DS    |
+| MPS II (Hunter)         | Iduronate-2-sulfatase    | HS,DS    |
+|-------------------------+--------------------------+----------|
+| MPS IIIA (Sanfilippo A) | Heparan-N-Sulfatase      | HS       |
+| MPS IIIB (Sanfilippo B) | N-acetyl glucosaminidase | HS       |
+| MPS IIIC (Sanfilippo C) | Acetyl CoA glucosamine   | HS       |
+|                         | N-acetyltransferase      |          |
+| MPS IIID (Sanfilippo D) | N-acetyl-glucosamine     | HS       |
+|                         | 6-sulfatase              |          |
+|-------------------------+--------------------------+----------|
+| MPS IVA (Morquio A)     | N-acetylgalactosamine    | KS,CS    |
+|                         | 6-sulfatase              |          |
+| MPS IVB (Morquio B)     | \beta-galactosidase      | KS       |
+|-------------------------+--------------------------+----------|
+| MPS VI (Maroteaux-Lamy) | N-acetylgalactosamine    | DS       |
+|                         | 4-sulfatase              |          |
+| MPS VII (Sly)           | \beta-glucuronidase      | DS,HS,CS |
+| MPS IX                  | hyaluronidase            | HA       |
+| MSD (Austin)            | formylglycine-generating | HS,DS    |
+|                         | enzyme                   |          |
+
+  
+
+** Classification
+- Presenting as a dysmorphic syndrome
+  - MPS I (Hurler)
+  - MPS II (Hunter)
+  - MPS VI (Maroteaux-Lamy)
+- Presenting with learning difficulties, behavioral disturbances and dementia
+  - MPS III (Sanfilippo)
+- Presenting with severe bone dysplasia
+  - MPS IV (Morquio)
+- Others rare
+  - MPS VII (Sly)
+  - MPS IX (Natowicz)
+
+
+
+** Dermatan sulfate degradation
+#+CAPTION[DS Degradation]: DS Degradation
+#+NAME: fig:dse
+#+ATTR_LaTeX: :width 0.6\textwidth
+[[file:./lsd/mps/figures/ds_degradation_disorders.png]]
+
+
+** Keratan sulfate degradation
+
+#+CAPTION[KS Degradation]: Degradation
+#+NAME: fig:kse
+#+ATTR_LaTeX: :width 0.6\textwidth
+[[file:./lsd/mps/figures/ks_degradation_disorders.png]]
+
+
+** Heparan degradation
+
+#+CAPTION[HS Degradation]: Heparan Degradation
+#+NAME: fig:hse
+#+ATTR_LaTeX: :width 0.5\textwidth
+[[file:./lsd/mps/figures/hs_degradation_disorders.png]]
+
+

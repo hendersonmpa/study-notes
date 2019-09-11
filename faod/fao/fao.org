@@ -1,0 +1,238 @@
+#+TITLE: Fatty Acid Oxidation
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+* Introduction
+** Fatty Acids
+- usually straight aliphatic chains with a methyl group at one end
+  (\omega-carbon) and a carboxyl group and the other end.
+
+#+BEGIN_EXPORT LaTeX
+\definesubmol{x}{-[1,.6]-[7,.6]}
+\definesubmol{a}{-[1,.6]\beta{}-[7,.6]\alpha{}}
+\definesubmol{y}{!x!x!x!x!x!x!x!x}
+\definesubmol{b}{!x!x!x!x!x!x!x!a}
+%\chemfig{H{_3}C!y-[1]C(=[1]O)-[7]O{^-}}
+\chemname{\chemfig{\omega{}!b-[1]C(=[1]O)-[7]O{^-}}}{\small stearic acid 18:0}
+#+END_EXPORT
+
+** Fatty Acid Nomenclature
+- Non-systematic historical names most commonly used.
+  - Palmitic acid :: discovered in palm oil
+  - Stearic acid :: from the Greek word "stear", which means tallow.
+  - Oleic acid :: oleic means related to, or derived from, olive oil  
+- The position of a double bond is designated by the number of the carbon in the double bond that is closest to the carboxyl group
+
+
+#+BEGIN_EXPORT LaTeX
+\definesubmol{x}{-[1,.6]-[7,.6]}
+\definesubmol{y}{-[7,.6]-[1,.6]}
+\definesubmol{d}{=[0,.6](-[7,0.25,,,draw=none]\scriptstyle\color{red}9)-[1,.6]}
+\definesubmol{e}{!x!x!x!x!d!y!y!y}
+\chemname{\chemfig{\omega{}(-[3,0.25,,,draw=none]\scriptstyle\color{red}18)!e(-[2,0.25,,,draw=none]\scriptstyle\color{red}2)-[7,.6]COOH}}{\small Oleic acid 18:1,\Delta{}$^9$}
+#+END_EXPORT
+
+- 18 carbons
+- 1 double bond
+- \Delta^9, double bond between 9th and 10th carbon.
+- Also 18:1(9)
+- Distance from \omega methyl group, \omega-9
+
+** Fatty Acid Chain Length
+
+- Very long-chain :: > C20
+- Long-chain :: C12-C20
+- Medium-chain :: C6-C12
+- Short-chain :: C4
+
+** Fatty Acids as an Energy Source
+
+- Long chain fatty acids released from adipose tissue triacylglycerol
+  stores during periods of increased fuel demand or fasting.
+- \downarrow insulin, \uparrow glucagon \to \uparrow lipolysis
+  - dietary lipids
+  - triacylglycerols synthesis in the liver
+  - palmitate (C16:0), oleate (C18:1, \Delta^9) and stearate (C18:0)
+- FA transported to tissue bound to albumin
+- Energy derived from oxidation of FA to acetyl-CoA in \beta-oxidation.
+- The acetyl-CoA is oxidized in the TCA cycle or converted to ketone bodies in the liver.
+
+* \beta-oxidation
+** Overview of Mitochondrial Long-Chain Fatty Acid Metabolism
+
+#+CAPTION[]:\beta-oxidation
+#+NAME: fig:bo
+#+ATTR_LaTeX: :width 0.6\textwidth
+[[./faod/fao/figures/23_1.png]]
+
+1. Membrane transport
+   - FaBP
+2. Activation
+   - Coenzyme A
+3. Carnitine
+4. \beta-oxidation
+5. Ketone bodies
+
+** Activation of Fatty Acids
+#+CAPTION[]:FA activation
+#+NAME: fig:activation
+#+ATTR_LaTeX: :width 0.6\textwidth
+[[./faod/fao/figures/23_2.png]]
+
+** Transport of Long-Chain Fatty Acids into Mitochondria
+#+CAPTION[]: Transport of Long-Chain Fatty Acids into Mitochondria
+#+NAME: fig:transport
+#+ATTR_LaTeX: :width 0.6\textwidth
+[[./faod/fao/figures/23_5.png]]
+
+  - chain length specificity
+  - Organ and organelle specificity
+    - Acyl-CoA synthetases
+    - Acyltransferases
+    - Acyl-CoA dehydrogenases
+
+
+** Chain Length Specificity
+
+**** Acyl-CoA Synthetases
+
+| Enzyme     | Length | location             |
+|------------+--------+----------------------|
+| V.L. chain |  14-26 | pex                  |
+| L. chain   |  12-20 | ER, mito, pex        |
+| M. chain   |   6-12 | mito - kidney, liver |
+| acetyl     |    2-4 | cyto, ?mito?         |
+
+
+**** Acyl-CoA Dehydrogenases
+| Enzyme | Length | location |
+|--------+--------+----------|
+| VLCAD  |  14-20 | IMM      |
+| LCAD   |  12-18 | MM       |
+| MCAD   |   4-12 | MM       |
+| SCAD   |    2-4 | MM       |
+
+
+**** Other
+| Enzyme                            | Length | comment                               |
+|-----------------------------------+--------+---------------------------------------|
+| Enoyl-CoA hydratase,SC            |     >4 | \downarrow activity w \uparrow length |
+| Hydroxyacyl-CoA dehydrogenase, SC |   4-16 | \downarrow activity w \uparrow length |
+| Acetoacetyl-CoA thiolase          |      4 | Acetoacetyl-CoA specific              |
+| Trifunctional protein             |  12-16 | \uparrow activity w \uparrow length   |
+
+
+** \beta-oxidation of Long-Chain Fatty Acids
+#+CAPTION[]:\beta-oxidation of Long-Chain Fatty Acids
+#+NAME: fig:bolc
+#+ATTR_LaTeX: :width 0.6\textwidth
+[[./faod/fao/figures/23_7.png]]
+
+** Oxidation of Unsaturated Fatty Acids
+
+#+CAPTION[]:Oxidation of Unsaturated Fatty Acids
+#+NAME: fig:bou 
+#+ATTR_LaTeX: :width 0.6\textwidth
+[[./faod/fao/figures/23_9.png]]
+
+- isomerase and reductase change location of the double bonds
+  - correct configuration for \Beta-oxidation
+** Odd-Chain Length Fatty Acids
+#+CAPTION[]:Odd-Chain Length Fatty Acids
+#+NAME: fig:ocfa
+#+ATTR_LaTeX: :width 0.6\textwidth
+[[./faod/fao/figures/23_10.png]]
+
+** Oxidation of Medium-Chain Length Fatty Acids
+
+- \uparrow solubility
+- not stored in adipose triacylglycerol
+- gut \to portal vein \to liver
+- \to mito matrix via the monocarboxylate transporter
+- activated in the mito matrix
+- \beta-oxidation
+
+- There is a general consensus that short-chain and medium-chain fatty
+  acids (C4 to C12) diffuse freely across plasma and mitochondrial
+  membranes" 
+- Butyrate is taken up by enterocytes, presumably by means of the
+  monocarboxylate transporter 1 (MCT-1) and the sodium-coupled
+  monocarboxylate transporter 1 (SMCT-1) 
+
+** Monocarboxylate Transporter 1
+- Out of 14 known mammalian MCTs, six isoforms have been functionally
+  characterized to transport monocarboxylates and short chain fatty
+  acids (MCT1-4), thyroid hormones (MCT8-10) and aromatic amino
+  acids (MCT10)
+
+- MCT1 mediates the movement of lactate and pyruvate across cell
+  membranes.
+  - erythrocytes, muscle, intestine, liver and kidney
+
+| Phenotype                                         | Inheritance |
+|---------------------------------------------------+-------------|
+| Erythrocyte lactate transporter defect            | AD          |
+| Hyperinsulinemic hypoglycemia, familial, 7[fn:hi] | AD          |
+| Monocarboxylate transporter 1 deficiency          | AR, AD      |
+|                                                   |             |
+  
+[fn:hi] promoter-activating mutations in patients with hyperinsulinemic
+hypoglycemia induce SLC16A1 expression in beta cells, where this
+gene is not usually transcribed, permitting pyruvate uptake and
+pyruvate-stimulated insulin release despite ensuing hypoglycemia
+
+
+** Regulation of \beta-oxidation
+#+CAPTION[]:Regulation of \beta-oxidation
+#+NAME: fig:reg
+#+ATTR_LaTeX: :width 0.6\textwidth
+[[./faod/fao/figures/23_12.png]]
+
+1. Lipolysis or gut
+2. Regulation of CPT1 activity
+3. Re-oxidation of NAD^{+} and FAD^{2+}
+
+* Alternative Routes of Fatty Acid Oxidation
+
+** Peroxisomal Oxidation of Fatty Acids 
+
+#+CAPTION[]:Peroxisomal Oxidation of Fatty Acids 
+#+NAME: fig:perox
+#+ATTR_LaTeX: :width 0.6\textwidth
+[[./faod/fao/figures/23_14.png]]
+
+- very long chain FA C24-26 mandatory
+- long chain optional
+- carnitine not required for entry into peroxisomes
+
+** First Step of Oxidation of Fatty Acids 
+#+CAPTION[]:First Step of Oxidation of Fatty Acids 
+#+NAME: fig:first
+#+ATTR_LaTeX: :width 0.3\textwidth
+[[file:./faod/fao/figures/23_13.png]]
+
+** Long-Chain Branched-Chain Fatty Acids
+
+#+CAPTION[]:Long-Chain Branched-Chain Fatty Acids
+#+NAME: fig:lcfa
+#+ATTR_LaTeX: :width 0.6\textwidth
+[[./faod/fao/figures/ff22.png]]
+
+- \alpha-oxidation of phytanic acid takes place in peroxisomes.
+- Pristanic acid can then undergo \beta-oxidation.
+   - Propionyl-CoA is released when the \alpha carbon is substituted
+
+** \omega-Oxidation of Fatty Acids
+
+#+CAPTION[]:\omega-Oxidation of Fatty Acids
+#+NAME: fig:omego
+#+ATTR_LaTeX: :width 0.3\textwidth
+[[./faod/fao/figures/23_16.png]]
+
+- occurs in the ER
+- the \omega-carbon is oxidized to an alcohol
+- dehydrogenated to a carboxylic acid \to dicarboxylic acid
+  - excreted in urine as medium chain dicarboxylic acids
+- xenobiotic compounds w FA like structure
+
+

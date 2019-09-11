@@ -1,0 +1,37 @@
+#+TITLE: Urea Cycle
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+:PROPERTIES:
+#+DRAWERS: PROPERTIES
+#+LaTeX_CLASS: koma-article
+#+OPTIONS: H:2 toc:t num:t ^:t
+#+PROPERTY: header-args:R :session *R*
+#+PROPERTY: header-args :cache no
+#+PROPERTY: header-args :tangle yes
+#+STARTUP: overview
+#+STARTUP: indent
+#+latex_header: \hypersetup{colorlinks,linkcolor=black,urlcolor=blue}
+#+LaTeX_header: \usepackage{textpos}
+#+LaTeX_header: \usepackage{textgreek}
+#+LaTeX_header: \usepackage[version=4]{mhchem}
+#+LaTeX_header: \usepackage{chemfig}
+#+LaTeX_header: \usepackage{siunitx}
+#+LaTeX_header: \usepackage{gensymb}
+#+LaTex_HEADER: \usepackage[usenames,dvipsnames]{xcolor}
+#+LaTeX_HEADER: \usepackage[T1]{fontenc}
+#+LaTeX_HEADER: \usepackage{lmodern}
+#+LaTeX_HEADER: \usepackage{verbatim}
+#+LaTeX_HEADER: \usepackage{tikz}
+#+LaTeX_HEADER: \usepackage{wasysym}
+#+LaTeX_HEADER: \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
+:END:
+
+* Ammonia
+#+INCLUDE: "./urea_cycle/ammonia/ammonia.org" :lines "4-"
+
+* Diagnostic Testing for OTC Deficiency
+#+INCLUDE: "./urea_cycle/otc_diag/otc_diag.org" :lines "4-"
+
+* NBS for UCD
+#+INCLUDE: "./urea_cycle/ucd_nbs/ucd_nbs.org" :lines "4-"

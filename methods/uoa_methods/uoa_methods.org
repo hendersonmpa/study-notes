@@ -1,0 +1,231 @@
+#+TITLE: Urine Organic Acid Methods
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+:PROPERTIES:
+#+DRAWERS: PROPERTIES
+#+LaTeX_CLASS: beamer
+#+LaTeX_CLASS_OPTIONS: [presentation, smaller]
+# #+BEAMER_THEME: Ilmenau [height=20pt]
+# #+BEAMER_THEME: Szeged  [height=20pt]
+#+BEAMER_THEME: Boadilla [height=20pt]
+#+BEAMER_COLOR_THEME: [RGB={170,160,80}]{structure}
+#+BEAMER_FRAME_LEVEL: 2
+#+COLUMNS: %40ITEM %10BEAMER_env(Env) %9BEAMER_envargs(Env Args) %4BEAMER_col(Col) %10BEAMER_extra(Extra)
+#+OPTIONS: H:2 toc:t
+#+STARTUP: beamer
+#+STARTUP: overview
+#+STARTUP: hidestars
+#+STARTUP: indent
+# #+BEAMER_HEADER: \subtitle{Document subtitle}
+#+BEAMER_HEADER: \institute[NSO]{Newborn Screening Ontario}
+#+BEAMER_HEADER: \titlegraphic{\includegraphics[height=1cm,keepaspectratio]{../logos/NSO_logo.pdf}\includegraphics[height=1cm,keepaspectratio]{../logos/cheo-logo.png} \includegraphics[height=1cm,keepaspectratio]{../logos/UOlogoBW.eps}}
+#+latex_header: \hypersetup{colorlinks,linkcolor=gray,urlcolor=blue}
+#+LaTeX_header: \usepackage{textpos}
+#+LaTeX_header: \usepackage{textgreek}
+#+LaTeX_header: \usepackage[version=4]{mhchem}
+#+LaTeX_header: \usepackage{chemfig}
+#+LaTeX_header: \usepackage{siunitx}
+#+LaTeX_header: \usepackage{gensymb}
+#+LaTex_HEADER: \usepackage[usenames,dvipsnames]{xcolor}
+#+LaTeX_HEADER: \usepackage[T1]{fontenc}
+#+LaTeX_HEADER: \usepackage{lmodern}
+#+LaTeX_HEADER: \usepackage{verbatim}
+#+LaTeX_HEADER: \usepackage{tikz}
+#+LaTeX_HEADER: \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
+#+LaTeX_HEADER: \AtBeginSection[]{\begin{frame}\tableofcontents[currentsection] \end{frame}}
+:END:
+
+#+BEGIN_LaTeX
+\logo{\includegraphics[width=1cm,height=1cm,keepaspectratio]{../logos/NSO_logo_small.pdf}}
+
+\vspace{220pt}
+\beamertemplatenavigationsymbolsempty
+\setbeamertemplate{caption}[numbered]
+\setbeamerfont{caption}{size=\tiny}
+% \addtobeamertemplate{frametitle}{}{%
+% \begin{textblock*}{100mm}(.85\textwidth,-1cm)
+% \includegraphics[height=1cm,width=2cm]{cat}
+% \end{textblock*}}
+
+
+\tikzstyle{chemical} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=none]
+\tikzstyle{hardware} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=gray!30]
+\tikzstyle{ms} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=orange, fill=none]
+\tikzstyle{msw} = [rectangle, rounded corners, text width=7em, minimum height=1em,text centered, draw=orange, fill=none]
+\tikzstyle{label} = [rectangle,text width=8em, minimum height=1em, text centered, draw=none, fill=none]
+\tikzstyle{hl} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=red!30]
+\tikzstyle{box} = [rectangle, rounded corners, text width=5em, minimum height=5em,text centered, draw=black, fill=none]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+\tikzstyle{hl-arrow} = [ultra thick,->,>=stealth,draw=red]
+
+
+#+END_LaTeX
+
+* Background
+** What are urine organic acids?
+- Water soluble compounds containing \ge one carboxyl group(s) and
+  nonamino functional groups
+
+#+BEGIN_LaTeX
+\centering
+\chemfig{X-C(-[2]X)(-[6]X)-C(-[2]X)(-[6]X)-C(-[7]OH)=[1]O}
+#+END_LaTeX
+
+*** Acylglycines
+- Acylglycines are also detected in UOA analysis
+  - conjugation of acyl-CoA species to glycine
+  - catalysed by glycine N-acylase
+
+** Nomenclature
+
+| Length | Monocarboxylic acid   | Dicarboxylic acid |
+|--------+-----------------------+-------------------|
+| C2     | Acetic                | Oxalic            |
+| C3     | Propionic             | Malonic           |
+| C4     | Butyric               | Succinic          |
+|        | Isobutyric            |                   |
+| C5     | Valeric               | Glutaric          |
+|        | Isovaleric            |                   |
+|        | 2-Methylbutyric       |                   |
+| C6     | Hexanoic (caprioc)    | Adipic            |
+| C7     | Heptanoic (enanthic)  | Pimelic           |
+| C8     | Octanoic (caprylic)   | Suberic           |
+| C9     | Nonanoic (pelargonic) | Azelaic           |
+| C10    | Decanoic (capric)     | Sebacic           |
+
+
+** Functional Groups
+#+BEGIN_LaTeX
+\centering
+\chemfig{X-C(-[2]X)(-[6]X)-C(-[2]X)(-[6]X)-C(-[7]OH)=[1]O}
+#+END_LaTeX
+
+| Functional group | Formula            |
+|------------------+--------------------|
+| hydrogen         | -H                 |
+| keto             | .= O               |
+| hydroxyl         | -OH                |
+| carboxyl         | -COOH              |
+| side chain       | -(CH$_2$)$_n$      |
+
+** Side Chains
+#+BEGIN_LaTeX
+\centering
+\chemfig{X-C(-[2]X)(-[6]X)-C(-[2]X)(-[6]X)-C(-[7]OH)=[1]O}
+#+END_LaTeX
+
+| Side chain | Structure                      |
+|------------+--------------------------------|
+| Methyl     | \chemfig{CH_3-}                |
+| Ethyl      | \chemfig{CH_3-CH_2-}           |
+| Propyl     | \chemfig{CH_3-CH_2-CH_2-}      |
+| Butyl      | \chemfig{CH_3-CH_2-CH_2-CH_2-} |
+
+
+** Where do they come from?
+*** Endogenous Sources
+- Originate from the intermediate metabolism of all major groups of
+  organic cellular components
+  - amino acids
+  - lipids
+  - nucleotides
+  - carbohydrates
+  - nucleic acids
+  - steroids
+
+*** Exogenous
+- food
+- environment
+- medications
+
+** Why are they in urine?
+
+** Urine organic acids detected in health
+
+  - Tricarboxylica acid cycle acids
+    - citric
+  - hydroxyaliphatic acids
+    - 3-hydroxybutyric
+  - aliphatic keto acids
+    - pyrvic
+  - aliphatic acids
+    - oxalic
+  - aldonic and deoxyaldonic acids (sugar acids)
+    -  
+  - aromatic acids
+    - hippuric
+  - 
+    - 
+
+** Abnormal Urine Organic acids profiles
+
+- Elevated concentration of normal metabolites
+  - fumaric acid in fumarase deficiency
+  - adipic, suberic, and sebacic acids in MCADD
+  - ketones in fasting
+    - 3-hydroxybutyric
+    - acetoacetic
+
+- Pathological metabolites
+  - succinylacetone, methylcitric acid
+
+- Food, medications, environment
+  - ethosuximide
+  - adipic acid
+  - cresol
+  - 2-furaldehyde
+
+
+* Urine Organic Acids by GC-MS
+
+** Oximation
+- Oximated with 10% hydroxylamine-HCL
+  - avoids multiple TMS species due to keto-enol tautomerism
+
+#+BEGIN_LaTeX
+\centering
+\schemedebug{false}
+\schemestart
+\chemname{\chemfig[][scale=.5]{R=[1](-[2]OH)-[7]R}}{\tiny enol}
+\arrow{<=>}
+\chemname{\chemfig[][scale=.5]{R-[1](=[2]O)-[7]R}}{\tiny ketone}
+\+
+\chemname{\chemfig[][scale=.5]{N(<:[::-160]H)(<[::-120]H)-O-[1]H}}{\tiny hydroxylamine}
+\arrow{->}
+\chemname{\chemfig[][scale=.5]{R-[1](=[2]N-[1]OH)-[7]R}}{\tiny ketoxime}
+\schemestop
+#+END_LaTeX
+
+
+** BSTFA Derivatisation
+- Acidified and extracted twice with ethyl ether 
+- Derivatised with BSTFA (N,O-bis(trimethylsilyl)trifluoroacetamide) [fn:stalling]
+  - forms organic acid TMS esters
+
+#+BEGIN_LaTeX
+\centering
+\schemedebug{false}
+\schemestart
+\chemname{\chemfig[][scale=.5]{F{_3}C-C(-[1]OTMS)=[7]NTMS}}{\tiny BSTFA}
+\+
+\chemname{\chemfig[][scale=.5]{R-C(=[1]O)-[7]OH}}{\tiny carboxylic acid}
+\arrow{->}
+\chemname{\chemfig[][scale=.5]{R-C(=[1]O)-[7]OTMS}}{\tiny TMS ester}
+\+
+\chemname{\chemfig[][scale=.5]{F{_3}C-C(=[1]O)-[7]NTMS}}{\tiny TMS amide}
+\schemestop
+#+END_LaTeX
+
+
+[fn:stalling] Stalling DL, Gehrke CW, Zumwalt RW. A new silylation
+reagent for amino acids bis(trimethylsilyl)trifluoroacetamide
+(BSTFA). Biochemical and Biophysical Research Communications. 1968 May
+23;31(4):616-22.
+
+
+** Gas Chromatography
+
+** Mass-spectroscopy
+
+** Reporting

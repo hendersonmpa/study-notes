@@ -1,0 +1,215 @@
+#+TITLE: Sphingolipid Degradation: Gaucher
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+* Introduction
+
+** Gaucher
+- Caused by accumulation of glucosylceramide (glucocerebroside).
+- Defect in \beta-glucocerebrosidase
+  - Extremely rare SAP-C deficiency
+- Most common LSD
+  - 1:40,000 to 1:50,000 live births
+- Three types:
+  - Type 1 :: No neurological symptoms
+  - Type 2 :: Acute neuronopathic
+  - Type 3 :: Sub-acute or chronic neuronopathic
+- Type 1 disease is common in Western Europe, the Americas and Israel
+- In many other countries neuronopathic forms of Gaucher disease predominate
+
+** Sphingolipid degradation
+
+#+CAPTION[]:Sphingolipid degradation
+#+NAME: fig:sld
+#+ATTR_LaTeX: :width 0.6\textwidth
+[[file:./lsd/gaucher/figures/sl_degradation.png]]
+
+** Glucocerebroside: the Gaucher lipid
+
+#+CAPTION[]:Glucocerebroside
+#+NAME: fig:gluc 
+#+ATTR_LaTeX: :width 0.5\textwidth
+[[file:./lsd/gaucher/figures/glucocerebroside.png]]
+
+** Glucocerebrosidase
+
+
+#+CAPTION[]:\beta-glucocerebrosidase
+#+NAME: fig:sidase
+#+ATTR_LaTeX: :width 0.5\textwidth
+[[file:./lsd/gaucher/figures/glucocerebrosidase.png]]
+
+- Located in the lumen of lysosomes
+- LIMP-2 is responsible for mannose 6-phosphate receptor independent
+  lysosomal targeting of \beta-glucocerebrosidase
+
+** Genetics
+- Autosomal recessive, GBA gene 
+- Most of the >300 disease alleles in Gaucher disease are missense
+  mutations
+  - result in \beta-glucocerebrosidase with decreased catalytic
+    function and/or stability.
+- A variety of complex mutations/rearrangements also causes Gaucher
+  disease:
+  - missense mutations, frame shift mutations, splicing mutations,
+    deletions, gene fusions with the pseudogene, examples of gene
+    conversions, and total deletions.
+- genotype/phenotype correlations exist for:
+  - type 1 disease (N370S)
+  - types 2 and 3 (L444P)
+- within these categories there is variable penetrance and
+  expressivity between individuals and ethnic groups.
+
+
+* Clinical Findings
+** Clinical Presentation
+
+#+CAPTION[]: Gaucher Clinical Variants
+#+NAME: tab:variants
+|                        | Type 1             | Type 2     | Type 3           |
+|------------------------+--------------------+------------+------------------|
+| Onset                  | Infant/Child/Adult | 3-6 months | Childhood        |
+| Neurodegeneration      | Absent             | =++++=     | =++= \to =++++=  |
+| Survival               | 6 - 80+ years      | < 2 years  | 2nd - 4th decade |
+| Splenomegaly           | =++++=             | =++=       | =++=             |
+| Hepatomegaly           | =++=               | =++=       | =+=              |
+| Fractures, bone crises | =+=                | -          | =+=              |
+| Enrichment             | Ashkenazi          | None       | Norrbottnian     |
+|                        |                    |            | Swedish          |
+
+** Clinical Presentation
+
+#+CAPTION[]: Gaucher Clinical Variants
+#+NAME: fig:variants
+#+ATTR_LaTeX: :width \textwidth
+[[file:./lsd/gaucher/figures/variants.png]]
+
+= * Parkinson Disease, ** Myoclonic Seizures =
+** Gaucher type 1
+- Clinical manifestations of Gaucher type 1 are linked to macrophages
+  engorged with glucosylceramide.
+
+- An undefined mechanism results in:
+  - enlargement and dysfunction of the liver and spleen
+  - displacement of normal bone marrow by storage cells
+  - osteoclastic-osteoblastic imbalances
+    - subsequent damage leading to bone infarctions and fractures.
+  - Occasionally, involvement of other organs (e.g. lung) contributes
+    to the overall clinical picture.
+  - Hypermetabolism and cachexia can be present
+  - Thrombocytopenia is the most common peripheral blood abnormality 
+
+- Neurological manifestations include:
+  - a high incidence of Parkinsonism
+  - spinal cord compression
+  - nerve root compression
+  - polyneuropathy.
+
+** Gaucher type 2
+- Type 2 is the rarer of the two classic neuronopathic variants1
+- early infantile onset of acute neuronopathic disease
+- progressing rapidly to death before age 2 years
+
+  - retroflexion of the neck
+  - developmental delay, poor weight gain,
+  - protuberant abdomen due to hepatosplenomegaly
+  - Bulbar signs are prominent including:
+    - convergent squint,
+    - ocular paresis,
+    - trismus,
+    - dysphagia
+
+- The perinatal-lethal subtype is the most severe form of Gaucher
+  disease.
+
+  - leads to death in utero or within hours to days after
+    birth
+
+** Gaucher type 3
+- type 3 disease has a later onset, with slower progression of
+  neurologic manifestations and variable degrees of systemic
+  involvement.
+- phenotype in type 3 Gaucher disease is considerably more
+  heterogeneous than that in type 2.
+
+- onset of symptoms occurs later, and neurologic involvement
+  progresses more slowly
+
+- includes abnormalities in:
+  - eye movements
+  - seizures
+  - intellectual deterioration.
+
+- The same systemic manifestations occur as in type 1 disease.
+  - many type 3 patients may be incorrectly classified as type 1 when
+    first seen
+
+** Gaucher type 3
+*** Gaucher type 3a
+- progressive myoclonus and dementia
+
+*** Gaucher type 3b
+- horizontal supranuclear gaze palsy without other major
+  neurologic signs
+- aggressive systemic disease
+
+*** Gaucher type 3c
+- present in late childhood or later
+- only mild visceral signs of classic Gaucher disease
+- distinguishing clinical signs include:
+  - impaired horizontal ocular saccades
+  - corneal opacities
+  - cardiac/aortic valvular calcification
+
+* Laboratory Investigations
+** Gaucher Cells
+
+#+CAPTION[]:Gaucher Cells
+#+NAME: fig:cells
+#+ATTR_LaTeX: :width 0.8\textwidth
+[[file:./lsd/gaucher/figures/Gaucher_Cells_with_Fibrillar_Appearing_Cytoplasm.jpg]]
+
+** Biochemistry
+*** Enzyme Assay
+- assay of the \beta-glucocerebrosidase activity in any nucleated cell
+  - the enzyme does not normally occur in plasma/serum or erythrocytes
+- Glucocerebrosidase activity in:
+  - peripheral blood lymphocytes/leukocytes
+  - dried blood spots
+- 4MU-\beta-D--glucopyranoside substrate
+
+*** Monitoring
+- chitotriosidase, chemokine CLL18/PARK, glucosylsphingosine
+
+** Molecular
+
+- GBA gene sequencing, >300 disease alleles
+- Patients homozygous for the L444P mutation have severe visceral
+  disease, highly predisposed to the development of CNS disease.
+- The N370S mutant enzyme appears to preclude the development of classical CNS disease of Gaucher disease.
+- The D409H mutation manifests a characteristic phenotype:
+  - including cardiac calcification, oculomotor apraxia, and corneal opacities.
+
+* Treatment
+** Bone marrow transplantation
+  - Curative for Type 1
+    - Suggests hematopoietic gene therapy
+  - High risk of mortality
+** ERT
+- treats: hematological, visceral, and bony disease
+  - not cerebral disease
+- macrophages have a mannose receptor
+  - glucocerebrosidase glycoprotein modified to expose terminal mannose
+- 1991, Ceredase (algucerase) - human placenta
+- 1994, Cerezyme (imiglucerase) - CHO cells
+- 2010, VPRIV (velaglucerase) - human fibroblasts
+
+** Substrate reduction therapy
+- ceramide glucoyltransferase inhibitor
+  - N-butyldeoxynojirimycin (miglustate)
+  - eliglustat tartrate
+- Chaperone to stabilize - missense mutation
+  - isofagomine
+
+
+

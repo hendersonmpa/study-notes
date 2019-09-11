@@ -1,0 +1,190 @@
+#+TITLE: Mucolipidosis
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+
+* Introduction
+** Mucolipidosis
+- The mucolipidoses derived their name from the similarity in
+  presentation to both mucopolysaccharidoses and sphingolipidoses.
+
+- A biochemical understanding of these conditions has changed how they
+  are classified.
+- Four conditions (I, II, III, and IV) have been labeled as
+  mucolipidoses:
+  - ML I: sialidosis - a glycoproteinosis
+  - ML II: I-cell - a glycoproteinosis
+  - ML III: pseudo-Hurler polydystropy - a glycoproteinosis
+  - ML IV: ganglioside sialidase deficiency - gangliosidosis
+
+
+** ML II & III : Nomenclature
+
+|                            | Current | Proposed          |
+|----------------------------+---------+-------------------|
+| I-cell                     | ML II   | ML II alpha/beta  |
+| Pseudo-Hurler polydystropy | ML IIIA | ML III alpha/beta |
+| ML III variant             | ML IIIC | ML III gamma      |
+
+** Mucolipidosis
+
+- ML II and ML III result from a deficiency of the enzyme
+  N-acetylglucosamine-1-phosphotransferase
+- phosphorylates target carbohydrate residues on N-linked
+  glycoproteins
+- Without this phosphorylation, the glycoproteins are not destined for
+  lysosomes, and are secreted from the cell.
+
+* ML II & III 
+** Protein trafficking to lysosomes
+
+#+CAPTION[Protein trafficking to lysosomes]:Protein trafficking to lysosomes
+#+NAME: fig:traffic
+#+ATTR_LaTeX: :width 0.8\textwidth
+[[file:./lsd/mucolipidosis/figures/lysosome_traffic.jpg]]
+
+- ML II and III are due to incorrect protein trafficking to lysosomes
+
+** ML II & III : Biochemical Defect
+
+#+CAPTION[N-acetylglucosamine (GlcNAc) phosphotransferase]:N-acetylglucosamine (GlcNAc) phosphotransferase
+#+NAME: fig:biochem
+#+ATTR_LaTeX: :width 0.8\textwidth
+[[file:./lsd/mucolipidosis/figures/ml_defect.png]]
+
+** ML II & III Biochemical Defect
+- Characterized by deficient activity of a large number of lysosomal enzymes:
+  - \beta-glucuronidase
+  - \beta-galactosidase
+  - \alpha-mannosidase
+  - \alpha-fucosidase
+  - N-acetyl-\beta-d-galactosiaminidase
+  - arylsulfatase-A
+  - glycosylasparaginase
+- The activities of the same lysosomal enzymes are high in the medium
+  surrounding cultured I-cell fibroblasts
+
+
+** ML II & III : I-cell
+
+#+CAPTION[]:I cell in fibroblast culture
+#+NAME: fig:icell
+#+ATTR_LaTeX: :height 0.65\textheight
+[[file:./lsd/mucolipidosis/figures/icell.png]]
+
+- oligosaccharides, lipids, and glycosaminoglycan inclusions in lysosomes
+
+** ML II & III : Clinical 
+
+*** ML II
+- Low IQ
+- Short, max 75 cm by 2 y
+- early coarse features
+- gingival hypertrophy
+- limited joint movement
+- dysostosis multiplex
+- minimal to no hepatomegaly and splenomegaly
+
+*** ML III
+- The pathology of ML-III is not as well documented as that of ML-II
+- Available data indicate the presence of similar but less severe
+  findings.
+
+- ML-II and ML-III can be distinguished on clinical criteria and on progression of the disease
+
+** ML II & III :Genetics
+
+- Autosomal recessive
+- The GlcNAc-PT has been purified and characterized as a hexameric
+  (\alpha2\beta2\gamma2) protein,
+  - a 540-KDa complex of disulfide linked homodimers
+- the \alpha and \beta subunits are encoded as a single \alpha\beta polypeptide by the GNPTAB gene
+  - subunits acquire molecular maturity following post-translational proteolysis of the initial gene product
+  - \alpha\beta is the catalytic center in the GlcNAc-PT enzyme complex.
+- Mutations in the GNPTAB gene cause ML II and ML IIIA
+- Sequencing of the GNPTAB and GNPTG coding regions detects
+  disease-causing mutations in over 95% of patients.
+- Mutations in the GNPTG gene that encodes the \gamma subunit were
+  first identified in a large Druze family in the Middle-East with a
+  variant form of ML III, termed ML IIIC.
+
+
+** ML II & III : Labs
+
+- Diagnosis is generally made by assay of lysosomal enzymes
+  - in cultured fibroblasts there is a distinct deficiency
+  - in the plasma or serum where there is as much as a 10- to 20-fold increase in enzyme activity
+- Assay of fibroblasts or plasma for glycosylasparaginase has been
+  reported as useful for the diagnosis of I-cell disease.
+- The diagnosis can also be made by assay of the GlcNAc
+  phosphotransferase in leukocytes or cultured fibroblasts
+
+
+- Treatment is supportive
+
+* Sialidosis and ML IV
+
+j** Sialidosis (ML I)
+- Sialidosis is an autosomal recessive lysosomal storage disorder.
+
+- *Type I sialidosis*, the milder form of this disorder, is
+  characterized by the development of ocular cherry-red spots and
+  generalized myoclonus in the second or third decade of life.
+- Additional findings, reported in more than 50 percent of patients,
+  include seizures, hyperreflexia, and ataxia.
+
+- *Type II sialidosis* is distinguished from this milder form by the
+  early onset of a progressive, rather severe,
+  mucopolysaccharidosis-like phenotype with visceromegaly, dysostosis
+  multiplex, and mental retardation.
+
+** Sialidosis (ML I)
+
+- Both forms of the disease result from deficiency of the
+  neuraminidase (NEU1) that normally cleaves terminal \alpha2 \to 3 and
+  \alpha2 \to 6 sialyl linkages of several oligosaccharides and glycopeptides
+
+- found in increased amounts in tissues and fluids of affected patients.
+
+- Test urine samples for both oligosaccharides and glycopeptides
+
+- definitive diagnosis - measurement of sialidase activity in fresh tissue
+  samples, i.e., fibroblasts, cultured amniotic fluid cells, or white
+  blood cells.
+
+- supportive treatment
+
+** ML IV
+
+- autosomal recessive inborn error of intracellular membrane trafficking
+  - associated with lysosomal inclusions in a variety of cell types.
+  - mucolipin-1, a transmembrane protein of the transient receptor
+    potential channel family, causes MLIV.
+  - it is unclear why a deficiency or malfunction of mucolipin-1 causes MLIV.
+
+- Clinical presentation includes:
+  - severe motor developmental delay
+  - iron deficiency anemia
+  - corneal clouding
+  - progressive retinal degeneration
+  - achlorhydria.
+
+- Notably absent are dysplastic bone abnormalities and enlargement of
+  organs such as the liver and the spleen.
+
+- blood gastrin levels should be measured, and elevated levels in
+  this setting are virtually diagnostic of MLIV
+
+** ML IV
+
+- MLIV is pan-ethnic, but most patients are of Ashkenazi-Jewish
+  ancestry, in which the most prevalent mutation occurs at a frequency
+  of approximately 1/100.
+
+- g.5534A \to G and g.511-6944del, are present in 95% of all
+  Ashkenazi-Jewish patients. Population-based screening for these
+  mutations is useful for the identification and counseling of MLIV
+  carriers. Identification of mutations in MCOLN1 should be used for
+  prenatal diagnosis.
+
+

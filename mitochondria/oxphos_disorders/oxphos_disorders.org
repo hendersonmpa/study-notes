@@ -1,0 +1,201 @@
+#+TITLE: Disorders of Oxidative Phosphorylation
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+* Metabolic Derangement
+** OxPhos Deficiency and Anaerobic Glycolysis 
+- Insufficient ATP severely affects highly energy dependant tissues
+  - A complete loss of OxPhos is not observed in human disease.
+- In the absence of OxPhos cells survive using ATP from anaerobic glycolysis
+  - 20x less efficient, generates lactate
+  - pyruvate \to alanine if glutamate is available 
+- Lactate, pyruvate and alanine are the typical products of anaerobic glycolysis
+
+** Factors Affecting OxPhos System
+- ~ 90 subunits
+  - 13 subunits of Complexes I, III, IV and V encoded by mtDNA
+- mitochondrial replication, transcription and translation
+  - require \gt 200 proteins, rRNAs and tRNAs
+- Cofactors: coenzyme Q_{10}, iron-sulfur clusters, heme, copper
+  - require synthesis and/or transport to OxPhos system
+- Cardiolipin required for cristae formation
+- Mitochondrial function
+  - protein import, turnover
+  - fission, fusion
+- Toxic metabolites
+- \gt 1500 proteins in the human mitochondrial proteome
+  - other additional factors - lipids, cofactors
+  - up to 10% of human proteome may have role in maintaining mitochondrial function
+
+** Types of genetic defects 
+- OxPhos Subunit
+- Assembly Factor
+- mtDNA replication
+- mtDNA transcription
+- cofactor
+- mitochondrial homeostasis
+  - fission and fusion
+- the primary biochemical phenotype is impaired OxPhos
+    
+** Clinical Manifestations
+
+| System          | Manifestation                      |
+|-----------------+------------------------------------|
+| CNS             | *Myoclonus*                        |
+|                 | *Seizures*                         |
+|                 | *Ataxia*                           |
+| Skeletal Muscle | *Myopathy, hypotonia*              |
+|                 | *CPEO*                             |
+|                 | myoglobinuria                      |
+| Marrow          | Sideroblastic anemia/pancytopenia  |
+| Kidney          | Fanconi                            |
+| Endocrine       | *Diabetes*                         |
+|                 | Hypoparathyroidism,                |
+|                 | growth/multiple hormone deficiency |
+| Heart           | Cardiomyopathy                     |
+|                 | Conduction defects                 |
+| GI              | pancreatic failure                 |
+|                 | villous atrophy                    |
+| Ear             | *Sensorineural deafness*           |
+|                 | Aminoglycoside deafness            |
+| Systemic        | *Lactic Acidosis*                  |
+
+* OxPhos Clinical Manifestations
+** Clinical Manifestations
+- Clinical diagnosis is extremely challenging
+  - can affect any organ system
+  - antenatal (IUGR, birth defects) \to elderly (myopathy)
+
+*** Clinical Suspicion based on:
+1. Constellation of symptoms/signs consistent with a mitochondrial syndrome
+2. Complex multi-system presentation involving two/more organ systems,
+   best described by an underlying disorder of energy generation.
+3. Lactic acidosis, characteristic neuro-imaging, 3-methylglutaconic
+   aciduria, ragged red fiber mypopathy.
+4. Pathogenic mutation in a known mitochondrial disease gene.
+
+** Common Clinical Manifestations
+ - Mitochondrial disease commonly presents with:
+   - Myopathy
+   - Encephalopathy
+   - Leber’s hereditary optic neuropathy
+   - Pearson's Syndrome
+   - Diabetes
+
+** Myopathies
+- Chronic progressive external ophthalmoplegia (CPEO)
+  - w/wo retinitis pigmentosa
+  - most common clinical manifestation
+  - muscle biopsy is diagnostic
+- Kearns Sayre syndrome is a subtype of CPEO
+  - onset \lt 20
+  - pigmentary retinopathy
+  - cardiac conduction defect
+  - ataxia, \uparrow CSF protein
+- Isolated limb myopathy
+
+** Encephalopathies 
+- encephalopathic features:
+  - dementia/ID, ataxia, seizures, myoclonus, deafness, dystonia.
+- MELAS: myopathy, encephalopathy, lactic acidosis, stroke-like episodes
+  - most common mito encephalopathy
+- MERRF: myoclonic epilepsy w ragged red fibres
+  - ptosis, ataxia, deafness
+- Leigh Syndrome
+  - most frequent presentation of MD in childhood
+  - subacute necrotising encephalomyelopathy
+  - several biochemical defects including: PDH, OxPhos
+  - MRI - lesions affecting basal ganglia and/or brain stem
+  - \uparrow lactate blood and CSF
+  - hypo/er-ventilation, spasticity, dystonia, ataxia, tremor, optic atrophy
+  - cardiomyopathy, renal tubulopathy, GI disfunction
+  - \gt 75 genes(mt and nuclear)
+  - Saguenay-Lac-St-Jean type incidence 1/2000, gene prevelance 1/23
+
+** Leber’s Hereditary Optic Neuropathy
+- most common cause of blindness in otherwise healthy young men.
+- maternally inherited and manifests in late adolescence or early
+  adulthood as bilateral sequential visual failure.
+- 90% of patients are affected by age 40
+
+** Pearson's Syndrome
+- transfusion dependant sideroblastic anemia/pancytopenia
+- exocrine pancreas failure
+- progressive liver disease
+- renal tubular disease
+
+** Neonatal and Infantile Presentation
+- Congenital Lactic Acidosis
+- Leigh Syndrome
+- MEGDEL: 3-methylglutaconic aciduria, deafness, encephalopathy and Leigh-like disease
+- Pearson's marrow-pancreas syndrome
+- MDDS: mitochondrial DNA depletion syndrome
+- Alper-Huttenlocher syndrome
+- Reversible infantile respiratory chain deficiency
+- Infantile onset Q_{10} biosynthetic defects
+
+** Childhood and Adolescent Presentation
+- Kearn-Sayre syndrome
+- MELAS: myopathy, encephalopathy, lactic acidosis, stroke-like episodes
+- MERRF: myoclonic epilepsy w ragged red fibres
+- NARP: neuropathy, ataxia, retinitis pigmentosa
+- LHON: Leber's Hereditary Optic Neuropathy
+- MEMSA: myoclonic epilepsy, myopathy, sensory ataxia
+- MNGIE: mitochondrial neurogastrointestinal encephalopathy
+
+** Adult Presentation
+- MIDD: maternally inherited diabetes and deafness
+- PEO: Progressive External Opthalmoplegia
+- SANDO: Sensory Ataxic Neuropathy, dysarthria and opthalmoparesis
+
+* Investigations
+
+** Biochemistry
+- blood lactate, CSF lactate
+- L/P \uparrow at rest, \Uparrow after excercise
+- renal tubular disfunction: urine anion gap, pH, serum K
+- Plasma amino acids:
+  - alanine \propto pyruvate
+  - ala/lys normally \lt 3:1
+  - \uparrow gly in lipoic acid biosynthesis defects
+  - \downarrow cit and arg in Leigh, NARP, MELAS and Pearson
+- Urine organic acids
+  - lactate, pyruvate, TCA intermediates
+  - 3-methylglutaconic acid in Barth, Sengers, MEGDEL, ATP synthase deficiency
+  - ethylmalonic
+  - mma in succinyl-CoA-ligase deficiency
+- Acylcarnitines
+  - flavin cofactor metabolism
+- Purine and pyrimidines (plasma or urine)
+  - MNGIE \uparrow thymidine and deoxyuridine
+- FGF-21, GDF15 and creatinine \propto mito disfunction in myopathy
+
+** Imaging
+- Cranial CT shows cerebral and cerebellar atrophy in many encephalopathic patients
+  - basal ganglia calcification may be seen in MELAS.
+- MRI in MELAS-associated stroke reveals increased T2 weighted signals in the grey and white matter
+- Symmetrical changes in the basal ganglia and brainstem observed in Leigh syndrome.
+
+** Histology
+- Muscle biopsy is diagnostic
+  - mitochondrial myopathy due to mtDNA mutations and LHON may have normal biopsies.
+- Ragged red fibres on Gomori trichrome staining, due to mitochondrial proliferation
+- fibres stain strongly for succinate dehydrogenase
+- fibres often negative for COX (complex IV) in CPEO, KSS, or MERRF but positive in MELAS.
+- Leigh syndrome patients may have no ragged red fibres and  COX-negative fibres only
+
+#+CAPTION[rrf]:Ragged red fibers - Gomori stain
+#+NAME: fig:rrf
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./mitochondria/oxphos_disorders/figures/Ragged_red_fibers_in_MELAS.jpg]]
+
+** Molecular
+  - no strict relation between phenotype and genotype.
+  - mtDNA tRNA mutations are most common of the single base change abnormalities.
+    - A3243G in the tRNA^{Leu(UUR)} gene is most frequently found in MELAS
+    - G8344A in tRNA^{Lys} in MERRF.
+    - Many other tRNA mutations have been associated with other clinical phenotypes.
+  - The primary mutations associated with LHON (G11778A, G3460A,T14484C) are in complex I genes ND4, ND1, and ND6.
+    - G11778A is by far the commonest and is found in over 50% of LHON families in the UK. 
+
+
