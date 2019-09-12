@@ -1,0 +1,271 @@
+#+TITLE: Propionic Acidemia
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+:PROPERTIES:
+#+DRAWERS: PROPERTIES
+#+LaTeX_CLASS: beamer
+#+LaTeX_CLASS_OPTIONS: [presentation, smaller]
+#+BEAMER_THEME: Hannover
+#+BEAMER_COLOR_THEME: whale
+#+BEAMER_FRAME_LEVEL: 2
+#+COLUMNS: %40ITEM %10BEAMER_env(Env) %9BEAMER_envargs(Env Args) %4BEAMER_col(Col) %10BEAMER_extra(Extra)
+#+OPTIONS: H:2 toc:nil
+#+PROPERTY: header-args:R :session *R*
+#+PROPERTY: header-args :cache no
+#+PROPERTY: header-args :tangle yes
+#+STARTUP: beamer
+#+STARTUP: overview
+#+STARTUP: hidestars
+#+STARTUP: indent
+#  #+BEAMER_HEADER: \subtitle{Part 2: Organic Acidurias}
+#+BEAMER_HEADER: \institute[NSO]{Newborn Screening Ontario | The University of Ottawa}
+#+BEAMER_HEADER: \titlegraphic{\includegraphics[height=1cm,keepaspectratio]{../logos/NSO_logo.pdf}\includegraphics[height=1cm,keepaspectratio]{../logos/cheo-logo.png} \includegraphics[height=1cm,keepaspectratio]{../logos/UOlogoBW.eps}}
+#+latex_header: \hypersetup{colorlinks,linkcolor=white,urlcolor=blue}
+#+LaTeX_header: \usepackage{textpos}
+#+LaTeX_header: \usepackage{textgreek}
+#+LaTeX_header: \usepackage[version=4]{mhchem}
+#+LaTeX_header: \usepackage{chemfig}
+#+LaTeX_header: \usepackage{siunitx}
+#+LaTeX_header: \usepackage{gensymb}
+#+LaTex_HEADER: \usepackage[usenames,dvipsnames]{xcolor}
+#+LaTeX_HEADER: \usepackage[T1]{fontenc}
+#+LaTeX_HEADER: \usepackage{lmodern}
+#+LaTeX_HEADER: \usepackage{verbatim}
+#+LaTeX_HEADER: \usepackage{tikz}
+#+LaTeX_HEADER: \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
+:END:
+#+BEGIN_LaTeX
+%\logo{\includegraphics[width=1cm,height=1cm,keepaspectratio]{../logos/NSO_logo_small.pdf}~%
+%    \includegraphics[width=1cm,height=1cm,keepaspectratio]{../logos/UOlogoBW.eps}%
+%}
+
+\vspace{220pt}
+\beamertemplatenavigationsymbolsempty
+\setbeamertemplate{caption}[numbered]
+\setbeamerfont{caption}{size=\tiny}
+% \addtobeamertemplate{frametitle}{}{%
+% \begin{textblock*}{100mm}(.85\textwidth,-1cm)
+% \includegraphics[height=1cm,width=2cm]{cat}
+% \end{textblock*}}
+
+\tikzstyle{chemical} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=none]
+\tikzstyle{hardware} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=gray!30]
+\tikzstyle{ms} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=orange, fill=none]
+\tikzstyle{msw} = [rectangle, rounded corners, text width=7em, minimum height=1em,text centered, draw=orange, fill=none]
+\tikzstyle{label} = [rectangle,text width=8em, minimum height=1em, text centered, draw=none, fill=none]
+\tikzstyle{hl} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=red!30]
+\tikzstyle{box} = [rectangle, rounded corners, text width=5em, minimum height=5em,text centered, draw=black, fill=none]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+\tikzstyle{hl-arrow} = [ultra thick,->,>=stealth,draw=red]
+
+#+END_LaTeX
+
+* Introduction
+** History
+- Was called Ketotic Hyperglycinemia
+- A patient with PA was reported in 1961 with hyperglycinemia
+  - recurrent ketoacidosis
+  - \uparrow \uparrow glycine in blood and urine
+  - attacks related to the intake of protein
+    - administration of BCAA, Thr, Met \to ketonuria
+- Index patient and sister had defective propionyl carboxylase.
+- \uparrow clinical penetrance
+  - incidence of PA has not \uparrow with NBS
+
+** Propionic Acid and Derivatives
+\centering
+
+#+BEGIN_LaTeX
+\vspace{2em}
+\chemname{\chemfig[][scale=.5]{-[7]-[1]([2]=O)-[7]OH}}{\tiny propionic acid}
+\hspace{4em}
+\chemname{\chemfig[][scale=.5]{-[7]-[1]([2]=O)-[7]CoA}}{\tiny propionyl CoA}
+
+\vspace{2em}
+\chemname{\chemfig[][scale=.5]{-N^{+}([2]-)([6]-)-[1]-[7]([6]-O-([5]=O)-[7,.6]-[1,.6])-[1]-[7]([7]=O)([1]-O^{-})}}{\tiny propionyl-carnitine}
+\hspace{4em}
+\chemname{\chemfig[][scale=.5]{OH-[1]-[7]-[1]([2]=O)-[7]OH}}{\tiny 3-hydroxypropionic acid}
+#+END_LaTeX
+
+** Propionic Acidemia Pathway
+
+[[./figures/pa_path.png]]
+
+** BCAA catabolism
+\centering
+#+ATTR_LATEX: :height 0.85\textheight
+[[./figures/bcaa.png]]
+
+** AA catabolism
+[[./figures/aa_met.png]]
+** Odd-Chain Length Fatty Acids
+\centering
+#+ATTR_LATEX: :height 0.5\textheight
+[[./figures/23_10.png]]
+
+** Long-Chain Branched-Chain Fatty Acids
+\centering
+#+ATTR_LATEX: :height 0.7\textheight
+[[./figures/ff22.png]]
+
+- \alpha{}-oxidation of phytanic acid takes place in peroxisomes.
+- Pristanic acid can then undergo \beta{}-oxidation.
+   - Propionyl-CoA is released when the \alpha{} carbon is substituted
+
+** Sterol Catabolism
+[[./figures/gr3.jpg]]
+
+** Propionyl Carboxylase
+\centering
+#+ATTR_LATEX: :height 0.75\textheight
+[[./figures/pc.jpg]]
+
+- Composed of \alpha{} and \beta{} subunits
+  - \alpha{}_{4}\beta{}_{4} heteropolymer
+- Apoenzyme activated by covalent binding to biotin
+
+* Genetics and Pathogenisis
+
+** Genetics
+- autosomal recessive trait
+- Two complementation groups
+  - PccA \to \alpha
+  - PccBC \to \beta
+- \alpha{} 13q32
+- \beta{} 3q13.3-22 
+
+
+** Propionyl CoA
+*** Hyperglycinemia
+- PA inhibits synthesis of glycine cleaving enzyme.
+*** CBC
+- Propionyl-CoA toxic to bone marrow
+  - neutropenia
+  - transient thrombocytopenia in infancy
+*** Hyperammonemia
+- PA inhibits carbamylphosphate synthetase
+*** Ketosis
+- PA inhibits mitochondrial oxidation of succinic acid and 2-ketoglutaric acid
+
+** Biochemical Markers
+- 3-hydroxypropionic acid
+- tiglic acid / tiglyglycine
+- propionylglycine
+- methylcitrate
+  - condensation of propionyl-CoA & oxaloacetic acid
+  - metabolic end product and very stable
+
+* Laboratory Investigations
+** NSO PA/MMA Screening Logic
+*** Inital positive \lt 7 days
+(C3/C2 \ge 0.21 AND C3 \ge 4.0)
+OR
+(C3/C2 \ge 0.23 AND C3 \ge 3.5)
+*** Inital positive \gt 7 days
+(C3/C2 \ge 0.21 AND C3 \ge 2.6)
+OR
+(C3/C2 \ge 0.23 AND C3 \ge 2.4)
+  - Repeat overnight
+  - No weekend reporting
+*** Alert
+C3/C2 \ge 0.3 AND C3 \ge 9.0
+  - Repeat same day
+  - Weekend reporting
+*** Confirmation
+ C3/C2 \ge 0.23 AND MCA \ge 0.5
+** Elevated C3 ACT algorithm
+[[./figures/pa_act.png]]
+** Clinical Chemistry
+- Acidosis in acute episodes
+  - accumulation of \beta-hydroxybutyrate and acetoacetate
+  - Arterial pH as low as 6.9
+  - Bicarb as low as 5 mEq/L
+- \uparrow lactic acid
+- Hypoglycemia
+- Hyperammonemia 
+
+** Biochemical Genetics
+*** Plasma Amino Acids
+- \Uparrow glycine
+- \uparrow glutamine when hyperammonemia
+*** Plasma Acylcarnitines
+- \uparrow propionyl carnitine (C3)
+*** Urine Organic Acids
+- 3-hydroxypropionic acid
+- methylcitric acid
+- lactic acid
+- BHB
+- acetoacetate
+- tiglic acid / tiglyglycine
+
+** Urine Organic Acids
+[[./figures/pa_uoa.png]]
+
+* Clinical Findings
+** Acute presentation
+- Life-threatening illness early in life
+  - ketonuria
+    - acidosis
+    - dehydration
+  - vomiting
+  - lethargy \to coma
+
+** Recurrent Symptoms
+- ketotic episodes
+- infection
+- protein intolerance
+
+** Long term 
+- Variable developmental/cognitive outcomes
+  - appears linked to incidence of illness
+- hypotonic
+  - developmental delay
+- A subset with exclusively neurological presentation
+  - \pm ketoacidosis
+  - hypotonia \to hypertonia
+- Propionyl-CoA toxic to bone marrow
+  - neutropenia
+  - transient thrombocytopenia in infancy
+- Osteoporosis
+- Pancreatitis
+- Cardiomyopathy
+- Fatty infiltration of liver on PM
+
+** Neurological Findings
+
+***                                                                 :BMCOL:
+:PROPERTIES:
+:BEAMER_col: .5
+:END:
+
+- Neonatal death
+  - spongy degeneration of white matter
+- Later death
+  - shrinkage and marbling in basal ganglia
+  - neuronal loss
+  - gliosis
+***                                                                 :BMCOL:
+:PROPERTIES:
+:BEAMER_col: .5
+:END:
+[[./figures/pa_mri.png]]
+
+** Long-term Treatment
+*** Diet
+- Limit Val, Ile, Thr, Met
+  - Monitor urine metabolites, plasma amino acids
+  - Urine ketones (daily in infancy)
+  - Monitor weight, nitrogen balance
+- Avoid fasting
+  - Catabolism
+  - Propionate release from lipids
+
+*** Supplementation
+- Carnitine
+  - excretion of carnitine esters \to detoxification
+  - Daily dose 60 to 100 mg/kg 
+- Biotin
+  - conflicting information
+
+  

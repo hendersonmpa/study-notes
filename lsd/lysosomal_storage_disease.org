@@ -1,4 +1,4 @@
-#+TITLE: Mitochondrial Disease
+#+TITLE: Lysosomal Storage Disease
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
@@ -40,17 +40,34 @@
 #+END_EXPORT 
 
 
-* Mitochondria
-#+INCLUDE: "./mitochondria/mitochondria/mitochondria.org" :lines "4-"
+* Sphingolipid Synthesis
+#+INCLUDE: "./sphingolipid_synthesis/sphingolipid_synthesis.org" :lines "4-"
 
-* Pyruvate
-#+INCLUDE: "./mitochondria/pyruvate/pyruvate.org" :lines "4-"
+* Gaucher
+#+INCLUDE: "./gaucher/gaucher.org" :lines "4-"
 
-* Tricarboxylic Acid Cycle
-#+INCLUDE: "./mitochondria/tca/tca.org" :lines "4-"
+* Niemann-Pick
+#+INCLUDE: "./niemann_pick/niemann_pick.org" :lines "4-"
 
-* Electron Transport Chain
-#+INCLUDE: "./mitochondria/etc/etc.org" :lines "4-"
+* GM1 & GM2 Gangliosidoses
+#+INCLUDE: "./GM1_2/GM1_2.org" :lines "4-"
 
-* Disorders of Oxidative Phosphorylation
-#+INCLUDE: "./mitochondria/oxphos_disorders/oxphos_disorders.org" :lines "4-"
+* Krabbe
+#+INCLUDE: "./krabbe/krabbe.org" :lines "4-"
+
+* TODO Metachromic Leukodystropy
+
+* Fabry
+#+INCLUDE: "./fabry/fabry.org" :lines "4-"
+
+* TODO Farber
+
+* TODO Prosaposin
+
+* Mucopolysaccharidoses
+#+INCLUDE: "./mps/mps.org" :lines "4-"
+
+* TODO Oligosaccharidoses
+
+* Mucolipidoses
+#+INCLUDE: "./mucolipidosis/mucolipidosis.org" :lines "4-"

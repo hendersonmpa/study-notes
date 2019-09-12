@@ -41,12 +41,12 @@
 
 
 * Fatty Acid Oxidation
-#+INCLUDE: "./faod/fao/fao.org" :lines "4-"
+#+INCLUDE: "./fao/fao.org" :lines "4-"
 * Mitochondrial Fatty Acid Oxidation Disorders
-#+INCLUDE: "./faod/mito_faod/mito_faod.org" :lines "4-"
+#+INCLUDE: "./mito_faod/mito_faod.org" :lines "4-"
 
 * Routine Testing for Mitochondrial FAODs
-#+INCLUDE: "./faod/faod_routine_testing/faod_routine_testing.org" :lines "4-"
+#+INCLUDE: "./faod_routine_testing/faod_routine_testing.org" :lines "4-"
 
 * TODO Peroxisomal FAODs
 * TODO Other FAODs

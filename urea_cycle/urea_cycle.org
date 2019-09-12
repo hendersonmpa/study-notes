@@ -28,10 +28,10 @@
 :END:
 
 * Ammonia
-#+INCLUDE: "./urea_cycle/ammonia/ammonia.org" :lines "4-"
+#+INCLUDE: "./ammonia/ammonia.org" :lines "4-"
 
 * Diagnostic Testing for OTC Deficiency
-#+INCLUDE: "./urea_cycle/otc_diag/otc_diag.org" :lines "4-"
+#+INCLUDE: "./otc_diag/otc_diag.org" :lines "4-"
 
 * NBS for UCD
-#+INCLUDE: "./urea_cycle/ucd_nbs/ucd_nbs.org" :lines "4-"
+#+INCLUDE: "./ucd_nbs/ucd_nbs.org" :lines "4-"

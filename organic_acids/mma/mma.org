@@ -1,0 +1,322 @@
+#+TITLE: Methylmalonic Acidemia
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+:PROPERTIES:
+#+DRAWERS: PROPERTIES
+#+LaTeX_CLASS: beamer
+#+LaTeX_CLASS_OPTIONS: [presentation, smaller]
+#+BEAMER_THEME: Hannover
+#+BEAMER_COLOR_THEME: whale
+#+BEAMER_FRAME_LEVEL: 2
+#+COLUMNS: %40ITEM %10BEAMER_env(Env) %9BEAMER_envargs(Env Args) %4BEAMER_col(Col) %10BEAMER_extra(Extra)
+#+OPTIONS: H:2 toc:nil
+#+PROPERTY: header-args:R :session *R*
+#+PROPERTY: header-args :cache no
+#+PROPERTY: header-args :tangle yes
+#+STARTUP: beamer
+#+STARTUP: overview
+#+STARTUP: hidestars
+#+STARTUP: indent
+#  #+BEAMER_HEADER: \subtitle{Part 2: Organic Acidurias}
+#+BEAMER_HEADER: \institute[NSO]{Newborn Screening Ontario | The University of Ottawa}
+#+BEAMER_HEADER: \titlegraphic{\includegraphics[height=1cm,keepaspectratio]{../logos/NSO_logo.pdf}\includegraphics[height=1cm,keepaspectratio]{../logos/cheo-logo.png} \includegraphics[height=1cm,keepaspectratio]{../logos/UOlogoBW.eps}}
+#+latex_header: \hypersetup{colorlinks,linkcolor=white,urlcolor=blue}
+#+LaTeX_header: \usepackage{textpos}
+#+LaTeX_header: \usepackage{textgreek}
+#+LaTeX_header: \usepackage[version=4]{mhchem}
+#+LaTeX_header: \usepackage{chemfig}
+#+LaTeX_header: \usepackage{siunitx}
+#+LaTeX_header: \usepackage{gensymb}
+#+LaTex_HEADER: \usepackage[usenames,dvipsnames]{xcolor}
+#+LaTeX_HEADER: \usepackage[T1]{fontenc}
+#+LaTeX_HEADER: \usepackage{lmodern}
+#+LaTeX_HEADER: \usepackage{verbatim}
+#+LaTeX_HEADER: \usepackage{tikz}
+#+LaTeX_HEADER: \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
+:END:
+#+BEGIN_LaTeX
+%\logo{\includegraphics[width=1cm,height=1cm,keepaspectratio]{../logos/NSO_logo_small.pdf}~%
+%    \includegraphics[width=1cm,height=1cm,keepaspectratio]{../logos/UOlogoBW.eps}%
+%}
+
+\vspace{220pt}
+\beamertemplatenavigationsymbolsempty
+\setbeamertemplate{caption}[numbered]
+\setbeamerfont{caption}{size=\tiny}
+% \addtobeamertemplate{frametitle}{}{%
+% \begin{textblock*}{100mm}(.85\textwidth,-1cm)
+% \includegraphics[height=1cm,width=2cm]{cat}
+% \end{textblock*}}
+
+\tikzstyle{chemical} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=none]
+\tikzstyle{hardware} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=gray!30]
+\tikzstyle{ms} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=orange, fill=none]
+\tikzstyle{msw} = [rectangle, rounded corners, text width=7em, minimum height=1em,text centered, draw=orange, fill=none]
+\tikzstyle{label} = [rectangle,text width=8em, minimum height=1em, text centered, draw=none, fill=none]
+\tikzstyle{hl} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=red!30]
+\tikzstyle{box} = [rectangle, rounded corners, text width=5em, minimum height=5em,text centered, draw=black, fill=none]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+\tikzstyle{hl-arrow} = [ultra thick,->,>=stealth,draw=red]
+
+#+END_LaTeX
+
+* Introduction
+** History
+- First reported in 1967 by Oberholzer and Stokke
+- Defect in methylmalonic mutase
+  - catalyzes the isomerization of methylmalonyl-CoA to succinyl-CoA
+- Requires adenosylcobalamin as a cofactor
+  - derived from vitamin B_12
+- Genetic heterogeneity was observed early
+  - response to large doses of B_12
+- B_12 responsive have defects in adenosylcobalamin synthesis
+- B_12 unresponsive have defects in the apoenzyme methylmalonyl mutase
+  - mut^- :: little activity
+  - mut^0 :: no activity
+
+** Methylmalonyl CoA Mutase
+- Upon entry to the mitochondria, the 32 amino acid mitochondrial
+  leader sequence at the N-terminus of the protein is cleaved, forming
+  the fully processed monomer.
+- The monomers associate into homodimers, and bind AdoCbl (one
+  for each monomer active site) to form the active holoenzyme
+
+#+BEGIN_SRC dot :file ./figures/mut.pdf :cmdline -Kdot -Tpdf
+    digraph {
+             // graph from left to right
+             rankdir=LR;
+             splines=true;
+             node [shape=box];
+             dmm [label="D-Methylmalonyl-CoA", fillcolor=steelblue3, style=filled]
+             lmm [label="L-Methylmalonyl-CoA", fillcolor=steelblue3, style=filled]
+             mma [label="Methylmalonic acid", fillcolor=red3, style=filled]    
+             suc [label="Succinyl-CoA", fillcolor=steelblue3, style=filled]     
+             s [label="Succinate", fillcolor=steelblue3, style=filled]     
+             dmm -> lmm [label="Epimerase"]
+             lmm -> suc [label="MCM + AdoCbl", color= red3]
+             suc -> s [label="Ligase"] 
+             dmm -> mma [style=dotted,dir=both]
+             mma -> lmm [style=dotted,dir=both]
+             }    
+#+END_SRC
+
+#+RESULTS:
+[[file:./figures/mut.pdf]]
+
+** Genetics
+- autosomal recessive
+- 1/50000
+  - 1/2-2/3 have mutase apoenzyme defect 
+- Methymalonyl pathway
+- Cobalamin transport and metabolism
+ 
+** Methylmalonyl CoA Pathway
+- Methylmalonyl CoA Epimerase deficiency
+- Methylmalonyl CoA mutase deficiency
+  - mut^0, mut^{-}
+  - >200 mutations in MUT locus identified
+- Succinyl CoA ligase deficiency (SUCLG1, SUCLA1)
+
+** Methylmalonyl-CoA  Pathway
+\centering
+#+ATTR_LATEX: :height 0.85\textheight
+[[./figures/expanded_mma_path.png]]
+
+** Cobalamin Transport and Metabolism
+- Adenosyltransferase deficiency (Cbl B)
+- Cbl A
+- Homocystinuria w MMA (Cbl C, D)
+- B_12 deficiency
+  - Dietary (vegan)
+  - Pernicious anemia
+- Transcobalamin II deficiency
+- B_12 transport from lysosome defect (Cbl F)
+
+** Cobalamin Transport and Metabolism
+[[./figures/cbl_path.png]]
+
+** Methylmalonic Acid and Derivatives
+\centering
+#+BEGIN_LaTeX
+\vspace{6em}
+\chemname{\chemfig[][scale=.5]{OH-[1]([2]=O)-[7]([6]<)-[1]([2]=O)-[7]S-CoA}}{\tiny S-methylmalonyl-CoA}
+\hspace{2em}
+\chemname{\chemfig[][scale=.5]{OH-[1]([2]=O)-[7]([6]<:)-[1]([2]=O)-[7]S-CoA}}{\tiny R-methylmalonyl-CoA}
+\hspace{2em}
+\chemname{\chemfig[][scale=.5]{OH-[1]([2]=O)-[7]([6]-)-[1]([2]=O)-[7]OH}}{\tiny methylmalonic acid}
+#+END_LaTeX
+
+** Sources of Methylmalonic Acid
+- AA catabolism
+  - isoleucine
+  - valine
+  - threonine
+  - methionine
+- FA
+  - \downarrow contribution to urine MMA
+
+[[http://www.genome.jp/kegg-bin/show_pathway?scale=1.0&query=methylmalonyl-CoA&map=hsa00640&scale=&auto_image=&show_description=hide&multi_query=][propionate metabolism - KEGG]]
+
+** Methylmalonyl-CoA
+
+- inhibits PCC \to \uparrow PA
+*** Hyperglycinemia
+- inhibits synthesis of glycine cleaving enzyme.
+- inhibits transport of malate, 2-ketoglutarate and isocitrate
+*** CBC
+- megaloblastosis in cblC defects
+  - \downarrow methylcobalamin
+
+*** Hyperammonemia
+- PA inhibits carbamylphosphate synthetase
+*** Ketosis
+- PA inhibits mitochondrial oxidation of succinic acid and 2-ketoglutaric acid
+
+* Laboratory Investigations
+** NSO PA/MMA Screening Logic
+*** Inital positive \lt 7 days
+(C3/C2 \ge 0.21 AND C3 \ge 4.0)
+OR
+(C3/C2 \ge 0.23 AND C3 \ge 3.5)
+*** Inital positive \gt 7 days
+(C3/C2 \ge 0.21 AND C3 \ge 2.6)
+OR
+(C3/C2 \ge 0.23 AND C3 \ge 2.4)
+  - Repeat overnight
+  - No weekend reporting
+*** Alert
+C3/C2 \ge 0.3 AND C3 \ge 9.0
+  - Repeat same day
+  - Weekend reporting
+*** Confirmation
+ C3/C2 \ge 0.23 AND MCA \ge 0.5
+
+** Clinical Chemistry
+- Acidosis in acute episodes
+  - accumulation of \beta-hydroxybutyrate and acetoacetate
+  - Arterial pH as low as 6.9
+  - Bicarb as low as 5 mEq/L
+- \uparrow lactic acid
+- Hypoglycemia
+- Hyperammonemia
+- Measure B12
+ 
+** Biochemical Genetics
+*** Plasma Amino Acids
+- \pm glycine
+- \uparrow glutamine when hyperammonemia
+*** Plasma Acylcarnitines
+- \uparrow propionyl carnitine (C3)
+- \uparrow methylmalonyl carnitine (C4DC)
+
+*** Urine Organic Acids
+- methylmalonic acid
+- 3-hydroxypropionic acid
+- methylcitric acid
+- tiglic acid / tiglyglycine
+- Ketones
+  - BHB
+  - acetoacetate
+- lactic acid
+
+** Urine Organic Acids
+[[./figures/mma_uoa.png]]
+
+** Typical Urine Methylmalonic Acid Values
+
+| Clinical Status                        | mmol/mol creatinine |
+|----------------------------------------+---------------------|
+| normal                                 |                 0-2 |
+| Mut^0;presentation                     |          3000-13000 |
+| Mut^0;steady state                     |            200-2000 |
+| B_12 responsive;presentation           |                2000 |
+| B_12 responsive;steady-state           |              90-300 |
+| B_12 deficient infant                  |           4500-5700 |
+| Transcobalamin II deficiency           |                 600 |
+| Cobalamin C,D                          |                 270 |
+| Atypical-normal mutase                 |                 200 |
+| Succinyl CoA ligase                    |              80-120 |
+| Methylmalonyl CoA epimerase deficiency |              30-300 |
+
+* Clinical Findings
+** Initial presentation
+- Failure to thrive
+  - \downarrow linear growth
+- Skin lesions - candidasis
+- Life-threatening illness early in life
+  - ketonuria
+    - acidosis
+    - dehydration
+  - vomiting
+  - lethargy \to coma
+
+** Acute Treatment
+- aggressive intravenous hydration
+  - efficient renal excretion of MMA
+- Insulin and glucose \to anabolism
+- Acute HGH
+
+** Recurrent Symptoms
+- ketotic episodes
+- infection
+- protein intolerance
+
+** Long term 
+- Variable developmental/cognitive outcomes
+  - appears linked to incidence of illness
+- severe hypotonia
+- stroke
+- hepatomegaly - normal LFTs
+- \downarrown renal function
+- pancreatitis
+- candidasis
+  - MMA inhibits maturation of hematopoietic cells and T cells
+
+** Neurological Findings
+- due to acute episodes
+  - \downarrow cerebral perfusion
+  - hypoglycemia
+  - hyperammonemia
+- more common in apo enzyme defect than Cbl 
+- Successful treatment \to normal IQ
+- 25 of 33 patients :
+  - ataxia = lack of coordination
+  - dystonia = muscle contraction
+  - dyskinesia = involuntary movement
+  - dsyarthria = speech
+  - chorea = rythmic contractions
+  - clonus = jerky movements
+  - tremors
+
+** Long-term Treatment
+*** Diet
+- Limit Val, Ile, Thr, Met
+  - Monitor urine metabolites, plasma amino acids
+  - Urine ketones (daily in infancy)
+  - Monitor weight, nitrogen balance
+- Avoid fasting
+  - Catabolism
+  - Propionate release from lipids
+
+*** Supplementation
+- test for B_{12} response
+  - pharmacologic does of B_{12}
+- carnitine
+  - excretion of carnitine esters \to detoxification
+  - Daily dose 60 to 100 mg/kg 
+- ?alanine supplementation?
+
+** Long-term Treatment
+*** Medication
+- Production of PA by intestinal bacteria
+  - metronidazole
+  - neomycin
+- HGH \to anabolism
+
+*** Transplantation
+- liver transplantation does not stop progressive neurological symptoms
+- liver & kidney may be considered
+
+
+  

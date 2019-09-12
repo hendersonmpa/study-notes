@@ -1,0 +1,337 @@
+# -*- coding: utf-8 -*-
+#+TITLE: Multiple Carboxylase Deficiency
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+EMAIL: matthew@darwin.local
+#+DATE: \today
+
+:PROPERTIES:
+#+DRAWERS: PROPERTIES
+#+LaTeX_CLASS: beamer
+#+LaTeX_CLASS_OPTIONS: [presentation, smaller]
+# #+BEAMER_THEME: Ilmenau [height=20pt]
+# #+BEAMER_THEME: Szeged  [height=20pt]
+#+BEAMER_THEME: Boadilla [height=20pt]
+#+BEAMER_COLOR_THEME: [RGB={170,160,80}]{structure}
+#+BEAMER_FRAME_LEVEL: 2
+#+COLUMNS: %40ITEM %10BEAMER_env(Env) %9BEAMER_envargs(Env Args) %4BEAMER_col(Col) %10BEAMER_extra(Extra)
+#+OPTIONS: H:2 toc:t
+#+STARTUP: beamer
+#+STARTUP: overview
+#+STARTUP: hidestars
+#+STARTUP: indent
+# #+BEAMER_HEADER: \subtitle{Document subtitle}
+#+BEAMER_HEADER: \institute[NSO]{Newborn Screening Ontario}
+#+BEAMER_HEADER: \titlegraphic{\includegraphics[height=1cm,keepaspectratio]{../logos/NSO_logo.pdf}\includegraphics[height=1cm,keepaspectratio]{../logos/cheo-logo.png} \includegraphics[height=1cm,keepaspectratio]{../logos/UOlogoBW.eps}}
+#+latex_header: \hypersetup{colorlinks,linkcolor=gray,urlcolor=blue}
+#+LaTeX_header: \usepackage{textpos}
+#+LaTeX_header: \usepackage{textgreek}
+#+LaTeX_header: \usepackage[version=4]{mhchem}
+#+LaTeX_header: \usepackage{chemfig}
+#+LaTeX_header: \usepackage{siunitx}
+#+LaTeX_header: \usepackage{gensymb}
+#+LaTex_HEADER: \usepackage[usenames,dvipsnames]{xcolor}
+#+LaTeX_HEADER: \usepackage[T1]{fontenc}
+#+LaTeX_HEADER: \usepackage{lmodern}
+#+LaTeX_HEADER: \usepackage{verbatim}
+#+LaTeX_HEADER: \usepackage{tikz}
+#+LaTeX_HEADER: \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
+#+LaTeX_HEADER: \AtBeginSection[]{\begin{frame}\tableofcontents[currentsection] \end{frame}}
+:END:
+
+#+BEGIN_LaTeX
+\logo{\includegraphics[width=1cm,height=1cm,keepaspectratio]{../logos/NSO_logo_small.pdf}}
+
+\vspace{220pt}
+\beamertemplatenavigationsymbolsempty
+\setbeamertemplate{caption}[numbered]
+\setbeamerfont{caption}{size=\tiny}
+% \addtobeamertemplate{frametitle}{}{%
+% \begin{textblock*}{100mm}(.85\textwidth,-1cm)
+% \includegraphics[height=1cm,width=2cm]{cat}
+% \end{textblock*}}
+
+
+\tikzstyle{chemical} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=none]
+\tikzstyle{hardware} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=gray!30]
+\tikzstyle{ms} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=orange, fill=none]
+\tikzstyle{msw} = [rectangle, rounded corners, text width=7em, minimum height=1em,text centered, draw=orange, fill=none]
+\tikzstyle{label} = [rectangle,text width=8em, minimum height=1em, text centered, draw=none, fill=none]
+\tikzstyle{hl} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=red!30]
+\tikzstyle{box} = [rectangle, rounded corners, text width=5em, minimum height=5em,text centered, draw=black, fill=none]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+\tikzstyle{hl-arrow} = [ultra thick,->,>=stealth,draw=red]
+
+#+END_LaTeX
+
+* Introduction
+
+** Multiple Carboxylase Deficiency
+- Four carboxylases:
+  - pyruvate carboxylase
+  - acetyl-CoA carboxylase
+  - propionyl carboxylase
+  - 3-methylcrotonyl carboxylase
+
+** Carboxylases
+
+
+[[./figures/carboxylases.png]]
+
+** Causes of Multiple Carboxylase Deficiency
+- Biotin Deficiency
+- Holocarboxylase Synthetase Deficiency
+- Biotinidase Deficiency
+
+**  Holocarboxylase Synthetase 
+- HCS activates biotin to D-biotin-5'-adenylate
+- catalyzes attachment to an apocarboxylase
+  - lysine \epsilon{}-amino group
+
+[[./figures/hcs.png]]
+
+** Holocarboxylase Synthetase Deficiency
+- Increased Km for Biotin
+  - Normally 1-6 nmol/L, patients 9-12 nmol/L
+
+#+begin_src gnuplot :file ./figures/kinetics.png
+  reset
+  set title "HCS Kinetics"
+  set xlabel "Substrate [S]"
+  set xrange [0:100]
+  set ylabel "Velocity (V)"
+  set yrange [0:60]
+  f(vmax,km,x) = (vmax*x)/(x + km)
+  v(vmax,km,x) = vmax * x/(x + km) 
+  vmax1 = 50 
+  km1 = 15
+  vmax2 = 48
+  km2 = 42
+
+  set arrow from 0,vmax1 to 100,vmax1 lw 2 nohead  lc 1
+  set label 1 at 3,(vmax1 +1.5) "Vmax" front
+  set arrow from 0,vmax2 to 100,vmax2 lw 2 nohead  lc 2
+  set label 2 at (km1 + 0.5),7 "Km WT" front
+  set label 3 at (km2 + 0.5),7 "Km MCD" front
+  set arrow from km1,0 to km1,f(vmax1,km1,km1) lw 2 nohead
+  set arrow from 0,v(vmax1,km1,km1) to km1,v(vmax1,km1,km1) lw 2 nohead
+  set arrow from km2,0 to km2,f(vmax2,km2,km2) lw 2 nohead
+  set arrow from 0,v(vmax2,km2,km2) to km2,v(vmax2,km2,km2) lw 2 nohead
+
+  plot f(vmax1,km1,x) with lines lw 2 title 'WT',\
+       f(vmax2,km2,x) with lines lw 2 title 'MCD'
+
+#+end_src
+
+#+BEGIN_center
+#+ATTR_LATEX: :width 0.7\textwidth 
+#+RESULTS:
+[[file:./figures/kinetics.png]]
+#+END_center
+
+** Biotinidase
+
+[[./figures/biot.png]]
+
+** Biotin and HCS
+
+[[./figures/biotHCS.png]]
+
+
+** Treatment
+- All symptoms and biochemical abnormalities treated with biotin.
+  - Except optic and auditory nerve atrophy
+  - Biocytin?
+* Biotinidase Deficiency
+
+** Biotinidase Deficiency
+
+- Autosomal recessively inherited disorder of biotin recycling
+  - associated with secondary alterations in amino acid, carbohydrate,
+    and fatty acid metabolism.
+- Caused by absent or markedly deficient activity of biotinidase
+  - cytosolic enzyme that liberates biotin from biocytin during the
+    normal proteolytic turnover of holocarboxylases and other
+    biotiny-lated proteins.
+
+- Based on newborn screening outcome data from 2006, the incidence of
+  profound biotinidase deficiency in the United States is estimated at
+  1/80,000 births
+- partial biotinidase deficiency between 1/31,000 and 1/40,000
+
+** Biotinidase Deficiency
+
+- Diagnosis of biotinidase deficiency is based on demonstrating
+  deficient enzyme activity in serum or plasma
+
+- Patients with profound biotinidase deficiency have less than 10% of
+  mean normal serum activity
+
+- Patients with the partial biotinidase deficiency variant have 10-30%
+  of mean normal serum activity
+  - are largely asymptomatic
+
+- Confirmation of biotinidase deficiency by DNA analysis, by either
+  allele-targeted methods or full-gene sequencing, may be useful.
+
+** Biotin Cycle
+
+[[./figures/biot_cycle.png]]
+
+
+** COMMENT Biotinidase
+
+- Biotinidase is a monomeric enzyme encoded by a single gene (BTD) located on chromosome 3p25
+  - comprises 543 amino acid residues, including 41 amino acids of a potential signal peptide.
+
+- Three publicly available databases of biotinidase variants:
+  - [[https://grenada.lumc.nl/LOVD2/shared1/home.php?select_db=BTD][Leiden Open Variation Database]]
+  - [[https://www.ncbi.nlm.nih.gov/clinvar/][ClinVar]]
+  - [[http://www.arup.utah.edu/database/BTD/BTD_welcome.php][ARUP:Biotinidase Deficiency and BTD]]
+
+- 204 biotinidase variants are consolidated in the ARUP database,
+  - >150 categorized as pathogenic
+  - 145 missense changes
+  - Four common pathogenic variants cause profound biotinidase deficiency.
+
+** Pathogenic Variants
+- Among children ascertained because of clinical symptoms, the two
+  most commonly reported variants are:
+
+  - c.98_104delinsTCC in exon 2
+    - seven-base deletion/three-base insertion
+    - occurring in at least one allele in approximately 50% of affected individuals
+
+  - p.Arg538Cys in exon 4
+    - occurring at least once in 30% of affected individuals
+
+  - These variants result in complete absence of biotinidase protein. 
+
+- Other relatively common variants discovered by newborn screening are:
+  - p.Gln456His, associated with profound deficiency
+
+  - p.Asp444His, a substitution that reduces enzymatic activity by about 50%.
+
+  - The p.Asp444His variant in trans with a severe BTD pathogenic variant is associated with partial biotinidase deficiency,
+  - p.Asp444His in cis with p.Ala171Thr (i.e., as the double mutant p.[(Ala171Thr); (Asp444His)]), results in a profound biotinidase deficiency allele.
+
+
+** Partial & Profound Deficiency
+
+*** Profound Deficiency
+- Initially, most symptomatic children with biotinidase deficiency were found to have 3% of mean serum biotinidase activity of normal individuals.
+- Three standard deviations above this mean, corresponding to 10% of mean normal activity, was taken as the threshold below which individuals were considered to have profound biotinidase deficiency.
+
+*** Partial Deficiency
+- With NBS for biotinidase deficiency babies were identified with about 25% of mean normal activity.
+- Essentially all of these children had the p.Asp444His variant as one of their alleles
+- This variant, together with a variant for profound deficiency on the other allele, results in 10–30% of mean normal biotinidase activity.
+- These children are considered to have partial biotinidase deficiency.
+
+
+** NBS for partial deficiency
+
+- A retrospective study reviewing clinical histories of
+  individuals with profound (22) or partial (120) biotinidase
+  deficiency identified by newborn screening supports the long-term
+  benefit of treatment and management of both populations. [fn:biot]
+
+[fn:biot] Outcomes of individuals with profound and partial
+biotinidase deficiency ascertained by newborn screening in Michigan
+over 25 years, Genetics In Medicine, 2014/08/21/
+
+
+* Laboratory Methods
+
+** Biotinidase NBS
+
+- DBS is eluted and incubated 
+
+#+BEGIN_LaTeX
+\centering
+\ce{Biotin-PAB <=>>[Biotinidase][pH=6] Biotin + PABA}
+#+END_LaTeX
+
+- proteins removed by TCA precipitation and filtration.
+
+#+BEGIN_LaTeX
+\ce{PABA <=>>[\ce{NO2, NH2SO3}][NED] Purple chromophore}
+#+END_LaTeX
+
+- measured at 550 nm, reference 690 nm 
+- Sulfonamide antibiotics can cause false negative results:
+  - sulfamethoxazole, trimethoprim, sulfioxazole
+
+*** Interpretation
+- screen positive :: \lt 27.0 MRU
+- units :: 1 MRU = 1 umol of PABA produced from Biotin-PAB  
+
+** Biotinidase Diagnostic
+
+- serum or plasma
+
+#+BEGIN_LaTeX
+\centering
+\ce{Biotin-PAB <=>>[Biotinidase][pH=6] Biotin + PABA}
+#+END_LaTeX
+
+- proteins removed by TCA precipitation and centrifugation.
+
+#+BEGIN_LaTeX
+\ce{PABA <=>>[\ce{NaNO2, NH2SO3}][NED] Purple chromophore}
+#+END_LaTeX
+
+ - measured at 546 nm
+
+*** Interpretation
+- Deficiency :: \le 10% of normal
+- Partial :: \gt 10% and \le 30%
+- units :: nmoles/min/L plasma or serum.
+
+** Other Biotinidase methods
+
+*** Fluorometric
+- flourescent substrate is biotinyl-6-aminoquinoline 
+*** Solid phase time-resolved immunofluorescence
+- Biotinidase cleaves the amide bond in Eu-labeled biotin.
+- The enzyme reaction is stopped by addition of streptavidin.
+- The streptavidin-biotin complexes are captured by the solid phase monoclonal antibody directed against streptavidin.
+- dissociates the molecules into the solution where the europium fluorescence is measured.
+- The measured fluorescence is inversely proportional to the biotinidase activity of the sample.
+
+** COMMENT Biotin
+*** Competitive ELISA
+- The microtiter plates coated with avidin.
+- The enzyme-labeled biotin (Conjugate) and the sample or the Biotin Standard Solution are added.
+- Free and enzyme-labeled biotin compete for the avidin-binding sites.
+- avidin binding is not specific for biotin
+
+*** Bioassay
+- The E. coli strain R901 (\Delta{}bio SmR) has its entire biotin operon
+  deleted
+- requires biotin (\ge 10 pg/ml) for growth
+- linear relationship between CFU and biotin concentration
+
+** HCS NBS
+
+- C5OH acylcarnitine
+- No longer include C5OH acylcarnitine in the NSO AACC screen
+- 3-methylcrotonyl-CoA carboxylase (3MCC) deficiency (infant or mother)
+- 3-hydroxy-3-methylglutaryl (HMG)-CoA lyase deficiency
+- \beta{}-ketothiolase deficiency
+- multiple carboxylase deficiency (MCD) including biotinidase deficiency and holocarboxylase synthetase deficiency
+- 2-methyl-3-hydroxybutyric acidemia (2M3HBA)
+- 3-methylglutaconic aciduria (3MGA)
+
+** HCS Diagnostic
+
+- Urine organic acids
+  - \beta{}-hydroxyisovalerate
+  - \beta{}-methylcrotonylglycine
+  - \beta{}-hydroxypropionate
+  - methylcitrate
+  - lactate
+  - tiglylglycine 
+
+
+
+
