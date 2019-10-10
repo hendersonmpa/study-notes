@@ -8,7 +8,7 @@
 #+CAPTION[]:\beta-oxidation
 #+NAME: fig:box
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[./faod/mito_faod/figures/b_oxidation.png]]
+[[./mito_faod/figures/b_oxidation.png]]
 
 
 * Carnitine Cycle Defects
@@ -186,7 +186,7 @@ p
 #+CAPTION[]:Short-chain enoyl-CoA Hydratase Deficiency
 #+NAME: fig:crotonase
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[./faod/mito_faod/figures/valine.png]]
+[[./mito_faod/figures/valine.png]]
 
 ** 3-Hydroxyacyl-CoA Dehydrogenase Deficiency
 - This defect (HADH), previously called SCHAD deficiency, causes
@@ -197,7 +197,7 @@ p
 #+CAPTION[]:Acyl-CoA dehydrogenase 9
 #+NAME: fig:acad9
 #+ATTR_LaTeX: :width 0.9\textwidth
-   [[./faod/mito_faod/figures/acad9.pdf]]
+   [[./mito_faod/figures/acad9.pdf]]
 
 - A complex I assembly factor with a moonlighting function in fatty
   acid oxidation deficiencies.
@@ -221,7 +221,7 @@ p
 #+CAPTION[]:2,4-Dienoyl-CoA reductase deficiency
 #+NAME: fig:dienol
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[./faod/mito_faod/figures/dienol.pdf]]
+[[./mito_faod/figures/dienol.pdf]]
 
 
 - initially described in 1990 based on a single case who presented with persistent hypotonia.
@@ -318,7 +318,7 @@ p
 #+CAPTION[]:Common manifestations in FAODs [fn:1]
 #+NAME: fig:common
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[./faod/mito_faod/figures/Ch101f016.png]]
+[[./mito_faod/figures/Ch101f016.png]]
 
  - Green squares indicate that the feature is frequently seen in the disorder
  - Yellow squares represent an intermediate rate of occurrence

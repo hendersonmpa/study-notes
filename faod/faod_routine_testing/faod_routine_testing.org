@@ -41,13 +41,13 @@ N. (2009). The Randle cycle revisited. Am J Physiol Endocrinol Metab,
 #+CAPTION[]:Randle Cycle
 #+NAME: fig:randle
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[./faod/faod_routine_testing/figures/randle.png]]
+[[./faod_routine_testing/figures/randle.png]]
 
 ** Inhibition of Glucose Utilization
 #+CAPTION[]:Inhibition of Glucose Utilization
 #+NAME: fig:ingluc
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[./faod/faod_routine_testing/figures/glucose_oxidation_inhibition.png]]
+[[./faod_routine_testing/figures/glucose_oxidation_inhibition.png]]
 
 Mechanism of inhibition of glucose utilization by fatty acid
 oxidation. The extent of inhibition is graded and most severe at the
@@ -68,7 +68,7 @@ details. CYTO, cytosol; MITO, mitochondria; GLUT4, glucose transporter
 #+CAPTION[]:Inhibition of Fatty Acid Utilization
 #+NAME: fig:infat
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[./faod/faod_routine_testing/figures/FAO_inhibition.png]]
+[[./faod_routine_testing/figures/FAO_inhibition.png]]
 
 Mechanism of inhibition of fatty acid oxidation by glucose. This
 mechanism is mediated by malonyl-CoA, the concentration of which
@@ -96,7 +96,7 @@ details. ACL, ATP-citrate lyase; FAS, fatty acid synthase.
 #+CAPTION[]:Lactic Acidemia in FAODs
 #+NAME: fig:lactic
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[./faod/faod_routine_testing/figures/NAD.png]]
+[[./faod_routine_testing/figures/NAD.png]]
 
 - Overview of the major metabolic pathways involved in cytosolic and
   mitochondrial oxidation and reduction of NAD
@@ -110,7 +110,7 @@ details. ACL, ATP-citrate lyase; FAS, fatty acid synthase.
 #+CAPTION[]:Hyperammonaemia in FAODs
 #+NAME: fig:ammonia
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[./faod/faod_routine_testing/figures/2nd_ammonemia.png]]
+[[./faod_routine_testing/figures/2nd_ammonemia.png]]
 
 Influence of metabolic disorders on function of urea cycle leading to secondary hyperammonemia
 

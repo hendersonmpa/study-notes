@@ -2,54 +2,6 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
-:PROPERTIES:
-#+DRAWERS: PROPERTIES
-#+LaTeX_CLASS: beamer
-#+LaTeX_CLASS_OPTIONS: [presentation, smaller]
-#+BEAMER_THEME: Hannover
-#+BEAMER_COLOR_THEME: whale
-#+COLUMNS: %40ITEM %10BEAMER_env(Env) %9BEAMER_envargs(Env Args) %4BEAMER_col(Col) %10BEAMER_extra(Extra)
-#+OPTIONS: H:2 toc:nil ^:t
-#+PROPERTY: header-args:R :session *R*
-#+PROPERTY: header-args :cache no
-#+PROPERTY: header-args :tangle yes
-#+STARTUP: beamer
-#+STARTUP: overview
-#+STARTUP: indent
-# #+BEAMER_HEADER: \subtitle{Part 1: Maple Syrup Urine Diseas}
-#+BEAMER_HEADER: \institute[NSO]{Newborn Screening Ontario | The University of Ottawa}
-#+BEAMER_HEADER: \titlegraphic{\includegraphics[height=1cm,keepaspectratio]{../logos/NSO_logo.pdf}\includegraphics[height=1cm,keepaspectratio]{../logos/cheo-logo.png} \includegraphics[height=1cm,keepaspectratio]{../logos/UOlogoBW.eps}}
-#+latex_header: \hypersetup{colorlinks,linkcolor=white,urlcolor=blue}
-#+LaTeX_header: \usepackage{textpos}
-#+LaTeX_header: \usepackage{textgreek}
-#+LaTeX_header: \usepackage[version=4]{mhchem}
-#+LaTeX_header: \usepackage{chemfig}
-#+LaTeX_header: \usepackage{siunitx}
-#+LaTeX_header: \usepackage{gensymb}
-#+LaTex_HEADER: \usepackage[usenames,dvipsnames]{xcolor}
-#+LaTeX_HEADER: \usepackage[T1]{fontenc}
-#+LaTeX_HEADER: \usepackage{lmodern}
-#+LaTeX_HEADER: \usepackage{verbatim}
-#+LaTeX_HEADER: \usepackage{tikz}
-#+LaTeX_HEADER: \usepackage{wasysym}
-#+LaTeX_HEADER: \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
-:END:
-
-#+BEGIN_EXPORT LaTeX
-%\logo{\includegraphics[width=1cm,height=1cm,keepaspectratio]{../logos/NSO_logo_small.pdf}~%
-%    \includegraphics[width=1cm,height=1cm,keepaspectratio]{../logos/UOlogoBW.eps}%
-%}
-
-\vspace{220pt}
-\beamertemplatenavigationsymbolsempty
-\setbeamertemplate{caption}[numbered]
-\setbeamerfont{caption}{size=\tiny}
-% \addtobeamertemplate{frametitle}{}{%
-% \begin{textblock*}{100mm}(.85\textwidth,-1cm)
-% \includegraphics[height=1cm,width=2cm]{cat}
-% \end{textblock*}}
-#+END_EXPORT 
-
 * Introduction
 ** Carbohydrate Digestion
 #+CAPTION[]:Carbohydrate Digestions

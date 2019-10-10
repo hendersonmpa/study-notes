@@ -10,9 +10,9 @@ $(OUT_DIR)faod.pdf: ./faod/fao/fao.org ./faod/faod_routine_testing/faod_routine_
 	emacs -u "$(id -un)" \
 	--batch \
 	--eval '(load user-init-file)' \
-	faod.org \
+	./faod/faod.org \
 	-f org-latex-export-to-pdf
-	mv -v faod.pdf $(OUT_DIR)faod.pdf
+	mv -v ./faod/faod.pdf $(OUT_DIR)faod.pdf
 
 
 $(OUT_DIR)lysosomal_storage_disease.pdf: ./lsd/fabry/fabry.org ./lsd/gaucher/gaucher.org \
@@ -21,9 +21,9 @@ $(OUT_DIR)lysosomal_storage_disease.pdf: ./lsd/fabry/fabry.org ./lsd/gaucher/gau
 	emacs -u "$(id -un)" \
 	--batch \
 	--eval '(load user-init-file)' \
-	lysosomal_storage_disease.org \
+	./lsd/lysosomal_storage_disease.org \
 	-f org-latex-export-to-pdf
-	mv -v lysosomal_storage_disease.pdf $(OUT_DIR)lysosomal_storage_disease.pdf
+	mv -v ./lsd/lysosomal_storage_disease.pdf $(OUT_DIR)lysosomal_storage_disease.pdf
 
 
 $(OUT_DIR)mitochondrial_disease.pdf: ./mitochondria/etc/etc.org ./mitochondria/mitochondria/mitochondria.org \
@@ -31,18 +31,18 @@ $(OUT_DIR)mitochondrial_disease.pdf: ./mitochondria/etc/etc.org ./mitochondria/m
 	emacs -u "$(id -un)" \
 	--batch \
 	--eval '(load user-init-file)' \
-	mitochondrial_disease.org \
+	./mitochondria/mitochondrial_disease.org \
 	-f org-latex-export-to-pdf
-	mv -v mitochondrial_disease.pdf $(OUT_DIR)mitochondrial_disease.pdf
+	mv -v mitochondria/mitochondrial_disease.pdf $(OUT_DIR)mitochondrial_disease.pdf
 
 $(OUT_DIR)urea_cycle.pdf: ./urea_cycle/ammonia/ammonia.org ./urea_cycle/otc_diag/otc_diag.org \
 ./urea_cycle/ucd_nbs/ucd_nbs.org 
 	emacs -u "$(id -un)" \
 	--batch \
 	--eval '(load user-init-file)' \
-	urea_cycle.org \
+	./urea_cycle/urea_cycle.org \
 	-f org-latex-export-to-pdf
-	mv -v urea_cycle.pdf $(OUT_DIR)urea_cycle.pdf
+	mv -v ./urea_cycle/urea_cycle.pdf $(OUT_DIR)urea_cycle.pdf
 
 clean :
 	rm -f *.tex

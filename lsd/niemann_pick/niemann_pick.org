@@ -1,5 +1,4 @@
 #+TITLE: Niemann-Pick Disease
-#+SUBTITLE: Sphingolipid and Cholesterol Degradation
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
@@ -27,12 +26,12 @@
 #+CAPTION[]:Sphingomyelin
 #+NAME: fig:sphingomyelin
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./lsd/niemann_pick/figures/sphingomyelin.png]]
+[[file:./niemann_pick/figures/sphingomyelin.png]]
 
 #+CAPTION[]: Sphingomyelinase
 #+NAME: fig:sphingomyelinase
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./lsd/niemann_pick/figures/sphingomyelinase.png]]
+[[file:./niemann_pick/figures/sphingomyelinase.png]]
 
 
 ** Sphingolipid degradation
@@ -40,7 +39,7 @@
 #+CAPTION[]:Sphingolipid degradation
 #+NAME: fig:sld
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./lsd/niemann_pick/figures/sl_degradation.png]]
+[[file:./niemann_pick/figures/sl_degradation.png]]
 
 ** Niemann-Pick C
 - a fatal, neuro-degenerative disease that affects ~ 1:150,000
@@ -64,7 +63,7 @@
 #+CAPTION[]: Cholesterol Transport
 #+NAME: fig:
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./lsd/niemann_pick/figures/cholesterol1.jpg]]
+[[file:./niemann_pick/figures/cholesterol1.jpg]]
 
 
 ** NPC1 & NPC2
@@ -72,7 +71,7 @@
 #+CAPTION[]: NPC1 & NPC2
 #+NAME: fig:npc
 #+ATTR_LaTeX: :width 0.65\textwidth
-[[file:./lsd/niemann_pick/figures/Niemann-Pick-C-Brown-and-Goldstein.png]]
+[[file:./niemann_pick/figures/Niemann-Pick-C-Brown-and-Goldstein.png]]
 
 - NPC1 is a lysosomal membrane protein involved in transport in the endosomal-lysosomal system
 - NPC2 acts in cooperation with the NPC1
@@ -83,7 +82,7 @@
 #+CAPTION[]:Lysosomal protein trafficking receptors
 #+NAME: fig:traf
 #+ATTR_LaTeX: :width 0.65\textwidth
-[[file:./lsd/niemann_pick/figures/lysosome_trafficking.jpeg]]
+[[file:./niemann_pick/figures/lysosome_trafficking.jpeg]]
 
 - lysosomal trafficking of acid sphingomyelinase is mediated by sortilin and mannose 6-phosphate receptor.
 - MPR alone is sufficient to transport NPC2 to the endo/lysosomal compartment
@@ -192,7 +191,7 @@
 #+CAPTION[]: Klinke, G. Clin Biochem 2015
 #+NAME: fig:
 #+ATTR_LaTeX: :width 0.7\textwidth
-[[file:./lsd/niemann_pick/figures/biomarkers.jpg]]
+[[file:./niemann_pick/figures/biomarkers.jpg]]
 
 ** Biomarkers: lysosphingomylin
 
@@ -203,7 +202,7 @@
 #+CAPTION[]: Kuckar, L. Anal Biochem. 2017
 #+NAME: fig:
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./lsd/niemann_pick/figures/biomarkersII.jpg]]
+[[file:./niemann_pick/figures/biomarkersII.jpg]]
 
 ** Enzymology: Niemann-Pick A & B
 
@@ -217,7 +216,7 @@
 #+CAPTION[]: Foam cells in bone marrow
 #+NAME: fig:foam
 #+ATTR_LaTeX: :width 0.45\textwidth
-[[file:./lsd/niemann_pick/figures/foam_cells.png]]
+[[file:./niemann_pick/figures/foam_cells.png]]
 
 ** Niemann-Pick C
 - Filipin test
@@ -230,7 +229,7 @@
 #+CAPTION[]:Filipin staining (red:filipin, green:CellMask)
 #+NAME: fig:filipin
 #+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./lsd/niemann_pick/figures/filipin.png]]
+[[file:./niemann_pick/figures/filipin.png]]
 
 * Treatment
 ** Treatment: Niemann-Pick A&B 

@@ -63,7 +63,7 @@
 #+CAPTION[]:\beta-oxidation
 #+NAME: fig:bo
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[./faod/fao/figures/23_1.png]]
+[[./fao/figures/23_1.png]]
 
 1. Membrane transport
    - FaBP
@@ -77,13 +77,13 @@
 #+CAPTION[]:FA activation
 #+NAME: fig:activation
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[./faod/fao/figures/23_2.png]]
+[[./fao/figures/23_2.png]]
 
 ** Transport of Long-Chain Fatty Acids into Mitochondria
 #+CAPTION[]: Transport of Long-Chain Fatty Acids into Mitochondria
 #+NAME: fig:transport
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[./faod/fao/figures/23_5.png]]
+[[./fao/figures/23_5.png]]
 
   - chain length specificity
   - Organ and organelle specificity
@@ -126,14 +126,14 @@
 #+CAPTION[]:\beta-oxidation of Long-Chain Fatty Acids
 #+NAME: fig:bolc
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[./faod/fao/figures/23_7.png]]
+[[./fao/figures/23_7.png]]
 
 ** Oxidation of Unsaturated Fatty Acids
 
 #+CAPTION[]:Oxidation of Unsaturated Fatty Acids
 #+NAME: fig:bou 
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[./faod/fao/figures/23_9.png]]
+[[./fao/figures/23_9.png]]
 
 - isomerase and reductase change location of the double bonds
   - correct configuration for \Beta-oxidation
@@ -141,7 +141,7 @@
 #+CAPTION[]:Odd-Chain Length Fatty Acids
 #+NAME: fig:ocfa
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[./faod/fao/figures/23_10.png]]
+[[./fao/figures/23_10.png]]
 
 ** Oxidation of Medium-Chain Length Fatty Acids
 
@@ -186,7 +186,7 @@ pyruvate-stimulated insulin release despite ensuing hypoglycemia
 #+CAPTION[]:Regulation of \beta-oxidation
 #+NAME: fig:reg
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[./faod/fao/figures/23_12.png]]
+[[./fao/figures/23_12.png]]
 
 1. Lipolysis or gut
 2. Regulation of CPT1 activity
@@ -199,7 +199,7 @@ pyruvate-stimulated insulin release despite ensuing hypoglycemia
 #+CAPTION[]:Peroxisomal Oxidation of Fatty Acids 
 #+NAME: fig:perox
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[./faod/fao/figures/23_14.png]]
+[[./fao/figures/23_14.png]]
 
 - very long chain FA C24-26 mandatory
 - long chain optional
@@ -209,14 +209,14 @@ pyruvate-stimulated insulin release despite ensuing hypoglycemia
 #+CAPTION[]:First Step of Oxidation of Fatty Acids 
 #+NAME: fig:first
 #+ATTR_LaTeX: :width 0.3\textwidth
-[[file:./faod/fao/figures/23_13.png]]
+[[file:./fao/figures/23_13.png]]
 
 ** Long-Chain Branched-Chain Fatty Acids
 
 #+CAPTION[]:Long-Chain Branched-Chain Fatty Acids
 #+NAME: fig:lcfa
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[./faod/fao/figures/ff22.png]]
+[[./fao/figures/ff22.png]]
 
 - \alpha-oxidation of phytanic acid takes place in peroxisomes.
 - Pristanic acid can then undergo \beta-oxidation.
@@ -227,7 +227,7 @@ pyruvate-stimulated insulin release despite ensuing hypoglycemia
 #+CAPTION[]:\omega-Oxidation of Fatty Acids
 #+NAME: fig:omego
 #+ATTR_LaTeX: :width 0.3\textwidth
-[[./faod/fao/figures/23_16.png]]
+[[./fao/figures/23_16.png]]
 
 - occurs in the ER
 - the \omega-carbon is oxidized to an alcohol

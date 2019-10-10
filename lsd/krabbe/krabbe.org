@@ -1,5 +1,4 @@
 #+TITLE: Krabbe Disease
-#+SUBTITLE: Disorders of Sphingolipid Degradation
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
@@ -21,7 +20,7 @@
 #+CAPTION[]:Galactocerebrosidase
 #+NAME: fig:bgal
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./lsd/krabbe/figures/beta-galactosidase.png]]
+[[file:./krabbe/figures/beta-galactosidase.png]]
 
 - Galactocerebrosidase is a lysosomal enzyme
 - Hydrolyzes the galactose ester bonds of galactocerebroside, galactosylsphingosine, lactosylceramide, and monogalactosyldiglyceride.
@@ -42,14 +41,14 @@
 #+CAPTION[]:Sphingolipid degradation
 #+NAME: fig:sld
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./lsd/krabbe/figures/sl_degradation.png]]
+[[file:./krabbe/figures/sl_degradation.png]]
 
 ** Lysosomal Protein Trafficking
 
 #+CAPTION[]:Lysosomal protein trafficking receptors
 #+NAME: fig:traf
 #+ATTR_LaTeX: :width 0.65\textwidth
-[[file:./lsd/krabbe/figures/lysosome_trafficking.jpeg]]
+[[file:./krabbe/figures/lysosome_trafficking.jpeg]]
 
 \footnotesize
 - lysosomal trafficking of galactocerebrosidase by the mannose 6-phosphate receptor.
@@ -128,7 +127,7 @@
 #+CAPTION[]:NBS follow-up at Mayo
 #+NAME: fig:
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./lsd/krabbe/figures/NBS_follow_up.png]]
+[[file:./krabbe/figures/NBS_follow_up.png]]
 
 
 * Laboratory Investigations

@@ -10,7 +10,7 @@
 #+CAPTION[]:Sphingolipid degradation
 #+NAME: fig:sld
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./lsd/GM1_2/figures/sl_degradation.png]]
+[[file:./GM1_2/figures/sl_degradation.png]]
 
 ** GM1 Gangliosidosis
 - Defect in \beta-gangliosidase
@@ -31,7 +31,7 @@
 #+CAPTION[]: \beta-galactosidase
 #+NAME: fig:bgal
 #+ATTR_LaTeX: :width 0.7\textwidth
-[[file:./lsd/GM1_2/figures/bgalatosidase.png]]
+[[file:./GM1_2/figures/bgalatosidase.png]]
 
 
 ** Lysosomal multi-enzyme complex
@@ -52,7 +52,7 @@
   plasma membrane
 #+NAME: fig:lmc
 #+ATTR_LaTeX: :width \textwidth
-[[file:./lsd/GM1_2/figures/lmc.jpg]]
+[[file:./GM1_2/figures/lmc.jpg]]
 
 ** GM2 Gangliosidosis
 - Three genetic and biochemical subtypes
@@ -96,7 +96,7 @@
 #+CAPTION[]:Hexosaminidase A
 #+NAME: fig:hexa
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./lsd/GM1_2/figures/hexosaminidasea.png]]
+[[file:./GM1_2/figures/hexosaminidasea.png]]
 
 
 ** Hexosaminidase A & B: Sandhoff disease
@@ -104,7 +104,7 @@
 #+CAPTION[]:Hexosaminidase A & B
 #+NAME: fig:hexb
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./lsd/GM1_2/figures/hexosaminidaseab.png]]
+[[file:./GM1_2/figures/hexosaminidaseab.png]]
 
 
 ** Lysosomal Trafficking
@@ -112,7 +112,7 @@
 #+CAPTION[]:Lysosomal protein trafficking receptors
 #+NAME: fig:traf
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./lsd/GM1_2/figures/lysosome_trafficking.jpeg]]
+[[file:./GM1_2/figures/lysosome_trafficking.jpeg]]
 
 \footnotesize
 - \beta-galactosidase, hexoaminidase A and B require the M6P-receptor

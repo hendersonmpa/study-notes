@@ -41,7 +41,7 @@
 #+CAPTION[Protein trafficking to lysosomes]:Protein trafficking to lysosomes
 #+NAME: fig:traffic
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./lsd/mucolipidosis/figures/lysosome_traffic.jpg]]
+[[file:./mucolipidosis/figures/lysosome_traffic.jpg]]
 
 - ML II and III are due to incorrect protein trafficking to lysosomes
 
@@ -50,7 +50,7 @@
 #+CAPTION[N-acetylglucosamine (GlcNAc) phosphotransferase]:N-acetylglucosamine (GlcNAc) phosphotransferase
 #+NAME: fig:biochem
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./lsd/mucolipidosis/figures/ml_defect.png]]
+[[file:./mucolipidosis/figures/ml_defect.png]]
 
 ** ML II & III Biochemical Defect
 - Characterized by deficient activity of a large number of lysosomal enzymes:
@@ -70,7 +70,7 @@
 #+CAPTION[]:I cell in fibroblast culture
 #+NAME: fig:icell
 #+ATTR_LaTeX: :height 0.65\textheight
-[[file:./lsd/mucolipidosis/figures/icell.png]]
+[[file:./mucolipidosis/figures/icell.png]]
 
 - oligosaccharides, lipids, and glycosaminoglycan inclusions in lysosomes
 

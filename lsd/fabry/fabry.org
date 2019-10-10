@@ -23,20 +23,20 @@
 #+CAPTION[Sphingolipid degradation]:Sphingolipid degradation
 #+NAME: fig:sld
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./lsd/fabry/figures/sl_degradation.png]]
+[[file:./fabry/figures/sl_degradation.png]]
 
 
 **  Globotriaosylceramide (Gb3): the Fabry lipid
 #+CAPTION[Globotriaosylceramide]: Globotriaosylceramide
 #+NAME: fig:galac 
 #+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./lsd/fabry/figures/globotriaosylceramide.png]]
+[[file:./fabry/figures/globotriaosylceramide.png]]
 
 ** \alpha-galactosidase A
 #+CAPTION[\alpha-galactosidase A]:\alpha-galactosidase A
 #+NAME: fig:sidase
 #+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./lsd/fabry/figures/galactosidaseA.png]]
+[[file:./fabry/figures/galactosidaseA.png]]
 
 - Located in the lumen of lysosomes
 
@@ -45,7 +45,7 @@
 #+CAPTION[Lysosomal protein trafficking receptors]:Lysosomal protein trafficking receptors
 #+NAME: fig:traf
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./lsd/fabry/figures/lysosome_trafficking.jpeg]]
+[[file:./fabry/figures/lysosome_trafficking.jpeg]]
 
 - \alpha-galactosidase A uses both sortilin and mannose receptor
   - Not affected in ML II & III
@@ -102,7 +102,7 @@
 #+CAPTION[Angiokeratomas of the skin]:Angiokeratomas of the skin
 #+NAME: fig:skin
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./lsd/fabry/figures/angiokeratomas.png]]
+[[file:./fabry/figures/angiokeratomas.png]]
 
 - prominent on hip, buttocks and scrotum
 
@@ -128,7 +128,7 @@
 #+CAPTION[Fabry EM]:EM showing concentric or lamellar structure of lysosomal inclusions in Fabry disease renal biopsy
 #+NAME: fig:biopsy
 #+ATTR_LaTeX: :width 0.7\textwidth
-[[file:./lsd/fabry/figures/Fabrys-disease.jpg]]
+[[file:./fabry/figures/Fabrys-disease.jpg]]
 
 * Treatment
 

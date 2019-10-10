@@ -2,54 +2,6 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
-:PROPERTIES:
-#+DRAWERS: PROPERTIES
-#+LaTeX_CLASS: beamer
-#+LaTeX_CLASS_OPTIONS: [presentation, smaller]
-#+BEAMER_THEME: Hannover
-#+BEAMER_COLOR_THEME: whale
-#+COLUMNS: %40ITEM %10BEAMER_env(Env) %9BEAMER_envargs(Env Args) %4BEAMER_col(Col) %10BEAMER_extra(Extra)
-#+OPTIONS: H:2 toc:nil ^:t
-#+PROPERTY: header-args:R :session *R*
-#+PROPERTY: header-args :cache no
-#+PROPERTY: header-args :tangle yes
-#+STARTUP: beamer
-#+STARTUP: overview
-#+STARTUP: indent
-# #+BEAMER_HEADER: \subtitle{Part 1: Maple Syrup Urine Diseas}
-#+BEAMER_HEADER: \institute[NSO]{Newborn Screening Ontario | The University of Ottawa}
-#+BEAMER_HEADER: \titlegraphic{\includegraphics[height=1cm,keepaspectratio]{../logos/NSO_logo.pdf}\includegraphics[height=1cm,keepaspectratio]{../logos/cheo-logo.png} \includegraphics[height=1cm,keepaspectratio]{../logos/UOlogoBW.eps}}
-#+latex_header: \hypersetup{colorlinks,linkcolor=white,urlcolor=blue}
-#+LaTeX_header: \usepackage{textpos}
-#+LaTeX_header: \usepackage{textgreek}
-#+LaTeX_header: \usepackage[version=4]{mhchem}
-#+LaTeX_header: \usepackage{chemfig}
-#+LaTeX_header: \usepackage{siunitx}
-#+LaTeX_header: \usepackage{gensymb}
-#+LaTex_HEADER: \usepackage[usenames,dvipsnames]{xcolor}
-#+LaTeX_HEADER: \usepackage[T1]{fontenc}
-#+LaTeX_HEADER: \usepackage{lmodern}
-#+LaTeX_HEADER: \usepackage{verbatim}
-#+LaTeX_HEADER: \usepackage{tikz}
-#+LaTeX_HEADER: \usepackage{wasysym}
-#+LaTeX_HEADER: \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
-:END:
-
-#+BEGIN_EXPORT LaTeX
-%\logo{\includegraphics[width=1cm,height=1cm,keepaspectratio]{../logos/NSO_logo_small.pdf}~%
-%    \includegraphics[width=1cm,height=1cm,keepaspectratio]{../logos/UOlogoBW.eps}%
-%}
-
-\vspace{220pt}
-\beamertemplatenavigationsymbolsempty
-\setbeamertemplate{caption}[numbered]
-\setbeamerfont{caption}{size=\tiny}
-% \addtobeamertemplate{frametitle}{}{%
-% \begin{textblock*}{100mm}(.85\textwidth,-1cm)
-% \includegraphics[height=1cm,width=2cm]{cat}
-% \end{textblock*}}
-#+END_EXPORT 
-
 * Introduction
 ** Muscle and Cardiac Glycogenoses
 
@@ -70,29 +22,15 @@
 | Danon       | LAMP2                         | LAMP2  | cardiomyopathy, \pm skeletal myopathy |
 | AMPK        | AMP-Activated Protein Kinase  | PRKAG2 | cardiomyopathy, \pm skeletal myopathy |
 
-** COMMENT Glycogenoses
-
-#+CAPTION[Glycogenoses]:Glycogenoses
-#+NAME: fig:glyc
-#+ATTR_LaTeX: :width 0.75\textwidth
-[[file:./figures/gggmetab.png]]
 
 ** Muscle and Cardiac Glycogenoses
 
 #+CAPTION[Muscle and Cardiac Glycogenoses]:Muscle and Cardiac Glycogenoses
 #+NAME: fig:mcglyc
 #+ATTR_LaTeX: :width 0.75\textwidth
-[[file:./figures/gggmetab_muscle_cardiac.png]]
+[[file:./carbohydrate/muscle_cardiac_glycogenoses/figures/gggmetab_muscle_cardiac.png]]
 
 * GSD Type 0
-** GSD Type 0
-
-#+CAPTION[Muscle, Cardiac Glycogenoses]:Muscle, Cardiac Glycogenoses
-#+NAME: fig:hglyc
-#+ATTR_LaTeX: :width 0.75\textwidth
-[[file:./figures/gggmetab_muscle_cardiac.png]]
-
-
 ** GSD Type 0
 *** Metabolic Derangement
 - Deficiency in muscle glycogen synthase
@@ -111,13 +49,6 @@
 - \beta_1-receptor blockage for cardiac protection
 
 * GSD Type II (Pompe)
-** GSD Type II (Pompe)
-
-#+CAPTION[Muscle, Cardiac Glycogenoses]:Muscle, Cardiac Glycogenoses
-#+NAME: fig:hglyc
-#+ATTR_LaTeX: :width 0.75\textwidth
-[[file:./figures/gggmetab_muscle_cardiac.png]]
-
 ** Metabolic Derangement
 - Acid \alpha-glucosidase deficiency
 - accumulation of glycogen within the lysosomes
@@ -167,15 +98,7 @@
 - 1/3 of ERT treated were ventilator free
 - Better outcome if identified by NBS
 
-
 * GSD Type V
-** GSD Type V
-
-#+CAPTION[Muscle, Cardiac Glycogenoses]:Muscle, Cardiac Glycogenoses
-#+NAME: fig:hglyc
-#+ATTR_LaTeX: :width 0.75\textwidth
-[[file:./figures/gggmetab_muscle_cardiac.png]]
-
 ** Metabolic Derangement
 - There are three isoforms of glycogen phosphorylase: brain/heart,
   liver and muscle, all encoded by different genes.
@@ -220,13 +143,6 @@
   - ingestion of oral sucrose
 * LAMP 2 Deficiency (Danon Disease)
 ** LAMP2 Deficiency (Danon Disease)
-
-#+CAPTION[Muscle, Cardiac Glycogenoses]:Muscle, Cardiac Glycogenoses
-#+NAME: fig:hglyc
-#+ATTR_LaTeX: :width 0.75\textwidth
-[[file:./figures/gggmetab_muscle_cardiac.png]]
-
-** LAMP2 Deficiency (Danon Disease)
 - Danon disease is a rare X-linked disorder
 - caused by a primary deficiency of lysosomal-associated membrane
   protein 2 (LAMP2).
@@ -237,12 +153,6 @@
 - consider cardiac transplantation
 
 * AMPK Deficiency
-** AMPK Deficiency
-#+CAPTION[Muscle, Cardiac Glycogenoses]:Muscle, Cardiac Glycogenoses
-#+NAME: fig:hglyc
-#+ATTR_LaTeX: :width 0.75\textwidth
-[[file:./figures/gggmetab_muscle_cardiac.png]]
-
 ** AMPK Deficiency
 - AMPK controls whole-body glucose homeostasis by regulating metabolism in multiple peripheral tissues, such as
   skeletal muscle, liver, adipose tissues, and pancreatic \beta-cells

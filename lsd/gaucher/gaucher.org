@@ -22,14 +22,14 @@
 #+CAPTION[]:Sphingolipid degradation
 #+NAME: fig:sld
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./lsd/gaucher/figures/sl_degradation.png]]
+[[file:./gaucher/figures/sl_degradation.png]]
 
 ** Glucocerebroside: the Gaucher lipid
 
 #+CAPTION[]:Glucocerebroside
 #+NAME: fig:gluc 
 #+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./lsd/gaucher/figures/glucocerebroside.png]]
+[[file:./gaucher/figures/glucocerebroside.png]]
 
 ** Glucocerebrosidase
 
@@ -37,7 +37,7 @@
 #+CAPTION[]:\beta-glucocerebrosidase
 #+NAME: fig:sidase
 #+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./lsd/gaucher/figures/glucocerebrosidase.png]]
+[[file:./gaucher/figures/glucocerebrosidase.png]]
 
 - Located in the lumen of lysosomes
 - LIMP-2 is responsible for mannose 6-phosphate receptor independent
@@ -82,7 +82,7 @@
 #+CAPTION[]: Gaucher Clinical Variants
 #+NAME: fig:variants
 #+ATTR_LaTeX: :width \textwidth
-[[file:./lsd/gaucher/figures/variants.png]]
+[[file:./gaucher/figures/variants.png]]
 
 = * Parkinson Disease, ** Myoclonic Seizures =
 ** Gaucher type 1
@@ -167,7 +167,7 @@
 #+CAPTION[]:Gaucher Cells
 #+NAME: fig:cells
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./lsd/gaucher/figures/Gaucher_Cells_with_Fibrillar_Appearing_Cytoplasm.jpg]]
+[[file:./gaucher/figures/Gaucher_Cells_with_Fibrillar_Appearing_Cytoplasm.jpg]]
 
 ** Biochemistry
 *** Enzyme Assay

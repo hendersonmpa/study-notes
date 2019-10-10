@@ -47,14 +47,14 @@
 #+CAPTION[Sphingolipid Structure]: Sphingolipid Structure
 #+NAME: fig:structure
 #+ATTR_LaTeX: :width \textwidth
-file:./lsd/sphingolipid_synthesis/figures/Sphingolipids_general_structures.png
+file:./sphingolipid_synthesis/figures/Sphingolipids_general_structures.png
 
 ** Sphingolipid Biosynthesis
 
 #+CAPTION[Sphingolipid Biosynthesis]: Sphingolipid Biosynthesis
 #+NAME: fig:structure
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./lsd/sphingolipid_synthesis/figures/synthesis.png]]
+[[file:./sphingolipid_synthesis/figures/synthesis.png]]
 
 * Disorders of Sphingolipid Synthesis
 ** Serine Palmitoyltransferase (Subunit 1 or 2) Deficiency

@@ -1,0 +1,228 @@
+#+TITLE: Disorders of Glycolysis and the Pentose Phosphate Pathway
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+:PROPERTIES:
+#+DRAWERS: PROPERTIES
+#+LaTeX_CLASS: beamer
+#+LaTeX_CLASS_OPTIONS: [presentation, smaller]
+#+BEAMER_THEME: Hannover
+#+BEAMER_COLOR_THEME: whale
+#+COLUMNS: %40ITEM %10BEAMER_env(Env) %9BEAMER_envargs(Env Args) %4BEAMER_col(Col) %10BEAMER_extra(Extra)
+#+OPTIONS: H:2 toc:nil ^:t
+#+PROPERTY: header-args:R :session *R*
+#+PROPERTY: header-args :cache no
+#+PROPERTY: header-args :tangle yes
+#+STARTUP: beamer
+#+STARTUP: overview
+#+STARTUP: indent
+# #+BEAMER_HEADER: \subtitle{Part 1: Maple Syrup Urine Diseas}
+#+BEAMER_HEADER: \institute[NSO]{Newborn Screening Ontario | The University of Ottawa}
+#+BEAMER_HEADER: \titlegraphic{\includegraphics[height=1cm,keepaspectratio]{../logos/NSO_logo.pdf}\includegraphics[height=1cm,keepaspectratio]{../logos/cheo-logo.png} \includegraphics[height=1cm,keepaspectratio]{../logos/UOlogoBW.eps}}
+#+latex_header: \hypersetup{colorlinks,linkcolor=white,urlcolor=blue}
+#+LaTeX_header: \usepackage{textpos}
+#+LaTeX_header: \usepackage{textgreek}
+#+LaTeX_header: \usepackage[version=4]{mhchem}
+#+LaTeX_header: \usepackage{chemfig}
+#+LaTeX_header: \usepackage{siunitx}
+#+LaTeX_header: \usepackage{gensymb}
+#+LaTex_HEADER: \usepackage[usenames,dvipsnames]{xcolor}
+#+LaTeX_HEADER: \usepackage[T1]{fontenc}
+#+LaTeX_HEADER: \usepackage{lmodern}
+#+LaTeX_HEADER: \usepackage{verbatim}
+#+LaTeX_HEADER: \usepackage{tikz}
+#+LaTeX_HEADER: \usepackage{wasysym}
+#+LaTeX_HEADER: \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
+:END:
+
+#+BEGIN_EXPORT LaTeX
+%\logo{\includegraphics[width=1cm,height=1cm,keepaspectratio]{../logos/NSO_logo_small.pdf}~%
+%    \includegraphics[width=1cm,height=1cm,keepaspectratio]{../logos/UOlogoBW.eps}%
+%}
+
+\vspace{220pt}
+\beamertemplatenavigationsymbolsempty
+\setbeamertemplate{caption}[numbered]
+\setbeamerfont{caption}{size=\tiny}
+% \addtobeamertemplate{frametitle}{}{%
+% \begin{textblock*}{100mm}(.85\textwidth,-1cm)
+% \includegraphics[height=1cm,width=2cm]{cat}
+% \end{textblock*}}
+#+END_EXPORT 
+
+* Introduction
+** Glycolysis 
+- Glycolysis is an oxygen-independent metabolic pathway
+  - converts each molecule of glucose to two of pyruvate.
+  - consists of two phases and ten steps.
+- The first five steps are the preparatory phase,
+  - consumes ATP to convert glucose into two, three-carbon sugar
+    phosphate molecules.
+- In the other five steps ATP and NADH are produced
+
+** Pentose Phosphate Pathway
+*** Oxidative Phase
+- glucose 6-P \to NADPH + ribose 5-P
+- Glucose 6-P dehydrogenase catalyses first step
+- NADPH is for reducing reactions
+  - NADPH/NADP^{+} \gt\gt\gt NADH/NAD^{+}
+  - NADH is rapidly converted to NAD^{+} in the ETC
+*** Non-oxidative Phase
+- reversible rxns
+- convert glycolytic intermediates to 5 carbon sugars
+** Pentose Phosphate Pathway
+
+
+- Ribose-5-P required for purine and pyrimidine synthesis
+- NADPH required for detoxification and synthetic reaction
+  - Detoxification
+    - Reduction of oxidized glutathione
+    - Cytochrome p450 monoxygenases
+  - Synthetic reactions
+    - FA synthesis
+    - Cholesterol 
+    - neurotransmitters
+    - deoxynucleotide
+    - superoxide
+
+** Glycolysis and PPP
+
+#+CAPTION[]:Glycolysis and PPP
+#+NAME: fig:glyc_ppp
+#+ATTR_LaTeX: :width 1\textwidth
+[[file:./figures/glyc_ppp.png]]
+
+* Disorders
+** Glycolysis Disorders
+- Glycolysis is the most important source of energy in erythrocytes
+  and in some types of skeletal muscle fibres
+
+  - \therefore IMD of glycolysis are mainly characterized by hemolytic
+    anaemia \pm metabolic myopathy.
+
+- Ten inborn errors of the glycolytic pathway are known,
+  - 8 inherited as an autosomal recessive trait
+  - X-linked phosphoglycerate kinase and glycerol kinase deficiencies.
+
+- Hexokinase (HK), glucose-6-phosphate isomerase (GPI) and pyruvate
+  kinase (PKD) deficiencies cause severe haemolytic anaemia.
+
+- Muscle phosphofructokinase (PFKM), aldolase A, triosephosphate
+  isomerase (TPI) and phosphoglycerate kinase (PGK) deficiencies are
+  characterized by haemolytic anaemia alone or coupled with
+  neurological disease and/or myopathy.
+
+** Glycolysis Disorders
+- Phosphoglycerate mutase (PGAM), enolase and lactate dehydrogenase
+  (LDH) deficiencies present with a purely myopathic syndrome
+  - characterized by exercise induced cramps and myoglobinuria.
+
+- Glycerol kinase deficiency (GKD) is either an isolated condition
+  with hypoglycaemia and acidosis or part of a contiguous
+  gene deletion where it also associated with congenital adrenal
+  hypoplasia and/or Duchenne muscular dystrophy.
+
+- Glucose-6-phosphate can also be formed by the conversion of the
+  glycogen derived glucose-1-phosphate, a reaction catalysed by
+  phosphoglucomutase (PGM). PGM1 deficiency is a CDG
+
+** PPP Disorders
+
+- Four inborn errors in the pentose phosphate pathway (PPP) are known.
+- Glucose-6-phosphate dehydrogenase deficiency is an X-linked defect
+  in the first, irreversible step of the pathway.
+  - An exclusively haematological disorder.
+- Ribose-5-phosphate isomerase (RPI) deficiency has been described in one patient
+  - presented with developmental delay and a slowly progressive leukoencephalopathy.
+- Transaldolase (TALDO) deficiency often presents in the neonatal or
+  antenatal period with hepatosplenomegaly, \downarrow liver function,
+  hepatic fibrosis and anaemia.
+- Transketolase (TKT) deficiency presents with short stature,
+  developmental delay and congenital heart defects.
+
+** COMMENT PPP Disorders
+
+- Sedoheptulokinase (SHPK) deficiency, a defect related to the PPP has
+  been described as an isolated disorder and also as part of a 57-kb
+  deletion in nephropathic cystinosis.
+- Essential pentosuria is the result of a partial deficiency of L-xylulose reductase (xylitol dehydrogenase) an enzyme of the glucuronic acid pathway.
+  - Affected individuals excrete large amounts of L-xylulose in urine.
+  - benign disorder that occurs almost exclusively in Jewish people
+
+* The non-ischemic forearm exercise test
+** NIET in Myopathy
+
+|                    | Lactate               | Ammonia      |
+|--------------------+-----------------------+--------------|
+| GSD I              | N                     | N            |
+| GSD III (L&M)      | \downarrow \downarrow | N/\uparrow   |
+| GSD V              | \downarrow \downarrow | N/\uparrow   |
+| *GSD VII (PFK)*    | \downarrow \downarrow | N/\uparrow   |
+| *GSD IX (PGK)*     | \downarrow \downarrow | N/\uparrow   |
+| *GSD X (PGAM)*     | \downarrow            | N/\uparrow   |
+| Alcoholic myopathy | N                     | N            |
+| CFS                | N                     | N            |
+| Poor effort        | N/\downarrow          | N/\downarrow |
+
+** NIET Method
+
+#+CAPTION[]:NIET Method
+#+NAME: fig:me
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/niet_method.png]]
+
+
+** Exercising Muscle: Lactate
+- Lactate, ammonia and purine compounds are generated by exercising muscle.
+- Exercising muscle generates lactic acid from the anaerobic breakdown
+  of glycogen to pyruvate
+  - \ce{pyruvate \to lactate}
+- Lactate enters the circulation and is converted back to pyruvate in the liver.
+
+#+CAPTION[]:LDH
+#+NAME: fig:ldh
+#+ATTR_LaTeX: :width 0.5\textwidth
+[[file:./figures/Lactate_dehydrogenase_mechanism.png]]
+
+** Exercising Muscle: ATP
+
+- Some ATP regeneration is provided by glycolytic metabolism of fuels,
+  but this is relatively slow
+- Most ATP regeneration relys on creatine kinase catalysed transfer of
+  phosphate from phosphocreatine.
+
+  - \ce{phosphocreatine + ADP ->[CK] creatine + ATP}
+
+- adenylatekinase transphosphorylates ATP to be regenerated with the formation
+  of AMP
+
+  - \ce{2ADP ->[ADK] ATP + AMP}
+
+- AMP deaminase
+  - \ce{AMP ->[AMPD] IMP + NH4+}
+
+- IMP degraded to hypoxanthine
+- recycled back to AMP in the purine nucleotide cycle.
+
+** Exercising Muscle: Ammonia
+- Most ammonia produced by exercising muscle removed by formation of glutamine
+  - ultimately excreted as urea
+
+#+CAPTION[gln]: Glutamine and Ammonia
+#+NAME: fig:gln
+#+ATTR_LaTeX: :width 0.6\textwidth
+[[file:./figures/nitrogen_glutamine.png]]
+
+- Some ammonia is released by exercising skeletal muscle directly into the circulation
+  - removed with a half-life of 20\pm30 min.
+- In resting skeletal muscle ammonia is consumed rather than produced
+- ~50% of arterial ammonia can be taken up and metabolized by skeletal muscle.
+
+** Interpretation
+
+#+CAPTION[interp]:NIET Results 
+#+NAME: fig:results
+#+ATTR_LaTeX: :width .8\textheight
+[[file:./figures/niet_results.png]]
+
+

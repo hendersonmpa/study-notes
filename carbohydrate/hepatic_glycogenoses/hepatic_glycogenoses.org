@@ -2,53 +2,6 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
-:PROPERTIES:
-#+DRAWERS: PROPERTIES
-#+LaTeX_CLASS: beamer
-#+LaTeX_CLASS_OPTIONS: [presentation, smaller]
-#+BEAMER_THEME: Hannover
-#+BEAMER_COLOR_THEME: whale
-#+COLUMNS: %40ITEM %10BEAMER_env(Env) %9BEAMER_envargs(Env Args) %4BEAMER_col(Col) %10BEAMER_extra(Extra)
-#+OPTIONS: H:2 toc:nil ^:t
-#+PROPERTY: header-args:R :session *R*
-#+PROPERTY: header-args :cache no
-#+PROPERTY: header-args :tangle yes
-#+STARTUP: beamer
-#+STARTUP: overview
-#+STARTUP: indent
-# #+BEAMER_HEADER: \subtitle{Part 1: Maple Syrup Urine Diseas}
-#+BEAMER_HEADER: \institute[NSO]{Newborn Screening Ontario | The University of Ottawa}
-#+BEAMER_HEADER: \titlegraphic{\includegraphics[height=1cm,keepaspectratio]{../logos/NSO_logo.pdf}\includegraphics[height=1cm,keepaspectratio]{../logos/cheo-logo.png} \includegraphics[height=1cm,keepaspectratio]{../logos/UOlogoBW.eps}}
-#+latex_header: \hypersetup{colorlinks,linkcolor=white,urlcolor=blue}
-#+LaTeX_header: \usepackage{textpos}
-#+LaTeX_header: \usepackage{textgreek}
-#+LaTeX_header: \usepackage[version=4]{mhchem}
-#+LaTeX_header: \usepackage{chemfig}
-#+LaTeX_header: \usepackage{siunitx}
-#+LaTeX_header: \usepackage{gensymb}
-#+LaTex_HEADER: \usepackage[usenames,dvipsnames]{xcolor}
-#+LaTeX_HEADER: \usepackage[T1]{fontenc}
-#+LaTeX_HEADER: \usepackage{lmodern}
-#+LaTeX_HEADER: \usepackage{verbatim}
-#+LaTeX_HEADER: \usepackage{tikz}
-#+LaTeX_HEADER: \usepackage{wasysym}
-#+LaTeX_HEADER: \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
-:END:
-
-#+BEGIN_EXPORT LaTeX
-%\logo{\includegraphics[width=1cm,height=1cm,keepaspectratio]{../logos/NSO_logo_small.pdf}~%
-%    \includegraphics[width=1cm,height=1cm,keepaspectratio]{../logos/UOlogoBW.eps}%
-%}
-
-\vspace{220pt}
-\beamertemplatenavigationsymbolsempty
-\setbeamertemplate{caption}[numbered]
-\setbeamerfont{caption}{size=\tiny}
-% \addtobeamertemplate{frametitle}{}{%
-% \begin{textblock*}{100mm}(.85\textwidth,-1cm)
-% \includegraphics[height=1cm,width=2cm]{cat}
-% \end{textblock*}}
-#+END_EXPORT 
 
 * Introduction
 
@@ -85,15 +38,7 @@
 #+ATTR_LaTeX: :width 0.75\textwidth
 [[file:./figures/gggmetab_hepatic.png]]
 
-
 * GSD Type 0
-** GSD Type 0
-
-#+CAPTION[Hepatic Glycogenoses]:Hepatic Glycogenoses
-#+NAME: fig:hglyc
-#+ATTR_LaTeX: :width 0.75\textwidth
-[[file:./figures/gggmetab_hepatic.png]]
-
 ** Metabolic Derangement
 - Deficiency in hepatic glycogen synthase (GS2)
 - Very low liver glycogen
@@ -115,13 +60,6 @@
 - avoid fasting
 - uncooked cornstarch prior to overnight fast and during infections
 * GSD Type I
-** GSD Type I
-
-#+CAPTION[Hepatic Glycogenoses]:Hepatic Glycogenoses
-#+NAME: fig:hglyc
-#+ATTR_LaTeX: :width 0.75\textwidth
-[[file:./figures/gggmetab_hepatic.png]]
-
 ** Metabolic Derangement
 - GSD Ia, glucose 6 phosphatase-\alpha
 - GSD Ib, glucose 6 phosphate transporter
@@ -167,13 +105,6 @@
   - bone disease
 
 * GSD Type III
-** GSD Type III
-
-#+CAPTION[Hepatic Glycogenoses]:Hepatic Glycogenoses
-#+NAME: fig:hglyc
-#+ATTR_LaTeX: :width 0.75\textwidth
-[[file:./figures/gggmetab_hepatic.png]]
-
 ** Metabolic Derangement
 - Glycogen debrancher enzyme (GDE) deficiency
 - has both glucosidase and transferase activity
@@ -212,13 +143,6 @@
 - Long term outcome for individuals with GSD III is generally good
   with survival into adulthood.
 * GSD Type IV
-** GSD Type IV
-
-#+CAPTION[Hepatic Glycogenoses]:Hepatic Glycogenoses
-#+NAME: fig:hglyc
-#+ATTR_LaTeX: :width 0.75\textwidth
-[[file:./figures/gggmetab_hepatic.png]]
-
 ** Metabolic Derangement
 - GSD IV is caused by deficiency in glycogen brancher enzyme (GBE).
 - GBE transfers short glucosyl chains to form branch points with an
