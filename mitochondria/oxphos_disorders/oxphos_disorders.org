@@ -187,7 +187,7 @@
 #+CAPTION[rrf]:Ragged red fibers - Gomori stain
 #+NAME: fig:rrf
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./mitochondria/oxphos_disorders/figures/Ragged_red_fibers_in_MELAS.jpg]]
+[[file:./oxphos_disorders/figures/Ragged_red_fibers_in_MELAS.jpg]]
 
 ** Molecular
   - no strict relation between phenotype and genotype.

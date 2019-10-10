@@ -24,13 +24,13 @@
 #+NAME: fig:mito
 #+ATTR_LaTeX: :width 0.8\textwidth
 
-[[file:./mitochondria/mitochondria/figures/Mitochondrion_mini.png]]
+[[file:./figures/Mitochondrion_mini.png]]
 
 
 #+CAPTION[hela]:HeLa Cells mtGFP 
 #+NAME: fig:hela
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./mitochondria/mitochondria/figures/HeLa_mtGFP.jpg]]
+[[file:./mitochondria/figures/HeLa_mtGFP.jpg]]
 
 ** Maternal Inheritance
 - Mitochondria and therefore the mtDNA, usually come from the egg
@@ -50,7 +50,7 @@ https://en.wikipedia.org/wiki/Heteroplasmy#/media/File:Mitochondrial_Bottleneck.
 #+CAPTION[mom]:Maternal Inheritance
 #+NAME: fig:mom
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./mitochondria/mitochondria/figures/Mitochondrial_Bottleneck.png]]
+[[file:./mitochondria/figures/Mitochondrial_Bottleneck.png]]
 
 ** Heteroplasmy
 
@@ -84,7 +84,7 @@ https://en.wikipedia.org/wiki/Heteroplasmy#/media/File:Mitochondrial_Bottleneck.
 #+CAPTION[heter]:heteroplasmy
 #+NAME: fig:heter
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./mitochondria/mitochondria/figures/heteroplasmy.png]]
+[[file:./mitochondria/figures/heteroplasmy.png]]
 
 
 - Applies to entities undergoing uniparental inheritance and with little to no
@@ -99,7 +99,7 @@ https://en.wikipedia.org/wiki/Heteroplasmy#/media/File:Mitochondrial_Bottleneck.
 #+CAPTION[bottle]:Mitochondrial bottle neck
 #+NAME: fig:bottle
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./mitochondria/mitochondria/figures/bottle_neck.jpg]]
+[[file:./mitochondria/figures/bottle_neck.jpg]]
 
 ** Fusion
 - response to cellular stress
@@ -114,7 +114,7 @@ https://en.wikipedia.org/wiki/Heteroplasmy#/media/File:Mitochondrial_Bottleneck.
 #+CAPTION[fusion]:Mitochondrial fusion
 #+NAME: fig:fusion
 #+ATTR_LaTeX: :width 1\textwidth
-[[file:./mitochondria/mitochondria/figures/nrm1125-f1.jpg]]
+[[file:./mitochondria/figures/nrm1125-f1.jpg]]
 
 ** Replication and Fission
 
@@ -139,7 +139,7 @@ https://en.wikipedia.org/wiki/Heteroplasmy#/media/File:Mitochondrial_Bottleneck.
 #+CAPTION[mtdna]: Human mitochondrial genome
 #+NAME: fig:mtdna
 #+ATTR_LaTeX: :width 1\textwidth
-[[file:./mitochondria/mitochondria/figures/mitochondrial_genome.png]]
+[[file:./mitochondria/figures/mitochondrial_genome.png]]
 
 ** Alternative genetic code
 
@@ -171,7 +171,7 @@ https://en.wikipedia.org/wiki/Heteroplasmy#/media/File:Mitochondrial_Bottleneck.
 #+NAME: fig:tca
 
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./mitochondria/mitochondria/figures/tca.png]]
+[[file:./mitochondria/figures/tca.png]]
 
 - oxidation of pyruvate \rightarrow 3 NADH, 1 \ce{FADH2}, and 1 GTP
 
@@ -192,7 +192,7 @@ https://en.wikipedia.org/wiki/Heteroplasmy#/media/File:Mitochondrial_Bottleneck.
     matrix to generate ATP from ADP and Pi.
 
 
-#+BEGIN_SRC dot :file ./mitochondria/mitochondria/figures/etc.pdf :cmdline -Kdot -Tpdf
+#+BEGIN_SRC dot :file ./mitochondria/figures/etc.pdf :cmdline -Kdot -Tpdf
   digraph {
            // graph from left to right
            rankdir=LR;
@@ -220,7 +220,7 @@ https://en.wikipedia.org/wiki/Heteroplasmy#/media/File:Mitochondrial_Bottleneck.
 #+END_SRC
 
 #+RESULTS:
-[[file:./mitochondria/mitochondria/figures/etc.pdf]]
+[[file:./mitochondria/figures/etc.pdf]]
 
 - Complex I (NADH coenzyme Q reductase) accepts electrons from the Krebs cycle electron carrier NADH
 - passes them to CoQ (ubiquinone; labeled Q),
@@ -234,7 +234,7 @@ https://en.wikipedia.org/wiki/Heteroplasmy#/media/File:Mitochondrial_Bottleneck.
 
 #+NAME: fig:atps
 #+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./mitochondria/mitochondria/figures/atp_synthase.jpg]]
+[[file:./mitochondria/figures/atp_synthase.jpg]]
 
 \centering
 #+BEGIN_EXPORT LaTeX
@@ -277,7 +277,7 @@ stage.
 #+CAPTION[rotation]:Boyer's Binding Change Mechanism
 #+NAME: fig:rot
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./mitochondria/mitochondria/figures/pressfig2.gif]]
+[[file:./mitochondria/figures/pressfig2.gif]]
 
 
 ** Ketogenesis 
@@ -287,7 +287,7 @@ stage.
 #+CAPTION[keto]:Ketogenesis
 #+NAME: fig:keto
 #+ATTR_LaTeX: :width 1\textwidth
-[[file:./mitochondria/mitochondria/figures/Ketogenesis.png]]
+[[file:./mitochondria/figures/Ketogenesis.png]]
 
 ** Ketolysis
 
@@ -313,11 +313,8 @@ stage.
 	   }    
 #+END_SRC
 
-#+RESULTS:
-[[file:./figures/keto.pdf]]
 
-
-[[file:./mitochondria/mitochondria/figures/keto.pdf]]
+[[file:./mitochondria/figures/keto.pdf]]
 
 - ketone bodies are a way to move energy from the liver to other cells.
 - The liver does not have the succinyl-CoA transferase, to metabolize ketone bodies

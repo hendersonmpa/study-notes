@@ -27,7 +27,7 @@
   - cytochrome c oxidase (complex IV).
   - also ETF-QO and mitochondrial GPD
 
-#+BEGIN_SRC dot :file ./mitochondria/etc/figures/etc.pdf :cmdline -Kdot -Tpdf
+#+BEGIN_SRC dot :file ./etc/figures/etc.pdf :cmdline -Kdot -Tpdf
   digraph {
            // graph from left to right
            rankdir=LR;
@@ -64,7 +64,7 @@
 #+END_SRC
 
 #+RESULTS:
-[[file:./mitochondria/etc/figures/etc.pdf]]
+[[file:./etc/figures/etc.pdf]]
 
 - Complex I (NADH coenzyme Q reductase) accepts electrons from the Krebs cycle electron carrier NADH
 - passes them to CoQ (ubiquinone; labeled Q),
@@ -77,21 +77,21 @@
 #+CAPTION[ETC]: Oxidative Phosphorylation, KEGG
 #+NAME: fig:oxpho
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./mitochondria/etc/figures/hsa00190.png]]
+[[file:./etc/figures/hsa00190.png]]
 
 ** Mega- Complex
 
 #+CAPTION[ETC mega complex]:ETC Mega Complex
 #+NAME: fig:mega
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./mitochondria/etc/figures/etc_supercomplex.jpg]]
+[[file:./etc/figures/etc_supercomplex.jpg]]
 
 ** Redox Potential and Free Energy in ETC
 
 #+CAPTION[redox]:Electron flow to O_2 and release free energy
 #+NAME: fig:redox
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./mitochondria/etc/figures/potential.png]]
+[[file:./etc/figures/potential.png]]
 
 * Complex I
 ** Complex I | NADH-ubiquinone oxidoreductase
@@ -116,7 +116,7 @@
      change allowing hydrogen ions to pass through four transmembrane
      helix channels.
 
-#+BEGIN_SRC dot :file ./mitochondria/etc/figures/c1.pdf :cmdline -Kdot -Tpdf
+#+BEGIN_SRC dot :file ./etc/figures/c1.pdf :cmdline -Kdot -Tpdf
   digraph {
            // graph from left to right
            rankdir=LR;
@@ -147,7 +147,7 @@
 #+CAPTION[c1]:Complex I
 #+NAME: fig:c1
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./mitochondria/etc/figures/CI.png]]
+[[file:./etc/figures/CI.png]]
 
 # https://upload.wikimedia.org/wikipedia/commons/4/42/NADH_Dehydrogenase_Mechanism_%28Fixed%29.png
 
@@ -190,7 +190,7 @@
 #+CAPTION[cII]:Complex II
 #+NAME: fig:cII
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./mitochondria/etc/figures/CII.png]]
+[[file:./etc/figures/CII.png]]
 
 ** Complex II Inhibitors
 
@@ -210,7 +210,7 @@
 #+CAPTION[g3ps]:Glycerol-3-phosphate shuttle
 #+NAME: fig:g3ps
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./mitochondria/etc/figures/GPDH_shuttle.png]]
+[[file:./etc/figures/GPDH_shuttle.png]]
 
 * Electron Transferring Flavoprotein/ Dehydrogenase
 ** Electron Transferring Flavoprotein/ Dehydrogenase
@@ -263,7 +263,7 @@
 #+CAPTION[cIII]: Complex III two step reaction 
 #+NAME: fig:cIII
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./mitochondria/etc/figures/CIII.png]]
+[[file:./etc/figures/CIII.png]]
 
 ** Complex III Inhibitors
 
@@ -301,7 +301,7 @@
 #+CAPTION[cIV]:Complex IV
 #+NAME: fig:cIV
 #+ATTR_LaTeX: :width 0.7\textwidth
-[[file:./mitochondria/etc/figures/CIV.png]]
+[[file:./etc/figures/CIV.png]]
 
 ** Complex IV | Inhibitors
 
@@ -371,7 +371,7 @@ stage.
 
 #+NAME: fig:atps
 #+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./mitochondria/etc/figures/atp_synthase.jpg]]
+[[file:./etc/figures/atp_synthase.jpg]]
 
 
 #+BEGIN_EXPORT LaTeX

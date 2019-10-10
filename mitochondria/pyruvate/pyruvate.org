@@ -16,14 +16,14 @@
 #+CAPTION[TCA]:Tricarboxylic Acid Cycle
 #+NAME: fig:tca
 #+ATTR_LaTeX: :width 0.7\textwidth
-[[file:./mitochondria/pyruvate/figures/tca.png]]
+[[file:./pyruvate/figures/tca.png]]
 
 ** Tricarboxylic Acid Cycle
 
 #+CAPTION[TCA]:Tricarboxylic Acid Cycle Disorders
 #+NAME: fig:tcad
 #+ATTR_LaTeX: :width 0.7\textwidth
-[[file:./mitochondria/pyruvate/figures/pyruvate_disorders.png]]
+[[file:./pyruvate/figures/pyruvate_disorders.png]]
 
 ** Pyruvate Reactions
 
@@ -136,13 +136,13 @@
 #+CAPTION[pdhe1]: Activation/deactivation of PDHE1
 #+NAME: fig:pdhe1
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./mitochondria/pyruvate/figures/pdhe1_phos.png]]
+[[file:./pyruvate/figures/pdhe1_phos.png]]
 
 
 #+CAPTION[pdhc]: Pyruvate Dehydrogenase Complex
 #+NAME: fig:pdhc
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./mitochondria/pyruvate/figures/pdhc.png]]
+[[file:./pyruvate/figures/pdhc.png]]
 
 ** Pyruvate Dehydrogenase Complex Deficiency
 
@@ -209,7 +209,7 @@
 #+CAPTION[pdhe1]: Activation/deactivation of PDHE1
 #+NAME: fig:pdhe1
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./mitochondria/pyruvate/figures/pdhe1_phos.png]]
+[[file:./pyruvate/figures/pdhe1_phos.png]]
 
 ** Pyruvate Transport Defect
 - MPC1 mutations have been described in 5 patients

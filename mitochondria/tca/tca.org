@@ -24,7 +24,7 @@
     
 
 #+ATTR_LaTeX: :width .9\textwidth
-[[file:./mitocondria/tca/figures/TCACycle.png]]
+[[file:./tca/figures/TCACycle.png]]
 
 \centering
 \tiny
@@ -45,12 +45,12 @@
 - Fumarase Deficiency
 
 #+ATTR_LaTeX: :width \textwidth
-[[file:./mitocondria/tca/figures/TCA_disorders.png]]
+[[file:./tca/figures/TCA_disorders.png]]
 
 
 #+CAPTION[]: Model for a functional splitting of the Krebs cycle reactions into complementary mini-cycles.
 #+ATTR_LaTeX: :width 0.7\textwidth
-[[file:./mitocondria/tca/figures/gr2.png]]
+[[file:./tca/figures/gr2.png]]
 
 - Rustin, P., Bourgeron, T., Parfait, B., Chretien, D., Munnich, A., &
   Rotig, A. (1997). Inborn errors of the Krebs cycle : a group of
@@ -69,7 +69,7 @@ cultured skin fibroblast from these patients.
 ** \alpha-ketoglutarate Dehydrogenase Complex Deficiency
 
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./mitocondria/tca/figures/kgdh.png]]
+[[file:./tca/figures/kgdh.png]]
 
 ** \alpha-ketoglutarate Dehydrogenase Complex
 - KDHC is a \alpha-ketoacid dehydrogenase analogous to PDHC and BCKD.
@@ -120,7 +120,7 @@ cultured skin fibroblast from these patients.
 ** Succinate Dehydrogenase Deficiency
 
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./mitocondria/tca/figures/sdh.png]]
+[[file:./tca/figures/sdh.png]]
 
 ** Succinate Dehydrogenase | Complex II
 - Four subunits compose Complex II of the mitochondrial respiratory chain
@@ -143,7 +143,7 @@ succinate + ubiquinone \to fumarate + ubiquinol
 
 
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./mitocondria/tca/figures/SuccDeh.png]]
+[[file:./tca/figures/SuccDeh.png]]
 
 ** Clinical Presentation
 - Very rare disorder with highly variable phenotype
@@ -192,7 +192,7 @@ succinate + ubiquinone \to fumarate + ubiquinol
 #+CAPTION[]:Coupled spectrophotometric assay
 #+NAME: fig:
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./mitocondria/tca/figures/gr4.jpg]]
+[[file:./tca/figures/gr4.jpg]]
 
 ** Treatment 
 
@@ -202,7 +202,7 @@ succinate + ubiquinone \to fumarate + ubiquinol
 ** Fumarase Deficiency
 
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./mitocondria/tca/figures/fumarase.png]]
+[[file:./tca/figures/fumarase.png]]
 
 ** Fumarase 
 - Fumarase catalyses reversible hydration/dehydration of fumarate to malate
