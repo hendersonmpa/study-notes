@@ -14,6 +14,7 @@ $(OUT_DIR)faod.pdf: ./faod/faod.org ./faod/fao/fao.org ./faod/faod_routine_testi
 	-f org-latex-export-to-pdf
 	mv -v ./faod/faod.pdf $(OUT_DIR)faod.pdf
 
+# TODO Add organic acids
 
 $(OUT_DIR)lysosomal_storage_disease.pdf: ./lsd/lsd.org ./lsd/fabry/fabry.org ./lsd/gaucher/gaucher.org \
 ./lsd/GM1_2/GM1_2.org ./lsd/krabbe/krabbe.org ./lsd/mps/mps.org ./lsd/mucolipidosis/mucolipidosis.org \
@@ -54,6 +55,7 @@ $(OUT_DIR)carbohydrate.pdf: ./carbohydrate/carbohydrate.org ./carbohydrate/carbo
 	./carbohydrate/carbohydrate.org \
 	-f org-latex-export-to-pdf
 	mv -v ./carbohydrate/carbohydrate.pdf $(OUT_DIR)carbohydrate.pdf
+
 
 clean :
 	rm -f *.tex
