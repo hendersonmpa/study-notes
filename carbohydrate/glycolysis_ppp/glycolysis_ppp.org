@@ -42,7 +42,7 @@
 #+CAPTION[]:Glycolysis and PPP
 #+NAME: fig:glyc_ppp
 #+ATTR_LaTeX: :width 1\textwidth
-[[file:./figures/glyc_ppp.png]]
+[[file:./glycolysis_ppp/figures/glyc_ppp.png]]
 
 * Disorders
 ** Glycolysis Disorders
@@ -121,7 +121,7 @@
 #+CAPTION[]:NIET Method
 #+NAME: fig:me
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./figures/niet_method.png]]
+[[file:./glycolysis_ppp/figures/niet_method.png]]
 
 
 ** Exercising Muscle: Lactate
@@ -134,7 +134,7 @@
 #+CAPTION[]:LDH
 #+NAME: fig:ldh
 #+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./figures/Lactate_dehydrogenase_mechanism.png]]
+[[file:./glycolysis_ppp/figures/Lactate_dehydrogenase_mechanism.png]]
 
 ** Exercising Muscle: ATP
 
@@ -163,7 +163,7 @@
 #+CAPTION[gln]: Glutamine and Ammonia
 #+NAME: fig:gln
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./figures/nitrogen_glutamine.png]]
+[[file:./glycolysis_ppp/figures/nitrogen_glutamine.png]]
 
 - Some ammonia is released by exercising skeletal muscle directly into the circulation
   - removed with a half-life of 20\pm30 min.
@@ -175,6 +175,6 @@
 #+CAPTION[interp]:NIET Results 
 #+NAME: fig:results
 #+ATTR_LaTeX: :width .8\textheight
-[[file:./figures/niet_results.png]]
+[[file:./glycolysis_ppp/figures/niet_results.png]]
 
 

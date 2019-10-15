@@ -2,65 +2,6 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
-:PROPERTIES:
-#+DRAWERS: PROPERTIES
-#+LaTeX_CLASS: beamer
-#+LaTeX_CLASS_OPTIONS: [presentation, smaller]
-#+BEAMER_THEME: Hannover
-#+BEAMER_COLOR_THEME: whale
-#+BEAMER_FRAME_LEVEL: 2
-#+COLUMNS: %40ITEM %10BEAMER_env(Env) %9BEAMER_envargs(Env Args) %4BEAMER_col(Col) %10BEAMER_extra(Extra)
-#+OPTIONS: H:2 toc:nil
-#+PROPERTY: header-args:R :session *R*
-#+PROPERTY: header-args :cache no
-#+PROPERTY: header-args :tangle yes
-#+STARTUP: beamer
-#+STARTUP: overview
-#+STARTUP: hidestars
-#+STARTUP: indent
-#  #+BEAMER_HEADER: \subtitle{Part 2: Organic Acidurias}
-#+BEAMER_HEADER: \institute[NSO]{Newborn Screening Ontario | The University of Ottawa}
-#+BEAMER_HEADER: \titlegraphic{\includegraphics[height=1cm,keepaspectratio]{../logos/NSO_logo.pdf}\includegraphics[height=1cm,keepaspectratio]{../logos/cheo-logo.png} \includegraphics[height=1cm,keepaspectratio]{../logos/UOlogoBW.eps}}
-#+latex_header: \hypersetup{colorlinks,linkcolor=white,urlcolor=blue}
-#+LaTeX_header: \usepackage{textpos}
-#+LaTeX_header: \usepackage{textgreek}
-#+LaTeX_header: \usepackage[version=4]{mhchem}
-#+LaTeX_header: \usepackage{chemfig}
-#+LaTeX_header: \usepackage{siunitx}
-#+LaTeX_header: \usepackage{gensymb}
-#+LaTex_HEADER: \usepackage[usenames,dvipsnames]{xcolor}
-#+LaTeX_HEADER: \usepackage[T1]{fontenc}
-#+LaTeX_HEADER: \usepackage{lmodern}
-#+LaTeX_HEADER: \usepackage{verbatim}
-#+LaTeX_HEADER: \usepackage{tikz}
-#+LaTeX_HEADER: \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
-:END:
-#+BEGIN_LaTeX
-%\logo{\includegraphics[width=1cm,height=1cm,keepaspectratio]{../logos/NSO_logo_small.pdf}~%
-%    \includegraphics[width=1cm,height=1cm,keepaspectratio]{../logos/UOlogoBW.eps}%
-%}
-
-\vspace{220pt}
-\beamertemplatenavigationsymbolsempty
-\setbeamertemplate{caption}[numbered]
-\setbeamerfont{caption}{size=\tiny}
-% \addtobeamertemplate{frametitle}{}{%
-% \begin{textblock*}{100mm}(.85\textwidth,-1cm)
-% \includegraphics[height=1cm,width=2cm]{cat}
-% \end{textblock*}}
-
-\tikzstyle{chemical} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=none]
-\tikzstyle{hardware} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=gray!30]
-\tikzstyle{ms} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=orange, fill=none]
-\tikzstyle{msw} = [rectangle, rounded corners, text width=7em, minimum height=1em,text centered, draw=orange, fill=none]
-\tikzstyle{label} = [rectangle,text width=8em, minimum height=1em, text centered, draw=none, fill=none]
-\tikzstyle{hl} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=red!30]
-\tikzstyle{box} = [rectangle, rounded corners, text width=5em, minimum height=5em,text centered, draw=black, fill=none]
-\tikzstyle{arrow} = [thick,->,>=stealth]
-\tikzstyle{hl-arrow} = [ultra thick,->,>=stealth,draw=red]
-
-#+END_LaTeX
-
 * Introduction
 ** History
 - First reported in 1967 by Oberholzer and Stokke
@@ -82,7 +23,7 @@
 - The monomers associate into homodimers, and bind AdoCbl (one
   for each monomer active site) to form the active holoenzyme
 
-#+BEGIN_SRC dot :file ./figures/mut.pdf :cmdline -Kdot -Tpdf
+#+BEGIN_SRC dot :file ./mma/figures/mut.pdf :cmdline -Kdot -Tpdf
     digraph {
              // graph from left to right
              rankdir=LR;
@@ -102,7 +43,7 @@
 #+END_SRC
 
 #+RESULTS:
-[[file:./figures/mut.pdf]]
+[[file:./mma/figures/mut.pdf]]
 
 ** Genetics
 - autosomal recessive
@@ -121,7 +62,7 @@
 ** Methylmalonyl-CoA  Pathway
 \centering
 #+ATTR_LATEX: :height 0.85\textheight
-[[./figures/expanded_mma_path.png]]
+[[./mma/figures/expanded_mma_path.png]]
 
 ** Cobalamin Transport and Metabolism
 - Adenosyltransferase deficiency (Cbl B)
@@ -134,7 +75,7 @@
 - B_12 transport from lysosome defect (Cbl F)
 
 ** Cobalamin Transport and Metabolism
-[[./figures/cbl_path.png]]
+[[./mma/figures/cbl_path.png]]
 
 ** Methylmalonic Acid and Derivatives
 \centering
@@ -221,7 +162,7 @@ C3/C2 \ge 0.3 AND C3 \ge 9.0
 - lactic acid
 
 ** Urine Organic Acids
-[[./figures/mma_uoa.png]]
+[[./mma/figures/mma_uoa.png]]
 
 ** Typical Urine Methylmalonic Acid Values
 

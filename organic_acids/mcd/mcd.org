@@ -1,67 +1,6 @@
-# -*- coding: utf-8 -*-
 #+TITLE: Multiple Carboxylase Deficiency
 #+AUTHOR: Matthew Henderson, PhD, FCACB
-#+EMAIL: matthew@darwin.local
 #+DATE: \today
-
-:PROPERTIES:
-#+DRAWERS: PROPERTIES
-#+LaTeX_CLASS: beamer
-#+LaTeX_CLASS_OPTIONS: [presentation, smaller]
-# #+BEAMER_THEME: Ilmenau [height=20pt]
-# #+BEAMER_THEME: Szeged  [height=20pt]
-#+BEAMER_THEME: Boadilla [height=20pt]
-#+BEAMER_COLOR_THEME: [RGB={170,160,80}]{structure}
-#+BEAMER_FRAME_LEVEL: 2
-#+COLUMNS: %40ITEM %10BEAMER_env(Env) %9BEAMER_envargs(Env Args) %4BEAMER_col(Col) %10BEAMER_extra(Extra)
-#+OPTIONS: H:2 toc:t
-#+STARTUP: beamer
-#+STARTUP: overview
-#+STARTUP: hidestars
-#+STARTUP: indent
-# #+BEAMER_HEADER: \subtitle{Document subtitle}
-#+BEAMER_HEADER: \institute[NSO]{Newborn Screening Ontario}
-#+BEAMER_HEADER: \titlegraphic{\includegraphics[height=1cm,keepaspectratio]{../logos/NSO_logo.pdf}\includegraphics[height=1cm,keepaspectratio]{../logos/cheo-logo.png} \includegraphics[height=1cm,keepaspectratio]{../logos/UOlogoBW.eps}}
-#+latex_header: \hypersetup{colorlinks,linkcolor=gray,urlcolor=blue}
-#+LaTeX_header: \usepackage{textpos}
-#+LaTeX_header: \usepackage{textgreek}
-#+LaTeX_header: \usepackage[version=4]{mhchem}
-#+LaTeX_header: \usepackage{chemfig}
-#+LaTeX_header: \usepackage{siunitx}
-#+LaTeX_header: \usepackage{gensymb}
-#+LaTex_HEADER: \usepackage[usenames,dvipsnames]{xcolor}
-#+LaTeX_HEADER: \usepackage[T1]{fontenc}
-#+LaTeX_HEADER: \usepackage{lmodern}
-#+LaTeX_HEADER: \usepackage{verbatim}
-#+LaTeX_HEADER: \usepackage{tikz}
-#+LaTeX_HEADER: \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
-#+LaTeX_HEADER: \AtBeginSection[]{\begin{frame}\tableofcontents[currentsection] \end{frame}}
-:END:
-
-#+BEGIN_LaTeX
-\logo{\includegraphics[width=1cm,height=1cm,keepaspectratio]{../logos/NSO_logo_small.pdf}}
-
-\vspace{220pt}
-\beamertemplatenavigationsymbolsempty
-\setbeamertemplate{caption}[numbered]
-\setbeamerfont{caption}{size=\tiny}
-% \addtobeamertemplate{frametitle}{}{%
-% \begin{textblock*}{100mm}(.85\textwidth,-1cm)
-% \includegraphics[height=1cm,width=2cm]{cat}
-% \end{textblock*}}
-
-
-\tikzstyle{chemical} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=none]
-\tikzstyle{hardware} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=gray!30]
-\tikzstyle{ms} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=orange, fill=none]
-\tikzstyle{msw} = [rectangle, rounded corners, text width=7em, minimum height=1em,text centered, draw=orange, fill=none]
-\tikzstyle{label} = [rectangle,text width=8em, minimum height=1em, text centered, draw=none, fill=none]
-\tikzstyle{hl} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=red!30]
-\tikzstyle{box} = [rectangle, rounded corners, text width=5em, minimum height=5em,text centered, draw=black, fill=none]
-\tikzstyle{arrow} = [thick,->,>=stealth]
-\tikzstyle{hl-arrow} = [ultra thick,->,>=stealth,draw=red]
-
-#+END_LaTeX
 
 * Introduction
 
@@ -74,26 +13,31 @@
 
 ** Carboxylases
 
-
-[[./figures/carboxylases.png]]
+#+CAPTION[Carboxylases]:Carboxylases
+#+NAME: fig:carbox
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[./mcd/figures/carboxylases.png]]
 
 ** Causes of Multiple Carboxylase Deficiency
 - Biotin Deficiency
 - Holocarboxylase Synthetase Deficiency
 - Biotinidase Deficiency
 
-**  Holocarboxylase Synthetase 
+** Holocarboxylase Synthetase 
 - HCS activates biotin to D-biotin-5'-adenylate
 - catalyzes attachment to an apocarboxylase
   - lysine \epsilon{}-amino group
 
-[[./figures/hcs.png]]
+#+CAPTION[Holocarboxylase Synthase]:Holocarboxylase Synthase
+#+NAME: fig:holo
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[./mcd/figures/hcs.png]]
 
 ** Holocarboxylase Synthetase Deficiency
 - Increased Km for Biotin
   - Normally 1-6 nmol/L, patients 9-12 nmol/L
 
-#+begin_src gnuplot :file ./figures/kinetics.png
+#+begin_src gnuplot :file ./mcd/figures/kinetics.png
   reset
   set title "HCS Kinetics"
   set xlabel "Substrate [S]"
@@ -122,25 +66,33 @@
 
 #+end_src
 
-#+BEGIN_center
-#+ATTR_LATEX: :width 0.7\textwidth 
+#+CAPTION[Kinetics]:Holocarboxylase Synthetase Kinetics
+#+NAME: fig:kinetics
+#+ATTR_LaTeX: :width 0.9\textwidth
 #+RESULTS:
-[[file:./figures/kinetics.png]]
-#+END_center
+[[file:./mcd/figures/kinetics.png]]
+
 
 ** Biotinidase
 
-[[./figures/biot.png]]
+#+CAPTION[Biotinidase]:Biotinidase
+#+NAME: fig:biot
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[./mcd/figures/biot.png]]
 
 ** Biotin and HCS
 
-[[./figures/biotHCS.png]]
+#+CAPTION[Biotin and HCS]:Biotin and HCS
+#+NAME: fig:biot_hcs
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[./mcd/figures/biotHCS.png]]
 
 
 ** Treatment
 - All symptoms and biochemical abnormalities treated with biotin.
   - Except optic and auditory nerve atrophy
   - Biocytin?
+
 * Biotinidase Deficiency
 
 ** Biotinidase Deficiency
@@ -174,11 +126,13 @@
   allele-targeted methods or full-gene sequencing, may be useful.
 
 ** Biotin Cycle
+#+CAPTION[Biotin Cycle]:Biotin Cycle
+#+NAME: fig:bcycle
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[./mcd/figures/biot_cycle.png]]
 
-[[./figures/biot_cycle.png]]
 
-
-** COMMENT Biotinidase
+** Biotinidase
 
 - Biotinidase is a monomeric enzyme encoded by a single gene (BTD) located on chromosome 3p25
   - comprises 543 amino acid residues, including 41 amino acids of a potential signal peptide.
@@ -239,7 +193,6 @@
 biotinidase deficiency ascertained by newborn screening in Michigan
 over 25 years, Genetics In Medicine, 2014/08/21/
 
-
 * Laboratory Methods
 
 ** Biotinidase NBS
@@ -298,7 +251,7 @@ over 25 years, Genetics In Medicine, 2014/08/21/
 - dissociates the molecules into the solution where the europium fluorescence is measured.
 - The measured fluorescence is inversely proportional to the biotinidase activity of the sample.
 
-** COMMENT Biotin
+** Biotin
 *** Competitive ELISA
 - The microtiter plates coated with avidin.
 - The enzyme-labeled biotin (Conjugate) and the sample or the Biotin Standard Solution are added.

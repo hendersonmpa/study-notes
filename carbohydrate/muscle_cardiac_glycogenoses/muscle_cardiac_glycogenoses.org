@@ -28,7 +28,7 @@
 #+CAPTION[Muscle and Cardiac Glycogenoses]:Muscle and Cardiac Glycogenoses
 #+NAME: fig:mcglyc
 #+ATTR_LaTeX: :width 0.75\textwidth
-[[file:./carbohydrate/muscle_cardiac_glycogenoses/figures/gggmetab_muscle_cardiac.png]]
+[[file:./muscle_cardiac_glycogenoses/figures/gggmetab_muscle_cardiac.png]]
 
 * GSD Type 0
 ** GSD Type 0

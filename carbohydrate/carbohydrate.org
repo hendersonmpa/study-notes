@@ -1,4 +1,4 @@
-#+TITLE: Lysosomal Storage Disease
+#+TITLE: Disorders of Carbohydrate Metabolism
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 

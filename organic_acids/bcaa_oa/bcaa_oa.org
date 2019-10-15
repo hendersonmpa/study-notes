@@ -2,81 +2,24 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
-:PROPERTIES:
-#+DRAWERS: PROPERTIES
-#+LaTeX_CLASS: beamer
-#+LaTeX_CLASS_OPTIONS: [presentation, smaller]
-#+BEAMER_THEME: Hannover
-#+BEAMER_COLOR_THEME: whale
-#+BEAMER_FRAME_LEVEL: 2
-#+COLUMNS: %40ITEM %10BEAMER_env(Env) %9BEAMER_envargs(Env Args) %4BEAMER_col(Col) %10BEAMER_extra(Extra)
-#+OPTIONS: H:2 toc:nil
-#+PROPERTY: header-args:R :session *R*
-#+PROPERTY: header-args :cache no
-#+PROPERTY: header-args :tangle yes
-#+STARTUP: beamer
-#+STARTUP: overview
-#+STARTUP: hidestars
-#+STARTUP: indent
-#+BEAMER_HEADER: \subtitle{Part 2: Organic Acidurias}
-#+BEAMER_HEADER: \institute[NSO]{Newborn Screening Ontario | The University of Ottawa}
-#+BEAMER_HEADER: \titlegraphic{\includegraphics[height=1cm,keepaspectratio]{../logos/NSO_logo.pdf}\includegraphics[height=1cm,keepaspectratio]{../logos/cheo-logo.png} \includegraphics[height=1cm,keepaspectratio]{../logos/UOlogoBW.eps}}
-#+latex_header: \hypersetup{colorlinks,linkcolor=white,urlcolor=blue}
-#+LaTeX_header: \usepackage{textpos}
-#+LaTeX_header: \usepackage{textgreek}
-#+LaTeX_header: \usepackage[version=4]{mhchem}
-#+LaTeX_header: \usepackage{chemfig}
-#+LaTeX_header: \usepackage{siunitx}
-#+LaTeX_header: \usepackage{gensymb}
-#+LaTex_HEADER: \usepackage[usenames,dvipsnames]{xcolor}
-#+LaTeX_HEADER: \usepackage[T1]{fontenc}
-#+LaTeX_HEADER: \usepackage{lmodern}
-#+LaTeX_HEADER: \usepackage{verbatim}
-#+LaTeX_HEADER: \usepackage{tikz}
-#+LaTeX_HEADER: \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
-:END:
-#+BEGIN_LaTeX
-%\logo{\includegraphics[width=1cm,height=1cm,keepaspectratio]{../logos/NSO_logo_small.pdf}~%
-%    \includegraphics[width=1cm,height=1cm,keepaspectratio]{../logos/UOlogoBW.eps}%
-%}
-
-\vspace{220pt}
-\beamertemplatenavigationsymbolsempty
-\setbeamertemplate{caption}[numbered]
-\setbeamerfont{caption}{size=\tiny}
-% \addtobeamertemplate{frametitle}{}{%
-% \begin{textblock*}{100mm}(.85\textwidth,-1cm)
-% \includegraphics[height=1cm,width=2cm]{cat}
-% \end{textblock*}}
-
-\tikzstyle{chemical} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=none]
-\tikzstyle{hardware} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=gray!30]
-\tikzstyle{ms} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=orange, fill=none]
-\tikzstyle{msw} = [rectangle, rounded corners, text width=7em, minimum height=1em,text centered, draw=orange, fill=none]
-\tikzstyle{label} = [rectangle,text width=8em, minimum height=1em, text centered, draw=none, fill=none]
-\tikzstyle{hl} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=red!30]
-\tikzstyle{box} = [rectangle, rounded corners, text width=5em, minimum height=5em,text centered, draw=black, fill=none]
-\tikzstyle{arrow} = [thick,->,>=stealth]
-\tikzstyle{hl-arrow} = [ultra thick,->,>=stealth,draw=red]
-
-#+END_LaTeX
 
 * Introduction
 ** BCAAs
 
-#+BEGIN_LaTeX
+#+BEGIN_EXPORT LaTeX
 \centering
 \chemname{\chemfig[][scale=.75]{^{+}H_3N-C(-[2]COO^{-})(-[6]CH(-[7]CH_3)(-[5]CH_3))-H}}{\small valine}
 \chemname{\chemfig[][scale=.75]{^{+}H_3N-C(-[2]COO^{-})(-[6]CH_2-[6]CH(-[7]CH_3)(-[5]CH_3))-H}}{\small leucine}
 \chemname{\chemfig[][scale=.75]{^{+}H_3N-C(-[2]COO^{-})(-[6]CH(-CH_3)-[6]CH_2-[6]CH_3)-H}}{\small isoleucine}
+#+END_EXPORT
 
-#+END_LaTeX
 
 ** BCAA Catabolism
-\centering
-#+ATTR_LATEX: :height 0.85\textheight
-[[./figures/bcaa.png]]
 
+#+CAPTION[BCAA Catabolism]:BCAA Catabolism
+#+NAME: fig:bcaa_cat
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[./bcaa_oa/figures/bcaa.png]]
 
 * BCAA Organic Acidurias
 
@@ -84,34 +27,18 @@
 - Do no accumulate AAs or 2-oxo-acids
 - Lead to accumulation of intermediates proximal to the block
 - Metabolites detected by plasma acylcarnitines or urine organic acids
-  
-***                                                                 :BMCOL:
-:PROPERTIES:
-:BEAMER_col: 0.33
-:END:
-
-**** Leucine
+*** Leucine
 - isovaleric acidemia
 - 3-MCC carboxylase 
 - 3-Methyl-glutaconic aciduria
 - 3-OH-2-methylglutaryl-CoA lyase 
 
-***                                                                 :BMCOL:
-:PROPERTIES:
-:BEAMER_col: 0.33
-:END:
-
-**** Isoleucine
+*** Isoleucine
 - mitochondrial acetoacetyl-CoA thiolase
 - short/branched chain acyl-CoA dehydrogenase
 - 2-methyl-3-OH-butyryl-CoA dehydrogenase
 
-***                                                                 :BMCOL:
-:PROPERTIES:
-:BEAMER_col: 0.33
-:END:
-
-**** Valine
+*** Valine
 - isobutyryl-CoA dehydrogenase
 - 3-OH-isobutyryl-CoA hydrolase
 - 2-OH-isobutyric aciduria
@@ -136,10 +63,11 @@
 | C10    | Decanoic (capric)     | Sebacic           |
 
 ** Functional Groups
-#+BEGIN_LaTeX
+
+#+BEGIN_EXPORT LaTeX
 \centering
 \chemfig{X-C(-[2]X)(-[6]X)-C(-[2]X)(-[6]X)-C(-[7]OH)=[1]O}
-#+END_LaTeX
+#+END_EXPORT
 
 | Functional group | Formula            |
 |------------------+--------------------|
@@ -150,10 +78,11 @@
 | side chain       | -(CH$_2$)$_n$      |
 
 ** Side Chains
-#+BEGIN_LaTeX
+
+#+BEGIN_EXPORT LaTeX
 \centering
 \chemfig{X-C(-[2]X)(-[6]X)-C(-[2]X)(-[6]X)-C(-[7]OH)=[1]O}
-#+END_LaTeX
+#+END_EXPORT
 
 | Side chain | Structure                      |
 |------------+--------------------------------|

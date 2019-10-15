@@ -36,7 +36,7 @@
 #+CAPTION[Hepatic Glycogenoses]:Hepatic Glycogenoses
 #+NAME: fig:hglyc
 #+ATTR_LaTeX: :width 0.75\textwidth
-[[file:./figures/gggmetab_hepatic.png]]
+[[file:./hepatic_glycogenoses/figures/gggmetab_hepatic.png]]
 
 * GSD Type 0
 ** Metabolic Derangement
@@ -202,13 +202,6 @@
 - Heart transplant may be considered in those with heart failure caused by cardiomyopathy.
 - There is no specific treatment for the other forms of the disease.
 * GSD Type VI
-** GSD Type VI
-
-#+CAPTION[Hepatic Glycogenoses]:Hepatic Glycogenoses
-#+NAME: fig:hglyc
-#+ATTR_LaTeX: :width 0.75\textwidth
-[[file:./figures/gggmetab_hepatic.png]]
-
 ** Metabolic Derangement
 - GSD VI is caused by deficiency in hepatic glycogen phosphorylase
 - Catalyses the release and phosphorylation of terminal glucosyl units
@@ -238,13 +231,6 @@
 - The outcome for individuals with GSD VI is generally excellent
   - Catch up growth occurring for those with short stature in childhood.
 * GSD Type IX
-** GSD Type IX
-
-#+CAPTION[Hepatic Glycogenoses]:Hepatic Glycogenoses
-#+NAME: fig:hglyc
-#+ATTR_LaTeX: :width 0.75\textwidth
-[[file:./figures/gggmetab_hepatic.png]]
-
 ** Metabolic Derangement
 - GSD IX is caused by deficiency in hepatic glycogen phosphorylase kinase (PHK)
 - PHK phosphorylates glycogen phosphatase /b/ \to /a/ form

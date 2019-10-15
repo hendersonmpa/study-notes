@@ -25,7 +25,7 @@
 #+CAPTION[lactose]:Lactose is a disaccharide derived from the condensation of galactose and glucose, which form a \beta 1 \to 4 glycosidic linkage.
 #+NAME: fig:lactose
 #+ATTR_LaTeX: :width 0.4\textwidth
-[[file:./figures/Beta-D-Lactose.png]]
+[[file:./galt/figures/Beta-D-Lactose.png]]
 
 
 * Galactose metabolism 
@@ -33,7 +33,7 @@
 #+CAPTION[met]:Galactose metabolism
 #+NAME: fig:met
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./figures/Fig1.png]]
+[[file:./galt/figures/Fig1.png]]
 
 
 * GALT Protein
@@ -42,7 +42,7 @@
 #+CAPTION[structure]:Crystal structure
 #+NAME: fig:struct
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./figures/Fig2.png]]
+[[file:./galt/figures/Fig2.png]]
 
 
 * GALT catalytic mechanism
@@ -50,7 +50,7 @@
 #+CAPTION[mechanism]:Catalytic mechanism
 #+NAME: fig:mech
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./figures/Fig3.png]]
+[[file:./galt/figures/Fig3.png]]
 
 
 * GALT gene

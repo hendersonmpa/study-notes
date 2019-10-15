@@ -7,21 +7,21 @@
 #+CAPTION[]:Carbohydrate Digestions
 #+NAME: fig:chod
 #+ATTR_LaTeX: :width 0.7\textwidth
-[[file:./figures/carb_digest.pdf]]
+[[file:./carbohydrate_metabolism/figures/carb_digest.pdf]]
 
 ** Major Pathways of Glucose Metabolism
 
 #+CAPTION[]:Major Pathways of Glucose Metabolism
 #+NAME: fig:glucpath
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./figures/glucose_pathways.pdf]]
+[[file:./carbohydrate_metabolism/figures/glucose_pathways.pdf]]
 
 ** Conversion to AAs and FAs
 
 #+CAPTION[]:Conversion of Glucose
 #+NAME: fig:cgluc
 #+ATTR_LaTeX: :width 0.65\textwidth
-[[file:./figures/glucose_conversion.pdf]]
+[[file:./carbohydrate_metabolism/figures/glucose_conversion.pdf]]
 
 * Regulation
 ** Major Hormones of Metabolic Homeostasis
@@ -43,7 +43,7 @@
 #+CAPTION[]:Glucose Homeostasis
 #+NAME: fig:homeo
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./figures/regulation.pdf]]
+[[file:./carbohydrate_metabolism/figures/regulation.pdf]]
 
 ** Insulin and Counterregulatory Hormones
 
@@ -71,14 +71,14 @@
 #+CAPTION[]: Carbohydrate rich meal
 #+NAME: fig:carbmeal
 #+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./figures/meal.pdf]]
+[[file:./carbohydrate_metabolism/figures/meal.pdf]]
 
 ** Counterregulatory Hormones During Fasting
 
 #+CAPTION[]: Low Blood Glucose
 #+NAME: fig:lowgluc
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./figures/counter_hormones.pdf]]
+[[file:./carbohydrate_metabolism/figures/counter_hormones.pdf]]
 
 * Transport
 ** Carbohydrate Digestion
@@ -86,7 +86,7 @@
 #+CAPTION[]:Digestion of Carbohydrates
 #+NAME: fig:dig
 #+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./figures/digestion.pdf]]
+[[file:./carbohydrate_metabolism/figures/digestion.pdf]]
 
 ** Absorption from the Intestine
 - NA-dependent transporter
@@ -104,7 +104,7 @@
 #+CAPTION[]:Absorption from the intestine
 #+NAME: fig:absorp
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./figures/intestine.pdf]]
+[[file:./carbohydrate_metabolism/figures/intestine.pdf]]
 
 ** GLUTs
 
@@ -144,28 +144,28 @@
 #+CAPTION[]:Glycogen Synthesis 
 #+NAME: fig:glycsnd
 #+ATTR_LaTeX: :width 0.4\textwidth
-[[file:./figures/glycogen_synth.pdf]]
+[[file:./carbohydrate_metabolism/figures/glycogen_synth.pdf]]
 
 ** Degradation
 
 #+CAPTION[]:Glycogen Degradation
 #+NAME: fig:glycsnd
 #+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./figures/glycogen_degradation.pdf]]
+[[file:./carbohydrate_metabolism/figures/glycogen_degradation.pdf]]
 
 ** Synthesis and Degradation
 
 #+CAPTION[]:Glycogen Synthesis and Degradation
 #+NAME: fig:glycsnd
 #+ATTR_LaTeX: :width 0.7\textwidth
-[[file:./figures/glycogen_synth_deg.pdf]]
+[[file:./carbohydrate_metabolism/figures/glycogen_synth_deg.pdf]]
 
 ** Regulation
 
 #+CAPTION[]:Regulation of Glycogen Synthesis and Degradation
 #+NAME: fig:regglycsnd
 #+ATTR_LaTeX: :width 0.7\textwidth
-[[file:./figures/glycogen_enzyme_reg.pdf]]
+[[file:./carbohydrate_metabolism/figures/glycogen_enzyme_reg.pdf]]
 
 ** Regulation
 *** Liver
@@ -206,7 +206,7 @@
 #+CAPTION[]:Fructose Metabolism
 #+NAME: fig:glycsnd
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./figures/fruc_met.pdf]]
+[[file:./carbohydrate_metabolism/figures/fruc_met.pdf]]
 
 ** Fructose Synthesis
 
@@ -217,7 +217,7 @@
 #+CAPTION[]:Fructose Synthesis
 #+NAME: fig:frucsyn
 #+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./figures/fruc_syn.pdf]]
+[[file:./carbohydrate_metabolism/figures/fruc_syn.pdf]]
 
 ***                                                                 :BMCOL:
 :PROPERTIES:
@@ -231,7 +231,7 @@
 #+CAPTION[]: Galactose Metabolism
 #+NAME: fig:galmet
 #+ATTR_LaTeX: :width 0.7\textwidth
-[[file:./figures/gal_met.pdf]]
+[[file:./carbohydrate_metabolism/figures/gal_met.pdf]]
 
 ** Pentose Phosphate Pathway
 *** Oxidative Phase
@@ -267,14 +267,14 @@
 #+CAPTION[]: UDP-glucose metabolism
 #+NAME: fig:udpglu
 #+ATTR_LaTeX: :width 0.7\textwidth
-[[file:./figures/udp_glu.pdf]]
+[[file:./carbohydrate_metabolism/figures/udp_glu.pdf]]
 
 ** UPD-glucuronate
 
 #+CAPTION[]: UDP-glucuronate metabolism
 #+NAME: fig:udpgln
 #+ATTR_LaTeX: :width 0.7\textwidth
-[[file:./figures/udp_gln.pdf]]
+[[file:./carbohydrate_metabolism/figures/udp_gln.pdf]]
 
 * Gluconeogenesis
 
@@ -283,7 +283,7 @@
 #+CAPTION[]: Glucose precusors
 #+NAME: fig:precursors
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./figures/precusors.pdf]]
+[[file:./carbohydrate_metabolism/figures/precusors.pdf]]
 
 
 ** Tissue response to Fasting
@@ -291,7 +291,7 @@
 #+CAPTION[]: Tissue interrelationships during fasting
 #+NAME: fig:tissue
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./figures/fasting.pdf]]
+[[file:./carbohydrate_metabolism/figures/fasting.pdf]]
 
 
 ** Changes in metabolic fuels during fasting
@@ -299,7 +299,7 @@
 #+CAPTION[]: Changes in metabolic fuels during fasting
 #+NAME: fig:changes
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./figures/fasting_changes.pdf]]
+[[file:./carbohydrate_metabolism/figures/fasting_changes.pdf]]
 
 
 

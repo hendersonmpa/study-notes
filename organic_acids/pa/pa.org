@@ -2,65 +2,6 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
-:PROPERTIES:
-#+DRAWERS: PROPERTIES
-#+LaTeX_CLASS: beamer
-#+LaTeX_CLASS_OPTIONS: [presentation, smaller]
-#+BEAMER_THEME: Hannover
-#+BEAMER_COLOR_THEME: whale
-#+BEAMER_FRAME_LEVEL: 2
-#+COLUMNS: %40ITEM %10BEAMER_env(Env) %9BEAMER_envargs(Env Args) %4BEAMER_col(Col) %10BEAMER_extra(Extra)
-#+OPTIONS: H:2 toc:nil
-#+PROPERTY: header-args:R :session *R*
-#+PROPERTY: header-args :cache no
-#+PROPERTY: header-args :tangle yes
-#+STARTUP: beamer
-#+STARTUP: overview
-#+STARTUP: hidestars
-#+STARTUP: indent
-#  #+BEAMER_HEADER: \subtitle{Part 2: Organic Acidurias}
-#+BEAMER_HEADER: \institute[NSO]{Newborn Screening Ontario | The University of Ottawa}
-#+BEAMER_HEADER: \titlegraphic{\includegraphics[height=1cm,keepaspectratio]{../logos/NSO_logo.pdf}\includegraphics[height=1cm,keepaspectratio]{../logos/cheo-logo.png} \includegraphics[height=1cm,keepaspectratio]{../logos/UOlogoBW.eps}}
-#+latex_header: \hypersetup{colorlinks,linkcolor=white,urlcolor=blue}
-#+LaTeX_header: \usepackage{textpos}
-#+LaTeX_header: \usepackage{textgreek}
-#+LaTeX_header: \usepackage[version=4]{mhchem}
-#+LaTeX_header: \usepackage{chemfig}
-#+LaTeX_header: \usepackage{siunitx}
-#+LaTeX_header: \usepackage{gensymb}
-#+LaTex_HEADER: \usepackage[usenames,dvipsnames]{xcolor}
-#+LaTeX_HEADER: \usepackage[T1]{fontenc}
-#+LaTeX_HEADER: \usepackage{lmodern}
-#+LaTeX_HEADER: \usepackage{verbatim}
-#+LaTeX_HEADER: \usepackage{tikz}
-#+LaTeX_HEADER: \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
-:END:
-#+BEGIN_LaTeX
-%\logo{\includegraphics[width=1cm,height=1cm,keepaspectratio]{../logos/NSO_logo_small.pdf}~%
-%    \includegraphics[width=1cm,height=1cm,keepaspectratio]{../logos/UOlogoBW.eps}%
-%}
-
-\vspace{220pt}
-\beamertemplatenavigationsymbolsempty
-\setbeamertemplate{caption}[numbered]
-\setbeamerfont{caption}{size=\tiny}
-% \addtobeamertemplate{frametitle}{}{%
-% \begin{textblock*}{100mm}(.85\textwidth,-1cm)
-% \includegraphics[height=1cm,width=2cm]{cat}
-% \end{textblock*}}
-
-\tikzstyle{chemical} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=none]
-\tikzstyle{hardware} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=gray!30]
-\tikzstyle{ms} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=orange, fill=none]
-\tikzstyle{msw} = [rectangle, rounded corners, text width=7em, minimum height=1em,text centered, draw=orange, fill=none]
-\tikzstyle{label} = [rectangle,text width=8em, minimum height=1em, text centered, draw=none, fill=none]
-\tikzstyle{hl} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=red!30]
-\tikzstyle{box} = [rectangle, rounded corners, text width=5em, minimum height=5em,text centered, draw=black, fill=none]
-\tikzstyle{arrow} = [thick,->,>=stealth]
-\tikzstyle{hl-arrow} = [ultra thick,->,>=stealth,draw=red]
-
-#+END_LaTeX
-
 * Introduction
 ** History
 - Was called Ketotic Hyperglycinemia
@@ -74,9 +15,8 @@
   - incidence of PA has not \uparrow with NBS
 
 ** Propionic Acid and Derivatives
-\centering
 
-#+BEGIN_LaTeX
+#+BEGIN_EXPORT LaTeX
 \vspace{2em}
 \chemname{\chemfig[][scale=.5]{-[7]-[1]([2]=O)-[7]OH}}{\tiny propionic acid}
 \hspace{4em}
@@ -86,40 +26,61 @@
 \chemname{\chemfig[][scale=.5]{-N^{+}([2]-)([6]-)-[1]-[7]([6]-O-([5]=O)-[7,.6]-[1,.6])-[1]-[7]([7]=O)([1]-O^{-})}}{\tiny propionyl-carnitine}
 \hspace{4em}
 \chemname{\chemfig[][scale=.5]{OH-[1]-[7]-[1]([2]=O)-[7]OH}}{\tiny 3-hydroxypropionic acid}
-#+END_LaTeX
+#+END_EXPORT
+
 
 ** Propionic Acidemia Pathway
 
-[[./figures/pa_path.png]]
+#+CAPTION[PA]:Propionic Acidemia
+#+NAME: fig:pa
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[./pa/figures/pa_path.png]]
 
 ** BCAA catabolism
-\centering
-#+ATTR_LATEX: :height 0.85\textheight
-[[./figures/bcaa.png]]
+
+#+CAPTION[BCAA catabolism]:BCAA catabolism
+#+NAME: fig:bcaa_cat
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[./pa/figures/bcaa.png]]
 
 ** AA catabolism
-[[./figures/aa_met.png]]
+
+#+CAPTION[AA catabolism]: Amino Acid Catabolism
+#+NAME: fig:aa_cat
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[./pa/figures/aa_met.png]]
+
 ** Odd-Chain Length Fatty Acids
-\centering
-#+ATTR_LATEX: :height 0.5\textheight
-[[./figures/23_10.png]]
+
+#+CAPTION[Odd-chain length FAs]: Odd-chain length fatty acids
+#+NAME: fig:odd_chain
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[./pa/figures/23_10.png]]
 
 ** Long-Chain Branched-Chain Fatty Acids
-\centering
-#+ATTR_LATEX: :height 0.7\textheight
-[[./figures/ff22.png]]
+
+#+CAPTION[Long-Chain Branched-Chain Fatty Acids]: Long-Chain Branched-Chain Fatty Acids
+#+NAME: fig:lc_bc_fa
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[./pa/figures/ff22.png]]
 
 - \alpha{}-oxidation of phytanic acid takes place in peroxisomes.
 - Pristanic acid can then undergo \beta{}-oxidation.
    - Propionyl-CoA is released when the \alpha{} carbon is substituted
 
 ** Sterol Catabolism
-[[./figures/gr3.jpg]]
+
+#+CAPTION[Sterol Catabolism]: Sterol Catabolism
+#+NAME: fig:sterol_cat
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[./pa/figures/gr3.jpg]]
 
 ** Propionyl Carboxylase
-\centering
-#+ATTR_LATEX: :height 0.75\textheight
-[[./figures/pc.jpg]]
+
+#+CAPTION[PC]:Propionyl Carboxylase
+#+NAME: fig:pc
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[./pa/figures/pc.jpg]]
 
 - Composed of \alpha{} and \beta{} subunits
   - \alpha{}_{4}\beta{}_{4} heteropolymer
@@ -134,7 +95,6 @@
   - PccBC \to \beta
 - \alpha{} 13q32
 - \beta{} 3q13.3-22 
-
 
 ** Propionyl CoA
 *** Hyperglycinemia
@@ -175,7 +135,11 @@ C3/C2 \ge 0.3 AND C3 \ge 9.0
 *** Confirmation
  C3/C2 \ge 0.23 AND MCA \ge 0.5
 ** Elevated C3 ACT algorithm
-[[./figures/pa_act.png]]
+#+CAPTION[C3 ACT algorithm]:C3 ACT algorithm
+#+NAME: fig:c3_act
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[./pa/figures/pa_act.png]]
+
 ** Clinical Chemistry
 - Acidosis in acute episodes
   - accumulation of \beta-hydroxybutyrate and acetoacetate
@@ -200,7 +164,10 @@ C3/C2 \ge 0.3 AND C3 \ge 9.0
 - tiglic acid / tiglyglycine
 
 ** Urine Organic Acids
-[[./figures/pa_uoa.png]]
+#+CAPTION[pa OAs]:PA Organic Acids
+#+NAME: fig:pa_oa
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[./pa/figures/pa_uoa.png]]
 
 * Clinical Findings
 ** Acute presentation
@@ -233,23 +200,17 @@ C3/C2 \ge 0.3 AND C3 \ge 9.0
 - Fatty infiltration of liver on PM
 
 ** Neurological Findings
-
-***                                                                 :BMCOL:
-:PROPERTIES:
-:BEAMER_col: .5
-:END:
-
 - Neonatal death
   - spongy degeneration of white matter
 - Later death
   - shrinkage and marbling in basal ganglia
   - neuronal loss
   - gliosis
-***                                                                 :BMCOL:
-:PROPERTIES:
-:BEAMER_col: .5
-:END:
-[[./figures/pa_mri.png]]
+
+#+CAPTION[PA MRI]:PA MRI
+#+NAME: fig:mri
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[./pa/figures/pa_mri.png]]
 
 ** Long-term Treatment
 *** Diet
