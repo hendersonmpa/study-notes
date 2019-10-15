@@ -16,7 +16,7 @@ $(OUT_DIR)faod.pdf: ./faod/faod.org ./faod/fao/fao.org ./faod/faod_routine_testi
 
 # TODO Add organic acids
 
-$(OUT_DIR)lysosomal_storage_disease.pdf: ./lsd/lsd.org ./lsd/fabry/fabry.org ./lsd/gaucher/gaucher.org \
+$(OUT_DIR)lysosomal_storage_disease.pdf: ./lsd/lysosomal_storage_disease.org ./lsd/fabry/fabry.org ./lsd/gaucher/gaucher.org \
 ./lsd/GM1_2/GM1_2.org ./lsd/krabbe/krabbe.org ./lsd/mps/mps.org ./lsd/mucolipidosis/mucolipidosis.org \
 ./lsd/niemann_pick/niemann_pick.org ./lsd/sphingolipid_synthesis/sphingolipid_synthesis.org
 	emacs -u "$(id -un)" \
@@ -27,7 +27,7 @@ $(OUT_DIR)lysosomal_storage_disease.pdf: ./lsd/lsd.org ./lsd/fabry/fabry.org ./l
 	mv -v ./lsd/lysosomal_storage_disease.pdf $(OUT_DIR)lysosomal_storage_disease.pdf
 
 
-$(OUT_DIR)mitochondrial_disease.pdf: ./mitochondria/mitochondria.org ./mitochondria/etc/etc.org \
+$(OUT_DIR)mitochondrial_disease.pdf: ./mitochondria/mitochondrial_disease.org ./mitochondria/etc/etc.org \
 ./mitochondria/mitochondria/mitochondria.org ./mitochondria/oxphos_disorders/oxphos_disorders.org \
 ./mitochondria/pyruvate/pyruvate.org ./mitochondria/tca/tca.org 
 	emacs -u "$(id -un)" \
