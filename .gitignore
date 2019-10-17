@@ -1,4 +1,8 @@
-/pdf
-/*/*/figures/
+*/*/figures/*
+*/auto/*
+*.*~
 *.pdf
-
+*.bbl
+*.txt
+*.csv
+/logos/*

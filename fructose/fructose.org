@@ -1,0 +1,216 @@
+#+TITLE: Disorders of Fructose Metabolism
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+:PROPERTIES:
+#+DRAWERS: PROPERTIES
+#+LaTeX_CLASS: beamer
+#+LaTeX_CLASS_OPTIONS: [presentation, smaller]
+#+BEAMER_THEME: Hannover
+#+BEAMER_COLOR_THEME: whale
+#+COLUMNS: %40ITEM %10BEAMER_env(Env) %9BEAMER_envargs(Env Args) %4BEAMER_col(Col) %10BEAMER_extra(Extra)
+#+OPTIONS: H:2 toc:nil ^:t
+#+PROPERTY: header-args:R :session *R*
+#+PROPERTY: header-args :cache no
+#+PROPERTY: header-args :tangle yes
+#+STARTUP: beamer
+#+STARTUP: overview
+#+STARTUP: indent
+# #+BEAMER_HEADER: \subtitle{Part 1: Maple Syrup Urine Diseas}
+#+BEAMER_HEADER: \institute[NSO]{Newborn Screening Ontario | The University of Ottawa}
+#+BEAMER_HEADER: \titlegraphic{\includegraphics[height=1cm,keepaspectratio]{../logos/NSO_logo.pdf}\includegraphics[height=1cm,keepaspectratio]{../logos/cheo-logo.png} \includegraphics[height=1cm,keepaspectratio]{../logos/UOlogoBW.eps}}
+#+latex_header: \hypersetup{colorlinks,linkcolor=white,urlcolor=blue}
+#+LaTeX_header: \usepackage{textpos}
+#+LaTeX_header: \usepackage{textgreek}
+#+LaTeX_header: \usepackage[version=4]{mhchem}
+#+LaTeX_header: \usepackage{chemfig}
+#+LaTeX_header: \usepackage{siunitx}
+#+LaTeX_header: \usepackage{gensymb}
+#+LaTex_HEADER: \usepackage[usenames,dvipsnames]{xcolor}
+#+LaTeX_HEADER: \usepackage[T1]{fontenc}
+#+LaTeX_HEADER: \usepackage{lmodern}
+#+LaTeX_HEADER: \usepackage{verbatim}
+#+LaTeX_HEADER: \usepackage{tikz}
+#+LaTeX_HEADER: \usepackage{wasysym}
+#+LaTeX_HEADER: \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
+:END:
+
+#+BEGIN_EXPORT LaTeX
+%\logo{\includegraphics[width=1cm,height=1cm,keepaspectratio]{../logos/NSO_logo_small.pdf}~%
+%    \includegraphics[width=1cm,height=1cm,keepaspectratio]{../logos/UOlogoBW.eps}%
+%}
+
+\vspace{220pt}
+\beamertemplatenavigationsymbolsempty
+\setbeamertemplate{caption}[numbered]
+\setbeamerfont{caption}{size=\tiny}
+% \addtobeamertemplate{frametitle}{}{%
+% \begin{textblock*}{100mm}(.85\textwidth,-1cm)
+% \includegraphics[height=1cm,width=2cm]{cat}
+% \end{textblock*}}
+#+END_EXPORT 
+
+* Introduction
+** Fructose Metabolism
+- Fructose is mainly metabolised in the liver, renal cortex and small intestinal mucosa
+- Pathway composed of fructokinase, aldolase B and triokinase.
+- Aldolase B is also involved in the glycolytic-gluconeogenic pathway
+
+** Disorders of Fructose Metabolism
+- Three inborn errors are known in the pathway of fructose metabolism.
+- Essential fructosuria is a harmless anomaly
+  - characterised by the appearance of fructose in the urine after the intake of fructose-containing food.
+- Hereditary fructose intolerance (HFI)
+  - fructose may provoke prompt gastrointestinal discomfort and hypoglycaemia upon ingestion
+  - fructose may cause liver and kidney failure when taken persistently,
+  - IV fructose can be lethal
+- Fructose-1,6-bisphosphatase (FBPase) deficiency
+  - considered an inborn error of fructose metabolism although, it is a defect of gluconeogenesis.
+  - hypoglycaemia and lactic acidosis (neonatally, or later during fasting or induced by fructose)
+  - may be life-threatening
+
+** Fructose Metabolism
+pathway
+
+* Essential Fructosuria
+** Clinical Presentation
+- Rare non-disease
+- Detected a when test urine for reducing substances
+- Deficiency in Fructokinase
+** Metabolic Derangement
+- 10-20% of ingested fructose is excreted in urine
+- remainder is slowly metabolised in adipose tissue and muscle
+** Genetics
+- AR, 1:130,000 (underestimate?)
+- KHK undergoes tissue specific alternative splicing
+  - Two isoforms
+  - ketohexokinase A, widely expressed, no clear role
+  - ketohexokinase C, adult liver, kidney and small intestine
+    - affected in essential fructosuria
+  - Only 2 mutations found
+** Diagnosis and Treatment
+- \uparrow reducing substances in urine
+- glucose oxidase negative
+- fructosuria is dependant on fructose intake
+- no treatent required
+- prognosis is excellent
+
+* Hereditary Fructose Intolerance
+** Clinical Presentation
+- perfectly healthy as long as they do not ingest food containing fructose, sucrose and/or sorbitol
+- no metabolic derangement occurs during breast-feeding
+- younger the child and the higher the dietary fructose load, the more severe the reaction
+- first symptoms appear with the intake of fruits and vegetables or fructose containing formula
+  - gastrointestinal discomfort, nausea, vomiting, restlessness,
+    pallor, sweating, trembling, lethargy and, eventually, apathy,
+    coma, jerks and convulsion
+- laboratory tests indicate acute liver failure and generalised dysfunction of the renal proximal tubules.
+- hypoglycaemia after fructose ingestion is short-lived and can be easily missed or masked by concomitant glucose intake
+- food aversions form
+- approximately half of all adults with HFI are free of caries
+- affected subjects may remain undiagnosed and still have a normal life span.
+
+** Metabolic Derangement
+- FI is caused by deficiency of the second enzyme of the fructose pathway, aldolase B
+  - splits fructose-1-phosphate (F-1-P) into dihydroxyacetone phosphate and glyceraldehyde
+- The high activity of fructokinase after intake of fructose results in accumulation of F-1-P and trapping of phosphate.
+- This has two major effects:
+  1. inhibition of glucose production by blockage of gluconeogenesis
+     (inhibition of aldolase A) and glycogenolysis (inhibition of glycogen phosphorylase A)
+     - induces a rapid drop in blood glucose
+  2. overutilization and diminished regeneration of ATP.
+     - depletion of ATP results in an increased production of uric acid
+     - a release of magnesium,
+     - and a series of other disturbances,including impaired protein
+       synthesis and ultrastructural lesions which are responsible for
+       hepatic and renal dysfunction
+- glycolysis and gluconeogenesis are not impaired in the fasted state in HFI patients due to activity of aldolase A
+
+- same process happens in IV fructose to normal patients
+- the use of fructose, sorbitol and invert sugar has been strongly discouraged for parenteral nutrition in general
+
+** Genetics
+- AR
+- Three aldolase genes
+- B is the major fructaldolase of liver, renal cortex, and small intestine
+- A muscle
+- C brain
+
+** Diagnosis and Treatment
+- nutritional history
+- response to fructose withdrawl
+- First tier molecular diagnosis
+- Second tier (no mutations) Enzymatic
+- Liver biopsy Aldo B activity
+  - False low Aldo B secondary to liver damage
+
+- acute intoxication:
+  - fresh frozen plasma
+- Remove fructose (sucrose and sorbitol) from diet
+- Prognosis on diet is excellent with normal growth,
+  intelligence and life span
+
+* Fructose-1,6-Bisphosphatase Deficiency
+** Clinical Presentation
+- 1/2 present in the first 1-4 days of life
+  - severe hyperventilation
+    - lactic acidosis
+    - hypoglycaemia
+- later irritability, apnoeic spells, tachycardia, muscle hypotonia
+- chronic ingestion of fructose does not lead to gastrointestinal symptoms
+  - no aversion to sweet foods or failure to thrive, and only rarely \downarrow liver function.
+
+** Metabolic Derangement
+- Deficiency of hepatic FBPase, key enzyme in gluconeogenesis, impairs
+  the formation of glucose from all gluconeogenic precursors, including dietary fructose
+- normoglycaemia in patients is dependent on glucose (and galactose)
+  intake and degradation of hepatic glycogen
+- hypoglycaemia occurs when glycogen reserves are limited (newborns, fasting)
+- accumulation of the gluconeogenic substrates lactate, pyruvate, alanine, and glycerol.
+** Genetics
+- AR
+- Liver isoform, FBP1 gene
+- 35 mutations in all regions of the gene have been published
+
+** Diagnosis
+- plasma during acute episodes
+  - \uparrow lactate (up to 15–25 mM)
+  - \downarrow pH
+  - \uparrow lactate/pyruvate ratio (up to 40)
+  - hyperalaninaemia,
+  - \uparrow glycerol which may mimic hypertriglyceridaemia
+  - glucagon-resistant hypoglycaemia
+  - \uparrow free fatty acids and uric acid.
+- Urinary analysis reveals
+  - \uparrow lactate, alanine, glycerol,
+  - in most cases, ketones and glycerol-3-phosphate.
+
+- molecular analysis on DNA from peripheral leukocytes
+- if no mutations found
+  - enzymatic activity in a liver biopsy
+  - the residual activity may vary from zero to 30% of normal
+
+** Differential Diagnosis
+- other disturbances in gluconeogenesis and pyruvate oxidation should be considered, including:
+  1) pyruvate dehydrogenase deficiency characterised by a low
+     lactate/pyruvate ratio, absence of hypoglycaemia and aggravation
+     of lactic acidosis by glucose infusion
+  2) pyruvate carboxylase deficiency
+  3) respiratory chain disorders
+  4) glycogenosis type Ia and Ib presenting with the same metabolic profile
+     - fasting hypoglycaemia and lactic acidosis and hepato nephromegaly, hyperlipidaemia, and hyperuricaemia
+  5) fatty acid oxidation defects presenting with fasting hypoketotic hypoglycaemia and hyperlactataemia
+
+** Treatment
+
+- acute life-threatening episodes should be treated with an IV bolus
+  of 20% glucose
+- followed by a continuous infusion of glucose and bicarbonate to
+  control hypoglycaemia and acidosis.
+- Maintenance therapy should be aimed at avoiding fasting,
+  particularly during febrile episodes
+  - slowly absorbed carbohydrates (uncooked starch), and a gastric
+    drip, if necessary.
+- absence of any triggering effects leading to metabolic
+  decompensation, individuals with FBPase deficiency are healthy and
+  no carbohydrate supplements are needed.
