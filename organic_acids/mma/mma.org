@@ -60,8 +60,10 @@
 - Succinyl CoA ligase deficiency (SUCLG1, SUCLA1)
 
 ** Methylmalonyl-CoA  Pathway
-\centering
-#+ATTR_LATEX: :height 0.85\textheight
+
+#+CAPTION[]:Methylmalonyl-CoA  Pathway
+#+NAME: fig:mma
+#+ATTR_LaTeX: :width 0.9\textwidth
 [[./mma/figures/expanded_mma_path.png]]
 
 ** Cobalamin Transport and Metabolism
@@ -75,18 +77,22 @@
 - B_12 transport from lysosome defect (Cbl F)
 
 ** Cobalamin Transport and Metabolism
+#+CAPTION[cbl transport]: Cobalamin Transport and Metabolism
+#+NAME: fig:cbl
+#+ATTR_LaTeX: :width 0.9\textwidth
 [[./mma/figures/cbl_path.png]]
 
 ** Methylmalonic Acid and Derivatives
-\centering
-#+BEGIN_LaTeX
+
+#+BEGIN_EXPORT LaTeX
 \vspace{6em}
 \chemname{\chemfig[][scale=.5]{OH-[1]([2]=O)-[7]([6]<)-[1]([2]=O)-[7]S-CoA}}{\tiny S-methylmalonyl-CoA}
 \hspace{2em}
 \chemname{\chemfig[][scale=.5]{OH-[1]([2]=O)-[7]([6]<:)-[1]([2]=O)-[7]S-CoA}}{\tiny R-methylmalonyl-CoA}
 \hspace{2em}
 \chemname{\chemfig[][scale=.5]{OH-[1]([2]=O)-[7]([6]-)-[1]([2]=O)-[7]OH}}{\tiny methylmalonic acid}
-#+END_LaTeX
+#+END_EXPORT
+
 
 ** Sources of Methylmalonic Acid
 - AA catabolism
@@ -96,8 +102,6 @@
   - methionine
 - FA
   - \downarrow contribution to urine MMA
-
-[[http://www.genome.jp/kegg-bin/show_pathway?scale=1.0&query=methylmalonyl-CoA&map=hsa00640&scale=&auto_image=&show_description=hide&multi_query=][propionate metabolism - KEGG]]
 
 ** Methylmalonyl-CoA
 
@@ -162,6 +166,10 @@ C3/C2 \ge 0.3 AND C3 \ge 9.0
 - lactic acid
 
 ** Urine Organic Acids
+
+#+CAPTION[MMA UOA]:MMA UOA
+#+NAME: fig:mma_uoa
+#+ATTR_LaTeX: :width 0.9\textwidth
 [[./mma/figures/mma_uoa.png]]
 
 ** Typical Urine Methylmalonic Acid Values

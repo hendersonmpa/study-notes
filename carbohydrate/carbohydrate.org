@@ -54,3 +54,12 @@
 
 * Glycolysis and PPP 
 #+INCLUDE: "./glycolysis_ppp/glycolysis_ppp.org" :lines "4-"
+* Fructose
+#+INCLUDE: "./fructose/fructose.org" :lines "4-"
+
+
+* Insulin
+#+INCLUDE: "./insulin/insulin.org" :lines "4-"
+
+* Glucose Transport
+#+INCLUDE: "./glucose_transport/glucose_transport.org" :lines "4-"

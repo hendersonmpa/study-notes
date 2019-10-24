@@ -41,7 +41,7 @@
 
 
 * Organic Acids
-#+INCLUDE: "./organic_acids/organic_acids.org.org" :lines "4-"
+#+INCLUDE: "./organic_acids/organic_acids.org" :lines "4-"
 
 * Disorders of Branched Chain Amino Acid Catabolism
 #+INCLUDE: "./bcaa_oa/bcaa_oa.org" :lines "4-"

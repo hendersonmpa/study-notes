@@ -199,16 +199,16 @@ over 25 years, Genetics In Medicine, 2014/08/21/
 
 - DBS is eluted and incubated 
 
-#+BEGIN_LaTeX
+#+BEGIN_EXPORT LaTeX
 \centering
 \ce{Biotin-PAB <=>>[Biotinidase][pH=6] Biotin + PABA}
-#+END_LaTeX
+#+END_EXPORT
 
 - proteins removed by TCA precipitation and filtration.
 
-#+BEGIN_LaTeX
+#+BEGIN_EXPORT LaTeX
 \ce{PABA <=>>[\ce{NO2, NH2SO3}][NED] Purple chromophore}
-#+END_LaTeX
+#+END_EXPORT
 
 - measured at 550 nm, reference 690 nm 
 - Sulfonamide antibiotics can cause false negative results:
@@ -222,17 +222,14 @@ over 25 years, Genetics In Medicine, 2014/08/21/
 
 - serum or plasma
 
+#+BEGIN_EXPORT LaTeX
 #+BEGIN_LaTeX
-\centering
 \ce{Biotin-PAB <=>>[Biotinidase][pH=6] Biotin + PABA}
-#+END_LaTeX
-
+#+END_EXPORT
 - proteins removed by TCA precipitation and centrifugation.
-
-#+BEGIN_LaTeX
+#+BEGIN_EXPORT LaTeX
 \ce{PABA <=>>[\ce{NaNO2, NH2SO3}][NED] Purple chromophore}
-#+END_LaTeX
-
+#+END_EXPORT
  - measured at 546 nm
 
 *** Interpretation
@@ -240,37 +237,12 @@ over 25 years, Genetics In Medicine, 2014/08/21/
 - Partial :: \gt 10% and \le 30%
 - units :: nmoles/min/L plasma or serum.
 
-** Other Biotinidase methods
-
-*** Fluorometric
-- flourescent substrate is biotinyl-6-aminoquinoline 
-*** Solid phase time-resolved immunofluorescence
-- Biotinidase cleaves the amide bond in Eu-labeled biotin.
-- The enzyme reaction is stopped by addition of streptavidin.
-- The streptavidin-biotin complexes are captured by the solid phase monoclonal antibody directed against streptavidin.
-- dissociates the molecules into the solution where the europium fluorescence is measured.
-- The measured fluorescence is inversely proportional to the biotinidase activity of the sample.
-
-** Biotin
-*** Competitive ELISA
-- The microtiter plates coated with avidin.
-- The enzyme-labeled biotin (Conjugate) and the sample or the Biotin Standard Solution are added.
-- Free and enzyme-labeled biotin compete for the avidin-binding sites.
-- avidin binding is not specific for biotin
-
-*** Bioassay
-- The E. coli strain R901 (\Delta{}bio SmR) has its entire biotin operon
-  deleted
-- requires biotin (\ge 10 pg/ml) for growth
-- linear relationship between CFU and biotin concentration
-
 ** HCS NBS
-
 - C5OH acylcarnitine
 - No longer include C5OH acylcarnitine in the NSO AACC screen
 - 3-methylcrotonyl-CoA carboxylase (3MCC) deficiency (infant or mother)
 - 3-hydroxy-3-methylglutaryl (HMG)-CoA lyase deficiency
-- \beta{}-ketothiolase deficiency
+- \beta-ketothiolase deficiency
 - multiple carboxylase deficiency (MCD) including biotinidase deficiency and holocarboxylase synthetase deficiency
 - 2-methyl-3-hydroxybutyric acidemia (2M3HBA)
 - 3-methylglutaconic aciduria (3MGA)
@@ -278,9 +250,9 @@ over 25 years, Genetics In Medicine, 2014/08/21/
 ** HCS Diagnostic
 
 - Urine organic acids
-  - \beta{}-hydroxyisovalerate
-  - \beta{}-methylcrotonylglycine
-  - \beta{}-hydroxypropionate
+  - \beta-hydroxyisovalerate
+  - \beta-methylcrotonylglycine
+  - \beta-hydroxypropionate
   - methylcitrate
   - lactate
   - tiglylglycine 
