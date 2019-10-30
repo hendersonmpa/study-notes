@@ -40,8 +40,10 @@
 
 *** Valine
 - isobutyryl-CoA dehydrogenase
+- Short-Chain enoyl-CoA Hydratase Deficiency
+  - AKA: Crotonase
 - 3-OH-isobutyryl-CoA hydrolase
-- 2-OH-isobutyric aciduria
+  - 2-OH-isobutyric aciduria
 - methylmalonic semialdehyde dehydrogenase
 
 

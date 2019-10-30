@@ -62,27 +62,29 @@
 
 #+CAPTION[]:\beta-oxidation
 #+NAME: fig:bo
-#+ATTR_LaTeX: :width 0.6\textwidth
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[./fao/figures/23_1.png]]
 
-1. Membrane transport
-   - FaBP
-2. Activation
-   - Coenzyme A
-3. Carnitine
-4. \beta-oxidation
-5. Ketone bodies
++ Steps 
+  1) Membrane transport
+     - FaBP
+  2) Activation
+     - CoA
+     - Carnitine
+     - CoA
+  3) \beta-oxidation spiral
+     - Acyl-CoA \to Ketone bodies or TCA
 
 ** Activation of Fatty Acids
 #+CAPTION[]:FA activation
 #+NAME: fig:activation
-#+ATTR_LaTeX: :width 0.6\textwidth
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[./fao/figures/23_2.png]]
 
 ** Transport of Long-Chain Fatty Acids into Mitochondria
 #+CAPTION[]: Transport of Long-Chain Fatty Acids into Mitochondria
 #+NAME: fig:transport
-#+ATTR_LaTeX: :width 0.6\textwidth
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[./fao/figures/23_5.png]]
 
   - chain length specificity
@@ -94,17 +96,18 @@
 
 ** Chain Length Specificity
 
-**** Acyl-CoA Synthetases
+#+CAPTION[]:Acyl-CoA Synthetases
+#+NAME: tab:syn
+ | Enzyme     | Length | location             |
+ |------------+--------+----------------------|
+ | V.L. chain |  14-26 | pex                  |
+ | L. chain   |  12-20 | ER, mito, pex        |
+ | M. chain   |   6-12 | mito - kidney, liver |
+ | acetyl     |    2-4 | cyto, ?mito?         |
 
-| Enzyme     | Length | location             |
-|------------+--------+----------------------|
-| V.L. chain |  14-26 | pex                  |
-| L. chain   |  12-20 | ER, mito, pex        |
-| M. chain   |   6-12 | mito - kidney, liver |
-| acetyl     |    2-4 | cyto, ?mito?         |
 
-
-**** Acyl-CoA Dehydrogenases
+#+CAPTION[]:Acyl-CoA Dehydrogenases
+#+NAME: tab:deh
 | Enzyme | Length | location |
 |--------+--------+----------|
 | VLCAD  |  14-20 | IMM      |
@@ -113,7 +116,8 @@
 | SCAD   |    2-4 | MM       |
 
 
-**** Other
+#+CAPTION[]:Other
+#+NAME: tab:other
 | Enzyme                            | Length | comment                               |
 |-----------------------------------+--------+---------------------------------------|
 | Enoyl-CoA hydratase,SC            |     >4 | \downarrow activity w \uparrow length |
@@ -125,14 +129,14 @@
 ** \beta-oxidation of Long-Chain Fatty Acids
 #+CAPTION[]:\beta-oxidation of Long-Chain Fatty Acids
 #+NAME: fig:bolc
-#+ATTR_LaTeX: :width 0.6\textwidth
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[./fao/figures/23_7.png]]
 
 ** Oxidation of Unsaturated Fatty Acids
 
 #+CAPTION[]:Oxidation of Unsaturated Fatty Acids
 #+NAME: fig:bou 
-#+ATTR_LaTeX: :width 0.6\textwidth
+#+ATTR_LaTeX: :width 0.3\textwidth
 [[./fao/figures/23_9.png]]
 
 - isomerase and reductase change location of the double bonds
@@ -140,7 +144,7 @@
 ** Odd-Chain Length Fatty Acids
 #+CAPTION[]:Odd-Chain Length Fatty Acids
 #+NAME: fig:ocfa
-#+ATTR_LaTeX: :width 0.6\textwidth
+#+ATTR_LaTeX: :width 0.3\textwidth
 [[./fao/figures/23_10.png]]
 
 ** Oxidation of Medium-Chain Length Fatty Acids
@@ -154,7 +158,7 @@
 
 - There is a general consensus that short-chain and medium-chain fatty
   acids (C4 to C12) diffuse freely across plasma and mitochondrial
-  membranes" 
+  membranes 
 - Butyrate is taken up by enterocytes, presumably by means of the
   monocarboxylate transporter 1 (MCT-1) and the sodium-coupled
   monocarboxylate transporter 1 (SMCT-1) 
@@ -169,6 +173,8 @@
   membranes.
   - erythrocytes, muscle, intestine, liver and kidney
 
+#+CAPTION[Monocarboxylate Transporter 1]:MCT1 deficiency (SLC16A1)
+#+NAME: tab:mct1
 | Phenotype                                         | Inheritance |
 |---------------------------------------------------+-------------|
 | Erythrocyte lactate transporter defect            | AD          |
@@ -181,11 +187,10 @@ hypoglycemia induce SLC16A1 expression in beta cells, where this
 gene is not usually transcribed, permitting pyruvate uptake and
 pyruvate-stimulated insulin release despite ensuing hypoglycemia
 
-
 ** Regulation of \beta-oxidation
 #+CAPTION[]:Regulation of \beta-oxidation
 #+NAME: fig:reg
-#+ATTR_LaTeX: :width 0.6\textwidth
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[./fao/figures/23_12.png]]
 
 1. Lipolysis or gut

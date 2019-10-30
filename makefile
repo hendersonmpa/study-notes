@@ -1,12 +1,12 @@
 SHELL=/bin/bash
-OUT_DIR=./pdf/
+OUT_DIR=./notes/
 
 
 all: $(OUT_DIR)faod.pdf $(OUT_DIR)organic_acids.pdf $(OUT_DIR)lysosomal_storage_disease.pdf \
 $(OUT_DIR)mitochondrial_disease.pdf $(OUT_DIR)urea_cycle.pdf $(OUT_DIR)carbohydrate.pdf clean
 
 $(OUT_DIR)faod.pdf: ./faod/faod.org ./faod/fao/fao.org ./faod/faod_routine_testing/faod_routine_testing.org \
-./faod/mito_faod/mito_faod.org
+./faod/mito_faod/mito_faod.org ./faod/peroxisomes/peroxisomes.org
 	emacs -u "$(id -un)" \
 	--batch \
 	--eval '(load user-init-file)' \

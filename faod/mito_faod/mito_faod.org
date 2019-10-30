@@ -4,12 +4,10 @@
 
 
 * Introduction
-** Overview
 #+CAPTION[]:\beta-oxidation
 #+NAME: fig:box
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[./mito_faod/figures/b_oxidation.png]]
-
 
 * Carnitine Cycle Defects
 ** Carnitine Transporter Deficiency
@@ -151,7 +149,7 @@
 - most common FAOD with an incidence of approximately 1:10,000-20,000
   in Europe,USA and Australia.
 - Before NBS, presented 4 months to 4 years
-  - acute hypoglycaemic encephalopathy +and liver dysfunction+ not always
+  - acute hypoglycaemic encephalopathy and liver dysfunction, not always
   - some deteriorated rapidly and died.
 - Precipitated by prolonged fasting or infection with vomiting
 - Some babies still present within 72 hours of birth before
@@ -170,23 +168,10 @@
 - Shorter fasts may cause problems in infancy
 - Encephalopathy may occur without hypoglycaemia
   - accumulation of FFA acids and carnitine/CoA esters.
-p
+
 ** Short-Chain Acyl-CoA Dehydrogenase Deficiency
 - non-disease?
   - previous association with symptoms due to ascertainment bias?
-
-** Short-Chain enoyl-CoA Hydratase Deficiency
-- AKA: Crotonase
-- Reactive intermediates in the valine pathway are likely responsible
-  for the pathology.
-- Severe neurological problems, lactic acidosis and sometimes
-  cardiomyopathy
-- One of >75 genes \to Leigh syndrome
-
-#+CAPTION[]:Short-chain enoyl-CoA Hydratase Deficiency
-#+NAME: fig:crotonase
-#+ATTR_LaTeX: :width 0.9\textwidth
-[[./mito_faod/figures/valine.png]]
 
 ** 3-Hydroxyacyl-CoA Dehydrogenase Deficiency
 - This defect (HADH), previously called SCHAD deficiency, causes
@@ -194,11 +179,6 @@ p
 - Role in modulation of ATP production inhibition of GDH
 
 ** Acyl-CoA dehydrogenase 9
-#+CAPTION[]:Acyl-CoA dehydrogenase 9
-#+NAME: fig:acad9
-#+ATTR_LaTeX: :width 0.9\textwidth
-   [[./mito_faod/figures/acad9.pdf]]
-
 - A complex I assembly factor with a moonlighting function in fatty
   acid oxidation deficiencies.
 - ACAD9 is most homologous to VLCAD
@@ -215,14 +195,13 @@ p
   - FAD is the enzyme-bound prosthetic group of all acyl-CoA
     dehydrogenases
 
-** 2,4-Dienoyl-CoA reductase deficiency
+** COMMENT 2,4-Dienoyl-CoA reductase deficiency
 - Oxidation of unsaturated fatty acids
 
 #+CAPTION[]:2,4-Dienoyl-CoA reductase deficiency
 #+NAME: fig:dienol
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[./mito_faod/figures/dienol.pdf]]
-
 
 - initially described in 1990 based on a single case who presented with persistent hypotonia.
   - elevated lysine, low carnitine
@@ -241,40 +220,40 @@ p
   synthase
 
 * Electron Transfer Defects 
-** Multiple acyl-CoA dehydrogenase deficiency
+** Multiple acyl-CoA dehydrogenase deficiency 
+- AKA glutaric aciduria type II.
 - Electron transfer flavoprotein (ETF) and ETF ubiquinone
   oxidoreductase (ETFQO) carry electrons to the respiratory chain from
   multiple FAD-linked dehydrogenases.
 - Includes enzymes of amino acid, choline metabolism and acyl-CoA
   dehydrogenases of \beta-oxidation
-- Defects in ETF or ETFQO lead to multiple acyl-CoA dehydrogenase
-  (MAD) deficiency (glutaric aciduria type II).
-- MAD deficiency, less often, a result of defects of riboflavin
-  transport or metabolism
+- Defects in ETF or ETFQO \to 
+- GAII less often, a result of defects of riboflavin transport or
+  metabolism
 - ETF and ETFQO deficiencies \to wide range of clinical severity.
 - Severely affected patients present in the first few days of life
-  - hypoglycaemia, hyperammonaemia and acidosis
-  - hypotonia and hepatomegaly.
+ - hypoglycaemia, hyperammonaemia and acidosis
+ - hypotonia and hepatomegaly.
 - There is usually an odour of sweaty feet similar to that in isovaleric acidaemia.
 - Some patients have congenital anomalies
-  - Large cystic kidneys, hypospadias and neuronal migration defects and facial dysmorphism
-    - low set ears, high forehead and midfacial hypoplasia.
+ - Large cystic kidneys, hypospadias and neuronal migration defects and facial dysmorphism
+   - low set ears, high forehead and midfacial hypoplasia.
 - The malformations resemble those seen in CPT II deficiency but the pathogenesis is unknown.
 - Most patients with neonatal presentation die within a week of birth
 - Others develop cardiomyopathy and die within a few months.
 - Less severe cases can present at any age from infancy to adulthood
-  - with hypoglycaemia, liver dysfunction and weakness
-  - usually precipitated by an infection
+ - with hypoglycaemia, liver dysfunction and weakness
+ - usually precipitated by an infection
 - Cardiomyopathy is common in infants.
 - Rarer problems include stridor and leukodystrophy.
 - Mildly affected children may have recurrent bouts of vomiting.
 - Muscle weakness is the commonest presentation in adolescents and adults.
-  - Predominantly affects proximal muscles and may lead to scoliosis,
-    hypoventilation or an inability to lift the chin off the chest.
+ - Predominantly affects proximal muscles and may lead to scoliosis,
+   hypoventilation or an inability to lift the chin off the chest.
 - Weakness can worsen rapidly during infection or pregnancy, myoglobinuria is rare.
-  - Many milder defects respond to riboflavin
+ - Many milder defects respond to riboflavin
 
-* Additional Defects
+* COMMENT Additional Defects
 ** FA transport
  - The mechanisms of fatty acid transport across the plasma membrane are still not completely clear.
  - Impaired uptake has been reported in 2 boys who presented with liver failure.
@@ -291,27 +270,25 @@ p
 
 
 * Metabolic Derangement
-** Metabolic Derangement
 - Fasting hypoglycaemia is the classic metabolic disturbance in FAODs
   - primarily due to increased peripheral glucose consumption
-  - epatic glucose output is also reduced under some conditions.
+  - hepatic glucose output is also reduced under some conditions.
 - The hypoglycaemia is hypoketotic.
-  - Ketone bodies can be synthesised (medium-or short-chain FAODs or if there is high residual enzyme activity)
-  - plasma concentrations are lower than expected for hypoglycaemia or the plasma free fatty acid concentrations.
-- Hyperammonaemia occurs in some severe defects,
-  - with normal or low glutamine concentrations;
+  - Ketone bodies can be synthesised
+    - medium-or short-chain FAODs or if there is high residual enzyme activity
+    - plasma concentrations are lower than expected for hypoglycaemia or the plasma free fatty acid concentrations.
+- Hyperammonaemia occurs in some severe defects
+  - with normal or low glutamine concentrations
   - decreased acetyl-CoA production reducing the synthesis of N-acetylglutamate
-- Lactic acidaemia is seen in long-chain FAODs, (LCHAD and MTP deficiencies)
+- Lactic acidaemia is seen in long-chain FAODs(LCHAD and MTP deficiencies)
   - inhibitory effects of metabolites on pyruvate metabolism.
-
-** Metabolic Derangement
 - Moderate hyperuricaemia - frequent finding during acute attacks.
 - Secondary hyperprolinaemia occurs in some babies with MAD deficiency.
 - Accumulating long-chain acylcarnitines may be responsible for
   arrhythmias and may interfere with surfactant metabolism.
-- In LCHAD and MTP deficiencies, +long chain hydroxy-acylcarnitine+
-  +concentrations correlate with the severity of retinopathy and may+
-  +cause both this and the peripheral neuropathy+
+- In LCHAD and MTP deficiencies, long chain hydroxy-acylcarnitine
+  concentrations correlate with the severity of retinopathy and may
+  cause both this and the peripheral neuropathy
 
 * Summary
 ** Common manifestations in FAODs
