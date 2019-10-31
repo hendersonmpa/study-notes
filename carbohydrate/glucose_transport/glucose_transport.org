@@ -2,35 +2,35 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
+* Introduction
+** Glucose Transporters
+ - Glucose is hydrophilic \therefore cannot easily cross cell membrane
+ - Transporters exist in almost all cell types
+ - glucose transporter proteins can be divided into two groups:
+   1. Sodium-dependent glucose transporters (SGLTs)
+      - symporter systems, active transporters encoded by members of
+	the SLC5 gene family
+      - couple sugar transport to the electrochemical gradient of sodium
+      - transport glucose \uparrow [gradient].
+   2. Facilitative glucose transporters (GLUTs)
+      - uniporter systems, passive transporters encoded by members of the SLC2 gene family
+      - transport glucose \downarrow [gradient].
 
-* Glucose Transporters
-- Glucose is hydrophilic \therefore cannot easily cross cell membrane
-- Transporters exist in almost all cell types
-- glucose transporter proteins can be divided into two groups:
-  1. Sodium-dependent glucose transporters (SGLTs)
-     - symporter systems, active transporters encoded by members of
-       the SLC5 gene family
-     - couple sugar transport to the electrochemical gradient of sodium
-     - transport glucose \uparrow [gradient].
-  2. Facilitative glucose transporters (GLUTs)
-     - uniporter systems, passive transporters encoded by members of the SLC2 gene family
-     - transport glucose \downarrow [gradient].
+ #+CAPTION[glucose transporters]:Glucose Transporters
+ #+NAME: fig:glut
+ #+ATTR_LaTeX: :width 0.9\textwidth
+ [[file:./glucose_transport/figures/glut.png]]
 
-#+CAPTION[glucose transporters]:Glucose Transporters
-#+NAME: fig:glut
-#+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./glucose_transport/figures/glut.png]]
+** Congenital Defects of Glucose Transporters
+ - Five congenital defects of monosaccharide transporters
+ - Their clinical picture depends on tissue-specific expression and
+   substrate specificity of the affected transporter.
 
-* Congenital Defects of Glucose Transporters
-- Five congenital defects of monosaccharide transporters
-- Their clinical picture depends on tissue-specific expression and
-  substrate specificity of the affected transporter.
-
-  1. SGLT1 : Congenital Glucose/Galactose Malabsorption
-  2. SGLT2 : Renal Glucosuria
-  3. GLUT1 : Glucose Transporter-1 Deficiency
-  4. GLUT2 : Fanconi-Bickel Syndrome
-  5. GLUT10 : Arterial Tortuosity Syndrome
+   1. SGLT1 : Congenital Glucose/Galactose Malabsorption
+   2. SGLT2 : Renal Glucosuria
+   3. GLUT1 : Glucose Transporter-1 Deficiency
+   4. GLUT2 : Fanconi-Bickel Syndrome
+   5. GLUT10 : Arterial Tortuosity Syndrome
 
 * Congenital Glucose/Galactose Malabsorption (SGLT1 Deficiency )
 

@@ -6,21 +6,17 @@
 ** Carbohydrate Digestion
 #+CAPTION[]:Carbohydrate Digestions
 #+NAME: fig:chod
-#+ATTR_LaTeX: :width 0.7\textwidth
+#+ATTR_LaTeX: :width 0.4\textwidth
 [[file:./carbohydrate_metabolism/figures/carb_digest.pdf]]
-
-** Major Pathways of Glucose Metabolism
 
 #+CAPTION[]:Major Pathways of Glucose Metabolism
 #+NAME: fig:glucpath
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+ATTR_LaTeX: :width 0.4\textwidth
 [[file:./carbohydrate_metabolism/figures/glucose_pathways.pdf]]
-
-** Conversion to AAs and FAs
 
 #+CAPTION[]:Conversion of Glucose
 #+NAME: fig:cgluc
-#+ATTR_LaTeX: :width 0.65\textwidth
+#+ATTR_LaTeX: :width 0.45\textwidth
 [[file:./carbohydrate_metabolism/figures/glucose_conversion.pdf]]
 
 * Regulation
@@ -39,14 +35,15 @@
   - mobilizing FAs from adipose TAGs
   - acts on liver and adipose, muscle has no receptor
 
-** Major Hormones of Metabolic Homeostasis
 #+CAPTION[]:Glucose Homeostasis
 #+NAME: fig:homeo
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./carbohydrate_metabolism/figures/regulation.pdf]]
 
 ** Insulin and Counterregulatory Hormones
 
+#+CAPTION[Insuline and Counterregulatory]:Insulin and Counterregulatory Hormones
+#+NAME: tab:inreg
 | Hormone     | Function                    | Pathway                      |
 |-------------+-----------------------------+------------------------------|
 | Insulin     | \uparrow storage            | glucose \to glycogen         |
@@ -66,14 +63,10 @@
 |             |                             | glycogen synthesis           |
 |             |                             | \uparrow FA release          |
 
-** Post Prandial Production
-
 #+CAPTION[]: Carbohydrate rich meal
 #+NAME: fig:carbmeal
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./carbohydrate_metabolism/figures/meal.pdf]]
-
-** Counterregulatory Hormones During Fasting
 
 #+CAPTION[]: Low Blood Glucose
 #+NAME: fig:lowgluc
@@ -81,8 +74,6 @@
 [[file:./carbohydrate_metabolism/figures/counter_hormones.pdf]]
 
 * Transport
-** Carbohydrate Digestion
-
 #+CAPTION[]:Digestion of Carbohydrates
 #+NAME: fig:dig
 #+ATTR_LaTeX: :width 0.5\textwidth
@@ -99,8 +90,6 @@
   - Gal uses same mechanism as glucose
   - Fructose relies on facilitated diffusion via GLUT5
 
-** Absorption from the Intestine
-
 #+CAPTION[]:Absorption from the intestine
 #+NAME: fig:absorp
 #+ATTR_LaTeX: :width 0.9\textwidth
@@ -108,6 +97,8 @@
 
 ** GLUTs
 
+#+CAPTION[GLUTS]:GLUTS
+#+NAME: tab:glut
 | Transporter | Distribution          | Comments                               |
 |-------------+-----------------------+----------------------------------------|
 | GLUT1       | erythrocyte           | barrier cells                          |
@@ -131,7 +122,6 @@
 |             | spermatozoa           |                                        |
 
 * Glycogen
-** Glycogen
 
 - glycogen is the storage form of glucose found in glycogen particles
 - large polymer of branched glucose polysaccharide
@@ -140,36 +130,31 @@
   - allows parallel processing
   - \uparrow solubility
 
-** Synthesis
+- There is regulation of synthesis and degradation
+  - Primarily in liver and muscle
+  
 #+CAPTION[]:Glycogen Synthesis 
 #+NAME: fig:glycsnd
 #+ATTR_LaTeX: :width 0.4\textwidth
 [[file:./carbohydrate_metabolism/figures/glycogen_synth.pdf]]
 
-** Degradation
-
 #+CAPTION[]:Glycogen Degradation
 #+NAME: fig:glycsnd
-#+ATTR_LaTeX: :width 0.5\textwidth
+#+ATTR_LaTeX: :width 0.4\textwidth
 [[file:./carbohydrate_metabolism/figures/glycogen_degradation.pdf]]
-
-** Synthesis and Degradation
 
 #+CAPTION[]:Glycogen Synthesis and Degradation
 #+NAME: fig:glycsnd
-#+ATTR_LaTeX: :width 0.7\textwidth
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./carbohydrate_metabolism/figures/glycogen_synth_deg.pdf]]
-
-** Regulation
 
 #+CAPTION[]:Regulation of Glycogen Synthesis and Degradation
 #+NAME: fig:regglycsnd
-#+ATTR_LaTeX: :width 0.7\textwidth
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./carbohydrate_metabolism/figures/glycogen_enzyme_reg.pdf]]
 
-** Regulation
-*** Liver
-
+   #+CAPTION[]:Liver glycogen regulation
+   #+NAME: tab:liver
 | state      | regulators           | response             |
 |------------+----------------------+----------------------|
 | Fasting    | \uparrow glucagon    | \uparrow degradation |
@@ -181,9 +166,8 @@
 | exercise & | \uparrow epinephrine | \uparrow degradation |
 | stress     | \uparrow cAMP        |                      |
 
-** Regulation
-*** Muscle 
-
+   #+CAPTION[]:Muscle glycogen regulation
+   #+NAME: tab:muscle
 | state    | regulators           | response                  |
 |----------+----------------------+---------------------------|
 | Fasting  | \downarrow insulin   | \uparrow degradation      |
@@ -197,40 +181,23 @@
 |          | \downarrow AMP       | \downarrow degradation    |
 
 * Sugar Metabolism Pathways
-** Pathways
 - Fructose
 - Galactose
 - Pentose Phosphate Pathway
-** Fructose Metabolism
 
 #+CAPTION[]:Fructose Metabolism
 #+NAME: fig:glycsnd
-#+ATTR_LaTeX: :width 0.8\textwidth
+#+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./carbohydrate_metabolism/figures/fruc_met.pdf]]
 
-** Fructose Synthesis
-
-***                                                                 :BMCOL:
-:PROPERTIES:
-:BEAMER_col: 0.5
-:END:
-#+CAPTION[]:Fructose Synthesis
+#+CAPTION[]:Fructose Synthesis (Polyol Pathway)
 #+NAME: fig:frucsyn
-#+ATTR_LaTeX: :width 0.5\textwidth
+#+ATTR_LaTeX: :width 0.35\textwidth
 [[file:./carbohydrate_metabolism/figures/fruc_syn.pdf]]
-
-***                                                                 :BMCOL:
-:PROPERTIES:
-:BEAMER_col: 0.5
-:END:
-- polyol pathway
-- present in most tissues
-
-** Galactose Metabolism
 
 #+CAPTION[]: Galactose Metabolism
 #+NAME: fig:galmet
-#+ATTR_LaTeX: :width 0.7\textwidth
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./carbohydrate_metabolism/figures/gal_met.pdf]]
 
 ** Pentose Phosphate Pathway
@@ -243,7 +210,6 @@
 *** Non-oxidative Phase
 - reversible rxns
 - convert glycolytic intermediates to 5 carbon sugars
-** Pentose Phosphate Pathway
 
 - Ribose-5-P required for purine and pyrimidine synthesis
 - NADPH required for detoxification and synthetic reaction
@@ -263,22 +229,18 @@
 - Uridine diphosphate (UDP)-glucose is a precusor of:
   - glycogen, lactate, UDP-glucuronate
   - CHO chains in proteoglycans glycoproteins and glycolipids
-** UPD-glucose
+
 #+CAPTION[]: UDP-glucose metabolism
 #+NAME: fig:udpglu
-#+ATTR_LaTeX: :width 0.7\textwidth
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./carbohydrate_metabolism/figures/udp_glu.pdf]]
-
-** UPD-glucuronate
 
 #+CAPTION[]: UDP-glucuronate metabolism
 #+NAME: fig:udpgln
-#+ATTR_LaTeX: :width 0.7\textwidth
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./carbohydrate_metabolism/figures/udp_gln.pdf]]
 
 * Gluconeogenesis
-
-** Precusors
 
 #+CAPTION[]: Glucose precusors
 #+NAME: fig:precursors
@@ -286,19 +248,15 @@
 [[file:./carbohydrate_metabolism/figures/precusors.pdf]]
 
 
-** Tissue response to Fasting
-
 #+CAPTION[]: Tissue interrelationships during fasting
 #+NAME: fig:tissue
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+ATTR_LaTeX: :width 0.7\textwidth
 [[file:./carbohydrate_metabolism/figures/fasting.pdf]]
 
 
-** Changes in metabolic fuels during fasting
-
 #+CAPTION[]: Changes in metabolic fuels during fasting
 #+NAME: fig:changes
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+ATTR_LaTeX: :width 0.7\textwidth
 [[file:./carbohydrate_metabolism/figures/fasting_changes.pdf]]
 
 

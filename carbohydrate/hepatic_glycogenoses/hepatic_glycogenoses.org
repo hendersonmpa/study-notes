@@ -4,10 +4,8 @@
 
 
 * Introduction
-
-** Hepatic Glycogenoses
-
-\scriptsize
+#+CAPTION[]:Hepatic Glycogenoses
+#+NAME: tab:hep
 | Type | Enzyme                          | Gene    | Phenotype                                  |
 |------+---------------------------------+---------+--------------------------------------------|
 | 0a   | liver glycogen synthase         | GYS2    | ketotic hypoglycema                        |
@@ -21,17 +19,6 @@
 | IXb  | phosphorylase kinase \beta      | PHKB    |                                            |
 | IXc  | phosphorylase kinase \gamma{}TL | PHKG2   |                                            |
 | IXd  | phosphorylase kinase \alpha1    | PHKA1   | myopathy                                   |
-
-** Hepatic Glycogenoses
-
-#+CAPTION[Hepatic Glycogenoses]:Hepatic Glycogenoses
-#+NAME: fig:hglyc
-#+ATTR_LaTeX: :width 0.75\textwidth
-[[file:./figures/gggmetab.png]]
-
-
-
-** Hepatic Glycogenoses
 
 #+CAPTION[Hepatic Glycogenoses]:Hepatic Glycogenoses
 #+NAME: fig:hglyc
@@ -173,8 +160,6 @@
     myopathy.
   - Liver disease does not progress, survival into adulthood.
 
-** Clinical Presentation
-
 *** Neuromuscular Disease
 - Congenital onset
   - fetal loss in pregnancy,
@@ -243,6 +228,8 @@
 - The \delta subunit, calmodulin, is ubiquitous
 
 ** Genetics
+#+CAPTION[]:GSD Type IX Genetics
+#+NAME: tab:gsdix
 | Type | Gene  | Subunit    | Inheritance | Tissue         |
 |------+-------+------------+-------------+----------------|
 | IXa  | PHKA2 | \alpha2    | XLR         | liver & blood  |
@@ -272,3 +259,4 @@
 - Protein can be increased to 15 to 20% of calories to provide a gluconeogenesis substrate.
 - The outcome for most patients is good with resolution of
   hepatomegaly and catch up growth by adulthood.
+

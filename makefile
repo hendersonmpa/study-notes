@@ -54,7 +54,7 @@ $(OUT_DIR)urea_cycle.pdf: ./urea_cycle/urea_cycle.org ./urea_cycle/ammonia/ammon
 	mv -v ./urea_cycle/urea_cycle.pdf $(OUT_DIR)urea_cycle.pdf
 
 $(OUT_DIR)carbohydrate.pdf: ./carbohydrate/carbohydrate.org ./carbohydrate/carbohydrate_metabolism/carbohydrate_metabolism.org \
-./carbohydrate/galt/galt.org ./carbohydrate/hepatic_glycogenoses/hepatic_glycogenoses.org \
+./carbohydrate/galactose/galactose.org ./carbohydrate/hepatic_glycogenoses/hepatic_glycogenoses.org \
 ./carbohydrate/muscle_cardiac_glycogenoses/muscle_cardiac_glycogenoses.org \
 ./carbohydrate/glycolysis_ppp/glycolysis_ppp.org ./carbohydrate/fructose/fructose.org \
 ./carbohydrate/insulin/insulin.org ./carbohydrate/glucose_transport/glucose_transport.org
