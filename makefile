@@ -2,11 +2,11 @@ SHELL=/bin/bash
 OUT_DIR=./notes/
 
 
-all: $(OUT_DIR)faod.pdf $(OUT_DIR)organic_acids.pdf $(OUT_DIR)lysosomal_storage_disease.pdf \
+all: $(OUT_DIR)faod.pdf $(OUT_DIR)organic_acids.pdf $(OUT_DIR)organelles.pdf \
 $(OUT_DIR)mitochondrial_disease.pdf $(OUT_DIR)urea_cycle.pdf $(OUT_DIR)carbohydrate.pdf clean
 
 $(OUT_DIR)faod.pdf: ./faod/faod.org ./faod/fao/fao.org ./faod/faod_routine_testing/faod_routine_testing.org \
-./faod/mito_faod/mito_faod.org ./faod/peroxisomes/peroxisomes.org
+./faod/mito_faod/mito_faod.org 
 	emacs -u "$(id -un)" \
 	--batch \
 	--eval '(load user-init-file)' \
@@ -23,15 +23,18 @@ $(OUT_DIR)organic_acids.pdf: ./organic_acids/organic_acids/organic_acids.org ./o
 	-f org-latex-export-to-pdf
 	mv -v ./organic_acids/organic_acids.pdf $(OUT_DIR)organic_acids.pdf
 
-$(OUT_DIR)lysosomal_storage_disease.pdf: ./lsd/lysosomal_storage_disease.org ./lsd/fabry/fabry.org ./lsd/gaucher/gaucher.org \
-./lsd/GM1_2/GM1_2.org ./lsd/krabbe/krabbe.org ./lsd/mps/mps.org ./lsd/mucolipidosis/mucolipidosis.org \
-./lsd/niemann_pick/niemann_pick.org ./lsd/sphingolipid_synthesis/sphingolipid_synthesis.org
+$(OUT_DIR)organelles.pdf: ./organelles/organelles.org ./organelles/fabry/fabry.org \
+./organelles/gaucher/gaucher.org ./organelles/GM1_2/GM1_2.org ./organelles/krabbe/krabbe.org \
+./organelles/mps/mps.org ./organelles/mucolipidosis/mucolipidosis.org \
+./organelles/oligosaccharidoses/oligosaccharidoses.org \
+./organelles/niemann_pick/niemann_pickab.org ./organelles/niemann_pick/niemann_pickc.org \
+./organelles/sphingolipid_synthesis/sphingolipid_synthesis.org ./organelles/peroxisomes/peroxisomes.org
 	emacs -u "$(id -un)" \
 	--batch \
 	--eval '(load user-init-file)' \
-	./lsd/lysosomal_storage_disease.org \
+	./organelles/organelles.org \
 	-f org-latex-export-to-pdf
-	mv -v ./lsd/lysosomal_storage_disease.pdf $(OUT_DIR)lysosomal_storage_disease.pdf
+	mv -v ./organelles/organelles.pdf $(OUT_DIR)organelles.pdf
 
 
 $(OUT_DIR)mitochondrial_disease.pdf: ./mitochondria/mitochondrial_disease.org ./mitochondria/etc/etc.org \
@@ -77,3 +80,4 @@ clean :
 	rm -f *.lo?
 	rm -f *.toc
 	rm -f *-blx.bib
+	rm -f *.bbl

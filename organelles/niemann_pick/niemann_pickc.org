@@ -1,0 +1,117 @@
+#+TITLE: Niemann-Pick Disease C
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+* Introduction
+- a fatal, neuro-degenerative disease that affects ~ 1:150,000
+  - sometimes referred to as Childhood Alzheimer’s
+  - extremely heterogeneous
+  - biochemically, genetically and clinically distinct from Niemann-Pick A and B. 
+- Accumulation of unesterified cholesterol, sphingomyelin, glycolipids in systemic organs
+- GM2 and GM3 accumulate in brain
+  - no increase in cholesterol
+- NPC has two sub types NP-C1 (95%) and NP-C2 (5%)
+
+- LDL cholesterol enters cells via endocytosis at the LDL receptor.
+- delivered to the late-stage endosomes and lysosomes
+- hydrolyzed and released as free cholesterol.
+- Unesterified cholesterol is transported to the plasma membrane and the ER for recycling.
+
+- In NP-C, the LDL-cholesterol is trapped in lysosomes
+
+#+CAPTION[]: Cholesterol Transport
+#+NAME: fig:
+#+ATTR_LaTeX: :width 0.8\textwidth
+[[file:./niemann_pick/figures/cholesterol1.jpg]]
+
+** NPC1 & NPC2
+
+#+CAPTION[]: NPC1 & NPC2
+#+NAME: fig:npc
+#+ATTR_LaTeX: :width 0.65\textwidth
+[[file:./niemann_pick/figures/Niemann-Pick-C-Brown-and-Goldstein.png]]
+
+- NPC1 is a lysosomal membrane protein involved in transport in the endosomal-lysosomal system
+- NPC2 acts in cooperation with the NPC1
+- The disruption of transport results in accumulation of cholesterol and glycolipids in lysosomes.
+
+* Genetics
+- Autosomal recessive inheritance,
+- Mutations in NPC1 (95%) and NPC2 (5%)
+
+* Clinical Findings
+- onset of the disease can happen at any age.
+  - often school age children.
+  - also adults
+
+- Symptoms may include:
+  - Jaundice at birth or shortly afterwards
+  - Hepatosplenomegaly
+  - Vertical supranuclear gaze palzy
+  - Ataxia
+  - Dystonia
+  - Dysarthria
+  - Cognitive dysfunction/dementia
+  - Cataplexy
+  - Tremors accompanying movement
+  - Seizures
+  - Dysphagia
+
+*** Definitions:
+- Vertical Supranuclear Gaze Palzy: Difficulty with Upward & Downward Eye Movement 
+- Ataxia: Unsteadiness with Gait, Clumsiness or Walking 
+- Dystonia:  neurological movement disorder syndrome in which sustained or repetitive muscle contractions result in twisting and repetitive movements or abnormal fixed postures
+- Dysarthria: Slurred Irregular Speech 
+- Cognitive Dysfunction/Dementia: Learning Difficulties & Progressive Intellectual Decline 
+- Cataplexy: Sudden Loss of Muscle Tone Which May Lead to Unexpected Falls 
+- Dysphagia:Swallowing Problems 
+- Thrombocytopenia: low number of platelets
+
+** Neurological Forms
+*** Early infantile          
+- pre-existing hepatosplenomegaly
+- delay in motor milestones 9m-2yrs
+- survival <6 years
+
+*** Late-infantile
+- classic NPC, 60-70% of cases
+- language delay
+- Ataxia, 3-5 yrs
+- Cognitive dysfunction, 6-12 yrs 
+
+*** Adult 
+- diagnosis 15->60yrs.
+- insidious presentation
+- ataxia, dystonia, dysarthria, movement disorders
+- variable cognitive dysfunction
+- Vertical gaze palzy common
+
+* Diagnostic Tests
+
+- Foamy and sea-blue histiocytes may (not always) be found in bone
+  marrow aspirates.
+
+- Plasma and DBS
+  - lysosphingomylin 
+  - lysosphingomylin-509
+
+
+- Filipin test
+  - Streptomyces filipinensis - anti-fungal
+  - culture fibroblasts in an LDL-enriched medium
+  - pathognomonic free cholesterol accumulation in lysosomes
+  - fluorescence microscopy after filipin staining
+  - unequivocal results in ~ 85% of patients
+
+#+CAPTION[]:Filipin staining (red:filipin, green:CellMask)
+#+NAME: fig:filipin
+#+ATTR_LaTeX: :width 0.5\textwidth
+[[file:./niemann_pick/figures/filipin.png]]
+
+* Treatment
+- substrate reduction therapy
+  - miglustat approved for treatment of neurological manifestations
+  - miglustat is an iminosugar, a synthetic analogue of D-glucose
+
+
+

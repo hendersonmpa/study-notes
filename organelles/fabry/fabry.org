@@ -3,9 +3,6 @@
 #+DATE: \today
 
 * Introduction
-
-** Fabry
-
 - AKA: angiokeratoma corporis diffusum universale
 - Second most common LSD
 - 1:339,000 heterozygote females in the UK
@@ -17,8 +14,9 @@
 - Lack of \alpha-GalA leads to accumulation of Gb3 in blood vessels and other tissues
   - wide range of symptoms including kidney, heart, and skin symptoms
   - \uparrow [Gb3] in kidney and blood group B antigenic glycosphingolipid
-
-** Sphingolipid degradation
+-  Globotriaosylceramide (Gb3): the Fabry lipid
+- \alpha-galactosidase A uses both sortilin and mannose receptor
+  - Not affected in ML II & III
 
 #+CAPTION[Sphingolipid degradation]:Sphingolipid degradation
 #+NAME: fig:sld
@@ -26,19 +24,16 @@
 [[file:./fabry/figures/sl_degradation.png]]
 
 
-**  Globotriaosylceramide (Gb3): the Fabry lipid
-#+CAPTION[Globotriaosylceramide]: Globotriaosylceramide
+#+CAPTION[Globotriaosylceramide]:  Globotriaosylceramide (Gb3): the Fabry lipid
 #+NAME: fig:galac 
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./fabry/figures/globotriaosylceramide.png]]
 
-** \alpha-galactosidase A
-#+CAPTION[\alpha-galactosidase A]:\alpha-galactosidase A
+#+CAPTION[\alpha-galactosidase A]:\alpha-galactosidase A, located in the lumen of lysosomes
 #+NAME: fig:sidase
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./fabry/figures/galactosidaseA.png]]
 
-- Located in the lumen of lysosomes
 
 ** Lysosomal Trafficking
 
@@ -47,8 +42,6 @@
 #+ATTR_LaTeX: :width 0.8\textwidth
 [[file:./fabry/figures/lysosome_trafficking.jpeg]]
 
-- \alpha-galactosidase A uses both sortilin and mannose receptor
-  - Not affected in ML II & III
 
 ** Sortilin
 
@@ -64,7 +57,7 @@
 - megalin mediated endocytosis of \alpha-galactosidase kidney proximal tubule 
 - megalin also mediates the endocytosis of \alpha-galactosidase in renal podocytes
 
-** Genetics
+* Genetics
 - The \alpha-galactosidase A gene is on the X chromosome
   - Xq22.1
 - X-linked with penetrance in female heterozygotes
@@ -75,15 +68,16 @@
 
 * Clinical Findings
 
-** Signs and Symptoms
-
 - postprandial pain or diarrhea
   - may be sole complaint
 - degradation of interphalangeal joints
 - cerebrovascular - stroke, seizures
 - ocular lesions
+- Angiokeratomas
+  - prominent on hip, buttocks and scrotum
 
-
+#+CAPTION[]:Signs and Symptoms
+#+NAME: tab:fabss
 | Age         | Signs                                           |
 |-------------+-------------------------------------------------|
 | Childhood   | Pain in extremities, fever, Fabry crisis [fn:1] |
@@ -92,19 +86,14 @@
 |             | Myocardial and pulmonary disease                |
 | Middle age  | Renal failure, lymphedema                       |
 
-
 [fn:1] May be induced by heat, cold, fatigue or emotional stress
-
-
-** Angiokeratomas
-
 
 #+CAPTION[Angiokeratomas of the skin]:Angiokeratomas of the skin
 #+NAME: fig:skin
 #+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./fabry/figures/angiokeratomas.png]]
 
-- prominent on hip, buttocks and scrotum
+
 
 * Laboratory Investigations
 
@@ -131,8 +120,6 @@
 [[file:./fabry/figures/Fabrys-disease.jpg]]
 
 * Treatment
-
-** Treatment
 - Alleviate pain
   - chronic low dose of diphenylhydantoin
   - carbamazapine, gabapentin

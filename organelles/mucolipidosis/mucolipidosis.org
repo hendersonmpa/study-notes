@@ -4,7 +4,6 @@
 
 
 * Introduction
-** Mucolipidosis
 - The mucolipidoses derived their name from the similarity in
   presentation to both mucopolysaccharidoses and sphingolipidoses.
 
@@ -18,15 +17,13 @@
   - ML IV: ganglioside sialidase deficiency - gangliosidosis
 
 
-** ML II & III : Nomenclature
-
+#+CAPTION[]: ML II & III : Nomenclature
+#+NAME: tab:mlnom
 |                            | Current | Proposed          |
 |----------------------------+---------+-------------------|
 | I-cell                     | ML II   | ML II alpha/beta  |
 | Pseudo-Hurler polydystropy | ML IIIA | ML III alpha/beta |
 | ML III variant             | ML IIIC | ML III gamma      |
-
-** Mucolipidosis
 
 - ML II and ML III result from a deficiency of the enzyme
   N-acetylglucosamine-1-phosphotransferase
@@ -36,23 +33,8 @@
   lysosomes, and are secreted from the cell.
 
 * ML II & III 
-** Protein trafficking to lysosomes
-
-#+CAPTION[Protein trafficking to lysosomes]:Protein trafficking to lysosomes
-#+NAME: fig:traffic
-#+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./mucolipidosis/figures/lysosome_traffic.jpg]]
-
+** Biochemical
 - ML II and III are due to incorrect protein trafficking to lysosomes
-
-** ML II & III : Biochemical Defect
-
-#+CAPTION[N-acetylglucosamine (GlcNAc) phosphotransferase]:N-acetylglucosamine (GlcNAc) phosphotransferase
-#+NAME: fig:biochem
-#+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./mucolipidosis/figures/ml_defect.png]]
-
-** ML II & III Biochemical Defect
 - Characterized by deficient activity of a large number of lysosomal enzymes:
   - \beta-glucuronidase
   - \beta-galactosidase
@@ -64,17 +46,26 @@
 - The activities of the same lysosomal enzymes are high in the medium
   surrounding cultured I-cell fibroblasts
 
+- I-cells are caused by oligosaccharides, lipids, and
+  glycosaminoglycan inclusions in lysosomes
 
-** ML II & III : I-cell
+#+CAPTION[Protein trafficking to lysosomes]:Protein trafficking to lysosomes
+#+NAME: fig:traffic
+#+ATTR_LaTeX: :width 0.8\textwidth
+[[file:./mucolipidosis/figures/lysosome_traffic.jpg]]
+
+
+#+CAPTION[N-acetylglucosamine (GlcNAc) phosphotransferase]:N-acetylglucosamine (GlcNAc) phosphotransferase
+#+NAME: fig:biochem
+#+ATTR_LaTeX: :width 0.8\textwidth
+[[file:./mucolipidosis/figures/ml_defect.png]]
 
 #+CAPTION[]:I cell in fibroblast culture
 #+NAME: fig:icell
 #+ATTR_LaTeX: :height 0.65\textheight
 [[file:./mucolipidosis/figures/icell.png]]
 
-- oligosaccharides, lipids, and glycosaminoglycan inclusions in lysosomes
-
-** ML II & III : Clinical 
+** Clinical 
 
 *** ML II
 - Low IQ
@@ -92,7 +83,7 @@
 
 - ML-II and ML-III can be distinguished on clinical criteria and on progression of the disease
 
-** ML II & III :Genetics
+** Genetics
 
 - Autosomal recessive
 - The GlcNAc-PT has been purified and characterized as a hexameric
@@ -109,7 +100,7 @@
   variant form of ML III, termed ML IIIC.
 
 
-** ML II & III : Labs
+** Labs
 
 - Diagnosis is generally made by assay of lysosomal enzymes
   - in cultured fibroblasts there is a distinct deficiency
@@ -124,7 +115,7 @@
 
 * Sialidosis and ML IV
 
-j** Sialidosis (ML I)
+** Sialidosis (ML I)
 - Sialidosis is an autosomal recessive lysosomal storage disorder.
 
 - *Type I sialidosis*, the milder form of this disorder, is
@@ -137,8 +128,6 @@ j** Sialidosis (ML I)
   early onset of a progressive, rather severe,
   mucopolysaccharidosis-like phenotype with visceromegaly, dysostosis
   multiplex, and mental retardation.
-
-** Sialidosis (ML I)
 
 - Both forms of the disease result from deficiency of the
   neuraminidase (NEU1) that normally cleaves terminal \alpha2 \to 3 and
@@ -174,8 +163,6 @@ j** Sialidosis (ML I)
 
 - blood gastrin levels should be measured, and elevated levels in
   this setting are virtually diagnostic of MLIV
-
-** ML IV
 
 - MLIV is pan-ethnic, but most patients are of Ashkenazi-Jewish
   ancestry, in which the most prevalent mutation occurs at a frequency

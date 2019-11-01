@@ -1,0 +1,64 @@
+#+TITLE: Oligosaccharidoses
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+
+* Introduction
+
+- Almost all the secreted and membrane associated proteins of the body
+  are glycosylated, as well as numerous intracellular
+  proteins,including the lysosomal acid hydrolases.
+- A great variety of oligosaccharide chains are attached to the
+  protein backbone via:
+  - the hydroxyl group of serine or threonine (O-linked)
+  - via the amide group of asparagine (N-linked)
+
+- chains usually have a core composed of N-acetylglucosamine and mannose
+- often contain galactose, fucose and N-acetylgalactosamine
+- frequently terminal sialic acids (N-acetylneuraminic acid)
+- Oligosaccharide chains with a terminal mannose-6-phosphate are
+  involved in the targeting of lysosomal enzymes to lysosomes.
+- This recognition marker is synthesised in two steps from UDP-N-acetylglucosamine
+
+- Deficiencies of the enzymes required for the degradation of the
+  oligosaccharide chains cause oligosaccharidoses (glycoprotein storage diseases).
+
+- Defects of the synthesis of the mannose-6-phosphate recognition
+  marker result in the mislocalisation of lysosomal enzymes.
+
+
+#+CAPTION[]:Glycoprotein Oligosaccharide Chain
+#+NAME: fig:glycanchain
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/oligosacch.png]]
+
+* Disorders
+** Mannosidosis
+- A deficiency of \alpha-mannosidase \to variable disorder \alpha-mannosidosis. 
+- A mild Hurler phenotype
+  - variable learning difficulties
+  - hepatosplenomegaly
+  - deafness
+  - skeletal dysplasia,
+- complicated by an immune deficiency which can dominate the clinical progression of the disease
+
+- \beta-mannosidosis, deficiency of \beta-mannosidase,
+  - is much less prevalent than \alpha-mannosidosis
+  - and is very variable, but severe learning difficulties,
+    challenging behaviour, deafness and frequent infections are
+    relatively common
+
+** Fucosidosis
+- lack the typical facial dysmorphism
+- Deficiency of \alpha-fucosidase \to variable neurodegenerative disorder
+- often with seizures and mild dysostosis.
+- often exhibit prominent and widespread angiokeratomas, progress with age.
+
+** Galactosialidosis
+- combined deficiency of the lysosomal enzymes \beta-galactosidase and \alpha-neuraminidase.
+- results from a defect in protective protein/cathepsin A (PPCA)
+- an intralysosomal protein which protects these enzymes from premature proteolytic processing
+- presentation includes:
+  - hydrops fetalis as well as a more slowly progressive disorder
+    associated with learning difficulties, dysostosis multiplex and corneal opacity.
+

@@ -47,7 +47,3 @@
 
 * Routine Testing for Mitochondrial FAODs
 #+INCLUDE: "./faod_routine_testing/faod_routine_testing.org" :lines "4-"
-
-* Peroxisomal Disorders
-#+INCLUDE: "./peroxisomes/peroxisomes.org" :lines "4-"
-

@@ -1,0 +1,113 @@
+#+TITLE: Niemann-Pick Disease A & B
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+
+* Introduction
+- There are two distinct diseases called Niemann-Pick
+  - Types A and B (acid sphingomyelinase deficiency)
+  - Type C (cholesterol recycling)
+
+** Niemann-Pick A & B
+- Incidence of Niemann-Pick A among Ashkenazi Jews ~ 1:40,000.
+- Incidence of both Niemann–Pick A and B in all other populations ~ 1:250,000.
+- Niemann-Pick Type A and B are caused by deficiency of acid sphingomyelinase (ASM).
+  - sphingomyelinase is required to metabolize sphingomyelin.
+  - results in progressive accumulation of sphingomyelin in systemic organs
+    - brain accumulation in neuronal forms
+  - There is growing evidence that NPA & NPB represent opposite ends of a continuum.
+    - NPA generally have little or no ASM production (less than 1% of normal).
+    - NPB have approximately 10% of normal level of ASM.
+- lysosomal trafficking of acid sphingomyelinase is mediated by sortilin and mannose 6-phosphate receptor.
+- MPR alone is sufficient to transport NPC2 to the endo/lysosomal compartment
+- Sorting of LMPs from Golgi/PM to endosomal system is mediated by
+  signals in the cytosolic domain
+
+#+CAPTION[]:Sphingomyelin
+#+NAME: fig:sphingomyelin
+#+ATTR_LaTeX: :width 0.8\textwidth
+[[file:./niemann_pick/figures/sphingomyelin.png]]
+
+#+CAPTION[]: Sphingomyelinase
+#+NAME: fig:sphingomyelinase
+#+ATTR_LaTeX: :width 0.8\textwidth
+[[file:./niemann_pick/figures/sphingomyelinase.png]]
+
+* Genetics
+- Mutations in SMPD1
+- Good phenotype-genotype correlation
+
+* Clinical Findings
+** Niemann-Pick A symptoms
+- hepatosplenomegaly by age 3 months
+- Failure to thrive
+- Psychomotor regression at age 1
+  - progressive loss of abilities – mental and physical
+- Interstitial lung disease resulting in lung infections and lung failure
+- Cherry-red spot identified with eye examination (100%)
+
+** Niemann-Pick B symptoms
+- Symptoms outlined under NPA (but less severe)
+- Thrombocytopenia 
+- Short stature
+- Cherry-red spot identified with eye examination (50%)
+
+
+- Classification by neurological form is widely used
+- correlation between age at neurological onset and course of disease
+  and lifespan has been established
+
+
+
+* Diagnostic Tests
+- Plasma oxysterols
+  - oxysterols cholestane-3\beta, 5\alpha, 6\beta-triol
+  - 7-ketocholesterol
+  - Chitotriosidase is moderately elevated
+- Deficient ASM activity in leukocytes or cultured cells.
+  - use of native or radio-labelled substrate preferred to fluorescent substrate
+    - 6-hexadecanoylamino-4-methylumbelliferyl-phosphorylcholine
+    - Does not detect Q292K mutation
+
+#+CAPTION[]: Klinke, G. Clin Biochem 2015
+#+NAME: fig:
+#+ATTR_LaTeX: :width 0.7\textwidth
+[[file:./niemann_pick/figures/biomarkers.jpg]]
+
+
+#+CAPTION[]: Kuckar, L. Anal Biochem. 2017
+#+NAME: fig:
+#+ATTR_LaTeX: :width 0.8\textwidth
+[[file:./niemann_pick/figures/biomarkersII.jpg]]
+
+** Enzymology
+
+
+** Pathology
+#+CAPTION[]: Foam cells in bone marrow
+#+NAME: fig:foam
+#+ATTR_LaTeX: :width 0.45\textwidth
+[[file:./niemann_pick/figures/foam_cells.png]]
+
+
+
+* Treatment
+- No approved treatments
+- Olipudase alfa, a recombinant human acid sphingomyelinase (ASM), is
+  an enzyme replacement therapy for the treatment of nonneurologic
+  manifestations of acid sphingomyelinase deficiency (ASMD).
+- ongoing, open-label, long-term study (NCT02004704) assessed safety
+  and efficacy of olipudase alfa following 30 months of treatment in
+  five adult patients with ASMD.
+- There were no deaths, serious or severe events, or discontinuations
+  during 30 months of treatment.
+- Chitotriosidase in serum and lyso-sphingomyelin in dried blood spots
+  decreased with olipudase alfa treatment
+
+
+
+
+
+
+
+

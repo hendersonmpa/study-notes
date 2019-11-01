@@ -1,4 +1,4 @@
-#+TITLE: Lysosomal Storage Disease
+#+TITLE: Organelle Related Disorders
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
@@ -40,34 +40,71 @@
 #+END_EXPORT 
 
 
+
 * Sphingolipid Synthesis
 #+INCLUDE: "./sphingolipid_synthesis/sphingolipid_synthesis.org" :lines "4-"
 
-* Gaucher
+* Sphingolipidoses
+
+#+CAPTION[]:Sphingolipid degradation
+#+NAME: fig:sld
+#+ATTR_LaTeX: :width 0.6\textwidth
+[[file:./figures/sl_degradation.png]]
+
+** Lysosomal Trafficking
+
+#+CAPTION[Lysosomal protein trafficking receptors]:Lysosomal protein trafficking receptors
+#+NAME: fig:traf
+#+ATTR_LaTeX: :width 0.8\textwidth
+[[file:./fabry/figures/lysosome_trafficking.jpeg]]
+
+** Sortilin
+
+- Sortilin is a type I transmembrane protein found in lysosomes
+  - can transport several lysosomal proteins from the TGN or PM to the endosomes
+- Tissues from sortilin knock-out mice exhibit normal morphology
+- Sortilin may transport selected acid hydrolases in:
+  - a subset of cell types
+  - under stress conditions (e.g. Man-6-P pathway is deficient) 
+
+** Megalin 
+- a cell surface receptor involved in reabsorption of proteins at the kidney proximal tubule
+- megalin mediated endocytosis of \alpha-galactosidase kidney proximal tubule 
+- megalin also mediates the endocytosis of \alpha-galactosidase in renal podocytes
+
+** Gaucher
 #+INCLUDE: "./gaucher/gaucher.org" :lines "4-"
 
-* Niemann-Pick
-#+INCLUDE: "./niemann_pick/niemann_pick.org" :lines "4-"
+** Niemann-Pick  A & B
+#+INCLUDE: "./niemann_pick/niemann_pickab.org" :lines "4-"
 
-* GM1 & GM2 Gangliosidoses
+** GM1 & GM2 Gangliosidoses
 #+INCLUDE: "./GM1_2/GM1_2.org" :lines "4-"
 
-* Krabbe
+** Krabbe
 #+INCLUDE: "./krabbe/krabbe.org" :lines "4-"
 
-* TODO Metachromic Leukodystropy
+** TODO Metachromic Leukodystropy
 
-* Fabry
+** Fabry
 #+INCLUDE: "./fabry/fabry.org" :lines "4-"
 
-* TODO Farber
+** TODO Farber
 
-* TODO Prosaposin
+** TODO Prosaposin
+
+
+* Niemann-Pick C
+#+INCLUDE: "./niemann_pick/niemann_pickc.org" :lines "4-"
 
 * Mucopolysaccharidoses
 #+INCLUDE: "./mps/mps.org" :lines "4-"
 
-* TODO Oligosaccharidoses
+* Oligosaccharidoses
+#+INCLUDE: "./oligosaccharidoses/oligosaccharidoses.org" :lines "4-"
 
 * Mucolipidoses
 #+INCLUDE: "./mucolipidosis/mucolipidosis.org" :lines "4-"
+
+* Non-Mitochondrial Fatty Acid Metabolism Disorders
+#+INCLUDE: "./peroxisomes/peroxisomes.org" :lines "4-"

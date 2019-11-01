@@ -3,7 +3,6 @@
 #+DATE: \today
 
 * Introduction
-** Krabbe Disease
 - A rapidly progressive CNS degenerative disease
 - Krabbe is both a leukodystrophy, affecting white matter of the central
   and peripheral nervous systems, and an LSD
@@ -15,8 +14,6 @@
     - Multinucleated microglia/macrophages seen in the white matter
 - accumulation of galactosylspingosine (psychosine) in oligodendrocytes and Schwann cells
 
-** Galactocerebrosidase
-
 #+CAPTION[]:Galactocerebrosidase
 #+NAME: fig:bgal
 #+ATTR_LaTeX: :width 0.8\textwidth
@@ -25,6 +22,9 @@
 - Galactocerebrosidase is a lysosomal enzyme
 - Hydrolyzes the galactose ester bonds of galactocerebroside, galactosylsphingosine, lactosylceramide, and monogalactosyldiglyceride.
 - Requires saposin A cofactor
+- lysosomal trafficking of galactocerebrosidase by the mannose 6-phosphate receptor.
+- enzyme is secreted in ML II 
+
 ** Saposin A cofactor deficiency
 
 - atypical Krabbe disease due to saposin A deficiency is caused by mutation in the prosaposin gene (PSAP; 176801).
@@ -36,25 +36,7 @@
   surroundings, thus making it more accessible to the soluble
   degradative enzyme
 
-** Sphingolipid degradation
-
-#+CAPTION[]:Sphingolipid degradation
-#+NAME: fig:sld
-#+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./krabbe/figures/sl_degradation.png]]
-
-** Lysosomal Protein Trafficking
-
-#+CAPTION[]:Lysosomal protein trafficking receptors
-#+NAME: fig:traf
-#+ATTR_LaTeX: :width 0.65\textwidth
-[[file:./krabbe/figures/lysosome_trafficking.jpeg]]
-
-\footnotesize
-- lysosomal trafficking of galactocerebrosidase by the mannose 6-phosphate receptor.
-- enzyme is secreted in ML II 
-
-** Genetics
+* Genetics
 - Autosomal recessive
 - The GALC gene is situated at 14q31 and consists of 17 exons.
 - A recurrent 30 kb deletion has been described which extends from
@@ -122,13 +104,10 @@
   evidence of infantile-onset Krabbe disease who are candidates for
   early HSCT
 
-** NBS follow-up 
-
 #+CAPTION[]:NBS follow-up at Mayo
 #+NAME: fig:
 #+ATTR_LaTeX: :width 0.8\textwidth
 [[file:./krabbe/figures/NBS_follow_up.png]]
-
 
 * Laboratory Investigations
 

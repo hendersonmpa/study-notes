@@ -3,8 +3,6 @@
 #+DATE: \today
 
 * Introduction
-
-** Gaucher
 - Caused by accumulation of glucosylceramide (glucocerebroside).
 - Defect in \beta-glucocerebrosidase
   - Extremely rare SAP-C deficiency
@@ -16,34 +14,23 @@
   - Type 3 :: Sub-acute or chronic neuronopathic
 - Type 1 disease is common in Western Europe, the Americas and Israel
 - In many other countries neuronopathic forms of Gaucher disease predominate
+- Glucocerebroside: the Gaucher lipid
 
-** Sphingolipid degradation
-
-#+CAPTION[]:Sphingolipid degradation
-#+NAME: fig:sld
-#+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./gaucher/figures/sl_degradation.png]]
-
-** Glucocerebroside: the Gaucher lipid
+- Located in the lumen of lysosomes
+- LIMP-2 is responsible for mannose 6-phosphate receptor independent
+  lysosomal targeting of \beta-glucocerebrosidase
 
 #+CAPTION[]:Glucocerebroside
 #+NAME: fig:gluc 
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./gaucher/figures/glucocerebroside.png]]
 
-** Glucocerebrosidase
-
-
 #+CAPTION[]:\beta-glucocerebrosidase
 #+NAME: fig:sidase
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./gaucher/figures/glucocerebrosidase.png]]
 
-- Located in the lumen of lysosomes
-- LIMP-2 is responsible for mannose 6-phosphate receptor independent
-  lysosomal targeting of \beta-glucocerebrosidase
-
-** Genetics
+* Genetics
 - Autosomal recessive, GBA gene 
 - Most of the >300 disease alleles in Gaucher disease are missense
   mutations
@@ -60,10 +47,7 @@
 - within these categories there is variable penetrance and
   expressivity between individuals and ethnic groups.
 
-
 * Clinical Findings
-** Clinical Presentation
-
 #+CAPTION[]: Gaucher Clinical Variants
 #+NAME: tab:variants
 |                        | Type 1             | Type 2     | Type 3           |
@@ -77,14 +61,13 @@
 | Enrichment             | Ashkenazi          | None       | Norrbottnian     |
 |                        |                    |            | Swedish          |
 
-** Clinical Presentation
-
 #+CAPTION[]: Gaucher Clinical Variants
 #+NAME: fig:variants
 #+ATTR_LaTeX: :width \textwidth
 [[file:./gaucher/figures/variants.png]]
 
 = * Parkinson Disease, ** Myoclonic Seizures =
+
 ** Gaucher type 1
 - Clinical manifestations of Gaucher type 1 are linked to macrophages
   engorged with glucosylceramide.
@@ -144,7 +127,6 @@
   - many type 3 patients may be incorrectly classified as type 1 when
     first seen
 
-** Gaucher type 3
 *** Gaucher type 3a
 - progressive myoclonus and dementia
 
@@ -162,8 +144,6 @@
   - cardiac/aortic valvular calcification
 
 * Laboratory Investigations
-** Gaucher Cells
-
 #+CAPTION[]:Gaucher Cells
 #+NAME: fig:cells
 #+ATTR_LaTeX: :width 0.8\textwidth
@@ -182,7 +162,6 @@
 - chitotriosidase, chemokine CLL18/PARK, glucosylsphingosine
 
 ** Molecular
-
 - GBA gene sequencing, >300 disease alleles
 - Patients homozygous for the L444P mutation have severe visceral
   disease, highly predisposed to the development of CNS disease.

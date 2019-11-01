@@ -4,14 +4,6 @@
 
 
 * Introduction
-
-** Sphingolipid degradation
-
-#+CAPTION[]:Sphingolipid degradation
-#+NAME: fig:sld
-#+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./GM1_2/figures/sl_degradation.png]]
-
 ** GM1 Gangliosidosis
 - Defect in \beta-gangliosidase
 - GM1 ganglioside accumulates in the brain and visera
@@ -26,8 +18,6 @@
   - normal intelligence
 - The prevalence of MPS IVB has been reported as 1:250,000 - 1,000,000
 
-
-** \beta-galactosidase
 #+CAPTION[]: \beta-galactosidase
 #+NAME: fig:bgal
 #+ATTR_LaTeX: :width 0.7\textwidth
@@ -68,8 +58,8 @@
 - Eastern Quebec founder mutation
 
 
-** GM2 ganglioside storage diseases
-
+#+CAPTION[]:GM2 ganglioside storage diseases
+#+NAME: tab:gm2
 | Disorder                     | Onset       | Death (y) | Enzyme    |
 |------------------------------+-------------+-----------+-----------|
 | Tay-Sachs disease            | 3-6 months  |       2-4 | Hex A     |
@@ -84,6 +74,8 @@
 - Functional lysosomal \beta-hexosaminidase enzymes are dimeric.
 - Three isozymes are produced through the combination of \alpha
   and \beta subunits
+- \beta-galactosidase, hexoaminidase A and B require the M6P-receptor
+- GM2 activator protein - sortilin
 
 | Isozyme | Dimer composition | Function                                   |
 |---------+-------------------+--------------------------------------------|
@@ -91,32 +83,18 @@
 | B       | \beta/\beta       | non-GM2 gangliosides w terminal hexosamine |
 | S       | \alpha/\alpha     | no known physiological function            |
 
-** Hexosaminidase A: Tay-Sachs
-
-#+CAPTION[]:Hexosaminidase A
+#+CAPTION[]:Hexosaminidase A: Tay-Sachs
 #+NAME: fig:hexa
 #+ATTR_LaTeX: :width 0.8\textwidth
 [[file:./GM1_2/figures/hexosaminidasea.png]]
 
 
-** Hexosaminidase A & B: Sandhoff disease
-
-#+CAPTION[]:Hexosaminidase A & B
+#+CAPTION[]:Hexosaminidase A & B:Sandhoff disease
 #+NAME: fig:hexb
 #+ATTR_LaTeX: :width 0.8\textwidth
 [[file:./GM1_2/figures/hexosaminidaseab.png]]
 
 
-** Lysosomal Trafficking
-
-#+CAPTION[]:Lysosomal protein trafficking receptors
-#+NAME: fig:traf
-#+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./GM1_2/figures/lysosome_trafficking.jpeg]]
-
-\footnotesize
-- \beta-galactosidase, hexoaminidase A and B require the M6P-receptor
-- GM2 activator protein - sortilin
 
 ** Genetics
 *** GM1
@@ -134,9 +112,8 @@
 
 * Clinical Findings
 
-** GM1 Signs and Symptoms
-\footnotesize
-
+#+CAPTION[ GM1 Signs and Symptoms]: GM1 Signs and Symptoms
+#+NAME: tab:gm1ss
 | Finding                | Infantile | Juvenile   | Adult            | MPS IVB                |
 |------------------------+-----------+------------+------------------+------------------------|
 | Onset of symptoms      | <1 year   | 1-10 years | 10+ years        | 3-5 years              |
@@ -154,8 +131,8 @@
 [fn:3] FN have been observed
 
 
-** GM2 Signs and Symptoms
-
+#+CAPTION[]:GM2 Signs and Symptoms
+#+NAME: tab:gm2ss
 | Finding           | Infantile         | Juvenile           | Adult            |
 |-------------------+-------------------+--------------------+------------------|
 | Onset of symptoms | <1 year           | 2-10 years         | 10+ years        |
@@ -164,19 +141,16 @@
 | Neurological      | startle response, | seizures           | psychosis        |
 |                   | seizures          |                    |                  |
 
-
 * Laboratory Investigations
 
-** Biochemistry
-
-*** GM1 
+** GM1 
 
 - Urine oligosacarides
 - Mucopolysacarides: \uparrow keratin sulfate
 - /in vitro/ \beta-galactosidase activity: leukocytes and DBS
   - 4-MU-\beta-d-galactopyranoside
 
-*** GM2 
+** GM2 
 - Urine oligosacarides
 - /in vitro/ Hexoaminidase activity: leukocytes, fibroblasts, ?*serum*?
   - 4-MU-6-sulfo-\beta-glucosaminide
@@ -186,10 +160,10 @@
   - normal in GM2 activator deficiency
 
 - ?Falsely normal results in Tay-Sachs female carriers?
+
 * Treatment
-** Carrier Screening for Tay-Sachs (1972-1992)
-
-
+#+CAPTION[]:Carrier Screening for Tay-Sachs (1972-1992)
+#+NAME: tab:carrier
 | Group                  | number                        |
 |------------------------+-------------------------------|
 | Total screened         | 9.53 x 10^6 (seven countries) |
@@ -208,16 +182,10 @@
 
 [fn:1] Prior offspring as well as heterozygote screening (1969-1992)
 
-** Treatment
-
-*** GM1
+** GM1
 - no curative treatment to date
-*** GM2
+** GM2
 - treat seizures
 - no curative treatment to date
 
 
-** Next time
-
-- Disorders of Sphingolipid Degradation continued...
-  - Krabbe and Metachromatic Leukodystrophy
