@@ -1,0 +1,10 @@
+#+TITLE: Complex Inheritance
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+
+* Alzheimer disease
+* Congenital hearing loss
+* Diabetes mellitus (insulin vs non-insulin dependent)
+
+

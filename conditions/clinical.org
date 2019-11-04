@@ -1,0 +1,24 @@
+#+TITLE: Clinical Genetics
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+
+* Duchenne/Becker Muscular Dystrophy
+* Osteogenesis Imperfecta
+* Long QT syndrome
+* Marfan syndrome
+* Neurofibromatosis typeII
+* Neurofibromatosis type I
+* Smith-Lemli-Opitz syndrome
+* Noonan syndrome
+* Charge syndrome
+* FGFR-related disorders (Craniosynostosis...)
+* Factor V Leiden thrombophilia
+* G6PD deficiency
+* Hemoglobinopathies (Sickle cell anemia, Alpha / Beta Thalassemia)
+* Hemophilia A / B
+* Hemochromatosis
+* SRY translocation
+* Turner syndrome
+* Androgen insensitivity syndrome
+* 21-Hydroxylase deficiency

@@ -3,7 +3,8 @@ OUT_DIR=./notes/
 
 
 all: $(OUT_DIR)faod.pdf $(OUT_DIR)organic_acids.pdf $(OUT_DIR)organelles.pdf \
-$(OUT_DIR)mitochondrial_disease.pdf $(OUT_DIR)urea_cycle.pdf $(OUT_DIR)carbohydrate.pdf clean
+$(OUT_DIR)mitochondrial_disease.pdf $(OUT_DIR)urea_cycle.pdf $(OUT_DIR)carbohydrate.pdf \
+$(OUT_DIR)conditions.pdf clean
 
 $(OUT_DIR)faod.pdf: ./faod/faod.org ./faod/fao/fao.org ./faod/faod_routine_testing/faod_routine_testing.org \
 ./faod/mito_faod/mito_faod.org 
@@ -36,7 +37,6 @@ $(OUT_DIR)organelles.pdf: ./organelles/organelles.org ./organelles/fabry/fabry.o
 	-f org-latex-export-to-pdf
 	mv -v ./organelles/organelles.pdf $(OUT_DIR)organelles.pdf
 
-
 $(OUT_DIR)mitochondrial_disease.pdf: ./mitochondria/mitochondrial_disease.org ./mitochondria/etc/etc.org \
 ./mitochondria/mitochondria/mitochondria.org ./mitochondria/oxphos_disorders/oxphos_disorders.org \
 ./mitochondria/pyruvate/pyruvate.org ./mitochondria/tca/tca.org 
@@ -67,6 +67,15 @@ $(OUT_DIR)carbohydrate.pdf: ./carbohydrate/carbohydrate.org ./carbohydrate/carbo
 	./carbohydrate/carbohydrate.org \
 	-f org-latex-export-to-pdf
 	mv -v ./carbohydrate/carbohydrate.pdf $(OUT_DIR)carbohydrate.pdf
+
+$(OUT_DIR)conditions.pdf: ./conditions/conditions.org ./conditions/cancer.org ./conditions/clinical.org ./conditions/complex.org ./conditions/cytogenetics.org ./conditions/metabolics.org \
+./conditions/molecular.org ./conditions/neurogenetics.org
+	emacs -u "$(id -un)" \
+	--batch \
+	--eval '(load user-init-file)' \
+	./conditions/conditions.org \
+	-f org-latex-export-to-pdf
+	mv -v ./conditions/conditions.pdf $(OUT_DIR)conditions.pdf
 
 
 clean :

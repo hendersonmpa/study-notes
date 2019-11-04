@@ -1,0 +1,31 @@
+#+TITLE: Metabolics
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+
+* Acute intermittent porphyria
+
+* Alpha-1 antitrypsin deficiency
+
+* Canavan disease
+
+* Gaucher disease
+
+* Homocystinuria (CBS deficiency)
+
+* Hurler syndrome
+* I cell disease
+* MCAD deficiency 
+* Mitochondrial DNA mutations
+- (MERRF/MELAS/LHON, mtDNA deletion syndromes)
+
+* Ornithine transcarbamylase (OTC) deficiency
+* Peroxisome biogenesis disorder (Zellweger)
+* Phenylketonuria
+* Pompe disease
+* Tay Sachs Disease
+* Tyrosinemia type I
+* X-linked Adrenoleukodystrophy
+* Wilson disease
+* Hyperprolinemia type I
+

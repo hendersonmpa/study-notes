@@ -1,0 +1,50 @@
+#+TITLE: Genetic Conditions
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+:PROPERTIES:
+#+DRAWERS: PROPERTIES
+#+LaTeX_CLASS: koma-article
+#+OPTIONS: H:2 toc:1 num:t ^:t
+#+PROPERTY: header-args:R :session *R*
+#+PROPERTY: header-args :cache no
+#+PROPERTY: header-args :tangle yes
+#+STARTUP: overview
+#+STARTUP: indent
+#+latex_header: \hypersetup{colorlinks,linkcolor=black,urlcolor=blue}
+#+LaTeX_header: \usepackage{textpos}
+#+LaTeX_header: \usepackage{textgreek}
+#+LaTeX_header: \usepackage[version=4]{mhchem}
+#+LaTeX_header: \usepackage{chemfig}
+#+LaTeX_header: \usepackage{siunitx}
+#+LaTeX_header: \usepackage{gensymb}
+#+LaTex_HEADER: \usepackage[usenames,dvipsnames]{xcolor}
+#+LaTeX_HEADER: \usepackage[T1]{fontenc}
+#+LaTeX_HEADER: \usepackage{lmodern}
+#+LaTeX_HEADER: \usepackage{verbatim}
+#+LaTeX_HEADER: \usepackage{tikz}
+#+LaTeX_HEADER: \usepackage{wasysym}
+#+LaTeX_HEADER: \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
+:END:
+
+* Cancer Genetics
+#+INCLUDE: "./cancer.org" :lines "4-"
+
+* Clinical Genetics
+#+INCLUDE: "./clinical.org" :lines "4-"
+
+* Complex Inheritance
+#+INCLUDE: "./complex.org" :lines "4-"
+
+* Cytogenetics
+#+INCLUDE: "./cytogenetics.org" :lines "4-"
+
+* Metabolics
+#+INCLUDE: "./metabolics.org" :lines "4-"
+
+* Molecular Genetics
+#+INCLUDE: "./molecular.org" :lines "4-"
+
+* Neurogenetics
+#+INCLUDE: "./neurogenetics.org" :lines "4-"
+

@@ -1,0 +1,17 @@
+#+TITLE: Cytogenetics
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+
+* Cri du chat syndrome
+* Pallister-Killian syndrome
+* Triploidy
+* Trisomy 13
+* Trisomy 18
+* Trisomy 21
+* Klinefelter syndrome
+* Fanconi anemia
+* Ataxia-telangiectasia
+* Williams syndrome
+* 22q11 deletion syndrome
+
