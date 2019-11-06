@@ -3,7 +3,7 @@
 #+DATE: \today
 
 
-* Rett syndrome
-* Charcot-Marie-Tooth disease type IA
-* Hereditary neuropathy with pressure palsies
-* Spinal muscular atrophy
+* TODO Rett syndrome
+* TODO Charcot-Marie-Tooth disease type IA
+* TODO Hereditary neuropathy with pressure palsies
+* TODO Spinal muscular atrophy

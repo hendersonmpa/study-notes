@@ -3,29 +3,23 @@
 #+DATE: \today
 
 
-* Acute intermittent porphyria
-
-* Alpha-1 antitrypsin deficiency
-
-* Canavan disease
-
-* Gaucher disease
-
-* Homocystinuria (CBS deficiency)
-
-* Hurler syndrome
-* I cell disease
-* MCAD deficiency 
-* Mitochondrial DNA mutations
+* TODO Acute intermittent porphyria
+* TODO Alpha-1 antitrypsin deficiency
+* TODO Canavan disease
+* TODO Gaucher disease
+* TODO Homocystinuria (CBS deficiency)
+* TODO Hurler syndrome
+* TODO I cell disease
+* TODO MCAD deficiency 
+* TODO Mitochondrial DNA mutations
 - (MERRF/MELAS/LHON, mtDNA deletion syndromes)
-
-* Ornithine transcarbamylase (OTC) deficiency
-* Peroxisome biogenesis disorder (Zellweger)
-* Phenylketonuria
-* Pompe disease
-* Tay Sachs Disease
-* Tyrosinemia type I
-* X-linked Adrenoleukodystrophy
-* Wilson disease
-* Hyperprolinemia type I
+* TODO Ornithine transcarbamylase (OTC) deficiency
+* TODO Peroxisome biogenesis disorder (Zellweger)
+* TODO Phenylketonuria
+* TODO Pompe disease
+* TODO Tay Sachs Disease
+* TODO Tyrosinemia type I
+* TODO X-linked Adrenoleukodystrophy
+* TODO Wilson disease
+* TODO Hyperprolinemia type I
 

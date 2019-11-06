@@ -3,10 +3,10 @@
 #+DATE: \today
 
 
-* Tuberous sclerosis
-* Hereditary breast cancer
-* Chronic myelogenous leukemia (CML)
-* Familial adenomatous polyposis
-* Hereditary non-polyposis colon cancer (HNPCC)
-* Li-Fraumeni syndrome
-* Retinoblastoma
+* TODO Tuberous sclerosis
+* TODO Hereditary breast cancer
+* TODO Chronic myelogenous leukemia (CML)
+* TODO Familial adenomatous polyposis
+* TODO Hereditary non-polyposis colon cancer (HNPCC)
+* TODO Li-Fraumeni syndrome
+* TODO Retinoblastoma

@@ -3,8 +3,8 @@
 #+DATE: \today
 
 
-* Alzheimer disease
-* Congenital hearing loss
-* Diabetes mellitus (insulin vs non-insulin dependent)
+* TODO Alzheimer disease
+* TODO Congenital hearing loss
+* TODO Diabetes mellitus (insulin vs non-insulin dependent)
 
 

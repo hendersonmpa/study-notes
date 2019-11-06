@@ -3,15 +3,15 @@
 #+DATE: \today
 
 
-* Cri du chat syndrome
-* Pallister-Killian syndrome
-* Triploidy
-* Trisomy 13
-* Trisomy 18
-* Trisomy 21
-* Klinefelter syndrome
-* Fanconi anemia
-* Ataxia-telangiectasia
-* Williams syndrome
-* 22q11 deletion syndrome
+* TODO Cri du chat syndrome
+* TODO Pallister-Killian syndrome
+* TODO Triploidy
+* TODO Trisomy 13
+* TODO Trisomy 18
+* TODO Trisomy 21
+* TODO Klinefelter syndrome
+* TODO Fanconi anemia
+* TODO Ataxia-telangiectasia
+* TODO Williams syndrome
+* TODO 22q11 deletion syndrome
 
