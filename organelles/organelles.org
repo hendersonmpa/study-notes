@@ -108,3 +108,8 @@
 
 * Non-Mitochondrial Fatty Acid Metabolism Disorders
 #+INCLUDE: "./peroxisomes/peroxisomes.org" :lines "4-"
+* Congenital Disorders of N-Linked Glycosylation
+#+INCLUDE: "./cdg/cdg.org" :lines "4-"
+
+* Cystinosis
+#+INCLUDE: "./cystinosis/cystinosis.org" :lines "4-"

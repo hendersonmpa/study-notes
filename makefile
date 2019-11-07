@@ -29,7 +29,8 @@ $(OUT_DIR)organelles.pdf: ./organelles/organelles.org ./organelles/fabry/fabry.o
 ./organelles/mps/mps.org ./organelles/mucolipidosis/mucolipidosis.org \
 ./organelles/oligosaccharidoses/oligosaccharidoses.org \
 ./organelles/niemann_pick/niemann_pickab.org ./organelles/niemann_pick/niemann_pickc.org \
-./organelles/sphingolipid_synthesis/sphingolipid_synthesis.org ./organelles/peroxisomes/peroxisomes.org
+./organelles/sphingolipid_synthesis/sphingolipid_synthesis.org ./organelles/peroxisomes/peroxisomes.org \
+./organelles/cdg/cdg.org
 	emacs -u "$(id -un)" \
 	--batch \
 	--eval '(load user-init-file)' \

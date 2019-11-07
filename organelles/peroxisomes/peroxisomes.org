@@ -270,14 +270,12 @@
   phenotype of a etherphospholipid biogenesis defect
 
 - Patients with classical RCDP have:
-- skeletal dysplasia characterized by rhizomelia, chondrodysplasia punctata (stippled calcification in epiphyseal cartilage), bone abnormalities, profound growth retardation and limited joint mobility,
-- congenital cataracts
-- facial abnormalities including a high forehead, flat midface and small upturned nose.
+  - skeletal dysplasia characterized by rhizomelia, chondrodysplasia punctata (stippled calcification in epiphyseal cartilage), bone abnormalities, profound growth retardation and limited joint mobility,
+  - congenital cataracts
+  - facial abnormalities including a high forehead, flat midface and small upturned nose.
 - Until very recently only three different disorders ofEPL-biosynthesis were known, including:
   1) PEX7 deficiency
-
   2) glycerone 3-phosphate: acyltransferase (GNPAT) deficiency
-
   3) alkylglycerone 3-phosphate synthase (AGPS) deficiency
 
 - in the last two years two additional disorders of EPL biosynthesis have been identified including FAR1 deficiency and PEX5L deficiency.
@@ -289,10 +287,10 @@
 - PEX7 codes for one of two peroxisomal cycling receptors and targets PTS2-signal to the peroxisome
 - Three PTS2-containing peroxisomal enzymes are known 
   1) peroxisomal 3-keto acyl-CoA thiolase
-  2) AGPS
+  2) alkylglycerone phosphate synthase
   3) phytanoyl-CoA hydroxylase
 - Not imported into peroxisomes in PEX7 deficiency
-  - defects in plasmalogen biosynthesis and alpha oxidation
+  - defects in plasmalogen biosynthesis and \alpha-oxidation
 - The deficiency of 3-keto acyl-CoA thiolase 1 has no functional
   consequences for VLCFA degradation because the second peroxisomal
   thiolase (SCPx) can also handle 3-keto-VLCFAs.

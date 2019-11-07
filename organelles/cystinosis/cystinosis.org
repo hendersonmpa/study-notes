@@ -1,0 +1,52 @@
+#+TITLE: Cystinosis
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+* Introduction
+- Intralysosomal cystine is formed by protein catabolism in the organelle
+- normally exported by a cystine porter which contains a membrane protein, cystinosin.
+- Defects of this protein cause lysosomal accumulation of cystine.
+- Cysteamine can enter into the lysosome and combine with cystine.
+  - This results in the formation of cysteine which can be exported by the cysteine porter
+  - the mixed disulfide, cysteine-cysteamine which can be exported by the lysine porter due to its structural analogy.
+
+#+CAPTION[]: Lysosomal export of cystine and related compounds. The cross represents the defect in cystinosis
+#+NAME: fig:lysexport
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./cystinosis/figures/lysexport.png]]
+
+#+CAPTION[]:Cystine
+#+NAME: fig:cys
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./cystinosis/figures/cystine.png]]
+
+** Cystinosis
+
+- Cystinosis is an autosomal-recessive generalized lysosomal storage disease classified into three clinical phenotypes:
+  1) nephropathic or infantile
+  2) late-onset
+  3) ocular
+- nephropathic or infantile form is by far the most frequent.
+- The reported incidence of the disease is about 0,5–1:100,000 live births.
+- The first symptoms start at about 6 months of age with anorexia,
+  polyuria, failure to thrive and are secondary to a Fanconi proximal
+  renal tubulopathy.
+- Without treatment:
+  - renal disease progress to end stage renal disease between 6 and 12 years.
+  - Survival beyond this age is associated with the development of
+    extrarenal complications in eyes, thyroid, gonads, endocrine
+    pancreas muscle and central nervous system.
+- late-onset or juvenile form and a benign or adult form are limited to the eyes
+  - are caused by mutations of the same gene.
+- The lysosomal cystine accumulation leads to cellular dysfunction in many organs.
+- The disease is caused by mutations in CTNS coding for cystinosin, a lysosomal cystine/proton symporter
+- The diagnosis is ascertained by measurement of cystine in leukocytes.
+- Treatment is both supportive and specific, the latter based on
+  cysteamine, which effectively decreases intralysosomal cystine
+  accumulation.
+
+* Infantile Cystinosis
+
+* Late-Onset
+
+* Ocular Cystinosis
