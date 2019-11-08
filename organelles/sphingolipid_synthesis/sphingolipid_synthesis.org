@@ -9,7 +9,7 @@
 - Structural role
 - Modulate numerous biological functions
   - apoptosis
-- named after the Sphinx because of their enigmatic nature...
+- named after the Sphinx because of their enigmatic nature
 
 ** Sphingosine and Ceramide
 
@@ -47,7 +47,7 @@ file:./sphingolipid_synthesis/figures/Sphingolipids_general_structures.png
 
 #+CAPTION[Sphingolipid Biosynthesis]: Sphingolipid Biosynthesis
 #+NAME: fig:structure
-#+ATTR_LaTeX: :width 0.6\textwidth
+#+ATTR_LaTeX: :width 0.8\textwidth
 [[file:./sphingolipid_synthesis/figures/synthesis.png]]
 
 * Disorders of Sphingolipid Synthesis

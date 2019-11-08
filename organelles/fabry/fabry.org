@@ -18,44 +18,15 @@
 - \alpha-galactosidase A uses both sortilin and mannose receptor
   - Not affected in ML II & III
 
-#+CAPTION[Sphingolipid degradation]:Sphingolipid degradation
-#+NAME: fig:sld
-#+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./fabry/figures/sl_degradation.png]]
-
-
 #+CAPTION[Globotriaosylceramide]:  Globotriaosylceramide (Gb3): the Fabry lipid
 #+NAME: fig:galac 
-#+ATTR_LaTeX: :width 0.5\textwidth
+#+ATTR_LaTeX: :width 0.3\textwidth
 [[file:./fabry/figures/globotriaosylceramide.png]]
 
 #+CAPTION[\alpha-galactosidase A]:\alpha-galactosidase A, located in the lumen of lysosomes
 #+NAME: fig:sidase
-#+ATTR_LaTeX: :width 0.5\textwidth
+#+ATTR_LaTeX: :width 0.4\textwidth
 [[file:./fabry/figures/galactosidaseA.png]]
-
-
-** Lysosomal Trafficking
-
-#+CAPTION[Lysosomal protein trafficking receptors]:Lysosomal protein trafficking receptors
-#+NAME: fig:traf
-#+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./fabry/figures/lysosome_trafficking.jpeg]]
-
-
-** Sortilin
-
-- Sortilin is a type I transmembrane protein found in lysosomes
-  - can transport several lysosomal proteins from the TGN or PM to the endosomes
-- Tissues from sortilin knock-out mice exhibit normal morphology
-- Sortilin may transport selected acid hydrolases in:
-  - a subset of cell types
-  - under stress conditions (e.g. Man-6-P pathway is deficient) 
-
-** Megalin 
-- a cell surface receptor involved in reabsorption of proteins at the kidney proximal tubule
-- megalin mediated endocytosis of \alpha-galactosidase kidney proximal tubule 
-- megalin also mediates the endocytosis of \alpha-galactosidase in renal podocytes
 
 * Genetics
 - The \alpha-galactosidase A gene is on the X chromosome
@@ -94,7 +65,6 @@
 [[file:./fabry/figures/angiokeratomas.png]]
 
 
-
 * Laboratory Investigations
 
 ** Biochemistry
@@ -116,7 +86,7 @@
 
 #+CAPTION[Fabry EM]:EM showing concentric or lamellar structure of lysosomal inclusions in Fabry disease renal biopsy
 #+NAME: fig:biopsy
-#+ATTR_LaTeX: :width 0.7\textwidth
+#+ATTR_LaTeX: :width 0.4\textwidth
 [[file:./fabry/figures/Fabrys-disease.jpg]]
 
 * Treatment

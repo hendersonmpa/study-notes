@@ -10,7 +10,7 @@
 
 ** Niemann-Pick A & B
 - Incidence of Niemann-Pick A among Ashkenazi Jews ~ 1:40,000.
-- Incidence of both Niemann–Pick A and B in all other populations ~ 1:250,000.
+- Incidence of both Niemann-Pick A and B in all other populations ~ 1:250,000.
 - Niemann-Pick Type A and B are caused by deficiency of acid sphingomyelinase (ASM).
   - sphingomyelinase is required to metabolize sphingomyelin.
   - results in progressive accumulation of sphingomyelin in systemic organs
@@ -20,17 +20,16 @@
     - NPB have approximately 10% of normal level of ASM.
 - lysosomal trafficking of acid sphingomyelinase is mediated by sortilin and mannose 6-phosphate receptor.
 - MPR alone is sufficient to transport NPC2 to the endo/lysosomal compartment
-- Sorting of LMPs from Golgi/PM to endosomal system is mediated by
-  signals in the cytosolic domain
+
 
 #+CAPTION[]:Sphingomyelin
 #+NAME: fig:sphingomyelin
-#+ATTR_LaTeX: :width 0.8\textwidth
+#+ATTR_LaTeX: :width 0.4\textwidth
 [[file:./niemann_pick/figures/sphingomyelin.png]]
 
 #+CAPTION[]: Sphingomyelinase
 #+NAME: fig:sphingomyelinase
-#+ATTR_LaTeX: :width 0.8\textwidth
+#+ATTR_LaTeX: :width 0.4\textwidth
 [[file:./niemann_pick/figures/sphingomyelinase.png]]
 
 * Genetics
@@ -71,22 +70,12 @@
 
 #+CAPTION[]: Klinke, G. Clin Biochem 2015
 #+NAME: fig:
-#+ATTR_LaTeX: :width 0.7\textwidth
+#+ATTR_LaTeX: :width 0.4\textwidth
 [[file:./niemann_pick/figures/biomarkers.jpg]]
 
-
-#+CAPTION[]: Kuckar, L. Anal Biochem. 2017
-#+NAME: fig:
-#+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./niemann_pick/figures/biomarkersII.jpg]]
-
-** Enzymology
-
-
-** Pathology
 #+CAPTION[]: Foam cells in bone marrow
 #+NAME: fig:foam
-#+ATTR_LaTeX: :width 0.45\textwidth
+#+ATTR_LaTeX: :width 0.25\textwidth
 [[file:./niemann_pick/figures/foam_cells.png]]
 
 

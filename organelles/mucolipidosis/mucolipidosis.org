@@ -62,7 +62,7 @@
 
 #+CAPTION[]:I cell in fibroblast culture
 #+NAME: fig:icell
-#+ATTR_LaTeX: :height 0.65\textheight
+#+ATTR_LaTeX: :height 0.4\textwidth
 [[file:./mucolipidosis/figures/icell.png]]
 
 ** Clinical 

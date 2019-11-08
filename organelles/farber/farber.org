@@ -1,0 +1,29 @@
+#+TITLE: Farber Disease / Acid Ceramidase Deficiency
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+* Introduction
+- very rare Farber lipogranulomatosis is clinically heterogeneous
+  - often presents during infancy causing death within the 1st year
+  - later onset cases (up to an adult age) have been described
+  - as well as foetal forms
+- The deficiency of acid ceramidase activity leads to the storage of
+  ceramides in various organs
+* Genetics
+- \gt 30 mutations of ASAH1 including a large deletion.
+* Clinical 
+- most frequent signs are painful joint swelling, deformation and contractures, periarticular subcutaneous nodules and hoarseness due to laryngeal involvement.
+- some patients mimics juvenile idiopathic arthritis
+- Hepatomegaly and a macular cherry-red spot may be present.
+- Neurological manifestations are of variable severity
+  - mild to psychomotor deterioration and epilepsy
+  - juvenile-onset patients may show neurological involvement only.
+
+* Diagnosis
+- ASAH1 genetics
+- EM of nodule or of a skin biopsy
+  - inclusions with typical curvilinear bodies in histiocytes
+  - banana bodies in Schwann cells
+
+* Treatment
+- none

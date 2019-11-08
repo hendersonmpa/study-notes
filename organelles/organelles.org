@@ -25,6 +25,8 @@
 #+LaTeX_HEADER: \usepackage{tikz}
 #+LaTeX_HEADER: \usepackage{wasysym}
 #+LaTeX_HEADER: \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
+#+LaTeX_HEADER: \usepackage{fancyhdr}
+#+LaTeX_HEADER: \pagestyle{fancy}
 :END:
 
 #+BEGIN_EXPORT LaTeX
@@ -39,27 +41,54 @@
 \tikzstyle{hl-arrow} = [ultra thick,->,>=stealth,draw=red]
 #+END_EXPORT 
 
-
-
 * Sphingolipid Synthesis
 #+INCLUDE: "./sphingolipid_synthesis/sphingolipid_synthesis.org" :lines "4-"
 
 * Sphingolipidoses
-
 #+CAPTION[]:Sphingolipid degradation
 #+NAME: fig:sld
-#+ATTR_LaTeX: :width 0.6\textwidth
+#+ATTR_LaTeX: :width 0.8\textwidth
 [[file:./figures/sl_degradation.png]]
 
-** Lysosomal Trafficking
+** Protein Trafficking to Lysosome 
+- Lysosomes are composed of soluble and transmembrane proteins that
+  are targeted to lysosomes in a signal-dependent manner.
+- The majority of soluble acid hydrolases are modified with mannose
+  6-phosphate (M6P) residues, allowing their recognition by M6P
+  receptors in the Golgi complex and ensuing transport to the
+  endosomal/lysosomal system.
+- Other soluble enzymes and non-enzymatic proteins are transported to
+  lysosomes in an M6P-independent manner mediated by alternative
+  receptors such as the lysosomal integral membrane protein LIMP-2 or
+  sortilin.
+- Sorting of cargo receptors and lysosomal transmembrane proteins
+  requires sorting signals present in their cytosolic domains.
+- These signals include dileucine-based motifs, DXXLL or [DE]XXXL[LI],
+  and tyrosine-based motifs, YXXØ, which interact with components of
+  clathrin coats such as GGAs or adaptor protein complexes.
+- In addition, phosphorylation and lipid modifications regulate signal
+  recognition and trafficking of lysosomal membrane proteins.
+
+#+CAPTION[]:Protein Trafficking to Lysosome 
+#+NAME: fig:protlys
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/protein_trafficking.jpg]]
 
 #+CAPTION[Lysosomal protein trafficking receptors]:Lysosomal protein trafficking receptors
 #+NAME: fig:traf
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./fabry/figures/lysosome_trafficking.jpeg]]
+[[file:./figures/lysosome_trafficking.jpeg]]
+
+
+** M6P receptors
+- MPRs are transmembrane glycoproteins that target enzymes to lysosomes in vertebrates
+- MPRs bind newly synthesized lysosomal hydrolases in the TGN and deliver them to pre-lysosomal compartments.
+- There are two different MPRs
+  - the cation-independent mannose 6-phosphate receptor (CI-MPR),
+  - CD-MPR requires divalent cations to efficiently recognize lysosomal hydrolases
+-bind terminal M6-P with similar affinity7
 
 ** Sortilin
-
 - Sortilin is a type I transmembrane protein found in lysosomes
   - can transport several lysosomal proteins from the TGN or PM to the endosomes
 - Tissues from sortilin knock-out mice exhibit normal morphology
@@ -67,10 +96,36 @@
   - a subset of cell types
   - under stress conditions (e.g. Man-6-P pathway is deficient) 
 
+** LIMP2
+- LIMP-2 in a membrane protein in lysosomes that functions to regulate lysosomal/endosomal transport.
+- type III glycoprotein that is located primarily in limiting membranes of lysosomes and endosomes.
+- may participate in membrane transportation and the reorganization of endosomal/lysosomal compartment.
+
 ** Megalin 
 - a cell surface receptor involved in reabsorption of proteins at the kidney proximal tubule
 - megalin mediated endocytosis of \alpha-galactosidase kidney proximal tubule 
 - megalin also mediates the endocytosis of \alpha-galactosidase in renal podocytes
+
+
+** The Sphingolipidoses
+
+#+CAPTION[]: The Sphingolipidoses
+#+NAME: tab:spingo
+| Disease | Enzyme                   | Sphingolipid                |
+|---------+--------------------------+-----------------------------|
+| Gaucher | \beta-glucocerebrosidase | glucocerebroside            |
+| NPA/B   | acid sphingmyelinase     | sphingomyelin               |
+| GM1     | \beta-gangliosidase      | GM1 ganglioside             |
+| GM2     | HexA and/or  HexB        | GM2 ganglioside             |
+| Krabbe  | galactocerebrosidase     | galactosylceramide          |
+| MLD     | arylsulfatase A          | sulfatide                   |
+| Fabry   | \alpha-galactosidase A   | globotriaosylceramide (Gb3) |
+| Farber  | acid ceramidase          | ceramides                   |
+
+
+
+
+
 
 ** Gaucher
 #+INCLUDE: "./gaucher/gaucher.org" :lines "4-"
@@ -78,22 +133,18 @@
 ** Niemann-Pick  A & B
 #+INCLUDE: "./niemann_pick/niemann_pickab.org" :lines "4-"
 
-** GM1 & GM2 Gangliosidoses
-#+INCLUDE: "./GM1_2/GM1_2.org" :lines "4-"
-
+** GM1 Gangliosidoses
+#+INCLUDE: "./GM1_2/gm1.org" :lines "4-"
+** GM2 Gangliosidoses
+#+INCLUDE: "./GM1_2/gm2.org" :lines "4-"
 ** Krabbe
 #+INCLUDE: "./krabbe/krabbe.org" :lines "4-"
-
-** TODO Metachromic Leukodystropy
-
+** Metachromic Leukodystropy
+#+INCLUDE: "./mld/mld.org" :lines "4-"
 ** Fabry
 #+INCLUDE: "./fabry/fabry.org" :lines "4-"
-
-** TODO Farber
-
-** TODO Prosaposin
-
-
+** Farber
+#+INCLUDE: "./farber/farber.org" :lines "4-"
 * Niemann-Pick C
 #+INCLUDE: "./niemann_pick/niemann_pickc.org" :lines "4-"
 
@@ -110,6 +161,5 @@
 #+INCLUDE: "./peroxisomes/peroxisomes.org" :lines "4-"
 * Congenital Disorders of N-Linked Glycosylation
 #+INCLUDE: "./cdg/cdg.org" :lines "4-"
-
 * Cystinosis
 #+INCLUDE: "./cystinosis/cystinosis.org" :lines "4-"

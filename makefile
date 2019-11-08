@@ -25,12 +25,12 @@ $(OUT_DIR)organic_acids.pdf: ./organic_acids/organic_acids/organic_acids.org ./o
 	mv -v ./organic_acids/organic_acids.pdf $(OUT_DIR)organic_acids.pdf
 
 $(OUT_DIR)organelles.pdf: ./organelles/organelles.org ./organelles/fabry/fabry.org \
-./organelles/gaucher/gaucher.org ./organelles/GM1_2/GM1_2.org ./organelles/krabbe/krabbe.org \
-./organelles/mps/mps.org ./organelles/mucolipidosis/mucolipidosis.org \
-./organelles/oligosaccharidoses/oligosaccharidoses.org \
+./organelles/farber/farber.org ./organelles/gaucher/gaucher.org ./organelles/GM1_2/GM1_2.org \
+./organelles/krabbe/krabbe.org ./organelles/mld/mld.org ./organelles/mps/mps.org \
+./organelles/mucolipidosis/mucolipidosis.org ./organelles/oligosaccharidoses/oligosaccharidoses.org \
 ./organelles/niemann_pick/niemann_pickab.org ./organelles/niemann_pick/niemann_pickc.org \
 ./organelles/sphingolipid_synthesis/sphingolipid_synthesis.org ./organelles/peroxisomes/peroxisomes.org \
-./organelles/cdg/cdg.org
+./organelles/cdg/cdg.org ./organelles/cystinosis/cystinosis.org
 	emacs -u "$(id -un)" \
 	--batch \
 	--eval '(load user-init-file)' \

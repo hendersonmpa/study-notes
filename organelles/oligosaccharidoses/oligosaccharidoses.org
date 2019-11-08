@@ -29,8 +29,8 @@
 
 #+CAPTION[]:Glycoprotein Oligosaccharide Chain
 #+NAME: fig:glycanchain
-#+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./figures/oligosacch.png]]
+#+ATTR_LaTeX: :width 0.5\textwidth
+[[file:./oligosaccharidoses/figures/oligosacch.png]]
 
 * Disorders
 ** Mannosidosis

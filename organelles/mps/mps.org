@@ -3,11 +3,9 @@
 #+DATE: \today
 
 * Introduction
-** Proteoglycans 
-
 #+CAPTION[Proteoglycans]: Proteoglycans
 #+NAME: fig:pg
-#+ATTR_LaTeX: :width 0.8\textwidth
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./mps/figures/ch17f01.jpg]]
 
 ** Proteoglycans function
@@ -23,11 +21,9 @@
   - arterial walls
   - bone, cartilage
 
-** Proteoglycans synthesis
-
 #+CAPTION[Proteoglycan Synthesis]: Proteoglycan Synthesis
 #+NAME: fig:synth
-#+ATTR_LaTeX: :width 0.8\textwidth
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./mps/figures/ch3f1.jpg]]
 
 
@@ -44,19 +40,17 @@
 - GAGs are composed of repeating units of disaccharides.
   - hexosamine and a hexose or hexuronic acid
 
-** Symbol Nomenclature for Glycans (SNFG)
+** 
 
-#+CAPTION[Glycan Nomenclature]: Glycan Nomenclature
+#+CAPTION[Glycan Nomenclature]: Symbol Nomenclature for Glycans (SNFG)
 #+NAME: fig:snfg
 #+ATTR_LaTeX: :width 0.8\textwidth
 [[file:./mps/figures/snfg.png]]
 
 
-** Glycosaminoglycans
-
 #+CAPTION[Glycosaminoglycans]: Glycosaminoglycans
 #+NAME: fig:gags
-#+ATTR_LaTeX: :width 0.8\textwidth
+#+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./mps/figures/ch17f02.jpg]]
 
 ** GAGs
@@ -75,8 +69,6 @@
 - O-xylose-linked to core proteins
 - skin, blood vessels, heart valves, tendons, and lungs.O
 - coagulation, cardiovascular disease, carcinogenesis, infection, wound repair, and fibrosis
-
-** GAGs
 
 *** Heparan Sulfate
 - O-xylose-linked to core proteins
@@ -108,17 +100,16 @@
     - organ and system functioning,
     - in most cases, mental development. 
 
-** Glycosaminoglycan degradation
-
 #+CAPTION[Glycosaminoglycan Degradation]: Glycosaminoglycan Degradation
 #+NAME: fig:degradation
 #+ATTR_LaTeX: :width 0.8\textwidth
 [[file:./mps/figures/ch16f9.jpg]]
 
 
-** Mucopolysaccharidoses  
 
-\small
+
+#+CAPTION[Mucopolysaccharidoses]:Mucopolysaccharidoses
+#+NAME: tab:muco
 | Name                    | Enzyme                   | GAG      |
 |-------------------------+--------------------------+----------|
 | MPS I (Hurler)          | \alpha-iduronidase       | HS,DS    |
@@ -159,24 +150,20 @@
 
 
 
-** Dermatan sulfate degradation
-#+CAPTION[DS Degradation]: DS Degradation
+#+CAPTION[DS Degradation]: DS degradation
 #+NAME: fig:dse
 #+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./mps/figures/ds_degradation_disorders.png]]
 
 
-** Keratan sulfate degradation
 
-#+CAPTION[KS Degradation]: Degradation
+#+CAPTION[KS Degradation]: KS degradation
 #+NAME: fig:kse
 #+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./mps/figures/ks_degradation_disorders.png]]
 
 
-** Heparan degradation
-
-#+CAPTION[HS Degradation]: Heparan Degradation
+#+CAPTION[HS Degradation]: HS Degradation
 #+NAME: fig:hse
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./mps/figures/hs_degradation_disorders.png]]

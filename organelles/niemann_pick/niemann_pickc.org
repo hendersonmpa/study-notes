@@ -21,14 +21,14 @@
 
 #+CAPTION[]: Cholesterol Transport
 #+NAME: fig:
-#+ATTR_LaTeX: :width 0.8\textwidth
+#+ATTR_LaTeX: :width 0.4\textwidth
 [[file:./niemann_pick/figures/cholesterol1.jpg]]
 
 ** NPC1 & NPC2
 
 #+CAPTION[]: NPC1 & NPC2
 #+NAME: fig:npc
-#+ATTR_LaTeX: :width 0.65\textwidth
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./niemann_pick/figures/Niemann-Pick-C-Brown-and-Goldstein.png]]
 
 - NPC1 is a lysosomal membrane protein involved in transport in the endosomal-lysosomal system

@@ -125,10 +125,6 @@
 - Several of the assays available can be performed on a single leukocyte pellet or plasma sample
 
 - cleavage of 6-hexadecanoylamino-4-methylumbelliferyl-\beta-d-galactopyranoside
-
- https://doi.org/10.1007/BF01800479
-
-
 ** Newborn Screening
 *** New York State - retrospective analysis
 - Almost 2 million infants screened.
@@ -168,9 +164,6 @@
   concentrations, whereas the psychosine levels of all of the
   asymptomatic high- and moderate-risk infants were only slightly
   elevated compared with DBS from infants with normal GALC activities.
-
- https://doi.org/10.1016/j.cca.2013.01.017
-
 
 ** Treatment
 

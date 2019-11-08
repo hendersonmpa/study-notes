@@ -1,0 +1,79 @@
+#+TITLE: Sphingolipid Degradation: GM1/2 Gangliosidosis
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+
+* Introduction
+
+- Defect in \beta-gangliosidase
+- GM1 ganglioside accumulates in the brain and visera
+- Infantile, juvenile and adult forms
+  - Residual enzyme function
+  - Devastating degenerative disease
+- GM1 gangliosidosis of all types is estimated to occur in 1:100,000 - 300,000
+
+*** MPS IVB - Morquio B
+- Clinically indistinguishable from MPS IVA
+  - skeletal changes, including short stature and skeletal dysplasia.
+  - normal intelligence
+- The prevalence of MPS IVB has been reported as 1:250,000 - 1,000,000
+
+#+CAPTION[]: \beta-galactosidase
+#+NAME: fig:bgal
+#+ATTR_LaTeX: :width 0.4\textwidth
+[[file:./GM1_2/figures/bgalatosidase.png]]
+
+
+** Lysosomal multi-enzyme complex
+
+- \beta-galactosidase forms a heterotrimeric complex with:
+  - cathepsin A/PPCA : CTSA 
+  - neuraminidase: NEU1
+
+- \downarrow cathepsin A \to 2\degree  deficiency of NEU1
+  - ML-1 (sialidosis)
+
+* Genetics
+- GLB1: autosomal recessive 
+- ~ 150 mutations in GLB1 have been described
+- Neither the type or location correlate with phenotype
+
+
+* Clinical Findings
+
+#+CAPTION[ GM1 Signs and Symptoms]: GM1 Signs and Symptoms
+#+NAME: tab:gm1ss
+| Finding                | Infantile | Juvenile   | Adult            | MPS IVB                |
+|------------------------+-----------+------------+------------------+------------------------|
+| Onset of symptoms      | <1 year   | 1-10 years | 10+ years        | 3-5 years              |
+| Eye findings           | CRS       | CC         | +/– CC           | CC                     |
+| Motor abnormalities    | +         | +          | Extrapyramidal   | [fn:2]                 |
+| Hepatosplenomegaly     | +         | +/–        | –                | –                      |
+| Cardiac involvement    | +/–       | +/–        | +/–              | +                      |
+| Coarse facial features | +/–       | –          | –                | [fn:2]                 |
+| Skeletal findings      | +         | +/–        | –                | +                      |
+| Neuroimaging           | PA        | PA         | +/– mild atrophy | [fn:2]                 |
+| Urine (GAG)            | [fn:1]    | [fn:1]     | [fn:1]           | Keratan sulfate [fn:3] |
+
+[fn:1] Oligosacaride with terminal galactose
+[fn:2] Secondary to bony changes
+[fn:3] FN have been observed
+
+
+
+
+* Laboratory Investigations
+- Urine oligosacarides
+- Mucopolysacarides: \uparrow keratin sulfate
+- /in vitro/ \beta-galactosidase activity: leukocytes and DBS
+  - 4-MU-\beta-d-galactopyranoside
+
+* Treatment
+- no curative treatment to date
+
+
+
+
+
+
+

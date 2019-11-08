@@ -32,7 +32,7 @@
 
 #+CAPTION[]:N-glycan assembly
 #+NAME: fig:
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./cdg/figures/glyc.png]]
 
 #+CAPTION[]:N-glycan assembly

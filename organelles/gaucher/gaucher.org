@@ -61,13 +61,6 @@
 | Enrichment             | Ashkenazi          | None       | Norrbottnian     |
 |                        |                    |            | Swedish          |
 
-#+CAPTION[]: Gaucher Clinical Variants
-#+NAME: fig:variants
-#+ATTR_LaTeX: :width \textwidth
-[[file:./gaucher/figures/variants.png]]
-
-= * Parkinson Disease, ** Myoclonic Seizures =
-
 ** Gaucher type 1
 - Clinical manifestations of Gaucher type 1 are linked to macrophages
   engorged with glucosylceramide.
@@ -89,7 +82,7 @@
   - polyneuropathy.
 
 ** Gaucher type 2
-- Type 2 is the rarer of the two classic neuronopathic variants1
+- Type 2 is the rarer of the two classic neuronopathic variants
 - early infantile onset of acute neuronopathic disease
 - progressing rapidly to death before age 2 years
 
@@ -97,14 +90,10 @@
   - developmental delay, poor weight gain,
   - protuberant abdomen due to hepatosplenomegaly
   - Bulbar signs are prominent including:
-    - convergent squint,
-    - ocular paresis,
-    - trismus,
-    - dysphagia
+    - convergent squint, ocular paresis, trismus, dysphagia
 
 - The perinatal-lethal subtype is the most severe form of Gaucher
   disease.
-
   - leads to death in utero or within hours to days after
     birth
 
@@ -119,9 +108,7 @@
   progresses more slowly
 
 - includes abnormalities in:
-  - eye movements
-  - seizures
-  - intellectual deterioration.
+  - eye movements, seizures, intellectual deterioration
 
 - The same systemic manifestations occur as in type 1 disease.
   - many type 3 patients may be incorrectly classified as type 1 when
@@ -146,7 +133,7 @@
 * Laboratory Investigations
 #+CAPTION[]:Gaucher Cells
 #+NAME: fig:cells
-#+ATTR_LaTeX: :width 0.8\textwidth
+#+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./gaucher/figures/Gaucher_Cells_with_Fibrillar_Appearing_Cytoplasm.jpg]]
 
 ** Biochemistry

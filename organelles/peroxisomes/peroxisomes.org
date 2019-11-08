@@ -360,8 +360,7 @@
 #+CAPTION[]:Eicosanoid Metabolism
 #+NAME: fig:eicosanoid
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./figures/eicosanoids.png]]
-
+[[file:./peroxisomes/figures/eicosanoids.png]]
 
 ** Disorders 
 - Primary Hypertrophic Osteoarthropathy
