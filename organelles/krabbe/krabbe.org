@@ -39,51 +39,44 @@
 * Genetics
 - Autosomal recessive
 - The GALC gene is situated at 14q31 and consists of 17 exons.
-- A recurrent 30 kb deletion has been described which extends from
-  intron 10 to intron 17 of the GALC gene and in the homozygous state
-  is associated with infantile onset disease.
-- The allele frequency of this deletion in Krabbe patients is reported
-  to be approximately 50% in Dutch patients and 35% in non-Dutch
-  European patients
+- A recurrent 30 kb deletion extends from intron 10 to intron 17 of the GALC gene
+  - infantile onset disease in the homozygous state
+- The allele frequency of this deletion in Krabbe patients
+  - ~ 50% in Dutch patients
+  - ~ 35% in non-Dutch European patients
 
 * Clinical Findings
-** Disease Spectrum
 - Krabbe disease is a spectrum from infantile to late-onset.
 
-- Infantile-onset characterized by normal development in the first few
-  months followed by rapid severe neurologic deterioration
+
+- Infantile-onset :: characterized by normal development in the first
+     few months followed by rapid severe neurologic deterioration
   - the average age of death is 24 months (range 8 months to 9 years).
 
-- later-onset disease manifests after 12 months and as late as the
-  seventh decade.
+- later-onset :: manifests after 12 months and as late as the seventh
+                 decade.
 
-- Historically 85%-90% of symptomatic individuals with Krabbe disease
-  diagnosed by enzyme activity alone have infantile-onset Krabbe
-  disease and 10%-15% have later-onset Krabbe disease,
-
+- 85%-90% of symptomatic individuals with Krabbe disease diagnosed by enzyme activity alone have infantile-onset disease
+- 10%-15% have later-onset disease
 - NBS suggests that the proportion of individuals with later-onset
   Krabbe disease is higher than previously thought.
 
-** Clinical Findings
+- infantile-onset Krabbe disease (age <12 months)
+  - Excessive crying to extreme irritability
+  - Feeding difficulties, gastroesophageal reflux disease
+  - Spasticity of lower extremities and fist clenching, with axial hypotonia
+  - Loss of acquired milestones (smiling, cooing, and head control)
+  - Staring episodes
+  - Peripheral neuropathy
+  - the average age of death is 24 months (range 8 months to 9 years).
 
-*** Age <12 months (infantile-onset Krabbe disease)
-
-- Excessive crying to extreme irritability
-- Feeding difficulties, gastroesophageal reflux disease
-- Spasticity of lower extremities and fist clenching, with axial hypotonia
-- Loss of acquired milestones (smiling, cooing, and head control)
-- Staring episodes
-- Peripheral neuropathy
-- the average age of death is 24 months (range 8 months to 9 years).
-
-*** Age >12 months (later-onset Krabbe disease)
-
-- Slow development of motor milestones or loss of milestones (e.g.,
-  sitting without support, walking), slurred speech
-- Spasticity of extremities with truncal hypotonia
-- Vision loss, esotropia
-- Seizures
-- Peripheral neuropathy
+- later-onset Krabbe disease (age >12 months)
+  - Slow development of motor milestones or loss of milestones (e.g.,
+    sitting without support, walking), slurred speech
+  - Spasticity of extremities with truncal hypotonia
+  - Vision loss, esotropia
+  - Seizures
+  - Peripheral neuropathy
 
 * Diagnosis
 ** Symptomatic presentation
@@ -126,14 +119,13 @@
 
 - cleavage of 6-hexadecanoylamino-4-methylumbelliferyl-\beta-d-galactopyranoside
 ** Newborn Screening
-*** New York State - retrospective analysis
-- Almost 2 million infants screened.
-- Five infants diagnosed with early infantile Krabbe disease.
-- Three died, two from HSCT-related complications and one from untreated disease.
-- Two children who received HSCT have moderate to severe developmental delays.
-- Forty-six currently asymptomatic children are considered to be at
-  moderate or high risk for development of later-onset Krabbe disease.
-
+- New York State - retrospective analysis
+  - Almost 2 million infants screened.
+  - Five infants diagnosed with early infantile Krabbe disease.
+  - Three died, two from HSCT-related complications and one from untreated disease.
+  - Two children who received HSCT have moderate to severe developmental delays.
+  - Forty-six currently asymptomatic children are considered to be at
+    moderate or high risk for development of later-onset Krabbe disease.
 
 ** Multiplex DBS  Enzyme Assay
 - The DBS screening assay tests for:
@@ -167,13 +159,13 @@
 
 ** Treatment
 
-*** Treatment of manifestations:
+- Treatment of manifestations:
   - Treatment of a child who is symptomatic before age six months is
     supportive and focused on increasing the quality of life and
     avoiding complications. For older individuals, treatment with HSCT
     is individualized based on disease burden and manifestations.
 
-*** Prevention of primary manifestations:
+- Prevention of primary manifestations:
   - Consensus guidelines recommend that asymptomatic newborns
     identified by either prenatal/neonatal evaluation because of a
     positive family history of Krabbe disease or an abnormal NBS
@@ -182,7 +174,7 @@
     consistent with infantile-onset Krabbe disease are candidates for
     HSCT before age 30 days.
 
-*** Surveillance:
+- Surveillance:
   - Monitor symptomatic individuals with Krabbe disease for
     development of: hydrocephalus, swallowing difficulties and chronic
     microaspiration, scoliosis, hip subluxation, and osteopenia,

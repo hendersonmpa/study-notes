@@ -7,21 +7,19 @@
 - Metachromatic leukodystrophy (MLD) is panethnic, with reported
   incidences ranging between 1 in 40,000 and 1 in 170,000, except in
   specific ethnic groups with higher frequency.
-  - block in lysosomal degradation of sulfatide (or
-    galactosylceramide-sulfate ) and other sulfated glycolipids
-  - sulfatide is presented to the enzyme arylsulfatase A (ASA ) as a
-    1:1 complex with sap-B. A deficiency of either ASA or sap-B can
-    cause MLD.
+  - block in lysosomal degradation of sulfatide AKA sulfated galactocerebroside, and other sulfated glycolipids.
+  - sulfatide is presented to the enzyme arylsulfatase A (ASA) as a
+    1:1 complex with sap-B
+  - A deficiency of either ASA or sap-B can cause MLD.
 - Sulfatide is component of the myelin sheath.
 - sulfatide:galactocerebroside ratio \to stability and physiological properties of this membrane.
 - \uparrow sulfatides in CNS and PNS \to demyelination.
--  \uparrow sulfatide in the kidney \to sulfatide in urine
+- \uparrow sulfatide in the kidney \to sulfatide in urine
 
 - Three forms:
   1) Late Infantile
   2) Juvenille
   3) Adult
-
 
 
 * Genetics
