@@ -29,22 +29,24 @@
 #+LaTeX_HEADER: \pagestyle{fancy}
 :END:
 
-#+BEGIN_EXPORT LaTeX
-\tikzstyle{chemical} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=none]
-\tikzstyle{hardware} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=gray!30]
-\tikzstyle{ms} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=orange, fill=none]
-\tikzstyle{msw} = [rectangle, rounded corners, text width=7em, minimum height=1em,text centered, draw=orange, fill=none]
-\tikzstyle{label} = [rectangle,text width=8em, minimum height=1em, text centered, draw=none, fill=none]
-\tikzstyle{hl} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=red!30]
-\tikzstyle{box} = [rectangle, rounded corners, text width=5em, minimum height=5em,text centered, draw=black, fill=none]
-\tikzstyle{arrow} = [thick,->,>=stealth]
-\tikzstyle{hl-arrow} = [ultra thick,->,>=stealth,draw=red]
-#+END_EXPORT 
-
 * Sphingolipid Synthesis
 #+INCLUDE: "./sphingolipid_synthesis/sphingolipid_synthesis.org" :lines "4-"
 
 * Sphingolipidoses
+
+#+CAPTION[]: The Sphingolipidoses
+#+NAME: tab:spingo
+| Disease | Enzyme                   | Sphingolipid                | Prevalence       |
+|---------+--------------------------+-----------------------------+------------------|
+| Gaucher | \beta-glucocerebrosidase | glucocerebroside            | 1:50,000         |
+| Fabry   | \alpha-galactosidase A   | globotriaosylceramide (Gb3) | 1:80,000         |
+| MLD     | arylsulfatase A          | sulfatide                   | 1:100,000        |
+| GM1     | \beta-gangliosidase      | GM1 ganglioside             | 1:200,000        |
+| Krabbe  | galactocerebrosidase     | galactosylceramide          | 1:250,000        |
+| NPA/B   | acid sphingmyelinase     | sphingomyelin               | 1:250,000        |
+| GM2     | HexA and/or HexB         | GM2 ganglioside             | 1:300,000 (HexA) |
+| Farber  | acid ceramidase          | ceramides                   | 1:1,000,000      |
+
 #+CAPTION[]:Sphingolipid degradation
 #+NAME: fig:sld
 #+ATTR_LaTeX: :width 0.8\textwidth
@@ -105,27 +107,6 @@
 - a cell surface receptor involved in reabsorption of proteins at the kidney proximal tubule
 - megalin mediated endocytosis of \alpha-galactosidase kidney proximal tubule 
 - megalin also mediates the endocytosis of \alpha-galactosidase in renal podocytes
-
-
-** The Sphingolipidoses
-
-#+CAPTION[]: The Sphingolipidoses
-#+NAME: tab:spingo
-| Disease | Enzyme                   | Sphingolipid                |
-|---------+--------------------------+-----------------------------|
-| Gaucher | \beta-glucocerebrosidase | glucocerebroside            |
-| NPA/B   | acid sphingmyelinase     | sphingomyelin               |
-| GM1     | \beta-gangliosidase      | GM1 ganglioside             |
-| GM2     | HexA and/or  HexB        | GM2 ganglioside             |
-| Krabbe  | galactocerebrosidase     | galactosylceramide          |
-| MLD     | arylsulfatase A          | sulfatide                   |
-| Fabry   | \alpha-galactosidase A   | globotriaosylceramide (Gb3) |
-| Farber  | acid ceramidase          | ceramides                   |
-
-
-
-
-
 
 ** Gaucher
 #+INCLUDE: "./gaucher/gaucher.org" :lines "4-"

@@ -22,8 +22,8 @@
 - Galactocerebrosidase is a lysosomal enzyme
 - Hydrolyzes the galactose ester bonds of galactocerebroside, galactosylsphingosine, lactosylceramide, and monogalactosyldiglyceride.
 - Requires saposin A cofactor
-- lysosomal trafficking of galactocerebrosidase by the mannose 6-phosphate receptor.
-- enzyme is secreted in ML II 
+- lysosomal trafficking of galactocerebrosidase by the M6P receptor.
+- enzyme is secreted in ML II (I cell disease)
 
 ** Saposin A cofactor deficiency
 
@@ -47,7 +47,6 @@
 
 * Clinical Findings
 - Krabbe disease is a spectrum from infantile to late-onset.
-
 
 - Infantile-onset :: characterized by normal development in the first
      few months followed by rapid severe neurologic deterioration
@@ -103,21 +102,18 @@
 [[file:./krabbe/figures/NBS_follow_up.png]]
 
 * Laboratory Investigations
-
 ** CSF protein
 - protein in cerebrospinal fluid is elevated at the time of first symptoms
 - with increased albumin and decrease in \beta-globulins
 - Increase permeability of the blood-brain barrier?
 
-** galactocerebrosidase assay
-
-- HSC
+** Galactocerebrosidase assay
+- Preformed @ Sickkids
 - Leukocytes preferred
 - Draw 5-6 mL of heparinized peripheral blood
 - Fresh heparinized blood should be drawn early enough in the day to arrive in the laboratory by 3:00 p.m. that day
 - Several of the assays available can be performed on a single leukocyte pellet or plasma sample
-
-- cleavage of 6-hexadecanoylamino-4-methylumbelliferyl-\beta-d-galactopyranoside
+- cleavage of 6-hexadecanoylamino-4-MU-\beta-d-galactopyranoside
 ** Newborn Screening
 - New York State - retrospective analysis
   - Almost 2 million infants screened.
@@ -127,18 +123,7 @@
   - Forty-six currently asymptomatic children are considered to be at
     moderate or high risk for development of later-onset Krabbe disease.
 
-** Multiplex DBS  Enzyme Assay
-- The DBS screening assay tests for:
-  - Gaucher
-  - Krabbe
-  - Niemann-Pick-A/B
-  - Pompe
-  - Fabry
-  - MPS-I
-- a single 3-mm DBS punch, which is incubated in a single-assay
-  cocktail with all substrates and internal standards.
-- After incubation and liquid-liquid extraction, samples are analyzed by flow injection MS/MS.
-- All deuterated internal standards correspond to enzymatically generated products.
+
 
 
 ** DBS Psychosine

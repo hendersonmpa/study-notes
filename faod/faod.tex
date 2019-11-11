@@ -1,4 +1,4 @@
-% Created 2019-10-31 Thu 14:37
+% Created 2019-11-09 Sat 17:57
 % Intended LaTeX compiler: pdflatex
 \documentclass{scrartcl}
 \usepackage[utf8]{inputenc}
@@ -28,6 +28,8 @@
 \usepackage{tikz}
 \usepackage{wasysym}
 \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
 \author{Matthew Henderson, PhD, FCACB}
 \date{\today}
 \title{Fatty Acid Oxidation Disorders}
@@ -45,23 +47,12 @@
 \tableofcontents
 
 
-\tikzstyle{chemical} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=none]
-\tikzstyle{hardware} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=gray!30]
-\tikzstyle{ms} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=orange, fill=none]
-\tikzstyle{msw} = [rectangle, rounded corners, text width=7em, minimum height=1em,text centered, draw=orange, fill=none]
-\tikzstyle{label} = [rectangle,text width=8em, minimum height=1em, text centered, draw=none, fill=none]
-\tikzstyle{hl} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=red!30]
-\tikzstyle{box} = [rectangle, rounded corners, text width=5em, minimum height=5em,text centered, draw=black, fill=none]
-\tikzstyle{arrow} = [thick,->,>=stealth]
-\tikzstyle{hl-arrow} = [ultra thick,->,>=stealth,draw=red]
-
-
 \section{Fatty Acid Oxidation}
-\label{sec:org2427400}
+\label{sec:org64ff894}
 \subsection{Introduction}
-\label{sec:org580f92f}
+\label{sec:orga5c83d9}
 \subsubsection{Fatty Acids}
-\label{sec:org58009c3}
+\label{sec:org91c797c}
 \begin{itemize}
 \item usually straight aliphatic chains with a methyl group at one end
 (\(\omega\)-carbon) and a carboxyl group and the other end.
@@ -75,7 +66,7 @@
 \chemname{\chemfig{\omega{}!b-[1]C(=[1]O)-[7]O{^-}}}{\small stearic acid 18:0}
 
 \subsubsection{Fatty Acid Nomenclature}
-\label{sec:org12eac93}
+\label{sec:orgc20f8ce}
 \begin{itemize}
 \item Non-systematic historical names most commonly used.
 \begin{description}
@@ -102,7 +93,7 @@
 \end{itemize}
 
 \subsubsection{Fatty Acid Chain Length}
-\label{sec:orgb4ec8b5}
+\label{sec:org283fbd4}
 
 \begin{description}
 \item[{Very long-chain}] > C20
@@ -112,7 +103,7 @@
 \end{description}
 
 \subsubsection{Fatty Acids as an Energy Source}
-\label{sec:org52b5e41}
+\label{sec:org004ca62}
 
 \begin{itemize}
 \item Long chain fatty acids released from adipose tissue triacylglycerol
@@ -129,14 +120,14 @@ stores during periods of increased fuel demand or fasting.
 \end{itemize}
 
 \subsection{\(\beta\)-oxidation}
-\label{sec:orga607910}
+\label{sec:org2bbe4ec}
 \subsubsection{Overview of Mitochondrial Long-Chain Fatty Acid Metabolism}
-\label{sec:orgd72905b}
+\label{sec:org31d0ff9}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./fao/figures/23_1.png}
-\caption{\label{fig:org261ce96}
+\caption{\label{fig:orga1d6e6b}
 \(\beta\)-oxidation}
 \end{figure}
 
@@ -161,20 +152,20 @@ stores during periods of increased fuel demand or fasting.
 \end{itemize}
 
 \subsubsection{Activation of Fatty Acids}
-\label{sec:org9c566dd}
+\label{sec:orgebc66c4}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./fao/figures/23_2.png}
-\caption{\label{fig:orga364cf8}
+\caption{\label{fig:orgcc91d51}
 FA activation}
 \end{figure}
 
 \subsubsection{Transport of Long-Chain Fatty Acids into Mitochondria}
-\label{sec:org747533e}
+\label{sec:org1a18011}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./fao/figures/23_5.png}
-\caption{\label{fig:org5df7ca3}
+\caption{\label{fig:orgd7afa47}
 Transport of Long-Chain Fatty Acids into Mitochondria}
 \end{figure}
 
@@ -190,10 +181,10 @@ Transport of Long-Chain Fatty Acids into Mitochondria}
 
 
 \subsubsection{Chain Length Specificity}
-\label{sec:org3fee99a}
+\label{sec:org825a447}
 
 \begin{table}[htbp]
-\caption{\label{tab:org667f1a5}
+\caption{\label{tab:org721855c}
 Acyl-CoA Synthetases}
 \centering
 \begin{tabular}{lrl}
@@ -208,7 +199,7 @@ acetyl & 2-4 & cyto, ?mito?\\
 
 
 \begin{table}[htbp]
-\caption{\label{tab:orgf308992}
+\caption{\label{tab:org39ae3dd}
 Acyl-CoA Dehydrogenases}
 \centering
 \begin{tabular}{lrl}
@@ -223,7 +214,7 @@ SCAD & 2-4 & MM\\
 
 
 \begin{table}[htbp]
-\caption{\label{tab:org4e0f53b}
+\caption{\label{tab:org3c6b5fd}
 Other}
 \centering
 \begin{tabular}{lrl}
@@ -238,21 +229,21 @@ Trifunctional protein & 12-16 & \(\uparrow\) activity w \(\uparrow\) length\\
 
 
 \subsubsection{\(\beta\)-oxidation of Long-Chain Fatty Acids}
-\label{sec:orgd83b064}
+\label{sec:org87d57d3}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./fao/figures/23_7.png}
-\caption{\label{fig:org61bc5db}
+\caption{\label{fig:org3217120}
 \(\beta\)-oxidation of Long-Chain Fatty Acids}
 \end{figure}
 
 \subsubsection{Oxidation of Unsaturated Fatty Acids}
-\label{sec:orga5f0197}
+\label{sec:orgf8abf65}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.3\textwidth]{./fao/figures/23_9.png}
-\caption{\label{fig:org5a3bae3}
+\caption{\label{fig:org3ce8180}
 Oxidation of Unsaturated Fatty Acids}
 \end{figure}
 
@@ -263,16 +254,16 @@ Oxidation of Unsaturated Fatty Acids}
 \end{itemize}
 \end{itemize}
 \subsubsection{Odd-Chain Length Fatty Acids}
-\label{sec:orgf4d64a1}
+\label{sec:orgf6d2b3f}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.3\textwidth]{./fao/figures/23_10.png}
-\caption{\label{fig:orge587478}
+\caption{\label{fig:org23b48e3}
 Odd-Chain Length Fatty Acids}
 \end{figure}
 
 \subsubsection{Oxidation of Medium-Chain Length Fatty Acids}
-\label{sec:org066ae35}
+\label{sec:orgecc3255}
 
 \begin{itemize}
 \item \(\uparrow\) solubility
@@ -291,7 +282,7 @@ monocarboxylate transporter 1 (SMCT-1)
 \end{itemize}
 
 \subsubsection{Monocarboxylate Transporter 1}
-\label{sec:orgcbd74f0}
+\label{sec:orgd108f7e}
 \begin{itemize}
 \item Out of 14 known mammalian MCTs, six isoforms have been functionally
 characterized to transport monocarboxylates and short chain fatty
@@ -306,7 +297,7 @@ membranes.
 \end{itemize}
 
 \begin{table}[htbp]
-\caption[Monocarboxylate Transporter 1]{\label{tab:orga275961}
+\caption[Monocarboxylate Transporter 1]{\label{tab:org54a8840}
 MCT1 deficiency (SLC16A1)}
 \centering
 \begin{tabular}{ll}
@@ -317,17 +308,17 @@ Hyperinsulinemic hypoglycemia, familial, 7\footnotemark & AD\\
 Monocarboxylate transporter 1 deficiency & AR, AD\\
  & \\
 \end{tabular}
-\end{table}\footnotetext[1]{\label{orgb72b98c}promoter-activating mutations in patients with hyperinsulinemic
+\end{table}\footnotetext[1]{\label{org041e091}promoter-activating mutations in patients with hyperinsulinemic
 hypoglycemia induce SLC16A1 expression in beta cells, where this
 gene is not usually transcribed, permitting pyruvate uptake and
 pyruvate-stimulated insulin release despite ensuing hypoglycemia}
 
 \subsubsection{Regulation of \(\beta\)-oxidation}
-\label{sec:org252602a}
+\label{sec:org5306b90}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./fao/figures/23_12.png}
-\caption{\label{fig:org7761179}
+\caption{\label{fig:org8d36388}
 Regulation of \(\beta\)-oxidation}
 \end{figure}
 
@@ -338,15 +329,15 @@ Regulation of \(\beta\)-oxidation}
 \end{enumerate}
 
 \subsection{Alternative Routes of Fatty Acid Oxidation}
-\label{sec:orge9032a2}
+\label{sec:orgc9cf0b0}
 
 \subsubsection{Peroxisomal Oxidation of Fatty Acids}
-\label{sec:org7f20573}
+\label{sec:orgfe6336c}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.6\textwidth]{./fao/figures/23_14.png}
-\caption{\label{fig:org8ac3c05}
+\caption{\label{fig:orge2a3102}
 Peroxisomal Oxidation of Fatty Acids}
 \end{figure}
 
@@ -357,21 +348,21 @@ Peroxisomal Oxidation of Fatty Acids}
 \end{itemize}
 
 \subsubsection{First Step of Oxidation of Fatty Acids}
-\label{sec:org4b1e17f}
+\label{sec:org5f1c0fe}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.3\textwidth]{./fao/figures/23_13.png}
-\caption{\label{fig:orgaedb06b}
+\caption{\label{fig:org8acd8b6}
 First Step of Oxidation of Fatty Acids}
 \end{figure}
 
 \subsubsection{Long-Chain Branched-Chain Fatty Acids}
-\label{sec:org9e65983}
+\label{sec:orga7667ab}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.6\textwidth]{./fao/figures/ff22.png}
-\caption{\label{fig:org749261f}
+\caption{\label{fig:org9d9a84f}
 Long-Chain Branched-Chain Fatty Acids}
 \end{figure}
 
@@ -384,12 +375,12 @@ Long-Chain Branched-Chain Fatty Acids}
 \end{itemize}
 
 \subsubsection{\(\omega\)-Oxidation of Fatty Acids}
-\label{sec:org99f7c1c}
+\label{sec:orge16485b}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.3\textwidth]{./fao/figures/23_16.png}
-\caption{\label{fig:org0e9f4f7}
+\caption{\label{fig:orgba20944}
 \(\omega\)-Oxidation of Fatty Acids}
 \end{figure}
 
@@ -402,21 +393,21 @@ Long-Chain Branched-Chain Fatty Acids}
 \end{itemize}
 \item xenobiotic compounds w FA like structure
 \end{itemize}
-\section{Mitochondrial Fatty Acid Oxidation Disorders}
-\label{sec:org2a78d21}
+\section{Mitochondrial FAODs}
+\label{sec:org4c48368}
 \subsection{Introduction}
-\label{sec:org2ae4b52}
+\label{sec:org8b5c293}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./mito_faod/figures/b_oxidation.png}
-\caption{\label{fig:org055c786}
+\caption{\label{fig:orgec08761}
 \(\beta\)-oxidation}
 \end{figure}
 
 \subsection{Carnitine Cycle Defects}
-\label{sec:org9f47e9c}
+\label{sec:org7c985e4}
 \subsubsection{Carnitine Transporter Deficiency}
-\label{sec:org0578bbe}
+\label{sec:orga3cc592}
 \begin{itemize}
 \item Organic cation/carnitine transporter(OCTN2) responsible for
 carnitine uptake. 
@@ -452,7 +443,7 @@ thickened ventricular walls and reduced contractility.
 \end{itemize}
 
 \subsubsection{Carnitine Palmitoyltransferase I Deficiency}
-\label{sec:org9b9f182}
+\label{sec:org9830485}
 \begin{itemize}
 \item \textbf{CPT Ia} liver and kidney
 \item \textbf{CPT Ib}  muscle and heart
@@ -478,7 +469,7 @@ thickened ventricular walls and reduced contractility.
 \end{itemize}
 
 \subsubsection{Carnitine Acylcarnitine Translocase Deficiency}
-\label{sec:org3dd33f8}
+\label{sec:org57c01e6}
 
 \begin{itemize}
 \item This rare disorder usually presents in the neonatal period, with
@@ -495,10 +486,10 @@ encephalopathy
 \end{itemize}
 
 \subsubsection{Carnitine Palmitoyltransferase II Deficiency}
-\label{sec:org28494f0}
+\label{sec:orgcb0f682}
 \begin{enumerate}
 \item Neonatal
-\label{sec:org0b8d001}
+\label{sec:org1c51a0a}
 \begin{itemize}
 \item Severe neonatal onset CPT II deficiency is usually lethal.
 \item Patients become comatose within a few days of birth
@@ -513,7 +504,7 @@ accompanied by cardiomyopathy and arrhythmias
 \end{itemize}
 
 \item Childhood
-\label{sec:org9fa0c9f}
+\label{sec:orgc264a1b}
 \begin{itemize}
 \item Episodes may be brought on by infections or exercise
 \item In moderate or severe episodes there is myoglobinuria, \(\uparrow\) CK
@@ -525,7 +516,7 @@ elevated
 \end{itemize}
 
 \item Adolescence,  young adult
-\label{sec:org6a1511b}
+\label{sec:org0ef0e21}
 \begin{itemize}
 \item Most common form is a partial deficiency that presents with
 episodes of rhabdomyolysis.
@@ -537,33 +528,33 @@ episodes of rhabdomyolysis.
 \end{enumerate}
 
 \subsection{\(\beta\)-Oxidation Defects}
-\label{sec:org9e1bbf6}
+\label{sec:org8507bc6}
 \subsubsection{Very-Long-Chain Acyl-CoA Dehydrogenase Deficiency}
-\label{sec:org6130ae0}
+\label{sec:orgfb88308}
 \begin{enumerate}
 \item Early infancy
-\label{sec:org9e71979}
+\label{sec:org8c80eb5}
 \begin{itemize}
 \item Severely affected patients present in early infancy with
 cardiomyopathy, in addition to the problems seen in milder patients.
 \end{itemize}
 
 \item Childhood
-\label{sec:orgf246817}
+\label{sec:org0d82291}
 \begin{itemize}
 \item patients present in childhood with hypoglycaemia but suffer exercise
 or illness induced rhabdomyolysis or chronic weakness at a later age.
 \end{itemize}
 
 \item Adolescence, Adult
-\label{sec:org519bcdd}
+\label{sec:org628085f}
 \begin{itemize}
 \item Mildly affected patients present as adolescents or adults with
 exercise-induced rhabdomyolysis.
 \end{itemize}
 
 \item Screening
-\label{sec:org2575422}
+\label{sec:orgfdb5f29}
 \begin{itemize}
 \item Second most common FAOD in Europe and the USA
 \item prevalence between 1:50,000 and 1:100,000
@@ -574,7 +565,7 @@ asymptomatic without intervention
 \end{enumerate}
 
 \subsubsection{Mitochondrial Trifunctional Protein}
-\label{sec:org2025219}
+\label{sec:orgd9f30cd}
 \begin{itemize}
 \item MTP a hetero-octamer composed of four \(\alpha\)-subunits and four \(\beta\)-subunits;
 \item \(\alpha\)-subunit has long-chain enoyl-CoA hydratase (LCEH) and LCHAD activities
@@ -589,7 +580,7 @@ enzymes and Low Platelets) and acute fatty liver of pregnancy
 \end{itemize}
 
 \subsubsection{Long-Chain 3-Hydroxyacyl-CoA Dehydrogenase}
-\label{sec:orgbef7cef}
+\label{sec:org81145c2}
 \begin{itemize}
 \item Isolated LCHAD deficiency usually presents acutely before 6 months of age
 \begin{itemize}
@@ -607,7 +598,7 @@ enzymes and Low Platelets) and acute fatty liver of pregnancy
 \end{itemize}
 
 \subsubsection{Mitochondrial Trifunctional Protein Deficiency}
-\label{sec:orga0444c5}
+\label{sec:org91903f3}
 \begin{itemize}
 \item Presentation of generalised MTP deficiency is heterogeneous
 \item Patients with severe deficiency present as neonates
@@ -625,7 +616,7 @@ neuropathy
 \end{itemize}
 
 \subsubsection{Long-Chain Acyl-CoA Dehydrogenase Deficiency}
-\label{sec:orgbd15844}
+\label{sec:orgc1c30b9}
 \begin{itemize}
 \item No human disease-causing mutations have been identified
 \item role  in  human  metabolism  is unclear.
@@ -640,7 +631,7 @@ as a lung disease
 \end{itemize}
 \end{itemize}
 \subsubsection{Medium-Chain Acyl-CoA Dehydrogenase Deficiency}
-\label{sec:org908d63a}
+\label{sec:org1187e17}
 \begin{itemize}
 \item most common FAOD with an incidence of approximately 1:10,000-20,000
 in Europe,USA and Australia.
@@ -675,7 +666,7 @@ initially as adults.
 \end{itemize}
 
 \subsubsection{Short-Chain Acyl-CoA Dehydrogenase Deficiency}
-\label{sec:org50e4450}
+\label{sec:org89835da}
 \begin{itemize}
 \item non-disease?
 \begin{itemize}
@@ -684,7 +675,7 @@ initially as adults.
 \end{itemize}
 
 \subsubsection{3-Hydroxyacyl-CoA Dehydrogenase Deficiency}
-\label{sec:org35fc9b7}
+\label{sec:orgfae207c}
 \begin{itemize}
 \item This defect (HADH), previously called SCHAD deficiency, causes
 hyperinsulinaemic hypoglycaemia
@@ -692,7 +683,7 @@ hyperinsulinaemic hypoglycaemia
 \end{itemize}
 
 \subsubsection{Acyl-CoA dehydrogenase 9}
-\label{sec:orgf792b2c}
+\label{sec:orgcec7976}
 \begin{itemize}
 \item A complex I assembly factor with a moonlighting function in fatty
 acid oxidation deficiencies.
@@ -716,9 +707,9 @@ dehydrogenases
 \end{itemize}
 
 \subsection{Electron Transfer Defects}
-\label{sec:orgd0d7e62}
+\label{sec:org6ceb62e}
 \subsubsection{Multiple acyl-CoA dehydrogenase deficiency}
-\label{sec:orgc5a4cff}
+\label{sec:org6582ccc}
 \begin{itemize}
 \item AKA glutaric aciduria type II.
 \item Electron transfer flavoprotein (ETF) and ETF ubiquinone
@@ -766,7 +757,7 @@ hypoventilation or an inability to lift the chin off the chest.
 \end{itemize}
 
 \subsection{Metabolic Derangement}
-\label{sec:org7fd9a4a}
+\label{sec:orgcf7cf75}
 \begin{itemize}
 \item Fasting hypoglycaemia is the classic metabolic disturbance in FAODs
 \begin{itemize}
@@ -800,13 +791,13 @@ cause both this and the peripheral neuropathy
 \end{itemize}
 
 \subsection{Summary}
-\label{sec:orge29936b}
+\label{sec:orgff12f7c}
 \subsubsection{Common manifestations in FAODs}
-\label{sec:orgc26d61a}
+\label{sec:orgf58b159}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./mito_faod/figures/Ch101f016.png}
-\caption{\label{fig:orgc4b90e2}
+\caption{\label{fig:orgc7e32e6}
 Common manifestations in FAODs [fn:1]}
 \end{figure}
 
@@ -817,9 +808,9 @@ Common manifestations in FAODs [fn:1]}
 \end{itemize}
 
 \section{Routine Testing for Mitochondrial FAODs}
-\label{sec:orged96c46}
+\label{sec:org2134b3b}
 \subsection{Routine Biochemistry}
-\label{sec:org9670643}
+\label{sec:org0b9f7f4}
 \begin{itemize}
 \item Glucose
 \item Ketones
@@ -834,7 +825,7 @@ carrying an affected fetus
 \end{itemize}
 \end{itemize}
 \subsubsection{Fasting Hypoglycaemia  in FAODs}
-\label{sec:org091e730}
+\label{sec:orgfabfeb8}
 \begin{itemize}
 \item Fasting hypoglycaemia is the classic metabolic disturbance in FAODs
 \begin{itemize}
@@ -858,10 +849,10 @@ N. (2009). The Randle cycle revisited. Am J Physiol Endocrinol Metab,
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./faod_routine_testing/figures/randle.png}
-\caption{\label{fig:orgf8010cd}
+\caption{\label{fig:org47c4324}
 Randle Cycle}
 \end{figure}}}
-\label{sec:orgaf05f55}
+\label{sec:org32ace4f}
 \begin{itemize}
 \item Fasted state:
 \begin{itemize}
@@ -880,11 +871,11 @@ Randle Cycle}
 \end{itemize}
 
 \subsubsection{Inhibition of Glucose Utilization by Fatty Acids}
-\label{sec:orga4f925c}
+\label{sec:org739ec30}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./faod_routine_testing/figures/glucose_oxidation_inhibition.png}
-\caption{\label{fig:orgd037f54}
+\caption{\label{fig:org2c430ab}
 Inhibition of Glucose Utilization by FA}
 \end{figure}
 
@@ -901,12 +892,12 @@ to anaplerosis and/or gluconeogenesis.
 \end{itemize}
 
 \subsubsection{Inhibition of Fatty Acid Utilization by Glucose}
-\label{sec:org9699e7f}
+\label{sec:org30a2f25}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./faod_routine_testing/figures/FAO_inhibition.png}
-\caption{\label{fig:org859239d}
+\caption{\label{fig:orgd2a8876}
 Inhibition of FA Utilization by Glucose}
 \end{figure}
 
@@ -920,7 +911,7 @@ insulin.
 \end{itemize}
 
 \subsubsection{Lactic Acidemia in FAODs}
-\label{sec:orge26fdca}
+\label{sec:org8912a79}
 \begin{itemize}
 \item Lactic acidaemia is seen in long-chain FAODs (VLCAD, LCHAD and MTP deficiencies)
 \item Long-chain acyl-CoA esters have been found to inhibit a large
@@ -941,11 +932,11 @@ NADH \(\to\) NAD\(^{\text{+}}\)
 \end{itemize}
 
 \subsubsection{Lactic Acidemia in FAODs}
-\label{sec:org65bd9e9}
+\label{sec:orge355104}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./faod_routine_testing/figures/NAD.png}
-\caption{\label{fig:orgc1e8846}
+\caption{\label{fig:org63724b9}
 Lactic Acidemia in FAODs}
 \end{figure}
 
@@ -955,7 +946,7 @@ mitochondrial oxidation and reduction of NAD
 \end{itemize}
 
 \subsubsection{Hyperammonaemia in FAODs}
-\label{sec:orgd39a597}
+\label{sec:orgca6d16e}
 \begin{itemize}
 \item Hyperammonaemia occurs in some severe defects,
 \begin{itemize}
@@ -969,14 +960,14 @@ to secondary hyperammonemia
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./faod_routine_testing/figures/2nd_ammonemia.png}
-\caption{\label{fig:org2f57c0c}
+\caption{\label{fig:orgd0f70c3}
 Hyperammonaemia in FAODs}
 \end{figure}
 
 
 
 \subsubsection{Moderate hyperuricaemia and elevated CK}
-\label{sec:org836d891}
+\label{sec:org57cd2da}
 \begin{itemize}
 \item Seen in acute attacks 
 \begin{itemize}
@@ -989,7 +980,7 @@ cells, particularly muscle.
 \end{itemize}
 
 \subsubsection{AFLP/HELLP}
-\label{sec:org735f9a7}
+\label{sec:org00c4034}
 \begin{itemize}
 \item Mothers who are heterozygous for LCHAD or MTP deficiency when
 carrying an affected fetus

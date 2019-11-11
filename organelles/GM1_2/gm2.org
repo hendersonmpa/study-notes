@@ -5,10 +5,10 @@
 
 * Introduction
 - Three genetic and biochemical subtypes
-  - Tay-Sachs disease
-  - Sandhoff disease
-  - GM2 activator deficiency
-- Impaired lysosomal catabolism of GM2 ganglioside.
+  - Tay-Sachs disease :: Hex A
+  - Sandhoff disease :: Hex A&B
+  - GM2 activator deficiency :: Activator
+- Impaired lysosomal catabolism of GM2 ganglioside
 - GM2 storage in neurons in Tay-Sachs and Sandhoff
   - Sandhoff \uparrow asialo-GM2 in brain, globoside and oligosacarides in viseral organs
 - Progressive cerebral degeneration
@@ -16,22 +16,22 @@
   - Incidence of TSD in the Ashkenazi Jewish population in North America \downarrow > 90%
 - Eastern Quebec founder mutation
 
-
 #+CAPTION[]:GM2 ganglioside storage diseases
 #+NAME: tab:gm2
 | Disorder                     | Onset       | Death (y) | Enzyme    |
 |------------------------------+-------------+-----------+-----------|
 | Tay-Sachs disease            | 3-6 months  |       2-4 | Hex A     |
-| Sandhoff disease             | 3-6 months  |       2-4 | Hex A&B   |
-| AB variant                   | 3-6 months  |           | Activator |
 | Juvenile GM 2 gangliosidosis | 2-6 years   |      5-15 | Hex A     |
 | Adult GM 2 gangliosidosis    | 2 yrs-adult |  Variable | Hex A     |
-
+|------------------------------+-------------+-----------+-----------|
+| Sandhoff disease             | 3-6 months  |       2-4 | Hex A&B   |
+| AB variant                   | 3-6 months  |           | Activator |
 
 - Functional lysosomal \beta-hexosaminidase enzymes are dimeric.
 - Three isozymes are produced through the combination of \alpha
   and \beta subunits
 - \beta-galactosidase, hexoaminidase A and B require the M6P-receptor
+  - secreted in ML II (I cell disease)
 - GM2 activator protein - sortilin
 
 | Isozyme | Dimer composition | Function                                   |
@@ -51,7 +51,6 @@
 #+NAME: fig:hexb
 #+ATTR_LaTeX: :width 0.4\textwidth
 [[file:./GM1_2/figures/hexosaminidaseab.png]]
-
 
 * Genetics
 - HEXA, HEXB and GM2A: autosomal recessive
@@ -75,18 +74,31 @@
 
 * Laboratory Investigations
 - Urine oligosacarides
-- /in vitro/ Hexoaminidase activity: leukocytes, fibroblasts, ?*serum*?
+- /in vitro/ Hexoaminidase activity: leukocytes, fibroblasts
   - 4-MU-6-sulfo-\beta-glucosaminide
   - specific for the \alpha subunit
-- ?Heat inactivation enzyme assay?
-  - \uparrow in Sandoff
-  - normal in GM2 activator deficiency
 
 - ?Falsely normal results in Tay-Sachs female carriers?
-
+- total hexosaminidases (A+B) using a synthetic fluorogenic substrate
+  is straightforward and allows the diagnosis of Sandhoff disease.
+- Differential assay of HexA using heat or acid
+  inactivation does not identify patients with the B1 variant;
+- the direct assay of hexosaminidase A using the sulfated synthetic
+  substrate (4-MU-6-sulfo-β-glucosaminide) specific for the α-subunit
+  is the method of choice.
+- A high residual activity is found in Sandhoff disease,
+  - excess of hexosaminidase S (αα-dimer).
+- In GM2 activator deficiency, hexosaminidase A activity measured in
+  vitro is normal;
+- electron microscopic examination of a skin or conjunctival biopsy
+  may provide strong evidence in favour of the diagnosis by
+  demonstrating concentric lamellated bodies in nerve endings.
+- The CSF shows increased levels of GM2.
+- Definitive diagnosis requires GM2A sequencing
 * Treatment
-- > 90% reduction in the disease in Jewish population
+- treat seizures
 - no curative treatment to date
+- > 90% reduction in the disease in Jewish population
 
 #+CAPTION[]:Carrier Screening for Tay-Sachs (1972-1992)
 #+NAME: tab:carrier
@@ -108,5 +120,4 @@
 
 
 
-- treat seizures
-- no curative treatment to date
+

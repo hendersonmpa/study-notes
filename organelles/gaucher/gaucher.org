@@ -3,9 +3,10 @@
 #+DATE: \today
 
 * Introduction
-- Caused by accumulation of glucosylceramide (glucocerebroside).
-- Defect in \beta-glucocerebrosidase
-  - Extremely rare SAP-C deficiency
+- Caused by accumulation of *glucosylceramide (glucocerebroside)*.
+  - - Glucocerebroside is the Gaucher lipid
+- Defect in *\beta-glucocerebrosidase*
+  - Extremely rare *SAP-C deficiency*
 - Most common LSD
   - 1:40,000 to 1:50,000 live births
 - Three types:
@@ -14,18 +15,18 @@
   - Type 3 :: Sub-acute or chronic neuronopathic
 - Type 1 disease is common in Western Europe, the Americas and Israel
 - In many other countries neuronopathic forms of Gaucher disease predominate
-- Glucocerebroside: the Gaucher lipid
+
 
 - Located in the lumen of lysosomes
 - LIMP-2 is responsible for mannose 6-phosphate receptor independent
   lysosomal targeting of \beta-glucocerebrosidase
 
-#+CAPTION[]:Glucocerebroside
+#+CAPTION[]:Glucocerebroside the Gaucher Lipid
 #+NAME: fig:gluc 
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./gaucher/figures/glucocerebroside.png]]
 
-#+CAPTION[]:\beta-glucocerebrosidase
+#+CAPTION[]:\beta-glucocerebrosidase defective in Gaucher
 #+NAME: fig:sidase
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./gaucher/figures/glucocerebrosidase.png]]

@@ -48,14 +48,10 @@
   - Jaundice at birth or shortly afterwards
   - Hepatosplenomegaly
   - Vertical supranuclear gaze palzy
-  - Ataxia
-  - Dystonia
-  - Dysarthria
+  - Ataxia, dystonia, dysarthria, dysphagia
   - Cognitive dysfunction/dementia
-  - Cataplexy
-  - Tremors accompanying movement
-  - Seizures
-  - Dysphagia
+  - Cataplexy, tremors,Seizures
+
 
 *** Definitions:
 - Vertical Supranuclear Gaze Palzy: Difficulty with Upward & Downward Eye Movement 

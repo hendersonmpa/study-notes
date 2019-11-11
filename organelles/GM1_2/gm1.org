@@ -1,13 +1,13 @@
-#+TITLE: Sphingolipid Degradation: GM1/2 Gangliosidosis
+#+TITLE: Sphingolipid Degradation: GM1 Gangliosidosis
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
 
 * Introduction
 
-- Defect in \beta-galactosidase (AKA:\beta-gangliosidase)
-- GM1 ganglioside accumulates in the brain and visera
-- Infantile, juvenile and adult forms
+- Defect in *\beta-galactosidase (AKA:\beta-gangliosidase)*
+- *GM1 ganglioside accumulates in the brain and visera*
+- *Infantile, juvenile and adult forms*
   - Residual enzyme function
   - Devastating degenerative disease
 - GM1 gangliosidosis of all types is estimated to occur in 1:100,000 - 300,000
@@ -42,10 +42,9 @@
 - ~ 150 mutations in GLB1 have been described
 - Neither the type or location correlate with phenotype
 
-
 * Clinical Findings
 
-#+CAPTION[ GM1 Signs and Symptoms]: GM1 Signs and Symptoms
+#+CAPTION[GM1 Signs and Symptoms]:GM1 Signs and Symptoms
 #+NAME: tab:gm1ss
 | Finding                | Infantile | Juvenile   | Adult            | MPS IVB                |
 |------------------------+-----------+------------+------------------+------------------------|
@@ -68,7 +67,7 @@
 
 * Laboratory Investigations
 - Urine oligosacarides
-- Mucopolysacarides: \uparrow keratin sulfate
+- *Mucopolysacarides: \uparrow keratin sulfate*
 - /in vitro/ \beta-galactosidase activity: leukocytes and DBS
   - 4-MU-\beta-d-galactopyranoside
 

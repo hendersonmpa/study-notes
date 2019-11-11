@@ -252,7 +252,8 @@
 carnitine by the electrospray tandem mass spectrometry screening
 method for blood spots. Journal of Inherited Metabolic Disease, 22(2),
 201–202. 
-** COMMENT Free and Total Carnitine
+** TODO Free and Total Carnitine
+- Method?
 *** Fractional Tubular Re-absorption of Carnitine
 
 #+BEGIN_LaTeX
@@ -478,4 +479,25 @@ plot data u 1:2 w lp lw 2 t "80% ACN"
 - C18OH (3OH STEAROYL)
 - C16DC	
 - C18:1DC
+
+
+* TODO Free and Total Carnitine
+- Method?
+** Fractional Tubular Re-absorption of Carnitine
+
+#+BEGIN_LaTeX
+\begin{equation*}
+FTR_{carnitine}\% = \left( 1 -  \frac{carnitine_{urine} \cdot creatinine_{plasma}}{carnitine_{plasma} \cdot creatinine_{urine}}\right) \cdot 100
+\end{equation*}
+#+END_LaTeX
+
+- normally >98%, \Downarrow in CUD
+
+** Free/Total Carnitine
+
+\[
+\frac{Free_{carnitine}}{Total_{carnitine}} = \frac{C_0}{\sum_{0}^{18} C_n}
+\]
+
+- \Downarrow in CUD, < 5-10% of normal 
 

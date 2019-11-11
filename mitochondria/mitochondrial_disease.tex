@@ -1,4 +1,4 @@
-% Created 2019-10-30 Wed 16:07
+% Created 2019-11-09 Sat 13:05
 % Intended LaTeX compiler: pdflatex
 \documentclass{scrartcl}
 \usepackage[utf8]{inputenc}
@@ -28,6 +28,8 @@
 \usepackage{tikz}
 \usepackage{wasysym}
 \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
 \author{Matthew Henderson, PhD, FCACB}
 \date{\today}
 \title{Mitochondrial Disease}
@@ -44,24 +46,13 @@
 \tableofcontents
 
 
-\tikzstyle{chemical} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=none]
-\tikzstyle{hardware} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=gray!30]
-\tikzstyle{ms} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=orange, fill=none]
-\tikzstyle{msw} = [rectangle, rounded corners, text width=7em, minimum height=1em,text centered, draw=orange, fill=none]
-\tikzstyle{label} = [rectangle,text width=8em, minimum height=1em, text centered, draw=none, fill=none]
-\tikzstyle{hl} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=red!30]
-\tikzstyle{box} = [rectangle, rounded corners, text width=5em, minimum height=5em,text centered, draw=black, fill=none]
-\tikzstyle{arrow} = [thick,->,>=stealth]
-\tikzstyle{hl-arrow} = [ultra thick,->,>=stealth,draw=red]
-
-
 \section{Mitochondria}
-\label{sec:org62e77ab}
+\label{sec:org8977277}
 \subsection{Background}
-\label{sec:orgb316347}
+\label{sec:orga7eb2e2}
 \begin{enumerate}
 \item Mitochondria
-\label{sec:org1c587ca}
+\label{sec:orge3fd243}
 \begin{itemize}
 \item A double-membrane-bound organelle found in most eukaryotic organisms
 \begin{itemize}
@@ -90,12 +81,12 @@ cardiac mitochondria.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.8\textwidth]{./mitochondria/figures/HeLa_mtGFP.jpg}
-\caption[hela]{\label{fig:orgf2b4c57}
+\caption[hela]{\label{fig:org1c28f8c}
 HeLa Cells mtGFP}
 \end{figure}
 
 \item Maternal Inheritance
-\label{sec:org9fadc2b}
+\label{sec:orgc64950f}
 \begin{itemize}
 \item Mitochondria and therefore the mtDNA, usually come from the egg
 \begin{itemize}
@@ -121,12 +112,12 @@ the division of the cytoplasm.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.8\textwidth]{./mitochondria/figures/Mitochondrial_Bottleneck.png}
-\caption[mom]{\label{fig:org348bb3d}
+\caption[mom]{\label{fig:org62e5066}
 Maternal Inheritance}
 \end{figure}
 
 \item Heteroplasmy
-\label{sec:org38930fd}
+\label{sec:org64d22b1}
 
 \begin{itemize}
 \item Heteroplasmy is the presence of more than one type of organellar
@@ -157,7 +148,7 @@ mutation found in about 1-2\% of all mitochondrial genomes.
 \end{itemize}
 
 \item Muller's Ratchet and the Mitochondrial Bottleneck
-\label{sec:org39d00ea}
+\label{sec:org7d8dc99}
 
 \begin{itemize}
 \item Entities undergoing uniparental inheritance and with little to no
@@ -171,7 +162,7 @@ functionality is lost.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.8\textwidth]{./mitochondria/figures/heteroplasmy.png}
-\caption[heter]{\label{fig:orgde57556}
+\caption[heter]{\label{fig:org832882d}
 heteroplasmy}
 \end{figure}
 
@@ -194,12 +185,12 @@ known as the mtDNA bottleneck.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.8\textwidth]{./mitochondria/figures/bottle_neck.jpg}
-\caption[bottle]{\label{fig:orge9813af}
+\caption[bottle]{\label{fig:org030bdc7}
 Mitochondrial bottle neck}
 \end{figure}
 
 \item Fusion
-\label{sec:org9a59db6}
+\label{sec:org3ebb622}
 \begin{itemize}
 \item response to cellular stress
 \item enables genetic complementation
@@ -216,12 +207,12 @@ other lacks.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1\textwidth]{./mitochondria/figures/nrm1125-f1.jpg}
-\caption[fusion]{\label{fig:org63d66a4}
+\caption[fusion]{\label{fig:org40645dc}
 Mitochondrial fusion}
 \end{figure}
 
 \item Replication and Fission
-\label{sec:org8b519ce}
+\label{sec:orga0304b0}
 
 \begin{itemize}
 \item Mitochondria divide by binary fission, similar to bacterial cell division
@@ -237,7 +228,7 @@ or become inactive.
 \end{itemize}
 
 \item Human Mitochondrial DNA
-\label{sec:org2392a7c}
+\label{sec:orgfcf9e0b}
 \begin{itemize}
 \item a circular DNA molecule \textasciitilde{} 16 kb
 \item encodes 37 genes
@@ -255,12 +246,12 @@ or become inactive.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1\textwidth]{./mitochondria/figures/mitochondrial_genome.png}
-\caption[mtdna]{\label{fig:org6ee445a}
+\caption[mtdna]{\label{fig:orgb9c1aee}
 Human mitochondrial genome}
 \end{figure}
 
 \item Alternative genetic code
-\label{sec:org5aae1e8}
+\label{sec:org4e489b9}
 
 \begin{itemize}
 \item The mitochondria of many eukaryotes, including most plants, use the
@@ -268,7 +259,7 @@ standard code.
 \end{itemize}
 
 \begin{table}[htbp]
-\caption[mito code]{\label{tab:org311344d}
+\caption[mito code]{\label{tab:orgd25d91f}
 Exceptions to the standard genetic code in mamalian mitochondria}
 \centering
 \begin{tabular}{lll}
@@ -287,7 +278,7 @@ to the phenomenon of RNA editing, common in mitochondria.
 \end{itemize}
 
 \item Mitochondrial Disease
-\label{sec:orgf1c60e2}
+\label{sec:org8a96caa}
 \begin{itemize}
 \item About 15\% of mitochondrial disease is caused by mutations in the
 mitochondrial DNA that affect mitochondrial function.
@@ -300,10 +291,10 @@ mitochondrial DNA that affect mitochondrial function.
 \end{enumerate}
 
 \subsection{Biochemical Functions Relevant to IMD}
-\label{sec:org70c4015}
+\label{sec:org183ac2f}
 \begin{enumerate}
 \item Pyruvate and the Tricarboxylic Acid Cycle
-\label{sec:org583d692}
+\label{sec:org272fa62}
 \begin{center}
 \includegraphics[width=0.8\textwidth]{./mitochondria/figures/tca.png}
 \end{center}
@@ -324,7 +315,7 @@ oxaloacetate is used for gluconeogenesis
 \end{itemize}
 
 \item Electron Transport Chain
-\label{sec:org15f0e84}
+\label{sec:org37f7560}
 \begin{itemize}
 \item Energy obtained through the transfer of electrons down the ETC is used to pump protons from the mitochondrial matrix into the intermembrane space
 \begin{itemize}
@@ -351,7 +342,7 @@ matrix to generate ATP from ADP and Pi.
 \end{itemize}
 
 \item ATP synthase
-\label{sec:orgce7855f}
+\label{sec:orga02576a}
 \begin{itemize}
 \item formation of ATP from ADP and Pi is energetically unfavorable
 \item ATP synthase couples ATP synthesis to an electrochemical gradient (\(\Delta \Psi\)M).
@@ -359,7 +350,7 @@ matrix to generate ATP from ADP and Pi.
 
 \begin{center}
 \includegraphics[width=0.5\textwidth]{./mitochondria/figures/atp_synthase.jpg}
-\label{orgb8a9861}
+\label{orgf958de6}
 \end{center}
 
 \centering
@@ -402,7 +393,7 @@ stage.
 
 
 \item Ketogenesis
-\label{sec:orgeb38613}
+\label{sec:org62d1587}
 \begin{itemize}
 \item produced mainly in the mitochondria of liver cells,
 \item in response \(\downarrow\) blood glucose
@@ -411,12 +402,12 @@ stage.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1\textwidth]{./mitochondria/figures/Ketogenesis.png}
-\caption[keto]{\label{fig:org1e4886a}
+\caption[keto]{\label{fig:org0df6e13}
 Ketogenesis}
 \end{figure}
 
 \item Ketolysis
-\label{sec:org343117f}
+\label{sec:org321d68e}
 
 \begin{center}
 \includegraphics[width=.9\linewidth]{./mitochondria/figures/keto.pdf}
@@ -429,7 +420,7 @@ Ketogenesis}
 \end{itemize}
 
 \item Other Biochemical Functions Relevant to IMD
-\label{sec:orgf8df20b}
+\label{sec:orgc25d2a0}
 
 \begin{itemize}
 \item Mitochondrial Fatty Acid Oxidation
@@ -441,12 +432,12 @@ Ketogenesis}
 \end{enumerate}
 
 \section{Pyruvate}
-\label{sec:orga8ea84c}
+\label{sec:org370dbca}
 \subsection{Introduction}
-\label{sec:org3edf51d}
+\label{sec:orge809529}
 \begin{enumerate}
 \item Disorders of Pyruvate Metabolism
-\label{sec:org54491c3}
+\label{sec:org5e7af5d}
 
 \begin{itemize}
 \item Pyruvate Carboxylase Deficiency
@@ -459,52 +450,52 @@ Ketogenesis}
 \end{itemize}
 
 \item Tricarboxylic Acid Cycle
-\label{sec:org578b353}
+\label{sec:orgf5afa0f}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.7\textwidth]{./pyruvate/figures/tca.png}
-\caption[TCA]{\label{fig:org6d1372c}
+\caption[TCA]{\label{fig:org0adcc29}
 Tricarboxylic Acid Cycle}
 \end{figure}
 
 \item Tricarboxylic Acid Cycle
-\label{sec:org2f8f516}
+\label{sec:orgf64d764}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.7\textwidth]{./pyruvate/figures/pyruvate_disorders.png}
-\caption[TCA]{\label{fig:org982b979}
+\caption[TCA]{\label{fig:orgd4613a8}
 Tricarboxylic Acid Cycle Disorders}
 \end{figure}
 
 \item Pyruvate Reactions
-\label{sec:orga580ebd}
+\label{sec:org2c1c6a4}
 
 \begin{enumerate}
 \item Decarboxylation \(\to\) acetyl-CoA
-\label{sec:orga8696cc}
+\label{sec:org437909c}
 \ce{pyruvate + CoA + NAD+ ->[PDHC] acetyl-CoA + CO2 + NADH + H+}
 
 \item Carboxylation \(\to\) oxaloacetate
-\label{sec:org0689ed5}
+\label{sec:org49bcff9}
 \ce{pyruvate + ATP + CO2 ->[PC] oxaloacetate + ADP +Pi}
 
 \item Transamination \(\to\) alanine
-\label{sec:org201c412}
+\label{sec:orgab476e5}
 \ce{pyruvate + glutamate ->[ALT] alanine + \alpha-ketoglutarate}
 
 \item Reduction \(\to\) lactate
-\label{sec:org88894da}
+\label{sec:org7c6d6b4}
 \ce{pyruvate + NADH ->[LDH] lactate + NAD+}
 \end{enumerate}
 \end{enumerate}
 
 \subsection{Pyruvate Carboxylase Deficiency}
-\label{sec:org6b2e7dd}
+\label{sec:org60e08ca}
 \begin{enumerate}
 \item Pyruvate Carboxylase
-\label{sec:org344a32c}
+\label{sec:org87d5f2f}
 
 \begin{itemize}
 \item PC is a biotinylated mitochondrial matrix enzyme.
@@ -532,7 +523,7 @@ Tricarboxylic Acid Cycle Disorders}
 \end{itemize}
 
 \item Biotin and Bicarbonate
-\label{sec:org39c613e}
+\label{sec:org1911c26}
 \begin{itemize}
 \item PC requires biotin and bicarbonate
 \item Metabolic derangements assocateded with PC are observed in:
@@ -556,7 +547,7 @@ provides bicarbonate as substrate in mitochondria
 \end{itemize}
 
 \item Clinical Presentation
-\label{sec:org34b3084}
+\label{sec:orgbaa8c60}
 \begin{itemize}
 \item French phenotype (type B), most severe
 \begin{itemize}
@@ -581,7 +572,7 @@ provides bicarbonate as substrate in mitochondria
 \end{itemize}
 \end{itemize}
 \item Genetics
-\label{sec:orgc4af297}
+\label{sec:orgfe4bc68}
 \begin{itemize}
 \item Autosomal recessive with incidence of 1 in 250000
 \item PC is a homo-tetramer
@@ -591,7 +582,7 @@ provides bicarbonate as substrate in mitochondria
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:orgb326dba}
+\label{sec:org912023b}
 \begin{itemize}
 \item PC deficiency should be considered in any child presenting with lactic acidosis and neurological abnormalities
 \begin{itemize}
@@ -614,7 +605,7 @@ provides bicarbonate as substrate in mitochondria
 \end{itemize}
 
 \item Treatment
-\label{sec:orgf984702}
+\label{sec:org055f7c4}
 
 \begin{itemize}
 \item Currently, no treatment.
@@ -622,10 +613,10 @@ provides bicarbonate as substrate in mitochondria
 \end{enumerate}
 
 \subsection{Phospoenolpyruvate Carboxykinase Deficiency}
-\label{sec:org36c4a87}
+\label{sec:org70962fa}
 \begin{enumerate}
 \item Phospoenolpyruvate Carboxykinase Deficiency
-\label{sec:orgeaa1089}
+\label{sec:orgd951f07}
 
 \begin{itemize}
 \item PEPCK has cytosolic and mitochondria isoforms
@@ -638,10 +629,10 @@ provides bicarbonate as substrate in mitochondria
 \end{enumerate}
 
 \subsection{Pyruvate Dehydrogenase Complex Deficiency}
-\label{sec:org444302f}
+\label{sec:org1936990}
 \begin{enumerate}
 \item Pyruvate Dehydrogenase Complex
-\label{sec:org0b8b48e}
+\label{sec:org625f50e}
 \begin{itemize}
 \item PDHC decarboxylates pyruvate \(\to\) acetyl-CoA
 
@@ -665,7 +656,7 @@ provides bicarbonate as substrate in mitochondria
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.6\textwidth]{./pyruvate/figures/pdhe1_phos.png}
-\caption[pdhe1]{\label{fig:org784d737}
+\caption[pdhe1]{\label{fig:orgef3aaed}
 Activation/deactivation of PDHE1}
 \end{figure}
 
@@ -673,12 +664,12 @@ Activation/deactivation of PDHE1}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./pyruvate/figures/pdhc.png}
-\caption[pdhc]{\label{fig:org2db2034}
+\caption[pdhc]{\label{fig:orgd2bd51a}
 Pyruvate Dehydrogenase Complex}
 \end{figure}
 
 \item Pyruvate Dehydrogenase Complex Deficiency
-\label{sec:org5ea086f}
+\label{sec:orgad6a4e0}
 
 \begin{itemize}
 \item PDHC deficiency provokes conversion of pyruvate to lactate and alanine rather than acetly-CoA
@@ -693,7 +684,7 @@ complete oxidation via TCA and ETC
 
 
 \item Clinical Presentation: PDHE1\(\alpha\)
-\label{sec:org66e6dba}
+\label{sec:org242c40f}
 \begin{itemize}
 \item Majority of cases involve the X encoded to \(\alpha\)-subunit of the dehydrogenase (E1)
 \begin{itemize}
@@ -729,14 +720,14 @@ complete oxidation via TCA and ETC
 \end{itemize}
 
 \item Clinical Presentation: PDHE1\(\beta\)
-\label{sec:org7e6fd04}
+\label{sec:org3172c35}
 \begin{itemize}
 \item Only a few cases
 \item similar to PDHE1\(\alpha\)
 \end{itemize}
 
 \item Genetics
-\label{sec:orge86af91}
+\label{sec:org2d31c7f}
 \begin{itemize}
 \item All components of PDHC are encoded by nuclear genes
 \item Autosomal except E1\(\alpha\) on Xp22.11
@@ -750,7 +741,7 @@ complete oxidation via TCA and ETC
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org9c793ff}
+\label{sec:orgea1b8df}
 \begin{itemize}
 \item Lactate and pyruvate in blood and CSF
 \item CSF lactate is generally \(\uparrow\) compared to blood
@@ -774,7 +765,7 @@ complete oxidation via TCA and ETC
 \end{itemize}
 
 \item Treatment
-\label{sec:org0e7f879}
+\label{sec:org072809a}
 \begin{itemize}
 \item Early adoption of ketogenic diet may have a benefit
 \item Thiamine
@@ -784,12 +775,12 @@ complete oxidation via TCA and ETC
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.6\textwidth]{./pyruvate/figures/pdhe1_phos.png}
-\caption[pdhe1]{\label{fig:org0bc4344}
+\caption[pdhe1]{\label{fig:orgbd6399d}
 Activation/deactivation of PDHE1}
 \end{figure}
 
 \item Pyruvate Transport Defect
-\label{sec:org5612607}
+\label{sec:orge78ef03}
 \begin{itemize}
 \item MPC1 mutations have been described in 5 patients
 \item mediates the proton symport of pyruvate across the IMM.
@@ -800,10 +791,10 @@ Activation/deactivation of PDHE1}
 \end{enumerate}
 
 \subsection{Dihydrolipoamide Dehydrogenase Deficiency}
-\label{sec:org37b5e10}
+\label{sec:org0c3c8ae}
 \begin{enumerate}
 \item Dihydrolipoamide Dehydrogenase
-\label{sec:org079da28}
+\label{sec:org751f3f4}
 \begin{itemize}
 \item DLD (E3) is a flavoprotein common to all three mitochondrial
 \(\alpha\)-ketoacid dehydrogenase complexes
@@ -819,7 +810,7 @@ Activation/deactivation of PDHE1}
 \end{itemize}
 
 \item Genetics and Diagnotic Testing
-\label{sec:orgecb373a}
+\label{sec:orgbb5fa87}
 \begin{itemize}
 \item DLD mutations AR
 \item 13 unrelated patients revealed 14 unique mutations
@@ -832,13 +823,13 @@ Activation/deactivation of PDHE1}
 \end{enumerate}
 
 \section{Tricarboxylic Acid Cycle}
-\label{sec:orgcd92ce8}
+\label{sec:orge4ffd89}
 \subsection{Introduction}
-\label{sec:orgc1c27ad}
+\label{sec:orgd5bc2b0}
 
 \begin{enumerate}
 \item The Tricarboxylic Acid Cycle
-\label{sec:orgb633a91}
+\label{sec:org194fbf7}
 
 \begin{itemize}
 \item Pathways for oxidation of fatty acids, glucose, amino acids and ketones produce acetyl-CoA
@@ -882,7 +873,7 @@ oxaloacetate is used for gluconeogenesis
 \end{itemize}
 
 \item Disorders of the TCA cycle
-\label{sec:org9ff6f5d}
+\label{sec:org3b6c28f}
 
 \begin{itemize}
 \item \(\alpha\)-Ketoglutarate Dehydrogenase Complex Deficiency
@@ -918,17 +909,17 @@ cultured skin fibroblast from these patients.
 \end{enumerate}
 
 \subsection{\(\alpha\)-ketoglutarate Dehydrogenase Complex Deficiency}
-\label{sec:orgad2a5e2}
+\label{sec:orgd8755b3}
 \begin{enumerate}
 \item \(\alpha\)-ketoglutarate Dehydrogenase Complex Deficiency
-\label{sec:org2986e20}
+\label{sec:org99015c4}
 
 \begin{center}
 \includegraphics[width=0.9\textwidth]{./tca/figures/kgdh.png}
 \end{center}
 
 \item \(\alpha\)-ketoglutarate Dehydrogenase Complex
-\label{sec:orga3dcf7b}
+\label{sec:orgdbbc8f2}
 \begin{itemize}
 \item KDHC is a \(\alpha\)-ketoacid dehydrogenase analogous to PDHC and BCKD.
 \end{itemize}
@@ -955,7 +946,7 @@ E3 & dihydrolipoyl dehydrogenase & DLD & FAD, NAD\\
 \end{itemize}
 
 \item Clinical Presentation
-\label{sec:org2f3f195}
+\label{sec:org9f5df39}
 \begin{itemize}
 \item Similar to PDHC
 \item Developmental delay, hypotonia, opisthotonos and ataxia
@@ -966,7 +957,7 @@ E3 & dihydrolipoyl dehydrogenase & DLD & FAD, NAD\\
 \end{itemize}
 
 \item Genetics
-\label{sec:org720d1fd}
+\label{sec:org6bed857}
 \begin{itemize}
 \item AR inheritence, encoded by nuclear DNA
 \item E1 gene mapped to 7p13
@@ -977,7 +968,7 @@ E3 & dihydrolipoyl dehydrogenase & DLD & FAD, NAD\\
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org4b2f166}
+\label{sec:org4e6d526}
 \begin{itemize}
 \item Urine organic acids
 \begin{itemize}
@@ -997,25 +988,25 @@ E3 & dihydrolipoyl dehydrogenase & DLD & FAD, NAD\\
 \end{itemize}
 
 \item Treatment
-\label{sec:org9b78338}
+\label{sec:org3082477}
 \begin{itemize}
 \item None to date
 \end{itemize}
 \end{enumerate}
 
 \subsection{Succinate Dehydrogenase Deficiency}
-\label{sec:org5b62e3a}
+\label{sec:org33c048d}
 
 \begin{enumerate}
 \item Succinate Dehydrogenase Deficiency
-\label{sec:orge296ba2}
+\label{sec:orgc78cc3f}
 
 \begin{center}
 \includegraphics[width=0.9\textwidth]{./tca/figures/sdh.png}
 \end{center}
 
 \item Succinate Dehydrogenase | Complex II
-\label{sec:org58bbe54}
+\label{sec:org4ffd399}
 \begin{itemize}
 \item Four subunits compose Complex II of the mitochondrial respiratory chain
 \end{itemize}
@@ -1052,7 +1043,7 @@ succinate + ubiquinone \(\to\) fumarate + ubiquinol
 \end{center}
 
 \item Clinical Presentation
-\label{sec:org4bd2264}
+\label{sec:orgbbdbb37}
 \begin{itemize}
 \item Very rare disorder with highly variable phenotype
 \item Complex II is part of the TCA cycle and ETC
@@ -1076,7 +1067,7 @@ succinate + ubiquinone \(\to\) fumarate + ubiquinol
 \end{itemize}
 
 \item Genetics
-\label{sec:orgd37837c}
+\label{sec:orgfe9ab83}
 
 \begin{itemize}
 \item All components of Complex II are encoded by nuclear DNA.
@@ -1103,7 +1094,7 @@ phaeochromocytoma and familial paraganglioma.
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org6225dd5}
+\label{sec:org169d45d}
 \begin{itemize}
 \item Unlike other TCA cycle disorders Complex II deficiency does not always
 result in characteristic organic aciduria
@@ -1123,12 +1114,12 @@ and severity or clinical outcome.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./tca/figures/gr4.jpg}
-\caption{\label{fig:org3d49abd}
+\caption{\label{fig:orgad806ee}
 Coupled spectrophotometric assay}
 \end{figure}
 
 \item Treatment
-\label{sec:org44457d7}
+\label{sec:org69f9f6f}
 
 \begin{itemize}
 \item In some cases, treatment with riboflavin may have clinical benefit
@@ -1136,17 +1127,17 @@ Coupled spectrophotometric assay}
 \end{enumerate}
 
 \subsection{Fumarase Deficiency}
-\label{sec:org9d5731b}
+\label{sec:orgbae6cee}
 \begin{enumerate}
 \item Fumarase Deficiency
-\label{sec:org7b7f7f4}
+\label{sec:orgef25561}
 
 \begin{center}
 \includegraphics[width=0.9\textwidth]{./tca/figures/fumarase.png}
 \end{center}
 
 \item Fumarase
-\label{sec:orga125aa7}
+\label{sec:orga85f6dc}
 \begin{itemize}
 \item Fumarase catalyses reversible hydration/dehydration of fumarate to malate
 \item Two forms: mitochondrial and cytosolic.
@@ -1160,7 +1151,7 @@ sequence
 \end{itemize}
 
 \item Clinical Presentation
-\label{sec:orgd00954b}
+\label{sec:org5071d30}
 \begin{itemize}
 \item Characterized by polyhydramnios and fetal brain abnormalities.
 \item In the newborn period, findings include:
@@ -1180,7 +1171,7 @@ fumarase are potential causes.
 \end{itemize}
 
 \item Genetics
-\label{sec:org854d719}
+\label{sec:org55ed225}
 
 \begin{itemize}
 \item AR inheritance, encoded by nuclear DNA
@@ -1188,7 +1179,7 @@ fumarase are potential causes.
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org6336a60}
+\label{sec:org2827ba7}
 
 \begin{itemize}
 \item Isolated, increased concentration of fumaric acid on urine organic
@@ -1201,10 +1192,10 @@ acid analysis is highly suggestive of fumarase deficiency.
 \end{enumerate}
 
 \subsection{Isocitrate Dehydrogenase}
-\label{sec:org0940f73}
+\label{sec:orgb292e16}
 \begin{enumerate}
 \item Isocitrate Dehydrogenase
-\label{sec:org0322e84}
+\label{sec:orgfef9c02}
 \begin{itemize}
 \item IDH exists in three isoforms:
 \begin{itemize}
@@ -1224,7 +1215,7 @@ acid analysis is highly suggestive of fumarase deficiency.
 \ce{isocitrate + NADP+ ->[IHD1/2] \alpha-ketoglutarate + CO2 + NADPH + H+}
 
 \item Clinical relevance
-\label{sec:orgc093797}
+\label{sec:org35adc4d}
 
 \begin{itemize}
 \item IDH3 deficiency is associated with retinitis pigmentosa
@@ -1235,12 +1226,12 @@ acid analysis is highly suggestive of fumarase deficiency.
 \end{enumerate}
 
 \section{Electron Transport Chain}
-\label{sec:orge86dc25}
+\label{sec:orgdb1a2a5}
 \subsection{Introduction}
-\label{sec:orgab12204}
+\label{sec:orgdbcca21}
 \begin{enumerate}
 \item ETC and OxPhos system
-\label{sec:org695b69d}
+\label{sec:org6b15954}
 \begin{itemize}
 \item Responsible for ATP production
 \item ETC complexes I-IV
@@ -1248,7 +1239,7 @@ acid analysis is highly suggestive of fumarase deficiency.
 \end{itemize}
 \begin{enumerate}
 \item Chemiosmotic Coupling Hypothesis
-\label{sec:org84dc27e}
+\label{sec:org2d0d710}
 \begin{itemize}
 \item proposed by Nobel Prize in Chemistry winner Peter D. Mitchell
 \item the ETC and OxPhos are coupled by a proton gradient across the IMM.
@@ -1260,7 +1251,7 @@ acid analysis is highly suggestive of fumarase deficiency.
 \end{enumerate}
 
 \item Electron Transport Chain
-\label{sec:orgb7ab65c}
+\label{sec:orgd81c0c2}
 \begin{itemize}
 \item Energy from transfer of electrons down the ETC is used to pump
 protons from the mitochondrial matrix into the intermembrane space.
@@ -1295,41 +1286,41 @@ chain:
 \end{itemize}
 
 \item Oxidative Phosphorylation
-\label{sec:org9307312}
+\label{sec:orgdb97374}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./etc/figures/hsa00190.png}
-\caption[ETC]{\label{fig:org5c1081a}
+\caption[ETC]{\label{fig:org07c76be}
 Oxidative Phosphorylation, KEGG}
 \end{figure}
 
 \item Mega- Complex
-\label{sec:org7fe9e45}
+\label{sec:orgacc24f9}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.8\textwidth]{./etc/figures/etc_supercomplex.jpg}
-\caption[ETC mega complex]{\label{fig:orgbc5ae45}
+\caption[ETC mega complex]{\label{fig:org7853f6d}
 ETC Mega Complex}
 \end{figure}
 
 \item Redox Potential and Free Energy in ETC
-\label{sec:orga11493e}
+\label{sec:org6ce7214}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./etc/figures/potential.png}
-\caption[redox]{\label{fig:org65ea3e7}
+\caption[redox]{\label{fig:org24cc13f}
 Electron flow to O\(_{\text{2}}\) and release free energy}
 \end{figure}
 \end{enumerate}
 
 \subsection{Complex I}
-\label{sec:org0a45756}
+\label{sec:org9035ca9}
 \begin{enumerate}
 \item Complex I | NADH-ubiquinone oxidoreductase
-\label{sec:org168886a}
+\label{sec:org9dfc0a0}
 \begin{itemize}
 \item catalyzes the transfer of electrons from NADH to coenzyme Q10
 (CoQ10) and translocates protons across the inner mitochondrial
@@ -1362,12 +1353,12 @@ helix channels.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./etc/figures/CI.png}
-\caption[c1]{\label{fig:org27930bf}
+\caption[c1]{\label{fig:org803b04e}
 Complex I}
 \end{figure}
 
 \item Complex I Inhibitors
-\label{sec:orgc0be33d}
+\label{sec:org6cc51e3}
 
 \begin{itemize}
 \item The best-known inhibitor of complex I is rotenone
@@ -1385,10 +1376,10 @@ Complex I}
 \end{enumerate}
 
 \subsection{Complex II}
-\label{sec:orgdd5675a}
+\label{sec:org2e55958}
 \begin{enumerate}
 \item Complex II | Succinate Dehydrogenase
-\label{sec:orgab68542}
+\label{sec:orga1a9022}
 \begin{itemize}
 \item Four subunits compose Complex II of the mitochondrial respiratory chain
 \end{itemize}
@@ -1424,12 +1415,12 @@ is deprotonated and converted to fumarate.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.8\textwidth]{./etc/figures/CII.png}
-\caption[cII]{\label{fig:org6f4c89b}
+\caption[cII]{\label{fig:org855abc7}
 Complex II}
 \end{figure}
 
 \item Complex II Inhibitors
-\label{sec:org2c025aa}
+\label{sec:orgb34e93f}
 
 \begin{itemize}
 \item There are two distinct classes of inhibitors of complex II:
@@ -1444,10 +1435,10 @@ Complex II}
 \end{itemize}
 \end{enumerate}
 \subsection{Glycerol-3-phosphate shuttle}
-\label{sec:org7a32b2a}
+\label{sec:org1d33750}
 \begin{enumerate}
 \item Glycerol-3-phosphate shuttle
-\label{sec:orgf7b00ec}
+\label{sec:org0f82989}
 \begin{itemize}
 \item Oxidation of cytoplasmic NADH by the cytosolic form of the enzyme
 creates glycerol-3-phosphate from dihydroxyacetone phosphate.
@@ -1461,16 +1452,16 @@ creates glycerol-3-phosphate from dihydroxyacetone phosphate.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.8\textwidth]{./etc/figures/GPDH_shuttle.png}
-\caption[g3ps]{\label{fig:org94e6cda}
+\caption[g3ps]{\label{fig:org041f623}
 Glycerol-3-phosphate shuttle}
 \end{figure}
 \end{enumerate}
 
 \subsection{Electron Transferring Flavoprotein/ Dehydrogenase}
-\label{sec:orgc841249}
+\label{sec:org0e13820}
 \begin{enumerate}
 \item Electron Transferring Flavoprotein/ Dehydrogenase
-\label{sec:orgbc75fcb}
+\label{sec:org48e89ad}
 \begin{itemize}
 \item ETFs are heterodimeric proteins composed of an alpha and beta subunit (ETFA and ETFB), and contain an FAD cofactor and AMP
 
@@ -1486,10 +1477,10 @@ flavoprotein (ETF) to ubiquinone, reducing it to ubiquinol.
 \end{enumerate}
 
 \subsection{Complex III}
-\label{sec:org27fcd3f}
+\label{sec:orgfe4771a}
 \begin{enumerate}
 \item Complex III | Coenzyme Q – cytochrome c reductase
-\label{sec:org5d1ba7b}
+\label{sec:org43d1d39}
 
 \begin{itemize}
 \item Complex III is a multi-subunit transmembrane protein encoded by both
@@ -1510,7 +1501,7 @@ subunits)
 
 \begin{enumerate}
 \item Mechanism
-\label{sec:orga2ec0b0}
+\label{sec:org5497a96}
 \begin{itemize}
 \item Round 1:
 \begin{itemize}
@@ -1534,13 +1525,13 @@ subunits)
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./etc/figures/CIII.png}
-\caption[cIII]{\label{fig:org00ca8ea}
+\caption[cIII]{\label{fig:orgacc62de}
 Complex III two step reaction}
 \end{figure}
 \end{enumerate}
 
 \item Complex III Inhibitors
-\label{sec:org4b928ba}
+\label{sec:orgaa44979}
 
 \begin{itemize}
 \item There are three distinct groups of Complex III inhibitors:
@@ -1557,10 +1548,10 @@ Complex III two step reaction}
 \end{enumerate}
 
 \subsection{Complex IV}
-\label{sec:orgf3d9e75}
+\label{sec:org245b959}
 \begin{enumerate}
 \item Complex IV | Cytochrome c oxidase
-\label{sec:org5103f8a}
+\label{sec:orgf6cb4de}
 
 \begin{itemize}
 \item last enzyme in the respiratory electron transport chain.
@@ -1590,12 +1581,12 @@ synthesize ATP.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.7\textwidth]{./etc/figures/CIV.png}
-\caption[cIV]{\label{fig:org099fbbf}
+\caption[cIV]{\label{fig:org1dd39ed}
 Complex IV}
 \end{figure}
 
 \item Complex IV | Inhibitors
-\label{sec:org89d4c29}
+\label{sec:org32f33c2}
 
 \begin{itemize}
 \item Cyanide, azide, and carbon monoxide all bind to cytochrome c
@@ -1607,10 +1598,10 @@ binding to regulatory sites on the enzyme
 \end{enumerate}
 
 \subsection{Complex V}
-\label{sec:org4fd2472}
+\label{sec:orgf5014ef}
 \begin{enumerate}
 \item Complex V | ATP synthase
-\label{sec:orgedcff20}
+\label{sec:orgc0c62b0}
 
 \begin{itemize}
 \item ATP synthase is a molecular machine that creates the energy storage
@@ -1673,7 +1664,7 @@ stage.
 
 \begin{center}
 \includegraphics[width=0.5\textwidth]{./etc/figures/atp_synthase.jpg}
-\label{org6e27eb1}
+\label{org8ef8bc9}
 \end{center}
 
 
@@ -1682,7 +1673,7 @@ stage.
 
 
 \item Complex V Inhibitors
-\label{sec:org97fc0b9}
+\label{sec:orgb507d5b}
 
 
 \begin{itemize}
@@ -1705,11 +1696,11 @@ levels of lactate accumulating in the blood and urine.
 \end{enumerate}
 
 \subsection{Metabolic Derangement}
-\label{sec:org52ad0df}
+\label{sec:org17803a3}
 
 \begin{enumerate}
 \item Anaerobic Glycolysis
-\label{sec:org5f01c7d}
+\label{sec:org26bba08}
 \begin{itemize}
 \item Complex V harnesses the proton gradient created by Complexes I, III, and IV
 \begin{itemize}
@@ -1729,7 +1720,7 @@ levels of lactate accumulating in the blood and urine.
 
 
 \item Factors Affecting OxPhos System
-\label{sec:orgd96b8b4}
+\label{sec:org417c7a0}
 
 \begin{itemize}
 \item \textasciitilde{} 90 subunits
@@ -1760,11 +1751,11 @@ levels of lactate accumulating in the blood and urine.
 \end{itemize}
 
 \item Types of genetic defects and affected systems
-\label{sec:org665c9e5}
+\label{sec:orga47c73d}
 
 \begin{enumerate}
 \item Type of Defect
-\label{sec:org309e06a}
+\label{sec:org68bc6ca}
 \begin{itemize}
 \item OxPhos Subunit
 \item Assembly Factor
@@ -1777,7 +1768,7 @@ levels of lactate accumulating in the blood and urine.
 \end{itemize}
 
 \item Affected Systems
-\label{sec:org5cb214c}
+\label{sec:org5a099df}
 \scriptsize
 \begin{itemize}
 \item Neurological disease
@@ -1804,12 +1795,12 @@ levels of lactate accumulating in the blood and urine.
 \end{enumerate}
 
 \section{Disorders of Oxidative Phosphorylation}
-\label{sec:orgdd42b16}
+\label{sec:org3b3c007}
 \subsection{Metabolic Derangement}
-\label{sec:org1614dee}
+\label{sec:org10d793b}
 \begin{enumerate}
 \item OxPhos Deficiency and Anaerobic Glycolysis
-\label{sec:org9aa4f2d}
+\label{sec:org5f28652}
 \begin{itemize}
 \item Insufficient ATP severely affects highly energy dependant tissues
 \begin{itemize}
@@ -1824,7 +1815,7 @@ levels of lactate accumulating in the blood and urine.
 \end{itemize}
 
 \item Factors Affecting OxPhos System
-\label{sec:org7d970b5}
+\label{sec:org7e702d7}
 \begin{itemize}
 \item \textasciitilde{} 90 subunits
 \begin{itemize}
@@ -1853,7 +1844,7 @@ levels of lactate accumulating in the blood and urine.
 \end{itemize}
 
 \item Types of genetic defects
-\label{sec:org9419a80}
+\label{sec:orgc266d7b}
 \begin{itemize}
 \item OxPhos Subunit
 \item Assembly Factor
@@ -1868,7 +1859,7 @@ levels of lactate accumulating in the blood and urine.
 \end{itemize}
 
 \item Clinical Manifestations
-\label{sec:org61503b0}
+\label{sec:org0814ccc}
 
 \begin{center}
 \begin{tabular}{ll}
@@ -1897,10 +1888,10 @@ Systemic & \textbf{Lactic Acidosis}\\
 \end{enumerate}
 
 \subsection{OxPhos Clinical Manifestations}
-\label{sec:org44a8989}
+\label{sec:orga49f859}
 \begin{enumerate}
 \item Clinical Manifestations
-\label{sec:org87ec668}
+\label{sec:org7130da5}
 \begin{itemize}
 \item Clinical diagnosis is extremely challenging
 \begin{itemize}
@@ -1911,7 +1902,7 @@ Systemic & \textbf{Lactic Acidosis}\\
 
 \begin{enumerate}
 \item Clinical Suspicion based on:
-\label{sec:orgfe4ace5}
+\label{sec:org284ad9e}
 \begin{enumerate}
 \item Constellation of symptoms/signs consistent with a mitochondrial syndrome
 \item Complex multi-system presentation involving two/more organ systems,
@@ -1923,7 +1914,7 @@ aciduria, ragged red fiber mypopathy.
 \end{enumerate}
 
 \item Common Clinical Manifestations
-\label{sec:org303a8ad}
+\label{sec:orga86ec25}
 \begin{itemize}
 \item Mitochondrial disease commonly presents with:
 \begin{itemize}
@@ -1936,7 +1927,7 @@ aciduria, ragged red fiber mypopathy.
 \end{itemize}
 
 \item Myopathies
-\label{sec:org0b2fc65}
+\label{sec:org45e10f1}
 \begin{itemize}
 \item Chronic progressive external ophthalmoplegia (CPEO)
 \begin{itemize}
@@ -1955,7 +1946,7 @@ aciduria, ragged red fiber mypopathy.
 \end{itemize}
 
 \item Encephalopathies
-\label{sec:org7a3d35b}
+\label{sec:org3159597}
 \begin{itemize}
 \item encephalopathic features:
 \begin{itemize}
@@ -1984,7 +1975,7 @@ aciduria, ragged red fiber mypopathy.
 \end{itemize}
 
 \item Leber’s Hereditary Optic Neuropathy
-\label{sec:org0257ec7}
+\label{sec:orgf3b10d4}
 \begin{itemize}
 \item most common cause of blindness in otherwise healthy young men.
 \item maternally inherited and manifests in late adolescence or early
@@ -1993,7 +1984,7 @@ adulthood as bilateral sequential visual failure.
 \end{itemize}
 
 \item Pearson's Syndrome
-\label{sec:orgb4ac42d}
+\label{sec:org232feac}
 \begin{itemize}
 \item transfusion dependant sideroblastic anemia/pancytopenia
 \item exocrine pancreas failure
@@ -2002,7 +1993,7 @@ adulthood as bilateral sequential visual failure.
 \end{itemize}
 
 \item Neonatal and Infantile Presentation
-\label{sec:orgb9f5535}
+\label{sec:org92cb291}
 \begin{itemize}
 \item Congenital Lactic Acidosis
 \item Leigh Syndrome
@@ -2015,7 +2006,7 @@ adulthood as bilateral sequential visual failure.
 \end{itemize}
 
 \item Childhood and Adolescent Presentation
-\label{sec:orgd6f661b}
+\label{sec:orga417656}
 \begin{itemize}
 \item Kearn-Sayre syndrome
 \item MELAS: myopathy, encephalopathy, lactic acidosis, stroke-like episodes
@@ -2027,7 +2018,7 @@ adulthood as bilateral sequential visual failure.
 \end{itemize}
 
 \item Adult Presentation
-\label{sec:org37df352}
+\label{sec:orgce936ad}
 \begin{itemize}
 \item MIDD: maternally inherited diabetes and deafness
 \item PEO: Progressive External Opthalmoplegia
@@ -2036,11 +2027,11 @@ adulthood as bilateral sequential visual failure.
 \end{enumerate}
 
 \subsection{Investigations}
-\label{sec:org8baa3c8}
+\label{sec:org4e1e199}
 
 \begin{enumerate}
 \item Biochemistry
-\label{sec:org393a0b0}
+\label{sec:org29372f7}
 \begin{itemize}
 \item blood lactate, CSF lactate
 \item L/P \(\uparrow\) at rest, \(\Uparrow\) after excercise
@@ -2071,7 +2062,7 @@ adulthood as bilateral sequential visual failure.
 \end{itemize}
 
 \item Imaging
-\label{sec:orgb1a5d82}
+\label{sec:orgd7ede2a}
 \begin{itemize}
 \item Cranial CT shows cerebral and cerebellar atrophy in many encephalopathic patients
 \begin{itemize}
@@ -2082,7 +2073,7 @@ adulthood as bilateral sequential visual failure.
 \end{itemize}
 
 \item Histology
-\label{sec:org76535ce}
+\label{sec:org98da0a1}
 \begin{itemize}
 \item Muscle biopsy is diagnostic
 \begin{itemize}
@@ -2097,12 +2088,12 @@ adulthood as bilateral sequential visual failure.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./oxphos_disorders/figures/Ragged_red_fibers_in_MELAS.jpg}
-\caption[rrf]{\label{fig:org29fa4cd}
+\caption[rrf]{\label{fig:orge6fb753}
 Ragged red fibers - Gomori stain}
 \end{figure}
 
 \item Molecular
-\label{sec:org85d8ad6}
+\label{sec:org613e6fd}
 \begin{itemize}
 \item no strict relation between phenotype and genotype.
 \item mtDNA tRNA mutations are most common of the single base change abnormalities.
