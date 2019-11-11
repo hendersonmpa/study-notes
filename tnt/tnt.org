@@ -1,0 +1,175 @@
+#+TITLE: Thompson & Thompson
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+:PROPERTIES:
+#+DRAWERS: PROPERTIES
+#+LaTeX_CLASS: koma-article
+#+OPTIONS: H:2 toc:1 num:t ^:t
+#+PROPERTY: header-args:R :session *R*
+#+PROPERTY: header-args :cache no
+#+PROPERTY: header-args :tangle yes
+#+STARTUP: overview
+#+STARTUP: indent
+#+latex_header: \hypersetup{colorlinks,linkcolor=black,urlcolor=blue}
+#+LaTeX_header: \usepackage{textpos}
+#+LaTeX_header: \usepackage{textgreek}
+#+LaTeX_header: \usepackage[version=4]{mhchem}
+#+LaTeX_header: \usepackage{chemfig}
+#+LaTeX_header: \usepackage{siunitx}
+#+LaTeX_header: \usepackage{gensymb}
+#+LaTex_HEADER: \usepackage[usenames,dvipsnames]{xcolor}
+#+LaTeX_HEADER: \usepackage[T1]{fontenc}
+#+LaTeX_HEADER: \usepackage{lmodern}
+#+LaTeX_HEADER: \usepackage{verbatim}
+#+LaTeX_HEADER: \usepackage{tikz}
+#+LaTeX_HEADER: \usepackage{wasysym}
+#+LaTeX_HEADER: \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
+#+LaTeX_HEADER: \usepackage{fancyhdr}
+#+LaTeX_HEADER: \pagestyle{fancy}
+:END:
+
+* Chapter 2: Human Genome
+** Mitosis
+- Prophase :: condensation of the chromosomes
+  - formation of the mitotic spindle,
+  - formation of a pair of centrosomes, from which microtubules
+    radiate and eventually take up positions at the poles of the cell.
+- Prometaphase :: nuclear membrane dissolves
+  - chromosomes disperse within the cell
+  - attach, by their kinetochores, to microtubules of the mitotic
+   spindle.
+- Metaphase :: the chromosomes condensed and line up at the equatorial
+               plane.
+- Anaphase ::  chromosomes separate at the centromere
+  - sister chromatids of each chromosome now become independent
+    daughter chromosomes, which move to opposite poles of the cell.
+- Telophase :: chromosomes begin to decondense
+  - nuclear membrane begins to re-form around each of the two daughter
+    nuclei
+  - cytoplasm cleaves = cytokinesis
+
+#+CAPTION[]:Mitosis
+#+NAME: fig:mitosis
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/ch2_mitosis.png]]
+
+
+#+CAPTION[]:Karyotype
+#+NAME: fig:karyotype
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/ch2_karyotype.png]]
+
+** Meiosis
+
+- Meiosis I is also known as the reduction division because it is the
+  division in which the chromosome number is reduced by half through
+  the pairing of homologues in prophase and by their segregation to
+  different cells at anaphase of meiosis I.
+- the stage at which genetic recombination (also called meiotic crossing over) occurs.
+  - homologous segments of DNA are exchanged between non-sister
+    chromatids of each pair of homologous chromosomes, thus ensuring
+    that none of the gametes produced by meiosis will be identical to
+    another.
+- Theconceptual and practical consequences of recombination for many
+aspects of human gen
+
+#+CAPTION[]:Meiosis
+#+NAME: fig:meiosis
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/ch2_meiosis.png]]
+
+
+** Homologous Recombination
+
+- the genetic content of each gamete is unique, because of random
+  assortment of the parental chromosomes to shuffle the combination of
+  sequence variants between chromosomes and because of homologous
+  recombination to shuffle the combination of sequence variants within
+  each and every chromosome.
+- This has significant consequences for patterns of genomic variation
+  among and between different populations around the globe and for
+  diagnosis and counseling of many common conditions with complex patterns of inheritance.
+- The amounts and patterns of meiotic recombination are determined by
+  sequence variants in specific genes and at specific “hot spots” and
+  differ between individuals, between the sexes, between families, and
+  between populations
+- Because recombination involves the physical intertwining of the two
+  homologues until the appropriate point during meiosis I, it is also
+  critical for ensuring proper chromosome segregation during
+  meiosis.
+- Failure to recombine properly can lead to chromosome missegregation
+  (nondisjunction) in meiosis I and is a frequent cause of pregnancy
+  loss and of chromosome abnormalities like Down syndrome
+- Although homologous recombination is normally precise, areas of
+  repetitive DNA in the genome and genes of variable copy number in
+  the population are prone to occasional unequal crossing over during
+  meiosis, leading to variations in clinically relevant traits such as
+  drug response, to common disorders such as the thalassemias or
+  autism, or to abnormalities of sexual differentiation
+- Although homologous recombination is a normal and essential part of
+  meiosis, it also occurs, albeit more rarely, in somatic
+  cells.
+- Anomalies in somatic recombination are one of the causes of genome
+  instability in cancer
+
+* Chapter 3: Gene Structure and Function
+** Allelic Imbalance in Gene Expression
+- Monoallelic gene expression
+  - Somatic rearrangement - T-cell receptors
+  - random monoallelic expression
+  - parent-of-origin imprinting
+- X chromosome inactivation
+  - random, X inactivation center
+  - ncRNA called XIST
+
+* Chapter 4: Human Genetic Diversity
+** Inherited variation and polymorphism
+- SNP
+- Indels
+- microsatelite
+- mobile element insertion polymorphism
+  - retrotranspostion: Alu, LINE
+- CNVs
+  - related to indels and microsatellites but variation in
+    the number of copies of larger segments of the genome
+  - 1000 bp to many hundreds of kilobase pairs.
+- Inversion polymorphism
+  - few base pairs up to several megabase pairs
+  - can be present in either of two orientations in the genomes of different individuals
+#+CAPTION[]:Polymorphism
+#+NAME: fig:poly
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/ch4_polymorphism.png]]
+
+
+** Origins and Freq of Mutation types
+- germline
+- somatic
+- Mutations:
+  - Chromosome number
+  - Regional: affecting the structure or regional organization of chromosomes
+  - Gene: base pair substitutions, insertions, and deletions
+
+#+CAPTION[]:Mutation
+#+NAME: fig:mutation
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/ch4_mutation.png]]
+
+* TODO Chapter 5: Cytogenetics
+* TODO Chapter 6: Chromosomal and Genomic basis of Disease
+* TODO Chapter 7: Patterns of Single Gene Inheritance
+* TODO Chapter 8: Complex Traits
+* TODO Chapter 9: Genetic Variation in Populations
+* TODO Chapter 10: Identifying the Genetic Basis for Human Disease
+* TODO Chapter 11: The Molecular Basis of Genetic Disease
+* TODO Chapter 12: Molecular, Biochemical, and Cellular Basis of Genetic Disease
+* TODO Chapter 13: Treatment
+* TODO Chapter 14: Developmental Genetics
+* TODO Chapter 15: Cancer
+* TODO Chapter 16: Risk
+* TODO Chapter 17: Prenatal
+* TODO Chapter 18: Application
+* TODO Chapter 19: Ethics
+
+

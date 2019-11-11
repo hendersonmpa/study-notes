@@ -2,68 +2,7 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
-:PROPERTIES:
-#+DRAWERS: PROPERTIES
-#+LaTeX_CLASS: beamer
-#+LaTeX_CLASS_OPTIONS: [presentation, smaller]
-#+BEAMER_THEME: Hannover
-#+BEAMER_COLOR_THEME: whale
-#+BEAMER_FRAME_LEVEL: 2
-#+COLUMNS: %40ITEM %10BEAMER_env(Env) %9BEAMER_envargs(Env Args) %4BEAMER_col(Col) %10BEAMER_extra(Extra)
-#+OPTIONS: H:2 toc:nil
-#+PROPERTY: header-args:R :session *R*
-#+PROPERTY: header-args :cache no
-#+PROPERTY: header-args :tangle yes
-#+STARTUP: beamer
-#+STARTUP: overview
-#+STARTUP: hidestars
-#+STARTUP: indent
-# #+BEAMER_HEADER: \subtitle{What is an Automated and Reproducible Report?}
-#+BEAMER_HEADER: \institute[NSO]{Newborn Screening Ontario | The University of Ottawa}
-#+BEAMER_HEADER: \titlegraphic{\includegraphics[height=1cm,keepaspectratio]{../logos/NSO_logo.pdf}\includegraphics[height=1cm,keepaspectratio]{../logos/cheo-logo.png} \includegraphics[height=1cm,keepaspectratio]{../logos/UOlogoBW.eps}}
-#+latex_header: \hypersetup{colorlinks,linkcolor=white,urlcolor=blue}
-#+LaTeX_header: \usepackage{textpos}
-#+LaTeX_header: \usepackage{textgreek}
-#+LaTeX_header: \usepackage[version=4]{mhchem}
-#+LaTeX_header: \usepackage{chemfig}
-#+LaTeX_header: \usepackage{siunitx}
-#+LaTeX_header: \usepackage{gensymb}
-#+LaTex_HEADER: \usepackage[usenames,dvipsnames]{xcolor}
-#+LaTeX_HEADER: \usepackage[T1]{fontenc}
-#+LaTeX_HEADER: \usepackage{lmodern}
-#+LaTeX_HEADER: \usepackage{verbatim}
-#+LaTeX_HEADER: \usepackage{tikz}
-#+LaTeX_HEADER: \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
-:END:
-#+BEGIN_LaTeX
-%\logo{\includegraphics[width=1cm,height=1cm,keepaspectratio]{../logos/NSO_logo_small.pdf}~%
-%    \includegraphics[width=1cm,height=1cm,keepaspectratio]{../logos/UOlogoBW.eps}%
-%}
-
-\vspace{220pt}
-\beamertemplatenavigationsymbolsempty
-\setbeamertemplate{caption}[numbered]
-\setbeamerfont{caption}{size=\tiny}
-% \addtobeamertemplate{frametitle}{}{%
-% \begin{textblock*}{100mm}(.85\textwidth,-1cm)
-% \includegraphics[height=1cm,width=2cm]{cat}
-% \end{textblock*}}
-
-\tikzstyle{chemical} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=none]
-\tikzstyle{hardware} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=gray!30]
-\tikzstyle{ms} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=orange, fill=none]
-\tikzstyle{msw} = [rectangle, rounded corners, text width=7em, minimum height=1em,text centered, draw=orange, fill=none]
-\tikzstyle{label} = [rectangle,text width=8em, minimum height=1em, text centered, draw=none, fill=none]
-\tikzstyle{hl} = [rectangle, rounded corners, text width=5em, minimum height=1em,text centered, draw=black, fill=red!30]
-\tikzstyle{box} = [rectangle, rounded corners, text width=5em, minimum height=5em,text centered, draw=black, fill=none]
-\tikzstyle{arrow} = [thick,->,>=stealth]
-\tikzstyle{hl-arrow} = [ultra thick,->,>=stealth,draw=red]
-
-#+END_LaTeX
-
 * Introduction
-** Carnitine and Acylcarnitines
-
 - Carnitine (\beta{}-hydroxy-\gamma{}-N-trimethylaminobutyric acid) is
   an endogenous quaternary ammonium compound synthesized from lysine
   and methionine.
@@ -79,7 +18,9 @@
 - Primary function is to shuttle long chain fatty acids to the
   mitochondrial matrix, for \beta{}-oxidation.
 - Acylcarnitines are markers for FAODs and OAs
+
 \vspace{2em}
+
 #+BEGIN_LaTeX
 \centering
 \chemname{\chemfig[][scale=.5]{H3C-N^{+}([2]-CH3)([6]-CH3)-CH2-C([2]-H)([6]-OH)-CH_2-C([1]=O)([7]-O^{-})}}{\tiny Carnitine}
@@ -88,36 +29,18 @@
 %\chemname{\chemfig[][scale=.5]{H3C-N^{+}([2]-CH3)([6]-CH3)-CH2-C([2]-H)([6]-O-C([0]=O)-{\color{red}R})-CH_2-C([2]=O)-O-CH_2-CH_2-CH_2-CH_3}}{\tiny Acylcarnitine, butyl ester}
 #+END_LaTeX
 
-** Sample Type
-- Plasma
-  - Diagnostic testing for FAODs and OAs
-  - Monitoring
-- Dried blood spot
-  - Newborn Screening for FAODs and OAs
-- Urine
-  - Diagnosis of CUD
-** COMMENT ERNDIM Plasma Acylcarnitines Survey
-#+CAPTION: Free Carnitine
-#+ATTR_LATEX: :height 0.8\textheight
-[[./figures/free_carnitine_erndim.png]]
 
-** COMMENT ERNDIM Plasma Acylcarnitines Survey
-#+CAPTION: Acetylcarnitine
-#+ATTR_LATEX: :height 0.8\textheight
-[[./figures/acetylcarnitine_erndim.png]]
-
-
-* Screening FIA-MS/MS
-** FIA-MS/MS schematic
+* Diagnostic FIA-MS/MS
+** Diagnostic FIA-MS/MS schematic
 #+BEGIN_LaTeX
 \begin{center}
 \begin{tikzpicture}[node distance=7em]
-% nodespp
+% nodes
 \node(ms1)[ms]{MS1: Mass Filter};
 \node(cc)[ms, right of=ms1]{Collision cell};
 \node(ms2)[ms, right of=cc]{MS2: Mass Filter};
 \node(ion)[ms, below of=ms1,yshift=3em]{Ionization};
-\node(lc)[msw, below of=ion,yshift=3em]{Injection};
+\node(lc)[msw, below of=ion,yshift=3em]{Fused silica};
 \node(detector)[ms, below of=ms2, yshift=3em]{Detector};
 % arrows
 \draw[arrow](lc) -- (ion);
@@ -128,50 +51,67 @@
 \end{tikzpicture}
 \end{center}
 #+END_LaTeX
+- ESI in positive mode
+** Inlet table                                                     :noexport:
 
-- Solvent delivery is via HPLC with no chromatography
-- 10 \micro{}L of sample extract is injected into a flowing stream operating at ~0.15 ml/min.
+#+tblname: data-table
+| Time |  Flow |  %A | %B |
+|------+-------+-----+----|
+|    0 |  1.00 | 100 |  0 |
+|  0.3 | 0.095 | 100 |  0 |
+|  1.2 | 0.100 | 100 |  0 |
+| 1.55 | 0.500 | 100 |  0 |
+| 1.85 | 0.100 | 100 |  0 |
+|  2.5 | 0.100 | 100 |  0 |
 
-- Typical injection rates between samples are 2 min, giving a potential 400
-  to 600 sample capacity per instrument per day.
-  - volume is typically 200-400 specimens per instrument per day
-  - maintenance issues, repeat specimen analysis.
+** Sample prep
+- Sample Type
+  - Plasma
+    - Diagnostic testing for FAODs and OAs
+    - Monitoring
+  - Urine
+    - Diagnosis of CUD
+- 20 \micro{}L of sample is mixed with 400 \micro{}L of IS in Methanol centrifuge to deproteinize.
+- supernatant is removed and 100 \micro{}L of n-butanol-3M HCL is added
+- dried down
+- reconstituted with 200 \micro{}L 80% acetonitrile.
+- 7.5 \micro{}L injection.
 
-** FIA-MS/MS sample 
-- Acylcarnitines in the DBS eluate are esterified as butyl esters with butanol-3M HCL
+#+begin_src gnuplot :var data=data-table :file ./figures/outletmethod.pdf
+reset
+set title "UPLC Method"
+set key on
+set xlabel "min"
 
+set xrange [0:3]
+
+set ylabel "ml/min"
+set yrange [0:1.2]
+
+plot data u 1:2 w lp lw 2 t "80% ACN"
+
+#+end_src
+
+#+ATTR_LATEX: :width 0.7\textwidth
+#+RESULTS:
+[[file:./figures/outletmethod.pdf]]
+** Fragmentation
 #+BEGIN_LaTeX
 \definesubmol{x}{-[1,.6]-[7,.6]}
-\definesubmol{y}{-[7,.6]-[1,.6]}
-\definesubmol{d}{!y!y-[7,.6]{\color{red}COOH}}
-\definesubmol{e}{!y!y}
 \centering
-\schemedebug{false}
-\schemestart
-\chemname{\chemfig[][scale=.33]{-N^{+}([2]-)([6]-)-[1]-[7]([6]-O-([5]=O)!e)-[1]-[7]([7]=O)([1]-O^{-})}}{\tiny C5-carnitine}
-\+
-\chemname{\chemfig[][scale=.33]{HO!x!x}}{\tiny n-butanol}
-\arrow{-U>[][{\tiny \ce{H2O}}]}
-\chemname{\chemfig[][scale=.33]{-N^{+}([2]-)([6]-)-[1]-[7]([6]-O-([5]=O)!e)-[1]-[7]([6]=O)-[1,.6]O!y!y}}{\tiny C5-carnitine, butyl ester}
-\schemestop
-\vspace{2em}
-\schemedebug{false}
-\schemestart
-\chemname{\chemfig[][scale=.33]{-N^{+}([2]-)([6]-)-[1]-[7]([6]-O-([5]=O)!d)-[1]-[7]([7]=O)([1]-O^{-})}}{\tiny C6DC-carnitine}
-\+
-\chemname{\chemfig[][scale=.33]{HO!x!x}}{\tiny n-butanol}
-\arrow{-U>[][{\tiny \ce{2H2O}}]}
-\chemname{\chemfig[][scale=.33]{-N^{+}([2]-)([6]-)-[1]-[7]([6]-O-([5]=O)!e-[7,.6]O!x!x)-[1]-[7]([6]=O)-[1,.6]O!y!y}}{\tiny C6DC-carnitine, butyl ester}
-\schemestop 
+ \chemname{\chemfig[][scale=.33]{H_{3}C-N^{+}([2]-CH_3)([6]-CH_{3})-CH_2-C([2]-H)([6]-O-C([0]=O)-{\color{red}R})-CH_2-C([2]=O)-O-CH_2-CH_2-CH_2-CH_3}}{\tiny acylcarnitine, butyl ester}
+
+\vspace{2.5em}
+
+ \chemname{\chemfig[][scale=.33]{H_{3}C-N([1]-CH_3)([7]-CH_3)}}{\tiny trimethylamine}
+\hspace{2em}
+\chemname{\chemfig[][scale=.33]{{\color{red}R}-C([1]=O)([7]-OH)}}{\tiny carboxylic acid}
+\hspace{2em}
+ \chemname{\chemfig[][scale=.33]{H!x!x}}{\tiny butyl group}
+\hspace{2em}
+ \chemname{\chemfig[][scale=.33]{H_{2}C^{+}-HC=CH-C([1]=O)([7]-OH)}}{\tiny 85 m/z}
 #+END_LaTeX
-
-** FIA-MS/MS Method
-
-- Electrospray ionization in positive mode
-- Butylated acylcarnitines fragment to produce a characteristic ion with mass of 85 Da. 
-- A precursor ion scan is used to identify molecules that fragment to form a 85 m/z molecule.
-
-*** Precursor Ion Scan
+** Precursor Ion Scan
 #+BEGIN_LaTeX
 \begin{center}
 \begin{tikzpicture}
@@ -207,23 +147,42 @@
 \end{center}
 #+END_LaTeX
 
+** MRM is used to detected dicarboxylic acylcarnitines
 
-** Fragmentation
-#+BEGIN_LaTeX
-\definesubmol{x}{-[1,.6]-[7,.6]}
-\centering
- \chemname{\chemfig[][scale=.33]{H_{3}C-N^{+}([2]-CH_3)([6]-CH_{3})-CH_2-C([2]-H)([6]-O-C([0]=O)-{\color{red}R})-CH_2-C([2]=O)-O-CH_2-CH_2-CH_2-CH_3}}{\tiny acylcarnitine, butyl ester}
+- C0-Bu 218.1 Da \to 103 Da transition is optimal
+- All others benefit from the added sensitivity of MRM mode as compared to parent ion scan
 
-\vspace{2.5em}
+#+CAPTION[]:MRM is used to detected selected acylcarnitines
+#+NAME: tab:mrnac
+| Compound | Reaction        |
+|----------+-----------------|
+| C0       | 218.10 > 103.00 |
+| C0 IS    | 227.10 > 103.00 |
+| C2       | 260.20 > 85.00  |
+| C2 IS    | 263.20 > 85.00  |
+| C3       | 274.20 > 85.00  |
+| C3 IS    | 277.20 > 85.00  |
+| C3DC     | 360.30 > 85.00  |
+| C4DC     | 374.30 > 85.00  |
+| C5DC     | 388.35 > 85.00  |
+| C5DC IS  | 391.35 > 85.00  |
+| C6DC     | 402.45 > 85.00  |
+| C8DC     | 430.45 > 85.00  |
 
- \chemname{\chemfig[][scale=.33]{H_{3}C-N([1]-CH_3)([7]-CH_3)}}{\tiny trimethylamine}
-\hspace{2em}
-\chemname{\chemfig[][scale=.33]{{\color{red}R}-C([1]=O)([7]-OH)}}{\tiny carboxylic acid}
-\hspace{2em}
- \chemname{\chemfig[][scale=.33]{H!x!x}}{\tiny butyl group}
-\hspace{2em}
- \chemname{\chemfig[][scale=.33]{H_{2}C^{+}-HC=CH-C([1]=O)([7]-OH)}}{\tiny 85 m/z}
-#+END_LaTeX
+#+CAPTION[]: Quantified Acylcarnitines
+#+NAME: tab:ac
+| C0    | C8     | C16      |
+| C2    | C8:1   | C16:1    |
+| C3    | C10    | C16:1-OH |
+| C3DC  | C10:1  | C16-OH   |
+| C4    | C12    | C18      |
+| C4DC  | C12:1  | C18:1    |
+| C5    | C14    | C18:1-OH |
+| C5:1  | C14:1  | C18:2    |
+| C5DC  | C14:2  | C18-OH   |
+| C5-OH | C14-OH |          |
+| C6    |        |          |
+| C6DC  |        |          |
 
 ** Overestimation of Free Carnitine
 
@@ -252,97 +211,6 @@
 carnitine by the electrospray tandem mass spectrometry screening
 method for blood spots. Journal of Inherited Metabolic Disease, 22(2),
 201–202. 
-** TODO Free and Total Carnitine
-- Method?
-*** Fractional Tubular Re-absorption of Carnitine
-
-#+BEGIN_LaTeX
-\begin{equation*}
-FTR_{carnitine}\% = \left( 1 -  \frac{carnitine_{urine} \cdot creatinine_{plasma}}{carnitine_{plasma} \cdot creatinine_{urine}}\right) \cdot 100
-\end{equation*}
-#+END_LaTeX
-
-- normally >98%, \Downarrow in CUD
-
-*** Free/Total Carnitine
-
-\[
-\frac{Free_{carnitine}}{Total_{carnitine}} = \frac{C_0}{\sum_{0}^{18} C_n}
-\]
-
-- \Downarrow in CUD, < 5-10% of normal 
-
-
-** Why derivatize?
-
-[[./figures/ionization.png]]
-
-** MRM is used to detected dicarboxylic acylcarnitines
-
-- C0-Bu 218.1 Da \to 103 Da transition is optimal
-- All others benefit from the added sensitivity of MRM mode as compared to parent ion scan
-
-\small
-| Compound | Reaction        |
-|----------+-----------------|
-| C0       | 218.10 > 103.00 |
-| C0 IS    | 227.10 > 103.00 |
-| C2       | 260.20 > 85.00  |
-| C2 IS    | 263.20 > 85.00  |
-| C3       | 274.20 > 85.00  |
-| C3 IS    | 277.20 > 85.00  |
-| C3DC     | 360.30 > 85.00  |
-| C4DC     | 374.30 > 85.00  |
-| C5DC     | 388.35 > 85.00  |
-| C5DC IS  | 391.35 > 85.00  |
-| C6DC     | 402.45 > 85.00  |
-| C8DC     | 430.45 > 85.00  |
-
-** FIA-MS/MS Acylcarnitine Scan
-*** Quantified Acylcarnitines
-****                                                               :BMCOL:
-:PROPERTIES:
-:BEAMER_col: 0.3
-:END:
-- C0
-- C2
-- C3
-- C3DC
-- C4
-- C4DC
-- C5
-- C5:1
-- C5DC
-- C5-OH
-- C6
-- C6DC
-****                                                               :BMCOL:
-:PROPERTIES:
-:BEAMER_col: 0.3
-:END:
-- C8
-- C8:1
-- C10
-- C10:1
-- C12
-- C12:1
-- C14
-- C14:1
-- C14:2
-- C14-OH
-****                                                               :BMCOL:
-:PROPERTIES:
-:BEAMER_col: 0.3
-:END:
-- C16
-- C16:1
-- C16:1-OH
-- C16-OH
-- C18
-- C18:1
-- C18:1-OH
-- C18:2
-- C18-OH
 ** Pros and Cons of Butanol  FIA-MSMS for Aceylcarnitines
 *** Pros
 - Speed
@@ -353,132 +221,6 @@ FTR_{carnitine}\% = \left( 1 -  \frac{carnitine_{urine} \cdot creatinine_{plasma
 - Isobaric compounds
   - C5DC and C10-OH
 - Overestimation of CO due to hydrolysis
-
-* COMMENT Diagnostic FIA-MS/MS
-** Diagnostic FIA-MS/MS schematic
-#+BEGIN_LaTeX
-\begin{center}
-\begin{tikzpicture}[node distance=7em]
-% nodes
-\node(ms1)[ms]{MS1: Mass Filter};
-\node(cc)[ms, right of=ms1]{Collision cell};
-\node(ms2)[ms, right of=cc]{MS2: Mass Filter};
-\node(ion)[ms, below of=ms1,yshift=3em]{Ionization};
-\node(lc)[msw, below of=ion,yshift=3em]{Fused silica};
-\node(detector)[ms, below of=ms2, yshift=3em]{Detector};
-% arrows
-\draw[arrow](lc) -- (ion);
-\draw[arrow](ion) -- (ms1);
-\draw[arrow](ms1) -- (cc);
-\draw[arrow](cc) -- (ms2);
-\draw[arrow](ms2) -- (detector);
-\end{tikzpicture}
-\end{center}
-#+END_LaTeX
-- ESI in positive mode
-** Inlet table                                                     :noexport:
-#+tblname: data-table
-| Time |  Flow |  %A | %B |
-|------+-------+-----+----|
-|    0 |  1.00 | 100 |  0 |
-|  0.3 | 0.095 | 100 |  0 |
-|  1.2 | 0.100 | 100 |  0 |
-| 1.55 | 0.500 | 100 |  0 |
-| 1.85 | 0.100 | 100 |  0 |
-|  2.5 | 0.100 | 100 |  0 |
-
-** FIA-MS/MS sample prep
-- 20 \micro{}L of sample is mixed with 400 \micro{}L of IS in Methanol centrifuge to deproteinize.
-- supernatant is removed and 100 \micro{}L of n-butanol-3M HCL is added
-- dried down
-- reconstituted with 200 \micro{}L 80% acetonitrile.
-- 7.5 \micro{}L injection.
-
-#+begin_src gnuplot :var data=data-table :file ./figures/outletmethod.pdf
-reset
-set title "UPLC Method"
-set key on
-set xlabel "min"
-
-set xrange [0:3]
-
-set ylabel "ml/min"
-set yrange [0:1.2]
-
-plot data u 1:2 w lp lw 2 t "80% ACN"
-
-#+end_src
-
-#+ATTR_LATEX: :width 0.7\textwidth
-#+RESULTS:
-[[file:./figures/outletmethod.pdf]]
-
-** FIA-MS/MS transitions
-*** Quantified acetylcarnitines
-\tiny
-
-****                                                               :BMCOL:
-:PROPERTIES:
-:BEAMER_col: 0.33
-:END:
-
-- C2 (ACETYL)
-- C3:1 (PROPENYL)
-- C3 (PROPIONYL)
-- C4 (BUTYRYL)
-- C5:1 (TIGLYL)
-- C5 (ISOVALERYL)
-- C4-OH (3OH-BUTYRYL)
-- C6 (HEXANOYL)
-- C5-OH/2ME3-OH BUTYRYL	
-- BENZOYL
-- C6-OH (3OH-HEXANOYL)	
-- PHENYLACETYL	
-- C8:1 (OCTENOYL)
-- C8 (OCTANOYL)	
-
-****                                                               :BMCOL:
-:PROPERTIES:
-:BEAMER_col: 0.33
-:END:
-
-
-- C3DC (MALONYL)
-- C10:3 (DECATRIENOYL)
-- C10:2 (DECADIENOYL)
-- C10:1 (DECENOYL)
-- C10 (DECANOYL)
-- C4DC (MEMALONYL/SUCCINYL) 
-- C5DC (GLUTARYL)/C10-OH
-- C12:1 (DODECENOYL)
-- C12 (DODECANOYL)
-- C6:DC/3 MEGLUTARYL
-- C12OH (3 OH DODECANOYL)
-- C14:2 (TETRADECADIENOYL)
-- C14:1 (TETRADECENOYL)
-- C14 (TETRADECANOYL)
-- C8DC
-
-****                                                               :BMCOL:
-:PROPERTIES:
-:BEAMER_col: 0.33
-:END:
-
-- C14-1OH (3OH TETRADECENYL)
-- C14-OH (3OH TETRADECANOYL)
-- C16:1 (PALMITOLEYL)
-- C16 (PALMITOYL)
-- C10DC (SEBACYL)
-- C16-1OH (3OH PALMITOLEYL)
-- C16OH (3OH PALMITOYL)
-- C18:2 (LINOLEYL)
-- C18:1 (OLEOYL)
-- C18 (STEAROYL)
-- C18:2OH (3OH LINOLEYL)
-- C18:1OH (3OH OLELYL)
-- C18OH (3OH STEAROYL)
-- C16DC	
-- C18:1DC
 
 
 * TODO Free and Total Carnitine
@@ -500,4 +242,3 @@ FTR_{carnitine}\% = \left( 1 -  \frac{carnitine_{urine} \cdot creatinine_{plasma
 \]
 
 - \Downarrow in CUD, < 5-10% of normal 
-

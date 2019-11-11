@@ -4,7 +4,7 @@ OUT_DIR=./notes/
 
 all: $(OUT_DIR)faod.pdf $(OUT_DIR)organic_acids.pdf $(OUT_DIR)organelles.pdf \
 $(OUT_DIR)mitochondrial_disease.pdf $(OUT_DIR)urea_cycle.pdf $(OUT_DIR)carbohydrate.pdf \
-$(OUT_DIR)methods.pdf $(OUT_DIR)conditions.pdf clean
+$(OUT_DIR)methods.pdf $(OUT_DIR)conditions.pdf $(OUT_DIR)tnt.pdf clean
 
 $(OUT_DIR)faod.pdf: ./faod/faod.org ./faod/fao/fao.org ./faod/faod_routine_testing/faod_routine_testing.org \
 ./faod/mito_faod/mito_faod.org 
@@ -87,6 +87,14 @@ $(OUT_DIR)methods.pdf: ./methods/ac/ac.org ./methods/aa/aa.org ./methods/oa/oa.o
 	-f org-latex-export-to-pdf
 	mv -v ./methods/methods.pdf $(OUT_DIR)methods.pdf
 
+
+$(OUT_DIR)tnt.pdf: ./tnt/tnt.org
+	emacs -u "$(id -un)" \
+	--batch \
+	--eval '(load user-init-file)' \
+	./tnt/tnt.org \
+	-f org-latex-export-to-pdf
+	mv -v ./tnt/tnt.pdf $(OUT_DIR)tnt.pdf
 
 clean :
 	rm -f *.tex

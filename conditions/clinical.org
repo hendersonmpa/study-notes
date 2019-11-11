@@ -16,8 +16,85 @@
 * TODO Factor V Leiden thrombophilia
 * TODO G6PD deficiency
 * TODO Hemoglobinopathies (Sickle cell anemia, Alpha / Beta Thalassemia)
-* TODO Hemophilia A / B
-* TODO Hemochromatosis
+* Hemophilia A
+** Clinical Characteristics
+- deficiency in factor VIII clotting activity that results in
+  prolonged oozing after injuries, tooth extractions, or surgery, and
+  delayed or recurrent bleeding prior to complete wound healing.
+
+- age of diagnosis and frequency of bleeding episodes are related to
+  the level of factor VIII clotting activity.
+
+- severe hemophilia A ::  2 - 5 spontaneous bleeding episodes each month
+  - are usually diagnosed during the first 2 years of life following
+    bleeding from minor injuries.
+  - spontaneous joint bleeds or deep-muscle hematomas,
+  - prolonged bleeding or excessive pain and swelling from minor
+    injuries, surgery, and tooth extractions.
+
+- moderate hemophilia A :: seldom have spontaneous bleeding;
+  - prolonged or delayed oozing after relatively minor trauma
+  - usually diagnosed before age 5 or 6
+
+- mild hemophilia A  :: do nothave spontaneous bleeding episodes;
+  - without pre- and postoperative treatment, abnormal bleeding occurs with surgery
+	  or tooth extractions
+  - often not diagnosed until later in life
+** Diagnostic Testing
+- low factor VIII clotting activity in the presence of a normal,
+  functional von Willebrand factor level
+- a hemizygous F8 pathogenic variant in a male proband confirms the
+  diagnosis.
+- a heterozygous F8 pathogenic variant in a symptomatic female
+  confirms the diagnosis.
+** Genetic Counseling
+- X-linked
+- risk to sibs of a proband depends on the carrier status of the mother.
+- Carrier females have a 50% chance of transmitting the F8 pathogenic
+  variant in each pregnancy:
+  - sons who inherit the pathogenic variant will be affected
+  - daughters who inherit the pathogenic variant are carriers.
+- Affected males transmit the pathogenic variant to all of their
+  daughters and none of their sons.
+- Carrier testing for at-risk family members and prenatal testing for
+  pregnancies at increased risk are possible if the F8 pathogenic
+  variant has been identified or if informative intragenic linked
+  markers have been identified.
+* Hemophilia B
+** Clinical Characteristics
+   - deficiency in factor IX clotting
+   - same as Hemophilia A (section [[Hemophilia A]])
+** Diagnostic Testing
+- low factor IX clotting activity
+- hemizygous F9 pathogenic variant in a male proband confirms the
+  diagnosis.
+- heterozygous F9 pathogenic variant on in a symptomatic female
+  confirms the diagnosis.
+** Genetic Counseling
+- same as Hemophilia A (section [[Hemophilia A]])
+* Hemochromatosis
+** Clinical Characteristics
+- inappropriately high absorption of iron by the small intestinal
+  mucosa.
+
+- The phenotypic spectrum of HFE hemochromatosis includes:
+
+- Clinical HFE hemochromatosis :: manifestations of end-organ damage secondary to iron overload are present
+  - excessive storage of iron in the liver, skin, pancreas, heart, joints, and anterior pituitary gland.
+  - early symptoms include: abdominal pain, weakness, lethargy, weight loss, arthralgias, diabetes mellitus; and increased risk of cirrhosis
+- Biochemical HFE hemochromatosis :: \uparrow transferrin-iron saturation, and the only evidence of iron overload is \uparrow serum ferritin
+- Non-expressing p.Cys282Tyr homozygotes :: neither clinical manifestations of HFE hemochromatosis nor iron overload are present
+
+** Diagnostic Testing
+- biallelic HFE pathogenic variants on molecular genetic testing.
+** Genetic Counseling
+- AR
+- Risk to sibs :: When both parents of a person with hemochromatosis are heterozygous for an HFE p.Cys282Tyr variant, the risk to sibs of inheriting two HFE p.Cys282Tyr variants is 25%.
+  - Because the HFE p.Cys282Tyr heterozygote prevalence in persons of European origin is high (11%, or 1/9), some parents of HFE p.Cys282Tyr homozygotes have two abnormal HFE alleles.
+  - If one parent is heterozygous and the other parent homozygous for two abnormal HFE alleles, the risk to each sib of inheriting two HFE pathogenic alleles is 50%.
+- Risk to offspring :: Offspring of an individual with HFE hemochromatosis inherit one HFE p.Cys282Tyr variant from the parent with HFE hemochromatosis.
+  - Because the chance that the other parent is a heterozygote for HFE p.Cys282Tyr is 1/9, the risk that the offspring will inherit two HFE p.Cys282Tyr variants is approximately 5%.
+- Prenatal testing ::  not usually performed because HFE hemochromatosis is an adult-onset, treatable disorder with low clinical penetrance.
 * TODO SRY translocation
 * TODO Turner syndrome
 * TODO Androgen insensitivity syndrome

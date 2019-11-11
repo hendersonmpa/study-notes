@@ -16,6 +16,39 @@
     imprecise specimen compared with liquids such as urine, blood, and plasma.
 
 * AAAC
+** FIA-MS/MS schematic
+#+BEGIN_LaTeX
+\begin{center}
+\begin{tikzpicture}[node distance=7em]
+% nodes
+\node(ms1)[ms]{MS1: Mass Filter};
+\node(cc)[ms, right of=ms1]{Collision cell};
+\node(ms2)[ms, right of=cc]{MS2: Mass Filter};
+\node(ion)[ms, below of=ms1,yshift=3em]{Ionization};
+\node(lc)[msw, below of=ion,yshift=3em]{Injection};
+\node(detector)[ms, below of=ms2, yshift=3em]{Detector};
+% arrows
+\draw[arrow](lc) -- (ion);
+\draw[arrow](ion) -- (ms1);
+\draw[arrow](ms1) -- (cc);
+\draw[arrow](cc) -- (ms2);
+\draw[arrow](ms2) -- (detector);
+\end{tikzpicture}
+\end{center}
+#+END_LaTeX
+
+** Inlet table                                                     :noexport:
+
+#+tblname: data-table
+| Time |  Flow |  %A | %B |
+|------+-------+-----+----|
+|    0 |  1.00 | 100 |  0 |
+|  0.3 | 0.095 | 100 |  0 |
+|  1.2 | 0.100 | 100 |  0 |
+| 1.55 | 0.500 | 100 |  0 |
+| 1.85 | 0.100 | 100 |  0 |
+|  2.5 | 0.100 | 100 |  0 |
+
 ** FIA-MS/MS sample 
 
 - Amino acids and Acylcarnitines in the DBS eluate are esterified as butyl esters with butanol-hydrogen chloride.
@@ -63,27 +96,25 @@
 \chemname{\chemfig[][scale=.33]{-N^{+}([2]-)([6]-)-[1]-[7]([6]-O-([5]=O)!e-[7,.6]O!x!x)-[1]-[7]([6]=O)-[1,.6]O!y!y}}{\tiny C6DC-carnitine, butyl ester}
 \schemestop 
 #+END_LaTeX
-    
-** FIA-MS/MS schematic
-#+BEGIN_LaTeX
-\begin{center}
-\begin{tikzpicture}[node distance=7em]
-% nodes
-\node(ms1)[ms]{MS1: Mass Filter};
-\node(cc)[ms, right of=ms1]{Collision cell};
-\node(ms2)[ms, right of=cc]{MS2: Mass Filter};
-\node(ion)[ms, below of=ms1,yshift=3em]{Ionization};
-\node(lc)[msw, below of=ion,yshift=3em]{Injection};
-\node(detector)[ms, below of=ms2, yshift=3em]{Detector};
-% arrows
-\draw[arrow](lc) -- (ion);
-\draw[arrow](ion) -- (ms1);
-\draw[arrow](ms1) -- (cc);
-\draw[arrow](cc) -- (ms2);
-\draw[arrow](ms2) -- (detector);
-\end{tikzpicture}
-\end{center}
-#+END_LaTeX
+
+#+begin_src gnuplot :var data=data-table :file ./figures/outletmethod.pdf
+reset
+set title "FIA-MS/MS Method"
+set key on
+set xlabel "min"
+
+set xrange [0:3]
+
+set ylabel "ml/min"
+set yrange [0:1.2]
+
+plot data u 1:2 w lp lw 2 t "80% ACN"
+
+#+end_src
+
+#+ATTR_LATEX: :width 0.7\textwidth
+#+RESULTS:
+[[file:./figures/outletmethod.pdf]]    
 
 ** AA NL Scan
 - Electrospray ionization in positive mode
@@ -203,43 +234,13 @@
 \end{center}
 #+END_LaTeX
 
-** Overestimation of Free Carnitine
-- Butylated acylcarnitines are converted to butylated carnitine in
-  n-butanol-3M HCl at 65\degree{}C. [fn:johnson]
-
-| Acyl Carnitine | Half-life (min) |
-|----------------+-----------------|
-| C2             |              31 |
-| C10            |             125 |
-| C18            |             172 |
-
-- 65\degree{}C for 15 min.  
-- NSO uses 60\degree{}C for 20 minutes.
-- IMD uses 55\degree{}C for 20 minutes.
-
-- In a sample with low free carnitine and high acetylcarnitine.
-  - 30% of the acetylcarnitine and smaller amounts of higher
-    molecular mass acylcarnitines are converted to carnitine
-  - a low carnitine sample could appear to be normal.
-- "The free carnitine results obtained by this screening method on
-  blood spots with high levels of acylcarnitines should therefore be
-  used with caution." [fn:johnson]
-
-[fn:johnson] Johnson, D. W. (1999). Inaccurate measurement of free
-carnitine by the electrospray tandem mass spectrometry screening
-method for blood spots. Journal of Inherited Metabolic Disease, 22(2),
-201–202. 
-
-** Why derivatize?
-
-[[./figures/ionization.png]]
-
-** MRM is used to detected dicarboxylic acylcarnitines
+** AC MRM 
 
 - C0-Bu 218.1 Da \to 103 Da transition is optimal
 - All others benefit from the added sensitivity of MRM mode as compared to parent ion scan
 
-\small
+#+CAPTION[]:MRM is used to detected selected acylcarnitines
+#+NAME: tab:mrnac
 | Compound | Reaction        |
 |----------+-----------------|
 | C0       | 218.10 > 103.00 |
@@ -270,6 +271,37 @@ method for blood spots. Journal of Inherited Metabolic Disease, 22(2),
 | C6    |        |          |
 | C6DC  |        |          |
 
+** Why derivatize?
+
+[[./figures/ionization.png]]
+
+** Overestimation of Free Carnitine
+- Butylated acylcarnitines are converted to butylated carnitine in
+  n-butanol-3M HCl at 65\degree{}C. [fn:johnson]
+
+| Acyl Carnitine | Half-life (min) |
+|----------------+-----------------|
+| C2             |              31 |
+| C10            |             125 |
+| C18            |             172 |
+
+- 65\degree{}C for 15 min.  
+- NSO uses 60\degree{}C for 20 minutes.
+- IMD uses 55\degree{}C for 20 minutes.
+
+- In a sample with low free carnitine and high acetylcarnitine.
+  - 30% of the acetylcarnitine and smaller amounts of higher
+    molecular mass acylcarnitines are converted to carnitine
+  - a low carnitine sample could appear to be normal.
+- "The free carnitine results obtained by this screening method on
+  blood spots with high levels of acylcarnitines should therefore be
+  used with caution." [fn:johnson]
+
+[fn:johnson] Johnson, D. W. (1999). Inaccurate measurement of free
+carnitine by the electrospray tandem mass spectrometry screening
+method for blood spots. Journal of Inherited Metabolic Disease, 22(2),
+201–202. 
+
 ** Pros and Cons of FIA-MS/MS using DBS
 - As compared to AAA and LC-MS/MS 
 *** Pros
@@ -286,7 +318,7 @@ method for blood spots. Journal of Inherited Metabolic Disease, 22(2),
 - Fewer AA quantified
   - homocystine (free)
   - glutamine
-
+- Overestimation of CO due to hydrolysis
 * Multiplex DBS lysosomal Enzyme Assay
 - The DBS screening assay tests for:
   - Gaucher
