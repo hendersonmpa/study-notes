@@ -2,9 +2,106 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
-* TODO Cystic fibrosis
-* TODO Achondroplasia
-* TODO Huntington disease
+* Cystic fibrosis
+** Clinical Characteristics
+- Multisystem disease affecting epithelia of the respiratory tract, exocrine pancreas, intestine, hepatobiliary system, and exocrine sweat glands.
+- Morbidities include progressive obstructive lung disease with bronchiectasis, frequent hospitalizations for pulmonary disease, pancreatic insufficiency and malnutrition, recurrent sinusitis and bronchitis, and male infertility.
+- Pulmonary disease is the major cause of morbidity and mortality in CF.
+- Meconium ileus occurs at birth in 15%-20% of newborns with CF.
+- More than 95% of males with CF are infertile.
+
+** Diagnostic Testing
+- one or more characteristic phenotypic features and evidence of an abnormality in CFTR function
+  - 2 elevated sweat chloride values or
+  - biallelic CFTR pathogenic variants or 
+  - transepithelial nasal potential difference measurement characteristic of CF
+- Diagnosis of CF is established in an infant with:
+  - elevated NBS IRT and
+  - identification of biallelic CFTR pathogenic variants or
+  - an elevated sweat chloride.
+    - quantitative pilocarpine iontophoresis sweat chloride values (>60 mmol/L in infants age > 6 months) 
+** Genetic Counseling
+- AR
+- At conception, each sib of an affected individual with CF have:
+  - a 25% chance of being affected
+  - a 50% chance of being an asymptomatic carrier
+  - a 25% chance of being unaffected and not a carrier.
+- Carrier testing for at-risk relatives and prenatal testing for pregnancies at increased risk are possible if the CFTR pathogenic variants in the family are known.
+* Achondroplasia
+** Clinical Characteristics
+- Most common cause of disproportionate short stature.
+- Affected individuals have rhizomelic shortening of the limbs,
+  macrocephaly, and characteristic facial features with frontal
+  bossing and midface retrusion.
+- In infancy, hypotonia is typical, and acquisition of developmental
+  motor milestones is often both aberrant in pattern and delayed
+- Intelligence and life span are usually near normal, although
+  craniocervical junction compression increases the risk of death in
+  infancy.
+- Additional complications include obstructive sleep apnea, middle ear
+  dysfunction, kyphosis, and spinal stenosis.
+
+** Diagnostic Testing
+- Diagnosed by characteristic clinical and radiographic findings in
+  most affected individuals.
+- In individuals in whom there is diagnostic uncertainty or atypical
+  findings, identification of a heterozygous pathogenic variant in
+  FGFR3 can establish the diagnosis.
+
+** Genetic Counseling
+- AD
+- ~80% of individuals with achondroplasia have parents with average
+  stature and have achondroplasia as the result of a /de novo/
+  pathogenic variant.
+  - these parents have a very low risk of having another child with
+    achondroplasia.
+- An individual with achondroplasia who has a reproductive partner
+  with average stature is at 50% risk in each pregnancy of having a
+  child with achondroplasia.
+- When both parents have achondroplasia the risk to their offspring of
+  having:
+  - average stature is 25%
+  - achondroplasia is 50%
+  - homozygous achondroplasia (a lethal condition) is 25%.
+
+- If the proband and the proband's reproductive partner are affected
+  with different dominantly inherited skeletal dysplasias, genetic
+  counseling becomes more complicated because of the risk of
+  inheriting two dominant skeletal dysplasias.
+* Huntington disease
+** Clinical Characteristics
+- a progressive disorder of motor, cognitive, and psychiatric
+ disturbances.
+- mean age of onset is 35 to 44 years and the median survival time is
+  15 to 18 years after onset.
+** Diagnostic Testing
+- diagnosis of HD rests on:
+  - positive family history
+  - characteristic clinical findings
+  - detection of an expansion of 36 or more CAG trinucleotide repeats in HTT.
+
+- All individuals with HD have an expansion in the number of CAG
+  trinucleotide repeats that encode glutamine amino acids in exon 1 of
+  HTT.
+  - Normal alleles :: 26 or fewer CAG trinucleotide repeats
+  - Intermediate alleles :: 27-35 CAG trinucleotide repeats
+    - An individual with an allele in this range is not at risk of
+      developing symptoms of HD but, because of instability in the CAG
+      tract, may be at risk of having a child with an allele in the
+      HD-causing range
+  - HD-causing alleles :: \ge 36 CAG trinucleotide repeats
+    - Persons who have an HD-causing allele are considered at risk of
+      developing HD in their lifetime.
+    - HD-causing alleles are further classified as:
+      - Reduced-penetrance HD-causing alleles :: 36-39 CAG 
+      - Full-penetrance HD-causing alleles :: \ge 40 CAG 
+** Genetic Counseling
+- AD
+- Offspring of an individual with a pathogenic variant have a 50% chance of inheriting the disease-causing allele.
+- Predictive testing in asymptomatic adults at risk is available but requires careful thought (including pre- and post-test genetic counseling) as there is currently no cure for the disorder.
+  - asymptomatic individuals at risk may be eligible to participate in clinical trials.
+- Predictive testing is not considered appropriate for asymptomatic at-risk individuals younger than age 18 years.
+- Prenatal testing by molecular genetic testing is possible.
 * Fragile X
 ** Clinical Characteristics
 - Fragile X syndrome occurs in individuals with an FMR1 full mutation
@@ -52,10 +149,10 @@
   spasticity particularly in the lower limbs, scoliosis, bladder
   dysfunction, absent lower-limb reflexes, and loss of position and
   vibration sense.
-- ~2/3 have cardiomyopathy
-- ~30% have diabetes mellitus,
-- ~25% have an "atypical" presentation with later onset or retained
-  tendon reflexes.
+  - ~2/3 have cardiomyopathy
+  - ~30% have diabetes mellitus,
+  - ~25% have an "atypical" presentation with later onset or retained
+    tendon reflexes.
 ** Diagnostic Testing
 - established in a proband by detection of biallelic pathogenic
   variants in FXN.
@@ -65,6 +162,14 @@
   repeat in the disease-causing range on one allele and another
   intragenic pathogenic variant on the other allele.
 
+
+- Four classes of alleles are recognized for the GAA repeat sequence in intron 1 of FXN
+  - Normal alleles :: 5-33 GAA repeats
+  - Mutable normal (premutation) alleles :: 34-65 GAA repeats
+  - Borderline alleles :: 44-66 GAA repeats. The shortest repeat length associated with disease 
+  - Full-penetrance (disease-causing expanded) alleles :: 66-1,300 GAA repeats
+
+Rare alleles of variant structure. In contrast to the alleles discussed above in which the GAA trinucleotides are perfect repeats, in rare pathogenic alleles the GAA repeats are not in perfect tandem order but rather are interrupted by other nucleotides. Such "interrupted FXN alleles" differ in length and types of nucleotides in the interruption, but they are typically close to the 3' end of the GAA repeat tract (see Molecular Genetics).
 ** Genetic Counseling
 - autosomal recessive
 - Each sib has a 25% chance of being affected
@@ -82,24 +187,28 @@
 
 - clinical findings, from mild to severe:
 
-- Mild DM1 :: cataract and mild myotonia (sustained muscle
-              contraction) life span is normal
+  - Mild DM1 :: cataract and mild myotonia (sustained muscle
+                contraction) life span is normal
 
-- Classic DM1 :: muscle weakness and wasting, myotonia, cataract, and
-                 often cardiac conduction abnormalities; adults may
-                 become physically disabled and may have a shortened
-                 life span.
+  - Classic DM1 :: muscle weakness and wasting, myotonia, cataract,
+                   and often cardiac conduction abnormalities; adults
+                   may become physically disabled and may have a
+                   shortened life span.
 
-- Congenital DM1 :: is characterized by hypotonia and severe
-                    generalized weakness at birth, often with
-                    respiratory insufficiency and early death;
-                    intellectual disability is common.
+  - Congenital DM1 :: hypotonia and severe generalized weakness at
+                      birth, often with respiratory insufficiency and
+                      early death; intellectual disability is common.
+
 ** Diagnostic Testing
 - caused by expansion of a CTG trinucleotide repeat in the noncoding region of DMPK.
 - molecular genetic testing of DMPK.
 - CTG repeat length exceeding 34 repeats is abnormal.
 - Molecular genetic testing detects pathogenic variants in nearly 100%
   of affected individuals.
+
+  - Normal alleles :: 5-34 CTG repeats
+  - Mutable normal (premutation) alleles :: 35-49 CTG repeats
+  - Full-penetrance alleles ::  \ge 50 CTG repeats
 
 ** Genetic Counseling
 - autosomal dominant
@@ -139,12 +248,6 @@
 - Remaining 10% with classic phenotypic features of AS have the
   disorder as a result of an as-yet unidentified genetic mechanism
   - not amenable to diagnostic testing
-** COMMENT Management
-- Routine management of feeding difficulties, constipation,
-  gastroesophageal reflux, strabismus.
-- Antiepileptic drugs for seizures. Physical therapy, occupational
-  therapy, and speech therapy with an emphasis on nonverbal methods of
-  communication, including augmentative communication aids
 ** Genetic Counseling
 - caused by disruption of maternally imprinted UBE3A located within
   the 15q11.2-q13 Angelman syndrome/Prader-Willi syndrome region.
@@ -191,6 +294,11 @@
   inherited pathogenic variant in approximately 40% of familial cases
   and 5%-10% of cases with no family history of BWS.
 
+#+CAPTION[]:BWS Chromosome 11
+#+NAME: fig:bws
+#+ATTR_LaTeX: :width 0.5\textwidth
+[[file:./figures/bws.png]]
+
 ** Genetic Counseling
 - associated with abnormal regulation of gene transcription in two
   imprinted domains on chromosome 11p15.5.
@@ -234,17 +342,6 @@
    - DNA methylation-specific testing is important to confirm the
      diagnosis of PWS in all individuals,
 
-** COMMENT Management
-- In infancy, special nipples or enteral tube feeding to assure adequate nutrition
-  - physical therapy may improve muscle strength; hormonal and surgical treatments can be considered for cryptorchidism.
-- In childhood, strict supervision of daily food intake based on height, weight, and BMI to provide energy requirements while limiting excessive weight gain
-  - encouraging physical activity.
-- Growth hormone replacement therapy to normalize height, increase lean body mass and mobility, and decrease fat mass.
-- Evaluation and treatment of sleep disturbance per the general
-  population.
-- Educational planning should be instigated and speech
-  therapy provided if needed.
-
 ** Genetic Counseling
 - PWS is caused by an absence of expression of imprinted genes in the
   paternally derived PWS/Angelman syndrome (AS) region (15q11.2-q13)
@@ -256,6 +353,47 @@
   - up to 25% if a parental chromosome translocation is present
 - Prenatal testing is possible for pregnancies at increased risk if
   the underlying genetic mechanism is known.
-* TODO Russell-Silver syndrome
+* Russell-Silver syndrome
+** Clinical Characteristics
+- asymmetric gestational growth restriction resulting in affected
+  individuals being born small for gestational age, with relative
+  macrocephaly at birth (head circumference \le1.5 SD above birth
+  weight and/or length), prominent forehead usually with frontal
+  bossing, and frequently body asymmetry.
+- This is followed by postnatal growth failure, and in some cases progressive limb length discrepancy and feeding difficulties.
+- Additional clinical features include triangular facies, fifth-finger clinodactyly, and micrognathia with narrow chin.
+- The average adult height in untreated individuals is ~3.1\pm1.4 SD below the mean.
+** Diagnostic Testing
+- a genetically heterogeneous condition.
+- Genetic testing confirms clinical diagnosis in approximately 60% of
+  affected individuals.
+  - hypomethylation of the imprinted control region 1 (ICR1) at
+    11p15.5 causes SRS in 35%-50% of individuals
+  - maternal uniparental disomy (mUPD7) causes SRS in 7%-10% of individuals.
+  - a small number of individuals with SRS who have duplications,
+    deletions or translocations involving the imprinting centers at
+    11p15.5 or duplications, deletions, or translocations involving
+    chromosome 7.
+  - rarely, affected individuals with pathogenic variants in CDKN1C,
+    IGF2, PLAG1, and HMGA2 have been described.
+  - approximately 40% of individuals who meet NH-CSS clinical criteria
+    for SRS have negative molecular and/or cytogenetic testing.
 
+#+CAPTION[]:11p Duplication in RSS
+#+NAME: fig:rss
+#+ATTR_LaTeX: :width 0.5\textwidth
+[[file:./figures/rss.png]]
+
+** Genetic Counseling
+- SRS has multiple etiologies and typically has a low recurrence
+  risk.
+- In most families, a proband with SRS represents a simplex case (a single affected family member) and has
+  SRS as the result of an apparent /de novo/ epigenetic or genetic alteration
+  - loss of paternal methylation at the 11p15 ICR1 H19/IGF2 imprinting center 1 or
+  - maternal uniparental disomy for chromosome 7.
+- SRS may also occur as the result of a genetic alteration associated with up to a 50% recurrence risk
+  - copy number variant on chromosome 7 or 11 or
+  - an intragenic pathogenic  variant in CDKN1C, IGF2, PLAG2, or HMGA2
+- Accurate assessment of SRS recurrence therefore requires
+  identification of the causative genetic mechanism in the proband.
 

@@ -168,6 +168,52 @@ aspects of human gen
 * TODO Chapter 14: Developmental Genetics
 * TODO Chapter 15: Cancer
 * TODO Chapter 16: Risk
+** X linked 
+*** Transmission
+- Daughters always inherit Dad's X
+- Moms transmit one X
+- Sons have phenotype
+- Daughters are carriers
+
+*** Prior probability that female is a carrier of X linked lethal disorder 
+- H is the population frequency of female carriers
+- There are there ways a female can be a carrier:
+  1) inherits from a carrier mother
+     - 1/2  H
+  2) receives a new mutant allele on X from mom
+     - \mu
+  3) receives a new mutant allele on X from dad
+     - \mu
+\[H = (1/2 \cdot H) + \mu + \mu \]
+\[H = H/2 +2\mu \]
+\[H = 4\mu \]
+
+- The incidence of carrier females in next generation (C_{n+1}) will
+  be 1/2 the previous generation (C_{n}) plus the mutation rate in
+  females (\mu) plus the mutation rate in males (\nu)
+
+\[C_{n+1} = 1/2 \cdot C_n + \mu + \nu \]
+
+- same as above
+
+| I-2         | C    | NC  |
+|-------------+------+-----|
+| prior       | 4\mu | 1   |
+| cond [fn:1] | 1/2  | \mu |
+| joint       | 2\mu | \mu |
+| post        | 2/3  | 1/3 |
+
+
+- 2/3 inherited from mom
+- 1/3 /de novo/
+
+
+
+[fn:1] Prop of affected son
+** AR
+*** Carrier risk for unaffected sibs of patient w AR disease
+- 2/3
+
 * TODO Chapter 17: Prenatal
 * TODO Chapter 18: Application
 * TODO Chapter 19: Ethics

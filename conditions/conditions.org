@@ -5,7 +5,7 @@
 :PROPERTIES:
 #+DRAWERS: PROPERTIES
 #+LaTeX_CLASS: koma-article
-#+OPTIONS: H:2 toc:1 num:t ^:t
+#+OPTIONS: H:2 toc:2 num:t ^:t
 #+PROPERTY: header-args:R :session *R*
 #+PROPERTY: header-args :cache no
 #+PROPERTY: header-args :tangle yes
