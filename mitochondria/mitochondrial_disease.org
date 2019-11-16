@@ -31,15 +31,13 @@
 
 * Mitochondria
 #+INCLUDE: "./mitochondria/mitochondria.org" :lines "4-"
-
 * Pyruvate
 #+INCLUDE: "./pyruvate/pyruvate.org" :lines "4-"
-
 * Tricarboxylic Acid Cycle
 #+INCLUDE: "./tca/tca.org" :lines "4-"
-
 * Electron Transport Chain
 #+INCLUDE: "./etc/etc.org" :lines "4-"
-
-* Disorders of Oxidative Phosphorylation
+* OxPhos Disorders
 #+INCLUDE: "./oxphos_disorders/oxphos_disorders.org" :lines "4-"
+* TODO Ketogenesis and Ketolysis 
+* TODO Creatine Deficiency 

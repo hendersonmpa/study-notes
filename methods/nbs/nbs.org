@@ -17,7 +17,7 @@
 
 * AAAC
 ** FIA-MS/MS schematic
-#+BEGIN_LaTeX
+#+BEGIN_EXPORT LaTeX
 \begin{center}
 \begin{tikzpicture}[node distance=7em]
 % nodes
@@ -35,7 +35,7 @@
 \draw[arrow](ms2) -- (detector);
 \end{tikzpicture}
 \end{center}
-#+END_LaTeX
+#+END_EXPORT
 
 ** Inlet table                                                     :noexport:
 
@@ -60,7 +60,7 @@
   - volume is typically 200-400 specimens per instrument per day
   - maintenance issues, repeat specimen analysis.
 
-#+BEGIN_LaTeX
+#+BEGIN_EXPORT LaTeX
 \centering
 \schemedebug{false}
 \schemestart
@@ -70,9 +70,9 @@
 \arrow{-U>[][{\tiny \ce{H2O}}]}
 \chemname{\chemfig[][scale=.33]{{\color{red}R}-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\tiny AA butyl ester}
 \schemestop
-#+END_LaTeX
+#+END_EXPORT
 
-#+BEGIN_LaTeX
+#+BEGIN_EXPORT LaTeX
 \definesubmol{x}{-[1,.6]-[7,.6]}
 \definesubmol{y}{-[7,.6]-[1,.6]}
 \definesubmol{d}{!y!y-[7,.6]{\color{red}COOH}}
@@ -95,7 +95,7 @@
 \arrow{-U>[][{\tiny \ce{2H2O}}]}
 \chemname{\chemfig[][scale=.33]{-N^{+}([2]-)([6]-)-[1]-[7]([6]-O-([5]=O)!e-[7,.6]O!x!x)-[1]-[7]([6]=O)-[1,.6]O!y!y}}{\tiny C6DC-carnitine, butyl ester}
 \schemestop 
-#+END_LaTeX
+#+END_EXPORT
 
 #+begin_src gnuplot :var data=data-table :file ./nbs/figures/outletmethod.pdf
 reset
@@ -123,7 +123,8 @@ plot data u 1:2 w lp lw 2 t "80% ACN"
 - MRM is used to detected amino acids with basic functional groups
   - arginine, ornithine and citrulline
 
-#+BEGIN_LaTeX
+#+BEGIN_EXPORT LaTeX
+
 \centering
 \schemedebug{false}
 \schemestart
@@ -133,14 +134,13 @@ plot data u 1:2 w lp lw 2 t "80% ACN"
 \+
 \chemname{\chemfig[][scale=.33]{H-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\tiny butyl formate (102 Da)}
 \schemestop
-#+END_LaTeX
-
+#+END_EXPORT
 ** AA MRM
 - Citrulline contains a labile amino group that fragments together with butyl formate.
 - CID results in net neutral fragmentation of butyl formate (102 Da) plus \ce{NH3} (17 Da)
 - [[https://en.wikipedia.org/wiki/Selected_reaction_monitoring][SRM]] Citrulline-Bu 232.15 Da \to 113 Da , loss of 119 Da  
 
-#+BEGIN_LaTeX
+#+BEGIN_EXPORT LaTeX
 \centering
 \schemedebug{false}
 \schemestart
@@ -150,11 +150,9 @@ plot data u 1:2 w lp lw 2 t "80% ACN"
 \arrow{-U>[][{\tiny \ce{H2O}}]}
 \chemname{\chemfig[][scale=.33]{H_2N-[::30,,2,](=[::60]O)-[::-60]NH-[::60]-[::-60]-[::60]-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\tiny 232 Da}
 \schemestop
-#+END_LaTeX
+#+END_EXPORT
 
-
-
-#+BEGIN_LaTeX
+#+BEGIN_EXPORT LaTeX
 \centering
 \schemedebug{false}
 \schemestart
@@ -164,8 +162,7 @@ plot data u 1:2 w lp lw 2 t "80% ACN"
 \+
 \chemname{\chemfig[][scale=.43]{NH_3}}{\tiny 17 Da}
 \schemestop
-#+END_LaTeX
-
+#+END_EXPORT
 - Its name is derived from citrullus, the Latin word for watermelon, from which it was first isolated in 1914 by Koga and Odake. 
 
 #+CAPTION[]:Quantified Amino Acids
@@ -182,7 +179,7 @@ plot data u 1:2 w lp lw 2 t "80% ACN"
 - Butylated acylcarnitines fragment to produce a characteristic ion with mass of 85 Da. 
 - A precursor ion scan is used to identify molecules that fragment to form a 85 m/z molecule.
 
-#+BEGIN_LaTeX
+#+BEGIN_EXPORT LaTeX
 \definesubmol{x}{-[1,.6]-[7,.6]}
 \centering
  \chemname{\chemfig[][scale=.33]{H_{3}C-N^{+}([2]-CH_3)([6]-CH_{3})-CH_2-C([2]-H)([6]-O-C([0]=O)-{\color{red}R})-CH_2-C([2]=O)-O-CH_2-CH_2-CH_2-CH_3}}{\tiny acylcarnitine, butyl ester}
@@ -196,9 +193,9 @@ plot data u 1:2 w lp lw 2 t "80% ACN"
  \chemname{\chemfig[][scale=.33]{H!x!x}}{\tiny butyl group}
 \hspace{2em}
  \chemname{\chemfig[][scale=.33]{H_{2}C^{+}-HC=CH-C([1]=O)([7]-OH)}}{\tiny 85 m/z}
-#+END_LaTeX
+#+END_EXPORT
 
-#+BEGIN_LaTeX
+#+BEGIN_EXPORT LaTeX
 \begin{center}
 \begin{tikzpicture}
 \node[box](ms1)[]{};
@@ -231,7 +228,7 @@ plot data u 1:2 w lp lw 2 t "80% ACN"
 \draw [red,->,decorate,decoration=snake] (5.1, 0) -- (6.8,0);
 \end{tikzpicture}
 \end{center}
-#+END_LaTeX
+#+END_EXPORT
 
 ** AC MRM 
 
@@ -272,7 +269,7 @@ plot data u 1:2 w lp lw 2 t "80% ACN"
 
 ** Why derivatize?
 
-[[./figures/ionization.png]]
+[[./nbs/figures/ionization.png]]
 
 ** Overestimation of Free Carnitine
 - Butylated acylcarnitines are converted to butylated carnitine in

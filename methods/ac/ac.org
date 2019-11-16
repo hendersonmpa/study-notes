@@ -21,18 +21,16 @@
 
 \vspace{2em}
 
-#+BEGIN_LaTeX
-\centering
+#+BEGIN_EXPORT LaTeX
 \chemname{\chemfig[][scale=.5]{H3C-N^{+}([2]-CH3)([6]-CH3)-CH2-C([2]-H)([6]-OH)-CH_2-C([1]=O)([7]-O^{-})}}{\tiny Carnitine}
 \hspace{3em}
 \chemname{\chemfig[][scale=.5]{H3C-N^{+}([2]-CH3)([6]-CH3)-CH2-C([2]-H)([6]-O-C([0]=O)-{\color{red}R})-CH_2-C([1]=O)([7]-O^{-})}}{\tiny Acylcarnitine}
 %\chemname{\chemfig[][scale=.5]{H3C-N^{+}([2]-CH3)([6]-CH3)-CH2-C([2]-H)([6]-O-C([0]=O)-{\color{red}R})-CH_2-C([2]=O)-O-CH_2-CH_2-CH_2-CH_3}}{\tiny Acylcarnitine, butyl ester}
-#+END_LaTeX
-
+#+END_EXPORT
 
 * Diagnostic FIA-MS/MS
 ** Diagnostic FIA-MS/MS schematic
-#+BEGIN_LaTeX
+#+BEGIN_EXPORT LaTeX
 \begin{center}
 \begin{tikzpicture}[node distance=7em]
 % nodes
@@ -50,7 +48,7 @@
 \draw[arrow](ms2) -- (detector);
 \end{tikzpicture}
 \end{center}
-#+END_LaTeX
+#+END_EXPORT
 - ESI in positive mode
 ** Inlet table                                                     :noexport:
 
@@ -97,7 +95,7 @@ plot data u 1:2 w lp lw 2 t "80% ACN"
 [[file:./ac/figures/outletmethod.pdf]]
 
 ** Fragmentation
-#+BEGIN_LaTeX
+#+BEGIN_EXPORT LaTeX
 \definesubmol{x}{-[1,.6]-[7,.6]}
 \centering
  \chemname{\chemfig[][scale=.33]{H_{3}C-N^{+}([2]-CH_3)([6]-CH_{3})-CH_2-C([2]-H)([6]-O-C([0]=O)-{\color{red}R})-CH_2-C([2]=O)-O-CH_2-CH_2-CH_2-CH_3}}{\tiny acylcarnitine, butyl ester}
@@ -111,9 +109,9 @@ plot data u 1:2 w lp lw 2 t "80% ACN"
  \chemname{\chemfig[][scale=.33]{H!x!x}}{\tiny butyl group}
 \hspace{2em}
  \chemname{\chemfig[][scale=.33]{H_{2}C^{+}-HC=CH-C([1]=O)([7]-OH)}}{\tiny 85 m/z}
-#+END_LaTeX
+#+END_EXPORT
 ** Precursor Ion Scan
-#+BEGIN_LaTeX
+#+BEGIN_EXPORT LaTeX
 \begin{center}
 \begin{tikzpicture}
 \node[box](ms1)[]{};
@@ -146,8 +144,7 @@ plot data u 1:2 w lp lw 2 t "80% ACN"
 \draw [red,->,decorate,decoration=snake] (5.1, 0) -- (6.8,0);
 \end{tikzpicture}
 \end{center}
-#+END_LaTeX
-
+#+END_EXPORT
 ** MRM is used to detected dicarboxylic acylcarnitines
 
 - C0-Bu 218.1 Da \to 103 Da transition is optimal

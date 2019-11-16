@@ -7,11 +7,10 @@
 - Water soluble compounds containing \ge one carboxyl group(s) and
   nonamino functional groups
 
-#+BEGIN_LaTeX
+#+BEGIN_EXPORT LaTeX
 \centering
 \chemfig{X-C(-[2]X)(-[6]X)-C(-[2]X)(-[6]X)-C(-[7]OH)=[1]O}
-#+END_LaTeX
-
+#+END_EXPORT
 *** Acylglycines
 - Acylglycines are also detected in UOA analysis
   - conjugation of acyl-CoA species to glycine
@@ -36,11 +35,10 @@
 
 
 ** Functional Groups
-#+BEGIN_LaTeX
+#+BEGIN_EXPORT LaTeX
 \centering
 \chemfig{X-C(-[2]X)(-[6]X)-C(-[2]X)(-[6]X)-C(-[7]OH)=[1]O}
-#+END_LaTeX
-
+#+END_EXPORT
 #+CAPTION[]:Organic Acid Functional Groups
 #+NAME: tab:func
 | Functional group | Formula            |
@@ -52,11 +50,10 @@
 | side chain       | -(CH$_2$)$_n$      |
 
 ** Side Chains
-#+BEGIN_LaTeX
+#+BEGIN_EXPORT LaTeX
 \centering
 \chemfig{X-C(-[2]X)(-[6]X)-C(-[2]X)(-[6]X)-C(-[7]OH)=[1]O}
-#+END_LaTeX
-
+#+END_EXPORT
 #+CAPTION[]:Organic Acid Side Chains
 #+NAME: tab:side
 | Side chain | Structure                      |
@@ -119,7 +116,7 @@
 - Oximated with 10% hydroxylamine-HCL
   - avoids multiple TMS species due to keto-enol tautomerism
 
-#+BEGIN_LaTeX
+#+BEGIN_EXPORT LaTeX
 \centering
 \schemedebug{false}
 \schemestart
@@ -131,14 +128,13 @@
 \arrow{->}
 \chemname{\chemfig[][scale=.5]{R-[1](=[2]N-[1]OH)-[7]R}}{\tiny ketoxime}
 \schemestop
-#+END_LaTeX
-
+#+END_EXPORT
 ** BSTFA Derivatisation
 - Acidified and extracted twice with ethyl ether 
 - Derivatised with BSTFA (N,O-bis(trimethylsilyl)trifluoroacetamide) [fn:stalling]
   - forms organic acid TMS esters
 
-#+BEGIN_LaTeX
+#+BEGIN_EXPORT LaTeX
 \centering
 \schemedebug{false}
 \schemestart
@@ -150,8 +146,7 @@
 \+
 \chemname{\chemfig[][scale=.5]{F{_3}C-C(=[1]O)-[7]NTMS}}{\tiny TMS amide}
 \schemestop
-#+END_LaTeX
-
+#+END_EXPORT
 
 [fn:stalling] Stalling DL, Gehrke CW, Zumwalt RW. A new silylation
 reagent for amino acids bis(trimethylsilyl)trifluoroacetamide

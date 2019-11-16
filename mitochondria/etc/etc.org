@@ -11,7 +11,6 @@
  - the ETC and OxPhos are coupled by a proton gradient across the IMM.
  - The efflux of protons from the mitochondrial matrix creates an electrochemical gradient.
    - used by the F_{O}F_{1} ATP synthase complex to make ATP via oxidative phosphorylation.
-
 ** Electron Transport Chain
 - Energy from transfer of electrons down the ETC is used to pump
   protons from the mitochondrial matrix into the intermembrane space.
@@ -99,11 +98,8 @@
   membrane
 
 #+BEGIN_EXPORT LaTeX
-\centering
-\small
-\ce{NADH + H+ + CoQ + 4H^{+}_{in} ->[CI] NAD+ + CoQH2 + 4H^{+}_{out}}
+{\small\ce{NADH + H+ + CoQ + 4H^{+}_{in} ->[CI] NAD+ + CoQH2 + 4H^{+}_{out}}}
 #+END_EXPORT
-
 
 - Mechanism: 
   1. Seven iron sulfur centers carry electrons from the site of NADH
@@ -175,8 +171,7 @@
   is deprotonated and converted to fumarate.
 
 #+BEGIN_EXPORT LaTeX
-\centering
-\ce{succinate + ubiquinone ->[CII] fumarate + ubiquinol}
+{\small\ce{succinate + ubiquinone ->[CII] fumarate + ubiquinol}}
 #+END_EXPORT
 
 - Electrons removed from succinate transfer to SdhA
@@ -217,9 +212,7 @@
   flavoprotein (ETF) to ubiquinone, reducing it to ubiquinol.
 
 #+BEGIN_EXPORT LaTeX
-\small
-\centering
-\ce{Acyl-CoA + FAD ->[ACAD] FADH2 + ETF ->[ETF-QO] UQ ->[CIII] CytC}
+{\small\ce{Acyl-CoA + FAD ->[ACAD] FADH2 + ETF ->[ETF-QO] UQ ->[CIII] CytC}}
 #+END_EXPORT
 
 - ETF-QO deficiency results in *glutaric acidemia type II* (AKA MADD
@@ -237,9 +230,7 @@
   - 6 low-molecular weight proteins
 
 #+BEGIN_EXPORT LaTeX
-\centering
-\small
-\ce{QH2 + 2Fe^{3+}-cyt c + 2H+_{in} ->[CIII]  Q + 2Fe^{2+}-cyt c + 4H+_{out}}
+{\small\ce{QH2 + 2Fe^{3+}-cyt c + 2H+_{in} ->[CIII]  Q + 2Fe^{2+}-cyt c + 4H+_{out}}}
 #+END_EXPORT
 
 *** Mechanism 
@@ -282,9 +273,7 @@
 - receives an electron from four cytochrome c molecules and transfers them to one O_2 molecule
  
 #+BEGIN_EXPORT LaTeX
-\centering
-\small
-\ce{4Fe^{2+}-cyt c + 8H^{+}_{in} + O2 ->[CIV] 4Fe^{3+}-cyt c + 2H2O + 4H^{+}_{out}}
+{\small\ce{4Fe^{2+}-cyt c + 8H^{+}_{in} + O2 ->[CIV] 4Fe^{3+}-cyt c + 2H2O + 4H^{+}_{out}}}
 #+END_EXPORT
 
 - In the process binds four protons from the inner aqueous phase to
@@ -312,8 +301,7 @@
 - The overall reaction catalyzed by ATP synthase is:
 
 #+BEGIN_EXPORT LaTeX
-\centering
-  \ce{ADP + P_i + H+_{out} <=> ATP + H2O + H+_{in}}
+{\small\ce{ADP + P_i + H+_{out} <=> ATP + H2O + H+_{in}}}
 #+END_EXPORT
 
 
@@ -333,8 +321,7 @@
 
 
 #+BEGIN_EXPORT LaTeX
-\centering
-\ce{ADP + Pi + H+_{out} <=> ATP + H2O + H+_{in}}
+{\small\ce{ADP + Pi + H+_{out} <=> ATP + H2O + H+_{in}}}
 #+END_EXPORT
 
 ** Complex V Inhibitors
@@ -352,6 +339,4 @@
 - Administering oligomycin to an individual can result in very high
   levels of lactate accumulating in the blood and urine.
 
-* Metabolic Derangement
-- see next section [[Disorders of Oxidative Phosphorylation]]
 

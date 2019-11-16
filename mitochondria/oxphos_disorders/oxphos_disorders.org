@@ -42,13 +42,21 @@
   - can affect any organ system
   - antenatal (IUGR, birth defects) \to elderly (myopathy)
 
-*** Clinical Suspicion based on:
-1. Constellation of symptoms/signs consistent with a mitochondrial syndrome
-2. Complex multi-system presentation involving two/more organ systems,
-   best described by an underlying disorder of energy generation.
-3. Lactic acidosis, characteristic neuro-imaging, 3-methylglutaconic
-   aciduria, ragged red fiber mypopathy.
-4. Pathogenic mutation in a known mitochondrial disease gene.
+- Clinical Suspicion based on:
+  1. Constellation of symptoms/signs consistent with a mitochondrial syndrome
+  2. Complex multi-system presentation involving two/more organ systems,
+     best described by an underlying disorder of energy generation.
+  3. Lactic acidosis, characteristic neuro-imaging, 3-methylglutaconic
+     aciduria, ragged red fiber mypopathy.
+  4. Pathogenic mutation in a known mitochondrial disease gene.
+
+
+- Mitochondrial disease commonly presents with:
+  1) Myopathy
+  2) Encephalopathy
+  3) Leber’s hereditary optic neuropathy
+  4) Pearson Syndrome
+  5) Diabetes
 
 #+CAPTION[]:OxPhos Clinical Manifestations
 #+NAME: tab:oxpclin
@@ -72,15 +80,6 @@
 | Ear             | *sensorineural deafness*           |
 |                 | aminoglycoside deafness            |
 | Systemic        | *lactic acidosis*                  |
-
-
-** Common Clinical Manifestations
- - Mitochondrial disease commonly presents with:
-   - Myopathy
-   - Encephalopathy
-   - Leber’s hereditary optic neuropathy
-   - Pearson Syndrome
-   - Diabetes
 
 ** Myopathies
 - Chronic progressive external ophthalmoplegia (CPEO)
