@@ -8,7 +8,6 @@
 - ETC complexes I-IV
 - OxPhos system complexes I-V
 *** Chemiosmotic Coupling Hypothesis
- - proposed by Nobel Prize in Chemistry winner Peter D. Mitchell
  - the ETC and OxPhos are coupled by a proton gradient across the IMM.
  - The efflux of protons from the mitochondrial matrix creates an electrochemical gradient.
    - used by the F_{O}F_{1} ATP synthase complex to make ATP via oxidative phosphorylation.
@@ -63,34 +62,34 @@
            }    
 #+END_SRC
 
-#+RESULTS:
+#+CAPTION[]:Electron Transport Chain
+#+NAME: fig:etc
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./etc/figures/etc.pdf]]
 
-- Complex I (NADH coenzyme Q reductase) accepts electrons from the Krebs cycle electron carrier NADH
+- Complex I (NADH coenzyme Q reductase) accepts electrons from the
+  Krebs cycle electron carrier NADH
 - passes them to CoQ (ubiquinone; labeled Q),
-- CoQ also receives electrons from complex II (succinate dehydrogenase).
-- CoQ passes electrons to complex III (cytochrome bc1 complex; labeled III), which passes them to cytochrome c (cyt c).
-- Cyt c passes electrons to Complex IV (cytochrome c oxidase; labeled IV), which uses the electrons and hydrogen ions to reduce molecular oxygen to water. 
-
-** Oxidative Phosphorylation
+- CoQ also receives electrons from complex II (succinate dehydrogenase)
+- CoQ passes electrons to complex III (cytochrome bc1 complex; labeled
+  III), which passes them to cytochrome c (cyt c).
+- Cyt c passes electrons to Complex IV (cytochrome c oxidase; labeled
+  IV), which uses the electrons and hydrogen ions to reduce molecular
+  oxygen to water.
 
 #+CAPTION[ETC]: Oxidative Phosphorylation, KEGG
 #+NAME: fig:oxpho
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+ATTR_LaTeX: :width 0.7\textwidth
 [[file:./etc/figures/hsa00190.png]]
-
-** Mega- Complex
 
 #+CAPTION[ETC mega complex]:ETC Mega Complex
 #+NAME: fig:mega
-#+ATTR_LaTeX: :width 0.8\textwidth
+#+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./etc/figures/etc_supercomplex.jpg]]
-
-** Redox Potential and Free Energy in ETC
 
 #+CAPTION[redox]:Electron flow to O_2 and release free energy
 #+NAME: fig:redox
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./etc/figures/potential.png]]
 
 * Complex I
@@ -147,14 +146,10 @@
 #+CAPTION[c1]:Complex I
 #+NAME: fig:c1
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./etc/figures/CI.png]]
-
-# https://upload.wikimedia.org/wikipedia/commons/4/42/NADH_Dehydrogenase_Mechanism_%28Fixed%29.png
-
-# https://upload.wikimedia.org/wikipedia/commons/4/42/Complex_I.svg
+#+RESULTS:
+[[file:./etc/figures/c1.pdf]]
 
 ** Complex I Inhibitors
-
 - The best-known inhibitor of complex I is rotenone
   - commonly used as an organic pesticide
 - Rotenone binds to the ubiquinone binding site of complex I
@@ -167,6 +162,8 @@
 ** Complex II | Succinate Dehydrogenase 
 - Four subunits compose Complex II of the mitochondrial respiratory chain
 
+#+CAPTION[]:Complex II Succinate Dehydrogenase
+#+NAME: tab:sd
 | Subunit name | Protein description                                |
 |--------------+----------------------------------------------------|
 | SdhA         | Succinate dehydrogenase flavoprotein subunit       |
@@ -186,21 +183,18 @@
 - transfer across SdhB through iron sulphur clusters to the SdhC/SdhD subunits
   - SdhC/SdhD are anchored in the mitochondrial membrane.
 
-
 #+CAPTION[cII]:Complex II
 #+NAME: fig:cII
 #+ATTR_LaTeX: :width 0.8\textwidth
 [[file:./etc/figures/CII.png]]
 
 ** Complex II Inhibitors
-
 - There are two distinct classes of inhibitors of complex II:
   - those that bind in the succinate pocket and those that bind in the ubiquinone pocket.
 - Ubiquinone type inhibitors include carboxin and thenoyltrifluoroacetone.
 - Succinate-analogue inhibitors include the synthetic compound malonate as well as the TCA cycle intermediates, malate and oxaloacetate.
   - oxaloacetate is one of the most potent inhibitors of Complex II. 
 * Glycerol-3-phosphate shuttle
-** Glycerol-3-phosphate shuttle
 - Oxidation of cytoplasmic NADH by the cytosolic form of the enzyme
   creates glycerol-3-phosphate from dihydroxyacetone phosphate.
 - Glycerol-3-phosphate diffuses into IMM and is oxidised by mitochondrial glycerol-3-phosphate dehydrogenase
@@ -209,12 +203,13 @@
 
 #+CAPTION[g3ps]:Glycerol-3-phosphate shuttle
 #+NAME: fig:g3ps
-#+ATTR_LaTeX: :width 0.8\textwidth
+#+ATTR_LaTeX: :width 0.4\textwidth
 [[file:./etc/figures/GPDH_shuttle.png]]
 
 * Electron Transferring Flavoprotein/ Dehydrogenase
-** Electron Transferring Flavoprotein/ Dehydrogenase
-- ETFs are heterodimeric proteins composed of an alpha and beta subunit (ETFA and ETFB), and contain an FAD cofactor and AMP
+
+- ETFs are heterodimeric proteins composed of an alpha and beta
+  subunit (ETFA and ETFB), and contain an FAD cofactor and AMP
 
 - ETQ-QO links the oxidation of fatty acids and some amino acids to
   oxidative phosphorylation in the mitochondria.
@@ -227,11 +222,13 @@
 \ce{Acyl-CoA + FAD ->[ACAD] FADH2 + ETF ->[ETF-QO] UQ ->[CIII] CytC}
 #+END_EXPORT
 
+- ETF-QO deficiency results in *glutaric acidemia type II* (AKA MADD
+  for multiple acyl-CoA dehydrogenase deficiency)
+  - Discussed in Lysine Catabolism
 * Complex III
 ** Complex III | Coenzyme Q – cytochrome c reductase
-
 - Complex III is a multi-subunit transmembrane protein encoded by both
-  mitochondrial (cytochrome b) and the nuclear genomes (all other
+  mitochondrial (cytochrome B) and the nuclear genomes (all other
   subunits)
 
 - The bc1 complex contains 11 subunits:
@@ -258,7 +255,7 @@
     - The 2Fe/2S center and BL heme each pull an electron off the bound ubiquinol, releasing two hydrogens into the intermembrane space.
     - One electron is transferred to cytochrome c1 from the 2Fe/2S centre, whilst another is transferred from the BL heme to the BH Heme.
     - Cytocrome c1 then transfers its electron to cytochrome c, whilst the nearby semiquinone produced from round 1 picks up a second electron from the BH heme, along with two protons from the matrix.
-    - The second ubiquinol (now oxidised to ubiquinone), along with the newly formed ubiquinol are released.[8]
+    - The second ubiquinol (now oxidised to ubiquinone), along with the newly formed ubiquinol are released.
 
 #+CAPTION[cIII]: Complex III two step reaction 
 #+NAME: fig:cIII
@@ -266,14 +263,12 @@
 [[file:./etc/figures/CIII.png]]
 
 ** Complex III Inhibitors
-
 - There are three distinct groups of Complex III inhibitors:
   - Antimycin A binds to the Q_i site and inhibits the transfer of electrons in Complex III from heme b_H to oxidized Q (Q_i site inhibitor).
   - Myxothiazol and stigmatellin bind to distinct but overlapping pockets within the Q_o site.
     - Myxothiazol binds nearer to cytochrome bL (hence termed a "proximal" inhibitor).
     - Stigmatellin binds farther from heme bL and nearer the Rieske Iron sulfur protein.
     - Both inhibit the transfer of electrons from reduced QH_2 to the Rieske Iron sulfur protein.
-
 * Complex IV
 ** Complex IV | Cytochrome c oxidase
 
@@ -304,13 +299,10 @@
 [[file:./etc/figures/CIV.png]]
 
 ** Complex IV | Inhibitors
-
 - Cyanide, azide, and carbon monoxide all bind to cytochrome c
   oxidase 
-
 - Nitric oxide and hydrogen sulfide, can also inhibit COX by
   binding to regulatory sites on the enzyme
-
 * Complex V
 ** Complex V | ATP synthase 
 
@@ -335,40 +327,6 @@
 - ATP synthase consists of two main subunits, FO and F1, which has a
   rotational motor mechanism allowing for ATP production.
 
-
-Simplified picture of ATP syntase The Fo part through which hydrogen
-ions (H+) stream is located in the membrane. The F1 part which
-synthesises ATP is outside the membrane. When the hydrogen ions flow
-through the membrane via the disc of c subunits in the Fo part, the
-disc is forced to twist around. The gamma subunit in the F1 part is
-attached to the disc and therefore rotates with it. The three alpha
-and three beta subunits in the F1 part cannot rotate, however. They
-are locked in a fixed position by the b subunit. This in turn is
-anchored in the membrane. Thus the gamma subunit rotates inside the
-cylinder formed by the six alpha and beta subunits. Since the gamma
-subunit is asymmetrical it compels the beta subunits to undergo
-structural changes. This leads to the beta subunits binding ATP and
-ADP with differing strengths (see Figure 2).
-
-
-Figure 2. Boyer’s “Binding Change Mechanism” The picture shows the
-cylinder with alternating alpha and beta subunits at four different
-stages of ATP synthesis. The asymmetrical gamma subunit that causes
-changes in the structure of the beta subunits can be seen in the
-centre. The structures are termed open betaO (light grey sector),
-loose betaL (grey sector) and tight betaT (black sector). At stage A
-we see an already-fully-formed ATP molecule bound to betaT. In the
-step to stage B betaL binds ADP and inorganic phosphate (Pi ). At the
-next stage, C, we see how the gamma subunit has twisted due to the
-flow of hydrogen ions (see Figure 1). This brings about changes in the
-structure of the three beta subunits. The tight beta subunit now
-becomes open and the bound ATP molecule is released. The loose beta
-subunit becomes tight and the open becomes loose. In the last stage
-the chemical reaction takes place in which phosphate ions react with
-the ADP molecule to form a new ATP molecule. We are back at the first
-stage.
-
-
 #+NAME: fig:atps
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./etc/figures/atp_synthase.jpg]]
@@ -379,10 +337,7 @@ stage.
 \ce{ADP + Pi + H+_{out} <=> ATP + H2O + H+_{in}}
 #+END_EXPORT
 
-
 ** Complex V Inhibitors
-
-
 - Oligomycin A inhibits ATP synthase by blocking its proton channel
   (Fo subunit), which is necessary for oxidative phosphorylation of
   ADP to ATP (energy production).
@@ -398,65 +353,5 @@ stage.
   levels of lactate accumulating in the blood and urine.
 
 * Metabolic Derangement
-
-** Anaerobic Glycolysis
-- Complex V harnesses the proton gradient created by Complexes I, III, and IV
-  - produces the majority of cellular ATP
-- Insufficient ATP severely affects highly energy dependant tissues
-  - A complete loss of OxPhos is not observed in human disease.
-- In the absence of OxPhos cells survive using ATP from anaerobic glycolysis
-  - 20x less efficient, generates lactate
-  - pyruvate \to alanine if glutamate is available 
-- Lactate, pyruvate and alanine are the typical products of anaerobic glycolysis
-
-
-** Factors Affecting OxPhos System
-
-- ~ 90 subunits
-  - 13 subunits of Complexes I, III, IV and V encoded by mtDNA
-- mitochondrial replication, transcription and translation
-  - require \gt 200 proteins, rRNAs and tRNAs
-- Cofactors: coenzyme Q_{10}, iron-sulfur clusters, heme, copper
-  - require synthesis and/or transport to OxPhos system
-- Cardiolipin required for cristae formation
-- Mitochondrial function
-  - protein import, turnover
-  - fission, fusion
-- Toxic metabolites
-
-- \gt 1500 proteins in the human mitochondrial proteome
-  - other additional factors - lipids, cofactors
-  - up to 10% of human proteome may be involved in mitochondria 
-
-** Types of genetic defects and affected systems
-
-*** Type of Defect
-- OxPhos Subunit
-- Assembly Factor
-- mtDNA replication
-- mtDNA transcription
-- mitochondrial transcription
-- cofactor
-- mitochondrial homeostasis
-- inhibitor
-
-*** Affected Systems
-\scriptsize
-- Neurological disease
-  - \scriptsize Leigh disease
-  - Epilepsy
-  - Leukodystropy
-  - Periperal neuropathy
-- Eye disease
-- Deafness
-- Cardiac disease
-- Pulmonary disease
-- GI disease
-- Pancreas endocrine/exocrine
-- Endocrine
-- Liver disease
-- Kidney
-- Ovarian failure
-- Hematological
-- Myopathy
+- see next section [[Disorders of Oxidative Phosphorylation]]
 

@@ -3,16 +3,13 @@
 #+DATE: \today
 
 * Introduction
-
-** The Tricarboxylic Acid Cycle
-
 - Pathways for oxidation of fatty acids, glucose, amino acids and ketones produce acetyl-CoA
 #+BEGIN_EXPORT LaTeX
 %%\setchemfig{lewis style=red}
 \centering
-\chemfig{\lewis{0.,H}-\lewis{0.2.4.6.,{\color{red}C}}(-[6]\lewis{2.,H})(-[2]\lewis{6.,H})-\lewis{4.,{\color{red}C}}(=[2]O)-[,,,,decorate, decoration=snake]SCoA}
+\chemname{\chemfig{\lewis{0.,H}-\lewis{0.2.4.6.,{\color{red}C}}(-[6]\lewis{2.,H})(-[2]\lewis{6.,H})-\lewis{4.,{\color{red}C}}(=[2]O)-[,,,,decorate, decoration=snake]SCoA}}{acetyl-CoA}
 #+END_EXPORT
-- Part of aerobic respiration - where is the \ce{O2}?
+- Part of aerobic respiration
   - ETC regenerates \ce{NAD+} from NADH
 - Cofactors:
   - niacin (\ce{NAD+})
@@ -22,21 +19,18 @@
   - \ce{Mg^2+}, \ce{Ca^2+}, \ce{Fe+} and phosphate
 
     
-
-#+ATTR_LaTeX: :width .9\textwidth
+#+CAPTION[]:TCA cycle
+#+NAME: fig:tca
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./tca/figures/TCACycle.png]]
 
-\centering
-\tiny
+- TCA net reaction
+
 \ce{AcetylCoA + 3NAD+ + FAD + GDP + Pi + 2H2O -> 2CO2 + CoA + 3NADH + FADH2 + GTP + 2H+}
 
 - release of energy via oxidation of acetly-CoA
 - one molecule of glucose breaks down into two molecules of pyruvate
-- Pyruvate is converted into acetyl-coenzyme A, which is the main
-  input for a series of reactions known as the Krebs cycle
-- Pyruvate is also converted to oxaloacetate by an anaplerotic
-  reaction, which replenishes Krebs cycle intermediates; also, the
-  oxaloacetate is used for gluconeogenesis
+- Pyruvate is converted into acetyl-CoA, which is the main input TCA
 
 ** Disorders of the TCA cycle
 
@@ -44,31 +38,30 @@
 - Succinate Dehydrogenase Deficiency
 - Fumarase Deficiency
 
-#+ATTR_LaTeX: :width \textwidth
+#+CAPTION[]:TCA disorders
+#+NAME: fig:tcadis
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./tca/figures/TCA_disorders.png]]
 
 
 #+CAPTION[]: Model for a functional splitting of the Krebs cycle reactions into complementary mini-cycles.
-#+ATTR_LaTeX: :width 0.7\textwidth
+#+NAME: fig:tcamini
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./tca/figures/gr2.png]]
 
-- Rustin, P., Bourgeron, T., Parfait, B., Chretien, D., Munnich, A., &
-  Rotig, A. (1997). Inborn errors of the Krebs cycle : a group of
-  unusual mitochondrial diseases in human, 185-197.
-
 -uses aspartate-amino acid transferase
-The functioning of the first mini-cycle (A) would allow to convert
-pyruvate up to \alpha-KG, even when the second mini-cycle (B) does not
-function. This could account for the urinary excretion of \alpha-KG in
-patients presenting with defect of \alpha-KG, SDH or fumarase
-activity. Similarly, it could produce reduced equivalents to sustain
-the normal oxygen uptake measured in circulating lymphocytes or
-cultured skin fibroblast from these patients.
+- (A) would allow to convert pyruvate up to \alpha-KG, even when the second mini-cycle (B) does not function.
+- accounts for the urinary excretion of \alpha-KG in patients
+  presenting with defect of \alpha-KG, SDH or fumarase activity.
+- could produce reduced equivalents to sustain the normal oxygen
+  uptake measured in circulating lymphocytes or cultured skin
+  fibroblast from these patients.
 
 * \alpha-ketoglutarate Dehydrogenase Complex Deficiency
-** \alpha-ketoglutarate Dehydrogenase Complex Deficiency
 
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+CAPTION[]:\alpha-ketoglutarate Dehydrogenase Complex Deficiency
+#+NAME: fig:2kg
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./tca/figures/kgdh.png]]
 
 ** \alpha-ketoglutarate Dehydrogenase Complex
@@ -76,7 +69,8 @@ cultured skin fibroblast from these patients.
 
 \ce{\alpha-ketoglutarate + NAD+ + CoA ->[KDHC] Succinyl CoA + CO2 + NADH}
 
-
+#+CAPTION[]:\alpha-ketoglutarate Dehydrogenase Complex
+#+NAME: tab:kd
 | Unit | Name                               | Gene | Cofactor                    |
 |------+------------------------------------+------+-----------------------------|
 | E1   | \alpha-ketoglutarate dehydrogenase | OGDH | thiamine pyrophosphate(TPP) |
@@ -94,11 +88,10 @@ cultured skin fibroblast from these patients.
 - Present as neonate and early childhood
 
 ** Genetics
-- AR inheritence, encoded by nuclear DNA
+- AR inheritance, encoded by nuclear DNA
 - E1 gene mapped to 7p13
 - E2 gene mapped to 14q24.3
 - Molecular basis of KDHC deficiencies is not resolved.
-
 - \alpha-ketoglutarate dehydrogenase deficiency is sometimes a feature of DLD deficiency
 
 ** Diagnostic Tests
@@ -117,14 +110,16 @@ cultured skin fibroblast from these patients.
 
 * Succinate Dehydrogenase Deficiency
 
-** Succinate Dehydrogenase Deficiency
-
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+CAPTION[]:Succinate Dehydrogenase Deficiency
+#+NAME: fig:sdd
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./tca/figures/sdh.png]]
 
 ** Succinate Dehydrogenase | Complex II
 - Four subunits compose Complex II of the mitochondrial respiratory chain
 
+#+CAPTION[]:Succinate Dehydrogenase
+#+NAME: tab:sdd
 | Subunit name | Protein description                                |
 |--------------+----------------------------------------------------|
 | SdhA         | Succinate dehydrogenase flavoprotein subunit       |
@@ -141,8 +136,9 @@ succinate + ubiquinone \to fumarate + ubiquinol
 - transfer across SdhB through iron sulphur clusters to the SdhC/SdhD subunits
   - SdhC/SdhD are anchored in the mitochondrial membrane.
 
-
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+CAPTION[]:Succinate Dehydrogenase Deficiency
+#+NAME: fig:sdd
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./tca/figures/SuccDeh.png]]
 
 ** Clinical Presentation
@@ -164,6 +160,8 @@ succinate + ubiquinone \to fumarate + ubiquinol
 
 - All components of Complex II are encoded by nuclear DNA.
 
+#+CAPTION[]:Succinate Dehydrogenase Genetics
+#+NAME: tab:sdgen
 | Gene | Location |
 |------+----------|
 | SDHA | 5p15.33  |
@@ -183,7 +181,6 @@ succinate + ubiquinone \to fumarate + ubiquinol
   result in characteristic organic aciduria
   - succinic aciduria.
 - Organic acids can show variable amounts of lactate, pyruvate, succinate, fumarate and malate
-
 - Measurement of complex II activity in muscle is the most reliable
   means of diagnosis
   - there is no clear correlation between residual complex II activity
@@ -191,17 +188,17 @@ succinate + ubiquinone \to fumarate + ubiquinol
 
 #+CAPTION[]:Coupled spectrophotometric assay
 #+NAME: fig:
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./tca/figures/gr4.jpg]]
 
 ** Treatment 
-
 - In some cases, treatment with riboflavin may have clinical benefit
 
 * Fumarase Deficiency
-** Fumarase Deficiency
 
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+CAPTION[]:Fumarase Deficiency
+#+NAME: fig:fum
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./tca/figures/fumarase.png]]
 
 ** Fumarase 
@@ -220,28 +217,20 @@ succinate + ubiquinone \to fumarate + ubiquinol
   - poor feeding,
   - failure to thrive
   - hypotonia.
-
 - Fumarase deficiency is suspected in infants with multiple severe
   neurologic abnormalities in the absence of an acute metabolic
   crisis.
-
 - Inactivity of both cytosolic and mitochondrial forms of
   fumarase are potential causes.
-
 ** Genetics
-
 - AR inheritance, encoded by nuclear DNA
 - Single gene and mRNA encode mito and cyto isoforms
-
 ** Diagnostic Tests
-
 - Isolated, increased concentration of fumaric acid on urine organic
   acid analysis is highly suggestive of fumarase deficiency.
   - Succinate, \alpha-KGA can also be elevated
-- Molecular genetic testing for fumarase deficiency is currently available
-
+- Molecular genetic testing for fumarase deficiency
 * Isocitrate Dehydrogenase
-** Isocitrate Dehydrogenase
 - IDH exists in three isoforms:
   - IDH3 catalyzes the third step of the citric acid cycle while converting \ce{NAD+} to NADH in the mitochondria.
 
@@ -253,8 +242,6 @@ succinate + ubiquinone \to fumarate + ubiquinol
 \ce{isocitrate + NADP+ ->[IHD1/2] \alpha-ketoglutarate + CO2 + NADPH + H+}
 
 ** Clinical relevance
-
 - IDH3 deficiency is associated with retinitis pigmentosa
 - IDH1/2 mutations linked to malignant gliomas and acute myeloid leukemia
-
 - Mutations in IDH2 identified in half of patients 

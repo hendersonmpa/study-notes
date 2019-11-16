@@ -36,32 +36,8 @@
 - mitochondrial homeostasis
   - fission and fusion
 - the primary biochemical phenotype is impaired OxPhos
-    
-** Clinical Manifestations
-
-| System          | Manifestation                      |
-|-----------------+------------------------------------|
-| CNS             | *Myoclonus*                        |
-|                 | *Seizures*                         |
-|                 | *Ataxia*                           |
-| Skeletal Muscle | *Myopathy, hypotonia*              |
-|                 | *CPEO*                             |
-|                 | myoglobinuria                      |
-| Marrow          | Sideroblastic anemia/pancytopenia  |
-| Kidney          | Fanconi                            |
-| Endocrine       | *Diabetes*                         |
-|                 | Hypoparathyroidism,                |
-|                 | growth/multiple hormone deficiency |
-| Heart           | Cardiomyopathy                     |
-|                 | Conduction defects                 |
-| GI              | pancreatic failure                 |
-|                 | villous atrophy                    |
-| Ear             | *Sensorineural deafness*           |
-|                 | Aminoglycoside deafness            |
-| Systemic        | *Lactic Acidosis*                  |
 
 * OxPhos Clinical Manifestations
-** Clinical Manifestations
 - Clinical diagnosis is extremely challenging
   - can affect any organ system
   - antenatal (IUGR, birth defects) \to elderly (myopathy)
@@ -74,12 +50,36 @@
    aciduria, ragged red fiber mypopathy.
 4. Pathogenic mutation in a known mitochondrial disease gene.
 
+#+CAPTION[]:OxPhos Clinical Manifestations
+#+NAME: tab:oxpclin
+| System          | Manifestation                      |
+|-----------------+------------------------------------|
+| CNS             | *myoclonus*                        |
+|                 | *seizures*                         |
+|                 | *ataxia*                           |
+| Skeletal muscle | *myopathy, hypotonia*              |
+|                 | *CPEO*                             |
+|                 | myoglobinuria                      |
+| Marrow          | sideroblastic anemia/pancytopenia  |
+| Kidney          | fanconi                            |
+| Endocrine       | *diabetes*                         |
+|                 | hypoparathyroidism,                |
+|                 | growth/multiple hormone deficiency |
+| Heart           | cardiomyopathy                     |
+|                 | conduction defects                 |
+| GI              | pancreatic failure                 |
+|                 | villous atrophy                    |
+| Ear             | *sensorineural deafness*           |
+|                 | aminoglycoside deafness            |
+| Systemic        | *lactic acidosis*                  |
+
+
 ** Common Clinical Manifestations
  - Mitochondrial disease commonly presents with:
    - Myopathy
    - Encephalopathy
    - Leber’s hereditary optic neuropathy
-   - Pearson's Syndrome
+   - Pearson Syndrome
    - Diabetes
 
 ** Myopathies
@@ -111,7 +111,6 @@
   - cardiomyopathy, renal tubulopathy, GI disfunction
   - \gt 75 genes(mt and nuclear)
   - Saguenay-Lac-St-Jean type incidence 1/2000, gene prevelance 1/23
-
 ** Leber’s Hereditary Optic Neuropathy
 - most common cause of blindness in otherwise healthy young men.
 - maternally inherited and manifests in late adolescence or early
@@ -119,7 +118,7 @@
 - 90% of patients are affected by age 40
 
 ** Pearson's Syndrome
-- transfusion dependant sideroblastic anemia/pancytopenia
+- transfusion dependent sideroblastic anemia/pancytopenia
 - exocrine pancreas failure
 - progressive liver disease
 - renal tubular disease
@@ -153,7 +152,7 @@
 ** Biochemistry
 - blood lactate, CSF lactate
 - L/P \uparrow at rest, \Uparrow after excercise
-- renal tubular disfunction: urine anion gap, pH, serum K
+- renal tubular dysfunction: urine anion gap, pH, serum K
 - Plasma amino acids:
   - alanine \propto pyruvate
   - ala/lys normally \lt 3:1
@@ -186,7 +185,7 @@
 
 #+CAPTION[rrf]:Ragged red fibers - Gomori stain
 #+NAME: fig:rrf
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./oxphos_disorders/figures/Ragged_red_fibers_in_MELAS.jpg]]
 
 ** Molecular

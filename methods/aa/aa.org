@@ -21,94 +21,40 @@
 
 - 76 amino acids of biological interest in humans
 
-** COMMENT Indications for Measurement of Amino Acids
-1. Lethargy, coma, seizures or vomiting in a neonate
-2. Hyperammonaemia
-3. Ketosis
-4. Metabolic acidosis or lactic acidaemia
-5. Alkalosis
-6. Metabolic decompensation
-7. Unexplained developmental delay or developmental regression
-8. Polyuria, polydipsia and dehydration
-9. Unexplained liver dysfunction
-10. Unexplained neurological symptoms
-11. Abnormal amino acid results on newborn screening programme
-12. Previous sibling with similar clinical presentation
-13. Clinical presentation specific to an amino acid disorder
-14. Monitoring treatment and diet.
-
-** Indications for Measurement of Amino Acids 
+** Indications for Measurement of Amino Acids
 - Diagnosis of inborn errors of amino acid metabolism and transport
 - Diet monitoring in patients with known IEM
 - Nutritional assessment of patients with non-metabolic conditions [e.g. short bowel syndrome] 
+- Signs and symptoms:
+  1. Lethargy, coma, seizures or vomiting in a neonate
+  2. Hyperammonaemia
+  3. Ketosis
+  4. Metabolic acidosis or lactic acidaemia
+  5. Alkalosis
+  6. Metabolic decompensation
+  7. Unexplained developmental delay or developmental regression
+  8. Polyuria, polydipsia and dehydration
+  9. Unexplained liver dysfunction
+  10. Unexplained neurological symptoms
+  11. Abnormal amino acid results on newborn screening programme
+  12. Previous sibling with similar clinical presentation
+  13. Clinical presentation specific to an amino acid disorder
+  14. Monitoring treatment and diet.
 
-** Quantitative Amino Acid Analysis
-***                                                                 :BMCOL:
-:PROPERTIES:
-:BEAMER_col: 0.5
-:END:
+#+CAPTION[]: Recommended Plasma AA Profile for Diagnosis of Amino Acid Disorders
+#+NAME: tab:paa
+| Alanine               | Glutamine          | Ornithine            |
+| Alloisoleucine        | Glycine            | Phenylalanine        |
+| Arginine              | Histidine          | Proline              |
+| Argininosuccinic acid | Homocysteine[fn:1] | Serine               |
+| Cystine               | Isoleucine         | Sulphocysteine[fn:2] |
+| Citrulline            | Leucine            | Taurine              |
+| Glutamic acid         | Lysine             | Threonine            |
+| Valine                | Methionine         | Tyrosine             |
 
-[[./figures/Moore_Stein.png]]
+- [fn:1]Plasma total homocysteine is not detected by routine methods, plasma free homocystine analysis has poor clinical sensitivity.
+- [fn:2]Sulphocysteine may not be detectable in plasma using routine methods
 
-***                                                                 :BMCOL:
-:PROPERTIES:
-:BEAMER_col: 0.5
-:END:
-
-- Stanford Moore (left) and William Stein (right) about 1965 in front
-  of the original amino acid analyzer.
-- Ion-exchange chromatography with post-column ninhydrin detection
-
-** Metbionet Guidelines for Amino Acid Analysis.
-
-*** Plasma Profile for Diagnosis of Amino Acid Disorders
-
-****                                                               :BMCOL:
-:PROPERTIES:
-:BEAMER_col: 0.3
-:END:
-- Alanine
-- Alloisoleucine
-- Arginine
-- Argininosuccinic acid
-- Cystine
-- Citrulline
-- Glutamic acid
-
-
-****                                                               :BMCOL:
-:PROPERTIES:
-:BEAMER_col: 0.3
-:END:
-- Glutamine
-- Glycine
-- Histidine
-- Homocysteine*
-- Isoleucine
-- Leucine
-- Lysine
-- Methionine
-****                                                               :BMCOL:
-:PROPERTIES:
-:BEAMER_col: 0.3
-:END:
-
-- Ornithine
-- Phenylalanine
-- Proline
-- Serine
-- Sulphocysteine**
-- Taurine
-- Threonine
-- Tyrosine
-- Valine
-
-***                                                       :B_ignoreheading:
-:PROPERTIES:
-:BEAMER_env: ignoreheading
-:END:
-- *Plasma total homocysteine is not detected by routine methods, plasma free homocystine analysis has poor clinical sensitivity.
-- **Sulphocysteine may not be detectable in plasma using routine methods
 ** Plasma
 - Patient prep
   - Fasting (overnight preferred, 4 hours minimum). Infants and children should be
@@ -121,7 +67,6 @@
   - store at -20\degree{}C to limit glutamine decomposition
 
 ** Plasma - Pre-analytical
-
 - Serum should not be used because there may be deamination (asparagine to
   aspartic acid and glutamine to glutamic acid), loss of sulphur
   containing amino acids and release of oligopeptides.
@@ -177,13 +122,16 @@
 - Hydrophillic amino acids require deprotonization with acetonitrile or alcohol
 - Deproteination to release cysteine, homocysteine and tryptophan.
 
-*** ERNDIM Plasma Amino Acids Survey
-
-#+ATTR_LATEX: :height 0.9\textheight
-[[./figures/erndim.png]]
-
 * Amino Acid Analyser
-** Amino Acid Analyser Schematic
+- Cation-exchange chromatography using a lithium buffer system
+  followed by post-column derivatization with ninhydrin
+- Samples are de-proteinized with sulfosalicylic acid prior to
+  injection
+- Utilizes a lithium-based cation-exchange column
+- Eluting amino acids undergo post column reaction with ninhydrin
+- Optical detection in the visible spectrum
+  - amino acids: 570nm
+  - imino acids 440 nm
 
 #+BEGIN_LaTeX
 \begin{center}
@@ -221,39 +169,18 @@
 \end{center}
 #+END_LaTeX
 
-** Amino Acid Analyser
-- Cation-exchange chromatography using a lithium buffer system
-  followed by post-column derivatization with ninhydrin
 
+#+CAPTION[]:???
+#+NAME: fig:abc
+#+ATTR_LaTeX: :width 0.5\textwidth
+[[./aa/figures/212.jpg]]
 
-
-
-***                                                                 :BMCOL:
-:PROPERTIES:
-:BEAMER_col: 0.5
-:END:
-
-- Samples are de-proteinized with sulfosalicylic acid prior to
-  injection
-- Utilizes a lithium-based cation-exchange column
-- Eluting amino acids undergo post column reaction with ninhydrin
-- Optical detection in the visible spectrum
-  - amino acids: 570nm
-  - imino acids 440 nm
-
-***                                                                 :BMCOL:
-:PROPERTIES:
-:BEAMER_col: 0.5
-:END:
-
-[[./figures/212.jpg]]
-
-** Amino Acid Analyser 
-
+#+CAPTION[]:Amino Acids Analyser
+#+NAME: fig:aaa
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[./figures/aaachrom.png]]
 
 ** Pros and Cons of Amino Acid Analysers
-
 *** Pros
 - Standardized and established technology
 - Interpretive experience
@@ -289,8 +216,6 @@
 \end{center}
 #+END_LaTeX
 
-
-
 ** Inlet table                                                     :noexport:
 #+tblname: data-table
 | Time | Flow |   %A |   %B |
@@ -309,7 +234,7 @@
 - 7.5 \micro{}L is injected onto an octadecylsilyl (C18) stationary phase.
 
 
-#+begin_src gnuplot :var data=data-table :file ./figures/outletmethod.png
+#+begin_src gnuplot :var data=data-table :file ./aa/figures/outletmethod.png
 set title "UPLC Gradient"
 set xlabel "min"
 
@@ -325,8 +250,7 @@ plot data u 1:3 w lp lw 2 title 'A', \
 
 #+ATTR_LATEX: :width 0.7\textwidth
 #+RESULTS:
-[[file:./figures/outletmethod.png]]
-
+[[file:./aa/figures/outletmethod.png]]
 
 ** Ion-Pairing Chromatography
 
@@ -339,78 +263,27 @@ plot data u 1:3 w lp lw 2 title 'A', \
 \ce{AA+ + PFHA-  <=> AA+ PFHA-}
 #+END_LaTeX
 
-
 ** LC- MS/MS transitions
 - ESI in positive mode
   - MRM
 
-*** Quantified amino acids
-\scriptsize
-****                                                               :BMCOL:
-:PROPERTIES:
-:BEAMER_col: 0.3
-:END:
-- phosphoserine
-- taurine
-- phosphoethanolamine
-- aspartate
-- hydroxyproline
-- threonine
-- serine
-- asparagine
-- glutamate
-- glutamine
-- sarcosine
-- aminoadipic
-- proline
-- glycine
-
-****                                                               :BMCOL:
-:PROPERTIES:
-:BEAMER_col: 0.3
-:END:
-
-
-- alanine
-- citulline
-- 2-aminobutyric
-- valine
-- cystine
-- saccharopine
-- methionine
-- alloisoleucine
-- cystathionine
-- isoleucine
-- leucine
-- arginosuccinic acid
-- tyrosine
-- \beta{}-alanine
-
-****                                                               :BMCOL:
-:PROPERTIES:
-:BEAMER_col: 0.3
-:END:
-
-
-
-- phenylalanine
-- aminoisobutyric
-- \gamma{}-aminobutryic
-- ethanolamine
-- hydroxylysine
-- ornithine
-- lysine
-- 1-methylhistidine
-- histidine
-- tryptophan
-- 3-methylhistidine
-- anserine
-- carnosine
-- arginine
-- s-sulfocyteine*
-
-
-
+#+CAPTION[]: AA Quantified by LC-MS/MS
+#+NAME: tab:aalcms
+| phosphoserine       | alanine             | phenylalanine         |
+| taurine             | citulline           | aminoisobutyric       |
+| phosphoethanolamine | 2-aminobutyric      | \gamma{}-aminobutryic |
+| aspartate           | valine              | ethanolamine          |
+| hydroxyproline      | cystine             | hydroxylysine         |
+| threonine           | saccharopine        | ornithine             |
+| serine              | methionine          | lysine                |
+| asparagine          | alloisoleucine      | 1-methylhistidine     |
+| glutamate           | cystathionine       | histidine             |
+| glutamine           | isoleucine          | tryptophan            |
+| sarcosine           | leucine             | 3-methylhistidine     |
+| aminoadipic         | arginosuccinic acid | anserine              |
+| proline             | tyrosine            | carnosine             |
+| glycine             | \beta{}-alanine     | arginine              |
+|                     |                     | s-sulfocyteine*       |
 
 ** Pros and Cons of LC-MS/MS
 - As compared to FIA-MS/MS 
@@ -423,8 +296,6 @@ plot data u 1:3 w lp lw 2 title 'A', \
 - Too slow for NBS
 - Manual peak integration
 
-
-** Pros and Cons of LC-MS/MS
 - As compared to AAA 
 *** Pros
 - ~ 30 min shorter analysis time

@@ -97,7 +97,7 @@
 \schemestop 
 #+END_LaTeX
 
-#+begin_src gnuplot :var data=data-table :file ./figures/outletmethod.pdf
+#+begin_src gnuplot :var data=data-table :file ./nbs/figures/outletmethod.pdf
 reset
 set title "FIA-MS/MS Method"
 set key on
@@ -114,7 +114,7 @@ plot data u 1:2 w lp lw 2 t "80% ACN"
 
 #+ATTR_LATEX: :width 0.7\textwidth
 #+RESULTS:
-[[file:./figures/outletmethod.pdf]]    
+[[file:./nbs/figures/outletmethod.pdf]]    
 
 ** AA NL Scan
 - Electrospray ionization in positive mode
@@ -136,7 +136,6 @@ plot data u 1:2 w lp lw 2 t "80% ACN"
 #+END_LaTeX
 
 ** AA MRM
-
 - Citrulline contains a labile amino group that fragments together with butyl formate.
 - CID results in net neutral fragmentation of butyl formate (102 Da) plus \ce{NH3} (17 Da)
 - [[https://en.wikipedia.org/wiki/Selected_reaction_monitoring][SRM]] Citrulline-Bu 232.15 Da \to 113 Da , loss of 119 Da  

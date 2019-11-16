@@ -17,8 +17,8 @@
   - conjugation of acyl-CoA species to glycine
   - catalysed by glycine N-acylase
 
-** Nomenclature
-
+#+CAPTION[]:Organic Acid Nomenclature
+#+NAME: tab:nom
 | Length | Monocarboxylic acid   | Dicarboxylic acid |
 |--------+-----------------------+-------------------|
 | C2     | Acetic                | Oxalic            |
@@ -41,6 +41,8 @@
 \chemfig{X-C(-[2]X)(-[6]X)-C(-[2]X)(-[6]X)-C(-[7]OH)=[1]O}
 #+END_LaTeX
 
+#+CAPTION[]:Organic Acid Functional Groups
+#+NAME: tab:func
 | Functional group | Formula            |
 |------------------+--------------------|
 | hydrogen         | -H                 |
@@ -55,6 +57,8 @@
 \chemfig{X-C(-[2]X)(-[6]X)-C(-[2]X)(-[6]X)-C(-[7]OH)=[1]O}
 #+END_LaTeX
 
+#+CAPTION[]:Organic Acid Side Chains
+#+NAME: tab:side
 | Side chain | Structure                      |
 |------------+--------------------------------|
 | Methyl     | \chemfig{CH_3-}                |
@@ -79,11 +83,9 @@
 - environment
 - medications
 
-** Why are they in urine?
-
 ** Urine organic acids detected in health
 
-  - Tricarboxylica acid cycle acids
+  - Tricarboxylic acid cycle acids
     - citric
   - hydroxyaliphatic acids
     - 3-hydroxybutyric
@@ -92,14 +94,10 @@
   - aliphatic acids
     - oxalic
   - aldonic and deoxyaldonic acids (sugar acids)
-    -  
   - aromatic acids
     - hippuric
-  - 
-    - 
 
 ** Abnormal Urine Organic acids profiles
-
 - Elevated concentration of normal metabolites
   - fumaric acid in fumarase deficiency
   - adipic, suberic, and sebacic acids in MCADD
@@ -116,9 +114,7 @@
   - cresol
   - 2-furaldehyde
 
-
 * Urine Organic Acids by GC-MS
-
 ** Oximation
 - Oximated with 10% hydroxylamine-HCL
   - avoids multiple TMS species due to keto-enol tautomerism
@@ -136,7 +132,6 @@
 \chemname{\chemfig[][scale=.5]{R-[1](=[2]N-[1]OH)-[7]R}}{\tiny ketoxime}
 \schemestop
 #+END_LaTeX
-
 
 ** BSTFA Derivatisation
 - Acidified and extracted twice with ethyl ether 
@@ -162,7 +157,6 @@
 reagent for amino acids bis(trimethylsilyl)trifluoroacetamide
 (BSTFA). Biochemical and Biophysical Research Communications. 1968 May
 23;31(4):616-22.
-
 
 ** Gas Chromatography
 

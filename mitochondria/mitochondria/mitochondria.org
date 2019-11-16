@@ -20,18 +20,6 @@
 - In humans, 615 distinct types of protein have been identified from
   cardiac mitochondria.
 
-#+CAPTION[mito]:Mitochondrion
-#+NAME: fig:mito
-#+ATTR_LaTeX: :width 0.8\textwidth
-
-[[file:./figures/Mitochondrion_mini.png]]
-
-
-#+CAPTION[hela]:HeLa Cells mtGFP 
-#+NAME: fig:hela
-#+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./mitochondria/figures/HeLa_mtGFP.jpg]]
-
 ** Maternal Inheritance
 - Mitochondria and therefore the mtDNA, usually come from the egg
   - the egg cell contains relatively few mitochondria
@@ -40,16 +28,12 @@
   information to the embryo.
   - paternal mitochondria are marked with ubiquitin for destruction
     inside the embryo.
-https://en.wikipedia.org/wiki/Heteroplasmy#/media/File:Mitochondrial_Bottleneck.png
-
-- paternal mitochondria are marked with ubiquitin for destruction
-  inside the embryo.
 - mitochondria are randomly distributed to the daughter cells during
   the division of the cytoplasm.
 
 #+CAPTION[mom]:Maternal Inheritance
 #+NAME: fig:mom
-#+ATTR_LaTeX: :width 0.8\textwidth
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./mitochondria/figures/Mitochondrial_Bottleneck.png]]
 
 ** Heteroplasmy
@@ -65,32 +49,16 @@ https://en.wikipedia.org/wiki/Heteroplasmy#/media/File:Mitochondrial_Bottleneck.
   - hundreds of independent mutations, with each mutation found in
     about 1–2% of all mitochondrial genomes.
 
-
-- Although detrimental scenarios are well-studied, heteroplasmy can
-  also be beneficial. For example, centenarians show a higher than
-  average degree of heteroplasmy.
-
-- Microheteroplasmy is present in most individuals. This refers to
-  hundreds of independent mutations in one organism, with each
-  mutation found in about 1-2% of all mitochondrial genomes.
-
 ** Muller's Ratchet and the Mitochondrial Bottleneck
-
 - Entities undergoing uniparental inheritance and with little to no
   recombination can be subject to "Muller's ratchet"
   - the inexorable accumulation of deleterious mutations until
     functionality is lost.
 
-#+CAPTION[heter]:heteroplasmy
+#+CAPTION[heter]:Heteroplasmy
 #+NAME: fig:heter
-#+ATTR_LaTeX: :width 0.8\textwidth
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./mitochondria/figures/heteroplasmy.png]]
-
-
-- Applies to entities undergoing uniparental inheritance and with little to no
-  recombination
-  - the inexorable accumulation of deleterious mutations until functionality
-    is lost.
 
 - mitochondria avoid this buildup through a developmental process
   known as the mtDNA bottleneck. 
@@ -98,7 +66,7 @@ https://en.wikipedia.org/wiki/Heteroplasmy#/media/File:Mitochondrial_Bottleneck.
 
 #+CAPTION[bottle]:Mitochondrial bottle neck
 #+NAME: fig:bottle
-#+ATTR_LaTeX: :width 0.8\textwidth
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./mitochondria/figures/bottle_neck.jpg]]
 
 ** Fusion
@@ -108,25 +76,15 @@ https://en.wikipedia.org/wiki/Heteroplasmy#/media/File:Mitochondrial_Bottleneck.
     different defects within the same organelle to encode what the
     other lacks.
   - mtDNA damage
-- enables genetic complementation
-
   
-#+CAPTION[fusion]:Mitochondrial fusion
-#+NAME: fig:fusion
-#+ATTR_LaTeX: :width 1\textwidth
-[[file:./mitochondria/figures/nrm1125-f1.jpg]]
-
 ** Replication and Fission
-
 - Mitochondria divide by binary fission, similar to bacterial cell division
-
 - mammalian mitochondria replicate their DNA and divide mainly in response
   to the energy needs of the cell, not in phase with the cell cycle.
   - When the energy needs of a cell are high, mitochondria grow and
     divide.
   - When the energy use is low, mitochondria are destroyed
     or become inactive.
-
 ** Human Mitochondrial DNA
 - a circular DNA molecule ~ 16 kb
 - encodes 37 genes
@@ -138,11 +96,10 @@ https://en.wikipedia.org/wiki/Heteroplasmy#/media/File:Mitochondrial_Bottleneck.
 
 #+CAPTION[mtdna]: Human mitochondrial genome
 #+NAME: fig:mtdna
-#+ATTR_LaTeX: :width 1\textwidth
+#+ATTR_LaTeX: :width .8\textwidth
 [[file:./mitochondria/figures/mitochondrial_genome.png]]
 
 ** Alternative genetic code
-
 - The mitochondria of many eukaryotes, including most plants, use the
   standard code.
 
@@ -162,10 +119,10 @@ https://en.wikipedia.org/wiki/Heteroplasmy#/media/File:Mitochondrial_Bottleneck.
 - About 15% of mitochondrial disease is caused by mutations in the
   mitochondrial DNA that affect mitochondrial function.
 - Other mitochondrial diseases are caused by
-  - mutations  in nuclear DNA
+  - mutations in nuclear DNA
   - acquired mitochondrial conditions (drugs, toxins)
 
-* Biochemical Functions Relevant to IMD   
+* COMMENT Biochemical Functions Relevant to IMD   
 ** Pyruvate and the Tricarboxylic Acid Cycle
 #+CAPTION[tca]:TCA
 #+NAME: fig:tca

@@ -11,33 +11,33 @@
   - Pyruvate Transporter Defect
 - Dihydrolipoamide Dehydrogenase Deficiency
 
-** Tricarboxylic Acid Cycle
-
 #+CAPTION[TCA]:Tricarboxylic Acid Cycle
 #+NAME: fig:tca
 #+ATTR_LaTeX: :width 0.7\textwidth
 [[file:./pyruvate/figures/tca.png]]
-
-** Tricarboxylic Acid Cycle
 
 #+CAPTION[TCA]:Tricarboxylic Acid Cycle Disorders
 #+NAME: fig:tcad
 #+ATTR_LaTeX: :width 0.7\textwidth
 [[file:./pyruvate/figures/pyruvate_disorders.png]]
 
-** Pyruvate Reactions
+*** Pyruvate Reactions
 
-*** Decarboxylation \to acetyl-CoA
+ - pyruvate dehydrogenase complex :: decarboxylation \to acetyl-CoA
+      
  \ce{pyruvate + CoA + NAD+ ->[PDHC] acetyl-CoA + CO2 + NADH + H+}
 
-*** Carboxylation \to oxaloacetate
- \ce{pyruvate + ATP + CO2 ->[PC] oxaloacetate + ADP +Pi}
+ - pyruvate carboxylase :: carboxylation \to oxaloacetate
 
-*** Transamination \to alanine
- \ce{pyruvate + glutamate ->[ALT] alanine + \alpha-ketoglutarate}
+\ce{pyruvate + ATP + CO2 ->[PC] oxaloacetate + ADP +Pi}
 
-*** Reduction \to lactate
- \ce{pyruvate + NADH ->[LDH] lactate + NAD+}
+ - alanine transaminase :: transamination \to alanine
+
+\ce{pyruvate + glutamate ->[ALT] alanine + \alpha-ketoglutarate}
+
+ - lactate dehydrogenase :: reduction \to lactate
+
+\ce{pyruvate + NADH ->[LDH] lactate + NAD+}
 
 * Pyruvate Carboxylase Deficiency
 ** Pyruvate Carboxylase 
@@ -57,14 +57,14 @@
 
 ** Biotin and Bicarbonate
 - PC requires biotin and bicarbonate 
-- Metabolic derangements assocateded with PC are observed in:
+- Metabolic derangements associated with PC are observed in:
   - Biotin deficiency and biotinidase deficiency
 
   - CA-VA deficiency
     - results in dysfunction of all four enzymes to which CA-VA
       provides bicarbonate as substrate in mitochondria
 
-  - Carbamoyl phosphate synthetase 1 
+  - ?Carbamoyl phosphate synthetase 1 deficiency?
   - The three biotin-dependent carboxylases:
     - Propionyl-CoA carboxylase (PCC)
     - 3-methylcrotonyl-CoA carboxylase (3MCC)
@@ -94,10 +94,11 @@
 - Mosaicism has been observed with prolonged survival
 
 ** Diagnostic Tests
-- PC deficiency should be considered in any child presenting with lactic acidosis and neurological abnormalities
+- PC deficiency should be considered in any child presenting with
+  lactic acidosis and neurological abnormalities
   - with hypoglycemia, hyperammonemia, or ketosis
 
-- \uparrow L/P with \downarrow BHB/acetoacetate  in severely affected patients
+- \uparrow L/P with \downarrow BHB/acetoacetate in severely affected patients
   - pathognomonic in neonates
 
 - post-prandial ketosis, hypercitrullinemia, hyperammonemia, low glutamine
@@ -112,8 +113,6 @@
 - Currently, no treatment.
 
 * Phospoenolpyruvate Carboxykinase Deficiency
-** Phospoenolpyruvate Carboxykinase Deficiency
-
 - PEPCK has cytosolic and mitochondria isoforms
 - Cytosolic PEPCK deficiency is secondary to hyperinsulinism
   - insulin represses expression of the cytosolic form
@@ -122,7 +121,7 @@
 * Pyruvate Dehydrogenase Complex Deficiency
 ** Pyruvate Dehydrogenase Complex
 - PDHC decarboxylates pyruvate \to acetyl-CoA
-
+  - thiamine dependant
 - PDHC, KDHC and BCKD have similar structure and mechanism
 - Composed of:
   - E1 \alpha-ketoacid dehydrogenase
@@ -135,24 +134,22 @@
 
 #+CAPTION[pdhe1]: Activation/deactivation of PDHE1
 #+NAME: fig:pdhe1
-#+ATTR_LaTeX: :width 0.6\textwidth
+#+ATTR_LaTeX: :width 0.4\textwidth
 [[file:./pyruvate/figures/pdhe1_phos.png]]
 
 
 #+CAPTION[pdhc]: Pyruvate Dehydrogenase Complex
 #+NAME: fig:pdhc
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./pyruvate/figures/pdhc.png]]
 
 ** Pyruvate Dehydrogenase Complex Deficiency
-
 - PDHC deficiency provokes conversion of pyruvate to lactate and alanine rather than acetly-CoA
-- Metabolism of glucose \to lactate, produces 1/10 ATP compared
+- Metabolism of glucose \to lactate, produces 1/10 ATP compared to
   complete oxidation via TCA and ETC
 - Impairs production of NADH but not oxidation 
 - NADH/\ce{NAD+} is normal, \therefore normal L/P
   - ETC deficiencies \to \uparrow L/P
-
 
 ** Clinical Presentation: PDHE1\alpha
 - Majority of cases involve the X encoded to \alpha-subunit of the dehydrogenase (E1)
@@ -182,7 +179,7 @@
 ** Genetics
 - All components of PDHC are encoded by nuclear genes
 - Autosomal except E1\alpha on Xp22.11
-  - \therefor most PDHC deficiency is X-linked
+  - \therefore most PDHC deficiency is X-linked
 - No null E1\alpha identified except in a mosaic state
   - suggests E1\alpha is essential
 
@@ -194,28 +191,24 @@
 - plasma amino acids
   - alanine
 - L/P ratio is usually normal
-
 - Skin fibroblasts for PDHC
-
   - also lymphocytes, separated from EDTA <2days
-
 - PDHE1\alpha genotype in females is useful
 
 ** Treatment
 - Early adoption of ketogenic diet may have a benefit
-- Thiamine
+- Thiamine responsive forms
 - DCA is a pyruvate analog, inhibits E1 kinase, keeps E1 dephosphorylated (active)
 
 #+CAPTION[pdhe1]: Activation/deactivation of PDHE1
 #+NAME: fig:pdhe1
-#+ATTR_LaTeX: :width 0.6\textwidth
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./pyruvate/figures/pdhe1_phos.png]]
 
 ** Pyruvate Transport Defect
 - MPC1 mutations have been described in 5 patients
 - mediates the proton symport of pyruvate across the IMM.
 - \therefore metabolic derangement similar to PDHC deficiency
-
 - No treatment
 
 * Dihydrolipoamide Dehydrogenase Deficiency
@@ -231,7 +224,6 @@
 ** Genetics and Diagnotic Testing
 - DLD mutations AR
 - 13 unrelated patients revealed 14 unique mutations
-
 - Blood lactate, pyruvate
 - plasma amino acids
 - urinary organic acids

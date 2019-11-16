@@ -1,4 +1,4 @@
-#+TITLE: Laboratory Methods for Quantitative Acylcarnitines in Biological Matrices
++#+TITLE: Laboratory Methods for Quantitative Acylcarnitines in Biological Matrices
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
@@ -77,7 +77,7 @@
 - reconstituted with 200 \micro{}L 80% acetonitrile.
 - 7.5 \micro{}L injection.
 
-#+begin_src gnuplot :var data=data-table :file ./figures/outletmethod.pdf
+#+begin_src gnuplot :var data=data-table :file ./ac/figures/outletmethod.pdf
 reset
 set title "UPLC Method"
 set key on
@@ -94,7 +94,8 @@ plot data u 1:2 w lp lw 2 t "80% ACN"
 
 #+ATTR_LATEX: :width 0.7\textwidth
 #+RESULTS:
-[[file:./figures/outletmethod.pdf]]
+[[file:./ac/figures/outletmethod.pdf]]
+
 ** Fragmentation
 #+BEGIN_LaTeX
 \definesubmol{x}{-[1,.6]-[7,.6]}
@@ -211,6 +212,7 @@ plot data u 1:2 w lp lw 2 t "80% ACN"
 carnitine by the electrospray tandem mass spectrometry screening
 method for blood spots. Journal of Inherited Metabolic Disease, 22(2),
 201–202. 
+
 ** Pros and Cons of Butanol  FIA-MSMS for Aceylcarnitines
 *** Pros
 - Speed
