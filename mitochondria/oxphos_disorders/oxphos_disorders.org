@@ -194,6 +194,6 @@
     - G8344A in tRNA^{Lys} in MERRF.
     - Many other tRNA mutations have been associated with other clinical phenotypes.
   - The primary mutations associated with LHON (G11778A, G3460A,T14484C) are in complex I genes ND4, ND1, and ND6.
-    - G11778A is by far the commonest and is found in over 50% of LHON families in the UK. 
+    - G11778A is most common, found in over 50% of LHON families in the UK. 
 
 

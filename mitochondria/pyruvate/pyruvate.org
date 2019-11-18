@@ -11,12 +11,8 @@
   - Pyruvate Transporter Defect
 - Dihydrolipoamide Dehydrogenase Deficiency
 
-#+CAPTION[TCA]:Tricarboxylic Acid Cycle
-#+NAME: fig:tca
-#+ATTR_LaTeX: :width 0.7\textwidth
-[[file:./pyruvate/figures/tca.png]]
 
-#+CAPTION[TCA]:Tricarboxylic Acid Cycle Disorders
+#+CAPTION[TCA]: Disorders of Pyruvate Metabolism
 #+NAME: fig:tcad
 #+ATTR_LaTeX: :width 0.7\textwidth
 [[file:./pyruvate/figures/pyruvate_disorders.png]]
@@ -198,12 +194,7 @@
 ** Treatment
 - Early adoption of ketogenic diet may have a benefit
 - Thiamine responsive forms
-- DCA is a pyruvate analog, inhibits E1 kinase, keeps E1 dephosphorylated (active)
-
-#+CAPTION[pdhe1]: Activation/deactivation of PDHE1
-#+NAME: fig:pdhe1
-#+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./pyruvate/figures/pdhe1_phos.png]]
+- DCA is a pyruvate analog, inhibits E1 kinase, keeps E1 dephosphorylated (active) (Figure [[fig:pdhe1]])
 
 ** Pyruvate Transport Defect
 - MPC1 mutations have been described in 5 patients

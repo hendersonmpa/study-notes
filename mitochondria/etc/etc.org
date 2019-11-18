@@ -63,7 +63,8 @@
 
 #+CAPTION[]:Electron Transport Chain
 #+NAME: fig:etc
-#+ATTR_LaTeX: :width 0.5\textwidth
+#+ATTR_LaTeX: :width 0.9\textwidth
+#+RESULTS:
 [[file:./etc/figures/etc.pdf]]
 
 - Complex I (NADH coenzyme Q reductase) accepts electrons from the
@@ -76,7 +77,7 @@
   IV), which uses the electrons and hydrogen ions to reduce molecular
   oxygen to water.
 
-#+CAPTION[ETC]: Oxidative Phosphorylation, KEGG
+#+CAPTION[ETC]: Oxidative Phosphorylation
 #+NAME: fig:oxpho
 #+ATTR_LaTeX: :width 0.7\textwidth
 [[file:./etc/figures/hsa00190.png]]
@@ -139,7 +140,7 @@
            }    
 #+END_SRC
 
-#+CAPTION[c1]:Complex I
+#+CAPTION[c1]:Complex I | NADH-ubiquinone oxidoreductase
 #+NAME: fig:c1
 #+ATTR_LaTeX: :width 0.9\textwidth
 #+RESULTS:
@@ -178,9 +179,9 @@
 - transfer across SdhB through iron sulphur clusters to the SdhC/SdhD subunits
   - SdhC/SdhD are anchored in the mitochondrial membrane.
 
-#+CAPTION[cII]:Complex II
+#+CAPTION[cII]:Complex II | Succinate Dehydrogenase 
 #+NAME: fig:cII
-#+ATTR_LaTeX: :width 0.8\textwidth
+#+ATTR_LaTeX: :width 0.4\textwidth
 [[file:./etc/figures/CII.png]]
 
 ** Complex II Inhibitors
@@ -215,9 +216,9 @@
 {\small\ce{Acyl-CoA + FAD ->[ACAD] FADH2 + ETF ->[ETF-QO] UQ ->[CIII] CytC}}
 #+END_EXPORT
 
-- ETF-QO deficiency results in *glutaric acidemia type II* (AKA MADD
+- ETF-QO deficiency results in *Glutaric Acidemia Type II* (AKA MADD
   for multiple acyl-CoA dehydrogenase deficiency)
-  - Discussed in Lysine Catabolism
+  - Discussed more in Lysine Catabolism
 * Complex III
 ** Complex III | Coenzyme Q – cytochrome c reductase
 - Complex III is a multi-subunit transmembrane protein encoded by both
@@ -248,9 +249,9 @@
     - Cytocrome c1 then transfers its electron to cytochrome c, whilst the nearby semiquinone produced from round 1 picks up a second electron from the BH heme, along with two protons from the matrix.
     - The second ubiquinol (now oxidised to ubiquinone), along with the newly formed ubiquinol are released.
 
-#+CAPTION[cIII]: Complex III two step reaction 
+#+CAPTION[cIII]: Complex III | Coenzyme Q – cytochrome c reductase: two step reaction 
 #+NAME: fig:cIII
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+ATTR_LaTeX: :width 0.7\textwidth
 [[file:./etc/figures/CIII.png]]
 
 ** Complex III Inhibitors
@@ -282,9 +283,9 @@
   proton electrochemical potential which the ATP synthase then uses to
   synthesize ATP.
 
-#+CAPTION[cIV]:Complex IV
+#+CAPTION[cIV]:Complex IV | Cytochrome c oxidase
 #+NAME: fig:cIV
-#+ATTR_LaTeX: :width 0.7\textwidth
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./etc/figures/CIV.png]]
 
 ** Complex IV | Inhibitors
@@ -315,6 +316,7 @@
 - ATP synthase consists of two main subunits, FO and F1, which has a
   rotational motor mechanism allowing for ATP production.
 
+#+CAPTION[]: Complex V | ATP synthase 
 #+NAME: fig:atps
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./etc/figures/atp_synthase.jpg]]

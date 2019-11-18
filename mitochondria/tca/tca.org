@@ -18,12 +18,6 @@
   - thiamine
   - \ce{Mg^2+}, \ce{Ca^2+}, \ce{Fe+} and phosphate
 
-    
-#+CAPTION[]:TCA cycle
-#+NAME: fig:tca
-#+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./tca/figures/TCACycle.png]]
-
 - TCA net reaction
 
 \ce{AcetylCoA + 3NAD+ + FAD + GDP + Pi + 2H2O -> 2CO2 + CoA + 3NADH + FADH2 + GTP + 2H+}
@@ -40,7 +34,7 @@
 
 #+CAPTION[]:TCA disorders
 #+NAME: fig:tcadis
-#+ATTR_LaTeX: :width 0.5\textwidth
+#+ATTR_LaTeX: :width 0.7\textwidth
 [[file:./tca/figures/TCA_disorders.png]]
 
 
@@ -58,12 +52,6 @@
   fibroblast from these patients.
 
 * \alpha-ketoglutarate Dehydrogenase Complex Deficiency
-
-#+CAPTION[]:\alpha-ketoglutarate Dehydrogenase Complex Deficiency
-#+NAME: fig:2kg
-#+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./tca/figures/kgdh.png]]
-
 ** \alpha-ketoglutarate Dehydrogenase Complex
 - KDHC is a \alpha-ketoacid dehydrogenase analogous to PDHC and BCKD.
 
@@ -109,12 +97,6 @@
 - None to date
 
 * Succinate Dehydrogenase Deficiency
-
-#+CAPTION[]:Succinate Dehydrogenase Deficiency
-#+NAME: fig:sdd
-#+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./tca/figures/sdh.png]]
-
 ** Succinate Dehydrogenase | Complex II
 - Four subunits compose Complex II of the mitochondrial respiratory chain
 
@@ -193,14 +175,8 @@ succinate + ubiquinone \to fumarate + ubiquinol
 
 ** Treatment 
 - In some cases, treatment with riboflavin may have clinical benefit
-
+  
 * Fumarase Deficiency
-
-#+CAPTION[]:Fumarase Deficiency
-#+NAME: fig:fum
-#+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./tca/figures/fumarase.png]]
-
 ** Fumarase 
 - Fumarase catalyses reversible hydration/dehydration of fumarate to malate
 - Two forms: mitochondrial and cytosolic.
