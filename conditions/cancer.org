@@ -3,8 +3,57 @@
 #+DATE: \today
 
 
-* TODO Tuberous sclerosis
-* TODO Hereditary breast cancer
+* Tuberous sclerosis
+** Clinical Characteristics
+- TSC involves abnormalities of the:
+  - skin :: hypomelanotic macules, confetti skin lesions, facial
+            angiofibromas, shagreen patches, fibrous cephalic plaques,
+            ungual fibromas
+  - brain :: subependymal nodules, cortical dysplasias, and
+             subependymal giant cell astrocytomas [SEGAs], seizures,
+             intellectual disability / developmental delay,
+             psychiatric illness
+  - kidney :: angiomyolipomas, cysts, renal cell carcinomas
+  - heart :: rhabdomyomas, arrhythmias
+  - lungs :: lymphangioleiomyomatosis [LAM], multifocal micronodular
+             pneumonocyte hyperplasia.
+- CNS tumors are the leading cause of morbidity and mortality
+- renal disease is the second leading cause of early death.
+
+** Diagnosis
+- TSC is established in a proband with one of the following:
+  - Two major clinical features
+  - One major clinical feature and two or more minor features
+  - Identification of a heterozygous pathogenic variant in TSC1 or
+    TSC2 by molecular genetic testing
+
+** Genetic Counseling
+- AD
+- Two thirds of affected individuals have TSC as the result of a /de novo/ pathogenic variant.
+- The offspring of an affected individual are at a 50% risk of inheriting the pathogenic variant.
+- If the pathogenic variant has been identified in an affected family
+  member, prenatal testing for pregnancies at increased risk and
+  preimplantation genetic diagnosis are possible.
+
+** Pathophysiology
+- Tuberin (TSC1) and hamartin (TSC2) are key regulators of the
+  AKT/mTOR signaling pathway and to participate in several other
+  signaling pathways including the MAPK, AMPK, b-catenin, calmodulin,
+  CDK, autophagy, and cell cycle pathways
+* Hereditary breast cancer
+** Clinical Characteristics
+- BRCA1- and BRCA2-associated hereditary breast and ovarian cancer
+  syndrome (HBOC) is characterized by an increased risk for female and
+  male:
+  - breast cancer
+  - ovarian cancer (includes fallopian tube and primary peritoneal cancers)
+  - to a lesser extent other cancers: prostate cancer, pancreatic
+    cancer, and melanoma primarily in individuals with a BRCA2
+    pathogenic variant.
+- The exact cancer risks differ slightly depending on whether HBOC is
+  caused by a BRCA1 or BRCA2 pathogenic variant.
+
+
 * TODO Chronic myelogenous leukemia (CML)
 * TODO Familial adenomatous polyposis
 * TODO Hereditary non-polyposis colon cancer (HNPCC)
