@@ -1,0 +1,148 @@
+#+TITLE: Ketones
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+* Introduction
+
+- During fasting, ketone bodies (KB) are an important fuel for many
+  tissues, including cardiac and skeletal muscle.
+- particularly important for the brain, which cannot oxidise fatty acids.
+- The principal KB, acetoacetate and 3-hydroxybutyrate, are
+  maintained in equilibrium by 3-hydroxybutyrate dehydrogenase
+- acetone is formed from acetoacetate non-enzymatically and eliminated in breath.
+- KB are formed in liver mitochondria, predominantly from fatty acids,
+  but also certain amino acids, such as leucine.
+- KB can cross cell membranes (to leave hepat ocytes and enter target
+  cells) by diffusion or facilitated by monocarboxylate transporter 1 (MCT1)
+  - MCT1 transport appears to be important during catabolic stress,
+    when the flux is much greater.
+- For use as fuel KB are converted to acetyl-CoA in the mitochondria of extrahepatic tissues.
+- One ketolytic enzyme, mitochondrial acetoacetyl-CoA thiolase (also
+  knownas β-ketothiolase or T2), is also involved in isoleucine catabolism
+
+#+CAPTION[]:Ketogenesis and Ketolysis
+#+NAME: fig:keto 
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/ketones.png]]
+
+- Disorders of ketone body metabolism present either in the first few
+  days of life or later in childhood, during an infection or some
+  other metabolic stress.
+- the primary aim of treatment is to prevent decompensation.
+- Fasting is avoided and a high glucose intake is maintained at times
+  of metabolic stress, such as infections.
+
+- There are two defects of ketogenesis:
+  1. 3-hydroxy-3-methylglutaryl (HMG)-CoA lyase deficiency
+  2. HMG-CoA synthase deficiency
+- In these, decompensation leads to encephalopathy, with vomiting and
+  a reduced level of consciousness, often accompanied by hepatomegaly.
+- The biochemical features hypoketotic hypoglycaemia, with or without
+  hyperammonaemia – resemble those seen in fatty acid oxidation
+  disorders.
+- organic acids are diagnostic in HMG-CoA lyase deficiency.
+- HMG-CoA synthase deficiency, the organic acids are characteristic
+  during decompensation but normal at other times.
+* Ketogenesis Defects
+** Clinical Presentatio
+*** Mitochondrial 3-Hydroxy-3-Methylglutaryl-CoA (HMG-CoA) Synthase Deficiency
+- presents with hypoglycaemia
+- often accompanied by coma and metabolic acidosis
+- Episodes are precipitated by infections with vomiting or poor
+  feeding in early childhood (5 months to 6 years of age)
+- There is usually hepatomegaly, which subsequently resolves
+- Hyperammonaemia is rare but (surprisingly) ketonuria may be present
+- Most patients recover with intravenous glucose
+
+*** HMG-CoA Lyase Deficiency
+- presents with hypoglycaemia, metabolic acidosis, vomiting and a
+  reduced level of consciousness.
+- 30% patients, the onset is within 5 days of birth, after a short symptom-free period
+- In most others, symptoms are provoked by an infection in the first year.
+- A few patients first present later, occasionally as adults.
+- KB levels are inappropriately low but blood lactate concentrations
+  may be markedly elevated, particularly in neonatal onset cases.
+- Patients often have hyperammonaemia, hepatomegaly and abnormal liver
+  function tests and may develop pancreatitis or cardiomyopathy. 
+- neurological sequelae included:
+  - epilepsy, intellectual handicap, hemiplegia or cerebral visual loss
+  - magnetic resonance imaging (MRI) shows diffuse mild signal changes
+    in the cerebral white matter on T 2 -weighted images with multiple
+    foci of more severe signal abnormality
+- myelination may be impaired because KB are a substrate for the
+  synthesis of myelin cholesterol.
+
+** Metabolic Derangment
+- KB are synthesised in hepatic mitochondria, primarily using
+  acetyl-CoA derived from fatty acid oxidation
+- HMG-CoA synthase catalyses the condensation of acetoacetyl-CoA and
+  acetyl-CoA to form HMG-CoA, which is cleaved by HMG-CoA lyase to
+  release acetyl-CoA and acetoacetate.
+- HMG-CoA can also be derived from leucine.
+- HMG-CoA synthase and HMG-CoA lyase deficiencies both impair
+  ketogenesis but HMG-CoA lyase deficiency also causes the
+  accumulation of intermediates of the leucine catabolic pathway.
+- During fasting, the lack of KB leads to excessive glucose
+  consumption and hypoglycaemia.
+
+** Genetics
+- HMG-CoA synthase (HMGCS2) and HMG-CoA lyase (HMGCL) deficiencies are
+  AR
+
+** Diagnostic Tests
+- Critical sample is important
+- If the plasma free fatty acid concentration is raised with an
+  inappropriately small rise in total KB it implies a defect of
+  ketogenesis or fatty acid oxidation 
+  - (FFA/total KB >2.5)
+
+*** HMG-CoA Synthase Deficiency
+- During decompensation, urine contains saturated, unsaturated and
+  3-hydroxy-dicarboxylic acids, 5-hydroxyhexanoic acid and other
+  metabolites, of which 4-hydroxy-6-methyl-2-pyrone is the most
+  specific.
+- plasma acylcarnitines are normal when patients are well
+  - raised during illness.
+- The diagnosis is confirmed by mutation analysis.
+
+*** HMG-CoA Lyase Deficiency
+- Even when healthy, patients excrete increased quantities of
+  3-hydroxy-3-methylglutaric, 3-hydroxyisovaleric, 3-methyl-glutaconic
+  and 3-methylglutaric acids
+- 3-methyl-crotonylglycine may also be present
+- Blood acylcarnitine analysis shows raised
+  3-hydroxyisovalerylcarnitine (C5OH)
+- diagnosis is confirmed by mutation analysis or measuring HMG-CoA
+  lyase activity in leukocytes or cultured fibroblasts.
+
+** Treatment
+- avoid fasting and maintain a high carbohydrate intake during any
+  metabolic stress, such as infections.
+- An intravenous infusion of glucose is required if drinks containing
+  glucose or glucose polymers are refused or vomited.
+- Intravenous sodium bicarbonate may be needed if there is severe
+  acidosis in HMG-CoA lyase deficiency.
+- A moderate protein restriction is usually recommended in HMG-CoA
+  lyase deficiency because of its role in leucine catabolism
+- HMG-CoA synthase deficiency has a good prognosis
+- HMG-CoA lyase deficiency have more encephalopathy as children adults
+
+* Ketolysis Defects
+
+- Ketone body utilisation is catalysed by:
+  1. succinyl-CoA:3-oxoacid CoA transferase (SCOT)
+  2. mitochondrial acetoacetyl-CoA thiolase (T2)
+- Deficiencies of SCOT, T2 or MCT1 present with episodes of ketoacidosis.
+- This is often accompanied by dehydration and decreased
+  consciousness.
+- Organic acids usually show characteristic abnormalities in T2
+  deficiency
+- no specific findings in SCOT or MCT1 deficiencies
+  - and diagnosis relies on molecular analysis
+
+** Clinical Presentation
+
+** Metabolic Derangment
+** Genetics
+** Diagnostic Tests
+** Treatment
