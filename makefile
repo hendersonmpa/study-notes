@@ -40,7 +40,8 @@ $(OUT_DIR)organelles.pdf: ./organelles/organelles.org ./organelles/fabry/fabry.o
 
 $(OUT_DIR)mitochondrial_disease.pdf: ./mitochondria/mitochondrial_disease.org ./mitochondria/etc/etc.org \
 ./mitochondria/mitochondria/mitochondria.org ./mitochondria/oxphos_disorders/oxphos_disorders.org \
-./mitochondria/pyruvate/pyruvate.org ./mitochondria/tca/tca.org 
+./mitochondria/pyruvate/pyruvate.org ./mitochondria/tca/tca.org ./mitochondria/ketones/ketones.org \
+./mitochondria/creatine/creatine.org
 	emacs -u "$(id -un)" \
 	--batch \
 	--eval '(load user-init-file)' \
