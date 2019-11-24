@@ -187,9 +187,8 @@
 {\small\ce{Acyl-CoA + FAD ->[ACAD] FADH2 + ETF ->[ETF-QO] CoQ ->[CIII] CytC}}
 #+END_EXPORT
 
-- ETF-QO deficiency results in *Glutaric Acidemia Type II* (AKA MADD
-  for multiple acyl-CoA dehydrogenase deficiency)
-  - Discussed more in Lysine Catabolism
+- ETF-QO deficiency results in *Glutaric Acidemia Type II* (AKA MADD)
+  - Discussed more in FAODs
 * Complex III
 ** Complex III | Coenzyme Q – cytochrome c reductase
 - Complex III is a multi-subunit transmembrane protein encoded by both
