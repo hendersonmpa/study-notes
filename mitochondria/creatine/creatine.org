@@ -3,7 +3,6 @@
 #+DATE: \today
 
 * Introduction
-
 - Creatine is synthesized by two enzymatic reactions:
   1) L-arginine:glycine amidinotransferase (AGAT, GATM) catalyses the
      transfer of an amidino group from arginine to glycine, yielding
@@ -17,19 +16,16 @@
   liver, which has high GAMT activity.
 
 - From these organs of synthesis, creatine is transported via the
-  bloodstream to the organs of utilization (mainly muscle and brain)
-  - where both the endogenously synthetized creatine as well as the
-    creatine derived from dietary sources is taken up by a sodium and
-    chloride dependent creatine transporter (CRTR,SLC6A8).
+  bloodstream to the organs of utilization, mainly muscle and brain
+  - taken up by a sodium and chloride dependent creatine transporter
+    (CRTR,SLC6A8).
 
-- The major proportion of brain creatine is taken up from the blood
-  via CRTR expressed at blood-brain barrier.
-
+- Most brain creatine is transported from the blood via CRTR expressed
+  at blood-brain barrier.
 - A minor proportion is synthesized in the brain.
 
 - Part of intracellular creatine is reversibly converted into the
-  high-energy compound creatine-phosphate, by the action of creatine
-  kinase (CK).
+  high-energy compound creatine-phosphate, by creatine kinase (CK).
 
 - Three cytosolic isoforms of CK (brain type BB-CK, muscle type MM-CK
   and the MB-CK heterodimer), and two mitochondrial isoforms exist.
@@ -55,30 +51,16 @@
   - guanidinoacetate methyltransferase (GAMT) deficiency
 - and transport:
   - X-linked creatine transporter CRTR deficiency
-- CDS typically present with global developmental delay/ intellectual
-  disability along with various neurological
-  manifestations.
-- Diagnostic markers include:
-- cerebral creatine deficiency
-- \uparrow guanidinoacetate in GAMT
-- \downarrow guanidinoacetate in AGAT
-- \uparrow urinary creatine/creatinine in CRTR deficiency.
-- Oral supplementation of creatine leads to near complete restoration
-  of cerebral creatine in creatine synthesis defects
-- In GAMT deficiency, reduction of guanidinoacetate is achieved by
-  ornithine supplementation \pm dietary arginine restriction.
-- In CRTR deficiency, creatine, arginine and glycine supplementation
-  does not significantly improve outcome, although partial clinical
-  improvement has been reported in single patients.
-- Normal neurodevelopmental outcome has been reported in early treated
-  patients with creatine synthesis defects.
+- global developmental delay/ intellectual disability along with
+  various neurological manifestations.
+
 - Secondary changes in creatine metabolism have been described in
   disorders affecting arginine and ornithine metabolism including:
   - ornithine aminotransferase (OAT) deficiency
   - urea cycle defects
   - hyperammonemia, hyperornithinemia, homocitrullinuria (HHH) syndrome
-  - \delta(1)-pyrroline-5-carboxylate synthetase deficiency
-  - defects of methylcobalamin synthesis
+  - \Delta(1)-pyrroline-5-carboxylate synthetase deficiency
+  - methylcobalamin synthesis defects
   - mitochondrial disease
 
 ** Clinical Presentation
@@ -101,7 +83,7 @@
 - Guanidinoacetate is neurotoxic \to CNS
   - \downarrow AGAT deficiency
   - \uparrow GAMT deficiency
-  - 
+
 ** Genetics
 - AR, AGAT (GATM) and GAMT (GAMT)
 - X-linked, CRTC (SLC6A8)
@@ -114,8 +96,17 @@
 - CSF guanidinoacetate
   - \uparrow GAMT, 100x normal
 - \uparrow urine creatinine/creatine in CRTR 
-  - 
+
 ** Treatment
+- Normal neurodevelopmental outcome has been reported in early treated
+  patients with creatine synthesis defects.
 - AGAT and GAMT treated wtih creatine monohydrate
+- In GAMT deficiency, reduction of guanidinoacetate is achieved by
+  ornithine supplementation \pm dietary arginine restriction.
 - CRTC no treatment
+- In CRTR deficiency, creatine, arginine and glycine supplementation
+  does not significantly improve outcome, although partial clinical
+  improvement has been reported in single patients.
+
+
 

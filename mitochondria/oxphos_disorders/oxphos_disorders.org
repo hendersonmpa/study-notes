@@ -2,6 +2,12 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
+* Introduction
+- Oxidative phosphorylation is the process in which ATP is formed as a
+  result of the transfer of electrons from NADH or FADH_2 to O_2 by a
+  series of electron carriers (Figure [[fig:oxpho]]).
+- This process, which takes place in mitochondria, is the major source
+  of ATP in aerobic organisms
 * Metabolic Derangement
 ** OxPhos Deficiency and Anaerobic Glycolysis 
 - Insufficient ATP severely affects highly energy dependant tissues
@@ -10,7 +16,7 @@
   - 20x less efficient, generates lactate
   - pyruvate \to alanine if glutamate is available 
 - Lactate, pyruvate and alanine are the typical products of anaerobic glycolysis
-
+  \ce{alanine + \alpha-ketoglutarate <=> pyruvate + glutamate}
 ** Factors Affecting OxPhos System
 - ~ 90 subunits
   - 13 subunits of Complexes I, III, IV and V encoded by mtDNA
@@ -27,16 +33,14 @@
   - other additional factors - lipids, cofactors
   - up to 10% of human proteome may have role in maintaining mitochondrial function
 
-** Types of genetic defects 
-- OxPhos Subunit
-- Assembly Factor
-- mtDNA replication
-- mtDNA transcription
-- cofactor
-- mitochondrial homeostasis
-  - fission and fusion
-- the primary biochemical phenotype is impaired OxPhos
-
+- genetic defects with impaired OxPhos phenotype 
+  - OxPhos Subunit
+  - Assembly Factor
+  - mtDNA replication
+  - mtDNA transcription
+  - cofactor
+  - mitochondrial homeostasis
+    - fission and fusion
 * OxPhos Clinical Manifestations
 - Clinical diagnosis is extremely challenging
   - can affect any organ system
@@ -86,7 +90,7 @@
   - w/wo retinitis pigmentosa
   - most common clinical manifestation
   - muscle biopsy is diagnostic
-- Kearns Sayre syndrome is a subtype of CPEO
+- Kearns-Sayre syndrome is a subtype of CPEO
   - onset \lt 20
   - pigmentary retinopathy
   - cardiac conduction defect
@@ -95,11 +99,11 @@
 
 ** Encephalopathies 
 - encephalopathic features:
-  - dementia/ID, ataxia, seizures, myoclonus, deafness, dystonia.
+  - dementia/ID, ataxia, seizures, myoclonus, deafness, dystonia
 - MELAS: myopathy, encephalopathy, lactic acidosis, stroke-like episodes
   - most common mito encephalopathy
 - MERRF: myoclonic epilepsy w ragged red fibres
-  - ptosis, ataxia, deafness
+  - ptosis (drooping eyelids), ataxia, deafness
 - Leigh Syndrome
   - most frequent presentation of MD in childhood
   - subacute necrotising encephalomyelopathy
@@ -122,6 +126,7 @@
 - progressive liver disease
 - renal tubular disease
 
+* Clinical Presentation Presentation
 ** Neonatal and Infantile Presentation
 - Congenital Lactic Acidosis
 - Leigh Syndrome
@@ -147,7 +152,6 @@
 - SANDO: Sensory Ataxic Neuropathy, dysarthria and opthalmoparesis
 
 * Investigations
-
 ** Biochemistry
 - blood lactate, CSF lactate
 - L/P \uparrow at rest, \Uparrow after excercise
@@ -161,7 +165,7 @@
   - lactate, pyruvate, TCA intermediates
   - 3-methylglutaconic acid in Barth, Sengers, MEGDEL, ATP synthase deficiency
   - ethylmalonic
-  - mma in succinyl-CoA-ligase deficiency
+  - MMA in succinyl-CoA-ligase deficiency
 - Acylcarnitines
   - flavin cofactor metabolism
 - Purine and pyrimidines (plasma or urine)

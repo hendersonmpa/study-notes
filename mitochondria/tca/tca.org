@@ -20,7 +20,9 @@
 
 - TCA net reaction
 
-\ce{AcetylCoA + 3NAD+ + FAD + GDP + Pi + 2H2O -> 2CO2 + CoA + 3NADH + FADH2 + GTP + 2H+}
+#+BEGIN_EXPORT LaTeX
+{\small\ce{AcetylCoA + 3NAD+ + FAD + GDP + Pi + 2H2O -> 2CO2 + CoA + 3NADH + FADH2 + GTP + 2H+}}
+#+END_EXPORT
 
 - release of energy via oxidation of acetly-CoA
 - one molecule of glucose breaks down into two molecules of pyruvate
@@ -43,21 +45,22 @@
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./tca/figures/gr2.png]]
 
--uses aspartate-amino acid transferase
-- (A) would allow to convert pyruvate up to \alpha-KG, even when the second mini-cycle (B) does not function.
-- accounts for the urinary excretion of \alpha-KG in patients
-  presenting with defect of \alpha-KG, SDH or fumarase activity.
-- could produce reduced equivalents to sustain the normal oxygen
-  uptake measured in circulating lymphocytes or cultured skin
-  fibroblast from these patients.
+- To compensate for defects the TCA can split into complementary
+  mini-cycles (Figure [[fig:tcamini]])
+  - uses aspartate-amino acid transferase
+  - (A) would allow to convert pyruvate up to \alpha-KG, even when the second mini-cycle (B) does not function.
+  - accounts for the urinary excretion of \alpha-KG in patients
+    presenting with defect of \alpha-KG, SDH or fumarase activity.
+  - could produce reduced equivalents to sustain the normal oxygen
+    uptake measured in circulating lymphocytes or cultured skin
+    fibroblast from these patients.
 
-* \alpha-ketoglutarate Dehydrogenase Complex Deficiency
-** \alpha-ketoglutarate Dehydrogenase Complex
+* \alpha-Ketoglutarate Dehydrogenase Complex Deficiency
 - KDHC is a \alpha-ketoacid dehydrogenase analogous to PDHC and BCKD.
 
 \ce{\alpha-ketoglutarate + NAD+ + CoA ->[KDHC] Succinyl CoA + CO2 + NADH}
 
-#+CAPTION[]:\alpha-ketoglutarate Dehydrogenase Complex
+#+CAPTION[]:\alpha-Ketoglutarate Dehydrogenase Complex
 #+NAME: tab:kd
 | Unit | Name                               | Gene | Cofactor                    |
 |------+------------------------------------+------+-----------------------------|
@@ -70,7 +73,7 @@
 - E2 subunit dihydrolipyoyl succinyl-transferase is also specific to KDHC
 
 ** Clinical Presentation
-- Similar to PDHC
+- Similar to PDHC (section [[Pyruvate Dehydrogenase Complex Deficiency]])
 - Developmental delay, hypotonia, opisthotonos and ataxia
   - seizures less common
 - Present as neonate and early childhood
@@ -97,10 +100,9 @@
 - None to date
 
 * Succinate Dehydrogenase Deficiency
-** Succinate Dehydrogenase | Complex II
 - Four subunits compose Complex II of the mitochondrial respiratory chain
 
-#+CAPTION[]:Succinate Dehydrogenase
+#+CAPTION[]:Succinate Dehydrogenase | Complex II
 #+NAME: tab:sdd
 | Subunit name | Protein description                                |
 |--------------+----------------------------------------------------|
@@ -112,14 +114,14 @@
 - The SdhA subunit contains an FAD binding site where succinate
   is deprotonated and converted to fumarate.
 
-succinate + ubiquinone \to fumarate + ubiquinol
+\ce{succinate + ubiquinone ->[CII] fumarate + ubiquinol}
 
 - Electrons removed from succinate transfer to SdhA
 - transfer across SdhB through iron sulphur clusters to the SdhC/SdhD subunits
   - SdhC/SdhD are anchored in the mitochondrial membrane.
 
-#+CAPTION[]:Succinate Dehydrogenase Deficiency
-#+NAME: fig:sdd
+#+CAPTION[]:Succinate Dehydrogenase | Complex II
+#+NAME: fig:sdhc
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./tca/figures/SuccDeh.png]]
 
@@ -177,8 +179,10 @@ succinate + ubiquinone \to fumarate + ubiquinol
 - In some cases, treatment with riboflavin may have clinical benefit
   
 * Fumarase Deficiency
-** Fumarase 
-- Fumarase catalyses reversible hydration/dehydration of fumarate to malate
+
+- Fumarase (AKA:fumarate hydratase) catalyses reversible
+  hydration/dehydration of fumarate to malate
+\ce{fumarate + H2O ->[FH] malate
 - Two forms: mitochondrial and cytosolic.
   - The mitochondrial isoenzyme is involved in the TCA Cycle
   - The cytosolic isoenzyme is involved in the metabolism of amino acids and fumarate.

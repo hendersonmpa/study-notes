@@ -10,7 +10,7 @@
 *** Chemiosmotic Coupling Hypothesis
  - the ETC and OxPhos are coupled by a proton gradient across the IMM.
  - The efflux of protons from the mitochondrial matrix creates an electrochemical gradient.
-   - used by the F_{O}F_{1} ATP synthase complex to make ATP via oxidative phosphorylation.
+   - used by the F_{0}F_{1} ATP synthase complex to make ATP via oxidative phosphorylation.
 ** Electron Transport Chain
 - Energy from transfer of electrons down the ETC is used to pump
   protons from the mitochondrial matrix into the intermembrane space.
@@ -40,7 +40,7 @@
            c1 [label="Complex I", fillcolor=steelblue3, style=filled];
            q [label="CoQ", fillcolor=red3, style=filled];    
            c3 [label="Complex III", fillcolor=steelblue3, style=filled];     
-           cytc [label="Cytochrome C", fillcolor=red3, style=filled];     
+           cytc [label="Cytochrome C", fillcolor=red, style=filled];     
            c4 [label="Complex IV", fillcolor=steelblue3, style=filled];     
            h2o [label="H2O", fillcolor=grey, style=filled];     
            c2 [label="Complex II", fillcolor=steelblue3, style=filled];     
@@ -63,29 +63,24 @@
 
 #+CAPTION[]:Electron Transport Chain
 #+NAME: fig:etc
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+ATTR_LaTeX: :width \textwidth
 #+RESULTS:
 [[file:./etc/figures/etc.pdf]]
 
 - Complex I (NADH coenzyme Q reductase) accepts electrons from the
   Krebs cycle electron carrier NADH
-- passes them to CoQ (ubiquinone; labeled Q),
+- passes them to CoQ (ubiquinone)
 - CoQ also receives electrons from complex II (succinate dehydrogenase)
-- CoQ passes electrons to complex III (cytochrome bc1 complex; labeled
-  III), which passes them to cytochrome c (cyt c).
-- Cyt c passes electrons to Complex IV (cytochrome c oxidase; labeled
-  IV), which uses the electrons and hydrogen ions to reduce molecular
-  oxygen to water.
+- CoQ passes electrons to complex III (cytochrome bc1 complex), which
+  passes them to cytochrome c.
+- Cyt c passes electrons to Complex IV (cytochrome c oxidase), which
+  uses the electrons and hydrogen ions to reduce molecular oxygen to
+  water.
 
 #+CAPTION[ETC]: Oxidative Phosphorylation
 #+NAME: fig:oxpho
-#+ATTR_LaTeX: :width 0.7\textwidth
+#+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./etc/figures/hsa00190.png]]
-
-#+CAPTION[ETC mega complex]:ETC Mega Complex
-#+NAME: fig:mega
-#+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./etc/figures/etc_supercomplex.jpg]]
 
 #+CAPTION[redox]:Electron flow to O_2 and release free energy
 #+NAME: fig:redox
@@ -95,7 +90,7 @@
 * Complex I
 ** Complex I | NADH-ubiquinone oxidoreductase
 - catalyzes the transfer of electrons from NADH to coenzyme Q10
-  (CoQ10) and translocates protons across the inner mitochondrial
+  (CoQ) and translocates protons across the inner mitochondrial
   membrane
 
 #+BEGIN_EXPORT LaTeX
@@ -120,13 +115,13 @@
            node [shape=circle];
            nadh [label="NADH", fillcolor=grey, style=filled]
            fmn [label="FMN", fillcolor=forestgreen, style=filled]
-           n3 [label="N3", fillcolor=red3, style=filled]    
-           n1b [label="N1b", fillcolor=red3, style=filled]     
-           n4 [label="N4", fillcolor=red3, style=filled]     
-           n5 [label="N5", fillcolor=red3, style=filled]     
-           n6a [label="N6a", fillcolor=red3, style=filled]     
-           n6b [label="N6b", fillcolor=red3, style=filled]     
-           n2 [label="N2", fillcolor=red3, style=filled]     
+           n3 [label="N3", fillcolor=red, style=filled]    
+           n1b [label="N1b", fillcolor=red, style=filled]     
+           n4 [label="N4", fillcolor=red,style=filled]     
+           n5 [label="N5", fillcolor=red, style=filled]     
+           n6a [label="N6a", fillcolor=red, style=filled]     
+           n6b [label="N6b", fillcolor=red, style=filled]     
+           n2 [label="N2", fillcolor=red, style=filled]     
            q [label="Q", fillcolor=steelblue3, style=filled]     
            nadh-> fmn
            fmn -> n3
@@ -157,32 +152,7 @@
 
 * Complex II
 ** Complex II | Succinate Dehydrogenase 
-- Four subunits compose Complex II of the mitochondrial respiratory chain
-
-#+CAPTION[]:Complex II Succinate Dehydrogenase
-#+NAME: tab:sd
-| Subunit name | Protein description                                |
-|--------------+----------------------------------------------------|
-| SdhA         | Succinate dehydrogenase flavoprotein subunit       |
-| SdhB         | Succinate dehydrogenase iron-sulfur subunit        |
-| SdhC         | Succinate dehydrogenase cytochrome b560 subunit    |
-| SdhD         | Succinate dehydrogenase cytochrome b small subunit |
-
-- The SdhA subunit contains an FAD binding site where succinate
-  is deprotonated and converted to fumarate.
-
-#+BEGIN_EXPORT LaTeX
-{\small\ce{succinate + ubiquinone ->[CII] fumarate + ubiquinol}}
-#+END_EXPORT
-
-- Electrons removed from succinate transfer to SdhA
-- transfer across SdhB through iron sulphur clusters to the SdhC/SdhD subunits
-  - SdhC/SdhD are anchored in the mitochondrial membrane.
-
-#+CAPTION[cII]:Complex II | Succinate Dehydrogenase 
-#+NAME: fig:cII
-#+ATTR_LaTeX: :width 0.4\textwidth
-[[file:./etc/figures/CII.png]]
+- see section [[Succinate Dehydrogenase Deficiency]]
 
 ** Complex II Inhibitors
 - There are two distinct classes of inhibitors of complex II:
@@ -190,6 +160,7 @@
 - Ubiquinone type inhibitors include carboxin and thenoyltrifluoroacetone.
 - Succinate-analogue inhibitors include the synthetic compound malonate as well as the TCA cycle intermediates, malate and oxaloacetate.
   - oxaloacetate is one of the most potent inhibitors of Complex II. 
+
 * Glycerol-3-phosphate shuttle
 - Oxidation of cytoplasmic NADH by the cytosolic form of the enzyme
   creates glycerol-3-phosphate from dihydroxyacetone phosphate.
@@ -199,7 +170,7 @@
 
 #+CAPTION[g3ps]:Glycerol-3-phosphate shuttle
 #+NAME: fig:g3ps
-#+ATTR_LaTeX: :width 0.4\textwidth
+#+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./etc/figures/GPDH_shuttle.png]]
 
 * Electron Transferring Flavoprotein/ Dehydrogenase
@@ -213,7 +184,7 @@
   flavoprotein (ETF) to ubiquinone, reducing it to ubiquinol.
 
 #+BEGIN_EXPORT LaTeX
-{\small\ce{Acyl-CoA + FAD ->[ACAD] FADH2 + ETF ->[ETF-QO] UQ ->[CIII] CytC}}
+{\small\ce{Acyl-CoA + FAD ->[ACAD] FADH2 + ETF ->[ETF-QO] CoQ ->[CIII] CytC}}
 #+END_EXPORT
 
 - ETF-QO deficiency results in *Glutaric Acidemia Type II* (AKA MADD
@@ -305,7 +276,6 @@
 {\small\ce{ADP + P_i + H+_{out} <=> ATP + H2O + H+_{in}}}
 #+END_EXPORT
 
-
 - Formation of ATP from ADP and P_{i} is energetically unfavourable
   - would normally proceed in the reverse direction. 
 
@@ -313,7 +283,7 @@
   to the electrochemical gradient (\Delta\Psi{}M) created by complexes
   I,III and IV
 
-- ATP synthase consists of two main subunits, FO and F1, which has a
+- ATP synthase consists of two main subunits, F_0 and F_1, which has a
   rotational motor mechanism allowing for ATP production.
 
 #+CAPTION[]: Complex V | ATP synthase 
@@ -328,7 +298,7 @@
 
 ** Complex V Inhibitors
 - Oligomycin A inhibits ATP synthase by blocking its proton channel
-  (Fo subunit), which is necessary for oxidative phosphorylation of
+  (F_0 subunit), which is necessary for oxidative phosphorylation of
   ADP to ATP (energy production).
 - The inhibition of ATP synthesis by oligomycin A will significantly
   reduce electron flow through the electron transport chain; however,

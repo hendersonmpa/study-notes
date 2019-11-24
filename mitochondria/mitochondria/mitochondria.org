@@ -3,23 +3,6 @@
 #+DATE: \today
 
 * Background
-** Mitochondria
-- A double-membrane-bound organelle found in most eukaryotic organisms
-  - liver cells can have more than 2000
-  - red blood cells have no mitochondria
-
-- The organelle is composed of an outer membrane, intermembrane
-  space, and inner membrane with cristae and matrix.
-
-- The mitochondrion has its own independent genome that shows
-  substantial similarity to bacterial genomes
-
-- Mitochondrial proteins transcribed from mtDNA vary depending on the
-  tissue and the species.
-
-- In humans, 615 distinct types of protein have been identified from
-  cardiac mitochondria.
-
 ** Maternal Inheritance
 - Mitochondria and therefore the mtDNA, usually come from the egg
   - the egg cell contains relatively few mitochondria
@@ -30,11 +13,6 @@
     inside the embryo.
 - mitochondria are randomly distributed to the daughter cells during
   the division of the cytoplasm.
-
-#+CAPTION[mom]:Maternal Inheritance
-#+NAME: fig:mom
-#+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./mitochondria/figures/Mitochondrial_Bottleneck.png]]
 
 ** Heteroplasmy
 
@@ -47,18 +25,18 @@
 
 - Microheteroplasmy is present in most individuals.
   - hundreds of independent mutations, with each mutation found in
-    about 1–2% of all mitochondrial genomes.
+    about 1-2% of all mitochondrial genomes.
+
+#+CAPTION[heter]:Heteroplasmy
+#+NAME: fig:heter
+#+ATTR_LaTeX: :width 0.5\textwidth
+[[file:./mitochondria/figures/heteroplasmy.png]]
 
 ** Muller's Ratchet and the Mitochondrial Bottleneck
 - Entities undergoing uniparental inheritance and with little to no
   recombination can be subject to "Muller's ratchet"
   - the inexorable accumulation of deleterious mutations until
     functionality is lost.
-
-#+CAPTION[heter]:Heteroplasmy
-#+NAME: fig:heter
-#+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./mitochondria/figures/heteroplasmy.png]]
 
 - mitochondria avoid this buildup through a developmental process
   known as the mtDNA bottleneck. 
@@ -75,7 +53,7 @@
   - fusion of the mitochondria allows two mitochondrial genomes with
     different defects within the same organelle to encode what the
     other lacks.
-  - mtDNA damage
+  - corrects for mtDNA damage
   
 ** Replication and Fission
 - Mitochondria divide by binary fission, similar to bacterial cell division
@@ -90,7 +68,7 @@
 - encodes 37 genes
   - 13 for subunits of respiratory complexes I, III, IV and V
   - 22 for mitochondrial tRNA
-    - 20 standard amino acids, plus extra gene for leu and ser
+    - 20 standard amino acids, plus extra genes for leu and ser
   - 2 for rRNA.
 - One mitochondrion can contain two to ten copies of its DNA.
 
@@ -122,165 +100,4 @@
   - mutations in nuclear DNA
   - acquired mitochondrial conditions (drugs, toxins)
 
-* COMMENT Biochemical Functions Relevant to IMD   
-** Pyruvate and the Tricarboxylic Acid Cycle
-#+CAPTION[tca]:TCA
-#+NAME: fig:tca
 
-#+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./mitochondria/figures/tca.png]]
-
-- oxidation of pyruvate \rightarrow 3 NADH, 1 \ce{FADH2}, and 1 GTP
-
-
-- release of energy via oxidation of acetly-CoA
-- one molecule of glucose breaks down into two molecules of pyruvate
-- Pyruvate is converted into acetyl-coenzyme A, which is the main
-  input for a series of reactions known as the Krebs cycle
-- Pyruvate is also converted to oxaloacetate by an anaplerotic
-  reaction, which replenishes Krebs cycle intermediates; also, the
-  oxaloacetate is used for gluconeogenesis
-
-** Electron Transport Chain
-- Energy obtained through the transfer of electrons down the ETC is used to pump protons from the mitochondrial matrix into the intermembrane space
-  - creates an electrochemical proton gradient (\Delta{}pH) across the IMM.
-    - largely responsible for the mitochondrial membrane potential (\Delta\Psi{}M).
-  - ATP synthase uses flow of \ce{H+} through the enzyme back into the
-    matrix to generate ATP from ADP and Pi.
-
-
-#+BEGIN_SRC dot :file ./mitochondria/figures/etc.pdf :cmdline -Kdot -Tpdf
-  digraph {
-           // graph from left to right
-           rankdir=LR;
-           splines=true;
-           node [shape=box];
-           nadh [label="NADH+H", fillcolor=grey, style=filled]
-           c1 [label="Complex I", fillcolor=steelblue3, style=filled]
-           q [label="CoQ", fillcolor=red3, style=filled]    
-           c3 [label="Complex III", fillcolor=steelblue3, style=filled]     
-           cytc [label="Cytochrome C", fillcolor=red3, style=filled]     
-           c4 [label="Complex IV", fillcolor=steelblue3, style=filled]     
-           h2o [label="H2O", fillcolor=grey, style=filled]     
-           c2 [label="Complex II", fillcolor=forestgreen, style=filled]     
-           s [label="Succinate", fillcolor=grey, style=filled]     
-           nadh -> c1
-           c1 -> q 
-           q -> c3 
-           c3 -> cytc 	 
-           cytc -> c4
-           c4 -> h2o
-           c2 -> q
-           s -> c2
-
-           }    
-#+END_SRC
-
-#+RESULTS:
-[[file:./mitochondria/figures/etc.pdf]]
-
-- Complex I (NADH coenzyme Q reductase) accepts electrons from the Krebs cycle electron carrier NADH
-- passes them to CoQ (ubiquinone; labeled Q),
-- CoQ also receives electrons from complex II (succinate dehydrogenase).
-- CoQ passes electrons to complex III (cytochrome bc1 complex; labeled III), which passes them to cytochrome c (cyt c).
-- Cyt c passes electrons to Complex IV (cytochrome c oxidase; labeled IV), which uses the electrons and hydrogen ions to reduce molecular oxygen to water. 
-
-** ATP synthase
-- formation of ATP from ADP and Pi is energetically unfavorable
-- ATP synthase couples ATP synthesis to an electrochemical gradient (\Delta\Psi{}M).
-
-#+NAME: fig:atps
-#+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./mitochondria/figures/atp_synthase.jpg]]
-
-\centering
-#+BEGIN_EXPORT LaTeX
-\ce{ADP + Pi + H+_{out} <=> ATP + H2O + H+_{in}}
-#+END_EXPORT
-
-
-Simplified picture of ATP syntase The Fo part through which hydrogen
-ions (H+) stream is located in the membrane. The F1 part which
-synthesises ATP is outside the membrane. When the hydrogen ions flow
-through the membrane via the disc of c subunits in the Fo part, the
-disc is forced to twist around. The gamma subunit in the F1 part is
-attached to the disc and therefore rotates with it. The three alpha
-and three beta subunits in the F1 part cannot rotate, however. They
-are locked in a fixed position by the b subunit. This in turn is
-anchored in the membrane. Thus the gamma subunit rotates inside the
-cylinder formed by the six alpha and beta subunits. Since the gamma
-subunit is asymmetrical it compels the beta subunits to undergo
-structural changes. This leads to the beta subunits binding ATP and
-ADP with differing strengths (see Figure 2).
-
-
-Figure 2. Boyer’s “Binding Change Mechanism” The picture shows the
-cylinder with alternating alpha and beta subunits at four different
-stages of ATP synthesis. The asymmetrical gamma subunit that causes
-changes in the structure of the beta subunits can be seen in the
-centre. The structures are termed open betaO (light grey sector),
-loose betaL (grey sector) and tight betaT (black sector). At stage A
-we see an already-fully-formed ATP molecule bound to betaT. In the
-step to stage B betaL binds ADP and inorganic phosphate (Pi ). At the
-next stage, C, we see how the gamma subunit has twisted due to the
-flow of hydrogen ions (see Figure 1). This brings about changes in the
-structure of the three beta subunits. The tight beta subunit now
-becomes open and the bound ATP molecule is released. The loose beta
-subunit becomes tight and the open becomes loose. In the last stage
-the chemical reaction takes place in which phosphate ions react with
-the ADP molecule to form a new ATP molecule. We are back at the first
-stage.
-
-#+CAPTION[rotation]:Boyer's Binding Change Mechanism
-#+NAME: fig:rot
-#+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./mitochondria/figures/pressfig2.gif]]
-
-
-** Ketogenesis 
-- produced mainly in the mitochondria of liver cells,
-- in response \downarrow blood glucose
-
-#+CAPTION[keto]:Ketogenesis
-#+NAME: fig:keto
-#+ATTR_LaTeX: :width 1\textwidth
-[[file:./mitochondria/figures/Ketogenesis.png]]
-
-** Ketolysis
-
-#+BEGIN_SRC dot :exports none :file ./figures/keto.pdf :cmdline -Kdot -Tpdf
-  digraph {
-	   // graph from left to right
-	   rankdir=LR;
-	   splines=true;
-	   node [shape=box];
-	   bhb [label="beta-OH-butyrate", fillcolor=steelblue3, style=filled]
-	   aa [label="Acetoacetate", fillcolor=steelblue3, style=filled]
-	   scoa [label="Succinyl-CoA", fillcolor=grey, style=filled]     
-	   s [label="Succinate", fillcolor=grey, style=filled]     
-	   t [label="Succinyl-CoA transferase", fillcolor=red3, style=filled]     
-	   aacoa [label="Acetylacyl-CoA", fillcolor=steelblue3, style=filled]    
-	   acoa [label="Acetyl-CoA", fillcolor=steelblue3, style=filled]    
-	   bhb -> aa [label = "BHB dehydrogenase"]
-	   scoa -> t  
-	   aa -> t
-	   t -> s 
-	   t -> aacoa 
-	   aacoa -> acoa [label = "Acetyl-CoA thiolase"]
-	   }    
-#+END_SRC
-
-
-[[file:./mitochondria/figures/keto.pdf]]
-
-- ketone bodies are a way to move energy from the liver to other cells.
-- The liver does not have the succinyl-CoA transferase, to metabolize ketone bodies
-- liver produces ketone bodies, but does not use a significant amount of them.
-
-** Other Biochemical Functions Relevant to IMD   
-
-- Mitochondrial Fatty Acid Oxidation
-
-- Urea Cycle
-
-- Heme Biosynthesis

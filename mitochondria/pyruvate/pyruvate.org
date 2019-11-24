@@ -8,8 +8,8 @@
 - Pyruvate Carboxylase Deficiency
 - Phospoenolpyruvate Carboxykinase Deficiency
 - Pyruvate Dehydrogenase Complex Deficiency
-  - Pyruvate Transporter Defect
-- Dihydrolipoamide Dehydrogenase Deficiency
+  - Dihydrolipoamide Dehydrogenase Deficiency (PDHC E3)
+- Pyruvate Transporter Defect
 
 
 #+CAPTION[TCA]: Disorders of Pyruvate Metabolism
@@ -21,50 +21,49 @@
 
  - pyruvate dehydrogenase complex :: decarboxylation \to acetyl-CoA
       
- \ce{pyruvate + CoA + NAD+ ->[PDHC] acetyl-CoA + CO2 + NADH + H+}
+ \ce{pyruvate + CoA + NAD+ <=>[PDHC] acetyl-CoA + CO2 + NADH + H+}
 
  - pyruvate carboxylase :: carboxylation \to oxaloacetate
 
-\ce{pyruvate + ATP + CO2 ->[PC] oxaloacetate + ADP +Pi}
+\ce{pyruvate + ATP + CO2 <=>[PC] oxaloacetate + ADP +Pi}
 
  - alanine transaminase :: transamination \to alanine
 
-\ce{pyruvate + glutamate ->[ALT] alanine + \alpha-ketoglutarate}
+\ce{pyruvate + glutamate <=>[ALT] alanine + \alpha-ketoglutarate}
 
  - lactate dehydrogenase :: reduction \to lactate
 
-\ce{pyruvate + NADH ->[LDH] lactate + NAD+}
+\ce{pyruvate + NADH <=>[LDH] lactate + NAD+}
 
 * Pyruvate Carboxylase Deficiency
-** Pyruvate Carboxylase 
-
 - PC is a biotinylated mitochondrial matrix enzyme.
   - carboxylation of pyruvate to oxaloacetate
 
- \ce{pyruvate + ATP + CO2 ->[PC] oxaloacetate + ADP +Pi}
+  \ce{pyruvate + ATP + CO2 ->[PC] oxaloacetate + ADP +Pi}
 
 - important role in:
   - gluconeogenesis
     - urea cycle indirectly
   - anaplerosis
     - \downarrow 2-ketoglutarate \to \downarrow glutamate
+    - \downarrow TCA intermediates lowers reducing equivalents
+    - redox equilibrium between 3-OH-butyrate and acetoacetate \to acetoacetate
+    - \downarrow 3-OH-butyrate/acetoacetate ratio
   - lipogenesis
     - oxaloacetate + acetyl-CoA \to citrate
-
+- 
 ** Biotin and Bicarbonate
 - PC requires biotin and bicarbonate 
 - Metabolic derangements associated with PC are observed in:
   - Biotin deficiency and biotinidase deficiency
-
-  - CA-VA deficiency
-    - results in dysfunction of all four enzymes to which CA-VA
-      provides bicarbonate as substrate in mitochondria
-
-  - ?Carbamoyl phosphate synthetase 1 deficiency?
   - The three biotin-dependent carboxylases:
     - Propionyl-CoA carboxylase (PCC)
     - 3-methylcrotonyl-CoA carboxylase (3MCC)
     - Pyruvate carboxylase (PC)
+
+  - CA-VA deficiency
+    - results in dysfunction of all four enzymes to which CA-VA
+      provides bicarbonate as substrate in mitochondria
 
 ** Clinical Presentation
 - French phenotype (type B), most severe
@@ -117,7 +116,7 @@
 * Pyruvate Dehydrogenase Complex Deficiency
 ** Pyruvate Dehydrogenase Complex
 - PDHC decarboxylates pyruvate \to acetyl-CoA
-  - thiamine dependant
+  - thiamine dependent
 - PDHC, KDHC and BCKD have similar structure and mechanism
 - Composed of:
   - E1 \alpha-ketoacid dehydrogenase
@@ -128,15 +127,26 @@
 - E1 is the rate limiting step in PDHC
   - regulated by phosphorylation
 
+#+CAPTION[]:Pyruvate Dehydrogenases Complex
+#+NAME: tab:pdhc
+| Unit     | Name                               | Gene  | Cofactor                     |
+|----------+------------------------------------+-------+------------------------------|
+| E1\alpha | pyruvate dehydrogenase             | PDHA1 | thiamine pyrophosphate (TPP) |
+| E1\beta  |                                    | PDHB  |                              |
+| E2       | dihydrolipoyl  S-acetyltransferase | DLAT  | lipoate, coenzyme A          |
+| E3       | dihydrolipoyl dehydrogenase        | DLD   | FAD, NAD+                    |
+
+
+
 #+CAPTION[pdhe1]: Activation/deactivation of PDHE1
 #+NAME: fig:pdhe1
-#+ATTR_LaTeX: :width 0.4\textwidth
+#+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./pyruvate/figures/pdhe1_phos.png]]
 
 
 #+CAPTION[pdhc]: Pyruvate Dehydrogenase Complex
 #+NAME: fig:pdhc
-#+ATTR_LaTeX: :width 0.5\textwidth
+#+ATTR_LaTeX: :width 0.7\textwidth
 [[file:./pyruvate/figures/pdhc.png]]
 
 ** Pyruvate Dehydrogenase Complex Deficiency
@@ -148,7 +158,7 @@
   - ETC deficiencies \to \uparrow L/P
 
 ** Clinical Presentation: PDHE1\alpha
-- Majority of cases involve the X encoded to \alpha-subunit of the dehydrogenase (E1)
+- Majority of cases involve the X encoded \alpha-subunit of the dehydrogenase (E1)
   - PDHE1\alpha deficiency
   - developmental delay, hypotonia, seizures and ataxia
 
@@ -160,7 +170,7 @@
      - present in first 5 years
   3. intermittent ataxia
      - rare
-     - ataxia after carbohydrate rich meals \to Leigh's 
+     - ataxia after carbohydrate rich meals \to Leigh's syndrome 
 
 - Females with PDHE1\alpha, uniform presentation, variable severity
   - dismorphic features
@@ -169,7 +179,7 @@
   - severe neonatal lactic acidosis can be present
 
 ** Clinical Presentation: PDHE1\beta
-- Only a few cases
+- very rare
 - similar to PDHE1\alpha
 
 ** Genetics
