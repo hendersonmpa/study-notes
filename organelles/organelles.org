@@ -43,7 +43,7 @@
 | MLD     | arylsulfatase A          | sulfatide                   | 1:100,000        |
 | GM1     | \beta-gangliosidase      | GM1 ganglioside             | 1:200,000        |
 | Krabbe  | galactocerebrosidase     | galactosylceramide          | 1:250,000        |
-| NPA/B   | acid sphingmyelinase     | sphingomyelin               | 1:250,000        |
+| NPA/B   | acid sphingomyelinase    | sphingomyelin               | 1:250,000        |
 | GM2     | HexA and/or HexB         | GM2 ganglioside             | 1:300,000 (HexA) |
 | Farber  | acid ceramidase          | ceramides                   | 1:1,000,000      |
 

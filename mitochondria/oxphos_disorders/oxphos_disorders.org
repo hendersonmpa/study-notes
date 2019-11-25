@@ -14,9 +14,10 @@
   - A complete loss of OxPhos is not observed in human disease.
 - In the absence of OxPhos cells survive using ATP from anaerobic glycolysis
   - 20x less efficient, generates lactate
-  - pyruvate \to alanine if glutamate is available 
+  - pyruvate \to alanine if glutamate is available:
+  \ce{alanine + \alpha-ketoglutarate <=>[ALT] pyruvate + glutamate}
 - Lactate, pyruvate and alanine are the typical products of anaerobic glycolysis
-  \ce{alanine + \alpha-ketoglutarate <=> pyruvate + glutamate}
+
 ** Factors Affecting OxPhos System
 - ~ 90 subunits
   - 13 subunits of Complexes I, III, IV and V encoded by mtDNA

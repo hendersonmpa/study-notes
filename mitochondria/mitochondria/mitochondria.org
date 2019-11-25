@@ -29,7 +29,7 @@
 
 #+CAPTION[heter]:Heteroplasmy
 #+NAME: fig:heter
-#+ATTR_LaTeX: :width 0.5\textwidth
+#+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./mitochondria/figures/heteroplasmy.png]]
 
 ** Muller's Ratchet and the Mitochondrial Bottleneck
@@ -44,7 +44,7 @@
 
 #+CAPTION[bottle]:Mitochondrial bottle neck
 #+NAME: fig:bottle
-#+ATTR_LaTeX: :width 0.5\textwidth
+#+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./mitochondria/figures/bottle_neck.jpg]]
 
 ** Fusion

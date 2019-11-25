@@ -79,12 +79,12 @@
 
 #+CAPTION[ETC]: Oxidative Phosphorylation
 #+NAME: fig:oxpho
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+ATTR_LaTeX: :width \textwidth
 [[file:./etc/figures/hsa00190.png]]
 
 #+CAPTION[redox]:Electron flow to O_2 and release free energy
 #+NAME: fig:redox
-#+ATTR_LaTeX: :width 0.5\textwidth
+#+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./etc/figures/potential.png]]
 
 * Complex I
@@ -272,7 +272,7 @@
 - The overall reaction catalyzed by ATP synthase is:
 
 #+BEGIN_EXPORT LaTeX
-{\small\ce{ADP + P_i + H+_{out} <=> ATP + H2O + H+_{in}}}
+{\small\ce{ADP + P_i + H+_{out} <=>[CV] ATP + H2O + H+_{in}}}
 #+END_EXPORT
 
 - Formation of ATP from ADP and P_{i} is energetically unfavourable
@@ -289,11 +289,6 @@
 #+NAME: fig:atps
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./etc/figures/atp_synthase.jpg]]
-
-
-#+BEGIN_EXPORT LaTeX
-{\small\ce{ADP + Pi + H+_{out} <=> ATP + H2O + H+_{in}}}
-#+END_EXPORT
 
 ** Complex V Inhibitors
 - Oligomycin A inhibits ATP synthase by blocking its proton channel

@@ -21,7 +21,7 @@
 - TCA net reaction
 
 #+BEGIN_EXPORT LaTeX
-{\small\ce{AcetylCoA + 3NAD+ + FAD + GDP + Pi + 2H2O -> 2CO2 + CoA + 3NADH + FADH2 + GTP + 2H+}}
+{\tiny\ce{Acetyl-CoA + 3NAD+ + FAD + GDP + Pi + 2H2O -> 2CO2 + CoA + 3NADH + FADH2 + GTP + 2H+}}
 #+END_EXPORT
 
 - release of energy via oxidation of acetly-CoA
@@ -36,7 +36,7 @@
 
 #+CAPTION[]:TCA disorders
 #+NAME: fig:tcadis
-#+ATTR_LaTeX: :width 0.7\textwidth
+#+ATTR_LaTeX: :width 0.8\textwidth
 [[file:./tca/figures/TCA_disorders.png]]
 
 
@@ -182,7 +182,7 @@
 
 - Fumarase (AKA:fumarate hydratase) catalyses reversible
   hydration/dehydration of fumarate to malate
-\ce{fumarate + H2O ->[FH] malate
+\ce{fumarate + H2O ->[FH] malate}
 - Two forms: mitochondrial and cytosolic.
   - The mitochondrial isoenzyme is involved in the TCA Cycle
   - The cytosolic isoenzyme is involved in the metabolism of amino acids and fumarate.

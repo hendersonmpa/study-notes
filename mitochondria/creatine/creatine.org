@@ -59,7 +59,7 @@
   - ornithine aminotransferase (OAT) deficiency
   - urea cycle defects
   - hyperammonemia, hyperornithinemia, homocitrullinuria (HHH) syndrome
-  - \Delta(1)-pyrroline-5-carboxylate synthetase deficiency
+  - \Delta1-pyrroline-5-carboxylate synthetase (P5CS) deficiency
   - methylcobalamin synthesis defects
   - mitochondrial disease
 
