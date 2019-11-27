@@ -1,0 +1,12 @@
+#+TITLE: Disorders of Bile Acid Synthesis
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+* Introduction
+
+#+CAPTION[]:Major reactions the synthesis of bile acids from cholesterol
+#+NAME: fig:bile
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/bile_synth.png]]
+
+

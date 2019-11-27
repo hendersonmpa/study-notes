@@ -1,9 +1,9 @@
 SHELL=/bin/bash
 OUT_DIR=./notes/
 
-
 all: $(OUT_DIR)faod.pdf $(OUT_DIR)organic_acids.pdf $(OUT_DIR)organelles.pdf \
 $(OUT_DIR)mitochondrial_disease.pdf $(OUT_DIR)urea_cycle.pdf $(OUT_DIR)carbohydrate.pdf \
+$(OUT_DIR)lipids_bile.pdf \
 $(OUT_DIR)methods.pdf $(OUT_DIR)conditions.pdf $(OUT_DIR)tnt.pdf clean
 
 $(OUT_DIR)faod.pdf: ./faod/faod.org ./faod/fao/fao.org ./faod/faod_routine_testing/faod_routine_testing.org \
@@ -69,6 +69,15 @@ $(OUT_DIR)carbohydrate.pdf: ./carbohydrate/carbohydrate.org ./carbohydrate/carbo
 	./carbohydrate/carbohydrate.org \
 	-f org-latex-export-to-pdf
 	mv -v ./carbohydrate/carbohydrate.pdf $(OUT_DIR)carbohydrate.pdf
+
+$(OUT_DIR)lipids_bile.pdf: ./lipids_bile/lipids_bile.org ./lipids_bile/lipoprotein/lipoprotein.org
+	emacs -u "$(id -un)" \
+	--batch \
+	--eval '(load user-init-file)' \
+	./lipids_bile/lipids_bile.org \
+	-f org-latex-export-to-pdf
+	mv -v ./lipids_bile/lipids_bile.pdf $(OUT_DIR)lipids_bile.pdf
+
 
 $(OUT_DIR)conditions.pdf: ./conditions/conditions.org ./conditions/cancer.org ./conditions/clinical.org ./conditions/complex.org ./conditions/cytogenetics.org ./conditions/metabolics.org \
 ./conditions/molecular.org ./conditions/neurogenetics.org
