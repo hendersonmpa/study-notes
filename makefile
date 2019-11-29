@@ -70,7 +70,8 @@ $(OUT_DIR)carbohydrate.pdf: ./carbohydrate/carbohydrate.org ./carbohydrate/carbo
 	-f org-latex-export-to-pdf
 	mv -v ./carbohydrate/carbohydrate.pdf $(OUT_DIR)carbohydrate.pdf
 
-$(OUT_DIR)lipids_bile.pdf: ./lipids_bile/lipids_bile.org ./lipids_bile/lipoprotein/lipoprotein.org
+$(OUT_DIR)lipids_bile.pdf: ./lipids_bile/lipids_bile.org ./lipids_bile/bile/bile.org \
+./lipids_bile/lipoprotein/lipoprotein.org ./lipids_bile/tg_pl/tg_pl.org
 	emacs -u "$(id -un)" \
 	--batch \
 	--eval '(load user-init-file)' \

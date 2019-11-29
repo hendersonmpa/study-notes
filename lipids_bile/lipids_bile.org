@@ -36,5 +36,5 @@
 * Bile Acid Synthesis 
 #+INCLUDE: "./bile/bile.org" :lines "4-"
 * Triglyceride and Phospholid Metabolism
-
+#+INCLUDE: "./tg_pl/tg_pl.org" :lines "4-"
 

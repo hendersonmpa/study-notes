@@ -23,7 +23,7 @@
 #+CAPTION[]:Isoprenoid/cholesterol synthesis pathway
 #+NAME: fig:chol
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./figures/iso_chol_synth.png]]
+[[file:./iso_chol/figures/iso_chol_synth.png]]
 
 * Mevalonate Kinase Deficiency
 ** Clinical Presentation
@@ -83,7 +83,7 @@
   - reduce 7-dehydrocholesterol C7-C8 double bond \to cholesterol
 
 ** Genetics
-- AR, DHCR7, 1:15000-60000
+- AR, DHCR7, 1:15,000-60,000
 - Most frequency cholesterol biosynthesis defect
 
 ** Diagnostic Tests

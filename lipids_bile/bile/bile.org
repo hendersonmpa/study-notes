@@ -4,9 +4,218 @@
 
 * Introduction
 
+- Bile acids are biological detergents synthesised from cholesterol
+  in the liver by modifications of the sterol nucleus and oxidation of
+  the side chain
+- Synthesis of bile acids can occur by a number of pathways
+  - adults starts with conversion of cholesterol to 7\alpha-hydroxycholesterol
+  - infants other pathways are more important
+  - one starts with the conversion of cholesterol to 27-hydroxycholesterol
+- Two IEMs affect the modifications of cholesterol nucleus in both pathways:
+  1. 3\beta-hydroxy-\Delta^5-C_{27}-steroid dehydrogenase (3\beta-dehydrogenase) deficiency
+  2. \Delta4-3-oxosteroid 5\beta-reductase (5\beta-reductase) deficiency
+- These disorders \to cholestatic liver disease and malabsorption of
+  fat and fat-soluble vitamins
+- Onset of symptoms ~ 1st year of life
+- untreated, the liver disease can progress to cirrhosis and liver failure
+- Treatment with chenodeoxycholic acid and cholic acid
+  - dramatic improvement in liver disease and malabsorption
+
+- Two disorders affecting oxidation of the cholesterol side chain:
+  - sterol 27-hydroxylase deficiency (cerebrotendinous xanthomatosis [CTX])
+  - \alpha-methylacyl-CoA racemase deficiency
+- can present with neonatal cholestatic liver disease
+- commonly present later with neurological disease
+- Chenodeoxycholic acid has been shown to halt or even reverse
+  neurological dysfunction in CTX
+- Theses disorders are part of a growing list of defects that may
+  present with transient neonatal cholestatic jaundice followed by a
+  late onset neurodegenerative disorder
+- likely that the 27-hydroxycholesterol pathway is important in
+  fuelling bile flow in infancy and in the production and metabolism
+  of important oxysterols in the brain later in life
+- Other inborn errors of bile acid synthesis include:
+  - two bile acid amidation defects
+    - cholestatic liver disease and fat-soluble vitamin malabsorption
+    - cholesterol 7\alpha-hydroxylase deficiency (adults with hyperlipidaemia and gallstones)
+- In disorders of peroxisome biogenesis and peroxisomal
+  \beta-oxidation, neurological disease usually predominates
+- A disorder affecting peroxisomal import of CoA esters of DHCA and
+  THCA produces predominantly liver disease
+
 #+CAPTION[]:Major reactions the synthesis of bile acids from cholesterol
 #+NAME: fig:bile
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./figures/bile_synth.png]]
+[[file:./bile/figures/bile_synth.png]]
 
+- Most of the known enzyme deficiencies of bile acid synthesis affect
+  both the 27-hydroxycholesterol and the 7\alpha-hydroxycholesterol pathways
+  - exceptions are cholesterol 7\alpha-hydroxylase deficiency and
+    oxysterol 7\alpha-hydroxylase deficiency
+- Because of the broad specificity of many of the enzymes, the major
+  metabolites are often not those immediately proximal to the block
+- in 3\beta-hydroxy \Delta^5-C_{27}-steroid dehydrogenase deficiency
+  - major metabolite is not 7\alpha-hydroxycholesterol
+  - \to unsaturated bile acids with normal bile acid side chain but
+    persistence of the 3\beta, 7\alpha-dihydroxy-\Delta^5 structure of
+    the nucleus
+
+* 3\beta-dehydrogenase deficiency
+** Clinical presentation
+- present with
+  - neonatal conjugated hyperbilirubinaemia
+  - rickets
+  - hepatomegaly
+  - pruritus
+  - steatorrhoea
+  - failure to thrive
+  - fat-soluble vitamin malabsorption
+    - \downarrow 25-OH vitamin D, K and E
+    - prolonged prothrombin time
+
+- untreated \to death from complications of cirrhosis before the age
+  of 5 years
+- patients with milder forms of the disorder may survive, with a
+  chronic hepatitis or even remain asymptomatic, into their second
+  decade or beyond.
+
+
+
+** Metabolic Derangement
+- 3\beta-dehydrogenase catalyses the second reaction in the major
+  pathway of synthesis of bile acids:
+- 7\alpha-hydroxycholesterol \to 7\alpha-hydroxycholest-4-en-3-one
+
+- accumulating 7\alpha-hydroxycholesterol can undergo side-chain
+  oxidation with or without 12\alpha-hydroxylation to produce
+  - 3\beta,7\alpha-dihydroxy-5-cholenoic acid
+  - 3\beta,7\alpha,12\alpha-trihydroxy-5-cholenoic acid
+- These unsaturated C_{24} bile acids are sulphated in the C3 position;
+  - a proportion is conjugated to glycine
+  - can be found in high concentrations in the urine
+- probable that the sulphated \Delta^5 bile acids cannot be secreted
+  into the bile canaliculi and fuel bile flow in the same way as
+  occurs with the normal bile acids
+  - they probably inhibit bile acid-dependent bile flow
+- two possible ways this \to hepatocyte damage:
+  - abnormal toxic metabolites 
+  - failure of bile acid-dependent bile flow
+
+** Genetics
+- AR, HSD3B7
+
+** Diagnostic Tests
+- characteristic plasma or urine bile acids with a
+  - \Delta^5 double bond
+  - 3\beta-hydroxyl/sulphate group
+  - 7\alpha-hydroxyl group
+- bile acids with a \Delta^5 double bond and a 7-hydroxy group are acid labile.
+- FAB-MS or ESI-MS/MS analysis overcomes this problem
+
+*** Plasma
+- profile of non-sulphated bile acids by FAB-MS,ESI-MS/MS,(GC-MS w/o solvolysis): 
+  - \Downarrow cholic and chenodeoxycholic acid for an infant with cholestasis
+  - \uparrow 3\beta,7\alpha-dihydroxy-5-cholestenoic acid
+- FAB-MS,ESI-MS/MS,(GC-MS w solvolysis):
+  - \uparrow 3\beta,7\alpha-dihydroxy-5-cholenoic acid (3-sulphate)
+  - 3\beta,7\alpha,12\alpha-trihydroxy-5-cholenoic acid (3-sulphate)
+
+*** Urine
+- negative ion FAB-MS or ESI-MS shows the characteristic ions of the
+  diagnostic
+  - unsaturated bile acids
+  - sulphated \Delta^5 bile acids
+  - glycine conjugates of sulphated \Delta^5 bile acids
+
+*** Fibroblasts
+- \downarrow 3\beta-Dehydrogenase activity cultured skin fibroblasts using
+  tritiated 7\alpha-hydroxycholesterol
+
+
+** Treatment and Prognosis
+- Emergency treatment of coagulopathy with parenteral vitamin K may be required
+- long term bile acid replacement therapy corrects all the fat-soluble
+  vitamin deficiencies
+
+- cholic and chenodeoxycholic acid therapy \to improvement in symptoms
+
+* 5\beta-reductase deficiency
+- excrete 3-oxo-\Delta^4 bile acids as the major urinary bile acids
+  - \uparrow 7\alpha-hydroxy-3-oxo-4-cholenoic acid glycine conjugate
+  - \uparrow 7\alpha,12\alpha-dihydroxy-4-cholenoic acid glycine conjugate
+- 8 patients
+- treat w chenodeoxycholic acid plus cholic acid
+* Cerebrotendinous xanthomatosis 
+** Clinical Presentation
+- average age of diagnosis is 35 years w a diagnostic delay of 16 years
+- described as a paediatric disease diagnosed in adulthood
+- signs and symptoms includ:
+  - adult-onset progressive neurological dysfunction
+  - non-neurologic manifestations
+    - tendon xanthomas
+    - premature atherosclerosis
+    - osteoporosis
+    - respiratory insufficiency
+
+** Metabolic Derangement
+- sterol 27-hydroxylase deficiency
+- mitochondrial catalyses first step inside-chain oxidation.
+  - required to convert a C27 sterol into a C24 bile acid
+- 5\beta-cholestane-3\alpha,7\alpha,12\alpha-triol cannot be hydroxylated in the C_{27}
+  position and accumulates in the liver
+  - products of secondary reactions also accumulate
+  - converted to cholestanol
+- reduced rate of bile-acid synthesis
+  - \therefore the normal feedback inhibition of cholesterol
+    7\alpha-hydroxylase by bile acids is disrupted
+- symptoms partly due to accumulation of cholestanol and cholesterol
+- lack of 3\beta,7\alpha-dihydroxy-5-cholestenoic acid may contribute to motor
+  neuron damage
+
+** Genetics
+- AR, CYP27A1
+
+** Diagnostic Tests
+- molecular
+*** Plasma
+- \uparrow cholestanol by GC or HPLC
+- \uparrow cholestanol/cholesterol ratio
+- \downarrow 7-hydroxycholesterol
+*** Urine
+- major cholanoids are cholestanepentol glucuronides by FAB-MS or ESI-MS/MS
+
+** Treatment and Prognosis
+- Chenodeoxycholic acid
+* \alpha-methylacyl-CoA racemase deficiency
+
+** Clinical Presentation
+- neurological problems start from childhood to late adult life and
+  include:
+  - mental delay, cognitive decline 
+  - acute encephalopathy
+  - tremor, ataxia
+  - pigmentary retinopathy
+  - hemiparesis, spastic paraparesis, peripheral neuropathy
+  - depression, headache
+
+** Metabolic Derangement
+- side-chain oxidation of cholesterol produces:
+  - 25R isomer of 3\alpha,7\alpha,12\alpha-trihydroxycholestanoyl-CoA [(25R)-THC-CoA]
+- \alpha-oxidation of dietary phytanic acid produces (some):
+  - (2R)-pristanoyl-CoA
+- these need to be converted to the S-isomers by AMACR before they can
+  undergo peroxisomal \beta-oxidation 
+
+** Genetics
+- AR, AMACR
+
+** Diagnostic Tests
+- \uparrow plasma DHCA and THCA by GC-MS
+- \uparrow pristanic acid
+- \uparrow/n plasma phytanic acid
+- normal VLFCA
+
+** Treatment and Prognosis
+- cholic acid
+- phytanic acid
 
