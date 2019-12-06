@@ -329,3 +329,15 @@ method for blood spots. Journal of Inherited Metabolic Disease, 22(2),
 - All deuterated internal standards correspond to enzymatically generated products.
 * Biotinidase
 * GALT
+** Spotcheck Method
+
+ #+BEGIN_EXPORT LaTeX
+ \ce{Gal-1-P + UDP-Glu ->[GALT] Glu-1-P + UDP-Gal}
+
+ \ce{Glu-1-P ->[PGluM] Glu-6-P}
+
+ \ce{Glu-6-P + NADP ->[G6PD] 6-PG + NADPH}
+
+ \ce{NADPH + MTT ->[methoxy PMS] Coloured Formazan + NADP}
+
+ #+END_EXPORT

@@ -3,6 +3,25 @@
 #+DATE: \today
 
 * Introduction
+
+- lactose is the principal carbohydrate in milk
+- dairy products are largest exogenous source of galactose
+- endogenous galactose production is also significant
+- lactose is hydrolysed by lactase \to galactose and glucose
+- galactose is then absorbed using a sodium/glucose-galactose cotransporter (SGLT1)
+- liver is the major organ responsible for galactose metabolism
+ - galactose functions:
+   - energy source in pre-weaning infants
+   - glycosylation
+   - glycolipid synthesis
+
+- UDPgal is used for synthesis of glycoconjugates, including
+  glycoproteins, glycolipids and glycosaminoglycans, and their
+  subsequent degradation
+- All four substrates of GALE: UDPgal, UDPglc, UDPgalNAc, and
+  UDPglcNAc, are used for glycoconjugate synthesis
+
+
 #+CAPTION[]:Major reactions of galactose metabolism
 #+NAME: fig:galrxm
 #+ATTR_LaTeX: :width 0.9\textwidth
@@ -14,35 +33,39 @@
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./galactose/figures/hepcarb.png]]
 
-* Classical Galactosemia
- - Caused by deficient activity of galactose-1-phosphate uridylyltransferase
- - ubiquitous enzyme
- - prevalence is 1:16,000-60,000 live births
- - autosomal recessive
-   - 336 mutations is the GALT gene described 
-
- - presents in the neonatal period
-   - potentially lethal
-
- - Therapy is life long dietary galactose restriction
-   - does not prevent long-term complications
-
-** Galactose
- - Primary source is dietary lactose
- - Functions
-   - energy source in pre-weaning infants
-   - glycosylation
-   - glycolipid synthesis
-
-
  #+CAPTION[lactose]:Lactose is a disaccharide derived from the condensation of galactose and glucose, which form a \beta 1 \to 4 glycosidic linkage.
  #+NAME: fig:lactose
  #+ATTR_LaTeX: :width 0.4\textwidth
  [[file:./galactose/figures/Beta-D-Lactose.png]]
 
-** GALT gene
- - 9p13, 11 exons, ~4 kb 
- - housekeeping
+- Three inborn errors of galactose metabolism are known:
+  1) classic galactosemia - GALT deficiency
+  2) GALE deficiency
+  3) GALK deficiency
+
+* Classical Galactosemia
+** Clinical Presentation
+ - presents in the neonatal period
+   - potentially lethal
+ - asymptomatic at birth
+ - with feeding:
+   - poor weight gain, vomiting, diarrhea
+   - hepatocellular damage, lethargy, and hypotonia
+ - May progress to Gram negative sepsis, cataracts
+
+** Metabolic Derangement
+ - Caused by deficient activity of galactose-1-phosphate uridylyltransferase
+ - ubiquitous enzyme
+ - \uparrow  Galatactose
+ - \uparrow Gal-1-p - pathogenic
+ - \uparrow  galactitol \to cataracts
+ - \uparrow galactonate
+ - \downarrow UPD-Gal \to disordered glycosylation, glycolipids
+ - \downarrow UPD-Glc
+
+** Genetics
+ - AR, GALT, 1:16,000-60,000 live births
+   - 336 mutations is the GALT gene described 
  - c.563A>G, p.Q188R
    - ~64% of galactosemic alleles in caucasian pop
    - Irish Travellers 1:430
@@ -51,74 +74,43 @@
  - c.855G>T, p.K285N
    - slavic origin?
    - no residual RBC GALT activity
+*** Duarte and Los Angles variants
+  - Duarte (p.N314D) - 50% RBC GALT enzyme activity
+  - LA (p.N314D) - elevated RBC GALT enzyme activity
+  - Same electrophoretic pattern
+  - D is in linkage disequilibrium w a 4bp promoter deletion 
+  - p.D314 is the ancestral allele 
+  - p.N314 arose early in human evolution
 
-** Duarte and Los Angles variants
- - Duarte (p.N314D) - 50% RBC GALT enzyme activity
- - LA (p.N314D) - elevated RBC GALT enzyme activity
- - Same electrophoretic pattern
- - D is in linkage disequilibrium w a 4bp promoter deletion 
- - p.D314 is the ancestral allele 
- - p.N314 arose early in human evolution
 
-
-** Biochemical Features
- - \uparrow  Galatactose
- - \uparrow Gal-1-p - pathogenic
- - \uparrow  galactitol - cataracts
- - \uparrow galactonate
- - \downarrow UPD-Gal - disordered glycosylation, glycolipids
- - \downarrow UPD-Glc
-
-** Acute Presentation 
- - asymptomatic at birth
- - with feeding:
-   - poor weight gain, vomiting, diarrhea
-   - hepatocellular damage, lethargy, and hypotonia
- - May progress to Gram negative sepsis, cataracts
-
-** NBS
- - not universal
-   - must be identified early
-   - \lt 5 days is ideal
-
-** Spotcheck Method
-
- #+BEGIN_EXPORT LaTeX
- \ce{Gal-1-P + UDP-Glu ->[GALT] Glu-1-P + UDP-Gal}
-
- \ce{Glu-1-P ->[PGluM] Glu-6-P}
-
- \ce{Glu-6-P + NADP ->[G6PD] 6-PG + NADPH}
-
- \ce{NADPH + MTT ->[methoxy PMS] Coloured Formazan + NADP}
-
- #+END_EXPORT
-
-** Diagnosis
+** Diagnostic Tests
  - reducing substances in urine - not specific or sensitive
  - Gal-1-P, galactose, galactitol in blood or urine
  - RBC Gal-1-P - not specific
  - RBC GALT activity
    - Classic galactosemia - undetectable or 1% of controls
+ - NBS not universal
+   - must be identified early
+   - \lt 5 days is ideal
 
-** Therapy and Outcome
+** Treatment and Prognosis
+ - Therapy is life long dietary galactose restriction
+   - does not prevent long-term complications
 
-*** Therapy
- - life long dietary restriction of galactose.
-
-*** Outcome
  - Endogenous galactose synthesis may be responsible for:
    - Cognitive impairment
    - Ovarian insufficiency
  - Dairy restrictions
    - Bone health 
+
 * Uridine Diphosphate Galactose 4’-Epimerase (GALE) Deficiency
 ** Clinical Presentation
-- GALE deficiency ranges from an apparently benign condition
-  associated with GALE deficiency restricted to circulating red and
-  white blood cells to a severe generalized disorder resulting from
-  widespread GALE impairment that presents with life-threatening
-  illness in the newborn period
+- GALE deficiency ranges from benign \to severe:
+  - benign :: GALE deficiency restricted to circulating red and white blood cells
+  - severe :: generalized disorder resulting from widespread GALE
+              impairment that presents with life-threatening illness
+              in the newborn period
+
 - unlike GALT deficiency, even the most severely affected patients
   with GALE deficiency exhibit some residual GALE activity, at least
   in some tissues.
@@ -137,8 +129,8 @@
 
 ** Diagnostic Tests
 - may be detected by NBS with \uparrow total galactose or Gal-1P and normal GALT activity
-- confirmed by quantitative assay of GALE in freshly erythrocytes or other cells.
-- transformed lymphoblasts,
+- GALE activity in fresh erythrocytes or other cells
+- GALE activity in transformed lymphoblasts
 - red cell Gal-1P or urinary galactitol measured while on and off dietary galactose
 - molecular
 

@@ -3,7 +3,6 @@
 #+DATE: \today
 
 * Introduction
-** Carbohydrate Digestion
 #+CAPTION[]:Carbohydrate Digestions
 #+NAME: fig:chod
 #+ATTR_LaTeX: :width 0.4\textwidth
@@ -11,7 +10,7 @@
 
 #+CAPTION[]:Major Pathways of Glucose Metabolism
 #+NAME: fig:glucpath
-#+ATTR_LaTeX: :width 0.4\textwidth
+#+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./carbohydrate_metabolism/figures/glucose_pathways.pdf]]
 
 #+CAPTION[]:Conversion of Glucose
@@ -40,7 +39,6 @@
 #+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./carbohydrate_metabolism/figures/regulation.pdf]]
 
-** Insulin and Counterregulatory Hormones
 
 #+CAPTION[Insuline and Counterregulatory]:Insulin and Counterregulatory Hormones
 #+NAME: tab:inreg
@@ -63,22 +61,12 @@
 |             |                             | glycogen synthesis           |
 |             |                             | \uparrow FA release          |
 
-#+CAPTION[]: Carbohydrate rich meal
-#+NAME: fig:carbmeal
-#+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./carbohydrate_metabolism/figures/meal.pdf]]
-
 #+CAPTION[]: Low Blood Glucose
 #+NAME: fig:lowgluc
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./carbohydrate_metabolism/figures/counter_hormones.pdf]]
 
 * Transport
-#+CAPTION[]:Digestion of Carbohydrates
-#+NAME: fig:dig
-#+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./carbohydrate_metabolism/figures/digestion.pdf]]
-
 ** Absorption from the Intestine
 - NA-dependent transporter
   - transport glucose \uparrow the concentration gradient
@@ -94,8 +82,6 @@
 #+NAME: fig:absorp
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./carbohydrate_metabolism/figures/intestine.pdf]]
-
-** GLUTs
 
 #+CAPTION[GLUTS]:GLUTS
 #+NAME: tab:glut
@@ -140,12 +126,12 @@
 
 #+CAPTION[]:Glycogen Degradation
 #+NAME: fig:glycsnd
-#+ATTR_LaTeX: :width 0.4\textwidth
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./carbohydrate_metabolism/figures/glycogen_degradation.pdf]]
 
 #+CAPTION[]:Glycogen Synthesis and Degradation
 #+NAME: fig:glycsnd
-#+ATTR_LaTeX: :width 0.5\textwidth
+#+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./carbohydrate_metabolism/figures/glycogen_synth_deg.pdf]]
 
 #+CAPTION[]:Regulation of Glycogen Synthesis and Degradation
@@ -187,13 +173,8 @@
 
 #+CAPTION[]:Fructose Metabolism
 #+NAME: fig:glycsnd
-#+ATTR_LaTeX: :width 0.6\textwidth
+#+ATTR_LaTeX: :width 0.7\textwidth
 [[file:./carbohydrate_metabolism/figures/fruc_met.pdf]]
-
-#+CAPTION[]:Fructose Synthesis (Polyol Pathway)
-#+NAME: fig:frucsyn
-#+ATTR_LaTeX: :width 0.35\textwidth
-[[file:./carbohydrate_metabolism/figures/fruc_syn.pdf]]
 
 #+CAPTION[]: Galactose Metabolism
 #+NAME: fig:galmet
@@ -224,11 +205,13 @@
     - superoxide
 
 * Synthesis
-** Interconversion
 - sugars are activated by addition of nucleotides
 - Uridine diphosphate (UDP)-glucose is a precusor of:
   - glycogen, lactate, UDP-glucuronate
   - CHO chains in proteoglycans glycoproteins and glycolipids
+- The polyol pathway is a two-step process that converts glucose to
+  fructose
+  - glucose is reduced to sorbitol, which is oxidized to fructose
 
 #+CAPTION[]: UDP-glucose metabolism
 #+NAME: fig:udpglu
@@ -240,9 +223,7 @@
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./carbohydrate_metabolism/figures/udp_gln.pdf]]
 
-* Gluconeogenesis
-
-#+CAPTION[]: Glucose precusors
+#+CAPTION[]: Glucose precusors in gluconeogenesis
 #+NAME: fig:precursors
 #+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./carbohydrate_metabolism/figures/precusors.pdf]]
