@@ -3,19 +3,19 @@
 #+DATE: \today
 
 * Introduction
-- Isoprenoids function in a variety of cellular processes including:
+- isoprenoids function in a variety of cellular processes including:
   - cell growth and differentiation, protein glycosylation, signal
     transduction pathways
-- Isoprenoid synthesis starts from acetyl-CoA
-  - in six enzyme reactions is converted into isopentenyl-PP
-  - the basic isoprene unit used for the synthesis of subsequent
-    isoprenoids
-- first committed intermediate in sterol isoprenoid synthesis is
-  squalene
-- cyclisation \to lanosterol
-- lanosterol \to cholesterol may occur via two major routes involving
-  the same enzymes
-- depending on the timing of reduction of the \Delta^24 double bond either:
+- isoprenoid synthesis starts from acetyl-CoA
+- in six enzyme reactions is converted into isopentenyl-PP
+- the basic isoprene unit used for the synthesis of subsequent
+  isoprenoids
+  - first committed intermediate in sterol isoprenoid synthesis is
+    squalene
+  - cyclisation \to lanosterol
+  - lanosterol \to cholesterol may occur via two major routes involving
+    the same enzymes
+  - depending on the timing of reduction of the \Delta^24 double bond either:
   - 7-dehydrocholesterol
   - desmosterol
 
@@ -30,7 +30,7 @@
 - autoinflammatory metabolic disorder
 - onset 1st year of life, often triggered by childhood vaccinations
 - lifelong episodes of fever and inflammation triggered by stress
-- episodes last 3–7 days, recur on average every 4–6 weeks associated with:
+- episodes last 3-7 days, recur on average every 4-6 weeks associated with:
   - abdominal pain
   - vomiting and diarrhoea,
   - (cervical) lymphadenopathy, hepatosplenomegaly, arthralgia skin rash
@@ -44,11 +44,12 @@
     FTT, dysmorphic features, high risk of death in early infancy
 
 ** Metabolic Derangement
+- mevalonate kinase deficiency (Figure [[fig:chol]])
+\ce{mevalonate + ATP ->[MK] 5-phosphomevalonate + ADP}
+- synthesis of all isoprenoids will be affected
 - clinical presentation \propto residual MK activity
   - activity < LOD in MKD-MA
   - 1-10% in MKD-HIDS
-\ce{mevalonate + ATP ->[MK] 5-phosphomevalonate + ADP}
-- synthesis of all isoprenoids will be affected
 
 ** Genetics
 - AR, MVK
@@ -56,7 +57,7 @@
 
 ** Diagnostic tests
 - \uparrow mevalonic acid in urine organic acids
-  - present in MKD-MA not always MKD-HIDS
+  - found in MKD-MA not always MKD-HIDS
 - best diagnostic tests are:
   - WBC or fibroblasts MK activity
   - molecular analysis of MVK
@@ -71,9 +72,10 @@
 - large and variable spectrum of morphogenic and congenital anomalies
 - clinical and biochemical continuum ranging from hardly recognisable
   to very severe (lethal in utero)
-- Most affected patients have a characteristic craniofacial appearance
+- most affected patients have a characteristic craniofacial appearance
 - cutaneous syndactyly of the second and third toes (>97% of cases)
-- Genital abnormalities may include hypospadias cryptorchidism and ambiguous
+- genital abnormalities may include hypospadias cryptorchidism and
+  ambiguous male genitalia
 - congenital heart defects, and renal, adrenal, lung and
   gastrointestinal anomalies
 
@@ -84,7 +86,7 @@
 
 ** Genetics
 - AR, DHCR7, 1:15,000-60,000
-- Most frequency cholesterol biosynthesis defect
+- *most frequency cholesterol biosynthesis defect*
 
 ** Diagnostic Tests
 - sterol analysis of plasma or tissues of patients by GC-MS,
@@ -92,8 +94,7 @@
 - plasma cholesterol is usually low or low normal
 
 ** Treatment and Prognosis
-- most anomalies occurring in SLOS are assumed to be due to the
-  unavailability of sufficient cholesterol during (early) embryonic
-  development
-- it will most probably not be feasible to develop a postnatal therapy
-- sterol supplementation used, disappointing results
+- most anomalies occurring in SLOS are due to the unavailability of
+  sufficient cholesterol during (early) embryonic development
+  - \therefore postnatal therapy not feasible
+- sterol supplementation tired w disappointing results
