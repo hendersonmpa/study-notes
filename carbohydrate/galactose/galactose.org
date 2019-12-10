@@ -24,13 +24,13 @@
 
 #+CAPTION[]:Major reactions of galactose metabolism
 #+NAME: fig:galrxm
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+ATTR_LaTeX: :width 1.0\textwidth
 [[file:./galactose/figures/galmet.png]]
 
 
 #+CAPTION[]:Hepatic carbohydrate metabolism
 #+NAME: fig:hepcarb
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+ATTR_LaTeX: :width 1.0\textwidth
 [[file:./galactose/figures/hepcarb.png]]
 
  #+CAPTION[lactose]:Lactose is a disaccharide derived from the condensation of galactose and glucose, which form a \beta 1 \to 4 glycosidic linkage.

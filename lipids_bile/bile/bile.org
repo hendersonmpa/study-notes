@@ -57,7 +57,7 @@
 
 #+CAPTION[]:Major reactions the synthesis of bile acids from cholesterol
 #+NAME: fig:bile
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+ATTR_LaTeX: :width 1.0\textwidth
 [[file:./bile/figures/bile_synth.png]]
 
 

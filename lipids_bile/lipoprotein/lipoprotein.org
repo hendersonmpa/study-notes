@@ -51,7 +51,7 @@
 
 #+CAPTION[]:Lipid and Lipoprotein Metabolism
 #+NAME: fig:lipid 
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+ATTR_LaTeX: :width 1.0\textwidth
 [[file:./lipoprotein/figures/lipid_met.png]]
 
 * LDL Metabolism Disorders
@@ -73,12 +73,12 @@
 
 #+CAPTION[]:Selected disorders affecting low density lipoprotein metabolism
 #+NAME: tab:lip
-| Disorder                              | Int | Protien                                  | Profile      | Freq          |
-|---------------------------------------+-----+------------------------------------------+--------------+---------------|
-| AD Familial hypercholesterolemia      | AD  | LDL receptor – LDLR (het)                | \uparrow LDL | 1 in 250, 500 |
-| AR Familial hypercholesterolemia      | AR  | LDL receptor – LDLR  (homo/compound het) | \uparrow LDL | 1 in 10^6     |
-| AD Familial hypercholesterolemia      | AD  | PCSK9                                    | \uparrow LDL |               |
-| Familial ligand defective apo-B, FLBD | AD  | Apo-B                                    | \uparrow LDL | 1 in 500      |
+| Disorder                              | Int | Protein              | Profile      | Freq         |
+|---------------------------------------+-----+----------------------+--------------+--------------|
+| AD Familial hypercholesterolemia      | AD  | LDLR (het)           | \uparrow LDL | 1 in 250-500 |
+| AR Familial hypercholesterolemia      | AR  | LDLR (homo/comp het) | \uparrow LDL | 1 in 10^6    |
+| AD Familial hypercholesterolemia      | AD  | PCSK9                | \uparrow LDL |              |
+| Familial ligand defective apo-B, FLBD | AD  | Apo-B                | \uparrow LDL | 1 in 500     |
 
 * Triglyceride Metabolism
 - may present early in childhood with faltering growth,

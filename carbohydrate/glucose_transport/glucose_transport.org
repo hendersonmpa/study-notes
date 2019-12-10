@@ -18,7 +18,7 @@
 
  #+CAPTION[glucose transporters]:Glucose Transporters
  #+NAME: fig:glut
- #+ATTR_LaTeX: :width 0.9\textwidth
+ #+ATTR_LaTeX: :width 1.0\textwidth
  [[file:./glucose_transport/figures/glut.png]]
 
 ** Congenital Defects of Glucose Transporters

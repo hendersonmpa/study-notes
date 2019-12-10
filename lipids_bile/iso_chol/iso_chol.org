@@ -22,7 +22,7 @@
 
 #+CAPTION[]:Isoprenoid/cholesterol synthesis pathway
 #+NAME: fig:chol
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+ATTR_LaTeX: :width 1.0\textwidth
 [[file:./iso_chol/figures/iso_chol_synth.png]]
 
 * Mevalonate Kinase Deficiency

@@ -28,7 +28,7 @@
 
 #+CAPTION[]:The common pathway, triglyceride synthesis and lipolysis
 #+NAME: fig:tg
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+ATTR_LaTeX: :width 1.0\textwidth
 [[file:./tg_pl/figures/tg.png]]
 
 
@@ -73,7 +73,7 @@
 * Phospholipid biosynthesis and remodelling
  #+CAPTION[]:Phospholipid biosynthesis (top of the figure) and remodelling (bottom of the figure)
  #+NAME: fig:pl
- #+ATTR_LaTeX: :width 0.9\textwidth
+ #+ATTR_LaTeX: :width 1.0\textwidth
  [[file:./tg_pl/figures/pl.png]]
 
 
