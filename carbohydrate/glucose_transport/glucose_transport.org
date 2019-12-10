@@ -4,17 +4,17 @@
 
 * Introduction
 ** Glucose Transporters
- - Glucose is hydrophilic \therefore cannot easily cross cell membrane
- - Transporters exist in almost all cell types
+ - glucose is hydrophilic \therefore cannot easily cross cell membrane
+ - transporters exist in almost all cell types
  - glucose transporter proteins can be divided into two groups:
    1. Sodium-dependent glucose transporters (SGLTs)
       - symporter systems, active transporters encoded by members of
 	the SLC5 gene family
       - couple sugar transport to the electrochemical gradient of sodium
-      - transport glucose \uparrow [gradient].
+      - transport glucose \uparrow [gradient]
    2. Facilitative glucose transporters (GLUTs)
       - uniporter systems, passive transporters encoded by members of the SLC2 gene family
-      - transport glucose \downarrow [gradient].
+      - transport glucose \downarrow [gradient]
 
  #+CAPTION[glucose transporters]:Glucose Transporters
  #+NAME: fig:glut
@@ -24,7 +24,7 @@
 ** Congenital Defects of Glucose Transporters
  - Five congenital defects of monosaccharide transporters
  - Their clinical picture depends on tissue-specific expression and
-   substrate specificity of the affected transporter.
+   substrate specificity of the affected transporter
 
    1. SGLT1 : Congenital Glucose/Galactose Malabsorption
    2. SGLT2 : Renal Glucosuria
@@ -35,22 +35,22 @@
 * Congenital Glucose/Galactose Malabsorption (SGLT1 Deficiency )
 
 - SGLT1 is a high-affinity, low-capacity sodium-dependent transporter
-  of the two monosaccharides, at the brush border of enterocytes.
+  of the two monosaccharides, at the brush border of enterocytes
 
 - SGLT1 deficiency \to intestinal glucose-galactose malabsorption
-- GGM is a rare autosomal recessive disorder.
+- GGM is a rare autosomal recessive disorder
 
 - presents with severe osmotic diarrhoea and dehydration soon after a
   normal birth and pregnancy
   - patients develop severe hypertonic dehydration, often with fever
-  - patients die from hypovolaemic shock.
+  - patients die from hypovolaemic shock
 
 - Treatement is a glucose and galactose free diet
 
 * Renal Glucosuria (SGLT2 Deficiency)
 - SGLT2 is the major co-transporter involved in glucose reabsorption in
   the kidney
-- SGLT2 deficiency results in isolated renal glucosuria,
+- SGLT2 deficiency results in isolated renal glucosuria
   - a harmless renal transport defect characterised by:
     - glucosuria
     - normal blood glucose concentrations
@@ -65,43 +65,42 @@
   paroxysmal movement disorders, tremor
 - haemolytic anaemia has also been observed
 
-- both AD and AR inheritance have been described
+- AD and AR inheritance described, SLC2A1
 
 - GLUT1D should be suspected in any child with a CSF glucose
-  concentration \lt 2.5 mmol/L (range range 0.9-2.9 mmol/l)
+  concentration \lt 2.5 mmol/L 
   - normal \gt 3.3 mmol/L
 
-- CSF to blood glucose ratio \lt 0.5 (range 0.19-0.52)
+- CSF to blood glucose ratio \lt 0.5 
   - normal \gt 0.6
   - in the absence of hypoglycaemia or a CNS infection is diagnostic.
 - ketogenic diet is used in treatment
 
 * Fanconi-Bickel Syndrome (GLUT2 Deficiency )
 
-- GLUT2 is a high-K_m monosaccharide carrier 
+- GLUT2 is a high-K_M monosaccharide carrier 
   - located in hepatocytes
   - basolateral membrane of cells in the proximal tubule
   - pancreatic \beta-cells
 
-- Typically presents with a combination of increased hepatic
-  glycogen storage, generalised renal tubular dysfunction, severe glucosuria.
+- typically presents with a combination of increased hepatic
+  glycogen storage, generalised renal tubular dysfunction, severe glucosuria
 
-- In FBS GLUT2 acts as a malfunctioning glucose sensor:
+- in FBS GLUT2 acts as a malfunctioning glucose sensor:
   - in the fasted state, [glucose] and [G-6-P] are inappropriately \uparrow in hepatocytes
   - stimulates glycogen synthesis, inhibits gluconeogenesis and glycogenolysis
   - predisposes to hypoglycaemia and hepatic glycogen accumulation
 
-- very rare autosomal recessive condition caused by mutations in
-  SLC2A2.
+- very rare AR, SLC2A2
 
-- Diagnosis suggested by the characteristic combination of an altered
+- diagnosis suggested by the characteristic combination of an altered
   glucose homeostasis, hepatic glycogen accumulation, and the typical
-  features of a Fanconi-type tubulopathy.
+  features of a Fanconi-type tubulopathy
 
-- Elevated biotinidase activity in serum has been found to be a useful
-  screening test for hepatic glycogen storage disorders including FBS.
+- elevated biotinidase activity in serum has been found to be a useful
+  screening test for hepatic glycogen storage disorders including FBS
 
-- Only symptomatic treatment is available.
+- only symptomatic treatment is available
 
 * Arterial Tortuosity Syndrome (GLUT10 Deficiency)
 
@@ -115,10 +114,10 @@
   including the aorta
 
 - presents with acute infarction owing to ischaemic stroke or an
-  increased risk of thromboses.
+  increased risk of thromboses
 - Aortic regurgitation and multiple pulmonary artery stenoses are
-  typical intrathoracic manifestations.
-- closely resembles a connective tissue disorder in presentation.
+  typical intrathoracic manifestations
+- closely resembles a connective tissue disorder in presentation
 
 - rare, AR GLUT10 (SLC2A10)
 - Echocardiography, angiography, and/or CT scan are important to demonstrate vascular changes.

@@ -3,12 +3,15 @@
 #+DATE: \today
 
 * Introduction
-** Muscle and Cardiac Glycogenoses
-
 - Muscle predominately utilizes fatty acids for energy when at rest
   - uses blood glucose during sub-maximal exercise.
 - Energy is supplied by glycogenolysis during intense exercise.
   - glycogenolysis supplies glucose for anaerobic glycolysis
+- hepatic glycogenosis generally cause hepatomegaly (apart from GSD
+  Oa) and fasting hypoglycaemia
+- muscle disorders are associated with skeletal and/or
+  cardiomyopathy
+- The clinical phenotypes are extremely heterogeneous
 
 #+CAPTION[]:Muscle and Cardiac Glycogenoses
 #+NAME: tab:mnc
@@ -23,7 +26,7 @@
 
 #+CAPTION[Muscle and Cardiac Glycogenoses]:Muscle and Cardiac Glycogenoses
 #+NAME: fig:mcglyc
-#+ATTR_LaTeX: :width 0.75\textwidth
+#+ATTR_LaTeX: :width 1\textwidth
 [[file:./muscle_cardiac_glycogenoses/figures/gggmetab_muscle_cardiac.png]]
 
 * GSD Type 0
@@ -47,7 +50,7 @@
 ** Metabolic Derangement
 - Acid \alpha-glucosidase deficiency
 - accumulation of glycogen within the lysosomes
-- with different critical thresholds depending on the organ
+- different critical thresholds depending on the organ
 
 ** Genetics
 - AR, AGL gene
@@ -58,7 +61,7 @@
   - ›leaky‹ mutations associated with the adult variant
 - c.-32-13T>G is the most common mutation in adults and children with
   a slowly progressive course
-  - approximately 80% of Caucasian patients.
+  - approximately 80% of Caucasian patients
 
 ** Clinical Presentation
 *** Infantile
@@ -69,15 +72,15 @@
   failure or aspiration pneumonia prior to one year of age 
 *** Juvenile
 - predominant skeletal muscle dysfunction
-  - with motor and respiratory problems, rarely cardiac involvement.
-  - Calf hypertrophy can be present, mimicking Duchenne muscular dystrophy in boys.
-- Myopathy and respiratory insufficiency deteriorate gradually, and patients may become dependent on a ventilator or wheelchair.
+  - with motor and respiratory problems, rarely cardiac involvement
+  - Calf hypertrophy can be present, mimicking Duchenne muscular dystrophy in boys
+- Myopathy and respiratory insufficiency deteriorate gradually, and patients may become dependent on a ventilator or wheelchair
 *** Adult
 - 3rd or 4th decade and affects the trunk and proximal limb muscles
-  - mimicks inherited limb-girdle muscle dystrophies.
-- Involvement of the diaphragm is frequent,
-  - acute respiratory failure may be the initial symptom in some patients.
-- the heart is generally not affected.
+  - mimics inherited limb-girdle muscle dystrophies
+- Involvement of the diaphragm is frequent
+  - acute respiratory failure may be the initial symptom in some patients
+- the heart is generally not affected
 ** Diagnostic Tests
 - Acid \alpha-glucosidase enzyme assay
   - classic infantile ~ 1% residual activity
@@ -94,9 +97,12 @@
 
 * GSD Type V
 ** Metabolic Derangement
-- There are three isoforms of glycogen phosphorylase: brain/heart,
-  liver and muscle, all encoded by different genes.
-- GSD V is caused by deficient myophosphorylase activity.
+- GSD V is caused by deficiency in muscle glycogen phosphorylase
+- Catalyses the release and phosphorylation of terminal glucosyl units
+  from glycogen forming glucose-1-phosphate
+- There are three isoforms of glycogen phosphorylase: brain/heart
+  liver and muscle, all encoded by different genes
+- GSD V is caused by deficient myophosphorylase activity
 
 ** Genetics
 - AR, PYGM
@@ -109,25 +115,24 @@
 
 ** Clinical Presentation
 - exercise intolerance with myalgia and stiffness in exercising muscles
-  - relieved by rest.
+  - relieved by rest
 - Onset of the disease occurs during childhood
   - diagnosis is frequently missed at an early age
-  - affected children are often considered lazy.
+  - affected children are often considered lazy
 - Myoglobinuria is the major complication, and occurs in about half of
-  the patients.
+  the patients
 - Creatine kinase (CK) can increase to more than 100,000-1,000,000
   UI/l during episodes of rhabdomyolysis
 - Risk of acute renal failure
 
 ** Diagnostic Tests
 
-- ischaemic forearm exercise test (IFET) was first used by McArdle to
-  describe the absence of elevation of lactate during exercise.
+- Ischaemic forearm exercise test (IFET) was first used by McArdle to
+  describe the absence of elevation of lactate during exercise
   - *Should not be used*
-
 - Non-ischemic FET has a sensitivity of 100% in McArdle’s disease
 - Ammonia levels should be also assessed in parallel with lactate
-  -  an abnormal increase in ammonia always observed in GSD V.
+  -  an abnormal increase in ammonia always observed in GSD V
 - PYGM gene sequencing
 
 ** Treatment
@@ -136,10 +141,9 @@
   - aerobic conditioning programs
   - ingestion of oral sucrose
 * LAMP 2 Deficiency (Danon Disease)
-** LAMP2 Deficiency (Danon Disease)
 - Danon disease is a rare X-linked disorder
 - caused by a primary deficiency of lysosomal-associated membrane
-  protein 2 (LAMP2).
+  protein 2 (LAMP2)
 - Presents after 1st decade
   - cardiomyopathy all cases
   - mild skeletal myopathy and developmental delay 70%
@@ -147,7 +151,6 @@
 - consider cardiac transplantation
 
 * AMPK Deficiency
-** AMPK Deficiency
 - AMPK controls whole-body glucose homeostasis by regulating metabolism in multiple peripheral tissues, such as
   skeletal muscle, liver, adipose tissues, and pancreatic \beta-cells
 - activated \uparrow AMP/ATP ratio
@@ -157,22 +160,20 @@
 ** Metabolic Derangement
 - AMPK is a heterotrimeric complex comprising:
   - a catalytic subunit (\alpha)
-  - two regulatory subunits (\beta and \gamma).
+  - two regulatory subunits (\beta and \gamma)
 - Three isoforms of the gamma subunits are known (\gamma1, \gamma2 and \gamma3) with different tissue
   expression
 
 ** Genetics
-- The PRKAG2 gene coding for the \gamma-subunit of AMPK is located on chromosome 7q36.
+- The PRKAG2 gene coding for the \gamma-subunit of AMPK is located on chromosome 7q36
 - Mutations in the \gamma2-subunit of AMPK are transmitted as an
-  autosomal dominant trait with full penetrance.
+  autosomal dominant trait with full penetrance
 
 ** Diagnosis & Treatment
-- The differential diagnosis includes Pompe, Danon (LAMP2) and Fabry diseases.
-
+- The differential diagnosis includes Pompe, Danon (LAMP2) and Fabry diseases
 - diagnosis, if clinically suspected, is based on ECG,
-  echocardiography and molecular genetics.
-
-- Treatment includes a pacemaker/defibrillator and heart transplant.
+  echocardiography and molecular genetics
+- Treatment includes a pacemaker/defibrillator and heart transplant
 
 
 

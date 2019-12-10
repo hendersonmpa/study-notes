@@ -4,6 +4,11 @@
 
 
 * Introduction
+- hepatic glycogenosis generally cause hepatomegaly (apart from GSD
+  Oa) and fasting hypoglycaemia
+- muscle disorders are associated with skeletal and/or
+  cardiomyopathy
+- The clinical phenotypes are extremely heterogeneous
 #+CAPTION[]:Hepatic Glycogenoses
 #+NAME: tab:hep
 | Type | Enzyme                          | Gene    | Phenotype                                  |
@@ -22,7 +27,7 @@
 
 #+CAPTION[Hepatic Glycogenoses]:Hepatic Glycogenoses
 #+NAME: fig:hglyc
-#+ATTR_LaTeX: :width 0.75\textwidth
+#+ATTR_LaTeX: :width 1\textwidth
 [[file:./hepatic_glycogenoses/figures/gggmetab_hepatic.png]]
 
 * GSD Type 0
@@ -112,7 +117,7 @@
   distension
 - Fasting hypoglycaemia 
   - Fasting tolerance is usually longer than in GSD I 
-- Fasting ketosis is prominent.
+- Fasting ketosis is prominent
 - Gluconeogenesis is normal \therefore no fasting hyperlactataemia
 - Moderate post-prandial \uparrow lactate
 - Hyperlipdaemia
@@ -123,20 +128,20 @@
 - mutation analysis
 ** Treatment
 - Aim is to maintain normoglycaemia, reduce the hyperlipidaemia and ketosis and
-  ensure adequate growth.
+  ensure adequate growth
 - Regular meals and uncooked cornstarch
 - Overnight continuous feeding is less commonly needed in GSD III than
   in GSD I
 - Long term outcome for individuals with GSD III is generally good
-  with survival into adulthood.
+  with survival into adulthood
 * GSD Type IV
 ** Metabolic Derangement
-- GSD IV is caused by deficiency in glycogen brancher enzyme (GBE).
+- GSD IV is caused by deficiency in glycogen brancher enzyme (GBE)
 - GBE transfers short glucosyl chains to form branch points with an
-  \alpha-1,6 linkage.
+  \alpha-1,6 linkage
 - Deficiency results in an abnormal poorly soluble glycogen with fewer branch points (polyglucosan)
-- This abnormal glycogen accumulates in liver, muscle, heart, nervous system and skin.
-  - leads to tissue damage.
+- This abnormal glycogen accumulates in liver, muscle, heart, nervous system and skin
+  - leads to tissue damage
 
 ** Genetics
 - AR, GBE1
@@ -149,20 +154,20 @@
   - Ranges from death in utero to adult presentation
 
 *** Liver Disease
-- Progressive liver disease in infancy.
+- Progressive liver disease in infancy
   - Presents in first months of life with:
-    - Failure to thrive and hepatomegaly.
+    - Failure to thrive and hepatomegaly
   - Cirrhosis develops with eventual end stage liver disease and
-    portal hypertension.
-  - Death is usual by 5 years of age.
+    portal hypertension
+  - Death is usual by 5 years of age
 - Non-progressive liver disease in childhood.
   - Present with hepatomegaly, liver dysfunction, hypotonia and
-    myopathy.
-  - Liver disease does not progress, survival into adulthood.
+    myopathy
+  - Liver disease does not progress, survival into adulthood
 
 *** Neuromuscular Disease
 - Congenital onset
-  - fetal loss in pregnancy,
+  - fetal loss in pregnancy
   - fetal akinesia deformation sequence (FADS) with athrogryposis, hydrops and perinatal death
   - severe congenital myopathy similar to SMA with \pm cardiomyopathy
 - Juvenile onset
@@ -177,15 +182,15 @@
 - Fasting hypoglycaemia is uncommon except in end stage liver failure
 - Liver and muscle histology show swollen hepatocytes that contain
   periodic acid-Schiff (PAS)-positive and diastase resistance
-  inclusions and evidence of interstitial fibrosis.
+  inclusions and evidence of interstitial fibrosis
 - Enzyme analysis can be undertaken in liver tissue, cultured skin
   fibroblast, peripheral lymphocytes and muscle
-- Confirmed by GBE1 mutation analysis.
+- Confirmed by GBE1 mutation analysis
 
 ** Treatment
 - Liver transplant is the only treatment for the progressive liver form
-- Heart transplant may be considered in those with heart failure caused by cardiomyopathy.
-- There is no specific treatment for the other forms of the disease.
+- Heart transplant may be considered in those with heart failure caused by cardiomyopathy
+- There is no specific treatment for the other forms of the disease
 * GSD Type VI
 ** Metabolic Derangement
 - GSD VI is caused by deficiency in hepatic glycogen phosphorylase
@@ -199,28 +204,28 @@
 - AR, PGYL gene
 
 ** Clinical Presentation
-- GSD VI is generally a mild disorder often diagnosed due to hepatomegaly.
+- GSD VI is generally a mild disorder often diagnosed due to hepatomegaly
   - can present with symptomatic ketotic hypoglycaemia and growth retardation
 ** Diagnostic Tests
 - Diagnosis confirmed by mutation analysis or
-- Enzyme deficiency in hepatic tissue, erythrocytes, and leukocytes.
+- Enzyme deficiency in hepatic tissue, erythrocytes, and leukocytes
 - Enzyme activity may not always be reduced in blood and even in liver
   tissue may be difficult to interpret due to residual activity and
-  the effect of other factors.
+  the effect of other factors
 - For example, deficiency of glycogen phosphorylase kinase will cause
-  low activity of glycogen phosphorylase.
+  low activity of glycogen phosphorylase
 ** Treatment
 - No treatment required for asymptomatic children
 - Those with growth failure or fasting ketosis benefit from regular
-  meals,snacks and uncooked cornstarch.
+  meals,snacks and uncooked cornstarch
 - The outcome for individuals with GSD VI is generally excellent
-  - Catch up growth occurring for those with short stature in childhood.
+  - Catch up growth occurring for those with short stature in childhood
 * GSD Type IX
 ** Metabolic Derangement
 - GSD IX is caused by deficiency in hepatic glycogen phosphorylase kinase (PHK)
 - PHK phosphorylates glycogen phosphatase /b/ \to /a/ form
   - inactive /b/ \to  active /a/
-- Decreased PHK activity \to \uparrow 
+- \downarrow PHK activity \to \downarrow G1P release from glycogen
 - PHK is homotetramer in which each subunit is itself a tetramer
   - \alpha, \beta, \gamma and \delta subunits.
 - The \gamma subunit is catalytic and the other subunits regulatory
