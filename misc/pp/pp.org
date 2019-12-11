@@ -1,0 +1,341 @@
+#+TITLE: Disorders Purine and Pyrimidine Metabolism
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+* Purine Metabolism
+** Introduction
+- Purine nucleotides are involved in energy transfer, metabolic
+  regulation, and synthesis of DNA and RNA
+- Purine metabolism can be divided into three pathways:
+  - biosynthetic pathway, often termed /de novo/
+    - starts with the formation of phosphoribosyl pyrophosphate (PRPP)
+      and leads to the synthesis of IMP
+    - IMP interconversions to AMP and GMP
+    - go on to di- and triphosphates, to and deoxyribonucleotides
+  - catabolic pathway
+    - starts from GMP, IMP and AMP
+    - produces uric acid , a poorly soluble compound, which tends to
+      crystallize once its plasma \ge 0.4 mmol/L
+  - salvage pathway
+    - utilizes the purine bases guanine, hypoxanthine and adenine
+      - provided by food or the catabolic pathway
+    - converts them into GMP, IMP and AMP
+    - salvage of purine nucleosides, adenosine and guanosine, and
+      their deoxy counterparts, catalyzed by kinases, also occurs.
+    - also converts several pharmacological anticancer and antiviral
+      nucleoside analogs into their active forms
+
+- inborn errors of purine metabolism comprise defects or
+  superactivities of:
+
+  - purine nucleotide synthesis and interconversions:
+    - phosphoribosyl pyrophosphate synthetase (PRS) superactivity and deficiency
+    - adenylosuccinase (ADSL) deficiency
+    - AICA-ribosiduria caused by ATIC deficiency
+  - purine catabolism:
+    - muscle AMP deaminase (AMPD, also termed myoadenylate deaminase)
+    - adenylate kinase (AK)
+    - adenosine deaminase (ADA)
+    - purine nucleoside phosphorylase (PNP)
+    - xanthine oxidase (XO)
+  - purine salvage:
+    - hypoxanthine-guanine phosphoribosyltransferase (HPRT)
+    - adenine phosphoribosyltransferase (APRT)
+    - adenosine kinase (ADK)
+  - deficiency of deoxyguanosine kinase (DGUOK) causes mitochondrial DNA depletion
+  - deficiency of thiopurine S-methyltransferase (TPMT) results in
+    less efficient methylation and hence in enhanced toxicity of
+    pharmacologic thiopurine ana logs
+  - deficiency of inosine triphosphate pyrophosphatase (IT-Pase) also
+    increases the toxicity of thiopurines
+- With the exception of the deficiencies of muscle AMPD and TPMT, all
+  these inborn errors are very rare
+
+#+CAPTION[]:Purine Metabolism
+#+NAME: fig:pur
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./pp/figures/purine_met.png]]
+
+** Adenosine Deaminase 1 Deficiency
+- two isoforms of adenosine deaminase (ADA)
+  - ADA1 is found in most cells, particularly lymphocytes and macrophages
+  - ADA2 is predominant in plasma
+*** Clinical Presentation
+- clinical spectrum is very broad
+  - from a profound impairment of both humoral and cellular immunity
+    in infants, known as severe combined immunodeficienc (SCID)
+  - to delayed and less severe later onset in older children or
+    adults
+  - even benign partial ADA1 deficiency in adults
+- ~ 80% of patients display, within the first weeks or months after
+  birth
+- multiple, recurrent opportunistic infections caused by a variety of
+  organisms, which rapidly become life-threatening.
+- infections are mainly localized in the skin, the respiratory,and the
+  gastrointestinal tract
+- in affected children over 6 months of age hypoplasia or apparent
+  absence of lymphoid tissue (tonsils, lymph nodes, thymus shadow on x-ray)
+- nonimmunological symptoms are also found
+  - 50% have bone abnormalities
+  - cognitive, behavioural, and neurological abnormalities can present
+    - lower IQ, hyperactivity, attention deficits, spasticity, head
+      lag, nystagmus, inability to focus, and high frequency
+      sensorineural deafness
+
+*** Metabolic Derangement
+- accumulation in body fluids of adenosine and deoxyadenosine
+  - normally nearly undetectable
+- these compounds induce the premature death of lymphoid progenitor
+  cells, and thereby profoundly impair the generation of T, B, and NK
+  lymphocytes.
+- ADA deficiency affects to varying extent bone, brain, lung and liver
+
+*** Genetics
+- AR, ADA1
+  - ~ 40% of SCID
+
+*** Diagnostic Tests
+- SCID can be confirmed by relatively simple laboratory tests:
+  - lymphopenia involving B, T and natural killer (NK) cells
+  - hypogammaglobulinemia
+  - IgM deficiency may be detected early
+  - IgG deficiency becomes manifest only after the age of 3 months
+    when the maternal supply has been exhausted
+- the disease is progressive, since residual B- and T-cell function
+  which may be found at birth, disappears later on.
+
+- The enzymatic diagnosis is mostly confirmed on red blood cells
+- severity of disease correlates with the loss of ADA1 activity:
+  - 0-1% activity in children with neonatal onset
+  - 1-5% activity in individuals with later onset
+
+*** Treatment
+- HSCT
+- ERT - PEG-ADA1
+- gene therapy
+
+** Purine Nucleoside Phosphorylase Deficiency
+*** Clinical Presentation
+- recurrent infections are usually of later onset
+- starting from the end of the first year to up to 5–6 years of age
+- initially less severe than in ADA1 deficiency
+- 2/3 have neurologic symptoms
+  - spastic tetra- or diplegia, ataxia and tremor, and mild to severe
+    mental retardation
+- 1/3 have autoimmune disorders
+  - hemolytic anemia, idiopathic thrombocytopenic purpura and
+    autoimmune neutropenia
+
+*** Metabolic Derangement
+- accumulation of four PDP substrates:
+  - guanosine, deoxyguanosine, inosine, deoxyinosine
+- \downarrow formation of uric acid
+- T-cells accumulate dGTP \to impaired immunity
+  - dGTP is formed from deoxyguanosine and inhibits ribonucleotide
+    reductase, and hence cell division.
+- ubiquitous expression of PNP explains the presence of nonimmunologic
+  symptoms in its deficiency.
+
+*** Genetics 
+- AR
+
+*** Diagnostic Tests
+- \downarrow plasma uric acid
+- \downarrow urine uric acid
+
+- other causes of hypouricemia such as xanthine oxidase deficiency,
+  and drug administration (acetylsalicylic acid, thiazide diuretics),
+  should be ruled out.
+- enzymatic diagnosis of PNP deficiency is usually performed on red
+  blood cells
+
+*** Treatment
+- bone marrow transplantation
+- repeated transfusions of normal, irradiated erythrocytes
+
+** Xanthine Oxidase Deficiency
+*** Clinical Picture
+- three types of deficiencies of xanthine oxidase
+- all cause xanthinuria
+  1) type I classi cal xanthinuria
+     - caused by isolated XO deficiency
+  2) type II classical xanthinuria
+     - deficiency of both XO and aldehyde oxidase (AO)
+  3) combined deficiency of XO, AO and sulfite oxidase
+- type I and type II xanthinuria can be completely asymptomatic
+- about 1/3 of cases kidney stones are formed
+- myopathy w pain, stiffness
+
+*** Metabolic Derangement
+- deficiency of XO results in the near total replacement of uric acid,
+  in plasma and urine, by hypoxanthine and xanthine as the end
+  products of purine catabolism
+- plasma hypoxanthine is not or minimally elevated
+  - due to reutilization by hypoxanthine-guanine phospho-ribosyltransferase
+- plasma xanthine \uparrow 10x
+
+- deficiency of AO \to inability to metabolize synthetic purine
+  analogues - allopurinol
+- The combined deficiency of XO, AO, and SO is caused by failure to
+  synthesize a molybdenum cofactor (MoCo), common to the three
+  oxidases
+
+*** Diagnostic Tests
+- \downarrow plasma uric acid
+- \downarrow urine uric acid
+- \Uparrow plasma xanthine
+
+*** Treatment
+- Type I and II XO deficiency are mostly benign
+  - \downarrow purine diet w \uparrow fluid intake to prevent renal stones.
+- The prognosis of combined XO,AO and SO deficiency improved by daily
+  infusion of cyclic pyranopterin monophosphate (cPMP)
+
+** Hypoxanthine-Guanine Phosphoribosyltransferase
+*** Clinical Presentation
+- clinical spectrum of this disorder is very wide and determined by
+  the residual activity of the enzyme
+- Lesch-Nyhan syndrome = complete or near-complete deficiency of HPRT
+- affected children generally appear normal during the first months of
+  life.
+- at 3 to 6 months of age, a neurological syndrome evolves
+  - classified as severe action dystonia, superimposed on a baseline hypotonia.
+- Patients develop a striking neuro-psychological profile comprising:
+  - compulsive self-destructive behaviour involving biting of their
+    fingers and lips
+  - physical and verbal aggression
+- Speech is hampered by athetoid dysarthria
+- most patients have IQ’s around 60–70, some display normal intelligence.
+- form uric acid stones.
+- if untreated, the uric acid nephrolithiasis progresses to
+  obstructive uropathy and renal failure during the first decade of
+  life
+
+*** Metabolic Derangement
+- \Uparrow production of uric acid due to \uparrow /de novo/ synthesis
+  - caused by \uparrow PRPP, which is not recycled by HPRT
+
+*** Genetic
+- XLR, HPRT
+
+*** Diagnostic Tests
+- \Uparrow urine and plasma uric acid
+  - uric acid/creatinine
+- patients with the Lesch-Nyhan syndrome display nearly undetectable
+  HPRT activity in red blood cells
+
+*** Treatment and Prognosis
+- allopurinol prevents urate nephropathy.
+  - even when given from birth or in combination with adenine has no
+    effect on the neurological symptoms
+
+* Pyrimidine Metabolism
+** Introduction
+- metabolism of the pyrimidine nucleotides can be divided into three
+  pathways:
+  1) biosynthetic /de novo/ pathway:
+     - starts with the formation of carbamoylphosphate by cytosolic
+       carbamoylphosphate synthetase (CPS II)
+     - followed by the synthesis of UMP, CMP and TMP
+  2) catabolic pathway:
+     - starts from CMP, UMP and TMP
+     - yields \beta-alanine and \beta-aminoisobutyrate
+     - converted into intermediates of TCA cycle
+  3) salvage pathway:
+     - composed of kinases
+     - converts pyrimidine nucleosides, cytidine, uridine, and
+       thymidine \to CMP, UMP, and TMP
+     - also converts several pharmacological anticancer and antiviral
+       nucleoside analogs into their active forms
+
+- inborn errors of pyrimidine metabolism comprise defects of:
+  - pyrimidine synthesis:
+    - CAD, UMP synthase deficiency and Miller syndrome
+  - pyrimidine catabolism:
+    - deficiencies of dihydropyrimidine
+      dehydrogenase (DPD) dihydropyrimidinase (DHP)
+    - ureidopropionase, thymidine phosphorylase
+    - pyrimidine 5’-nucleotidase and cytidine deaminase
+    - super-activity of cytosolic 5’-nucleotidase
+  - pyrimidine salvage:
+    - thymidine kinase 2 deficiency
+
+** UMP Synthase Deficiency 
+- AKA: Hereditary Orotic Aciduria
+*** Clinical Presentation
+- megaloblastic anaemia a few weeks or months after birth
+  - usually the first manifestation
+- peripheral blood smears often show anisocytosis, poikilocytosis, and
+  moderate hypochromia
+- bone marrow examination reveals erythroid hyperplasia and numerous
+  megaloblastic erythroid precursors
+- characteristically, the anemia does not respond to iron, folic acid
+  or vitamin B 12
+- unrecognized, the disorder leads to FTT and to retardation of growth
+  and psychomotor development
+
+#+CAPTION[]:Pyrimidine Metabolism
+#+NAME: fig:pyr
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./pp/figures/pyrimidine_met.png]]
+
+*** Metabolic Derangement
+
+- UMP synthase is a bifunctional enzyme of the /de novo/ synthesis of
+  pyrimidines
+- first reaction, orotate phosphoribosyltransferase (OPRT),converts
+  orotic acid into OMP
+- second, orotidine-5’-monophosphate decarboxylase (ODC),
+  decarboxylates OMP into UMP
+- deficiency \to massive overproduction of orotic acid
+  - due to \downarrow feedback inhibition exerted by the pyrimidine
+    nucleotides on the first enzyme of their /de novo synthesis/ CPS2
+    and deficiency of pyrimidine nucleotides
+- \downarrow pyrimidine nucleotides \to \downarrow cell division \to megaloblastic anemia
+
+*** Genetics
+- AR, UMPS
+
+*** Diagnostic Tests
+- \Uparrow urine orotic acid, 200-1000X
+
+*** Treatment
+- enzyme defect can be by-passed by the administration of uridine
+  - converted into UMP by uridine kinase
+
+** Dihydropyrimidine Dehydrogenase Deficiency
+*** Clinical Presentation
+- two forms:
+  1. infantile, severe
+     - epilepsy, motor and mental retardation
+     - hypertonia, hyperreflexia, growth delay, microcephaly, autistic features
+  2. adult, partial
+     - found in adults who receive pyrimidine analog, 5-fluorouracil
+       - 5-fluorouracil used to treat cancers including breast, ovary colon
+     - evere toxicity, manifested by profound neutropenia, stomatitis,
+       diarrhea and neurologic symptoms, including ataxia, paralysis
+       and stupor
+
+*** Metabolic Derangement
+- DPD catalyzes the catabolism of uracil and thymine \to dihydrouracil
+  and dihydrothymine
+- accumulation of uracil and thymine
+
+*** Genetics
+- AR, DPD for infantile form
+- adult form found in certain heterozygotes
+  - IVS14+1G>A
+
+*** Diagnostic Tests
+- \Uparrow urine uracil
+- \Uparrow urine thyamine
+- Enzyme activity in fibroblasts, liver and blood cells, with the
+  exception of erythrocytes
+
+*** Treatment 
+- Infantile: None
+- Adult: avoid 5-fluorouracil
+
+
+
+

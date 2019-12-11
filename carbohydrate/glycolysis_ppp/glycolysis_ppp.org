@@ -5,7 +5,7 @@
 * Introduction
 #+CAPTION[]:Glycolysis and PPP
 #+NAME: fig:glyc_ppp
-#+ATTR_LaTeX: :width 1\textwidth
+#+ATTR_LaTeX: :width 1.0\textwidth
 [[file:./glycolysis_ppp/figures/glyc_ppp.png]]
 
 ** Glycolysis 
