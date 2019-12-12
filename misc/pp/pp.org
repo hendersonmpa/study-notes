@@ -56,6 +56,40 @@
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./pp/figures/purine_met.png]]
 
+** Phosphoribosyl Pyrophosphate Synthetase Superactivity
+*** Clinical Presentation
+- gouty arthritis and/or uric acid lithiasis in young males
+
+*** Metabolic Derangement
+\ce{ribose-5-phosphate + ATP ->[PRPS] PRPP}
+
+- PRPP is the first intermediate in /de novo/ synthesis of purine nucleotides
+- PRPP synthetase is highly regulated
+- Two proposed mechanisms to explain PRS-I superactivity:
+  1. gain-of-function point mutations in the PRPS1 gene resulting in an
+     altered regulatory site
+  2. \uparrow expression of PRPS1 with normal kinetic properties
+- PRPP amidotransferase, the first and rate-limiting enzyme
+  of the de novo pathway, is physiologically not saturated by PRPP,
+  the synthesis of purine nucleotides increases, and hence the
+  production of uric acid
+
+*** Genetics
+- X-linked
+
+*** Diagnostic Tests
+- extensive kinetic studies of the enzyme in erythrocytes and cultured
+  fibroblasts is performed in only a few laboratories in the world
+- molecular testing of PRPS1 gene
+
+*** Treatment
+- treated with allopurinol, which inhibits xanthine oxidase, the last
+  enzyme of purine catabolism
+- results in a decrease of the production of uric acid and in its
+  replacement by
+  - hypoxanthine which is about 10-fold more soluble
+  - xanthine which is slightly more soluble
+
 ** Adenosine Deaminase 1 Deficiency
 - two isoforms of adenosine deaminase (ADA)
   - ADA1 is found in most cells, particularly lymphocytes and macrophages

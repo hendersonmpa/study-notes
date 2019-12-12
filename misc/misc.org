@@ -2,7 +2,7 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
-:PROPERTIES:
+  :PROPERTIES:
 #+DRAWERS: PROPERTIES
 #+LaTeX_CLASS: koma-article
 #+OPTIONS: H:3 toc:2 num:t ^:t
@@ -32,4 +32,5 @@
 * Purine and Pyrimidine Metabolism
 #+INCLUDE: "./pp/pp.org" :lines "4-"
 
-
+* Porphyrias
+#+INCLUDE: "./porphyrins/porphyrins.org" :lines "4-"
