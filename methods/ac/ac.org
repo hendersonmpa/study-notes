@@ -1,4 +1,4 @@
-+#+TITLE: Laboratory Methods for Quantitative Acylcarnitines in Biological Matrices
+#+TITLE: Laboratory Methods for Quantitative Acylcarnitines in Biological Matrices
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 

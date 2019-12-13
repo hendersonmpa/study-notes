@@ -1,0 +1,103 @@
+#+TITLE: Laboratory Methods for Investigation of Porphyria
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+
+* Methods for Metabolites
+1) ALA
+2) PBG
+3) Urinary Porphyrins
+4) Fecal Porphyrins
+5) Blood Porphyrins
+** Specimen Collection and Stability
+- Protect from light
+- Urinary porphyrins and PBG best collected in fresh random urine
+  without preservative. Very dilute urine (creatinine <2 mmol/L) is
+  not suitable
+- 24 hour urine offer little advantage
+  1) delay diagnosis
+  2) increased risk of degradation
+** EQA
+- EPNET http://www.porphyria-europe.com
+  - open to lab throughout the world
+** Methods for Porphyrin Precursors
+*** Porphobilinogen
+- Ehrlich's reagent
+  - urobilinogen inhibition, therefore ion-exchange
+*** 5-Aminolevulinic Acid
+- Converted to Ehrlich's reacting pyrrole via condensation with
+  acetylacetone
+*** Analysis of Porphyrins in Urine and Feces
+- Screening via spectrophotometric scanning of acidified urine or
+  fecal extracts for the Soret band
+*** Semiquantitative Method for Total Porphyrin in Urine and Feces
+- we do this as a screen
+*** HPLC Fractionation of Porphyrins in Urine and Feces
+- fluormetric detection recommended
+
+#+CAPTION: Urine Porphyrins
+#+NAME: fig:urine
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./porphyrins/figures/urine.pdf]]
+
+#+CAPTION: Fecal Porphyrins
+#+NAME: fig:fecal
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./porphyrins/figures/fecal.pdf]]
+
+** Methods for Blood Porphyrins
+*** Determination of Erythrocyte Total Porphyrin
+- increased in:
+  - EPP
+  - CEP
+  - homozygous variants
+  - iron deficiency
+  - hemolytic anemia
+  - some other forms of anemia
+  - lead poisoning
+- total porphyrin concentration within RI excludes EPP
+    - distinction between EPP and other causes requires diffentiation
+      between protoporphyrin and ZN-protoporphyrin
+*** Qualitative Determination of ZN-protoporphyrin and Protoporphyrin
+- Emission peaks for ZPP = 587 nm and free protoporphyrin = 630 nm
+- In EPP the concentration of free protoporphyrin >> ZPP
+  - may be 60% of total porphyrin
+- Lead poisoning, iron deficiency and other anemias ZPP is the main
+  component.
+- Limitation of method is that extraction of ZPP is ~50%
+
+** Analysis of Plasma Porphyrins
+*** Fluorescence emision Spectroscopy of Plasma Porphyrins
+- Emission spectra of saline diluted plasma excited at 405 nm
+- In VP the plasma contains porphyrin covalently bound to protein with
+  E_max at 624 to 628 nm
+- Other porphyrias contain porphyrin non-covalently bound to albumin
+  and hemopexin.
+  - Fresh plasma protoporphyrin E_max = 632 nm
+  - Older sample: binding to globulin released from red cells E_max =
+    626 nm
+- 2\degree causes of increase include: impaired excretion, renal
+  failure, cholestasis
+
+
+* Enzyme Measurements
+- rarely required for patients with symptoms
+- can be used for family studies, DNA is better
+** Assay of Etythrocyte Hydroxymethylbilane Synthase Activity
+- Measures rate of formation of porphyrinogens from PBG by hemolysed erythrocytes
+- Discriminates between AIP and unaffected relatives
+- Interferences:
+  - HMBS activity declines sharply with erythrocyte age
+  - affected by \prop of retics, and young cells in peripheral blood
+  - \uparrow in acute illness, ie acute porphyria
+  - \sim 1:800 low HMBS activity in France
+* DNA analysis
+- required for
+  1) family screening
+  2) pattern of inheritance in EPP
+  3) prognosis in CEP
+
+- can be used in patients without current symptoms or biochemical
+  Abnormalities
+- sequencing and gene dosage analysis
+
