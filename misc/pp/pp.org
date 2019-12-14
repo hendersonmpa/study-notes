@@ -11,7 +11,7 @@
     - starts with the formation of phosphoribosyl pyrophosphate (PRPP)
       and leads to the synthesis of IMP
     - IMP interconversions to AMP and GMP
-    - go on to di- and triphosphates, to and deoxyribonucleotides
+      - \to di- and triphosphates and deoxyribonucleotides
   - catabolic pathway
     - starts from GMP, IMP and AMP
     - produces uric acid , a poorly soluble compound, which tends to
@@ -20,8 +20,8 @@
     - utilizes the purine bases guanine, hypoxanthine and adenine
       - provided by food or the catabolic pathway
     - converts them into GMP, IMP and AMP
-    - salvage of purine nucleosides, adenosine and guanosine, and
-      their deoxy counterparts, catalyzed by kinases, also occurs.
+    - also salvage of purine nucleosides, adenosine and guanosine, and
+      their deoxy counterparts, catalyzed by kinases
     - also converts several pharmacological anticancer and antiviral
       nucleoside analogs into their active forms
 
@@ -51,7 +51,7 @@
 - With the exception of the deficiencies of muscle AMPD and TPMT, all
   these inborn errors are very rare
 
-#+CAPTION[]:Purine Metabolism
+#+CAPTION[]:Purine Metabolism:1 PRPP synthetase; 2 adenylosuccinase; 3 AICAR transformylase; 4 IMP cyclohydrolase; 5 adenylosuccinate synthetase; 6 AMP deaminase; 7 5‘-nucleotidase; 8 adenosine deaminase; 9 purine nucleoside phosphorylase; 10 hypoxanthine-guanine phosphoribosyltransferase; 11 adenine phosphoribosyltransferase; 12 adenosine kinase; 13 guanosine kinase; 14 xanthine oxidase
 #+NAME: fig:pur
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./pp/figures/purine_met.png]]
@@ -61,11 +61,10 @@
 - gouty arthritis and/or uric acid lithiasis in young males
 
 *** Metabolic Derangement
-\ce{ribose-5-phosphate + ATP ->[PRPS] PRPP}
-
 - PRPP is the first intermediate in /de novo/ synthesis of purine nucleotides
+\ce{ribose-5-phosphate + ATP ->[PRPS] PRPP}
 - PRPP synthetase is highly regulated
-- Two proposed mechanisms to explain PRS-I superactivity:
+- Two proposed mechanisms to explain PRPS1 superactivity:
   1. gain-of-function point mutations in the PRPS1 gene resulting in an
      altered regulatory site
   2. \uparrow expression of PRPS1 with normal kinetic properties
@@ -75,7 +74,7 @@
   production of uric acid
 
 *** Genetics
-- X-linked
+- X-linked, PRPS1
 
 *** Diagnostic Tests
 - extensive kinetic studies of the enzyme in erythrocytes and cultured
@@ -90,6 +89,35 @@
   - hypoxanthine which is about 10-fold more soluble
   - xanthine which is slightly more soluble
 
+** Muscle Adenosine Monophosphate Deaminase 1 Deficiency
+- AKA myoadenylate deaminase deficiency
+*** Clinical Presentation
+- present in 1-2% of the Caucasian population
+- majority asymptomatic
+- muscular weakness, fatigue, cramps or myalgias following moderate to
+  vigorous exercise
+- sometimes accompanied by an increase in serum creatine kinase, myoglobinuria and minor electromyographic
+  abnormalities
+*** Metabolic Derangement
+- AMPD, adenylosuccinate synthetase and adenylosuccinase form the
+  purine nucleotide cycle
+\ce{AMP + H2O ->[AMD1] IMP + NH3}
+
+*** Genetics
+- AR 
+- primary muscular deficiency the defect is caused by a c.34C->T mutation
+- results in a nonsense codon Q12X and a severely truncated, inactive enzyme
+- this mutant allele is found in 8-11% of Caucasians
+
+*** Diagnostic Tests
+- exercise test
+  - several-fold elevation of venous plasma ammonia, seen in normal
+    subjects, is absent in AMPD deficiency.
+
+***  Treatment
+- patients may display a gradual progression of their symptoms
+  - dressing and walking a few steps lead to fatigue and myalgias
+- ribose reported to improve muscular strength and endurance 
 ** Adenosine Deaminase 1 Deficiency
 - two isoforms of adenosine deaminase (ADA)
   - ADA1 is found in most cells, particularly lymphocytes and macrophages
@@ -97,19 +125,19 @@
 *** Clinical Presentation
 - clinical spectrum is very broad
   - from a profound impairment of both humoral and cellular immunity
-    in infants, known as severe combined immunodeficienc (SCID)
+    in infants, known SCID
   - to delayed and less severe later onset in older children or
     adults
   - even benign partial ADA1 deficiency in adults
 - ~ 80% of patients display, within the first weeks or months after
   birth
 - multiple, recurrent opportunistic infections caused by a variety of
-  organisms, which rapidly become life-threatening.
-- infections are mainly localized in the skin, the respiratory,and the
+  organisms, which rapidly become life-threatening
+- infections are mainly localized in the skin, the respiratory, and the
   gastrointestinal tract
 - in affected children over 6 months of age hypoplasia or apparent
   absence of lymphoid tissue (tonsils, lymph nodes, thymus shadow on x-ray)
-- nonimmunological symptoms are also found
+- non-immunological symptoms are also found
   - 50% have bone abnormalities
   - cognitive, behavioural, and neurological abnormalities can present
     - lower IQ, hyperactivity, attention deficits, spasticity, head
@@ -118,10 +146,10 @@
 
 *** Metabolic Derangement
 - accumulation in body fluids of adenosine and deoxyadenosine
-  - normally nearly undetectable
-- these compounds induce the premature death of lymphoid progenitor
-  cells, and thereby profoundly impair the generation of T, B, and NK
-  lymphocytes.
+  - normally ~undetectable
+\ce{adenosine + H2O ->[ADA1] inosine + NH3}
+- \to premature death of lymphoid progenitor cells
+- \therefore impair generation of T, B, and NK lymphocytes
 - ADA deficiency affects to varying extent bone, brain, lung and liver
 
 *** Genetics
@@ -145,13 +173,13 @@
 
 *** Treatment
 - HSCT
-- ERT - PEG-ADA1
+- ERT with PEG-ADA1
 - gene therapy
 
 ** Purine Nucleoside Phosphorylase Deficiency
 *** Clinical Presentation
 - recurrent infections are usually of later onset
-- starting from the end of the first year to up to 5–6 years of age
+- starting from the end of the first year to up to 5-6 years of age
 - initially less severe than in ADA1 deficiency
 - 2/3 have neurologic symptoms
   - spastic tetra- or diplegia, ataxia and tremor, and mild to severe
@@ -163,6 +191,7 @@
 *** Metabolic Derangement
 - accumulation of four PDP substrates:
   - guanosine, deoxyguanosine, inosine, deoxyinosine
+\ce{purine nucleoside + phosphate ->[PNP] purine + alpha-D-ribose 1-phosphate}
 - \downarrow formation of uric acid
 - T-cells accumulate dGTP \to impaired immunity
   - dGTP is formed from deoxyguanosine and inhibits ribonucleotide
@@ -191,7 +220,7 @@
 *** Clinical Picture
 - three types of deficiencies of xanthine oxidase
 - all cause xanthinuria
-  1) type I classi cal xanthinuria
+  1) type I classical xanthinuria
      - caused by isolated XO deficiency
   2) type II classical xanthinuria
      - deficiency of both XO and aldehyde oxidase (AO)
@@ -204,10 +233,11 @@
 - deficiency of XO results in the near total replacement of uric acid,
   in plasma and urine, by hypoxanthine and xanthine as the end
   products of purine catabolism
+\ce{hypoxanthine + H2O + O2 ->[XO] xanthine + H2O2}
+\ce{xanthine + H2O + O2 ->[XO] uric acid + H2O2}
 - plasma hypoxanthine is not or minimally elevated
   - due to reutilization by hypoxanthine-guanine phospho-ribosyltransferase
 - plasma xanthine \uparrow 10x
-
 - deficiency of AO \to inability to metabolize synthetic purine
   analogues - allopurinol
 - The combined deficiency of XO, AO, and SO is caused by failure to
@@ -227,9 +257,9 @@
 
 ** Hypoxanthine-Guanine Phosphoribosyltransferase
 *** Clinical Presentation
+- *Lesch-Nyhan syndrome* = complete or near-complete deficiency of HPRT
 - clinical spectrum of this disorder is very wide and determined by
   the residual activity of the enzyme
-- Lesch-Nyhan syndrome = complete or near-complete deficiency of HPRT
 - affected children generally appear normal during the first months of
   life.
 - at 3 to 6 months of age, a neurological syndrome evolves
@@ -239,13 +269,18 @@
     fingers and lips
   - physical and verbal aggression
 - Speech is hampered by athetoid dysarthria
-- most patients have IQ’s around 60–70, some display normal intelligence.
+- most patients have IQ’s around 60-70, some display normal intelligence.
 - form uric acid stones.
 - if untreated, the uric acid nephrolithiasis progresses to
   obstructive uropathy and renal failure during the first decade of
   life
 
 *** Metabolic Derangement
+- HGPRT is a transferase that catalyzes conversion of:
+  - hypoxanthine to inosine monophosphate
+  - guanine to guanosine monophosphate
+- This reaction transfers the 5-phosphoribosyl group from 5-phosphoribosyl 1-pyrophosphate (PRPP) to the purine
+- HGPRT plays a central role in the generation of purine nucleotides through the purine salvage pathway 
 - \Uparrow production of uric acid due to \uparrow /de novo/ synthesis
   - caused by \uparrow PRPP, which is not recycled by HPRT
 
@@ -284,7 +319,9 @@
 
 - inborn errors of pyrimidine metabolism comprise defects of:
   - pyrimidine synthesis:
-    - CAD, UMP synthase deficiency and Miller syndrome
+    - CAD (carbamoylphosphate synthetase II, aspartate transcarbamylase, dihydroorotase) Deficiency
+    - UMP synthase deficiency
+    - Miller syndrome
   - pyrimidine catabolism:
     - deficiencies of dihydropyrimidine
       dehydrogenase (DPD) dihydropyrimidinase (DHP)
@@ -293,6 +330,11 @@
     - super-activity of cytosolic 5’-nucleotidase
   - pyrimidine salvage:
     - thymidine kinase 2 deficiency
+
+#+CAPTION[]:Pyrimidine Metabolism: 1, carbamoylphosphate synthetase II ; 2, aspartate transcarbamylase ; 3, dihydroorotase (1 to 3 form CAD); 4, dihydroorotate dehydrogenase ; 5, orotate phos- phoribosyltransferase ; 6, orotidine decarboxylase (5 and 6 form UMP synthase); 7, pyrimidine (cytosolic) 5’-nucleotidase; 8, cytidine kinase; 9, uridine kinase ; 10, thymidine kinase ; 11, thymidine phosphorylase ; 12, dihydropyrimidine dehydrogenase ; 13, dihydropyrim- idinase ; 14, ureidopropionase ; 15, cytidine deaminase.
+#+NAME: fig:pyr
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./pp/figures/pyrimidine_met.png]]
 
 ** UMP Synthase Deficiency 
 - AKA: Hereditary Orotic Aciduria
@@ -304,26 +346,20 @@
 - bone marrow examination reveals erythroid hyperplasia and numerous
   megaloblastic erythroid precursors
 - characteristically, the anemia does not respond to iron, folic acid
-  or vitamin B 12
+  or vitamin B_{12}
 - unrecognized, the disorder leads to FTT and to retardation of growth
   and psychomotor development
 
-#+CAPTION[]:Pyrimidine Metabolism
-#+NAME: fig:pyr
-#+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./pp/figures/pyrimidine_met.png]]
-
 *** Metabolic Derangement
-
 - UMP synthase is a bifunctional enzyme of the /de novo/ synthesis of
   pyrimidines
-- first reaction, orotate phosphoribosyltransferase (OPRT),converts
+- first orotate phosphoribosyltransferase (OPRT) converts
   orotic acid into OMP
-- second, orotidine-5’-monophosphate decarboxylase (ODC),
+- second orotidine-5’-monophosphate decarboxylase (ODC)
   decarboxylates OMP into UMP
 - deficiency \to massive overproduction of orotic acid
   - due to \downarrow feedback inhibition exerted by the pyrimidine
-    nucleotides on the first enzyme of their /de novo synthesis/ CPS2
+    nucleotides on the first enzyme of their /de novo/ synthesis CPS2
     and deficiency of pyrimidine nucleotides
 - \downarrow pyrimidine nucleotides \to \downarrow cell division \to megaloblastic anemia
 
@@ -353,7 +389,7 @@
 *** Metabolic Derangement
 - DPD catalyzes the catabolism of uracil and thymine \to dihydrouracil
   and dihydrothymine
-- accumulation of uracil and thymine
+  - accumulation of uracil and thymine
 
 *** Genetics
 - AR, DPD for infantile form
