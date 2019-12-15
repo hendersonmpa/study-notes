@@ -34,3 +34,6 @@
 
 * Porphyrias
 #+INCLUDE: "./porphyrins/porphyrins.org" :lines "4-"
+
+* Metal
+#+INCLUDE: "./metal/metal.org" :lines "4-"

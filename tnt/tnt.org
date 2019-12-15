@@ -219,3 +219,45 @@ aspects of human gen
 * TODO Chapter 19: Ethics
 
 
+
+
+* 1/3 Rule
+ If the reproductive fitness of a male affected with an X-linked
+ recessive disorder is low or nil, then in a population *one-third of*
+ *all affected X chromosomes will be removed from the gene pool every
+ generation*. If the incidence of the disease is constant, then
+ one-third of cases must be due to mutations arising /de novo/ in a
+ family.
+
+
+ \[
+ p^2 + 2pq + q^2 = 1 
+ \]
+ \[
+ q^2 \sim 0
+ \]
+
+ |   | X  | Y    |
+ |---+----+------|
+ | X | XX | XY   |
+ |---+----+------|
+ | x | xX | *xY* |
+
+
+*** The Haldane Hypothesis 
+ - Applies to X-linked recessive traits
+   - A study of fertility rates in hemophillia
+
+ - In a large population of 2N (N \male{} and N \female)
+ - (1 - f)xN genes removed per generation
+   - x = proportion of affected males in the polulation
+   - f = effective fertility
+
+ - Each of N \female{} has 2X/cell, and each of N \male{} has 1X/cell
+ - The mean mutation rate per X-chromosome per generation is: [fn:haldane]
+
+ \[
+ u = 1/3(1 - f)x  
+ \]
+
+[fn:haldane] Haldane JB. The rate of spontaneous mutation of a human gene. 1935. J Genet 2004;83:235-44.

@@ -80,14 +80,13 @@ $(OUT_DIR)lipids_bile.pdf: ./lipids_bile/lipids_bile.org ./lipids_bile/bile/bile
 	mv -v ./lipids_bile/lipids_bile.pdf $(OUT_DIR)lipids_bile.pdf
 
 
-$(OUT_DIR)misc.pdf: ./misc/misc.org ./misc/pp/pp.org ./misc/porphyrins/porphyrins.org
+$(OUT_DIR)misc.pdf: ./misc/misc.org ./misc/pp/pp.org ./misc/porphyrins/porphyrins.org ./misc/metal/metal.org
 	emacs -u "$(id -un)" \
 	--batch \
 	--eval '(load user-init-file)' \
 	./misc/misc.org \
 	-f org-latex-export-to-pdf
 	mv -v ./misc/misc.pdf $(OUT_DIR)misc.pdf
-
 
 $(OUT_DIR)conditions.pdf: ./conditions/conditions.org ./conditions/cancer.org ./conditions/clinical.org ./conditions/complex.org ./conditions/cytogenetics.org ./conditions/metabolics.org \
 ./conditions/molecular.org ./conditions/neurogenetics.org
