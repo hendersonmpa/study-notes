@@ -2,7 +2,6 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
-
 * Introduction
 - classical neurotransmitter systems involve:
   - inhibitory
@@ -14,7 +13,7 @@
     - purinergic :: adenosine and adenosine mono-, di-, and triphosphate
 
 - Addition of
-  - neuro-peptides the largest family of signalling molecules in the nervous system)
+  - neuro-peptides the largest family of signalling molecules in the nervous system
   - channels that modulate neurotransmitter actions
   - new approaches based on synaptic physiology will likely reclassify
     neurotransmitter systems and disorders in the future.
@@ -39,16 +38,17 @@
 
 - Inborn errors of neurotransmission include neurotransmitter
   metabolism, receptor and transporter defects:
-  - Three defects of GABA catabolism have been reported (section [[GABA]])
-  - Three receptor defects (section [[Inborn Errors of Receptors and Transporter of Neurotransmitters]])
-  - Three transportopathies are reported section [[Inborn Errors of Receptors and Transporter of Neurotransmitters]])
-  - Six disorders of monoamine metabolism (section [[Inborn Errors of Monoamine Metabolism]])
+  - Three defects of GABA catabolism have been reported (section [[GABA catabolism]])
+  - Three receptor defects (section [[Receptors and Transporters of Neurotransmitters]])
+  - Three transportopathies are reported section [[Receptors and Transporters of Neurotransmitters]])
+  - Six disorders of monoamine metabolism (section [[Monoamine Metabolism]])
   - See aminoacidopathies for disorders of glycine metabolism
-* GABA Catabolism
+* GABA catabolism
 - Three defects of GABA catabolism have been reported:
   1) GABA transaminase deficiency (very rare, severe, and untreatable)
   2) succinic semialdehyde dehydrogenase (SSADH) deficiency
   3) homocarnosinosis
+
 #+CAPTION[]: Brain metabolism of GABA: 1 glutamic acid decarboxylase; 2 GABA transaminase; 3 succinic semialdehyde dehydrogenase
 #+NAME: fig:gaba
 #+ATTR_LaTeX: :width 0.9\textwidth
@@ -103,7 +103,7 @@
   (which are already elevated) is prudent, and the visual field
   disturbances associated with vigabatrin are treatment limiting
 
-* Inborn Errors of Receptors and Transporters of Neurotransmitters
+* Receptors and Transporters of Neurotransmitters
 - receptors defects:
   - hyperekplexia is usually due to a dominantly inherited defect of the
     \alpha 1 subunit of the glycine receptor which causes excessive
@@ -118,7 +118,7 @@
   - diseases that produce early parkinsonism-dystonia:
     - dopamine transporter defect
     - vesicular monoamine transporter type 2 defect
-* Inborn Errors of Monoamine Metabolism
+* Monoamine Metabolism
 - The monoamines, adrenaline, noradrenaline, dopamine, and serotonin,
   are metabolites of the amino acids tyrosine and tryptophan
 - The first step in their formation is catalysed by
@@ -158,7 +158,7 @@
     - \uparrow HVA, MHPG, and 5-HIAA in the CSF
     - The HVA/5HIAA ratio in CSF is the most sensitive marker not only
       for diagnosis but also to identify the severity of the phenotype
-  - dopamine β-hydroxylase deficiency
+  - dopamine \beta-hydroxylase deficiency
     - severe orthostatic hypotension with sympathetic failure
     - \Downarrow plasma noradrenaline and adrenaline
     - \uparrow plasma dopamine

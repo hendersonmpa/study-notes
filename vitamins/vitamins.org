@@ -1,4 +1,4 @@
-#+TITLE: Miscellaneous IEM
+#+TITLE: Vitamins
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
@@ -29,15 +29,5 @@
 #+LaTeX_HEADER: \pagestyle{fancy}
 :END:
 
-* Neurotransmission
-#+INCLUDE: "./neuro/neuro.org" :lines "4-"
-* Peptides
-#+INCLUDE: "./peptides/peptides.org" :lines "4-"
-* Metal
-#+INCLUDE: "./metal/metal.org" :lines "4-"
-
-* Purine and Pyrimidine Metabolism
-#+INCLUDE: "./pp/pp.org" :lines "4-"
-
-* Porphyrias
-#+INCLUDE: "./porphyrins/porphyrins.org" :lines "4-"
+* Biotin-responsive Disorders
+#+INCLUDE: "./biotin/biotin.org" :lines "4-"

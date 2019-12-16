@@ -1,0 +1,78 @@
+#+TITLE: Biotin
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+* Introduction
+- biotin is a water-soluble vitamin widely present in small amounts in
+  natural food-stuffs, in which it is mostly protein bound
+- classic role of biotin is to function as the coenzyme of five
+  important carboxylases involved in gluconeogenesis, fatty acid
+  synthesis and the catabolism of several amino acids
+- covalent binding of biotin to the inactive apocarboxylases,
+  catalysed by holocarboxylase synthetase (HCS), is required to
+  generate the active holocarboxylases
+- recycling of biotin first involves proteolytic degradation of the
+  holocarboxylases, yielding biotin bound to lysine (biocytin) or to
+  short biotinyl peptides
+- biotinidase releases biotin 
+- transcription of a large number of genes, including those encoding
+  HCS and the biotin-dependent carboxylases , is regulated by biotin
+  in a process that requires biotinyl-5’-AMP, the intermediate of the
+  HCS reaction
+- SLC19A3 encoding the thiamine transporter hTHTR2, mutations cause
+  biotin-responsive basal ganglia disease
+
+- two inherited defects affecting the coenzyme function of biotin:
+  1) holocarboxylase synthetase (HCS) deficiency
+  2) biotinidase deficiency
+- both lead to deficiency of all biotin-dependent carboxylases
+  - multiple carboxylase deficiency (MCD)
+- HCS deficiency \to impaired binding of biotin to apocarboxylases
+- biotinidase deficiency \to biotin depletion
+
+
+#+CAPTION[]:Biotin dependant carboxylases
+#+NAME: fig:carb
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./biotin/figures/carboxylases.png]]
+
+
+#+CAPTION[]:Biotin cycle
+#+NAME: fig:biotin
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./biotin/figures/biotin.png]]
+
+
+** Clinical Presentation
+- the carboxylases play an essential role in:
+  - the catabolism of several amino acids
+  - gluconeogenesis
+  - fatty-acid synthesis
+- deficiency provokes multiple, life-threatening metabolic
+  derangements
+  - characteristic organic aciduria, neurological symptoms and skin
+    disease
+- patients with HCS deficiency commonly present with typical MCD
+- patients with biotinidase deficiency show a less consistent clinical
+  picture
+- onset in biotinidase deficiency may be insidious and the
+  manifestation is usually very variable
+  - neurological symptoms often being prominent
+  - without markedly abnormal organic acid excretion or metabolic
+    acidosis
+- Later-onset forms of HCS deficiency cannot be clinically
+  distinguished from biotinidase deficiency
+
+- characteristic symptoms include:
+  - metabolicacidosis, hypotonia, seizures, ataxia, impaired
+    consciousness and cutaneous symptoms, such as skin rash and
+    alopecia.
+- all patients with biotinidase and a majority of patients with HCS
+  deficiency respond dramatically to oral therapy with pharmacological
+  doses of biotin
+- delayed diagnosis and treatment in biotinidase deficiency may result
+  in irreversible neurological damage
+- a few patients with HCS deficiency show only a partial or even no
+  response to biotin and seem to have an impaired long-term
+  outcome.
+- acquired biotin deficiency, which also causes MCD, is extremely rare

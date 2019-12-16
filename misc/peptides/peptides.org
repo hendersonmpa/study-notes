@@ -3,7 +3,7 @@
 #+DATE: \today
 
 
-* Introduction
+* TMA and Choline
 ** Trimethylamine Metabolism
 - trimethylamine (TMA) is a volatile tertiary amine which smells of rotting fish
 - a bacterial metabolite which is produced by anaerobes resident
@@ -14,17 +14,140 @@
   - product is TMA-N-oxide (TMAO) which is non-odorous and is
     excreted in urine
 - more than 90% of the absorbed TMA is oxidised and the urinary output
-  of unmetabolised TMA in adults on a Western diet is only around 17–35 μmol/24 h
+  of unmetabolised TMA in adults on a Western diet is only around 17-35 umol/24 h
 - FMO3 is not produced by the fetus after 15 weeks of gestation or,
   usually, in the first month of life.
 - levels increase to around 8% of adult values by nine months of age and 20% by 11 years
 - FMO3 activity is inhibited by indoles from brassicas and is reduced perimenstrually
+
+#+CAPTION[]:TMA
+#+NAME: fig:tma
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/tma.png]]
 
 ** Catabolism of Choline
 - occurs within mitochondria and involves the sequential removal of
   two methyl groups by dimethylglycine dehydrogenase (DMGDH) and
   sarcosine dehydrogenase (SDH)
 - flavin enzymes with covalently linked FAD which use folate as co-factor
-- The methyl groups from dimethylglycine and sarcosine are transferred to tetrahydrofolate (THF)
+- the methyl groups from dimethylglycine and sarcosine are transferred
+  to tetrahydrofolate (THF)
   - forming 5,10-methylene THF
-- electrons are transferred from FAD \to electron transfer flavoprotein (ETF) \to mito ETC
+- electrons are transferred from FAD \to electron transfer
+  flavoprotein (ETF) \to mito ETC
+
+#+CAPTION[]:Choline catabolism
+#+NAME: fig:chol
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/choline.png]]
+
+** Trimethylaminuria (Fish Malodour Syndrome)
+*** Clinical Presentation
+ - TMA is excreted in the breath, sweat, urine and vaginal secretions
+ - individuals with trimethylaminuria (TMAU) excrete excessive amounts
+   of TMA and when this happens have an unpleasant, pervasive body
+   odour of decaying fish
+   - Severe TMAU :: null mutation, onset in infancy
+   - Mild TMAU :: polymorphisms, adult onset
+   - Transient Childhood :: choline supplementation, mild variants, 2\degree to illness
+
+*** Metabolic Derangement
+ - FMO3 deficiency
+ - TMAU results when the oxidative capacity of FMO3 is overwhelmed by
+   TMA substrate
+
+*** Genetics
+ - AR, ~1% carrier freq
+ - five FMO genes (FMO1-5) and six pseudogenes located in two clusters
+   on chromosome 1 (q23-q25)
+ - FMO3 is the main isoform of the enzyme in adult liver and the only
+   isoform which oxidises TMA
+
+*** Diagnostic Tests
+ - common causes of abnormal body odour and urine infection are
+   excluded
+ - random urine sample is collected if the odour is obvious, if not
+   menstruating
+ - otherwise, urine is collected after a high choline meal (for example
+   two eggs and baked beans) or a 300 g marine fish meal
+   - either as a timed 6-8 hour collection, or as a random sample after 2-12 h
+ - urine is acidified quickly to pH 2.0 and frozen until analysis
+   - NMR spectroscopy or mass spectrometric
+   - TMA, TMAO and total TMA
+     - normal :: \lt 10%
+     - mild :: TMA:total TMAO 10–39%
+     - severe :: \ge 40% 
+
+*** Treatment
+ - \downarrow choline diet
+ - \uparrow folate
+
+* Glutathione
+- Glutathione (GSH) is a tripeptide consisting of glutamate, cysteine and glycine
+- one of the most important antioxidants also:
+  - drug metabolism, free-radical scavenging, biosynthesis of DNA and
+    proteins as well as amino acid transport
+- synthesized and metabolized in the \gamma-glutamyl cycle
+- six enzymes involved in synthesis and turnover
+- synthesised from glutamate by sequential actions of
+  \gamma-glutamylcysteine synthetase and glutathione
+  synthetase
+- degradation involves four enzymes
+  - \gamma-Glutamyl transpeptidase initiates the breakdown by
+    catalysing the transfer of its \gamma-glutamyl-group to
+    acceptors
+  - \gamma-glutamyl residues are substrates of the
+    \gamma-glutamyl-cyclotransferase which converts them to
+    5-oxoproline and the corresponding amino acids
+- Conversion of 5-oxoproline to glutamate is catalysed by
+  5-oxoprolinase.
+- a dipeptidase splits cysteinylglycine, which is formed in the
+  transpeptidation reaction, into glycine and cysteine
+- biosynthesis of GSH is feedback regulated
+  - GSH inhibits of \gamma-glutamylcysteine synthetase
+- Genetic defects have been described in five of the six enzymes of
+  the \gamma-glutamyl cycle
+
+#+CAPTION[]: The \gamma-glutamyl cycle
+#+NAME: fig:ggc
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/gsh.png]]
+
+
+** Glutathione Synthetase Deficiency
+*** Clinical Presentation
+- classified as mild, moderate or severe
+  - mild :: mild hemolytic anemia
+  - moderate :: present during the neonatal period, with severe and
+                chronic metabolic acidosis, hemolytic anemia, jaundice
+                and 5-oxoprolinuria
+  - severe :: above plus progressive CNS symptoms
+
+*** Metabolic Derangement
+- GS catalyses the last step of GSH synthesis
+- deficiency leads to low cellular GSH and excessive production of
+  \gamma-glutamylcysteine, the metabolite before the enzyme defect
+- \downarrow feedback inhibition of \gamma-glutamylcysteine synthetase
+  \to \uparrow \gamma-glutamylcysteine
+- \gamma-glutamylcysteine \to 5-oxoproline by \gamma-glutamyl
+  cyclotransferase
+- \Uparrow 5-oxoproline exceeds the capacity of 5-oxoprolinase
+- \uparrow 5-oxoproline \to metabolic acidosis and 5-oxoprolinuria
+
+*** Genetics
+- AR
+
+*** Diagnostic Tests
+- \uparrow urine 5-oxoproline
+- \downarrow rbc GSH
+- \downarrow RBC or fibroblast GS activity
+  - 1-30% of normal
+- mutation analysis
+
+*** Treatment
+- management of GS deficient patients is aimed at correction of
+  acidosis, prevention of hemolytic crises and support of endogenous
+  defence against reactive oxygen species
+- bicarbonate in acute acidosis
+- blood trxn for hemolysis
+- vitamin E and C
