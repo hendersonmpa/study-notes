@@ -1,0 +1,30 @@
+#+TITLE: Peptides
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+
+* Introduction
+** Trimethylamine Metabolism
+- trimethylamine (TMA) is a volatile tertiary amine which smells of rotting fish
+- a bacterial metabolite which is produced by anaerobes resident
+  in the human colon from choline (present in lecithin), carnitine and
+  betaine, and from trimethylamine-N-oxide (TMAO) in salt water fish and shell-fish
+- TMA is absorbed from the intestine and oxidised in the liver by
+  flavin-containing monooxygenase 3 (FMO3), a microsomal NADPH-dependent enzyme.
+  - product is TMA-N-oxide (TMAO) which is non-odorous and is
+    excreted in urine
+- more than 90% of the absorbed TMA is oxidised and the urinary output
+  of unmetabolised TMA in adults on a Western diet is only around 17–35 μmol/24 h
+- FMO3 is not produced by the fetus after 15 weeks of gestation or,
+  usually, in the first month of life.
+- levels increase to around 8% of adult values by nine months of age and 20% by 11 years
+- FMO3 activity is inhibited by indoles from brassicas and is reduced perimenstrually
+
+** Catabolism of Choline
+- occurs within mitochondria and involves the sequential removal of
+  two methyl groups by dimethylglycine dehydrogenase (DMGDH) and
+  sarcosine dehydrogenase (SDH)
+- flavin enzymes with covalently linked FAD which use folate as co-factor
+- The methyl groups from dimethylglycine and sarcosine are transferred to tetrahydrofolate (THF)
+  - forming 5,10-methylene THF
+- electrons are transferred from FAD \to electron transfer flavoprotein (ETF) \to mito ETC

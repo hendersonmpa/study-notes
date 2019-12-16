@@ -1,0 +1,190 @@
+#+TITLE: Neurotransmission
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+
+* Introduction
+- classical neurotransmitter systems involve:
+  - inhibitory
+    - aminoacidergic :: \gamma-aminobutyric acid (GABA) and glycine
+  - excitatory
+    - aminoacidergic :: aspartate and glutamate
+    - cholinergic :: acetylcholine
+    - monoaminergic :: adrenaline, noradrenaline, dopamine, and serotonin
+    - purinergic :: adenosine and adenosine mono-, di-, and triphosphate
+
+- Addition of
+  - neuro-peptides the largest family of signalling molecules in the nervous system)
+  - channels that modulate neurotransmitter actions
+  - new approaches based on synaptic physiology will likely reclassify
+    neurotransmitter systems and disorders in the future.
+
+- GABA is formed from glutamic acid by glutamic acid decarboxylase
+- catabolized into succinic acid through the sequential action of two
+  mitochondrial enzymes:
+  - GABA transaminase and succinic semialdehyde dehydrogenase
+- Glutamic acid decarboxylase and GABA transaminase require pyridoxal phosphate as a coenzyme
+- Pyridoxal phosphate also participates in the synthesis of dopamine and serotonin
+  - and many other pathways including the glycine cleavage system
+- GABA is a major inhibitory neurotransmitter present in high concentration in the CNS
+  - predominantly in the gray matter
+- GABA modulates brain activity by binding to
+  sodium-independent,high-affinity, mostly GABA A receptors
+- Glycine is one of the major inhibitory neurotransmitters in the CNS
+- The inhibitory glycine receptors are mostly found in the brain stem
+  and spinal cord
+- Glutamate is the major excitatory neurotransmitter in the brain
+- Its function requires rapid uptake to replenish intracellular
+  neuronal pools following extracellular release
+
+- Inborn errors of neurotransmission include neurotransmitter
+  metabolism, receptor and transporter defects:
+  - Three defects of GABA catabolism have been reported (section [[GABA]])
+  - Three receptor defects (section [[Inborn Errors of Receptors and Transporter of Neurotransmitters]])
+  - Three transportopathies are reported section [[Inborn Errors of Receptors and Transporter of Neurotransmitters]])
+  - Six disorders of monoamine metabolism (section [[Inborn Errors of Monoamine Metabolism]])
+  - See aminoacidopathies for disorders of glycine metabolism
+* GABA Catabolism
+- Three defects of GABA catabolism have been reported:
+  1) GABA transaminase deficiency (very rare, severe, and untreatable)
+  2) succinic semialdehyde dehydrogenase (SSADH) deficiency
+  3) homocarnosinosis
+#+CAPTION[]: Brain metabolism of GABA: 1 glutamic acid decarboxylase; 2 GABA transaminase; 3 succinic semialdehyde dehydrogenase
+#+NAME: fig:gaba
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./neuro/figures/gaba.png]]
+
+** Succinic Semialdehyde Dehydrogenase Deficiency
+- Succinic semialdehyde dehydrogenase deficiency (SSADHD) was first
+  reported as \gamma-hydroxybutyric aciduria (4-hydroxybutyric aciduria)
+- the most prevalent of the disorders of GABA metabolism
+
+*** Clinical Presentation
+- non specific clinical manifestations including:
+  - developmental delay and early-onset hypotonia
+  - later-onset expressive language impairment
+  - obsessive–compulsive disorder
+  - hyporeflexia, non-progressive ataxia, and epilepsy
+
+*** Metabolic Derangement
+- key feature is an accumulation of \gamma-hydroxybutyrate in urine,
+  plasma, and CSF
+- \gamma-hydroxybutyrate and GABA (\uparrow 3x in CSF) are
+  neuropharmacologically active compounds
+- additional biochemical abnormalities relate to GABA, succinic semialdehyde, and GHB
+  - \uparrow homocarnosine in CSF
+  - \uparrow guanidinobutyrate in CSF
+  - \uparrow D-2-hydroxyglutarate
+  - \uparrow succinic semialdehyde
+  - \uparrow 4,5-dihydroxyhexanoic acid
+- Many of these intermediates likely derive from succinic semialdehyde
+- \downarrow glutathione, the major intracellular antioxidant
+
+*** Genetics
+- AR, ALDH5A1
+
+*** Diagnostic Tests
+- \uparrow \gamma-hydroxybutyric acid in urine
+- followed by molecular diagnosis via sequencing of ALDH5A1
+- Concomitant identification of 4,5-dihydroxyhexanoic acid , both the
+  free and lactone form (threo-, erythro-) in the organic acid profile
+  is highly suggestive
+- GHB is also employed clinically (Xyrem R (sodium saltof GHB); for
+  cataplexy) and illicitly (for induction of euphoria)
+
+*** Treatment and Prognosis
+- Sudden death can occur in patients often in association with
+  epilepsy (sudden unexplained death in epilepsy or SUDEP)
+- therapeutic intervention has historically employed vigabatrin
+  (Sabril R ; gamma-vinyl GABA)
+  - an irreversible inhibitor of GABA-transaminase
+- beneficial in some but without efficacy in others
+- remains to be determined whether enhancing GABA levels in SSADHD
+  (which are already elevated) is prudent, and the visual field
+  disturbances associated with vigabatrin are treatment limiting
+
+* Inborn Errors of Receptors and Transporters of Neurotransmitters
+- receptors defects:
+  - hyperekplexia is usually due to a dominantly inherited defect of the
+    \alpha 1 subunit of the glycine receptor which causes excessive
+    startle responses, and is treatable with clonazepam
+  - mutations in GABA A receptor are a cause of dominantly inherited
+    epilepsy
+  - mutations in glutamate receptors associate with neurodevelopmental
+    and psychiatric disorders
+- three transportopathies are reported:
+  - mitochondrial glutamate transporter defect
+    - a cause of severe epileptic encephalopathy
+  - diseases that produce early parkinsonism-dystonia:
+    - dopamine transporter defect
+    - vesicular monoamine transporter type 2 defect
+* Inborn Errors of Monoamine Metabolism
+- The monoamines, adrenaline, noradrenaline, dopamine, and serotonin,
+  are metabolites of the amino acids tyrosine and tryptophan
+- The first step in their formation is catalysed by
+  amino-acid-specific hydroxylases, which require tetrahydrobiopterin (BH_4) as a cofactor
+- BH_4 is also a cofactor of phenylalanine hydroxylase
+- Its synthesis from GTP is initiated by the rate-limiting GTP
+  cyclohydrolase-1 (GTPCH-I), which forms dihydroneopterin
+  triphosphate (NH2TP)
+- L-dopa and 5-hydroxytryptophan (5-HTP) are meabolized by a common
+  B6-dependent aromatic L-amino acid decarboxylase (AADC) into
+  dopamine (the precursor of the catecholamines, adrenaline and
+  noradrenaline) and serotonin (5-hydroxytryptamine), respectively
+- Adrenaline and noradrenaline are catabolized into vanillylmandelic
+  acid (VMA) and 3-methoxy-4-hydroxyphenylethyleneglycol (MHPG) via
+  monoamino oxidase A (MAO-A)
+- MOA-A is also involved in the catabolism of both dopamine into
+  homovanillic acid (HVA) via 3-methoxytyramine, and of serotonin into
+  5-hydroxyindoleacetic acid (5-HIAA)
+- Dopaminergic modulation of ion fluxes regulates emotion, activity,
+  behaviour, nerve conduction, and the release of a number of hormones
+  via G-protein-coupled cell-surface dopamine
+  receptors.
+- Serotoninergic neurotransmission modulates body temperature, blood
+  pressure, endocrine secretion, appetite, sexual behaviour, movement,
+  emesis, and pain.
+
+#+CAPTION[]:Metabolism of adrenaline, noradrenaline, dopamine and serotonin
+#+NAME: fig:monoamines
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./neuro/figures/monoamines.png]]
+
+- Six disorders of monoamine metabolism:
+  - Tyrosine hydroxylase (TH) deficiency
+    - impairs synthesis of dihydroxyphenylalanine (L-dopa) and causes
+      a neurological disease with prominent extrapyramidal signs, and
+      a variable response to L-dopa.
+    - \uparrow HVA, MHPG, and 5-HIAA in the CSF
+    - The HVA/5HIAA ratio in CSF is the most sensitive marker not only
+      for diagnosis but also to identify the severity of the phenotype
+  - dopamine β-hydroxylase deficiency
+    - severe orthostatic hypotension with sympathetic failure
+    - \Downarrow plasma noradrenaline and adrenaline
+    - \uparrow plasma dopamine
+  - other disorders of monoamine metabolism involve both catecholamine
+    and serotonin metabolism.
+  - Aromatic-amino acid decarboxylase (AADC)
+    - located upstream of the neurotransmitter amines
+    - treatment can be challenging
+    - \downarrow HVA and 5-HIAA in CSF
+    - \uparrow 3-O-methyl-l-dopa and 5-HTP w normal pterin concentrations
+    - \uparrow VLA in urinary organic acid 
+  - Monoamine-oxidase A (MAO-A) deficiency
+    - located downstream, mainly causes behavioral disturbances
+    - no effective treatment is known
+    - \uparrow random urine serotonin, normetanephrine, metanephrine, and 3-MT
+    - abnormal normetanephrine:VMA, normetanephrine:MHPG, HVA:VMA ratios
+  - guanosine triphosphate cyclohydrolase-I (GTPCH-I) and
+    sepiapterin reductase (SR) deficiencies
+    - pterin disorders upstream of L-dopa and 5-hydroxytryptophan
+      (5-HTP) with normal baseline phenylalaninemia and effective
+      treatment (especially GTPCH-I deficiency)
+    - GTPCH-I labs
+      - normal or \downarrow CSF HVA with
+      - \downarrow CSF 5-HIAA
+    - SR labs
+      - \uparrow CSF biopterin and sepiapterin in CSF
+      - normal CSF neopterin
+      - \Downarrow CSF HVA and 5-HIAA
+
