@@ -3,7 +3,7 @@ OUT_DIR=./notes/
 
 all: $(OUT_DIR)faod.pdf $(OUT_DIR)organic_acids.pdf $(OUT_DIR)organelles.pdf \
 $(OUT_DIR)mitochondrial_disease.pdf $(OUT_DIR)urea_cycle.pdf $(OUT_DIR)carbohydrate.pdf \
-$(OUT_DIR)lipids_bile.pdf $(OUT_DIR)misc.pdf \
+$(OUT_DIR)lipids_bile.pdf $(OUT_DIR)misc.pdf $(OUT_DIR)vitamins.pdf \
 $(OUT_DIR)methods.pdf $(OUT_DIR)conditions.pdf $(OUT_DIR)tnt.pdf clean
 
 $(OUT_DIR)faod.pdf: ./faod/faod.org ./faod/fao/fao.org ./faod/faod_routine_testing/faod_routine_testing.org \
@@ -79,6 +79,14 @@ $(OUT_DIR)lipids_bile.pdf: ./lipids_bile/lipids_bile.org ./lipids_bile/bile/bile
 	-f org-latex-export-to-pdf
 	mv -v ./lipids_bile/lipids_bile.pdf $(OUT_DIR)lipids_bile.pdf
 
+$(OUT_DIR)vitamins.pdf: ./vitamins/vitamins.org ./vitamins/biotin/biotin.org \
+./vitamins/b12b9/b12b9.org ./vitamins/b1b6/b1b6.org
+	emacs -u "$(id -un)" \
+	--batch \
+	--eval '(load user-init-file)' \
+	./vitamins/vitamins.org \
+	-f org-latex-export-to-pdf
+	mv -v ./vitamins/vitamins.pdf $(OUT_DIR)vitamins.pdf
 
 $(OUT_DIR)misc.pdf: ./misc/misc.org ./misc/pp/pp.org ./misc/porphyrins/porphyrins.org \
 ./misc/metal/metal.org ./misc/peptides/peptides.org
@@ -98,7 +106,6 @@ $(OUT_DIR)conditions.pdf: ./conditions/conditions.org ./conditions/cancer.org ./
 	-f org-latex-export-to-pdf
 	mv -v ./conditions/conditions.pdf $(OUT_DIR)conditions.pdf
 
-
 $(OUT_DIR)methods.pdf: ./methods/ac/ac.org ./methods/aa/aa.org ./methods/oa/oa.org
 	emacs -u "$(id -un)" \
 	--batch \
@@ -106,7 +113,6 @@ $(OUT_DIR)methods.pdf: ./methods/ac/ac.org ./methods/aa/aa.org ./methods/oa/oa.o
 	./methods/methods.org \
 	-f org-latex-export-to-pdf
 	mv -v ./methods/methods.pdf $(OUT_DIR)methods.pdf
-
 
 $(OUT_DIR)tnt.pdf: ./tnt/tnt.org
 	emacs -u "$(id -un)" \

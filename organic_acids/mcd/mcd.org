@@ -179,8 +179,12 @@
 ** Partial & Profound Deficiency
 
 *** Profound Deficiency
-- Initially, most symptomatic children with biotinidase deficiency were found to have 3% of mean serum biotinidase activity of normal individuals.
-- Three standard deviations above this mean, corresponding to 10% of mean normal activity, was taken as the threshold below which individuals were considered to have profound biotinidase deficiency.
+- Initially, most symptomatic children with biotinidase deficiency
+  were found to have 3% of mean serum biotinidase activity of normal
+  individuals.
+- Three standard deviations above this mean, corresponding to 10% of
+  mean normal activity, was taken as the threshold below which
+  individuals were considered to have profound biotinidase deficiency.
 
 *** Partial Deficiency
 - With NBS for biotinidase deficiency babies were identified with about 25% of mean normal activity.

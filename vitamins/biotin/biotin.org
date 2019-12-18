@@ -22,15 +22,6 @@
 - SLC19A3 encoding the thiamine transporter hTHTR2, mutations cause
   biotin-responsive basal ganglia disease
 
-- two inherited defects affecting the coenzyme function of biotin:
-  1) holocarboxylase synthetase (HCS) deficiency
-  2) biotinidase deficiency
-- both lead to deficiency of all biotin-dependent carboxylases
-  - multiple carboxylase deficiency (MCD)
-- HCS deficiency \to impaired binding of biotin to apocarboxylases
-- biotinidase deficiency \to biotin depletion
-
-
 #+CAPTION[]:Biotin dependant carboxylases
 #+NAME: fig:carb
 #+ATTR_LaTeX: :width 0.9\textwidth
@@ -42,17 +33,24 @@
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./biotin/figures/biotin.png]]
 
+* Biotin-responsive disorders
+- two inherited defects affecting the coenzyme function of biotin:
+  1) holocarboxylase synthetase (HCS) deficiency
+  2) biotinidase deficiency
+- HCS deficiency \to impaired binding of biotin to apocarboxylases
+- biotinidase deficiency \to biotin depletion
+- both lead to multiple carboxylase deficiency (MCD) a deficiency of
+  all biotin-dependent carboxylases:
+  1) acetyl-CoA carboxylase (ACC)
+  2) propionyl-CoA carboxylase (PCC)
+  3) 3-methylcrotonyl carboxylase (MCC)
+  4) pyruvate carboxylase (PC)
+  5) urea carboxylase (UC)
 
 ** Clinical Presentation
-- the carboxylases play an essential role in:
-  - the catabolism of several amino acids
-  - gluconeogenesis
-  - fatty-acid synthesis
-- deficiency provokes multiple, life-threatening metabolic
-  derangements
-  - characteristic organic aciduria, neurological symptoms and skin
-    disease
 - patients with HCS deficiency commonly present with typical MCD
+  - organic aciduria, neurological symptoms and skin
+    disease
 - patients with biotinidase deficiency show a less consistent clinical
   picture
 - onset in biotinidase deficiency may be insidious and the
@@ -60,19 +58,156 @@
   - neurological symptoms often being prominent
   - without markedly abnormal organic acid excretion or metabolic
     acidosis
-- Later-onset forms of HCS deficiency cannot be clinically
+- later-onset forms of HCS deficiency cannot be clinically
   distinguished from biotinidase deficiency
 
-- characteristic symptoms include:
-  - metabolicacidosis, hypotonia, seizures, ataxia, impaired
-    consciousness and cutaneous symptoms, such as skin rash and
-    alopecia.
-- all patients with biotinidase and a majority of patients with HCS
-  deficiency respond dramatically to oral therapy with pharmacological
-  doses of biotin
-- delayed diagnosis and treatment in biotinidase deficiency may result
-  in irreversible neurological damage
-- a few patients with HCS deficiency show only a partial or even no
-  response to biotin and seem to have an impaired long-term
-  outcome.
 - acquired biotin deficiency, which also causes MCD, is extremely rare
+  - excessive consumption of raw eggs - avidin
+
+- deficient activity of biotin-dependent carboxylases in both HCS and
+  biotinidase deficiencies results in accumulation of:
+  - lactic acid
+  - derivatives of 3-methylcrotonyl-coenzyme A (CoA)
+  - derivatives of propionyl-CoA
+
+*** HCS Deficiency
+- age of onset varies widely,from a few hours after birth to 8 years
+  of age
+- \sim 50% presented acutely in the first days of life with symptoms
+  very similar to those observed in other severe organic acidurias
+  - lethargy, hypotonia, vomiting, seizures and hypothermia
+- infection \to catabolism \to acute illness
+
+*** Biotinidase Deficiency
+- gradual development of symptoms and episodes of remission
+  - may be related to increased free biotin in the diet
+- clinical picture has been reported as early as 7 weeks
+- neurological symptoms may occur much earlier, even in neonatal period:
+  - lethargy, muscular hypotonia, grand mal and myoclonic seizures, ataxia
+- the most frequent initial symptoms are neurological
+- many children also have developmental delay, hearing loss,
+  conjunctivitis and visual problems, including optic atrophy
+- skin rash and/or alopecia are hallmarks but may develop late or not
+  at all
+- metabolic acidosis and the characteristic organic aciduria of MCD
+  are frequently lacking in the early stages of the disease
+- plasma lactate and 3-hydroxyisovalerate may be only slightly
+  elevated,
+- CSF levels may be significantly higher
+
+** Metabolic Derangement
+*** HCS Deficiency
+- decreased affinity of the enzyme for biotin and/or a decreased
+  maximal velocity lead to reduced formation of the five
+  holocarboxylases from their corresponding inactive apocarboxylases
+  at physiological biotin concentrations
+- increased Km for Biotin
+  - normally 1-6 nmol/L, patients 9-12 nmol/L
+- abnormality of the K m values correlates well with the time of onset
+  and severity of illness
+  - \uparrow K_M \to early onset, severe disease
+
+- mutations outside the biotin-binding site in the N-terminal region
+  are associated with virtually normal K_M but decreased V_{max}
+  - most patients with V_{max} mutation respond to a higher biotin
+    dose and residual biochemical and clinical abnormalities persist
+  - response likely due to \uparrow HLCS mRNA transcription
+
+#+begin_src gnuplot :file ./mcd/figures/kinetics.png
+  reset
+  set title "HCS Kinetics"
+  set xlabel "Substrate [S]"
+  set xrange [0:100]
+  set ylabel "Velocity (V)"
+  set yrange [0:60]
+  f(vmax,km,x) = (vmax*x)/(x + km)
+  v(vmax,km,x) = vmax * x/(x + km) 
+  vmax1 = 50 
+  km1 = 15
+  vmax2 = 48
+  km2 = 42
+
+  set arrow from 0,vmax1 to 100,vmax1 lw 2 nohead  lc 1
+  set label 1 at 3,(vmax1 +1.5) "Vmax" front
+  set arrow from 0,vmax2 to 100,vmax2 lw 2 nohead  lc 2
+  set label 2 at (km1 + 0.5),7 "Km WT" front
+  set label 3 at (km2 + 0.5),7 "Km MCD" front
+  set arrow from km1,0 to km1,f(vmax1,km1,km1) lw 2 nohead
+  set arrow from 0,v(vmax1,km1,km1) to km1,v(vmax1,km1,km1) lw 2 nohead
+  set arrow from km2,0 to km2,f(vmax2,km2,km2) lw 2 nohead
+  set arrow from 0,v(vmax2,km2,km2) to km2,v(vmax2,km2,km2) lw 2 nohead
+
+  plot f(vmax1,km1,x) with lines lw 2 title 'WT',\
+       f(vmax2,km2,x) with lines lw 2 title 'MCD'
+
+#+end_src
+
+#+CAPTION[Kinetics]:Holocarboxylase Synthetase Kinetics
+#+NAME: fig:kinetics
+#+ATTR_LaTeX: :width 0.9\textwidth
+#+RESULTS:
+[[file:./mcd/figures/kinetics.png]]
+
+*** Biotinidase deficiency
+ - biotin cannot be released from biocytin and short biotinyl
+   peptides
+   - unable to recycle endogenous biotin and use protein-bound dietary biotin
+ - biotin is lost in the urine, mainly as biocytin
+
+** Genetics
+- HCS :: AR , HLCS
+- Biotinidase :: AR, BTD
+  - one-third of the alleles, are c.98-104del7ins3 and p.R538C
+  - ~ 50% NBS positive are p.Q456H, the double-mutant allele p.A171T +
+    p.D444H, and p.D252G
+  - almost all individuals with partial biotinidase deficiency have
+    the p.D444H mutation in combination with a mutation causing
+    profound biotinidase deficiency on the second allele
+
+** Diagnostic Tests
+- A characteristic organic aciduria is the key feature of MCD.
+- unpleasant urine odour (cat’s urine) may even be suggestive of the
+  defect
+- MCD is reflected in elevated urinary and plasma concentrations of
+  organic acids as follows:
+  - Deficiency of MCC:
+    - \Uparrow urine 3-hydroxyisovaleric acid
+    - \Uparrow plasma 3-hydroxyisovalerylcarnitine (C5-OH)
+    - \uparrow urine 3-methylcrotonylglycine
+    - \uparrow plasma tiglylcarnitine (C5:1)
+  - Deficiency of PCC:
+    - \uparrow urine methylcitrate
+    - \uparrow urine 3-hydroxypropionate
+    - \uparrow urine propionylglycine
+    - \uparrow urine tiglylglycine
+    - \uparrow urine propionic acid
+    - \uparrow plasma propionylcarnitine (C3)
+  - Deficiency of PC:
+    - \Uparrow lactate
+    - \downarrow pyruvate
+- *NB* a similar organic acid profile can occur in patients with
+  hyperammonemia due to carbonic anhydrase VA deficiency
+
+- above pattern seen in HCS during acute illness
+- biotindase deficiency often only \uparrow urine 3-hydroxyisovalerate
+- biotinidase activity in serum
+- confirm with molecular testing 
+
+*** Biotinidase Activity
+- initially, most symptomatic children with biotinidase deficiency
+  were found to have 3% of mean serum biotinidase activity of normal
+  individuals
+- three standard deviations above this mean, corresponding to 10% of
+  mean normal activity, was taken as the threshold below which
+  individuals were considered to have profound biotinidase deficiency
+- with NBS for biotinidase deficiency babies were identified with about 25% of mean normal activity
+  - ~ all have p.Asp444His variant as one of their alleles
+- this variant, together with a variant for profound deficiency on the
+  other allele, results in 10–30% of mean normal biotinidase activity.
+- These children are considered to have partial biotinidase deficiency
+
+** Treatment and Prognosis
+- oral biotin, at pharmacological dose
+- initiate treatment prior to irreversible neurological damage
+  - deafness
+- treatment of partial biotinidase deficiency is recommended

@@ -29,5 +29,11 @@
 #+LaTeX_HEADER: \pagestyle{fancy}
 :END:
 
-* Biotin-responsive Disorders
+* Biotin
 #+INCLUDE: "./biotin/biotin.org" :lines "4-"
+
+* Cobalamin and Folate
+#+INCLUDE: "./b12b9/b12b9.org" :lines "4-"
+
+* Thiamine and Pyridoxine
+#+INCLUDE: "./b1b6/b1b6.org" :lines "4-"
