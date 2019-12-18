@@ -1,0 +1,209 @@
+#+TITLE: Cobalamin and Folate
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+* Introduction
+** Cobalamin - B_{12}
+- Cobalamin (Cbl or vitamin B_{12}) is a cobalt-containing
+  water-soluble vitamin that is synthesised by lower organisms but not
+  by higher plants and animals
+- only source of Cbl in the human diet is animal products
+- Cbl is needed for only two reactions in man:
+  - MeCbl it is a cofactor of the cytoplasmic enzyme methionine synthase (MTR)
+\ce{HCY + MeCbl + 5-methylTHF ->[MTR] MET + B_{12} + THF}
+  - AdoCbl is a cofactor of the mitochondrial enzyme methylmalonyl-coenzyme A mutase (MUT)
+\ce{methylmalonyl-CoA ->[MUT + AdoCbl] succinyl-CoA}
+- its metabolism involves complex absorption and transport systems and
+  multiple intracellular conversions.
+
+
+#+CAPTION[]:Cobalamin (Cbl) endocytosis and intracellular metabolism
+#+NAME: fig:cbl
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./b12b9/figures/cbl.png]]
+
+- serum Cbl level is usually low in patients with disorders affecting
+  absorption and transport of Cbl
+  - with the exception of transcobalamin (TC) deficiency
+- patients with disorders of intracellular Cbl metabolism typically
+  have serum Cbl levels within the reference range
+  - levels may be reduced in the cblF and cblJ disorders
+- disorders of Cbl absorption,transport, MeCbl synthesis result in:
+  - homocystinuria, hyperhomocysteinaemia
+  - megaloblastic anaemia
+  - neurological disorders
+- disorders of AdoCbl synthesis result in:
+  - methylmalonic aciduria and acidemia (MMA) resulting in metabolic
+    acidosis
+- \uparrow urine MMA and plasma Hcy are also found in nutritional
+  vitamin B_{12} deficiency
+- severe vitamin B_{12} deficiency in newborn infants can occur in
+  breast fed infants born to vegan mothers or those with sub-clinical
+  pernicious anaemia can range from:
+  - elevation in serum concentration of propionylcarnitine detected by
+    newborn screening
+  - severe neonatal encephalopathy
+- mother does not necessarily have a very low serum concentration of
+  vitamin B_{12}
+- IM vitamin B_{12} replacement therapy to normalize vitamin B_{12} serum
+  concentration reverses the metabolic abnormality
+
+** Folate - B_{9}
+- folic acid (pteroylglutamic acid) is plentiful in foods such as
+  liver, leafy vegetables, legumes and some fruits
+- metabolism involves reduction to dihydrofolate (DHF) and
+  tetrahydrofolate (THF)
+  - followed by addition of a single-carbon unit, which is provided by
+    serine or histidine; this carbon unit occurs in various redox
+    states
+    - methyl, methylene, methenyl or formyl
+- transfer of this single-carbon unit is essential for the endogenous
+  formation of:
+  - methionine
+  - thymidylate (dTMP)
+  - formylglycineamide ribotide (FGAR) and
+    formylaminoimidazolecarboxamide ribotide (FAICAR) two
+    intermediates of purine synthesis
+- these reactions regenerate DHF and THF
+- the predominant folate derivative in blood and in cerebrospinal
+  fluid is 5-methylTHF
+  - product of the methylenetetrahydrofolate reductase (MTHFR) rxn
+
+#+CAPTION[]:Folate metabolism
+#+NAME: fig:folate
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./b12b9/figures/folate.png]]
+
+* Cobalamin
+** Absorption and Transport
+- absorption of dietary Cbl first involves binding to a glyco protein
+  (haptocorrin,R binder) in the saliva
+- haptocorrin is digested by proteases in the intestine
+  - releases Cbl to bind to intrinsic factor (IF)
+- IF-Cbl binds to receptor cubam and enters the enterocyte
+- Cbl enters the portal circulation bound to transcobalamin (TC)
+  - TC is the physiologically important circulating Cbl-binding
+    protein
+- inherited defects of several of these steps are known
+  - Hereditary Intrinsic Factor Deficiency
+  - Defective Transport of Cobalamin by Enterocytes
+  - Haptocorrin (R Binder) Deficiency
+  - Transcobalamin Deficiency
+  - Transcobalamin Receptor Deficiency
+- all are rare
+** Cbl mutants (A-G, J, X)
+- a number of disorders of intracellular metabolism of Cbl have been
+  classified as cbl mutants (A-G, J, X)
+  - based on the biochemical phenotype and somatic cell analysis
+- precise diagnosis of the inborn errors of Cbl metabolism requires
+  either tests in cultured fibroblasts or identification of causal
+  mutations
+- complementation analysis can be used to reliably assign a patient to
+  one of the known classes of inborn error if function of either
+  methylmalonyl-Coenzyme A (CoA) mutase or methionine synthase is
+  reduced in patient fibroblasts
+- the one exception is the cblX disorder which cannot be
+  differentiated from cblC by complementation analysis
+** Combined AdoCbl and MeCbl Deficiencies
+- /cblF, cblJ, cblC, cblX, CblD/
+** Cobalamin C
+*** Clinical Presentation
+- most frequent inborn error of Cbl metabolism
+- many acutely ill in the 1st month of life
+- most were diagnosed within the 1st year
+- early-onset group shows feeding difficulties and lethargy
+  - followed by progressive neurological deterioration may include: 
+    - hypotonia, hypertonia or both, abnormal movements or seizures
+      and coma
+  - severe pancytopenia or a non-regenerative anaemia may be present
+    - megaloblastic on bone marrow examination
+- a small number of cblC patients diagnosed \gt 1st year of life
+  - as late as 4th decade
+
+*** Metabolic Derangement
+- /cblC/ is caused by defects in MMACHC
+- MMACHC binds Cbl and catalyses removal of upper axial ligands from
+  alkylcobalamins including the methyl group from MeCbl and the
+  adenosyl group from AdoCbl and from CNCbl
+
+*** Genetics
+- AR, MMACHC
+- c.271dupA accounts for \ge 40% of disease alleles in patient
+  populations of European origin
+
+*** Diagnostic Tests
+- methylmalonic acidaemia and aciduria are the
+  biochemical hallmarks of this disease
+  - MMA \lt MUT deficiency
+  - MMA \gt transport defects
+- \uparrow plasma total homocysteine
+- \downarrow to normal plasma methionine
+- \uparrow urine HCY
+
+*** Treatment
+- parenteral OHCbl
+- oral betaine
+
+** Cobalamin X
+- /cblX/ is caused by mutations in HCFC1
+- same phenotype as /cblC/
+  - encodes a transcription regulator that affects expression of a
+    number of genes, including MMACHC (/cblC/)
+- The metabolic consequences of mutations stem from decreased MMACHC
+  expression leading to decreased synthesis of both AdoCbl and MeCbl
+
+** Adenosylcobalamin Deficiency
+- /cblA and cblB/
+- characterised by methylmalonic aciduria (MMA)
+- often Cbl-responsive
+- phenotype resembles methylmalonyl-CoA mutase deficiency
+- treated with protein restriction and OHCbl
+
+** Methylcobalamin Deficiency
+- /cblE and cblG/
+- megaloblastic anaemia and neurological disease
+* Folate
+- there are a number of very rare disorders of folate absorption and metabolism
+- severe MTHFR deficiency is the most frequent
+** Methylenetetrahydrofolate Reductase Deficiency
+- severe form of this deficiency not the polymorphisms associated
+  common disease risk
+  - neural tube defects
+  - cardiovascular disease
+*** Clinical Presentation
+- most diagnosed in infancy
+- \gt 50% present in the 1st year of life
+- common presentation is progressive encephalopathy with apnoea,
+  seizures and microcephaly
+- not associated with megaloblastic anaemia
+
+*** Metabolic Derangement
+- \downarrow methyl-THF 
+- methyl-THF is the methyl donor for the conversion of homocysteine \to methionine
+  - \uparrow total plasma homocysteine
+  - \downarrow methionine
+- the block in the conversion of methylene-THF to methyl-THF does not
+  result in the trapping of folates as methyl-THF and does not
+  interfere with the availability of reduced folates for purine and
+  pyrimidine synthesis in contrast to disorders at the level of
+  methionine synthase
+  - explains why patients do not have megaloblastic anaemia
+
+*** Genetics
+- AR, MTHFR
+
+*** Diagnostic Tests
+- methyl-THF is the major circulating form of folate
+  - \therefore serum folate levels may sometimes be low
+- \Uparrow plasma homocysteine
+- \downarrow plasma methionine
+
+*** Treatment
+- betaine (trimethylglycine)
+- betaine-homocysteine methyltransferase (BHMT) is betaine
+  (trimethylglycine)–dependent
+\ce{trimethylglycine (methyl donor) + homocysteine (hydrogen donor) ->[BHMT] dimethylglycine (hydrogen receiver) + methionine (methyl receiver)}
+- in the liver, BHMT catalyzes up to 50% of homocysteine metabolism
+
+
+
