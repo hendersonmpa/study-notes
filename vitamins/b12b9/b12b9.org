@@ -10,7 +10,7 @@
 - only source of Cbl in the human diet is animal products
 - Cbl is needed for only two reactions in man:
   - MeCbl it is a cofactor of the cytoplasmic enzyme methionine synthase (MTR)
-\ce{HCY + MeCbl + 5-methylTHF ->[MTR] MET + B_{12} + THF}
+\ce{HCY + MeCbl + 5-methylTHF ->[MTR] MET + B_12 + THF}
   - AdoCbl is a cofactor of the mitochondrial enzyme methylmalonyl-coenzyme A mutase (MUT)
 \ce{methylmalonyl-CoA ->[MUT + AdoCbl] succinyl-CoA}
 - its metabolism involves complex absorption and transport systems and
@@ -66,12 +66,12 @@
     intermediates of purine synthesis
 - these reactions regenerate DHF and THF
 - the predominant folate derivative in blood and in cerebrospinal
-  fluid is 5-methylTHF
+  fluid is 5-methyltetrahydrofolate
   - product of the methylenetetrahydrofolate reductase (MTHFR) rxn
 
 #+CAPTION[]:Folate metabolism
 #+NAME: fig:folate
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+ATTR_LaTeX: :width 1.0\textwidth
 [[file:./b12b9/figures/folate.png]]
 
 * Cobalamin
@@ -202,7 +202,7 @@
 - betaine (trimethylglycine)
 - betaine-homocysteine methyltransferase (BHMT) is betaine
   (trimethylglycine)–dependent
-\ce{trimethylglycine (methyl donor) + homocysteine (hydrogen donor) ->[BHMT] dimethylglycine (hydrogen receiver) + methionine (methyl receiver)}
+\ce{trimethylglycine + homocysteine ->[BHMT] dimethylglycine + methionine}
 - in the liver, BHMT catalyzes up to 50% of homocysteine metabolism
 
 

@@ -3,14 +3,14 @@
 #+DATE: \today
 
 * Copper 
-- Copper is essential for cellular metabolism and toxic at [\Uparrow]
+- copper is essential for cellular metabolism and toxic at [\Uparrow]
   - superoxide dismutase
   - > 90% of circulating copper is bound to ceruloplasmin
 - 2 mg of copper absorbed each day from the intestine
 - removed from portal circulation by hepatocytes
 - excretion of copper by liver into bile is only method of removal
-- Copper transporter CTR1 responsible for copper uptake in enterocytes and hepatocytes
-- Intra-cellular transport done by two related ATPases
+- copper transporter CTR1 responsible for copper uptake in enterocytes and hepatocytes
+- intra-cellular transport done by two related ATPases
   - ATP7A : absorption : enterocytes : Menkes
   - ATP7B : excretion : hepatocytes : Wilson 
 
@@ -23,17 +23,17 @@
 *** Clinical Presentation
 - hepatic symptoms 8-20 years
 - neurological symptoms 2nd-3rd decade
-- Suspect in patients with:
+- suspect in patients with:
   - liver disease w no obvious cause
   - movement disorder
-- Occasionally isolated:
+- occasionally isolated:
   - \uparrow transaminases
   - Kayser-Fleischer rings
   - hemolysis
-- Diagnosis often made in siblings of patient
+- diagnosis often made in siblings of patient
 
 *** Metabolic Derangement
-- Defect in trans-Golgi protein ATP7B
+- defect in trans-Golgi protein ATP7B
   - required for excretion of copper and incorporation into ceruloplasmin 
 - \downarrow t_{1/2} of ceruloplasmin with out bound copper
 - rare patients with excretion defect and normal ceruloplasmin binding
@@ -85,14 +85,14 @@
    - hair breaks easily, sandpaper feel
 
 *** Metabolic Derangement
- - Defect in ATP7A 
+ - defect in ATP7A 
  - normal copper uptake, can not be exported from enterocytes into circulation
- - insufficient copper for incorporation into ~20 cuproenzymes
-   - lysloxidase : collagen cross-linking
-   - tyrosinase : melanin formation
-   - dopamine \beta-hydroxylase : catacholamin biosynthesis
-   - peptidyl glycine monooxygenase : neuropeptide precursors
-   - cytochrome c-oxidase : ETC
+ - insufficient copper for incorporation into ~20 cuproenzymes including:
+   - lysloxidase :: collagen cross-linking
+   - tyrosinase :: melanin formation
+   - dopamine \beta-hydroxylase :: catacholamin biosynthesis
+   - peptidyl glycine monooxygenase :: neuropeptide precursors
+   - cytochrome c-oxidase :: ETC
 
 *** Genetics 
  - ATB7A, XR, 1:250,000 , 1/3 /de novo/ mutations
@@ -108,34 +108,34 @@
 *** Treatment
  - often fatal < 3 years
    - infection or vascular complications
- - Parenteral treatment should bypass ATP7A
+ - parenteral treatment should bypass ATP7A
    - disappointing results
    - near normal intellectual and motor development only possible with
      residual ATP7A activity
 
 * Iron
-- Iron is essential for the synthesis of haem and other
-  metalloproteins.
-- Among these metalloproteins, the iron sulfur protein cluster is very important
+- iron is essential for the synthesis of haem and other
+  metalloproteins
+- among these metalloproteins, the iron sulfur protein cluster is very important
   - crucial role in mitochondrial metabolism
 - \gt 20 mg of iron per day is required, only 1–2 mg from intestinal absorption,
   - the remainder is re-used
-- Not actively secreted from the body
+- not actively secreted from the body
 - \uparrow [iron] \to \uparrow [circulating free iron]
-  - primarily taken up by the liver, the pancreas and the heart.
-  - syndromes manifest with cirrhosis, diabetes and cardiomyopathy.
-- Absorption of iron occurs primarily in the duodenum via the
+  - primarily taken up by the liver, the pancreas and the heart
+  - syndromes manifest with cirrhosis, diabetes and cardiomyopathy
+- absorption of iron occurs primarily in the duodenum via the
   divalent-metal transporter(DMT1)
-- The major recycling route for iron is removal from
-  erythrocytic haem by haemoxygenase
-  - in macrophages and enterocytes.
-- Circulating free iron binds to to apo-transferrin forming holo-transferrin
-- Transferrin can only bind iron in the ferric state 
-- Ceruloplasmin catalyses the oxidization of Fe^{2+} into Fe^{3+}
-- The transferrin receptor mediates the uptake of transferrin
-- Iron is released from intracellular transferrin by a specific isoform of DMT1.
-- In several cell types, including macrophages, iron can be stored
-  bound to ferritin until needed.
+- major recycling route for iron is removal from erythrocytic heme by
+  hemeoxygenase
+  - in macrophages and enterocytes
+- circulating free iron binds to to apo-transferrin forming holo-transferrin
+- transferrin can only bind iron in the ferric state 
+- ceruloplasmin catalyses the oxidization of Fe^{2+} into Fe^{3+}
+- transferrin receptor mediates the uptake of transferrin
+- iron is released from intracellular transferrin by a specific isoform of DMT1
+- iron can be stored bound to ferritin until needed in several cell
+  types, including macrophages
 
 #+CAPTION[iron]:Iron Metabolism
 #+NAME: fig:fe
@@ -149,41 +149,36 @@
 
 ** Classic Hereditary Haemochromatosis
 *** Clinical Presentation
- - Also called Type 1 or HFE related haemochromatosis
- - An autosomal recessive disorder
- - Slow but progressive accumulation of iron in various organs
- - Clinically apparent by the fourth or fifth decade of life
- - Initial symptoms are nonspecific and include:
+ - also called Type 1 or HFE related haemochromatosis
+ - slow but progressive accumulation of iron in various organs
+ - clinically apparent by the fourth or fifth decade of life
+ - initial symptoms are nonspecific and include:
    - fatigue, weakness, abdominal pain, weight loss and arthralgia.
- - Increased awareness, and improved diagnostic testing
-   - Classic symptoms of full-blown haemochromatosis are rarely seen
+ - increased awareness, and improved diagnostic testing
+   - classic symptoms of full-blown haemochromatosis are rarely seen
      - liver fibrosis and cirrhosis, diabetes, cardiomyopathy,
        hypogonadotrophic hypogonadism, arthropathy and skin
        pigmentation
 
 *** Metabolic Derangement
- - Caused by a disturbance in iron homeostasis associated with hepcidin
-   deficiency and systemic accumulation of iron.
- - The exact role of HFE, is unclear at present.
+ - caused by a disturbance in iron homeostasis associated with hepcidin
+   deficiency and systemic accumulation of iron
+ - the exact role of HFE, is unclear at present
  - Most probably it is essential for sensing iron levels and thus
-   indirectly for regulating hepcidin synthesis.
+   indirectly for regulating hepcidin synthesis
 
 *** Genetics
+ - AR, HFE
  - As many as 0.5% of the Northern European population are homozygous
    for the C282Y mutation in HFE,
-
    - only 5% of male and <1% of female C282Y homozygotes eventually
-     develop liver fibrosis or cirrhosis.
-
- - Other mutations in HFE are also described, e.g. H63D,
-
-   - compound heterozygosity for H63D and C282 is associated with iron overload
+     develop liver fibrosis or cirrhosis
 
 *** Diagnostic Tests
  - transferrin saturation initially \uparrow
  - followed by \uparrow serum ferritin
    - reflects increasing iron overload.
- - Genetic testing of HFE should be performed when:
+ - genetic testing of HFE should be performed when:
    - transferrin saturation is above 45%
    - serum ferritin is elevated:
      - >200 ng/ml in adult females
@@ -191,123 +186,100 @@
 
 ***  Treatment and Prognosis
 
- - At least half of all male and female C282Y homozygotes have normal
-   serum ferritin levels and may never require therapy.
- - Many have moderately elevated serum ferritin levels  (200-1000 ng/ml)
+ - at least half of all male and female C282Y homozygotes have normal
+   serum ferritin levels and may never require therapy
+ - many have moderately elevated serum ferritin levels  (200-1000 ng/ml)
    - it is unclear at present whether all should have regular
-     phlebotomies to reduce systemic iron load.
+     phlebotomies to reduce systemic iron load
  - serum ferritin levels exceeding 1000 ng/ml a phlebotomy regimen is clearly
    necessary.
-   - In adults initially 500 ml blood is removed weekly or bi-weekly.
-   - Phlebotomy frequency is usually reduced to once every 3-6 months
-     when serum ferritin levels are below 50 ng/ml.
+   - in adults initially 500 ml blood is removed weekly or bi-weekly.
+   - phlebotomy frequency is usually reduced to once every 3-6 months
+     when serum ferritin levels are below 50 ng/ml
 
 
 ** Systemic Iron Overload Syndromes
 *** Juvenile Hereditary Haemochromatosis (Type 2)
  - the most severe type of hereditary haemochromatosis
    - probably because hepcidin deficiency is more pronounced
- - Patients present in the 2nd and 3rd decade
+ - patients present in the 2nd and 3rd decade
    - mostly w hypogonadotropic hypogonadism and cardiomyopathy due to
-     iron overload.
- - Type 2A is caused by mutations in the HJV gene encoding for hemojuvelin
+     iron overload
+ - type 2A is caused by mutations in the HJV gene encoding for hemojuvelin
    - necessary for proper hepcidin synthesis
- - Type 2B from mutations in the HAMP gene encoding hepcidin.
- - Serum ferritin is high and transferrin iron saturation elevated, as in classic
-   HFE-related haemochromatosis.
- - A final diagnosis is made by mutation analysis
- - Phlebotomy is the treatment of choice and may prevent organ damage
-   if initiated early.
+ - type 2B from mutations in the HAMP gene encoding hepcidin
+ - \uparrow serum ferritin transferrin iron saturation elevated, as in classic
+   HFE-related haemochromatosis
+ - final diagnosis is made by mutation analysis
+ - phlebotomy is the treatment of choice and may prevent organ damage
+   if initiated early
 
 *** TFR2-Related Hereditary Haemochromatosis (Type 3)
- - Transferrin Receptor 2 (TFR2 gene) is important for sensing the
+ - transferrin Receptor 2 (TFR2 gene) is important for sensing the
    intracellular iron status (e.g erythroid cells)
- - Mutations result in iron overload phenotype which resembles classic, HFE-related haemochromatosis
+ - mutations result in iron overload phenotype which resembles
+   classic, HFE-related haemochromatosis
    - patients are generally younger
- - Low hepcidin levels along with elevated transferrin iron saturation,
-   elevated ferritin and high liver iron content are present.
- - Mutation analysis leads to the correct diagnosis in the absence of
-   the classic haemochromatosis genotype.
- - Phlebotomy is the treatment of choice.
+ - low hepcidin levels along with elevated transferrin iron
+   saturation, elevated ferritin and high liver iron content are
+   present
+ - mutation analysis leads to the correct diagnosis in the absence of
+   the classic haemochromatosis genotype
+ - phlebotomy is the treatment of choice
 
 *** Ferroportin Related Hereditary Haemochromatosis (Type 4)
- - Differs in several ways from the other three subtypes of haemochromatosis.
+ - differs in several ways from the other three subtypes of haemochromatosis
  - AD inheritance and caused by mutations in SLC40A1, encoding ferroportin
- - Expressed at the enterocyte and plasma membrane of macrophages.
- - Loss of function mutations impair the export of iron from macrophages causing an iron
-   deficiency in erythrocytic precursors.
- - Patients present with a combination of mild microcytic anaemia with
-   low transferrin saturation
-   - iron overload predominantly in macrophages.
- - Tolerance to phlebotomy is limited by the concurrent anaemia.
- - In contrast, gain of function mutations cause resistance to feedback
-   inhibition by hepcidin.
-   - These patients present with a more classic hepatic iron overload
-     haemochromatosis phenotype.
+ - expressed at the enterocyte and plasma membrane of macrophages
+ - loss of function mutations impair the export of iron from macrophages causing an iron
+   deficiency in erythrocytic precursors
+   - patients present with a combination of mild microcytic anaemia with
+     low transferrin saturation
+     - iron overload predominantly in macrophages
+   - tolerance to phlebotomy is limited by the concurrent anaemia
+ - gain of function mutations cause resistance to feedback inhibition
+   by hepcidin
+   - these patients present with a more classic hepatic iron overload
+     haemochromatosis phenotype
 
 *** Neonatal Haemochromatosis
- - Once thought to be an AR inherited disorder, now recognized as acquired
+ - once thought to be an AR inherited disorder, now recognized as acquired
    - Any disease state that chronically prevents the synthesis or
      activity of hepcidin will lead to haemochromatosis.
- - Patients present in the first few weeks of life with severe liver
+ - patients present in the first few weeks of life with severe liver
    failure.
- - Caused by a maternal allo-immune reaction to the infant liver
+ - caused by a maternal allo-immune reaction to the infant liver
    - starts /in utero/.
- - Liver injury leads to a decrease in hepcidin
+ - liver injury leads to a decrease in hepcidin
    - manifests as severe siderosis of both liver and extrahepatic organs.
- - The diagnosis is made in any child with neonatal liver failure in
+ - diagnosis is made in any child with neonatal liver failure in
    combination with high serum ferritin and extrahepatic siderosis,
    - shown by MRI and/or oral mucosal biopsy
    - iron deposits in minor salivary glands in patients with NH.
- - Therapy is by exchange transfusion in combination with IVIGs to remove/bind maternally derived IgG
- - May a role for simultaneous antioxidant therapy
- - The risk of recurrence in a subsequent pregnancy from a mother who
-   has given birth to an affected child is as high as 90%.
-   - Recurrence risk reduced by IVIGs during pregnancy
+ - therapy is by exchange transfusion in combination with IVIGs to
+   remove/bind maternally derived IgG
+ - risk of recurrence in a subsequent pregnancy from a mother who has
+   given birth to an affected child is as high as 90%.
+   - recurrence risk reduced by IVIGs during pregnancy
 
 ** Iron Deficiency and Distribution Disorders
 *** Iron-Refractory Iron Deficiency Anaemia (IRIDA)
- - This disease is caused by a deficiency of matriptase-2, encoded by TMPRSS6.
- - If a mutation in both copies of this gene is present the normal cleavage of haemojuvelin is interrupted,
+ - this disease is caused by a deficiency of matriptase-2, encoded by TMPRSS6.
+ - if a mutation in both copies of this gene is present the normal cleavage of haemojuvelin is interrupted,
    - results in high hepcidin levels.
      - This will result in iron deficiency, low transferrin saturation
        (<10%) and microcytic anaemia at a young age [41].
- - Oral iron supplementation is not effective, as high hepcidin
+ - oral iron supplementation is not effective, as high hepcidin
    levels will prevent iron release from the enterocytes
    - requires intravenous iron therapy
 
 *** Atransferrinaemia
- - First described in 1961, very few cases of atransferrinaemia have thus far been described.
+ - first described in 1961, very few cases of atransferrinaemia have thus far been described.
  - AR disorder, mutations in TF,
  - present with moderate to severe hypochromic microcytic anaemia and growth retardation along with signs of haemochromatosis.
  - \downarrown serum transferrin
  - \uparrow serum ferritin 
- - Plasma infusions to increase the transferrin pool, represent an
+ - plasma infusions to increase the transferrin pool, represent an
    effective treatment
-
-*** Hypochromic Microcytic Anaemia with Iron Overload Type 1
-
- - Hypochromic microcytic anaemia with iron overload type 1 is caused
-   by mutations in SLC11A2 , encoding DMT1.
- - One of the isoforms of DMT1 is responsible for removing iron from
-   absorbed transferrin in erythroid cells.
- - Patients present at a young age with microcytic anaemia in combination with
-   mild hepatic iron overload.
- - Transferrin saturation and serum ferritin levels are elevated.
- - With erythropoietin (EPO) treatment regular transfusions can often be avoided
-
-
-*** Hypochromic Microcytic Anaemia with Iron Overload Type 2
-
- - This subtype is caused by mutations in STEAP3.
- - STEAP3, is an endosomal ferrireductase which facilitates the
-   transferrin mediated uptake of iron.
- - In the 3 siblings reported thus far, anaemia was present from early
-   childhood,
- - While patients became transfusion dependent several years
- - Later, usually in late childhood.
- - High ferritin levels, together with low transferrin and increased
-   transferrin saturation were found.
- - The degree of liver iron overload varied, all 3 had hypogonadism.
 
 

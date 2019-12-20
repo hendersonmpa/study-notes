@@ -13,23 +13,19 @@
   flavin-containing monooxygenase 3 (FMO3), a microsomal NADPH-dependent enzyme.
   - product is TMA-N-oxide (TMAO) which is non-odorous and is
     excreted in urine
-- more than 90% of the absorbed TMA is oxidised and the urinary output
-  of unmetabolised TMA in adults on a Western diet is only around 17-35 umol/24 h
-- FMO3 is not produced by the fetus after 15 weeks of gestation or,
-  usually, in the first month of life.
-- levels increase to around 8% of adult values by nine months of age and 20% by 11 years
-- FMO3 activity is inhibited by indoles from brassicas and is reduced perimenstrually
+- \gt 90% of the absorbed TMA is oxidised
 
 #+CAPTION[]:TMA
 #+NAME: fig:tma
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./figures/tma.png]]
+[[file:./peptides/figures/tma.png]]
 
 ** Catabolism of Choline
-- occurs within mitochondria and involves the sequential removal of
-  two methyl groups by dimethylglycine dehydrogenase (DMGDH) and
-  sarcosine dehydrogenase (SDH)
-- flavin enzymes with covalently linked FAD which use folate as co-factor
+- occurs within mitochondria
+  - involves the sequential removal of two methyl groups by:
+    - dimethylglycine dehydrogenase (DMGDH)
+    - sarcosine dehydrogenase (SDH)
+  - flavin enzymes with covalently linked FAD which use folate as co-factor
 - the methyl groups from dimethylglycine and sarcosine are transferred
   to tetrahydrofolate (THF)
   - forming 5,10-methylene THF
@@ -39,7 +35,7 @@
 #+CAPTION[]:Choline catabolism
 #+NAME: fig:chol
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./figures/choline.png]]
+[[file:./peptides/figures/choline.png]]
 
 ** Trimethylaminuria (Fish Malodour Syndrome)
 *** Clinical Presentation
@@ -53,8 +49,8 @@
 
 *** Metabolic Derangement
  - FMO3 deficiency
- - TMAU results when the oxidative capacity of FMO3 is overwhelmed by
-   TMA substrate
+ - \uparrow urine TMA results when the oxidative capacity of FMO3 is
+   overwhelmed by TMA substrate
 
 *** Genetics
  - AR, ~1% carrier freq
@@ -83,36 +79,36 @@
  - \uparrow folate
 
 * Glutathione
-- Glutathione (GSH) is a tripeptide consisting of glutamate, cysteine and glycine
+- glutathione (GSH) is a tripeptide consisting of glutamate, cysteine and glycine
 - one of the most important antioxidants also:
   - drug metabolism, free-radical scavenging, biosynthesis of DNA and
     proteins as well as amino acid transport
-- synthesized and metabolized in the \gamma-glutamyl cycle
+- synthesized and metabolized in the \gamma-glutamyl cycle (Figure
+  [[fig:ggc]])
 - six enzymes involved in synthesis and turnover
 - synthesised from glutamate by sequential actions of
   \gamma-glutamylcysteine synthetase and glutathione
   synthetase
-- degradation involves four enzymes
-  - \gamma-Glutamyl transpeptidase initiates the breakdown by
+- degradation involves four enzymes:
+  - \gamma-glutamyl transpeptidase initiates the breakdown by
     catalysing the transfer of its \gamma-glutamyl-group to
     acceptors
   - \gamma-glutamyl residues are substrates of the
     \gamma-glutamyl-cyclotransferase which converts them to
     5-oxoproline and the corresponding amino acids
-- Conversion of 5-oxoproline to glutamate is catalysed by
-  5-oxoprolinase.
+- conversion of 5-oxoproline to glutamate is catalysed by
+  5-oxoprolinase
 - a dipeptidase splits cysteinylglycine, which is formed in the
   transpeptidation reaction, into glycine and cysteine
 - biosynthesis of GSH is feedback regulated
   - GSH inhibits of \gamma-glutamylcysteine synthetase
-- Genetic defects have been described in five of the six enzymes of
+- genetic defects have been described in five of the six enzymes of
   the \gamma-glutamyl cycle
 
 #+CAPTION[]: The \gamma-glutamyl cycle
 #+NAME: fig:ggc
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./figures/gsh.png]]
-
+[[file:./peptides/figures/gsh.png]]
 
 ** Glutathione Synthetase Deficiency
 *** Clinical Presentation
@@ -126,7 +122,8 @@
 *** Metabolic Derangement
 - GS catalyses the last step of GSH synthesis
 - deficiency leads to low cellular GSH and excessive production of
-  \gamma-glutamylcysteine, the metabolite before the enzyme defect
+  \gamma-glutamylcysteine
+  - metabolite before the enzyme defect
 - \downarrow feedback inhibition of \gamma-glutamylcysteine synthetase
   \to \uparrow \gamma-glutamylcysteine
 - \gamma-glutamylcysteine \to 5-oxoproline by \gamma-glutamyl

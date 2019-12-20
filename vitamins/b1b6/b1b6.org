@@ -2,3 +2,149 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
+* Thiamine
+- thiamine (vitamin B_1) is water soluble
+- transported across cell membranes by THTR1 and THTR2
+  - encoded by the SLC19A2 and SLC19A3
+- both are widely expressed in the body
+- differ in kinetic properties and level of expression in different tissues
+- THTR2 is the major transporter in the upper small intestine where
+  dietary thiamine is absorbed at the luminal surface
+- THTR1 predominates at the basal surface
+- active cofactor of thiamine, TPP, is formed in the cytoplasm by the
+  enzyme thiamine pyrophosphokinase
+- TPP cofactor is attached directly to the transketolase and 2-hydroxyacyl CoA lyase apoproteins
+- a TPP transporter (MTPPT) in the inner mitochondrial membrane
+  delivers the cofactor to the \alpha-ketoacid dehydrogenases in the
+  mitochondrial matrix
+
+#+CAPTION[]:Thiamine transport 
+#+NAME: fig:thiamine
+#+ATTR_LaTeX: :width 0.6\textwidth
+[[file:./b1b6/figures/thiamine.png]]
+
+* Disorders of Thiamine Metabolism
+** Defective Transport
+- THTR1 or 2 deficiency
+** TPP biosynthsis
+- Thiamine pyrophosphokinase (TPK1) deficiency
+- \uparrow blood and CSF lactate
+- \uparrow urine \alpha-ketoglutarate
+- \downarrow TPP
+** Mitochondrial transport
+- mitochondrial TPP transporter deficiency - amish lethal microcephaly
+- \uparrow urine \alpha-ketoglutarate
+** Binding to apo-enzyme
+- PDHC
+  - \uparrow lactate
+  - normal L/P ratio
+- BCKAD
+  - \uparrow BCAAs
+
+* Pyridoxine
+- pyridoxine (vitamin B_6) is water soluble
+- broad availability from various food sources
+- three vitamers and their phosphorylated esters are absorbed in the
+  small intestine:
+  1) pyridoxal
+  2) pyridoxamine
+  3) pyridoxine
+
+- for cellular uptake and transport across the blood-brain barrier,
+  phosphorylated forms undergo dephosphorylation by intestinal
+  phosphatases and tissue non-specific alkaline phosphatase (TNSAP)
+  respectively
+- transport mechanism of B_6 vitamers across cell membranes not elucidated
+- within cells vitamers are rephosphorylated by kinases and further oxidised to the
+  active cofactor pyridoxal 5’-phosphate (PLP) by pyridox(am)ine
+  5’-phosphate oxidase(PNPO)
+- liver seems to be the most important organ of PLP formation
+  -PNPO is expressed in various cell types including neurons
+- PLP is one of the most abundant cofactors and participates in over
+  140 reactions in amino acid and neurotransmitter metabolism
+- systemic vitamin B6 deficiency causes seizures, failure to thrive
+  and anemia
+- nutritional vitamin B6 deficiency is rarely seen
+  - usually occurs together with other vitamin deficiencies in
+    malnutrition or in association with severe chronic disease
+
+
+#+CAPTION[]:Pyridoxine metabolism
+#+NAME: fig:pyr
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./b1b6/figures/pyridoxine.png]]
+
+* Disorders of Pyridoxine Metabolism
+- several mechanisms that lead to an increased requirement for
+  pyridoxine and/or PLP:
+  1. inborn errors affecting the pathways of B_6 vitamer metabolism
+     - PNPO and alkaline phosphatase defects
+  2. inborn errors that lead to accumulation of small molecules that
+     react with PLP and inactivate it
+     - hyperprolinemia type II
+     - antiquitin deficiency (pyridoxine dependent epilepsy)
+  3. inborn errors affecting specific PLP dependent enzymes
+     - X-linked sideroblastic anemia
+     - classical homocystinuria
+     - gyrate atrophy of the choroid
+  4. drugs as D-penicillamine or isozianid thataffect the metabolism of
+     B 6 vitamers or react with PLP
+  5. coeliac disease(malabsorption) or renal dialysis(loss)
+- inborn errors of metabolism \to \downarrow PLP
+  - by inactivation, reduced formation, or reduced cellular uptake of PLP
+  - all autosomal recessive
+  - seizures are a hallmark of the disease
+    - no or incomplete response to common anticonvulsants
+    - good response to pyridoxine or PLP.
+
+** Antiquitin deficiency
+- presents in neonates with myoclonic and tonic seizures or
+  status epilepticus
+- onset up to 3 years observed
+- antiquitin (ALDH7A1) encodes for \alpha-aminoadipic semialdehyde dehydrogenase
+  - involved in lysine degradation
+  - deficiency results in \uparrow \alpha-aminoadipic acid semialdehyde (AASA)
+    - AADA is in equilibrium with piperideine-6-carboxylate (PC6)
+    - PC6 inactivates PLP
+- simultaneous determination of sulfocysteine is crucial to exclude
+  molybdenum cofactor and sulfite oxidase deficiency causing secondary
+  inhibition of antiquitin
+- most common form of pyridoxine dependent epilepsy (PDE)
+- \uparrow urine AASA (\alpha-aminoadipic acid)
+- \uparrow urine P6C (piperideine-6-carboxylate)
+- \uparrow urine P5C (pyroline-5-carboxylate)
+- pipecolic acid in plasma, the first described biomarker of PDE, is
+  less specific as it can also be found in peroxisomal disease and has
+  been found normal in older patients while on pyridoxine
+- treated with pyridoxine
+
+#+CAPTION[]:Lysine degradation and antiquitin deficiency (blue bar)
+#+NAME: fig:lysine
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./b1b6/figures/lysine_deg.png]]
+
+** Hyperprolinemia Type II
+- attenuated phenotype
+- ~ 50% present with seizures
+- \uparrow inactivating compound P5C due to deficiency of pyrroline-5-carboxylate dehydrogenase
+- \Uparrow plasma proline
+- \uparrow urine P5C
+
+** PNPO deficiency
+- clinically indistinguishable from Antiquitin deficiency
+- severe (systemic) PLP deficiency and impaired function of PLP
+  dependent enzymes
+- \uparrow urine vanillactate
+- \uparrow pyridoxamine
+- \uparrow pyridoxamine/pyridoxic acids
+- treat with oral PLP
+
+** Congenital Hypophosphatasia
+- severe form \to neonatal seizures
+- osteomalacia
+- Tissue Non Specific Alkaline Phosphatase (TNSAP) deficiency
+  - impaired dephosphorylation of PLP for cellular uptake
+- \Downarrow plasma alkaline phosphatase
+- \uparrow serum calcium
+- \downarrow serum phosphate
+- \uparrow plasma phosphoethanolamine 
