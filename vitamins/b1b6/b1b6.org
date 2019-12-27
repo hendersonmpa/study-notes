@@ -23,15 +23,14 @@
 #+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./b1b6/figures/thiamine.png]]
 
-* Disorders of Thiamine Metabolism
 ** Defective Transport
 - THTR1 or 2 deficiency
-** TPP biosynthsis
+** TPP biosynthesis 
 - Thiamine pyrophosphokinase (TPK1) deficiency
 - \uparrow blood and CSF lactate
 - \uparrow urine \alpha-ketoglutarate
 - \downarrow TPP
-** Mitochondrial transport
+** Mitochondrial transport 
 - mitochondrial TPP transporter deficiency - amish lethal microcephaly
 - \uparrow urine \alpha-ketoglutarate
 ** Binding to apo-enzyme
@@ -50,21 +49,20 @@
   2) pyridoxamine
   3) pyridoxine
 
-- for cellular uptake and transport across the blood-brain barrier,
-  phosphorylated forms undergo dephosphorylation by intestinal
-  phosphatases and tissue non-specific alkaline phosphatase (TNSAP)
-  respectively
-- transport mechanism of B_6 vitamers across cell membranes not elucidated
+- phosphorylated forms undergo dephosphorylation for cellular uptake
+  by tissue non-specific alkaline phosphatase (TNSAP)
+  - transport mechanism of B_6 vitamers across cell membranes not
+    elucidated
 - within cells vitamers are rephosphorylated by kinases and further oxidised to the
   active cofactor pyridoxal 5’-phosphate (PLP) by pyridox(am)ine
   5’-phosphate oxidase(PNPO)
 - liver seems to be the most important organ of PLP formation
-  -PNPO is expressed in various cell types including neurons
+  - PNPO is expressed in various cell types including neurons
 - PLP is one of the most abundant cofactors and participates in over
   140 reactions in amino acid and neurotransmitter metabolism
-- systemic vitamin B6 deficiency causes seizures, failure to thrive
+- systemic vitamin B_6 deficiency causes seizures, failure to thrive
   and anemia
-- nutritional vitamin B6 deficiency is rarely seen
+- nutritional vitamin B_6 deficiency is rarely seen
   - usually occurs together with other vitamin deficiencies in
     malnutrition or in association with severe chronic disease
 
@@ -74,7 +72,6 @@
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./b1b6/figures/pyridoxine.png]]
 
-* Disorders of Pyridoxine Metabolism
 - several mechanisms that lead to an increased requirement for
   pyridoxine and/or PLP:
   1. inborn errors affecting the pathways of B_6 vitamer metabolism
@@ -95,7 +92,7 @@
   - all autosomal recessive
   - seizures are a hallmark of the disease
     - no or incomplete response to common anticonvulsants
-    - good response to pyridoxine or PLP.
+    - good response to pyridoxine or PLP
 
 ** Antiquitin deficiency
 - presents in neonates with myoclonic and tonic seizures or
@@ -104,7 +101,7 @@
 - antiquitin (ALDH7A1) encodes for \alpha-aminoadipic semialdehyde dehydrogenase
   - involved in lysine degradation
   - deficiency results in \uparrow \alpha-aminoadipic acid semialdehyde (AASA)
-    - AADA is in equilibrium with piperideine-6-carboxylate (PC6)
+    - AASA is in equilibrium with piperideine-6-carboxylate (PC6)
     - PC6 inactivates PLP
 - simultaneous determination of sulfocysteine is crucial to exclude
   molybdenum cofactor and sulfite oxidase deficiency causing secondary
