@@ -1,0 +1,110 @@
+#+TITLE: Phenylalanine
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+
+* Introduction
+- Phe is an essential aromatic amino acid
+- mainly metabolised in the liver by the PHE hydroxylase (PAH) system
+- first step in the irreversible catabolism of Phe is hydroxylation to
+  Tyr by PAH
+- PAH requires the active pterin, tetrahydrobiopterin (BH_4)
+- BH_4 is formed in three steps from GTP
+  - also an obligate co-factor for tyrosine hydroxylase and tryptophan hydroxylase
+    - \therefore required for production of dopamine,catecholamines,
+      melanin and serotonin
+  - alkylglycerol monooxygenase (AGMO) and nitric oxide synthase
+
+- defects in PAH and those involving production or recycling of BH_4
+  are associated with hyperphenylalaninaemia (HPA)
+- defects in PAH or production or recycling of BH_4 may result in:
+  - hyperphenylalaninaemia (HPA)
+  - deficiency of TYR, L-dopa, dopamine, melanin, catecholamines and 5-hydroxytryptophan (5HT)
+- when hydroxylation to Tyr is impeded, Phe may be transaminated to
+  phenylpyruvic acid and further reduced and decarboxylated
+
+
+#+CAPTION[]:
+#+NAME: fig:
+| Class           | Phe (\micro{}mol/l) | PAH activity |
+|-----------------+---------------------+--------------|
+| Classic         | \ge 1200            | \lt1%        |
+| HPA             | 600-1200            | 1-5%         |
+| MHP             | 120-600             | \gt5%        |
+| BH_4 responsive | \ge 30% decrease    |              |
+
+#+CAPTION[]:Phenylalanine Hydroxylation
+#+NAME: fig:pah
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./phe/figures/pah.png]]
+
+
+* Phenylalanine Hydroxylase Deficiency
+** Clinical Presentation
+- natural history of PKU is for affected individuals to suffer
+  progressive, irreversible neurological impairment during infancy and
+  childhood
+- untreated patients develop mental, behavioural, neurological and
+  physical impairments
+- most common outcome is a moderate to profound intellectual
+  developmental disorder (IQ \le 50) often associated with:
+  - mousey odour \to excretion of phenylacetic acid
+  - reduced hair, skin and iris pigmentation \to reduced melanin synthesis
+  - reduced growth and microcephaly
+  - neurological impairments:
+    - 25% epilepsy, 30% tremor, 5% spasticity of the limbs, 80% EEG abnormalities
+- clinical phenotype correlates with Phe blood levels
+  - reflects the degree of PAH deficiency
+** Metabolic Derangement
+- pathogenesis of brain damage in PKU is not fully understood
+  - it is causally related to the \uparrow blood Phe
+- Tyr becomes a semi-essential amino acid
+  - \downarrow blood levels \to impaired synthesis of biogenic amines including:
+    - melanin , dopamine and norepinephrine
+- \uparrow blood PHE levels result in an imbalance of other large
+  neutral amino acids (LNAA) within the brain
+  - \to decreased brain concentrations of Tyr and serotonin
+  - ratio of Phe levels in blood/brain is about 4:1
+
+** Genetics 
+- AR
+- R408W mutation \sim 30% of alleles in Europeans with PKU
+- genotypes correlate well with biochemical phenotypes, pre-treatment
+  Phe levels and Phe tolerance
+
+** Diagnostic Tests
+- NBS for Phe and Phe/Tyr
+- exclude cofactor defects via pterins in blood or urine and
+  dihydropteridine reductase (DHPR) in blood
+- HPA may be found in preterm and sick babies particularly
+  - after parenteral feeding with amino acids
+  - liver disease (where blood levels of methionine, TYR,
+    leucine/isoleucine are usually also raised)
+  - treatment with inhibitors of dihydrofolate reductase (e.g. methotrexate, trimethoprim)
+    - folate promotes recycling of BH_4
+
+
+** Treatment
+*** Diet
+- reduce the blood Phe concentration sufficiently to prevent the
+  neuropathological effects but also to fulfil age-dependent
+  requirements for protein synthesis
+- Blood Phe is primarily a function of residual PAH activity and Phe
+  intake
+*** BH_4
+- pharmacological doses of BH_4 can reduce blood phenylalanine levels
+  in some patients with PKU
+- sapropterin dihydrochloride (Kuvan), a synthetic formulation of the
+  active 6R-isomer of BH_4 is approved in Europe and the USA for the
+  treatment of responsive patients with HPA and PKU, of all ages
+  - reduction of \ge30% in blood Phe level after a single dose
+*** Alternative/Experimental
+- liver transplantation
+- phenylalanine ammonia lyase (PAL)
+  - converts Phe \to harmless transcinnamic acid
+- large neutral amino acids
+  - tyr, trp,leu, ile, val compete with phe for the same transport at
+    the blood brain barrier
+
+* Maternal PKU
+** Clinical Presentation
