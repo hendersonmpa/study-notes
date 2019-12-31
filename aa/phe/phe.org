@@ -108,3 +108,21 @@
 
 * Maternal PKU
 ** Clinical Presentation
+- first description of maternal PKU syndrome (MPKUS) recognised the
+  teratogenic effects of high maternal PHE levels
+- offspring of women with untreated classical PKU suffer developmental
+  delay, microcephaly, cardiac defects, low birth weight and
+  dysmorphic features
+- pathogenesis is poorly understood
+** Metabolic Derangement
+- maternal Phe \lt 360 umol/l \to no deleterious effect on the foetus
+- maternal Phe \gt 360 μmol/l, developmental indices decreased by
+  about three points for every 60 umol/l rise in average maternal Phe
+- \uparrow CHD \ge 900 umol/l
+** Prevention
+- plan pregnancy 
+- start diet before conception
+- monitoring expecting mothers 2x weekly
+
+* HPA and Disorders of Biopterin Metabolism
+
