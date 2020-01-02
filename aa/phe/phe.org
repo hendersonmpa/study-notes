@@ -126,3 +126,61 @@
 
 * HPA and Disorders of Biopterin Metabolism
 
+- Disorders of BH_4 associated with HPA and biogenic amine deficiency
+  include deficiencies of:
+  - GTP cyclohydrolase I (GTPCH)
+  - 6-pyruvoyl-tetrahydropterin synthase (PTPS)
+  - dihydropteridine reductase (DHPR)
+  - pterin-4a-carbinolamine dehydratase (PCD)
+- Dopa-responsive dystonia (DRD) due to a dominant form of GTPCH
+  deficiency, and sepiapterin reductase (SR) deficiency (see Disorders of Monoamine Metabolism)
+
+** Clinical Presentation
+- can present in any of three ways:
+  1) Asymptomatic, but with raised PHE found following NBS; as part of
+     the standard screening protocol the infant is then investigated
+     further for biopterin defects
+  2) Symptomatic, with neurological deterioration in infancy despite a
+     low-PHE diet. This will occur where no further investigations are
+     routinely undertaken after a finding of HPA in NBS which is
+     wrongly assumed to be PAH deficiency
+  3) Symptomatic, with neurological deterioration in infancy on a
+     normal diet. This will occur either where there has been no NBS
+     for HPA or if the PHE level is not sufficiently raised to have
+     resulted in a positive screen or to require dietary treatment
+** Metabolic Derangement
+- associated with decreased activity of PAH, tyrosine hydroxylase,
+  tryptophan hydroxylase and nitric oxide synthase (Figure [[fig:pah]])
+- degree of HPA is highly variable
+  - blood PHE concentrations ranging from normal to \gt2000 umol/l
+  - CNS amine deficiency is most often profound and responsible for
+    the clinical symptoms
+  - Decreased concentration of HVA in CSF is a measure of reduced
+    dopamine turnover
+  - 5-HIAA deficiency is a measure of reduced serotonin metabolism
+
+** Genetics
+- AR
+- biopterin disorders account for 1-3% of infants found to have a
+  raised PHE on newborn screening
+
+** Diagnostic Tests
+- Urine or blood pterin analysis and blood DHPR assay
+- BH_4 loading test
+- CSF neurotransmitters
+
+#+CAPTION[]:Results in Biopterin Disorders
+#+NAME: fig:biop
+| Deficiency |      Phe | biopterin[fn:1] | neopterin[fn:1] | primapterin[fn:1] | CSF 5HIAA HVA | DHPR activity |
+|------------+----------+-----------------+-----------------+-------------------+---------------+---------------|
+| PAH        |   \gt120 | \uparrow        | \uparrow        | -                 | N             | N             |
+| GTPCH      |  50-1200 | \Downarrow      | \Downarrow      | -                 | \downarrow    | N             |
+| PTPS       | 240-2500 | \Downarrow      | \Uparrow        | -                 | \downarrow    | N             |
+| DHPR       | 180-2500 | \Downarrow      | N or \uparrow   | -                 | \downarrow    | \downarrow    |
+| PCD        | 180-1200 | \downarrow      | \uparrow        | \Uparrow          |               | N             |
+
+[fn:1] blood or urine
+
+** Treatment
+- BH_4
+- CNS amine replacement

@@ -170,11 +170,12 @@
     - no effective treatment is known
     - \uparrow random urine serotonin, normetanephrine, metanephrine, and 3-MT
     - abnormal normetanephrine:VMA, normetanephrine:MHPG, HVA:VMA ratios
-  - guanosine triphosphate cyclohydrolase-I (GTPCH-I) and
+  - Dopamine responsive dystonia due to guanosine triphosphate cyclohydrolase-I (GTPCH-I) and
     sepiapterin reductase (SR) deficiencies
-    - pterin disorders upstream of L-dopa and 5-hydroxytryptophan
-      (5-HTP) with normal baseline phenylalaninemia and effective
-      treatment (especially GTPCH-I deficiency)
+    - pterin disorders upstream of L-dopa and
+      5-hydroxytryptophan (5-HTP) with normal baseline
+      phenylalaninemia and effective treatment (especially GTPCH-I
+      deficiency)
     - GTPCH-I labs
       - normal or \downarrow CSF HVA with
       - \downarrow CSF 5-HIAA
