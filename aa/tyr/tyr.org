@@ -1,0 +1,231 @@
+#+TITLE: Tyrosine
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+* Introduction
+
+- Tyrosine is a non-essential amino acid derived from diet and hydroxylation of phenylalanine
+- a precursor of DOPA, thyroxine and melanin
+- glucogenic and ketogenic \to catabolism in liver cytosol \to fumarate and acetoacetate
+- Tyr \to 4-hydroxyphenylpyruvate by cytosolic tyrosine aminotransferase
+  - also in liver and other tissues by mitochondrial aspartate aminotransferase
+    - minor role under normal conditions
+- penultimate intermediates maleylacetoacetate and fumarylacetoacetate
+  are reduced to succinylacetoacetate
+  - decarboxylation to succinylacetone
+  - succinylacetone is the most potent known inhibitor of the heme biosynthetic enzyme ALAD
+
+#+CAPTION[]:Tyrosine Catabolism:1 Tyrosine aminotransferase; 2 4-hydroxyphenylpyruvate dioxygenase; 3 homogentisate dioxygenase; 4 fumarylacetoacetase; 5 AST; 6 ALAD
+#+NAME: fig:tyr
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/tyr.png]]
+
+
+- Five inherited disorders of tyrosine metabolism are known:
+  - Tyrosinemia type I is characterised by progressive
+    liver disease and renal tubular dysfunction with rickets
+  - Tyrosinemia type II presents with keratitis and
+    blistering lesions of the palms and soles and neurological
+    complications
+  - Tyrosinemia type III may be asymptomatic or associated with
+    mental retardation
+  - Hawkinsinuria may be asymptomatic or present with failure to
+    thrive and metabolic acidosis in infancy
+  - Alkaptonuria presents as adult with symptoms of osteoarthritis
+- Other inborn errors of tyrosine metabolism discussed in Monoamine Metabolism
+
+** Transient Tyrosinemia
+ - one of the most common amino acid disorders
+   - clinically asymptomatic
+ - believed to be caused by late fetal maturation of
+   4-hydroxyphenylpyruvate dioxygenase
+ - more common in premature infants than in full-term newborns
+ - protein intake is an important aetiological factor
+   - incidence has fallen dramatically in the last 4 decades, with the
+     reduction in the protein content of newborn formula
+
+
+* Tyrosinemia Type I
+- Hepatorenal Tyrosinemia
+** Clinical presentation
+- very variable, presents at any time from the neonatal period to adulthood
+  - acute :: before 6 months of age with acute liver failure
+  - subacute :: between 6 months and 1 year of age with liver disease,
+                failure to thrive, coagulopathy, hepatosplenomegaly,
+                rickets and hypotonia
+  - chronic :: after the 1st year with chronic liver disease, renal
+               disease, rickets, cardiomyopathy \pm porphyria-like
+               syndrome
+
+- liver is the major affected organ
+  - morbidity and mortality
+- renal disease is detected in most patients
+  - proximal tubular disease
+- acute neurological crisis can occur
+  - painful paresthesias and autonomic signs that may progress to
+    paralysis
+
+** Metabolic derangement
+- deficiency of the enzyme fumarylacetoacetate hydrolase (FAH)
+\ce{fumarylacetoacetate ->[FAH] fumarate + acetoacetate}
+- mainly expressed in the liver and kidney
+- compounds immediately upstream from the FAH reaction,
+  maleylacetoacetate (MAA) and fumarylacetoacetate (FAA), and their
+  derivatives, succinylacetone (SA) and succinylacetoacetate (SAA)
+  accumulate and have important pathogenic effects
+- effects of FAA and MAA occur only in the cells of the organs in which they are produced
+  - these compounds are not found in body fluids of patients
+- SA and SAA are readily detectable in plasma and urine and have
+  widespread effects
+- FAA, MAA and SA disrupt sulfhydryl metabolism by forming glutathione
+  adducts \to free rad ical damage
+- Disruption of sulfhydryl metabolism is also believed to cause
+  secondary deficiency of two other hepatic enzymes,
+  4-hydroxyphenylpyruvate dioxygenase and methionine
+  adenosyltransferase, resulting in hypertyrosinemia and
+  hypermethioninemia
+- SA is a potent inhibitor of ALAD
+
+** Genetics
+- AR, FAH
+- most common mutation is c.1062+5G>A
+  - is found in about 25% of the alleles worldwide
+  - predominant mutation in the French-Canadian population, in which
+    it accounts for >90% of alleles
+
+** Diagnostic Tests
+- \uparrow SA in urine, plasma or DBS is pathognomonic
+- \uparrow tyrosine
+- \uparrow phenylalanine
+- \uparrow methionine
+- \uparrow urine ALA
+- symptomatic patients, biochemical tests of liver function are
+  usually abnormal
+  - coagulopathy and/or hypoalbuminaemia
+- acutely ill patients
+  - \Uparrow \alpha-fetoprotein
+  - Fanconi-type tubulopathy is often present with:
+    - aminoaciduria, phosphaturia and glycosuria
+    - radiological evidence of rickets may be present
+
+** Treatment
+- Nitisinone (aka: NTBC) is the recommended therapy, in combination
+  with a tyrosine and phenylalanine restricted diet
+  - inhibits 4-hydroxyphenylpyruvate dioxygenase turning Type I into Type III
+- nitisinone block tyrosine degradation at an early step
+  - \downarrow FAA, MAA and SA
+  - \uparrow tyrosine and 4-hydroxyphenylpyruvate
+- liver transplantation \to functional cure
+  - normal diet
+  - mortality and life long immunosuppressive therapy
+
+ 
+* Tyrosinemia Type II
+- Oculocutaneous Tyrosinemia
+** Clinical presentation
+- any combination of: 
+  - ocular lesions
+  - skin lesions
+  - neurological complications
+- usually presents in infancy but can be any age
+
+** Metabolic derangement
+- hepatic cytosolic tyrosine aminotransferase
+\ce{tyrosine ->[TAT] 4-hydroxyphenylpyruvate}
+  - \uparrow tyrosine in CSF and serum
+- \uparrow phenolic acids 4-hydroxyphenylpyruvate,
+  4-hydroxyphenyllactate and 4-hydroxyphenylacetate
+
+** Genetics
+- AR, TAT
+
+** Diagnostic tests
+- \Uparrow plasma tyrosine > 1200 umol/L
+  - if lower consider Type III
+- Urine organic acids
+  - \Uparrow urine 4-hydroxyphenylpyruvate
+  - \Uparrow 4-hydroxyphenyllactate
+  - \Uparrow 4-hydroxyphenylacetate
+  - \uparrow N-acetyltyrosine
+  - \uparrow 4-tyramine
+
+** Treatment
+- tyrosine and phenylalanine restricted diet
+
+* Tyrosinemia Type III
+** Clinical presentation
+- very rare, 13 cases described
+- most common long-term complication is intellectual impairment
+** Metabolic derangement
+- 4-hydroxyphenylpyruvate dioxygenase
+\ce{4-hydroxyphenylpyruvate ->[HPD] homogentisate}
+- \uparrow plasma tyrosine
+- \uparrow urine 4-hydroxyphenylpyruvate, 4-hydroxyphenyllactate and 4-hydroxyphenylacetate
+** Genetics 
+- AR, HPD
+** Diagnostic tests
+- \uparrow plasma tyrosine 300-1300 umol/L
+- \uparrow urine 4-hydroxyphenylpyruvate, 4-hydroxyphenyllactate and 4-hydroxyphenylacetate
+
+
+* Alkaptonuria
+** Clinical presentation
+- clinical symptoms first appear in adulthood
+  - some cases diagnosed in infancy due to darkening of urine when
+    exposed to air
+- most prominent symptoms relate to joint and connective tissue involvement;
+- significant cardiac disease and urolithiasis may be detected in later years
+** Metabolic derangement
+- first identified IEM in 1902 by Garrod
+- homogentisate dioxygenase expressed mainly in the liver and the
+  kidneys
+\ce{homogentisate ->[HGD] maleylacetoacetate}
+- accumulation of homogentisate and its oxidised derivative
+  benzoquinone acetic acid (the toxic metabolite) in various tissues
+** Genetics
+- AR, HGD
+- 1:250000-1:1000000
+** Diagnostic tests
+- Alkalinisation of the urine \to immediate dark brown colouration
+- \uparrow urine homogentisate \to positive test for reducing substances
+- \uparrow UOA homogentisic acid
+** Treatment
+- vitamin C
+- nitisinone with \downarrow phe and tyr diet
+  - 3-year clinical trial of nitisinone \to 95% \downarrow urine and plasma homogentisic acid
+  - no demonstrable effects on clinical symptoms
+
+* Hawkinsinuria
+** Clinical presentation
+- only been described in a few families
+- FTT and metabolic acidosis in infancy
+- early weaning from breastfeeding seems to precipitate the disease
+  - may be asymptomatic in breastfed infants
+
+** Metabolic derangement
+- abnormal metabolites produced in hawkinsinuria
+  - (hawkinsin (2-cysteinyl-1,4-dihydroxycyclohexenylacetate)
+  - 4-hydroxycycloxylacetate)
+- thought to derive from in-complete conversion of
+  4-hydroxyphenylpyruvate to homogentisate caused by a defect in
+  4-hydroxyphenylpyruvate dioxygenase
+\ce{4-hydroxyphenylpyruvate ->[HPD] homogentisate}
+- hawkinsin is product of a reaction of an epoxide intermediate with
+  glutathione, which may be depleted
+- metabolic acidosis due to 5-oxoproline accumulation secondary to
+  glutathione depletion
+
+** Genetics
+- AR, HPD
+- mutations that lead to a retention of partial HPD function,
+  - production of hawkinsin and 4-hydroxycyclohexylacetate
+** Diagnostic tests
+- UAO hawkinsin or 4-hydroxycyclohexylacetate is diagnostic
+- may be moderate tyrosinaemia, increased urinary
+  4-hydroxyphenylpyruvate and 4-hydroxyphenyllacate, metabolic
+  acidosis and 5-oxoprolinuria during infancy
+
+** Treatment
+- return to breastfeeding or low tyr and phe diet
+- asymptomatic after the 1st year of life
+- affected infants are reported to have developed normally

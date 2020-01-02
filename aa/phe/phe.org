@@ -67,7 +67,7 @@
   - ratio of Phe levels in blood/brain is about 4:1
 
 ** Genetics 
-- AR
+- AR, PAH
 - R408W mutation \sim 30% of alleles in Europeans with PKU
 - genotypes correlate well with biochemical phenotypes, pre-treatment
   Phe levels and Phe tolerance
@@ -125,7 +125,6 @@
 - monitoring expecting mothers 2x weekly
 
 * HPA and Disorders of Biopterin Metabolism
-
 - Disorders of BH_4 associated with HPA and biogenic amine deficiency
   include deficiencies of:
   - GTP cyclohydrolase I (GTPCH)
@@ -160,7 +159,7 @@
   - 5-HIAA deficiency is a measure of reduced serotonin metabolism
 
 ** Genetics
-- AR
+- AR: GTPCH, PTPS, DHPR, PCD
 - biopterin disorders account for 1-3% of infants found to have a
   raised PHE on newborn screening
 
