@@ -1,0 +1,77 @@
+#+TITLE: Sulfur Amino Acids
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+* Introduction
+- methionine is converted by two methionine adenosyltransferases (MAT
+  I/III and MATII) to S-adenosylmethionine (SAM)
+- methyl group of SAM is used in numerous methylation reactions,
+  yielding S-adenosylhomocysteine (SAH)
+- excess SAM is removed from the cycle by glycine N-methyltransferas (GNMT)
+- SAH is cleaved by S-adenosylhomocysteine hydrolase (SAHH) to
+  homocysteine and adenosine, which is phosphorylated by adenosine
+  kinase (ADK)
+- homocysteine can be converted back to methionine by the
+  remethylation pathway or using betaine as a methyl-group donor, in
+  patients treated with this drug
+- alternatively, homocysteine is irreversibly metabolized to sulfate
+  by the transsulfuration pathway
+  - homocysteine is condensed with serine to form cystathionine, which
+    is subsequently cleaved to form cysteine and \alpha-ketobutyrate
+  - these reactions are catalysed by cystathionine \beta-Synthase
+    (CBS) and cystathionine \gamma-lyase (CTH) , respectively
+- CTH can also use cysteine and/or homocysteine to synthesize
+  hydrogen sulfide
+- cysteine can be further converted in a series of reactions to
+  taurine , or via the mitochondrial enzymes, AST and
+  3-mercaptopyruvate sulfurtransferase (MPST), to pyruvate and
+  hydrogen sulfide
+- mitochondrial oxidation of hydrogen sulfide and of cysteine involves
+  several steps yielding thiosulfate , sulfite and finally sulfate
+- inorganic sulfur released from cysteine residues by a series of
+  reactions is used in the formation of mitochondrial iron-sulfur
+  (FeS) cluster cofactors
+- availability of cysteine in the neonatal period is limited because
+  its endogenous synthesis from methionine by the transsulfuration
+  pathway is markedly attenuated
+- activity of the rate limiting enzyme in the pathway, cystathionase ,
+  is very low at birth and increases slowly during the first few months of life
+  - for this reason, cysteine is considered a conditionally essential
+    amino acid, at least in preterm infants
+
+- disorders in sulfur amino acid metabolism exhibit:
+  - altered methionine, S-adenosylmethionine, sarcosine, S-adenosylhomocysteine,
+    total homocysteine or cystathionine concentrations in blood
+  - adenosine or thiosulfate excretion in urine
+
+
+- CBS deficiency – classical homocystinuria – is the commonest disease
+  in this group
+  - severity varies from
+    - multisystemic childhood condition with lens dislocation,
+      osteoporosis, marfanoid features, central nervous system and
+      vascular complications
+    - isolated thromboembolic disease in adults.
+- CTH deficiency appears to be a biochemical trait with no major
+  clinical sequelae
+- Disorders of cysteine and hydrogen sulfide oxidation pathway include:
+  - ethylmalonic encephalopathy
+  - isolated sulfite oxidase deficiency
+  - combined sulfite oxidase deficiency
+    - due to impaired molybdenum cofactor synthesis
+- These are severe disorders with early-onset seizures and other
+  neurological complications
+  - other signs include orthostatic acrocyanosis, lens dislocation or
+    urolithiasis;
+- only molybdenum cofactor deficiency type A can be treated
+  successfully, with a synthetic cofactor
+
+#+CAPTION[]:Sulfur amino acid metabolism
+#+NAME: fig:sulfur
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/sulfuraa.png]]
+
+
+
+
+

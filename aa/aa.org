@@ -32,4 +32,9 @@
 * Phenylalanine
 #+INCLUDE: "./phe/phe.org" :lines "4-"
 
+* Tyrosine
+#+INCLUDE: "./tyr/tyr.org" :lines "4-"
+
+* Sulfur Amino Acids
+#+INCLUDE: "./sulfur/sulfur.org" :lines "4-"
 
