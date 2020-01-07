@@ -69,7 +69,7 @@
 #+CAPTION[]:Sulfur amino acid metabolism
 #+NAME: fig:sulfur
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./figures/sulfuraa.png]]
+[[file:./sulfur/figures/sulfuraa.png]]
 
 
 

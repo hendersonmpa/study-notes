@@ -38,7 +38,6 @@
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./phe/figures/pah.png]]
 
-
 * Phenylalanine Hydroxylase Deficiency
 ** Clinical Presentation
 - natural history of PKU is for affected individuals to suffer
@@ -82,7 +81,6 @@
     leucine/isoleucine are usually also raised)
   - treatment with inhibitors of dihydrofolate reductase (e.g. methotrexate, trimethoprim)
     - folate promotes recycling of BH_4
-
 
 ** Treatment
 *** Diet
@@ -133,7 +131,6 @@
   - pterin-4a-carbinolamine dehydratase (PCD)
 - Dopa-responsive dystonia (DRD) due to a dominant form of GTPCH
   deficiency, and sepiapterin reductase (SR) deficiency (see Disorders of Monoamine Metabolism)
-
 ** Clinical Presentation
 - can present in any of three ways:
   1) Asymptomatic, but with raised PHE found following NBS; as part of
