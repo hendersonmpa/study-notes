@@ -3,21 +3,21 @@
 #+DATE: \today
 
 * Introduction
-- Caused by accumulation of *glucosylceramide (glucocerebroside)*.
+- caused by accumulation of *glucosylceramide (glucocerebroside)*
   - - Glucocerebroside is the Gaucher lipid
-- Defect in *\beta-glucocerebrosidase*
+- defect in *\beta-glucocerebrosidase*
   - Extremely rare *SAP-C deficiency*
-- Most common LSD
+- most common LSD
   - 1:40,000 to 1:50,000 live births
-- Three types:
+- three types:
   - Type 1 :: No neurological symptoms
   - Type 2 :: Acute neuronopathic
   - Type 3 :: Sub-acute or chronic neuronopathic
 - Type 1 disease is common in Western Europe, the Americas and Israel
-- In many other countries neuronopathic forms of Gaucher disease predominate
+- in many other countries neuronopathic forms of Gaucher disease predominate
 
 
-- Located in the lumen of lysosomes
+- located in the lumen of lysosomes
 - LIMP-2 is responsible for mannose 6-phosphate receptor independent
   lysosomal targeting of \beta-glucocerebrosidase
 
@@ -32,21 +32,21 @@
 [[file:./gaucher/figures/glucocerebrosidase.png]]
 
 * Genetics
-- Autosomal recessive, GBA gene 
-- Most of the >300 disease alleles in Gaucher disease are missense
+- autosomal recessive, GBA gene 
+- most of the >300 disease alleles in Gaucher disease are missense
   mutations
   - result in \beta-glucocerebrosidase with decreased catalytic
-    function and/or stability.
-- A variety of complex mutations/rearrangements also causes Gaucher
+    function and/or stability
+- variety of complex mutations/rearrangements also causes Gaucher
   disease:
   - missense mutations, frame shift mutations, splicing mutations,
     deletions, gene fusions with the pseudogene, examples of gene
-    conversions, and total deletions.
+    conversions, and total deletions
 - genotype/phenotype correlations exist for:
   - type 1 disease (N370S)
   - types 2 and 3 (L444P)
 - within these categories there is variable penetrance and
-  expressivity between individuals and ethnic groups.
+  expressivity between individuals and ethnic groups
 
 * Clinical Findings
 #+CAPTION[]: Gaucher Clinical Variants
@@ -63,24 +63,24 @@
 |                        |                    |            | Swedish          |
 
 ** Gaucher type 1
-- Clinical manifestations of Gaucher type 1 are linked to macrophages
-  engorged with glucosylceramide.
+- clinical manifestations of Gaucher type 1 are linked to macrophages
+  engorged with glucosylceramide
 
-- An undefined mechanism results in:
+- an undefined mechanism results in:
   - enlargement and dysfunction of the liver and spleen
   - displacement of normal bone marrow by storage cells
   - osteoclastic-osteoblastic imbalances
-    - subsequent damage leading to bone infarctions and fractures.
+    - subsequent damage leading to bone infarctions and fractures
   - Occasionally, involvement of other organs (e.g. lung) contributes
-    to the overall clinical picture.
+    to the overall clinical picture
   - Hypermetabolism and cachexia can be present
   - Thrombocytopenia is the most common peripheral blood abnormality 
 
-- Neurological manifestations include:
+- neurological manifestations include:
   - a high incidence of Parkinsonism
   - spinal cord compression
   - nerve root compression
-  - polyneuropathy.
+  - polyneuropathy
 
 ** Gaucher type 2
 - Type 2 is the rarer of the two classic neuronopathic variants
@@ -93,17 +93,17 @@
   - Bulbar signs are prominent including:
     - convergent squint, ocular paresis, trismus, dysphagia
 
-- The perinatal-lethal subtype is the most severe form of Gaucher
-  disease.
+- the perinatal-lethal subtype is the most severe form of Gaucher
+  disease
   - leads to death in utero or within hours to days after
     birth
 
 ** Gaucher type 3
 - type 3 disease has a later onset, with slower progression of
   neurologic manifestations and variable degrees of systemic
-  involvement.
+  involvement
 - phenotype in type 3 Gaucher disease is considerably more
-  heterogeneous than that in type 2.
+  heterogeneous than that in type 2
 
 - onset of symptoms occurs later, and neurologic involvement
   progresses more slowly
@@ -111,7 +111,7 @@
 - includes abnormalities in:
   - eye movements, seizures, intellectual deterioration
 
-- The same systemic manifestations occur as in type 1 disease.
+- the same systemic manifestations occur as in type 1 disease
   - many type 3 patients may be incorrectly classified as type 1 when
     first seen
 
@@ -151,17 +151,17 @@
 
 ** Molecular
 - GBA gene sequencing, >300 disease alleles
-- Patients homozygous for the L444P mutation have severe visceral
-  disease, highly predisposed to the development of CNS disease.
-- The N370S mutant enzyme appears to preclude the development of classical CNS disease of Gaucher disease.
-- The D409H mutation manifests a characteristic phenotype:
-  - including cardiac calcification, oculomotor apraxia, and corneal opacities.
+- patients homozygous for the L444P mutation have severe visceral
+  disease, highly predisposed to the development of CNS disease
+- N370S mutant enzyme appears to preclude the development of classical CNS disease of Gaucher disease
+- D409H mutation manifests a characteristic phenotype:
+  - including cardiac calcification, oculomotor apraxia, and corneal opacities
 
 * Treatment
 ** Bone marrow transplantation
-  - Curative for Type 1
-    - Suggests hematopoietic gene therapy
-  - High risk of mortality
+  - curative for Type 1
+    - suggests hematopoietic gene therapy
+  - high risk of mortality
 ** ERT
 - treats: hematological, visceral, and bony disease
   - not cerebral disease
@@ -175,7 +175,7 @@
 - ceramide glucoyltransferase inhibitor
   - N-butyldeoxynojirimycin (miglustate)
   - eliglustat tartrate
-- Chaperone to stabilize - missense mutation
+- chaperone to stabilize - missense mutation
   - isofagomine
 
 

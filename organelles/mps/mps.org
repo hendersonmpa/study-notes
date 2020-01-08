@@ -10,12 +10,12 @@
 
 ** Proteoglycans function
 
-- Structural proteins of the ECM are embedded in gels formed from
-  proteoglycans.
-- Composed of glycosaminoglycans (GAGs) linked to a protien core.
-- Negatively charged GAGs bind Na^{+}
+- structural proteins of the ECM are embedded in gels formed from
+  proteoglycans
+- composed of glycosaminoglycans (GAGs) linked to a protien core
+- negatively charged GAGs bind Na^{+}
   - draws water to create a gel 
-- Found in interstitial connective tissues such as: 
+- found in interstitial connective tissues such as: 
   - synovial fluid
   - vitreous humour, cornea
   - arterial walls
@@ -37,10 +37,8 @@
 6. hyaluronan (not typically protein bound)
 
 
-- GAGs are composed of repeating units of disaccharides.
+- GAGs are composed of repeating units of disaccharides
   - hexosamine and a hexose or hexuronic acid
-
-** 
 
 #+CAPTION[Glycan Nomenclature]: Symbol Nomenclature for Glycans (SNFG)
 #+NAME: fig:snfg
@@ -58,7 +56,7 @@
 *** Hyaluronan 
 - not sulfated, not protein bound
 - forms in the plasma membrane instead of the Golgi
-- connective, epithelial, and neural tissues.
+- connective, epithelial, and neural tissues
 - cell proliferation and migration
 
 *** Chondroitin sulfate
@@ -72,14 +70,14 @@
 
 *** Heparan Sulfate
 - O-xylose-linked to core proteins
-- developmental processes,angiogenesis, blood coagulation, tumour metastasis.
+- developmental processes,angiogenesis, blood coagulation, tumour metastasis
 
 *** Keratan sulfate
 - KSI was isolated from corneal tissue and KSII from skeletal tissue
   - KSI is N-linked to specific asparagine amino acids via
     N-acetylglucosamine
   - KSII is O-linked to specific Serine or Threonine amino acids via
-    N-acetyl galactosamine.
+    N-acetyl galactosamine
   - cornea, cartilage,bone, CNS
 
 
@@ -89,11 +87,11 @@
 - type of lysosomal storage disease
 - a group of metabolic disorders caused by the absence or
   malfunctioning of lysosomal enzymes needed to break down
-  glycosaminoglycans.
+  glycosaminoglycans
 - can be a result of decreased expression, stability, and activity of
   one of the eleven enzymes required for glycosaminoglycans
   degradation
-- GAGs collect in the cells, blood and connective tissues.
+- GAGs collect in the cells, blood and connective tissues
   - The result is permanent, progressive cellular damage which affects:
     - appearance
     - physical abilities
@@ -104,9 +102,6 @@
 #+NAME: fig:degradation
 #+ATTR_LaTeX: :width 0.8\textwidth
 [[file:./mps/figures/ch16f9.jpg]]
-
-
-
 
 #+CAPTION[Mucopolysaccharidoses]:Mucopolysaccharidoses
 #+NAME: tab:muco
@@ -136,15 +131,15 @@
   
 
 ** Classification
-- Presenting as a dysmorphic syndrome
+- presenting as a dysmorphic syndrome
   - MPS I (Hurler)
   - MPS II (Hunter)
   - MPS VI (Maroteaux-Lamy)
-- Presenting with learning difficulties, behavioral disturbances and dementia
+- presenting with learning difficulties, behavioral disturbances and dementia
   - MPS III (Sanfilippo)
-- Presenting with severe bone dysplasia
+- presenting with severe bone dysplasia
   - MPS IV (Morquio)
-- Others rare
+- others rare
   - MPS VII (Sly)
   - MPS IX (Natowicz)
 
@@ -155,13 +150,10 @@
 #+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./mps/figures/ds_degradation_disorders.png]]
 
-
-
 #+CAPTION[KS Degradation]: KS degradation
 #+NAME: fig:kse
 #+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./mps/figures/ks_degradation_disorders.png]]
-
 
 #+CAPTION[HS Degradation]: HS Degradation
 #+NAME: fig:hse

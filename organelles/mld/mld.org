@@ -4,22 +4,23 @@
 
 * Introduction
 
-- Metachromatic leukodystrophy (MLD) is panethnic, with reported
+- metachromatic leukodystrophy (MLD) is panethnic, with reported
   incidences ranging between 1 in 40,000 and 1 in 170,000, except in
-  specific ethnic groups with higher frequency.
-  - block in lysosomal degradation of sulfatide AKA sulfated galactocerebroside, and other sulfated glycolipids.
+  specific ethnic groups with higher frequency
+  - block in lysosomal degradation of sulfatide (AKA sulfated
+    galactocerebroside) and other sulfated glycolipids
   - sulfatide is presented to the enzyme arylsulfatase A (ASA) as a
     1:1 complex with sap-B
-  - A deficiency of either ASA or sap-B can cause MLD.
-- Sulfatide is component of the myelin sheath.
-- sulfatide:galactocerebroside ratio \to stability and physiological properties of this membrane.
-- \uparrow sulfatides in CNS and PNS \to demyelination.
+  - A deficiency of either ASA or sap-B can cause MLD
+- sulfatide is component of the myelin sheath
+- sulfatide:galactocerebroside ratio \to stability and physiological properties of this membrane
+- \uparrow sulfatides in CNS and PNS \to demyelination
 - \uparrow sulfatide in the kidney \to sulfatide in urine
 
-- Three forms:
-  1) Late Infantile
-  2) Juvenille
-  3) Adult
+- three forms:
+  1) late infantile
+  2) juvenille
+  3) adult
 
 
 * Genetics
@@ -29,7 +30,7 @@
   - p.Pro428Leu mild phenotype
   - Ile181Ser mild phenotype
 - relatively good genotype-phenotype correlation
-- Two very frequent ARSA polymorphisms:
+- two very frequent ARSA polymorphisms:
   1. loss of an N-glycosylation site
   2. loss of a polyadenylation signal
 
@@ -39,59 +40,58 @@
 
 * Clinical 
 ** Late-infantile MLD
-- Onset is before age 30 months.
-- Typical presenting findings include weakness, hypotonia, clumsiness, frequent falls, toe walking, and dysarthria.
-- language, cognitive, and gross and fine motor skills regress.
-- Later signs include spasticity, pain, seizures, and compromised vision and hearing.
+- onset is before age 30 months
+- typical presenting findings include weakness, hypotonia, clumsiness, frequent falls, toe walking, and dysarthria
+- language, cognitive, and gross and fine motor skills regress
+- later signs include spasticity, pain, seizures, and compromised vision and hearing
 - final stages, children have tonic spasms, decerebrate posturing, and
   general unawareness of their surroundings
 
 ** Juvenile MLD
-- Onset is between age 30 months and 16 years.
-- decline in school performance and emergence of behavioral problems, followed by gait disturbances.
-- Progression is similar to but slower than in the late-infantile form.
+- onset is between age 30 months and 16 years
+- decline in school performance and emergence of behavioral problems, followed by gait disturbances
+- progression is similar to but slower than in the late-infantile form
 
 ** Adult MLD
-- Onset occurs after age 16 years, sometimes not until the fourth or fifth decade.
+- onset occurs after age 16 years, sometimes not until the fourth or fifth decade
 - problems in school or job performance, personality changes, emotional lability, or psychosis
 - neurologic symptoms (weakness and loss of coordination progressing
   to spasticity and incontinence) or seizures initially
-  predominate.
-- Peripheral neuropathy is common.
-- Disease course is variable – periods of stability and decline – two to three decades.
-- The final stage is similar to earlier-onset forms.
+  predominate
+- peripheral neuropathy is common
+- disease course is variable – periods of stability and decline – two to three decades
+- final stage is similar to earlier-onset forms
 
 * Diagnosis
 
-- ASA activity in leukocytes or fibroblasts using p-nitrocatechol-sulfate is the first first biochemical test.
-- Pseudodeficiency is a major pitfall.
-  - homozygotes for a pd allele (1–2% of the European population)
+- ASA activity in leukocytes or fibroblasts using p-nitrocatechol-sulfate is the first first biochemical test
+- pseudodeficiency is a major pitfall
+  - homozygotes for a pd allele (1-2% of the European population)
   - compound heterozygotes for a disease-causing mld and a pd allele
-    have about 5–15% of normal ASA activity but no detectable clinical
-    abnormality or pathology.
-- Deficient ASA activity is not diagnostic
-- sulfatides in the urinary sediment circumvents the problem.
+    have about 5-15% of normal ASA activity but no detectable clinical
+    abnormality or pathology
+- deficient ASA activity is not diagnostic
+- sulfatides in the urinary sediment circumvents the problem
 - MLD and multiple sulfatase deficiency patients excrete sulfatides
-  - massive - late infantile and juvenile patients 
-  - significant adult-onset type
-  - ASA pd within or slightly above the normal range.
-  - 
-- Prenatal testing of MLD by DNA analysis is preferred
+  - \Uparrow late infantile and juvenile patients 
+  - \uparrow adult-onset type
+  - ASA within or slightly above the normal range
 
-- Another cause of erroneous interpretation of an ASA
-deficiency is multiple sulfatase deficiency (MSD), due to a
-deficiency in the formylglycine-generating enzyme (FGE)
-encoded by SUMF1. 
+- prenatal testing of MLD by DNA analysis is preferred
 
-- Whenever a deficiency of one sulfatase is found, it is mandatory to
-  systematically measure the activity of another one to exclude MSD
+- another cause of erroneous interpretation of an ASA deficiency is
+  *multiple sulfatase deficiency (MSD)*, due to a deficiency in the
+  formylglycine-generating enzyme (FGE)encoded by SUMF1
+
+- *whenever a deficiency of one sulfatase is found, it is mandatory to*
+  *systematically measure the activity of another one to exclude MSD*
   - arylsulfatase B or iduronate-2-sulfatase
 - the clinical picture can be misleading
 
 - MLD patients with sap-B deficiency
-  - the in vitro ASA assay will not show a deficiency.
-  - sulfatides and globotriaosylceramide (Gb3) in urine are essential.
-  - Both lipids are elevated - combined MLD and Fabry pattern
+  - the in vitro ASA assay will not show a deficiency
+  - sulfatides and globotriaosylceramide (Gb3) in urine are essential
+  - both lipids are elevated - combined MLD and Fabry pattern
 - diagnosis requires PSAP molecular genetics
 * Treatment
 - HSCT has been used

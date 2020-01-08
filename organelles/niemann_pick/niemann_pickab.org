@@ -4,20 +4,20 @@
 
 
 * Introduction
-- There are two distinct diseases called Niemann-Pick
+- there are two distinct diseases called Niemann-Pick
   - Types A and B (acid sphingomyelinase deficiency)
   - Type C (cholesterol recycling) - see section [[Niemann-Pick C]]
 
-- Incidence of Niemann-Pick A among Ashkenazi Jews ~ 1:40,000.
-- Incidence of both Niemann-Pick A and B in all other populations ~ 1:250,000.
+- incidence of Niemann-Pick A among Ashkenazi Jews ~ 1:40,000
+- incidence of both Niemann-Pick A and B in all other populations ~ 1:250,000
 - Niemann-Pick Type A and B are caused by deficiency of *acid sphingomyelinase (ASM)*
-  - acid sphingomyelinase is required to metabolize sphingomyelin.
+  - acid sphingomyelinase is required to metabolize sphingomyelin
   - results in progressive *accumulation of sphingomyelin* in systemic organs
     - brain accumulation in neuronal forms
-  - There is growing evidence that NPA & NPB represent opposite ends of a continuum.
-    - NPA generally have little or no ASM production (less than 1% of normal).
-    - NPB have approximately 10% of normal level of ASM.
-- lysosomal trafficking of acid sphingomyelinase is mediated by sortilin and mannose 6-phosphate receptor.
+  - there is growing evidence that NPA & NPB represent opposite ends of a continuum
+    - NPA generally have little or no ASM production (less than 1% of normal)
+    - NPB have approximately 10% of normal level of ASM
+- lysosomal trafficking of acid sphingomyelinase is mediated by sortilin and mannose 6-phosphate receptor
 - MPR alone is sufficient to transport NPC2 to the endo/lysosomal compartment
 
 
@@ -32,35 +32,33 @@
 [[file:./niemann_pick/figures/sphingomyelinase.png]]
 
 * Genetics
-- Mutations in SMPD1
-- Good phenotype-genotype correlation
+- mutations in SMPD1
+- good phenotype-genotype correlation
 
 * Clinical Findings
 ** Niemann-Pick A symptoms
 - hepatosplenomegaly by age 3 months
-- Failure to thrive
-- Psychomotor regression at age 1
+- failure to thrive
+- psychomotor regression at age 1
   - progressive loss of abilities – mental and physical
-- Interstitial lung disease resulting in lung infections and lung failure
-- Cherry-red spot identified with eye examination (100%)
+- interstitial lung disease resulting in lung infections and lung failure
+- cherry-red spot identified with eye examination (100%)
 
 ** Niemann-Pick B symptoms
-- Symptoms outlined under NPA (but less severe)
-- Thrombocytopenia 
-- Short stature
-- Cherry-red spot identified with eye examination (50%)
-- Classification by neurological form is widely used
+- symptoms outlined under NPA (but less severe)
+- thrombocytopenia 
+- short stature
+- cherry-red spot identified with eye examination (50%)
+- classification by neurological form is widely used
 - correlation between age at neurological onset and course of disease
   and lifespan has been established
 
-
-
 * Diagnostic Tests
-- Plasma oxysterols
+- plasma oxysterols
   - oxysterols cholestane-3\beta, 5\alpha, 6\beta-triol
   - 7-ketocholesterol
   - Chitotriosidase is moderately elevated
-- Deficient ASM activity in leukocytes or cultured cells.
+- deficient ASM activity in leukocytes or cultured cells
   - use of native or radio-labelled substrate preferred to fluorescent substrate
     - 6-hexadecanoylamino-4-methylumbelliferyl-phosphorylcholine
     - Does not detect Q292K mutation
@@ -76,11 +74,11 @@
 [[file:./niemann_pick/figures/foam_cells.png]]
 
 * Treatment
-- No approved treatments
-- Olipudase alfa, a recombinant human acid sphingomyelinase (ASM),
-  - an ERT for the treatment of nonneurologic manifestations of acid sphingomyelinase deficiency (ASMD).
+- no approved treatments
+- olipudase alfa, a recombinant human acid sphingomyelinase (ASM),
+  - an ERT for the treatment of nonneurologic manifestations of acid sphingomyelinase deficiency (ASMD)
 - ongoing, open-label, long-term study assessed safety and efficacy of olipudase alfa 
-- Chitotriosidase in serum and lyso-sphingomyelin in dried blood spots
+- chitotriosidase in serum and lyso-sphingomyelin in dried blood spots
   decreased with olipudase alfa treatment
 
 

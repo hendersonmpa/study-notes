@@ -5,11 +5,11 @@
 
 * Introduction
 
-- Defect in *\beta-galactosidase (AKA:\beta-gangliosidase)*
+- defect in *\beta-galactosidase (AKA:\beta-gangliosidase)*
 - *GM1 ganglioside accumulates in the brain and visera*
-- *Infantile, juvenile and adult forms*
-  - Residual enzyme function
-  - Devastating degenerative disease
+- *infantile, juvenile and adult forms*
+  - residual enzyme function
+  - devastating degenerative disease
 - GM1 gangliosidosis of all types is estimated to occur in 1:100,000 - 300,000
 
 - GLB1-related disorders comprise two phenotypically distinct lysosomal storage disorders:
@@ -17,10 +17,10 @@
   2) mucopolysaccharidosis type IVB (Morquio B)
 
 - MPS IVB - Morquio B
-  - Clinically indistinguishable from MPS IVA 
-    - skeletal changes, including short stature and skeletal dysplasia.
+  - clinically indistinguishable from MPS IVA 
+    - skeletal changes, including short stature and skeletal dysplasia
     - normal intelligence
-  - The prevalence of MPS IVB has been reported as 1:250,000 - 1,000,000
+  - prevalence of MPS IVB has been reported as 1:250,000 - 1,000,000
 
 #+CAPTION[]: \beta-galactosidase
 #+NAME: fig:bgal
@@ -40,7 +40,7 @@
 * Genetics
 - GLB1: autosomal recessive 
 - ~ 150 mutations in GLB1 have been described
-- Neither the type or location correlate with phenotype
+- neither the type or location correlate with phenotype
 
 * Clinical Findings
 
@@ -58,16 +58,13 @@
 | Neuroimaging           | PA        | PA         | +/– mild atrophy | [fn:2]                 |
 | Urine (GAG)            | [fn:1]    | [fn:1]     | [fn:1]           | Keratan sulfate [fn:3] |
 
-[fn:1] Oligosacaride with terminal galactose
-[fn:2] Secondary to bony changes
+[fn:1] oligosacaride with terminal galactose
+[fn:2] secondary to bony changes
 [fn:3] FN have been observed
 
-
-
-
 * Laboratory Investigations
-- Urine oligosacarides
-- *Mucopolysacarides: \uparrow keratin sulfate*
+- urine oligosacarides
+- *mucopolysacarides: \uparrow keratin sulfate*
 - /in vitro/ \beta-galactosidase activity: leukocytes and DBS
   - 4-MU-\beta-d-galactopyranoside
 

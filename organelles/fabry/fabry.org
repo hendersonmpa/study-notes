@@ -4,19 +4,19 @@
 
 * Introduction
 - AKA: angiokeratoma corporis diffusum universale
-- Second most common LSD
-- 1:339,000 heterozygote females in the UK
-- First described in 1898 independently by Anderson and Fabry
+- second most common LSD
+- 1:340,000 heterozygote females in the UK
+- first described in 1898 independently by Anderson and Fabry
   - Dermatologists
-- Defect in \alpha-galactosidase A (ceramide trihexosidase)
-  - Inability to cleave terminal galactose from the sphingolipid globotriaosylceramide Gb3 (galactosylgalactosylglucoceramide)
+- defect in \alpha-galactosidase A (ceramide trihexosidase)
+  - inability to cleave terminal galactose from the sphingolipid globotriaosylceramide Gb3 (galactosylgalactosylglucoceramide)
   - 3 to 20% activity in hemizygote males
-- Lack of \alpha-GalA leads to accumulation of Gb3 in blood vessels and other tissues
+- lack of \alpha-GalA leads to accumulation of Gb3 in blood vessels and other tissues
   - wide range of symptoms including kidney, heart, and skin symptoms
   - \uparrow [Gb3] in kidney and blood group B antigenic glycosphingolipid
--  Globotriaosylceramide (Gb3): the Fabry lipid
+-  globotriaosylceramide (Gb3): the Fabry lipid
 - \alpha-galactosidase A uses both sortilin and mannose receptor
-  - Not affected in ML II & III
+  - not affected in ML II & III
 
 #+CAPTION[Globotriaosylceramide]:  Globotriaosylceramide (Gb3): the Fabry lipid
 #+NAME: fig:galac 
@@ -29,13 +29,13 @@
 [[file:./fabry/figures/galactosidaseA.png]]
 
 * Genetics
-- The \alpha-galactosidase A gene is on the X chromosome
+- \alpha-galactosidase A gene is on the X chromosome
   - Xq22.1
 - X-linked with penetrance in female heterozygotes
   - may be considered X-linked dominant
-- More that 300 of mutations have been found
-- Single nucleotide missense mutations identified in the majority of families
-  - Mostly private mutations
+- \gt 300 of mutations have been found
+- single nucleotide missense mutations identified in the majority of families
+  - mostly private mutations
 
 * Clinical Findings
 
@@ -44,7 +44,7 @@
 - degradation of interphalangeal joints
 - cerebrovascular - stroke, seizures
 - ocular lesions
-- Angiokeratomas
+- angiokeratomas
   - prominent on hip, buttocks and scrotum
 
 #+CAPTION[]:Signs and Symptoms
@@ -66,23 +66,21 @@
 
 
 * Laboratory Investigations
-
 ** Biochemistry
-- Deficient \alpha-galactosidase A activity in leukocytes
+- deficient \alpha-galactosidase A activity in leukocytes
   - fluorometric 4MU-\alpha-D-galactopyranoside substrate
   - LC-MS/MS 
 - NBS via \alpha-galactosidase A activity in DBS
   - Taiwan, MO, IL
-- Elevated urine Gb3 and Gb2 in hemizygote males and heterozygote females
+- elevated urine Gb3 and Gb2 in hemizygote males and heterozygote females
   - urine and DUS LC-MSMS assay
-- Plasma lyso-Gb3 (globotriaosylsphingosine) is a sensitive biomarker
+- plasma lyso-Gb3 (globotriaosylsphingosine) is a sensitive biomarker
   - LC-MSMS
-  - Useful in diagnosis and monitoring
+  - useful in diagnosis and monitoring
 
 ** Pathology
-
-- Widespread deposition of Gb3
-- Vacuoles seen in variety of cells, \uparrow endothelium of blood vessels
+- widespread deposition of Gb3
+- vacuoles seen in variety of cells, \uparrow endothelium of blood vessels
 
 #+CAPTION[Fabry EM]:EM showing concentric or lamellar structure of lysosomal inclusions in Fabry disease renal biopsy
 #+NAME: fig:biopsy
@@ -90,16 +88,16 @@
 [[file:./fabry/figures/Fabrys-disease.jpg]]
 
 * Treatment
-- Alleviate pain
+- alleviate pain
   - chronic low dose of diphenylhydantoin
   - carbamazapine, gabapentin
-- Dialysis or renal transplantation
-- There is long term experience with ERT
+- dialysis or renal transplantation
+- there is long term experience with ERT
   - Agalsidase (alpha or beta)
-  - Reduces left ventricular hypertrophy
-  - Less effect on renal function
-  - Does not prevent progression
-- Oral chaperone therapy - migalastat
-  - Only for amenable mutations
+  - reduces left ventricular hypertrophy
+  - less effect on renal function
+  - does not prevent progression
+- oral chaperone therapy - migalastat
+  - only for amenable mutations
 
 

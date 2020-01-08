@@ -13,25 +13,25 @@
 - \alpha-oxidation of phytanoyl-CoA \to pristanoly-CoA
   - \beta-oxidation of pristanoly-CoA
 
-- Two acyl-CoA oxidases (ACOX1 & 2)
-- Two bifunctional proteins (LBP & DBP)
-- Two thiolases (ACAA1 & SCPx). 
-- Single enzyme or transport protein defect result in abnormalities in some fatty acids.
+- two acyl-CoA oxidases (ACOX1 & 2)
+- two bifunctional proteins (LBP & DBP)
+- two thiolases (ACAA1 & SCPx). 
+- single enzyme or transport protein defect result in abnormalities in some fatty acids
 
 ** Peroxisomal Disorders
-- Peroxisomal \beta-oxidation disorders can be subdivided into two groups:
+- peroxisomal \beta-oxidation disorders can be subdivided into two groups:
   1) single peroxisomal enzyme or transport protein deficiencies
      - X-linked adrenoleukodystrophy (X-ALD)
      - D-Bifunctional Protein (DBP) Deficiency
      - Acyl-CoA Oxidase (ACOX) Deficiency
      - Methyl Acyl-CoA Racemase (AMACR) Deficiency
-  2) generalized peroxisomal beta-oxidation deficiencies.
+  2) generalized peroxisomal beta-oxidation deficiencies
      - Zellweger syndrome 
-- Peroxisomal \alpha-oxidation disorders
+- peroxisomal \alpha-oxidation disorders
   - Adult Refsum
 - Sjogren Larsson Syndrome
 
-- Rare Peroxisomal Disorders 
+*** Rare Peroxisomal Disorders 
   - Etherphospholipid Biosynthesis
     - Rhizomelic Chondrodysplasia Punctata (RCDP) 1-4
   - FA Elongation disorders
@@ -54,22 +54,22 @@
 - childhood cerebral form is the most severe
   - neurological symptoms between 4-12 years
   - vegetative state and death
-- Males may present with ADD or behavioural changes
+- males may present with ADD or behavioural changes
   - due to visuospatial deficits \pm central hearing loss
 - followed by severe visual and hearing impairment, quadriplegia and
-  cerebellar ataxia.
+  cerebellar ataxia
 *** AMN
-- Adrenomyeloneuropathy affects 65% of adult X-ALD male patients (20-50 years)
+- adrenomyeloneuropathy affects 65% of adult X-ALD male patients (20-50 years)
   - up to 88% of heterozygous women (\gt40 years)
-- Presentation is progressive spastic paraparesis and sensory ataxia.
+- presentation is progressive spastic paraparesis and sensory ataxia
 
 ** Metabolic Derangement
-- Deficiency in ALDP a peroxisomal ABC transporter
+- deficiency in ALDP a peroxisomal ABC transporter
 - \to \uparrow VLCFA-CoA in cytosol
   - incorporation into a variety of lipids including:
   - cholesterol esters, phospholipids, and sphingolipids
 - VLCFAs accumulate in virtually all tissues, including erythrocytes,
-  white blood cells and plasma.
+  white blood cells and plasma
 
 ** Genetics
 - X-ALD is caused by mutations in ABCD1
@@ -77,82 +77,82 @@
 
 ** Diagnostic Tests
 
-- Quantitative VLCFAs including:C22:0, C24:0, and C26:0 in plasma
+- quantitative VLCFAs including:C22:0, C24:0, and C26:0 in plasma
   - after alkaline and acid hydrolysis
   - releases the VLCFAs from all lipid species
   - \uparrow concentration of C26:0
   - \uparrow C26:0/C22:0 and C24:0/C22:0 ratios
 
-- In females, normal plasma VLCFA does not exclude XALD
+- in females, normal plasma VLCFA does not exclude XALD
   - mutation analysis is the most reliable method for diagnosis in females
 
-- False-positive results have been reported in:
+- false-positive results have been reported in:
   - patients on a ketogenic diet
   - recent ingestion of peanut butter
 
 ** Treatment
-- A boy born with X-ALD has a 35% risk of developing cerebral ALD
+- a boy born with X-ALD has a 35% risk of developing cerebral ALD
   between the age of 4-12 years
-- 100% risk of developing AMN between the age of 25-50 years.
-- Cerebral X-ALD can be treated in boys and adult males
+- 100% risk of developing AMN between the age of 25-50 years
+- cerebral X-ALD can be treated in boys and adult males
   - only at a very early stage of the disease,
   - when patients start to develop cerebral demyelination on brain MRI
-    but have no or minimal neurologic symptoms.
+    but have no or minimal neurologic symptoms
 - HCT can arrest the cerebral demyelination when the procedure is
   performed at a very early stage
 
 * Zellweger Spectrum Disorders
-- This group of conditions includes:
+- this group of conditions includes:
   - Zellweger syndrome
   - Neonatal Adrenoleukodystrophy (NALD)
-  - Infantile Refsum disease.
+  - Infantile Refsum disease
 
-- Once thought to be distinct disorders but are now considered to be
-  part of the same condition spectrum.
+- once thought to be distinct disorders but are now considered to be
+  part of the same condition spectrum
 
 - Zellweger syndrome is the most severe form of the Zellweger spectrum disorder
 - NALD is intermediate in severity
-- infantile Refsum disease is the least severe form.
-- Because these three conditions are now considered one disorder, some
+- infantile Refsum disease is the least severe form
+- because these three conditions are now considered one disorder, some
   researchers prefer not to use the separate condition names but to
-  instead refer to cases as severe, intermediate, or mild.
+  instead refer to cases as severe, intermediate, or mild
 
 ** Clinical Presentation
 *** Zellweger Syndrome
 - presents in newborn period
   - develop life-threatening problems in other organs and tissues, such as:
-    - the liver, heart, and kidneys.
+    - the liver, heart, and kidneys
   - may have skeletal abnormalities including:
     - a large space between the bones of the skull (fontanelles)
-    - characteristic bone spots known as chondrodysplasia punctata seen on x-ray.
-- Prototypical ZS:
-  1) Typical cranial facial dysmorphia including:
+    - characteristic bone spots known as chondrodysplasia punctata seen on x-ray
+- prototypical ZS:
+  1) typical cranial facial dysmorphia including:
      - high forehead
      - large interior fontanelle
      - hypoplastic supraorbital ridges
      - epicanthal folds
      - flat nasal bridge
      - deformed ear lobes
-  2) Profound neurological abnormalities
-- Children with ZS typically do not survive beyond the first year of life.
+  2) profound neurological abnormalities
+- children with ZS typically do not survive beyond the first year of life
 
 *** NALD and IRD
  - less-severe end of the spectrum
  - have more variable features than those with Zellweger syndrome
- - usually do not develop signs and symptoms of the disease until late infancy or early childhood.
- - many of the features of ZS but progresses more slowly.
+ - usually do not develop signs and symptoms of the disease until late infancy or early childhood
+ - many of the features of ZS but progresses more slowly
    - hypotonia, vision problems, hearing loss, liver dysfunction,
      developmental delay, and some degree of intellectual
-     disability.
+     disability
  - NALD survive into childhood,
- - IRD may reach adulthood.
+ - IRD may reach adulthood
 
 ** Metabolic Derangement
-- Absence or marked deficiency of peroxisomes
+- absence or marked deficiency of peroxisomes
   - assessed by catalase-staining in fibroblasts
   - using immunofluorescence microscopy analysis
-- All peroxisomal functions are impaired.
-- In classical ZSD abnormalities include:
+- all peroxisomal functions are impaired
+- classical ZSD abnormalities include:
   - \uparrow VLCFAs
   - \uparrow pristanic acid,
   - \uparrow di- and trihydroxycholestanoic acid,
@@ -160,10 +160,10 @@
   - \downarrow plasmalogens in erythrocytes
 
 ** Genetics
-- The genetic basis of the ZSD is heterogeneous
-- Biallelic mutations identified in:
+- genetic basis of the ZSD is heterogeneous
+- biallelic mutations identified in:
   - PEX1, PEX2, PEX3, PEX5, PEX6, PEX10, PEX12, PEX13, PEX14, PEX16, PEX19, and PEX26
-- All disorders are autosomal recessive
+- all disorders are autosomal recessive
 
 ** Diagnostic Tests
 - VLCFA analysis is a good initial biochemical test
@@ -176,9 +176,9 @@
   peroxisomal protein
 
 ** Treatment
-- No treatment available
+- no treatment available
 - supplementation with docosahexaenoic acid (DHA) is not beneficial
-- Investigating cholic acid supplementation to reduce formation of the
+- investigating cholic acid supplementation to reduce formation of the
   toxic bile acid intermediates DHCA and THCA
 
 * Adult Refsum Disease
@@ -187,7 +187,7 @@
   - progressive loss of night vision
   - decline in visual capacity
   - anosmia
-- After \ge 10 years patients may develop:
+- after \ge 10 years patients may develop:
   - deafness, ataxia, polyneuropathy, ichthyosis, fatigue, and cardiac
     conduction disturbances
 - full constellation of features defined by Refsum includes:
@@ -195,7 +195,7 @@
 - rarely seen in single patients with ARD
 
 ** Metabolic derangement
-- Phytanoyl-CoA hydroxylase is deficient in ARD
+- phytanoyl-CoA hydroxylase is deficient in ARD
 - required for \alpha-oxidation of phytanic acid
 - \to accumulation of phytanic acid 
 
@@ -205,8 +205,8 @@
 [[file:./peroxisomes/figures/alpha.png]]
 
 ** Genetics
-- ARD is an autosomal recessive disorder caused by mutations in PHYH.
-- A large number of often private mutations has been identified
+- ARD is an autosomal recessive disorder caused by mutations in PHYH
+- a large number of often private mutations has been identified
 
 ** Diagnostic Tests
 - \uparrow \uparrow \uparrow plasma phytanic acid 
@@ -214,88 +214,88 @@
   - initially called infantile Refsum
 
 ** Treatment
-- Dietary restriction of phytanic acid 
-  - critical to minimize ongoing tissue accumulation.
-- The largest sources of phytanic acid and its metabolic precursor phytol are:
+- dietary restriction of phytanic acid 
+  - critical to minimize ongoing tissue accumulation
+- largest sources of phytanic acid and its metabolic precursor phytol are:
   - dairy products, meats and certain fish
 - vegetables do not need to be restricted
   - phytanic acid is not released from chlorophyll
 - avoid rapid weight loss
   - may mobilize phytanic acid from adipose tissue
-- Can halt progression of symptoms and some functional recovery if the
+- can halt progression of symptoms and some functional recovery if the
   disease is recognized early and dietary restriction and regular
-  lipid apheresis are maintained life-long.
+  lipid apheresis are maintained life-long
 
 * Sj\ouml{}gren Larsson Syndrome
 ** Clinical Presentation
-- Classical tetrad of abnormalities in SLS includes:
+- classical tetrad of abnormalities in SLS includes:
   1) ichthyosis
   2) spasticity
   3) ophthalmological abnormalities
   4) intellectual disability
 - full-blown phenotype of SLS is not observed in all patients
-- manifests later on in childhood \gt 3 years of age.
+- manifests later on in childhood \gt 3 years of age
 
 ** Metabolic Derangement
-- Enzyme deficient in SLS is fatty aldehyde dehydrogenase (FALDH)
+- enzyme deficient in SLS is fatty aldehyde dehydrogenase (FALDH)
 - degradation of long-chain fatty alcohols and leukotriene B4
 
 ** Genetics
 - SLS is an autosomal recessive disorder caused by mutations in
   ALD-H3A2
 - a range of different mutations including missense, nonsense,
-  splice-site and deletions has been reported.
+  splice-site and deletions has been reported
  
 ** Diagnostic Tests
 - \uparrow long-chain fatty alcohols in plasma
-- \uparrow LTB4 metabolites in urine.
+- \uparrow LTB4 metabolites in urine
   - No easy methods have been described to measure these metabolites
 - enzymatic analysis is the method of choice
   - can be done in polymorphonuclear lymphocytes using pyrenedecanal as substrate
-  - identification of FALDH-deficiency in candidate patients.
+  - identification of FALDH-deficiency in candidate patients
 
 ** Treatment
-- Treatment of SLS patients is focused on the spasticity and prevention of contracture development.
-- One of the key problems in SLS patients is the striking pruritus
-  - may originate from LTB4 accumulation.
-- Zileuton, inhibits leukotriene formation by blocking its biosynthesis
-  - effective in managing chronic (severe) asthma.
+- treatment of SLS patients is focused on the spasticity and prevention of contracture development
+- one of the key problems in SLS patients is the striking pruritus
+  - may originate from LTB4 accumulation
+- zileuton, inhibits leukotriene formation by blocking its biosynthesis
+  - effective in managing chronic (severe) asthma
 - improvement of pruritus
   - \downarrow urinary LTB4
-  - \downarrow lipid peak on MRS.
-- A double-blind placebo controlled trial is currently underway
+  - \downarrow lipid peak on MRS
+- a double-blind placebo controlled trial is currently underway
 
 * Disorders of Etherphospholipid (RCDP)
 - Rhizomelic Chondrodysplasia Punctata (RCDP) is the classical
   phenotype of a etherphospholipid biogenesis defect
 
-- Patients with classical RCDP have:
+- patients with classical RCDP have:
   - skeletal dysplasia characterized by rhizomelia, chondrodysplasia punctata (stippled calcification in epiphyseal cartilage), bone abnormalities, profound growth retardation and limited joint mobility,
   - congenital cataracts
-  - facial abnormalities including a high forehead, flat midface and small upturned nose.
-- Until very recently only three different disorders ofEPL-biosynthesis were known, including:
+  - facial abnormalities including a high forehead, flat midface and small upturned nose
+- until very recently only three different disorders ofEPL-biosynthesis were known, including:
   1) PEX7 deficiency
   2) glycerone 3-phosphate: acyltransferase (GNPAT) deficiency
   3) alkylglycerone 3-phosphate synthase (AGPS) deficiency
 
-- in the last two years two additional disorders of EPL biosynthesis have been identified including FAR1 deficiency and PEX5L deficiency.
+- in the last two years two additional disorders of EPL biosynthesis have been identified including FAR1 deficiency and PEX5L deficiency
 
 ** Pex7 Deficiency (RCDP 1)
 
 - RCDP type 1 as caused by mutations in PEX7
-- most frequent among the cohort of RCDP patients (> 150 patients).
+- most frequent among the cohort of RCDP patients (> 150 patients)
 - PEX7 codes for one of two peroxisomal cycling receptors and targets PTS2-signal to the peroxisome
-- Three PTS2-containing peroxisomal enzymes are known 
+- three PTS2-containing peroxisomal enzymes are known 
   1) peroxisomal 3-keto acyl-CoA thiolase
   2) alkylglycerone phosphate synthase
   3) phytanoyl-CoA hydroxylase
-- Not imported into peroxisomes in PEX7 deficiency
+- not imported into peroxisomes in PEX7 deficiency
   - defects in plasmalogen biosynthesis and \alpha-oxidation
-- The deficiency of 3-keto acyl-CoA thiolase 1 has no functional
+- deficiency of 3-keto acyl-CoA thiolase 1 has no functional
   consequences for VLCFA degradation because the second peroxisomal
-  thiolase (SCPx) can also handle 3-keto-VLCFAs.
+  thiolase (SCPx) can also handle 3-keto-VLCFAs
 
-- The clinical phenotype associated with mutations in PEX7 is heterogeneous
+- clinical phenotype associated with mutations in PEX7 is heterogeneous
   - ranging from the classical phenotype as described above to much milder phenotypes including RCDP without rhizomelia
   - bone dysplasia with only mild intellectual deficiency to a Refsum-like phenotype
 
@@ -316,22 +316,22 @@
 * Fatty Acid Chain Elongation Disorders
 - FA from dietary sources or synthesized/de novo/ via the FAS complex,
   can be converted into longer-chain fatty acids either saturated,
-  mono- or polyunsaturated.
+  mono- or polyunsaturated
 - chain elongation system localized in the ER,
 - desaturases add double-bonds at specific positions
-- Chain elongation allows the stepwise extension of fatty acids by two
+- chain elongation allows the stepwise extension of fatty acids by two
   carbon atoms and involves a four-step pathway mediated by
   - ELOVL 1-7 (condensation)
   - KAR (first reduction)
   - HACD 1-4 (hydratation)
   - TER (second and final reduction)
-  - to produce the corresponding (n+2) acyl-CoA.
-- The introduction of double-bonds by desaturases.
-- Mammals only express delta9, delta6 and delta5 desaturase activities
+  - to produce the corresponding (n+2) acyl-CoA
+- introduction of double-bonds by desaturases
+- mammals only express delta9, delta6 and delta5 desaturase activities
   and the enzymes involved belong to two distinct families:
   - Stearoyl-CoA desaturases (SCDs)
     - delta9 desaturation
-  - Fatty acid desaturases (FADS)
+  - fatty acid desaturases (FADS)
     - Delta6 and delta5 desaturation
 
 ** Disorders
@@ -371,9 +371,9 @@
   changes to the skin and bones, and occurs either in a rare
   familial, primary form (PHO: primary hypertrophic
   osteoarthropathy), also called pachydermoperiostosis (PDP) or, more
-  commonly, secondary to other pathologies.
+  commonly, secondary to other pathologies
 
-- Key features include digital clubbing, periostosis with bone and
+- key features include digital clubbing, periostosis with bone and
   joint enlargement, and skin changes, such as pachydermia, abnormal
-  furrowing, seborrhea, and hyperhidrosis.
+  furrowing, seborrhea, and hyperhidrosis
 

@@ -3,15 +3,15 @@
 #+DATE: \today
 
 * Introduction
-- A rapidly progressive CNS degenerative disease
+- rapidly progressive CNS degenerative disease
 - Krabbe is both a leukodystrophy, affecting white matter of the central
   and peripheral nervous systems, and an LSD
 
-- Incidence of 1:100,000 births
-- Cause by deficiency in galactocerebrosidase activity
+- incidence of 1:100,000 births
+- deficiency in galactocerebrosidase activity
   - catabolism of galactosylceramide, a major lipid in myelin, kidney, and epithelial cells of the small intestine and colon. 
   - results in accumulation of galactosylceramide in pathognomonic globoid cells
-    - Multinucleated microglia/macrophages seen in the white matter
+    - multinucleated microglia/macrophages seen in the white matter
 - accumulation of galactosylspingosine (psychosine) in oligodendrocytes and Schwann cells
 
 #+CAPTION[]:Galactocerebrosidase
@@ -19,75 +19,75 @@
 #+ATTR_LaTeX: :width 0.8\textwidth
 [[file:./krabbe/figures/beta-galactosidase.png]]
 
-- Galactocerebrosidase is a lysosomal enzyme
-- Hydrolyzes the galactose ester bonds of galactocerebroside, galactosylsphingosine, lactosylceramide, and monogalactosyldiglyceride.
-- Requires saposin A cofactor
-- lysosomal trafficking of galactocerebrosidase by the M6P receptor.
+- galactocerebrosidase is a lysosomal enzyme
+- hydrolyzes the galactose ester bonds of galactocerebroside, galactosylsphingosine, lactosylceramide, and monogalactosyldiglyceride
+- requires saposin A cofactor
+- lysosomal trafficking of galactocerebrosidase by the M6P receptor
 - enzyme is secreted in ML II (I cell disease)
 
 ** Saposin A cofactor deficiency
 
-- atypical Krabbe disease due to saposin A deficiency is caused by mutation in the prosaposin gene (PSAP; 176801).
-- Sphingolipid activator proteins (saposins A, B, C and D) are small
+- atypical Krabbe disease due to saposin A deficiency is caused by mutation in the prosaposin gene (PSAP; 176801)
+- sphingolipid activator proteins (saposins A, B, C and D) are small
   homologous glycoproteins derived from a common precursor protein
-  (prosaposin) encoded by a single gene.
-- They are required for in vivo degradation of sphingolipids with short carbohydrate chains.
+  (prosaposin) encoded by a single gene
+- they are required for in vivo degradation of sphingolipids with short carbohydrate chains
 - probably act by isolating the lipid substrate from the membrane
   surroundings, thus making it more accessible to the soluble
   degradative enzyme
 
 * Genetics
-- Autosomal recessive
-- The GALC gene is situated at 14q31 and consists of 17 exons.
-- A recurrent 30 kb deletion extends from intron 10 to intron 17 of the GALC gene
+- autosomal recessive
+- GALC gene is situated at 14q31 and consists of 17 exons
+- recurrent 30 kb deletion extends from intron 10 to intron 17 of the GALC gene
   - infantile onset disease in the homozygous state
-- The allele frequency of this deletion in Krabbe patients
+- allele frequency of this deletion in Krabbe patients
   - ~ 50% in Dutch patients
   - ~ 35% in non-Dutch European patients
 
 * Clinical Findings
-- Krabbe disease is a spectrum from infantile to late-onset.
+- Krabbe disease is a spectrum from infantile to late-onset
 
-- Infantile-onset :: characterized by normal development in the first
+- infantile-onset :: characterized by normal development in the first
      few months followed by rapid severe neurologic deterioration
-  - the average age of death is 24 months (range 8 months to 9 years).
+  - the average age of death is 24 months (range 8 months to 9 years)
 
 - later-onset :: manifests after 12 months and as late as the seventh
-                 decade.
+                 decade
 
 - 85%-90% of symptomatic individuals with Krabbe disease diagnosed by enzyme activity alone have infantile-onset disease
 - 10%-15% have later-onset disease
 - NBS suggests that the proportion of individuals with later-onset
-  Krabbe disease is higher than previously thought.
+  Krabbe disease is higher than previously thought
 
 - infantile-onset Krabbe disease (age <12 months)
-  - Excessive crying to extreme irritability
-  - Feeding difficulties, gastroesophageal reflux disease
-  - Spasticity of lower extremities and fist clenching, with axial hypotonia
-  - Loss of acquired milestones (smiling, cooing, and head control)
-  - Staring episodes
-  - Peripheral neuropathy
-  - the average age of death is 24 months (range 8 months to 9 years).
+  - excessive crying to extreme irritability
+  - feeding difficulties, gastroesophageal reflux disease
+  - spasticity of lower extremities and fist clenching, with axial hypotonia
+  - loss of acquired milestones (smiling, cooing, and head control)
+  - staring episodes
+  - peripheral neuropathy
+  - the average age of death is 24 months (range 8 months to 9 years)
 
 - later-onset Krabbe disease (age >12 months)
-  - Slow development of motor milestones or loss of milestones (e.g.,
+  - slow development of motor milestones or loss of milestones (e.g.,
     sitting without support, walking), slurred speech
-  - Spasticity of extremities with truncal hypotonia
-  - Vision loss, esotropia
-  - Seizures
-  - Peripheral neuropathy
+  - spasticity of extremities with truncal hypotonia
+  - vision loss, esotropia
+  - seizures
+  - peripheral neuropathy
 
 * Diagnosis
 ** Symptomatic presentation
-- The diagnosis of Krabbe disease, suspected in a symptomatic proband
+- diagnosis of Krabbe disease, suspected in a symptomatic proband
   based on clinical findings and other supportive laboratory,
   neuroimaging, and electrophysiologic findings, is established by:
-  - detection of deficient GALC enzyme activity in leukocytes.
-  - Abnormal results require follow-up molecular genetic testing of GALC
-  - elevated psychosine levels can also help establish the diagnosis.
+  - detection of deficient GALC enzyme activity in leukocytes
+  - abnormal results require follow-up molecular genetic testing of GALC
+  - elevated psychosine levels can also help establish the diagnosis
 
 ** Screen positive
-- In an asymptomatic newborn with low GALC enzyme activity
+- in an asymptomatic newborn with low GALC enzyme activity
   on dried blood spot specimens on NBS
 - urgent time-critical measurement of:
   - blood psychosine levels
@@ -105,65 +105,61 @@
 ** CSF protein
 - protein in cerebrospinal fluid is elevated at the time of first symptoms
 - with increased albumin and decrease in \beta-globulins
-- Increase permeability of the blood-brain barrier?
+- increase permeability of the blood-brain barrier?
 
 ** Galactocerebrosidase assay
-- Preformed @ Sickkids
-- Leukocytes preferred
-- Draw 5-6 mL of heparinized peripheral blood
-- Fresh heparinized blood should be drawn early enough in the day to arrive in the laboratory by 3:00 p.m. that day
-- Several of the assays available can be performed on a single leukocyte pellet or plasma sample
+- leukocytes preferred
+- draw 5-6 mL of heparinized peripheral blood
+- fresh heparinized blood should be drawn early enough in the day to arrive in the laboratory by 3:00 p.m. that day
+- several of the assays available can be performed on a single leukocyte pellet or plasma sample
 - cleavage of 6-hexadecanoylamino-4-MU-\beta-d-galactopyranoside
 ** Newborn Screening
-- New York State - retrospective analysis
-  - Almost 2 million infants screened.
-  - Five infants diagnosed with early infantile Krabbe disease.
-  - Three died, two from HSCT-related complications and one from untreated disease.
-  - Two children who received HSCT have moderate to severe developmental delays.
-  - Forty-six currently asymptomatic children are considered to be at
-    moderate or high risk for development of later-onset Krabbe disease.
-
-
-
+- new York State - retrospective analysis
+  - almost 2 million infants screened
+  - five infants diagnosed with early infantile Krabbe disease
+  - three died, two from HSCT-related complications and one from untreated disease
+  - two children who received HSCT have moderate to severe developmental delays
+  - forty-six currently asymptomatic children are considered to be at
+    moderate or high risk for development of later-onset Krabbe disease
 
 ** DBS Psychosine
-- As an amphipathic molecule, psychosine partitions largely into
-  cellular membranes.
-- This test is used as a second-tier assay for infants who have
+- as an amphipathic molecule, psychosine partitions largely into
+  cellular membranes
+- this test is used as a second-tier assay for infants who have
   abnormal newborn screens with reduced GALC (galactocerebrosidase)
   activity and to diagnose and monitor patients with Krabbe disease
-  and Saposin A cofactor deficiency.
+  and Saposin A cofactor deficiency
 
-- psychosine is elevated in DBS samples of newborns with Krabbe.
+- psychosine is elevated in DBS samples of newborns with Krabbe
 
-- The original DBS specimens from the first four infantile
+- the original DBS specimens from the first four infantile
   KD cases identified through NBS had very elevated psychosine
   concentrations, whereas the psychosine levels of all of the
   asymptomatic high- and moderate-risk infants were only slightly
-  elevated compared with DBS from infants with normal GALC activities.
+  elevated compared with DBS from infants with normal GALC activities
 
 ** Treatment
 
-- Treatment of manifestations:
-  - Treatment of a child who is symptomatic before age six months is
+*** Treatment of manifestations
+  - treatment of a child who is symptomatic before age six months is
     supportive and focused on increasing the quality of life and
     avoiding complications. For older individuals, treatment with HSCT
-    is individualized based on disease burden and manifestations.
+    is individualized based on disease burden and manifestations
 
-- Prevention of primary manifestations:
-  - Consensus guidelines recommend that asymptomatic newborns
+*** Prevention of primary manifestations
+  - consensus guidelines recommend that asymptomatic newborns
     identified by either prenatal/neonatal evaluation because of a
     positive family history of Krabbe disease or an abnormal NBS
     result undergo additional testing to identify those with
     infantile-onset Krabbe disease. Those with laboratory findings
     consistent with infantile-onset Krabbe disease are candidates for
-    HSCT before age 30 days.
+    HSCT before age 30 days
 
-- Surveillance:
-  - Monitor symptomatic individuals with Krabbe disease for
+*** Surveillance
+  - monitor symptomatic individuals with Krabbe disease for
     development of: hydrocephalus, swallowing difficulties and chronic
     microaspiration, scoliosis, hip subluxation, and osteopenia,
-    decreased vision, and corneal ulcerations.
+    decreased vision, and corneal ulcerations
 
 
 

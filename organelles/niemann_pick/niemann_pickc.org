@@ -7,17 +7,17 @@
   - sometimes referred to as Childhood Alzheimer’s
   - extremely heterogeneous
   - biochemically, genetically and clinically distinct from Niemann-Pick A and B. 
-- Accumulation of unesterified cholesterol, sphingomyelin, glycolipids in systemic organs
+- accumulation of unesterified cholesterol, sphingomyelin, glycolipids in systemic organs
 - GM2 and GM3 accumulate in brain
   - no increase in cholesterol
 - NPC has two sub types NP-C1 (95%) and NP-C2 (5%)
 
-- LDL cholesterol enters cells via endocytosis at the LDL receptor.
+- LDL cholesterol enters cells via endocytosis at the LDL receptor
 - delivered to the late-stage endosomes and lysosomes
-- hydrolyzed and released as free cholesterol.
-- Unesterified cholesterol is transported to the plasma membrane and the ER for recycling.
+- hydrolyzed and released as free cholesterol
+- unesterified cholesterol is transported to the plasma membrane and the ER for recycling
 
-- In NP-C, the LDL-cholesterol is trapped in lysosomes
+- in NP-C, the LDL-cholesterol is trapped in lysosomes
 
 #+CAPTION[]: Cholesterol Transport
 #+NAME: fig:
@@ -33,35 +33,24 @@
 
 - NPC1 is a lysosomal membrane protein involved in transport in the endosomal-lysosomal system
 - NPC2 acts in cooperation with the NPC1
-- The disruption of transport results in accumulation of cholesterol and glycolipids in lysosomes.
+- disruption of transport results in accumulation of cholesterol and glycolipids in lysosomes
 
 * Genetics
-- Autosomal recessive inheritance,
-- Mutations in NPC1 (95%) and NPC2 (5%)
+- autosomal recessive inheritance,
+- mutations in NPC1 (95%) and NPC2 (5%)
 
 * Clinical Findings
-- onset of the disease can happen at any age.
-  - often school age children.
+- onset of the disease can happen at any age
+  - often school age children
   - also adults
 
-- Symptoms may include:
-  - Jaundice at birth or shortly afterwards
-  - Hepatosplenomegaly
-  - Vertical supranuclear gaze palzy
-  - Ataxia, dystonia, dysarthria, dysphagia
-  - Cognitive dysfunction/dementia
-  - Cataplexy, tremors,Seizures
-
-
-*** Definitions:
-- Vertical Supranuclear Gaze Palzy: Difficulty with Upward & Downward Eye Movement 
-- Ataxia: Unsteadiness with Gait, Clumsiness or Walking 
-- Dystonia:  neurological movement disorder syndrome in which sustained or repetitive muscle contractions result in twisting and repetitive movements or abnormal fixed postures
-- Dysarthria: Slurred Irregular Speech 
-- Cognitive Dysfunction/Dementia: Learning Difficulties & Progressive Intellectual Decline 
-- Cataplexy: Sudden Loss of Muscle Tone Which May Lead to Unexpected Falls 
-- Dysphagia:Swallowing Problems 
-- Thrombocytopenia: low number of platelets
+- symptoms may include:
+  - jaundice at birth or shortly afterwards
+  - hepatosplenomegaly
+  - vertical supranuclear gaze palzy
+  - ataxia, dystonia, dysarthria, dysphagia
+  - cognitive dysfunction/dementia
+  - cataplexy, tremors,Seizures
 
 ** Neurological Forms
 *** Early infantile          
@@ -72,28 +61,28 @@
 *** Late-infantile
 - classic NPC, 60-70% of cases
 - language delay
-- Ataxia, 3-5 yrs
-- Cognitive dysfunction, 6-12 yrs 
+- ataxia, 3-5 yrs
+- cognitive dysfunction, 6-12 yrs 
 
 *** Adult 
-- diagnosis 15->60yrs.
+- diagnosis 15->60yrs
 - insidious presentation
 - ataxia, dystonia, dysarthria, movement disorders
 - variable cognitive dysfunction
-- Vertical gaze palzy common
+- vertical gaze palzy common
 
 * Diagnostic Tests
 
-- Foamy and sea-blue histiocytes may (not always) be found in bone
-  marrow aspirates.
+- foamy and sea-blue histiocytes may (not always) be found in bone
+  marrow aspirates
 
-- Plasma and DBS
+- plasma and DBS
   - lysosphingomylin 
   - lysosphingomylin-509
 
 
-- Filipin test
-  - Streptomyces filipinensis - anti-fungal
+- filipin test
+  - streptomyces filipinensis - anti-fungal
   - culture fibroblasts in an LDL-enriched medium
   - pathognomonic free cholesterol accumulation in lysosomes
   - fluorescence microscopy after filipin staining

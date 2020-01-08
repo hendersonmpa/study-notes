@@ -4,17 +4,17 @@
 
 
 * Introduction
-- Three genetic and biochemical subtypes
+- three genetic and biochemical subtypes
   - Tay-Sachs disease :: Hex A
   - Sandhoff disease :: Hex A&B
   - GM2 activator deficiency :: Activator
-- Impaired lysosomal catabolism of GM2 ganglioside
+- impaired lysosomal catabolism of GM2 ganglioside
 - GM2 storage in neurons in Tay-Sachs and Sandhoff
   - Sandhoff \uparrow asialo-GM2 in brain, globoside and oligosacarides in viseral organs
-- Progressive cerebral degeneration
-- Prior to population-based carrier screening the incidence of TSD was ~1:3600 Ashkenazi Jewish births.
-  - Incidence of TSD in the Ashkenazi Jewish population in North America \downarrow > 90%
-- Eastern Quebec founder mutation
+- progressive cerebral degeneration
+- prior to population-based carrier screening the incidence of TSD was ~1:3600 Ashkenazi Jewish births
+  - incidence of TSD in the Ashkenazi Jewish population in North America \downarrow > 90%
+- eastern Quebec founder mutation
 
 #+CAPTION[]:GM2 ganglioside storage diseases
 #+NAME: tab:gm2
@@ -27,8 +27,8 @@
 | Sandhoff disease             | 3-6 months  |       2-4 | Hex A&B   |
 | AB variant                   | 3-6 months  |           | Activator |
 
-- Functional lysosomal \beta-hexosaminidase enzymes are dimeric.
-- Three isozymes are produced through the combination of \alpha
+- functional lysosomal \beta-hexosaminidase enzymes are dimeric
+- three isozymes are produced through the combination of \alpha
   and \beta subunits
 - \beta-galactosidase, hexoaminidase A and B require the M6P-receptor
   - secreted in ML II (I cell disease)
@@ -56,7 +56,7 @@
 - HEXA, HEXB and GM2A: autosomal recessive
 - > 130 mutations in HEXA
   - > 3 alleles comprise ~95% of Askenazi Jewish disease alleles
-  - Good correlation with phenotype 
+  - good correlation with phenotype 
 - > 40 mutations in HEXB
 - 6 in GM2A
 
@@ -73,28 +73,27 @@
 
 
 * Laboratory Investigations
-- Urine oligosacarides
+- urine oligosacarides
 - /in vitro/ Hexoaminidase activity: leukocytes, fibroblasts
   - 4-MU-6-sulfo-\beta-glucosaminide
   - specific for the \alpha subunit
-
-- ?Falsely normal results in Tay-Sachs female carriers?
+- falsely normal results in Tay-Sachs female carriers
 - total hexosaminidases (A+B) using a synthetic fluorogenic substrate
-  is straightforward and allows the diagnosis of Sandhoff disease.
-- Differential assay of HexA using heat or acid
+  is straightforward and allows the diagnosis of Sandhoff disease
+- differential assay of HexA using heat or acid
   inactivation does not identify patients with the B1 variant;
 - the direct assay of hexosaminidase A using the sulfated synthetic
   substrate (4-MU-6-sulfo-β-glucosaminide) specific for the α-subunit
-  is the method of choice.
-- A high residual activity is found in Sandhoff disease,
-  - excess of hexosaminidase S (αα-dimer).
-- In GM2 activator deficiency, hexosaminidase A activity measured in
+  is the method of choice
+- high residual activity is found in Sandhoff disease,
+  - excess of hexosaminidase S (αα-dimer)
+- in GM2 activator deficiency, hexosaminidase A activity measured in
   vitro is normal;
 - electron microscopic examination of a skin or conjunctival biopsy
   may provide strong evidence in favour of the diagnosis by
-  demonstrating concentric lamellated bodies in nerve endings.
-- The CSF shows increased levels of GM2.
-- Definitive diagnosis requires GM2A sequencing
+  demonstrating concentric lamellated bodies in nerve endings
+- CSF shows increased levels of GM2
+- definitive diagnosis requires GM2A sequencing
 
 * Treatment
 - treat seizures

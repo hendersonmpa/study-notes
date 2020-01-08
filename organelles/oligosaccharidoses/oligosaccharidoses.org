@@ -5,10 +5,10 @@
 
 * Introduction
 
-- Almost all the secreted and membrane associated proteins of the body
+- almost all the secreted and membrane associated proteins of the body
   are glycosylated, as well as numerous intracellular
-  proteins,including the lysosomal acid hydrolases.
-- A great variety of oligosaccharide chains are attached to the
+  proteins,including the lysosomal acid hydrolases
+- a great variety of oligosaccharide chains are attached to the
   protein backbone via:
   - the hydroxyl group of serine or threonine (O-linked)
   - via the amide group of asparagine (N-linked)
@@ -16,15 +16,15 @@
 - chains usually have a core composed of N-acetylglucosamine and mannose
 - often contain galactose, fucose and N-acetylgalactosamine
 - frequently terminal sialic acids (N-acetylneuraminic acid)
-- Oligosaccharide chains with a terminal mannose-6-phosphate are
-  involved in the targeting of lysosomal enzymes to lysosomes.
-- This recognition marker is synthesised in two steps from UDP-N-acetylglucosamine
+- oligosaccharide chains with a terminal mannose-6-phosphate are
+  involved in the targeting of lysosomal enzymes to lysosomes
+- this recognition marker is synthesised in two steps from UDP-N-acetylglucosamine
 
-- Deficiencies of the enzymes required for the degradation of the
-  oligosaccharide chains cause oligosaccharidoses (glycoprotein storage diseases).
+- deficiencies of the enzymes required for the degradation of the
+  oligosaccharide chains cause oligosaccharidoses (glycoprotein storage diseases)
 
-- Defects of the synthesis of the mannose-6-phosphate recognition
-  marker result in the mislocalisation of lysosomal enzymes.
+- defects of the synthesis of the mannose-6-phosphate recognition
+  marker result in the mislocalisation of lysosomal enzymes
 
 
 #+CAPTION[]:Glycoprotein Oligosaccharide Chain
@@ -34,8 +34,8 @@
 
 * Disorders
 ** Mannosidosis
-- A deficiency of \alpha-mannosidase \to variable disorder \alpha-mannosidosis. 
-- A mild Hurler phenotype
+- deficiency of \alpha-mannosidase \to variable disorder \alpha-mannosidosis. 
+- mild Hurler phenotype
   - variable learning difficulties
   - hepatosplenomegaly
   - deafness
@@ -50,15 +50,15 @@
 
 ** Fucosidosis
 - lack the typical facial dysmorphism
-- Deficiency of \alpha-fucosidase \to variable neurodegenerative disorder
-- often with seizures and mild dysostosis.
-- often exhibit prominent and widespread angiokeratomas, progress with age.
+- deficiency of \alpha-fucosidase \to variable neurodegenerative disorder
+- often with seizures and mild dysostosis
+- often exhibit prominent and widespread angiokeratomas, progress with age
 
 ** Galactosialidosis
-- combined deficiency of the lysosomal enzymes \beta-galactosidase and \alpha-neuraminidase.
+- combined deficiency of the lysosomal enzymes \beta-galactosidase and \alpha-neuraminidase
 - results from a defect in protective protein/cathepsin A (PPCA)
 - an intralysosomal protein which protects these enzymes from premature proteolytic processing
 - presentation includes:
   - hydrops fetalis as well as a more slowly progressive disorder
-    associated with learning difficulties, dysostosis multiplex and corneal opacity.
+    associated with learning difficulties, dysostosis multiplex and corneal opacity
 
