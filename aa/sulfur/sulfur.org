@@ -75,7 +75,7 @@ http://en.citizendium.org/wiki/File:Cysteine_vs_Cystine10.jpg
 #+CAPTION[]:Sulfur amino acid metabolism
 #+NAME: fig:sulfur
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./figures/sulfuraa.png]]
+[[file:./sulfur/figures/sulfuraa.png]]
 
 #+CAPTION[]:Disorders of sulfur amino acid metabolism
 #+NAME: fig:sulfuraa
