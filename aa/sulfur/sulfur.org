@@ -11,33 +11,32 @@
 - SAH is cleaved by S-adenosylhomocysteine hydrolase (SAHH) to
   homocysteine and adenosine, which is phosphorylated by adenosine
   kinase (ADK)
-- homocysteine can be converted back to methionine by the
-  remethylation pathway or using betaine as a methyl-group donor, in
-  patients treated with this drug
-- alternatively, homocysteine is irreversibly metabolized to sulfate
-  by the transsulfuration pathway
-  - homocysteine is condensed with serine to form cystathionine, which
-    is subsequently cleaved to form cysteine and \alpha-ketobutyrate
-  - these reactions are catalysed by cystathionine \beta-Synthase
-    (CBS) and cystathionine \gamma-lyase (CTH) , respectively
-- CTH can also use cysteine and/or homocysteine to synthesize
-  hydrogen sulfide
-- cysteine can be further converted in a series of reactions to
-  taurine , or via the mitochondrial enzymes, AST and
-  3-mercaptopyruvate sulfurtransferase (MPST), to pyruvate and
-  hydrogen sulfide
+- homocysteine has two metabolic pathways:
+  1. remethylated back to methionine by the remethylation pathway or
+     using betaine as a methyl-group donor, in patients treated with
+     this drug
+  2. irreversibly metabolized to sulfate
+     by the transsulfuration pathway
+     - homocysteine and serine are condensed by cystathionine \beta-Synthase (CBS) to cystathionine
+     - cystathionine is cleaved by cystathionine \gamma-lyase (CTH) to
+       form cysteine and \alpha-ketobutyrate
+- CTH can use cysteine and/or homocysteine to synthesize hydrogen
+  sulfide
+- cysteine can be further converted:
+  - in a series of reactions to taurine or
+  - via the mitochondrial enzymes, AST and 3-mercaptopyruvate
+    sulfurtransferase (MPST), to pyruvate and hydrogen sulfide
 - mitochondrial oxidation of hydrogen sulfide and of cysteine involves
   several steps yielding thiosulfate , sulfite and finally sulfate
-- inorganic sulfur released from cysteine residues by a series of
-  reactions is used in the formation of mitochondrial iron-sulfur
-  (FeS) cluster cofactors
+- inorganic sulfur released from cysteine residues \to mitochondrial
+  iron-sulfur (FeS) cluster cofactors
 - availability of cysteine in the neonatal period is limited because
   its endogenous synthesis from methionine by the transsulfuration
   pathway is markedly attenuated
 - activity of the rate limiting enzyme in the pathway, cystathionase ,
   is very low at birth and increases slowly during the first few months of life
-  - for this reason, cysteine is considered a conditionally essential
-    amino acid, at least in preterm infants
+  - cysteine is considered a conditionally essential amino acid, at
+    least in preterm infants
 
 - disorders in sulfur amino acid metabolism exhibit:
   - altered methionine, S-adenosylmethionine, sarcosine, S-adenosylhomocysteine,
@@ -45,8 +44,8 @@
   - adenosine or thiosulfate excretion in urine
 
 
-- CBS deficiency – classical homocystinuria – is the commonest disease
-  in this group
+- CBS deficiency – classical homocystinuria – is the most common
+  disease in this group
   - severity varies from
     - multisystemic childhood condition with lens dislocation,
       osteoporosis, marfanoid features, central nervous system and
@@ -59,19 +58,106 @@
   - isolated sulfite oxidase deficiency
   - combined sulfite oxidase deficiency
     - due to impaired molybdenum cofactor synthesis
-- These are severe disorders with early-onset seizures and other
+- these are severe disorders with early-onset seizures and other
   neurological complications
   - other signs include orthostatic acrocyanosis, lens dislocation or
     urolithiasis;
 - only molybdenum cofactor deficiency type A can be treated
   successfully, with a synthetic cofactor
 
+#+CAPTION[]: Cysteine vs Cystine
+#+NAME: fig:cys
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/cys.jpg]]
+
+http://en.citizendium.org/wiki/File:Cysteine_vs_Cystine10.jpg
+
 #+CAPTION[]:Sulfur amino acid metabolism
 #+NAME: fig:sulfur
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/sulfuraa.png]]
 
+#+CAPTION[]:Disorders of sulfur amino acid metabolism
+#+NAME: fig:sulfuraa
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/sulfaa.png]]
 
 
+* Methionine S-Adenosyltransferase Deficiency
+- Mudd’s Disease
+** Clinical presentation
+- most patients detected by NBS for CBS deficiency using methionine as a marker
+- neurological abnormalities occur in most patients with plasma methionine \gt 800 μmol/l
+  - rare in subjects with lower levels
+** Metabolic derangement
+- Methionine S-adenosyltransferase converts methionine to S-adenosylmethionine (SAM) using ATP
+- MAT exists in 3 forms
+- MAT I and III are encoded by the same gene
+  - tetrameric and dimeric forms, respectively
+  - liver specific
+- MAT II is encoded by a different gene
+  - converts methionine to SAM outside the liver
+  - explains why MAT I/III deficiency is relatively benign
+** Genetics
+- AR, MAT1A
+- some mutation are AD
+** Diagnostic Tests
+- plasma methionine 50 to \gt 2000 umol/L
+- other causes of hypermethioninemia:
+  - liver disease
+  - prematurity 
+  - excessive intake of methionine
+  - less often, CBS, S-adenosylhomocysteine hydrolase and ADK deficiencies
+    - CBS has \Uparrow homocysteine
+** Treatment
+- methionine restricted diet if met \gt 800 umol/L
 
+* Cystathionine \beta-Synthase Deficiency
+** Clinical presentation
+- wide spectrum of severity and age at presentation
+- some asymptomatic into adulthood
+- others have severe multisystem disease
+- clinical features predominantly involve four organ systems:
+  - eye :: lens dislocation
+  - skeleton :: excessive growth - Marfanoid but stiff
+  - brain :: learning disabilities
+  - vascular :: thromboembolism
+** Metabolic derangement
+- CBS is a cytosolic tetrameric enzyme
+- expressed predominantly in liver, pancreas, kidney and brain
+- activity can alsobe determined in cultured fibroblasts and in plasma
+  due to its release from the liver
+- catalytic domain binds heme,the cofactor PLP and substrates
+- regulatory domain binds the allosteric activator SAM
+- pathophysiology is not fully understood
+  - \uparrow SAH impairs methylation reaction
+  - \uparrow homocysteine \to ER stress, vascular disease
+  - enhanced remethylation methionine
+  - depletion of cystathionine and cysteine \to apoptosis, oxidative stress, \delta protein structure.
 
+** Genetics
+- AR, CBS
+
+** Diagnostic tests
+- plasma total homocysteine (tHcy)
+  - \gt 100 umol/L
+  - plasma should be separated from whole blood within one hour of venepuncture
+- measurement of free homocystine is not recommended
+  - low sensitivity
+  - complicated pre-analytical requirements
+- to avoid misdiagnosis in pyridoxine responsive patients
+  - pyridoxine supplements including multivitamins should be avoided
+    for at least 2 weeks prior to testing
+- diagnosis very likely if the plasma methionine is high or borderline
+  high and supported by:
+  - \downarrow to low-normal plasma cystathionine
+  - \uparrow methionine:cystathionine
+- can be con firmed by enzyme assay in cultured fibroblasts or plasma,
+  and/or mutation analysis of the CBS gene
+
+** Treatment 
+- pyridoxine, betaine and a methionine-restricted diet
+
+* TODO Molybdenum Cofactor Deficiency
+* TODO Isolated Sulfite Oxidase Deficiency
+* TODO Ethylmalonic Encephalopathy
