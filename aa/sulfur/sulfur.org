@@ -82,7 +82,6 @@ http://en.citizendium.org/wiki/File:Cysteine_vs_Cystine10.jpg
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/sulfaa.png]]
 
-
 * Methionine S-Adenosyltransferase Deficiency
 - Mudd’s Disease
 ** Clinical presentation
@@ -158,6 +157,123 @@ http://en.citizendium.org/wiki/File:Cysteine_vs_Cystine10.jpg
 ** Treatment 
 - pyridoxine, betaine and a methionine-restricted diet
 
-* TODO Molybdenum Cofactor Deficiency
-* TODO Isolated Sulfite Oxidase Deficiency
-* TODO Ethylmalonic Encephalopathy
+* Molybdenum Cofactor Deficiency
+** Clinical presentation
+- usually present soon after birth with poor feeding,hypotonia,
+  exaggerated startle reactions and intractable seizures, resembling
+  hypoxic ischaemic encephalopathy
+  - \to multicystic leukoencephalopathy with microcephaly
+- dislocation of the ocular lens occurs during infancy and xanthine
+  renal stones can develop later
+
+** Metabolic derangement
+- molybdenum cofactor (MoCo) synthesis involves three steps:
+  - MoCo deficiency type A :: affects the conversion of GTP to cyclic
+       pyranopterin monophosphate (cPMP)
+  - MoCo deficiency type B ::  cannot convert cPMP to molybdopterin
+  - MoCo deficiency type C :: affects gephyrin, which catalyses
+       adenylation of molybdopterin and insertion of molybdenum to
+       form the cofactor
+- molybdenum cofactor is needed for:
+  - sulfite oxidase
+  - aldehyde oxidase
+  - mitochondrial amidoxime reducing component (mARC)
+  - xanthine dehydrogenase
+- xanthine dehydrogenase deficiency causes raised xanthine and low
+  urate concentrations
+- sulfite accumulation is responsible for the neurotoxicity and lens
+  dislocation
+
+** Genetics
+- AR
+- Type A, MOCS1, most common
+- Type B, MOCS2
+- Type C, GPHN, rare
+
+** Diagnostic tests
+- plasma urate concentration is initially normal but decreases after a
+  few days and remains low (<0.06 mmol/L)
+- \uparrow urine xanthine
+- sulfite can be detected in fresh urine using dipsticks but false
+  positive and negative results occur
+- \uparrow urine or blood s-sulfocysteine is a more reliable indicator
+- s-sulfocysteine accumulation \to inhibition of antiquitin
+  - secondary elevation of pipecolic acid
+- \uparrow plasma taurine and thiosulfate
+- \downarrow plasma total cysteine and tHcy
+- diagnosis is confirmed by mutation analysis
+
+** Treatment
+- without treatment, patients have profound handicap and die early
+- successful treatment of Type A with daily intravenous infusions of
+  cPMP
+- no treatment for Types B & C
+
+* Isolated Sulfite Oxidase Deficiency
+** Clinical presentation
+- resembles MoCo deficiency
+** Metabolic derangement
+- sulfite derived from cysteine is normally oxidised to form
+  sulfate
+- in sulfite oxidase deficiency, accumulating sulfite damages the brain
+  - partly due to the production of sulfocysteine, which
+    mediates excitotoxicity
+- sulfite probably causes lens dislocation by disrupting cystine
+  cross-linkages in the suspensory ligament
+
+** Genetics
+- AR, SUOX
+
+** Diagnostic tests
+- sulfite can be detected in fresh urine using dipsticks
+  - not reliable
+- \uparrow urine or blood s-sulfocysteine
+- \uparrow plasma taurine
+- \downarrow plasma total cysteine and tHcy
+- normal urate and xanthine
+- diagnosis is confirmed by mutation analysis
+
+** Treatment
+- prognosis for neonatal-onset cases is poor
+- diet low in cysteine and methionine may help patients with a mild
+  form
+
+* Ethylmalonic Encephalopathy
+** Clinical presentation
+- progressive multisystem disease
+- presents in the first months of life with hypotonia, chronic
+  diarrhoea, orthostatic acrocyanosis, recurrent petechial rash and
+  bruising (with normal platelets)
+- developmental regression, microcephaly, seizures, episodes of coma,
+  poor growth and hyperlactataemia
+- most die in early childhood, though some have a milder course
+
+** Metabolic derangement
+- deficiency of a mitochondrial sulfur dioxygenase necessary for the
+  detoxification of sulfide
+- hydrogen sulfide (\ce{H2S}) is synthesized endogenously by CBS, CTH
+  and 3-mercaptosulfurtransferase
+  - also formed by bacterial anaerobes in the large intestine
+- in EE accumulating \ce{H2S} inhibits cytochrome c oxidase and
+  short-chain fatty acid oxidation
+  - results in ethylmalonic aciduria , and raised C4- and C5-acylcarnitines in blood
+- \ce{H2S} also has vasoactive and vasotoxic effects
+  - damage to small blood vessels causes bleeding into the
+    skin
+  - production of \ce{H2S} by gut bacteria causes the severe, persistent diarrhea
+
+** Genetics
+- AR, ETHE1, rare
+
+** Diagnostic tests
+- \uparrow urine ethylmalonic acid
+- \uparrow urine C4- and C5-acylglycines
+- \uparrow plasma C4- and C5-acylcarnitines
+- \Uparrow urine thiosulfate is also markedly elevated
+- diagnosis is confirmed by mutation analysis
+
+** Treatment 
+- metronidazole to reduce bacterial \ce{H2S} production
+- N-acetylcysteine a precursor of glutathione, which can accept the sulfur atom of \ce{H2S}
+  - leads to some clinical and biochemical improvement the prognosis remains poor
+- Liver transplant
