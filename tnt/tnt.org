@@ -166,7 +166,7 @@ aspects of human gen
     chromosome abnormalities
 *** Stillbirth and neonatal death
 - incidence of chromosome abnormalities is much higher among
-  stillbirths (~10%) than among live births (~ 0.7%)
+  stillbirths (\sim10%) than among live births (\sim0.7%)
 - also elevated among infants who die in the neonatal period (~10%)
 - karyotyping (or other comprehensive ways of scanning the genome) is
   essential for accurate genetic counseling
@@ -332,11 +332,97 @@ on a clinical diagnosis or suspicion
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/ch5_trans.png]]
 
+* STARTED Chapter 6: Chromosomal and Genomic basis of Disease
 
+- Disorders due to:
+  - abnormal chromosome segregation (nondisjunction)
+  - recurrent chromosomal syndromes, involving
+    deletions or duplications at genomic hot spots
+  - idiopathic chromosomal abnormalities, typically de novo
+  - unbalanced familial chromosomal abnormalities
+  - chromosomal and genomic events that reveal regions
+    of genomic imprinting
 
-** Chromosome Analysis in Cancer
+#+CAPTION[]:Mechanisms of chromosome abnormalities and genomic imbalance
+#+NAME: fig:mech 
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/ch6_mech.png]]
 
-* TODO Chapter 6: Chromosomal and Genomic basis of Disease
+** Lessons From Genomic Disorders
+- altered gene dosage for any extensive chromosomal or genomic region
+  is likely to result in a clinical abnormality, the phenotype of
+  which will, in principle, reflect haploinsufficiency for or
+  overexpression of one or more genes encoded within the region.
+  - in some cases, the clinical presentation appears to be accounted
+    for by dosage imbalance for just a single gene; in other
+    syndromes, however, the phenotype appears to reflect imbalance for
+    multiple genes across the region
+- the distribution of these duplication/deletion disorders is not random,
+  - segmental duplications in pericentromeric and subtelomeric
+    regions, predisposes particular regions to the unequal
+    recombination events that underlie these syndromes
+- patients carrying what appears to be the same chromosomal deletion
+  or duplication can present with a range of variable phenotypes
+
+** Aneuploidy
+- common mutation in our species involves errors in chromosome segregation
+- only three well-defined nonmosaic chromosome disorders compatible
+  with postnatal survival in which there is an abnormal dose of an
+  entire autosome:
+  1) trisomy 21 (Down syndrome)
+  2) trisomy 18
+  3) trisomy 13
+- also have the \downarrow genes among autosomes
+
+*** Down Syndrome
+- see conditions
+**** Robertsonian Translocation 
+- \sim4% of Down syndrome patients have 46 chromosomes
+- one of which is a Robertsonian translocation between chromosome
+  21q and the long arm of one of the other acrocentric chromosomes
+  (usually chromosome 14 or 22)
+- 46,XX or XY,rob(14;21)(q10;q10),+21
+
+#+CAPTION[]:Chromosomes of gametes that theoretically can be produced by a carrier of a Robertsonian translocation, rob(14;21)
+#+NAME: fig:ft
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/ch6_rtgam.png]]
+
+*** Uniparental Disomy
+- nondisjunction \to both copies of a chromosome derive from the same
+  parent
+  - called uniparental disomy
+  - defined as the presence of a disomic cell line containing two
+    chromosomes, or portions thereof, that are inherited from only one
+    parent
+- isodisomy if  two chromosomes are derived from identical sister chromatids
+- heterodisomy if if both homologues from one parent are present
+- common explanation for uniparental disomy is trisomy “rescue” due to
+  chromosome nondisjunction in cells of a trisomic conceptus to
+  restore a disomic state
+
+*** Contiguous Gene Syndrome
+- segmental aneusomy is a form of genetic imbalance due to recurrent
+  subchromosomal or regional abnormalities
+  - typically detected by microarray
+  - called contiguous gene syndrome
+
+** Idiopathic Chromosome Abnormalities 
+- Autosomal deletion syndromes
+  - cri du chat syndrome, there is either a terminal or interstitial
+    deletion of part of the short arm of chromosome 5
+- Balanced translocations with developmental phenotypes
+  
+** Disorders Associated with Genomic Imprinting
+- Prader-Willi
+- Angelman syndrome
+- Beckwith-Wiedemann syndrome
+
+#+CAPTION[]:Mechanism causing Prader-Willi and Angelman Syndrome
+#+NAME: fig:pw_as
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/ch6_pw_as.png]]
+
 * TODO Chapter 7: Patterns of Single Gene Inheritance
 * TODO Chapter 8: Complex Traits
 * TODO Chapter 9: Genetic Variation in Populations
@@ -345,7 +431,7 @@ on a clinical diagnosis or suspicion
 * TODO Chapter 12: Molecular, Biochemical, and Cellular Basis of Genetic Disease
 * TODO Chapter 13: Treatment
 * TODO Chapter 14: Developmental Genetics
-* STARTED Chapter 15: Cancer
+* Chapter 15: Cancer
 - cancer is not a single disease but rather comes in many forms and
   degrees of malignancy
 - there are three main classes of cancer:
@@ -409,9 +495,69 @@ on a clinical diagnosis or suspicion
 
 ** Cancer in Families
 
+- germline mutation - inherited
+- second-hit
+  - somatic mutation
+  - loss of heterozygozity around locus
 
-*** Activated Oncogenes and Tumor Suppressor Genes
-- proto-oncogenes
+
+** Sporadic Cancer
+- activation of oncogenes by point mutation
+- activation of oncogenes by chromosome translocation
+  - best-known example is the translocation between chromosomes 9 and
+    22 (Philadelphia chromosome) that is seen in CML
+  - moves the protooncogene ABL1, a tyrosine kinase, from its normal
+    position on chromosome 9q to a gene of unknown function, BCR, on
+    chromosome 22q
+  - results in the synthesis of a novel, chimeric protein, BCR-ABL1 w
+    enhanced tyrosine kinase activity
+
+
+#+CAPTION[]: Characteristic Chromosome Translocations in Selected Human Malignant Neoplasms
+#+NAME: fig:trans 
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/ch15_neo.png]]
+
+** Cytogenetic Changes in Cancer
+
+*** Aneuploidy and Aneusomy
+- when CML, with the 9;22 Philadelphia chromosome, evolves from the
+  typically indolent chronic phase to a severe, life-threatening blast
+  crisis, there may be several additional cytogenetic abnormalities,
+  including numerical or structural changes, such as a second copy of
+  the 9;22 translocation chromosome or an isochromosome for 17q
+
+- another cytogenetic aberration seen in many cancers is gene
+  amplification, a phenomenon in which many additional copies of a
+  segment of the genome are present in the cell
+  - *double minutes* (very small accessory chromosomes)
+  - *homogeneously staining regions* that do not band normally and
+    contain multiple, amplified copies of a particular DNA segment
+- known to include extra copies of proto-oncogenes such as the genes
+  encoding Myc, Ras, and epithelial growth factor receptor, which
+  stimulate cell growth, block apoptosis, or both
+
+** Targeted Cancer Therapy
+- The proof of principle for this approach was established with the
+  development of imatinib, a highly effective inhibitor of a number of
+  tyrosine kinases, including the ABL1 kinase in CML
+- Prolonged remissions of this disease have been seen, in some cases
+  with apparently indefinite postponement of the transformation into a
+  virulent acute leukemia (blast crisis) that so often meant the end
+  of a CML patient’s life
+- Additional kinase inhibitors have been developed to target other
+  activated oncogene driver genes in a variety of tumor types
+- initial results with targeted therapies, although very promising in
+  some cases, have not led to permanent cures in most patients because
+  tumors develop resistance to the targeted therapy
+- The outgrowth of resistant tumors because cancer cells are highly
+  mutable, and their genomes undergo recurrent mutation
+
+
+#+CAPTION[]:Targeted cancer treatment
+#+NAME: fig:target
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/ch15_target.png]]
 
 * TODO Chapter 16: Risk
 ** X linked 

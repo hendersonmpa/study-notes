@@ -180,9 +180,15 @@
   inheriting the pathogenic variant.
 - Prenatal diagnosis for pregnancies at increased risk is possible if
   the pathogenic variant in the family is known.
-
+  
 ** Pathophysiology
-- EPCAM	2p21	Epithelial cell adhesion molecule
+- EPCAM 2p21	Epithelial cell adhesion molecule
+  - EPCAM is not a mismatch repair gene, recurrent germline deletions
+    of the 3' region result in silencing of the adjacent downstream
+    MSH2 by hypermethylation
+  - The adjacent MSH2 allele itself is not mutated
+  - Sequence analysis of EPCAM is not appropriate for diagnosis of
+    Lynch syndrome
 - MLH1	3p22​.2	DNA mismatch repair protein
 - MSH2	2p21-p16 DNA mismatch repair protein
 - MSH6	2p16​.3	DNA mismatch repair protein
