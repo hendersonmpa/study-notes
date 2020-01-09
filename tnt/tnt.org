@@ -11,6 +11,7 @@
 #+PROPERTY: header-args :tangle yes
 #+STARTUP: overview
 #+STARTUP: indent
+#+SEQ_TODO: TODO(t) STARTED(s) | DONE(d) 
 #+latex_header: \hypersetup{colorlinks,linkcolor=black,urlcolor=blue}
 #+LaTeX_header: \usepackage{textpos}
 #+LaTeX_header: \usepackage{textgreek}
@@ -156,7 +157,185 @@ aspects of human gen
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/ch4_mutation.png]]
 
-* TODO Chapter 5: Cytogenetics
+* Chapter 5: Cytogenetics
+** Clinical Indications for Chromosome and Genome Analysis
+*** Problems of early growth and development
+  - failure to thrive, developmental delay,dysmorphic facies, multiple
+    malformations, short stature, ambiguous genitalia, and
+    intellectual disability are frequent findings in children with
+    chromosome abnormalities
+*** Stillbirth and neonatal death
+- incidence of chromosome abnormalities is much higher among
+  stillbirths (~10%) than among live births (~ 0.7%)
+- also elevated among infants who die in the neonatal period (~10%)
+- karyotyping (or other comprehensive ways of scanning the genome) is
+  essential for accurate genetic counseling
+*** Fertility problems
+- chromosome studies are indicated for women presenting with
+  amenorrhea and for couples with a history of infertility or recurrent miscarriage
+- chromosome abnormality is seen in one or the other parent in 3% to
+  6% of cases in which there is infertility or two or more
+  miscarriages
+*** Family history
+- known or suspected chromosome or genome abnormality in a first
+  degree relative is an indication for chromosome and genome analysis
+*** Neoplasia
+- virtually all cancers are associated with one or more chromosome
+  abnormalities
+- chromosome and genome evaluation in the tumor itself, or in bone
+  marrow in the case of hematological malignant neoplasms, can offer
+  diagnostic or prognostic information
+*** Pregnancy
+- a higher risk for chromosome abnormality in fetuses conceived by
+  women of increased age, typically defined as \gt 35 years
+- fetal chromosome and genome analysis should be offered as a routine
+  part of prenatal care in such pregnancies
+- NIPT is a screening approach for the most common chromosome
+  disorders and is now available to pregnant women of all ages
+
+** Chromosome Identification
+- G-banding (Giemsa) is the gold standard for detection and
+  characterization of structural and numerical genomic abnormalities
+  - both constitutional (postnatal or prenatal) and acquired (cancer)
+  - detection of deletions and duplications \gt 5 to 10 Mb 
+than approximately 5 to 10 Mb anywhere in the genome
+- three types of chromosomes:
+  - metacentric :: central centromere
+  - submetacentric :: off center centromere
+  - acrocentric :: centromere at one end
+    - 13,14,15,21,22
+
+** Fluorescence In Situ Hybridization
+- detecting the presence or absence of a particular DNA sequence or
+  for evaluating the number or organization of a chromosome or
+  chromosomal region /in situ/
+- uses ordered collections of recombinant DNA clones containing DNA
+  from around the entire genome
+- limited by the need to target a specific genomic region based
+on a clinical diagnosis or suspicion
+
+** Microarrays
+- comparative genome hybridization (CGH)
+  - detects relative copy number gains and losses genome-wide by
+    hybridizing two samples:
+    - control genome
+    - patient
+  - excess of sequences from one or the other genome indicates an
+    overrepresentation or underrepresentation of those sequences in the
+    patient genome relative to the control
+- SNP arrays
+  - relative representation and intensity of alleles in different
+    regions of the genome indicate if a chromosome or chromosomal
+    region is present at the appropriate dosage
+- probe spacing provides a resolution as high as 250 kb
+** Chromosome Abnormalities
+- numerical or structural
+- incidence of 1/154 live births
+- aneuploidy is most common
+  - associated with physical and/or mental abnormalities
+- structural abnormalities are also common
+
+#+CAPTION[]:Incidence of chromosomal abnormalities
+#+NAME: fig:freq
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./tnt/figures/ch5_freq.png]]
+
+#+CAPTION[]:ISCN for common cytogenetic aberration
+#+NAME: fig:nom
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/ch5_nom.png]]
+
+#+CAPTION[]:ISCN (continued)
+#+NAME: fig:nom
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/ch5_nom2.png]]
+
+** Gene Dosage, Balance and Imbalance
+- for chromosome and genomic disorders, it is the quantitative aspects
+  of gene expression that underlie disease, in contrast to single-gene
+  disorders, in which pathogenesis often reflects qualitative aspects
+  of a gene's function
+*** monosomies are more deleterious than trisomies
+- complete monosomies are generally not viable, except for monosomy
+  for the X chromosome
+- complete trisomies are viable for chromosomes 13, 18, 21, X, and Y
+
+*** phenotype in partial aneuploidy depends on a number of factors
+- size of the unbalanced segment
+- which regions of the genome are affected
+- which genes are involved
+- whether the imbalance is monosomic or trisomic
+*** risk in cases of inversions depends on the location of the inversion with respect to the centromere and on the size of the inverted segment
+- paracentric inversions do not involve the centromere
+  - very low risk for an abnormal phenotype in the next generation
+- pericentric inversions do involve the centromere
+  - risk for birth defects in offspring may be significant and
+    increases with the size of the inverted segment
+
+*** mosaic karyotype involving any chromosome abnormality, all bets are off!
+- the degree of mosaicism in relevant tissues or relevant stages of
+  development is generally unknown
+- there is uncertainty about the severity of the phenotype
+
+** Abnormalities of Chromosome Number
+- heteroploid :: chromosome complement other than 46 is 
+- euploid :: exact multiple of n
+- aneuploid :: non-multiple of n
+
+*** Triploidy and tetraploidy
+- most result from fertilization of an egg by two sperm (dispermy)
+- also failure of one of the meiotic divisions in either sex,
+  resulting in a diploid egg or sperm
+- maternal source are aborted
+- paternal source \to degenerative placenta (parital hydatidiform
+  mole) w small fetus
+
+*** Aneuploidy
+- most common cause is meiotic nondisjunction in meiosis I or II (Figure [[fig:nondys]])
+  - trisomy :: 21,18,13
+  - monosomy :: X (Turner syndrome)
+
+#+CAPTION[]:Nondisjunction
+#+NAME: fig:nondys 
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/ch5_nondys.png]]
+
+** Abnormalities of Chromosome Structure
+- present in 1/375 newborns
+- balances or unbalanced
+
+#+CAPTION[]:Structural rearrangements of chromosomes
+#+NAME: fig:str
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/ch5_struct.png]]
+
+*** Unbalanced rearrangements
+- Delections and Duplications
+- Marker and Ring Chromosomes
+  - very small, unidentified chromosomes
+- Isochromosomes
+  - one arm is missing and the other duplicated in a mirror-image
+- Dicentric
+  - two chromosome segments, each with a centromere, fuse end to end
+*** Balanced rearrangements
+- "balanced" depends on resolution
+- Translocations
+  - Reciprocal translocations
+  - Robertsonian translocations
+  - Insertions
+- Inversions
+  - paracentric - outside the centromere
+  - pericentric - includes the centromere
+
+#+CAPTION[]:Balanced translocations
+#+NAME: fig:trans
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/ch5_trans.png]]
+
+
+
+** Chromosome Analysis in Cancer
+
 * TODO Chapter 6: Chromosomal and Genomic basis of Disease
 * TODO Chapter 7: Patterns of Single Gene Inheritance
 * TODO Chapter 8: Complex Traits
@@ -166,7 +345,74 @@ aspects of human gen
 * TODO Chapter 12: Molecular, Biochemical, and Cellular Basis of Genetic Disease
 * TODO Chapter 13: Treatment
 * TODO Chapter 14: Developmental Genetics
-* TODO Chapter 15: Cancer
+* STARTED Chapter 15: Cancer
+- cancer is not a single disease but rather comes in many forms and
+  degrees of malignancy
+- there are three main classes of cancer:
+  - sarcomas :: tumor has arisen in mesenchymal tissue, such as bone,
+                muscle, or connective tissue, or in nervous system
+                tissue
+  - carcinomas :: originate in epithelial tissue, such as the cells
+                  lining the intestine, bronchi, or mammary ducts
+  - hematopoietic and lymphoid :: leukemia and lymphoma which spread
+       throughout the bone marrow, lymphatic system, and peripheral
+       blood
+** Genetic Basis of Cancer
+- driver and passenger mutations
+- particular translocations are sometimes highly specific for certain
+  types of cancer and involve specific genes
+  - BCR-ABL translocation in chronic myelogenous leukemia
+- cancers can also show complex rearrangements in which chromosomes
+  break into numerous pieces and rejoin, forming novel and complex
+  combinations (a process known as “chromosome shattering”)
+- large genomic alterations involving many kilobases of DNA can form
+  the basis for loss of function or increased function of one or more
+  driver genes
+
+- genes in which mutations cause cancer are referred to as *driver*
+  *genes*, and the cancer causing mutations in these genes are *driver*
+  *mutations*
+- driver genes fall into two distinct categories
+  1) activated oncogenes
+  2) tumor suppressor genes (TSGs)
+
+- an activated oncogene is a mutant allele of a proto-oncogene, a
+  class of normal cellular protein-coding genes that promotes growth
+  and survival of cells
+- oncogenes facilitate malignant transformation by stimulating
+  proliferation or inhibiting apoptosis
+- oncogenes encode proteins such as the following:
+  - proteins in signaling pathways for cell proliferation
+  - transcription factors that control the expression of growth-promoting genes
+  - inhibitors of programmed cell death machinery
+- A TSG is a gene in which loss of function through mutation or
+  epigenomic silencing directly removes normal regulatory controls on
+  cell growth or leads indirectly to such losses through an increased
+  mutation rate or aberrant gene expression
+- TSGs encode proteins involved in many aspects of cellular function including:
+  - maintenance of correct chromosome number and structure
+  - DNA repair proteins
+  - proteins involved in regulating the cell cycle, cellular
+    proliferation or contact inhibition
+
+- tumor initiation can be caused by different types of genetic
+  alterations:
+  - activating or gain-of-function mutations
+  - ectopic and heterochronic mutations of protooncogenes
+  - chromosome translocations that cause misexpression of genes or chimeric genes
+  - LOF of both alleles, or a dominant negative mutation of one allele, of TSGs
+
+- tumor progression occurs as a result of accumulating additional
+  genetic damage,through mutations or epigenetic silencing, of driver
+  genes that encode the machinery that repairs damaged DNA and
+  maintains cytogenetic normality
+
+** Cancer in Families
+
+
+*** Activated Oncogenes and Tumor Suppressor Genes
+- proto-oncogenes
+
 * TODO Chapter 16: Risk
 ** X linked 
 *** Transmission
