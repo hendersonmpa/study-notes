@@ -238,16 +238,16 @@ on a clinical diagnosis or suspicion
 #+CAPTION[]:Incidence of chromosomal abnormalities
 #+NAME: fig:freq
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./tnt/figures/ch5_freq.png]]
+[[file:./figures/ch5_freq.png]]
 
 #+CAPTION[]:ISCN for common cytogenetic aberration
 #+NAME: fig:nom
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+ATTR_LaTeX: :width 1.2\textwidth
 [[file:./figures/ch5_nom.png]]
 
 #+CAPTION[]:ISCN (continued)
 #+NAME: fig:nom
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+ATTR_LaTeX: :width 1.2\textwidth
 [[file:./figures/ch5_nom2.png]]
 
 ** Gene Dosage, Balance and Imbalance
@@ -425,7 +425,78 @@ on a clinical diagnosis or suspicion
 
 * TODO Chapter 7: Patterns of Single Gene Inheritance
 * TODO Chapter 8: Complex Traits
-* TODO Chapter 9: Genetic Variation in Populations
+* STARTED Chapter 9: Genetic Variation in Populations
+** Hardy-Weinberg
+- The Hardy-Weinberg law states that the frequency of the three
+  genotypes AA, Aa, and aa is given by the terms of the binomial
+  expansion of (p + q)^2 = p^2 + 2pq + q^2
+- p = the frequency of the dominant allele (represented here by A)
+- q = the frequency of the recessive allele (represented here by a)
+
+- For a population in genetic equilibrium:
+  - p + q = 1.0 (The sum of the frequencies of both alleles is 100%)
+  - (p + q)^2 = 1
+  - p^2 + 2pq + q^2 = 1
+- The three terms of this binomial expansion indicate the frequencies
+  of the three genotypes:
+  - p2 = frequency of AA (homozygous dominant)
+  - 2pq = frequency of Aa (heterozygous)
+  - q2 = frequency of aa (homozygous recessive)
+
+- The Hardy-Weinberg law rests on these assumptions:
+  - The population under study is large, and matings are random with
+    respect to the locus in question
+  - Allele frequencies remain constant over time because of the
+    following:
+    - There is no appreciable rate of new mutation.• Individuals with
+      all genotypes are equally capable of mating and passing on their
+      genes; that is, there is no selection against any particular
+      genotype
+    - There has been no significant immigration of individuals from a
+      population with allele frequencies very different from the
+      endogenous population
+- A population that reasonably appears to meet these assumptions is
+  considered to be in Hardy-Weinberg equilibrium
+- Then population genotype frequencies from generation to generation
+  will remain constant, at equilibrium, if the allele frequencies p
+  and q remain constant.
+
+| Inheritance | Population Freq |                  |
+|-------------+-----------------+------------------|
+| AR          | q^2             | homozygote       |
+| AD          | 2pq             | heterozygotes    |
+| XL          | 1/2 \cdot q^2   | hemizygote males |
+
+** Factors That Disturb Hardy-Weinberg Equilibrium
+*** Exceptions to Large Populations with Random Mating
+- stratification
+- assortative mating
+- consaguinity
+*** Exceptions to Constant Allele Frequencies
+- mutation
+- selection and fitness
+  - selection in dominant disease
+  - selection in recessive disease - less effect
+- Mutation and Selection Balance in Dominant Disease
+  - \mu = sq
+    - q = mutant allele freq
+    - s = coefficient of selection
+    - \mu = mutation rate per generation
+
+*** Mutation and Selection Balance in X-Linked Recessive Mutations.
+- males have one X chromosome and females two, the pool of X-linked
+  alleles in the entire population’s gene pool is partitioned at any
+  given time, with one third of mutant alleles present in males and
+  two thirds in females
+- if the incidence of a serious X-linked disease is not changing and
+  selection is operating against (and only against) hemizygous males,
+  the mutation rate then µ, must equal the coefficient of selection, s
+  times q, the allele frequency, adjusted by a factor of 3 because
+  selection is operating only on the third of the mutant alleles in
+  the population that are present in males at any time. Thus,
+  - \mu = sq/3
+
+
 * TODO Chapter 10: Identifying the Genetic Basis for Human Disease
 * TODO Chapter 11: The Molecular Basis of Genetic Disease
 * TODO Chapter 12: Molecular, Biochemical, and Cellular Basis of Genetic Disease
@@ -559,7 +630,7 @@ on a clinical diagnosis or suspicion
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/ch15_target.png]]
 
-* TODO Chapter 16: Risk
+* STARTED Chapter 16: Risk
 ** X linked 
 *** Transmission
 - Daughters always inherit Dad's X
