@@ -1,0 +1,40 @@
+#+TITLE: Lysine
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+
+* Introduction
+- lysine, hydroxylysine and tryptophan are thought to be degraded
+  within the mitochondrion
+- initially via separate pathways, which converge into a common 
+  pathway at:
+  - 2-aminoadipic-6-semialdehyde
+    - hydroxylysine catabolism and pipecolic acid pathway of lysine
+      catabolism
+  - 2-oxoadipic acid
+    - tryptophan catabolism
+- the major route of lysine catabolism in most tissues is via the
+  bifunctional enzyme, 2-aminoadipic-6-semialdehyde synthase (Figure [[fig:cat]] enzyme 1)
+- small amount of lysine is catabolised via pipecolic acid and the
+  peroxisomal key enzyme, pipecolic acid oxidase (Figure [[fig:cat]] enzyme 2)
+  - this pathway is the major route of lysine catabolism in the
+    brain
+- source of pipecolic acid is not yet fully understood
+  - from lysine and 2-aminoadipic-6-semialdehyde shown
+  - microbiome
+
+- hydroxylysine enters the pathway after phosphorylation by
+  hydroxylysine kinase (Figure [[fig:cat]] enzyme 3)
+
+- 2-Oxoadipic acid is primarily converted to glutaryl-CoA by the
+  2-oxoglutarate dehydrogenase-like complex (Figure [[fig:cat]] enzyme 6a)
+  since its E1 subunit (DHT-KD1) has a higher substrate affinity for
+  2-oxoadipic acid than the 2-oxoglutarate dehydrogenase complex in
+  the Krebs cycle (Figure [[fig:cat]] enzyme 6b)
+
+  - 2-Oxoglutarate dehydrogenase complex, however, may serve as an
+    alternative route
+
+  - 2-Oxoadipic acid is dehydrogenated and decarboxylated to
+    crotonyl-CoA by glutaryl-CoA dehydrogenase (Figure [[fig:cat]] enzyme 7)
+    - tranfers electrons to FAD \to ETC via ETF/ETF-DH

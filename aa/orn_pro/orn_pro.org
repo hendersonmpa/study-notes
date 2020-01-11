@@ -3,3 +3,257 @@
 #+DATE: \today
 
 
+* Introduction
+- ornithine is an intermediate in metabolic pathways involving the
+  urea cycle, proline metabolism and the biosynthesis of creatine and
+  polyamines
+- ornithine-\delta- aminotransferase (OAT) is a pyridoxal
+  phosphate-requiring, mitochondrial matrix enzyme that plays a
+  pivotal role in these pathways
+- OAT reaction is freely reversible:
+  - during the neonatal period the net flux is in the direction of
+    ornithine and, via the urea cycle, arginine biosynthesis
+  - \gt few months of age the net flux reverses to favour arginine
+    disposal via the synthesis of \Delta1-pyrroline-5-carboxylate
+    (P5C), an intermediate in proline and glutamate synthesis
+- ornithine also plays an essential role as the substrate for urea assembly
+- both OAT and OTC are mitochondrial matrix enzymes
+- ornithine produced in the cytoplasm from arginine is transported
+  into the mitochondrial matrix by an energy-requiring transport
+  system involving ORNT1
+  - an antiporter in the inner mitochondrial membrane, which exchanges
+    cytosolic ornithine with mitochondrial citrulline
+- in the cytoplasm ornithine is decarboxylated to putrescine which is
+  then converted to spermine
+- proline, unlike all other amino acids (except hydroxyproline), has
+  no primary amino group
+  - termed as an imino acid
+  - \therefore uses a specific set of enzymes for metabolism
+- P5C is the product or precursor of the OAT reaction
+  - \ce{ ornithine + \alpha-KG <->[OAT] P5C + Glu}
+- P5C is precursor and degradation product of proline
+- P5C synthetase is a bifunctional ATP- and NADPH-dependent
+  mitochondrial enzyme that is highly active in the gut
+  - also expressed in brain catalyses the reduction of glutamate to
+    P5C
+- P5C/proline cycle transfers reducing/oxidizing potential between
+  cellular organelles
+- The pyridinoline ring of proline and hydroxyproline contribute to
+  the structural stability of proteins particularly collagen
+
+#+CAPTION[]:Ornithine and proline metabolism
+#+NAME: fig:orn_pro
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./orn_pro/figures/orn_pro.png]]
+
+#+CAPTION[]:Differfential diagnosis of ornthine and proline disorders
+#+NAME: fig:diff
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./orn_pro/figures/diff.png]]
+
+* OAT Deficiency
+** Clinical presentation
+- initial symptoms myopia, night blindness in early-mid childhood
+- undoscopic appearance of the chorioretinal atrophy in *gyrate atrophy* is highly specific
+- chorioretinal atrophy is progressive \to blindness by 45-65 years
+
+** Metabolic derangement
+- OAT is PLP dependent
+  - there is a PLP responsive variant
+*** Neonatal period
+- present with increased blood ammonia and low levels of plasma
+  ornithine, citrulline, arginine and orotic aciduria in their first
+  weeks of life
+- hyperornithinaemia develops later in life
+- net flux in the OAT reaction in the newborn period is in the
+  direction of ornithine synthesis rather than degradation
+- disruption of the anapleurotic function of the OAT reaction for the
+  urea cycle can lead to insufficient levels of citrulline and
+  arginine, inadequate ureagenesis and consequent hyperammonaemia
+*** Non neonatal
+- patients develop hyperornithinaemia
+  - fasting plasma ornithine in the range of 400-1200 uM
+- mechanism of the retinal degeneration is unclear
+- reduced levels of creatine in blood, urine, muscle and brain
+  - a result of ornithine inhibition of glycine transamidinase and the
+    subsequent reduction of creatine biosynthesis
+
+** Genetics
+- AR, OAT
+
+** Diagnostic tests
+- most prominent biochemical abnormality in those ingesting an
+  unrestricted diet:
+  - \Uparrow 5- to 20-fold plasma ornithine
+- \uparrow urine ornithine
+- when plasma ornithine \gt 400 uM
+  - \uparrow urine ornithine, lysine, arginine, cystine
+  - secondary to competitive inhibition of shared dibasic aa renal transporter
+- differentiated from HHH by lack of homocitrulline in urine
+- difficult to distinguish neonatal OAT from OTC in both disorders:
+  - \downarrow plasma ornithine, arginine, and citrulline
+  - \uparrow urine orotic acid
+- molecular and enzyme confirmation
+
+** Treatment
+- restrict arginine to reduce plasma ornithine levels \lt 200 uM
+- \uparrow dose PLP works in subset of responsive patients
+
+* HHH Syndrome
+- Hyperornithinaemia, Hyperammonaemia and Homocitrullinuria Syndrome
+** Clinical presentation
+- broad spectrum, with some related to episodic hyperammonemia
+- intolerance to protein feeding,vomiting, seizures and developmental
+  delay from infancy are common
+- neonatal onset of lethargy, hypotonia and seizures, with progression
+  to coma and death observed in the most severe form
+- liver failure/dysfunction
+- can be chronic and progressive
+  - food aversion, central and peripheral neurological dysfunction
+
+** Metabolic derangement
+- HHH syndrome is a disorder of metabolic compartmentation, with
+  impaired importation of ornithine into the mitochondria
+- results in deficiency of OTC and OAT activity with:
+  - \Uparrow plasma ornithine
+  - \Uparrow plasma ammonaemia
+  - \uparrow urine homocitrulline
+- \downarrow intramitochondrial ornithine \to utilisation of
+  carbamoylphosphate by other pathways with formation of:
+  - homocitrulline from lysine
+  - orotic acid 
+** Genetics
+- AR, ORNT1 (aka SLC24A15)
+- more frequent in Canada, as a result of a founder mutation in Quebec
+
+** Diagnostic tests
+- can be differentiated from other hyperammonaemic syndromes by laboratory findings
+- \Uparrow plasma ornithine
+- \Uparrow plasma ammonaemia
+- \uparrow urine homocitrulline
+- above triad is pathognomonic
+- plasma ornithine concentration is elevated to 3 to 10 fold
+  - lower than in OAT deficiency
+- plasma citrulline reduction is less pronounced than in OTC
+  deficiency
+- when plasma ornithine \gt 400 uM
+  - \uparrow urine ornithine, lysine, arginine, cystine
+  - - secondary to competitive inhibition of shared dibasic aa renal transporter
+- orotic aciduria is common in HHH
+
+** Treatment
+- prevent ammonia toxicity
+- low protein diet
+- citruline and arginine supplementation
+- ammonia scavengers are used:
+  - sodium benzoate
+  - sodium phenylbutyrate
+- prognosis variable, generally good
+
+* P5CS  Deficiency
+- \Delta1-Pyrroline-5-Carboxylate Synthetase Deficiency
+
+** Clinical presentation
+- central and peripheral neurological
+- see figure [[fig:diff]] for details
+
+** Metabolic derangement
+- pattern of metabolic abnormalities consistent with impaired proline
+  and ornithine synthesis due to deficiency of P5CS
+  - catalyses an essential step in synthesis of proline, ornithine and
+    arginine from glutamate
+- hypoornithinaemia, hypocitrullinaemia,hypoargininaemia,
+  hypoprolinaemia and mild hyperammonaemia
+
+** Genetics 
+- AR/AD, ALDH18A1
+
+** Diagnostic tests
+- abnormal metabolite profile is corrected in the fed state
+  - \therefore the metabolic phenotype of P5CS deficiency is easily
+    missed
+- combination of the following should suggest this disorder:
+  - \downarrow fasting: ornithine, citrulline, arginine and proline
+  - tendency to paradoxical fasting hyperammonaemia
+  - or one of the above together with a clinical phenotype of mental
+    retardation, connective tissue manifestations and/or cataracts
+
+** Treatment
+- supplementation of the deficient amino acids seems to be a
+  reasonable therapeutic approach
+
+* Proline Oxidase Deficiency
+- Hyperprolinaemia Type I
+** Clinical presentation
+- well tolerated in some individuals
+- in others may contribute to risk for schizophrenia or other
+  psychiatric, cognitive or behavioural abnormalities
+
+** Metabolic derangement
+- deficiency of proline oxidase a mitochondrial inner-membrane enzyme
+\ce{proline ->[POX] P5C}
+** Genetics
+- AR, PRODH
+- aps to 22q11, in the region deleted in the velocardiofacial
+  syndrome/DiGeorge syndrome
+
+** Diagnostic tests
+- \Uparrow plasma proline
+  - usually \le 2000 uM (normal range 100–450 uM)
+- \uparrow urine and cerebrospinal fluid (CSF) proline
+- Hyperprolinaemia (as high as 1000 μM) is also observed as a
+  secondary phenomenon in hyperlactataemia
+- possibly because proline oxidase is inhibited by lactic acid
+
+** Treatment
+- prognosis excellent
+- no treatment needed
+
+* P5CDH
+- \Delta1-Pyrroline-5-Carboxylate Dehydrogenase Deficiency
+- Hyperprolinaemia Type II
+** Clinical presentation
+- relatively benign disorder
+- predisposition to recurrent seizures is highly likely
+** Metabolic derangement
+- deficiency of pyrroline 5-carboxylate (P5C) dehydrogenase
+- a mitochondrial inner-membrane enzyme involved in the conversion of
+  proline into glutamate
+\ce{P5C ->[P5CDH] Glu}
+- accumulating P5C is a vitamin B_6 antagonist owing to adduct
+  formation
+- the seizures in this disorder may be due at least in part to vitamin
+  B_6 inactivation
+
+
+** Genetics
+- AR, ALDH4A1
+
+** Diagnostic tests
+- \Uparrow plasma proline
+  - usually \gt 2000 uM (normal range 100–450 uM)
+- \uparrow urine and cerebrospinal fluid (CSF) proline
+- \uparrow P5C in urine and plasma 
+
+** Treatment
+- seizures are B_6 responsive
+
+* Prolidase Deficiency
+** Clinical presentation
+- skin lesions
+- immunological abnormalities
+- see figure [[fig:diff]] for details
+** Metabolic derangement
+- massive hyperexcretion of a large number of imidodipeptides
+  - dipeptides with an N-terminal proline or hydroxyproline
+  - particularly glycylproline
+- this is due to a deficiency of the exopeptidase prolidase (or
+  peptidase D)
+** Genetics
+- AR, PEPD
+** Diagnostic tests
+- hyperimidodipeptiduria
+- low or absent prolidase activity in haemolysates or in homogenates
+  of leukocytes or fibroblasts confirms the diagnosis
+** Treatment
+- treat skin ulcers w oral ascorbate and manganese (cofactor of prolidase)

@@ -98,7 +98,7 @@ $(OUT_DIR)vitamins.pdf: ./vitamins/vitamins.org ./vitamins/biotin/biotin.org \
 	mv -v ./vitamins/vitamins.pdf $(OUT_DIR)vitamins.pdf
 
 $(OUT_DIR)aa.pdf: ./aa/aa.org ./aa/phe/phe.org ./aa/tyr/tyr.org \
-./aa/sulfur/sulfur.org
+./aa/sulfur/sulfur.org ./aa/orn_pro/orn_pro.org
 	emacs -u "$(id -un)" \
 	--batch \
 	--eval '(load user-init-file)' \

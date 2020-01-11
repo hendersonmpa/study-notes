@@ -38,3 +38,6 @@
 * Sulfur Amino Acids
 #+INCLUDE: "./sulfur/sulfur.org" :lines "4-"
 
+
+* Ornithine and Proline
+#+INCLUDE: "./orn_pro/orn_pro.org" :lines "4-"
