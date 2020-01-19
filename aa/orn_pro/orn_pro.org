@@ -54,7 +54,7 @@
 * OAT Deficiency
 ** Clinical presentation
 - initial symptoms myopia, night blindness in early-mid childhood
-- undoscopic appearance of the chorioretinal atrophy in *gyrate atrophy* is highly specific
+- fundoscopic appearance of the chorioretinal atrophy in *gyrate atrophy* is highly specific
 - chorioretinal atrophy is progressive \to blindness by 45-65 years
 
 ** Metabolic derangement
@@ -70,7 +70,7 @@
 - disruption of the anapleurotic function of the OAT reaction for the
   urea cycle can lead to insufficient levels of citrulline and
   arginine, inadequate ureagenesis and consequent hyperammonaemia
-*** Non neonatal
+*** Non-neonatal
 - patients develop hyperornithinaemia
   - fasting plasma ornithine in the range of 400-1200 uM
 - mechanism of the retinal degeneration is unclear
