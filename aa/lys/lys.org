@@ -1,4 +1,4 @@
-#+TITLE: Lysine
+#+TITLE: Lysine and Cerebral OA Disorders
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
@@ -23,9 +23,6 @@
   - from lysine and 2-aminoadipic-6-semialdehyde shown
   - microbiome
 
-- hydroxylysine enters the pathway after phosphorylation by
-  hydroxylysine kinase (Figure [[fig:cat]] enzyme 3)
-
 - 2-Oxoadipic acid is primarily converted to glutaryl-CoA by the
   2-oxoglutarate dehydrogenase-like complex (Figure [[fig:cat]] enzyme 6a)
   since its E1 subunit (DHT-KD1) has a higher substrate affinity for
@@ -38,3 +35,168 @@
   - 2-Oxoadipic acid is dehydrogenated and decarboxylated to
     crotonyl-CoA by glutaryl-CoA dehydrogenase (Figure [[fig:cat]] enzyme 7)
     - tranfers electrons to FAD \to ETC via ETF/ETF-DH
+
+- Crotonyl-CoA is subsequently converted to 3-hydroxybutyryl-CoA by
+  short-chain enoyl-CoA hydratase 1 (Figure [[fig:cat]] crotonase, enzyme 8)
+  - this enzyme is multispecific and also acts as a crotonase in the
+    degradative pathways of valine, isoleucine and short-chain fatty
+    acids
+
+- 3-Hydroxybutyryl-CoA is then converted to acetoacetyl-CoA by
+  3-hydroxyacyl-CoA dehydrogenase (Figure [[fig:cat]] enzyme 9)
+- glutaric acid which may derive from the intestinal microbiome,
+  spontaneous disintegration of glutaryl-CoA or other sources, is
+  normally reactivated by succinyl-CoA-dependent conversion of
+  succinate-hydroxymethylglutarate CoA transferase to glutaryl-CoA
+  (Figure [[fig:cat]] enzyme 10)
+
+- of the six enzyme deficiencies identified in the degradation of
+  lysine, only four \to neurometabolic disorders:
+  - antiquitin
+  - KGDH
+  - glutaryl-CoA dehydrogenase
+  - crotonase 
+
+
+- a group of organic acid disorders presents exclusively with
+  progressive neurological symptoms of ataxia, epilepsy, myoclonus,
+  extrapyramidal symptoms, metabolic stroke, and macrocephaly
+  - glutaric aciduria
+  - 2-hydroxyglutaric aciduria
+  - 4-hydroxybutyric aciduria
+  - N-acetylaspartic aciduria
+- in all these disorders the pathological compounds that accumulate
+  either are odd-chain dicarboxylic acids
+  - 3-hydroxyglutarate, glutarate
+    - sharing the same carbon backbone with the excitatory amino acid
+      glutamate (2-amino-glutarate)
+  - or are neurotransmitters/-modulators
+    - \gamma -hydroxybutyrate
+    - N-acetylaspartylglutamate
+
+#+CAPTION[]:Tryptophan, hydroxylysine and lysine catabolic pathways
+#+NAME: fig:cat
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./lys/figures/cat.png]]
+
+* Glutaric Aciduria Type I
+** Clinical Presentation
+- differential diagnosis of any infant who has:
+  - macrocephaly combined with progressive atrophic changes on MRI or CT and/or
+  - complex extrapyramidal syndrome of predominantly dystonia,
+    orofacial dyskinesia and dysarthria superimposed on axial hypotonia
+- \sim 9 months the majority of untreated patients suffer an acute
+  brain injury
+  - usually associated with an upper respiratory and/or
+    gastrointestinal infection
+** Metabolic derangement
+- deficiency of glutaryl-CoA dehydrogenase a mitochondrial
+  FAD-requiring enzyme
+- catalyses the dehydrogenation of glutaryl-CoA and subsequent
+  decarboxylation of glutaconyl-CoA to crotonyl-CoA
+\ce{glutaryl-CoA + FAD ->[GCDH] crotonyl-CoA + FADH2 + CO2}
+
+- \uparrow glutaryl-CoA \to esterified with carnitine to
+  glutarylcarnitine by carnitine acyltransferase
+  - \to \uparrow acylcarnitines:free carnitine ratio in plasma and
+    urine
+  - glutarylcarnitine is excreted, contributing to secondary carnitine
+    deficiency
+  - often \uparrow urinary excretion of dicarboxylic acids,
+    2-oxoglutarate and succinate indicating of disturbed mitochondrial
+    function
+
+- impaired brain energy metabolism induced by accumulating glutaric
+  acid, 3-hydroxyglutaric acid and glutaryl-CoA:
+  - glutaryl-CoA inhibits 2-oxoglutarate dehydrogenase complex
+  - glutaric acid impairs the dicarboxylic acid shuttle between
+    astrocytes and neurons
+  - 3-hydroxyglutaric acid weakly activates glutamatergic neurotransmission
+
+- weak permeability of the blood-brain barrier for dicarboxylic acids
+  - traps these metabolites in the brain compartment
+
+** Genetics
+- AR, GCDH
+- Oji-Cree first nation, incidence of 1 in 300 newborns
+  - homozygous for the splice site mutation IVS-1+5 g>t
+
+** Diagnostic Tests
+- low excretors: deficiency of glutaryl-CoA dehydrogenase and severe
+  characteristic neurological disease but with only slight or
+  inconsistent elevations of glutaric acid or glutarylcarnitine
+- \uparrow glutaric acid and 3-OH glutaric acid by UOA
+  - 3-OH glutaric acid in urine has a high sensitivity including
+    - low-excretor phenotype
+    - secondary carnitine depletion
+- \uparrow glutarylcarnitine (C5)
+- \downarrow plasma carnitine
+- \Uparrow acylcarnitines:free carnitine in urine and plasma
+
+** Treatment
+- early diagnosis key to prevention of acute striatal necrosis and
+  neurological sequelae
+- Treatment includes:
+  - emergency treatment during illness
+    - \uparrow CHO feeds, carnitine supplementation
+    - lys free amino acids
+  - oral supplementation w carnitine and riboflavin
+  - lysine-free, tryptophan-reduced and arginine-enriched amino acid
+    mixtures aims to minimise the risk of malnutrition
+
+* L or D 2-Hydroxyglutaric Aciduria
+** Clinical presentation
+- L2 :: progressive neurological disease
+  - IQ in teens \sim 40-50
+- D2 :: more variable than L2
+
+** Metabolic derangement
+- L2 :: FAD-linked 2-hydroxyglutarate dehydrogenase
+  - mitochondrial enzyme converts L-2-hydroxyglutarate to
+    2-oxoglutarate
+- D2 :: D-2-hydroxyglutarate dehydrogenase
+  - enzyme converts D-2-hydroxyglutarate to 2-oxoglutarate
+
+** Genetics
+- L2 :: AR, L2HGDH
+- D2 :: AR, D2HGDH but may be genetically heterogeneous
+
+** Diagnostic Tests
+- L-2- and D-2-hydroxyglutaric acid cannot be differentiated by
+  conventional GC-MS analysis
+  - chromatographic separation of these enantiomers can be performed
+    using derivatisation with a chiral reagent or a chiral stationary
+    phase
+- L2 :: \uparrow L-2-hydroxyglutarate in all fluids
+
+** Treatment 
+- L2 :: riboflavin reported, poor prognosis
+- D2 :: none, death in childhood
+
+* N-Acetylaspartic Aciduria
+- Canavan disease
+** Clinical presentation
+- 2-4 months w progressive neurological disease
+- macrocephaly by 1 year
+
+** Metabolic derangement
+- aspartoacylase deficiency
+\ce{N-acetyl-L-aspartate + H2O <=>[ASPA] carboxylate + L-aspartate}
+- in the brain, aspartoacylase is located in oligodendrocytes
+  - hydrolyses NAA which is formed in neurons from L-aspartate and
+    L-acetate
+- defective NAA catabolism \to reduced brain acetate levels and myelin
+  lipid synthesis
+
+** Genetics
+- AR, ASPAragine
+
+** Diagnostic Tests
+- \uparrow NAA by UOA
+  - 100x \uparrow is pathognomonic
+- borderline elevation of NAA found in various forms of white matter
+  disease
+- mutations or enzyme assay to confirm 
+
+** Treatment
+- none 

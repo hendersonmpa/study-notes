@@ -98,7 +98,7 @@ $(OUT_DIR)vitamins.pdf: ./vitamins/vitamins.org ./vitamins/biotin/biotin.org \
 	mv -v ./vitamins/vitamins.pdf $(OUT_DIR)vitamins.pdf
 
 $(OUT_DIR)aa.pdf: ./aa/aa.org ./aa/phe/phe.org ./aa/tyr/tyr.org \
-./aa/sulfur/sulfur.org ./aa/orn_pro/orn_pro.org
+./aa/sulfur/sulfur.org ./aa/orn_pro/orn_pro.org ./aa/lys/lys.org
 	emacs -u "$(id -un)" \
 	--batch \
 	--eval '(load user-init-file)' \
@@ -106,7 +106,8 @@ $(OUT_DIR)aa.pdf: ./aa/aa.org ./aa/phe/phe.org ./aa/tyr/tyr.org \
 	-f org-latex-export-to-pdf
 	mv -v ./aa/aa.pdf $(OUT_DIR)aa.pdf
 
-$(OUT_DIR)conditions.pdf: ./conditions/conditions.org ./conditions/cancer.org ./conditions/clinical.org ./conditions/complex.org ./conditions/cytogenetics.org ./conditions/metabolics.org \
+$(OUT_DIR)conditions.pdf: ./conditions/conditions.org ./conditions/cancer.org ./conditions/clinical.org \
+./conditions/complex.org ./conditions/cytogenetics.org ./conditions/metabolics.org \
 ./conditions/molecular.org ./conditions/neurogenetics.org
 	emacs -u "$(id -un)" \
 	--batch \
