@@ -163,7 +163,7 @@
 - classical symptoms of Hartnup disease are pellagra-like dermatitis,
   intermittent ataxia and neuropsychiatric abnormalities
   - resembles nutritional niacin deficiency
-- NBS identified based on ???
+- identified by newborn urine screening
   - most remain asymptomatic
 
 ** Metabolic derangement
