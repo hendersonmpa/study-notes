@@ -67,10 +67,8 @@
 
 #+CAPTION[]: Cysteine vs Cystine
 #+NAME: fig:cys
-#+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./figures/cys.jpg]]
-
-http://en.citizendium.org/wiki/File:Cysteine_vs_Cystine10.jpg
+#+ATTR_LaTeX: :width 0.4\textwidth
+[[file:./sulfur/figures/cys.jpg]]
 
 #+CAPTION[]:Sulfur amino acid metabolism
 #+NAME: fig:sulfur
@@ -80,7 +78,7 @@ http://en.citizendium.org/wiki/File:Cysteine_vs_Cystine10.jpg
 #+CAPTION[]:Disorders of sulfur amino acid metabolism
 #+NAME: fig:sulfuraa
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./figures/sulfaa.png]]
+[[file:./sulfur/figures/sulfaa.png]]
 
 * Methionine S-Adenosyltransferase Deficiency
 - Mudd’s Disease

@@ -48,8 +48,8 @@
 
 #+CAPTION[]:Differfential diagnosis of ornthine and proline disorders
 #+NAME: fig:diff
-#+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./orn_pro/figures/diff.png]]
+#+ATTR_LaTeX: :width 1.2\textwidth
+[[file:./orn_pro/figures/op_diff.png]]
 
 * OAT Deficiency
 ** Clinical presentation

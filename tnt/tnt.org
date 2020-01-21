@@ -124,6 +124,11 @@ aspects of human gen
   - random, X inactivation center
   - ncRNA called XIST
 
+#+CAPTION[]:X inactivation
+#+NAME: fig:xist
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/ch3_xist.png]]
+
 * Chapter 4: Human Genetic Diversity
 ** Inherited variation and polymorphism
 - SNP
