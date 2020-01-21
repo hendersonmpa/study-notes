@@ -97,8 +97,8 @@ $(OUT_DIR)vitamins.pdf: ./vitamins/vitamins.org ./vitamins/biotin/biotin.org \
 	-f org-latex-export-to-pdf
 	mv -v ./vitamins/vitamins.pdf $(OUT_DIR)vitamins.pdf
 
-$(OUT_DIR)aa.pdf: ./aa/aa.org ./aa/phe/phe.org ./aa/tyr/tyr.org \
-./aa/sulfur/sulfur.org ./aa/orn_pro/orn_pro.org ./aa/lys/lys.org
+$(OUT_DIR)aa.pdf: ./aa/aa.org ./aa/phe/phe.org ./aa/tyr/tyr.org ./aa/sulfur/sulfur.org \
+./aa/orn_pro/orn_pro.org ./aa/lys/lys.org ./aa/nkh/nkh.org
 	emacs -u "$(id -un)" \
 	--batch \
 	--eval '(load user-init-file)' \

@@ -41,6 +41,8 @@
 
 * Ornithine and Proline
 #+INCLUDE: "./orn_pro/orn_pro.org" :lines "4-"
-
 * Lysine and Cerebral OA Disorders
 #+INCLUDE: "./lys/lys.org" :lines "4-"
+
+* Nonketotic Hyperglycinemia
+#+INCLUDE: "./nkh/nkh.org" :lines "4-"
