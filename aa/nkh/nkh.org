@@ -1,0 +1,136 @@
+#+TITLE: Nonketotic Hyperglycinemia
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+
+* Introduction
+- nonketotic hyperglycinemia (NKH) is a genetic disorder characterized
+  by deficient activity of the glycine cleavage enzyme
+- classic NKH is caused by mutations in genes that encode the protein
+  components of the glycine cleavage enzyme system (GCS)
+- based on the clinical severity and developmental outcome, classic
+  NKH is further divided into:
+  - severe classic NKH
+  - attenuated classic NKH
+- variant NKH has an overlapping phenotype to classic NKH
+  - is caused by mutations affecting the biosynthesis of the main
+    cofactor lipoic acid
+  - fits into the larger group of the lipoate synthesis
+    disorders
+- lipoate is a cofactor for:
+  - GCS
+  - pyruvate dehydrogenase (PDH)
+  - 2-ketoglutarate dehydrogenase (KDH)
+  - branched chain ketoacid dehydrogenase (BCKDH)
+- lipoate disorders are also called multiple mitochondrial dysfunction
+  syndromes
+- pyridox(am)ine 5-phosphate oxidase deficiency \to reduced activity
+  of a large number of pyridoxal-P-dependent reactions including the
+  GCS
+- phenocopies of NKH, historically called transient NKH, are
+  non-genetic secondary causes of elevated plasma and CSF glycine
+  levels
+- atypical NKH is a heterogeneous historic term, which should no
+  longer be used
+
+#+CAPTION[]:Glycine cleavage enzyme
+#+NAME: fig:glyc
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./nkh/figures/glyc.png]]
+
+#+CAPTION[]:Lipoate
+#+NAME: fig:lip
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./nkh/figures/lip.png]]
+
+* Clinical Presentation
+** Severe Classic NKH
+- neonatal onset
+- hypotonia, increasing lethargy, coma, apnea, myoclonic jerks,
+  seizures, and frequent hiccupping, which may have already started
+  during the prenatal period
+- 15-30% die in neonatal period
+- developmental age of approximately six weeks
+
+** Attenuated Classic NKH
+- attain developmental milestones with varying degrees of
+  developmental and intellectual progress
+- may present in the neonatal period, resembling severe classic NKH,
+  or later in infancy with hypotonia, lethargy, coma, and seizures
+** Variant NKH
+- lipoate deficiency combines the clinical findings of severe NKH with
+  mitochondriopathies, such as leukoencephalopathy, optical atrophy,
+  cardiomyopathy, and sometimes episodes of severe lactic acidosis
+- PNPO deficiency may also resembles classic NKH but with a much more
+  complex metabolic profile that includes a mildly elevated CSF
+  glycine
+  - symptoms are partly responsive to pyridoxal-P
+
+* Metabolic Derangement
+- glycine is involved in many biochemical reactions
+- GCS breaks down glycine with tetrahydrofolate into carbon dioxide,
+  ammonia, and the generation of 5,10-methylenetetrahydrofolate
+- a four protein complex located in the mitochondrial matrix
+  - H-protein carrying a lipoyl-group as the central core
+- octanoate is synthesized by intramitochondrial fatty acid synthesis
+  on the mitochondrial acylcarrier protein and is transferred to apo-H
+  protein by lipoyltransferase 2 (LIPT2)
+- lipoate synthase (LIAS) donates the sulfur atoms from its
+  iron-sulfur cluster to build lipoyl-H
+- lipoyltransferase 1 (LIPT1) transfers the lipoate group from
+  H-protein to the E2 component of four 2-ketodehydrogenases
+- LIPT1 deficiency causes dysfunction of the E2 components
+- LIPT2 and LIAS add deficiency of the GCS
+- Some disorders of iron-sulfur cluster biogenesis genes add deficient
+  activity of complexes I and II of the respiratory chain and
+  aconitase, which carry iron sulfur clusters
+- in NKH glycine accumulates particularly in the brain
+- glycine is an inhibitory neurotransmitter on the glycinergic
+  receptors in the brain stem and spinal cord
+  - possibly contributing to apnea and hypotonia
+- in neuronal stem cells, the glycinergic receptor may be excitatory
+  rather than inhibitory
+- glycine is an allosteric activator of the excitatory
+  N-methyl-D-aspartate (NMDA) type glutamate receptor NR1/NR2 type
+- increased levels of glycine result in overactivation of this NMDA
+  receptor
+* Genetics
+- classic NKH is AR
+  - GLDC encoding the P-protein ~ 80%
+  - AMT encoding the T-protein
+  - no mutations identified in GCSH encoding the H-protein
+- variant NKH is AR
+  - genes involved in the synthesis of lipoate
+  - LIAS, BOLA3, GLRX5, NFU1, ISCA2, LIPT1, LIPT2,and IBA57
+* Diagnostic Tests
+- \uparrow glycine are found in plasma, urine, and CSF
+  - \uparrow plasma glycine has low specificity
+  - \uparrow CSF glycine are highly indicative of NKH
+    - avoid blood contamination
+  - \uparrow CSF:plasma glycine
+- valproate inhibits GCS
+- molecular testing of GCS genes
+- transient NKH is a phenocopy
+  - elevated CSF glycine levels disappear spontaneously over the next
+    days to weeks
+- variant NKH manifest only mild elevations of glycine in plasma and CSF
+  - may also have an increase of
+    - plasma alanine, lactate and pyruvate
+    - 2-ketoglutarate in urine organic acids
+- in PNPO deficiency other results point to low pyridoxal phosphate
+  including:
+  - \downarrow CSF HVA and 5HIAA
+  - \uparrow CSF 3-methoxytyrosine, glycine, threonine, histidine and
+    taurine
+  - \downarrow plasma arginine
+
+* Treatment
+- withdrawal of intensive care in the neonatal period is an ethical
+  consideration given the very poor outcome in severe classic NKH
+- correct distinction between severe and attenuated NKH can aid in
+  this decision making
+- reduction of glycine plasma levels by benzoate
+  - monitor for carnitine deficiency
+- glycine restricted diet
+  - dietary glycine has a small contribution to glycine flux
+- receptor agonists to block effects of glycine
