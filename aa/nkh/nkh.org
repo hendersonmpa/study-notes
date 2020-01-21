@@ -2,7 +2,6 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
-
 * Introduction
 - nonketotic hyperglycinemia (NKH) is a genetic disorder characterized
   by deficient activity of the glycine cleavage enzyme
@@ -35,12 +34,12 @@
 
 #+CAPTION[]:Glycine cleavage enzyme
 #+NAME: fig:glyc
-#+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./nkh/figures/glyc.png]]
+#+ATTR_LaTeX: :width 0.5\textwidth
+[[file:./nkh/figures/gce.png]]
 
 #+CAPTION[]:Lipoate
 #+NAME: fig:lip
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./nkh/figures/lip.png]]
 
 * Clinical Presentation

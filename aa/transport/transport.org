@@ -1,0 +1,198 @@
+#+TITLE: Amino Acid Transport
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+* Introduction
+- epithelial cells in (for example) renal tubules and intestinal
+  mucosa utilise several different amino acid transport systems which
+  prefer amino acids with certain physicochemical properties
+- cystine and structurally related dibasic cationic amino acids
+  lysine, arginine and ornithine are transported from the intestinal
+  or renal tubular lumen into epithelial cells by an apical
+  transporter (system b^{0,+}) in exchange for neutral amino acids
+- dibasic amino acids are then transported from the epithelial cell
+  into the tissues by a basolateral dibasic amino acid transporter
+  (system y^+L) in exchange for neutral amino acids and sodium
+- both these transporters are heteromers of a heavy subunit and a
+  light subunit linked by a disulfide bridge
+- a third transporter system for neutral amino acids is expressed only
+  at the luminal border of epithelial cells
+- it transports neutral amino acids into epithelial cells
+  - alanine, asparagine, citrulline, glutamine, histidine, isoleucine,
+    leucine, phenylalanine, serine, threonine, tryptophan, tyrosine
+    and valine 
+- dicarboxylic amino acids (aspartate, glutamate) have a specific
+  transporter EAAT3, located at the luminal border
+  of epithelial cells and also expressed in neurons
+- cystinuria \to apical cystine/dibasic amino acid transporter
+- lysinuric protein intolerance  \to antiluminal dibasic amino acid transporter
+- Hartnup disorder \to luminal neutral amino acid transporter 
+
+
+- inherited defects in amino acid transport at the cell membrane are
+  usually expressed as selective renal aminoaciduria
+  - the concentration of the affected amino acids is high in the urine
+    while it is normal or low in plasma
+- intestinal absorption of the affected amino acids is also almost
+  always impaired
+- clinical symptoms result from excess amounts of certain amino acids
+  in the urine or lack of them in the tissues
+  - cystinuria :: renal stones may be formed because of high urinary
+    concentration of poorly soluble cystine
+  - LPI :: poor intestinal absorption and urinary loss of arginine,
+           ornithine and lysine
+    - patients develop protein intolerance with hyperammonaemia,
+      growth retardation and skeletal and immunological manifestations
+  - Hartnup disease :: pellagra-like dermatitis and ataxia due to
+       deficiency of tryptophan, the precursor of niacin synthesis
+  - iminoglycinuria and dicarboxylic aciduria :: mostly asymptomatic
+
+
+#+CAPTION[]:Simplified schematic representation of cationic and neutral amino acid transport in epithelial cells
+#+NAME: fig:aatrans
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./transport/figures/aatrans.png]]
+
+* Cystinuria
+** Clinical presentation
+- life-long risk of urolithiasis
+- 1-2% of kidney stones in adults
+- 6-8% of kidney stones in children
+- recurrent urinary tract infections, urinary obstruction and,
+  finally, renal failure are possible complications
+
+** Metabolic derangement
+- defect in the high-affinity luminal transporter for cystine and the
+  dibasic amino acids at the apical side of the epithelial cells of
+  the proximal renal tubule and in jejunal mucosa 
+  - system b^{0,+} consisting of two protein subunits rBAT and b^{0,+}AT
+- absorption of cystine in the intestine and its reabsorption in the
+  kidney is reduced
+- normally 99% of filtered cystine is reabsorbed
+- cystine is poorly soluble at neutral or low pH
+
+** Genetics
+- incidence \sim 1:7000
+- type A, SLC3A1 (encodes rBAT)
+  - AR, \gt 60% of cases
+- type B, SLC7A9 (encodes b^{0,+}AT)
+  - AD, incomplete penetrance
+- homozygous contiguous gene deletions on chromosome 2p21 or 2p16
+  - cystinuria associated with severe neurological findings (2p16) or
+    Prader-Willi-like syndrome (2p21)
+
+** Diagnostic tests
+- cystine stones IR-spectroscopy
+- urine amino acids
+  - \uparrow cystine
+  - \uparrow arginine
+  - \uparrow ornithine
+
+** Treatment
+- \uparrow fluid intake
+- alkalinisation of urine
+
+* Lysinuric Protein Intolerance
+** Clinical presentation
+- breast-fed newborns and infants are usually
+  asymptomatic
+- postprandial episodes of hyperammonaemia usually emerge when formula
+  with higher protein content or supplementary high-protein foods are
+  introduced
+- hyperammonaemia may present as refusal to eat, vomiting, stupor and
+  drowsiness leading to coma, and can be misdiagnosed as food
+  protein-induced enterocolitis syndrome
+- toddlers and school-age children present most often with growth
+  failure and hepatosplenomegaly
+- most patients develop a protective aversion to high-protein foods
+  - impairs amino acid intake \to amino acid deficiencies
+
+** Metabolic derangement
+- transport of the dibasic cationic amino acids lysine , arginine and
+  ornithine (system y^+L) is defective at the basolateral membrane of
+  epithelial cells in the renal tubules and small intestine where
+  y^+LAT1 combines with 4F2hc to generate an active amino acid
+  transporter
+- massive amounts of lysine and more moderate amounts of arginine and
+  ornithine are lost in the urine
+- intestinal absorption is limited \to low plasma concentrations
+- glutamine, glycine and alanine concentrations are often elevated due
+  to malfunction of the urea cycle
+- hyperammonaemia after protein ingestion and diminished protein
+  tolerance in LPI resemble the symptoms of urea cycle enzyme
+  deficiencies
+- best explained by functional deficiency of the intermediates
+  arginine and ornithine in hepatocytes
+- carnitine deficiency due to:
+  - \downarrow meat intake
+  - \downarrow endogenous biosynthesis due to lysine deficiency
+
+** Genetics
+- AR, SLC7A7
+  - y^+LAT-1 the light subunit of the dibasic amino acid
+    transporter
+
+** Diagnostic tests
+- diagnosis LPI is based on the combination of increased urinary
+  excretion and low plasma concentrations of the cationic amino acids,
+  especially lysine
+- \uparrow urine lysine, arginine and ornithine
+- \downarrow plasma lysine, arginine and ornithine
+- \uparrow postprandial plasma ammonia
+- postprandial orotic aciduria
+- nonspecific but almost constant findings include:
+  - \uparrow  serum LDH
+  - \uparrow ferritin
+  - \uparrow triglycerides
+- due to secondary haemophagocytic lymphohistiocytosis (HLH)
+
+** Treatment
+- principal aims of the treatment are to:
+  - prevent hyperammonaemia
+  - provide a sufficient supply of protein and essential amino acids
+    for normal metabolism and growth
+
+- Protein tolerance can be improved with supplementary low dose
+  citrulline
+- citrulline is readily absorbed and partially converted to arginine
+  and ornithine which improves the function of the urea cycle
+- carnitine supplementation for patients with carnitine deficiency
+
+* Hartnup Disease
+** Clinical presentation
+- classical symptoms of Hartnup disease are pellagra-like dermatitis,
+  intermittent ataxia and neuropsychiatric abnormalities
+  - resembles nutritional niacin deficiency
+- NBS identified based on ???
+  - most remain asymptomatic
+
+** Metabolic derangement
+- defective sodium-dependent and chloride-independent neutral amino
+  acid transporter, B(0)AT1 in the apical brush border membrane of
+  renal proximal tubule and intestinal epithelium
+- impair intestinal uptake and tubular reabsorption of all the neutral
+  amino acids
+  - alanine, serine, threonine,valine, leucine, isoleucine,
+    phenylalanine, tyrosine, tryptophan, histidine and citrulline
+  - and monoamino-dicarboxylic amides asparagine and glutamine
+- affected amino acids are readily absorbed in the intestine as short
+  oligopeptides but not as free amino acids
+  - excreted in 5- to 20-fold excess into the urine and feces
+    - \therefore low plasma concentrations
+- tryptophan deficiency \to development of clinical symptoms such as
+  neuropsychiatric signs
+  - precursor of the neurotransmitter serotonin
+  - reduced availability of nicotinic acid, the precursor of NAD(P)H
+
+** Genetics
+- AR, SLC6A19
+
+** Diagnostic tests
+- \uparrow urine neutral amino acids
+- normal or low-normal concentrations in plasma 
+
+** Treatment
+- niacin
+- adequate protein for tryptophan requirements
+
+

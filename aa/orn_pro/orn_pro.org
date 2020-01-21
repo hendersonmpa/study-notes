@@ -43,7 +43,7 @@
 
 #+CAPTION[]:Ornithine and proline metabolism
 #+NAME: fig:orn_pro
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+ATTR_LaTeX: :width 1\textwidth
 [[file:./orn_pro/figures/orn_pro.png]]
 
 #+CAPTION[]:Differfential diagnosis of ornthine and proline disorders

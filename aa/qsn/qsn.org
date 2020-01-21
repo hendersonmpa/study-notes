@@ -1,0 +1,86 @@
+#+TITLE: Gln, Ser, Asn
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+* Glutamine Metabolism
+- Gln is the most abundant amino acid
+- synthesized /de novo/ from glutamate and ammonia by glutamine synthetase
+  - the only way to produce glutamine in the human body
+  - thereis no net absorption from the intestine
+- Gln plays a pivotal role in metabolism as constituent, precursor,
+  and amino moiety donor for many proteins, purines and pyrimidines,
+  nicotinamide adenine dinucleotide, adenosine-monophosphate, amino
+  acids and glucose
+
+** Disorders
+- one disorder of glutamine synthesis due to glutamine synthetase deficiency
+  - reported in only three patients
+  - presented as newborns with epileptic encephalopathy
+  - the outcome is very poor
+  - not known if early start of glutamine therapy improves clinical
+    prognosis
+* Serine Metabolism
+- synthesized /de novo/ from glycolytic intermediate
+  3-phosphoglycerate
+  - can also be synthesized from glycine by serine
+    hydroxymethyltransferase
+- a precursor of a number of compounds that play and essential role in
+  neuronal development and function:
+  - D-serine
+  - glycine
+  - cysteine
+  - serine phospholipids
+  - sphingomyelins
+  - cerebrosides (7 Chapter 38) 
+- must be synthesized within the brain because of poor permeability
+  across the BBB
+  - synthesis is confined to astrocytes
+  - shuttle to neuronal cells is performed by a dedicated neutral amino
+    acid transporter ASCT1
+- a major source of THF and of other one-carbon donors that are
+  required for the synthesis of purines and thymidine
+
+** Disorders
+- four disorders of serine metabolism are known
+
+- three are in biosynthesis:
+  - 3-phosphoglycerate dehydrogenase deficiency
+    - most have severe infantile phenotype called Neu-Laxova syndrome
+      - congenital microcephaly, intellectual disability and
+        intractable seizures
+      - perinatal lethality
+    - treatment is oral L-serine
+    - supplemented with glycine if unsatisfactory clinical response
+  - phosphoserine aminotransferase deficiency
+    - Neu-Laxova syndrome or milder phenotype
+    - treated with oral serine and glycine
+  - phosphoserine phosphatase deficiency
+    - Neu-Laxova syndrome or milder phenotype
+
+- In patients with the severe, infantile form, the treatment is oral
+L-serine, supplemented with glycine in case of unsatisfactory
+clinical response. Phosphoserine aminotransferase deficiency
+
+* Asparagine
+- synthesized /de novo/ by asparagine synthetase (ASNS)
+  - catalyzes transfer of ammonia from glutamine to aspartic acid via
+    a \beta-aspartyl-AMP intermediate
+- must be synthesized within the brain because of poor permeability
+  across the BBB
+  - \therefore asparagine synthesis is essential for the development
+    and function of the brain but not of other organs
+- ASNS is expressed at low levels in most tissues except the brain
+  - there is a brain-specific splice variant
+- a precursor of the glucogenic amino acid L-aspartate,
+  - a precursor of the neurotransmitter D-aspartate
+- important role in ammonia detoxification and in asparagine-linked
+  protein glycosylation
+
+** Disorders
+- One disorder of asparagine synthesis has been reported, due to
+  asparagine synthetase deficiency
+  - severe psychomotor/intellectual disability, progressive
+    microcephaly, limb hypertonia, hyperreflexia and mostly also
+    intractable epilepsy
+  - death in first year
+  - no treatment due to poor BBB permeability for Asp
