@@ -21,7 +21,7 @@
   - an elevated sweat chloride.
     - quantitative pilocarpine iontophoresis sweat chloride values (>60 mmol/L in infants age > 6 months) 
 ** Genetic Counseling
-- AR
+- AR , CFTR
 - At conception, each sib of an affected individual with CF have:
   - a 25% chance of being affected
   - a 50% chance of being an asymptomatic carrier
@@ -49,7 +49,7 @@
   FGFR3 can establish the diagnosis.
 
 ** Genetic Counseling
-- AD
+- AD, FGFR3
 - ~80% of individuals with achondroplasia have parents with average
   stature and have achondroplasia as the result of a /de novo/
   pathogenic variant.
@@ -96,7 +96,7 @@
       - Reduced-penetrance HD-causing alleles :: 36-39 CAG 
       - Full-penetrance HD-causing alleles :: \ge 40 CAG 
 ** Genetic Counseling
-- AD
+- AD, HTT
 - Offspring of an individual with a pathogenic variant have a 50% chance of inheriting the disease-causing allele.
 - Predictive testing in asymptomatic adults at risk is available but requires careful thought (including pre- and post-test genetic counseling) as there is currently no cure for the disorder.
   - asymptomatic individuals at risk may be eligible to participate in clinical trials.
@@ -171,7 +171,7 @@
 
 Rare alleles of variant structure. In contrast to the alleles discussed above in which the GAA trinucleotides are perfect repeats, in rare pathogenic alleles the GAA repeats are not in perfect tandem order but rather are interrupted by other nucleotides. Such "interrupted FXN alleles" differ in length and types of nucleotides in the interruption, but they are typically close to the 3' end of the GAA repeat tract (see Molecular Genetics).
 ** Genetic Counseling
-- autosomal recessive
+- AR, FXN
 - Each sib has a 25% chance of being affected
   - 50% chance of being an asymptomatic carrier
   - 25% chance of having no pathogenic variant.
@@ -211,7 +211,7 @@ Rare alleles of variant structure. In contrast to the alleles discussed above in
   - Full-penetrance alleles ::  \ge 50 CTG repeats
 
 ** Genetic Counseling
-- autosomal dominant
+- AD, DMPK
 - Offspring of an affected individual have a 50% chance of inheriting the expanded allele.
 - Pathogenic alleles may expand in length during gametogenesis
   - \to transmission of longer trinucleotide repeat alleles
@@ -257,7 +257,7 @@ Rare alleles of variant structure. In contrast to the alleles discussed above in
   - as high as 50% for probands with an ID or a pathogenic variant of UBE3A.
 - Members of the mother's extended family are also at increased risk
   when an ID or a UBE3A pathogenic variant is present.
-- Cytogenetically visible chromosome rearrangements may be inherited,usually /de novo/.
+- Cytogepnetically visible chromosome rearrangements may be inherited,usually /de novo/.
 - Prenatal testing is possible when the underlying genetic mechanism
   is a deletion, UPD, an ID, a UBE3A pathogenic variant, or a
   chromosome rearrangement.

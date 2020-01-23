@@ -2,16 +2,134 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
+* Cri du chat syndrome
+** Clinical Characteristics
+- AKA 5p- (5p minus) syndrome
+- infants often have a high-pitched cry that sounds like that of a
+  cat
+- characterized by intellectual disability and delayed development,
+  microcephaly, low birth weight, hypotonia
+- distinctive facial features, including widely set eyes
+  (hypertelorism), low-set ears, a small jaw, and a rounded face.
+- some born with a heart defect
 
-* TODO Cri du chat syndrome
-* TODO Pallister-Killian syndrome
+** Diagnostic Testing
+- CMA, karyotype for a 5p deletion
+- size of the deletion varies among affected individuals
+- larger deletions \to more severe intellectual disability and
+  developmental delay than smaller deletions
+
+** Genetic Counseling
+- most cases are not inherited, result of a /de novo/ deletion
+- ~ 10 percent of people with cri-du-chat syndrome inherit the
+  chromosome abnormality from an unaffected parent with a balanced translocation
+* Pallister-Killian syndrome
+** Clinical Characteristics
+- hypotonia in infancy and early childhood
+- intellectual disability, distinctive facial features, sparse hair,
+  areas of unusual pigmentation, and other birth defects
+
+** Diagnostic Testing
+- CMA, karyotype for mosaic isochromosome 12p (i(12p))
+
+** Genetic Counseling
+- not inherited
+
 * TODO Triploidy
 * TODO Trisomy 13
 * TODO Trisomy 18
 * TODO Trisomy 21
-* TODO Klinefelter syndrome
-* TODO Fanconi anemia
-* TODO Ataxia-telangiectasia
-* TODO Williams syndrome
-* TODO 22q11 deletion syndrome
+* Klinefelter syndrome
+** Clinical Characteristics
+- boys and men, affects physical and intellectual development
+- taller than average and infertile
+- signs and symptoms of Klinefelter syndrome vary among boys and men with this condition
+- reduced testosterone 
+** Diagnostic Testing
+- 47,XXY karyotype
+- mosaic Klinefelter syndrome 46,XY/47,XXY
 
+** Genetic Counseling
+- not inherited
+* Fanconi anemia
+** Clinical Characteristics
+- physical abnormalities, bone marrow failure, and increased risk for
+  malignancy
+- physical abnormalities, present in approximately 75% of affected individuals, include one or more of the following:
+  - short stature, abnormal skin pigmentation, skeletal malformations
+    of the upper and lower limbs, microcephaly, and ophthalmic and
+    genitourinary tract anomalies
+
+** Diagnostic Testing
+- established in a proband with increased chromosome breakage and
+  radial forms on cytogenetic testing of lymphocytes with
+  diepoxybutane (DEB) and mitomycin C (MMC)
+
+- diagnosis is confirmed by identification of one of the following:
+  - biallelic pathogenic variants in one of the 19 genes known to
+    cause autosomal recessive FA
+  - heterozygous pathogenic variant in RAD51, known to cause autosomal dominant FA
+  - hemizygous pathogenic variant in FANCB, known to cause X-linked FA
+
+** Genetic Counseling
+- AR, AD (RAD51) or X-linked (FANCB)
+
+* Ataxia-telangiectasia
+** Clinical Characteristics
+- progressive cerebellar ataxia beginning between ages one and four
+  years, oculomotor apraxia, choreoathetosis, telangiectasias of the
+  conjunctivae, immunodeficiency, frequent infections, and an
+  increased risk for malignancy, particularly leukemia and lymphoma
+** Diagnostic Testing
+- diagnosis is established by the presence of biallelic (homozygous or
+  compound heterozygous) ATM pathogenic variants or (when available)
+  by immunoblotting to test for absent or reduced ATM protein
+
+** Genetic Counseling
+- AR, ATM
+* Williams syndrome
+** Clinical Characteristics
+- cardiovascular disease :elastin arteriopathy, peripheral pulmonary
+  stenosis, supravalvar aortic stenosis, hypertension
+- distinctive facies, connective tissue abnormalities, intellectual
+  disability (usually mild)
+- a specific cognitive profile, unique personality characteristics
+- growth abnormalities, and endocrine abnormalities (hypercalcemia,
+  hypercalciuria, hypothyroidism, and early puberty)
+- hypotonia and hyperextensible joints can result in delayed
+  attainment of motor milestones
+
+** Diagnostic Testing
+- clinical diagnostic criteria
+- diagnosis requires detection of a recurrent 7q11.23 contiguous gene deletion of the Williams-Beuren syndrome critical region (WBSCR) that encompasses the elastin gene (ELN)
+  - can be detected using FISH and/or deletion/duplication testing
+** Genetic Counseling
+- AD
+- most /de novo/
+
+* 22q11 deletion syndrome
+** Clinical Characteristics
+- a contiguous gene deletion syndrome
+- included phenotypes:
+  - DiGeorge syndrome
+  - Velocardiofacial syndrome
+  - Conotruncal anomaly face syndrome
+  - Autosomal dominant Opitz G/BBB syndrome
+  - Sedlackova syndrome
+  - Cayler cardiofacial syndrome
+
+- congenital heart disease (74%)
+  - tetralogy of Fallot, interrupted aortic arch, ventricular septal defect, and truncus arteriosus
+- palatal abnormalities (69%)
+  - velopharyngeal incompetence, submucosal cleft palate, bifid uvula, and cleft palate
+- facial features (majority of northern European)
+- learning difficulties (70%-90%)
+- immune deficiency (77%)
+
+** Diagnostic Testing
+- submicroscopic deletion of chromosome 22 by FISH, MLPA, CMA
+
+** Genetic Counseling
+- AD
+- ~ 93% /de novo/ deletion of 22q11.2
+- ~ 7% inherited the 22q11.2 deletion

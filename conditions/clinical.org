@@ -6,8 +6,37 @@
 * TODO Osteogenesis Imperfecta
 * TODO Long QT syndrome
 * TODO Marfan syndrome
-* TODO Neurofibromatosis type I
-* TODO Neurofibromatosis type II
+* Neurofibromatosis type I
+** Clinical Characteristics
+- characterized by multiple café au lait spots, axillary and inguinal freckling, multiple cutaneous neurofibromas, iris Lisch nodules, and choroidal freckling
+- ~ 50% have plexiform neurofibromas, but most are internal and not suspected clinically
+- learning disabilities in ~ 50%
+- Less common manifestations include optic nerve and other central
+  nervous system gliomas, malignant peripheral nerve sheath tumors,
+  scoliosis, tibial dysplasia, and vasculopathy
+** Diagnostic Testing
+- usually based on clinical findings
+- heterozygous pathogenic variants in NF1 are responsible for neurofibromatosis 1
+- molecular genetic testing of NF1 is rarely needed for diagnosis
+** Genetic Counseling
+- AD, NF1
+- 50% due to /de novo/ NF1 pathogenic variant
+* Neurofibromatosis type II
+** Clinical Characteristics
+- bilateral vestibular schwannomas with associated symptoms of tinnitus, hearing loss, and balance dysfunction
+- average age of onset is 18 to 24 years
+- almost all affected individuals develop bilateral vestibular
+  schwannomas by age 30 years
+- NF2 is considered an adult-onset disease
+** Diagnostic Testing
+-  consensus diagnostic criteria and/or by identification of a
+  heterozygous pathogenic variant in NF2 on molecular genetic testing
+
+** Genetic Counseling
+- AD, NF2
+- 50% with affected parent
+- 50% due to /de novo/ NF2 pathogenic variant
+- mosaic also possible
 * TODO Smith-Lemli-Opitz syndrome
 * TODO Noonan syndrome
 * TODO Charge syndrome
@@ -47,7 +76,7 @@
 - a heterozygous F8 pathogenic variant in a symptomatic female
   confirms the diagnosis.
 ** Genetic Counseling
-- X-linked
+- X-linked, F8
 - risk to sibs of a proband depends on the carrier status of the mother.
 - Carrier females have a 50% chance of transmitting the F8 pathogenic
   variant in each pregnancy:
@@ -70,6 +99,7 @@
 - heterozygous F9 pathogenic variant on in a symptomatic female
   confirms the diagnosis.
 ** Genetic Counseling
+- X-linked, F9
 - same as Hemophilia A (section [[Hemophilia A]])
 * Hemochromatosis
 ** Clinical Characteristics
@@ -87,7 +117,7 @@
 ** Diagnostic Testing
 - biallelic HFE pathogenic variants on molecular genetic testing.
 ** Genetic Counseling
-- AR
+- AR, HFE
   - Risk to sibs :: when both parents of a person with hemochromatosis
                     are heterozygous for an HFE p.Cys282Tyr variant,
                     the risk to sibs of inheriting two HFE p.Cys282Tyr
