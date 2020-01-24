@@ -198,3 +198,4 @@ copies of every chromosome (40%)
 - AD
 - ~ 93% /de novo/ deletion of 22q11.2
 - ~ 7% inherited the 22q11.2 deletion
+
