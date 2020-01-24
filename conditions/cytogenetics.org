@@ -57,9 +57,53 @@ copies of every chromosome (40%)
 - RAD, karyotype
 ** Genetic Counseling
 - not inherited
-* TODO Trisomy 13
-* TODO Trisomy 18
-* TODO Trisomy 21
+* Trisomy 13
+- AKA Patau syndrome
+** Clinical Characteristics
+- severe intellectual disability and physical abnormalities in many parts of the body
+- heart defects, brain or spinal cord abnormalities
+- very small or poorly developed eyes (microphthalmia)
+- extra fingers or toes, cleft lip \pm cleft palate, hypotonia
+- often die within their first days or weeks of life
+
+** Diagnostic Testing
+- CMD, RAD, karyotype
+
+** Genetic Counseling
+- 1 in 16,000 newborns
+- women of any age can have a child with trisomy 13
+  - increases with maternal age
+* Trisomy 18
+- AKA Edwards syndrome
+** Clinical Characteristics
+- IUGR and LBW
+- heart defects and abnormalities of other organs that develop before birth
+- small, abnormally shaped head; a small jaw and mouth; and clenched fists with overlapping fingers
+- often die before birth or within their first month
+- 5-10% live past their first year, and these children often have
+  severe intellectual disability
+
+** Diagnostic Testing
+- CMD, RAD, karyotype
+
+** Genetic Counseling
+- 1 in 5000 live-born infants
+- women of any age can have a child with trisomy 18
+  - increases with maternal age 
+
+* Trisomy 21
+- AKA Down syndrome
+** Clinical Characteristics
+- intellectual disability, a characteristic facial appearance, hypotonia in infancy
+  - intellectual disability is usually mild to moderate
+- ~50% have heart defects
+** Diagnostic Testing
+- CMD, RAD, karyotype
+
+** Genetic Counseling
+- 1 in 800 newborns
+- women of any age can have a child with trisomy 21
+  - increases with maternal age 
 * Klinefelter syndrome
 ** Clinical Characteristics
 - boys and men, affects physical and intellectual development
