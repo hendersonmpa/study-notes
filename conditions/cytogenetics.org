@@ -35,7 +35,28 @@
 ** Genetic Counseling
 - not inherited
 
-* TODO Triploidy
+* Triploidy
+** Clinical Characteristics
+Triploidy can result from either two sperm fertilizing one egg
+(polyspermy) (60%) or from one sperm fertilizing an egg with two
+copies of every chromosome (40%)
+
+- Many organ systems are affected by triploidy, but the central
+  nervous system and skeleton are the most severely affected:
+  - holoprosencephaly, hydrocephalus, ventriculomegaly, Arnold–Chiari
+    malformation, agenesis of the corpus callosum and neural tube
+    defects
+- Skeletal manifestations include cleft lip/palate, hypertelorism,
+  club foot and syndactyly of fingers three and four
+- Congenital heart defects, hydronephrosis, omphalocele and
+  meningocele (spina bifida) are also common
+- IUGR
+
+** Diagnostic Testing
+- \uparrow AFP
+- RAD, karyotype
+** Genetic Counseling
+- not inherited
 * TODO Trisomy 13
 * TODO Trisomy 18
 * TODO Trisomy 21
