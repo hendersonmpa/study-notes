@@ -52,12 +52,12 @@
 [[file:./orn_pro/figures/op_diff.png]]
 
 * OAT Deficiency
-** Clinical presentation
+** Clinical Presentation
 - initial symptoms myopia, night blindness in early-mid childhood
 - fundoscopic appearance of the chorioretinal atrophy in *gyrate atrophy* is highly specific
 - chorioretinal atrophy is progressive \to blindness by 45-65 years
 
-** Metabolic derangement
+** Metabolic Derangement
 - OAT is PLP dependent
   - there is a PLP responsive variant
 *** Neonatal period
@@ -81,7 +81,7 @@
 ** Genetics
 - AR, OAT
 
-** Diagnostic tests
+** Diagnostic Tests
 - most prominent biochemical abnormality in those ingesting an
   unrestricted diet:
   - \Uparrow 5- to 20-fold plasma ornithine
@@ -101,7 +101,7 @@
 
 * HHH Syndrome
 - Hyperornithinaemia, Hyperammonaemia and Homocitrullinuria Syndrome
-** Clinical presentation
+** Clinical Presentation
 - broad spectrum, with some related to episodic hyperammonemia
 - intolerance to protein feeding,vomiting, seizures and developmental
   delay from infancy are common
@@ -111,7 +111,7 @@
 - can be chronic and progressive
   - food aversion, central and peripheral neurological dysfunction
 
-** Metabolic derangement
+** Metabolic Derangement
 - HHH syndrome is a disorder of metabolic compartmentation, with
   impaired importation of ornithine into the mitochondria
 - results in deficiency of OTC and OAT activity with:
@@ -126,7 +126,7 @@
 - AR, ORNT1 (aka SLC24A15)
 - more frequent in Canada, as a result of a founder mutation in Quebec
 
-** Diagnostic tests
+** Diagnostic Tests
 - can be differentiated from other hyperammonaemic syndromes by laboratory findings
 - \Uparrow plasma ornithine
 - \Uparrow plasma ammonaemia
@@ -152,12 +152,11 @@
 
 * P5CS  Deficiency
 - \Delta1-Pyrroline-5-Carboxylate Synthetase Deficiency
-
-** Clinical presentation
+** Clinical Presentation
 - central and peripheral neurological
 - see figure [[fig:diff]] for details
 
-** Metabolic derangement
+** Metabolic Derangement
 - pattern of metabolic abnormalities consistent with impaired proline
   and ornithine synthesis due to deficiency of P5CS
   - catalyses an essential step in synthesis of proline, ornithine and
@@ -168,7 +167,7 @@
 ** Genetics 
 - AR/AD, ALDH18A1
 
-** Diagnostic tests
+** Diagnostic Tests
 - abnormal metabolite profile is corrected in the fed state
   - \therefore the metabolic phenotype of P5CS deficiency is easily
     missed
@@ -184,12 +183,12 @@
 
 * Proline Oxidase Deficiency
 - Hyperprolinaemia Type I
-** Clinical presentation
+** Clinical Presentation
 - well tolerated in some individuals
 - in others may contribute to risk for schizophrenia or other
   psychiatric, cognitive or behavioural abnormalities
 
-** Metabolic derangement
+** Metabolic Derangement
 - deficiency of proline oxidase a mitochondrial inner-membrane enzyme
 \ce{proline ->[POX] P5C}
 ** Genetics
@@ -197,7 +196,7 @@
 - aps to 22q11, in the region deleted in the velocardiofacial
   syndrome/DiGeorge syndrome
 
-** Diagnostic tests
+** Diagnostic Tests
 - \Uparrow plasma proline
   - usually \le 2000 uM (normal range 100–450 uM)
 - \uparrow urine and cerebrospinal fluid (CSF) proline
@@ -212,10 +211,10 @@
 * P5CDH
 - \Delta1-Pyrroline-5-Carboxylate Dehydrogenase Deficiency
 - Hyperprolinaemia Type II
-** Clinical presentation
+** Clinical Presentation
 - relatively benign disorder
 - predisposition to recurrent seizures is highly likely
-** Metabolic derangement
+** Metabolic Derangement
 - deficiency of pyrroline 5-carboxylate (P5C) dehydrogenase
 - a mitochondrial inner-membrane enzyme involved in the conversion of
   proline into glutamate
@@ -225,11 +224,10 @@
 - the seizures in this disorder may be due at least in part to vitamin
   B_6 inactivation
 
-
 ** Genetics
 - AR, ALDH4A1
 
-** Diagnostic tests
+** Diagnostic Tests
 - \Uparrow plasma proline
   - usually \gt 2000 uM (normal range 100–450 uM)
 - \uparrow urine and cerebrospinal fluid (CSF) proline
@@ -239,11 +237,11 @@
 - seizures are B_6 responsive
 
 * Prolidase Deficiency
-** Clinical presentation
+** Clinical Presentation
 - skin lesions
 - immunological abnormalities
 - see figure [[fig:diff]] for details
-** Metabolic derangement
+** Metabolic Derangement
 - massive hyperexcretion of a large number of imidodipeptides
   - dipeptides with an N-terminal proline or hydroxyproline
   - particularly glycylproline
@@ -251,7 +249,7 @@
   peptidase D)
 ** Genetics
 - AR, PEPD
-** Diagnostic tests
+** Diagnostic Tests
 - hyperimidodipeptiduria
 - low or absent prolidase activity in haemolysates or in homogenates
   of leukocytes or fibroblasts confirms the diagnosis

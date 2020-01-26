@@ -44,10 +44,9 @@
    - incidence has fallen dramatically in the last 4 decades, with the
      reduction in the protein content of newborn formula
 
-
 * Tyrosinemia Type I
 - Hepatorenal Tyrosinemia
-** Clinical presentation
+** Clinical Presentation
 - very variable, presents at any time from the neonatal period to adulthood
   - acute :: before 6 months of age with acute liver failure
   - subacute :: between 6 months and 1 year of age with liver disease,
@@ -65,7 +64,7 @@
   - painful paresthesias and autonomic signs that may progress to
     paralysis
 
-** Metabolic derangement
+** Metabolic Derangement
 - deficiency of the enzyme fumarylacetoacetate hydrolase (FAH)
 \ce{fumarylacetoacetate ->[FAH] fumarate + acetoacetate}
 - mainly expressed in the liver and kidney
@@ -119,17 +118,16 @@
   - normal diet
   - mortality and life long immunosuppressive therapy
 
- 
 * Tyrosinemia Type II
 - Oculocutaneous Tyrosinemia
-** Clinical presentation
+** Clinical Presentation
 - any combination of: 
   - ocular lesions
   - skin lesions
   - neurological complications
 - usually presents in infancy but can be any age
 
-** Metabolic derangement
+** Metabolic Derangement
 - hepatic cytosolic tyrosine aminotransferase
 \ce{tyrosine ->[TAT] 4-hydroxyphenylpyruvate}
   - \uparrow tyrosine in CSF and serum
@@ -139,7 +137,7 @@
 ** Genetics
 - AR, TAT
 
-** Diagnostic tests
+** Diagnostic Tests
 - \Uparrow plasma tyrosine > 1200 umol/L
   - if lower consider Type III
 - Urine organic acids
@@ -153,29 +151,28 @@
 - tyrosine and phenylalanine restricted diet
 
 * Tyrosinemia Type III
-** Clinical presentation
+** Clinical Presentation
 - very rare, 13 cases described
 - most common long-term complication is intellectual impairment
-** Metabolic derangement
+** Metabolic Derangement
 - 4-hydroxyphenylpyruvate dioxygenase
 \ce{4-hydroxyphenylpyruvate ->[HPD] homogentisate}
 - \uparrow plasma tyrosine
 - \uparrow urine 4-hydroxyphenylpyruvate, 4-hydroxyphenyllactate and 4-hydroxyphenylacetate
 ** Genetics 
 - AR, HPD
-** Diagnostic tests
+** Diagnostic Tests
 - \uparrow plasma tyrosine 300-1300 umol/L
 - \uparrow urine 4-hydroxyphenylpyruvate, 4-hydroxyphenyllactate and 4-hydroxyphenylacetate
 
-
 * Alkaptonuria
-** Clinical presentation
+** Clinical Presentation
 - clinical symptoms first appear in adulthood
   - some cases diagnosed in infancy due to darkening of urine when
     exposed to air
 - most prominent symptoms relate to joint and connective tissue involvement;
 - significant cardiac disease and urolithiasis may be detected in later years
-** Metabolic derangement
+** Metabolic Derangement
 - first identified IEM in 1902 by Garrod
 - homogentisate dioxygenase expressed mainly in the liver and the
   kidneys
@@ -185,7 +182,7 @@
 ** Genetics
 - AR, HGD
 - 1:250000-1:1000000
-** Diagnostic tests
+** Diagnostic Tests
 - Alkalinisation of the urine \to immediate dark brown colouration
 - \uparrow urine homogentisate \to positive test for reducing substances
 - \uparrow UOA homogentisic acid
@@ -196,13 +193,13 @@
   - no demonstrable effects on clinical symptoms
 
 * Hawkinsinuria
-** Clinical presentation
+** Clinical Presentation
 - only been described in a few families
 - FTT and metabolic acidosis in infancy
 - early weaning from breastfeeding seems to precipitate the disease
   - may be asymptomatic in breastfed infants
 
-** Metabolic derangement
+** Metabolic Derangement
 - abnormal metabolites produced in hawkinsinuria
   - (hawkinsin (2-cysteinyl-1,4-dihydroxycyclohexenylacetate)
   - 4-hydroxycycloxylacetate)
@@ -219,7 +216,7 @@
 - AR, HPD
 - mutations that lead to a retention of partial HPD function,
   - production of hawkinsin and 4-hydroxycyclohexylacetate
-** Diagnostic tests
+** Diagnostic Tests
 - UAO hawkinsin or 4-hydroxycyclohexylacetate is diagnostic
 - may be moderate tyrosinaemia, increased urinary
   4-hydroxyphenylpyruvate and 4-hydroxyphenyllacate, metabolic

@@ -89,7 +89,7 @@
   brain injury
   - usually associated with an upper respiratory and/or
     gastrointestinal infection
-** Metabolic derangement
+** Metabolic Derangement
 - deficiency of glutaryl-CoA dehydrogenase a mitochondrial
   FAD-requiring enzyme
 - catalyses the dehydrogenation of glutaryl-CoA and subsequent
@@ -145,12 +145,12 @@
     mixtures aims to minimise the risk of malnutrition
 
 * L or D 2-Hydroxyglutaric Aciduria
-** Clinical presentation
+** Clinical Presentation
 - L2 :: progressive neurological disease
   - IQ in teens \sim 40-50
 - D2 :: more variable than L2
 
-** Metabolic derangement
+** Metabolic Derangement
 - L2 :: FAD-linked 2-hydroxyglutarate dehydrogenase
   - mitochondrial enzyme converts L-2-hydroxyglutarate to
     2-oxoglutarate
@@ -175,11 +175,11 @@
 
 * N-Acetylaspartic Aciduria
 - Canavan disease
-** Clinical presentation
+** Clinical Presentation
 - 2-4 months w progressive neurological disease
 - macrocephaly by 1 year
 
-** Metabolic derangement
+** Metabolic Derangement
 - aspartoacylase deficiency
 \ce{N-acetyl-L-aspartate + H2O <=>[ASPA] carboxylate + L-aspartate}
 - in the brain, aspartoacylase is located in oligodendrocytes

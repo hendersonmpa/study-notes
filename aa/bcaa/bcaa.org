@@ -2,3 +2,49 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
+* Introduction
+- the three essential BCAAs:leucine, isoleucine and valine , are
+  initially catabolised by a common pathway
+- the first reaction, occurs primarily in muscle
+  - reversible transamination to 2-oxo- (or keto) acids
+  - followed by oxidative decarboxylation to coenzyme A (CoA)
+    derivatives by branched-chain oxo- (or keto) acid dehydrogenase
+    (BCKD)
+- the BCAA degradation pathways then diverge
+- Leu \to acetoacetate and acetyl-CoA \to TCA cycle
+- Ile \to acetyl-CoA and propionyl-CoA
+  - propionyl-CoA is converted to succinyl-CoA \to TCA cycle
+- Val \to propionyl-CoA
+- Met, FFA w odd number of carbons, cholesterol side chains, gut
+  bacteria \to propionyl-CoA
+
+#+CAPTION[]:BCAA catabolism
+#+NAME: fig:bcaa
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./bcaa/figures/bcaa.png]]
+
+- branched-chain organic acidurias or organic acidaemias are a group
+  of disorders that result from an abnormality of specific enzymes
+  involving the catabolism of BCAAs
+- most common: MSUD, IVA, PA, and MMA can present clinically as:
+
+
+* MSUD, IVA, PA and MMA
+** Clinical presentation
+- have many clinical and biochemical symptoms in common
+- there are three main clinical presentations:
+  1) a severe neonatal-onset form of metabolic distress
+  2) an acute and intermittent late-onset form
+  3) a chronic progressive form presenting as hypotonia, failure to
+     thrive, and developmental delay
+- NBS has identified asymptomatic forms
+
+*** Severe Neonatal Onset Form
+
+
+
+
+
+
+
+

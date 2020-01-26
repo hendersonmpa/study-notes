@@ -54,14 +54,14 @@
 [[file:./transport/figures/aatrans.png]]
 
 * Cystinuria
-** Clinical presentation
+** Clinical Presentation
 - life-long risk of urolithiasis
 - 1-2% of kidney stones in adults
 - 6-8% of kidney stones in children
 - recurrent urinary tract infections, urinary obstruction and,
   finally, renal failure are possible complications
 
-** Metabolic derangement
+** Metabolic Derangement
 - defect in the high-affinity luminal transporter for cystine and the
   dibasic amino acids at the apical side of the epithelial cells of
   the proximal renal tubule and in jejunal mucosa 
@@ -81,7 +81,7 @@
   - cystinuria associated with severe neurological findings (2p16) or
     Prader-Willi-like syndrome (2p21)
 
-** Diagnostic tests
+** Diagnostic Tests
 - cystine stones IR-spectroscopy
 - urine amino acids
   - \uparrow cystine
@@ -93,7 +93,7 @@
 - alkalinisation of urine
 
 * Lysinuric Protein Intolerance
-** Clinical presentation
+** Clinical Presentation
 - breast-fed newborns and infants are usually
   asymptomatic
 - postprandial episodes of hyperammonaemia usually emerge when formula
@@ -107,7 +107,7 @@
 - most patients develop a protective aversion to high-protein foods
   - impairs amino acid intake \to amino acid deficiencies
 
-** Metabolic derangement
+** Metabolic Derangement
 - transport of the dibasic cationic amino acids lysine , arginine and
   ornithine (system y^+L) is defective at the basolateral membrane of
   epithelial cells in the renal tubules and small intestine where
@@ -132,7 +132,7 @@
   - y^+LAT-1 the light subunit of the dibasic amino acid
     transporter
 
-** Diagnostic tests
+** Diagnostic Tests
 - diagnosis LPI is based on the combination of increased urinary
   excretion and low plasma concentrations of the cationic amino acids,
   especially lysine
@@ -159,14 +159,14 @@
 - carnitine supplementation for patients with carnitine deficiency
 
 * Hartnup Disease
-** Clinical presentation
+** Clinical Presentation
 - classical symptoms of Hartnup disease are pellagra-like dermatitis,
   intermittent ataxia and neuropsychiatric abnormalities
   - resembles nutritional niacin deficiency
 - identified by newborn urine screening
   - most remain asymptomatic
 
-** Metabolic derangement
+** Metabolic Derangement
 - defective sodium-dependent and chloride-independent neutral amino
   acid transporter, B(0)AT1 in the apical brush border membrane of
   renal proximal tubule and intestinal epithelium
@@ -187,7 +187,7 @@
 ** Genetics
 - AR, SLC6A19
 
-** Diagnostic tests
+** Diagnostic Tests
 - \uparrow urine neutral amino acids
 - normal or low-normal concentrations in plasma 
 
