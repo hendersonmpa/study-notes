@@ -3,3 +3,46 @@
 #+DATE: \today
 
 
+* Introduction
+- urea cycle is the main route for ammonia detoxification
+- defects generally cause hyperammonaemia
+- complete cycle is found only in periportal hepatocytes
+- involves two mitochondrial and three cytosolic enzymes as well as
+  the mitochondrial ornithine/citrulline antiporter and the activating
+  mitochondrial enzyme N-acetylglutamate synthase, which turns the
+  cycle on or off
+- required intermediates supplied by:
+  - carbonic anhydrase Va (CAVA) \to bicarbonate
+  - aspartate/glutamate mitochondrial antiporter citrin \to aspartate
+  - \Delta1-pyrroline-5-carboxylate synthetase (P5CS) \to /de novo/ ornithine
+
+#+CAPTION[]:Urea Cycle
+#+NAME: fig:ureacycle
+#+ATTR_LaTeX: :width 1\textwidth
+[[file:./aa/urea/figures/urea_cycle.png]]
+
+#+CAPTION[]:Diagnostic algorithm that can be applied to any hyperammonaemic patient
+#+NAME: fig:ammonia
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./aa/figures/ammonia_dd.png]]
+
+
+* Mitochondrial Urea Cycle Disorders
+- CPS, OTC and NAGs deficiency
+- exclusive role of NAGS is to produce NAG the essential activator of CPS1
+  - \therefore NAGS deficiency is clinically indistinguishable from
+    CPS1 deficiency
+- OTC deficiency is the most frequent urea cycle error (about 60% of UCD patients)
+- CPS1 and NAGS deficiency are very rare \lt 1:1,000,000 live births
+
+** Clinical Presentation
+- acute hyperammonaemia presenting as encephalopathy
+- NAGS, CPS1 and OTC catalyse the initial two steps of the UC
+  - ammonia \to carbamoyl phosphate \to citrulline
+  - \therefore produce the \Uparrow ammonia among UCDs
+
+
+
+
+
+

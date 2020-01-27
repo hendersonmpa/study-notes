@@ -63,7 +63,6 @@
 | Propyl     | \chemfig{CH_3-CH_2-CH_2-}      |
 | Butyl      | \chemfig{CH_3-CH_2-CH_2-CH_2-} |
 
-
 ** Where do they come from?
 *** Endogenous Sources
 - Originate from the intermediate metabolism of all major groups of

@@ -35,7 +35,7 @@
 * Tyrosine
 #+INCLUDE: "./tyr/tyr.org" :lines "4-"
 
-* TODO BCAA
+* BCAA
 #+INCLUDE: "./bcaa/bcaa.org" :lines "4-"
 
 * TODO Urea Cycle

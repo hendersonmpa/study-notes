@@ -1,4 +1,4 @@
-% Created 2019-11-11 Mon 09:17
+% Created 2020-01-27 Mon 15:47
 % Intended LaTeX compiler: pdflatex
 \documentclass{scrartcl}
 \usepackage[utf8]{inputenc}
@@ -48,14 +48,13 @@
 
 
 \section{Fatty Acid Oxidation}
-\label{sec:org56b6c3c}
+\label{sec:orgec1f713}
 \subsection{Introduction}
-\label{sec:org34ceded}
-\subsubsection{Fatty Acids}
-\label{sec:org34f60da}
+\label{sec:org4b3ac5a}
 \begin{itemize}
-\item usually straight aliphatic chains with a methyl group at one end
-(\(\omega\)-carbon) and a carboxyl group and the other end.
+\item fatty acids are usually straight aliphatic chains with a methyl
+group at one end (\(\omega\)-carbon) and a carboxyl group and the other
+end
 \end{itemize}
 
 \definesubmol{x}{-[1,.6]-[7,.6]}
@@ -63,18 +62,18 @@
 \definesubmol{y}{!x!x!x!x!x!x!x!x}
 \definesubmol{b}{!x!x!x!x!x!x!x!a}
 %\chemfig{H{_3}C!y-[1]C(=[1]O)-[7]O{^-}}
-\chemname{\chemfig{\omega{}!b-[1]C(=[1]O)-[7]O{^-}}}{\small stearic acid 18:0}
+\chemname{\chemfig{\omega{}!b-[1]C(=[1]O)-[7]O{^-}}}{stearic acid 18:0}
 
 \subsubsection{Fatty Acid Nomenclature}
-\label{sec:org27cc5e3}
+\label{sec:orgc275da9}
 \begin{itemize}
-\item Non-systematic historical names most commonly used.
+\item non-systematic historical names most commonly used
 \begin{description}
 \item[{Palmitic acid}] discovered in palm oil
-\item[{Stearic acid}] from the Greek word "stear", which means tallow.
+\item[{Stearic acid}] from the Greek word "stear", which means tallow
 \item[{Oleic acid}] oleic means related to, or derived from, olive oil
 \end{description}
-\item The position of a double bond is designated by the number of the carbon in the double bond that is closest to the carboxyl group
+\item position of a double bond is designated by the number of the carbon in the double bond that is closest to the carboxyl group
 \end{itemize}
 
 
@@ -83,31 +82,31 @@
 \definesubmol{d}{=[0,.6](-[7,0.25,,,draw=none]\scriptstyle\color{red}9)-[1,.6]}
 \definesubmol{e}{!x!x!x!x!d!y!y!y}
 \chemname{\chemfig{\omega{}(-[3,0.25,,,draw=none]\scriptstyle\color{red}18)!e(-[2,0.25,,,draw=none]\scriptstyle\color{red}2)-[7,.6]COOH}}{\small Oleic acid 18:1,\Delta{}$^9$}
-
 \begin{itemize}
-\item 18 carbons
-\item 1 double bond
-\item \(\Delta^{\text{9}}\), double bond between 9th and 10th carbon.
-\item Also 18:1(9)
-\item Distance from \(\omega\) methyl group, \(\omega\)-9
+\item oleic acid - 18:1,\(\Delta^{\text{9}}\)
+\begin{itemize}
+\item 18:1 - 18 carbons and 1 double bond
+\item \(\Delta^{\text{9}}\) - double bond between 9th and 10th carbon
+\begin{itemize}
+\item also 18:1(9)
+\item distance from \(\omega\) methyl group, \(\omega\)-9
+\end{itemize}
 \end{itemize}
 
-\subsubsection{Fatty Acid Chain Length}
-\label{sec:orgbfebca9}
-
+\item fatty acid chain length:
 \begin{description}
-\item[{Very long-chain}] > C20
-\item[{Long-chain}] C12-C20
-\item[{Medium-chain}] C6-C12
-\item[{Short-chain}] C4
+\item[{very long-chain}] > C20
+\item[{long-chain}] C12-C20
+\item[{medium-chain}] C6-C12
+\item[{short-chain}] C4
 \end{description}
+\end{itemize}
 
-\subsubsection{Fatty Acids as an Energy Source}
-\label{sec:org81f4802}
-
+\subsection{Mitochondrial \(\beta\)-oxidation}
+\label{sec:org39d9308}
 \begin{itemize}
-\item Long chain fatty acids released from adipose tissue triacylglycerol
-stores during periods of increased fuel demand or fasting.
+\item long chain fatty acids released from adipose tissue triacylglycerol
+stores during periods of increased fuel demand or fasting
 \item \(\downarrow\) insulin, \(\uparrow\) glucagon \(\to\) \(\uparrow\) lipolysis
 \begin{itemize}
 \item dietary lipids
@@ -115,77 +114,68 @@ stores during periods of increased fuel demand or fasting.
 \item palmitate (C16:0), oleate (C18:1, \(\Delta^{\text{9}}\)) and stearate (C18:0)
 \end{itemize}
 \item FA transported to tissue bound to albumin
-\item Energy derived from oxidation of FA to acetyl-CoA in \(\beta\)-oxidation.
-\item The acetyl-CoA is oxidized in the TCA cycle or converted to ketone bodies in the liver.
-\end{itemize}
-
-\subsection{\(\beta\)-oxidation}
-\label{sec:orga27f64e}
-\subsubsection{Overview of Mitochondrial Long-Chain Fatty Acid Metabolism}
-\label{sec:org0b773f2}
+\item energy derived from oxidation of FA to acetyl-CoA in \(\beta\)-oxidation
+\item acetyl-CoA is oxidized in the TCA cycle or converted to ketone bodies in the liver
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./fao/figures/23_1.png}
-\caption{\label{fig:org20b84bf}
+\caption{\label{fig:org74eefce}
 \(\beta\)-oxidation}
 \end{figure}
 
 \begin{itemize}
-\item Steps 
+\item steps in \(\beta\)-oxidation:
 \begin{enumerate}
-\item Membrane transport
+\item membrane transport
 \begin{itemize}
 \item FaBP
 \end{itemize}
-\item Activation
+\item activation
 \begin{itemize}
 \item CoA
-\item Carnitine
+\item carnitine
 \item CoA
 \end{itemize}
 \item \(\beta\)-oxidation spiral
 \begin{itemize}
-\item Acyl-CoA \(\to\) Ketone bodies or TCA
+\item Acyl-CoA \(\to\) ketone bodies or TCA
 \end{itemize}
 \end{enumerate}
 \end{itemize}
 
-\subsubsection{Activation of Fatty Acids}
-\label{sec:orgac92760}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./fao/figures/23_2.png}
-\caption{\label{fig:orgd1e0b85}
+\caption{\label{fig:org3c2fe70}
 FA activation}
 \end{figure}
+\end{itemize}
 
-\subsubsection{Transport of Long-Chain Fatty Acids into Mitochondria}
-\label{sec:org7985bef}
+
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./fao/figures/23_5.png}
-\caption{\label{fig:org542970e}
+\caption{\label{fig:org6bc0c62}
 Transport of Long-Chain Fatty Acids into Mitochondria}
 \end{figure}
-
+\begin{itemize}
+\item transport of long-chain fatty acids into mitochondria
 \begin{itemize}
 \item chain length specificity
-\item Organ and organelle specificity
+\item organ and organelle specificity
 \begin{itemize}
 \item Acyl-CoA synthetases
 \item Acyltransferases
 \item Acyl-CoA dehydrogenases
 \end{itemize}
 \end{itemize}
+\end{itemize}
 
-
-\subsubsection{Chain Length Specificity}
-\label{sec:orgaf60a4e}
 
 \begin{table}[htbp]
-\caption{\label{tab:orge04766c}
-Acyl-CoA Synthetases}
+\caption{\label{tab:org3897106}
+Acyl-CoA Synthetases: Chain Length Specificity}
 \centering
 \begin{tabular}{lrl}
 Enzyme & Length & location\\
@@ -199,8 +189,8 @@ acetyl & 2-4 & cyto, ?mito?\\
 
 
 \begin{table}[htbp]
-\caption{\label{tab:org33b229f}
-Acyl-CoA Dehydrogenases}
+\caption{\label{tab:orgbf903eb}
+Acyl-CoA Dehydrogenases: Chain Length Specificity}
 \centering
 \begin{tabular}{lrl}
 Enzyme & Length & location\\
@@ -214,8 +204,8 @@ SCAD & 2-4 & MM\\
 
 
 \begin{table}[htbp]
-\caption{\label{tab:org1506360}
-Other}
+\caption{\label{tab:orgf476cd2}
+Other: Chain Length Specificity}
 \centering
 \begin{tabular}{lrl}
 Enzyme & Length & comment\\
@@ -228,43 +218,39 @@ Trifunctional protein & 12-16 & \(\uparrow\) activity w \(\uparrow\) length\\
 \end{table}
 
 
-\subsubsection{\(\beta\)-oxidation of Long-Chain Fatty Acids}
-\label{sec:org07dbb28}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./fao/figures/23_7.png}
-\caption{\label{fig:orgd315245}
+\caption{\label{fig:org4b6cc69}
 \(\beta\)-oxidation of Long-Chain Fatty Acids}
 \end{figure}
 
-\subsubsection{Oxidation of Unsaturated Fatty Acids}
-\label{sec:org4ee2bc3}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.3\textwidth]{./fao/figures/23_9.png}
-\caption{\label{fig:org3641734}
+\caption{\label{fig:orga3ff557}
 Oxidation of Unsaturated Fatty Acids}
 \end{figure}
 
+\begin{itemize}
+\item oxidation of unsaturated fatty acids (Figure \ref{fig:orga3ff557})
 \begin{itemize}
 \item isomerase and reductase change location of the double bonds
 \begin{itemize}
 \item correct configuration for B-oxidation
 \end{itemize}
 \end{itemize}
-\subsubsection{Odd-Chain Length Fatty Acids}
-\label{sec:orge71a618}
+\end{itemize}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.3\textwidth]{./fao/figures/23_10.png}
-\caption{\label{fig:org779a040}
+\caption{\label{fig:org1332b31}
 Odd-Chain Length Fatty Acids}
 \end{figure}
 
-\subsubsection{Oxidation of Medium-Chain Length Fatty Acids}
-\label{sec:org2ab1c2f}
-
+\begin{itemize}
+\item oxidation of medium-chain length fatty acids
 \begin{itemize}
 \item \(\uparrow\) solubility
 \item not stored in adipose triacylglycerol
@@ -272,32 +258,28 @@ Odd-Chain Length Fatty Acids}
 \item \(\to\) mito matrix via the monocarboxylate transporter
 \item activated in the mito matrix
 \item \(\beta\)-oxidation
-
-\item There is a general consensus that short-chain and medium-chain fatty
-acids (C4 to C12) diffuse freely across plasma and mitochondrial
-membranes
-\item Butyrate is taken up by enterocytes, presumably by means of the
-monocarboxylate transporter 1 (MCT-1) and the sodium-coupled
-monocarboxylate transporter 1 (SMCT-1)
 \end{itemize}
 
-\subsubsection{Monocarboxylate Transporter 1}
-\label{sec:orgbc947d3}
-\begin{itemize}
-\item Out of 14 known mammalian MCTs, six isoforms have been functionally
+\item general consensus that short-chain and medium-chain fatty acids (C4
+to C12) diffuse freely across plasma and mitochondrial membranes
+\item butyrate is taken up by enterocyte by monocarboxylate transporter 1
+(MCT-1) and the sodium-coupled monocarboxylate transporter 1
+(SMCT-1)
+
+\item out of 14 known mammalian MCTs, six isoforms have been functionally
 characterized to transport monocarboxylates and short chain fatty
 acids (MCT1-4), thyroid hormones (MCT8-10) and aromatic amino
 acids (MCT10)
 
 \item MCT1 mediates the movement of lactate and pyruvate across cell
-membranes.
+membranes
 \begin{itemize}
 \item erythrocytes, muscle, intestine, liver and kidney
 \end{itemize}
 \end{itemize}
 
 \begin{table}[htbp]
-\caption[Monocarboxylate Transporter 1]{\label{tab:org874da6c}
+\caption[Monocarboxylate Transporter 1]{\label{tab:orga21636d}
 MCT1 deficiency (SLC16A1)}
 \centering
 \begin{tabular}{ll}
@@ -308,79 +290,77 @@ Hyperinsulinemic hypoglycemia, familial, 7\footnotemark & AD\\
 Monocarboxylate transporter 1 deficiency & AR, AD\\
  & \\
 \end{tabular}
-\end{table}\footnotetext[1]{\label{org66cc989}promoter-activating mutations in patients with hyperinsulinemic
+\end{table}\footnotetext[1]{\label{org6107846}promoter-activating mutations in patients with hyperinsulinemic
 hypoglycemia induce SLC16A1 expression in beta cells, where this
 gene is not usually transcribed, permitting pyruvate uptake and
-pyruvate-stimulated insulin release despite ensuing hypoglycemia}
+pyruvate-stimulated insulin release despite ensuing hypoglycemia
 
-\subsubsection{Regulation of \(\beta\)-oxidation}
-\label{sec:org832bd01}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./fao/figures/23_12.png}
-\caption{\label{fig:org4062d52}
+\caption{\label{fig:org024d43f}
 Regulation of \(\beta\)-oxidation}
 \end{figure}
 
+\begin{itemize}
+\item regulation of \(\beta\)-oxidation:
 \begin{enumerate}
-\item Lipolysis or gut
-\item Regulation of CPT1 activity
-\item Re-oxidation of NAD\(^{\text{+}}\) and FAD\(^{\text{2+}}\)
+\item lipolysis or gut
+\item regulation of CPT1 activity
+\item re-oxidation of NAD\(^{\text{+}}\) and FAD\(^{\text{2+}}\)
 \end{enumerate}
+\end{itemize}}
 
 \subsection{Alternative Routes of Fatty Acid Oxidation}
-\label{sec:org4bb0394}
-
+\label{sec:org39274ca}
 \subsubsection{Peroxisomal Oxidation of Fatty Acids}
-\label{sec:org964f771}
+\label{sec:org7212e29}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.6\textwidth]{./fao/figures/23_14.png}
-\caption{\label{fig:orga8b69f8}
+\caption{\label{fig:org1126d92}
 Peroxisomal Oxidation of Fatty Acids}
 \end{figure}
 
 \begin{itemize}
-\item very long chain FA C24-26 mandatory
+\item very long chain FA C24-26 require peroxisomal oxidation
 \item long chain optional
 \item carnitine not required for entry into peroxisomes
 \end{itemize}
 
-\subsubsection{First Step of Oxidation of Fatty Acids}
-\label{sec:org7e4dd35}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.3\textwidth]{./fao/figures/23_13.png}
-\caption{\label{fig:org8059819}
-First Step of Oxidation of Fatty Acids}
+\caption{\label{fig:orgd067f14}
+First Step of Peroxisomal Oxidation of Fatty Acids}
 \end{figure}
-
-\subsubsection{Long-Chain Branched-Chain Fatty Acids}
-\label{sec:org100dfd6}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.6\textwidth]{./fao/figures/ff22.png}
-\caption{\label{fig:orgf1236dd}
+\caption{\label{fig:org5d1d9db}
 Long-Chain Branched-Chain Fatty Acids}
 \end{figure}
 
 \begin{itemize}
-\item \(\alpha\)-oxidation of phytanic acid takes place in peroxisomes.
-\item Pristanic acid can then undergo \(\beta\)-oxidation.
+\item long-chain branched-chain fatty acids
 \begin{itemize}
-\item Propionyl-CoA is released when the \(\alpha\) carbon is substituted
+\item \(\alpha\)-oxidation of phytanic acid takes place in peroxisomes
+\item pristanic acid can then undergo \(\beta\)-oxidation
+\begin{itemize}
+\item propionyl-CoA is released when the \(\alpha\) carbon is substituted
+\end{itemize}
 \end{itemize}
 \end{itemize}
 
 \subsubsection{\(\omega\)-Oxidation of Fatty Acids}
-\label{sec:org8892d6a}
+\label{sec:org00c9687}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.3\textwidth]{./fao/figures/23_16.png}
-\caption{\label{fig:org13f60f5}
+\caption{\label{fig:org4a015e5}
 \(\omega\)-Oxidation of Fatty Acids}
 \end{figure}
 
@@ -394,120 +374,118 @@ Long-Chain Branched-Chain Fatty Acids}
 \item xenobiotic compounds w FA like structure
 \end{itemize}
 \section{Mitochondrial FAODs}
-\label{sec:orgda98058}
-\subsection{Introduction}
-\label{sec:orgf2ef57e}
+\label{sec:org0ef904e}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./mito_faod/figures/b_oxidation.png}
-\caption{\label{fig:orgefb076c}
+\caption{\label{fig:org9007180}
 \(\beta\)-oxidation}
 \end{figure}
 
 \subsection{Carnitine Cycle Defects}
-\label{sec:org9694f25}
+\label{sec:org836c7a7}
 \subsubsection{Carnitine Transporter Deficiency}
-\label{sec:org7dc0824}
+\label{sec:orga3362ea}
 \begin{itemize}
-\item Organic cation/carnitine transporter(OCTN2) responsible for
-carnitine uptake. 
+\item organic cation/carnitine transporter(OCTN2) responsible for
+carnitine uptake
 \begin{itemize}
-\item Analysis of carnitine transport in different tissues suggests the
-presence of heterogeneous transporters.
-\item Liver and brain have a low-affinity (Km 2–10 uM), high-capacity transporter
-\item Fibroblast, muscle, and heart cells have a high-affinity (Km 5–10 uM), low-capacity system.
+\item analysis of carnitine transport in different tissues suggests the
+presence of heterogeneous transporters
+\item liver and brain have a low-affinity (K\(_{\text{M}}\) 2–10 uM), high-capacity transporter
+\item fibroblast, muscle, and heart cells have a high-affinity (K\(_{\text{M}}\) 5–10 uM), low-capacity system
 \end{itemize}
-\item Defects \(\to\) primary carnitine deficiency with \(\uparrow\) renal loss of carnitine
+\item defects \(\to\) primary carnitine deficiency with \(\uparrow\) renal loss of carnitine
 \begin{itemize}
 \item low plasma concentrations
 \item low intracellular concentrations \(\to\) impair fatty acid oxidation
 \end{itemize}
 \begin{itemize}
-\item Precipitated by infection, fasting, pregnancy or antibiotics containing pivalate
+\item precipitated by infection, fasting, pregnancy or antibiotics containing pivalate
 \begin{itemize}
 \item pivalate is excreted bound to carnitine, \(\downarrow\) carnitine concentration
 \item isobaric with C5-carnitine
 \end{itemize}
-\item Some present in infancy with hypoglycaemia, liver dysfunction and hyperammonaemia
-\item Other children develop heart failure due to cardiomyopathy,
-thickened ventricular walls and reduced contractility.
+\item some present in infancy with hypoglycaemia, liver dysfunction and hyperammonaemia
+\item other children develop heart failure due to cardiomyopathy,
+thickened ventricular walls and reduced contractility
 \begin{itemize}
-\item often accompanied by skeletal muscle weakness.
+\item often accompanied by skeletal muscle weakness
 \end{itemize}
-\item Adults may suffer fatigue or arrhythmias
-\item Screening has shown that many subjects with low plasma carnitine remain asymptomatic
+\item adults may suffer fatigue or arrhythmias
+\item screening has shown that many subjects with low plasma carnitine remain asymptomatic
 \begin{itemize}
-\item Faroe Islands prevalence is 1:300.
+\item Faroe Islands prevalence is 1:300
 \end{itemize}
 \end{itemize}
 \end{itemize}
 
 \subsubsection{Carnitine Palmitoyltransferase I Deficiency}
-\label{sec:orgef740b4}
+\label{sec:orge50690b}
 \begin{itemize}
 \item \textbf{CPT Ia} liver and kidney
 \item \textbf{CPT Ib}  muscle and heart
 \item \textbf{CPT Ic}  brain
 
-\item Only CPT Ia deficiency has been identified.
-\item Usually present by the age of 2 years with hypoketotic hypoglycaemia,
+\item only CPT Ia deficiency has been identified
+\item usually present by the age of 2 years with hypoketotic hypoglycaemia,
 \begin{itemize}
-\item induced by fasting or illness.
+\item induced by fasting or illness
 \end{itemize}
-\item Accompanied by hepatomegaly, liver dysfunction and occasionally cholestasis
+\item accompanied by hepatomegaly, liver dysfunction and occasionally cholestasis
 \begin{itemize}
-\item may also be transient lipaemia and renal tubular acidosis.
+\item may also be transient lipaemia and renal tubular acidosis
 \end{itemize}
-\item CPT I deficiency is extremely common in the Inuit population of Canada and Greenland.
+\item CPT I deficiency is extremely common in the Inuit population of Canada and Greenland
 \begin{itemize}
 \item c.1436C>T, P479L
 \end{itemize}
-\item A few of these patients present with hypoglycaemia as neonates or young children
+\item a few of these patients present with hypoglycaemia as neonates or young children
 \begin{itemize}
-\item most remain asymptomatic.
+\item most remain asymptomatic
 \end{itemize}
 \end{itemize}
 
 \subsubsection{Carnitine Acylcarnitine Translocase Deficiency}
-\label{sec:org565f5ac}
+\label{sec:orgad87270}
 
 \begin{itemize}
-\item This rare disorder usually presents in the neonatal period, with
+\item rare disorder usually presents in the neonatal period, with
 death by 3 months of age
 \begin{itemize}
 \item severe hypoglycaemia and hyperammonaemia, cardiomyopathy,
-atrioventricular block and ventricular arrhythmias.
+atrioventricular block and ventricular arrhythmias
 \end{itemize}
-\item A few more mildly affected patients present later with hypoglycaemic
+\item few more mildly affected patients present later with hypoglycaemic
 encephalopathy
 \begin{itemize}
-\item precipitated by fasting or infections.
+\item precipitated by fasting or infections
 \end{itemize}
 \end{itemize}
 
 \subsubsection{Carnitine Palmitoyltransferase II Deficiency}
-\label{sec:orgf142887}
+\label{sec:org8df1d36}
 \begin{enumerate}
 \item Neonatal
-\label{sec:org5da31f9}
+\label{sec:org4d3e7a0}
 \begin{itemize}
-\item Severe neonatal onset CPT II deficiency is usually lethal.
-\item Patients become comatose within a few days of birth
+\item severe neonatal onset CPT II deficiency is usually lethal
+\item patients become comatose within a few days of birth
 \begin{itemize}
-\item hypoglycaemia and hyperammonaemia.
+\item hypoglycaemia and hyperammonaemia
 \item may have cardiomyopathy, arrhythmias and congenital malformations,
-principally renal cysts and neuronal migration defects.
+principally renal cysts and neuronal migration defects
 \end{itemize}
-\item There is also an intermediate form of CPT II deficiency that causes
+\item also an intermediate form of CPT II deficiency that causes
 episodes of hypoglycaemia and liver dysfunction, sometimes
 accompanied by cardiomyopathy and arrhythmias
 \end{itemize}
 
 \item Childhood
-\label{sec:org8c2fa19}
+\label{sec:org1583c17}
 \begin{itemize}
-\item Episodes may be brought on by infections or exercise
-\item In moderate or severe episodes there is myoglobinuria, \(\uparrow\) CK
+\item episodes may be brought on by infections or exercise
+\item moderate or severe episodes there is myoglobinuria, \(\uparrow\) CK
 \begin{itemize}
 \item may lead to acute renal failure
 \item CK often normalises between episodes but may remain moderately
@@ -516,10 +494,10 @@ elevated
 \end{itemize}
 
 \item Adolescence,  young adult
-\label{sec:orgf6697d2}
+\label{sec:org772b864}
 \begin{itemize}
-\item Most common form is a partial deficiency that presents with
-episodes of rhabdomyolysis.
+\item most common form is a partial deficiency that presents with
+episodes of rhabdomyolysis
 \begin{itemize}
 \item usually precipitated by prolonged exercise
 \item particularly in the cold or after fasting
@@ -528,145 +506,145 @@ episodes of rhabdomyolysis.
 \end{enumerate}
 
 \subsection{\(\beta\)-Oxidation Defects}
-\label{sec:org1426c84}
+\label{sec:org9634dad}
 \subsubsection{Very-Long-Chain Acyl-CoA Dehydrogenase Deficiency}
-\label{sec:org0b357cf}
+\label{sec:orgaae0151}
 \begin{enumerate}
 \item Early infancy
-\label{sec:org2990ae0}
+\label{sec:org3669950}
 \begin{itemize}
-\item Severely affected patients present in early infancy with
-cardiomyopathy, in addition to the problems seen in milder patients.
+\item severely affected patients present in early infancy with
+cardiomyopathy, in addition to the problems seen in milder patients
 \end{itemize}
 
 \item Childhood
-\label{sec:org0fbd8d6}
+\label{sec:org2ffb412}
 \begin{itemize}
 \item patients present in childhood with hypoglycaemia but suffer exercise
-or illness induced rhabdomyolysis or chronic weakness at a later age.
+or illness induced rhabdomyolysis or chronic weakness at a later age
 \end{itemize}
 
 \item Adolescence, Adult
-\label{sec:org8129008}
+\label{sec:orgd1780c0}
 \begin{itemize}
-\item Mildly affected patients present as adolescents or adults with
-exercise-induced rhabdomyolysis.
+\item mildly affected patients present as adolescents or adults with
+exercise-induced rhabdomyolysis
 \end{itemize}
 
 \item Screening
-\label{sec:orge19ece6}
+\label{sec:org758c8eb}
 \begin{itemize}
-\item Second most common FAOD in Europe and the USA
+\item second most common FAOD in Europe and the USA
 \item prevalence between 1:50,000 and 1:100,000
-\item Much higher than detected clinically
+\item much higher than detected clinically
 \item likely that many patients diagnosed by screening would remain
 asymptomatic without intervention
 \end{itemize}
 \end{enumerate}
 
 \subsubsection{Mitochondrial Trifunctional Protein}
-\label{sec:orgf7c4dc5}
+\label{sec:org6bc9ea9}
 \begin{itemize}
 \item MTP a hetero-octamer composed of four \(\alpha\)-subunits and four \(\beta\)-subunits;
 \item \(\alpha\)-subunit has long-chain enoyl-CoA hydratase (LCEH) and LCHAD activities
-\item \(\beta\)-subunit has long-chain ketoacyl-CoA thiolase (LCKAT) activity.
-\item Patients may have isolated LCHAD deficiency or a generalised deficiency of all three enzyme activities.
+\item \(\beta\)-subunit has long-chain ketoacyl-CoA thiolase (LCKAT) activity
+\item patients may have isolated LCHAD deficiency or a generalised deficiency of all three enzyme activities
 
-\item Mothers who are heterozygous for LCHAD or MTP deficiency have a high
+\item mothers who are heterozygous for LCHAD or MTP deficiency have a high
 risk of illness during pregnancies when carrying an affected fetus
-\item The main problems are HELLP syndrome (Haemolysis, Elevated Liver
+\item main problems are HELLP syndrome (Haemolysis, Elevated Liver
 enzymes and Low Platelets) and acute fatty liver of pregnancy
-(AFLP).
+(AFLP)
 \end{itemize}
 
 \subsubsection{Long-Chain 3-Hydroxyacyl-CoA Dehydrogenase}
-\label{sec:orgf225c02}
+\label{sec:orgf36459b}
 \begin{itemize}
-\item Isolated LCHAD deficiency usually presents acutely before 6 months of age
+\item isolated LCHAD deficiency usually presents acutely before 6 months of age
 \begin{itemize}
 \item hypoglycaemia, liver dysfunction, lactic acidosis
 \item Many have cardiomyopathy, some have hypoparathyroidism or ARDS
 \end{itemize}
-\item Other patients present with chronic symptoms
+\item other patients present with chronic symptoms
 \begin{itemize}
-\item failure to thrive, hypotonia, occasionally cholestasis or cirrhosis.
+\item failure to thrive, hypotonia, occasionally cholestasis or cirrhosis
 \end{itemize}
-\item Subsequently, episodes of rhabdomyolysis are common.
-\item Many patients develop retinopathy, may start as early as 2 years of age.
-\item Granular pigmentation followed by chorioretinal atrophy w deteriorating central vision.
-\item Some patients develop cataracts
+\item subsequently, episodes of rhabdomyolysis are common
+\item many patients develop retinopathy, may start as early as 2 years of age
+\item granular pigmentation followed by chorioretinal atrophy w deteriorating central vision
+\item some patients develop cataracts
 \end{itemize}
 
 \subsubsection{Mitochondrial Trifunctional Protein Deficiency}
-\label{sec:org2c7fec1}
+\label{sec:org394e0c1}
 \begin{itemize}
-\item Presentation of generalised MTP deficiency is heterogeneous
-\item Patients with severe deficiency present as neonates
+\item presentation of generalised MTP deficiency is heterogeneous
+\item patients with severe deficiency present as neonates
 \begin{itemize}
 \item cardiomyopathy, respiratory distress, hypoglycaemia and liver dysfunction
-\item most die within a few months, regardless of treatment.
+\item most die within a few months, regardless of treatment
 \end{itemize}
-\item Other patients resemble those with isolated LCHAD deficiency.
-\item A milder neuromyopathic phenotype:
+\item other patients resemble those with isolated LCHAD deficiency
+\item milder neuromyopathic phenotype:
 \begin{itemize}
 \item exercise induced rhabdomyolysis and progressive peripheral
 neuropathy
-\item can present at any age from infancy to adulthood.
+\item can present at any age from infancy to adulthood
 \end{itemize}
 \end{itemize}
 
 \subsubsection{Long-Chain Acyl-CoA Dehydrogenase Deficiency}
-\label{sec:org5750a3a}
+\label{sec:org2fda04c}
 \begin{itemize}
-\item No human disease-causing mutations have been identified
-\item role  in  human  metabolism  is unclear.
-\item \emph{In vitro}, the substrate specificity of LCAD overlaps with that of
-VLCAD and ACAD9.
+\item no human disease-causing mutations have been identified
+\item role  in  human  metabolism  is unclear
+\item \emph{in vitro}, the substrate specificity of LCAD overlaps with that of
+VLCAD and ACAD9
 \item enzymes have strong activity toward long-chain acyl-CoAs (C14-20)
 \item surfactant deficiency and altered lung mechanics in LCAD deficient
-mice.
+mice
 \begin{itemize}
 \item postulated that LCAD deficiency in humans may manifest primarily
 as a lung disease
 \end{itemize}
 \end{itemize}
 \subsubsection{Medium-Chain Acyl-CoA Dehydrogenase Deficiency}
-\label{sec:org2d4b95c}
+\label{sec:org262fe3e}
 \begin{itemize}
 \item most common FAOD with an incidence of approximately 1:10,000-20,000
-in Europe,USA and Australia.
-\item Before NBS, presented 4 months to 4 years
+in Europe,USA and Australia
+\item before NBS, presented 4 months to 4 years
 \begin{itemize}
 \item acute hypoglycaemic encephalopathy and liver dysfunction, not always
-\item some deteriorated rapidly and died.
+\item some deteriorated rapidly and died
 \end{itemize}
-\item Precipitated by prolonged fasting or infection with vomiting
-\item Some babies still present within 72 hours of birth before
+\item precipitated by prolonged fasting or infection with vomiting
+\item some babies still present within 72 hours of birth before
 newborn screening results are available
 \begin{itemize}
 \item hypoglycaemia and/or arrhythmias
 \item breast-fed babies are at higher risk, due to the small supply of
-breast milk at this stage.
+breast milk at this stage
 \end{itemize}
 \item MCAD deficiency only presents clinically if exposed to an
-appropriate environmental stress.
-\item Prior to NBS \textasciitilde{} 30-50\% remained asymptomatic
-\item NBS and preventative measures, hypoglycaemia is rare.
+appropriate environmental stress
+\item prior to NBS \textasciitilde{} 30-50\% remained asymptomatic
+\item NBS and preventative measures, hypoglycaemia is rare
 \begin{itemize}
 \item Patients do not develop cardiomyopathy or myopathy and few present
-initially as adults.
+initially as adults
 \end{itemize}
-\item Healty MCAD deficient children > 1 year can fast for 12-14 hours without problems.
-\item >14 hours \(\to\) non-ketotic (inappropriately low) hypoglycaemia.
-\item Shorter fasts may cause problems in infancy
-\item Encephalopathy may occur without hypoglycaemia
+\item healty MCAD deficient children > 1 year can fast for 12-14 hours without problems
+\item >14 hours \(\to\) non-ketotic (inappropriately low) hypoglycaemia
+\item shorter fasts may cause problems in infancy
+\item encephalopathy may occur without hypoglycaemia
 \begin{itemize}
-\item accumulation of FFA acids and carnitine/CoA esters.
+\item accumulation of FFA acids and carnitine/CoA esters
 \end{itemize}
 \end{itemize}
 
 \subsubsection{Short-Chain Acyl-CoA Dehydrogenase Deficiency}
-\label{sec:org940d3bb}
+\label{sec:org814b294}
 \begin{itemize}
 \item non-disease?
 \begin{itemize}
@@ -675,31 +653,33 @@ initially as adults.
 \end{itemize}
 
 \subsubsection{3-Hydroxyacyl-CoA Dehydrogenase Deficiency}
-\label{sec:orgfe087ab}
+\label{sec:org9462c50}
 \begin{itemize}
-\item This defect (HADH), previously called SCHAD deficiency, causes
-hyperinsulinaemic hypoglycaemia
-\item Role in modulation of ATP production inhibition of GDH
+\item HADH, previously called SCHAD deficiency, causes hyperinsulinaemic
+hypoglycaemia
+\item role in modulation of ATP production inhibition of GDH
 \end{itemize}
 
 \subsubsection{Acyl-CoA dehydrogenase 9}
-\label{sec:orgfc42d82}
+\label{sec:orgfe224c0}
 \begin{itemize}
-\item A complex I assembly factor with a moonlighting function in fatty
-acid oxidation deficiencies.
+\item complex I assembly factor with a moonlighting function in fatty
+acid oxidation deficiencies
 \item ACAD9 is most homologous to VLCAD
 \item recombinant ACAD9 displays activity towards long-chain acyl-CoAs,
-very similar to VLCAD.
-\item Responsible for production of C14:1-carnitine and C12-carnitine in
-VLCAD deficiency.
+very similar to VLCAD
+\item responsible for production of C14:1-carnitine and C12-carnitine in
+VLCAD deficiency
 \begin{itemize}
 \item VLCAD\(^{\text{-/-}}\) cell lines accumulate C14:1
 \item VLCAD\(^{\text{-/-}}\)/ACAD9\(^{\text{-/-}}\) cell lines accumulate C18:1
 \end{itemize}
-\item Patients with ACAD9 defects present in infancy or childhood with
-myopathy or hypertrophic cardiomyopathy and lactic acidaemia;
-\item some also have neurological problems.
-\item The myopathic patients often respond to treatment with riboflavin
+\item patients with ACAD9 defects present in infancy or childhood with
+myopathy or hypertrophic cardiomyopathy and lactic acidaemia
+\begin{itemize}
+\item some also have neurological problems
+\end{itemize}
+\item myopathic patients often respond to treatment with riboflavin
 \begin{itemize}
 \item FAD is the enzyme-bound prosthetic group of all acyl-CoA
 dehydrogenases
@@ -707,98 +687,98 @@ dehydrogenases
 \end{itemize}
 
 \subsection{Electron Transfer Defects}
-\label{sec:orgeaee8f9}
+\label{sec:orgfda4a96}
 \subsubsection{Multiple acyl-CoA dehydrogenase deficiency}
-\label{sec:org4c961cf}
+\label{sec:org0b11aef}
 \begin{itemize}
-\item AKA glutaric aciduria type II.
+\item AKA glutaric aciduria type II
 \item Electron transfer flavoprotein (ETF) and ETF ubiquinone
 oxidoreductase (ETFQO) carry electrons to the respiratory chain from
-multiple FAD-linked dehydrogenases.
-\item Includes enzymes of amino acid, choline metabolism and acyl-CoA
+multiple FAD-linked dehydrogenases
+\item includes enzymes of amino acid, choline metabolism and acyl-CoA
 dehydrogenases of \(\beta\)-oxidation
-\item Defects in ETF or ETFQO \(\to\)
+\item defects in ETF or ETFQO \(\to\)
 \item GAII less often, a result of defects of riboflavin transport or
 metabolism
-\item ETF and ETFQO deficiencies \(\to\) wide range of clinical severity.
-\item Severely affected patients present in the first few days of life
+\item ETF and ETFQO deficiencies \(\to\) wide range of clinical severity
+\item severely affected patients present in the first few days of life
 \begin{itemize}
 \item hypoglycaemia, hyperammonaemia and acidosis
-\item hypotonia and hepatomegaly.
+\item hypotonia and hepatomegaly
 \end{itemize}
-\item There is usually an odour of sweaty feet similar to that in isovaleric acidaemia.
-\item Some patients have congenital anomalies
+\item there is usually an odour of sweaty feet similar to that in isovaleric acidaemia
+\item some patients have congenital anomalies
 \begin{itemize}
-\item Large cystic kidneys, hypospadias and neuronal migration defects and facial dysmorphism
+\item large cystic kidneys, hypospadias and neuronal migration defects and facial dysmorphism
 \begin{itemize}
-\item low set ears, high forehead and midfacial hypoplasia.
+\item low set ears, high forehead and midfacial hypoplasia
 \end{itemize}
 \end{itemize}
-\item The malformations resemble those seen in CPT II deficiency but the pathogenesis is unknown.
-\item Most patients with neonatal presentation die within a week of birth
-\item Others develop cardiomyopathy and die within a few months.
-\item Less severe cases can present at any age from infancy to adulthood
+\item the malformations resemble those seen in CPT II deficiency but the pathogenesis is unknown
+\item most patients with neonatal presentation die within a week of birth
+\item others develop cardiomyopathy and die within a few months
+\item less severe cases can present at any age from infancy to adulthood
 \begin{itemize}
 \item with hypoglycaemia, liver dysfunction and weakness
 \item usually precipitated by an infection
 \end{itemize}
-\item Cardiomyopathy is common in infants.
-\item Rarer problems include stridor and leukodystrophy.
-\item Mildly affected children may have recurrent bouts of vomiting.
-\item Muscle weakness is the commonest presentation in adolescents and adults.
+\item cardiomyopathy is common in infants
+\item rarer problems include stridor and leukodystrophy
+\item mildly affected children may have recurrent bouts of vomiting
+\item muscle weakness is the commonest presentation in adolescents and adults
 \begin{itemize}
-\item Predominantly affects proximal muscles and may lead to scoliosis,
-hypoventilation or an inability to lift the chin off the chest.
+\item predominantly affects proximal muscles and may lead to scoliosis,
+hypoventilation or an inability to lift the chin off the chest
 \end{itemize}
-\item Weakness can worsen rapidly during infection or pregnancy, myoglobinuria is rare.
+\item weakness can worsen rapidly during infection or pregnancy, myoglobinuria is rare
 \begin{itemize}
-\item Many milder defects respond to riboflavin
+\item many milder defects respond to riboflavin
 \end{itemize}
 \end{itemize}
 
 \subsection{Metabolic Derangement}
-\label{sec:org130880d}
+\label{sec:orgab21edc}
 \begin{itemize}
-\item Fasting hypoglycaemia is the classic metabolic disturbance in FAODs
+\item fasting hypoglycaemia is the classic metabolic disturbance in FAODs
 \begin{itemize}
 \item primarily due to increased peripheral glucose consumption
-\item hepatic glucose output is also reduced under some conditions.
+\item hepatic glucose output is also reduced under some conditions
 \end{itemize}
-\item The hypoglycaemia is hypoketotic.
+\item the hypoglycaemia is hypoketotic
 \begin{itemize}
-\item Ketone bodies can be synthesised
+\item ketone bodies can be synthesised
 \begin{itemize}
 \item medium-or short-chain FAODs or if there is high residual enzyme activity
-\item plasma concentrations are lower than expected for hypoglycaemia or the plasma free fatty acid concentrations.
+\item plasma concentrations are lower than expected for hypoglycaemia or the plasma free fatty acid concentrations
 \end{itemize}
 \end{itemize}
-\item Hyperammonaemia occurs in some severe defects
+\item hyperammonaemia occurs in some severe defects
 \begin{itemize}
 \item with normal or low glutamine concentrations
 \item decreased acetyl-CoA production reducing the synthesis of N-acetylglutamate
 \end{itemize}
-\item Lactic acidaemia is seen in long-chain FAODs(LCHAD and MTP deficiencies)
+\item lactic acidaemia is seen in long-chain FAODs(LCHAD and MTP deficiencies)
 \begin{itemize}
-\item inhibitory effects of metabolites on pyruvate metabolism.
+\item inhibitory effects of metabolites on pyruvate metabolism
 \end{itemize}
-\item Moderate hyperuricaemia - frequent finding during acute attacks.
-\item Secondary hyperprolinaemia occurs in some babies with MAD deficiency.
-\item Accumulating long-chain acylcarnitines may be responsible for
-arrhythmias and may interfere with surfactant metabolism.
-\item In LCHAD and MTP deficiencies, long chain hydroxy-acylcarnitine
+\item moderate hyperuricaemia - frequent finding during acute attacks
+\item secondary hyperprolinaemia occurs in some babies with MAD deficiency
+\item accumulating long-chain acylcarnitines may be responsible for
+arrhythmias and may interfere with surfactant metabolism
+\item in LCHAD and MTP deficiencies, long chain hydroxy-acylcarnitine
 concentrations correlate with the severity of retinopathy and may
 cause both this and the peripheral neuropathy
 \end{itemize}
 
-\subsection{Summary}
-\label{sec:orgd86be99}
-\subsubsection{Common manifestations in FAODs}
-\label{sec:orgf9ec2bb}
+
+
+\subsection{Common manifestations in FAODs}
+\label{sec:orgc649c95}
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.9\textwidth]{./mito_faod/figures/Ch101f016.png}
-\caption{\label{fig:org260d50f}
-Common manifestations in FAODs [fn:1]}
+\includegraphics[width=1.2\textwidth]{./mito_faod/figures/Ch101f016.png}
+\caption{\label{fig:org0dd5a2c}
+Common manifestations in FAODs}
 \end{figure}
 
 \begin{itemize}
@@ -808,190 +788,183 @@ Common manifestations in FAODs [fn:1]}
 \end{itemize}
 
 \section{Routine Testing for Mitochondrial FAODs}
-\label{sec:orgd659acb}
+\label{sec:org56e48c3}
 \subsection{Routine Biochemistry}
-\label{sec:org7dc53f9}
+\label{sec:orgfa24849}
 \begin{itemize}
-\item Glucose
-\item Ketones
-\item Lactate
-\item Ammonia
-\item Uric Acid
-\item Creatine Kinase (CK)
+\item glucose
+\item ketones
+\item lactate
+\item ammonia
+\item uric acid
+\item creatine kinase (CK)
 \item Acute Fatty Liver of Pregnancy (AFLP) \& Hemolysis, Elevated Liver enzymes Low Platlets (HELLP)
 \begin{itemize}
-\item Mothers who are heterozygous for LCHAD or MTP deficiency when
+\item mothers who are heterozygous for LCHAD or MTP deficiency when
 carrying an affected fetus
 \end{itemize}
 \end{itemize}
 \subsubsection{Fasting Hypoglycaemia  in FAODs}
-\label{sec:org05520f5}
+\label{sec:org3b92829}
 \begin{itemize}
 \item Fasting hypoglycaemia is the classic metabolic disturbance in FAODs
 \begin{itemize}
 \item primarily due to increased peripheral glucose consumption
 \end{itemize}
 \begin{itemize}
-\item The hypoglycaemia is hypoketotic.
+\item The hypoglycaemia is hypoketotic
 \begin{itemize}
 \item Ketone bodies can be synthesised (medium-or short-chain FAODs or
 if there is high residual enzyme activity)
 \item plasma concentrations are lower than expected for hypoglycaemia or
-the plasma free fatty acid concentrations.
+the plasma free fatty acid concentrations
 \end{itemize}
 \end{itemize}
 \end{itemize}
 
-\subsubsection{Randle Cycle \footnote{Hue, L., Taegtmeyer, H., Randle, P., Garland, P., \& Hales,
-N. (2009). The Randle cycle revisited. Am J Physiol Endocrinol Metab,
-297, 578–591.
-
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=0.5\textwidth]{./faod_routine_testing/figures/randle.png}
-\caption{\label{fig:orgd048557}
-Randle Cycle}
-\end{figure}}}
-\label{sec:org92a5028}
+\subsubsection{Randle Cycle}
+\label{sec:org4710b11}
 \begin{itemize}
-\item Fasted state:
+\item fasted state:
 \begin{itemize}
-\item Fatty Acids inhibit glucose oxidation at pyruvate dehydrogenase
+\item fatty acids inhibit glucose oxidation at pyruvate dehydrogenase
 (PDH)
-\item Long-chain acyl-CoA derivatives directly inhibit glucokinase
+\item long-chain acyl-CoA derivatives directly inhibit glucokinase
 \end{itemize}
-\item Fed state:
+\item fed state:
 \begin{itemize}
-\item Insulin inhibits lipolysis
-\item Malonyl-CoA inhibits CPT1
+\item insulin inhibits lipolysis
+\item malonyl-CoA inhibits CPT1
 \begin{itemize}
 \item \(\uparrow\) esterification of FA
 \end{itemize}
 \end{itemize}
 \end{itemize}
 
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.5\textwidth]{./faod_routine_testing/figures/randle.png}
+\caption{\label{fig:orgae027c8}
+Randle Cycle}
+\end{figure}
+
 \subsubsection{Inhibition of Glucose Utilization by Fatty Acids}
-\label{sec:org806e6e2}
+\label{sec:orgc285147}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./faod_routine_testing/figures/glucose_oxidation_inhibition.png}
-\caption{\label{fig:orga835ded}
+\caption{\label{fig:orgfe61cf8}
 Inhibition of Glucose Utilization by FA}
 \end{figure}
 
 \begin{itemize}
-\item The extent of inhibition is graded and most severe at the level of
+\item extent of inhibition is graded and most severe at the level of
 pyruvate dehydrogenase (PDH) and less severe at the level of
-6-phosphofructo-1-kinase (PFK) and glucose uptake.
+6-phosphofructo-1-kinase (PFK) and glucose uptake
 \item PDH inhibition is caused by acetyl-CoA and NADH accumulation
 resulting from fatty acid oxidation, whereas PFK inhibition results
 from citrate accumulation in the cytosol. The mechanism of
-inhibition of glucose uptake is not clear.
-\item These effects reroute glucose toward glycogen synthesis and pyruvate
-to anaplerosis and/or gluconeogenesis.
+inhibition of glucose uptake is not clear
+\begin{itemize}
+\item reroute glucose toward glycogen synthesis and pyruvate
+to anaplerosis and/or gluconeogenesis
+\end{itemize}
 \end{itemize}
 
 \subsubsection{Inhibition of Fatty Acid Utilization by Glucose}
-\label{sec:org3c60531}
+\label{sec:orgfd958df}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./faod_routine_testing/figures/FAO_inhibition.png}
-\caption{\label{fig:org9bd121b}
+\caption{\label{fig:org3a21bef}
 Inhibition of FA Utilization by Glucose}
 \end{figure}
 
 \begin{itemize}
-\item This mechanism is mediated by malonyl-CoA, the concentration of
-which depends on ACC activity and which inhibits the entry of
-long-chain fatty acyl (LCFAcyl-CoA) moieties into mitochondria.
-\item This effect reroutes fatty acids toward esterification.
-\item In extrahepatic tissues, the effect of glucose is stimulated by
-insulin.
+\item mechanism is mediated by malonyl-CoA, the concentration of which
+depends on ACC activity and which inhibits the entry of long-chain
+fatty acyl-CoA into mitochondria
+\item reroutes fatty acids toward esterification
+\item extrahepatic tissues, the effect of glucose is stimulated by
+insulin
 \end{itemize}
 
 \subsubsection{Lactic Acidemia in FAODs}
-\label{sec:org6670f67}
+\label{sec:orga243ad2}
 \begin{itemize}
-\item Lactic acidaemia is seen in long-chain FAODs (VLCAD, LCHAD and MTP deficiencies)
-\item Long-chain acyl-CoA esters have been found to inhibit a large
-variety of enzymes including the mitochondrial ATP/ADP carrier.
+\item lactic acidaemia is seen in long-chain FAODs (VLCAD, LCHAD and MTP deficiencies)
+\item long-chain acyl-CoA esters have been found to inhibit a large
+variety of enzymes including the mitochondrial ATP/ADP carrier
 \begin{itemize}
-\item The mitochondrial ATP/ADP carrier catalyses the exchange of intra- and
-extra-mitochondrial adenine nucleotides.
+\item mitochondrial ATP/ADP carrier catalyses the exchange of intra- and
+extra-mitochondrial adenine nucleotides
 \end{itemize}
-\item \emph{In vivo} the ATP/ADP carrier catalyses the transport of ATP
+\item \emph{in vivo} the ATP/ADP carrier catalyses the transport of ATP
 synthesized in the mitochondrion by the F\(_{\text{1}}\) F\(_{\text{0}}\)-ATPase reaction to the
 extra-mitochondrial space in exchange for cytosolic ADP
 \begin{itemize}
 \item \(\uparrow\) intra-mitochondrial ATP/ADP ratio and \(\downarrow\) oxidation of
 NADH \(\to\) NAD\(^{\text{+}}\)
 \item \(\uparrow\) ATP/ADP and NADH/NAD\(^{\text{+}}\) ratios will activate PDK
-\item PDK inactivates PDH by phosphorylation.
+\item PDK inactivates PDH by phosphorylation
 \end{itemize}
 \end{itemize}
 
-\subsubsection{Lactic Acidemia in FAODs}
-\label{sec:org764fbeb}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./faod_routine_testing/figures/NAD.png}
-\caption{\label{fig:orgac95c95}
-Lactic Acidemia in FAODs}
+\caption{\label{fig:orgd59ffe5}
+Lactic Acidemia in FAODs: major metabolic pathways involved in cytosolic and mitochondrial oxidation and reduction of NAD}
 \end{figure}
 
-\begin{itemize}
-\item Overview of the major metabolic pathways involved in cytosolic and
-mitochondrial oxidation and reduction of NAD
-\end{itemize}
 
 \subsubsection{Hyperammonaemia in FAODs}
-\label{sec:org7589e9c}
+\label{sec:orgb084500}
 \begin{itemize}
-\item Hyperammonaemia occurs in some severe defects,
+\item hyperammonaemia occurs in some severe defects,
 \begin{itemize}
 \item with normal or low glutamine concentrations;
 \item decreased acetyl-CoA production reducing the synthesis of N-acetylglutamate
 \end{itemize}
-\item Influence of metabolic disorders on function of urea cycle leading
+\item influence of metabolic disorders on function of urea cycle leading
 to secondary hyperammonemia
 \end{itemize}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./faod_routine_testing/figures/2nd_ammonemia.png}
-\caption{\label{fig:org778c6eb}
+\caption{\label{fig:org11e252b}
 Hyperammonaemia in FAODs}
 \end{figure}
 
 
-
 \subsubsection{Moderate hyperuricaemia and elevated CK}
-\label{sec:orgd143959}
+\label{sec:orge249c52}
 \begin{itemize}
-\item Seen in acute attacks 
+\item seen in acute attacks 
 \begin{itemize}
-\item The association suggests that the mechanism is a breakdown of
-cells, particularly muscle.
+\item association suggests that the mechanism is a breakdown of
+cells, particularly muscle
 \item ATP depletion \(\to\) \(\downarrow\) Na/K-ATPase
 \end{itemize}
-\item Release of CK
-\item The uric acid excess is the product of nucleic acid and nucleotide catabolism.
+\item release of CK
+\item uric acid excess is the product of nucleic acid and nucleotide catabolism.
 \end{itemize}
 
 \subsubsection{AFLP/HELLP}
-\label{sec:org9428fef}
+\label{sec:orga2b4cdd}
 \begin{itemize}
-\item Mothers who are heterozygous for LCHAD or MTP deficiency when
+\item mothers who are heterozygous for LCHAD or MTP deficiency when
 carrying an affected fetus
-\item A woman whose affected fetus has the Glu474Gln mutation on one or
+\item woman whose affected fetus has the Glu474Gln mutation on one or
 both alleles of the \(\alpha\)-subunit of the trifunctional protein is
 likely to have acute fatty liver of pregnancy or the HELLP syndrome 
 \begin{itemize}
-\item Long-chain 3-hydroxyacyl metabolites produced by the fetus or
+\item long-chain 3-hydroxyacyl metabolites produced by the fetus or
 placenta accumulate in the mother and are highly toxic to the liver
-\item Exaggerated by the decreased metabolic utilization of fatty acids
-during pregnancy.
+\item exaggerated by the decreased metabolic utilization of fatty acids
+during pregnancy
 \end{itemize}
 \end{itemize}
 \end{document}

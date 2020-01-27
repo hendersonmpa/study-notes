@@ -4,37 +4,33 @@
 
 
 * Routine Biochemistry
-- Glucose
-- Ketones
-- Lactate
-- Ammonia
-- Uric Acid
-- Creatine Kinase (CK)
+- glucose
+- ketones
+- lactate
+- ammonia
+- uric acid
+- creatine kinase (CK)
 - Acute Fatty Liver of Pregnancy (AFLP) & Hemolysis, Elevated Liver enzymes Low Platlets (HELLP)
-  - Mothers who are heterozygous for LCHAD or MTP deficiency when
+  - mothers who are heterozygous for LCHAD or MTP deficiency when
     carrying an affected fetus
 ** Fasting Hypoglycaemia  in FAODs
 - Fasting hypoglycaemia is the classic metabolic disturbance in FAODs
   - primarily due to increased peripheral glucose consumption
- - The hypoglycaemia is hypoketotic.
+ - The hypoglycaemia is hypoketotic
   - Ketone bodies can be synthesised (medium-or short-chain FAODs or
     if there is high residual enzyme activity)
   - plasma concentrations are lower than expected for hypoglycaemia or
-    the plasma free fatty acid concentrations.
+    the plasma free fatty acid concentrations
 
-** Randle Cycle [fn:randle]
-- Fasted state:
-  - Fatty Acids inhibit glucose oxidation at pyruvate dehydrogenase
+** Randle Cycle 
+- fasted state:
+  - fatty acids inhibit glucose oxidation at pyruvate dehydrogenase
     (PDH)
-  - Long-chain acyl-CoA derivatives directly inhibit glucokinase
-- Fed state:
-  - Insulin inhibits lipolysis
-  - Malonyl-CoA inhibits CPT1
+  - long-chain acyl-CoA derivatives directly inhibit glucokinase
+- fed state:
+  - insulin inhibits lipolysis
+  - malonyl-CoA inhibits CPT1
     - \uparrow esterification of FA
-
-[fn:randle] Hue, L., Taegtmeyer, H., Randle, P., Garland, P., & Hales,
-N. (2009). The Randle cycle revisited. Am J Physiol Endocrinol Metab,
-297, 578–591.
 
 #+CAPTION[]:Randle Cycle
 #+NAME: fig:randle
@@ -47,15 +43,15 @@ N. (2009). The Randle cycle revisited. Am J Physiol Endocrinol Metab,
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[./faod_routine_testing/figures/glucose_oxidation_inhibition.png]]
 
-- The extent of inhibition is graded and most severe at the level of
+- extent of inhibition is graded and most severe at the level of
   pyruvate dehydrogenase (PDH) and less severe at the level of
-  6-phosphofructo-1-kinase (PFK) and glucose uptake.
+  6-phosphofructo-1-kinase (PFK) and glucose uptake
 - PDH inhibition is caused by acetyl-CoA and NADH accumulation
   resulting from fatty acid oxidation, whereas PFK inhibition results
   from citrate accumulation in the cytosol. The mechanism of
-  inhibition of glucose uptake is not clear.
-- These effects reroute glucose toward glycogen synthesis and pyruvate
-  to anaplerosis and/or gluconeogenesis. 
+  inhibition of glucose uptake is not clear
+  - reroute glucose toward glycogen synthesis and pyruvate
+    to anaplerosis and/or gluconeogenesis 
 
 ** Inhibition of Fatty Acid Utilization by Glucose
 
@@ -64,41 +60,38 @@ N. (2009). The Randle cycle revisited. Am J Physiol Endocrinol Metab,
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[./faod_routine_testing/figures/FAO_inhibition.png]]
 
-- This mechanism is mediated by malonyl-CoA, the concentration of
-  which depends on ACC activity and which inhibits the entry of
-  long-chain fatty acyl (LCFAcyl-CoA) moieties into mitochondria.
-- This effect reroutes fatty acids toward esterification.
-- In extrahepatic tissues, the effect of glucose is stimulated by
-  insulin.
+- mechanism is mediated by malonyl-CoA, the concentration of which
+  depends on ACC activity and which inhibits the entry of long-chain
+  fatty acyl-CoA into mitochondria
+- reroutes fatty acids toward esterification
+- extrahepatic tissues, the effect of glucose is stimulated by
+  insulin
 
 ** Lactic Acidemia in FAODs
-- Lactic acidaemia is seen in long-chain FAODs (VLCAD, LCHAD and MTP deficiencies)
-- Long-chain acyl-CoA esters have been found to inhibit a large
-  variety of enzymes including the mitochondrial ATP/ADP carrier.
- - The mitochondrial ATP/ADP carrier catalyses the exchange of intra- and
-   extra-mitochondrial adenine nucleotides.
-- /In vivo/ the ATP/ADP carrier catalyses the transport of ATP
+- lactic acidaemia is seen in long-chain FAODs (VLCAD, LCHAD and MTP deficiencies)
+- long-chain acyl-CoA esters have been found to inhibit a large
+  variety of enzymes including the mitochondrial ATP/ADP carrier
+ - mitochondrial ATP/ADP carrier catalyses the exchange of intra- and
+   extra-mitochondrial adenine nucleotides
+- /in vivo/ the ATP/ADP carrier catalyses the transport of ATP
   synthesized in the mitochondrion by the F_1 F_0-ATPase reaction to the
   extra-mitochondrial space in exchange for cytosolic ADP
   - \uparrow intra-mitochondrial ATP/ADP ratio and \downarrow oxidation of
     NADH \to NAD^{+}
   - \uparrow ATP/ADP and NADH/NAD^{+} ratios will activate PDK
-  - PDK inactivates PDH by phosphorylation.
+  - PDK inactivates PDH by phosphorylation
 
-** Lactic Acidemia in FAODs
-#+CAPTION[]:Lactic Acidemia in FAODs
+#+CAPTION[]:Lactic Acidemia in FAODs: major metabolic pathways involved in cytosolic and mitochondrial oxidation and reduction of NAD
 #+NAME: fig:lactic
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[./faod_routine_testing/figures/NAD.png]]
 
-- Overview of the major metabolic pathways involved in cytosolic and
-  mitochondrial oxidation and reduction of NAD
 
 ** Hyperammonaemia in FAODs
-- Hyperammonaemia occurs in some severe defects,
+- hyperammonaemia occurs in some severe defects,
   - with normal or low glutamine concentrations;
   - decreased acetyl-CoA production reducing the synthesis of N-acetylglutamate 
-- Influence of metabolic disorders on function of urea cycle leading
+- influence of metabolic disorders on function of urea cycle leading
   to secondary hyperammonemia
 
 #+CAPTION[]:Hyperammonaemia in FAODs
@@ -107,23 +100,22 @@ N. (2009). The Randle cycle revisited. Am J Physiol Endocrinol Metab,
 [[./faod_routine_testing/figures/2nd_ammonemia.png]]
 
 
-
 ** Moderate hyperuricaemia and elevated CK
-- Seen in acute attacks 
-  - The association suggests that the mechanism is a breakdown of
-    cells, particularly muscle.
+- seen in acute attacks 
+  - association suggests that the mechanism is a breakdown of
+    cells, particularly muscle
   - ATP depletion \to \downarrow Na/K-ATPase 
-- Release of CK
-- The uric acid excess is the product of nucleic acid and nucleotide catabolism. 
+- release of CK
+- uric acid excess is the product of nucleic acid and nucleotide catabolism. 
 
 ** AFLP/HELLP
-- Mothers who are heterozygous for LCHAD or MTP deficiency when
+- mothers who are heterozygous for LCHAD or MTP deficiency when
   carrying an affected fetus
-- A woman whose affected fetus has the Glu474Gln mutation on one or
+- woman whose affected fetus has the Glu474Gln mutation on one or
   both alleles of the \alpha-subunit of the trifunctional protein is
   likely to have acute fatty liver of pregnancy or the HELLP syndrome 
-  - Long-chain 3-hydroxyacyl metabolites produced by the fetus or
+  - long-chain 3-hydroxyacyl metabolites produced by the fetus or
     placenta accumulate in the mother and are highly toxic to the liver
-  - Exaggerated by the decreased metabolic utilization of fatty acids
-    during pregnancy.
+  - exaggerated by the decreased metabolic utilization of fatty acids
+    during pregnancy
 

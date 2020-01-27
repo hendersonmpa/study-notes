@@ -28,9 +28,8 @@
   involving the catabolism of BCAAs
 - most common: MSUD, IVA, PA, and MMA can present clinically as:
 
-
 * MSUD, IVA, PA and MMA
-** Clinical presentation
+** Clinical Presentation
 - have many clinical and biochemical symptoms in common
 - there are three main clinical presentations:
   1) a severe neonatal-onset form of metabolic distress
@@ -39,12 +38,164 @@
      thrive, and developmental delay
 - NBS has identified asymptomatic forms
 
+- complication include:
+  - renal tubular acidosis
+  - skin lesions
+  - pancreatitis
+  - cardiomyopathy
 *** Severe Neonatal Onset Form
+- toxic encephalopathy with either ketosis or ketoacidosis
+  - hours to weeks after birth
+- first signs are poor feeding and drowsiness, followed by unexplained
+  progressive coma
+- at more advanced stage, neurovegetative dysregulation with
+  respiratory distress, hiccups, apnoeas, bradycardia, and hypothermia
+  may appear
+
+**** MSUD
+- maple syrup or burnt sugar odor
+- no pronounced abnormalities on routine chemistry:
+  - no hyperammonaemia
+  - not dehydrated
+  - normal lactate
+**** IVA, PA, MMA
+- deydration
+- anion gap metabolic acidosis
+- ketonuria
+- hyperammonaemia in PA and MMA
+
+*** Acute Intermittent Form
+- quarter of patients, the disease presents after a symptom-free
+  period
+  - commonly longer than 1 year and sometimes until adolescence or adulthood
+- neurological presentation: coma, lethargy
+- hepatic: Reye-like syndrome in IVA, PA, MMA
+- hematology and immunology: neutropenia, thrombocytopenia
+
+*** Chronic Progressive Form
+- GI presentation
+- neurological
 
 
 
 
+** Metabolic Derangement
+*** MSUD
+- branched-chain \alpha-ketoacid dehydrogenase (BCKD) deficiency
+  - E1 or E2 \to MSUD
+  - E3 \to dihydrolipamide dehydrogenase deficiency
 
+- marked increases in the branched-chain 2-ketoacids in plasma, urine
+  and CSF
+- due to the reversibility of the initial transamination step BCAAs
+  also accumulate
+- smaller amounts of the respective 2-hydroxy acids are formed
+- alloisoleucine, a diastereomer of isoleucine, is invariably found in
+  the blood of all patients with classic MSUD and in those with
+  variant forms, at least in those still without dietary treatment
+- among the BCAA metabolites, leucine and 2-ketoisocaproic acid appear
+  to be the most neurotoxic
 
+*** IVA
+- deficiency of isovaleryl-CoA dehydrogenase (IVD)
+  - an intramitochondrialflavoenzyme which transfers electrons to ETF
+- accumulation of derivatives of isovaleryl-CoA including:
+  - free isovaleric increased in both plasma and urine
+  - 3-hydroxyisovaleric acid (3-HIVA)
+  - N-isovalerylglycine
+    - major derivative of isovaleryl-CoA
+  - isovalerylcarnitine
 
+*** PA
+- deficiency of the mitochondrial enzyme propionyl-CoA carboxylase (PCC)
+  - one of the 5 biotin-dependent enzymes
+- \uparrow free propionic acid in blood and urine
+- \uparrow derivatives propionylcarnitine , 3-hydroxypropionate and methylcitrate
+  - MCA arises by condensation of propionyl-CoA with oxaloacetate
+  - catalysed by citrate synthase
+- during ketotic episodes, 3-HIVA is formed by condensation of
+  propionyl-CoA with acetyl-CoA, followed by chemical reduction
+- \uparrow organic acids derived from a variety of intermediates of
+  the isoleucine catabolic pathway, such as:
+  - tiglic acid, tiglylglycine, 2-methyl-3-hydroxybutyrate ,
+    3-hydroxybutyrate and propionylglycine, can also be found
 
+*** MMA
+- deficiency of methylmalonyl-CoA mutase (MCM)
+  - B_12 dependent-enzyme
+  - disorders that affect adenosylcobalamin formation cause variant
+    forms of MMA
+- \uparrow methylmalonyl-CoA results in \uparrow methylmalonyic acid
+  in urine and blood
+- secondary inhibition of PCC \therefore:
+  - \uparrow PA and PA derivatives (see [[PA]])
+
+*** Secondary Effects Of Elevated Propionyl-CoA
+- \uparrow propionylcarnitine \to carnitine deficiency
+- \uparrow synthesis of odd numbered LCFAs
+- enzyme inhibition \to
+  - \downarrow glucose
+  - \uparrow lactate
+  - \uparrow ammonia
+    \uparrow glycine
+
+** Genetics
+- MSUD :: AR, E1\alpha, E1\beta and E2
+- IVA :: AR, IVD
+- PA :: AR, PCCB
+- MMA :: AR, MUT or cobalamin system (Table [[tab:mma]])
+  - mut^-(\downarrow activity), mut^0 (zero activity)
+
+#+CAPTION[]:Isolated Methylmalonic Acidemia Genes
+#+NAME: tab:mma
+| Gene[fn:1] | Protein                     |
+|------------+-----------------------------|
+| MMUT       | Methylmalonyl-CoA mutase    |
+| MCEE       | Methylmalonyl-CoA epimerase |
+| MMAA       | cblA                        |
+| MMAB       | cblB                        |
+| MMADHC     | cblD                        |
+
+[fn:1] deficiency of cblC (MMACHC) causes both MMA and homocysteinemia so not "isolated"
+
+** Diagnostic Tests
+- MSUD \to PAA
+  - alloisoleucine
+- IVA, PA, MMA \to UOA & PAC
+
+** Treatment
+- MSUD low BCAA diet
+- IVA low protein diet
+  - carnitine and glycine \to acylcarnitine & acylglycine
+- PA & MMA low protein diet
+  - carnitine supplementation
+  - MMA test for B_12 response
+
+* 3-Methylcrotonyl Glycinuria
+** Clinical Presentation
+- highly variable: neonatal neurological onset with death \to lack of symptoms
+** Metabolic Derangement
+- 3-methylcrotonyl-CoA carboxylase(3-MCC) deficiency
+  - \uparrow 3-methylcrotonyl-CoA \to 3-methylcrotonylglycine
+  - 3-methylcrotonic acid
+- 3-MCC is a heteromeric enzyme consisting of
+  \alpha-(biotin-containing) and \beta-subunits
+- 3-hydroxyisovalerate (3-HIVA), another major metabolite, is derived
+  through the action of a crotonase on 3-methylcrotonyl-CoA and the
+  subsequent hydrolysis of the CoA-ester
+** Genetics
+- AR, MCCA and MCCB
+** Diagnostic Tests
+- \Uparrow 3-HIVA
+- \Uparrow 3-methycrotonylglycine
+- without the lactate, methylcitrate, and tiglylglycine found in
+  multiple carboxlase deficiency
+
+** Treatment
+- glycine and carnitine supplementation
+
+* 3-Methylglutaconic Aciduria
+- primary 3-methylglutaconic aciduria caused by 3-methylglutaconyl-CoA
+  hydratase deficiency (AUH mutations) is very rare
+- secondary 3-MGC acidurias are a relatively common finding in a
+  number of metabolic disorders, particularly mitochondrial disease
