@@ -71,10 +71,10 @@
 - NA-dependent transporter
   - transport glucose \uparrow the concentration gradient
   - w co-transport of NA \downarrow the concentration gradient
-- Facilitative Glucose Transport
+- facilitative glucose transport
   - transport glucose \downarrow the concentration gradient
   - GLUT1 to GLUT5
-- Galactose and Fructose Transport
+- galactose and fructose transport
   - Gal uses same mechanism as glucose
   - Fructose relies on facilitated diffusion via GLUT5
 
@@ -108,7 +108,6 @@
 |             | spermatozoa           |                                        |
 
 * Glycogen
-
 - glycogen is the storage form of glucose found in glycogen particles
 - large polymer of branched glucose polysaccharide
 - composed of glucosyl chains linked by \alpha-1-4-glycosidic bonds
@@ -116,8 +115,8 @@
   - allows parallel processing
   - \uparrow solubility
 
-- There is regulation of synthesis and degradation
-  - Primarily in liver and muscle
+- there is regulation of synthesis and degradation
+  - primarily in liver and muscle
   
 #+CAPTION[]:Glycogen Synthesis 
 #+NAME: fig:glycsnd
@@ -167,9 +166,9 @@
 |          | \downarrow AMP       | \downarrow degradation    |
 
 * Sugar Metabolism Pathways
-- Fructose
-- Galactose
-- Pentose Phosphate Pathway
+- fructose
+- galactose
+- pentose phosphate pathway
 
 #+CAPTION[]:Fructose Metabolism
 #+NAME: fig:glycsnd
@@ -194,22 +193,22 @@
 
 - Ribose-5-P required for purine and pyrimidine synthesis
 - NADPH required for detoxification and synthetic reaction
-  - Detoxification
-    - Reduction of oxidized glutathione
-    - Cytochrome p450 monoxygenases
-  - Synthetic reactions
+  - detoxification
+    - reduction of oxidized glutathione
+    - cytochrome p450 monoxygenases
+  - synthetic reactions
     - FA synthesis
-    - Cholesterol 
+    - cholesterol 
     - neurotransmitters
     - deoxynucleotide
     - superoxide
 
 * Synthesis
 - sugars are activated by addition of nucleotides
-- Uridine diphosphate (UDP)-glucose is a precusor of:
+- uridine diphosphate (UDP)-glucose is a precusor of:
   - glycogen, lactate, UDP-glucuronate
   - CHO chains in proteoglycans glycoproteins and glycolipids
-- The polyol pathway is a two-step process that converts glucose to
+- polyol pathway is a two-step process that converts glucose to
   fructose
   - glucose is reduced to sorbitol, which is oxidized to fructose
 

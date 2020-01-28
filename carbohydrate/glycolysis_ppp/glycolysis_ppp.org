@@ -9,19 +9,19 @@
 [[file:./glycolysis_ppp/figures/glyc_ppp.png]]
 
 ** Glycolysis 
-- Glycolysis is an oxygen-independent metabolic pathway
-  - converts each molecule of glucose to two of pyruvate.
-  - consists of two phases and ten steps.
-- The first five steps are the preparatory phase,
+- glycolysis is an oxygen-independent metabolic pathway
+  - converts each molecule of glucose to two of pyruvate
+  - consists of two phases and ten steps
+- first five steps are the preparatory phase
   - consumes ATP to convert glucose into two, three-carbon sugar
-    phosphate molecules.
-- In the other five steps ATP and NADH are produced
+    phosphate molecules
+- the other five steps produce ATP and NADH 
 
 ** Pentose Phosphate Pathway
 - Two phases
 *** Oxidative Phase
 - glucose 6-P \to NADPH + ribose 5-P
-- Glucose 6-P dehydrogenase catalyses first step
+- glucose 6-P dehydrogenase catalyses first step
 - NADPH is for reducing reactions
   - NADPH/NADP^{+} \gt\gt\gt NADH/NAD^{+}
   - NADH is rapidly converted to NAD^{+} in the ETC
@@ -29,47 +29,47 @@
 - reversible rxns
 - convert glycolytic intermediates to 5 carbon sugars
 
-- Ribose-5-P required for purine and pyrimidine synthesis
+- ribose-5-P required for purine and pyrimidine synthesis
 - NADPH required for detoxification and synthetic reaction
-  - Detoxification
-    - Reduction of oxidized glutathione
-    - Cytochrome p450 monoxygenases
-  - Synthetic reactions
+  - detoxification
+    - reduction of oxidized glutathione
+    - cytochrome p450 monoxygenases
+  - synthetic reactions
     - FA synthesis
-    - Cholesterol 
+    - cholesterol 
     - neurotransmitters
     - deoxynucleotide
     - superoxide
 * Disorders
 ** Glycolysis Disorders
-- Glycolysis is the most important source of energy in erythrocytes
+- glycolysis is the most important source of energy in erythrocytes
   and in some types of skeletal muscle fibres
 
   - *\therefore IMD of glycolysis are mainly characterized by hemolytic*
     *anaemia \pm metabolic myopathy*
 
-- Ten inborn errors of the glycolytic pathway are known,
+- ten inborn errors of the glycolytic pathway are known
   - 8 inherited as an autosomal recessive trait
   - X-linked phosphoglycerate kinase and glycerol kinase deficiencies
 
-- Hexokinase (HK), glucose-6-phosphate isomerase (GPI) and pyruvate
+- hexokinase (HK), glucose-6-phosphate isomerase (GPI) and pyruvate
   kinase (PKD) deficiencies cause severe haemolytic anaemia
 
-- Muscle phosphofructokinase (PFKM), aldolase A, triosephosphate
+- muscle phosphofructokinase (PFKM), aldolase A, triosephosphate
   isomerase (TPI) and phosphoglycerate kinase (PGK) deficiencies are
   characterized by haemolytic anaemia alone or coupled with
   neurological disease and/or myopathy
 
-- Phosphoglycerate mutase (PGAM), enolase and lactate dehydrogenase
+- phosphoglycerate mutase (PGAM), enolase and lactate dehydrogenase
   (LDH) deficiencies present with a purely myopathic syndrome
   - characterized by exercise induced cramps and myoglobinuria
 
-- Glycerol kinase deficiency (GKD) is either an isolated condition
+- glycerol kinase deficiency (GKD) is either an isolated condition
   with hypoglycaemia and acidosis or part of a contiguous
   gene deletion where it also associated with congenital adrenal
   hypoplasia and/or Duchenne muscular dystrophy
 
-- Glucose-6-phosphate can also be formed by the conversion of the
+- glucose-6-phosphate can also be formed by the conversion of the
   glycogen derived glucose-1-phosphate
 
   - a reaction catalysed by
@@ -77,23 +77,25 @@
 
 ** PPP Disorders
 
-- Four inborn errors in the pentose phosphate pathway (PPP) are known.
-- Glucose-6-phosphate dehydrogenase deficiency is an X-linked defect
-  in the first, irreversible step of the pathway.
-  - An exclusively haematological disorder.
-- Ribose-5-phosphate isomerase (RPI) deficiency has been described in one patient
-  - presented with developmental delay and a slowly progressive leukoencephalopathy.
-- Transaldolase (TALDO) deficiency often presents in the neonatal or
+- four inborn errors in the pentose phosphate pathway (PPP) are known
+- glucose-6-phosphate dehydrogenase deficiency is an X-linked defect
+  in the first, irreversible step of the pathway
+  - An exclusively haematological disorder
+- ribose-5-phosphate isomerase (RPI) deficiency has been described in one patient
+  - presented with developmental delay and a slowly progressive leukoencephalopathy
+- transaldolase (TALDO) deficiency often presents in the neonatal or
   antenatal period with hepatosplenomegaly, \downarrow liver function,
-  hepatic fibrosis and anaemia.
-- Transketolase (TKT) deficiency presents with short stature,
-  developmental delay and congenital heart defects.
+  hepatic fibrosis and anaemia
+- transketolase (TKT) deficiency presents with short stature,
+  developmental delay and congenital heart defects
 
 ** PPP Disorders
-- Sedoheptulokinase (SHPK) deficiency, a defect related to the PPP has
+- sedoheptulokinase (SHPK) deficiency, a defect related to the PPP has
   been described as an isolated disorder and also as part of a 57-kb
-  deletion in nephropathic cystinosis.
-- Essential pentosuria is the result of a partial deficiency of L-xylulose reductase (xylitol dehydrogenase) an enzyme of the glucuronic acid pathway.
-  - Affected individuals excrete large amounts of L-xylulose in urine.
+  deletion in nephropathic cystinosis
+- essential pentosuria is the result of a partial deficiency of
+  L-xylulose reductase (xylitol dehydrogenase) an enzyme of the
+  glucuronic acid pathway
+  - affected individuals excrete large amounts of L-xylulose in urine
   - benign disorder that occurs almost exclusively in Jewish people
 

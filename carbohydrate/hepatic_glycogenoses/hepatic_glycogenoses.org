@@ -197,8 +197,8 @@
 - catalyses the release and phosphorylation of terminal glucosyl units
   from glycogen forming glucose-1-phosphate
 - ketosis with or without hypoglycaemia may occur with fasting
-- Although plasma lipids may be raised
-- in severe variants recurrent hypoglycaemia and post-prandial lactic
+- plasma lipids may be raised
+- severe variants recurrent hypoglycaemia and post-prandial lactic
   acidosis can occur
 ** Genetics
 - AR, PGYL gene

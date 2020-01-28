@@ -56,18 +56,17 @@
 
  #+CAPTION[]:\beta-oxidation
  #+NAME: fig:bo
- #+ATTR_LaTeX: :width 0.5\textwidth
+ #+ATTR_LaTeX: :width 0.7\textwidth
  [[./fao/figures/23_1.png]]
 
- - steps in \beta-oxidation:
-   1) membrane transport
-      - FaBP
-   2) activation
-      - CoA
-      - carnitine
-      - CoA
-   3) \beta-oxidation spiral
-      - Acyl-CoA \to ketone bodies or TCA
+  - steps in \beta-oxidation (Figure [[fig:bo]]):
+    1) membrane transport
+       - FaBP binds FA in cytoplasm
+    2) activation by fatty acyl-CoA synthetase to FA acyl-CoA
+    3) transport into mitochondria \to FA-carnitine
+    4) \beta-oxidation spiral
+    5) acyl-CoA \to ketone bodies or TCA
+
 
  #+CAPTION[]:FA activation
  #+NAME: fig:activation
@@ -82,9 +81,9 @@
  - transport of long-chain fatty acids into mitochondria
    - chain length specificity
    - organ and organelle specificity
-     - Acyl-CoA synthetases
-     - Acyltransferases
-     - Acyl-CoA dehydrogenases
+     - acyl-CoA synthetases
+     - acyltransferases
+     - acyl-CoA dehydrogenases
 
 
  #+CAPTION[]:Acyl-CoA Synthetases: Chain Length Specificity
@@ -130,7 +129,7 @@
 
  - oxidation of unsaturated fatty acids (Figure [[fig:bou]])
    - isomerase and reductase change location of the double bonds
-     - correct configuration for \Beta-oxidation
+     - correct configuration for \beta-oxidation
  #+CAPTION[]:Odd-Chain Length Fatty Acids
  #+NAME: fig:ocfa
  #+ATTR_LaTeX: :width 0.3\textwidth
@@ -168,10 +167,11 @@
  | Monocarboxylate transporter 1 deficiency          | AR, AD      |
  |                                                   |             |
   
-[fn:hi] promoter-activating mutations in patients with hyperinsulinemic
-hypoglycemia induce SLC16A1 expression in beta cells, where this
-gene is not usually transcribed, permitting pyruvate uptake and
-pyruvate-stimulated insulin release despite ensuing hypoglycemia
+[fn:hi] promoter-activating mutations in patients with
+hyperinsulinemic hypoglycemia induce SLC16A1 expression in beta cells,
+where this gene is not usually transcribed, permitting pyruvate uptake
+and pyruvate-stimulated insulin release despite ensuing hypoglycemia
+
 
 #+CAPTION[]:Regulation of \beta-oxidation
 #+NAME: fig:reg

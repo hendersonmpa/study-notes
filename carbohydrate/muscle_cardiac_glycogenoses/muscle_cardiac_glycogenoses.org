@@ -33,25 +33,20 @@
 ** Metabolic Derangement
 - deficiency in muscle glycogen synthase
   - ubiquitously expressed
-
 ** Genetics
 - AR, GYS1 encodes muscle isoform of GS
-
 ** Clinical Presentation
 - muscle fatigue
 - hypertrophic cardiomyopathy
-
 ** Diagnostic Tests
 - mutation analysis
 ** Treatment 
 - \beta_1-receptor blockage for cardiac protection
-
 * GSD Type II (Pompe)
 ** Metabolic Derangement
 - acid \alpha-glucosidase deficiency
 - accumulation of glycogen within the lysosomes
 - different critical thresholds depending on the organ
-
 ** Genetics
 - AR, AGL gene
 - 200 mutations have been reported in GAA
@@ -62,7 +57,6 @@
 - c.-32-13T>G is the most common mutation in adults and children with
   a slowly progressive course
   - approximately 80% of Caucasian patients
-
 ** Clinical Presentation
 *** Infantile
 - first months of life with hypotonia and hypertrophic cardiomyopathy
@@ -160,7 +154,7 @@
 - AMPK is a heterotrimeric complex comprising:
   - a catalytic subunit (\alpha)
   - two regulatory subunits (\beta and \gamma)
-- Three isoforms of the gamma subunits are known (\gamma1, \gamma2 and \gamma3) with different tissue
+- three isoforms of the gamma subunits are known (\gamma1, \gamma2 and \gamma3) with different tissue
   expression
 
 ** Genetics

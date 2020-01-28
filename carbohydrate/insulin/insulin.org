@@ -15,7 +15,7 @@
    - influx of extracellular Ca^{2+} stimulates insulin secretion by
      exocytosis from storage granules
 
- - Other mechanisms regulate the release of insulin
+ - other mechanisms regulate the release of insulin
    1) transcription factors, such as HNF1A and HNF4A
    2) metabolic factors which modulate the ATP production
       - leucine activation of glutamate dehydrogenase
@@ -47,10 +47,10 @@
   hypoglycaemia due to a primary defect of the pancreatic
   \beta-cell
 - CHI can present throughout childhood, most common in infancy
-- Severe CHI is responsible for recurrent severe hypoglycaemia in neonates
+- severe CHI is responsible for recurrent severe hypoglycaemia in neonates
   - delayed diagnosis or inappropriate medical management is responsible for brain damage in about 1/3
-- Two main histopathological variants of CHI: diffuse and focal
-- Three forms: transient, syndromic and isolated congenital HI
+- two main histopathological variants of CHI: diffuse and focal
+- three forms: transient, syndromic and isolated congenital HI
 
 * Transient and Syndromic HI 
 - transient neonatal HI
@@ -69,7 +69,7 @@
     - Sotos syndrome
 
 * Isolated Congenital HI
-  - HI is inherited but occurs primarily as an isolated abnormality
+  - CHI is inherited but occurs primarily as an isolated abnormality
   - hypoglycaemia can reveal the disease in all ages
   - hypoglycaemia occurs both in the fasting and the post-prandial states
   - most neonates (86%) are resistant to treatment with diazoxide
@@ -95,21 +95,23 @@
    - sometimes /de novo/
  - in isolated CHI, the inheritance is:
    - autosomal recessive for ABCC8, KCNJ11 and HADH gene mutations
-   - autosomal dominant or /de novo/ for GLUD1, GCK, UCP2,SLC16A1, HNF1A, HNF4A mutations
-     - some cases for ABCC8 and KCNJ11 mutations.
+   - autosomal dominant or /de novo/ for GLUD1, GCK, UCP2, SLC16A1, HNF1A, HNF4A mutations
+     - some cases for ABCC8 and KCNJ11 mutations
 
 ** Diagnosis 
  - diagnosis of HI relies on 5 non-essential criteria:
-   1. fasting and/or post-prandial hypoglycaemia (<2.5-3 mmol/l).
+   1. fasting and/or post-prandial hypoglycaemia (<2.5-3 mmol/l)
    2. inappropriate plasma insulin levels and c-peptide at the time of
-      hypoglycaemia (potentially missed by a single sample because of
-      the pulsatile secretion of insulin).
+      hypoglycaemia
+      - potentially missed by a single sample because of pulsatile
+        secretion of insulin
    3. absent/low blood & urine ketones bodies and non-esterified fatty
-      acids (NEFA). However, in some cases, ketones bodies and NEFA are
-      not totally suppressed.
-   4. \uparrow blood glucose \gt 1.7 mmol/l within 30–40 min after
-      SC/IM or IV administration of 1 mg glucagon.
-   5. the need for a high glucose infusion rate (GIR) to keep blood
+      acids (NEFA)
+      - in some cases ketones bodies and NEFA are not totally
+        suppressed
+   4. \uparrow blood glucose \gt 1.7 mmol/l within 30-40 min after
+      SC/IM or IV administration of 1 mg glucagon
+   5. need for a high glucose infusion rate (GIR) to keep blood
       glucose above 3 mmol/l is characteristic of an insulin related
       hypoglycaemia
 

@@ -38,7 +38,7 @@
 * BCAA
 #+INCLUDE: "./bcaa/bcaa.org" :lines "4-"
 
-* TODO Urea Cycle
+* Urea Cycle
 #+INCLUDE: "./urea/urea.org" :lines "4-"
 
 * Sulfur Amino Acids

@@ -7,12 +7,12 @@
  - glucose is hydrophilic \therefore cannot easily cross cell membrane
  - transporters exist in almost all cell types
  - glucose transporter proteins can be divided into two groups:
-   1. Sodium-dependent glucose transporters (SGLTs)
+   1. sodium-dependent glucose transporters (SGLTs)
       - symporter systems, active transporters encoded by members of
 	the SLC5 gene family
       - couple sugar transport to the electrochemical gradient of sodium
       - transport glucose \uparrow [gradient]
-   2. Facilitative glucose transporters (GLUTs)
+   2. facilitative glucose transporters (GLUTs)
       - uniporter systems, passive transporters encoded by members of the SLC2 gene family
       - transport glucose \downarrow [gradient]
 
@@ -22,8 +22,8 @@
  [[file:./glucose_transport/figures/glut.png]]
 
 ** Congenital Defects of Glucose Transporters
- - Five congenital defects of monosaccharide transporters
- - Their clinical picture depends on tissue-specific expression and
+ - five congenital defects of monosaccharide transporters
+ - clinical picture depends on tissue-specific expression and
    substrate specificity of the affected transporter
 
    1. SGLT1 : Congenital Glucose/Galactose Malabsorption
@@ -32,20 +32,16 @@
    4. GLUT2 : Fanconi-Bickel Syndrome
    5. GLUT10 : Arterial Tortuosity Syndrome
 
-* Congenital Glucose/Galactose Malabsorption (SGLT1 Deficiency )
-
+* Congenital Glucose/Galactose Malabsorption (SGLT1 Deficiency)
 - SGLT1 is a high-affinity, low-capacity sodium-dependent transporter
   of the two monosaccharides, at the brush border of enterocytes
-
 - SGLT1 deficiency \to intestinal glucose-galactose malabsorption
 - GGM is a rare autosomal recessive disorder
-
 - presents with severe osmotic diarrhoea and dehydration soon after a
   normal birth and pregnancy
   - patients develop severe hypertonic dehydration, often with fever
   - patients die from hypovolaemic shock
-
-- Treatement is a glucose and galactose free diet
+- treatment is a glucose and galactose free diet
 
 * Renal Glucosuria (SGLT2 Deficiency)
 - SGLT2 is the major co-transporter involved in glucose reabsorption in
@@ -76,7 +72,7 @@
   - in the absence of hypoglycaemia or a CNS infection is diagnostic.
 - ketogenic diet is used in treatment
 
-* Fanconi-Bickel Syndrome (GLUT2 Deficiency )
+* Fanconi-Bickel Syndrome (GLUT2 Deficiency)
 
 - GLUT2 is a high-K_M monosaccharide carrier 
   - located in hepatocytes
@@ -106,8 +102,8 @@
 
 - GLUT10 function not entirely clear:
   - localizes to mitochondria of smooth muscle and insulin-stimulated adipocytes
-  - facilitates transport of dehydroascorbic acid (DHA), the
-    oxidized form of vitamin C, into mitochondria
+  - facilitates transport of dehydroascorbic acid (DHA) the
+    oxidized form of vitamin C into mitochondria
 
 - GLUT10 deficiency is characterised by hyperelastic connective tissue
   and generalised tortuosity and elongation of all major arteries
@@ -119,6 +115,6 @@
   typical intrathoracic manifestations
 - closely resembles a connective tissue disorder in presentation
 
-- rare, AR GLUT10 (SLC2A10)
-- Echocardiography, angiography, and/or CT scan are important to demonstrate vascular changes.
-- Diagnosis is based on molecular genetic methods
+- rare, AR ,SLC2A10
+- echocardiography, angiography, and/or CT scan are important to demonstrate vascular changes
+- diagnosis is based on molecular genetic methods

@@ -34,5 +34,5 @@
 * Mitochondrial FAODs
 #+INCLUDE: "./mito_faod/mito_faod.org" :lines "4-"
 
-* Routine Testing for Mitochondrial FAODs
+* COMMENT Routine Testing for Mitochondrial FAODs
 #+INCLUDE: "./faod_routine_testing/faod_routine_testing.org" :lines "4-"

@@ -2,7 +2,6 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
-
 * Introduction
 - urea cycle is the main route for ammonia detoxification
 - defects generally cause hyperammonaemia
@@ -22,12 +21,11 @@
 [[file:./aa/urea/figures/urea_cycle.png]]
 
 #+CAPTION[]:Diagnostic algorithm that can be applied to any hyperammonaemic patient
-#+NAME: fig:ammonia
+#+NAME: fig:dd
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./aa/figures/ammonia_dd.png]]
 
-
-* Mitochondrial Urea Cycle Disorders
+* Mitochondrial 
 - CPS, OTC and NAGs deficiency
 - exclusive role of NAGS is to produce NAG the essential activator of CPS1
   - \therefore NAGS deficiency is clinically indistinguishable from
@@ -39,10 +37,272 @@
 - acute hyperammonaemia presenting as encephalopathy
 - NAGS, CPS1 and OTC catalyse the initial two steps of the UC
   - ammonia \to carbamoyl phosphate \to citrulline
-  - \therefore produce the \Uparrow ammonia among UCDs
+  - \therefore produce the \Uparrow ammonia of all UCDs
+*** Newborns
+- healthy at birth but may present by day 2 with a rapidly
+  progressing encephalopathy
+- presentation similar to bacterial sepsis, which can lead to
+  significant delay in the start of specific management for
+  hyperammonaemia
+  - vomiting, refusal to feed, somnolence/stupor/coma, muscular
+    hypotonia, seizures, hyper- or hypoventilation, and hypo- or
+    hyperthermia
+  - respiratory alkalosis is common
+
+*** Children and Adults
+- variable
+- present during or shortly after an intercurrent infection or any
+  other catabolic situation or following a high-protein meal
+
+*** Female OTC Carriers
+- variable individual inactivation of the X-chromosome hosting the
+  mutant OTC gene, they have highly variable residual OTC function
+  - some are asymptomatic
+  - others report symptoms over many years that are likely explained
+    by recurrent undiagnosed hyperammonaemia often detected only after
+    a male offspring is diagnosed
+  - others present with frank deficiency
+
+** Metabolic Derangement
+- \Downarrow citruline production
+- failure to incorporate ammonia into carbamoyl phosphate (CP)
+  explains the hyperammonaemia of CPS1 and NAGS deficiency
+- in OTC deficiency it may be due to CPS1 inhibition by CP
+  that accumulates in the mitochondria.
+- some CP leaks out of the mitochondria, leading to excessive
+  pyrimidine biosynthesis and overproduction of orotic acid and
+  uracil
+- \uparrow urine excretion of orotic acid and uracil differentiates
+  conditions in which CP accumulates, such as OTC deficiency, from
+  those with normal or low CP, such as CPS1 and NAGS deficiencies
+- ammonia is neurotoxic
+  - NH_3 freely enters brain and is converted to non-permeable
+    \ce{NH4+}
+- \uparrow ammonia + glutamine synthetase \to \uparrow glutamine
+  - increase can occur before, and can persist after, hyperammonaemia
+  - Other non-essential amino acids that can be made from ammonia are increased:
+  - glycine, serine, glutamate and alanine
+
+** Genetics
+- AR, NAGS & CPS1
+- X-linked, OTC
+
+** Diagnostic Tests
+- hallmark is hyperammonaemia, generally in the absence of
+  hypoglycaemia, lactic acidosis or ketonuria
+- diagnostic algorithm (Figure [[fig:dd]])
+
+** Treatment
+*** Emergency
+- stop natural protein intake
+- stop catabolism with supplementation
+- reduce ammonia with drugs \pm dialysis
+
+- sodium benzoate and/or sodium phenylbutyrate (Figure [[fig:nh3]])
+
+- phenylbutyrate is a prodrug
+  - first converted to phenylbutyryl-CoA and then metabolized by mitochondrial
+    beta-oxidation to the active phenylacetate
+  - phenylacetate conjugates with glutamine to phenylacetylglutamine,
+    which is eliminated with the urine
+  - phenylacetylglutamine contains the same amount of nitrogen as
+    urea, which makes it an alternative to urea for excreting nitrogen
+
+- sodium benzoate combines with glycine to form hippuric acid which is
+  then excreted
+  - this begins with the conversion of benzoate by butyrate-CoA ligase
+    into an intermediate product, benzoyl-CoA which is then
+    metabolized by glycine N-acyltransferase into hippuric acid
+
+#+CAPTION[]:Nitrogen elimination by phenylbutyrate and benzoate
+#+NAME: fig:nh3
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/nitrogen_elimination.jpg]]
+
+*** Prognosis
+- presentation during newborn period have high risk of death
+
+- severe CPS1 and OTC deficiencies are prone to recurrent
+  hyperammonaemic crises
+  - low protein diet
+  - avoid catabolism, monitor plasma amino acids
+  - nitrogens scavengers: sodium benzoate, phenylbutyrate
+  - should undergo liver transplantation as soon as it is possible and safe
+- NAGS deficiency is the only UCD for which drug treatment is almost
+  curative
+  - N-carbamyl-L-glutamate (also known as carglumic acid ; licensed
+    drug Carbaglu )
+  - a synthetic analogue of the physiological activator of CPS1, NAG,
+    given orally activates CPS1 and thereby urea cycle function
+
+* Cytosolic
+- ASS, ASL, ARG1
+- second most frequent among the UCDs
+  - ASS and ASL deficiency, each represent \sim 15%
+  - ARG1 deficiency representing 3%
+
+** Clinical Presenation
+*** Newborns
+- ASS and ASL presentation resembles mitochondrial UCDs
+  - hyperammonaemic encephalopathy of similar severity
+  - peak plasma ammonia may not be as high
+  - onset delayed to day 6–7 of life or even later
+- ARG1 deficiency rarely presents in the newborn period
+
+*** Children and Adults
+- ASS and ASL similar to mitochondrial UCDs
+- risk of hyperammonaemic decomposition: ASS \gt ASL
+- brittle hair due to trichorrhexis nodosa is almost pathognomonic for ASL deficiency
+  - results from arginine deficiency, responding to arginine
+    administration
+- ARG1 is differs from ASL/ASS
+  - developmental delay with neurological and intellectual impairment
+  - growth retardation and spastic cerebral palsy
+  - seizures
+
+** Metabolic Derangement
+- ASS
+  - \Uparrow citrulline
+  - \downarrow ASA
+  - \downarrow arginine
+- ASL
+  - \uparrow citrulline
+  - \uparrow ASA
+  - \downarrow arginine
+- ARG1
+  - \uparrow citrulline
+  - \uparrow arginine
+  - induction in extrahepatic tissues of ARG2 may explain the modest
+    increase (about 15-fold) of plasma arginine, and the normal or
+    near-normal plasma ornithine
 
 
+- citrulline and argininosuccinate include one molecule of ornithine
+  and one(cit) or two(ASA) atoms of waste nitrogen
+  - urinary excretion of these intermediates in ASS and ASL
+    deficiencies effectively removes waste nitrogen
+  - with simultaneous loss of two (ASS) or one (ASL) ornithine
+    molecules per urea
+  - \therefore ornithine is essential in waste nitrogen is excretion
+    in ASS and ASL deficiencies
+    - administration of arginine, converted to ornithine upon cleavage by arginase
 
+** Genetics
+- AR, ASS1, ASL, ARG1
 
+** Diagnostic Tests
+- plasma amino acids (see above for pattern)
+- diagnostic algorithm (Figure [[fig:dd]])
 
+** Treatment
+- emergency management the same as mitochondrial UCDs
+  - ASL give arginine
+- maintenance treatment for ASS and ASL deficiencies is the same as
+  CPS1 and OTC deficiencies
+- liver transplant should be considered in ASS, ASL and ARG1
 
+* Mitochondrial Transport
+** HHH Syndrome
+- see section [[Ornithine and Proline]]
+** Citrin Deficiency
+*** Clinical Presentation
+ - hepatic mitochondrial aspartate/glutamate antiporter citrin
+   - supplies aspartate for the ASS reaction
+ - two main age dependent clinical presentations:
+   - Neonatal Intrahepatic Cholestasis Caused by Citrin Deficiency (NICCD)
+   - citrullinemia type II (CTLN2)
+     - occurs in adolescents and adults
+ - third less common clinical phenotype is Failure To Thrive and
+   Dyslipidemia Caused by Citrin Deficiency (FTTDCD) may also occur in
+   childhood
+
+*** Metabolic Derangement
+ - exchange of mitochondrial aspartate for cytosolic glutamate and
+   the malate/aspartate shuttle are both affected
+ - insufficient supply of mitochondrial aspartate for ASS within
+   hepatocytes, and the conversion of the fumarate released by ASL, to
+   form aspartate within the cytosol, is impaired, due to the low
+   cytosolic NAD resulting from lack of malate-aspartate shuttle
+   operation
+   - this shuttle transfers reducing equivalents from cytosolic NADH
+     to the mitochondria, regenerating NAD in the cytosol
+ - low cytosolic aspartate decreases liver ASS activity, resulting in
+   citrulline accumulation, and also impairs protein and pyrimidines
+   synthesis in liver cells
+   - both process es are cytosolic and use aspartate, explaining the
+     hypoalbuminemia and hypoproteinemia of NICCD and the lack of
+     urinary orotic acid that differentiates citrin deficiency from
+     ASS deficiency
+ - high cytosolic NADH/NAD ratios in the liver explain the
+   hypoglycaemia and the galactosaemia that are frequently observed in
+   NICCD
+ - cytosolic NAD is needed both for gluconeogenesis from lactate and
+   for UDP-galactose to UDP-glucose conversion
+
+*** Genetics
+-AR, SLC25A13
+
+*** Diagnostic Tests
+- newborns with intrahepatic cholestasis the finding of:
+  - increased plasma citrulline
+  - without significant hyperammonaemia
+  - normal or elevated levels of arginine
+  - without urinary orotic acid
+  - high plasma level of alpha-fetoprotein
+  - and/or increased galactose
+- strongly suggestive of  NICCD
+
+*** Treatment
+- avoid carbohydrate or glycerol infusions \to hyperammonaemia
+- maintenance treatment of NICCD involves the use of lactose-free or
+  MCT-enriched formula
+- when introduced, other foods should be proteinrich and fat-rich,
+  such as eggs or fish
+* Ancillary Enzymes
+** P5CS
+- see section [[Ornithine and Proline]]
+** CAVA
+- carbonic anhydrase Va (CAVA) deficiency
+*** Clinical Presentation
+- neonatal symptoms identical to those with neonatal onset UCD
+*** Metabolic Derangement
+- bicarbonate cannot cross the mitochondrial membrane
+- spontaneous conversion of CO_2 to bicarbonate is too slow for the
+  needs of urea synthesis
+- CAVA accelerates this conversion within liver mitochondria
+  - supplying the bicarbonate used intramitochondrially by:
+    - CPS1
+    - pyruvate carboxylase
+    - propionyl CoA carboxylase
+    - 3-methylcrotonyl CoA carboxylase
+- \therefore CAVA deficiency impairs:
+  - urea cycle
+  - gluconeogenesis
+  - BCAA metabolism
+- has an unusual combination of biochemical findings:
+  - hyperammonaemia
+  - decreased plasma citrulline
+  - absence of urinary orotic acid
+  - hypoglycaemia
+  - metabolic acidosis
+  - high plasma lactate
+  - urinary ketone bodies
+  - UOA contains carboxylase-related metabolites (see multiple carboxylase deficiency)
+
+*** Genetics
+- AR, CA5A
+
+*** Diagnostic Tests
+- \uparrow plasma ammonia
+- \uparrow blood lactate
+- \uparrow urine ketone bodies
+- \downarrow blood glucose
+- \downarrow citrulline 
+- urine organic acids for carboxylase metabolites
+- normal plasma acylcarnitines
+
+*** Treatment
+- emergency management for CAVA deficiency is mainly symptomatic
+  - focusing on treating hyperammonaemia as for intramitochondrial UCDs
+- good outcome
+  

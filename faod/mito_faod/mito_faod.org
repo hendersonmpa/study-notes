@@ -3,7 +3,6 @@
 #+DATE: \today
 
 
-
 #+CAPTION[]:\beta-oxidation
 #+NAME: fig:box
 #+ATTR_LaTeX: :width 0.9\textwidth
@@ -11,43 +10,56 @@
 
 * Carnitine Cycle Defects
 ** Carnitine Transporter Deficiency
+AKA:primary carnitine deficiency, carnitine uptake deficiency
+*** Clinical Presentation
+- cardiomyopathy, cardiac failure, muscle weakness, liver disease
+- precipitated by infection, fasting, pregnancy or antibiotics containing pivalate
+- pivalate is excreted bound to carnitine, \downarrow carnitine concentration
+  - isobaric with C5-carnitine
+- some present in infancy with hypoglycaemia, liver dysfunction and hyperammonaemia
+- other children develop heart failure due to cardiomyopathy,
+  thickened ventricular walls and reduced contractility
+- often accompanied by skeletal muscle weakness
+- adults may suffer fatigue or arrhythmias
+- screening has shown that many subjects with low plasma carnitine remain asymptomatic
+*** Metabolic Derangement
 - organic cation/carnitine transporter(OCTN2) responsible for
   carnitine uptake
   - analysis of carnitine transport in different tissues suggests the
     presence of heterogeneous transporters
-  - liver and brain have a low-affinity (K_M 2–10 uM), high-capacity transporter
-  - fibroblast, muscle, and heart cells have a high-affinity (K_M 5–10 uM), low-capacity system
+  - liver and brain have a low-affinity (K_M=2-10 uM), high-capacity transporter
+  - fibroblast, muscle, and heart cells have a high-affinity (K_M=5-10 uM), low-capacity system
 - defects \to primary carnitine deficiency with \uparrow renal loss of carnitine
-  - low plasma concentrations
-  - low intracellular concentrations \to impair fatty acid oxidation
- - precipitated by infection, fasting, pregnancy or antibiotics containing pivalate
-   - pivalate is excreted bound to carnitine, \downarrow carnitine concentration
-   - isobaric with C5-carnitine
- - some present in infancy with hypoglycaemia, liver dysfunction and hyperammonaemia
- - other children develop heart failure due to cardiomyopathy,
-   thickened ventricular walls and reduced contractility
-   - often accompanied by skeletal muscle weakness
- - adults may suffer fatigue or arrhythmias
- - screening has shown that many subjects with low plasma carnitine remain asymptomatic
-   - Faroe Islands prevalence is 1:300
-
+  - \downarrow plasma concentrations
+  - \downarrow intracellular concentrations \to impair fatty acid
+    oxidation
+*** Diagnostic Testing
+- \Downarrow plasma total carnitine, \lt 5% of normal
+- \uparrow urine free carnitine
+*** Treatment 
+- carnitine supplementation
 ** Carnitine Palmitoyltransferase I Deficiency
-- *CPT Ia* liver and kidney
-- *CPT Ib*  muscle and heart
-- *CPT Ic*  brain
-
-- only CPT Ia deficiency has been identified
+*** Clinical Presentation
 - usually present by the age of 2 years with hypoketotic hypoglycaemia,
   - induced by fasting or illness
 - accompanied by hepatomegaly, liver dysfunction and occasionally cholestasis
   - may also be transient lipaemia and renal tubular acidosis
+*** Metabolic Derangement
+- *CPT Ia* liver and kidney
+- *CPT Ib*  muscle and heart
+- *CPT Ic*  brain
+- only CPT Ia deficiency has been identified
 - CPT I deficiency is extremely common in the Inuit population of Canada and Greenland
   - c.1436C>T, P479L 
 - a few of these patients present with hypoglycaemia as neonates or young children
   - most remain asymptomatic
 
-** Carnitine Acylcarnitine Translocase Deficiency
+*** Diagnostic Testing
+- \uparrow free carnitine
+- \downarrow C16, C18, C18:1 acylcarnitines
 
+** Carnitine Acylcarnitine Translocase Deficiency
+*** Clinical Presentation
 - rare disorder usually presents in the neonatal period, with
   death by 3 months of age
   - severe hypoglycaemia and hyperammonaemia, cardiomyopathy,
@@ -55,6 +67,7 @@
 - few more mildly affected patients present later with hypoglycaemic
   encephalopathy
   - precipitated by fasting or infections
+*** Metabolic Derangement
 
 ** Carnitine Palmitoyltransferase II Deficiency 
 *** Neonatal
