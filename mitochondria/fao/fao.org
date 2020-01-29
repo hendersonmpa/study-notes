@@ -100,8 +100,8 @@
  |--------+--------+----------|
  | VLCAD  |  14-20 | IMM      |
  | LCAD   |  12-18 | MM       |
- | MCAD   |   4-12 | MM       |
- | SCAD   |    2-4 | MM       |
+ | MCAD   |   6-12 | MM       |
+ | SCAD   |    2-6 | MM       |
 
 
  #+CAPTION[]:Other: Chain Length Specificity
@@ -266,57 +266,54 @@ AKA:primary carnitine deficiency, carnitine uptake deficiency
 *** Metabolic Derangement 
 - CPTII is situated on the inner mitochondrial membrane, catalyzes the
   regeneration of carnitine and the long chain fatty acyl CoAs, which
-  then undergo \beta-oxidation
+  then undergo \beta-oxidation (Figure [[fig:cpt1]])
 *** Genetics
 - AR, CPT2
 *** Diagnostic Testing
 - \downarrow total carnitine
 - \uparrow (C16 + C18)/C2
-* TODO \beta-Oxidation Defects
+
+*** Treatment
+- high-carbohydrate (70%) and low-fat (<20%) diet to provide fuel for glycolysis
+- carnitine to convert potentially toxic long-chain acyl-CoAs to
+  acylcarnitines
+* \beta-Oxidation Defects
 ** Very-Long-Chain Acyl-CoA Dehydrogenase Deficiency
-*** Early infancy 
-- severely affected patients present in early infancy with
-  cardiomyopathy, in addition to the problems seen in milder patients
+*** Clinical Presentation
+**** Early infancy 
+ - severely affected patients present in early infancy with
+   cardiomyopathy, in addition to the problems seen in milder patients
+**** Childhood
+ - patients present in childhood with hypoglycaemia but suffer exercise
+   or illness induced rhabdomyolysis or chronic weakness at a later age
+**** Adolescence, Adult
+ - mildly affected patients present as adolescents or adults with
+   exercise-induced rhabdomyolysis
+*** Metabolic Derangement
+- VLCAD is one of four mitochondrial acyl CoA dehydrogenases that
+  catalyze the initial steps in the \beta-oxidation of fatty acids
+  (Table [[tab:deh]])
+- optimal substrate is c16, palmitoy-CoA
+- ACAD9 is responsible for production of C14:1-carnitine and
+  C12-carnitine in VLCAD deficiency
+#+CAPTION[]:VLCAD reaction 
+#+NAME: fig:vlcad
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./fao/figures/vlcad.png]]
 
-*** Childhood
-- patients present in childhood with hypoglycaemia but suffer exercise
-  or illness induced rhabdomyolysis or chronic weakness at a later age
+*** Genetics
+- AR, ACADVL
 
-*** Adolescence, Adult
-- mildly affected patients present as adolescents or adults with
-  exercise-induced rhabdomyolysis
-
-*** Screening
-- second most common FAOD in Europe and the USA 
-- prevalence between 1:50,000 and 1:100,000
-- much higher than detected clinically
-- likely that many patients diagnosed by screening would remain
-  asymptomatic without intervention
-
-** Mitochondrial Trifunctional Protein
-- MTP a hetero-octamer composed of four \alpha-subunits and four \beta-subunits;
-- \alpha-subunit has long-chain enoyl-CoA hydratase (LCEH) and LCHAD activities
-- \beta-subunit has long-chain ketoacyl-CoA thiolase (LCKAT) activity
-- patients may have isolated LCHAD deficiency or a generalised deficiency of all three enzyme activities
-
-- mothers who are heterozygous for LCHAD or MTP deficiency have a high
-  risk of illness during pregnancies when carrying an affected fetus
-- main problems are HELLP syndrome (Haemolysis, Elevated Liver
-  enzymes and Low Platelets) and acute fatty liver of pregnancy
-  (AFLP)
-
-** Long-Chain 3-Hydroxyacyl-CoA Dehydrogenase
-- isolated LCHAD deficiency usually presents acutely before 6 months of age
-  - hypoglycaemia, liver dysfunction, lactic acidosis
-  - Many have cardiomyopathy, some have hypoparathyroidism or ARDS
-- other patients present with chronic symptoms
-  - failure to thrive, hypotonia, occasionally cholestasis or cirrhosis
-- subsequently, episodes of rhabdomyolysis are common
-- many patients develop retinopathy, may start as early as 2 years of age
-- granular pigmentation followed by chorioretinal atrophy w deteriorating central vision
-- some patients develop cataracts
+*** Diagnostic Testing
+- \uparrow C14:1
+- \uparrow C14:1/C12:1
+- \uparrow UOA C3-C14 dicarboxylic acids
+*** Treatment
+- avoid fasting
+- more severe forms low-fat diet with MCT
 
 ** Mitochondrial Trifunctional Protein Deficiency
+*** Clinical Presentation
 - presentation of generalised MTP deficiency is heterogeneous 
 - patients with severe deficiency present as neonates
   - cardiomyopathy, respiratory distress, hypoglycaemia and liver dysfunction
@@ -326,18 +323,72 @@ AKA:primary carnitine deficiency, carnitine uptake deficiency
   - exercise induced rhabdomyolysis and progressive peripheral
     neuropathy
   - can present at any age from infancy to adulthood
+- mothers who are heterozygous for LCHAD or MTP deficiency have a high
+  risk of illness during pregnancies when carrying an affected fetus
+  - main problems are HELLP syndrome (Haemolysis, Elevated Liver
+    enzymes and Low Platelets) and acute fatty liver of pregnancy
+    (AFLP)
+*** Metabolic Derangement
+- MTP a hetero-octamer composed of four \alpha-subunits and four
+  \beta-subunits
+- \alpha-subunit has long-chain enoyl-CoA hydratase (LCEH) and LCHAD
+  activities
+- \beta-subunit has long-chain ketoacyl-CoA thiolase (LCKAT) activity
+- patients may have isolated LCHAD deficiency or a generalised
+  deficiency of all three enzyme activities
+- MTP deficiency can result from mutations that affect the assembly of
+  and/or degradation of the heterooctomeric holoenzyme
 
+*** Diagnostic Tests
+- see [[Long-Chain 3-Hydroxyacyl-CoA Dehydrogenase]]
+
+*** Treatment 
+- see [[Long-Chain 3-Hydroxyacyl-CoA Dehydrogenase]]
+
+** Long-Chain 3-Hydroxyacyl-CoA Dehydrogenase
+*** Clinical Presentation
+- isolated LCHAD deficiency usually presents acutely before 6 months of age
+  - hypoglycaemia, liver dysfunction, lactic acidosis
+  - many have cardiomyopathy, some have hypoparathyroidism or ARDS
+- other patients present with chronic symptoms
+  - failure to thrive, hypotonia, occasionally cholestasis or cirrhosis
+- subsequently, episodes of rhabdomyolysis are common
+- many patients develop retinopathy, may start as early as 2 years of age
+- granular pigmentation followed by chorioretinal atrophy w deteriorating central vision
+- some patients develop cataracts
+*** Metabolic Derangement
+- LCHAD is a component of MTP
+- bound to the inner mitochondrial membrane
+- activity is optimal for C12-C16 
+- catalyzes dehydration of the 3-hydroxy group to a 3-keto group
+  (Figure [[fig:lchad]])
+#+CAPTION[]:LCHAD reaction
+#+NAME: fig:lchad
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/lchad.png]]
+
+*** Genetics
+- AR, HADHA
+
+*** Diagnostic Tests
+- \uparrow lactate, 3-OH-palmitoyl-CoA inhibits PDH
+- \uparrow C14OH, C16OH, C18OH, C18:1OH
+- \uparrow UOA C6-C14 (hydroxy-)dicarboxylic acids
+
+*** Treatment
+- avoid fasting
+- low fat diet with MCT
 ** Long-Chain Acyl-CoA Dehydrogenase Deficiency
+- LCAD is one of four mitochondrial acyl CoA dehydrogenases that
+  catalyze the initial steps in the \beta-oxidation of fatty acids
+  (Table [[tab:deh]])
 - no human disease-causing mutations have been identified
 - role  in  human  metabolism  is unclear
-- /in vitro/, the substrate specificity of LCAD overlaps with that of
-  VLCAD and ACAD9
-- enzymes have strong activity toward long-chain acyl-CoAs (C14-20)
-- surfactant deficiency and altered lung mechanics in LCAD deficient
-  mice
-  - postulated that LCAD deficiency in humans may manifest primarily
-    as a lung disease
+- the substrate specificity of LCAD overlaps with that of
+  VLCAD and MCAD
+
 ** Medium-Chain Acyl-CoA Dehydrogenase Deficiency
+*** Clinical Presentation
 - most common FAOD with an incidence of approximately 1:10,000-20,000
   in Europe,USA and Australia
 - before NBS, presented 4 months to 4 years
@@ -351,42 +402,46 @@ AKA:primary carnitine deficiency, carnitine uptake deficiency
     breast milk at this stage
 - MCAD deficiency only presents clinically if exposed to an
   appropriate environmental stress
-- prior to NBS ~ 30-50% remained asymptomatic
-- NBS and preventative measures, hypoglycaemia is rare
-  - Patients do not develop cardiomyopathy or myopathy and few present
+  - prior to NBS ~ 30-50% remained asymptomatic
+- with NBS and preventative measures, hypoglycaemia is rare
+  - patients do not develop cardiomyopathy or myopathy and few present
     initially as adults
 - healty MCAD deficient children > 1 year can fast for 12-14 hours without problems
-- >14 hours \to non-ketotic (inappropriately low) hypoglycaemia
+  - >14 hours \to hypoketotic hypoglycaemia
 - shorter fasts may cause problems in infancy
 - encephalopathy may occur without hypoglycaemia
   - accumulation of FFA acids and carnitine/CoA esters
+*** Metabolic Derangement
+- MCAD is one of four mitochondrial acyl CoA dehydrogenases that
+  catalyze the initial steps in the \beta-oxidation of fatty acids
+  (Table [[tab:deh]])
+- MCAD accepts fatty acyl CoAs in which the acid chain length is 6–12
+  carbons in length
+
+#+CAPTION[]:Acyl-CoA Dehydrogenase Reaction
+#+NAME: fig:acad
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./fao/figures/acad.png]]
+
+*** Genetics
+- AR, ACADM 
+*** Diagnostic Tests
+- \uparrow C8, C6,
+- \uparrow C8/C10
+- \uparrow UOA C6-C10 dicarboxylic acids, suberylglycine, hexanolyglyine
+*** Treatment
+- avoid fasting
+- low fat diet in infants
 
 ** Short-Chain Acyl-CoA Dehydrogenase Deficiency
-- non-disease?
-  - previous association with symptoms due to ascertainment bias?
+- non-disease
+  - previous association with symptoms due to ascertainment bias
 
 ** 3-Hydroxyacyl-CoA Dehydrogenase Deficiency
 - HADH, previously called SCHAD deficiency, causes hyperinsulinaemic
   hypoglycaemia
 - role in modulation of ATP production inhibition of GDH
-
-** Acyl-CoA dehydrogenase 9
-- complex I assembly factor with a moonlighting function in fatty
-  acid oxidation deficiencies
-- ACAD9 is most homologous to VLCAD
-- recombinant ACAD9 displays activity towards long-chain acyl-CoAs,
-  very similar to VLCAD
-- responsible for production of C14:1-carnitine and C12-carnitine in
-  VLCAD deficiency
-  - VLCAD^{-/-} cell lines accumulate C14:1
-  - VLCAD^{-/-}/ACAD9^{-/-} cell lines accumulate C18:1
-- patients with ACAD9 defects present in infancy or childhood with
-  myopathy or hypertrophic cardiomyopathy and lactic acidaemia
-  - some also have neurological problems
-- myopathic patients often respond to treatment with riboflavin
-  - FAD is the enzyme-bound prosthetic group of all acyl-CoA
-    dehydrogenases
-
+- see section Congenital Hyperinsulinema
 ** COMMENT 2,4-Dienoyl-CoA reductase deficiency
 - Oxidation of unsaturated fatty acids
 
