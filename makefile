@@ -1,19 +1,9 @@
 SHELL=/bin/bash
 OUT_DIR=./notes/
 
-all: $(OUT_DIR)faod.pdf $(OUT_DIR)organelles.pdf \
-$(OUT_DIR)mitochondrial_disease.pdf $(OUT_DIR)carbohydrate.pdf \
+all: $(OUT_DIR)organelles.pdf $(OUT_DIR)mitochondria.pdf $(OUT_DIR)carbohydrate.pdf \
 $(OUT_DIR)lipids_bile.pdf $(OUT_DIR)misc.pdf $(OUT_DIR)vitamins.pdf $(OUT_DIR)aa.pdf \
 $(OUT_DIR)methods.pdf $(OUT_DIR)conditions.pdf $(OUT_DIR)tnt.pdf clean
-
-$(OUT_DIR)faod.pdf: ./faod/faod.org ./faod/fao/fao.org ./faod/faod_routine_testing/faod_routine_testing.org \
-./faod/mito_faod/mito_faod.org 
-	emacs -u "$(id -un)" \
-	--batch \
-	--eval '(load user-init-file)' \
-	./faod/faod.org \
-	-f org-latex-export-to-pdf
-	mv -v ./faod/faod.pdf $(OUT_DIR)faod.pdf
 
 $(OUT_DIR)organelles.pdf: ./organelles/organelles.org ./organelles/fabry/fabry.org \
 ./organelles/farber/farber.org ./organelles/gaucher/gaucher.org ./organelles/GM1_2/GM1_2.org \
@@ -29,16 +19,16 @@ $(OUT_DIR)organelles.pdf: ./organelles/organelles.org ./organelles/fabry/fabry.o
 	-f org-latex-export-to-pdf
 	mv -v ./organelles/organelles.pdf $(OUT_DIR)organelles.pdf
 
-$(OUT_DIR)mitochondrial_disease.pdf: ./mitochondria/mitochondrial_disease.org ./mitochondria/etc/etc.org \
+$(OUT_DIR)mitochondria.pdf: ./mitochondria/mitochondria.org ./mitochondria/etc/etc.org \
 ./mitochondria/mitochondria/mitochondria.org ./mitochondria/oxphos_disorders/oxphos_disorders.org \
-./mitochondria/pyruvate/pyruvate.org ./mitochondria/tca/tca.org ./mitochondria/ketones/ketones.org \
-./mitochondria/creatine/creatine.org
+./mitochondria/fao/fao.org ./mitochondria/ketones/ketones.org \
+./mitochondria/pyruvate/pyruvate.org ./mitochondria/tca/tca.org ./mitochondria/creatine/creatine.org
 	emacs -u "$(id -un)" \
 	--batch \
 	--eval '(load user-init-file)' \
-	./mitochondria/mitochondrial_disease.org \
+	./mitochondria/mitochondria.org \
 	-f org-latex-export-to-pdf
-	mv -v mitochondria/mitochondrial_disease.pdf $(OUT_DIR)mitochondrial_disease.pdf
+	mv -v ./mitochondria/mitochondria.pdf $(OUT_DIR)mitochondria.pdf
 
 
 $(OUT_DIR)carbohydrate.pdf: ./carbohydrate/carbohydrate.org ./carbohydrate/carbohydrate_metabolism/carbohydrate_metabolism.org \

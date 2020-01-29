@@ -1,4 +1,4 @@
-#+TITLE: Fatty Acid Oxidation Disorders
+#+TITLE: Fatty Acid Oxidation and Ketones
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
@@ -32,7 +32,7 @@
 * Fatty Acid Oxidation
 #+INCLUDE: "./fao/fao.org" :lines "4-"
 * Mitochondrial FAODs
-#+INCLUDE: "./mito_faod/mito_faod.org" :lines "4-"
+* Ketogenesis and Ketolysis 
+#+INCLUDE: "./ketones/ketones.org" :lines "4-"
 
-* COMMENT Routine Testing for Mitochondrial FAODs
-#+INCLUDE: "./faod_routine_testing/faod_routine_testing.org" :lines "4-"
+

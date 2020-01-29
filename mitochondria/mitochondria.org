@@ -39,6 +39,8 @@
 #+INCLUDE: "./etc/etc.org" :lines "4-"
 * OxPhos Disorders
 #+INCLUDE: "./oxphos_disorders/oxphos_disorders.org" :lines "4-"
+* Fatty Acid Oxidation
+#+INCLUDE: "./fao/fao.org" :lines "4-"
 * Ketogenesis and Ketolysis 
 #+INCLUDE: "./ketones/ketones.org" :lines "4-"
 * Creatine Deficiency 
