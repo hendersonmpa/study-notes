@@ -40,6 +40,11 @@
 - a major source of THF and of other one-carbon donors that are
   required for the synthesis of purines and thymidine
 
+#+CAPTION[]: Serine and Glycine Metabolism
+#+NAME: fig:sergly
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/Slide06.png]]
+
 ** Disorders
 - four disorders of serine metabolism are known
 

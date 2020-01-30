@@ -110,6 +110,13 @@
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./peptides/figures/gsh.png]]
 
+
+#+CAPTION[]: The \gamma-glutamyl cycle
+#+NAME: fig:ggc2
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./peptides/figures/Slide08.png]]
+
+
 ** Glutathione Synthetase Deficiency
 *** Clinical Presentation
 - classified as mild, moderate or severe

@@ -53,12 +53,12 @@ $(OUT_DIR)lipids_bile.pdf: ./lipids_bile/lipids_bile.org ./lipids_bile/bile/bile
 	mv -v ./lipids_bile/lipids_bile.pdf $(OUT_DIR)lipids_bile.pdf
 
 $(OUT_DIR)misc.pdf: ./misc/misc.org ./misc/pp/pp.org ./misc/porphyrins/porphyrins.org \
-./misc/metal/metal.org ./misc/peptides/peptides.org
+./misc/metal/metal.org ./misc/peptides/peptides.org ./misc/neuro/neuro.org
 	emacs -u "$(id -un)" \
 	--batch \
 	--eval '(load user-init-file)' \
 	./misc/misc.org \
-	-f org-latex-export-to-pdf/
+	-f org-latex-export-to-pdf
 	mv -v ./misc/misc.pdf $(OUT_DIR)misc.pdf
 
 $(OUT_DIR)vitamins.pdf: ./vitamins/vitamins.org ./vitamins/biotin/biotin.org \

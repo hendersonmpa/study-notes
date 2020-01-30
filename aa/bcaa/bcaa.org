@@ -20,8 +20,14 @@
 
 #+CAPTION[]:BCAA catabolism
 #+NAME: fig:bcaa
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+ATTR_LaTeX: :width 1\textwidth
 [[file:./bcaa/figures/bcaa.png]]
+
+
+#+CAPTION[]:BCAA catabolism
+#+NAME: fig:bcaa
+#+ATTR_LaTeX: :width 1\textwidth
+[[file:./bcaa/figures/Slide02.png]]
 
 - branched-chain organic acidurias or organic acidaemias are a group
   of disorders that result from an abnormality of specific enzymes

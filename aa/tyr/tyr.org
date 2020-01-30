@@ -21,6 +21,11 @@
 [[file:./tyr/figures/tyr.png]]
 
 
+#+CAPTION[]:Phenylalanine and Tyrosine Metabolism
+#+NAME: fig:phetyr
+#+ATTR_LaTeX: :width 1\textwidth
+[[file:./phe/figures/Slide04.png]]
+
 - Five inherited disorders of tyrosine metabolism are known:
   - Tyrosinemia type I is characterised by progressive
     liver disease and renal tubular dysfunction with rickets

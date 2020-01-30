@@ -24,7 +24,7 @@
   phenylpyruvic acid and further reduced and decarboxylated
 
 
-#+CAPTION[]:
+#+CAPTION[]:Phenylalaninemia classification
 #+NAME: fig:
 | Class           | Phe (\micro{}mol/l) | PAH activity |
 |-----------------+---------------------+--------------|
@@ -37,6 +37,11 @@
 #+NAME: fig:pah
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./phe/figures/pah.png]]
+
+#+CAPTION[]:Phenylalanine and Tyrosine Metabolism
+#+NAME: fig:phetyr
+#+ATTR_LaTeX: :width 1\textwidth
+[[file:./phe/figures/Slide04.png]]
 
 * Phenylalanine Hydroxylase Deficiency
 ** Clinical Presentation

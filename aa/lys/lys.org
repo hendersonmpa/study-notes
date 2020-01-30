@@ -79,6 +79,12 @@
 #+ATTR_LaTeX: :width 1.2\textwidth
 [[file:./lys/figures/cat.png]]
 
+
+#+CAPTION[]:Tryptophan and lysine catabolic pathways
+#+NAME: fig:trplys
+#+ATTR_LaTeX: :width 1\textwidth
+[[file:./lys/figures/Slide05.png]]
+
 * Glutaric Aciduria Type I
 ** Clinical Presentation
 - differential diagnosis of any infant who has:
