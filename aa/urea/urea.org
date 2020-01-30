@@ -18,19 +18,19 @@
 #+CAPTION[]:Urea Cycle
 #+NAME: fig:ureacycle
 #+ATTR_LaTeX: :width 1\textwidth
-[[file:./aa/urea/figures/urea_cycle.png]]
+[[file:./urea/figures/urea_cycle.png]]
 
 
 #+CAPTION[]:Urea Cycle
 #+NAME: fig:ureacycle
 #+ATTR_LaTeX: :width 1\textwidth
-[[file:./aa/urea/figures/Slide01.png]]
+[[file:./urea/figures/Slide01.png]]
 
 
 #+CAPTION[]:Diagnostic algorithm that can be applied to any hyperammonaemic patient
 #+NAME: fig:dd
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./aa/figures/ammonia_dd.png]]
+[[file:./urea/figures/ammonia_dd.png]]
 
 * Mitochondrial 
 - CPS, OTC and NAGs deficiency
