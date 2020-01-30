@@ -113,6 +113,37 @@
  | Acetoacetyl-CoA thiolase          |      4 | Acetoacetyl-CoA specific              |
  | Trifunctional protein             |  12-16 | \uparrow activity w \uparrow length   |
 
+
+** Common manifestations in FAODs
+ - fasting hypoglycaemia is the classic metabolic disturbance in FAODs
+   - primarily due to increased peripheral glucose consumption
+   - hepatic glucose output is also reduced under some conditions
+ - the hypoglycaemia is hypoketotic
+   - ketone bodies can be synthesised
+     - medium-or short-chain FAODs or if there is high residual enzyme activity
+     - plasma concentrations are lower than expected for hypoglycaemia or the plasma free fatty acid concentrations
+ - hyperammonaemia occurs in some severe defects
+   - with normal or low glutamine concentrations
+   - decreased acetyl-CoA production reducing the synthesis of N-acetylglutamate
+ - lactic acidaemia is seen in long-chain FAODs(LCHAD and MTP deficiencies)
+   - inhibitory effects of metabolites on pyruvate metabolism
+ - moderate hyperuricaemia - frequent finding during acute attacks
+ - secondary hyperprolinaemia occurs in some babies with MAD deficiency
+ - accumulating long-chain acylcarnitines may be responsible for
+   arrhythmias and may interfere with surfactant metabolism
+ - in LCHAD and MTP deficiencies, long chain hydroxy-acylcarnitine
+   concentrations correlate with the severity of retinopathy and may
+   cause both this and the peripheral neuropathy
+
+ #+CAPTION[]:Common manifestations in FAODs
+ #+NAME: fig:common
+ #+ATTR_LaTeX: :width 1.2\textwidth
+ [[./fao/figures/Ch101f016.png]]
+
+  - Green squares indicate that the feature is frequently seen in the disorder
+  - Yellow squares represent an intermediate rate of occurrence
+  - Red squares denote that it is uncommon
+
 * Carnitine Cycle Defects
 - carnitine-mediated transport of fatty acids is rate-limiting in the
   oxidation of fats
@@ -120,7 +151,7 @@
   inadequate formation of ketone bodies in response to fasting along
   with inadequate gluconeogenesis and hypoglycemia.
 ** Carnitine Transporter Deficiency
-AKA:primary carnitine deficiency, carnitine uptake deficiency
+- AKA:primary carnitine deficiency, carnitine uptake deficiency
 *** Clinical Presentation
 - cardiomyopathy, cardiac failure, muscle weakness, liver disease
 - precipitated by infection, fasting, pregnancy or antibiotics containing pivalate
@@ -180,8 +211,8 @@ AKA:primary carnitine deficiency, carnitine uptake deficiency
 
 #+CAPTION[]:CPT1
 #+NAME: fig:cpt1
-#+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./fao/figures/cpt1.pdf]]
+#+ATTR_LaTeX: :width 0.6\textwidth
+[[file:./fao/figures/cpt1.png]]
 
 *** Genetics
 - AR, CPT1A
@@ -215,9 +246,9 @@ AKA:primary carnitine deficiency, carnitine uptake deficiency
 - long chain acylcarnitines and short chains are also found, because
   translocase catalyzes the transport of short as well as long chain
   acylcarnitines
-- long chain acyl carnitines predominate during illness following
-  fasting induced lipolysis
-- .medium and short chain esters might reflect the acyl CoA products
+- \Uparrow long chain acyl carnitines during illness and fasting
+  induced lipolysis
+- \uparrow medium and short chain esters might reflect the acyl CoA products
   of peroxisomal oxidation that would require transfer into the
   mitochondria via the translocase for final oxidation
 - secondary deficiency of free carnitine would be expected to result
@@ -226,7 +257,7 @@ AKA:primary carnitine deficiency, carnitine uptake deficiency
 
 #+CAPTION[]:Carnitine Translocase
 #+NAME: fig:translocase
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./fao/figures/translocase.png]]
 
 *** Genetics
@@ -257,7 +288,7 @@ AKA:primary carnitine deficiency, carnitine uptake deficiency
    - CK often normalises between episodes but may remain moderately
      elevated
 
-**** Adolescence,  young adult
+**** Adolescence and Adult
  - most common form is a partial deficiency that presents with
    episodes of rhabdomyolysis
    - usually precipitated by prolonged exercise
@@ -280,13 +311,13 @@ AKA:primary carnitine deficiency, carnitine uptake deficiency
 * \beta-Oxidation Defects
 ** Very-Long-Chain Acyl-CoA Dehydrogenase Deficiency
 *** Clinical Presentation
-**** Early infancy 
+**** Infancy 
  - severely affected patients present in early infancy with
    cardiomyopathy, in addition to the problems seen in milder patients
 **** Childhood
  - patients present in childhood with hypoglycaemia but suffer exercise
    or illness induced rhabdomyolysis or chronic weakness at a later age
-**** Adolescence, Adult
+**** Adolescence and Adult
  - mildly affected patients present as adolescents or adults with
    exercise-induced rhabdomyolysis
 *** Metabolic Derangement
@@ -298,7 +329,7 @@ AKA:primary carnitine deficiency, carnitine uptake deficiency
   C12-carnitine in VLCAD deficiency
 #+CAPTION[]:VLCAD reaction 
 #+NAME: fig:vlcad
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./fao/figures/vlcad.png]]
 
 *** Genetics
@@ -364,8 +395,8 @@ AKA:primary carnitine deficiency, carnitine uptake deficiency
   (Figure [[fig:lchad]])
 #+CAPTION[]:LCHAD reaction
 #+NAME: fig:lchad
-#+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./figures/lchad.png]]
+#+ATTR_LaTeX: :width 0.6\textwidth
+[[file:./fao/figures/lchad.png]]
 
 *** Genetics
 - AR, HADHA
@@ -420,7 +451,7 @@ AKA:primary carnitine deficiency, carnitine uptake deficiency
 
 #+CAPTION[]:Acyl-CoA Dehydrogenase Reaction
 #+NAME: fig:acad
-#+ATTR_LaTeX: :width 0.9\textwidth
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./fao/figures/acad.png]]
 
 *** Genetics
@@ -442,106 +473,58 @@ AKA:primary carnitine deficiency, carnitine uptake deficiency
   hypoglycaemia
 - role in modulation of ATP production inhibition of GDH
 - see section Congenital Hyperinsulinema
-** COMMENT 2,4-Dienoyl-CoA reductase deficiency
-- Oxidation of unsaturated fatty acids
-
-#+CAPTION[]:2,4-Dienoyl-CoA reductase deficiency
-#+NAME: fig:dienol
-#+ATTR_LaTeX: :width 0.9\textwidth
-[[./fao/figures/dienol.pdf]]
-
-- initially described in 1990 based on a single case who presented with persistent hypotonia
-  - elevated lysine, low carnitine
-  - abnormal acylcarnitine profile in urine and plasma
-- The abnormal acylcarnitine species was 2-trans,4-cis-decadienoylcarnitine
-  - intermediate of linoleic acid metabolism
-- The index case died of respiratory failure at four months of age
-- Postmortem enzyme analysis on liver and muscle samples revealed
-  decreased 2,4-dienoyl-CoA reductase activity when compared to normal
-  controls
-- a deficiency of this enzyme has been shown to occur
-  in a patient due to a mutation in the NADK2 gene, a mitochondrial
-  NAD kinase
-- disruption of NADP synthesis \to secondary deficiencies of
-  2,4-dienoyl-coA reductase and \alpha-aminoadipic semialdehyde
-  synthase
-
 * Electron Transfer Defects 
 ** Multiple acyl-CoA dehydrogenase deficiency 
 - AKA glutaric aciduria type II
-- Electron transfer flavoprotein (ETF) and ETF ubiquinone
-  oxidoreductase (ETFQO) carry electrons to the respiratory chain from
-  multiple FAD-linked dehydrogenases
-- includes enzymes of amino acid, choline metabolism and acyl-CoA
-  dehydrogenases of \beta-oxidation
-- defects in ETF or ETFQO \to 
-- GAII less often, a result of defects of riboflavin transport or
-  metabolism
+*** Clinical Presentation
 - ETF and ETFQO deficiencies \to wide range of clinical severity
 - severely affected patients present in the first few days of life
  - hypoglycaemia, hyperammonaemia and acidosis
  - hypotonia and hepatomegaly
-- there is usually an odour of sweaty feet similar to that in isovaleric acidaemia
+- there is usually an odour of sweaty feet similar to that in IVA
 - some patients have congenital anomalies
  - large cystic kidneys, hypospadias and neuronal migration defects and facial dysmorphism
    - low set ears, high forehead and midfacial hypoplasia
-- the malformations resemble those seen in CPT II deficiency but the pathogenesis is unknown
+- the malformations resemble those seen in CPTII deficiency but the pathogenesis is unknown
 - most patients with neonatal presentation die within a week of birth
 - others develop cardiomyopathy and die within a few months
 - less severe cases can present at any age from infancy to adulthood
  - with hypoglycaemia, liver dysfunction and weakness
  - usually precipitated by an infection
 - cardiomyopathy is common in infants
-- rarer problems include stridor and leukodystrophy
 - mildly affected children may have recurrent bouts of vomiting
 - muscle weakness is the commonest presentation in adolescents and adults
  - predominantly affects proximal muscles and may lead to scoliosis,
    hypoventilation or an inability to lift the chin off the chest
 - weakness can worsen rapidly during infection or pregnancy, myoglobinuria is rare
- - many milder defects respond to riboflavin
 
-* COMMENT Additional Defects
-** FA transport
- - The mechanisms of fatty acid transport across the plasma membrane are still not completely clear
- - Impaired uptake has been reported in 2 boys who presented with liver failure
- - The molecular basis was not identified and the diagnoses remains uncertain
+*** Metabolic Derangement
+- Electron transfer flavoprotein (ETF) and ETF ubiquinone
+  oxidoreductase (ETFQO) carry electrons to the respiratory chain from
+  multiple FAD-linked dehydrogenases
+- includes enzymes of amino acid, choline metabolism and acyl-CoA
+  dehydrogenases of \beta-oxidation
+- GAII less often, a result of defects of riboflavin transport or
+  metabolism
 
-** Potential Defects
-*** Medium-chain 3-ketoacyl-CoA thiolase (MCKAT) deficiency
-- reported in one patient, who died at 13 days of age
-- hypoglycaemia, hyperammonaemia, acidosis and myoglobinuria
+#+CAPTION[]:Multiple Acyl-CoA Dehydrogenase Deficiency
+#+NAME: fig:madd
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./fao/figures/madd.png]]
 
-*** Long-chain acyl-CoA dehydrogenase (LCAD) 
-- involved in surfactant metabolism
-- LCAD deficiency has been reported in two cases of sudden infant death
+#+CAPTION[]: Role of ETF and ETF-QO
+#+NAME: fig:etf
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./fao/figures/etf.png]]
 
-*  Common manifestations in FAODs
-- fasting hypoglycaemia is the classic metabolic disturbance in FAODs
-  - primarily due to increased peripheral glucose consumption
-  - hepatic glucose output is also reduced under some conditions
-- the hypoglycaemia is hypoketotic
-  - ketone bodies can be synthesised
-    - medium-or short-chain FAODs or if there is high residual enzyme activity
-    - plasma concentrations are lower than expected for hypoglycaemia or the plasma free fatty acid concentrations
-- hyperammonaemia occurs in some severe defects
-  - with normal or low glutamine concentrations
-  - decreased acetyl-CoA production reducing the synthesis of N-acetylglutamate
-- lactic acidaemia is seen in long-chain FAODs(LCHAD and MTP deficiencies)
-  - inhibitory effects of metabolites on pyruvate metabolism
-- moderate hyperuricaemia - frequent finding during acute attacks
-- secondary hyperprolinaemia occurs in some babies with MAD deficiency
-- accumulating long-chain acylcarnitines may be responsible for
-  arrhythmias and may interfere with surfactant metabolism
-- in LCHAD and MTP deficiencies, long chain hydroxy-acylcarnitine
-  concentrations correlate with the severity of retinopathy and may
-  cause both this and the peripheral neuropathy
+*** Genetics 
+- AR, ETFA, ETFB, ETFDH
 
-#+CAPTION[]:Common manifestations in FAODs
-#+NAME: fig:common
-#+ATTR_LaTeX: :width 1.2\textwidth
-[[./fao/figures/Ch101f016.png]]
-
- - Green squares indicate that the feature is frequently seen in the disorder
- - Yellow squares represent an intermediate rate of occurrence
- - Red squares denote that it is uncommon
+*** Diagnosis 
+- \uparrow C4-C18
+- \uparrow UOA lactic, glutaric, ethylmalonic, dicarboxylic
+*** Treatment
+- avoid fasting
+- low fat diet
+- many milder defects respond to riboflavin
 
