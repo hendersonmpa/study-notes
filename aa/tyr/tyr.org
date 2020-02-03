@@ -4,7 +4,7 @@
 
 * Introduction
 
-- Tyrosine is a non-essential amino acid derived from diet and hydroxylation of phenylalanine
+- tyrosine is a non-essential amino acid derived from diet and hydroxylation of phenylalanine
 - a precursor of DOPA, thyroxine and melanin
 - glucogenic and ketogenic \to catabolism in liver cytosol \to fumarate and acetoacetate
 - Tyr \to 4-hydroxyphenylpyruvate by cytosolic tyrosine aminotransferase
@@ -26,18 +26,17 @@
 #+ATTR_LaTeX: :width 1\textwidth
 [[file:./phe/figures/Slide04.png]]
 
-- Five inherited disorders of tyrosine metabolism are known:
-  - Tyrosinemia type I is characterised by progressive
-    liver disease and renal tubular dysfunction with rickets
-  - Tyrosinemia type II presents with keratitis and
-    blistering lesions of the palms and soles and neurological
-    complications
-  - Tyrosinemia type III may be asymptomatic or associated with
-    mental retardation
-  - Hawkinsinuria may be asymptomatic or present with failure to
-    thrive and metabolic acidosis in infancy
-  - Alkaptonuria presents as adult with symptoms of osteoarthritis
-- Other inborn errors of tyrosine metabolism discussed in Monoamine Metabolism
+- five inherited disorders of tyrosine metabolism are known:
+  1) Tyrosinemia type I is characterised by progressive
+     liver disease and renal tubular dysfunction with rickets
+  2) Tyrosinemia type II presents with keratitis and
+     blistering lesions of the palms and soles and neurological
+     complications
+  3) Tyrosinemia type III may be asymptomatic or associated with
+     mental retardation
+  4) Hawkinsinuria may be asymptomatic or present with failure to
+     thrive and metabolic acidosis in infancy
+  5) Alkaptonuria presents as adult with symptoms of osteoarthritis
 
 ** Transient Tyrosinemia
  - one of the most common amino acid disorders
@@ -82,8 +81,8 @@
 - SA and SAA are readily detectable in plasma and urine and have
   widespread effects
 - FAA, MAA and SA disrupt sulfhydryl metabolism by forming glutathione
-  adducts \to free rad ical damage
-- Disruption of sulfhydryl metabolism is also believed to cause
+  adducts \to free radical damage
+- disruption of sulfhydryl metabolism is also believed to cause
   secondary deficiency of two other hepatic enzymes,
   4-hydroxyphenylpyruvate dioxygenase and methionine
   adenosyltransferase, resulting in hypertyrosinemia and
@@ -113,7 +112,7 @@
     - radiological evidence of rickets may be present
 
 ** Treatment
-- Nitisinone (aka: NTBC) is the recommended therapy, in combination
+- nitisinone (aka: NTBC) is the recommended therapy, in combination
   with a tyrosine and phenylalanine restricted diet
   - inhibits 4-hydroxyphenylpyruvate dioxygenase turning Type I into Type III
 - nitisinone block tyrosine degradation at an early step
@@ -145,7 +144,7 @@
 ** Diagnostic Tests
 - \Uparrow plasma tyrosine > 1200 umol/L
   - if lower consider Type III
-- Urine organic acids
+- urine organic acids
   - \Uparrow urine 4-hydroxyphenylpyruvate
   - \Uparrow 4-hydroxyphenyllactate
   - \Uparrow 4-hydroxyphenylacetate
@@ -175,7 +174,7 @@
 - clinical symptoms first appear in adulthood
   - some cases diagnosed in infancy due to darkening of urine when
     exposed to air
-- most prominent symptoms relate to joint and connective tissue involvement;
+- most prominent symptoms relate to joint and connective tissue involvement
 - significant cardiac disease and urolithiasis may be detected in later years
 ** Metabolic Derangement
 - first identified IEM in 1902 by Garrod
@@ -188,12 +187,12 @@
 - AR, HGD
 - 1:250000-1:1000000
 ** Diagnostic Tests
-- Alkalinisation of the urine \to immediate dark brown colouration
+- alkalinisation of the urine \to immediate dark brown colour
 - \uparrow urine homogentisate \to positive test for reducing substances
 - \uparrow UOA homogentisic acid
 ** Treatment
 - vitamin C
-- nitisinone with \downarrow phe and tyr diet
+- nitisinone with \downarrow Phe and Tyr diet
   - 3-year clinical trial of nitisinone \to 95% \downarrow urine and plasma homogentisic acid
   - no demonstrable effects on clinical symptoms
 
@@ -206,8 +205,8 @@
 
 ** Metabolic Derangement
 - abnormal metabolites produced in hawkinsinuria
-  - (hawkinsin (2-cysteinyl-1,4-dihydroxycyclohexenylacetate)
-  - 4-hydroxycycloxylacetate)
+  - hawkinsin (2-cysteinyl-1,4-dihydroxycyclohexenylacetate)
+  - 4-hydroxycycloxylacetate
 - thought to derive from in-complete conversion of
   4-hydroxyphenylpyruvate to homogentisate caused by a defect in
   4-hydroxyphenylpyruvate dioxygenase
@@ -218,14 +217,14 @@
   glutathione depletion
 
 ** Genetics
-- AR, HPD
+- AD, HPD, A33T
 - mutations that lead to a retention of partial HPD function,
   - production of hawkinsin and 4-hydroxycyclohexylacetate
 ** Diagnostic Tests
 - UAO hawkinsin or 4-hydroxycyclohexylacetate is diagnostic
-- may be moderate tyrosinaemia, increased urinary
-  4-hydroxyphenylpyruvate and 4-hydroxyphenyllacate, metabolic
-  acidosis and 5-oxoprolinuria during infancy
+- may be moderate tyrosinaemia
+- \uparrow urine 4-hydroxyphenylpyruvate and 4-hydroxyphenyllacate,
+  metabolic acidosis and 5-oxoprolinuria during infancy
 
 ** Treatment
 - return to breastfeeding or low tyr and phe diet

@@ -145,6 +145,11 @@
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./neuro/figures/monoamines.png]]
 
+#+CAPTION[]:Tetrahydrobiopterin metabolism
+#+NAME: fig:bh4
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./phe/figures/Slide21.png]]
+
 - Six disorders of monoamine metabolism:
   - Tyrosine hydroxylase (TH) deficiency
     - impairs synthesis of dihydroxyphenylalanine (L-dopa) and causes

@@ -17,7 +17,8 @@
      this drug
   2. irreversibly metabolized to sulfate
      by the transsulfuration pathway
-     - homocysteine and serine are condensed by cystathionine \beta-Synthase (CBS) to cystathionine
+     - homocysteine and serine are condensed by cystathionine
+       \beta-synthase (CBS) to cystathionine
      - cystathionine is cleaved by cystathionine \gamma-lyase (CTH) to
        form cysteine and \alpha-ketobutyrate
 - CTH can use cysteine and/or homocysteine to synthesize hydrogen
@@ -61,7 +62,7 @@
 - these are severe disorders with early-onset seizures and other
   neurological complications
   - other signs include orthostatic acrocyanosis, lens dislocation or
-    urolithiasis;
+    urolithiasis
 - only molybdenum cofactor deficiency type A can be treated
   successfully, with a synthetic cofactor
 
@@ -74,6 +75,11 @@
 #+NAME: fig:sulfur
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./sulfur/figures/sulfuraa.png]]
+
+#+CAPTION[]:Sulfur amino acid metabolism
+#+NAME: fig:sulfur2
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./sulfur/figures/Slide03.png]]
 
 #+CAPTION[]:Disorders of sulfur amino acid metabolism
 #+NAME: fig:sulfuraa
@@ -122,15 +128,16 @@
 ** Metabolic Derangement
 - CBS is a cytosolic tetrameric enzyme
 - expressed predominantly in liver, pancreas, kidney and brain
-- activity can alsobe determined in cultured fibroblasts and in plasma
+- activity can also be determined in cultured fibroblasts and in plasma
   due to its release from the liver
-- catalytic domain binds heme,the cofactor PLP and substrates
+- catalytic domain binds heme, PLP and substrates
 - regulatory domain binds the allosteric activator SAM
 - pathophysiology is not fully understood
   - \uparrow SAH impairs methylation reaction
   - \uparrow homocysteine \to ER stress, vascular disease
   - enhanced remethylation methionine
-  - depletion of cystathionine and cysteine \to apoptosis, oxidative stress, \delta protein structure.
+  - depletion of cystathionine and cysteine \to apoptosis, oxidative
+    stress, \Delta protein structure.
 
 ** Genetics
 - AR, CBS
@@ -149,7 +156,7 @@
   high and supported by:
   - \downarrow to low-normal plasma cystathionine
   - \uparrow methionine:cystathionine
-- can be con firmed by enzyme assay in cultured fibroblasts or plasma,
+- can be confirmed by enzyme assay in cultured fibroblasts or plasma,
   and/or mutation analysis of the CBS gene
 
 ** Treatment 
@@ -157,7 +164,7 @@
 
 * Molybdenum Cofactor Deficiency
 ** Clinical Presentation
-- usually present soon after birth with poor feeding,hypotonia,
+- usually present soon after birth with poor feeding, hypotonia,
   exaggerated startle reactions and intractable seizures, resembling
   hypoxic ischaemic encephalopathy
   - \to multicystic leukoencephalopathy with microcephaly
@@ -194,8 +201,8 @@
 - \uparrow urine xanthine
 - sulfite can be detected in fresh urine using dipsticks but false
   positive and negative results occur
-- \uparrow urine or blood s-sulfocysteine is a more reliable indicator
-- s-sulfocysteine accumulation \to inhibition of antiquitin
+- \uparrow urine or blood S-sulfocysteine is a more reliable indicator
+- S-sulfocysteine accumulation \to inhibition of antiquitin
   - secondary elevation of pipecolic acid
 - \uparrow plasma taurine and thiosulfate
 - \downarrow plasma total cysteine and tHcy
@@ -254,7 +261,8 @@
   - also formed by bacterial anaerobes in the large intestine
 - in EE accumulating \ce{H2S} inhibits cytochrome c oxidase and
   short-chain fatty acid oxidation
-  - results in ethylmalonic aciduria , and raised C4- and C5-acylcarnitines in blood
+  - results in ethylmalonic aciduria, and raised C4- and
+    C5-acylcarnitines in blood
 - \ce{H2S} also has vasoactive and vasotoxic effects
   - damage to small blood vessels causes bleeding into the
     skin
@@ -274,4 +282,4 @@
 - metronidazole to reduce bacterial \ce{H2S} production
 - N-acetylcysteine a precursor of glutathione, which can accept the sulfur atom of \ce{H2S}
   - leads to some clinical and biochemical improvement the prognosis remains poor
-- Liver transplant
+- liver transplant

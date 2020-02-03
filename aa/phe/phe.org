@@ -20,8 +20,9 @@
 - defects in PAH or production or recycling of BH_4 may result in:
   - hyperphenylalaninaemia (HPA)
   - deficiency of TYR, L-dopa, dopamine, melanin, catecholamines and 5-hydroxytryptophan (5HT)
-- when hydroxylation to Tyr is impeded, Phe may be transaminated to
-  phenylpyruvic acid and further reduced and decarboxylated
+- when hydroxylation to Tyr is impeded Phe can be transaminated to
+  phenylpyruvate and further reduced and decarboxylated to
+  phenyllactate and phenylacetate
 
 
 #+CAPTION[]:Phenylalaninemia classification
@@ -40,8 +41,15 @@
 
 #+CAPTION[]:Phenylalanine and Tyrosine Metabolism
 #+NAME: fig:phetyr
-#+ATTR_LaTeX: :width 1\textwidth
+#+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./phe/figures/Slide04.png]]
+
+#+CAPTION[]:Tetrahydrobiopterin metabolism
+#+NAME: fig:bh4
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./phe/figures/Slide21.png]]
+
+
 
 * Phenylalanine Hydroxylase Deficiency
 ** Clinical Presentation
@@ -86,7 +94,13 @@
     leucine/isoleucine are usually also raised)
   - treatment with inhibitors of dihydrofolate reductase (e.g. methotrexate, trimethoprim)
     - folate promotes recycling of BH_4
-
+- plasma amino acids:
+  - \uparrow Phe
+  - \downarrow or normal Tyr
+- phenylketones on urine organic acids:
+  - phenylpyruvate
+  - phenyllactate
+  - phenylacetate
 ** Treatment
 *** Diet
 - reduce the blood Phe concentration sufficiently to prevent the
@@ -128,27 +142,29 @@
 - monitoring expecting mothers 2x weekly
 
 * HPA and Disorders of Biopterin Metabolism
-- Disorders of BH_4 associated with HPA and biogenic amine deficiency
+- disorders of BH_4 associated with HPA and biogenic amine deficiency
   include deficiencies of:
   - GTP cyclohydrolase I (GTPCH)
   - 6-pyruvoyl-tetrahydropterin synthase (PTPS)
   - dihydropteridine reductase (DHPR)
   - pterin-4a-carbinolamine dehydratase (PCD)
-- Dopa-responsive dystonia (DRD) due to a dominant form of GTPCH
+- dopa-responsive dystonia (DRD) due to a dominant form of GTPCH
   deficiency, and sepiapterin reductase (SR) deficiency (see Disorders of Monoamine Metabolism)
 ** Clinical Presentation
 - can present in any of three ways:
-  1) Asymptomatic, but with raised PHE found following NBS; as part of
+  1) *asymptomatic* with raised Phe found following NBS; as part of
      the standard screening protocol the infant is then investigated
      further for biopterin defects
-  2) Symptomatic, with neurological deterioration in infancy despite a
-     low-PHE diet. This will occur where no further investigations are
-     routinely undertaken after a finding of HPA in NBS which is
-     wrongly assumed to be PAH deficiency
-  3) Symptomatic, with neurological deterioration in infancy on a
-     normal diet. This will occur either where there has been no NBS
-     for HPA or if the PHE level is not sufficiently raised to have
-     resulted in a positive screen or to require dietary treatment
+  2) *symptomatic* with neurological deterioration in infancy despite a
+     low-Phe diet
+     - this will occur where no further investigations are routinely
+       undertaken after a finding of HPA in NBS which is wrongly
+       assumed to be PAH deficiency
+  3) *symptomatic* with neurological deterioration in infancy on a
+     normal diet
+     - this will occur either where there has been no NBS
+       for HPA or if the PHE level is not sufficiently raised to have
+       resulted in a positive screen or to require dietary treatment
 ** Metabolic Derangement
 - associated with decreased activity of PAH, tyrosine hydroxylase,
   tryptophan hydroxylase and nitric oxide synthase (Figure [[fig:pah]])
@@ -156,7 +172,7 @@
   - blood PHE concentrations ranging from normal to \gt2000 umol/l
   - CNS amine deficiency is most often profound and responsible for
     the clinical symptoms
-  - Decreased concentration of HVA in CSF is a measure of reduced
+  - decreased concentration of HVA in CSF is a measure of reduced
     dopamine turnover
   - 5-HIAA deficiency is a measure of reduced serotonin metabolism
 
@@ -166,7 +182,7 @@
   raised PHE on newborn screening
 
 ** Diagnostic Tests
-- Urine or blood pterin analysis and blood DHPR assay
+- urine or blood pterin analysis and blood DHPR assay
 - BH_4 loading test
 - CSF neurotransmitters
 

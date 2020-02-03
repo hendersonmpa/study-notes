@@ -133,9 +133,8 @@
     transporter
 
 ** Diagnostic Tests
-- diagnosis LPI is based on the combination of increased urinary
-  excretion and low plasma concentrations of the cationic amino acids,
-  especially lysine
+- combination of increased urinary excretion and low plasma
+  concentrations of the cationic amino acids, especially lysine
 - \uparrow urine lysine, arginine and ornithine
 - \downarrow plasma lysine, arginine and ornithine
 - \uparrow postprandial plasma ammonia
@@ -152,7 +151,7 @@
   - provide a sufficient supply of protein and essential amino acids
     for normal metabolism and growth
 
-- Protein tolerance can be improved with supplementary low dose
+- protein tolerance can be improved with supplementary low dose
   citrulline
 - citrulline is readily absorbed and partially converted to arginine
   and ornithine which improves the function of the urea cycle
@@ -163,7 +162,7 @@
 - classical symptoms of Hartnup disease are pellagra-like dermatitis,
   intermittent ataxia and neuropsychiatric abnormalities
   - resembles nutritional niacin deficiency
-- identified by newborn urine screening
+- identified by newborn urine amino acid screening
   - most remain asymptomatic
 
 ** Metabolic Derangement

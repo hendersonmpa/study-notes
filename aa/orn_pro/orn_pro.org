@@ -38,7 +38,7 @@
     P5C
 - P5C/proline cycle transfers reducing/oxidizing potential between
   cellular organelles
-- The pyridinoline ring of proline and hydroxyproline contribute to
+- the pyridinoline ring of proline and hydroxyproline contribute to
   the structural stability of proteins particularly collagen
 
 #+CAPTION[]:Ornithine and proline metabolism
@@ -95,7 +95,7 @@
   - \uparrow urine ornithine, lysine, arginine, cystine
   - secondary to competitive inhibition of shared dibasic aa renal transporter
 - differentiated from HHH by lack of homocitrulline in urine
-- difficult to distinguish neonatal OAT from OTC in both disorders:
+- *difficult to distinguish neonatal OAT from OTC* in both disorders:
   - \downarrow plasma ornithine, arginine, and citrulline
   - \uparrow urine orotic acid
 - molecular and enzyme confirmation
@@ -205,7 +205,7 @@
 - \Uparrow plasma proline
   - usually \le 2000 uM (normal range 100–450 uM)
 - \uparrow urine and cerebrospinal fluid (CSF) proline
-- Hyperprolinaemia (as high as 1000 μM) is also observed as a
+- hyperprolinaemia (as high as 1000 μM) is also observed as a
   secondary phenomenon in hyperlactataemia
 - possibly because proline oxidase is inhibited by lactic acid
 

@@ -23,26 +23,26 @@
   - from lysine and 2-aminoadipic-6-semialdehyde shown
   - microbiome
 
-- 2-Oxoadipic acid is primarily converted to glutaryl-CoA by the
+- 2-oxoadipic acid is primarily converted to glutaryl-CoA by the
   2-oxoglutarate dehydrogenase-like complex (Figure [[fig:cat]] enzyme 6a)
   since its E1 subunit (DHT-KD1) has a higher substrate affinity for
   2-oxoadipic acid than the 2-oxoglutarate dehydrogenase complex in
   the Krebs cycle (Figure [[fig:cat]] enzyme 6b)
 
-  - 2-Oxoglutarate dehydrogenase complex, however, may serve as an
+  - 2-oxoglutarate dehydrogenase complex, however, may serve as an
     alternative route
 
-  - 2-Oxoadipic acid is dehydrogenated and decarboxylated to
+  - 2-oxoadipic acid is dehydrogenated and decarboxylated to
     crotonyl-CoA by glutaryl-CoA dehydrogenase (Figure [[fig:cat]] enzyme 7)
     - tranfers electrons to FAD \to ETC via ETF/ETF-DH
 
-- Crotonyl-CoA is subsequently converted to 3-hydroxybutyryl-CoA by
+- crotonyl-CoA is subsequently converted to 3-hydroxybutyryl-CoA by
   short-chain enoyl-CoA hydratase 1 (Figure [[fig:cat]] crotonase, enzyme 8)
   - this enzyme is multispecific and also acts as a crotonase in the
     degradative pathways of valine, isoleucine and short-chain fatty
     acids
 
-- 3-Hydroxybutyryl-CoA is then converted to acetoacetyl-CoA by
+- 3-hydroxybutyryl-CoA is then converted to acetoacetyl-CoA by
   3-hydroxyacyl-CoA dehydrogenase (Figure [[fig:cat]] enzyme 9)
 - glutaric acid which may derive from the intestinal microbiome,
   spontaneous disintegration of glutaryl-CoA or other sources, is
@@ -58,7 +58,7 @@
   - crotonase 
 
 
-- a group of organic acid disorders presents exclusively with
+- a group of organic acid disorders present exclusively with
   progressive neurological symptoms of ataxia, epilepsy, myoclonus,
   extrapyramidal symptoms, metabolic stroke, and macrocephaly
   - glutaric aciduria
@@ -70,8 +70,8 @@
   - 3-hydroxyglutarate, glutarate
     - sharing the same carbon backbone with the excitatory amino acid
       glutamate (2-amino-glutarate)
-  - or are neurotransmitters/-modulators
-    - \gamma -hydroxybutyrate
+  - or are neurotransmitters/ negative modulators
+    - \gamma-hydroxybutyrate
     - N-acetylaspartylglutamate
 
 #+CAPTION[]:Tryptophan, hydroxylysine and lysine catabolic pathways
@@ -109,7 +109,7 @@
   - glutarylcarnitine is excreted, contributing to secondary carnitine
     deficiency
   - often \uparrow urinary excretion of dicarboxylic acids,
-    2-oxoglutarate and succinate indicating of disturbed mitochondrial
+    2-oxoglutarate and succinate indicating disturbed mitochondrial
     function
 
 - impaired brain energy metabolism induced by accumulating glutaric
@@ -135,20 +135,19 @@
   - 3-OH glutaric acid in urine has a high sensitivity including
     - low-excretor phenotype
     - secondary carnitine depletion
-- \uparrow glutarylcarnitine (C5)
+- \uparrow glutarylcarnitine (C5DC)
 - \downarrow plasma carnitine
 - \Uparrow acylcarnitines:free carnitine in urine and plasma
 
 ** Treatment
 - early diagnosis key to prevention of acute striatal necrosis and
   neurological sequelae
-- Treatment includes:
-  - emergency treatment during illness
-    - \uparrow CHO feeds, carnitine supplementation
-    - lys free amino acids
-  - oral supplementation w carnitine and riboflavin
-  - lysine-free, tryptophan-reduced and arginine-enriched amino acid
-    mixtures aims to minimise the risk of malnutrition
+- emergency treatment during illness
+  - \uparrow CHO feeds, carnitine supplementation
+  - lys free amino acids
+- oral supplementation w carnitine and riboflavin
+- lysine-free, tryptophan-reduced and arginine-enriched amino acid
+  mixtures aims to minimise the risk of malnutrition
 
 * L or D 2-Hydroxyglutaric Aciduria
 ** Clinical Presentation
@@ -173,7 +172,8 @@
   - chromatographic separation of these enantiomers can be performed
     using derivatisation with a chiral reagent or a chiral stationary
     phase
-- L2 :: \uparrow L-2-hydroxyglutarate in all fluids
+    - L2 :: \uparrow L-2-hydroxyglutarate in all fluids
+    - D2 :: \uparrow D-2-hydroxyglutarate in all fluids
 
 ** Treatment 
 - L2 :: riboflavin reported, poor prognosis
@@ -198,7 +198,7 @@
 - AR, ASPAragine
 
 ** Diagnostic Tests
-- \uparrow NAA by UOA
+- \Uparrow N-acetyl-aspartic on UOA
   - 100x \uparrow is pathognomonic
 - borderline elevation of NAA found in various forms of white matter
   disease

@@ -7,11 +7,11 @@
   by deficient activity of the glycine cleavage enzyme
 - classic NKH is caused by mutations in genes that encode the protein
   components of the glycine cleavage enzyme system (GCS)
-- based on the clinical severity and developmental outcome, classic
-  NKH is further divided into:
-  - severe classic NKH
-  - attenuated classic NKH
-- variant NKH has an overlapping phenotype to classic NKH
+  - based on the clinical severity and developmental outcome, classic
+    NKH is further divided into:
+    - severe classic NKH
+    - attenuated classic NKH
+- variant NKH has an overlapping phenotype w classic NKH
   - is caused by mutations affecting the biosynthesis of the main
     cofactor lipoic acid
   - fits into the larger group of the lipoate synthesis
@@ -80,7 +80,7 @@
   H-protein to the E2 component of four 2-ketodehydrogenases
 - LIPT1 deficiency causes dysfunction of the E2 components
 - LIPT2 and LIAS add deficiency of the GCS
-- Some disorders of iron-sulfur cluster biogenesis genes add deficient
+- some disorders of iron-sulfur cluster biogenesis genes add deficient
   activity of complexes I and II of the respiratory chain and
   aconitase, which carry iron sulfur clusters
 - in NKH glycine accumulates particularly in the brain

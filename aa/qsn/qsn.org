@@ -6,7 +6,7 @@
 - Gln is the most abundant amino acid
 - synthesized /de novo/ from glutamate and ammonia by glutamine synthetase
   - the only way to produce glutamine in the human body
-  - thereis no net absorption from the intestine
+  - there is no net absorption from the intestine
 - Gln plays a pivotal role in metabolism as constituent, precursor,
   and amino moiety donor for many proteins, purines and pyrimidines,
   nicotinamide adenine dinucleotide, adenosine-monophosphate, amino
@@ -31,7 +31,7 @@
   - cysteine
   - serine phospholipids
   - sphingomyelins
-  - cerebrosides (7 Chapter 38) 
+  - cerebrosides
 - must be synthesized within the brain because of poor permeability
   across the BBB
   - synthesis is confined to astrocytes
@@ -62,9 +62,9 @@
   - phosphoserine phosphatase deficiency
     - Neu-Laxova syndrome or milder phenotype
 
-- In patients with the severe, infantile form, the treatment is oral
-L-serine, supplemented with glycine in case of unsatisfactory
-clinical response. Phosphoserine aminotransferase deficiency
+- patients with the severe, infantile form, the treatment is oral
+  L-serine, supplemented with glycine in case of unsatisfactory
+  clinical response
 
 * Asparagine
 - synthesized /de novo/ by asparagine synthetase (ASNS)

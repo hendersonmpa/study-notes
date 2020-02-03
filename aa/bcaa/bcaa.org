@@ -3,14 +3,14 @@
 #+DATE: \today
 
 * Introduction
-- the three essential BCAAs:leucine, isoleucine and valine , are
+- the three essential BCAAs: leucine, isoleucine and valine, are
   initially catabolised by a common pathway
 - the first reaction, occurs primarily in muscle
   - reversible transamination to 2-oxo- (or keto) acids
   - followed by oxidative decarboxylation to coenzyme A (CoA)
     derivatives by branched-chain oxo- (or keto) acid dehydrogenase
     (BCKD)
-- the BCAA degradation pathways then diverge
+- BCAA degradation pathways then diverge
 - Leu \to acetoacetate and acetyl-CoA \to TCA cycle
 - Ile \to acetyl-CoA and propionyl-CoA
   - propionyl-CoA is converted to succinyl-CoA \to TCA cycle
@@ -59,13 +59,13 @@
   may appear
 
 **** MSUD
-- maple syrup or burnt sugar odor
+- maple syrup or burnt sugar odour
 - no pronounced abnormalities on routine chemistry:
   - no hyperammonaemia
   - not dehydrated
   - normal lactate
 **** IVA, PA, MMA
-- deydration
+- dehydration
 - anion gap metabolic acidosis
 - ketonuria
 - hyperammonaemia in PA and MMA
@@ -81,9 +81,6 @@
 *** Chronic Progressive Form
 - GI presentation
 - neurological
-
-
-
 
 ** Metabolic Derangement
 *** MSUD
@@ -104,7 +101,7 @@
 
 *** IVA
 - deficiency of isovaleryl-CoA dehydrogenase (IVD)
-  - an intramitochondrialflavoenzyme which transfers electrons to ETF
+  - an intramitochondrial flavoenzyme which transfers electrons to ETF
 - accumulation of derivatives of isovaleryl-CoA including:
   - free isovaleric increased in both plasma and urine
   - 3-hydroxyisovaleric acid (3-HIVA)
@@ -114,7 +111,7 @@
 
 *** PA
 - deficiency of the mitochondrial enzyme propionyl-CoA carboxylase (PCC)
-  - one of the 5 biotin-dependent enzymes
+  - one of the five biotin-dependent enzymes
 - \uparrow free propionic acid in blood and urine
 - \uparrow derivatives propionylcarnitine , 3-hydroxypropionate and methylcitrate
   - MCA arises by condensation of propionyl-CoA with oxaloacetate
@@ -133,8 +130,7 @@
     forms of MMA
 - \uparrow methylmalonyl-CoA results in \uparrow methylmalonyic acid
   in urine and blood
-- secondary inhibition of PCC \therefore:
-  - \uparrow PA and PA derivatives (see [[PA]])
+- secondary inhibition of PCC \to \uparrow PA and PA derivatives
 
 *** Secondary Effects Of Elevated Propionyl-CoA
 - \uparrow propionylcarnitine \to carnitine deficiency
@@ -165,9 +161,36 @@
 [fn:1] deficiency of cblC (MMACHC) causes both MMA and homocysteinemia so not "isolated"
 
 ** Diagnostic Tests
-- MSUD \to PAA
-  - alloisoleucine
-- IVA, PA, MMA \to UOA & PAC
+*** MSUD
+- plasma amino acids:
+  - \uparrow BCAA
+  - \uparrow Leu/Ala
+  - \uparrow alloisoleucine 
+- urine organic acids:
+  - 2-OH-isovaleric, 2-oxoisocaproic
+
+*** IVA 
+- urine organic acids:
+  - \Uparrow 3-OH-isovaleric
+  - \Uparrow isovalerylglycine
+- \uparrow plasma C5 carnitine
+
+*** PA
+- urine organic acids:
+  - \Uparrow 3-OH-propionic
+  - \uparrow methylcitric
+
+- \uparrow plasma C3 carnitine
+- \uparrow plasma glycine and alanine
+
+*** MMA
+- urine organic acids:
+  - \uparrow methylmalonic 
+  - \uparrow 3-OH-propionic
+  - \uparrow methylcitric
+
+- \uparrow plasma C3 \pm C4DC carnitine
+- \uparrow plasma glycine and alanine
 
 ** Treatment
 - MSUD low BCAA diet

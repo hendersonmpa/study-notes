@@ -124,11 +124,10 @@
 #+CAPTION[]:Nitrogen elimination by phenylbutyrate and benzoate
 #+NAME: fig:nh3
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./figures/nitrogen_elimination.jpg]]
+[[file:./urea/figures/nitrogen_elimination.jpg]]
 
 *** Prognosis
 - presentation during newborn period have high risk of death
-
 - severe CPS1 and OTC deficiencies are prone to recurrent
   hyperammonaemic crises
   - low protein diet
@@ -153,7 +152,7 @@
 - ASS and ASL presentation resembles mitochondrial UCDs
   - hyperammonaemic encephalopathy of similar severity
   - peak plasma ammonia may not be as high
-  - onset delayed to day 6–7 of life or even later
+  - onset delayed to day 6-7 of life or even later
 - ARG1 deficiency rarely presents in the newborn period
 
 *** Children and Adults
@@ -174,11 +173,11 @@
   - \downarrow arginine
 - ASL
   - \uparrow citrulline
-  - \uparrow ASA
+  - \Uparrow ASA
   - \downarrow arginine
 - ARG1
   - \uparrow citrulline
-  - \uparrow arginine
+  - \Uparrow arginine
   - induction in extrahepatic tissues of ARG2 may explain the modest
     increase (about 15-fold) of plasma arginine, and the normal or
     near-normal plasma ornithine
@@ -213,7 +212,7 @@
 - see section [[Ornithine and Proline]]
 ** Citrin Deficiency
 *** Clinical Presentation
- - hepatic mitochondrial aspartate/glutamate antiporter citrin
+ - citrin is the hepatic mitochondrial aspartate/glutamate antiporter
    - supplies aspartate for the ASS reaction
  - two main age dependent clinical presentations:
    - Neonatal Intrahepatic Cholestasis Caused by Citrin Deficiency (NICCD)
@@ -236,7 +235,7 @@
  - low cytosolic aspartate decreases liver ASS activity, resulting in
    citrulline accumulation, and also impairs protein and pyrimidines
    synthesis in liver cells
-   - both process es are cytosolic and use aspartate, explaining the
+   - both processes are cytosolic and use aspartate, explaining the
      hypoalbuminemia and hypoproteinemia of NICCD and the lack of
      urinary orotic acid that differentiates citrin deficiency from
      ASS deficiency
@@ -247,7 +246,7 @@
    for UDP-galactose to UDP-glucose conversion
 
 *** Genetics
--AR, SLC25A13
+- AR, SLC25A13
 
 *** Diagnostic Tests
 - newborns with intrahepatic cholestasis the finding of:
