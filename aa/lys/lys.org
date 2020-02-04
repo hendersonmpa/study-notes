@@ -70,7 +70,7 @@
   - 3-hydroxyglutarate, glutarate
     - sharing the same carbon backbone with the excitatory amino acid
       glutamate (2-amino-glutarate)
-  - or are neurotransmitters/ negative modulators
+  - or neurotransmitters/negative modulators
     - \gamma-hydroxybutyrate
     - N-acetylaspartylglutamate
 

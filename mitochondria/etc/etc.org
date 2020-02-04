@@ -1,28 +1,32 @@
-#+TITLE: The Electron Transport Chain and Oxidative Phosphorylation
+#+TITLE:Oxidative Phosphorylation
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
 * Introduction
-** ETC and OxPhos system
-- Responsible for ATP production
+- responsible for ATP production
 - ETC complexes I-IV
 - OxPhos system complexes I-V
-*** Chemiosmotic Coupling Hypothesis
- - the ETC and OxPhos are coupled by a proton gradient across the IMM.
- - The efflux of protons from the mitochondrial matrix creates an electrochemical gradient.
-   - used by the F_{0}F_{1} ATP synthase complex to make ATP via oxidative phosphorylation.
-** Electron Transport Chain
-- Energy from transfer of electrons down the ETC is used to pump
-  protons from the mitochondrial matrix into the intermembrane space.
-  - creates an electrochemical proton gradient (\Delta{}pH) across the IMM.
-    - largely responsible for the mitochondrial membrane potential (\Delta\Psi{}M).
+- oxidative phosphorylation is the process in which ATP is formed as a
+  result of the transfer of electrons from NADH or FADH_2 to O_2 by a
+  series of electron carriers (Figure [[fig:oxpho]])
+- this process, which takes place in mitochondria, is the major source
+  of ATP in aerobic organisms
+
+** Chemiosmotic Coupling Hypothesis
+ - the ETC and OxPhos are coupled by a proton gradient across the IMM
+ - the efflux of protons from the mitochondrial matrix creates an electrochemical gradient
+   - used by the F_{0}F_{1} ATP synthase complex to make ATP via oxidative phosphorylation
+- energy from transfer of electrons down the ETC is used to pump
+  protons from the mitochondrial matrix into the intermembrane space
+  - creates an electrochemical proton gradient (\DeltapH) across the IMM
+    - largely responsible for the mitochondrial membrane potential (\Delta\Psi{}M)
   - ATP synthase uses flow of \ce{H+} through the enzyme back into the
-    matrix to generate ATP from ADP and Pi.
-- There are three energy-transducing enzymes in the electron transport
+    matrix to generate ATP from ADP and Pi
+- there are three energy-transducing enzymes in the electron transport
   chain:
   - NADH:ubiquinone oxidoreductase (complex I)
   - Coenzyme Q – cytochrome c reductase (complex III)
-  - cytochrome c oxidase (complex IV).
+  - cytochrome c oxidase (complex IV)
   - also ETF-QO and mitochondrial GPD
 
 #+BEGIN_SRC dot :file ./etc/figures/etc.pdf :cmdline -Kdot -Tpdf
@@ -72,23 +76,30 @@
 - passes them to CoQ (ubiquinone)
 - CoQ also receives electrons from complex II (succinate dehydrogenase)
 - CoQ passes electrons to complex III (cytochrome bc1 complex), which
-  passes them to cytochrome c.
+  passes them to cytochrome c
 - Cyt c passes electrons to Complex IV (cytochrome c oxidase), which
   uses the electrons and hydrogen ions to reduce molecular oxygen to
-  water.
+  water
+
+#+CAPTION[]:Location of DNA encoding OxPhos Complex Subunits 
+#+NAME: tab:subunits
+|       | CI | CII | CIII | CIV | CV |
+|-------+----+-----+------+-----+----|
+| mtDNA |  7 |     |    1 |   3 |  2 |
+| nDNA  | 39 |   4 |   10 |  10 | 14 |
 
 #+CAPTION[ETC]: Oxidative Phosphorylation
 #+NAME: fig:oxpho
 #+ATTR_LaTeX: :width \textwidth
-[[file:./etc/figures/hsa00190.png]]
+[[file:./etc/figures/Slide14.png]]
 
 #+CAPTION[redox]:Electron flow to O_2 and release free energy
 #+NAME: fig:redox
 #+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./etc/figures/potential.png]]
 
-* Complex I
-** Complex I | NADH-ubiquinone oxidoreductase
+** Complex I
+- AKA NADH-ubiquinone oxidoreductase
 - catalyzes the transfer of electrons from NADH to coenzyme Q10
   (CoQ) and translocates protons across the inner mitochondrial
   membrane
@@ -97,212 +108,417 @@
 {\small\ce{NADH + H+ + CoQ + 4H^{+}_{in} ->[CI] NAD+ + CoQH2 + 4H^{+}_{out}}}
 #+END_EXPORT
 
-- Mechanism: 
-  1. Seven iron sulfur centers carry electrons from the site of NADH
-     dehydration to ubiquinone.
+  - mechanism: 
+    1. seven iron sulfur centers carry electrons from the site of NADH
+       dehydration to ubiquinone
 
-  2. ubiquinone (CoQ) is reduced to ubiquinol (\ce{CoQH2}).
+    2. ubiquinone (CoQ) is reduced to ubiquinol (\ce{CoQH2})
 
-  3. The energy from the redox reaction results in conformational
-     change allowing hydrogen ions to pass through four transmembrane
-     helix channels.
+    3. the energy from the redox reaction results in conformational
+       change allowing hydrogen ions to pass through four transmembrane
+       helix channels
 
-#+BEGIN_SRC dot :file ./etc/figures/c1.pdf :cmdline -Kdot -Tpdf
-  digraph {
-           // graph from left to right
-           rankdir=LR;
-           splines=true;
-           node [shape=circle];
-           nadh [label="NADH", fillcolor=grey, style=filled]
-           fmn [label="FMN", fillcolor=forestgreen, style=filled]
-           n3 [label="N3", fillcolor=red, style=filled]    
-           n1b [label="N1b", fillcolor=red, style=filled]     
-           n4 [label="N4", fillcolor=red,style=filled]     
-           n5 [label="N5", fillcolor=red, style=filled]     
-           n6a [label="N6a", fillcolor=red, style=filled]     
-           n6b [label="N6b", fillcolor=red, style=filled]     
-           n2 [label="N2", fillcolor=red, style=filled]     
-           q [label="Q", fillcolor=steelblue3, style=filled]     
-           nadh-> fmn
-           fmn -> n3
-           n3 -> n1b
-	       n1b -> n4
-           n4 -> n5 
-           n5 -> n6a
-           n6a -> n6b
-           n6b-> n2
-           n2 -> q
-           }    
-#+END_SRC
+  #+BEGIN_SRC dot :file ./etc/figures/c1.pdf :cmdline -Kdot -Tpdf
+    digraph {
+             // graph from left to right
+             rankdir=LR;
+             splines=true;
+             node [shape=circle];
+             nadh [label="NADH", fillcolor=grey, style=filled]
+             fmn [label="FMN", fillcolor=forestgreen, style=filled]
+             n3 [label="N3", fillcolor=red, style=filled]    
+             n1b [label="N1b", fillcolor=red, style=filled]     
+             n4 [label="N4", fillcolor=red,style=filled]     
+             n5 [label="N5", fillcolor=red, style=filled]     
+             n6a [label="N6a", fillcolor=red, style=filled]     
+             n6b [label="N6b", fillcolor=red, style=filled]     
+             n2 [label="N2", fillcolor=red, style=filled]     
+             q [label="Q", fillcolor=steelblue3, style=filled]     
+             nadh-> fmn
+             fmn -> n3
+             n3 -> n1b
+		 n1b -> n4
+             n4 -> n5 
+             n5 -> n6a
+             n6a -> n6b
+             n6b-> n2
+             n2 -> q
+             }    
+  #+END_SRC
 
-#+CAPTION[c1]:Complex I | NADH-ubiquinone oxidoreductase
-#+NAME: fig:c1
-#+ATTR_LaTeX: :width 0.9\textwidth
-#+RESULTS:
-[[file:./etc/figures/c1.pdf]]
+  #+CAPTION[c1]:Complex I | NADH-ubiquinone oxidoreductase
+  #+NAME: fig:c1
+  #+ATTR_LaTeX: :width 0.9\textwidth
+  #+RESULTS:
+  [[file:./etc/figures/c1.pdf]]
 
-** Complex I Inhibitors
-- The best-known inhibitor of complex I is rotenone
-  - commonly used as an organic pesticide
-- Rotenone binds to the ubiquinone binding site of complex I
-  -  piericidin A a potent inhibitor and structural homologue to ubiquinone.
-- Hydrophobic inhibitors like rotenone or piericidin likely disrupt electron transfer between FeS cluster N2 and ubiquinone.
-- Bullatacin is the most potent known inhibitor of NADH dehydrogenase (ubiquinone)
-- Complex I is also blocked by adenosine diphosphate ribose – a reversible competitive inhibitor of NADH oxidation
+*** Inhibitors
+ - the best-known inhibitor of complex I is rotenone
+   - commonly used as an organic pesticide
+ - rotenone binds to the ubiquinone binding site of complex I
+   -  piericidin A a potent inhibitor and structural homologue to ubiquinone
+ - hydrophobic inhibitors like rotenone or piericidin likely disrupt electron transfer between FeS cluster N2 and ubiquinone
+ - bullatacin is the most potent known inhibitor of NADH dehydrogenase (ubiquinone)
+ - Complex I is also blocked by adenosine diphosphate ribose – a reversible competitive inhibitor of NADH oxidation
 
-* Complex II
-** Complex II | Succinate Dehydrogenase 
-- see section [[Succinate Dehydrogenase Deficiency]]
+** Complex II
+- AKA Succinate Dehydrogenase 
+ - see section [[Succinate Dehydrogenase Deficiency]]
 
-** Complex II Inhibitors
-- There are two distinct classes of inhibitors of complex II:
-  - those that bind in the succinate pocket and those that bind in the ubiquinone pocket.
-- Ubiquinone type inhibitors include carboxin and thenoyltrifluoroacetone.
-- Succinate-analogue inhibitors include the synthetic compound malonate as well as the TCA cycle intermediates, malate and oxaloacetate.
-  - oxaloacetate is one of the most potent inhibitors of Complex II. 
+***  Inhibitors
+ - there are two distinct classes of inhibitors of complex II:
+   - those that bind in the succinate pocket and those that bind in the ubiquinone pocket
+ - ubiquinone type inhibitors include carboxin and thenoyltrifluoroacetone
+ - succinate-analogue inhibitors include the synthetic compound malonate as well as the TCA cycle intermediates, malate and oxaloacetate
+   - oxaloacetate is one of the most potent inhibitors of Complex II
 
-* Glycerol-3-phosphate shuttle
-- Oxidation of cytoplasmic NADH by the cytosolic form of the enzyme
-  creates glycerol-3-phosphate from dihydroxyacetone phosphate.
-- Glycerol-3-phosphate diffuses into IMM and is oxidised by mitochondrial glycerol-3-phosphate dehydrogenase
-  - uses quinone as an oxidant and FAD as a co-factor.
-- maintains the cytoplasmic NAD+/NADH ratio.
+** Glycerol-3-phosphate shuttle
+ - oxidation of cytoplasmic NADH by the cytosolic form of the enzyme
+   creates glycerol-3-phosphate from dihydroxyacetone phosphate
+ - glycerol-3-phosphate diffuses into IMM and is oxidised by mitochondrial glycerol-3-phosphate dehydrogenase
+   - uses quinone as an oxidant and FAD as a co-factor
+ - maintains the cytoplasmic NAD+/NADH ratio
 
-#+CAPTION[g3ps]:Glycerol-3-phosphate shuttle
-#+NAME: fig:g3ps
-#+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./etc/figures/GPDH_shuttle.png]]
+ #+CAPTION[g3ps]:Glycerol-3-phosphate shuttle
+ #+NAME: fig:g3ps
+ #+ATTR_LaTeX: :width 0.6\textwidth
+ [[file:./etc/figures/GPDH_shuttle.png]]
 
-* Electron Transferring Flavoprotein/ Dehydrogenase
+** Electron Transferring Flavoprotein/ Dehydrogenase
+ - ETFs are heterodimeric proteins composed of an alpha and beta
+   subunit (ETFA and ETFB), and contain an FAD cofactor and AMP
 
-- ETFs are heterodimeric proteins composed of an alpha and beta
-  subunit (ETFA and ETFB), and contain an FAD cofactor and AMP
+ - ETQ-QO links the oxidation of fatty acids and some amino acids to
+   oxidative phosphorylation in the mitochondria
+ - catalyzes the transfer of electrons from electron transferring
+   flavoprotein (ETF) to ubiquinone, reducing it to ubiquinol
 
-- ETQ-QO links the oxidation of fatty acids and some amino acids to
-  oxidative phosphorylation in the mitochondria.
-- catalyzes the transfer of electrons from electron transferring
-  flavoprotein (ETF) to ubiquinone, reducing it to ubiquinol.
+ #+BEGIN_EXPORT LaTeX
+ {\small\ce{Acyl-CoA + FAD ->[ACAD] FADH2 + ETF ->[ETF-QO] CoQ ->[CIII] CytC}}
+ #+END_EXPORT
 
-#+BEGIN_EXPORT LaTeX
-{\small\ce{Acyl-CoA + FAD ->[ACAD] FADH2 + ETF ->[ETF-QO] CoQ ->[CIII] CytC}}
-#+END_EXPORT
-
-- ETF-QO deficiency results in *Glutaric Acidemia Type II* (AKA MADD)
-  - Discussed more in FAODs
-* Complex III
-** Complex III | Coenzyme Q – cytochrome c reductase
+ - ETF-QO deficiency results in *Glutaric Acidemia Type II* (AKA MADD)
+   - Discussed more in FAODs
+** Complex III
+- AKA Coenzyme Q – cytochrome c reductase
 - Complex III is a multi-subunit transmembrane protein encoded by both
   mitochondrial (cytochrome B) and the nuclear genomes (all other
   subunits)
 
-- The bc1 complex contains 11 subunits:
-  - 3 respiratory subunits (cytochrome B, cytochrome C1, Rieske protein)
-  - 2 core proteins
-  - 6 low-molecular weight proteins
+  - The bc1 complex contains 11 subunits:
+    - 3 respiratory subunits (cytochrome B, cytochrome C1, Rieske protein)
+    - 2 core proteins
+    - 6 low-molecular weight proteins
 
-#+BEGIN_EXPORT LaTeX
-{\small\ce{QH2 + 2Fe^{3+}-cyt c + 2H+_{in} ->[CIII]  Q + 2Fe^{2+}-cyt c + 4H+_{out}}}
-#+END_EXPORT
+  #+BEGIN_EXPORT LaTeX
+  {\small\ce{QH2 + 2Fe^{3+}-cyt c + 2H+_{in} ->[CIII]  Q + 2Fe^{2+}-cyt c + 4H+_{out}}}
+  #+END_EXPORT
 
-*** Mechanism 
-- Round 1:
-    - Cytochrome b binds a ubiquinol and a ubiquinone.
-    - The 2Fe/2S center and BL heme each pull an electron off the bound ubiquinol, releasing two hydrogens into the intermembrane space.
-    - One electron is transferred to cytochrome c1 from the 2Fe/2S centre, whilst another is transferred from the BL heme to the BH Heme.
-    - Cytochrome c1 transfers its electron to cytochrome c (not to be confused with cytochrome c1), and the BH Heme transfers its electron to a nearby ubiquinone, resulting in the formation of a ubisemiquinone.
-    - Cytochrome c diffuses. The first ubiquinol (now oxidised to ubiquinone) is released, whilst the semiquinone remains bound.
+**** Mechanism 
+ - Round 1:
+     - Cytochrome b binds a ubiquinol and a ubiquinone
+     - The 2Fe/2S center and BL heme each pull an electron off the bound ubiquinol, releasing two hydrogens into the intermembrane space
+     - One electron is transferred to cytochrome c1 from the 2Fe/2S centre, whilst another is transferred from the BL heme to the BH Heme
+     - Cytochrome c1 transfers its electron to cytochrome c (not to be confused with cytochrome c1), and the BH Heme transfers its electron to a nearby ubiquinone, resulting in the formation of a ubisemiquinone
+     - Cytochrome c diffuses. The first ubiquinol (now oxidised to ubiquinone) is released, whilst the semiquinone remains bound
 
-- Round 2:
-    - A second ubiquinol is bound by cytochrome b.
-    - The 2Fe/2S center and BL heme each pull an electron off the bound ubiquinol, releasing two hydrogens into the intermembrane space.
-    - One electron is transferred to cytochrome c1 from the 2Fe/2S centre, whilst another is transferred from the BL heme to the BH Heme.
-    - Cytocrome c1 then transfers its electron to cytochrome c, whilst the nearby semiquinone produced from round 1 picks up a second electron from the BH heme, along with two protons from the matrix.
-    - The second ubiquinol (now oxidised to ubiquinone), along with the newly formed ubiquinol are released.
+ - Round 2:
+     - A second ubiquinol is bound by cytochrome b
+     - The 2Fe/2S center and BL heme each pull an electron off the bound ubiquinol, releasing two hydrogens into the intermembrane space
+     - One electron is transferred to cytochrome c1 from the 2Fe/2S centre, whilst another is transferred from the BL heme to the BH Heme
+     - Cytocrome c1 then transfers its electron to cytochrome c, whilst the nearby semiquinone produced from round 1 picks up a second electron from the BH heme, along with two protons from the matrix
+     - The second ubiquinol (now oxidised to ubiquinone), along with the newly formed ubiquinol are released
 
-#+CAPTION[cIII]: Complex III | Coenzyme Q – cytochrome c reductase: two step reaction 
-#+NAME: fig:cIII
-#+ATTR_LaTeX: :width 0.7\textwidth
-[[file:./etc/figures/CIII.png]]
+ #+CAPTION[cIII]: Complex III | Coenzyme Q – cytochrome c reductase: two step reaction 
+ #+NAME: fig:cIII
+ #+ATTR_LaTeX: :width 0.7\textwidth
+ [[file:./etc/figures/CIII.png]]
 
-** Complex III Inhibitors
-- There are three distinct groups of Complex III inhibitors:
-  - Antimycin A binds to the Q_i site and inhibits the transfer of electrons in Complex III from heme b_H to oxidized Q (Q_i site inhibitor).
-  - Myxothiazol and stigmatellin bind to distinct but overlapping pockets within the Q_o site.
-    - Myxothiazol binds nearer to cytochrome bL (hence termed a "proximal" inhibitor).
-    - Stigmatellin binds farther from heme bL and nearer the Rieske Iron sulfur protein.
-    - Both inhibit the transfer of electrons from reduced QH_2 to the Rieske Iron sulfur protein.
-* Complex IV
-** Complex IV | Cytochrome c oxidase
-
-- last enzyme in the respiratory electron transport chain.
-- large IMM integral membrane protein composed of several metal prosthetic sites and 14 protein subunits.
-- eleven subunits are nuclear in origin, and three are synthesized in the mitochondria. 
+***  Inhibitors
+ - there are three distinct groups of Complex III inhibitors:
+   - antimycin A binds to the Q_i site and inhibits the transfer of electrons in Complex III from heme b_H to oxidized Q (Q_i site inhibitor)
+   - myxothiazol and stigmatellin bind to distinct but overlapping pockets within the Q_o site
+     - myxothiazol binds nearer to cytochrome bL (hence termed a "proximal" inhibitor)
+     - stigmatellin binds farther from heme bL and nearer the Rieske Iron sulfur protein
+     - both inhibit the transfer of electrons from reduced QH_2 to the Rieske Iron sulfur protein
+** Complex IV
+- AKA Cytochrome c oxidase
+- last enzyme in the respiratory electron transport chain
+- large IMM integral membrane protein composed of several metal prosthetic sites and 14 protein subunits
+- eleven subunits are nuclear in origin, and three are synthesized in the mitochondria
   - contains two hemes,
   - cytochrome a and cytochrome a3,
   - two copper centers, CuA and CuB
-- the cytochrome a3 and CuB form a binuclear center that is the site of oxygen reduction.
-- receives an electron from four cytochrome c molecules and transfers them to one O_2 molecule
+  - the cytochrome a3 and CuB form a binuclear center that is the site of oxygen reduction
+  - receives an electron from four cytochrome c molecules and
+    transfers them to one O_2 molecule
  
-#+BEGIN_EXPORT LaTeX
-{\small\ce{4Fe^{2+}-cyt c + 8H^{+}_{in} + O2 ->[CIV] 4Fe^{3+}-cyt c + 2H2O + 4H^{+}_{out}}}
-#+END_EXPORT
+  #+BEGIN_EXPORT LaTeX
+  {\small\ce{4Fe^{2+}-cyt c + 8H^{+}_{in} + O2 ->[CIV] 4Fe^{3+}-cyt c + 2H2O + 4H^{+}_{out}}}
+  #+END_EXPORT
 
-- In the process binds four protons from the inner aqueous phase to
-  make two water molecules, and translocates another four protons
-  across the membrane, increasing the transmembrane difference of
-  proton electrochemical potential which the ATP synthase then uses to
-  synthesize ATP.
+  - binds four protons from the inner aqueous phase to make two water
+    molecules, and translocates another four protons across the
+    membrane, increasing the transmembrane difference of proton
+    electrochemical potential which the ATP synthase then uses to
+    synthesize ATP
 
-#+CAPTION[cIV]:Complex IV | Cytochrome c oxidase
-#+NAME: fig:cIV
-#+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./etc/figures/CIV.png]]
+  #+CAPTION[cIV]:Complex IV | Cytochrome c oxidase
+  #+NAME: fig:cIV
+  #+ATTR_LaTeX: :width 0.5\textwidth
+  [[file:./etc/figures/CIV.png]]
 
-** Complex IV | Inhibitors
-- Cyanide, azide, and carbon monoxide all bind to cytochrome c
-  oxidase 
-- Nitric oxide and hydrogen sulfide, can also inhibit COX by
-  binding to regulatory sites on the enzyme
-* Complex V
-** Complex V | ATP synthase 
+*** Inhibitors
+ - cyanide, azide, and carbon monoxide all bind to cytochrome c
+   oxidase 
+ - nitric oxide and hydrogen sulfide, can also inhibit COX by
+   binding to regulatory sites on the enzyme
+** Complex V
+- AKA ATP synthase 
 
 - ATP synthase is a molecular machine that creates the energy storage
-  molecule adenosine triphosphate (ATP).
-
-- The overall reaction catalyzed by ATP synthase is:
+  molecule adenosine triphosphate (ATP)
+- overall reaction catalyzed by ATP synthase is:
 
 #+BEGIN_EXPORT LaTeX
 {\small\ce{ADP + P_i + H+_{out} <=>[CV] ATP + H2O + H+_{in}}}
 #+END_EXPORT
 
-- Formation of ATP from ADP and P_{i} is energetically unfavourable
-  - would normally proceed in the reverse direction. 
+- formation of ATP from ADP and P_{i} is energetically unfavourable
+  - would normally proceed in the reverse direction
 
-- To drive this reaction forward, ATP synthase couples ATP synthesis
+- to drive this reaction forward, ATP synthase couples ATP synthesis
   to the electrochemical gradient (\Delta\Psi{}M) created by complexes
   I,III and IV
 
 - ATP synthase consists of two main subunits, F_0 and F_1, which has a
-  rotational motor mechanism allowing for ATP production.
+  rotational motor mechanism allowing for ATP production
 
-#+CAPTION[]: Complex V | ATP synthase 
-#+NAME: fig:atps
-#+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./etc/figures/atp_synthase.jpg]]
+ #+CAPTION[]: Complex V | ATP synthase 
+ #+NAME: fig:atps
+ #+ATTR_LaTeX: :width 0.5\textwidth
+ [[file:./etc/figures/atp_synthase.jpg]]
 
-** Complex V Inhibitors
-- Oligomycin A inhibits ATP synthase by blocking its proton channel
-  (F_0 subunit), which is necessary for oxidative phosphorylation of
-  ADP to ATP (energy production).
-- The inhibition of ATP synthesis by oligomycin A will significantly
-  reduce electron flow through the electron transport chain; however,
-  electron flow is not stopped completely due to a process known as
-  proton leak or mitochondrial uncoupling.
-  - This process is due to facilitated diffusion of protons into the
-    mitochondrial matrix through an uncoupling protein such as
-    thermogenin, or UCP1.
+*** Complex V Inhibitors
+ - Oligomycin A inhibits ATP synthase by blocking its proton channel
+   (F_0 subunit), which is necessary for oxidative phosphorylation of
+   ADP to ATP (energy production)
+ - The inhibition of ATP synthesis by oligomycin A will significantly
+   reduce electron flow through the electron transport chain; however,
+   electron flow is not stopped completely due to a process known as
+   proton leak or mitochondrial uncoupling
+   - This process is due to facilitated diffusion of protons into the
+     mitochondrial matrix through an uncoupling protein such as
+     thermogenin, or UCP1
 
-- Administering oligomycin to an individual can result in very high
-  levels of lactate accumulating in the blood and urine.
+ - Administering oligomycin to an individual can result in very high
+   levels of lactate accumulating in the blood and urine
 
+* Disorders 
+- molecular pathogenesis of OxPhos disorders (Figure [[fig:oxphopath]])
+  1) OxPhos complexes or assembly
+  2) mtDNA maintainance
+  3) mitochondrial translation
+  4) coenzymeQ biosynthesis
+  5) mitochondrial protein import
+     - deafness-dystonia syndrome
+  6) mitochondrial solute import
+     - phosphate carrier deficiency
+  7) mitochondrial membrane lipids
+     - Barth syndrome
+  8) motility of mitochondrial membranes
 
+#+CAPTION[ETC]: Pathogenesis of OxPhos Disorders
+#+NAME: fig:oxphopath
+#+ATTR_LaTeX: :width \textwidth
+[[file:./etc/figures/Slide15.png]]
+
+** Clinical Manifestations
+ - clinical diagnosis is extremely challenging
+   - can affect any organ system
+   - antenatal (IUGR, birth defects) \to elderly (myopathy)
+
+ - clinical Suspicion based on:
+   1) constellation of symptoms/signs consistent with a mitochondrial syndrome
+   2) complex multi-system presentation involving two/more organ systems,
+      best described by an underlying disorder of energy generation
+   3) lactic acidosis, characteristic neuro-imaging, 3-methylglutaconic
+      aciduria, ragged red fiber mypopathy
+   4) pathogenic mutation in a known mitochondrial disease gene
+
+ - mitochondrial disease commonly presents with:
+   1) myopathy
+   2) encephalopathy
+   3) Leber’s hereditary optic neuropathy
+   4) Pearson's Syndrome
+   5) diabetes
+
+ #+CAPTION[]:OxPhos Clinical Manifestations
+ #+NAME: tab:oxpclin
+ | System          | Manifestation                      |
+ |-----------------+------------------------------------|
+ | CNS             | *myoclonus*                        |
+ |                 | *seizures*                         |
+ |                 | *ataxia*                           |
+ | Skeletal muscle | *myopathy, hypotonia*              |
+ |                 | *CPEO*                             |
+ |                 | myoglobinuria                      |
+ | Marrow          | sideroblastic anemia/pancytopenia  |
+ | Kidney          | fanconi                            |
+ | Endocrine       | *diabetes*                         |
+ |                 | hypoparathyroidism,                |
+ |                 | growth/multiple hormone deficiency |
+ | Heart           | cardiomyopathy                     |
+ |                 | conduction defects                 |
+ | GI              | pancreatic failure                 |
+ |                 | villous atrophy                    |
+ | Ear             | *sensorineural deafness*           |
+ |                 | aminoglycoside deafness            |
+ | Systemic        | *lactic acidosis*                  |
+
+*** Myopathies
+ - chronic progressive external ophthalmoplegia (CPEO)
+   - w/wo retinitis pigmentosa
+   - most common clinical manifestation
+   - muscle biopsy is diagnostic
+ - Kearns-Sayre syndrome is a subtype of CPEO
+   - onset \lt 20
+   - pigmentary retinopathy
+   - cardiac conduction defect
+   - ataxia, \uparrow CSF protein
+ - isolated limb myopathy
+
+*** Encephalopathies 
+ - encephalopathic features:
+   - dementia/ID, ataxia, seizures, myoclonus, deafness, dystonia
+ - MELAS: myopathy, encephalopathy, lactic acidosis, stroke-like episodes
+   - most common mito encephalopathy
+ - MERRF: myoclonic epilepsy w ragged red fibres
+   - ptosis (drooping eyelids), ataxia, deafness
+ - Leigh Syndrome
+   - most frequent presentation of MD in childhood
+   - subacute necrotising encephalomyelopathy
+   - several biochemical defects including: PDH, OxPhos
+   - MRI - lesions affecting basal ganglia and/or brain stem
+   - \uparrow lactate blood and CSF
+   - hypo/er-ventilation, spasticity, dystonia, ataxia, tremor, optic atrophy
+   - cardiomyopathy, renal tubulopathy, GI disfunction
+   - \gt 75 genes(mt and nuclear)
+   - Saguenay-Lac-St-Jean type incidence 1/2000, gene prevelance 1/23
+*** Leber’s Hereditary Optic Neuropathy
+ - most common cause of blindness in otherwise healthy young men
+ - maternally inherited and manifests in late adolescence or early
+   adulthood as bilateral sequential visual failure
+ - 90% of patients are affected by age 40
+
+*** Pearson's Syndrome
+ - transfusion dependent sideroblastic anemia/pancytopenia
+ - exocrine pancreas failure
+ - progressive liver disease
+ - renal tubular disease
+
+** Clinical Presentation
+*** Neonatal and Infantile Presentation
+ - Congenital Lactic Acidosis
+ - Leigh Syndrome
+ - MEGDEL: 3-methylglutaconic aciduria, deafness, encephalopathy and Leigh-like disease
+ - Pearson's marrow-pancreas syndrome
+ - MDDS: mitochondrial DNA depletion syndrome
+ - Alper-Huttenlocher syndrome
+ - Reversible infantile respiratory chain deficiency
+ - Infantile onset Q_{10} biosynthetic defects
+
+*** Childhood and Adolescent Presentation
+ - Kearn-Sayre syndrome
+ - MELAS: myopathy, encephalopathy, lactic acidosis, stroke-like episodes
+ - MERRF: myoclonic epilepsy w ragged red fibres
+ - NARP: neuropathy, ataxia, retinitis pigmentosa
+ - LHON: Leber's Hereditary Optic Neuropathy
+ - MEMSA: myoclonic epilepsy, myopathy, sensory ataxia
+ - MNGIE: mitochondrial neurogastrointestinal encephalopathy
+
+*** Adult Presentation
+ - MIDD: maternally inherited diabetes and deafness
+ - PEO: Progressive External Opthalmoplegia
+ - SANDO: Sensory Ataxic Neuropathy, dysarthria and opthalmoparesis
+
+** Metabolic Derangement
+*** OxPhos Deficiency and Anaerobic Glycolysis 
+ - insufficient ATP severely affects highly energy dependant tissues
+   - A complete loss of OxPhos is not observed in human disease 
+ - in the absence of OxPhos cells survive using ATP from anaerobic glycolysis
+   - 20x less efficient, generates lactate
+   - pyruvate \to alanine if glutamate is available
+   \ce{alanine + \alpha-ketoglutarate <=>[ALT] pyruvate + glutamate}
+ - lactate, pyruvate and alanine are the typical products of anaerobic glycolysis
+
+*** Factors Affecting OxPhos System
+ - ~ 90 subunits
+   - 13 subunits of Complexes I, III, IV and V encoded by mtDNA
+ - mitochondrial replication, transcription and translation
+   - require \gt 200 proteins, rRNAs and tRNAs
+ - cofactors: coenzyme Q_{10}, iron-sulfur clusters, heme, copper
+   - require synthesis and/or transport to OxPhos system
+ - cardiolipin required for cristae formation
+ - mitochondrial function
+   - protein import, turnover
+   - fission, fusion
+ - toxic metabolites
+ - \gt 1500 proteins in the human mitochondrial proteome
+   - other additional factors - lipids, cofactors
+   - up to 10% of human proteome may have role in maintaining mitochondrial function
+
+ - genetic defects with impaired OxPhos phenotype 
+   - OxPhos Subunit
+   - Assembly Factor
+   - mtDNA replication
+   - mtDNA transcription
+   - cofactor
+   - mitochondrial homeostasis
+     - fission and fusion
+** Investigations
+*** Biochemistry
+ - blood lactate, CSF lactate
+ - L/P \uparrow at rest, \Uparrow after excercise
+ - renal tubular dysfunction: urine anion gap, pH, serum K
+ - plasma amino acids:
+   - alanine \propto pyruvate
+   - ala/lys normally \lt 3:1
+   - \uparrow gly in lipoic acid biosynthesis defects
+   - \downarrow cit and arg in Leigh, NARP, MELAS and Pearson
+ - urine organic acids
+   - lactate, pyruvate, TCA intermediates
+   - 3-methylglutaconic acid in Barth, Sengers, MEGDEL, ATP synthase deficiency
+   - ethylmalonic
+   - MMA in succinyl-CoA-ligase deficiency
+ - acylcarnitines
+   - flavin cofactor metabolism
+ - purine and pyrimidines (plasma or urine)
+   - MNGIE \uparrow thymidine and deoxyuridine
+ - FGF-21, GDF15 and creatinine \propto mito disfunction in myopathy
+
+*** Imaging
+ - cranial CT shows cerebral and cerebellar atrophy in many encephalopathic patients
+   - basal ganglia calcification may be seen in MELAS
+ - MRI in MELAS-associated stroke reveals increased T2 weighted signals in the grey and white matter
+ - symmetrical changes in the basal ganglia and brainstem observed in Leigh syndrome
+
+*** Histology
+ - muscle biopsy is diagnostic
+   - mitochondrial myopathy due to mtDNA mutations and LHON may have normal biopsies
+ - ragged red fibres on Gomori trichrome staining, due to mitochondrial proliferation
+ - fibres stain strongly for succinate dehydrogenase
+ - fibres often negative for COX (complex IV) in CPEO, KSS, or MERRF but positive in MELAS
+ - Leigh syndrome patients may have no ragged red fibres and  COX-negative fibres only
+
+ #+CAPTION[rrf]:Ragged red fibers - Gomori stain
+ #+NAME: fig:rrf
+ #+ATTR_LaTeX: :width 0.5\textwidth
+ [[file:./oxphos_disorders/figures/Ragged_red_fibers_in_MELAS.jpg]]
+
+*** Molecular
+- no strict relation between phenotype and genotype
+- mtDNA tRNA mutations are most common of the single base change abnormalities
+  - A3243G in the tRNA^{Leu(UUR)} gene is most frequently found in MELAS
+  - G8344A in tRNA^{Lys} in MERRF
+  - many other tRNA mutations have been associated with other clinical phenotypes

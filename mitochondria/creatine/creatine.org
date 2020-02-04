@@ -3,38 +3,38 @@
 #+DATE: \today
 
 * Introduction
-- Creatine is synthesized by two enzymatic reactions:
+- creatine is synthesized by two enzymatic reactions:
   1) L-arginine:glycine amidinotransferase (AGAT, GATM) catalyses the
      transfer of an amidino group from arginine to glycine, yielding
      guanidinoacetate
   2) S-adenosyl-L-methionine:N-guanidinoacetatemethyltransferase
      (GAMT, GAMT) catalyses the methylation of the amidino group in
-     the guanidino-acetate molecule, yielding creatine.
+     the guanidino-acetate molecule, yielding creatine
 
-- Creatine synthesis occurs mainly, but not exclusively, in the kidney
+- creatine synthesis occurs mainly, but not exclusively, in the kidney
   and in the pancreas, which have high AGAT activity, and in the
-  liver, which has high GAMT activity.
+  liver, which has high GAMT activity
 
-- From these organs of synthesis, creatine is transported via the
+- from these organs of synthesis, creatine is transported via the
   bloodstream to the organs of utilization, mainly muscle and brain
   - taken up by a sodium and chloride dependent creatine transporter
-    (CRTR,SLC6A8).
+    (CRTR,SLC6A8)
 
-- Most brain creatine is transported from the blood via CRTR expressed
-  at blood-brain barrier.
-- A minor proportion is synthesized in the brain.
+- most brain creatine is transported from the blood via CRTR expressed
+  at blood-brain barrier
+- a minor proportion is synthesized in the brain
 
-- Part of intracellular creatine is reversibly converted into the
-  high-energy compound creatine-phosphate, by creatine kinase (CK).
+- part of intracellular creatine is reversibly converted into the
+  high-energy compound creatine-phosphate, by creatine kinase (CK)
 
-- Three cytosolic isoforms of CK (brain type BB-CK, muscle type MM-CK
-  and the MB-CK heterodimer), and two mitochondrial isoforms exist.
+- three cytosolic isoforms of CK (brain type BB-CK, muscle type MM-CK
+  and the MB-CK heterodimer), and two mitochondrial isoforms exist
 
-- Creatine and creatine-phosphate are non-enzymatically converted into
+- creatine and creatine-phosphate are non-enzymatically converted into
   creatinine, with a constant daily turnover of 1.5% of body
-  creatine.
+  creatine
 
-- Creatinine is mainly excreted in urine and its daily excretion is
+- creatinine is mainly excreted in urine and its daily excretion is
   directly proportional to total body creatine, and in particular to
   muscle mass 
 
@@ -43,18 +43,22 @@
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./creatine/figures/creatine.png]]
 
+#+CAPTION[]:Metabolic pathway of creatine/creatine phosphate
+#+NAME: fig:cr2
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./creatine/figures/Slide16.png]]
 
 * Creatine Deficiency Syndromes
-- Creatine deficiency syndromes (CDS) are a group of inborn errors of
-  creatine synthesis:
+- creatine deficiency syndromes (CDS) are a group of inborn errors of:
+- creatine synthesis
   - arginine:glycine amidinotransferase (AGAT) deficiency
   - guanidinoacetate methyltransferase (GAMT) deficiency
-- and transport:
+- creatine transport
   - X-linked creatine transporter CRTR deficiency
 - global developmental delay/ intellectual disability along with
-  various neurological manifestations.
+  various neurological manifestations
 
-- Secondary changes in creatine metabolism have been described in
+- secondary changes in creatine metabolism have been described in
   disorders affecting arginine and ornithine metabolism including:
   - ornithine aminotransferase (OAT) deficiency
   - urea cycle defects
@@ -65,22 +69,22 @@
 
 ** Clinical Presentation
 - global developmental delay (GDD) /intellectual disability (ID) with
-  prominent speech delay.
+  prominent speech delay
 - GDD or ID ranges from mild to severe and is characteristically
-  associated with challenging (hyperactive, autistic) behaviours.
-- Movement disorders and basal ganglia changes are additional features
-  in GAMT deficiency.
-- Myopathy is an additional feature of AGAT deficiency.
-- Epilepsy occurs in GAMT and CRTR deficiencies.
+  associated with challenging (hyperactive, autistic) behaviours
+- movement disorders and basal ganglia changes are additional features
+  in GAMT deficiency
+- myopathy is an additional feature of AGAT deficiency
+- epilepsy occurs in GAMT and CRTR deficiencies
 
 ** Metabolic Derangement
-- Cerebral  creatine  deficiency is  caused  by  reduced synthesis  of
-  creatine in AGAT and GAMT deficiency  or by impaired uptake into the
-  brain in CRTR deficiency.
-- Low intracellular creatine and creatine-phosphate result in reduced
+- cerebral creatine deficiency is caused by reduced synthesis of
+  creatine in AGAT and GAMT deficiency or by impaired uptake into the
+  brain in CRTR deficiency
+- low intracellular creatine and creatine-phosphate result in reduced
   production of creatinine
   - \therefore \low urine and plasma creatinine
-- Guanidinoacetate is neurotoxic \to CNS
+- guanidinoacetate is neurotoxic \to CNS
   - \downarrow AGAT deficiency
   - \uparrow GAMT deficiency
 
@@ -98,15 +102,15 @@
 - \uparrow urine creatinine/creatine in CRTR 
 
 ** Treatment
-- Normal neurodevelopmental outcome has been reported in early treated
-  patients with creatine synthesis defects.
+- normal neurodevelopmental outcome has been reported in early treated
+  patients with creatine synthesis defects
 - AGAT and GAMT treated wtih creatine monohydrate
-- In GAMT deficiency, reduction of guanidinoacetate is achieved by
-  ornithine supplementation \pm dietary arginine restriction.
+- in GAMT deficiency, reduction of guanidinoacetate is achieved by
+  ornithine supplementation \pm dietary arginine restriction
 - CRTC no treatment
-- In CRTR deficiency, creatine, arginine and glycine supplementation
+- in CRTR deficiency, creatine, arginine and glycine supplementation
   does not significantly improve outcome, although partial clinical
-  improvement has been reported in single patients.
+  improvement has been reported in single patients
 
 
 

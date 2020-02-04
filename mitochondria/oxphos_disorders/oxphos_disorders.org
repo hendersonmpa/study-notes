@@ -2,12 +2,6 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
-* Introduction
-- Oxidative phosphorylation is the process in which ATP is formed as a
-  result of the transfer of electrons from NADH or FADH_2 to O_2 by a
-  series of electron carriers (Figure [[fig:oxpho]]).
-- This process, which takes place in mitochondria, is the major source
-  of ATP in aerobic organisms
 * Metabolic Derangement
 ** OxPhos Deficiency and Anaerobic Glycolysis 
 - Insufficient ATP severely affects highly energy dependant tissues

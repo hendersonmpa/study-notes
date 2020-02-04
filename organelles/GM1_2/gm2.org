@@ -71,7 +71,6 @@
 | Neurological      | startle response, | seizures           | psychosis        |
 |                   | seizures          |                    |                  |
 
-
 * Laboratory Investigations
 - urine oligosacarides
 - /in vitro/ Hexoaminidase activity: leukocytes, fibroblasts

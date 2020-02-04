@@ -3,7 +3,16 @@
 #+DATE: \today
 
 * Introduction
-- Pathways for oxidation of fatty acids, glucose, amino acids and ketones produce acetyl-CoA
+- pathways for oxidation of fatty acids, glucose, amino acids and
+  ketones produce acetyl-CoA which can enter the TCA cycle
+- one molecule of glucose breaks down into two molecules of pyruvate
+- pyruvate is converted into acetyl-CoA, which is the main input TCA
+- release of energy via oxidation of acetly-CoA
+- one of the primary functions of the TCA cycle is to generate
+  reducing equivalents in the form of reduced NAD and FAD which are
+  utilised to produce energy under the form of ATP in the electron
+  transport chain
+
 #+BEGIN_EXPORT LaTeX
 %%\setchemfig{lewis style=red}
 \centering
@@ -24,9 +33,10 @@
 {\tiny\ce{Acetyl-CoA + 3NAD+ + FAD + GDP + Pi + 2H2O -> 2CO2 + CoA + 3NADH + FADH2 + GTP + 2H+}}
 #+END_EXPORT
 
-- release of energy via oxidation of acetly-CoA
-- one molecule of glucose breaks down into two molecules of pyruvate
-- Pyruvate is converted into acetyl-CoA, which is the main input TCA
+#+CAPTION[TCA]: Pyruvate Metabolism and the TCA Cycle
+#+NAME: fig:ptca
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./tca/figures/Slide13.png]]
 
 ** Disorders of the TCA cycle
 
@@ -36,27 +46,27 @@
 
 #+CAPTION[]:TCA disorders
 #+NAME: fig:tcadis
-#+ATTR_LaTeX: :width 0.8\textwidth
+#+ATTR_LaTeX: :width 1\textwidth
 [[file:./tca/figures/TCA_disorders.png]]
 
-
-#+CAPTION[]: Model for a functional splitting of the Krebs cycle reactions into complementary mini-cycles.
+#+CAPTION[]: Model for a functional splitting of the Krebs cycle reactions into complementary mini-cycles
 #+NAME: fig:tcamini
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./tca/figures/gr2.png]]
 
-- To compensate for defects the TCA can split into complementary
+- to compensate for defects the TCA can split into complementary
   mini-cycles (Figure [[fig:tcamini]])
   - uses aspartate-amino acid transferase
-  - (A) would allow to convert pyruvate up to \alpha-KG, even when the second mini-cycle (B) does not function.
+  - (A) would allow to convert pyruvate up to \alpha-KG, even when the
+    second mini-cycle (B) does not function
   - accounts for the urinary excretion of \alpha-KG in patients
-    presenting with defect of \alpha-KG, SDH or fumarase activity.
+    presenting with defect of \alpha-KG, SDH or fumarase activity
   - could produce reduced equivalents to sustain the normal oxygen
     uptake measured in circulating lymphocytes or cultured skin
-    fibroblast from these patients.
+    fibroblast from these patients
 
 * \alpha-Ketoglutarate Dehydrogenase Complex Deficiency
-- KDHC is a \alpha-ketoacid dehydrogenase analogous to PDHC and BCKD.
+- KDHC is a \alpha-ketoacid dehydrogenase analogous to PDHC and BCKD
 
 \ce{\alpha-ketoglutarate + NAD+ + CoA ->[KDHC] Succinyl CoA + CO2 + NADH}
 
@@ -69,38 +79,38 @@
 | E3   | dihydrolipoyl dehydrogenase        | DLD  | FAD, NAD                    |
 
 - E1 subunit is the thiamine dependant substrate specific dehydrogenase
-  - Not regulated by phosphorylation.
+  - not regulated by phosphorylation
 - E2 subunit dihydrolipyoyl succinyl-transferase is also specific to KDHC
 
 ** Clinical Presentation
-- Similar to PDHC (section [[Pyruvate Dehydrogenase Complex Deficiency]])
-- Developmental delay, hypotonia, opisthotonos and ataxia
+- similar to PDHC (section [[Pyruvate Dehydrogenase Complex Deficiency]])
+- developmental delay, hypotonia, opisthotonos and ataxia
   - seizures less common
-- Present as neonate and early childhood
+- present as neonate and early childhood
 
 ** Genetics
 - AR inheritance, encoded by nuclear DNA
 - E1 gene mapped to 7p13
 - E2 gene mapped to 14q24.3
-- Molecular basis of KDHC deficiencies is not resolved.
+- molecular basis of KDHC deficiencies is not resolved
 - \alpha-ketoglutarate dehydrogenase deficiency is sometimes a feature of DLD deficiency
 
 ** Diagnostic Tests
-- Urine organic acids
+- urine organic acids
   - \uparrow \alpha-KGA, \pm other TCA intermediates
   - \alpha-KGA is a common finding, not specific for KDHC deficiency
-- Blood lactate
-  - Normal or increased L/P
+- blood lactate
+  - normal or increased L/P
 - KDHC activity
   - \ce{^14CO2} release from \ce{[1-^14C]} \alpha-ketoglutarate (or \ce{[1-^14C]} leucine)
   - cultured skin fibroblasts
   - muscle
 
 ** Treatment
-- None to date
+- none to date
 
 * Succinate Dehydrogenase Deficiency
-- Four subunits compose Complex II of the mitochondrial respiratory chain
+- four subunits compose Complex II of the mitochondrial respiratory chain
 
 #+CAPTION[]:Succinate Dehydrogenase | Complex II
 #+NAME: tab:sdd
@@ -111,14 +121,14 @@
 | SdhC         | Succinate dehydrogenase cytochrome b560 subunit    |
 | SdhD         | Succinate dehydrogenase cytochrome b small subunit |
 
-- The SdhA subunit contains an FAD binding site where succinate
-  is deprotonated and converted to fumarate.
+- SdhA subunit contains an FAD binding site where succinate is
+  deprotonated and converted to fumarate
 
 \ce{succinate + ubiquinone ->[CII] fumarate + ubiquinol}
 
-- Electrons removed from succinate transfer to SdhA
+- electrons removed from succinate transfer to SdhA
 - transfer across SdhB through iron sulphur clusters to the SdhC/SdhD subunits
-  - SdhC/SdhD are anchored in the mitochondrial membrane.
+  - SdhC/SdhD are anchored in the mitochondrial membrane
 
 #+CAPTION[]:Succinate Dehydrogenase | Complex II
 #+NAME: fig:sdhc
@@ -126,23 +136,22 @@
 [[file:./tca/figures/SuccDeh.png]]
 
 ** Clinical Presentation
-- Very rare disorder with highly variable phenotype
+- very rare disorder with highly variable phenotype
 - Complex II is part of the TCA cycle and ETC
   - phenotype resembles defects in respiratory chain
-- Clinical picture can include:
+- clinical picture can include:
   - Kearns-Sayre syndrome
   - isolated hypertrophic cardiomyopathy
   - combined cardiac and skeletal myopathy
   - generalized muscle weakness, \uparrow fatiguability
   - early onset Leigh encephalopathy
-- Also:
+- also:
   - cerebral ataxia
   - optic atropy
   - tumour formation in adults
 
 ** Genetics
-
-- All components of Complex II are encoded by nuclear DNA.
+- all components of Complex II are encoded by nuclear DNA
 
 #+CAPTION[]:Succinate Dehydrogenase Genetics
 #+NAME: tab:sdgen
@@ -155,20 +164,20 @@
 
 
 - AR with highly variable phenotype
-- Case of affected sisters with one identified SDHA mutation suggested
+- case of affected sisters with one identified SDHA mutation suggested
   dominant transmission
-- Mutations in SDHB, SDHC and SDHD cause susceptibility to familial
-  phaeochromocytoma and familial paraganglioma.
+- mutations in SDHB, SDHC and SDHD cause susceptibility to familial
+  phaeochromocytoma and familial paraganglioma
 
 ** Diagnostic Tests
-- Unlike other TCA cycle disorders Complex II deficiency does not always
+- unlike other TCA cycle disorders Complex II deficiency does not always
   result in characteristic organic aciduria
-  - succinic aciduria.
-- Organic acids can show variable amounts of lactate, pyruvate, succinate, fumarate and malate
-- Measurement of complex II activity in muscle is the most reliable
+  - succinic aciduria
+- organic acids can show variable amounts of lactate, pyruvate, succinate, fumarate and malate
+- measurement of complex II activity in muscle is the most reliable
   means of diagnosis
   - there is no clear correlation between residual complex II activity
-    and severity or clinical outcome.
+    and severity or clinical outcome
 
 #+CAPTION[]:Coupled spectrophotometric assay
 #+NAME: fig:
@@ -176,52 +185,52 @@
 [[file:./tca/figures/gr4.jpg]]
 
 ** Treatment 
-- In some cases, treatment with riboflavin may have clinical benefit
+- in some cases, treatment with riboflavin may have clinical benefit
   
 * Fumarase Deficiency
-
-- Fumarase (AKA:fumarate hydratase) catalyses reversible
+- fumarase (AKA:fumarate hydratase) catalyses reversible
   hydration/dehydration of fumarate to malate
 \ce{fumarate + H2O ->[FH] malate}
-- Two forms: mitochondrial and cytosolic.
-  - The mitochondrial isoenzyme is involved in the TCA Cycle
-  - The cytosolic isoenzyme is involved in the metabolism of amino acids and fumarate.
-- Subcellular localization is established by the presence/absence of an N-terminal mitochondrial signal
+- two forms: mitochondrial and cytosolic
+  - mitochondrial isoenzyme is involved in the TCA Cycle
+  - cytosolic isoenzyme is involved in the metabolism of amino acids and fumarate
+- subcellular localization is established by the presence/absence of an N-terminal mitochondrial signal
   sequence
-- Deficiency causes impaired energy production
+- deficiency causes impaired energy production
 
 ** Clinical Presentation
-- Characterized by polyhydramnios and fetal brain abnormalities.
-- In the newborn period, findings include:
-  - severe neurologic abnormalities,
-  - poor feeding,
+- characterized by polyhydramnios and fetal brain abnormalities
+- newborn period findings include:
+  - severe neurologic abnormalities
+  - poor feeding
   - failure to thrive
-  - hypotonia.
-- Fumarase deficiency is suspected in infants with multiple severe
-  neurologic abnormalities in the absence of an acute metabolic
-  crisis.
-- Inactivity of both cytosolic and mitochondrial forms of
-  fumarase are potential causes.
+  - hypotonia
+- fumarase deficiency is suspected in infants with multiple severe
+  neurologic abnormalities in the absence of an acute metabolic crisis
+- inactivity of both cytosolic and mitochondrial forms of fumarase are
+  potential causes
 ** Genetics
-- AR inheritance, encoded by nuclear DNA
-- Single gene and mRNA encode mito and cyto isoforms
+- AR, FH encoded by nuclear DNA
+- single gene and mRNA encode mito and cyto isoforms
 ** Diagnostic Tests
-- Isolated, increased concentration of fumaric acid on urine organic
-  acid analysis is highly suggestive of fumarase deficiency.
-  - Succinate, \alpha-KGA can also be elevated
-- Molecular genetic testing for fumarase deficiency
+- isolated, increased concentration of fumaric acid on urine organic
+  acid analysis is highly suggestive of fumarase deficiency
+  - succinate, \alpha-KGA can also be elevated
+- molecular genetic testing for fumarase deficiency
 * Isocitrate Dehydrogenase
 - IDH exists in three isoforms:
-  - IDH3 catalyzes the third step of the citric acid cycle while converting \ce{NAD+} to NADH in the mitochondria.
+  - IDH3 catalyzes the third step of the citric acid cycle while
+    converting \ce{NAD+} to NADH in the mitochondria
 
 \ce{isocitrate + NAD+ ->[IHD3] \alpha-ketoglutarate + CO2 + NADH + H+}
 
-  - IDH1 and IDH2 catalyze the same reaction outside TCA cycle and use \ce{NADP+} as a cofactor.
-    - They localize to the cytosol as well as the mitochondrion and peroxisome.
+  - IDH1 and IDH2 catalyze the same reaction outside TCA cycle and use
+    \ce{NADP+} as a cofactor
+    - they localize to the cytosol as well as the mitochondrion and peroxisome
 
 \ce{isocitrate + NADP+ ->[IHD1/2] \alpha-ketoglutarate + CO2 + NADPH + H+}
 
 ** Clinical relevance
 - IDH3 deficiency is associated with retinitis pigmentosa
 - IDH1/2 mutations linked to malignant gliomas and acute myeloid leukemia
-- Mutations in IDH2 identified in half of patients 
+- mutations in IDH2 identified in half of patients 

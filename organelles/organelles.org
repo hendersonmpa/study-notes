@@ -53,23 +53,23 @@
 [[file:./figures/sl_degradation.png]]
 
 ** Protein Trafficking to Lysosome 
-- Lysosomes are composed of soluble and transmembrane proteins that
-  are targeted to lysosomes in a signal-dependent manner.
-- The majority of soluble acid hydrolases are modified with mannose
+- lysosomes are composed of soluble and transmembrane proteins that
+  are targeted to lysosomes in a signal-dependent manner
+- majority of soluble acid hydrolases are modified with mannose
   6-phosphate (M6P) residues, allowing their recognition by M6P
   receptors in the Golgi complex and ensuing transport to the
-  endosomal/lysosomal system.
-- Other soluble enzymes and non-enzymatic proteins are transported to
+  endosomal/lysosomal system
+- other soluble enzymes and non-enzymatic proteins are transported to
   lysosomes in an M6P-independent manner mediated by alternative
   receptors such as the lysosomal integral membrane protein LIMP-2 or
-  sortilin.
-- Sorting of cargo receptors and lysosomal transmembrane proteins
-  requires sorting signals present in their cytosolic domains.
-- These signals include dileucine-based motifs, DXXLL or [DE]XXXL[LI],
+  sortilin
+- sorting of cargo receptors and lysosomal transmembrane proteins
+  requires sorting signals present in their cytosolic domains
+- these signals include dileucine-based motifs, DXXLL or [DE]XXXL[LI],
   and tyrosine-based motifs, YXXØ, which interact with components of
-  clathrin coats such as GGAs or adaptor protein complexes.
-- In addition, phosphorylation and lipid modifications regulate signal
-  recognition and trafficking of lysosomal membrane proteins.
+  clathrin coats such as GGAs or adaptor protein complexes
+- in addition, phosphorylation and lipid modifications regulate signal
+  recognition and trafficking of lysosomal membrane proteins
 
 #+CAPTION[]:Protein Trafficking to Lysosome 
 #+NAME: fig:protlys
@@ -81,20 +81,19 @@
 #+ATTR_LaTeX: :width 0.8\textwidth
 [[file:./figures/lysosome_trafficking.jpeg]]
 
-
 ** M6P receptors
 - MPRs are transmembrane glycoproteins that target enzymes to lysosomes in vertebrates
 - MPRs bind newly synthesized lysosomal hydrolases in the TGN and deliver them to pre-lysosomal compartments.
-- There are two different MPRs
+- there are two different MPRs
   - the cation-independent mannose 6-phosphate receptor (CI-MPR),
   - CD-MPR requires divalent cations to efficiently recognize lysosomal hydrolases
--bind terminal M6-P with similar affinity7
+- bind terminal M6-P with similar affinity
 
 ** Sortilin
-- Sortilin is a type I transmembrane protein found in lysosomes
+- sortilin is a type I transmembrane protein found in lysosomes
   - can transport several lysosomal proteins from the TGN or PM to the endosomes
-- Tissues from sortilin knock-out mice exhibit normal morphology
-- Sortilin may transport selected acid hydrolases in:
+- tissues from sortilin knock-out mice exhibit normal morphology
+- sortilin may transport selected acid hydrolases in:
   - a subset of cell types
   - under stress conditions (e.g. Man-6-P pathway is deficient) 
 

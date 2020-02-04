@@ -76,12 +76,10 @@
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[./fao/figures/b_oxidation.png]]
 
-
 #+CAPTION[]:FA oxidation and ketone body metabolism
 #+NAME: fig:faketone
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./fao/figures/Slide12.png]]
-
 
  #+CAPTION[]:Acyl-CoA Synthetases: Chain Length Specificity
  #+NAME: tab:syn
@@ -91,8 +89,6 @@
   | L. chain   |  12-20 | ER, mito, pex        |
   | M. chain   |   6-12 | mito - kidney, liver |
   | acetyl     |    2-4 | cyto, mito           |
-
-
 
  #+CAPTION[]:Acyl-CoA Dehydrogenases: Chain Length Specificity
  #+NAME: tab:deh
@@ -125,7 +121,7 @@
  - hyperammonaemia occurs in some severe defects
    - with normal or low glutamine concentrations
    - decreased acetyl-CoA production reducing the synthesis of N-acetylglutamate
- - lactic acidaemia is seen in long-chain FAODs(LCHAD and MTP deficiencies)
+ - lactic acidaemia is seen in long-chain FAODs (LCHAD and MTP deficiencies)
    - inhibitory effects of metabolites on pyruvate metabolism
  - moderate hyperuricaemia - frequent finding during acute attacks
  - secondary hyperprolinaemia occurs in some babies with MAD deficiency
@@ -135,14 +131,10 @@
    concentrations correlate with the severity of retinopathy and may
    cause both this and the peripheral neuropathy
 
- #+CAPTION[]:Common manifestations in FAODs
+ #+CAPTION[]:Common manifestations in FAODs: green frequent, yellow intermediate, red uncommon
  #+NAME: fig:common
  #+ATTR_LaTeX: :width 1.2\textwidth
  [[./fao/figures/Ch101f016.png]]
-
-  - Green squares indicate that the feature is frequently seen in the disorder
-  - Yellow squares represent an intermediate rate of occurrence
-  - Red squares denote that it is uncommon
 
 * Carnitine Cycle Defects
 - carnitine-mediated transport of fatty acids is rate-limiting in the
@@ -371,10 +363,10 @@
   and/or degradation of the heterooctomeric holoenzyme
 
 *** Diagnostic Tests
-- see [[Long-Chain 3-Hydroxyacyl-CoA Dehydrogenase]]
+- see LCHAD
 
 *** Treatment 
-- see [[Long-Chain 3-Hydroxyacyl-CoA Dehydrogenase]]
+- see LCHAD
 
 ** Long-Chain 3-Hydroxyacyl-CoA Dehydrogenase
 *** Clinical Presentation

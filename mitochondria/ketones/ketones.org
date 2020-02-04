@@ -3,34 +3,33 @@
 #+DATE: \today
 
 * Introduction
-
-- During fasting, ketone bodies (KB) are an important fuel for many
+- during fasting, ketone bodies (KB) are an important fuel for many
   tissues, including cardiac and skeletal muscle
 - particularly important for the brain, which cannot oxidise fatty acids
-- The principal KB, acetoacetate and 3-hydroxybutyrate, are
+- principal KB, acetoacetate and 3-hydroxybutyrate, are
   maintained in equilibrium by 3-hydroxybutyrate dehydrogenase
 - acetone is formed from acetoacetate non-enzymatically and eliminated in breath
 - formed in liver mitochondria from fatty acids and certain amino acids(e.g. leucine)
 - cross cell membranes by diffusion or facilitated by monocarboxylate transporter 1 (MCT1)
   - MCT1 transport is important during catabolic stress, \uparrow flux
 - converted to acetyl-CoA in the mitochondria of extrahepatic tissues for use as fuel
-- One ketolytic enzyme, mitochondrial acetoacetyl-CoA thiolase (AKA
-  /beta-ketothiolase or T2), is also involved in isoleucine catabolism
+- one ketolytic enzyme, mitochondrial acetoacetyl-CoA thiolase (AKA
+  \beta-ketothiolase or T2), is also involved in isoleucine catabolism
 
 #+CAPTION[]:Ketogenesis and Ketolysis
 #+NAME: fig:keto 
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./ketones/figures/ketones.png]]
 
-- Disorders of ketone body metabolism present either in the first few
+- disorders of ketone body metabolism present either in the first few
   days of life or later in childhood, during an infection or some
-  other metabolic stress.
-- the primary aim of treatment is to prevent decompensation.
-- Fasting is avoided and a high glucose intake is maintained at times
-  of metabolic stress, such as infections.
+  other metabolic stress
+- the primary aim of treatment is to prevent decompensation
+- fasting is avoided and a high glucose intake is maintained at times
+  of metabolic stress, such as infections
 
 * Ketogenesis Defects
-- There are two defects of ketogenesis:
+- there are two defects of ketogenesis:
   1. 3-hydroxy-3-methylglutaryl (HMG)-CoA lyase deficiency
   2. HMG-CoA synthase deficiency
 
@@ -41,15 +40,15 @@
   - precipitated by infections with vomiting or poor feeding in early
     childhood (5 months to 6 years of age)
 - usually hepatomegaly, which resolves
-- Hyperammonaemia is rare, (surprisingly) ketonuria may be present
-- Most patients recover with intravenous glucose
+- hyperammonaemia is rare, (surprisingly) ketonuria may be present
+- most patients recover with intravenous glucose
 
 *** HMG-CoA Lyase Deficiency
 - presents with hypoglycaemia, metabolic acidosis, vomiting and a
   reduced level of consciousness
 - 30% patients, the onset is within 5 days of birth, after a short symptom-free period
 - ~70% patients, symptoms are provoked by an infection in the first year
-- A few patients first present later, occasionally as adults
+- few patients present later, occasionally as adults
 - KB levels are inappropriately low blood lactate concentrations
   may be markedly elevated, particularly in neonatal onset cases
 - often hyperammonaemia, hepatomegaly and abnormal liver function tests and
@@ -60,50 +59,50 @@
     in the cerebral white matter on T 2 -weighted images with multiple
     foci of more severe signal abnormality
 - myelination may be impaired because KB are a substrate for the
-  synthesis of myelin cholesterol.
+  synthesis of myelin cholesterol
 
 ** Metabolic Derangement
 - KB are synthesised in hepatic mitochondria, primarily using
   acetyl-CoA derived from fatty acid oxidation
 - HMG-CoA synthase catalyses the condensation of acetoacetyl-CoA and
   acetyl-CoA to form HMG-CoA, which is cleaved by HMG-CoA lyase to
-  release acetyl-CoA and acetoacetate.
-- HMG-CoA can also be derived from leucine.
+  release acetyl-CoA and acetoacetate
+- HMG-CoA can also be derived from leucine
 - HMG-CoA synthase and HMG-CoA lyase deficiencies both impair
   ketogenesis but HMG-CoA lyase deficiency also causes the
-  accumulation of intermediates of the leucine catabolic pathway.
-- During fasting, the lack of KB leads to excessive glucose
-  consumption and hypoglycaemia.
+  accumulation of intermediates of the leucine catabolic pathway
+- during fasting, the lack of KB leads to excessive glucose
+  consumption and hypoglycaemia
 
 ** Genetics
 - HMG-CoA synthase (HMGCS2) and HMG-CoA lyase (HMGCL) deficiencies are
   AR
 
 ** Diagnostic Tests
-- Critical sample is important
-- If the plasma free fatty acid concentration is raised with an
+- critical sample is important
+- if the plasma free fatty acid concentration is raised with an
   inappropriately small rise in total KB it implies a defect of
   ketogenesis or fatty acid oxidation 
   - plasma FFA/total KB >2.5
 
 *** HMG-CoA Synthase Deficiency
-- During decompensation, urine contains saturated, unsaturated and
+- during decompensation, urine contains saturated, unsaturated and
   3-hydroxy-dicarboxylic acids, 5-hydroxyhexanoic acid and other
   metabolites, of which 4-hydroxy-6-methyl-2-pyrone is the most
-  specific.
+  specific
 - plasma acylcarnitines are normal when patients are well
-  - raised during illness.
-- The diagnosis is confirmed by mutation analysis.
+  - raised during illness
+- diagnosis is confirmed by mutation analysis
 
 *** HMG-CoA Lyase Deficiency
-- Even when healthy, patients excrete increased quantities of
+- even when healthy, patients excrete increased quantities of
   3-hydroxy-3-methylglutaric, 3-hydroxyisovaleric, 3-methyl-glutaconic
   and 3-methylglutaric acids
 - 3-methyl-crotonylglycine may also be present
-- Blood acylcarnitine analysis shows raised
+- blood acylcarnitine analysis shows raised
   3-hydroxyisovalerylcarnitine (C5OH)
 - diagnosis is confirmed by mutation analysis or measuring HMG-CoA
-  lyase activity in leukocytes or cultured fibroblasts.
+  lyase activity in leukocytes or cultured fibroblasts
 
 ** Treatment
 - avoid fasting and maintain  high carbohydrate intake during any
@@ -117,74 +116,74 @@
 - HMG-CoA lyase deficiency have more encephalopathy as children or adults
 
 * Ketolysis Defects
-- Ketone body utilisation is catalysed by:
+- ketone body utilisation is catalysed by:
   1. succinyl-CoA:3-oxoacid CoA transferase (SCOT)
   2. mitochondrial acetoacetyl-CoA thiolase (T2)
-- Deficiencies of SCOT, T2 or MCT1 present with episodes of ketoacidosis.
+- deficiencies of SCOT, T2 or MCT1 present with episodes of ketoacidosis
 
 ** Clinical Presentation
-- Patients present with episodes of severe ketoacidosis in early childhood
-- A few patients have seizures or cardiomegaly at the time of presentation
-- Patients are healthy between episodes, with normal blood pH
-- Decompensation triggered by fasting or an infection with poor
+- patients present with episodes of severe ketoacidosis in early childhood
+- few patients have seizures or cardiomegaly at the time of presentation
+- patients are healthy between episodes, with normal blood pH
+- decompensation triggered by fasting or an infection with poor
   feeding and vomiting
-- Blood glucose, lactate and ammonia concentrations are usually normal
+- blood glucose, lactate and ammonia concentrations are usually normal
 
 ** Metabolic Derangement
 - KB utilisation occurs in extrahepatic mitochondria, starting with
   the transfer of coenzyme A from succinyl-CoA to acetoacetate,
-  catalysed by SCOT.
-- This forms acetoacetyl-CoA, which is converted to acetyl-CoA by T2.
-- The second reaction can also be catalysed to some extent by
+  catalysed by SCOT
+- this forms acetoacetyl-CoA, which is converted to acetyl-CoA by T2
+- second reaction can also be catalysed to some extent by
   medium-chain 3-ketoacyl-CoA thiolase (T1)
   - may explain why T2 deficient patients do not have permanent
     ketosis
 - SCOT is not expressed in liver and has no role other than
-  ketolysis.
+  ketolysis
 - T2 is expressed in liver, involved in ketogenesis and ketolysis
-- Patients with T2 deficiency present with ketoacidosis
+- patients with T2 deficiency present with ketoacidosis
   - T2 more crucial in ketolysis than in ketogenesis
 - T2 also cleaves 2-methylacetoacetyl-CoA in the isoleucine
   degradation pathway
   - T2 deficiency \to \uparrow isoleucine-derived acyl-CoA esters
   - these may be responsible for neurodevelopmental abnormalities
 - ketoacidosis in patients with MCT1 deficiency \to transporters are
-  facilitate rapid entry of KB at times of stress.
+  facilitate rapid entry of KB at times of stress
 - MCT1 transporters are important for lactate transport
-  - expressed in the brain, particularly on oligodendroglia.
+  - expressed in the brain, particularly on oligodendroglia
 - learning difficulties in MCT1 deficient patients may be due to the
   absence of MCT1 in the brain
 
 ** Genetics
 - AR - SCOT (OXCT1), T2 (ACAT1) and MCT1 (SLC16A1)
-- Heterozygous SLC16A1 and OXCT1 mutations have, however, been found
+- heterozygous SLC16A1 and OXCT1 mutations have, however, been found
   in several patients investigated for ketoacidosis, suggesting that
-  they can cause problems if subjects are exposed to sufficient stress.
+  they can cause problems if subjects are exposed to sufficient stress
 
-- Heterozygous SLC16A1 mutations can also cause hyperinsulinism;
- these patients have promoter mutations that prevent the normal
- silencing of MCT1 expression in pancreatic \beta-cells
+- heterozygous SLC16A1 mutations can also cause hyperinsulinism
+  - these patients have promoter mutations that prevent the normal
+    silencing of MCT1 expression in pancreatic \beta-cells
 
 ** Diagnostic Tests
 *** SCOT & MCT1 Deficiencies
 - should be considered in a number of patients because ketoacidosis is relatively common
-- A plasma free fatty acid:
+- a plasma free fatty acid:
   - plasma FFA/total KB <0.3 suggests a defect of ketolysis
-- Urine organic acids show \uparrow KB but no specific abnormalities.
-- Patients with severe SCOT deficiency have persistent ketonuria in
+- urine organic acids show \uparrow KB but no specific abnormalities
+- patients with severe SCOT deficiency have persistent ketonuria in
   the fed state, but patients with a mild mutation do not
-- The diagnoses are now usually made by mutation analysis
+- diagnoses are now usually made by mutation analysis
 *** T2 Deficiency
 - \uparrow urine 2-methylacetoacetate, 2-methyl-3-hydroxybutyric acid
-  and tiglylglycine.
+  and tiglylglycine
   - 2-methylacetoacetate is unstable
 - patient with mild mutations may only show abnormalities when they
   are stressed (e.g isoleucine load)
 - 2-Methyl-3-hydroxybutyryl-CoA dehydrogenase deficiency causes a
   similar pattern of organic acids but 2-methyacetoacetate is not excreted
-- diagnosis must be confirmed by mutation analysis or enzyme assay in fibroblasts.
+- diagnosis must be confirmed by mutation analysis or enzyme assay in fibroblasts
   - Assays are complicated by the presence of other thiolases that act
-    on acetoacetyl-CoA.
+    on acetoacetyl-CoA
 - \uparrow 2-methyl-3-hydroxybutyrylcarnitine and
   tiglylcarnitine on plasma acylcarnitine
   - may be normal with mild mutations

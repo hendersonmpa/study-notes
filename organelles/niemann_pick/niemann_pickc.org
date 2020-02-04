@@ -51,7 +51,7 @@
   - ataxia, dystonia, dysarthria, dysphagia
   - cognitive dysfunction/dementia
   - cataplexy, tremors,Seizures
-
+    
 ** Neurological Forms
 *** Early infantile          
 - pre-existing hepatosplenomegaly
@@ -72,7 +72,6 @@
 - vertical gaze palzy common
 
 * Diagnostic Tests
-
 - foamy and sea-blue histiocytes may (not always) be found in bone
   marrow aspirates
 

@@ -71,10 +71,10 @@
   - displacement of normal bone marrow by storage cells
   - osteoclastic-osteoblastic imbalances
     - subsequent damage leading to bone infarctions and fractures
-  - Occasionally, involvement of other organs (e.g. lung) contributes
+  - occasionally, involvement of other organs (e.g. lung) contributes
     to the overall clinical picture
-  - Hypermetabolism and cachexia can be present
-  - Thrombocytopenia is the most common peripheral blood abnormality 
+  - hypermetabolism and cachexia can be present
+  - thrombocytopenia is the most common peripheral blood abnormality 
 
 - neurological manifestations include:
   - a high incidence of Parkinsonism
@@ -83,7 +83,7 @@
   - polyneuropathy
 
 ** Gaucher type 2
-- Type 2 is the rarer of the two classic neuronopathic variants
+- type 2 is the rarer of the two classic neuronopathic variants
 - early infantile onset of acute neuronopathic disease
 - progressing rapidly to death before age 2 years
 
@@ -141,10 +141,10 @@
 *** Enzyme Assay
 - assay of the \beta-glucocerebrosidase activity in any nucleated cell
   - the enzyme does not normally occur in plasma/serum or erythrocytes
-- Glucocerebrosidase activity in:
+- glucocerebrosidase activity in:
   - peripheral blood lymphocytes/leukocytes
   - dried blood spots
-- 4MU-\beta-D--glucopyranoside substrate
+- 4MU-\beta-D-glucopyranoside substrate
 
 *** Monitoring
 - chitotriosidase, chemokine CLL18/PARK, glucosylsphingosine

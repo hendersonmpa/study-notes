@@ -20,7 +20,6 @@ $(OUT_DIR)organelles.pdf: ./organelles/organelles.org ./organelles/fabry/fabry.o
 	mv -v ./organelles/organelles.pdf $(OUT_DIR)organelles.pdf
 
 $(OUT_DIR)mitochondria.pdf: ./mitochondria/mitochondria.org ./mitochondria/etc/etc.org \
-./mitochondria/mitochondria/mitochondria.org ./mitochondria/oxphos_disorders/oxphos_disorders.org \
 ./mitochondria/fao/fao.org ./mitochondria/ketones/ketones.org \
 ./mitochondria/pyruvate/pyruvate.org ./mitochondria/tca/tca.org ./mitochondria/creatine/creatine.org
 	emacs -u "$(id -un)" \
@@ -70,6 +69,7 @@ $(OUT_DIR)vitamins.pdf: ./vitamins/vitamins.org ./vitamins/biotin/biotin.org \
 	-f org-latex-export-to-pdf
 	mv -v ./vitamins/vitamins.pdf $(OUT_DIR)vitamins.pdf
 
+## complete
 $(OUT_DIR)aa.pdf: ./aa/aa.org ./aa/phe/phe.org ./aa/tyr/tyr.org ./aa/sulfur/sulfur.org \
 ./aa/orn_pro/orn_pro.org ./aa/lys/lys.org ./aa/nkh/nkh.org ./aa/qsn/qsn.org \
 ./aa/transport/transport.org ./aa/bcaa/bcaa.org ./aa/urea/urea.org

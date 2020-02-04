@@ -20,9 +20,9 @@
 - defects in PAH or production or recycling of BH_4 may result in:
   - hyperphenylalaninaemia (HPA)
   - deficiency of TYR, L-dopa, dopamine, melanin, catecholamines and 5-hydroxytryptophan (5HT)
-- when hydroxylation to Tyr is impeded Phe can be transaminated to
-  phenylpyruvate and further reduced and decarboxylated to
-  phenyllactate and phenylacetate
+- when hydroxylation to Tyr is impeded excess Phe is converted to phenylketones
+  - Phe can be transaminated to phenylpyruvate which is reduced to
+    phenyllactate or decarboxylated to phenylacetate
 
 
 #+CAPTION[]:Phenylalaninemia classification
@@ -48,7 +48,6 @@
 #+NAME: fig:bh4
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./phe/figures/Slide21.png]]
-
 
 
 * Phenylalanine Hydroxylase Deficiency

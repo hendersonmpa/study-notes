@@ -3,7 +3,7 @@
 #+DATE: \today
 
 * Introduction
-- Most extracellular proteins, membrane proteins and several
+- most extracellular proteins, membrane proteins and several
   intracellular proteins (lysosomal enzymes), are glycoproteins
 
 - glycans are defined by their linkage to the protein:

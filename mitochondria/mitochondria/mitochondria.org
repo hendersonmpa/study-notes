@@ -4,28 +4,25 @@
 
 * Background
 ** Maternal Inheritance
-- Mitochondria and therefore the mtDNA, usually come from the egg
+- mitochondria and therefore the mtDNA, usually come from the egg
   - the egg cell contains relatively few mitochondria
   - these mitochondria divide to populate the cells
-- Sperm mitochondria enter the egg, but do not contribute genetic
-  information to the embryo.
+- sperm mitochondria enter the egg, but do not contribute genetic
+  information to the embryo
   - paternal mitochondria are marked with ubiquitin for destruction
-    inside the embryo.
+    inside the embryo
 - mitochondria are randomly distributed to the daughter cells during
-  the division of the cytoplasm.
+  the division of the cytoplasm
 
 ** Heteroplasmy
-
-- Heteroplasmy is the presence of more than one type of organellar
-  genome within a cell or individual.
-
-- It is an important factor in considering the severity of
-  mitochondrial diseases.
+- heteroplasmy is the presence of more than one type of organellar
+  genome within a cell or individual
+- it is an important factor in considering the severity of
+  mitochondrial diseases
   - can also be beneficial
-
-- Microheteroplasmy is present in most individuals.
+- microheteroplasmy is present in most individuals
   - hundreds of independent mutations, with each mutation found in
-    about 1-2% of all mitochondrial genomes.
+    about 1-2% of all mitochondrial genomes
 
 #+CAPTION[heter]:Heteroplasmy
 #+NAME: fig:heter
@@ -33,13 +30,13 @@
 [[file:./mitochondria/figures/heteroplasmy.png]]
 
 ** Muller's Ratchet and the Mitochondrial Bottleneck
-- Entities undergoing uniparental inheritance and with little to no
+- entities undergoing uniparental inheritance and with little to no
   recombination can be subject to "Muller's ratchet"
   - the inexorable accumulation of deleterious mutations until
-    functionality is lost.
+    functionality is lost
 
 - mitochondria avoid this buildup through a developmental process
-  known as the mtDNA bottleneck. 
+  known as the mtDNA bottleneck
   - selection acts to remove those cells with more deleterious mtDNA
 
 #+CAPTION[bottle]:Mitochondrial bottle neck
@@ -52,25 +49,25 @@
 - enables genetic complementation
   - fusion of the mitochondria allows two mitochondrial genomes with
     different defects within the same organelle to encode what the
-    other lacks.
+    other lacks
   - corrects for mtDNA damage
   
 ** Replication and Fission
-- Mitochondria divide by binary fission, similar to bacterial cell division
+- mitochondria divide by binary fission, similar to bacterial cell division
 - mammalian mitochondria replicate their DNA and divide mainly in response
-  to the energy needs of the cell, not in phase with the cell cycle.
-  - When the energy needs of a cell are high, mitochondria grow and
-    divide.
-  - When the energy use is low, mitochondria are destroyed
-    or become inactive.
+  to the energy needs of the cell, not in phase with the cell cycle
+  - when the energy needs of a cell are high, mitochondria grow and
+    divide
+  - when the energy use is low, mitochondria are destroyed
+    or become inactive
 ** Human Mitochondrial DNA
 - a circular DNA molecule ~ 16 kb
 - encodes 37 genes
   - 13 for subunits of respiratory complexes I, III, IV and V
   - 22 for mitochondrial tRNA
     - 20 standard amino acids, plus extra genes for leu and ser
-  - 2 for rRNA.
-- One mitochondrion can contain two to ten copies of its DNA.
+  - 2 for rRNA
+- one mitochondrion can contain two to ten copies of its DNA
 
 #+CAPTION[mtdna]: Human mitochondrial genome
 #+NAME: fig:mtdna
@@ -78,8 +75,8 @@
 [[file:./mitochondria/figures/mitochondrial_genome.png]]
 
 ** Alternative genetic code
-- The mitochondria of many eukaryotes, including most plants, use the
-  standard code.
+- the mitochondria of many eukaryotes, including most plants, use the
+  standard code
 
 #+CAPTION[mito code]: Exceptions to the standard genetic code in mamalian mitochondria
 #+NAME: tab:code 
@@ -89,14 +86,14 @@
 | AUA      | Isoleucine | Methionine   |
 | UGA      | Stop codon | Tryptophan   |
 
-- AUA, AUC, and AUU codons are all allowable start codons.
-- Some of these differences are pseudo-changes in the genetic code due
-  to the phenomenon of RNA editing, common in mitochondria.
+- AUA, AUC, and AUU codons are all allowable start codons
+- some of these differences are pseudo-changes in the genetic code due
+  to the phenomenon of RNA editing, common in mitochondria
 
 ** Mitochondrial Disease
-- About 15% of mitochondrial disease is caused by mutations in the
-  mitochondrial DNA that affect mitochondrial function.
-- Other mitochondrial diseases are caused by
+- about 15% of mitochondrial disease is caused by mutations in the
+  mitochondrial DNA that affect mitochondrial function
+- other mitochondrial diseases are caused by
   - mutations in nuclear DNA
   - acquired mitochondrial conditions (drugs, toxins)
 
