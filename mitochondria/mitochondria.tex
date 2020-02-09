@@ -1,4 +1,4 @@
-% Created 2020-02-04 Tue 16:29
+% Created 2020-02-08 Sat 12:06
 % Intended LaTeX compiler: pdflatex
 \documentclass{scrartcl}
 \usepackage[utf8]{inputenc}
@@ -46,13 +46,82 @@
 \tableofcontents
 
 
+\section{Mitochondrial Redox Reactions}
+\label{sec:orga392b08}
+
+\subsection{RedOx State}
+\label{sec:org220d52c}
+\begin{itemize}
+\item NADH and FADH\(_{\text{2}}\) are reducing agents
+\begin{itemize}
+\item oxidized in the reduction reaction
+\item \ce{NADH <=>[Ox][Red] NAD+ + H}
+\item \ce{FADH2 <=>[Ox][Red] FAD + 2H}
+\end{itemize}
+\item \(\downarrow\) cellular respiration results in:
+\begin{itemize}
+\item \(\uparrow\) NADH \& FADH\(_{\text{2}}\) \(\because\) not oxdized by ETC
+\item \(\uparrow\) lactate:pyruvate \(\because\) \(\uparrow\) NADH
+\item \(\uparrow\) \(\beta\)-hydroxybutyrate  \(\because\) \(\uparrow\) NADH
+\end{itemize}
+
+\item PDHC deficiency: n/\(\downarrow\) L:P < 25
+\item ETC deficiency: \(\uparrow\) L:P > 25
+\end{itemize}
+
+\subsection{Pyruvate}
+\label{sec:orgf22386e}
+\begin{description}
+\item[{pyruvate dehydrogenase complex}] oxidized \(\to\) acetyl-CoA
+\end{description}
+
+\ce{pyruvate + CoA + NAD+ <=>[PDHC] acetyl-CoA + CO2 + NADH + H+}
+
+\begin{description}
+\item[{lactate dehydrogenase}] pyruvate reduced \(\to\) lactate
+\end{description}
+
+\ce{pyruvate + NADH <=>[LDH] lactate + NAD+}
+
+\subsection{TCA}
+\label{sec:orgd97e0aa}
+\begin{description}
+\item[{Net reaction}] Acetyl-CoA oxidized to 2CO\(_{\text{2}}\)
+\end{description}
+{\small\ce{Acetyl-CoA + 3NAD+ + FAD + GDP + Pi + 2H2O -> 2CO2 + CoA + 3NADH + FADH2 + GTP + 2H+}}
+
+\subsection{ETC}
+\label{sec:org09cd8e5}
+\begin{description}
+\item[{Complex I}] NADH oxidized to NAD\^{}+
+\end{description}
+
+\ce{NADH <=>[CI] NAD+ + H}
+
+\begin{description}
+\item[{ETF/ETF-QO}] FADH\(_{\text{2}}\) oxidized to FAD
+
+\ce{FADH2 <=>[ETF/ETF-CO] FAD + 2H}
+\end{description}
+
+
+
+\subsection{Ketones}
+\label{sec:org9b9ed2c}
+\begin{description}
+\item[{hydroxybutyrate dehydrogenase}] reduced to \(\beta\)-hydroxybutyrate
+
+\ce\{acetoacetate + NADH <=>[HBDH] \betaHB + NAD+
+\end{description}
+
+
 \section{Fatty Acid Oxidation}
-\label{sec:orge6f9f74}
+\label{sec:org5b841cf}
 \subsection{Introduction}
-\label{sec:orgdee7b70}
+\label{sec:orge59d49c}
 \begin{itemize}
 \item fatty acids are usually straight aliphatic chains with a methyl
-group at one end (\(\omega\)-carbon) and a carboxyl group and the other
+group at one end (\(\omega\)-carbon) and a carboxyl group at the other
 end
 \end{itemize}
 
@@ -66,13 +135,12 @@ end
 \begin{itemize}
 \item non-systematic historical names most commonly used
 \begin{description}
-\item[{Palmitic acid}] discovered in palm oil
-\item[{Stearic acid}] from the Greek word "stear", which means tallow
-\item[{Oleic acid}] oleic means related to, or derived from, olive oil
+\item[{Palmitic acid}] C16:0 discovered in palm oil
+\item[{Stearic acid}] C18:0 from the Greek word "stear", which means tallow
+\item[{Oleic acid}] C18:1 oleic means related to, or derived from, olive oil
 \end{description}
 \item position of a double bond is designated by the number of the carbon in the double bond that is closest to the carboxyl group
 \end{itemize}
-
 
 \definesubmol{x}{-[1,.6]-[7,.6]}
 \definesubmol{y}{-[7,.6]-[1,.6]}
@@ -102,10 +170,10 @@ end
 
 \begin{enumerate}
 \item Mitochondrial fatty acid oxidation
-\label{sec:orgd649289}
+\label{sec:org39f0d9f}
 
 \begin{itemize}
-\item involves three processes (Figure \ref{fig:org6a29fe7})
+\item involves three processes (Figure \ref{fig:org1b1fe35})
 \begin{enumerate}
 \item entry of fatty acids into mitochondria
 \begin{itemize}
@@ -128,7 +196,7 @@ matrix
 \end{itemize}
 \item \(\beta\)-oxidation is catalysed by enzymes of different chain
 length specificities
-\item enzymes for long-chain substrates are membrane-bound;
+\item enzymes for long-chain substrates are membrane-bound
 \begin{itemize}
 \item three of the reactions are catalysed by the mitochondrial
 trifunctional protein (MTP)
@@ -139,7 +207,7 @@ trifunctional protein (MTP)
 \begin{itemize}
 \item electrons are passed to the respiratory chain either directly
 (from NADH to complex I) or via two transfer proteins (from
-FADH2 to ubiquinone)
+FADH\(_{\text{2}}\) to ubiquinone)
 \end{itemize}
 \end{enumerate}
 \end{itemize}
@@ -147,19 +215,19 @@ FADH2 to ubiquinone)
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./fao/figures/b_oxidation.png}
-\caption{\label{fig:org6a29fe7}
+\caption{\label{fig:org1b1fe35}
 \(\beta\)-oxidation}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./fao/figures/Slide12.png}
-\caption{\label{fig:orge6d20ec}
+\caption{\label{fig:org1ea046b}
 FA oxidation and ketone body metabolism}
 \end{figure}
 
 \begin{table}[htbp]
-\caption{\label{tab:org77c8897}
+\caption{\label{tab:orgdbef3f5}
 Acyl-CoA Synthetases: Chain Length Specificity}
 \centering
 \begin{tabular}{lrl}
@@ -173,7 +241,7 @@ acetyl & 2-4 & cyto, mito\\
 \end{table}
 
 \begin{table}[htbp]
-\caption{\label{tab:org94fe810}
+\caption{\label{tab:orgada1208}
 Acyl-CoA Dehydrogenases: Chain Length Specificity}
 \centering
 \begin{tabular}{lrl}
@@ -188,7 +256,7 @@ SCAD & 2-6 & MM\\
 
 
 \begin{table}[htbp]
-\caption{\label{tab:orga764eed}
+\caption{\label{tab:org8c6fc02}
 Other: Chain Length Specificity}
 \centering
 \begin{tabular}{lrl}
@@ -203,7 +271,7 @@ Trifunctional protein & 12-16 & \(\uparrow\) activity w \(\uparrow\) length\\
 
 
 \item Common manifestations in FAODs
-\label{sec:org53ea018}
+\label{sec:org071f16f}
 \begin{itemize}
 \item fasting hypoglycaemia is the classic metabolic disturbance in FAODs
 \begin{itemize}
@@ -239,13 +307,13 @@ cause both this and the peripheral neuropathy
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1.2\textwidth]{./fao/figures/Ch101f016.png}
-\caption{\label{fig:org7e42e48}
+\caption{\label{fig:org249738d}
 Common manifestations in FAODs: green frequent, yellow intermediate, red uncommon}
 \end{figure}
 \end{enumerate}
 
 \subsection{Carnitine Cycle Defects}
-\label{sec:orgf50a9fe}
+\label{sec:org75385de}
 \begin{itemize}
 \item carnitine-mediated transport of fatty acids is rate-limiting in the
 oxidation of fats
@@ -255,19 +323,21 @@ with inadequate gluconeogenesis and hypoglycemia.
 \end{itemize}
 \begin{enumerate}
 \item Carnitine Transporter Deficiency
-\label{sec:org0fdeab8}
+\label{sec:org2045837}
 \begin{itemize}
-\item AKA:primary carnitine deficiency, carnitine uptake deficiency
+\item AKA: primary carnitine deficiency, carnitine uptake deficiency
 \end{itemize}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org9579e71}
+\label{sec:org5babc59}
 \begin{itemize}
 \item cardiomyopathy, cardiac failure, muscle weakness, liver disease
 \item precipitated by infection, fasting, pregnancy or antibiotics containing pivalate
-\item pivalate is excreted bound to carnitine, \(\downarrow\) carnitine concentration
+\begin{itemize}
+\item pivalate is excreted bound to carnitine \(\to\) \(\downarrow\) carnitine concentration
 \begin{itemize}
 \item isobaric with C5-carnitine
+\end{itemize}
 \end{itemize}
 \item some present in infancy with hypoglycaemia, liver dysfunction and hyperammonaemia
 \item other children develop heart failure due to cardiomyopathy,
@@ -277,10 +347,10 @@ thickened ventricular walls and reduced contractility
 \item screening has shown that many subjects with low plasma carnitine remain asymptomatic
 \end{itemize}
 \item Metabolic Derangement
-\label{sec:orgf1834ea}
+\label{sec:orgf1a7327}
 \begin{itemize}
 \item organic cation/carnitine transporter(OCTN2) responsible for
-carnitine uptake (Figure \ref{fig:orgd909575})
+carnitine uptake (Figure \ref{fig:orgd2d8705})
 \begin{itemize}
 \item analysis of carnitine transport in different tissues suggests the
 presence of heterogeneous transporters
@@ -298,34 +368,34 @@ oxidation
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.6\textwidth]{./fao/figures/transporter.png}
-\caption{\label{fig:orgd909575}
+\caption{\label{fig:orgd2d8705}
 Carnitine Transporter}
 \end{figure}
 
 \item Genetics
-\label{sec:org560a36b}
+\label{sec:org0875b08}
 \begin{itemize}
 \item AR, OCTN2
 \end{itemize}
 \item Diagnostic Testing
-\label{sec:orgcb49d39}
+\label{sec:orgd341c78}
 \begin{itemize}
 \item \(\Downarrow\) plasma total carnitine, \textless{} 5\% of normal
 \item \(\uparrow\) urine free carnitine
 \end{itemize}
 \item Treatment
-\label{sec:orgd3fc637}
+\label{sec:org4ead0e2}
 \begin{itemize}
 \item carnitine supplementation
 \end{itemize}
 \end{enumerate}
 \item Carnitine Palmitoyltransferase I Deficiency
-\label{sec:org5b5a8fe}
+\label{sec:org20bf950}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:orgd876749}
+\label{sec:org2431ded}
 \begin{itemize}
-\item usually present by the age of 2 years with hypoketotic hypoglycaemia,
+\item usually present by the age of 2 years with hypoketotic hypoglycaemia
 \begin{itemize}
 \item induced by fasting or illness
 \end{itemize}
@@ -335,7 +405,7 @@ Carnitine Transporter}
 \end{itemize}
 \end{itemize}
 \item Metabolic Derangement
-\label{sec:orge7faf21}
+\label{sec:org6d97438}
 \begin{itemize}
 \item CPT1 is responsible for the formation of acyl carnitines
 \begin{itemize}
@@ -358,12 +428,12 @@ which then undergo \(\beta\)-oxidation
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.6\textwidth]{./fao/figures/cpt1.png}
-\caption{\label{fig:org873cbf9}
+\caption{\label{fig:org6573112}
 CPT1}
 \end{figure}
 
 \item Genetics
-\label{sec:org02e891d}
+\label{sec:org8aa19df}
 \begin{itemize}
 \item AR, CPT1A
 \item CPTI deficiency is extremely common in the Inuit population of Canada and Greenland
@@ -376,14 +446,14 @@ CPT1}
 \end{itemize}
 \end{itemize}
 \item Diagnostic Testing
-\label{sec:orgbc414d5}
+\label{sec:org8a76269}
 \begin{itemize}
 \item \(\uparrow\) total/free carnitine
 \item \(\uparrow\) C0
 \item \(\downarrow\) C16, C18, C18:1
 \end{itemize}
 \item Treatment
-\label{sec:orgec5ab3f}
+\label{sec:org2707ae4}
 \begin{itemize}
 \item prevent hypoglycaemia
 \item low-fat diet
@@ -394,10 +464,10 @@ CPT1}
 \end{itemize}
 \end{enumerate}
 \item Carnitine Acylcarnitine Translocase Deficiency
-\label{sec:org6528e51}
+\label{sec:org3752c93}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org98a146e}
+\label{sec:org958a9ed}
 \begin{itemize}
 \item rare disorder usually presents in the neonatal period, with
 death by 3 months of age
@@ -412,10 +482,10 @@ encephalopathy
 \end{itemize}
 \end{itemize}
 \item Metabolic Derangement
-\label{sec:org9b349b4}
+\label{sec:org88a8297}
 \begin{itemize}
 \item carnitine-acylcarnitine translocase, catalyzes the transfer of the
-acylcarnitines across the inner mitochondrial membrane (Figure \ref{fig:org5650ee8})
+acylcarnitines across the inner mitochondrial membrane (Figure \ref{fig:orgc9ab2b6})
 \item deficiency of carnitine acyl translocase leads to the accumulation
 of the free fatty acids outside the mitochondrial matrix
 \item long chain acylcarnitines and short chains are also found, because
@@ -434,37 +504,37 @@ carnitine
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.6\textwidth]{./fao/figures/translocase.png}
-\caption{\label{fig:org5650ee8}
+\caption{\label{fig:orgc9ab2b6}
 Carnitine Translocase}
 \end{figure}
 
 \item Genetics
-\label{sec:org32211ae}
+\label{sec:orgafb1a9d}
 \begin{itemize}
 \item AR, SLC25A20
 \end{itemize}
 \item Diagnostic Testing
-\label{sec:org184da90}
+\label{sec:orge6e7556}
 \begin{itemize}
 \item \(\Downarrow\) total carnitine
 \item \(\downarrow\) C0
 \item \(\Uparrow\) C16,18,C18:1
 \end{itemize}
 \item Treatment
-\label{sec:orgaa284a4}
+\label{sec:org218cb62}
 \begin{itemize}
 \item prevent hypoglycaemia
 \item low-fat diet
 \end{itemize}
 \end{enumerate}
 \item Carnitine Palmitoyltransferase II Deficiency
-\label{sec:org6378c5f}
+\label{sec:orgec98085}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org1f1d006}
+\label{sec:org551324e}
 \begin{enumerate}
 \item Neonatal
-\label{sec:org519e221}
+\label{sec:orge27fa6b}
 \begin{itemize}
 \item severe neonatal onset CPT II deficiency is usually lethal
 \item patients become comatose within a few days of birth
@@ -479,7 +549,7 @@ accompanied by cardiomyopathy and arrhythmias
 \end{itemize}
 
 \item Childhood
-\label{sec:orge7fb52c}
+\label{sec:org8f6afcb}
 \begin{itemize}
 \item episodes may be brought on by infections or exercise
 \item moderate or severe episodes there is myoglobinuria, \(\uparrow\) CK
@@ -491,7 +561,7 @@ elevated
 \end{itemize}
 
 \item Adolescence and Adult
-\label{sec:org9e32eb3}
+\label{sec:orgd40d974}
 \begin{itemize}
 \item most common form is a partial deficiency that presents with
 episodes of rhabdomyolysis
@@ -503,26 +573,26 @@ episodes of rhabdomyolysis
 \end{enumerate}
 
 \item Metabolic Derangement
-\label{sec:org5c80ace}
+\label{sec:orgd422eae}
 \begin{itemize}
 \item CPTII is situated on the inner mitochondrial membrane, catalyzes the
 regeneration of carnitine and the long chain fatty acyl CoAs, which
-then undergo \(\beta\)-oxidation (Figure \ref{fig:org873cbf9})
+then undergo \(\beta\)-oxidation (Figure \ref{fig:org6573112})
 \end{itemize}
 \item Genetics
-\label{sec:org2402245}
+\label{sec:org1b827e5}
 \begin{itemize}
 \item AR, CPT2
 \end{itemize}
 \item Diagnostic Testing
-\label{sec:org4997f85}
+\label{sec:org4f65bcb}
 \begin{itemize}
 \item \(\downarrow\) total carnitine
 \item \(\uparrow\) (C16 + C18)/C2
 \end{itemize}
 
 \item Treatment
-\label{sec:org57c0689}
+\label{sec:orgfb137b2}
 \begin{itemize}
 \item high-carbohydrate (70\%) and low-fat (<20\%) diet to provide fuel for glycolysis
 \item carnitine to convert potentially toxic long-chain acyl-CoAs to
@@ -531,39 +601,39 @@ acylcarnitines
 \end{enumerate}
 \end{enumerate}
 \subsection{\(\beta\)-Oxidation Defects}
-\label{sec:orgd79faee}
+\label{sec:orgd994b5c}
 \begin{enumerate}
 \item Very-Long-Chain Acyl-CoA Dehydrogenase Deficiency
-\label{sec:orgfdd3ed8}
+\label{sec:orga17b3c6}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org4be28ce}
+\label{sec:org7e5f202}
 \begin{enumerate}
 \item Infancy
-\label{sec:org5c7a8e1}
+\label{sec:org2da1800}
 \begin{itemize}
 \item severely affected patients present in early infancy with
 cardiomyopathy, in addition to the problems seen in milder patients
 \end{itemize}
 \item Childhood
-\label{sec:org1011c3d}
+\label{sec:orgd4025db}
 \begin{itemize}
 \item patients present in childhood with hypoglycaemia but suffer exercise
 or illness induced rhabdomyolysis or chronic weakness at a later age
 \end{itemize}
 \item Adolescence and Adult
-\label{sec:org4620b72}
+\label{sec:orgffa4fb9}
 \begin{itemize}
 \item mildly affected patients present as adolescents or adults with
 exercise-induced rhabdomyolysis
 \end{itemize}
 \end{enumerate}
 \item Metabolic Derangement
-\label{sec:org65e543b}
+\label{sec:orgc4c65f0}
 \begin{itemize}
 \item VLCAD is one of four mitochondrial acyl CoA dehydrogenases that
 catalyze the initial steps in the \(\beta\)-oxidation of fatty acids
-(Table \ref{tab:org94fe810})
+(Table \ref{tab:orgada1208})
 \item optimal substrate is c16, palmitoy-CoA
 \item ACAD9 is responsible for production of C14:1-carnitine and
 C12-carnitine in VLCAD deficiency
@@ -571,25 +641,25 @@ C12-carnitine in VLCAD deficiency
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.6\textwidth]{./fao/figures/vlcad.png}
-\caption{\label{fig:org8a60a25}
+\caption{\label{fig:orgc11a2ea}
 VLCAD reaction}
 \end{figure}
 
 \item Genetics
-\label{sec:org3834a54}
+\label{sec:orga4bff72}
 \begin{itemize}
 \item AR, ACADVL
 \end{itemize}
 
 \item Diagnostic Testing
-\label{sec:orgf3bed68}
+\label{sec:org2bd3003}
 \begin{itemize}
 \item \(\uparrow\) C14:1
 \item \(\uparrow\) C14:1/C12:1
 \item \(\uparrow\) UOA C3-C14 dicarboxylic acids
 \end{itemize}
 \item Treatment
-\label{sec:org6d2a728}
+\label{sec:org7e803f4}
 \begin{itemize}
 \item avoid fasting
 \item more severe forms low-fat diet with MCT
@@ -597,10 +667,10 @@ VLCAD reaction}
 \end{enumerate}
 
 \item Mitochondrial Trifunctional Protein Deficiency
-\label{sec:org9719804}
+\label{sec:org79f2a79}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:orgb994ea1}
+\label{sec:org5cf0540}
 \begin{itemize}
 \item presentation of generalised MTP deficiency is heterogeneous
 \item patients with severe deficiency present as neonates
@@ -624,7 +694,7 @@ enzymes and Low Platelets) and acute fatty liver of pregnancy
 \end{itemize}
 \end{itemize}
 \item Metabolic Derangement
-\label{sec:org903e1a0}
+\label{sec:org9df63e8}
 \begin{itemize}
 \item MTP a hetero-octamer composed of four \(\alpha\)-subunits and four
 \(\beta\)-subunits
@@ -638,23 +708,23 @@ and/or degradation of the heterooctomeric holoenzyme
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org079856f}
+\label{sec:org6f110e4}
 \begin{itemize}
 \item see LCHAD
 \end{itemize}
 
 \item Treatment
-\label{sec:orgc19c54c}
+\label{sec:orga0ecb8c}
 \begin{itemize}
 \item see LCHAD
 \end{itemize}
 \end{enumerate}
 
 \item Long-Chain 3-Hydroxyacyl-CoA Dehydrogenase
-\label{sec:org3469bc8}
+\label{sec:org0099f68}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org167bbc5}
+\label{sec:orga6c800c}
 \begin{itemize}
 \item isolated LCHAD deficiency usually presents acutely before 6 months of age
 \begin{itemize}
@@ -671,29 +741,29 @@ and/or degradation of the heterooctomeric holoenzyme
 \item some patients develop cataracts
 \end{itemize}
 \item Metabolic Derangement
-\label{sec:org42caa68}
+\label{sec:org6901555}
 \begin{itemize}
 \item LCHAD is a component of MTP
 \item bound to the inner mitochondrial membrane
 \item activity is optimal for C12-C16
 \item catalyzes dehydration of the 3-hydroxy group to a 3-keto group
-(Figure \ref{fig:orgb254ee3})
+(Figure \ref{fig:org03bd4a6})
 \end{itemize}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.6\textwidth]{./fao/figures/lchad.png}
-\caption{\label{fig:orgb254ee3}
+\caption{\label{fig:org03bd4a6}
 LCHAD reaction}
 \end{figure}
 
 \item Genetics
-\label{sec:orgef9cf2f}
+\label{sec:orge39ab8f}
 \begin{itemize}
 \item AR, HADHA
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:orge1ebf2d}
+\label{sec:orgde93c7d}
 \begin{itemize}
 \item \(\uparrow\) lactate, 3-OH-palmitoyl-CoA inhibits PDH
 \item \(\uparrow\) C14OH, C16OH, C18OH, C18:1OH
@@ -701,18 +771,18 @@ LCHAD reaction}
 \end{itemize}
 
 \item Treatment
-\label{sec:orgf57c832}
+\label{sec:org36e95e1}
 \begin{itemize}
 \item avoid fasting
 \item low fat diet with MCT
 \end{itemize}
 \end{enumerate}
 \item Long-Chain Acyl-CoA Dehydrogenase Deficiency
-\label{sec:orgc93a67e}
+\label{sec:org78619d5}
 \begin{itemize}
 \item LCAD is one of four mitochondrial acyl CoA dehydrogenases that
 catalyze the initial steps in the \(\beta\)-oxidation of fatty acids
-(Table \ref{tab:org94fe810})
+(Table \ref{tab:orgada1208})
 \item no human disease-causing mutations have been identified
 \item role  in  human  metabolism  is unclear
 \item the substrate specificity of LCAD overlaps with that of
@@ -720,10 +790,10 @@ VLCAD and MCAD
 \end{itemize}
 
 \item Medium-Chain Acyl-CoA Dehydrogenase Deficiency
-\label{sec:orgd86d73a}
+\label{sec:org9f7db9a}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org78ce9b7}
+\label{sec:org1358ea8}
 \begin{itemize}
 \item most common FAOD with an incidence of approximately 1:10,000-20,000
 in Europe,USA and Australia
@@ -761,36 +831,40 @@ initially as adults
 \end{itemize}
 \end{itemize}
 \item Metabolic Derangement
-\label{sec:org7c4e3a1}
+\label{sec:orga284e30}
 \begin{itemize}
 \item MCAD is one of four mitochondrial acyl CoA dehydrogenases that
 catalyze the initial steps in the \(\beta\)-oxidation of fatty acids
-(Table \ref{tab:org94fe810})
-\item MCAD accepts fatty acyl CoAs in which the acid chain length is 6–12
+(Table \ref{tab:orgada1208})
+\item MCAD accepts fatty acyl CoAs in which the acid chain length is 6-12
 carbons in length
 \end{itemize}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./fao/figures/acad.png}
-\caption{\label{fig:org9871386}
+\caption{\label{fig:org01c7cf1}
 Acyl-CoA Dehydrogenase Reaction}
 \end{figure}
 
 \item Genetics
-\label{sec:org1bb34bb}
+\label{sec:org4a8c941}
 \begin{itemize}
 \item AR, ACADM
 \end{itemize}
 \item Diagnostic Tests
-\label{sec:org02d40c0}
+\label{sec:org6086b58}
 \begin{itemize}
-\item \(\uparrow\) C8, C6,
+\item \(\uparrow\) C8, C6, C10
 \item \(\uparrow\) C8/C10
 \item \(\uparrow\) UOA C6-C10 dicarboxylic acids, suberylglycine, hexanolyglyine
+\begin{description}
+\item[{MCAD}] C6 > C8 > C10
+\item[{MCT}] C10 > C8 > C6
+\end{description}
 \end{itemize}
 \item Treatment
-\label{sec:orgf3519ad}
+\label{sec:org6dc0ed6}
 \begin{itemize}
 \item avoid fasting
 \item low fat diet in infants
@@ -798,7 +872,7 @@ Acyl-CoA Dehydrogenase Reaction}
 \end{enumerate}
 
 \item Short-Chain Acyl-CoA Dehydrogenase Deficiency
-\label{sec:orgdd8b216}
+\label{sec:orgd40cc96}
 \begin{itemize}
 \item non-disease
 \begin{itemize}
@@ -807,7 +881,7 @@ Acyl-CoA Dehydrogenase Reaction}
 \end{itemize}
 
 \item 3-Hydroxyacyl-CoA Dehydrogenase Deficiency
-\label{sec:orgbbc9795}
+\label{sec:org2642221}
 \begin{itemize}
 \item HADH, previously called SCHAD deficiency, causes hyperinsulinaemic
 hypoglycaemia
@@ -816,16 +890,16 @@ hypoglycaemia
 \end{itemize}
 \end{enumerate}
 \subsection{Electron Transfer Defects}
-\label{sec:orgb9d5c33}
+\label{sec:org7c233c9}
 \begin{enumerate}
-\item Multiple acyl-CoA dehydrogenase deficiency
-\label{sec:orge918645}
+\item Multiple Acyl-CoA Dehydrogenase Deficiency
+\label{sec:orgcea4a42}
 \begin{itemize}
-\item AKA glutaric aciduria type II
+\item AKA: Glutaric Aciduria Type II
 \end{itemize}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:orgff3d99b}
+\label{sec:org2a08460}
 \begin{itemize}
 \item ETF and ETFQO deficiencies \(\to\) wide range of clinical severity
 \item severely affected patients present in the first few days of life
@@ -860,10 +934,10 @@ hypoventilation or an inability to lift the chin off the chest
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:org716467c}
+\label{sec:orgf625b86}
 \begin{itemize}
-\item Electron transfer flavoprotein (ETF) and ETF ubiquinone
-oxidoreductase (ETFQO) carry electrons to the respiratory chain from
+\item Electron Transfer Flavoprotein (ETF) and ETF Ubiquinone
+Oxidoreductase (ETFQO) carry electrons to the respiratory chain from
 multiple FAD-linked dehydrogenases
 \item includes enzymes of amino acid, choline metabolism and acyl-CoA
 dehydrogenases of \(\beta\)-oxidation
@@ -874,31 +948,31 @@ metabolism
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./fao/figures/madd.png}
-\caption{\label{fig:org9c6c52b}
+\caption{\label{fig:org969f986}
 Multiple Acyl-CoA Dehydrogenase Deficiency}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./fao/figures/etf.png}
-\caption{\label{fig:org2b9ae33}
+\caption{\label{fig:org39715d8}
 Role of ETF and ETF-QO}
 \end{figure}
 
 \item Genetics
-\label{sec:orgfe30bf1}
+\label{sec:org467b0d5}
 \begin{itemize}
 \item AR, ETFA, ETFB, ETFDH
 \end{itemize}
 
 \item Diagnosis
-\label{sec:org40e16c6}
+\label{sec:org16fdada}
 \begin{itemize}
 \item \(\uparrow\) C4-C18
-\item \(\uparrow\) UOA lactic, glutaric, ethylmalonic, dicarboxylic
+\item \(\uparrow\) UOA lactic, glutaric, 2-OH-glutaric, ethylmalonic, dicarboxylic acids
 \end{itemize}
 \item Treatment
-\label{sec:orge212151}
+\label{sec:org9721b40}
 \begin{itemize}
 \item avoid fasting
 \item low fat diet
@@ -907,9 +981,9 @@ Role of ETF and ETF-QO}
 \end{enumerate}
 \end{enumerate}
 \section{Pyruvate}
-\label{sec:orga54590b}
+\label{sec:orge2dd25f}
 \subsection{Introduction}
-\label{sec:org9e619f3}
+\label{sec:orgad738e1}
 \begin{itemize}
 \item pyruvate is formed from glucose and other monosaccharides, from
 lactate, and from the gluconeogenic amino acid alanine
@@ -926,7 +1000,7 @@ lipogenesis
 
 \begin{enumerate}
 \item Disorders of Pyruvate Metabolism
-\label{sec:orgc66ca9a}
+\label{sec:org3a321a7}
 \begin{itemize}
 \item Pyruvate Carboxylase Deficiency
 \item Phospoenolpyruvate Carboxykinase Deficiency
@@ -940,7 +1014,7 @@ lipogenesis
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.7\textwidth]{./pyruvate/figures/pyruvate_disorders.png}
-\caption[TCA]{\label{fig:org7f1be13}
+\caption[TCA]{\label{fig:org80b7860}
 Disorders of Pyruvate Metabolism}
 \end{figure}
 
@@ -948,13 +1022,12 @@ Disorders of Pyruvate Metabolism}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./pyruvate/figures/Slide13.png}
-\caption[TCA]{\label{fig:org99633ce}
+\caption[TCA]{\label{fig:org0456ea4}
 Pyruvate Metabolism and the TCA Cycle}
 \end{figure}
 
-\begin{enumerate}
-\item Pyruvate Reactions
-\label{sec:org974318b}
+\item Redox Reactions
+\label{sec:org3b42371}
 
 \begin{description}
 \item[{pyruvate dehydrogenase complex}] decarboxylation \(\to\) acetyl-CoA
@@ -980,10 +1053,11 @@ Pyruvate Metabolism and the TCA Cycle}
 
 \ce{pyruvate + NADH <=>[LDH] lactate + NAD+}
 \end{enumerate}
-\end{enumerate}
+
+
 
 \subsection{Pyruvate Carboxylase Deficiency}
-\label{sec:org7ca7883}
+\label{sec:orge16878a}
 \begin{itemize}
 \item PC is a biotinylated mitochondrial matrix enzyme
 \begin{itemize}
@@ -1014,7 +1088,7 @@ Pyruvate Metabolism and the TCA Cycle}
 
 \begin{enumerate}
 \item Biotin and Bicarbonate
-\label{sec:org8b9d64b}
+\label{sec:org45d173e}
 \begin{itemize}
 \item PC requires biotin and bicarbonate
 \item metabolic derangements associated with PC are observed in:
@@ -1036,7 +1110,7 @@ provides bicarbonate as substrate in mitochondria
 \end{itemize}
 
 \item Clinical Presentation
-\label{sec:org86d6fb3}
+\label{sec:orgc533196}
 \begin{itemize}
 \item french phenotype (type B), most severe
 \begin{itemize}
@@ -1061,7 +1135,7 @@ provides bicarbonate as substrate in mitochondria
 \end{itemize}
 \end{itemize}
 \item Genetics
-\label{sec:org6bf0707}
+\label{sec:org857f44a}
 \begin{itemize}
 \item AR, PC, 1:250000
 \item PC is a homo-tetramer
@@ -1071,7 +1145,7 @@ provides bicarbonate as substrate in mitochondria
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org9627064}
+\label{sec:orgfdd319e}
 \begin{itemize}
 \item PC deficiency should be considered in any child presenting with
 lactic acidosis and neurological abnormalities
@@ -1094,7 +1168,7 @@ lactic acidosis and neurological abnormalities
 \end{itemize}
 
 \item Treatment
-\label{sec:orga8fa72a}
+\label{sec:org3d48da2}
 
 \begin{itemize}
 \item Currently, no treatment
@@ -1102,7 +1176,7 @@ lactic acidosis and neurological abnormalities
 \end{enumerate}
 
 \subsection{Phospoenolpyruvate Carboxykinase Deficiency}
-\label{sec:org6f15dab}
+\label{sec:orgda234dd}
 \begin{itemize}
 \item PEPCK has cytosolic and mitochondria isoforms
 \item cytosolic PEPCK deficiency is secondary to hyperinsulinism
@@ -1113,10 +1187,10 @@ lactic acidosis and neurological abnormalities
 \end{itemize}
 
 \subsection{Pyruvate Dehydrogenase Complex Deficiency}
-\label{sec:org4405999}
+\label{sec:org5395e58}
 \begin{enumerate}
 \item Pyruvate Dehydrogenase Complex
-\label{sec:orgc15c72b}
+\label{sec:org5064bea}
 \begin{itemize}
 \item PDHC decarboxylates pyruvate \(\to\) acetyl-CoA
 \begin{itemize}
@@ -1140,7 +1214,7 @@ lactic acidosis and neurological abnormalities
 \end{itemize}
 
 \begin{table}[htbp]
-\caption{\label{tab:orgf286a08}
+\caption{\label{tab:orge86066f}
 Pyruvate Dehydrogenases Complex}
 \centering
 \begin{tabular}{llll}
@@ -1158,7 +1232,7 @@ E3 & dihydrolipoyl dehydrogenase & DLD & FAD, NAD+\\
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.6\textwidth]{./pyruvate/figures/pdhe1_phos.png}
-\caption[pdhe1]{\label{fig:org948554b}
+\caption[pdhe1]{\label{fig:orgfcfa12d}
 Activation/deactivation of PDHE1}
 \end{figure}
 
@@ -1166,12 +1240,12 @@ Activation/deactivation of PDHE1}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.7\textwidth]{./pyruvate/figures/pdhc.png}
-\caption[pdhc]{\label{fig:orgf47b256}
+\caption[pdhc]{\label{fig:org3d329ab}
 Pyruvate Dehydrogenase Complex}
 \end{figure}
 
 \item Pyruvate Dehydrogenase Complex Deficiency
-\label{sec:orgc5845b9}
+\label{sec:orgcde26f0}
 \begin{itemize}
 \item PDHC deficiency provokes conversion of pyruvate to lactate and alanine rather than acetly-CoA
 \item metabolism of glucose \(\to\) lactate, produces 1/10 ATP compared to
@@ -1184,7 +1258,7 @@ complete oxidation via TCA and ETC
 \end{itemize}
 
 \item Clinical Presentation: PDHE1\(\alpha\)
-\label{sec:org0e359ea}
+\label{sec:orgf332451}
 \begin{itemize}
 \item majority of cases involve the X encoded \(\alpha\)-subunit of the dehydrogenase (E1)
 \begin{itemize}
@@ -1220,14 +1294,14 @@ complete oxidation via TCA and ETC
 \end{itemize}
 
 \item Clinical Presentation: PDHE1\(\beta\)
-\label{sec:orgccad2a7}
+\label{sec:org8c9419e}
 \begin{itemize}
 \item very rare
 \item similar to PDHE1\(\alpha\)
 \end{itemize}
 
 \item Genetics
-\label{sec:orgd04e814}
+\label{sec:org854017c}
 \begin{itemize}
 \item all components of PDHC are encoded by nuclear genes
 \item autosomal except E1\(\alpha\) on Xp22.11
@@ -1241,7 +1315,7 @@ complete oxidation via TCA and ETC
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org7a0f6cf}
+\label{sec:org5c23ddc}
 \begin{itemize}
 \item lactate and pyruvate in blood and CSF
 \item CSF lactate is generally \(\uparrow\) compared to blood
@@ -1262,15 +1336,15 @@ complete oxidation via TCA and ETC
 \end{itemize}
 
 \item Treatment
-\label{sec:org2da448b}
+\label{sec:orgc8a1428}
 \begin{itemize}
 \item early adoption of ketogenic diet may have a benefit
 \item thiamine responsive forms
-\item DCA is a pyruvate analog, inhibits E1 kinase, keeps E1 dephosphorylated (active) (Figure \ref{fig:org948554b})
+\item DCA is a pyruvate analog, inhibits E1 kinase, keeps E1 dephosphorylated (active) (Figure \ref{fig:orgfcfa12d})
 \end{itemize}
 
 \item Pyruvate Transport Defect
-\label{sec:orgc9a5782}
+\label{sec:org9afb56f}
 \begin{itemize}
 \item MPC1 mutations have been described in 5 patients
 \item mediates the proton symport of pyruvate across the IMM
@@ -1280,10 +1354,10 @@ complete oxidation via TCA and ETC
 \end{enumerate}
 
 \subsection{Dihydrolipoamide Dehydrogenase Deficiency}
-\label{sec:orgcd38fd9}
+\label{sec:org322a8ac}
 \begin{enumerate}
 \item Dihydrolipoamide Dehydrogenase
-\label{sec:org2628950}
+\label{sec:orgb71ac73}
 \begin{itemize}
 \item DLD (E3) is a flavoprotein common to all three mitochondrial
 \(\alpha\)-ketoacid dehydrogenase complexes
@@ -1299,7 +1373,7 @@ complete oxidation via TCA and ETC
 \end{itemize}
 
 \item Genetics and Diagnotic Testing
-\label{sec:orgbbd6afd}
+\label{sec:org14c8576}
 \begin{itemize}
 \item DLD mutations AR
 \item 13 unrelated patients revealed 14 unique mutations
@@ -1310,9 +1384,9 @@ complete oxidation via TCA and ETC
 \end{itemize}
 \end{enumerate}
 \section{Tricarboxylic Acid Cycle}
-\label{sec:org61f07ca}
+\label{sec:org5860324}
 \subsection{Introduction}
-\label{sec:org79eef05}
+\label{sec:org4e6a413}
 \begin{itemize}
 \item pathways for oxidation of fatty acids, glucose, amino acids and
 ketones produce acetyl-CoA which can enter the TCA cycle
@@ -1350,13 +1424,13 @@ transport chain
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./tca/figures/Slide13.png}
-\caption[TCA]{\label{fig:org4a2a7f5}
+\caption[TCA]{\label{fig:orgf7ab000}
 Pyruvate Metabolism and the TCA Cycle}
 \end{figure}
 
 \begin{enumerate}
 \item Disorders of the TCA cycle
-\label{sec:orgdba6326}
+\label{sec:orgac68ff2}
 
 \begin{itemize}
 \item \(\alpha\)-Ketoglutarate Dehydrogenase Complex Deficiency
@@ -1367,20 +1441,20 @@ Pyruvate Metabolism and the TCA Cycle}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1\textwidth]{./tca/figures/TCA_disorders.png}
-\caption{\label{fig:org50a12ba}
+\caption{\label{fig:org6addd61}
 TCA disorders}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./tca/figures/gr2.png}
-\caption{\label{fig:org60b6b7f}
+\caption{\label{fig:org7f9d02b}
 Model for a functional splitting of the Krebs cycle reactions into complementary mini-cycles}
 \end{figure}
 
 \begin{itemize}
 \item to compensate for defects the TCA can split into complementary
-mini-cycles (Figure \ref{fig:org60b6b7f})
+mini-cycles (Figure \ref{fig:org7f9d02b})
 \begin{itemize}
 \item uses aspartate-amino acid transferase
 \item (A) would allow to convert pyruvate up to \(\alpha\)-KG, even when the
@@ -1395,7 +1469,7 @@ fibroblast from these patients
 \end{enumerate}
 
 \subsection{\(\alpha\)-Ketoglutarate Dehydrogenase Complex Deficiency}
-\label{sec:org16bafad}
+\label{sec:orgb8f9150}
 \begin{itemize}
 \item KDHC is a \(\alpha\)-ketoacid dehydrogenase analogous to PDHC and BCKD
 \end{itemize}
@@ -1403,7 +1477,7 @@ fibroblast from these patients
 \ce{\alpha-ketoglutarate + NAD+ + CoA ->[KDHC] Succinyl CoA + CO2 + NADH}
 
 \begin{table}[htbp]
-\caption{\label{tab:org17bd180}
+\caption{\label{tab:org950946d}
 \(\alpha\)-Ketoglutarate Dehydrogenase Complex}
 \centering
 \begin{tabular}{llll}
@@ -1425,9 +1499,9 @@ E3 & dihydrolipoyl dehydrogenase & DLD & FAD, NAD\\
 
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:orgeebf4d8}
+\label{sec:orgdac1287}
 \begin{itemize}
-\item similar to PDHC (section \ref{sec:org4405999})
+\item similar to PDHC (section \ref{sec:org5395e58})
 \item developmental delay, hypotonia, opisthotonos and ataxia
 \begin{itemize}
 \item seizures less common
@@ -1436,7 +1510,7 @@ E3 & dihydrolipoyl dehydrogenase & DLD & FAD, NAD\\
 \end{itemize}
 
 \item Genetics
-\label{sec:orge5c7091}
+\label{sec:orgd4ecd7c}
 \begin{itemize}
 \item AR inheritance, encoded by nuclear DNA
 \item E1 gene mapped to 7p13
@@ -1446,7 +1520,7 @@ E3 & dihydrolipoyl dehydrogenase & DLD & FAD, NAD\\
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org54bb060}
+\label{sec:orgdac80c5}
 \begin{itemize}
 \item urine organic acids
 \begin{itemize}
@@ -1466,20 +1540,20 @@ E3 & dihydrolipoyl dehydrogenase & DLD & FAD, NAD\\
 \end{itemize}
 
 \item Treatment
-\label{sec:org4dc76f2}
+\label{sec:orga7bda81}
 \begin{itemize}
 \item none to date
 \end{itemize}
 \end{enumerate}
 
 \subsection{Succinate Dehydrogenase Deficiency}
-\label{sec:orgf9ac64a}
+\label{sec:orgd04cb23}
 \begin{itemize}
 \item four subunits compose Complex II of the mitochondrial respiratory chain
 \end{itemize}
 
 \begin{table}[htbp]
-\caption{\label{tab:org7b16f19}
+\caption{\label{tab:orgd2b1930}
 Succinate Dehydrogenase | Complex II}
 \centering
 \begin{tabular}{ll}
@@ -1510,13 +1584,13 @@ deprotonated and converted to fumarate
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./tca/figures/SuccDeh.png}
-\caption{\label{fig:orgad962de}
+\caption{\label{fig:org1d74852}
 Succinate Dehydrogenase | Complex II}
 \end{figure}
 
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:orge64be91}
+\label{sec:org6f97df1}
 \begin{itemize}
 \item very rare disorder with highly variable phenotype
 \item Complex II is part of the TCA cycle and ETC
@@ -1540,13 +1614,13 @@ Succinate Dehydrogenase | Complex II}
 \end{itemize}
 
 \item Genetics
-\label{sec:orga014cb0}
+\label{sec:org3139d85}
 \begin{itemize}
 \item all components of Complex II are encoded by nuclear DNA
 \end{itemize}
 
 \begin{table}[htbp]
-\caption{\label{tab:org8afa7e8}
+\caption{\label{tab:org87451f0}
 Succinate Dehydrogenase Genetics}
 \centering
 \begin{tabular}{ll}
@@ -1569,7 +1643,7 @@ phaeochromocytoma and familial paraganglioma
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org8722a5b}
+\label{sec:org49a093a}
 \begin{itemize}
 \item unlike other TCA cycle disorders Complex II deficiency does not always
 result in characteristic organic aciduria
@@ -1588,19 +1662,19 @@ and severity or clinical outcome
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./tca/figures/gr4.jpg}
-\caption{\label{fig:org5445465}
+\caption{\label{fig:org0281b79}
 Coupled spectrophotometric assay}
 \end{figure}
 
 \item Treatment
-\label{sec:org02a50c1}
+\label{sec:org334a8a8}
 \begin{itemize}
 \item in some cases, treatment with riboflavin may have clinical benefit
 \end{itemize}
 \end{enumerate}
 
 \subsection{Fumarase Deficiency}
-\label{sec:orgb7b8fd4}
+\label{sec:orgde856dc}
 \begin{itemize}
 \item fumarase (AKA:fumarate hydratase) catalyses reversible
 hydration/dehydration of fumarate to malate
@@ -1619,7 +1693,7 @@ sequence
 
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org2c8d368}
+\label{sec:org372500e}
 \begin{itemize}
 \item characterized by polyhydramnios and fetal brain abnormalities
 \item newborn period findings include:
@@ -1635,13 +1709,13 @@ neurologic abnormalities in the absence of an acute metabolic crisis
 potential causes
 \end{itemize}
 \item Genetics
-\label{sec:orgd8b68ed}
+\label{sec:org7c93705}
 \begin{itemize}
 \item AR, FH encoded by nuclear DNA
 \item single gene and mRNA encode mito and cyto isoforms
 \end{itemize}
 \item Diagnostic Tests
-\label{sec:org5a58fde}
+\label{sec:org1f7e16d}
 \begin{itemize}
 \item isolated, increased concentration of fumaric acid on urine organic
 acid analysis is highly suggestive of fumarase deficiency
@@ -1652,7 +1726,7 @@ acid analysis is highly suggestive of fumarase deficiency
 \end{itemize}
 \end{enumerate}
 \subsection{Isocitrate Dehydrogenase}
-\label{sec:orga41158b}
+\label{sec:org3043c6b}
 \begin{itemize}
 \item IDH exists in three isoforms:
 \begin{itemize}
@@ -1675,7 +1749,7 @@ converting \ce{NAD+} to NADH in the mitochondria
 
 \begin{enumerate}
 \item Clinical relevance
-\label{sec:orgc8bc5d9}
+\label{sec:org5dcb72d}
 \begin{itemize}
 \item IDH3 deficiency is associated with retinitis pigmentosa
 \item IDH1/2 mutations linked to malignant gliomas and acute myeloid leukemia
@@ -1683,23 +1757,23 @@ converting \ce{NAD+} to NADH in the mitochondria
 \end{itemize}
 \end{enumerate}
 \section{Oxidative Phosphorylation}
-\label{sec:org41f29c0}
+\label{sec:orga8a760c}
 \subsection{Introduction}
-\label{sec:orgd92668e}
+\label{sec:orgb6181d4}
 \begin{itemize}
 \item responsible for ATP production
 \item ETC complexes I-IV
 \item OxPhos system complexes I-V
 \item oxidative phosphorylation is the process in which ATP is formed as a
 result of the transfer of electrons from NADH or FADH\(_{\text{2}}\) to O\(_{\text{2}}\) by a
-series of electron carriers (Figure \ref{fig:org1d1b260})
+series of electron carriers (Figure \ref{fig:orgcefd799})
 \item this process, which takes place in mitochondria, is the major source
 of ATP in aerobic organisms
 \end{itemize}
 
 \begin{enumerate}
 \item Chemiosmotic Coupling Hypothesis
-\label{sec:orgf3dc28d}
+\label{sec:org9198e0c}
 \begin{itemize}
 \item the ETC and OxPhos are coupled by a proton gradient across the IMM
 \item the efflux of protons from the mitochondrial matrix creates an electrochemical gradient
@@ -1731,7 +1805,7 @@ chain:
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{./etc/figures/etc.pdf}
-\caption{\label{fig:org63bb552}
+\caption{\label{fig:org40b677c}
 Electron Transport Chain}
 \end{figure}
 
@@ -1748,7 +1822,7 @@ water
 \end{itemize}
 
 \begin{table}[htbp]
-\caption{\label{tab:org23e4d9c}
+\caption{\label{tab:org546ebe7}
 Location of DNA encoding OxPhos Complex Subunits}
 \centering
 \begin{tabular}{lrlrrr}
@@ -1762,19 +1836,19 @@ nDNA & 39 & 4 & 10 & 10 & 14\\
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{./etc/figures/Slide14.png}
-\caption[ETC]{\label{fig:org1d1b260}
+\caption[ETC]{\label{fig:orgcefd799}
 Oxidative Phosphorylation}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.6\textwidth]{./etc/figures/potential.png}
-\caption[redox]{\label{fig:orga235d87}
+\caption[redox]{\label{fig:org2beb144}
 Electron flow to O\(_{\text{2}}\) and release free energy}
 \end{figure}
 
 \item Complex I
-\label{sec:org262536e}
+\label{sec:org78712a6}
 \begin{itemize}
 \item AKA NADH-ubiquinone oxidoreductase
 \item catalyzes the transfer of electrons from NADH to coenzyme Q10
@@ -1801,13 +1875,13 @@ helix channels
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./etc/figures/c1.pdf}
-\caption[c1]{\label{fig:org30a35ea}
+\caption[c1]{\label{fig:org84f488d}
 Complex I | NADH-ubiquinone oxidoreductase}
 \end{figure}
 
 \begin{enumerate}
 \item Inhibitors
-\label{sec:org6f079fe}
+\label{sec:orgf9ddf33}
 \begin{itemize}
 \item the best-known inhibitor of complex I is rotenone
 \begin{itemize}
@@ -1824,17 +1898,17 @@ Complex I | NADH-ubiquinone oxidoreductase}
 \end{enumerate}
 
 \item Complex II
-\label{sec:org19d74e6}
+\label{sec:orgafbf3e6}
 \begin{itemize}
 \item AKA Succinate Dehydrogenase 
 \begin{itemize}
-\item see section \ref{sec:orgf9ac64a}
+\item see section \ref{sec:orgd04cb23}
 \end{itemize}
 \end{itemize}
 
 \begin{enumerate}
 \item Inhibitors
-\label{sec:orga417063}
+\label{sec:org605ddf7}
 \begin{itemize}
 \item there are two distinct classes of inhibitors of complex II:
 \begin{itemize}
@@ -1849,7 +1923,7 @@ Complex I | NADH-ubiquinone oxidoreductase}
 \end{enumerate}
 
 \item Glycerol-3-phosphate shuttle
-\label{sec:orgf21324d}
+\label{sec:org8735d69}
 \begin{itemize}
 \item oxidation of cytoplasmic NADH by the cytosolic form of the enzyme
 creates glycerol-3-phosphate from dihydroxyacetone phosphate
@@ -1863,12 +1937,12 @@ creates glycerol-3-phosphate from dihydroxyacetone phosphate
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.6\textwidth]{./etc/figures/GPDH_shuttle.png}
-\caption[g3ps]{\label{fig:org3b80e37}
+\caption[g3ps]{\label{fig:orgf0cc022}
 Glycerol-3-phosphate shuttle}
 \end{figure}
 
 \item Electron Transferring Flavoprotein/ Dehydrogenase
-\label{sec:orgf9cf736}
+\label{sec:orgf44764f}
 \begin{itemize}
 \item ETFs are heterodimeric proteins composed of an alpha and beta
 subunit (ETFA and ETFB), and contain an FAD cofactor and AMP
@@ -1888,7 +1962,7 @@ flavoprotein (ETF) to ubiquinone, reducing it to ubiquinol
 \end{itemize}
 \end{itemize}
 \item Complex III
-\label{sec:orga377a49}
+\label{sec:orgae054f7}
 \begin{itemize}
 \item AKA Coenzyme Q – cytochrome c reductase
 \item Complex III is a multi-subunit transmembrane protein encoded by both
@@ -1909,7 +1983,7 @@ subunits)
 
 \begin{enumerate}
 \item Mechanism
-\label{sec:orgf752fb9}
+\label{sec:orgfc58a11}
 \begin{itemize}
 \item Round 1:
 \begin{itemize}
@@ -1933,13 +2007,13 @@ subunits)
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.7\textwidth]{./etc/figures/CIII.png}
-\caption[cIII]{\label{fig:org1876717}
+\caption[cIII]{\label{fig:org5953668}
 Complex III | Coenzyme Q – cytochrome c reductase: two step reaction}
 \end{figure}
 \end{enumerate}
 
 \item Inhibitors
-\label{sec:orgb72333b}
+\label{sec:orgc29b10d}
 \begin{itemize}
 \item there are three distinct groups of Complex III inhibitors:
 \begin{itemize}
@@ -1954,7 +2028,7 @@ Complex III | Coenzyme Q – cytochrome c reductase: two step reaction}
 \end{itemize}
 \end{enumerate}
 \item Complex IV
-\label{sec:org4343bd0}
+\label{sec:org1990f0f}
 \begin{itemize}
 \item AKA Cytochrome c oxidase
 \item last enzyme in the respiratory electron transport chain
@@ -1982,14 +2056,14 @@ synthesize ATP
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./etc/figures/CIV.png}
-\caption[cIV]{\label{fig:org3b16c0e}
+\caption[cIV]{\label{fig:org23098b2}
 Complex IV | Cytochrome c oxidase}
 \end{figure}
 \end{itemize}
 
 \begin{enumerate}
 \item Inhibitors
-\label{sec:orgfaa59fc}
+\label{sec:orgc0b54b4}
 \begin{itemize}
 \item cyanide, azide, and carbon monoxide all bind to cytochrome c
 oxidase
@@ -1998,7 +2072,7 @@ binding to regulatory sites on the enzyme
 \end{itemize}
 \end{enumerate}
 \item Complex V
-\label{sec:orga662c64}
+\label{sec:org5c86d9e}
 \begin{itemize}
 \item AKA ATP synthase
 
@@ -2025,14 +2099,14 @@ rotational motor mechanism allowing for ATP production
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./etc/figures/atp_synthase.jpg}
-\caption{\label{fig:org2196d64}
+\caption{\label{fig:orgd14b571}
 Complex V | ATP synthase}
 \end{figure}
 \end{itemize}
 
 \begin{enumerate}
 \item Complex V Inhibitors
-\label{sec:org9ac5179}
+\label{sec:org658d0d2}
 \begin{itemize}
 \item Oligomycin A inhibits ATP synthase by blocking its proton channel
 (F\(_{\text{0}}\) subunit), which is necessary for oxidative phosphorylation of
@@ -2054,9 +2128,9 @@ levels of lactate accumulating in the blood and urine
 \end{enumerate}
 
 \subsection{Disorders}
-\label{sec:orgf44757f}
+\label{sec:orgb8fea0d}
 \begin{itemize}
-\item molecular pathogenesis of OxPhos disorders (Figure \ref{fig:org3e060f9})
+\item molecular pathogenesis of OxPhos disorders (Figure \ref{fig:org2404410})
 \begin{enumerate}
 \item OxPhos complexes or assembly
 \item mtDNA maintainance
@@ -2081,13 +2155,13 @@ levels of lactate accumulating in the blood and urine
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{./etc/figures/Slide15.png}
-\caption[ETC]{\label{fig:org3e060f9}
+\caption[ETC]{\label{fig:org2404410}
 Pathogenesis of OxPhos Disorders}
 \end{figure}
 
 \begin{enumerate}
 \item Clinical Manifestations
-\label{sec:org631ec3b}
+\label{sec:org12e7662}
 \begin{itemize}
 \item clinical diagnosis is extremely challenging
 \begin{itemize}
@@ -2116,7 +2190,7 @@ aciduria, ragged red fiber mypopathy
 \end{itemize}
 
 \begin{table}[htbp]
-\caption{\label{tab:orgb6f7d0f}
+\caption{\label{tab:org58ae2b7}
 OxPhos Clinical Manifestations}
 \centering
 \begin{tabular}{ll}
@@ -2145,7 +2219,7 @@ Systemic & \textbf{lactic acidosis}\\
 
 \begin{enumerate}
 \item Myopathies
-\label{sec:org83c771d}
+\label{sec:org265c455}
 \begin{itemize}
 \item chronic progressive external ophthalmoplegia (CPEO)
 \begin{itemize}
@@ -2164,7 +2238,7 @@ Systemic & \textbf{lactic acidosis}\\
 \end{itemize}
 
 \item Encephalopathies
-\label{sec:org906e83f}
+\label{sec:orgf82ba96}
 \begin{itemize}
 \item encephalopathic features:
 \begin{itemize}
@@ -2192,7 +2266,7 @@ Systemic & \textbf{lactic acidosis}\\
 \end{itemize}
 \end{itemize}
 \item Leber’s Hereditary Optic Neuropathy
-\label{sec:org86ecad4}
+\label{sec:org0e0ec29}
 \begin{itemize}
 \item most common cause of blindness in otherwise healthy young men
 \item maternally inherited and manifests in late adolescence or early
@@ -2201,7 +2275,7 @@ adulthood as bilateral sequential visual failure
 \end{itemize}
 
 \item Pearson's Syndrome
-\label{sec:org1e47e40}
+\label{sec:org8b66d9d}
 \begin{itemize}
 \item transfusion dependent sideroblastic anemia/pancytopenia
 \item exocrine pancreas failure
@@ -2211,10 +2285,10 @@ adulthood as bilateral sequential visual failure
 \end{enumerate}
 
 \item Clinical Presentation
-\label{sec:org5c81f9f}
+\label{sec:org19a1b4c}
 \begin{enumerate}
 \item Neonatal and Infantile Presentation
-\label{sec:org61f8107}
+\label{sec:orgd19d4a2}
 \begin{itemize}
 \item Congenital Lactic Acidosis
 \item Leigh Syndrome
@@ -2227,7 +2301,7 @@ adulthood as bilateral sequential visual failure
 \end{itemize}
 
 \item Childhood and Adolescent Presentation
-\label{sec:org0d04bc4}
+\label{sec:org4c125b7}
 \begin{itemize}
 \item Kearn-Sayre syndrome
 \item MELAS: myopathy, encephalopathy, lactic acidosis, stroke-like episodes
@@ -2239,7 +2313,7 @@ adulthood as bilateral sequential visual failure
 \end{itemize}
 
 \item Adult Presentation
-\label{sec:org8601478}
+\label{sec:orga2721a2}
 \begin{itemize}
 \item MIDD: maternally inherited diabetes and deafness
 \item PEO: Progressive External Opthalmoplegia
@@ -2248,10 +2322,10 @@ adulthood as bilateral sequential visual failure
 \end{enumerate}
 
 \item Metabolic Derangement
-\label{sec:orgc3b0aa8}
+\label{sec:orgb129796}
 \begin{enumerate}
 \item OxPhos Deficiency and Anaerobic Glycolysis
-\label{sec:orgde83983}
+\label{sec:org5a2f001}
 \begin{itemize}
 \item insufficient ATP severely affects highly energy dependant tissues
 \begin{itemize}
@@ -2267,7 +2341,7 @@ adulthood as bilateral sequential visual failure
 \end{itemize}
 
 \item Factors Affecting OxPhos System
-\label{sec:org18e16e2}
+\label{sec:org0dbef7f}
 \begin{itemize}
 \item \textasciitilde{} 90 subunits
 \begin{itemize}
@@ -2309,10 +2383,10 @@ adulthood as bilateral sequential visual failure
 \end{itemize}
 \end{enumerate}
 \item Investigations
-\label{sec:org84a9353}
+\label{sec:org68c6fdb}
 \begin{enumerate}
 \item Biochemistry
-\label{sec:org3eefee9}
+\label{sec:orgf898f07}
 \begin{itemize}
 \item blood lactate, CSF lactate
 \item L/P \(\uparrow\) at rest, \(\Uparrow\) after excercise
@@ -2343,7 +2417,7 @@ adulthood as bilateral sequential visual failure
 \end{itemize}
 
 \item Imaging
-\label{sec:org2193e4a}
+\label{sec:org266c1cb}
 \begin{itemize}
 \item cranial CT shows cerebral and cerebellar atrophy in many encephalopathic patients
 \begin{itemize}
@@ -2354,7 +2428,7 @@ adulthood as bilateral sequential visual failure
 \end{itemize}
 
 \item Histology
-\label{sec:org85eb891}
+\label{sec:org61fd706}
 \begin{itemize}
 \item muscle biopsy is diagnostic
 \begin{itemize}
@@ -2369,12 +2443,12 @@ adulthood as bilateral sequential visual failure
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./oxphos_disorders/figures/Ragged_red_fibers_in_MELAS.jpg}
-\caption[rrf]{\label{fig:org296fe9e}
+\caption[rrf]{\label{fig:orgf1d0fb4}
 Ragged red fibers - Gomori stain}
 \end{figure}
 
 \item Molecular
-\label{sec:orgae38e01}
+\label{sec:orgf8be9c9}
 \begin{itemize}
 \item no strict relation between phenotype and genotype
 \item mtDNA tRNA mutations are most common of the single base change abnormalities
@@ -2387,9 +2461,9 @@ Ragged red fibers - Gomori stain}
 \end{enumerate}
 \end{enumerate}
 \section{Ketogenesis and Ketolysis}
-\label{sec:orgd2cdbd0}
+\label{sec:org4886b4b}
 \subsection{Introduction}
-\label{sec:orgbd4c308}
+\label{sec:orgea80e09}
 \begin{itemize}
 \item during fasting, ketone bodies (KB) are an important fuel for many
 tissues, including cardiac and skeletal muscle
@@ -2410,7 +2484,7 @@ maintained in equilibrium by 3-hydroxybutyrate dehydrogenase
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./ketones/figures/ketones.png}
-\caption{\label{fig:orgd405f89}
+\caption{\label{fig:orge497d4b}
 Ketogenesis and Ketolysis}
 \end{figure}
 
@@ -2424,7 +2498,7 @@ of metabolic stress, such as infections
 \end{itemize}
 
 \subsection{Ketogenesis Defects}
-\label{sec:org4c5718f}
+\label{sec:org1573a1c}
 \begin{itemize}
 \item there are two defects of ketogenesis:
 \begin{enumerate}
@@ -2435,10 +2509,10 @@ of metabolic stress, such as infections
 
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:orgb206498}
+\label{sec:orgd5bc6d8}
 \begin{enumerate}
 \item Mitochondrial 3-Hydroxy-3-Methylglutaryl-CoA (HMG-CoA) Synthase Deficiency
-\label{sec:orgb854bf5}
+\label{sec:org28a2661}
 \begin{itemize}
 \item presents with hypoglycaemia
 \begin{itemize}
@@ -2452,7 +2526,7 @@ childhood (5 months to 6 years of age)
 \end{itemize}
 
 \item HMG-CoA Lyase Deficiency
-\label{sec:org4c6a6a4}
+\label{sec:orgb56165a}
 \begin{itemize}
 \item presents with hypoglycaemia, metabolic acidosis, vomiting and a
 reduced level of consciousness
@@ -2476,7 +2550,7 @@ synthesis of myelin cholesterol
 \end{enumerate}
 
 \item Metabolic Derangement
-\label{sec:orgb14c52c}
+\label{sec:orgdeaa54a}
 \begin{itemize}
 \item KB are synthesised in hepatic mitochondria, primarily using
 acetyl-CoA derived from fatty acid oxidation
@@ -2492,14 +2566,14 @@ consumption and hypoglycaemia
 \end{itemize}
 
 \item Genetics
-\label{sec:org7076f8f}
+\label{sec:orgfbe1f98}
 \begin{itemize}
 \item HMG-CoA synthase (HMGCS2) and HMG-CoA lyase (HMGCL) deficiencies are
 AR
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org42cc699}
+\label{sec:org81b50ab}
 \begin{itemize}
 \item critical sample is important
 \item if the plasma free fatty acid concentration is raised with an
@@ -2512,7 +2586,7 @@ ketogenesis or fatty acid oxidation
 
 \begin{enumerate}
 \item HMG-CoA Synthase Deficiency
-\label{sec:org25e75f1}
+\label{sec:org1c46800}
 \begin{itemize}
 \item during decompensation, urine contains saturated, unsaturated and
 3-hydroxy-dicarboxylic acids, 5-hydroxyhexanoic acid and other
@@ -2526,7 +2600,7 @@ specific
 \end{itemize}
 
 \item HMG-CoA Lyase Deficiency
-\label{sec:orgb540dcf}
+\label{sec:orgd65c0b3}
 \begin{itemize}
 \item even when healthy, patients excrete increased quantities of
 3-hydroxy-3-methylglutaric, 3-hydroxyisovaleric, 3-methyl-glutaconic
@@ -2540,7 +2614,7 @@ lyase activity in leukocytes or cultured fibroblasts
 \end{enumerate}
 
 \item Treatment
-\label{sec:orgfd18702}
+\label{sec:org7069f2f}
 \begin{itemize}
 \item avoid fasting and maintain  high carbohydrate intake during any
 metabolic stress, such as infections
@@ -2555,7 +2629,7 @@ lyase deficiency because of its role in leucine catabolism
 \end{enumerate}
 
 \subsection{Ketolysis Defects}
-\label{sec:org655aeb0}
+\label{sec:orgf45c7b5}
 \begin{itemize}
 \item ketone body utilisation is catalysed by:
 \begin{enumerate}
@@ -2567,7 +2641,7 @@ lyase deficiency because of its role in leucine catabolism
 
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:orgd6247e7}
+\label{sec:orgeac6ff4}
 \begin{itemize}
 \item patients present with episodes of severe ketoacidosis in early childhood
 \item few patients have seizures or cardiomegaly at the time of presentation
@@ -2578,7 +2652,7 @@ feeding and vomiting
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:org276c9d5}
+\label{sec:org8ef8d62}
 \begin{itemize}
 \item KB utilisation occurs in extrahepatic mitochondria, starting with
 the transfer of coenzyme A from succinyl-CoA to acetoacetate,
@@ -2614,7 +2688,7 @@ absence of MCT1 in the brain
 \end{itemize}
 
 \item Genetics
-\label{sec:orgc9e13f6}
+\label{sec:org36ce70b}
 \begin{itemize}
 \item AR - SCOT (OXCT1), T2 (ACAT1) and MCT1 (SLC16A1)
 \item heterozygous SLC16A1 and OXCT1 mutations have, however, been found
@@ -2629,10 +2703,10 @@ silencing of MCT1 expression in pancreatic \(\beta\)-cells
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org9a28107}
+\label{sec:org786bd55}
 \begin{enumerate}
 \item SCOT \& MCT1 Deficiencies
-\label{sec:org9ed43a5}
+\label{sec:orgd9c8b58}
 \begin{itemize}
 \item should be considered in a number of patients because ketoacidosis is relatively common
 \item a plasma free fatty acid:
@@ -2645,7 +2719,7 @@ the fed state, but patients with a mild mutation do not
 \item diagnoses are now usually made by mutation analysis
 \end{itemize}
 \item T2 Deficiency
-\label{sec:org40104f8}
+\label{sec:org0f6ac68}
 \begin{itemize}
 \item \(\uparrow\) urine 2-methylacetoacetate, 2-methyl-3-hydroxybutyric acid
 and tiglylglycine
@@ -2670,16 +2744,16 @@ tiglylcarnitine on plasma acylcarnitine
 \end{enumerate}
 
 \item Treatment
-\label{sec:org0a5fdb4}
+\label{sec:org65f682b}
 \begin{itemize}
 \item same as ketogenesis defects above
 \item T2 involved in isoleucine met, \(\therefore\) \(\downarrow\) protein
 \end{itemize}
 \end{enumerate}
 \section{Creatine Deficiency}
-\label{sec:org4a17b8d}
+\label{sec:org7f06690}
 \subsection{Introduction}
-\label{sec:org18cc332}
+\label{sec:org9a45acd}
 \begin{itemize}
 \item creatine is synthesized by two enzymatic reactions:
 \begin{enumerate}
@@ -2724,19 +2798,19 @@ muscle mass
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./creatine/figures/creatine.png}
-\caption{\label{fig:orga7ce0cd}
+\caption{\label{fig:org5608ff0}
 Metabolic pathway of creatine/creatine phosphate}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./creatine/figures/Slide16.png}
-\caption{\label{fig:org8125af2}
+\caption{\label{fig:orgf212aad}
 Metabolic pathway of creatine/creatine phosphate}
 \end{figure}
 
 \subsection{Creatine Deficiency Syndromes}
-\label{sec:org415d43a}
+\label{sec:orgf280250}
 \begin{itemize}
 \item creatine deficiency syndromes (CDS) are a group of inborn errors of:
 \item creatine synthesis
@@ -2765,7 +2839,7 @@ disorders affecting arginine and ornithine metabolism including:
 
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:orgc983698}
+\label{sec:org08709db}
 \begin{itemize}
 \item global developmental delay (GDD) /intellectual disability (ID) with
 prominent speech delay
@@ -2778,7 +2852,7 @@ in GAMT deficiency
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:org4f38a3c}
+\label{sec:orgaf7996e}
 \begin{itemize}
 \item cerebral creatine deficiency is caused by reduced synthesis of
 creatine in AGAT and GAMT deficiency or by impaired uptake into the
@@ -2796,13 +2870,13 @@ production of creatinine
 \end{itemize}
 
 \item Genetics
-\label{sec:org1952e96}
+\label{sec:org5632682}
 \begin{itemize}
 \item AR, AGAT (GATM) and GAMT (GAMT)
 \item X-linked, CRTC (SLC6A8)
 \end{itemize}
 \item Diagnostic Tests
-\label{sec:orgd8db6ad}
+\label{sec:orgb09454b}
 \begin{itemize}
 \item MRS to screen for cerebral creatine deficiency
 \item urine guanidinoacetate, creatine and creatinine is an important
@@ -2819,7 +2893,7 @@ screening test for all CDS
 \end{itemize}
 
 \item Treatment
-\label{sec:org49110af}
+\label{sec:org685bfe7}
 \begin{itemize}
 \item normal neurodevelopmental outcome has been reported in early treated
 patients with creatine synthesis defects

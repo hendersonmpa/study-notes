@@ -4,7 +4,7 @@
 
 * Introduction
 - fatty acids are usually straight aliphatic chains with a methyl
-  group at one end (\omega-carbon) and a carboxyl group and the other
+  group at one end (\omega-carbon) and a carboxyl group at the other
   end
 
 #+BEGIN_EXPORT LaTeX
@@ -17,11 +17,10 @@
 #+END_EXPORT
 
 - non-systematic historical names most commonly used
-  - Palmitic acid :: discovered in palm oil
-  - Stearic acid :: from the Greek word "stear", which means tallow
-  - Oleic acid :: oleic means related to, or derived from, olive oil  
+  - Palmitic acid :: C16:0 discovered in palm oil
+  - Stearic acid :: C18:0 from the Greek word "stear", which means tallow
+  - Oleic acid :: C18:1 oleic means related to, or derived from, olive oil  
 - position of a double bond is designated by the number of the carbon in the double bond that is closest to the carboxyl group
-
 
 #+BEGIN_EXPORT LaTeX
 \definesubmol{x}{-[1,.6]-[7,.6]}
@@ -62,14 +61,14 @@
        - two dehydrogenation reactions linked respectively to FAD and NAD
      - \beta-oxidation is catalysed by enzymes of different chain
        length specificities
-     - enzymes for long-chain substrates are membrane-bound;
+     - enzymes for long-chain substrates are membrane-bound
        - three of the reactions are catalysed by the mitochondrial
          trifunctional protein (MTP)
        - medium and short-chain enzymes are located in the matrix
   3) electron transfer
      - electrons are passed to the respiratory chain either directly
        (from NADH to complex I) or via two transfer proteins (from
-       FADH2 to ubiquinone)
+       FADH_2 to ubiquinone)
 
 #+CAPTION[]:\beta-oxidation
 #+NAME: fig:box
@@ -143,12 +142,12 @@
   inadequate formation of ketone bodies in response to fasting along
   with inadequate gluconeogenesis and hypoglycemia.
 ** Carnitine Transporter Deficiency
-- AKA:primary carnitine deficiency, carnitine uptake deficiency
+- AKA: primary carnitine deficiency, carnitine uptake deficiency
 *** Clinical Presentation
 - cardiomyopathy, cardiac failure, muscle weakness, liver disease
 - precipitated by infection, fasting, pregnancy or antibiotics containing pivalate
-- pivalate is excreted bound to carnitine, \downarrow carnitine concentration
-  - isobaric with C5-carnitine
+  - pivalate is excreted bound to carnitine \to \downarrow carnitine concentration
+    - isobaric with C5-carnitine
 - some present in infancy with hypoglycaemia, liver dysfunction and hyperammonaemia
 - other children develop heart failure due to cardiomyopathy,
   thickened ventricular walls and reduced contractility
@@ -181,7 +180,7 @@
 - carnitine supplementation
 ** Carnitine Palmitoyltransferase I Deficiency
 *** Clinical Presentation
-- usually present by the age of 2 years with hypoketotic hypoglycaemia,
+- usually present by the age of 2 years with hypoketotic hypoglycaemia
   - induced by fasting or illness
 - accompanied by hepatomegaly, liver dysfunction and occasionally cholestasis
   - may also be transient lipaemia and renal tubular acidosis
@@ -438,7 +437,7 @@
 - MCAD is one of four mitochondrial acyl CoA dehydrogenases that
   catalyze the initial steps in the \beta-oxidation of fatty acids
   (Table [[tab:deh]])
-- MCAD accepts fatty acyl CoAs in which the acid chain length is 6–12
+- MCAD accepts fatty acyl CoAs in which the acid chain length is 6-12
   carbons in length
 
 #+CAPTION[]:Acyl-CoA Dehydrogenase Reaction
@@ -449,9 +448,11 @@
 *** Genetics
 - AR, ACADM 
 *** Diagnostic Tests
-- \uparrow C8, C6,
+- \uparrow C8, C6, C10
 - \uparrow C8/C10
 - \uparrow UOA C6-C10 dicarboxylic acids, suberylglycine, hexanolyglyine
+  - MCAD :: C6 > C8 > C10
+  - MCT :: C10 > C8 > C6
 *** Treatment
 - avoid fasting
 - low fat diet in infants
@@ -466,8 +467,8 @@
 - role in modulation of ATP production inhibition of GDH
 - see section Congenital Hyperinsulinema
 * Electron Transfer Defects 
-** Multiple acyl-CoA dehydrogenase deficiency 
-- AKA glutaric aciduria type II
+** Multiple Acyl-CoA Dehydrogenase Deficiency 
+- AKA: Glutaric Aciduria Type II
 *** Clinical Presentation
 - ETF and ETFQO deficiencies \to wide range of clinical severity
 - severely affected patients present in the first few days of life
@@ -491,8 +492,8 @@
 - weakness can worsen rapidly during infection or pregnancy, myoglobinuria is rare
 
 *** Metabolic Derangement
-- Electron transfer flavoprotein (ETF) and ETF ubiquinone
-  oxidoreductase (ETFQO) carry electrons to the respiratory chain from
+- Electron Transfer Flavoprotein (ETF) and ETF Ubiquinone
+  Oxidoreductase (ETFQO) carry electrons to the respiratory chain from
   multiple FAD-linked dehydrogenases
 - includes enzymes of amino acid, choline metabolism and acyl-CoA
   dehydrogenases of \beta-oxidation
@@ -514,7 +515,7 @@
 
 *** Diagnosis 
 - \uparrow C4-C18
-- \uparrow UOA lactic, glutaric, ethylmalonic, dicarboxylic
+- \uparrow UOA lactic, glutaric, 2-OH-glutaric, ethylmalonic, dicarboxylic acids
 *** Treatment
 - avoid fasting
 - low fat diet
