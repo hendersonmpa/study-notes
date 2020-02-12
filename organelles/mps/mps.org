@@ -26,7 +26,6 @@
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./mps/figures/ch3f1.jpg]]
 
-
 ** Glycosaminoglycans
 
 1. heparan
@@ -92,11 +91,11 @@
   one of the eleven enzymes required for glycosaminoglycans
   degradation
 - GAGs collect in the cells, blood and connective tissues
-  - The result is permanent, progressive cellular damage which affects:
+  - the result is permanent, progressive cellular damage which affects:
     - appearance
     - physical abilities
-    - organ and system functioning,
-    - in most cases, mental development. 
+    - organ and system functioning
+    - in most cases, mental development
 
 #+CAPTION[Glycosaminoglycan Degradation]: Glycosaminoglycan Degradation
 #+NAME: fig:degradation

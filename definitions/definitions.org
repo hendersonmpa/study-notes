@@ -1,9 +1,0 @@
-*** Definitions:
-- vertical supranuclear gaze palzy :: difficulty with upward & downward eye movement 
-- ataxia :: unsteadiness with gait, clumsiness or walking 
-- dystonia ::  neurological movement disorder syndrome in which sustained or repetitive muscle contractions result in twisting and repetitive movements or abnormal fixed postures
-- dysarthria :: slurred irregular speech 
-- cognitive dysfunction/dementia :: learning difficulties & progressive intellectual decline 
-- cataplexy :: sudden loss of muscle tone which may lead to unexpected falls 
-- dysphagia :: swallowing problems 
-- thrombocytopenia :: low number of platelets

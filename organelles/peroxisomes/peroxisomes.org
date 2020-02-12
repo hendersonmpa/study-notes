@@ -266,53 +266,69 @@
 - a double-blind placebo controlled trial is currently underway
 
 * Disorders of Etherphospholipid (RCDP)
+** Clinical Presentation
 - Rhizomelic Chondrodysplasia Punctata (RCDP) is the classical
   phenotype of a etherphospholipid biogenesis defect
-
 - patients with classical RCDP have:
   - skeletal dysplasia characterized by rhizomelia, chondrodysplasia punctata (stippled calcification in epiphyseal cartilage), bone abnormalities, profound growth retardation and limited joint mobility,
   - congenital cataracts
   - facial abnormalities including a high forehead, flat midface and small upturned nose
-- until very recently only three different disorders ofEPL-biosynthesis were known, including:
+- three different disorders of EPL-biosynthesis:
   1) PEX7 deficiency
+     - clinical phenotype associated with mutations in PEX7 is heterogeneous
+       - ranging from the classical phenotype as described above to much
+	 milder phenotypes including RCDP without rhizomelia
+       - bone dysplasia with only mild intellectual deficiency to a Refsum-like phenotype
+
   2) glycerone 3-phosphate: acyltransferase (GNPAT) deficiency
+     - rare (10 cases)
+     - all presented with the characteristic severe clinical phenotype
+       of RCDP with most patients dying in the first decade of life
+
   3) alkylglycerone 3-phosphate synthase (AGPS) deficiency
+     - rare (5 cases)
+     - all of whom showed the severe lethal RCDP phenotype
 
-- in the last two years two additional disorders of EPL biosynthesis have been identified including FAR1 deficiency and PEX5L deficiency
 
-** Pex7 Deficiency (RCDP 1)
+- in the last two years two additional disorders of EPL biosynthesis
+  have been identified including FAR1 deficiency and PEX5L deficiency
 
-- RCDP type 1 as caused by mutations in PEX7
-- most frequent among the cohort of RCDP patients (> 150 patients)
-- PEX7 codes for one of two peroxisomal cycling receptors and targets PTS2-signal to the peroxisome
-- three PTS2-containing peroxisomal enzymes are known 
-  1) peroxisomal 3-keto acyl-CoA thiolase
-  2) alkylglycerone phosphate synthase
-  3) phytanoyl-CoA hydroxylase
-- not imported into peroxisomes in PEX7 deficiency
-  - defects in plasmalogen biosynthesis and \alpha-oxidation
-- deficiency of 3-keto acyl-CoA thiolase 1 has no functional
-  consequences for VLCFA degradation because the second peroxisomal
-  thiolase (SCPx) can also handle 3-keto-VLCFAs
+** Metabolic Derangement
+*** RCDP Type 1
+ - RCDP type 1 is caused by mutations in PEX7
+ - most frequent among the cohort of RCDP patients (> 150 patients)
+ - PEX7 codes for one of two peroxisomal cycling receptors and targets
+   PTS2-signal to the peroxisome
+ - three PTS2-containing peroxisomal enzymes are known 
+   1) peroxisomal 3-keto acyl-CoA thiolase
+   2) alkylglycerone phosphate synthase
+   3) phytanoyl-CoA hydroxylase
+ - not imported into peroxisomes in PEX7 deficiency
+   - defects in plasmalogen biosynthesis and \alpha-oxidation
+ - deficiency of 3-keto acyl-CoA thiolase 1 has no functional
+   consequences for VLCFA degradation because the second peroxisomal
+   thiolase (SCPx) can also handle 3-keto-VLCFAs
 
-- clinical phenotype associated with mutations in PEX7 is heterogeneous
-  - ranging from the classical phenotype as described above to much milder phenotypes including RCDP without rhizomelia
-  - bone dysplasia with only mild intellectual deficiency to a Refsum-like phenotype
+*** RCDP Type 2
+ - Glycerone 3-Phosphate Acyltransferase Deficiency 
+ - mutations in GNPAT
+ - one of the two intraperoxisomal enzymes involved in EPL biosynthesis
 
-** Glycerone 3-Phosphate Acyltransferase (GNPAT) Deficiency (RCDP type 2)
-- mutations in GNPAT
-- one of the two intraperoxisomal enzymes involved in EPL biosynthesis
-- 10 patients with this subtype have been reported in literature
-- all presented with the characteristic severe clinical phenotype of
-  RCDP with most patients dying in the first decade of life
+*** RCDP Type 3
+ - Alkylglycerone 3-Phosphate Synthase Deficiency 
+ - mutations in AGPS
+ - the second intraperoxisomal enzyme involved in EPL-biosynthesis
+ - catalyses the formation of the characteristic ether bond in etherphospholipids
 
-** Alkylglycerone 3-Phosphate Synthase (AGPS) Deficiency (RCDP Type 3)
-- mutations in AGPS
-- the second intraperoxisomal enzyme involved in EPL-biosynthesis
-- catalyses the formation of the characteristic ether bond in etherphospholipids
-- RCDP type 3 is even less frequent when compared to type 2
-- five patients have been reported in literature
-- all of whom showed the severe lethal RCDP phenotype
+** Diagnostic Tests
+- \downarrow plasmalogens
+*** RDCP1
+- \uparrow phytanic
+- \downarrow pristanic
+  - normal in single enzyme deficiencies
+
+** Treatment
+- phytanic acid restriction
 * Fatty Acid Chain Elongation Disorders
 - FA from dietary sources or synthesized/de novo/ via the FAS complex,
   can be converted into longer-chain fatty acids either saturated,
