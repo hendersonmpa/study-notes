@@ -4,12 +4,12 @@
 
 * Introduction
 - creatine is synthesized by two enzymatic reactions:
-  1) L-arginine:glycine amidinotransferase (AGAT, GATM) catalyses the
+  1) arginine:glycine amidinotransferase (AGAT) catalyses the
      transfer of an amidino group from arginine to glycine, yielding
      guanidinoacetate
-  2) S-adenosyl-L-methionine:N-guanidinoacetatemethyltransferase
-     (GAMT, GAMT) catalyses the methylation of the amidino group in
-     the guanidino-acetate molecule, yielding creatine
+  2) guanidinoacetate methyltransferase (GAMT) catalyses the
+     methylation of the amidino group in the guanidino-acetate
+     molecule, yielding creatine
 
 - creatine synthesis occurs mainly, but not exclusively, in the kidney
   and in the pancreas, which have high AGAT activity, and in the
@@ -18,7 +18,7 @@
 - from these organs of synthesis, creatine is transported via the
   bloodstream to the organs of utilization, mainly muscle and brain
   - taken up by a sodium and chloride dependent creatine transporter
-    (CRTR,SLC6A8)
+    (CRTR)
 
 - most brain creatine is transported from the blood via CRTR expressed
   at blood-brain barrier
@@ -72,10 +72,11 @@
   prominent speech delay
 - GDD or ID ranges from mild to severe and is characteristically
   associated with challenging (hyperactive, autistic) behaviours
-- movement disorders and basal ganglia changes are additional features
-  in GAMT deficiency
-- myopathy is an additional feature of AGAT deficiency
-- epilepsy occurs in GAMT and CRTR deficiencies
+- distinguishing symptoms:
+  - AGAT :: myopathy
+  - GAMT :: movement disorders and basal ganglia changes are
+            additional features
+  - GAMT & CRTR :: epilepsy
 
 ** Metabolic Derangement
 - cerebral creatine deficiency is caused by reduced synthesis of
@@ -101,10 +102,19 @@
   - \uparrow GAMT, 100x normal
 - \uparrow urine creatinine/creatine in CRTR 
 
+
+#+CAPTION[]: Urine findings
+#+NAME: tab:urine
+|      | GAA        | creatine/creatinine |
+|------+------------+---------------------|
+| AGAT | \downarrow | n/\downarrow        |
+| GAMT | \uparrow   | \downarrow          |
+| CRTR | n          | \uparrow            |
+
 ** Treatment
 - normal neurodevelopmental outcome has been reported in early treated
   patients with creatine synthesis defects
-- AGAT and GAMT treated wtih creatine monohydrate
+- AGAT and GAMT treated with creatine monohydrate
 - in GAMT deficiency, reduction of guanidinoacetate is achieved by
   ornithine supplementation \pm dietary arginine restriction
 - CRTC no treatment

@@ -69,11 +69,10 @@
  \ce{FADH2 <=>[ETF/ETF-CO] FAD + 2H}
 
 
-
 ** Ketones
 - hydroxybutyrate dehydrogenase :: reduced to \beta-hydroxybutyrate
 
- \ce{acetoacetate + NADH <=>[HBDH] \betaHB + NAD+
+ \ce{acetoacetate + NADH <=>[HBDH] \betaHB + NAD+}
 
 
 * Fatty Acid Oxidation

@@ -8,6 +8,9 @@
 - particularly important for the brain, which cannot oxidise fatty acids
 - principal KB, acetoacetate and 3-hydroxybutyrate, are
   maintained in equilibrium by 3-hydroxybutyrate dehydrogenase
+
+ \ce{acetoacetate + NADH <=>[HBDH] \betaHB + NAD+}
+
 - acetone is formed from acetoacetate non-enzymatically and eliminated in breath
 - formed in liver mitochondria from fatty acids and certain amino acids(e.g. leucine)
 - cross cell membranes by diffusion or facilitated by monocarboxylate transporter 1 (MCT1)
@@ -68,9 +71,9 @@
   acetyl-CoA to form HMG-CoA, which is cleaved by HMG-CoA lyase to
   release acetyl-CoA and acetoacetate
 - HMG-CoA can also be derived from leucine
-- HMG-CoA synthase and HMG-CoA lyase deficiencies both impair
-  ketogenesis but HMG-CoA lyase deficiency also causes the
-  accumulation of intermediates of the leucine catabolic pathway
+- *HMG-CoA synthase and HMG-CoA lyase deficiencies both impair*
+  *ketogenesis but HMG-CoA lyase deficiency also causes the*
+  *accumulation of intermediates of the leucine catabolic pathway*
 - during fasting, the lack of KB leads to excessive glucose
   consumption and hypoglycaemia
 
@@ -107,7 +110,7 @@
 ** Treatment
 - avoid fasting and maintain  high carbohydrate intake during any
   metabolic stress, such as infections
-- IV glucose is required if drinks containing if not oral intake or vomiting
+- IV glucose is required if no oral intake or vomiting
 - IV sodium bicarbonate may be needed if there is severe acidosis in
   HMG-CoA lyase deficiency
 - moderate protein restriction is usually recommended in HMG-CoA

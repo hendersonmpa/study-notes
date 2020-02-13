@@ -52,7 +52,6 @@
 \ce{pyruvate + NADH <=>[LDH] lactate + NAD+}
 
 
-
 * Pyruvate Carboxylase Deficiency
 - PC is a biotinylated mitochondrial matrix enzyme
   - carboxylation of pyruvate to oxaloacetate
@@ -81,7 +80,7 @@
 
   - CA-VA deficiency
     - results in dysfunction of all four enzymes to which CA-VA
-      provides bicarbonate as substrate in mitochondria
+      provides bicarbonate as substrate in mitochondria (see Urea Cycle)
 
 ** Clinical Presentation
 - french phenotype (type B), most severe
@@ -131,7 +130,6 @@
 - mitochondrial PEPCK deficiency has not been clearly demonstrated
 
 * Pyruvate Dehydrogenase Complex Deficiency
-** Pyruvate Dehydrogenase Complex
 - PDHC decarboxylates pyruvate \to acetyl-CoA
   - thiamine dependent
 - PDHC, KDHC and BCKD have similar structure and mechanism
@@ -166,12 +164,11 @@
 #+ATTR_LaTeX: :width 0.7\textwidth
 [[file:./pyruvate/figures/pdhc.png]]
 
-** Pyruvate Dehydrogenase Complex Deficiency
 - PDHC deficiency provokes conversion of pyruvate to lactate and alanine rather than acetly-CoA
 - metabolism of glucose \to lactate, produces 1/10 ATP compared to
   complete oxidation via TCA and ETC
 - impairs production of NADH but not oxidation 
-- NADH/\ce{NAD+} is normal, \therefore normal L/P
+- NADH/\ce{NAD+} is normal \therefore normal L/P
   - ETC deficiencies \to \uparrow L/P
 
 ** Clinical Presentation: PDHE1\alpha
@@ -230,7 +227,6 @@
 - no treatment
 
 * Dihydrolipoamide Dehydrogenase Deficiency
-** Dihydrolipoamide Dehydrogenase
 - DLD (E3) is a flavoprotein common to all three mitochondrial
   \alpha-ketoacid dehydrogenase complexes
   - PDHC, KDHC, and BCKD

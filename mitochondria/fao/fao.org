@@ -60,7 +60,7 @@
      - each turn of the spiral shortens the acyl-CoA by two carbons and involves four steps:
        - two dehydrogenation reactions linked respectively to FAD and NAD
      - \beta-oxidation is catalysed by enzymes of different chain
-       length specificities
+       length specificity
      - enzymes for long-chain substrates are membrane-bound
        - three of the reactions are catalysed by the mitochondrial
          trifunctional protein (MTP)

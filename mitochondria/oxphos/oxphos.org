@@ -29,7 +29,7 @@
   - cytochrome c oxidase (complex IV)
   - also ETF-QO and mitochondrial GPD
 
-#+BEGIN_SRC dot :file ./etc/figures/etc.pdf :cmdline -Kdot -Tpdf
+#+BEGIN_SRC dot :file ./oxphos/figures/etc.pdf :cmdline -Kdot -Tpdf
   digraph {
            // graph from left to right
            rankdir=LR;
@@ -69,7 +69,7 @@
 #+NAME: fig:etc
 #+ATTR_LaTeX: :width \textwidth
 #+RESULTS:
-[[file:./etc/figures/etc.pdf]]
+[[file:./oxphos/figures/etc.pdf]]
 
 - Complex I (NADH coenzyme Q reductase) accepts electrons from the
   Krebs cycle electron carrier NADH
@@ -85,18 +85,18 @@
 #+NAME: tab:subunits
 |       | CI | CII | CIII | CIV | CV |
 |-------+----+-----+------+-----+----|
-| mtDNA |  7 |     |    1 |   3 |  2 |
+| mtDNA |  7 |   0 |    1 |   3 |  2 |
 | nDNA  | 39 |   4 |   10 |  10 | 14 |
 
 #+CAPTION[ETC]: Oxidative Phosphorylation
 #+NAME: fig:oxpho
 #+ATTR_LaTeX: :width \textwidth
-[[file:./etc/figures/Slide14.png]]
+[[file:./oxphos/figures/Slide14.png]]
 
 #+CAPTION[redox]:Electron flow to O_2 and release free energy
 #+NAME: fig:redox
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./etc/figures/potential.png]]
+[[file:./oxphos/figures/potential.png]]
 
 ** Complex I
 - AKA NADH-ubiquinone oxidoreductase
@@ -110,7 +110,7 @@
 
   - mechanism: 
     1. seven iron sulfur centers carry electrons from the site of NADH
-       dehydration to ubiquinone
+       oxidation to ubiquinone
 
     2. ubiquinone (CoQ) is reduced to ubiquinol (\ce{CoQH2})
 
@@ -118,7 +118,7 @@
        change allowing hydrogen ions to pass through four transmembrane
        helix channels
 
-  #+BEGIN_SRC dot :file ./etc/figures/c1.pdf :cmdline -Kdot -Tpdf
+  #+BEGIN_SRC dot :file ./oxphos/figures/c1.pdf :cmdline -Kdot -Tpdf
     digraph {
              // graph from left to right
              rankdir=LR;
@@ -150,7 +150,7 @@
   #+NAME: fig:c1
   #+ATTR_LaTeX: :width 0.9\textwidth
   #+RESULTS:
-  [[file:./etc/figures/c1.pdf]]
+  [[file:./oxphos/figures/c1.pdf]]
 
 *** Inhibitors
  - the best-known inhibitor of complex I is rotenone
@@ -159,7 +159,7 @@
    -  piericidin A a potent inhibitor and structural homologue to ubiquinone
  - hydrophobic inhibitors like rotenone or piericidin likely disrupt electron transfer between FeS cluster N2 and ubiquinone
  - bullatacin is the most potent known inhibitor of NADH dehydrogenase (ubiquinone)
- - Complex I is also blocked by adenosine diphosphate ribose – a reversible competitive inhibitor of NADH oxidation
+ - Complex I is also blocked by adenosine diphosphate ribose - a reversible competitive inhibitor of NADH oxidation
 
 ** Complex II
 - AKA Succinate Dehydrogenase 
@@ -182,7 +182,7 @@
  #+CAPTION[g3ps]:Glycerol-3-phosphate shuttle
  #+NAME: fig:g3ps
  #+ATTR_LaTeX: :width 0.6\textwidth
- [[file:./etc/figures/GPDH_shuttle.png]]
+ [[file:./oxphos/figures/GPDH_shuttle.png]]
 
 ** Electron Transferring Flavoprotein/ Dehydrogenase
  - ETFs are heterodimeric proteins composed of an alpha and beta
@@ -198,14 +198,14 @@
  #+END_EXPORT
 
  - ETF-QO deficiency results in *Glutaric Acidemia Type II* (AKA MADD)
-   - Discussed more in FAODs
+   - discussed more in FAODs
 ** Complex III
 - AKA Coenzyme Q – cytochrome c reductase
 - Complex III is a multi-subunit transmembrane protein encoded by both
   mitochondrial (cytochrome B) and the nuclear genomes (all other
   subunits)
 
-  - The bc1 complex contains 11 subunits:
+  - Complex III contains 11 subunits:
     - 3 respiratory subunits (cytochrome B, cytochrome C1, Rieske protein)
     - 2 core proteins
     - 6 low-molecular weight proteins
@@ -213,26 +213,6 @@
   #+BEGIN_EXPORT LaTeX
   {\small\ce{QH2 + 2Fe^{3+}-cyt c + 2H+_{in} ->[CIII]  Q + 2Fe^{2+}-cyt c + 4H+_{out}}}
   #+END_EXPORT
-
-**** Mechanism 
- - Round 1:
-     - Cytochrome b binds a ubiquinol and a ubiquinone
-     - The 2Fe/2S center and BL heme each pull an electron off the bound ubiquinol, releasing two hydrogens into the intermembrane space
-     - One electron is transferred to cytochrome c1 from the 2Fe/2S centre, whilst another is transferred from the BL heme to the BH Heme
-     - Cytochrome c1 transfers its electron to cytochrome c (not to be confused with cytochrome c1), and the BH Heme transfers its electron to a nearby ubiquinone, resulting in the formation of a ubisemiquinone
-     - Cytochrome c diffuses. The first ubiquinol (now oxidised to ubiquinone) is released, whilst the semiquinone remains bound
-
- - Round 2:
-     - A second ubiquinol is bound by cytochrome b
-     - The 2Fe/2S center and BL heme each pull an electron off the bound ubiquinol, releasing two hydrogens into the intermembrane space
-     - One electron is transferred to cytochrome c1 from the 2Fe/2S centre, whilst another is transferred from the BL heme to the BH Heme
-     - Cytocrome c1 then transfers its electron to cytochrome c, whilst the nearby semiquinone produced from round 1 picks up a second electron from the BH heme, along with two protons from the matrix
-     - The second ubiquinol (now oxidised to ubiquinone), along with the newly formed ubiquinol are released
-
- #+CAPTION[cIII]: Complex III | Coenzyme Q – cytochrome c reductase: two step reaction 
- #+NAME: fig:cIII
- #+ATTR_LaTeX: :width 0.7\textwidth
- [[file:./etc/figures/CIII.png]]
 
 ***  Inhibitors
  - there are three distinct groups of Complex III inhibitors:
@@ -246,8 +226,8 @@
 - last enzyme in the respiratory electron transport chain
 - large IMM integral membrane protein composed of several metal prosthetic sites and 14 protein subunits
 - eleven subunits are nuclear in origin, and three are synthesized in the mitochondria
-  - contains two hemes,
-  - cytochrome a and cytochrome a3,
+  - contains two hemes
+  - cytochrome a and cytochrome a3
   - two copper centers, CuA and CuB
   - the cytochrome a3 and CuB form a binuclear center that is the site of oxygen reduction
   - receives an electron from four cytochrome c molecules and
@@ -266,7 +246,7 @@
   #+CAPTION[cIV]:Complex IV | Cytochrome c oxidase
   #+NAME: fig:cIV
   #+ATTR_LaTeX: :width 0.5\textwidth
-  [[file:./etc/figures/CIV.png]]
+  [[file:./oxphos/figures/CIV.png]]
 
 *** Inhibitors
  - cyanide, azide, and carbon monoxide all bind to cytochrome c
@@ -275,7 +255,6 @@
    binding to regulatory sites on the enzyme
 ** Complex V
 - AKA ATP synthase 
-
 - ATP synthase is a molecular machine that creates the energy storage
   molecule adenosine triphosphate (ATP)
 - overall reaction catalyzed by ATP synthase is:
@@ -297,7 +276,7 @@
  #+CAPTION[]: Complex V | ATP synthase 
  #+NAME: fig:atps
  #+ATTR_LaTeX: :width 0.5\textwidth
- [[file:./etc/figures/atp_synthase.jpg]]
+ [[file:./oxphos/figures/atp_synthase.jpg]]
 
 *** Complex V Inhibitors
  - Oligomycin A inhibits ATP synthase by blocking its proton channel
@@ -319,7 +298,7 @@
   1) OxPhos complexes or assembly
   2) mtDNA maintainance
   3) mitochondrial translation
-  4) coenzymeQ biosynthesis
+  4) coenzyme Q biosynthesis
   5) mitochondrial protein import
      - deafness-dystonia syndrome
   6) mitochondrial solute import
@@ -331,14 +310,14 @@
 #+CAPTION[ETC]: Pathogenesis of OxPhos Disorders
 #+NAME: fig:oxphopath
 #+ATTR_LaTeX: :width \textwidth
-[[file:./etc/figures/Slide15.png]]
+[[file:./oxphos/figures/Slide15.png]]
 
 ** Clinical Manifestations
  - clinical diagnosis is extremely challenging
    - can affect any organ system
    - antenatal (IUGR, birth defects) \to elderly (myopathy)
 
- - clinical Suspicion based on:
+ - clinical suspicion based on:
    1) constellation of symptoms/signs consistent with a mitochondrial syndrome
    2) complex multi-system presentation involving two/more organ systems,
       best described by an underlying disorder of energy generation
@@ -445,7 +424,7 @@
 ** Metabolic Derangement
 *** OxPhos Deficiency and Anaerobic Glycolysis 
  - insufficient ATP severely affects highly energy dependant tissues
-   - A complete loss of OxPhos is not observed in human disease 
+   - a complete loss of OxPhos is not observed in human disease 
  - in the absence of OxPhos cells survive using ATP from anaerobic glycolysis
    - 20x less efficient, generates lactate
    - pyruvate \to alanine if glutamate is available
@@ -469,8 +448,8 @@
    - up to 10% of human proteome may have role in maintaining mitochondrial function
 
  - genetic defects with impaired OxPhos phenotype 
-   - OxPhos Subunit
-   - Assembly Factor
+   - OxPhos subunit
+   - assembly Factor
    - mtDNA replication
    - mtDNA transcription
    - cofactor
@@ -483,14 +462,14 @@
  - renal tubular dysfunction: urine anion gap, pH, serum K
  - plasma amino acids:
    - alanine \propto pyruvate
-   - ala/lys normally \lt 3:1
+   - \uparrown ala/lys \gt 3:1
    - \uparrow gly in lipoic acid biosynthesis defects
    - \downarrow cit and arg in Leigh, NARP, MELAS and Pearson
  - urine organic acids
    - lactate, pyruvate, TCA intermediates
    - 3-methylglutaconic acid in Barth, Sengers, MEGDEL, ATP synthase deficiency
    - ethylmalonic
-   - MMA in succinyl-CoA-ligase deficiency
+   - MMA in succinyl-CoA ligase deficiency
  - acylcarnitines
    - flavin cofactor metabolism
  - purine and pyrimidines (plasma or urine)
