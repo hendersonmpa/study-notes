@@ -312,6 +312,13 @@
 #+ATTR_LaTeX: :width \textwidth
 [[file:./oxphos/figures/Slide15.png]]
 
+
+#+CAPTION[]:mtDNA disorders
+#+NAME: fig:mtdna
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/mtDNA_disorders.png]]
+
+
 ** Clinical Manifestations
  - clinical diagnosis is extremely challenging
    - can affect any organ system
