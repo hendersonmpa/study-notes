@@ -1,0 +1,2898 @@
+% Created 2020-02-13 Thu 13:52
+% Intended LaTeX compiler: pdflatex
+\documentclass{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\hypersetup{colorlinks,linkcolor=black,urlcolor=blue}
+\usepackage{textpos}
+\usepackage{textgreek}
+\usepackage[version=4]{mhchem}
+\usepackage{chemfig}
+\usepackage{siunitx}
+\usepackage{gensymb}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{verbatim}
+\usepackage{tikz}
+\usepackage{wasysym}
+\usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\author{Matthew Henderson, PhD, FCACB}
+\date{\today}
+\title{Mitochondrial Disease}
+\hypersetup{
+ pdfauthor={Matthew Henderson, PhD, FCACB},
+ pdftitle={Mitochondrial Disease},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 26.1 (Org mode 9.1.9)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+
+\section{Mitochondrial Redox Reactions}
+\label{sec:org34e3f5d}
+
+\subsection{RedOx State}
+\label{sec:org6ffc9aa}
+\begin{itemize}
+\item NADH and FADH\(_{\text{2}}\) are reducing agents
+\begin{itemize}
+\item oxidized in the reduction reaction
+\item \ce{NADH <=>[Ox][Red] NAD+ + H}
+\item \ce{FADH2 <=>[Ox][Red] FAD + 2H}
+\end{itemize}
+\item \(\downarrow\) cellular respiration results in:
+\begin{itemize}
+\item \(\uparrow\) NADH \& FADH\(_{\text{2}}\) \(\because\) not oxdized by ETC
+\item \(\uparrow\) lactate:pyruvate \(\because\) \(\uparrow\) NADH
+\item \(\uparrow\) \(\beta\)-hydroxybutyrate  \(\because\) \(\uparrow\) NADH
+\end{itemize}
+
+\item PDHC deficiency: n/\(\downarrow\) L:P < 25
+\item ETC deficiency: \(\uparrow\) L:P > 25
+\end{itemize}
+
+\subsection{Pyruvate}
+\label{sec:org7ea562e}
+\begin{description}
+\item[{pyruvate dehydrogenase complex}] oxidized \(\to\) acetyl-CoA
+\end{description}
+
+\ce{pyruvate + CoA + NAD+ <=>[PDHC] acetyl-CoA + CO2 + NADH + H+}
+
+\begin{description}
+\item[{lactate dehydrogenase}] pyruvate reduced \(\to\) lactate
+\end{description}
+
+\ce{pyruvate + NADH <=>[LDH] lactate + NAD+}
+
+\subsection{TCA}
+\label{sec:orgda87001}
+\begin{description}
+\item[{Net reaction}] Acetyl-CoA oxidized to 2CO\(_{\text{2}}\)
+\end{description}
+{\tiny\ce{Acetyl-CoA + 3NAD+ + FAD + GDP + Pi + 2H2O -> 2CO2 + CoA + 3NADH + FADH2 + GTP + 2H+}}
+
+\subsection{ETC}
+\label{sec:org65c9526}
+\begin{description}
+\item[{Complex I}] NADH oxidized to NAD\^{}+
+\end{description}
+
+\ce{NADH <=>[CI] NAD+ + H}
+
+\begin{description}
+\item[{ETF/ETF-QO}] FADH\(_{\text{2}}\) oxidized to FAD
+
+\ce{FADH2 <=>[ETF/ETF-CO] FAD + 2H}
+\end{description}
+
+
+\subsection{Ketones}
+\label{sec:org7c3e44f}
+\begin{description}
+\item[{hydroxybutyrate dehydrogenase}] reduced to \(\beta\)-hydroxybutyrate
+
+\ce{acetoacetate + NADH <=>[HBDH] \betaHB + NAD+}
+\end{description}
+
+
+\section{Fatty Acid Oxidation}
+\label{sec:org787a6f6}
+\subsection{Introduction}
+\label{sec:org068a29e}
+\begin{itemize}
+\item fatty acids are usually straight aliphatic chains with a methyl
+group at one end (\(\omega\)-carbon) and a carboxyl group at the other
+end
+\end{itemize}
+
+\definesubmol{x}{-[1,.6]-[7,.6]}
+\definesubmol{a}{-[1,.6]\beta{}-[7,.6]\alpha{}}
+\definesubmol{y}{!x!x!x!x!x!x!x!x}
+\definesubmol{b}{!x!x!x!x!x!x!x!a}
+%\chemfig{H{_3}C!y-[1]C(=[1]O)-[7]O{^-}}
+\chemname{\chemfig{\omega{}!b-[1]C(=[1]O)-[7]O{^-}}}{stearic acid 18:0}
+
+\begin{itemize}
+\item non-systematic historical names most commonly used
+\begin{description}
+\item[{Palmitic acid}] C16:0 discovered in palm oil
+\item[{Stearic acid}] C18:0 from the Greek word "stear", which means tallow
+\item[{Oleic acid}] C18:1 oleic means related to, or derived from, olive oil
+\end{description}
+\item position of a double bond is designated by the number of the carbon in the double bond that is closest to the carboxyl group
+\end{itemize}
+
+\definesubmol{x}{-[1,.6]-[7,.6]}
+\definesubmol{y}{-[7,.6]-[1,.6]}
+\definesubmol{d}{=[0,.6](-[7,0.25,,,draw=none]\scriptstyle\color{red}9)-[1,.6]}
+\definesubmol{e}{!x!x!x!x!d!y!y!y}
+\chemname{\chemfig{\omega{}(-[3,0.25,,,draw=none]\scriptstyle\color{red}18)!e(-[2,0.25,,,draw=none]\scriptstyle\color{red}2)-[7,.6]COOH}}{\small Oleic acid 18:1,\Delta{}$^9$}
+\begin{itemize}
+\item oleic acid - 18:1,\(\Delta^{\text{9}}\)
+\begin{itemize}
+\item 18:1 - 18 carbons and 1 double bond
+\item \(\Delta^{\text{9}}\) - double bond between 9th and 10th carbon
+\begin{itemize}
+\item also 18:1(9)
+\item distance from \(\omega\) methyl group, \(\omega\)-9
+\end{itemize}
+\end{itemize}
+
+\item fatty acid chain length:
+\begin{description}
+\item[{very long-chain}] > C20
+\item[{long-chain}] C12-C20
+\item[{medium-chain}] C6-C12
+\item[{short-chain}] C4
+\end{description}
+\end{itemize}
+
+
+\begin{enumerate}
+\item Mitochondrial fatty acid oxidation
+\label{sec:org2beec0e}
+
+\begin{itemize}
+\item involves three processes (Figure \ref{fig:org143da2e})
+\begin{enumerate}
+\item entry of fatty acids into mitochondria
+\begin{itemize}
+\item long-chain fatty acids are activated to coenzyme A (CoA) esters
+in the cytoplasm
+\item need to be transferred to carnitine to cross the inner
+mitochondrial membrane
+\item they are transferred back to CoA within the mitochondria
+\item CPT I is the main site for the regulation of fatty acid
+oxidation by cytoplasmic malonyl-CoA
+\item medium and short-chain fatty acids enter mitochondria
+independent of carnitine and are activated to CoA esters in the
+matrix
+\end{itemize}
+\item \(\beta\)-oxidation via a spiral pathway
+\begin{itemize}
+\item each turn of the spiral shortens the acyl-CoA by two carbons and involves four steps:
+\begin{itemize}
+\item two dehydrogenation reactions linked respectively to FAD and NAD
+\end{itemize}
+\item \(\beta\)-oxidation is catalysed by enzymes of different chain
+length specificity
+\item enzymes for long-chain substrates are membrane-bound
+\begin{itemize}
+\item three of the reactions are catalysed by the mitochondrial
+trifunctional protein (MTP)
+\item medium and short-chain enzymes are located in the matrix
+\end{itemize}
+\end{itemize}
+\item electron transfer
+\begin{itemize}
+\item electrons are passed to the respiratory chain either directly
+(from NADH to complex I) or via two transfer proteins (from
+FADH\(_{\text{2}}\) to ubiquinone)
+\end{itemize}
+\end{enumerate}
+\end{itemize}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.9\textwidth]{./fao/figures/b_oxidation.png}
+\caption{\label{fig:org143da2e}
+\(\beta\)-oxidation}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.9\textwidth]{./fao/figures/Slide12.png}
+\caption{\label{fig:org3f23909}
+FA oxidation and ketone body metabolism}
+\end{figure}
+
+\begin{table}[htbp]
+\caption{\label{tab:org63f41e2}
+Acyl-CoA Synthetases: Chain Length Specificity}
+\centering
+\begin{tabular}{lrl}
+Enzyme & Length & location\\
+\hline
+V.L. chain & 14-26 & pex\\
+L. chain & 12-20 & ER, mito, pex\\
+M. chain & 6-12 & mito - kidney, liver\\
+acetyl & 2-4 & cyto, mito\\
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\caption{\label{tab:org0fabc03}
+Acyl-CoA Dehydrogenases: Chain Length Specificity}
+\centering
+\begin{tabular}{lrl}
+Enzyme & Length & location\\
+\hline
+VLCAD & 14-20 & IMM\\
+LCAD & 12-18 & MM\\
+MCAD & 6-12 & MM\\
+SCAD & 2-6 & MM\\
+\end{tabular}
+\end{table}
+
+
+\begin{table}[htbp]
+\caption{\label{tab:orgf69680b}
+Other: Chain Length Specificity}
+\centering
+\begin{tabular}{lrl}
+Enzyme & Length & comment\\
+\hline
+Enoyl-CoA hydratase,SC & >4 & \(\downarrow\) activity w \(\uparrow\) length\\
+Hydroxyacyl-CoA dehydrogenase, SC & 4-16 & \(\downarrow\) activity w \(\uparrow\) length\\
+Acetoacetyl-CoA thiolase & 4 & Acetoacetyl-CoA specific\\
+Trifunctional protein & 12-16 & \(\uparrow\) activity w \(\uparrow\) length\\
+\end{tabular}
+\end{table}
+
+
+\item Common manifestations in FAODs
+\label{sec:org535acf6}
+\begin{itemize}
+\item fasting hypoglycaemia is the classic metabolic disturbance in FAODs
+\begin{itemize}
+\item primarily due to increased peripheral glucose consumption
+\item hepatic glucose output is also reduced under some conditions
+\end{itemize}
+\item the hypoglycaemia is hypoketotic
+\begin{itemize}
+\item ketone bodies can be synthesised
+\begin{itemize}
+\item medium-or short-chain FAODs or if there is high residual enzyme activity
+\item plasma concentrations are lower than expected for hypoglycaemia or the plasma free fatty acid concentrations
+\end{itemize}
+\end{itemize}
+\item hyperammonaemia occurs in some severe defects
+\begin{itemize}
+\item with normal or low glutamine concentrations
+\item decreased acetyl-CoA production reducing the synthesis of N-acetylglutamate
+\end{itemize}
+\item lactic acidaemia is seen in long-chain FAODs (LCHAD and MTP deficiencies)
+\begin{itemize}
+\item inhibitory effects of metabolites on pyruvate metabolism
+\end{itemize}
+\item moderate hyperuricaemia - frequent finding during acute attacks
+\item secondary hyperprolinaemia occurs in some babies with MAD deficiency
+\item accumulating long-chain acylcarnitines may be responsible for
+arrhythmias and may interfere with surfactant metabolism
+\item in LCHAD and MTP deficiencies, long chain hydroxy-acylcarnitine
+concentrations correlate with the severity of retinopathy and may
+cause both this and the peripheral neuropathy
+\end{itemize}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=1.2\textwidth]{./fao/figures/Ch101f016.png}
+\caption{\label{fig:orgaddbe30}
+Common manifestations in FAODs: green frequent, yellow intermediate, red uncommon}
+\end{figure}
+\end{enumerate}
+
+\subsection{Carnitine Cycle Defects}
+\label{sec:orga57631e}
+\begin{itemize}
+\item carnitine-mediated transport of fatty acids is rate-limiting in the
+oxidation of fats
+\item a defect anywhere in the pathway would be expected to lead to
+inadequate formation of ketone bodies in response to fasting along
+with inadequate gluconeogenesis and hypoglycemia.
+\end{itemize}
+\begin{enumerate}
+\item Carnitine Transporter Deficiency
+\label{sec:orgd52005c}
+\begin{itemize}
+\item AKA: primary carnitine deficiency, carnitine uptake deficiency
+\end{itemize}
+\begin{enumerate}
+\item Clinical Presentation
+\label{sec:org6a6cc2b}
+\begin{itemize}
+\item cardiomyopathy, cardiac failure, muscle weakness, liver disease
+\item precipitated by infection, fasting, pregnancy or antibiotics containing pivalate
+\begin{itemize}
+\item pivalate is excreted bound to carnitine \(\to\) \(\downarrow\) carnitine concentration
+\begin{itemize}
+\item isobaric with C5-carnitine
+\end{itemize}
+\end{itemize}
+\item some present in infancy with hypoglycaemia, liver dysfunction and hyperammonaemia
+\item other children develop heart failure due to cardiomyopathy,
+thickened ventricular walls and reduced contractility
+\item often accompanied by skeletal muscle weakness
+\item adults may suffer fatigue or arrhythmias
+\item screening has shown that many subjects with low plasma carnitine remain asymptomatic
+\end{itemize}
+\item Metabolic Derangement
+\label{sec:orgd301bc2}
+\begin{itemize}
+\item organic cation/carnitine transporter(OCTN2) responsible for
+carnitine uptake (Figure \ref{fig:org980db7d})
+\begin{itemize}
+\item analysis of carnitine transport in different tissues suggests the
+presence of heterogeneous transporters
+\item liver and brain have a low-affinity (K\(_{\text{M}}\)=2-10 uM), high-capacity transporter
+\item fibroblast, muscle, and heart cells have a high-affinity (K\(_{\text{M}}\)=5-10 uM), low-capacity system
+\end{itemize}
+\item defects \(\to\) primary carnitine deficiency with \(\uparrow\) renal loss of carnitine
+\begin{itemize}
+\item \(\downarrow\) plasma concentrations
+\item \(\downarrow\) intracellular concentrations \(\to\) impair fatty acid
+oxidation
+\end{itemize}
+\end{itemize}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.6\textwidth]{./fao/figures/transporter.png}
+\caption{\label{fig:org980db7d}
+Carnitine Transporter}
+\end{figure}
+
+\item Genetics
+\label{sec:orge21eaed}
+\begin{itemize}
+\item AR, OCTN2
+\end{itemize}
+\item Diagnostic Testing
+\label{sec:org048e673}
+\begin{itemize}
+\item \(\Downarrow\) plasma total carnitine, \textless{} 5\% of normal
+\item \(\uparrow\) urine free carnitine
+\end{itemize}
+\item Treatment
+\label{sec:org7c71bfd}
+\begin{itemize}
+\item carnitine supplementation
+\end{itemize}
+\end{enumerate}
+\item Carnitine Palmitoyltransferase I Deficiency
+\label{sec:org82c1c50}
+\begin{enumerate}
+\item Clinical Presentation
+\label{sec:org37f82c9}
+\begin{itemize}
+\item usually present by the age of 2 years with hypoketotic hypoglycaemia
+\begin{itemize}
+\item induced by fasting or illness
+\end{itemize}
+\item accompanied by hepatomegaly, liver dysfunction and occasionally cholestasis
+\begin{itemize}
+\item may also be transient lipaemia and renal tubular acidosis
+\end{itemize}
+\end{itemize}
+\item Metabolic Derangement
+\label{sec:org2c94dcb}
+\begin{itemize}
+\item CPT1 is responsible for the formation of acyl carnitines
+\begin{itemize}
+\item catalyzes transfer of the acyl group of a long-chain fatty
+acyl-CoA from coenzyme A to l-carnitine
+\item allows for subsequent movement of the acyl carnitine from the
+cytosol into the intermembrane space of mitochondria
+\end{itemize}
+\item \textbf{CPTIa} liver and kidney
+\item \textbf{CPTIb}  muscle and heart
+\item \textbf{CPTIc}  brain
+\item only CPTIa deficiency has been identified
+\item medium chain and short chain fatty acids pass directly into
+mitochondria and do not require esterification with carnitine
+\item CPT II is situated on the inner mitochondrial membrane, catalyzes
+the regeneration of carnitine and the long chain fatty acyl CoAs,
+which then undergo \(\beta\)-oxidation
+\end{itemize}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.6\textwidth]{./fao/figures/cpt1.png}
+\caption{\label{fig:orgcb32bb5}
+CPT1}
+\end{figure}
+
+\item Genetics
+\label{sec:org0b15500}
+\begin{itemize}
+\item AR, CPT1A
+\item CPTI deficiency is extremely common in the Inuit population of Canada and Greenland
+\begin{itemize}
+\item c.1436C>T, P479L
+\end{itemize}
+\item a few of these patients present with hypoglycaemia as neonates or young children
+\begin{itemize}
+\item most remain asymptomatic
+\end{itemize}
+\end{itemize}
+\item Diagnostic Testing
+\label{sec:orgd287989}
+\begin{itemize}
+\item \(\uparrow\) total/free carnitine
+\item \(\uparrow\) C0
+\item \(\downarrow\) C16, C18, C18:1
+\end{itemize}
+\item Treatment
+\label{sec:orgef86aab}
+\begin{itemize}
+\item prevent hypoglycaemia
+\item low-fat diet
+\item medium-chain triglycerides to provide \(\sim\) 1/3 total calories
+\begin{itemize}
+\item C6-C10 fatty acids do not require the carnitine shuttle for entry into the mitochondrion
+\end{itemize}
+\end{itemize}
+\end{enumerate}
+\item Carnitine Acylcarnitine Translocase Deficiency
+\label{sec:orgb250a9f}
+\begin{enumerate}
+\item Clinical Presentation
+\label{sec:orga943664}
+\begin{itemize}
+\item rare disorder usually presents in the neonatal period, with
+death by 3 months of age
+\begin{itemize}
+\item severe hypoglycaemia and hyperammonaemia, cardiomyopathy,
+atrioventricular block and ventricular arrhythmias
+\end{itemize}
+\item few more mildly affected patients present later with hypoglycaemic
+encephalopathy
+\begin{itemize}
+\item precipitated by fasting or infections
+\end{itemize}
+\end{itemize}
+\item Metabolic Derangement
+\label{sec:orgfaa8e5a}
+\begin{itemize}
+\item carnitine-acylcarnitine translocase, catalyzes the transfer of the
+acylcarnitines across the inner mitochondrial membrane (Figure \ref{fig:org9862fd9})
+\item deficiency of carnitine acyl translocase leads to the accumulation
+of the free fatty acids outside the mitochondrial matrix
+\item long chain acylcarnitines and short chains are also found, because
+translocase catalyzes the transport of short as well as long chain
+acylcarnitines
+\item \(\Uparrow\) long chain acyl carnitines during illness and fasting
+induced lipolysis
+\item \(\uparrow\) medium and short chain esters might reflect the acyl CoA products
+of peroxisomal oxidation that would require transfer into the
+mitochondria via the translocase for final oxidation
+\item secondary deficiency of free carnitine would be expected to result
+from the excretion over time of large amounts of esterified
+carnitine
+\end{itemize}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.6\textwidth]{./fao/figures/translocase.png}
+\caption{\label{fig:org9862fd9}
+Carnitine Translocase}
+\end{figure}
+
+\item Genetics
+\label{sec:org07cb8ab}
+\begin{itemize}
+\item AR, SLC25A20
+\end{itemize}
+\item Diagnostic Testing
+\label{sec:org422a684}
+\begin{itemize}
+\item \(\Downarrow\) total carnitine
+\item \(\downarrow\) C0
+\item \(\Uparrow\) C16,18,C18:1
+\end{itemize}
+\item Treatment
+\label{sec:orgd2a3241}
+\begin{itemize}
+\item prevent hypoglycaemia
+\item low-fat diet
+\end{itemize}
+\end{enumerate}
+\item Carnitine Palmitoyltransferase II Deficiency
+\label{sec:orgf1d85cf}
+\begin{enumerate}
+\item Clinical Presentation
+\label{sec:orgc6a482d}
+\begin{enumerate}
+\item Neonatal
+\label{sec:org3d5ba78}
+\begin{itemize}
+\item severe neonatal onset CPT II deficiency is usually lethal
+\item patients become comatose within a few days of birth
+\begin{itemize}
+\item hypoglycaemia and hyperammonaemia
+\item may have cardiomyopathy, arrhythmias and congenital malformations,
+principally renal cysts and neuronal migration defects
+\end{itemize}
+\item also an intermediate form of CPT II deficiency that causes
+episodes of hypoglycaemia and liver dysfunction, sometimes
+accompanied by cardiomyopathy and arrhythmias
+\end{itemize}
+
+\item Childhood
+\label{sec:org0de5a40}
+\begin{itemize}
+\item episodes may be brought on by infections or exercise
+\item moderate or severe episodes there is myoglobinuria, \(\uparrow\) CK
+\begin{itemize}
+\item may lead to acute renal failure
+\item CK often normalises between episodes but may remain moderately
+elevated
+\end{itemize}
+\end{itemize}
+
+\item Adolescence and Adult
+\label{sec:org28960ef}
+\begin{itemize}
+\item most common form is a partial deficiency that presents with
+episodes of rhabdomyolysis
+\begin{itemize}
+\item usually precipitated by prolonged exercise
+\item particularly in the cold or after fasting
+\end{itemize}
+\end{itemize}
+\end{enumerate}
+
+\item Metabolic Derangement
+\label{sec:org832a52f}
+\begin{itemize}
+\item CPTII is situated on the inner mitochondrial membrane, catalyzes the
+regeneration of carnitine and the long chain fatty acyl CoAs, which
+then undergo \(\beta\)-oxidation (Figure \ref{fig:orgcb32bb5})
+\end{itemize}
+\item Genetics
+\label{sec:org7a763d2}
+\begin{itemize}
+\item AR, CPT2
+\end{itemize}
+\item Diagnostic Testing
+\label{sec:orgb469e21}
+\begin{itemize}
+\item \(\downarrow\) total carnitine
+\item \(\uparrow\) (C16 + C18)/C2
+\end{itemize}
+
+\item Treatment
+\label{sec:org87ff60c}
+\begin{itemize}
+\item high-carbohydrate (70\%) and low-fat (<20\%) diet to provide fuel for glycolysis
+\item carnitine to convert potentially toxic long-chain acyl-CoAs to
+acylcarnitines
+\end{itemize}
+\end{enumerate}
+\end{enumerate}
+\subsection{\(\beta\)-Oxidation Defects}
+\label{sec:orgf6e371c}
+\begin{enumerate}
+\item Very-Long-Chain Acyl-CoA Dehydrogenase Deficiency
+\label{sec:org754edf9}
+\begin{enumerate}
+\item Clinical Presentation
+\label{sec:org12dee4a}
+\begin{enumerate}
+\item Infancy
+\label{sec:orgb546ad9}
+\begin{itemize}
+\item severely affected patients present in early infancy with
+cardiomyopathy, in addition to the problems seen in milder patients
+\end{itemize}
+\item Childhood
+\label{sec:org592bc15}
+\begin{itemize}
+\item patients present in childhood with hypoglycaemia but suffer exercise
+or illness induced rhabdomyolysis or chronic weakness at a later age
+\end{itemize}
+\item Adolescence and Adult
+\label{sec:org488ce95}
+\begin{itemize}
+\item mildly affected patients present as adolescents or adults with
+exercise-induced rhabdomyolysis
+\end{itemize}
+\end{enumerate}
+\item Metabolic Derangement
+\label{sec:org49ae5c6}
+\begin{itemize}
+\item VLCAD is one of four mitochondrial acyl CoA dehydrogenases that
+catalyze the initial steps in the \(\beta\)-oxidation of fatty acids
+(Table \ref{tab:org0fabc03})
+\item optimal substrate is c16, palmitoy-CoA
+\item ACAD9 is responsible for production of C14:1-carnitine and
+C12-carnitine in VLCAD deficiency
+\end{itemize}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.6\textwidth]{./fao/figures/vlcad.png}
+\caption{\label{fig:org70a85a4}
+VLCAD reaction}
+\end{figure}
+
+\item Genetics
+\label{sec:orgc347183}
+\begin{itemize}
+\item AR, ACADVL
+\end{itemize}
+
+\item Diagnostic Testing
+\label{sec:orgb493083}
+\begin{itemize}
+\item \(\uparrow\) C14:1
+\item \(\uparrow\) C14:1/C12:1
+\item \(\uparrow\) UOA C3-C14 dicarboxylic acids
+\end{itemize}
+\item Treatment
+\label{sec:org7f27152}
+\begin{itemize}
+\item avoid fasting
+\item more severe forms low-fat diet with MCT
+\end{itemize}
+\end{enumerate}
+
+\item Mitochondrial Trifunctional Protein Deficiency
+\label{sec:org3a63fe9}
+\begin{enumerate}
+\item Clinical Presentation
+\label{sec:org29a9cd6}
+\begin{itemize}
+\item presentation of generalised MTP deficiency is heterogeneous
+\item patients with severe deficiency present as neonates
+\begin{itemize}
+\item cardiomyopathy, respiratory distress, hypoglycaemia and liver dysfunction
+\item most die within a few months, regardless of treatment
+\end{itemize}
+\item other patients resemble those with isolated LCHAD deficiency
+\item milder neuromyopathic phenotype:
+\begin{itemize}
+\item exercise induced rhabdomyolysis and progressive peripheral
+neuropathy
+\item can present at any age from infancy to adulthood
+\end{itemize}
+\item mothers who are heterozygous for LCHAD or MTP deficiency have a high
+risk of illness during pregnancies when carrying an affected fetus
+\begin{itemize}
+\item main problems are HELLP syndrome (Haemolysis, Elevated Liver
+enzymes and Low Platelets) and acute fatty liver of pregnancy
+(AFLP)
+\end{itemize}
+\end{itemize}
+\item Metabolic Derangement
+\label{sec:orga2f1333}
+\begin{itemize}
+\item MTP a hetero-octamer composed of four \(\alpha\)-subunits and four
+\(\beta\)-subunits
+\item \(\alpha\)-subunit has long-chain enoyl-CoA hydratase (LCEH) and LCHAD
+activities
+\item \(\beta\)-subunit has long-chain ketoacyl-CoA thiolase (LCKAT) activity
+\item patients may have isolated LCHAD deficiency or a generalised
+deficiency of all three enzyme activities
+\item MTP deficiency can result from mutations that affect the assembly of
+and/or degradation of the heterooctomeric holoenzyme
+\end{itemize}
+
+\item Diagnostic Tests
+\label{sec:org4c2b396}
+\begin{itemize}
+\item see LCHAD
+\end{itemize}
+
+\item Treatment
+\label{sec:org439bce4}
+\begin{itemize}
+\item see LCHAD
+\end{itemize}
+\end{enumerate}
+
+\item Long-Chain 3-Hydroxyacyl-CoA Dehydrogenase
+\label{sec:org79bd52b}
+\begin{enumerate}
+\item Clinical Presentation
+\label{sec:orgd517c98}
+\begin{itemize}
+\item isolated LCHAD deficiency usually presents acutely before 6 months of age
+\begin{itemize}
+\item hypoglycaemia, liver dysfunction, lactic acidosis
+\item many have cardiomyopathy, some have hypoparathyroidism or ARDS
+\end{itemize}
+\item other patients present with chronic symptoms
+\begin{itemize}
+\item failure to thrive, hypotonia, occasionally cholestasis or cirrhosis
+\end{itemize}
+\item subsequently, episodes of rhabdomyolysis are common
+\item many patients develop retinopathy, may start as early as 2 years of age
+\item granular pigmentation followed by chorioretinal atrophy w deteriorating central vision
+\item some patients develop cataracts
+\end{itemize}
+\item Metabolic Derangement
+\label{sec:orga6e22ff}
+\begin{itemize}
+\item LCHAD is a component of MTP
+\item bound to the inner mitochondrial membrane
+\item activity is optimal for C12-C16
+\item catalyzes dehydration of the 3-hydroxy group to a 3-keto group
+(Figure \ref{fig:orgfe5e80a})
+\end{itemize}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.6\textwidth]{./fao/figures/lchad.png}
+\caption{\label{fig:orgfe5e80a}
+LCHAD reaction}
+\end{figure}
+
+\item Genetics
+\label{sec:orga315a56}
+\begin{itemize}
+\item AR, HADHA
+\end{itemize}
+
+\item Diagnostic Tests
+\label{sec:orgdd3235f}
+\begin{itemize}
+\item \(\uparrow\) lactate, 3-OH-palmitoyl-CoA inhibits PDH
+\item \(\uparrow\) C14OH, C16OH, C18OH, C18:1OH
+\item \(\uparrow\) UOA C6-C14 (hydroxy-)dicarboxylic acids
+\end{itemize}
+
+\item Treatment
+\label{sec:org3cdfaca}
+\begin{itemize}
+\item avoid fasting
+\item low fat diet with MCT
+\end{itemize}
+\end{enumerate}
+\item Long-Chain Acyl-CoA Dehydrogenase Deficiency
+\label{sec:orgcbf91fb}
+\begin{itemize}
+\item LCAD is one of four mitochondrial acyl CoA dehydrogenases that
+catalyze the initial steps in the \(\beta\)-oxidation of fatty acids
+(Table \ref{tab:org0fabc03})
+\item no human disease-causing mutations have been identified
+\item role  in  human  metabolism  is unclear
+\item the substrate specificity of LCAD overlaps with that of
+VLCAD and MCAD
+\end{itemize}
+
+\item Medium-Chain Acyl-CoA Dehydrogenase Deficiency
+\label{sec:org33efa59}
+\begin{enumerate}
+\item Clinical Presentation
+\label{sec:orgbad687c}
+\begin{itemize}
+\item most common FAOD with an incidence of approximately 1:10,000-20,000
+in Europe,USA and Australia
+\item before NBS, presented 4 months to 4 years
+\begin{itemize}
+\item acute hypoglycaemic encephalopathy and liver dysfunction, not always
+\item some deteriorated rapidly and died
+\end{itemize}
+\item precipitated by prolonged fasting or infection with vomiting
+\item some babies still present within 72 hours of birth before
+newborn screening results are available
+\begin{itemize}
+\item hypoglycaemia and/or arrhythmias
+\item breast-fed babies are at higher risk, due to the small supply of
+breast milk at this stage
+\end{itemize}
+\item MCAD deficiency only presents clinically if exposed to an
+appropriate environmental stress
+\begin{itemize}
+\item prior to NBS \textasciitilde{} 30-50\% remained asymptomatic
+\end{itemize}
+\item with NBS and preventative measures, hypoglycaemia is rare
+\begin{itemize}
+\item patients do not develop cardiomyopathy or myopathy and few present
+initially as adults
+\end{itemize}
+\item healty MCAD deficient children > 1 year can fast for 12-14 hours without problems
+\begin{itemize}
+\item >14 hours \(\to\) hypoketotic hypoglycaemia
+\end{itemize}
+\item shorter fasts may cause problems in infancy
+\item encephalopathy may occur without hypoglycaemia
+\begin{itemize}
+\item accumulation of FFA acids and carnitine/CoA esters
+\end{itemize}
+\end{itemize}
+\item Metabolic Derangement
+\label{sec:org399fd0e}
+\begin{itemize}
+\item MCAD is one of four mitochondrial acyl CoA dehydrogenases that
+catalyze the initial steps in the \(\beta\)-oxidation of fatty acids
+(Table \ref{tab:org0fabc03})
+\item MCAD accepts fatty acyl CoAs in which the acid chain length is 6-12
+carbons in length
+\end{itemize}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.5\textwidth]{./fao/figures/acad.png}
+\caption{\label{fig:org485d402}
+Acyl-CoA Dehydrogenase Reaction}
+\end{figure}
+
+\item Genetics
+\label{sec:org8a4f544}
+\begin{itemize}
+\item AR, ACADM
+\end{itemize}
+\item Diagnostic Tests
+\label{sec:org91a739b}
+\begin{itemize}
+\item \(\uparrow\) C8, C6, C10
+\item \(\uparrow\) C8/C10
+\item \(\uparrow\) UOA C6-C10 dicarboxylic acids, suberylglycine, hexanolyglyine
+\begin{description}
+\item[{MCAD}] C6 > C8 > C10
+\item[{MCT}] C10 > C8 > C6
+\end{description}
+\end{itemize}
+\item Treatment
+\label{sec:org4badf64}
+\begin{itemize}
+\item avoid fasting
+\item low fat diet in infants
+\end{itemize}
+\end{enumerate}
+
+\item Short-Chain Acyl-CoA Dehydrogenase Deficiency
+\label{sec:orgd0469e9}
+\begin{itemize}
+\item non-disease
+\begin{itemize}
+\item previous association with symptoms due to ascertainment bias
+\end{itemize}
+\end{itemize}
+
+\item 3-Hydroxyacyl-CoA Dehydrogenase Deficiency
+\label{sec:org89f89aa}
+\begin{itemize}
+\item HADH, previously called SCHAD deficiency, causes hyperinsulinaemic
+hypoglycaemia
+\item role in modulation of ATP production inhibition of GDH
+\item see section Congenital Hyperinsulinema
+\end{itemize}
+\end{enumerate}
+\subsection{Electron Transfer Defects}
+\label{sec:org56b832f}
+\begin{enumerate}
+\item Multiple Acyl-CoA Dehydrogenase Deficiency
+\label{sec:org124f2c1}
+\begin{itemize}
+\item AKA: Glutaric Aciduria Type II
+\end{itemize}
+\begin{enumerate}
+\item Clinical Presentation
+\label{sec:org55f74b8}
+\begin{itemize}
+\item ETF and ETFQO deficiencies \(\to\) wide range of clinical severity
+\item severely affected patients present in the first few days of life
+\begin{itemize}
+\item hypoglycaemia, hyperammonaemia and acidosis
+\item hypotonia and hepatomegaly
+\end{itemize}
+\item there is usually an odour of sweaty feet similar to that in IVA
+\item some patients have congenital anomalies
+\begin{itemize}
+\item large cystic kidneys, hypospadias and neuronal migration defects and facial dysmorphism
+\begin{itemize}
+\item low set ears, high forehead and midfacial hypoplasia
+\end{itemize}
+\end{itemize}
+\item the malformations resemble those seen in CPTII deficiency but the pathogenesis is unknown
+\item most patients with neonatal presentation die within a week of birth
+\item others develop cardiomyopathy and die within a few months
+\item less severe cases can present at any age from infancy to adulthood
+\begin{itemize}
+\item with hypoglycaemia, liver dysfunction and weakness
+\item usually precipitated by an infection
+\end{itemize}
+\item cardiomyopathy is common in infants
+\item mildly affected children may have recurrent bouts of vomiting
+\item muscle weakness is the commonest presentation in adolescents and adults
+\begin{itemize}
+\item predominantly affects proximal muscles and may lead to scoliosis,
+hypoventilation or an inability to lift the chin off the chest
+\end{itemize}
+\item weakness can worsen rapidly during infection or pregnancy, myoglobinuria is rare
+\end{itemize}
+
+\item Metabolic Derangement
+\label{sec:orgb2cc991}
+\begin{itemize}
+\item Electron Transfer Flavoprotein (ETF) and ETF Ubiquinone
+Oxidoreductase (ETFQO) carry electrons to the respiratory chain from
+multiple FAD-linked dehydrogenases
+\item includes enzymes of amino acid, choline metabolism and acyl-CoA
+dehydrogenases of \(\beta\)-oxidation
+\item GAII less often, a result of defects of riboflavin transport or
+metabolism
+\end{itemize}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.9\textwidth]{./fao/figures/madd.png}
+\caption{\label{fig:orga2f6834}
+Multiple Acyl-CoA Dehydrogenase Deficiency}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.9\textwidth]{./fao/figures/etf.png}
+\caption{\label{fig:org08e017c}
+Role of ETF and ETF-QO}
+\end{figure}
+
+\item Genetics
+\label{sec:org99ee620}
+\begin{itemize}
+\item AR, ETFA, ETFB, ETFDH
+\end{itemize}
+
+\item Diagnosis
+\label{sec:orge0c6950}
+\begin{itemize}
+\item \(\uparrow\) C4-C18
+\item \(\uparrow\) UOA lactic, glutaric, 2-OH-glutaric, ethylmalonic, dicarboxylic acids
+\end{itemize}
+\item Treatment
+\label{sec:org09b372c}
+\begin{itemize}
+\item avoid fasting
+\item low fat diet
+\item many milder defects respond to riboflavin
+\end{itemize}
+\end{enumerate}
+\end{enumerate}
+\section{Pyruvate}
+\label{sec:org7a7468b}
+\subsection{Introduction}
+\label{sec:org4579051}
+\begin{itemize}
+\item pyruvate is formed from glucose and other monosaccharides, from
+lactate, and from the gluconeogenic amino acid alanine
+\item after entering the mitochondrion, pyruvate can be converted into
+acetyl-CoA by the pyruvate dehydrogenase complex, followed by
+further oxidation in the TCA cycle
+\item pyruvate can also enter the gluconeogenic pathway by sequential
+conversion into oxaloacetate by pyruvate carboxylase, followed by
+conversion to phosphoenolpyruvate by phosphoenolpyruvate
+carboxykinase
+\item acetyl-CoA can also be formed by fatty acid oxidation or used for
+lipogenesis
+\end{itemize}
+
+\begin{enumerate}
+\item Disorders of Pyruvate Metabolism
+\label{sec:orgd3a3817}
+\begin{itemize}
+\item Pyruvate Carboxylase Deficiency
+\item Phospoenolpyruvate Carboxykinase Deficiency
+\item Pyruvate Dehydrogenase Complex Deficiency
+\begin{itemize}
+\item Dihydrolipoamide Dehydrogenase Deficiency (PDHC E3)
+\end{itemize}
+\item Pyruvate Transporter Defect
+\end{itemize}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.7\textwidth]{./pyruvate/figures/pyruvate_disorders.png}
+\caption[TCA]{\label{fig:orgeaf8d6e}
+Disorders of Pyruvate Metabolism}
+\end{figure}
+
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.9\textwidth]{./pyruvate/figures/Slide13.png}
+\caption[TCA]{\label{fig:orgb651a7f}
+Pyruvate Metabolism and the TCA Cycle}
+\end{figure}
+
+\item Redox Reactions
+\label{sec:org284a411}
+
+\begin{description}
+\item[{pyruvate dehydrogenase complex}] decarboxylation \(\to\) acetyl-CoA
+\end{description}
+
+\ce{pyruvate + CoA + NAD+ <=>[PDHC] acetyl-CoA + CO2 + NADH + H+}
+
+\begin{description}
+\item[{pyruvate carboxylase}] carboxylation \(\to\) oxaloacetate
+\end{description}
+
+\ce{pyruvate + ATP + CO2 <=>[PC] oxaloacetate + ADP +Pi}
+
+\begin{description}
+\item[{alanine transaminase}] transamination \(\to\) alanine
+\end{description}
+
+\ce{pyruvate + glutamate <=>[ALT] alanine + \alpha-ketoglutarate}
+
+\begin{description}
+\item[{lactate dehydrogenase}] reduction \(\to\) lactate
+\end{description}
+
+\ce{pyruvate + NADH <=>[LDH] lactate + NAD+}
+\end{enumerate}
+
+
+\subsection{Pyruvate Carboxylase Deficiency}
+\label{sec:orgc1b851b}
+\begin{itemize}
+\item PC is a biotinylated mitochondrial matrix enzyme
+\begin{itemize}
+\item carboxylation of pyruvate to oxaloacetate
+\end{itemize}
+
+\ce{pyruvate + ATP + CO2 ->[PC] oxaloacetate + ADP +Pi}
+
+\item important role in:
+\begin{itemize}
+\item gluconeogenesis
+\begin{itemize}
+\item urea cycle indirectly
+\end{itemize}
+\item anaplerosis
+\begin{itemize}
+\item \(\downarrow\) 2-ketoglutarate \(\to\) \(\downarrow\) glutamate
+\item \(\downarrow\) TCA intermediates lowers reducing equivalents
+\item redox equilibrium between 3-OH-butyrate and acetoacetate \(\to\) acetoacetate
+\item \(\downarrow\) 3-OH-butyrate/acetoacetate ratio
+\end{itemize}
+\item lipogenesis
+\begin{itemize}
+\item oxaloacetate + acetyl-CoA \(\to\) citrate
+\end{itemize}
+\end{itemize}
+\end{itemize}
+
+\begin{enumerate}
+\item Biotin and Bicarbonate
+\label{sec:org5f52933}
+\begin{itemize}
+\item PC requires biotin and bicarbonate
+\item metabolic derangements associated with PC are observed in:
+\begin{itemize}
+\item biotin deficiency and biotinidase deficiency
+\item the three biotin-dependent carboxylases:
+\begin{itemize}
+\item Propionyl-CoA carboxylase (PCC)
+\item 3-methylcrotonyl-CoA carboxylase (3MCC)
+\item Pyruvate carboxylase (PC)
+\end{itemize}
+
+\item CA-VA deficiency
+\begin{itemize}
+\item results in dysfunction of all four enzymes to which CA-VA
+provides bicarbonate as substrate in mitochondria (see Urea Cycle)
+\end{itemize}
+\end{itemize}
+\end{itemize}
+
+\item Clinical Presentation
+\label{sec:org6430473}
+\begin{itemize}
+\item french phenotype (type B), most severe
+\begin{itemize}
+\item acute illness 3-48h after birth
+\item hypothermia, hypotonia, lethargy, vomiting
+\item severe neurological dysfunction
+\item death prior to 5 months
+\end{itemize}
+\item north American phenotype (type A)
+\begin{itemize}
+\item severe illness between 2 and 5 months of age
+\item progressive hypotonia
+\item acute vomiting, dehydration, tachypnoea, metabolic acidosis
+\item severe intellectual disability
+\item progressive with death in infancy
+\end{itemize}
+\item benign phenotype (type c)
+\begin{itemize}
+\item rare
+\item acute episodes of lactic acidosis and ketoacidosis
+\item near normal cognitive and motor development
+\end{itemize}
+\end{itemize}
+\item Genetics
+\label{sec:orgf41aab5}
+\begin{itemize}
+\item AR, PC, 1:250000
+\item PC is a homo-tetramer
+\item PC protein and mRNA absent in 50\% of french phenotype
+\item american and benign phenotypes have cross-reacting material
+\item mosaicism has been observed with prolonged survival
+\end{itemize}
+
+\item Diagnostic Tests
+\label{sec:org8365385}
+\begin{itemize}
+\item PC deficiency should be considered in any child presenting with
+lactic acidosis and neurological abnormalities
+\begin{itemize}
+\item with hypoglycemia, hyperammonemia, or ketosis
+\end{itemize}
+\item \(\uparrow\) L/P with \(\downarrow\) BHB/acetoacetate in severely affected patients
+\begin{itemize}
+\item pathognomonic in neonates
+\end{itemize}
+
+\item post-prandial ketosis, hypercitrullinemia, hyperammonemia, low glutamine
+
+\item CSF lactate, alanine and L/P are elevated, glutamine decreased
+
+\item PC activity in cultured skin fibroblasts
+\begin{itemize}
+\item can not distinguish severity
+\end{itemize}
+\end{itemize}
+
+\item Treatment
+\label{sec:orgf6bd101}
+
+\begin{itemize}
+\item Currently, no treatment
+\end{itemize}
+\end{enumerate}
+
+\subsection{Phospoenolpyruvate Carboxykinase Deficiency}
+\label{sec:org7a691eb}
+\begin{itemize}
+\item PEPCK has cytosolic and mitochondria isoforms
+\item cytosolic PEPCK deficiency is secondary to hyperinsulinism
+\begin{itemize}
+\item insulin represses expression of the cytosolic form
+\end{itemize}
+\item mitochondrial PEPCK deficiency has not been clearly demonstrated
+\end{itemize}
+
+\subsection{Pyruvate Dehydrogenase Complex Deficiency}
+\label{sec:org2fc56b0}
+\begin{itemize}
+\item PDHC decarboxylates pyruvate \(\to\) acetyl-CoA
+\begin{itemize}
+\item thiamine dependent
+\end{itemize}
+\item PDHC, KDHC and BCKD have similar structure and mechanism
+\item composed of:
+\begin{itemize}
+\item E1 \(\alpha\)-ketoacid dehydrogenase
+\item E2 dihydrolipoamide acyltransferase
+\item E3 dihydrolipoamide dehydrogenases
+\end{itemize}
+\item E1 is specific to each complex
+\begin{itemize}
+\item composed of E1\(\alpha\) and E1\(\beta\)
+\end{itemize}
+\item E1 is the rate limiting step in PDHC
+\begin{itemize}
+\item regulated by phosphorylation
+\end{itemize}
+\end{itemize}
+
+\begin{table}[htbp]
+\caption{\label{tab:org942dd60}
+Pyruvate Dehydrogenases Complex}
+\centering
+\begin{tabular}{llll}
+Unit & Name & Gene & Cofactor\\
+\hline
+E1\(\alpha\) & pyruvate dehydrogenase & PDHA1 & thiamine pyrophosphate (TPP)\\
+E1\(\beta\) &  & PDHB & \\
+E2 & dihydrolipoyl  S-acetyltransferase & DLAT & lipoate, coenzyme A\\
+E3 & dihydrolipoyl dehydrogenase & DLD & FAD, NAD+\\
+\end{tabular}
+\end{table}
+
+
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.6\textwidth]{./pyruvate/figures/pdhe1_phos.png}
+\caption[pdhe1]{\label{fig:orge823819}
+Activation/deactivation of PDHE1}
+\end{figure}
+
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.7\textwidth]{./pyruvate/figures/pdhc.png}
+\caption[pdhc]{\label{fig:orgf31c1f5}
+Pyruvate Dehydrogenase Complex}
+\end{figure}
+
+\begin{itemize}
+\item PDHC deficiency provokes conversion of pyruvate to lactate and alanine rather than acetly-CoA
+\item metabolism of glucose \(\to\) lactate, produces 1/10 ATP compared to
+complete oxidation via TCA and ETC
+\item impairs production of NADH but not oxidation
+\item NADH/\ce{NAD+} is normal \(\therefore\) normal L/P
+\begin{itemize}
+\item ETC deficiencies \(\to\) \(\uparrow\) L/P
+\end{itemize}
+\end{itemize}
+
+\begin{enumerate}
+\item Clinical Presentation: PDHE1\(\alpha\)
+\label{sec:orga9ea2d2}
+\begin{itemize}
+\item majority of cases involve the X encoded \(\alpha\)-subunit of the dehydrogenase (E1)
+\begin{itemize}
+\item PDHE1\(\alpha\) deficiency
+\item developmental delay, hypotonia, seizures and ataxia
+\end{itemize}
+
+\item common presentations in hemizygous males:
+\begin{enumerate}
+\item neonatal lactic acidosis
+\begin{itemize}
+\item most severe
+\end{itemize}
+\item Leigh's encephalopathy
+\begin{itemize}
+\item most common
+\item present in first 5 years
+\end{itemize}
+\item intermittent ataxia
+\begin{itemize}
+\item rare
+\item ataxia after carbohydrate rich meals \(\to\) Leigh's syndrome
+\end{itemize}
+\end{enumerate}
+
+\item females with PDHE1\(\alpha\), uniform presentation, variable severity
+\begin{itemize}
+\item dismorphic features
+\item moderate to severe intellectual disability
+\item seizures common
+\item severe neonatal lactic acidosis can be present
+\end{itemize}
+\end{itemize}
+
+\item Clinical Presentation: PDHE1\(\beta\)
+\label{sec:orgb370651}
+\begin{itemize}
+\item very rare
+\item similar to PDHE1\(\alpha\)
+\end{itemize}
+
+\item Genetics
+\label{sec:org94e02c1}
+\begin{itemize}
+\item all components of PDHC are encoded by nuclear genes
+\item autosomal except E1\(\alpha\) on Xp22.11
+\begin{itemize}
+\item \(\therefore\) most PDHC deficiency is X-linked
+\end{itemize}
+\item no null E1\(\alpha\) identified except in a mosaic state
+\begin{itemize}
+\item suggests E1\(\alpha\) is essential
+\end{itemize}
+\end{itemize}
+
+\item Diagnostic Tests
+\label{sec:orgacdffcb}
+\begin{itemize}
+\item lactate and pyruvate in blood and CSF
+\item CSF lactate is generally \(\uparrow\) compared to blood
+\item urine organic acids
+\begin{itemize}
+\item lactic and pyruvate
+\end{itemize}
+\item plasma amino acids
+\begin{itemize}
+\item alanine
+\end{itemize}
+\item L/P ratio is usually normal
+\item skin fibroblasts for PDHC
+\begin{itemize}
+\item also lymphocytes, separated from EDTA <2days
+\end{itemize}
+\item PDHE1\(\alpha\) genotype in females is useful
+\end{itemize}
+
+\item Treatment
+\label{sec:org48fb3b5}
+\begin{itemize}
+\item early adoption of ketogenic diet may have a benefit
+\item thiamine responsive forms
+\item DCA is a pyruvate analog, inhibits E1 kinase, keeps E1 dephosphorylated (active) (Figure \ref{fig:orge823819})
+\end{itemize}
+
+\item Pyruvate Transport Defect
+\label{sec:orgde969cc}
+\begin{itemize}
+\item MPC1 mutations have been described in 5 patients
+\item mediates the proton symport of pyruvate across the IMM
+\item \(\therefore\) metabolic derangement similar to PDHC deficiency
+\item no treatment
+\end{itemize}
+\end{enumerate}
+
+\subsection{Dihydrolipoamide Dehydrogenase Deficiency}
+\label{sec:orga58d349}
+\begin{itemize}
+\item DLD (E3) is a flavoprotein common to all three mitochondrial
+\(\alpha\)-ketoacid dehydrogenase complexes
+\begin{itemize}
+\item PDHC, KDHC, and BCKD
+\end{itemize}
+\item combined PDHC, TCA , BCAA defect
+\begin{itemize}
+\item \(\uparrow\) lactate , pyruvate,
+\item alanine, glutamate, glutamine, BCAA
+\item urinary lactic, pyruvic, 2-ketoglutaric, BC 2-hydroxy \& 2-ketoacids
+\end{itemize}
+\end{itemize}
+
+\begin{enumerate}
+\item Genetics and Diagnotic Testing
+\label{sec:orge8a2a86}
+\begin{itemize}
+\item DLD mutations AR
+\item 13 unrelated patients revealed 14 unique mutations
+\item blood lactate, pyruvate
+\item plasma amino acids
+\item urinary organic acids
+\item Pattern of abnormalities not seen in all patients at all times
+\end{itemize}
+\end{enumerate}
+\section{Tricarboxylic Acid Cycle}
+\label{sec:org0853996}
+\subsection{Introduction}
+\label{sec:org7b32c16}
+\begin{itemize}
+\item pathways for oxidation of fatty acids, glucose, amino acids and
+ketones produce acetyl-CoA which can enter the TCA cycle
+\item one molecule of glucose breaks down into two molecules of pyruvate
+\item pyruvate is converted into acetyl-CoA, which is the main input TCA
+\item release of energy via oxidation of acetly-CoA
+\item one of the primary functions of the TCA cycle is to generate
+reducing equivalents in the form of NADH and FADH\(_{\text{2}}\) which are
+utilised to produce energy under the form of ATP in the electron
+transport chain
+\end{itemize}
+
+%%\setchemfig{lewis style=red}
+\centering
+\chemname{\chemfig{\lewis{0.,H}-\lewis{0.2.4.6.,{\color{red}C}}(-[6]\lewis{2.,H})(-[2]\lewis{6.,H})-\lewis{4.,{\color{red}C}}(=[2]O)-[,,,,decorate, decoration=snake]SCoA}}{acetyl-CoA}
+\begin{itemize}
+\item part of aerobic respiration
+\begin{itemize}
+\item ETC regenerates \ce{NAD+} via oxidization of NADH
+\end{itemize}
+\item cofactors:
+\begin{itemize}
+\item niacin (\ce{NAD+})
+\item riboflavin (FAD and FMN)
+\item panthothenic acid (CoA)
+\item thiamine
+\item \ce{Mg^2+}, \ce{Ca^2+}, \ce{Fe+} and phosphate
+\end{itemize}
+
+\item TCA net reaction
+\end{itemize}
+
+{\tiny\ce{Acetyl-CoA + 3NAD+ + FAD + GDP + Pi + 2H2O -> 2CO2 + CoA + 3NADH + FADH2 + GTP + 2H+}}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.9\textwidth]{./tca/figures/Slide13.png}
+\caption[TCA]{\label{fig:orgee1e8e0}
+Pyruvate Metabolism and the TCA Cycle}
+\end{figure}
+
+\begin{enumerate}
+\item Disorders of the TCA cycle
+\label{sec:orgc72c771}
+
+\begin{itemize}
+\item \(\alpha\)-Ketoglutarate Dehydrogenase Complex Deficiency
+\item Succinate Dehydrogenase Deficiency
+\item Fumarase Deficiency
+\end{itemize}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=1\textwidth]{./tca/figures/TCA_disorders.png}
+\caption{\label{fig:orga830ea8}
+TCA disorders}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.5\textwidth]{./tca/figures/gr2.png}
+\caption{\label{fig:orgbf3a182}
+Model for a functional splitting of the Krebs cycle reactions into complementary mini-cycles}
+\end{figure}
+
+\begin{itemize}
+\item to compensate for defects the TCA can split into complementary
+mini-cycles (Figure \ref{fig:orgbf3a182})
+\begin{itemize}
+\item uses aspartate-amino acid transferase
+\item (A) would allow to convert pyruvate up to \(\alpha\)-KG, even when the
+second mini-cycle (B) does not function
+\item accounts for the urinary excretion of \(\alpha\)-KG in patients
+presenting with defect of \(\alpha\)-KG, SDH or fumarase activity
+\item could produce reduced equivalents to sustain the normal oxygen
+uptake measured in circulating lymphocytes or cultured skin
+fibroblast from these patients
+\end{itemize}
+\end{itemize}
+\end{enumerate}
+
+\subsection{\(\alpha\)-Ketoglutarate Dehydrogenase Complex Deficiency}
+\label{sec:orgaacf343}
+\begin{itemize}
+\item KDHC is a \(\alpha\)-ketoacid dehydrogenase analogous to PDHC and BCKD
+\end{itemize}
+
+\ce{\alpha-ketoglutarate + NAD+ + CoA ->[KDHC] succinyl-CoA + CO2 + NADH}
+
+\begin{table}[htbp]
+\caption{\label{tab:orge7072ea}
+\(\alpha\)-Ketoglutarate Dehydrogenase Complex}
+\centering
+\begin{tabular}{llll}
+Unit & Name & Gene & Cofactor\\
+\hline
+E1 & \(\alpha\)-ketoglutarate dehydrogenase & OGDH & thiamine pyrophosphate(TPP)\\
+E2 & dihydrolipoyl succinyltransferase & DLST & lipoic acid, Coenzyme A\\
+E3 & dihydrolipoyl dehydrogenase & DLD & FAD, NAD\\
+\end{tabular}
+\end{table}
+
+\begin{itemize}
+\item E1 subunit is the thiamine dependant substrate specific dehydrogenase
+\begin{itemize}
+\item not regulated by phosphorylation
+\end{itemize}
+\item E2 subunit dihydrolipyoyl succinyl-transferase is also specific to KDHC
+\end{itemize}
+
+\begin{enumerate}
+\item Clinical Presentation
+\label{sec:orgc66c92e}
+\begin{itemize}
+\item similar to PDHC (section \ref{sec:org2fc56b0})
+\item developmental delay, hypotonia, opisthotonos and ataxia
+\begin{itemize}
+\item seizures less common
+\end{itemize}
+\item present as neonate and early childhood
+\end{itemize}
+
+\item Genetics
+\label{sec:orge4d0c83}
+\begin{itemize}
+\item AR inheritance, encoded by nuclear DNA
+\item E1 gene mapped to 7p13
+\item E2 gene mapped to 14q24.3
+\item \(\alpha\)-ketoglutarate dehydrogenase deficiency is sometimes a feature of DLD deficiency
+\end{itemize}
+
+\item Diagnostic Tests
+\label{sec:org7983e8a}
+\begin{itemize}
+\item urine organic acids
+\begin{itemize}
+\item \(\uparrow\) \(\alpha\)-KGA \textpm{} other TCA intermediates
+\item \(\alpha\)-KGA is a common finding, not specific for KDHC deficiency
+\end{itemize}
+\item blood lactate
+\begin{itemize}
+\item normal or increased L/P
+\end{itemize}
+\item KDHC activity
+\begin{itemize}
+\item \ce{^14CO2} release from \ce{[1-^14C]} \(\alpha\)-ketoglutarate (or \ce{[1-^14C]} leucine)
+\item cultured skin fibroblasts
+\item muscle
+\end{itemize}
+\end{itemize}
+
+\item Treatment
+\label{sec:org9bf2eb2}
+\begin{itemize}
+\item none to date
+\end{itemize}
+\end{enumerate}
+
+\subsection{Succinate Dehydrogenase Deficiency}
+\label{sec:org63dc530}
+\begin{itemize}
+\item four subunits compose Complex II of the mitochondrial respiratory chain
+\end{itemize}
+
+\begin{table}[htbp]
+\caption{\label{tab:org829ef45}
+Succinate Dehydrogenase | Complex II}
+\centering
+\begin{tabular}{ll}
+Subunit name & Protein description\\
+\hline
+SdhA & Succinate dehydrogenase flavoprotein subunit\\
+SdhB & Succinate dehydrogenase iron-sulfur subunit\\
+SdhC & Succinate dehydrogenase cytochrome b560 subunit\\
+SdhD & Succinate dehydrogenase cytochrome b small subunit\\
+\end{tabular}
+\end{table}
+
+\begin{itemize}
+\item SdhA subunit contains an FAD binding site where succinate is
+deprotonated and converted to fumarate
+\end{itemize}
+
+\ce{succinate + ubiquinone(Q) ->[CII] fumarate + ubiquinol(QH2)}
+
+\begin{itemize}
+\item electrons removed from succinate transfer to SdhA
+\item transfer across SdhB through iron sulphur clusters to the SdhC/SdhD subunits
+\begin{itemize}
+\item SdhC/SdhD are anchored in the mitochondrial membrane
+\end{itemize}
+\end{itemize}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.5\textwidth]{./tca/figures/SuccDeh.png}
+\caption{\label{fig:org406fa0e}
+Succinate Dehydrogenase | Complex II}
+\end{figure}
+
+\begin{enumerate}
+\item Clinical Presentation
+\label{sec:orgbca0450}
+\begin{itemize}
+\item very rare disorder with highly variable phenotype
+\item Complex II is part of the TCA cycle and ETC
+\begin{itemize}
+\item phenotype resembles defects in respiratory chain
+\end{itemize}
+\item clinical picture can include:
+\begin{itemize}
+\item Kearns-Sayre syndrome
+\item isolated hypertrophic cardiomyopathy
+\item combined cardiac and skeletal myopathy
+\item generalized muscle weakness, \(\uparrow\) fatiguability
+\item early onset Leigh encephalopathy
+\end{itemize}
+\item also:
+\begin{itemize}
+\item cerebral ataxia
+\item optic atropy
+\item tumour formation in adults
+\end{itemize}
+\end{itemize}
+
+\item Genetics
+\label{sec:orgb067a9f}
+\begin{itemize}
+\item all components of Complex II are encoded by nuclear DNA
+\end{itemize}
+
+\begin{table}[htbp]
+\caption{\label{tab:orgd6745ca}
+Succinate Dehydrogenase Genetics}
+\centering
+\begin{tabular}{ll}
+Gene & Location\\
+\hline
+SDHA & 5p15.33\\
+SDHB & 1p36.13\\
+SDHC & 1q23.3\\
+SDHD & 11q23.1\\
+\end{tabular}
+\end{table}
+
+
+\begin{itemize}
+\item AR with highly variable phenotype
+\item case of affected sisters with one identified SDHA mutation suggested
+dominant transmission
+\item mutations in SDHB, SDHC and SDHD cause susceptibility to familial
+phaeochromocytoma and familial paraganglioma
+\end{itemize}
+
+\item Diagnostic Tests
+\label{sec:orgc8a05e1}
+\begin{itemize}
+\item unlike other TCA cycle disorders Complex II deficiency does not always
+result in characteristic organic aciduria
+\begin{itemize}
+\item succinic aciduria
+\end{itemize}
+\item organic acids can show variable amounts of lactate, pyruvate, succinate, fumarate and malate
+\item measurement of complex II activity in muscle is the most reliable
+means of diagnosis
+\begin{itemize}
+\item there is no clear correlation between residual complex II activity
+and severity or clinical outcome
+\end{itemize}
+\end{itemize}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.5\textwidth]{./tca/figures/gr4.jpg}
+\caption{\label{fig:orge370ec4}
+Coupled spectrophotometric assay}
+\end{figure}
+
+\item Treatment
+\label{sec:org1ddba6f}
+\begin{itemize}
+\item in some cases, treatment with riboflavin may have clinical benefit
+\end{itemize}
+\end{enumerate}
+
+\subsection{Fumarase Deficiency}
+\label{sec:orgc8c252a}
+\begin{itemize}
+\item fumarase (AKA:fumarate hydratase) catalyses reversible
+hydration/dehydration of fumarate to malate
+\end{itemize}
+\ce{fumarate + H2O ->[FH] malate}
+\begin{itemize}
+\item two forms: mitochondrial and cytosolic
+\begin{itemize}
+\item mitochondrial isoenzyme is involved in the TCA Cycle
+\item cytosolic isoenzyme is involved in the metabolism of amino acids and fumarate
+\end{itemize}
+\item subcellular localization is established by the presence/absence of an N-terminal mitochondrial signal
+sequence
+\item deficiency causes impaired energy production
+\end{itemize}
+
+\begin{enumerate}
+\item Clinical Presentation
+\label{sec:orgb0cd4f7}
+\begin{itemize}
+\item characterized by polyhydramnios and fetal brain abnormalities
+\item newborn period findings include:
+\begin{itemize}
+\item severe neurologic abnormalities
+\item poor feeding
+\item failure to thrive
+\item hypotonia
+\end{itemize}
+\item fumarase deficiency is suspected in infants with multiple severe
+neurologic abnormalities in the absence of an acute metabolic crisis
+\item inactivity of both cytosolic and mitochondrial forms of fumarase are
+potential causes
+\end{itemize}
+\item Genetics
+\label{sec:org42a109f}
+\begin{itemize}
+\item AR, FH encoded by nuclear DNA
+\item single gene and mRNA encode mito and cyto isoforms
+\end{itemize}
+\item Diagnostic Tests
+\label{sec:orge4f2a75}
+\begin{itemize}
+\item isolated increased concentration of fumaric acid on urine organic
+acid analysis is highly suggestive of fumarase deficiency
+\begin{itemize}
+\item succinate, \(\alpha\)-KGA can also be elevated
+\end{itemize}
+\item molecular genetic testing for fumarase deficiency
+\end{itemize}
+\end{enumerate}
+\subsection{Isocitrate Dehydrogenase}
+\label{sec:org90cc3d4}
+\begin{itemize}
+\item IDH exists in three isoforms:
+\begin{itemize}
+\item IDH3 catalyzes the third step of the citric acid cycle while
+converting \ce{NAD+} to NADH in the mitochondria
+\end{itemize}
+\end{itemize}
+
+\ce{isocitrate + NAD+ ->[IHD3] \alpha-ketoglutarate + CO2 + NADH + H+}
+
+\begin{itemize}
+\item IDH1 and IDH2 catalyze the same reaction outside TCA cycle and use
+\ce{NADP+} as a cofactor
+\begin{itemize}
+\item they localize to the cytosol as well as the mitochondrion and peroxisome
+\end{itemize}
+\end{itemize}
+
+\ce{isocitrate + NADP+ ->[IHD1/2] \alpha-ketoglutarate + CO2 + NADPH + H+}
+
+\begin{enumerate}
+\item Clinical relevance
+\label{sec:orgea841e9}
+\begin{itemize}
+\item IDH3 deficiency is associated with retinitis pigmentosa
+\item IDH1/2 mutations linked to malignant gliomas and acute myeloid leukemia
+\item mutations in IDH2 identified in half of patients
+\end{itemize}
+\end{enumerate}
+\section{Oxidative Phosphorylation}
+\label{sec:org940c830}
+\subsection{Introduction}
+\label{sec:org8ee7695}
+\begin{itemize}
+\item responsible for ATP production
+\item ETC complexes I-IV
+\item OxPhos system complexes I-V
+\item oxidative phosphorylation is the process in which ATP is formed as a
+result of the transfer of electrons from NADH or FADH\(_{\text{2}}\) to O\(_{\text{2}}\) by a
+series of electron carriers (Figure \ref{fig:orgced5ca7})
+\item this process, which takes place in mitochondria, is the major source
+of ATP in aerobic organisms
+\end{itemize}
+
+\begin{enumerate}
+\item Chemiosmotic Coupling Hypothesis
+\label{sec:org6199320}
+\begin{itemize}
+\item the ETC and OxPhos are coupled by a proton gradient across the IMM
+\item the efflux of protons from the mitochondrial matrix creates an electrochemical gradient
+\begin{itemize}
+\item used by the F\(_{\text{0}}\)F\(_{\text{1}}\) ATP synthase complex to make ATP via oxidative phosphorylation
+\end{itemize}
+\end{itemize}
+\begin{itemize}
+\item energy from transfer of electrons down the ETC is used to pump
+protons from the mitochondrial matrix into the intermembrane space
+\begin{itemize}
+\item creates an electrochemical proton gradient (\DeltapH) across the IMM
+\begin{itemize}
+\item largely responsible for the mitochondrial membrane potential (\(\Delta \Psi\)M)
+\end{itemize}
+\item ATP synthase uses flow of \ce{H+} through the enzyme back into the
+matrix to generate ATP from ADP and Pi
+\end{itemize}
+\item there are three energy-transducing enzymes in the electron transport
+chain:
+\begin{itemize}
+\item NADH:ubiquinone oxidoreductase (complex I)
+\item Coenzyme Q – cytochrome c reductase (complex III)
+\item cytochrome c oxidase (complex IV)
+\item also ETF-QO and mitochondrial GPD
+\end{itemize}
+\end{itemize}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{./oxphos/figures/etc.pdf}
+\caption{\label{fig:org266f7d4}
+Electron Transport Chain}
+\end{figure}
+
+\begin{itemize}
+\item Complex I (NADH coenzyme Q reductase) accepts electrons from the
+Krebs cycle electron carrier NADH
+\item passes them to CoQ (ubiquinone)
+\item CoQ also receives electrons from complex II (succinate dehydrogenase)
+\item CoQ passes electrons to complex III (cytochrome bc1 complex), which
+passes them to cytochrome c
+\item Cyt c passes electrons to Complex IV (cytochrome c oxidase), which
+uses the electrons and hydrogen ions to reduce molecular oxygen to
+water
+\end{itemize}
+
+\begin{table}[htbp]
+\caption{\label{tab:org37a8ac1}
+Location of DNA encoding OxPhos Complex Subunits}
+\centering
+\begin{tabular}{lrrrrr}
+ & CI & CII & CIII & CIV & CV\\
+\hline
+mtDNA & 7 & 0 & 1 & 3 & 2\\
+nDNA & 39 & 4 & 10 & 10 & 14\\
+\end{tabular}
+\end{table}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{./oxphos/figures/Slide14.png}
+\caption[ETC]{\label{fig:orgced5ca7}
+Oxidative Phosphorylation}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.6\textwidth]{./oxphos/figures/potential.png}
+\caption[redox]{\label{fig:orgc0df28b}
+Electron flow to O\(_{\text{2}}\) and release free energy}
+\end{figure}
+
+\item Complex I
+\label{sec:org9ae4e70}
+\begin{itemize}
+\item AKA NADH-ubiquinone oxidoreductase
+\item catalyzes the transfer of electrons from NADH to coenzyme Q10
+(CoQ) and translocates protons across the inner mitochondrial
+membrane
+\end{itemize}
+
+{\small\ce{NADH + H+ + CoQ + 4H^{+}_{in} ->[CI] NAD+ + CoQH2 + 4H^{+}_{out}}}
+
+\begin{itemize}
+\item mechanism: 
+\begin{enumerate}
+\item seven iron sulfur centers carry electrons from the site of NADH
+oxidation to ubiquinone
+
+\item ubiquinone (CoQ) is reduced to ubiquinol (\ce{CoQH2})
+
+\item the energy from the redox reaction results in conformational
+change allowing hydrogen ions to pass through four transmembrane
+helix channels
+\end{enumerate}
+\end{itemize}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.9\textwidth]{./oxphos/figures/c1.pdf}
+\caption[c1]{\label{fig:org656a426}
+Complex I | NADH-ubiquinone oxidoreductase}
+\end{figure}
+
+\begin{enumerate}
+\item Inhibitors
+\label{sec:org0d7ca91}
+\begin{itemize}
+\item the best-known inhibitor of complex I is rotenone
+\begin{itemize}
+\item commonly used as an organic pesticide
+\end{itemize}
+\item rotenone binds to the ubiquinone binding site of complex I
+\begin{itemize}
+\item piericidin A a potent inhibitor and structural homologue to ubiquinone
+\end{itemize}
+\item hydrophobic inhibitors like rotenone or piericidin likely disrupt electron transfer between FeS cluster N2 and ubiquinone
+\item bullatacin is the most potent known inhibitor of NADH dehydrogenase (ubiquinone)
+\item Complex I is also blocked by adenosine diphosphate ribose - a reversible competitive inhibitor of NADH oxidation
+\end{itemize}
+\end{enumerate}
+
+\item Complex II
+\label{sec:org929dd74}
+\begin{itemize}
+\item AKA Succinate Dehydrogenase 
+\begin{itemize}
+\item see section \ref{sec:org63dc530}
+\end{itemize}
+\end{itemize}
+
+\begin{enumerate}
+\item Inhibitors
+\label{sec:org19efc98}
+\begin{itemize}
+\item there are two distinct classes of inhibitors of complex II:
+\begin{itemize}
+\item those that bind in the succinate pocket and those that bind in the ubiquinone pocket
+\end{itemize}
+\item ubiquinone type inhibitors include carboxin and thenoyltrifluoroacetone
+\item succinate-analogue inhibitors include the synthetic compound malonate as well as the TCA cycle intermediates, malate and oxaloacetate
+\begin{itemize}
+\item oxaloacetate is one of the most potent inhibitors of Complex II
+\end{itemize}
+\end{itemize}
+\end{enumerate}
+
+\item Glycerol-3-phosphate shuttle
+\label{sec:orgc7e48f5}
+\begin{itemize}
+\item oxidation of cytoplasmic NADH by the cytosolic form of the enzyme
+creates glycerol-3-phosphate from dihydroxyacetone phosphate
+\item glycerol-3-phosphate diffuses into IMM and is oxidised by mitochondrial glycerol-3-phosphate dehydrogenase
+\begin{itemize}
+\item uses quinone as an oxidant and FAD as a co-factor
+\end{itemize}
+\item maintains the cytoplasmic NAD+/NADH ratio
+\end{itemize}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.6\textwidth]{./oxphos/figures/GPDH_shuttle.png}
+\caption[g3ps]{\label{fig:orgcbfe1c3}
+Glycerol-3-phosphate shuttle}
+\end{figure}
+
+\item Electron Transferring Flavoprotein/ Dehydrogenase
+\label{sec:org21d4929}
+\begin{itemize}
+\item ETFs are heterodimeric proteins composed of an alpha and beta
+subunit (ETFA and ETFB), and contain an FAD cofactor and AMP
+
+\item ETQ-QO links the oxidation of fatty acids and some amino acids to
+oxidative phosphorylation in the mitochondria
+\item catalyzes the transfer of electrons from electron transferring
+flavoprotein (ETF) to ubiquinone, reducing it to ubiquinol
+\end{itemize}
+
+{\small\ce{Acyl-CoA + FAD ->[ACAD] FADH2 + ETF ->[ETF-QO] CoQ ->[CIII] CytC}}
+
+\begin{itemize}
+\item ETF-QO deficiency results in \textbf{Glutaric Acidemia Type II} (AKA MADD)
+\begin{itemize}
+\item discussed more in FAODs
+\end{itemize}
+\end{itemize}
+\item Complex III
+\label{sec:org6752b2b}
+\begin{itemize}
+\item AKA Coenzyme Q – cytochrome c reductase
+\item Complex III is a multi-subunit transmembrane protein encoded by both
+mitochondrial (cytochrome B) and the nuclear genomes (all other
+subunits)
+
+\begin{itemize}
+\item Complex III contains 11 subunits:
+\begin{itemize}
+\item 3 respiratory subunits (cytochrome B, cytochrome C1, Rieske protein)
+\item 2 core proteins
+\item 6 low-molecular weight proteins
+\end{itemize}
+\end{itemize}
+
+{\small\ce{QH2 + 2Fe^{3+}-cyt c + 2H+_{in} ->[CIII]  Q + 2Fe^{2+}-cyt c + 4H+_{out}}}
+\end{itemize}
+
+\begin{enumerate}
+\item Inhibitors
+\label{sec:orgc07c4c5}
+\begin{itemize}
+\item there are three distinct groups of Complex III inhibitors:
+\begin{itemize}
+\item antimycin A binds to the Q\(_{\text{i}}\) site and inhibits the transfer of electrons in Complex III from heme b\(_{\text{H}}\) to oxidized Q (Q\(_{\text{i}}\) site inhibitor)
+\item myxothiazol and stigmatellin bind to distinct but overlapping pockets within the Q\(_{\text{o}}\) site
+\begin{itemize}
+\item myxothiazol binds nearer to cytochrome bL (hence termed a "proximal" inhibitor)
+\item stigmatellin binds farther from heme bL and nearer the Rieske Iron sulfur protein
+\item both inhibit the transfer of electrons from reduced QH\(_{\text{2}}\) to the Rieske Iron sulfur protein
+\end{itemize}
+\end{itemize}
+\end{itemize}
+\end{enumerate}
+\item Complex IV
+\label{sec:orgb458d8c}
+\begin{itemize}
+\item AKA Cytochrome c oxidase
+\item last enzyme in the respiratory electron transport chain
+\item large IMM integral membrane protein composed of several metal prosthetic sites and 14 protein subunits
+\item eleven subunits are nuclear in origin, and three are synthesized in the mitochondria
+\begin{itemize}
+\item contains two hemes
+\item cytochrome a and cytochrome a3
+\item two copper centers, CuA and CuB
+\item the cytochrome a3 and CuB form a binuclear center that is the site of oxygen reduction
+\item receives an electron from four cytochrome c molecules and
+transfers them to one O\(_{\text{2}}\) molecule
+\end{itemize}
+
+{\small\ce{4Fe^{2+}-cyt c + 8H^{+}_{in} + O2 ->[CIV] 4Fe^{3+}-cyt c + 2H2O + 4H^{+}_{out}}}
+
+\begin{itemize}
+\item binds four protons from the inner aqueous phase to make two water
+molecules, and translocates another four protons across the
+membrane, increasing the transmembrane difference of proton
+electrochemical potential which the ATP synthase then uses to
+synthesize ATP
+\end{itemize}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.5\textwidth]{./oxphos/figures/CIV.png}
+\caption[cIV]{\label{fig:org82d7642}
+Complex IV | Cytochrome c oxidase}
+\end{figure}
+\end{itemize}
+
+\begin{enumerate}
+\item Inhibitors
+\label{sec:org71535fe}
+\begin{itemize}
+\item cyanide, azide, and carbon monoxide all bind to cytochrome c
+oxidase
+\item nitric oxide and hydrogen sulfide, can also inhibit COX by
+binding to regulatory sites on the enzyme
+\end{itemize}
+\end{enumerate}
+\item Complex V
+\label{sec:orgffb7824}
+\begin{itemize}
+\item AKA ATP synthase
+\item ATP synthase is a molecular machine that creates the energy storage
+molecule adenosine triphosphate (ATP)
+\item overall reaction catalyzed by ATP synthase is:
+\end{itemize}
+
+{\small\ce{ADP + P_i + H+_{out} <=>[CV] ATP + H2O + H+_{in}}}
+
+\begin{itemize}
+\item formation of ATP from ADP and P\(_{\text{i}}\) is energetically unfavourable
+\begin{itemize}
+\item would normally proceed in the reverse direction
+\end{itemize}
+
+\item to drive this reaction forward, ATP synthase couples ATP synthesis
+to the electrochemical gradient (\(\Delta \Psi\)M) created by complexes
+I,III and IV
+
+\item ATP synthase consists of two main subunits, F\(_{\text{0}}\) and F\(_{\text{1}}\), which has a
+rotational motor mechanism allowing for ATP production
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.5\textwidth]{./oxphos/figures/atp_synthase.jpg}
+\caption{\label{fig:org0c10234}
+Complex V | ATP synthase}
+\end{figure}
+\end{itemize}
+
+\begin{enumerate}
+\item Complex V Inhibitors
+\label{sec:org3882c5b}
+\begin{itemize}
+\item Oligomycin A inhibits ATP synthase by blocking its proton channel
+(F\(_{\text{0}}\) subunit), which is necessary for oxidative phosphorylation of
+ADP to ATP (energy production)
+\item The inhibition of ATP synthesis by oligomycin A will significantly
+reduce electron flow through the electron transport chain; however,
+electron flow is not stopped completely due to a process known as
+proton leak or mitochondrial uncoupling
+\begin{itemize}
+\item This process is due to facilitated diffusion of protons into the
+mitochondrial matrix through an uncoupling protein such as
+thermogenin, or UCP1
+\end{itemize}
+
+\item Administering oligomycin to an individual can result in very high
+levels of lactate accumulating in the blood and urine
+\end{itemize}
+\end{enumerate}
+\end{enumerate}
+
+\subsection{Disorders}
+\label{sec:org86c37f0}
+\begin{itemize}
+\item molecular pathogenesis of OxPhos disorders (Figure \ref{fig:org558da3a})
+\begin{enumerate}
+\item OxPhos complexes or assembly
+\item mtDNA maintainance
+\item mitochondrial translation
+\item coenzyme Q biosynthesis
+\item mitochondrial protein import
+\begin{itemize}
+\item deafness-dystonia syndrome
+\end{itemize}
+\item mitochondrial solute import
+\begin{itemize}
+\item phosphate carrier deficiency
+\end{itemize}
+\item mitochondrial membrane lipids
+\begin{itemize}
+\item Barth syndrome
+\end{itemize}
+\item motility of mitochondrial membranes
+\end{enumerate}
+\end{itemize}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{./oxphos/figures/Slide15.png}
+\caption[ETC]{\label{fig:org558da3a}
+Pathogenesis of OxPhos Disorders}
+\end{figure}
+
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.9\textwidth]{./figures/mtDNA_disorders.png}
+\caption{\label{fig:orgaed98ee}
+mtDNA disorders}
+\end{figure}
+
+
+\begin{enumerate}
+\item Clinical Manifestations
+\label{sec:org9922f28}
+\begin{itemize}
+\item clinical diagnosis is extremely challenging
+\begin{itemize}
+\item can affect any organ system
+\item antenatal (IUGR, birth defects) \(\to\) elderly (myopathy)
+\end{itemize}
+
+\item clinical suspicion based on:
+\begin{enumerate}
+\item constellation of symptoms/signs consistent with a mitochondrial syndrome
+\item complex multi-system presentation involving two/more organ systems,
+best described by an underlying disorder of energy generation
+\item lactic acidosis, characteristic neuro-imaging, 3-methylglutaconic
+aciduria, ragged red fiber mypopathy
+\item pathogenic mutation in a known mitochondrial disease gene
+\end{enumerate}
+
+\item mitochondrial disease commonly presents with:
+\begin{enumerate}
+\item myopathy
+\item encephalopathy
+\item Leber’s hereditary optic neuropathy
+\item Pearson's Syndrome
+\item diabetes
+\end{enumerate}
+\end{itemize}
+
+\begin{table}[htbp]
+\caption{\label{tab:orge917e86}
+OxPhos Clinical Manifestations}
+\centering
+\begin{tabular}{ll}
+System & Manifestation\\
+\hline
+CNS & \textbf{myoclonus}\\
+ & \textbf{seizures}\\
+ & \textbf{ataxia}\\
+Skeletal muscle & \textbf{myopathy, hypotonia}\\
+ & \textbf{CPEO}\\
+ & myoglobinuria\\
+Marrow & sideroblastic anemia/pancytopenia\\
+Kidney & fanconi\\
+Endocrine & \textbf{diabetes}\\
+ & hypoparathyroidism,\\
+ & growth/multiple hormone deficiency\\
+Heart & cardiomyopathy\\
+ & conduction defects\\
+GI & pancreatic failure\\
+ & villous atrophy\\
+Ear & \textbf{sensorineural deafness}\\
+ & aminoglycoside deafness\\
+Systemic & \textbf{lactic acidosis}\\
+\end{tabular}
+\end{table}
+
+\begin{enumerate}
+\item Myopathies
+\label{sec:org62ee5aa}
+\begin{itemize}
+\item chronic progressive external ophthalmoplegia (CPEO)
+\begin{itemize}
+\item w/wo retinitis pigmentosa
+\item most common clinical manifestation
+\item muscle biopsy is diagnostic
+\end{itemize}
+\item Kearns-Sayre syndrome is a subtype of CPEO
+\begin{itemize}
+\item onset \textless{} 20
+\item pigmentary retinopathy
+\item cardiac conduction defect
+\item ataxia, \(\uparrow\) CSF protein
+\end{itemize}
+\item isolated limb myopathy
+\end{itemize}
+
+\item Encephalopathies
+\label{sec:orgef47803}
+\begin{itemize}
+\item encephalopathic features:
+\begin{itemize}
+\item dementia/ID, ataxia, seizures, myoclonus, deafness, dystonia
+\end{itemize}
+\item MELAS: myopathy, encephalopathy, lactic acidosis, stroke-like episodes
+\begin{itemize}
+\item most common mito encephalopathy
+\end{itemize}
+\item MERRF: myoclonic epilepsy w ragged red fibres
+\begin{itemize}
+\item ptosis (drooping eyelids), ataxia, deafness
+\end{itemize}
+\item Leigh Syndrome
+\begin{itemize}
+\item most frequent presentation of MD in childhood
+\item subacute necrotising encephalomyelopathy
+\item several biochemical defects including: PDH, OxPhos
+\item MRI - lesions affecting basal ganglia and/or brain stem
+\item \(\uparrow\) lactate blood and CSF
+\item hypo/er-ventilation, spasticity, dystonia, ataxia, tremor, optic atrophy
+\item cardiomyopathy, renal tubulopathy, GI disfunction
+\item \textgreater{} 75 genes(mt and nuclear)
+\item Saguenay-Lac-St-Jean type incidence 1/2000, gene prevelance 1/23
+\end{itemize}
+\end{itemize}
+\item Leber’s Hereditary Optic Neuropathy
+\label{sec:orgf705119}
+\begin{itemize}
+\item most common cause of blindness in otherwise healthy young men
+\item maternally inherited and manifests in late adolescence or early
+adulthood as bilateral sequential visual failure
+\item 90\% of patients are affected by age 40
+\end{itemize}
+
+\item Pearson's Syndrome
+\label{sec:orgdde1257}
+\begin{itemize}
+\item transfusion dependent sideroblastic anemia/pancytopenia
+\item exocrine pancreas failure
+\item progressive liver disease
+\item renal tubular disease
+\end{itemize}
+\end{enumerate}
+
+\item Clinical Presentation
+\label{sec:org9b946fd}
+\begin{enumerate}
+\item Neonatal and Infantile Presentation
+\label{sec:org2efa130}
+\begin{itemize}
+\item Congenital Lactic Acidosis
+\item Leigh Syndrome
+\item MEGDEL: 3-methylglutaconic aciduria, deafness, encephalopathy and Leigh-like disease
+\item Pearson's marrow-pancreas syndrome
+\item MDDS: mitochondrial DNA depletion syndrome
+\item Alper-Huttenlocher syndrome
+\item Reversible infantile respiratory chain deficiency
+\item Infantile onset Q\(_{\text{10}}\) biosynthetic defects
+\end{itemize}
+
+\item Childhood and Adolescent Presentation
+\label{sec:orgfffd5e7}
+\begin{itemize}
+\item Kearn-Sayre syndrome
+\item MELAS: myopathy, encephalopathy, lactic acidosis, stroke-like episodes
+\item MERRF: myoclonic epilepsy w ragged red fibres
+\item NARP: neuropathy, ataxia, retinitis pigmentosa
+\item LHON: Leber's Hereditary Optic Neuropathy
+\item MEMSA: myoclonic epilepsy, myopathy, sensory ataxia
+\item MNGIE: mitochondrial neurogastrointestinal encephalopathy
+\end{itemize}
+
+\item Adult Presentation
+\label{sec:orgec73b28}
+\begin{itemize}
+\item MIDD: maternally inherited diabetes and deafness
+\item PEO: Progressive External Opthalmoplegia
+\item SANDO: Sensory Ataxic Neuropathy, dysarthria and opthalmoparesis
+\end{itemize}
+\end{enumerate}
+
+\item Metabolic Derangement
+\label{sec:orgc5312eb}
+\begin{enumerate}
+\item OxPhos Deficiency and Anaerobic Glycolysis
+\label{sec:orga7eea45}
+\begin{itemize}
+\item insufficient ATP severely affects highly energy dependant tissues
+\begin{itemize}
+\item a complete loss of OxPhos is not observed in human disease
+\end{itemize}
+\item in the absence of OxPhos cells survive using ATP from anaerobic glycolysis
+\begin{itemize}
+\item 20x less efficient, generates lactate
+\item pyruvate \(\to\) alanine if glutamate is available
+\end{itemize}
+\ce{alanine + \alpha-ketoglutarate <=>[ALT] pyruvate + glutamate}
+\item lactate, pyruvate and alanine are the typical products of anaerobic glycolysis
+\end{itemize}
+
+\item Factors Affecting OxPhos System
+\label{sec:org956d6f6}
+\begin{itemize}
+\item \textasciitilde{} 90 subunits
+\begin{itemize}
+\item 13 subunits of Complexes I, III, IV and V encoded by mtDNA
+\end{itemize}
+\item mitochondrial replication, transcription and translation
+\begin{itemize}
+\item require \textgreater{} 200 proteins, rRNAs and tRNAs
+\end{itemize}
+\item cofactors: coenzyme Q\(_{\text{10}}\), iron-sulfur clusters, heme, copper
+\begin{itemize}
+\item require synthesis and/or transport to OxPhos system
+\end{itemize}
+\item cardiolipin required for cristae formation
+\item mitochondrial function
+\begin{itemize}
+\item protein import, turnover
+\item fission, fusion
+\end{itemize}
+\item toxic metabolites
+\item \textgreater{} 1500 proteins in the human mitochondrial proteome
+\begin{itemize}
+\item other additional factors - lipids, cofactors
+\item up to 10\% of human proteome may have role in maintaining mitochondrial function
+\end{itemize}
+
+\item genetic defects with impaired OxPhos phenotype 
+\begin{itemize}
+\item OxPhos subunit
+\item assembly Factor
+\item mtDNA replication
+\item mtDNA transcription
+\item cofactor
+\item mitochondrial homeostasis
+\begin{itemize}
+\item fission and fusion
+\end{itemize}
+\end{itemize}
+\end{itemize}
+\end{enumerate}
+\item Investigations
+\label{sec:org5dfc953}
+\begin{enumerate}
+\item Biochemistry
+\label{sec:org151318c}
+\begin{itemize}
+\item blood lactate, CSF lactate
+\item L/P \(\uparrow\) at rest, \(\Uparrow\) after excercise
+\item renal tubular dysfunction: urine anion gap, pH, serum K
+\item plasma amino acids:
+\begin{itemize}
+\item alanine \(\propto\) pyruvate
+\item \uparrown ala/lys \textgreater{} 3:1
+\item \(\uparrow\) gly in lipoic acid biosynthesis defects
+\item \(\downarrow\) cit and arg in Leigh, NARP, MELAS and Pearson
+\end{itemize}
+\item urine organic acids
+\begin{itemize}
+\item lactate, pyruvate, TCA intermediates
+\item 3-methylglutaconic acid in Barth, Sengers, MEGDEL, ATP synthase deficiency
+\item ethylmalonic
+\item MMA in succinyl-CoA ligase deficiency
+\end{itemize}
+\item acylcarnitines
+\begin{itemize}
+\item flavin cofactor metabolism
+\end{itemize}
+\item purine and pyrimidines (plasma or urine)
+\begin{itemize}
+\item MNGIE \(\uparrow\) thymidine and deoxyuridine
+\end{itemize}
+\item FGF-21, GDF15 and creatinine \(\propto\) mito disfunction in myopathy
+\end{itemize}
+
+\item Imaging
+\label{sec:org2eb61a5}
+\begin{itemize}
+\item cranial CT shows cerebral and cerebellar atrophy in many encephalopathic patients
+\begin{itemize}
+\item basal ganglia calcification may be seen in MELAS
+\end{itemize}
+\item MRI in MELAS-associated stroke reveals increased T2 weighted signals in the grey and white matter
+\item symmetrical changes in the basal ganglia and brainstem observed in Leigh syndrome
+\end{itemize}
+
+\item Histology
+\label{sec:orgdf36c74}
+\begin{itemize}
+\item muscle biopsy is diagnostic
+\begin{itemize}
+\item mitochondrial myopathy due to mtDNA mutations and LHON may have normal biopsies
+\end{itemize}
+\item ragged red fibres on Gomori trichrome staining, due to mitochondrial proliferation
+\item fibres stain strongly for succinate dehydrogenase
+\item fibres often negative for COX (complex IV) in CPEO, KSS, or MERRF but positive in MELAS
+\item Leigh syndrome patients may have no ragged red fibres and  COX-negative fibres only
+\end{itemize}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.5\textwidth]{./oxphos_disorders/figures/Ragged_red_fibers_in_MELAS.jpg}
+\caption[rrf]{\label{fig:org4bc4e57}
+Ragged red fibers - Gomori stain}
+\end{figure}
+
+\item Molecular
+\label{sec:org0e67da7}
+\begin{itemize}
+\item no strict relation between phenotype and genotype
+\item mtDNA tRNA mutations are most common of the single base change abnormalities
+\begin{itemize}
+\item A3243G in the tRNA\(^{\text{Leu(UUR)}}\) gene is most frequently found in MELAS
+\item G8344A in tRNA\(^{\text{Lys}}\) in MERRF
+\item many other tRNA mutations have been associated with other clinical phenotypes
+\end{itemize}
+\end{itemize}
+\end{enumerate}
+\end{enumerate}
+\section{Ketogenesis and Ketolysis}
+\label{sec:org7cbc454}
+\subsection{Introduction}
+\label{sec:org16792c3}
+\begin{itemize}
+\item during fasting, ketone bodies (KB) are an important fuel for many
+tissues, including cardiac and skeletal muscle
+\item particularly important for the brain, which cannot oxidise fatty acids
+\item principal KB, acetoacetate and 3-hydroxybutyrate, are
+maintained in equilibrium by 3-hydroxybutyrate dehydrogenase
+
+\ce{acetoacetate + NADH <=>[HBDH] \betaHB + NAD+}
+
+\item acetone is formed from acetoacetate non-enzymatically and eliminated in breath
+\item formed in liver mitochondria from fatty acids and certain amino acids(e.g. leucine)
+\item cross cell membranes by diffusion or facilitated by monocarboxylate transporter 1 (MCT1)
+\begin{itemize}
+\item MCT1 transport is important during catabolic stress, \(\uparrow\) flux
+\end{itemize}
+\item converted to acetyl-CoA in the mitochondria of extrahepatic tissues for use as fuel
+\item one ketolytic enzyme, mitochondrial acetoacetyl-CoA thiolase (AKA
+\(\beta\)-ketothiolase or T2), is also involved in isoleucine catabolism
+\end{itemize}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.9\textwidth]{./ketones/figures/ketones.png}
+\caption{\label{fig:orgf645226}
+Ketogenesis and Ketolysis}
+\end{figure}
+
+\begin{itemize}
+\item disorders of ketone body metabolism present either in the first few
+days of life or later in childhood, during an infection or some
+other metabolic stress
+\item the primary aim of treatment is to prevent decompensation
+\item fasting is avoided and a high glucose intake is maintained at times
+of metabolic stress, such as infections
+\end{itemize}
+
+\subsection{Ketogenesis Defects}
+\label{sec:org3496558}
+\begin{itemize}
+\item there are two defects of ketogenesis:
+\begin{enumerate}
+\item 3-hydroxy-3-methylglutaryl (HMG)-CoA lyase deficiency
+\item HMG-CoA synthase deficiency
+\end{enumerate}
+\end{itemize}
+
+\begin{enumerate}
+\item Clinical Presentation
+\label{sec:orgba821e7}
+\begin{enumerate}
+\item Mitochondrial 3-Hydroxy-3-Methylglutaryl-CoA (HMG-CoA) Synthase Deficiency
+\label{sec:orgc1d8924}
+\begin{itemize}
+\item presents with hypoglycaemia
+\begin{itemize}
+\item often accompanied by coma and metabolic acidosis
+\item precipitated by infections with vomiting or poor feeding in early
+childhood (5 months to 6 years of age)
+\end{itemize}
+\item usually hepatomegaly, which resolves
+\item hyperammonaemia is rare, (surprisingly) ketonuria may be present
+\item most patients recover with intravenous glucose
+\end{itemize}
+
+\item HMG-CoA Lyase Deficiency
+\label{sec:orgb00446a}
+\begin{itemize}
+\item presents with hypoglycaemia, metabolic acidosis, vomiting and a
+reduced level of consciousness
+\item 30\% patients, the onset is within 5 days of birth, after a short symptom-free period
+\item \textasciitilde{}70\% patients, symptoms are provoked by an infection in the first year
+\item few patients present later, occasionally as adults
+\item KB levels are inappropriately low blood lactate concentrations
+may be markedly elevated, particularly in neonatal onset cases
+\item often hyperammonaemia, hepatomegaly and abnormal liver function tests and
+may develop pancreatitis or cardiomyopathy
+\item neurological sequelae included:
+\begin{itemize}
+\item epilepsy, intellectual handicap, hemiplegia or cerebral visual loss
+\item magnetic resonance imaging (MRI) shows diffuse mild signal changes
+in the cerebral white matter on T 2 -weighted images with multiple
+foci of more severe signal abnormality
+\end{itemize}
+\item myelination may be impaired because KB are a substrate for the
+synthesis of myelin cholesterol
+\end{itemize}
+\end{enumerate}
+
+\item Metabolic Derangement
+\label{sec:org9c360d9}
+\begin{itemize}
+\item KB are synthesised in hepatic mitochondria, primarily using
+acetyl-CoA derived from fatty acid oxidation
+\item HMG-CoA synthase catalyses the condensation of acetoacetyl-CoA and
+acetyl-CoA to form HMG-CoA, which is cleaved by HMG-CoA lyase to
+release acetyl-CoA and acetoacetate
+\item HMG-CoA can also be derived from leucine
+\item \textbf{HMG-CoA synthase and HMG-CoA lyase deficiencies both impair}
+\textbf{ketogenesis but HMG-CoA lyase deficiency also causes the}
+\textbf{accumulation of intermediates of the leucine catabolic pathway}
+\item during fasting, the lack of KB leads to excessive glucose
+consumption and hypoglycaemia
+\end{itemize}
+
+\item Genetics
+\label{sec:orgdfdf01d}
+\begin{itemize}
+\item HMG-CoA synthase (HMGCS2) and HMG-CoA lyase (HMGCL) deficiencies are
+AR
+\end{itemize}
+
+\item Diagnostic Tests
+\label{sec:org46f69f4}
+\begin{itemize}
+\item critical sample is important
+\item if the plasma free fatty acid concentration is raised with an
+inappropriately small rise in total KB it implies a defect of
+ketogenesis or fatty acid oxidation 
+\begin{itemize}
+\item plasma FFA/total KB >2.5
+\end{itemize}
+\end{itemize}
+
+\begin{enumerate}
+\item HMG-CoA Synthase Deficiency
+\label{sec:org1f4eb15}
+\begin{itemize}
+\item during decompensation, urine contains saturated, unsaturated and
+3-hydroxy-dicarboxylic acids, 5-hydroxyhexanoic acid and other
+metabolites, of which 4-hydroxy-6-methyl-2-pyrone is the most
+specific
+\item plasma acylcarnitines are normal when patients are well
+\begin{itemize}
+\item raised during illness
+\end{itemize}
+\item diagnosis is confirmed by mutation analysis
+\end{itemize}
+
+\item HMG-CoA Lyase Deficiency
+\label{sec:org7841f32}
+\begin{itemize}
+\item even when healthy, patients excrete increased quantities of
+3-hydroxy-3-methylglutaric, 3-hydroxyisovaleric, 3-methyl-glutaconic
+and 3-methylglutaric acids
+\item 3-methyl-crotonylglycine may also be present
+\item blood acylcarnitine analysis shows raised
+3-hydroxyisovalerylcarnitine (C5OH)
+\item diagnosis is confirmed by mutation analysis or measuring HMG-CoA
+lyase activity in leukocytes or cultured fibroblasts
+\end{itemize}
+\end{enumerate}
+
+\item Treatment
+\label{sec:org82d795b}
+\begin{itemize}
+\item avoid fasting and maintain  high carbohydrate intake during any
+metabolic stress, such as infections
+\item IV glucose is required if no oral intake or vomiting
+\item IV sodium bicarbonate may be needed if there is severe acidosis in
+HMG-CoA lyase deficiency
+\item moderate protein restriction is usually recommended in HMG-CoA
+lyase deficiency because of its role in leucine catabolism
+\item HMG-CoA synthase deficiency has a good prognosis
+\item HMG-CoA lyase deficiency have more encephalopathy as children or adults
+\end{itemize}
+\end{enumerate}
+
+\subsection{Ketolysis Defects}
+\label{sec:org2acdcff}
+\begin{itemize}
+\item ketone body utilisation is catalysed by:
+\begin{enumerate}
+\item succinyl-CoA:3-oxoacid CoA transferase (SCOT)
+\item mitochondrial acetoacetyl-CoA thiolase (T2)
+\end{enumerate}
+\item deficiencies of SCOT, T2 or MCT1 present with episodes of ketoacidosis
+\end{itemize}
+
+\begin{enumerate}
+\item Clinical Presentation
+\label{sec:org15fbb06}
+\begin{itemize}
+\item patients present with episodes of severe ketoacidosis in early childhood
+\item few patients have seizures or cardiomegaly at the time of presentation
+\item patients are healthy between episodes, with normal blood pH
+\item decompensation triggered by fasting or an infection with poor
+feeding and vomiting
+\item blood glucose, lactate and ammonia concentrations are usually normal
+\end{itemize}
+
+\item Metabolic Derangement
+\label{sec:org361d3a2}
+\begin{itemize}
+\item KB utilisation occurs in extrahepatic mitochondria, starting with
+the transfer of coenzyme A from succinyl-CoA to acetoacetate,
+catalysed by SCOT
+\item this forms acetoacetyl-CoA, which is converted to acetyl-CoA by T2
+\item second reaction can also be catalysed to some extent by
+medium-chain 3-ketoacyl-CoA thiolase (T1)
+\begin{itemize}
+\item may explain why T2 deficient patients do not have permanent
+ketosis
+\end{itemize}
+\item SCOT is not expressed in liver and has no role other than
+ketolysis
+\item T2 is expressed in liver, involved in ketogenesis and ketolysis
+\item patients with T2 deficiency present with ketoacidosis
+\begin{itemize}
+\item T2 more crucial in ketolysis than in ketogenesis
+\end{itemize}
+\item T2 also cleaves 2-methylacetoacetyl-CoA in the isoleucine
+degradation pathway
+\begin{itemize}
+\item T2 deficiency \(\to\) \(\uparrow\) isoleucine-derived acyl-CoA esters
+\item these may be responsible for neurodevelopmental abnormalities
+\end{itemize}
+\item ketoacidosis in patients with MCT1 deficiency \(\to\) transporters are
+facilitate rapid entry of KB at times of stress
+\item MCT1 transporters are important for lactate transport
+\begin{itemize}
+\item expressed in the brain, particularly on oligodendroglia
+\end{itemize}
+\item learning difficulties in MCT1 deficient patients may be due to the
+absence of MCT1 in the brain
+\end{itemize}
+
+\item Genetics
+\label{sec:org2a78577}
+\begin{itemize}
+\item AR - SCOT (OXCT1), T2 (ACAT1) and MCT1 (SLC16A1)
+\item heterozygous SLC16A1 and OXCT1 mutations have, however, been found
+in several patients investigated for ketoacidosis, suggesting that
+they can cause problems if subjects are exposed to sufficient stress
+
+\item heterozygous SLC16A1 mutations can also cause hyperinsulinism
+\begin{itemize}
+\item these patients have promoter mutations that prevent the normal
+silencing of MCT1 expression in pancreatic \(\beta\)-cells
+\end{itemize}
+\end{itemize}
+
+\item Diagnostic Tests
+\label{sec:org88be6dd}
+\begin{enumerate}
+\item SCOT \& MCT1 Deficiencies
+\label{sec:orgb1a5c4b}
+\begin{itemize}
+\item should be considered in a number of patients because ketoacidosis is relatively common
+\item a plasma free fatty acid:
+\begin{itemize}
+\item plasma FFA/total KB <0.3 suggests a defect of ketolysis
+\end{itemize}
+\item urine organic acids show \(\uparrow\) KB but no specific abnormalities
+\item patients with severe SCOT deficiency have persistent ketonuria in
+the fed state, but patients with a mild mutation do not
+\item diagnoses are now usually made by mutation analysis
+\end{itemize}
+\item T2 Deficiency
+\label{sec:org5086570}
+\begin{itemize}
+\item \(\uparrow\) urine 2-methylacetoacetate, 2-methyl-3-hydroxybutyric acid
+and tiglylglycine
+\begin{itemize}
+\item 2-methylacetoacetate is unstable
+\end{itemize}
+\item patient with mild mutations may only show abnormalities when they
+are stressed (e.g isoleucine load)
+\item 2-Methyl-3-hydroxybutyryl-CoA dehydrogenase deficiency causes a
+similar pattern of organic acids but 2-methyacetoacetate is not excreted
+\item diagnosis must be confirmed by mutation analysis or enzyme assay in fibroblasts
+\begin{itemize}
+\item Assays are complicated by the presence of other thiolases that act
+on acetoacetyl-CoA
+\end{itemize}
+\item \(\uparrow\) 2-methyl-3-hydroxybutyrylcarnitine and
+tiglylcarnitine on plasma acylcarnitine
+\begin{itemize}
+\item may be normal with mild mutations
+\end{itemize}
+\end{itemize}
+\end{enumerate}
+
+\item Treatment
+\label{sec:org580993f}
+\begin{itemize}
+\item same as ketogenesis defects above
+\item T2 involved in isoleucine met, \(\therefore\) \(\downarrow\) protein
+\end{itemize}
+\end{enumerate}
+\section{Creatine Deficiency}
+\label{sec:org20f0855}
+\subsection{Introduction}
+\label{sec:org541f4df}
+\begin{itemize}
+\item creatine is synthesized by two enzymatic reactions:
+\begin{enumerate}
+\item arginine:glycine amidinotransferase (AGAT) catalyses the
+transfer of an amidino group from arginine to glycine, yielding
+guanidinoacetate
+\item guanidinoacetate methyltransferase (GAMT) catalyses the
+methylation of the amidino group in the guanidino-acetate
+molecule, yielding creatine
+\end{enumerate}
+
+\item creatine synthesis occurs mainly, but not exclusively, in the kidney
+and in the pancreas, which have high AGAT activity, and in the
+liver, which has high GAMT activity
+
+\item from these organs of synthesis, creatine is transported via the
+bloodstream to the organs of utilization, mainly muscle and brain
+\begin{itemize}
+\item taken up by a sodium and chloride dependent creatine transporter
+(CRTR)
+\end{itemize}
+
+\item most brain creatine is transported from the blood via CRTR expressed
+at blood-brain barrier
+\item a minor proportion is synthesized in the brain
+
+\item part of intracellular creatine is reversibly converted into the
+high-energy compound creatine-phosphate, by creatine kinase (CK)
+
+\item three cytosolic isoforms of CK (brain type BB-CK, muscle type MM-CK
+and the MB-CK heterodimer), and two mitochondrial isoforms exist
+
+\item creatine and creatine-phosphate are non-enzymatically converted into
+creatinine, with a constant daily turnover of 1.5\% of body
+creatine
+
+\item creatinine is mainly excreted in urine and its daily excretion is
+directly proportional to total body creatine, and in particular to
+muscle mass
+\end{itemize}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.9\textwidth]{./creatine/figures/creatine.png}
+\caption{\label{fig:orge7d0de5}
+Metabolic pathway of creatine/creatine phosphate}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.9\textwidth]{./creatine/figures/Slide16.png}
+\caption{\label{fig:orgb2c022d}
+Metabolic pathway of creatine/creatine phosphate}
+\end{figure}
+
+\subsection{Creatine Deficiency Syndromes}
+\label{sec:orgf7e957e}
+\begin{itemize}
+\item creatine deficiency syndromes (CDS) are a group of inborn errors of:
+\item creatine synthesis
+\begin{itemize}
+\item arginine:glycine amidinotransferase (AGAT) deficiency
+\item guanidinoacetate methyltransferase (GAMT) deficiency
+\end{itemize}
+\item creatine transport
+\begin{itemize}
+\item X-linked creatine transporter CRTR deficiency
+\end{itemize}
+\item global developmental delay/ intellectual disability along with
+various neurological manifestations
+
+\item secondary changes in creatine metabolism have been described in
+disorders affecting arginine and ornithine metabolism including:
+\begin{itemize}
+\item ornithine aminotransferase (OAT) deficiency
+\item urea cycle defects
+\item hyperammonemia, hyperornithinemia, homocitrullinuria (HHH) syndrome
+\item \(\Delta\)1-pyrroline-5-carboxylate synthetase (P5CS) deficiency
+\item methylcobalamin synthesis defects
+\item mitochondrial disease
+\end{itemize}
+\end{itemize}
+
+\begin{enumerate}
+\item Clinical Presentation
+\label{sec:orgeab317d}
+\begin{itemize}
+\item global developmental delay (GDD) /intellectual disability (ID) with
+prominent speech delay
+\item GDD or ID ranges from mild to severe and is characteristically
+associated with challenging (hyperactive, autistic) behaviours
+\item distinguishing symptoms:
+\begin{description}
+\item[{AGAT}] myopathy
+\item[{GAMT}] movement disorders and basal ganglia changes are
+additional features
+\item[{GAMT \& CRTR}] epilepsy
+\end{description}
+\end{itemize}
+
+\item Metabolic Derangement
+\label{sec:org7b862ff}
+\begin{itemize}
+\item cerebral creatine deficiency is caused by reduced synthesis of
+creatine in AGAT and GAMT deficiency or by impaired uptake into the
+brain in CRTR deficiency
+\item low intracellular creatine and creatine-phosphate result in reduced
+production of creatinine
+\begin{itemize}
+\item \(\therefore\) \low urine and plasma creatinine
+\end{itemize}
+\item guanidinoacetate is neurotoxic \(\to\) CNS
+\begin{itemize}
+\item \(\downarrow\) AGAT deficiency
+\item \(\uparrow\) GAMT deficiency
+\end{itemize}
+\end{itemize}
+
+\item Genetics
+\label{sec:org05bc711}
+\begin{itemize}
+\item AR, AGAT (GATM) and GAMT (GAMT)
+\item X-linked, CRTC (SLC6A8)
+\end{itemize}
+\item Diagnostic Tests
+\label{sec:org6fa30d4}
+\begin{itemize}
+\item MRS to screen for cerebral creatine deficiency
+\item urine guanidinoacetate, creatine and creatinine is an important
+screening test for all CDS
+\begin{itemize}
+\item \(\downarrow\) AGAT, \(\le\) 10\% of LLN
+\item \(\uparrow\) GAMT , 10x normal
+\end{itemize}
+\item CSF guanidinoacetate
+\begin{itemize}
+\item \(\uparrow\) GAMT, 100x normal
+\end{itemize}
+\item \(\uparrow\) urine creatinine/creatine in CRTR
+\end{itemize}
+
+
+\begin{table}[htbp]
+\caption{\label{tab:orgaaeca14}
+Urine findings}
+\centering
+\begin{tabular}{lll}
+ & GAA & creatine/creatinine\\
+\hline
+AGAT & \(\downarrow\) & n/\(\downarrow\)\\
+GAMT & \(\uparrow\) & \(\downarrow\)\\
+CRTR & n & \(\uparrow\)\\
+\end{tabular}
+\end{table}
+
+\item Treatment
+\label{sec:orgee76646}
+\begin{itemize}
+\item normal neurodevelopmental outcome has been reported in early treated
+patients with creatine synthesis defects
+\item AGAT and GAMT treated with creatine monohydrate
+\item in GAMT deficiency, reduction of guanidinoacetate is achieved by
+ornithine supplementation \textpm{} dietary arginine restriction
+\item CRTC no treatment
+\item in CRTR deficiency, creatine, arginine and glycine supplementation
+does not significantly improve outcome, although partial clinical
+improvement has been reported in single patients
+\end{itemize}
+\end{enumerate}
+\end{document}

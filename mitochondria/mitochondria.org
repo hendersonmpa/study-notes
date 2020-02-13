@@ -82,7 +82,7 @@
 * Tricarboxylic Acid Cycle
 #+INCLUDE: "./tca/tca.org" :lines "4-"
 * Oxidative Phosphorylation
-#+INCLUDE: "./etc/etc.org" :lines "4-"
+#+INCLUDE: "./oxphos/oxphos.org" :lines "4-"
 * Ketogenesis and Ketolysis 
 #+INCLUDE: "./ketones/ketones.org" :lines "4-"
 * Creatine Deficiency 
