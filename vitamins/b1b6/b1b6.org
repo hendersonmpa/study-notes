@@ -60,6 +60,16 @@
   - PNPO is expressed in various cell types including neurons
 - PLP is one of the most abundant cofactors and participates in over
   140 reactions in amino acid and neurotransmitter metabolism
+- functions include:
+  - neurotransitter biosynthesis
+    - serotonin, dopamine, epinephrine, norepinephrine, GABA
+  - amino acids metabolism
+    - proline, transamination (i.e. alanine), serine, tryptophan
+  - glucose metabolism
+    - transamination of glycogenic amino acids
+    - glycogenolysis - glycogen phosphorylase
+  - lipid metabolism
+  - heme synthesis - ALA synthase
 - systemic vitamin B_6 deficiency causes seizures, failure to thrive
   and anemia
 - nutritional vitamin B_6 deficiency is rarely seen
@@ -95,6 +105,7 @@
     - good response to pyridoxine or PLP
 
 ** Antiquitin deficiency
+- AKA: Pyridoxine responsiove seizures
 - presents in neonates with myoclonic and tonic seizures or
   status epilepticus
 - onset up to 3 years observed
@@ -126,8 +137,10 @@
 - \uparrow inactivating compound P5C due to deficiency of pyrroline-5-carboxylate dehydrogenase
 - \Uparrow plasma proline
 - \uparrow urine P5C
+- treated with pyridoxine
 
 ** PNPO deficiency
+- AKA: Pyridoxal phosphate responsiove seizures
 - clinically indistinguishable from antiquitin deficiency
 - severe (systemic) PLP deficiency and impaired function of PLP
   dependent enzymes

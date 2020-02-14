@@ -12,10 +12,24 @@
 - this process, which takes place in mitochondria, is the major source
   of ATP in aerobic organisms
 
-** Chemiosmotic Coupling Hypothesis
- - the ETC and OxPhos are coupled by a proton gradient across the IMM
- - the efflux of protons from the mitochondrial matrix creates an electrochemical gradient
-   - used by the F_{0}F_{1} ATP synthase complex to make ATP via oxidative phosphorylation
+- ~ 90 subunits
+- 13 subunits of Complexes I, III, IV and V encoded by mtDNA (Table [[tab:subunits]])
+- mitochondrial replication, transcription and translation
+- require \gt 200 proteins, rRNAs and tRNAs
+- cofactors: coenzyme Q_{10}, iron-sulfur clusters, heme, copper
+  - require synthesis and/or transport to OxPhos system
+- cardiolipin required for cristae formation
+- mitochondrial function
+  - protein import, turnover
+  - fission, fusion
+- \gt 1500 proteins in the human mitochondrial proteome
+  - other additional factors - lipids, cofactors
+  - up to 10% of human proteome may have role in maintaining mitochondrial function
+
+
+- the ETC and OxPhos are coupled by a proton gradient across the IMM
+  - the efflux of protons from the mitochondrial matrix creates an electrochemical gradient
+    - used by the F_{0}F_{1} ATP synthase complex to make ATP via oxidative phosphorylation
 - energy from transfer of electrons down the ETC is used to pump
   protons from the mitochondrial matrix into the intermembrane space
   - creates an electrochemical proton gradient (\DeltapH) across the IMM
@@ -293,18 +307,15 @@
  - Administering oligomycin to an individual can result in very high
    levels of lactate accumulating in the blood and urine
 
-* Disorders 
+* Clinical Presentation
 - molecular pathogenesis of OxPhos disorders (Figure [[fig:oxphopath]])
   1) OxPhos complexes or assembly
   2) mtDNA maintainance
   3) mitochondrial translation
   4) coenzyme Q biosynthesis
   5) mitochondrial protein import
-     - deafness-dystonia syndrome
   6) mitochondrial solute import
-     - phosphate carrier deficiency
   7) mitochondrial membrane lipids
-     - Barth syndrome
   8) motility of mitochondrial membranes
 
 #+CAPTION[ETC]: Pathogenesis of OxPhos Disorders
@@ -319,25 +330,17 @@
 [[file:./figures/mtDNA_disorders.png]]
 
 
-** Clinical Manifestations
  - clinical diagnosis is extremely challenging
    - can affect any organ system
    - antenatal (IUGR, birth defects) \to elderly (myopathy)
 
  - clinical suspicion based on:
-   1) constellation of symptoms/signs consistent with a mitochondrial syndrome
+   1) constellation of symptoms/signs consistent with a mitochondrial syndrome (Table [[oxpclin]])
    2) complex multi-system presentation involving two/more organ systems,
       best described by an underlying disorder of energy generation
    3) lactic acidosis, characteristic neuro-imaging, 3-methylglutaconic
       aciduria, ragged red fiber mypopathy
    4) pathogenic mutation in a known mitochondrial disease gene
-
- - mitochondrial disease commonly presents with:
-   1) myopathy
-   2) encephalopathy
-   3) Leber’s hereditary optic neuropathy
-   4) Pearson's Syndrome
-   5) diabetes
 
  #+CAPTION[]:OxPhos Clinical Manifestations
  #+NAME: tab:oxpclin
@@ -362,149 +365,163 @@
  |                 | aminoglycoside deafness            |
  | Systemic        | *lactic acidosis*                  |
 
-*** Myopathies
- - chronic progressive external ophthalmoplegia (CPEO)
-   - w/wo retinitis pigmentosa
-   - most common clinical manifestation
-   - muscle biopsy is diagnostic
- - Kearns-Sayre syndrome is a subtype of CPEO
-   - onset \lt 20
-   - pigmentary retinopathy
-   - cardiac conduction defect
-   - ataxia, \uparrow CSF protein
- - isolated limb myopathy
 
-*** Encephalopathies 
- - encephalopathic features:
-   - dementia/ID, ataxia, seizures, myoclonus, deafness, dystonia
- - MELAS: myopathy, encephalopathy, lactic acidosis, stroke-like episodes
-   - most common mito encephalopathy
- - MERRF: myoclonic epilepsy w ragged red fibres
-   - ptosis (drooping eyelids), ataxia, deafness
- - Leigh Syndrome
-   - most frequent presentation of MD in childhood
-   - subacute necrotising encephalomyelopathy
-   - several biochemical defects including: PDH, OxPhos
-   - MRI - lesions affecting basal ganglia and/or brain stem
-   - \uparrow lactate blood and CSF
-   - hypo/er-ventilation, spasticity, dystonia, ataxia, tremor, optic atrophy
-   - cardiomyopathy, renal tubulopathy, GI disfunction
-   - \gt 75 genes(mt and nuclear)
-   - Saguenay-Lac-St-Jean type incidence 1/2000, gene prevelance 1/23
-*** Leber’s Hereditary Optic Neuropathy
- - most common cause of blindness in otherwise healthy young men
- - maternally inherited and manifests in late adolescence or early
-   adulthood as bilateral sequential visual failure
- - 90% of patients are affected by age 40
-
-*** Pearson's Syndrome
+*** Neonatal and Infantile Presentation
+**** Barth
+- cardiomyopathy, myopathy
+  - XL :: TAZ
+- Tafazzin catalyzes the remodeling of the acyl chains of immature
+  cardiolipin to a mature, predominantly tetralinoleylcardiolipin
+**** Leigh Syndrome
+- AKA:subacute necrotising enchpalomyelopathy
+- most frequent presentation of MD in childhood
+- GDD, growth retardation
+- hypo/er-ventilation, spasticity, dystonia, ataxia, tremor, optic atrophy
+- cardiomyopathy, renal tubulopathy, GI disfunction
+- \gt 75 genes(mt and nuclear)
+  - mtDNA :: MT-ATP6 and other
+  - AR :: SURF1, SDHA, COX assemmbly, CI
+  - XL :: PDHA1
+- Saguenay-Lac-St-Jean type incidence 1/2000, gene prevelance 1/23
+- several biochemical defects including: PDH, OxPhos
+- \uparrow lactate blood and CSF
+**** MEGDEL: 3-Methylglutaconic aciduria, Deafness, Encephalopathy and Leigh-like Disease
+- AR :: SERAC1
+- phosphatidylglycerol remodeling protein found at the interface of
+  mitochondria and endoplasmic reticula
+  - mediates phospholipid exchange
+**** Pearson's marrow-pancreas syndrome
  - transfusion dependent sideroblastic anemia/pancytopenia
  - exocrine pancreas failure
  - progressive liver disease
  - renal tubular disease
-
-** Clinical Presentation
-*** Neonatal and Infantile Presentation
- - Congenital Lactic Acidosis
- - Leigh Syndrome
- - MEGDEL: 3-methylglutaconic aciduria, deafness, encephalopathy and Leigh-like disease
- - Pearson's marrow-pancreas syndrome
- - MDDS: mitochondrial DNA depletion syndrome
- - Alper-Huttenlocher syndrome
- - Reversible infantile respiratory chain deficiency
- - Infantile onset Q_{10} biosynthetic defects
+  - mtDNA :: large del/dup sporadic
+**** MDDS: mitochondrial DNA depletion syndrome
+- hepatocerebral disease
+- progressive myopathy
+  - AR :: POLG, DGUOK, Twinkle, SUCLA2, TK
+**** Alpers syndrome
+- progressive neuronal degradation
+- seizures
+  - AR :: POLG
+**** Reversible infantile respiratory chain deficiency
+**** Infantile onset Q_{10} biosynthetic defects
 
 *** Childhood and Adolescent Presentation
- - Kearn-Sayre syndrome
- - MELAS: myopathy, encephalopathy, lactic acidosis, stroke-like episodes
- - MERRF: myoclonic epilepsy w ragged red fibres
- - NARP: neuropathy, ataxia, retinitis pigmentosa
- - LHON: Leber's Hereditary Optic Neuropathy
- - MEMSA: myoclonic epilepsy, myopathy, sensory ataxia
+**** Kearns-Sayre Syndrome 
+- subtype of CPEO
+- onset \lt 20
+- pigmentary retinopathy
+- cardiac conduction defect
+- ataxia, \uparrow CSF protein
+- isolated limb myopathy
+  - mtDNA :: deletions \pm duplications
+  - AR :: RRM2B
+**** MELAS: Myopathy, Encephalopathy, Lactic Acidosis, Stroke-like Episodes
+- most common mito encephalopathy
+- RRF, PEO
+  - mtDNA :: 80%
+  - AR :: POLG
+**** MERRF: myoclonic epilepsy w ragged red fibres
+- ptosis (drooping eyelids), ataxia, deafness
+- mtDNA :: MT-TK, others
+**** NARP: neuropathy, ataxia, retinitis pigmentosa
+- mtDNA :: MT-ATP6
+**** LHON: Leber’s Hereditary Optic Neuropathy
+ - most common cause of blindness in otherwise healthy young men
+   - males\gtfemales 4:1
+ - maternally inherited and manifests in late adolescence or early
+   adulthood as bilateral sequential visual failure
+ - 90% of patients are affected by age 40
+ - mtDNA :: MT-ND1,MT-ND4, MT-ND6
+**** MNGIE: Mitochondrial Neuro-Gastro-Intestinal Encephalopathy
+- demyelinating neuropathy
+- leukoencephalopathy
+  - AR :: TYMP
+- \uparrow plasma & urine thymidine and deoxyuridine
+**** MEMSA: myoclonic epilepsy, myopathy, sensory ataxia
  - MNGIE: mitochondrial neurogastrointestinal encephalopathy
 
 *** Adult Presentation
- - MIDD: maternally inherited diabetes and deafness
- - PEO: Progressive External Opthalmoplegia
- - SANDO: Sensory Ataxic Neuropathy, dysarthria and opthalmoparesis
+**** MIDD: maternally inherited diabetes and deafness
+- mtDNA :: MT-TL1
+**** PEO: Progressive External Ophthalmoplegia 
+- ptosis
+- mtDNA :: deletions \pm duplications
+- AR :: POLG, ANT1, Twinkle
+- mtDNA in muscle biopsy is diagnostic
+**** SANDO: Sensory Ataxic Neuropathy, dysarthria and opthalmoparesis
+- AR :: POLG
+* Metabolic Derangement
+- insufficient ATP severely affects highly energy dependant tissues
+  - a complete loss of OxPhos is not observed in human disease 
+- in the absence of OxPhos cells survive using ATP from anaerobic glycolysis
+  - 20x less efficient, generates lactate
+  - pyruvate \to alanine if glutamate is available
+  \ce{alanine + \alpha-ketoglutarate <=>[ALT] pyruvate + glutamate}
+- lactate, pyruvate and alanine are the typical products of anaerobic glycolysis
 
-** Metabolic Derangement
-*** OxPhos Deficiency and Anaerobic Glycolysis 
- - insufficient ATP severely affects highly energy dependant tissues
-   - a complete loss of OxPhos is not observed in human disease 
- - in the absence of OxPhos cells survive using ATP from anaerobic glycolysis
-   - 20x less efficient, generates lactate
-   - pyruvate \to alanine if glutamate is available
-   \ce{alanine + \alpha-ketoglutarate <=>[ALT] pyruvate + glutamate}
- - lactate, pyruvate and alanine are the typical products of anaerobic glycolysis
+* Diagnostic Tests
+** Biochemistry
+- none of the following are specific for oxphos disorders    
+- blood lactate, CSF lactate
+- L/P \uparrow at rest, \Uparrow after exercise
+- renal tubular dysfunction: urine anion gap, pH, serum K
+*** plasma amino acids:
+ - alanine \propto pyruvate
+   - \uparrow ala \gt 450 uM
+   - \uparrow ala/lys \gt 3:1
+   - \uparrow ala/(phe + tyr) \gt 4:1
+ - \uparrow gly in lipoic acid biosynthesis defects
+ - \uparrow pro due to \downarrow proline oxidase activity
+ - \downarrow cit and arg in Leigh, NARP, MELAS and Pearson
+*** urine amino acids:
+ - aminoaciduria in renal Fanconi
+   - mtDNA deletions
+*** urine organic acids:
+ - lactate, pyruvate, TCA intermediates
+   - renal immaturity \to \uparrow TCA intermediates
+ - 3-methylglutaconic acid in Barth, Sengers, MEGDEL, ATP synthase deficiency
+ - ethylmalonic
+ - MMA in succinyl-CoA ligase deficiency
+ - dicarboxylic aciduria
+*** plasma acylcarnitines
+ - flavin cofactor metabolism
+*** purine and pyrimidines (plasma or urine)
+  - MNGIE \uparrow thymidine and deoxyuridine
+- FGF-21, GDF15 and creatinine \propto mito disfunction in myopathy
 
-*** Factors Affecting OxPhos System
- - ~ 90 subunits
-   - 13 subunits of Complexes I, III, IV and V encoded by mtDNA
- - mitochondrial replication, transcription and translation
-   - require \gt 200 proteins, rRNAs and tRNAs
- - cofactors: coenzyme Q_{10}, iron-sulfur clusters, heme, copper
-   - require synthesis and/or transport to OxPhos system
- - cardiolipin required for cristae formation
- - mitochondrial function
-   - protein import, turnover
-   - fission, fusion
- - toxic metabolites
- - \gt 1500 proteins in the human mitochondrial proteome
-   - other additional factors - lipids, cofactors
-   - up to 10% of human proteome may have role in maintaining mitochondrial function
+** TODO Mitochondrial Assays
+** Imaging
+- cranial CT shows cerebral and cerebellar atrophy in many encephalopathic patients
+  - basal ganglia calcification may be seen in MELAS
+- MRI in MELAS-associated stroke reveals increased T2 weighted signals in the grey and white matter
+- symmetrical changes in the basal ganglia and brainstem observed in Leigh syndrome
 
- - genetic defects with impaired OxPhos phenotype 
-   - OxPhos subunit
-   - assembly Factor
-   - mtDNA replication
-   - mtDNA transcription
-   - cofactor
-   - mitochondrial homeostasis
-     - fission and fusion
-** Investigations
-*** Biochemistry
- - blood lactate, CSF lactate
- - L/P \uparrow at rest, \Uparrow after excercise
- - renal tubular dysfunction: urine anion gap, pH, serum K
- - plasma amino acids:
-   - alanine \propto pyruvate
-   - \uparrown ala/lys \gt 3:1
-   - \uparrow gly in lipoic acid biosynthesis defects
-   - \downarrow cit and arg in Leigh, NARP, MELAS and Pearson
- - urine organic acids
-   - lactate, pyruvate, TCA intermediates
-   - 3-methylglutaconic acid in Barth, Sengers, MEGDEL, ATP synthase deficiency
-   - ethylmalonic
-   - MMA in succinyl-CoA ligase deficiency
- - acylcarnitines
-   - flavin cofactor metabolism
- - purine and pyrimidines (plasma or urine)
-   - MNGIE \uparrow thymidine and deoxyuridine
- - FGF-21, GDF15 and creatinine \propto mito disfunction in myopathy
+** Histology
+- muscle biopsy is diagnostic
+  - mitochondrial myopathy due to mtDNA mutations and LHON may have normal biopsies
+- ragged red fibres on Gomori trichrome staining, due to mitochondrial proliferation
+- fibres stain strongly for succinate dehydrogenase
+- fibres often negative for COX (complex IV) in CPEO, KSS, or MERRF but positive in MELAS
+- Leigh syndrome patients may have no ragged red fibres and  COX-negative fibres only
 
-*** Imaging
- - cranial CT shows cerebral and cerebellar atrophy in many encephalopathic patients
-   - basal ganglia calcification may be seen in MELAS
- - MRI in MELAS-associated stroke reveals increased T2 weighted signals in the grey and white matter
- - symmetrical changes in the basal ganglia and brainstem observed in Leigh syndrome
+#+CAPTION[rrf]:Ragged red fibers - Gomori stain
+#+NAME: fig:rrf
+#+ATTR_LaTeX: :width 0.5\textwidth
+[[file:./oxphos_disorders/figures/Ragged_red_fibers_in_MELAS.jpg]]
 
-*** Histology
- - muscle biopsy is diagnostic
-   - mitochondrial myopathy due to mtDNA mutations and LHON may have normal biopsies
- - ragged red fibres on Gomori trichrome staining, due to mitochondrial proliferation
- - fibres stain strongly for succinate dehydrogenase
- - fibres often negative for COX (complex IV) in CPEO, KSS, or MERRF but positive in MELAS
- - Leigh syndrome patients may have no ragged red fibres and  COX-negative fibres only
-
- #+CAPTION[rrf]:Ragged red fibers - Gomori stain
- #+NAME: fig:rrf
- #+ATTR_LaTeX: :width 0.5\textwidth
- [[file:./oxphos_disorders/figures/Ragged_red_fibers_in_MELAS.jpg]]
-
-*** Molecular
+** Molecular
 - no strict relation between phenotype and genotype
 - mtDNA tRNA mutations are most common of the single base change abnormalities
   - A3243G in the tRNA^{Leu(UUR)} gene is most frequently found in MELAS
   - G8344A in tRNA^{Lys} in MERRF
   - many other tRNA mutations have been associated with other clinical phenotypes
+* Treatment
+- Coenzyme Q disorders :: high does coenzyme Q
+- CI deficiency :: some are riboflavin responsive
+- vitamin and cofactor cocktails have limited evidence:
+  - coenzyme Q
+  - thiamine (B_1)
+  - riboflavin (B_2)
+

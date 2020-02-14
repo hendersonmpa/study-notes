@@ -33,7 +33,7 @@
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./pyruvate/figures/Slide13.png]]
 
-** Redox Reactions
+** Reactions Involving Pyruvate
 
  - pyruvate dehydrogenase complex :: decarboxylation \to acetyl-CoA
       
@@ -50,7 +50,6 @@
  - lactate dehydrogenase :: reduction \to lactate
 
 \ce{pyruvate + NADH <=>[LDH] lactate + NAD+}
-
 
 * Pyruvate Carboxylase Deficiency
 - PC is a biotinylated mitochondrial matrix enzyme
