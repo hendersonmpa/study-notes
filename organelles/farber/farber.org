@@ -7,17 +7,17 @@
   - often presents during infancy causing death within the 1st year
   - later onset cases (up to an adult age) have been described
   - as well as foetal forms
-- deficiency of acid ceramidase activity leads to the storage of
-  ceramides in various organs
+- deficiency of *acid ceramidase* activity
+  - leads to the storage of ceramides in various organs
 * Genetics
-- \gt 30 mutations of ASAH1 including a large deletion
+- AR ASAH1
 * Clinical 
-- most frequent signs are painful joint swelling, deformation and contractures, periarticular subcutaneous nodules and hoarseness due to laryngeal involvement
+- most frequent signs are painful joint swelling, deformation and
+  contractures, periarticular subcutaneous nodules and hoarseness due
+  to laryngeal involvement
+- neurodegeneration
 - some patients mimics juvenile idiopathic arthritis
-- hepatomegaly and a macular cherry-red spot may be present
-- neurological manifestations are of variable severity
-  - mild to psychomotor deterioration and epilepsy
-  - juvenile-onset patients may show neurological involvement only
+- hepatomegaly and cherry-red spot may be present
 
 * Diagnosis
 - ASAH1 genetics

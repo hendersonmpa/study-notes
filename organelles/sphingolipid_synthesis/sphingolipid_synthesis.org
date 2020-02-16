@@ -9,10 +9,9 @@
 - structural role
 - modulate numerous biological functions
   - apoptosis
-- named after the Sphinx because of their enigmatic nature
+- named after the sphinx because of their enigmatic nature
 
 ** Sphingosine and Ceramide
-
 - long chain sphingolipid base
 - N-acylated by a variety of fatty acids
 
@@ -52,20 +51,19 @@ file:./sphingolipid_synthesis/figures/Sphingolipids_general_structures.png
 * Disorders of Sphingolipid Synthesis
 ** Classification
 *** Primarily nervous system involvement
-- Serine palmitoyltransferase - peripheral sensory neuropathy
-- Ceramide synthase 1 - myoclonic epilepsy
-- Ceramide synthase 2 - myoclonic epilepsy
-- Fatty Acid 2-hydroxylase - SPG35
-- Nonlysosomal β-Glucosidase - SPG46
-- GM3 Synthase Deficiency - Amish infantile epilepsy
-- GM2/GD2 Synthase Deficiency - SPG26
+- serine palmitoyltransferase - peripheral sensory neuropathy
+- ceramide synthase 1 - myoclonic epilepsy
+- ceramide synthase 2 - myoclonic epilepsy
+- fatty acid 2-hydroxylase - spastic paraplegia
+- non-lysosomal \beta-Glucosidase - spastic paraplegia
+- GM3 synthase deficiency - amish infantile epilepsy
+- GM2/GD2 synthase deficiency - spastic paraplegia
 
 *** Primarily skin involvement
-- Ceramide synthase 3 - Ichthyosis
-- ULCFA \omega-hydrolase - Ichthyosis
+- ceramide synthase 3 - ichthyosis
+- ULCFA \omega-hydrolase - ichthyosis
 
 ** Serine Palmitoyltransferase (Subunit 1 or 2) Deficiency
-
 - defect in first step of sphingolipid biosynthesis 
 - major cause of dominant Hereditary Sensory and Autonomic Neuropathies (HSAN1)
   - late onset (2-4th decade)
@@ -75,7 +73,7 @@ file:./sphingolipid_synthesis/figures/Sphingolipids_general_structures.png
   - hypohydrosis
   - there is a more severe early onset form
 - accumulation of sphingoid bases \to pathology
-- mutations in serine palmitoyltransferase (SPCTLC1 or 2) alter
+- mutations in serine palmitoyltransferase alter
   substrate specificity
   - serine \to alanine and glycine
 - elevated plasma 1-deoxy-sphingamine, 1-deoxy-methyl-sphingamine, 1-deoxy-ceramindes
@@ -87,15 +85,14 @@ file:./sphingolipid_synthesis/figures/Sphingolipids_general_structures.png
    - tissue and acyl-CoA substrate specificity
    - neurological CERS1 &2
      - CER1 :: Myoclonic epilepsy, cognitive decline
-       - Decreased C18-ceramide in cultured fibroblasts
+       - decreased C18-ceramide in cultured fibroblasts
      - CER2 :: Myoclonic epilepsy
-       - Decreased VLC-ceramide in cultured fibroblasts
+       - decreased VLC-ceramide in cultured fibroblasts
    - dermatologic CERS3
      - CER3 :: Ichthyosis
-       - Lack of VLC-ceramides in skin and fibroblasts 
+       - lack of VLC-ceramides in skin and fibroblasts 
 
 ** Fatty Acid 2-Hydroxylase
-
 - spastic paraplegia
   - fatty acid hydroxylase associated neurodegeneration (FAHN)
 - 38 patients, most in present in childhood
@@ -108,11 +105,9 @@ file:./sphingolipid_synthesis/figures/Sphingolipids_general_structures.png
 - insufficiency production of 2-hydroxy-galactosphingolipids
   - required in myelin
   - increase with brain development
-
 - decreased hydroxylated sphingomyelin in cultured cells
 
 ** GM3 Synthase Deficiency
-
 - autosomal recessive infantile-onset epilepsy
   - Amish epilepsy syndrome
 - in first year \to generalized tonic-clonic seizures
@@ -124,40 +119,33 @@ file:./sphingolipid_synthesis/figures/Sphingolipids_general_structures.png
     - seizures
     - choreoathetosis
     - spasticity
-    
 - lack of GM3, GD3 and higher gangliosides, and increased
   lactosylceramide and Gb4 levels in plasma and cultured cells
 
 ** GM2/GD2 Synthase Deficiency
-
-- mutations of B4GALNT1
-- SPG26, a slowly progressive complex hereditary spastic paraplegia
+- slowly progressive complex hereditary spastic paraplegia
   with mild to moderate cognitive impairment
-
 - cultured fibroblasts of patients have shown decreased GM2 levels
   with an increase of its precursor, GM3
 
-** Non-lysosomal β-Glucosidase Deficiency
-
+** Non-Lysosomal \beta-Glucosidase Deficiency
 - GBA2 is a membrane-associated protein localised at the ER and Golgi
   - hydrolyse glucosylceramide to ceramide and glucose
 - GBA2 is distinct from the lysosomal acid \beta-glucosidase GBA1 deficient in Gaucher disease
-- hereditary (complex) spastic paraplegia locus SPG46
+- hereditary (complex) spastic paraplegia
 - starting in childhood marked spasticity in lower extremities with
   progressive gait disturbances
   - later, ataxia and other cerebellar signs
 
 ** Ceramide Synthase 3 and ULFA \omega-Hydroxylase
-
 - ceramides in skin maintain skin barrier homeostasis, prevent water
   loss and protect against microbial infections
 - autosomal recessive congenital ichthyosis (ARCI) is a heterogeneous
   group of disorders of epidermal cornification
 - 9 causative genes have been identified including CERS3 and CYP4F22 
-
-- CERS3 :: ichthyosis
-  - lack of ceramides with VLCFA in cultured fibroblasts
-- CYP4F22 :: ichthyosis
-  - lack of ceramides with ULCFA in cultured fibroblasts
+  - CERS3 :: ichthyosis
+    - lack of ceramides with VLCFA in cultured fibroblasts
+  - CYP4F22 :: ichthyosis
+    - lack of ceramides with ULCFA in cultured fibroblasts
 
 

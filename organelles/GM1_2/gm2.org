@@ -2,19 +2,33 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
-
 * Introduction
+- \beta-hexosaminidase A deficiency 
+  - impaired lysosomal catabolism of GM2 ganglioside
+- progressive cerebral degeneration
+- functional lysosomal \beta-hexosaminidase enzymes are dimeric
+  - three isozymes are produced through the combination of \alpha
+    and \beta subunits (Table [[tab:hexiso]])
+
+#+CAPTION[]:Hexoaminidase Isozymes
+#+NAME: tab:hexiso
+| Isozyme | Dimer composition | Function                                   |
+|---------+-------------------+--------------------------------------------|
+| A       | \alpha/\beta      | hydrolyzes GM2 ganglioside                 |
+| B       | \beta/\beta       | non-GM2 gangliosides w terminal hexosamine |
+| S       | \alpha/\alpha     | no known physiological function            |
+
+- \beta-galactosidase, hexoaminidase A and B require the M6P-receptor
+  - secreted in ML II (I cell disease)
+- GM2 activator protein - sortilin
+
 - three genetic and biochemical subtypes
-  - Tay-Sachs disease :: Hex A
-  - Sandhoff disease :: Hex A&B
-  - GM2 activator deficiency :: Activator
-- impaired lysosomal catabolism of GM2 ganglioside
+  - Tay-Sachs disease ::  \alpha-subunit Hex A
+  - Sandhoff disease :: \beta-subunit Hex A&B 
+  - GM2 activator deficiency :: activator AB variant 
 - GM2 storage in neurons in Tay-Sachs and Sandhoff
   - Sandhoff \uparrow asialo-GM2 in brain, globoside and oligosacarides in viseral organs
-- progressive cerebral degeneration
-- prior to population-based carrier screening the incidence of TSD was ~1:3600 Ashkenazi Jewish births
-  - incidence of TSD in the Ashkenazi Jewish population in North America \downarrow > 90%
-- eastern Quebec founder mutation
+
 
 #+CAPTION[]:GM2 ganglioside storage diseases
 #+NAME: tab:gm2
@@ -27,29 +41,15 @@
 | Sandhoff disease             | 3-6 months  |       2-4 | Hex A&B   |
 | AB variant                   | 3-6 months  |           | Activator |
 
-- functional lysosomal \beta-hexosaminidase enzymes are dimeric
-- three isozymes are produced through the combination of \alpha
-  and \beta subunits
-- \beta-galactosidase, hexoaminidase A and B require the M6P-receptor
-  - secreted in ML II (I cell disease)
-- GM2 activator protein - sortilin
-
-| Isozyme | Dimer composition | Function                                   |
-|---------+-------------------+--------------------------------------------|
-| A       | \alpha/\beta      | hydrolyzes GM2 ganglioside                 |
-| B       | \beta/\beta       | non-GM2 gangliosides w terminal hexosamine |
-| S       | \alpha/\alpha     | no known physiological function            |
-
-
 #+CAPTION[]:Hexosaminidase A: Tay-Sachs
 #+NAME: fig:hexa
-#+ATTR_LaTeX: :width 0.4\textwidth
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./GM1_2/figures/hexosaminidasea.png]]
 
 
 #+CAPTION[]:Hexosaminidase A & B:Sandhoff disease
 #+NAME: fig:hexb
-#+ATTR_LaTeX: :width 0.4\textwidth
+#+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./GM1_2/figures/hexosaminidaseab.png]]
 
 * Genetics
@@ -61,60 +61,43 @@
 - 6 in GM2A
 
 * Clinical Findings
+- see table [[tab:gm2ss]]
 #+CAPTION[]:GM2 Signs and Symptoms
 #+NAME: tab:gm2ss
 | Finding           | Infantile         | Juvenile           | Adult            |
 |-------------------+-------------------+--------------------+------------------|
-| Onset of symptoms | <1 year           | 2-10 years         | 10+ years        |
-| Eye findings      | CRS, blindness    | +/- CRS            |                  |
+| onset of symptoms | <1 year           | 2-10 years         | 10+ years        |
+| eye findings      | CRS, blindness    | \pm CRS            |                  |
 | movement          | weakness          | ataxia, dysarthria | dystonia, ataxia |
-| Neurological      | startle response, | seizures           | psychosis        |
+| neurological      | startle response  | seizures           | psychosis        |
 |                   | seizures          |                    |                  |
 
 * Laboratory Investigations
 - urine oligosacarides
-- /in vitro/ Hexoaminidase activity: leukocytes, fibroblasts
+- /in vitro/ hexoaminidase activity: leukocytes, fibroblasts
   - 4-MU-6-sulfo-\beta-glucosaminide
   - specific for the \alpha subunit
 - falsely normal results in Tay-Sachs female carriers
 - total hexosaminidases (A+B) using a synthetic fluorogenic substrate
-  is straightforward and allows the diagnosis of Sandhoff disease
+  allows the diagnosis of Sandhoff disease
 - differential assay of HexA using heat or acid
-  inactivation does not identify patients with the B1 variant;
+  inactivation does not identify patients with the B1 variant
 - the direct assay of hexosaminidase A using the sulfated synthetic
-  substrate (4-MU-6-sulfo-β-glucosaminide) specific for the α-subunit
+  substrate (4-MU-6-sulfo-β-glucosaminide) specific for the \alpha-subunit
   is the method of choice
-- high residual activity is found in Sandhoff disease,
-  - excess of hexosaminidase S (αα-dimer)
-- in GM2 activator deficiency, hexosaminidase A activity measured in
-  vitro is normal;
-- electron microscopic examination of a skin or conjunctival biopsy
-  may provide strong evidence in favour of the diagnosis by
-  demonstrating concentric lamellated bodies in nerve endings
-- CSF shows increased levels of GM2
-- definitive diagnosis requires GM2A sequencing
+- high residual activity is found in Sandhoff disease
+  - excess of hexosaminidase S (\alpha\alpha-dimer)
+- GM2 activator deficiency
+  - normal /in vitro/ hexosaminidase A activity
+  - definitive diagnosis requires GM2A sequencing
+- electron microscopic examination of a skin or conjunctiva biopsy
+  - concentric lamellated bodies in nerve endings
+- \uparrow CSF GM2
+
 
 * Treatment
 - treat seizures
 - no curative treatment to date
-- > 90% reduction in the disease in Jewish population
-
-#+CAPTION[]:Carrier Screening for Tay-Sachs (1972-1992)
-#+NAME: tab:carrier
-| Group                  | number                        |
-|------------------------+-------------------------------|
-| Total screened         | 9.53 x 10^6 (seven countries) |
-| Carriers identified    | 36 418                        |
-| Couples at risk        | 1056                          |
-| Pregnancies monitored  | 2415 [fn:1]                  |
-| Affected fetuses       | 469                           |
-| Aborted                | 451                           |
-| Normal offspring born  | 1881                          |
-| Birth/year w Tay-Sachs |                               |
-| Prior to 1969          | 100 (US & Canada) 80% Jewish  |
-| 1980                   | 13 80% non-Jewish             |
-| 1985–1992              | 3-10 80% non-Jewish           |
-[fn:1] Prior offspring as well as heterozygote screening (1969-1992)
 
 
 

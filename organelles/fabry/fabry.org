@@ -5,16 +5,13 @@
 * Introduction
 - AKA: angiokeratoma corporis diffusum universale
 - second most common LSD
-- 1:340,000 heterozygote females in the UK
-- first described in 1898 independently by Anderson and Fabry
-  - Dermatologists
-- defect in \alpha-galactosidase A (ceramide trihexosidase)
-  - inability to cleave terminal galactose from the sphingolipid globotriaosylceramide Gb3 (galactosylgalactosylglucoceramide)
+- defect in *\alpha-galactosidase A (AKA: ceramide trihexosidase)*
+  - inability to cleave terminal galactose from the sphingolipid globotriaosylceramide Gb3 (Figure [[fig:sidase]]) 
   - 3 to 20% activity in hemizygote males
+- globotriaosylceramide (Gb3): the Fabry lipid (Figure [[fig:galac]])
 - lack of \alpha-GalA leads to accumulation of Gb3 in blood vessels and other tissues
   - wide range of symptoms including kidney, heart, and skin symptoms
-  - \uparrow [Gb3] in kidney and blood group B antigenic glycosphingolipid
--  globotriaosylceramide (Gb3): the Fabry lipid
+  - \uparrow Gb3 in kidney and blood group B antigenic glycosphingolipid
 - \alpha-galactosidase A uses both sortilin and mannose receptor
   - not affected in ML II & III
 
@@ -29,53 +26,46 @@
 [[file:./fabry/figures/galactosidaseA.png]]
 
 * Genetics
-- \alpha-galactosidase A gene is on the X chromosome
-  - Xq22.1
-- X-linked with penetrance in female heterozygotes
+- *XL GLA*
+- penetrance in female heterozygotes
   - may be considered X-linked dominant
-- \gt 300 of mutations have been found
-- single nucleotide missense mutations identified in the majority of families
-  - mostly private mutations
 
 * Clinical Findings
-
+- see table [[tab:fabss]]
 - postprandial pain or diarrhea
   - may be sole complaint
 - degradation of interphalangeal joints
 - cerebrovascular - stroke, seizures
 - ocular lesions
-- angiokeratomas
+- angiokeratomas (Figure [[fig:skin]])
   - prominent on hip, buttocks and scrotum
 
 #+CAPTION[]:Signs and Symptoms
 #+NAME: tab:fabss
 | Age         | Signs                                           |
 |-------------+-------------------------------------------------|
-| Childhood   | Pain in extremities, fever, Fabry crisis [fn:1] |
-| Adolescence | Angiokeratomas                                  |
-| Adulthood   | Central nervous system symptoms                 |
-|             | Myocardial and pulmonary disease                |
-| Middle age  | Renal failure, lymphedema                       |
+| childhood   | pain in extremities, fever, Fabry crisis [fn:1] |
+| adolescence | angiokeratomas                                  |
+| adulthood   | CNS, myocardial and pulmonary                   |
+| middle age  | renal failure, lymphedema                       |
 
-[fn:1] May be induced by heat, cold, fatigue or emotional stress
+[fn:1] induced by heat, cold, fatigue or emotional stress
 
-#+CAPTION[Angiokeratomas of the skin]:Angiokeratomas of the skin
+#+CAPTION[Angiokeratomas of the skin]:Angiokeratomas of the Skin
 #+NAME: fig:skin
 #+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./fabry/figures/angiokeratomas.png]]
-
 
 * Laboratory Investigations
 ** Biochemistry
 - deficient \alpha-galactosidase A activity in leukocytes
   - fluorometric 4MU-\alpha-D-galactopyranoside substrate
-  - LC-MS/MS 
-- NBS via \alpha-galactosidase A activity in DBS
-  - Taiwan, MO, IL
-- elevated urine Gb3 and Gb2 in hemizygote males and heterozygote females
-  - urine and DUS LC-MSMS assay
-- plasma lyso-Gb3 (globotriaosylsphingosine) is a sensitive biomarker
-  - LC-MSMS
+  - LC-MS/MS
+  - unreliable in females
+- \uparrow urine Gb3 and Gb2 LC-MSMS 
+  - hemizygote males and heterozygote females
+- \uparrow plasma lyso-Gb3 (globotriaosylsphingosine) LC-MSMS
+  - sensitive biomarker
   - useful in diagnosis and monitoring
 
 ** Pathology
@@ -93,7 +83,7 @@
   - carbamazapine, gabapentin
 - dialysis or renal transplantation
 - there is long term experience with ERT
-  - Agalsidase (alpha or beta)
+  - agalsidase (alpha or beta)
   - reduces left ventricular hypertrophy
   - less effect on renal function
   - does not prevent progression

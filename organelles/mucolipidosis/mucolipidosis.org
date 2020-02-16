@@ -110,11 +110,10 @@
   phosphotransferase in leukocytes or cultured fibroblasts
 - treatment is supportive
 
-* Sialidosis and ML IV
+* Sialidosis (ML 1) and ML IV
 
 ** Sialidosis (ML I)
 - Sialidosis is an autosomal recessive lysosomal storage disorder
-
 - *Type I sialidosis*, the milder form of this disorder, is
   characterized by the development of ocular cherry-red spots and
   generalized myoclonus in the second or third decade of life

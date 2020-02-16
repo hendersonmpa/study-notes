@@ -4,9 +4,9 @@
 
 * Introduction
 - a fatal, neuro-degenerative disease that affects ~ 1:150,000
-  - sometimes referred to as Childhood Alzheimer’s
+  - sometimes referred to as childhood alzheimer’s
   - extremely heterogeneous
-  - biochemically, genetically and clinically distinct from Niemann-Pick A and B. 
+  - biochemically, genetically and clinically distinct from Niemann-Pick A and B 
 - accumulation of unesterified cholesterol, sphingomyelin, glycolipids in systemic organs
 - GM2 and GM3 accumulate in brain
   - no increase in cholesterol
@@ -17,11 +17,11 @@
 - hydrolyzed and released as free cholesterol
 - unesterified cholesterol is transported to the plasma membrane and the ER for recycling
 
-- in NP-C, the LDL-cholesterol is trapped in lysosomes
+- in NP-C the LDL-cholesterol is trapped in lysosomes
 
 #+CAPTION[]: Cholesterol Transport
 #+NAME: fig:
-#+ATTR_LaTeX: :width 0.4\textwidth
+#+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./niemann_pick/figures/cholesterol1.jpg]]
 
 ** NPC1 & NPC2
@@ -36,8 +36,7 @@
 - disruption of transport results in accumulation of cholesterol and glycolipids in lysosomes
 
 * Genetics
-- autosomal recessive inheritance,
-- mutations in NPC1 (95%) and NPC2 (5%)
+- AR NPC1 (95%) and NPC2 (5%)
 
 * Clinical Findings
 - onset of the disease can happen at any age
@@ -50,7 +49,7 @@
   - vertical supranuclear gaze palzy
   - ataxia, dystonia, dysarthria, dysphagia
   - cognitive dysfunction/dementia
-  - cataplexy, tremors,Seizures
+  - cataplexy, tremors, seizures
     
 ** Neurological Forms
 *** Early infantile          
@@ -59,10 +58,10 @@
 - survival <6 years
 
 *** Late-infantile
-- classic NPC, 60-70% of cases
+- classic NPC 60-70% of cases
 - language delay
-- ataxia, 3-5 yrs
-- cognitive dysfunction, 6-12 yrs 
+- ataxia 3-5 yrs
+- cognitive dysfunction 6-12 yrs 
 
 *** Adult 
 - diagnosis 15->60yrs
@@ -72,9 +71,7 @@
 - vertical gaze palzy common
 
 * Diagnostic Tests
-- foamy and sea-blue histiocytes may (not always) be found in bone
-  marrow aspirates
-
+- foamy and sea-blue histiocytes may be found in bone marrow aspirates
 - plasma and DBS
   - lysosphingomylin 
   - lysosphingomylin-509

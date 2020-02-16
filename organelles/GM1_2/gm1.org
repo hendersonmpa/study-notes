@@ -4,18 +4,16 @@
 
 
 * Introduction
-
-- defect in *\beta-galactosidase (AKA:\beta-gangliosidase)*
+- defect in *\beta-galactosidase (AKA: \beta-gangliosidase)*
+  - removes galactose from GM1, keratin sulfate and some oligosaccharides (Figure [[fig:bgal]])
 - *GM1 ganglioside accumulates in the brain and visera*
-- *infantile, juvenile and adult forms*
+- infantile, juvenile and adult forms
   - residual enzyme function
   - devastating degenerative disease
 - GM1 gangliosidosis of all types is estimated to occur in 1:100,000 - 300,000
-
 - GLB1-related disorders comprise two phenotypically distinct lysosomal storage disorders:
   1) GM1 gangliosidosis
   2) mucopolysaccharidosis type IVB (Morquio B)
-
 - MPS IVB - Morquio B
   - clinically indistinguishable from MPS IVA 
     - skeletal changes, including short stature and skeletal dysplasia
@@ -29,44 +27,41 @@
 
 
 ** Lysosomal multi-enzyme complex
-
-- \beta-galactosidase forms a heterotrimeric complex with:
-  - cathepsin A/PPCA : CTSA 
-  - neuraminidase: NEU1
-
-- \downarrow cathepsin A \to 2\degree  deficiency of NEU1
-  - ML-1 (sialidosis)
+- \beta-galactosidase forms a heterotrimeric complex with cathepsin A
+  and neuraminidase
+- \downarrow cathepsin A \to 2\degree  deficiency of neuraminidase
+  - ML-1 (sialidosis) (section [[Mucolipidoses]])
 
 * Genetics
-- GLB1: autosomal recessive 
+- AR GLB1
 - ~ 150 mutations in GLB1 have been described
 - neither the type or location correlate with phenotype
 
 * Clinical Findings
-
+- see table [[tab:gm1ss]]
+- a cause of nonimmune foetal hydrops
 #+CAPTION[GM1 Signs and Symptoms]:GM1 Signs and Symptoms
 #+NAME: tab:gm1ss
-| Finding                | Infantile | Juvenile   | Adult            | MPS IVB                |
-|------------------------+-----------+------------+------------------+------------------------|
-| Onset of symptoms      | <1 year   | 1-10 years | 10+ years        | 3-5 years              |
-| Eye findings           | CRS       | CC         | +/– CC           | CC                     |
-| Motor abnormalities    | +         | +          | Extrapyramidal   | [fn:2]                 |
-| Hepatosplenomegaly     | +         | +/–        | –                | –                      |
-| Cardiac involvement    | +/–       | +/–        | +/–              | +                      |
-| Coarse facial features | +/–       | –          | –                | [fn:2]                 |
-| Skeletal findings      | +         | +/–        | –                | +                      |
-| Neuroimaging           | PA        | PA         | +/– mild atrophy | [fn:2]                 |
-| Urine (GAG)            | [fn:1]    | [fn:1]     | [fn:1]           | Keratan sulfate [fn:3] |
+| Finding                | Infantile | Juvenile   | Adult           | MPS IVB                |
+|------------------------+-----------+------------+-----------------+------------------------|
+| onset of symptoms      | <1 year   | 1-10 years | 10+ years       | 3-5 years              |
+| eye findings           | CRS       | CC[fn:4]   | \pmCC           | CC                     |
+| motor abnormalities    | +         | +          | extra pyramidal | [fn:2]                 |
+| hepatosplenomegaly     | +         | \pm        | -               | -                      |
+| cardiac involvement    | \pm       | \pm        | \pm             | +                      |
+| coarse facial features | \pm       | -          | -               | [fn:2]                 |
+| skeletal findings      | +         | \pm        | -               | +                      |
+| urine                  | [fn:1]    | [fn:1]     | [fn:1]          | keratan sulfate [fn:3] |
 
 [fn:1] oligosacaride with terminal galactose
 [fn:2] secondary to bony changes
 [fn:3] FN have been observed
-
+[fn:4] corneal clouding
 * Laboratory Investigations
-- urine oligosacarides
-- *mucopolysacarides: \uparrow keratin sulfate*
-- /in vitro/ \beta-galactosidase activity: leukocytes and DBS
+- \beta-galactosidase activity: leukocytes and DBS
   - 4-MU-\beta-d-galactopyranoside
+- \uparrow urine oligosacarides with terminal galactose
+- \uparrow urine keratin sulfate
 
 * Treatment
 - no curative treatment to date

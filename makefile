@@ -5,8 +5,8 @@ all: $(OUT_DIR)organelles.pdf $(OUT_DIR)mitochondria.pdf $(OUT_DIR)carbohydrate.
 $(OUT_DIR)lipids_bile.pdf $(OUT_DIR)misc.pdf $(OUT_DIR)vitamins.pdf $(OUT_DIR)aa.pdf \
 $(OUT_DIR)methods.pdf $(OUT_DIR)conditions.pdf $(OUT_DIR)tnt.pdf clean
 
-$(OUT_DIR)organelles.pdf: ./organelles/organelles.org ./organelles/fabry/fabry.org \
-./organelles/farber/farber.org ./organelles/gaucher/gaucher.org ./organelles/GM1_2/GM1_2.org \
+$(OUT_DIR)organelles.pdf: ./organelles/organelles.org ./organelles/fabry/fabry.org ./organelles/farber/farber.org \
+./organelles/gaucher/gaucher.org ./organelles/GM1_2/gm1.org ./organelles/GM1_2/gm2.org \
 ./organelles/krabbe/krabbe.org ./organelles/mld/mld.org ./organelles/mps/mps.org \
 ./organelles/mucolipidosis/mucolipidosis.org ./organelles/oligosaccharidoses/oligosaccharidoses.org \
 ./organelles/niemann_pick/niemann_pickab.org ./organelles/niemann_pick/niemann_pickc.org \

@@ -335,7 +335,7 @@
    - antenatal (IUGR, birth defects) \to elderly (myopathy)
 
  - clinical suspicion based on:
-   1) constellation of symptoms/signs consistent with a mitochondrial syndrome (Table [[oxpclin]])
+   1) constellation of symptoms/signs consistent with a mitochondrial syndrome (Table [[tab:oxpclin]])
    2) complex multi-system presentation involving two/more organ systems,
       best described by an underlying disorder of energy generation
    3) lactic acidosis, characteristic neuro-imaging, 3-methylglutaconic

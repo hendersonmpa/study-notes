@@ -36,23 +36,23 @@
 
 #+CAPTION[]: The Sphingolipidoses
 #+NAME: tab:spingo
-| Disease | Enzyme                   | Sphingolipid                | Prevalence       |
-|---------+--------------------------+-----------------------------+------------------|
-| Gaucher | \beta-glucocerebrosidase | glucocerebroside            | 1:50,000         |
-| Fabry   | \alpha-galactosidase A   | globotriaosylceramide (Gb3) | 1:80,000         |
-| MLD     | arylsulfatase A          | sulfatide                   | 1:100,000        |
-| GM1     | \beta-gangliosidase      | GM1 ganglioside             | 1:200,000        |
-| Krabbe  | galactocerebrosidase     | galactosylceramide          | 1:250,000        |
-| NPA/B   | acid sphingomyelinase    | sphingomyelin               | 1:250,000        |
-| GM2     | HexA and/or HexB         | GM2 ganglioside             | 1:300,000 (HexA) |
-| Farber  | acid ceramidase          | ceramides                   | 1:1,000,000      |
+| Disease | Enzyme                    | Sphingolipid                | Gene            |
+|---------+---------------------------+-----------------------------+-----------------|
+| Gaucher | \beta-glucocerebrosidase  | glucocerebroside            | GBA             |
+| Fabry   | \alpha-galactosidase A    | globotriaosylceramide (Gb3) | GLA             |
+| MLD     | arylsulfatase A           | sulfatide                   | ARSA            |
+| GM1     | \beta-galactosidase       | GM1 ganglioside             | GLB1            |
+| Krabbe  | galactosylceramidase      | galactosylceramide          | GALC            |
+| NPA/B   | acid sphingomyelinase     | sphingomyelin               | SMPD1           |
+| GM2     | hexosaminidase A and/or B | GM2 ganglioside             | HEXA,HEXB, GM2A |
+| Farber  | acid ceramidase           | ceramides                   | ASAH1           |
 
 #+CAPTION[]:Sphingolipid degradation
 #+NAME: fig:sld
 #+ATTR_LaTeX: :width 0.8\textwidth
 [[file:./figures/sl_degradation.png]]
 
-** Protein Trafficking to Lysosome 
+** Protein Trafficking to Lysosomes
 - lysosomes are composed of soluble and transmembrane proteins that
   are targeted to lysosomes in a signal-dependent manner
 - majority of soluble acid hydrolases are modified with mannose
@@ -65,11 +65,8 @@
   sortilin
 - sorting of cargo receptors and lysosomal transmembrane proteins
   requires sorting signals present in their cytosolic domains
-- these signals include dileucine-based motifs, DXXLL or [DE]XXXL[LI],
-  and tyrosine-based motifs, YXXØ, which interact with components of
-  clathrin coats such as GGAs or adaptor protein complexes
-- in addition, phosphorylation and lipid modifications regulate signal
-  recognition and trafficking of lysosomal membrane proteins
+- phosphorylation and lipid modifications regulate signal recognition
+  and trafficking of lysosomal membrane proteins
 
 #+CAPTION[]:Protein Trafficking to Lysosome 
 #+NAME: fig:protlys
@@ -81,28 +78,28 @@
 #+ATTR_LaTeX: :width 0.8\textwidth
 [[file:./figures/lysosome_trafficking.jpeg]]
 
-** M6P receptors
+*** M6P receptors
 - MPRs are transmembrane glycoproteins that target enzymes to lysosomes in vertebrates
-- MPRs bind newly synthesized lysosomal hydrolases in the TGN and deliver them to pre-lysosomal compartments.
+- MPRs bind newly synthesized lysosomal hydrolases in the TGN and deliver them to pre-lysosomal compartments
 - there are two different MPRs
-  - the cation-independent mannose 6-phosphate receptor (CI-MPR),
+  - the cation-independent mannose 6-phosphate receptor (CI-MPR)
   - CD-MPR requires divalent cations to efficiently recognize lysosomal hydrolases
 - bind terminal M6-P with similar affinity
 
-** Sortilin
+*** Sortilin
 - sortilin is a type I transmembrane protein found in lysosomes
   - can transport several lysosomal proteins from the TGN or PM to the endosomes
 - tissues from sortilin knock-out mice exhibit normal morphology
 - sortilin may transport selected acid hydrolases in:
   - a subset of cell types
-  - under stress conditions (e.g. Man-6-P pathway is deficient) 
+  - under stress conditions (e.g. M6P pathway is deficient) 
 
-** LIMP2
+*** LIMP2
 - LIMP-2 in a membrane protein in lysosomes that functions to regulate lysosomal/endosomal transport.
 - type III glycoprotein that is located primarily in limiting membranes of lysosomes and endosomes.
 - may participate in membrane transportation and the reorganization of endosomal/lysosomal compartment.
 
-** Megalin 
+*** Megalin 
 - a cell surface receptor involved in reabsorption of proteins at the kidney proximal tubule
 - megalin mediated endocytosis of \alpha-galactosidase kidney proximal tubule 
 - megalin also mediates the endocytosis of \alpha-galactosidase in renal podocytes
@@ -133,7 +130,6 @@
 
 * Oligosaccharidoses
 #+INCLUDE: "./oligosaccharidoses/oligosaccharidoses.org" :lines "4-"
-
 * Mucolipidoses
 #+INCLUDE: "./mucolipidosis/mucolipidosis.org" :lines "4-"
 
