@@ -83,6 +83,8 @@
 
 ** Diagnostic Tests
 - cystine stones IR-spectroscopy
+- cyanide nitroprusside test
+  - reacts with cystine \to purple colour
 - urine amino acids
   - \uparrow cystine
   - \uparrow arginine

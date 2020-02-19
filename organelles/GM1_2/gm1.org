@@ -39,7 +39,7 @@
 
 * Clinical Findings
 - see table [[tab:gm1ss]]
-- a cause of nonimmune foetal hydrops
+- a cause of non-immune fetal hydrops
 #+CAPTION[GM1 Signs and Symptoms]:GM1 Signs and Symptoms
 #+NAME: tab:gm1ss
 | Finding                | Infantile | Juvenile   | Adult           | MPS IVB                |

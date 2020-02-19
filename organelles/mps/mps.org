@@ -127,8 +127,6 @@
 | MSD (Austin)            | formylglycine-generating | HS,DS    |
 |                         | enzyme                   |          |
 
-  
-
 ** Classification
 - presenting as a dysmorphic syndrome
   - MPS I (Hurler)

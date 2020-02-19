@@ -19,7 +19,7 @@ $(OUT_DIR)organelles.pdf: ./organelles/organelles.org ./organelles/fabry/fabry.o
 	-f org-latex-export-to-pdf
 	mv -v ./organelles/organelles.pdf $(OUT_DIR)organelles.pdf
 
-$(OUT_DIR)mitochondria.pdf: ./mitochondria/mitochondria.org ./mitochondria/oxphos/oxphos.org \
+$(OUT_DIR)mitochondria.pdf: ./mitochondria/mitochondria.org ./mitochondria/oxphos/oxphosn.org \
 ./mitochondria/fao/fao.org ./mitochondria/ketones/ketones.org \
 ./mitochondria/pyruvate/pyruvate.org ./mitochondria/tca/tca.org ./mitochondria/creatine/creatine.org
 	emacs -u "$(id -un)" \
