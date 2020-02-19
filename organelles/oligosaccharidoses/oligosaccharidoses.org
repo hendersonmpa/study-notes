@@ -33,13 +33,14 @@
 [[file:./oligosaccharidoses/figures/oligosacch.png]]
 
 * Disorders
+
 ** Mannosidosis
 - deficiency of \alpha-mannosidase \to variable disorder \alpha-mannosidosis. 
 - mild Hurler phenotype
   - variable learning difficulties
   - hepatosplenomegaly
   - deafness
-  - skeletal dysplasia,
+  - skeletal dysplasia
 - complicated by an immune deficiency which can dominate the clinical progression of the disease
 
 - \beta-mannosidosis, deficiency of \beta-mannosidase,
