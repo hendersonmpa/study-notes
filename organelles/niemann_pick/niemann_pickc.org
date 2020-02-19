@@ -4,7 +4,7 @@
 
 * Introduction
 - a fatal, neuro-degenerative disease that affects ~ 1:150,000
-  - sometimes referred to as childhood alzheimer’s
+  - sometimes referred to as childhood Alzheimer’s
   - extremely heterogeneous
   - biochemically, genetically and clinically distinct from Niemann-Pick A and B 
 - accumulation of unesterified cholesterol, sphingomyelin, glycolipids in systemic organs
@@ -52,12 +52,12 @@
   - cataplexy, tremors, seizures
     
 ** Neurological Forms
-*** Early infantile          
+*** Early Infantile          
 - pre-existing hepatosplenomegaly
 - delay in motor milestones 9m-2yrs
 - survival <6 years
 
-*** Late-infantile
+*** Late Infantile
 - classic NPC 60-70% of cases
 - language delay
 - ataxia 3-5 yrs
