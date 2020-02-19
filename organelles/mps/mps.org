@@ -8,11 +8,9 @@
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./mps/figures/ch17f01.jpg]]
 
-** Proteoglycans function
-
-- structural proteins of the ECM are embedded in gels formed from
+- proteoglycans are structural proteins of the ECM are embedded in gels formed from
   proteoglycans
-- composed of glycosaminoglycans (GAGs) linked to a protien core
+- composed of glycosaminoglycans (GAGs) linked to a protein core
 - negatively charged GAGs bind Na^{+}
   - draws water to create a gel 
 - found in interstitial connective tissues such as: 
@@ -26,19 +24,6 @@
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./mps/figures/ch3f1.jpg]]
 
-** Glycosaminoglycans
-
-1. heparan
-2. heparan sulfate
-3. chondroitin sulfate
-4. dermatan sulfate
-5. keratan sulfate
-6. hyaluronan (not typically protein bound)
-
-
-- GAGs are composed of repeating units of disaccharides
-  - hexosamine and a hexose or hexuronic acid
-
 #+CAPTION[Glycan Nomenclature]: Symbol Nomenclature for Glycans (SNFG)
 #+NAME: fig:snfg
 #+ATTR_LaTeX: :width 0.8\textwidth
@@ -50,96 +35,34 @@
 #+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./mps/figures/ch17f02.jpg]]
 
-** GAGs
-
-*** Hyaluronan 
+- GAGs are composed of repeating units of disaccharides (Figure [[fig:gags]])
+  - hexosamine and a hexose or hexuronic acid
+*** hyaluronan 
 - not sulfated, not protein bound
 - forms in the plasma membrane instead of the Golgi
 - connective, epithelial, and neural tissues
 - cell proliferation and migration
 
-*** Chondroitin sulfate
+*** chondroitin sulfate
 - O-xylose-linked to core proteins
 - structural component of cartilage 
 
-*** Dermatan sulfate
+*** dermatan sulfate
 - O-xylose-linked to core proteins
 - skin, blood vessels, heart valves, tendons, and lungs.O
 - coagulation, cardiovascular disease, carcinogenesis, infection, wound repair, and fibrosis
 
-*** Heparan Sulfate
+*** heparan Sulfate
 - O-xylose-linked to core proteins
-- developmental processes,angiogenesis, blood coagulation, tumour metastasis
+- developmental processes, angiogenesis, blood coagulation, tumour metastasis
 
-*** Keratan sulfate
+*** keratan sulfate
 - KSI was isolated from corneal tissue and KSII from skeletal tissue
   - KSI is N-linked to specific asparagine amino acids via
     N-acetylglucosamine
-  - KSII is O-linked to specific Serine or Threonine amino acids via
+  - KSII is O-linked to specific serine or threonine amino acids via
     N-acetyl galactosamine
-  - cornea, cartilage,bone, CNS
-
-
-* Mucopolysaccharidoses
-
-** Mucopolysaccharidoses  
-- type of lysosomal storage disease
-- a group of metabolic disorders caused by the absence or
-  malfunctioning of lysosomal enzymes needed to break down
-  glycosaminoglycans
-- can be a result of decreased expression, stability, and activity of
-  one of the eleven enzymes required for glycosaminoglycans
-  degradation
-- GAGs collect in the cells, blood and connective tissues
-  - the result is permanent, progressive cellular damage which affects:
-    - appearance
-    - physical abilities
-    - organ and system functioning
-    - in most cases, mental development
-
-#+CAPTION[Glycosaminoglycan Degradation]: Glycosaminoglycan Degradation
-#+NAME: fig:degradation
-#+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./mps/figures/ch16f9.jpg]]
-
-#+CAPTION[Mucopolysaccharidoses]:Mucopolysaccharidoses
-#+NAME: tab:muco
-| Name                    | Enzyme                   | GAG      |
-|-------------------------+--------------------------+----------|
-| MPS I (Hurler)          | \alpha-iduronidase       | HS,DS    |
-| MPS II (Hunter)         | Iduronate-2-sulfatase    | HS,DS    |
-|-------------------------+--------------------------+----------|
-| MPS IIIA (Sanfilippo A) | Heparan-N-Sulfatase      | HS       |
-| MPS IIIB (Sanfilippo B) | N-acetyl glucosaminidase | HS       |
-| MPS IIIC (Sanfilippo C) | Acetyl CoA glucosamine   | HS       |
-|                         | N-acetyltransferase      |          |
-| MPS IIID (Sanfilippo D) | N-acetyl-glucosamine     | HS       |
-|                         | 6-sulfatase              |          |
-|-------------------------+--------------------------+----------|
-| MPS IVA (Morquio A)     | N-acetylgalactosamine    | KS,CS    |
-|                         | 6-sulfatase              |          |
-| MPS IVB (Morquio B)     | \beta-galactosidase      | KS       |
-|-------------------------+--------------------------+----------|
-| MPS VI (Maroteaux-Lamy) | N-acetylgalactosamine    | DS       |
-|                         | 4-sulfatase              |          |
-| MPS VII (Sly)           | \beta-glucuronidase      | DS,HS,CS |
-| MPS IX                  | hyaluronidase            | HA       |
-| MSD (Austin)            | formylglycine-generating | HS,DS    |
-|                         | enzyme                   |          |
-
-** Classification
-- presenting as a dysmorphic syndrome
-  - MPS I (Hurler)
-  - MPS II (Hunter)
-  - MPS VI (Maroteaux-Lamy)
-- presenting with learning difficulties, behavioral disturbances and dementia
-  - MPS III (Sanfilippo)
-- presenting with severe bone dysplasia
-  - MPS IV (Morquio)
-- others rare
-  - MPS VII (Sly)
-  - MPS IX (Natowicz)
-
+  - cornea, cartilage, bone, CNS
 
 
 #+CAPTION[DS Degradation]: DS degradation
@@ -157,4 +80,142 @@
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./mps/figures/hs_degradation_disorders.png]]
 
+* Multiple sulfatase deficiency
+- mutations in sulfatase modifying factor 1 (SUMF1), leading to a
+  deficiency of the FGE (formylglycine-generating enzyme) protein
+- FGE is involved in the posttranslational activation of all
+  sulfatases in the endoplasmatic reticulum
+- deficiency leads to a deficiency of 17 different sulfatases
+  - all lysomal sulftatases
+- MSD is very rare and clinical signs and symptoms are variable, with progressive psychomotor retardation invariably present
+- urine GAG concentrations can be normal
+  - requires enzymatic assay of multiple sulfatases
 
+* Mucopolysaccharidoses  
+** Clinical Presentation
+- all chronic, progressive and multisystem disorders
+- patients generally appear normal at birth
+  - accumulation of GAGs starts before birth and may lead to very
+    early symptoms such as:
+    - hydrops fetalis and intrauterine death (MPS VII)
+    - skeletal deformities such as thoracolumbar kyphosis at birth (MPS IH)
+
+- important signs and symptoms in MPS include:
+  - dysostosis multiplex
+  - bullet-shaped meta-carpals
+  - oar-shaped ribs
+  - facial dysmorphism
+  - hepatosplenomegally
+  - CNS disease
+  - corneal clouding
+  - cardiac valve thickening
+
+*** Dysmorphic Syndrome
+  - MPS I (Hurler)
+  - MPS II (Hunter)
+  - MPS VI (Maroteaux-Lamy)
+*** Learning Difficulties, Behavioral Disturbances and Dementia
+  - MPS III (Sanfilippo)
+*** Severe Skeletal Dysplasia
+  - MPS IV (Morquio)
+*** Rare
+  - MPS VII (Sly)
+  - MPS IX (Natowicz)
+
+  #+CAPTION[]:MPS Signs and Symptoms
+#+NAME: tab:mpsss
+| MPS      | variant        | dysostosis | valvular      | progressive          | spinal cord |
+|          |                | multiple   | heart disease | cognitive impairment | compression |
+|----------+----------------+------------+---------------+----------------------+-------------|
+| MPS I    | Hurler         | .+++       | .+++          | .+++                 | .+++        |
+|          | Hurler-Scheie  | ++         | ++            | ++                   | ++          |
+|          | Scheie         | ++         | ++            | -                    | ++          |
+|----------+----------------+------------+---------------+----------------------+-------------|
+| MPS II   | neuronopathic  | ++         | ++            | .+++                 | ++          |
+|          | attenuated     | ++         | ++            | \pm                  | ++          |
+|----------+----------------+------------+---------------+----------------------+-------------|
+| MPS IIIA | Sanfilippo A   | +          | \pm           | .+++                 | -           |
+| MPS IIIB | Sanfilippo B   | +          | \pm           | .+++                 | -           |
+| MPS IIIC | Sanfilippo C   | +          | \pm           | .+++                 | -           |
+| MPS IIID | Sanfilippo D   | ?          | ?             | .+++                 | -           |
+|----------+----------------+------------+---------------+----------------------+-------------|
+| MPS IVA  | Morquio A      | .+++       | +             | -                    | .+++        |
+| MPS IVB  | Morquio B      | .+++       | +             | -                    | .+++        |
+|----------+----------------+------------+---------------+----------------------+-------------|
+| MPS VI   | Maroteaux-Lamy | .+++       | .+++          | -                    | .+++        |
+| MPS VII  | Sly            | .+++       | ++            | .+++                 | +           |
+| MPS IX   |                | ?          | ?             | ?                    | ?           |
+| MSD      | Austin         | ++         | +             | .+++                 | ?           |
+
+** Metabolic Derangement
+- type of lysosomal storage disease
+- group of metabolic disorders caused by the absence or malfunctioning
+  of lysosomal enzymes needed to break down glycosaminoglycans (Table [[tab:mps]])
+- can be a result of decreased expression, stability, and activity of
+  one of the eleven enzymes required for glycosaminoglycans
+  degradation
+- GAGs collect in the cells, blood and connective tissues
+  - the result is permanent, progressive cellular damage which affects:
+    - appearance
+    - physical abilities
+    - organ and system functioning
+    - in most cases, mental development
+
+#+CAPTION[Glycosaminoglycan Degradation]: Glycosaminoglycan Degradation
+#+NAME: fig:degradation
+#+ATTR_LaTeX: :width 0.8\textwidth
+[[file:./mps/figures/ch16f9.jpg]]
+
+#+CAPTION[Mucopolysaccharidoses]:MPS Enzymes and Substrates
+#+NAME: tab:mps
+| MPS     | Name           | Enzyme                                     | GAG      | Assay       |
+|---------+----------------+--------------------------------------------+----------+-------------|
+| MPS I   | Hurler         | \alpha-iduronidase                         | HS,DS    | WBC         |
+|---------+----------------+--------------------------------------------+----------+-------------|
+| MPS II  | Hunter         | iduronate-2-sulfatase                      | HS,DS    | plasma      |
+|---------+----------------+--------------------------------------------+----------+-------------|
+| MPS III | Sanfilippo A   | heparan-N-sulfatase                        | HS       | WBC         |
+|         | Sanfilippo B   | N-acetyl glucosaminidase                   | HS       | plasma      |
+|         | Sanfilippo C   | acetyl-CoA glucosamine N-acetyltransferase | HS       | WBC         |
+|         | Sanfilippo D   | N-acetyl-glucosamine 6-sulfatase           | HS       | WBC         |
+|---------+----------------+--------------------------------------------+----------+-------------|
+| MPS IV  | Morquio A      | N-acetylgalactosamine 6-sulfatase          | KS,CS    | WBC         |
+|         | Morquio B      | \beta-galactosidase                        | KS       | WBC         |
+|---------+----------------+--------------------------------------------+----------+-------------|
+| MPS VI  | Maroteaux-Lamy | N-acetylgalactosamine 4-sulfatase          | DS       | WBC         |
+| MPS VII | Sly            | \beta-glucuronidase                        | DS,HS,CS | WBC         |
+| MPS IX  |                | hyaluronidase                              | HA       | fibroblasts |
+| MSD     | Austin         | formylglycine-generating enzyme            | HS,DS    | WBC         |
+
+
+** Genetics
+- AR
+- MPS II Hunter is X-linked
+
+** Diagnostic Testing
+- quantitation of urine GAGs (Table [[tab:mps]])
+  - dimethylmethylene blue dye binding assay (DMB)
+  - followed by two-dimensional electrophoresis for qualification of
+    the type of excreted GAGs
+  - false negatives reported
+  - LC-MSMS method favoured
+
+- positive screen is followed by analysis of the relevant enzyme
+  activity in leukocytes or cultured skin fibroblasts
+  - enzymatic studies are the gold standard necessary to establish a
+    final diagnosis
+- the Berry spot test lacks sufficient sensitivity and is generally
+  regarded as obsolete for screening for MPS
+
+- in a sulfatase deficiency, it is necessary to measure at least one
+  other sulfatase, in order to exclude multiple sulfatase deficiency
+  as the cause of the disease
+
+
+** Treatment
+- symptomatic care
+- HSCT - MPS I, II, VI
+  - not effective in III and IVA
+- ERT - MPS I, II, IVA
+- IV ERT does not cross the blood–brain barrier
+  - no neurocognitive effect

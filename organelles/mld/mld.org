@@ -63,7 +63,7 @@
   - p-nitrocatechol-sulfate 
 - pseudodeficiency is a major pitfall
   - homozygotes for a pd allele (1-2% of the European population)
-  - compound heterozygotes for a disease-causing mld and a pd allele
+  - compound heterozygotes for a disease-causing MLD and a PD allele
     have about 5-15% of normal ASA activity
     - no detectable clinical abnormality or pathology
 - deficient ASA activity is not diagnostic

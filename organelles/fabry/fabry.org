@@ -6,10 +6,11 @@
 - AKA: angiokeratoma corporis diffusum universale
 - second most common LSD
 - defect in *\alpha-galactosidase A (AKA: ceramide trihexosidase)*
-  - inability to cleave terminal galactose from the sphingolipid globotriaosylceramide Gb3 (Figure [[fig:sidase]]) 
+  - cleaves terminal galactose from globotriaosylceramide (Gb3)
+    (Figure [[fig:sidase]])
+  - accumulation of Gb3 in blood vessels and other tissues
+  - globotriaosylceramide (Gb3): the Fabry lipid (Figure [[fig:galac]])
   - 3 to 20% activity in hemizygote males
-- globotriaosylceramide (Gb3): the Fabry lipid (Figure [[fig:galac]])
-- lack of \alpha-GalA leads to accumulation of Gb3 in blood vessels and other tissues
   - wide range of symptoms including kidney, heart, and skin symptoms
   - \uparrow Gb3 in kidney and blood group B antigenic glycosphingolipid
 - \alpha-galactosidase A uses both sortilin and mannose receptor
