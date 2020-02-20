@@ -41,7 +41,7 @@
   - particularly in multi-organ disease with neurological involvement
   - when non-specific developmental disability is the only presenting sign
 - incidence 1:50,000 to 100,000 births
-- NB: O and GPI-linked CDGs not included here
+- *NB:* O and GPI-linked CDGs not covered here
 ** CDG classification
 - each CDG type is defined by a specific enzyme defect and the mutation in its underlying gene
 - most CDG mutations are hypomorphic - allow some glycan synthesis
@@ -234,6 +234,7 @@
   test for CDG
   - An abnormal result should be further investigated by serum
     transferrin IEF
+
 - HPLC-UV/Vis
 
 #+CAPTION[]:CDG diagnosis

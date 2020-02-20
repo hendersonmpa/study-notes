@@ -234,12 +234,12 @@
   - alanine, glutamate, glutamine, BCAA
   - urinary lactic, pyruvic, 2-ketoglutaric, BC 2-hydroxy & 2-ketoacids
 
-** Genetics and Diagnotic Testing
+** Genetics and Diagnostic Testing
 - DLD mutations AR
 - 13 unrelated patients revealed 14 unique mutations
 - blood lactate, pyruvate
 - plasma amino acids
 - urinary organic acids
-- Pattern of abnormalities not seen in all patients at all times
+- pattern of abnormalities not seen in all patients at all times
 
 
