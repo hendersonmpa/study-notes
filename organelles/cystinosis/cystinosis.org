@@ -4,11 +4,13 @@
 
 * Introduction
 - intralysosomal cystine is formed by protein catabolism in the organelle
-- normally exported by a cystine porter which contains a membrane protein, cystinosin
-- defects of this protein cause lysosomal accumulation of cystine
-- cysteamine can enter into the lysosome and combine with cystine
-  - This results in the formation of cysteine which can be exported by the cysteine porter
-  - the mixed disulfide, cysteine-cysteamine which can be exported by the lysine porter due to its structural analogy
+- normally exported by a cystine porter which contains the membrane protein cystinosin
+- defects in cystinosin cause lysosomal accumulation of cystine
+- cysteamine can enter into the lysosome and combine with cystine results in the formation of:
+  - cysteine
+    - exported by the cysteine porter
+  - cysteine-cysteamine
+    - exported by the lysine porter due to its structural analogy
 
 #+CAPTION[]: Lysosomal export of cystine and related compounds. The cross represents the defect in cystinosis
 #+NAME: fig:lysexport
@@ -20,72 +22,54 @@
 #+ATTR_LaTeX: :width 0.2\textwidth
 [[file:./cystinosis/figures/cystine.png]]
 
-- cystinosis is an autosomal-recessive generalized lysosomal storage
-  disease classified into three clinical phenotypes:
+- cystinosis is a lysosomal storage disease classified into three
+  clinical phenotypes:
   1) nephropathic or infantile - common form
   2) late-onset - rare milder form
   3) ocular - presence of cystine crystals in the eye and the bone
      marrow
-- nephropathic or infantile form is by far the most frequent
-- reported incidence of the disease is about 0,5–1:100,000 live births
-- first symptoms start at about 6 months of age with anorexia,
-  polyuria, failure to thrive and are secondary to a Fanconi proximal
-  renal tubulopathy
-- without treatment:
-  - renal disease progress to end stage renal disease between 6 and 12 years
-  - Survival beyond this age is associated with the development of
-    extrarenal complications in eyes, thyroid, gonads, endocrine
-    pancreas muscle and central nervous system
+- nephropathic or infantile form is by far the most frequent (see [[Infantile Cystinosis]])
 - late-onset or juvenile form and a benign or adult form are limited to the eyes
   - are caused by mutations of the same gene
-- lysosomal cystine accumulation leads to cellular dysfunction in many organs
-- disease is caused by mutations in CTNS coding for cystinosin, a
-  lysosomal cystine/proton symporter
-- diagnosis is ascertained by measurement of cystine in leukocytes
-- treatment is both supportive and specific, the latter based on
-  cysteamine, which effectively decreases intralysosomal cystine
-  accumulation
 
 * Infantile Cystinosis
-** First stage
-   - 3-6 months symptom free
-   - symptoms @ 12 months
-   - feeding difficulties, anorexia, vomiting, polyuria, constipation
-   - rickets @ 10-18 months
-   - urine cloudy w glucose and protein \to Fanconi syndrome
-   - normoglycemic glycosuria, generalized aminoaciduria, low
-     molecular-weight proteinuria
-     - \uparrow excretion of \beta2-microglobulin and lysozyme
-     - \downarrow reabsorption of phosphate with hypophosphatemia
-     - \uparrow losses of potassium, sodium and bicarbonate leading to
-       hypokalemia, hyponatremia and metabolic acidosis
-     - Hypercalciuria may lead to nephrocalcinosis and hypouricemia is constant
-     - Tubular loss of carnitine may cause carnitine depletion
-   - photophobia @ 2-3 years
-     - slit lamp reveals cystine crystals first year of life
+** Clinical Presentation
+*** First stage
+    - 3-6 months symptom free
+    - symptoms @ 12 months
+    - feeding difficulties, anorexia, vomiting, polyuria, constipation
+    - rickets @ 10-18 months
+    - urine cloudy w glucose and protein \to Fanconi syndrome
+    - normoglycemic glycosuria, generalized aminoaciduria, low
+      molecular-weight proteinuria
+      - \uparrow excretion of \beta2-microglobulin and lysozyme
+      - \downarrow reabsorption of phosphate with hypophosphatemia
+      - \uparrow losses of potassium, sodium and bicarbonate leading to
+	hypokalemia, hyponatremia and metabolic acidosis
+      - hypercalciuria may lead to nephrocalcinosis and hypouricemia is constant
+      - tubular loss of carnitine may cause carnitine depletion
+    - photophobia @ 2-3 years
+      - slit lamp reveals cystine crystals first year of life
 
-** End-stage renal failure
- - 6-12 years
- - delayed by cysteamine treatment 
-** Late symptoms
-- cystine accumulation affects:
-  - eyes, liver, spleen, pancreas, muscle and CNS
-** Late Ocular Complications
-- corneal deposits accumulate progressively in the stroma of the
-  cornea and iris in all patients and on the surface of the anterior
-  lens and retina in some
-- photophobia, watering and blepharospasm may become disabling
-  - photophobia may be prevented or cured by cysteamine eye drops
+*** End-stage renal failure
+  - 6-12 years
+  - delayed by cysteamine treatment 
+*** Late symptoms
+ - cystine accumulation affects:
+   - eyes, liver, spleen, pancreas, muscle and CNS
+*** Late Ocular Complications
+ - corneal deposits accumulate progressively
+ - photophobia, watering and blepharospasm may become disabling
+   - photophobia may be prevented or cured by cysteamine eye drops
 
-** Endocrine Disturbances
-
-- hypothyroidism
-- gonadal function - azoospermic
-- endocrine pancreas - insulin dependant diabetes
-- hepatomegaly and splenomegaly
-  - foam cells
-- myopathy
-- mild neurocognitive abnormalities
+*** Endocrine Disturbances
+ - hypothyroidism
+ - gonadal function - azoospermic
+ - endocrine pancreas - insulin dependant diabetes
+ - hepatomegaly and splenomegaly
+   - foam cells
+ - myopathy
+ - mild neurocognitive abnormalities
 
 
 ** Metabolic Derangement
@@ -93,24 +77,15 @@
   membrane
 - efflux of cystine out of cystinotic lysosomes is significantly
   decreased in comparison with normal lysosomes
-- cystine accumulates in many tissues including kidney, bone marrow,
-  conjunctiva, thyroid, muscle, choroid plexus, brain parenchyma and
-  lymph nodes
-- cystine accumulation in proximal tubular cells /in vitro/ is
-  associated with ATP depletion and inhibition of Na^+ dependent
-  transporters
+- lysosomal cystine accumulation leads to cellular dysfunction in many
+  tissues
+  - kidney, bone marrow, conjunctiva, thyroid, muscle, choroid plexus,
+    brain parenchyma and lymph nodes
 
 ** Genetics
 - AR, CTNS
-- integral membrane protein with 7 membrane spanning domains and two
-  lysosomal targeting signals
-- 100 mutations in the first 10 exons and in the promotor of the gene
-- most common is a 57 kb deletion - 76% of patients of European descent
-  - deletion encompasses the CARKL gene, encoding the enzyme sedoheptulokinase
-  - patients with homozygous 57kb deletion have elevated urinary sedoheptulose
 
 ** Diagnostic Tests
-
 - diagnosis of cystinosis is confirmed by:
   - leukocyte cystine levels (10–50 times normal values)
     - LC-MS/MS
@@ -124,5 +99,5 @@
 - supportive treatment of extrarenal complications
 *** Specific
 - cysteamine
-  - oral cysteamine bitartrate (Cystagon)
+  - oral cysteamine bitartrate (cystagon)
   - cysteamine eye drops

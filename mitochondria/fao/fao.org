@@ -40,8 +40,6 @@
   - long-chain :: C12-C20
   - medium-chain :: C6-C12
   - short-chain :: C4
-
-
 ** Mitochondrial fatty acid oxidation
 
 - involves three processes (Figure [[fig:box]])
@@ -107,7 +105,6 @@
  | Hydroxyacyl-CoA dehydrogenase, SC |   4-16 | \downarrow activity w \uparrow length |
  | Acetoacetyl-CoA thiolase          |      4 | Acetoacetyl-CoA specific              |
  | Trifunctional protein             |  12-16 | \uparrow activity w \uparrow length   |
-
 
 ** Common manifestations in FAODs
  - fasting hypoglycaemia is the classic metabolic disturbance in FAODs

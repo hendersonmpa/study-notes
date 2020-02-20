@@ -6,25 +6,23 @@
 * Introduction
 
 - almost all the secreted and membrane associated proteins of the body
-  are glycosylated, as well as numerous intracellular
-  proteins,including the lysosomal acid hydrolases
-- a great variety of oligosaccharide chains are attached to the
-  protein backbone via:
+  are glycosylated
+  - also numerous intracellular such as lysosomal acid hydrolases
+- a variety of oligosaccharide chains are attached to the protein
+  backbone via:
   - the hydroxyl group of serine or threonine (O-linked)
   - via the amide group of asparagine (N-linked)
 
 - chains usually have a core composed of N-acetylglucosamine and mannose
-- often contain galactose, fucose and N-acetylgalactosamine
-- frequently terminal sialic acids (N-acetylneuraminic acid)
+  - often contain galactose, fucose and N-acetylgalactosamine
+  - frequently terminal sialic acids (N-acetylneuraminic acid)
 - oligosaccharide chains with a terminal mannose-6-phosphate are
   involved in the targeting of lysosomal enzymes to lysosomes
-- this recognition marker is synthesised in two steps from UDP-N-acetylglucosamine
-
+  - defects in synthesis of the M6P recognition marker \to
+    mislocalisation of lysosomal enzymes
 - deficiencies of the enzymes required for the degradation of the
-  oligosaccharide chains cause oligosaccharidoses (glycoprotein storage diseases)
+  oligosaccharide chains cause oligosaccharidoses
 
-- defects of the synthesis of the mannose-6-phosphate recognition
-  marker result in the mislocalisation of lysosomal enzymes
 
 
 #+CAPTION[]:Glycoprotein Oligosaccharide Chain
@@ -32,34 +30,65 @@
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./oligosaccharidoses/figures/oligosacch.png]]
 
-* Disorders
+* Oligosaccharidoses
+** Clinical Presentation
+ - oligosaccharidoses share many features in common with MPS disorders (Table [[tab:oligo]])
+   - the urine GAG screen is normal or only shows nonspecific
+     abnormalities
 
-** Mannosidosis
-- deficiency of \alpha-mannosidase \to variable disorder \alpha-mannosidosis. 
-- mild Hurler phenotype
-  - variable learning difficulties
-  - hepatosplenomegaly
-  - deafness
-  - skeletal dysplasia
-- complicated by an immune deficiency which can dominate the clinical progression of the disease
+#+CAPTION[]:Oligosaccharidoses
+#+NAME: tab:oligo
+ | Disease            | enzyme             | dysostosis | progressive | angio-   | hepato         | sample      |
+ |                    |                    | multiplex  | cognitive   | keratoma | -splenomegally |             |
+ |--------------------+--------------------+------------+-------------+----------+----------------+-------------|
+ | \alpha-mannosidase | \alpha-mannosidase | ++         | +           | -        | +              | WBC         |
+ | \beta-mannosidase  | \beta-mannosidase  | +          | .+++        | -        | +              | WBC         |
+ | fucosidosis        | fucosidase         | +          | ++          | .+++     | -              | WBC         |
+ | galactosialidosis  | PPCA               | ++         | ++          | -        | +              | Fibro & DNA |
 
-- \beta-mannosidosis, deficiency of \beta-mannosidase,
-  - is much less prevalent than \alpha-mannosidosis
-  - and is very variable, but severe learning difficulties,
-    challenging behaviour, deafness and frequent infections are
-    relatively common
+*** Mannosidosis
+ - deficiency of \alpha-mannosidase \to variable disorder \alpha-mannosidosis
+ - mild Hurler phenotype
+   - variable learning difficulties
+   - hepatosplenomegaly
+   - deafness
+   - skeletal dysplasia
+ - complicated by an immune deficiency which can dominate the clinical
+   progression of the disease
 
-** Fucosidosis
-- lack the typical facial dysmorphism
-- deficiency of \alpha-fucosidase \to variable neurodegenerative disorder
-- often with seizures and mild dysostosis
-- often exhibit prominent and widespread angiokeratomas, progress with age
+ - \beta-mannosidosis, deficiency of \beta-mannosidase,
+   - is much less prevalent than \alpha-mannosidosis
+   - and is very variable, but severe learning difficulties,
+     challenging behaviour, deafness and frequent infections are
+     relatively common
 
-** Galactosialidosis
-- combined deficiency of the lysosomal enzymes \beta-galactosidase and \alpha-neuraminidase
-- results from a defect in protective protein/cathepsin A (PPCA)
-- an intralysosomal protein which protects these enzymes from premature proteolytic processing
-- presentation includes:
-  - hydrops fetalis as well as a more slowly progressive disorder
-    associated with learning difficulties, dysostosis multiplex and corneal opacity
+*** Fucosidosis
+ - lack the typical facial dysmorphism
+ - deficiency of \alpha-fucosidase \to variable neurodegenerative disorder
+ - often with seizures and mild dysostosis
+ - often exhibit prominent and widespread angiokeratomas, progress with age
 
+*** Galactosialidosis
+ - combined deficiency of the lysosomal enzymes \beta-galactosidase and
+   \alpha-neuraminidase
+ - results from a defect in protective protein/cathepsin A (PPCA)
+   - an intralysosomal protein which protects these enzymes from
+     premature proteolytic processing
+ - presentation varies from:
+   - hydrops fetalis
+   - slowly progressive disorder associated with learning
+     difficulties, dysostosis multiplex and corneal opacity
+
+
+** Genetics
+ - AR
+** Diagnostic Tests
+- clinical suspicion
+- urine oligosaccharide excretion
+  - 1D TLC
+  - treated with orcinol reagent and heated to 100C to visualize
+- usually normal urine GAGs
+- enzyme activity assays (Table [[tab:oligo]])
+
+** Treatment
+- supportive

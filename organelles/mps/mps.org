@@ -168,24 +168,24 @@
 
 #+CAPTION[Mucopolysaccharidoses]:MPS Enzymes and Substrates
 #+NAME: tab:mps
-| MPS     | Name           | Enzyme                                     | GAG      | Assay       |
-|---------+----------------+--------------------------------------------+----------+-------------|
-| MPS I   | Hurler         | \alpha-iduronidase                         | HS,DS    | WBC         |
-|---------+----------------+--------------------------------------------+----------+-------------|
-| MPS II  | Hunter         | iduronate-2-sulfatase                      | HS,DS    | plasma      |
-|---------+----------------+--------------------------------------------+----------+-------------|
-| MPS III | Sanfilippo A   | heparan-N-sulfatase                        | HS       | WBC         |
-|         | Sanfilippo B   | N-acetyl glucosaminidase                   | HS       | plasma      |
-|         | Sanfilippo C   | acetyl-CoA glucosamine N-acetyltransferase | HS       | WBC         |
-|         | Sanfilippo D   | N-acetyl-glucosamine 6-sulfatase           | HS       | WBC         |
-|---------+----------------+--------------------------------------------+----------+-------------|
-| MPS IV  | Morquio A      | N-acetylgalactosamine 6-sulfatase          | KS,CS    | WBC         |
-|         | Morquio B      | \beta-galactosidase                        | KS       | WBC         |
-|---------+----------------+--------------------------------------------+----------+-------------|
-| MPS VI  | Maroteaux-Lamy | N-acetylgalactosamine 4-sulfatase          | DS       | WBC         |
-| MPS VII | Sly            | \beta-glucuronidase                        | DS,HS,CS | WBC         |
-| MPS IX  |                | hyaluronidase                              | HA       | fibroblasts |
-| MSD     | Austin         | formylglycine-generating enzyme            | HS,DS    | WBC         |
+| MPS     | Name           | Enzyme                                     | GAG      | Assay  |
+|---------+----------------+--------------------------------------------+----------+--------|
+| MPS I   | Hurler         | \alpha-iduronidase                         | HS,DS    | WBC    |
+|---------+----------------+--------------------------------------------+----------+--------|
+| MPS II  | Hunter         | iduronate-2-sulfatase                      | HS,DS    | plasma |
+|---------+----------------+--------------------------------------------+----------+--------|
+| MPS III | Sanfilippo A   | heparan-N-sulfatase                        | HS       | WBC    |
+|         | Sanfilippo B   | N-acetyl glucosaminidase                   | HS       | plasma |
+|         | Sanfilippo C   | acetyl-CoA glucosamine N-acetyltransferase | HS       | WBC    |
+|         | Sanfilippo D   | N-acetyl-glucosamine 6-sulfatase           | HS       | WBC    |
+|---------+----------------+--------------------------------------------+----------+--------|
+| MPS IV  | Morquio A      | N-acetylgalactosamine 6-sulfatase          | KS,CS    | WBC    |
+|         | Morquio B      | \beta-galactosidase                        | KS       | WBC    |
+|---------+----------------+--------------------------------------------+----------+--------|
+| MPS VI  | Maroteaux-Lamy | N-acetylgalactosamine 4-sulfatase          | DS       | WBC    |
+| MPS VII | Sly            | \beta-glucuronidase                        | DS,HS,CS | WBC    |
+| MPS IX  |                | hyaluronidase                              | HA       | fibro  |
+| MSD     | Austin         | formylglycine-generating enzyme            | HS,DS    | WBC    |
 
 
 ** Genetics

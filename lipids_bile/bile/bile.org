@@ -60,7 +60,6 @@
 #+ATTR_LaTeX: :width 1.0\textwidth
 [[file:./bile/figures/bile_synth.png]]
 
-
 * 3\beta-dehydrogenase deficiency
 ** Clinical presentation
 - present with
