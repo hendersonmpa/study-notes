@@ -31,23 +31,17 @@
 
 * Carbohydrate Metabolism
 #+INCLUDE: "./carbohydrate_metabolism/carbohydrate_metabolism.org" :lines "4-"
-
-* Galactose Metabolism
+* Galactose
 #+INCLUDE: "./galactose/galactose.org" :lines "4-"
-
-* Hepatic Glycogenoses
-#+INCLUDE: "./hepatic_glycogenoses/hepatic_glycogenoses.org" :lines "4-"
-
-* Muscle Cardiac Glycogenoses
-#+INCLUDE: "./muscle_cardiac_glycogenoses/muscle_cardiac_glycogenoses.org" :lines "4-"
-
-* Glycolysis and PPP 
-#+INCLUDE: "./glycolysis_ppp/glycolysis_ppp.org" :lines "4-"
 * Fructose
 #+INCLUDE: "./fructose/fructose.org" :lines "4-"
-
+* Glycolysis and PPP 
+#+INCLUDE: "./glycolysis_ppp/glycolysis_ppp.org" :lines "4-"
 * Insulin
 #+INCLUDE: "./insulin/insulin.org" :lines "4-"
-
 * Glucose Transport
 #+INCLUDE: "./glucose_transport/glucose_transport.org" :lines "4-"
+* Hepatic GSDs
+#+INCLUDE: "./hepatic_glycogenoses/hepatic_glycogenoses.org" :lines "4-"
+* Muscle GSDs
+#+INCLUDE: "./muscle_cardiac_glycogenoses/muscle_cardiac_glycogenoses.org" :lines "4-"

@@ -3,9 +3,8 @@
 #+DATE: \today
 
 * Introduction
-** Glucose Transporters
  - glucose is hydrophilic \therefore cannot easily cross cell membrane
- - transporters exist in almost all cell types
+ - transporters exist in almost all cell types (Table [[tab:glut]])
  - glucose transporter proteins can be divided into two groups:
    1. sodium-dependent glucose transporters (SGLTs)
       - symporter systems, active transporters encoded by members of
@@ -15,24 +14,40 @@
    2. facilitative glucose transporters (GLUTs)
       - uniporter systems, passive transporters encoded by members of the SLC2 gene family
       - transport glucose \downarrow [gradient]
+ - clinical picture of monosaccharide transporters depends on tissue-specific expression and
+   substrate specificity of the affected transporter
 
  #+CAPTION[glucose transporters]:Glucose Transporters
- #+NAME: fig:glut
+ #+NAME: tab:glut
  #+ATTR_LaTeX: :width 1.0\textwidth
  [[file:./glucose_transport/figures/glut.png]]
 
-** Congenital Defects of Glucose Transporters
- - five congenital defects of monosaccharide transporters
- - clinical picture depends on tissue-specific expression and
-   substrate specificity of the affected transporter
+#+CAPTION[GLUTS]:GLUTS
+#+NAME: tab:glut
+| Transporter | Distribution          | Comments                               |
+|-------------+-----------------------+----------------------------------------|
+| GLUT1       | erythrocyte           | barrier cells                          |
+|             | brain barrier         | \uparrow affinity transporter          |
+|             | retina barrier        |                                        |
+|             | placenta barrier      |                                        |
+|             | testis barrier        |                                        |
+|-------------+-----------------------+----------------------------------------|
+| GLUT2       | Liver                 | \uparrow capacity, \downarrow affinity |
+|             | Kidney                | may be glucose sensor                  |
+|             | Pancreatic \beta-cell | in pancreas                            |
+|             | intestine             |                                        |
+|-------------+-----------------------+----------------------------------------|
+| GLUT3       | Neurons               | \uparrow affinity  transporter in CNS  |
+|-------------+-----------------------+----------------------------------------|
+| GLUT4       | Adipose               | insulin sensitive transport            |
+|             | Skeletal muscle       | \uparrow insulin \to \uparrow number  |
+|             | Heart muscle          | \uparrow affinity                      |
+|-------------+-----------------------+----------------------------------------|
+| GLUT5       | Intestinal epithelium | fructose transport                     |
+|             | spermatozoa           |                                        |
 
-   1. SGLT1 : Congenital Glucose/Galactose Malabsorption
-   2. SGLT2 : Renal Glucosuria
-   3. GLUT1 : Glucose Transporter-1 Deficiency
-   4. GLUT2 : Fanconi-Bickel Syndrome
-   5. GLUT10 : Arterial Tortuosity Syndrome
-
-* Congenital Glucose/Galactose Malabsorption (SGLT1 Deficiency)
+* Congenital Glucose/Galactose Malabsorption
+- SGLT1 deficiency
 - SGLT1 is a high-affinity, low-capacity sodium-dependent transporter
   of the two monosaccharides, at the brush border of enterocytes
 - SGLT1 deficiency \to intestinal glucose-galactose malabsorption
@@ -43,7 +58,8 @@
   - patients die from hypovolaemic shock
 - treatment is a glucose and galactose free diet
 
-* Renal Glucosuria (SGLT2 Deficiency)
+* Renal Glucosuria
+- SGLT2 deficiency
 - SGLT2 is the major co-transporter involved in glucose reabsorption in
   the kidney
 - SGLT2 deficiency results in isolated renal glucosuria
@@ -52,69 +68,52 @@
     - normal blood glucose concentrations
     - absence of any other signs of renal tubular dysfunction
 
-* Glucose Transporter-1 Deficiency (GLUT1 Deficiency)
+* GLUT1 Deficiency
 - GLUT1 is a membrane-spanning, glycosylated protein that facilitates
   glucose transport across the blood-brain barrier
   - low CSF glucose concentration (hypoglycorrhachia)
-
 - clinical symptoms include: microcephaly, epileptic encephalopathies,
   paroxysmal movement disorders, tremor
 - haemolytic anaemia has also been observed
-
-- AD and AR inheritance described, SLC2A1
-
+- AD and AR (rare) inheritance described SLC2A1
 - GLUT1D should be suspected in any child with a CSF glucose
   concentration \lt 2.5 mmol/L 
-  - normal \gt 3.3 mmol/L
-
 - CSF to blood glucose ratio \lt 0.5 
-  - normal \gt 0.6
-  - in the absence of hypoglycaemia or a CNS infection is diagnostic.
+  - in the absence of hypoglycaemia or a CNS infection is diagnostic
 - ketogenic diet is used in treatment
 
-* Fanconi-Bickel Syndrome (GLUT2 Deficiency)
-
-- GLUT2 is a high-K_M monosaccharide carrier 
+* Fanconi-Bickel Syndrome 
+- GLUT2 deficiency
+- GLUT2 is a high K_M monosaccharide carrier 
   - located in hepatocytes
   - basolateral membrane of cells in the proximal tubule
   - pancreatic \beta-cells
-
 - typically presents with a combination of increased hepatic
   glycogen storage, generalised renal tubular dysfunction, severe glucosuria
-
 - in FBS GLUT2 acts as a malfunctioning glucose sensor:
-  - in the fasted state, [glucose] and [G-6-P] are inappropriately \uparrow in hepatocytes
+  - in the fasted state [glucose] and [G-6-P] are inappropriately \uparrow in hepatocytes
   - stimulates glycogen synthesis, inhibits gluconeogenesis and glycogenolysis
   - predisposes to hypoglycaemia and hepatic glycogen accumulation
-
-- very rare AR, SLC2A2
-
+- AR SLC2A2 very rare
 - diagnosis suggested by the characteristic combination of an altered
   glucose homeostasis, hepatic glycogen accumulation, and the typical
   features of a Fanconi-type tubulopathy
-
 - elevated biotinidase activity in serum has been found to be a useful
   screening test for hepatic glycogen storage disorders including FBS
-
 - only symptomatic treatment is available
 
-* Arterial Tortuosity Syndrome (GLUT10 Deficiency)
-
+* Arterial Tortuosity Syndrome
+- GLUT10 deficiency
 - GLUT10 function not entirely clear:
   - localizes to mitochondria of smooth muscle and insulin-stimulated adipocytes
   - facilitates transport of dehydroascorbic acid (DHA) the
     oxidized form of vitamin C into mitochondria
-
 - GLUT10 deficiency is characterised by hyperelastic connective tissue
   and generalised tortuosity and elongation of all major arteries
   including the aorta
-
 - presents with acute infarction owing to ischaemic stroke or an
   increased risk of thromboses
-- Aortic regurgitation and multiple pulmonary artery stenoses are
-  typical intrathoracic manifestations
 - closely resembles a connective tissue disorder in presentation
-
-- rare, AR ,SLC2A10
+- AR SLC2A10 rare
 - echocardiography, angiography, and/or CT scan are important to demonstrate vascular changes
 - diagnosis is based on molecular genetic methods

@@ -5,7 +5,7 @@
 * Introduction
 #+CAPTION[]:Glycolysis and PPP
 #+NAME: fig:glyc_ppp
-#+ATTR_LaTeX: :width 1.0\textwidth
+#+ATTR_LaTeX: :width 1.2\textwidth
 [[file:./glycolysis_ppp/figures/glyc_ppp.png]]
 
 ** Glycolysis 
@@ -15,17 +15,23 @@
 - first five steps are the preparatory phase
   - consumes ATP to convert glucose into two, three-carbon sugar
     phosphate molecules
-- the other five steps produce ATP and NADH 
+    - glyceraldehyde-3-P and dihydroxyacetone-P
+- final five steps produce ATP and NADH 
+
+- glucose-6-phosphate can also be formed by the conversion of the
+  glycogen derived glucose-1-phosphate
+  - a reaction catalysed by phosphoglucomutase (PGM)
+  - PGM1 deficiency causes CDG-Ia
 
 ** Pentose Phosphate Pathway
-- Two phases
+- two phases
 *** Oxidative Phase
 - glucose 6-P \to NADPH + ribose 5-P
 - glucose 6-P dehydrogenase catalyses first step
 - NADPH is for reducing reactions
   - NADPH/NADP^{+} \gt\gt\gt NADH/NAD^{+}
   - NADH is rapidly converted to NAD^{+} in the ETC
-*** Non-oxidative Phase
+*** Non-Oxidative Phase
 - reversible rxns
 - convert glycolytic intermediates to 5 carbon sugars
 
@@ -52,50 +58,39 @@
   - 8 inherited as an autosomal recessive trait
   - X-linked phosphoglycerate kinase and glycerol kinase deficiencies
 
-- hexokinase (HK), glucose-6-phosphate isomerase (GPI) and pyruvate
-  kinase (PKD) deficiencies cause severe haemolytic anaemia
-
-- muscle phosphofructokinase (PFKM), aldolase A, triosephosphate
-  isomerase (TPI) and phosphoglycerate kinase (PGK) deficiencies are
-  characterized by haemolytic anaemia alone or coupled with
-  neurological disease and/or myopathy
-
-- phosphoglycerate mutase (PGAM), enolase and lactate dehydrogenase
-  (LDH) deficiencies present with a purely myopathic syndrome
-  - characterized by exercise induced cramps and myoglobinuria
+- severe haemolytic anaemia:
+  - hexokinase (HK)
+  - glucose-6-phosphate isomerase (GPI)
+  - pyruvate kinase (PKD) 
+- characterized by haemolytic anaemia \pm neurological disease \pm
+  myopathy:
+  - muscle phosphofructokinase (PFKM)
+  - aldolase A
+  - triosephosphate isomerase (TPI)
+  - phosphoglycerate kinase (PGK)
+ 
+- purely myopathic syndrome characterized by exercise induced cramps
+  and myoglobinuria:
+  - phosphoglycerate mutase (PGAM)
+  - enolase
+  - lactate dehydrogenase (LDH) 
 
 - glycerol kinase deficiency (GKD) is either an isolated condition
-  with hypoglycaemia and acidosis or part of a contiguous
-  gene deletion where it also associated with congenital adrenal
-  hypoplasia and/or Duchenne muscular dystrophy
-
-- glucose-6-phosphate can also be formed by the conversion of the
-  glycogen derived glucose-1-phosphate
-
-  - a reaction catalysed by
-    phosphoglucomutase (PGM). PGM1 deficiency is a CDG
+  with hypoglycaemia and acidosis or part of a contiguous gene
+  deletion where it also associated with congenital adrenal hypoplasia
+  and/or Duchenne muscular dystrophy
 
 ** PPP Disorders
-
-- four inborn errors in the pentose phosphate pathway (PPP) are known
-- glucose-6-phosphate dehydrogenase deficiency is an X-linked defect
-  in the first, irreversible step of the pathway
-  - An exclusively haematological disorder
-- ribose-5-phosphate isomerase (RPI) deficiency has been described in one patient
-  - presented with developmental delay and a slowly progressive leukoencephalopathy
-- transaldolase (TALDO) deficiency often presents in the neonatal or
-  antenatal period with hepatosplenomegaly, \downarrow liver function,
-  hepatic fibrosis and anaemia
-- transketolase (TKT) deficiency presents with short stature,
-  developmental delay and congenital heart defects
-
-** PPP Disorders
-- sedoheptulokinase (SHPK) deficiency, a defect related to the PPP has
-  been described as an isolated disorder and also as part of a 57-kb
-  deletion in nephropathic cystinosis
-- essential pentosuria is the result of a partial deficiency of
-  L-xylulose reductase (xylitol dehydrogenase) an enzyme of the
-  glucuronic acid pathway
-  - affected individuals excrete large amounts of L-xylulose in urine
-  - benign disorder that occurs almost exclusively in Jewish people
+  - glucose-6-phosphate dehydrogenase deficiency :: an X-linked defect
+       in the first irreversible step of the pathway
+    - exclusively haematological disorder
+  - ribose-5-phosphate isomerase (RPI) deficiency :: described in one
+       patient who presented with developmental delay and a slowly
+       progressive leukoencephalopathy
+  - transaldolase (TALDO) deficiency :: often presents in the neonatal
+       or antenatal period
+    - hepatosplenomegaly, \downarrow liver function, hepatic fibrosis
+      and anaemia
+  - transketolase (TKT) deficiency :: presents with short stature,
+       developmental delay and congenital heart defects
 

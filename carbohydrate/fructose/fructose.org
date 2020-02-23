@@ -8,48 +8,21 @@
 - pathway composed of fructokinase, aldolase B and triokinase
 - aldolase B is also involved in the glycolytic-gluconeogenic pathway
 
-** Disorders of Fructose Metabolism
-- three inborn errors are known in the pathway of fructose metabolism
-- essential fructosuria is a harmless anomaly
-  - characterised by the appearance of fructose in the urine after the
-    intake of fructose-containing food
-- hereditary fructose intolerance (HFI)
-  - fructose may provoke prompt gastrointestinal discomfort and hypoglycaemia upon ingestion
-  - fructose may cause liver and kidney failure when taken persistently,
-  - IV fructose can be lethal
-- fructose-1,6-bisphosphatase (FBPase) deficiency
-  - considered an inborn error of fructose metabolism although, it is
-    a defect of gluconeogenesis
-  - hypoglycaemia and lactic acidosis (neonatally, or later during
-    fasting or induced by fructose)
-  - may be life-threatening
-
-#+CAPTION[Fructose]:Fructose Metabolism: The three enzyme defects in fructose metabolism are boxed and depicted by solid bars across the arrows; the diminished activity of aldolase B toward fructose-1,6-bisphosphate is depicted by a broken bar
-#+NAME: fig:fruct
-#+ATTR_LaTeX: :width 1.0\textwidth
-[[file:./fructose/figures/fructose.png]]
-
 * Essential Fructosuria
 ** Clinical Presentation
 - rare non-disease
-- detected a when test urine is tested for reducing substances
-- deficiency in Fructokinase
+- incidental finding due to positive urine reducing substances 
+- deficiency in fructokinase
 ** Metabolic Derangement
 - 10-20% of ingested fructose is excreted in urine
 - remainder is slowly metabolised in adipose tissue and muscle
 ** Genetics
-- AR, 1:130,000 (underestimate)
-- KHK undergoes tissue specific alternative splicing
-  - two isoforms
-    - ketohexokinase A, widely expressed, no clear role
-    - ketohexokinase C, adult liver, kidney and small intestine
-      - affected in essential fructosuria
-  - only 2 mutations found
+- AR KHK
 ** Diagnosis and Treatment
 - \uparrow reducing substances in urine
 - glucose oxidase negative
 - fructosuria is dependant on fructose intake
-- no treatent required
+- no treatment required
 - prognosis is excellent
 
 * Hereditary Fructose Intolerance
@@ -57,15 +30,14 @@
 - perfectly healthy as long as they do not ingest food containing
   fructose, sucrose and/or sorbitol
 - no metabolic derangement occurs during breast-feeding
-- younger the child and the higher the dietary fructose load, the more
+- younger the child and the higher the dietary fructose load the more
   severe the reaction
 - first symptoms appear with the intake of fruits and vegetables or
   fructose containing formula
   - gastrointestinal discomfort, nausea, vomiting, restlessness,
-    pallor, sweating, trembling, lethargy and, eventually, apathy,
-    coma, jerks and convulsion
-- laboratory tests indicate acute liver failure and generalised
-  dysfunction of the renal proximal tubules
+    pallor, sweating, trembling, lethargy
+  - coma and convulsions
+- acute liver failure and renal proximal tubule damage
 - hypoglycaemia after fructose ingestion is short-lived and can be
   easily missed or masked by concomitant glucose intake
 - food aversions form
@@ -74,9 +46,9 @@
   life span
 
 ** Metabolic Derangement
-- HFI is caused by deficiency of the second enzyme of the fructose
-  pathway, aldolase B
-  - splits fructose-1-phosphate (F-1-P) into dihydroxyacetone phosphate(DHA-P) and glyceraldehyde(GAH)
+- HFI is caused by aldolase B deficiency
+  - second enzyme of the fructose pathway
+  - splits fructose-1-phosphate (F-1-P) into dihydroxyacetone phosphate (DHA-P) and glyceraldehyde (GAH)
 - high activity of fructokinase after intake of fructose results in
   accumulation of F-1-P and trapping of phosphate
 - two major effects:
@@ -86,35 +58,35 @@
   2. overutilization and diminished regeneration of ATP
      - depletion of ATP results in an increased production of uric acid
      - a release of magnesium
-     - a series of other disturbances, including impaired protein
-       synthesis and ultrastructural lesions are responsible for
+     - impaired protein synthesis and ultrastructural lesions \to
        hepatic and renal dysfunction
-- glycolysis and gluconeogenesis are not impaired in the fasted state in HFI patients due to activity of aldolase A
-- same process happens in IV fructose to normal patients
-- the use of fructose, sorbitol and invert sugar has been strongly discouraged for parenteral nutrition in general
+- glycolysis and gluconeogenesis are not impaired in the fasted state
+  in HFI patients due to activity of aldolase A
 
 ** Genetics
-- AR
-- three aldolase genes
-  - B is the major fructaldolase of liver, renal cortex, and small intestine
-  - A muscle
-  - C brain
+- AR ALDOB
 
-** Diagnosis and Treatment
+** Diagnostic Testing
 - nutritional history
-- response to fructose withdrawl
+- renal tubule damage
+  - \uparrow glucose in urine
+  - \uparrow albumin in urine
+  - \uparrow amino acids in urine
+- response to fructose withdrawal
 - first tier molecular diagnosis
 - second tier (no mutations) \to enzymatic
 - liver biopsy Aldo B activity
   - false low Aldo B secondary to liver damage
+
+** Treatment
 - acute intoxication may require treatment with fresh frozen plasma
 - remove fructose, sucrose and sorbitol from diet
-- prognosis on diet is excellent with normal growth,
-  intelligence and life span
+- prognosis on diet is excellent with normal growth, intelligence and
+  life span
 
 * Fructose-1,6-Bisphosphatase Deficiency
 ** Clinical Presentation
-- 1/2 present in the first 1-4 days of life
+- 50% present in the first 1-4 days of life
   - severe hyperventilation
     - lactic acidosis
     - hypoglycaemia
@@ -125,22 +97,21 @@
 ** Metabolic Derangement
 - deficiency of hepatic FBPase, key enzyme in gluconeogenesis
   - impairs the formation of glucose from all gluconeogenic precursors including dietary fructose
-- normoglycaemia in patients is dependent on glucose (and galactose)
+- normoglycaemia in patients is dependent on glucose and galactose
   intake and degradation of hepatic glycogen
 - hypoglycaemia occurs when glycogen reserves are limited (newborns, fasting)
 - accumulation of the gluconeogenic substrates lactate, pyruvate, alanine, and glycerol
 ** Genetics
-- AR
-- liver isoform, FBP1 gene
-- 35 mutations in all regions of the gene have been published
+- AR FBP1
 
 ** Diagnosis
 - plasma during acute episodes
-  - \uparrow lactate (up to 15–25 mM)
+  - \Uparrow lactate
   - \downarrow pH
-  - \uparrow lactate/pyruvate ratio (up to 40)
+  - \Uparrow lactate/pyruvate ratio
   - hyperalaninaemia
   - \uparrow glycerol which may mimic hypertriglyceridaemia
+    - glycerol based trigs assays
   - glucagon-resistant hypoglycaemia
   - \uparrow free fatty acids and uric acid
 - urinary analysis reveals
@@ -150,18 +121,18 @@
 - molecular analysis on DNA from peripheral leukocytes
 - if no mutations found
   - enzymatic activity in a liver biopsy
-  - the residual activity may vary from zero to 30% of normal
+  - the residual activity may vary from 0 to 30% of normal
 
-** Differential Diagnosis
-- other disturbances in gluconeogenesis and pyruvate oxidation should be considered:
-  1) pyruvate dehydrogenase deficiency characterised by a low
-     lactate/pyruvate ratio, absence of hypoglycaemia and aggravation
-     of lactic acidosis by glucose infusion
-  2) pyruvate carboxylase deficiency
-  3) respiratory chain disorders
-  4) glycogenosis type Ia and Ib presenting with the same metabolic profile
-     - fasting hypoglycaemia and lactic acidosis and hepato-nephromegaly, hyperlipidaemia, and hyperuricaemia
-  5) fatty acid oxidation defects presenting with fasting hypoketotic hypoglycaemia and hyperlactataemia
+*** Differential Diagnosis
+ - other disturbances in gluconeogenesis and pyruvate oxidation should be considered:
+   1) pyruvate dehydrogenase deficiency characterised by a low
+      lactate/pyruvate ratio, absence of hypoglycaemia and aggravation
+      of lactic acidosis by glucose infusion
+   2) pyruvate carboxylase deficiency
+   3) respiratory chain disorders
+   4) GSD Ia presenting with the same metabolic profile
+      - fasting hypoglycaemia and lactic acidosis and hepato-nephromegaly, hyperlipidaemia, and hyperuricaemia
+   5) fatty acid oxidation defects presenting with fasting hypoketotic hypoglycaemia and hyperlactataemia
 
 ** Treatment
 - acute life-threatening episodes should be treated with an IV bolus

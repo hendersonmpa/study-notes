@@ -3,22 +3,23 @@
 #+DATE: \today
 
 * Introduction
-#+CAPTION[]:Carbohydrate Digestions
-#+NAME: fig:chod
-#+ATTR_LaTeX: :width 0.4\textwidth
-[[file:./carbohydrate_metabolism/figures/carb_digest.pdf]]
 
-#+CAPTION[]:Major Pathways of Glucose Metabolism
-#+NAME: fig:glucpath
-#+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./carbohydrate_metabolism/figures/glucose_pathways.pdf]]
+#+CAPTION[]: Monosaccharide
+#+NAME: fig:ms
+#+ATTR_LaTeX: :width 1\textwidth
+https://www.sparknotes.com/health/carbohydrates/section1/
 
-#+CAPTION[]:Conversion of Glucose
-#+NAME: fig:cgluc
-#+ATTR_LaTeX: :width 0.45\textwidth
-[[file:./carbohydrate_metabolism/figures/glucose_conversion.pdf]]
+#+CAPTION[]:Disaccharides
+#+NAME: fig:ds
+#+ATTR_LaTeX: :width 1\textwidth
+https://www.sciencedirect.com/topics/nursing-and-health-professions/glycosidic-bond
 
-* Regulation
+#+CAPTION[]:Carbohydrate metabolism
+#+NAME: fig:cho
+#+ATTR_LaTeX: :width 1\textwidth
+[[file:./carbohydrate_metabolism/figures/Slide09.png]]
+
+* COMMENT Regulation
 ** Major Hormones of Metabolic Homeostasis
 - *Insulin* is the main anabolic hormone
   - promotes use of glucose as fuel
@@ -32,13 +33,13 @@
   - stimulates glycogenolysis
   - stimulates gluconeogenesis from lactate, glycerol and AAs
   - mobilizing FAs from adipose TAGs
-  - acts on liver and adipose, muscle has no receptor
+  - acts on liver and adipose
+    - muscle has no glucagon receptor
 
 #+CAPTION[]:Glucose Homeostasis
 #+NAME: fig:homeo
 #+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./carbohydrate_metabolism/figures/regulation.pdf]]
-
 
 #+CAPTION[Insuline and Counterregulatory]:Insulin and Counterregulatory Hormones
 #+NAME: tab:inreg
@@ -66,7 +67,7 @@
 #+ATTR_LaTeX: :width 1.0\textwidth
 [[file:./carbohydrate_metabolism/figures/counter_hormones.pdf]]
 
-* Transport
+* COMMENT Transport
 ** Absorption from the Intestine
 - NA-dependent transporter
   - transport glucose \uparrow the concentration gradient
@@ -107,7 +108,7 @@
 | GLUT5       | Intestinal epithelium | fructose transport                     |
 |             | spermatozoa           |                                        |
 
-* Glycogen
+* COMMENT Glycogen
 - glycogen is the storage form of glucose found in glycogen particles
 - large polymer of branched glucose polysaccharide
 - composed of glucosyl chains linked by \alpha-1-4-glycosidic bonds
@@ -165,7 +166,7 @@
 |          | \uparrow cAMP        | \downarrow synthesis      |
 |          | \downarrow AMP       | \downarrow degradation    |
 
-* Sugar Metabolism Pathways
+* COMMENT Sugar Metabolism Pathways
 - fructose
 - galactose
 - pentose phosphate pathway
@@ -203,14 +204,14 @@
     - deoxynucleotide
     - superoxide
 
-* Synthesis
+* COMMENT Synthesis
 - sugars are activated by addition of nucleotides
 - uridine diphosphate (UDP)-glucose is a precusor of:
   - glycogen, lactate, UDP-glucuronate
   - CHO chains in proteoglycans glycoproteins and glycolipids
 - polyol pathway is a two-step process that converts glucose to
   fructose
-  - glucose is reduced to sorbitol, which is oxidized to fructose
+  - glucose is reduced to sorbitol which is oxidized to fructose
 
 #+CAPTION[]: UDP-glucose metabolism
 #+NAME: fig:udpglu

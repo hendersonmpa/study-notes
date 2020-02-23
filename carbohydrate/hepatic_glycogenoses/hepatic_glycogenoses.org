@@ -2,35 +2,39 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
-
 * Introduction
-- hepatic glycogenosis generally cause hepatomegaly (apart from GSD
+- hepatic glycogenoses generally cause hepatomegaly (apart from GSD
   Oa) and fasting hypoglycaemia
-- muscle disorders are associated with skeletal and/or
+- muscle glycogenoses are associated with skeletal and/or
   cardiomyopathy
 - clinical phenotypes are extremely heterogeneous
 #+CAPTION[]:Hepatic Glycogenoses
 #+NAME: tab:hep
-| Type | Enzyme                          | Gene    | Phenotype                                  |
-|------+---------------------------------+---------+--------------------------------------------|
-| 0a   | liver glycogen synthase         | GYS2    | ketotic hypoglycema                        |
-| Ia   | G6Pase \alpha                   | GSPC    | hypoglycema, hepatomegaly, lactic acidosis |
-| Ib   | G6P transporter                 | SLC37A4 | Ia + neutrophil dysfunction, colitis       |
-| III  | Glycogen debrancher             | AGL     | hypoglycema, hepatomegaly                  |
-| IV   | Glycogen brancher               | GBE1    | cirrhosis, cardiomyopathy & myopathy       |
-|      |                                 |         | adult polyglucosan body disease            |
-| VI   | Liver glycogen phosphorylase    | PYGL    | hypoglycema, hepatomegaly, growth delay    |
-| IXa  | phosphorylase kinase \alpha2    | PHKA2   | hypoglycema, hepatomegaly                  |
-| IXb  | phosphorylase kinase \beta      | PHKB    |                                            |
-| IXc  | phosphorylase kinase \gamma{}TL | PHKG2   |                                            |
-| IXd  | phosphorylase kinase \alpha1    | PHKA1   | myopathy                                   |
+| Type | Enzyme                          | Phenotype                                  | Gene    |
+|------+---------------------------------+--------------------------------------------+---------|
+| 0a   | liver glycogen synthase         | ketotic hypoglycema                        | GYS2    |
+| Ia   | G6Pase \alpha                   | hypoglycema, lactic acidosis, hepatomegaly | GSPC    |
+| Ib   | G6P transporter                 | Ia + neutrophil dysfunction, colitis       | SLC37A4 |
+| III  | glycogen debrancher             | hypoglycema, hepatomegaly                  | AGL     |
+| IV   | glycogen brancher               | cirrhosis, cardiomyopathy & myopathy       | GBE1    |
+|      |                                 | adult polyglucosan body disease            |         |
+| VI   | liver glycogen phosphorylase    | hypoglycema, hepatomegaly, growth delay    | PYGL    |
+|------+---------------------------------+--------------------------------------------+---------|
+| IXa  | phosphorylase kinase \alpha2    | hypoglycema, hepatomegaly                  | PHKA2   |
+| IXb  | phosphorylase kinase \beta      | hypoglycema, hepatomegaly                  | PHKB    |
+| IXc  | phosphorylase kinase \gamma{}TL | hypoglycema, hepatomegaly                  | PHKG2   |
+| IXd  | phosphorylase kinase \alpha1    | myopathy                                   | PHKA1   |
 
-#+CAPTION[Hepatic Glycogenoses]:Hepatic Glycogenoses
+#+CAPTION[]:Hepatic GSDs
 #+NAME: fig:hglyc
 #+ATTR_LaTeX: :width 1\textwidth
 [[file:./hepatic_glycogenoses/figures/gggmetab_hepatic.png]]
 
 * GSD Type 0
+** Clinical Presentation
+- ketotic hypoglycema with post-prandial hyperglycemia/uria
+- can have poor growth
+- no hepatomegaly
 ** Metabolic Derangement
 - deficiency in hepatic glycogen synthase (GS2)
 - very low liver glycogen
@@ -39,12 +43,7 @@
   - reduced liver uptake of glucose
 
 ** Genetics
-- AR, GYS2 encodes liver isoform of GS2
-
-** Clinical Presentation
-- ketotic hypoglycema with post-prandial hyperglycemia/uria
-- can have poor growth
-- no hepatomegaly
+- AR GYS2 encodes liver isoform of GS2
 
 ** Diagnostic Tests
 - mutation analysis
@@ -52,10 +51,20 @@
 - avoid fasting
 - uncooked cornstarch prior to overnight fast and during infections
 * GSD Type I
+** Clinical Presentation
+*** Ia and Ib
+- severe fasting hypoglycema, lactic acidosis
+- seizures
+- hepatomegaly
+- hyperlipidemia, hyperuricemia
+- doll face, truncal obesity
+*** Ib
+- neutrophil dysfunction
+- increased infections
 ** Metabolic Derangement
-- GSD Ia, glucose 6 phosphatase-\alpha
-- GSD Ib, glucose 6 phosphate transporter
-- disorder of glycogen metabolism and gluconeogenesis
+- GSD Ia: glucose 6 phosphatase-\alpha
+- GSD Ib: glucose 6 phosphate transporter
+- *disorder of glycogen metabolism and gluconeogenesis*
 - failure of glucose dephosphorylation inhibits hepatic glycogen breakdown
 - hyperlactatemia occurs due to lack of gluconeogenesis
   - protective
@@ -64,22 +73,17 @@
 - G6P transporter required for normal neutrophil function
 
 ** Genetics
-- AR, 1:100,000, 80% Ia
+- AR 80% Ia
 - GSD Ia: G6PC 
 - GSD Ib: SLC37A4
-- no genotype phenotype correlation established
-
-** Clinical Presentation
-*** Ia and Ib
-- severe fasting hypoglycema, lactic acidosis
-- hepatomegaly
-- hyperlipidemia, hyperuricemia
-*** Ib
-- neutrophil dysfunction
-- increased infections
 
 ** Diagnostic Tests
-- mutation analysis
+- \downarrow glucose
+- \uparrow lactate
+  - lactic acidosis
+- \uparrow triglycerides
+- \uparrow uric acid
+- molecular testing is diagnostic
   
 ** Treatment
 - generally fatal if untreated
@@ -92,11 +96,23 @@
   - hematological disease
     - anemia
     - coagulopathy
-    - infections, GSD Ib
+  - infections in GSD Ib
   - cardiovascular disease
   - bone disease
 
 * GSD Type III
+** Clinical Presentation
+- hepatic glycogenosis and (in most cases) also myopathic
+- first year with poor growth, delayed motor milestones and abdominal
+  distension
+- fasting hypoglycaemia 
+  - fasting tolerance is usually longer than in GSD I 
+- fasting ketosis is prominent
+- gluconeogenesis is normal \therefore no fasting hyperlactataemia
+- moderate post-prandial \uparrow lactate
+- hyperlipdaemia
+- \uparrow \uparrow \uparrow liver transaminases
+- \uparrow CK in myopathic form 
 ** Metabolic Derangement
 - glycogen debrancher enzyme (GDE) deficiency
 - has both glucosidase and transferase activity
@@ -106,26 +122,13 @@
 - limited glucose release from glycogen
 - gluconeogenesis functions normally
 ** Genetics
-- AR, AGL gene
-- mutations occur throughout AGL (GSD IIIa)
-  - defect in liver and muscle
-- two specific mutations in exon 3 (GSD IIIb)
-  - liver only 
-** Clinical Presentation
-- hepatic glycogenosis and (in most cases) also myopathic
-- first year with poor growth, delayed motor milestones and abdominal
-  distension
-- fasting hypoglycaemia 
-  - Fasting tolerance is usually longer than in GSD I 
-- fasting ketosis is prominent
-- gluconeogenesis is normal \therefore no fasting hyperlactataemia
-- moderate post-prandial \uparrow lactate
-- hyperlipdaemia
-- \uparrow \uparrow \uparrow liver transaminases
-- \uparrow CK in myopathic form 
+- AR AGL
 ** Diagnostic Tests
-- DBE activity in leucocytes
-- mutation analysis
+- \downarrow glucose
+- \uparrow transaminases
+- \uparrow cholesterol
+- DBE activity in leukocytes
+- molecular testing is diagnostic
 ** Treatment
 - aim is to maintain normoglycaemia, reduce the hyperlipidaemia and ketosis and
   ensure adequate growth
@@ -135,31 +138,17 @@
 - long term outcome for individuals with GSD III is generally good
   with survival into adulthood
 * GSD Type IV
-** Metabolic Derangement
-- GSD IV is caused by deficiency in glycogen brancher enzyme (GBE)
-- GBE transfers short glucosyl chains to form branch points with an
-  \alpha-1,6 linkage
-- deficiency results in an abnormal poorly soluble glycogen with fewer branch points (polyglucosan)
-- this abnormal glycogen accumulates in liver, muscle, heart, nervous system and skin
-  - leads to tissue damage
-
-** Genetics
-- AR, GBE1
-- common mutation in Ashkenazi Jewish pop
-  - adult polyglucosan body disease (APBD)
-
 ** Clinical Presentation
-
 - multiple phenotypes associated with GBE deficiency
-  - Ranges from death in utero to adult presentation
+  - ranges from death /in utero/ to adult presentation
 
 *** Liver Disease
 - progressive liver disease in infancy
   - presents in first months of life with:
-    - Failure to thrive and hepatomegaly
+    - failure to thrive and hepatomegaly
   - cirrhosis develops with eventual end stage liver disease and
     portal hypertension
-  - Death is usual by 5 years of age
+  - death is usual by 5 years of age
 - non-progressive liver disease in childhood.
   - present with hepatomegaly, liver dysfunction, hypotonia and
     myopathy
@@ -175,6 +164,18 @@
 - adult onset
   - adult polyglucosan body disease (APBD)
   - rarely myopathy
+** Metabolic Derangement
+- GSD IV is caused by deficiency in glycogen brancher enzyme (GBE)
+- GBE transfers short glucosyl chains to form branch points with an
+  \alpha-1,6 linkage
+- deficiency results in an abnormal poorly soluble glycogen with fewer branch points (polyglucosan)
+- this abnormal glycogen accumulates in liver, muscle, heart, nervous system and skin
+  - leads to tissue damage
+
+** Genetics
+- AR, GBE1
+- common mutation in Ashkenazi Jewish pop
+  - adult polyglucosan body disease (APBD)
 
 ** Diagnostic Tests
 
@@ -183,44 +184,53 @@
 - liver and muscle histology show swollen hepatocytes that contain
   periodic acid-Schiff (PAS)-positive and diastase resistance
   inclusions and evidence of interstitial fibrosis
-- enzyme analysis can be undertaken in liver tissue, cultured skin
-  fibroblast, peripheral lymphocytes and muscle
+- GBE activity in liver tissue, cultured skin fibroblast, peripheral
+  lymphocytes and muscle
 - confirmed by GBE1 mutation analysis
 
 ** Treatment
 - liver transplant is the only treatment for the progressive liver form
 - heart transplant may be considered in those with heart failure caused by cardiomyopathy
-- there is no specific treatment for the other forms of the disease
 * GSD Type VI
+** Clinical Presentation
+- GSD VI is generally a mild disorder often diagnosed due to hepatomegaly
+  - can present with symptomatic ketotic hypoglycaemia and growth retardation
 ** Metabolic Derangement
 - GSD VI is caused by deficiency in hepatic glycogen phosphorylase
-- catalyses the release and phosphorylation of terminal glucosyl units
-  from glycogen forming glucose-1-phosphate
+  - catalyses the release and phosphorylation of terminal glucosyl units
+    from glycogen forming gluc-1-P
 - ketosis with or without hypoglycaemia may occur with fasting
 - plasma lipids may be raised
 - severe variants recurrent hypoglycaemia and post-prandial lactic
   acidosis can occur
 ** Genetics
-- AR, PGYL gene
-
-** Clinical Presentation
-- GSD VI is generally a mild disorder often diagnosed due to hepatomegaly
-  - can present with symptomatic ketotic hypoglycaemia and growth retardation
+- AR PGYL
 ** Diagnostic Tests
-- diagnosis confirmed by mutation analysis or
+- \downarrow glucose
+- \uparrow lactate
+- \uparrow transaminases
 - enzyme deficiency in hepatic tissue, erythrocytes, and leukocytes
-- enzyme activity may not always be reduced in blood and even in liver
-  tissue may be difficult to interpret due to residual activity and
-  the effect of other factors
-- for example, deficiency of glycogen phosphorylase kinase will cause
-  low activity of glycogen phosphorylase
+  - enzyme activity may not always be reduced in blood and even in liver
+    tissue may be difficult to interpret due to residual activity and
+    the effect of other factors
+  - deficiency of glycogen phosphorylase kinase will cause
+    low activity of glycogen phosphorylase
+- diagnosis confirmed by mutation analysis or
 ** Treatment
 - no treatment required for asymptomatic children
 - those with growth failure or fasting ketosis benefit from regular
-  meals,snacks and uncooked cornstarch
+  meals and uncooked cornstarch
 - the outcome for individuals with GSD VI is generally excellent
   - catch up growth occurring for those with short stature in childhood
 * GSD Type IX
+** Clinical Presentation
+- usually a benign disorder with hepatomegaly often detected
+  incidentally
+  - short stature, fasting hypoglycaemia and ketosis, with
+    raised liver transaminases, cholesterol and triglycerides
+- blood lactate and uric acid are normal
+- usually resolution of signs and symptoms by adulthood
+- GSD IXc can be more severe with an increased risk of hepatic fibrosis and cirrhosis
 ** Metabolic Derangement
 - GSD IX is caused by deficiency in hepatic glycogen phosphorylase kinase (PHK)
 - PHK phosphorylates glycogen phosphatase /b/ \to /a/ form
@@ -230,9 +240,10 @@
   - \alpha, \beta, \gamma and \delta subunits
 - \gamma subunit is catalytic and the other subunits regulatory
 - there are tissue specific isoforms of the \alpha and \gamma subunits
-- the \delta subunit, calmodulin, is ubiquitous
+- \delta subunit, calmodulin is ubiquitous
 
 ** Genetics
+- see table [[tab:gsdix]]
 #+CAPTION[]:GSD Type IX Genetics
 #+NAME: tab:gsdix
 | Type | Gene  | Subunit    | Inheritance | Tissue         |
@@ -242,27 +253,22 @@
 | IXc  | PHKG2 | \gamma{}TL | AR          | live           |
 | IXd  | PHKA1 | \alpha1    | AR          | muscle         |
 
-** Clinical Presentation
-- usually a benign disorder, with hepatomegaly often detected
-  incidentally
-- possible short stature, fasting hypoglycaemia and ketosis, with
-  raised liver transaminases, cholesterol and triglycerides.
-- blood lactate and uric acid are normal. There is usually resolution
-  of signs and symptoms by adulthood.
-- GSD IXc can be more severe with an increased risk of hepatic fibrosis and cirrhosis
-
 ** Diagnostic Tests
-- considered in children with unexplained hepatomegaly and in those with ketotic hypoglycaemia.
-- PHK can be measured in liver, erythrocytes and leukocytes.
-  - in view of variable tissue expression enzyme assays may be
-    difficult to interpret
-- diagnosis is best achieved by mutation analysis using a DNA panel.
+- fasting hypoglycaemia and ketosis
+- \uparrow transaminases, cholesterol and triglycerides
+- normal lactate and uric acid
+- considered in children with unexplained hepatomegaly and in those
+  with ketotic hypoglycaemia
+- PHK can be measured in liver, erythrocytes and leukocytes
+  - due to variable tissue expression enzyme assays may be difficult
+    to interpret
+- diagnosis is best achieved by mutation analysis
 ** Treatment
-- asymptomatic patients may not need treatment.
+- asymptomatic patients may not need treatment
 - growth failure or symptomatic hypoglycaemia frequent meals and
-  uncooked cornstarch may be used.
+  uncooked cornstarch may be used
 - protein can be increased to 15 to 20% of calories to provide a
-  gluconeogenesis substrate.
+  gluconeogenesis substrate
 - the outcome for most patients is good with resolution of
-  hepatomegaly and catch up growth by adulthood.
+  hepatomegaly and catch up growth by adulthood
 

@@ -17,32 +17,21 @@
 - UDPgal is used for synthesis of glycoconjugates, including
   glycoproteins, glycolipids and glycosaminoglycans, and their
   subsequent degradation
-- all four substrates of GALE: UDPgal, UDPglc, UDPgalNAc, and
-  UDPglcNAc, are used for glycoconjugate synthesis
-
+- all four substrates of GALE: UDP-gal, UDP-glc, UDP-galNAc, and
+  UDP-glcNAc are used for glycoconjugate synthesis
 
 #+CAPTION[]:Major reactions of galactose metabolism
 #+NAME: fig:galrxm
 #+ATTR_LaTeX: :width 1.0\textwidth
 [[file:./galactose/figures/galmet.png]]
 
-
-#+CAPTION[]:Hepatic carbohydrate metabolism
-#+NAME: fig:hepcarb
-#+ATTR_LaTeX: :width 1.0\textwidth
-[[file:./galactose/figures/hepcarb.png]]
-
- #+CAPTION[lactose]:Lactose is a disaccharide derived from the condensation of galactose and glucose, which form a \beta 1 \to 4 glycosidic linkage.
- #+NAME: fig:lactose
- #+ATTR_LaTeX: :width 0.4\textwidth
- [[file:./galactose/figures/Beta-D-Lactose.png]]
-
 - three inborn errors of galactose metabolism are known:
-  1) classic galactosemia - GALT deficiency
+  1) GALT deficiency - classic galactosemia  
   2) GALE deficiency
   3) GALK deficiency
 
-* Classical Galactosemia
+* GALT Deficiency
+- AKA: Classic Galactosemia
 ** Clinical Presentation
  - presents in the neonatal period
    - potentially lethal
@@ -50,95 +39,99 @@
  - with feeding:
    - poor weight gain, vomiting, diarrhea
    - hepatocellular damage, lethargy, and hypotonia
- - may progress to gram negative sepsis, cataracts
+ - may progress to gram negative sepsis
+
 
 ** Metabolic Derangement
- - deficient activity of galactose-1-phosphate uridylyltransferase
+ - deficient activity of galactose-1-phosphate uridylyltransferase (GALT)
  - ubiquitous enzyme
  - \uparrow  galatactose
- - \uparrow Gal-1-p - pathogenic
- - \uparrow  galactitol \to cataracts
+ - \uparrow gal-1-p - pathogenic
+ - \uparrow galactitol \to cataracts
  - \uparrow galactonate
- - \downarrow UPD-Gal \to disordered glycosylation, glycolipids
- - \downarrow UPD-Glc
+ - \downarrow UPD-gal \to disordered glycosylation, glycolipids
+ - \downarrow UPD-glc
 
 ** Genetics
- - AR, GALT, 1:16,000-60,000 live births
-   - 336 mutations is the GALT gene described 
- - c.563A>G, p.Q188R
+ - AR GALT
+ - p.Q188R
    - ~64% of galactosemic alleles in caucasian pop
    - Irish Travellers 1:430
-   - Non-functional variant: Destabilise UMP-GALT
+   - non-functional variant: destabilise UMP-GALT
      - no residual RBC GALT activity
- - c.855G>T, p.K285N
-   - slavic origin?
-   - no residual RBC GALT activity
 *** Duarte and Los Angles variants
   - Duarte (p.N314D) - 50% RBC GALT enzyme activity
+    - not disease causing
+    - in linkage disequilibrium w a 4bp promoter deletion 
   - LA (p.N314D) - elevated RBC GALT enzyme activity
     - same electrophoretic pattern
-  - D is in linkage disequilibrium w a 4bp promoter deletion 
   - p.D314 is the ancestral allele 
   - p.N314 arose early in human evolution
 
 ** Diagnostic Tests
  - reducing substances in urine - not specific or sensitive
- - Gal-1-P, galactose, galactitol in blood or urine
- - RBC Gal-1-P - not specific
+ - renal tubular damage
+ - DBS, plasma, RBC
+   - \uparrow gal-1-P
+   - \uparrow galactose
+   - \uparrow galactitol
  - RBC GALT activity
-   - classic galactosemia - undetectable or 1% of controls
- - NBS not universal
-   - must be identified early
-   - \lt 5 days is ideal
+   - classic galactosemia - \le 1% of controls
 
 ** Treatment and Prognosis
  - therapy is life long dietary galactose restriction
    - does not prevent long-term complications
-
  - endogenous galactose synthesis may be responsible for:
    - cognitive impairment
+   - cataracts
    - ovarian insufficiency
  - dairy restrictions
    - bone health 
 
-* Uridine Diphosphate Galactose 4’-Epimerase (GALE) Deficiency
+* GALE Deficiency
 ** Clinical Presentation
-- GALE deficiency ranges from benign \to severe:
+- ranges from benign \to severe:
   - benign :: GALE deficiency restricted to circulating red and white blood cells
   - severe :: generalized disorder resulting from widespread GALE
               impairment that presents with life-threatening illness
               in the newborn period
-
 - unlike GALT deficiency, even the most severely affected patients
-  with GALE deficiency exhibit some residual GALE activity, at least
-  in some tissues.
+  with GALE deficiency exhibit some residual GALE activity
 - severe form is extremely rare
 
 ** Metabolic Derangement
-- when exposed to milk accumulate galactose, galactitol, Gal-1P, and
+- uridine diphosphate galactose 4’-epimerase (GALE) deficiency
+  - GALE deficiency inhibits UDP-glucose regeneration
+  - preventing the formation of glu-1-P
+  - leading to the accumulation of galactose and gal-1-P
+- when exposed to milk accumulate galactose, galactitol, gal-1P, and
   UDPgal in blood
   - may also show abnormal glycosylation of proteins in blood
-- red cell GALE activity does not correlate well with that seen in
-  other tissues, such as lymphoblasts,
-  - is poor at differentiating between peripheral and generalised forms of the disease
+- RBC GALE activity does not correlate well with that seen in
+  other tissues such as lymphoblasts
+  - poor at differentiating between peripheral and generalised forms
+    of the disease
 
 ** Genetics
-- AR, GALE
+- AR GALE
 
 ** Diagnostic Tests
+- \uparrow galactose in serum, DBS, RBC
+- \uparrow gal-1-P in serum, DBS, RBC
 - may be detected by NBS with \uparrow total galactose or Gal-1P and normal GALT activity
 - GALE activity in fresh erythrocytes or other cells
 - GALE activity in transformed lymphoblasts
-- red cell Gal-1P or urinary galactitol measured while on and off dietary galactose
+- red cell Gal-1P or urinary galactitol measured with and without dietary galactose
 - molecular
 
 ** Treatment
-- low galactose formula until the diagnosis can be confirmed or excluded.
-- once confirmed, patients with generalized GALE deficiency should be
-  treated and followed much like patients with classic galactosemia,
+- low galactose formula until the diagnosis can be confirmed or excluded
+- patients with generalized GALE deficiency should be treated and
+  followed much like patients with classic galactosemia
 - less stringent dietary galactose restriction may be advisable to
-  ensure sufficient exogenous galactose for synthesis of galactoproteins and galactolipids.
-* Galactokinase (GALK) Deficiency
+  ensure sufficient exogenous galactose for synthesis of
+  galactoproteins and galactolipids
+* GALK Deficiency
 ** Clinical Presentation
 - untreated galactokinase deficiency has been considered largely
   benign except for diet-dependent cataracts and in rare cases pseudotumour cerebri
@@ -147,15 +140,14 @@
     disability, and hypercholesterolemia
 
 ** Metabolic Derangement
-- lack the ability to phosphorylate galactose
+- galactokinase (GALK) deficiency
+  - lack the ability to phosphorylate galactose
 - accumulate galactose and galactitol, but not Gal-1P
 - accumulate galactitol in the lens when consuming a high galactose diet
-- causing osmotic swelling, denaturation of proteins, and cataracts
+  - causing osmotic swelling, denaturation of proteins, and cataracts
 
 ** Genetics
-- AR, 1/40,000 screened births in Germany
-- all mutations associated with clinical GALK deficiency map to GK1.
-
+- AR GK1
 ** Diagnostic Tests
 - profound GALK deficiency may be discovered by NBS due to elevated total blood galactose
 - enzyme assay of freshly drawn red cells or another cell type
@@ -163,6 +155,9 @@
   the patient is on a high galactose diet
 
 ** Treatment
-- initial treatment of GALK deficiency involves elimination of milk and other high galactose foods from the diet.
-- cryptic sources of dietary galactose, such as fruits and vegetables, are generally allowed.
-- once a patient is on a galactose-restricted diet urinary levels of galactitol should normalize
+- initial treatment of GALK deficiency involves elimination of milk
+  and other high galactose foods from the diet
+- cryptic sources of dietary galactose, such as fruits and vegetables,
+  are generally allowed
+- once a patient is on a galactose-restricted diet urinary levels of
+  galactitol should normalize
