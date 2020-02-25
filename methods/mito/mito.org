@@ -1,0 +1,239 @@
+#+TITLE: Mitochondrial Assays
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+* Introduction
+#+BEGIN_SRC dot :file ./oxphos/figures/etc.pdf :cmdline -Kdot -Tpdf
+  digraph {
+           // graph from left to right
+           rankdir=LR;
+           splines=true;
+           node [shape=oval];
+           fadh [label="FADH2", fillcolor=grey, style=filled];
+           etf[label="ETF", fillcolor=steelblue3, style=filled];
+           etfd[label="ETF-QO", fillcolor=steelblue3, style=filled];
+	       g3p[label="glycerol-3-phosphate", fillcolor=grey, style=filled];
+           gpd[label="GPD", fillcolor=steelblue3, style=filled];
+           nadh [label="NADH", fillcolor=grey, style=filled];
+           c1 [label="Complex I", fillcolor=steelblue3, style=filled];
+           q [label="CoQ", fillcolor=red3, style=filled];    
+           c3 [label="Complex III", fillcolor=steelblue3, style=filled];     
+           cytc [label="Cytochrome C", fillcolor=red, style=filled];     
+           c4 [label="Complex IV", fillcolor=steelblue3, style=filled];     
+           h2o [label="H2O", fillcolor=grey, style=filled];     
+           c2 [label="Complex II", fillcolor=steelblue3, style=filled];     
+           s [label="succinate", fillcolor=grey, style=filled];     
+           fadh -> etf; 
+           etf -> etfd;
+           etfd -> q;
+           g3p -> gpd;
+           gpd -> q;
+           nadh -> c1;
+           c1 -> q;
+           q -> c3;
+           c3 -> cytc; 	 
+           cytc -> c4;
+           c4 -> h2o;
+           c2 -> q;
+           s -> c2;
+           }    
+#+END_SRC
+
+#+CAPTION[]:Electron Transport Chain
+#+NAME: fig:etc
+#+ATTR_LaTeX: :width \textwidth
+#+RESULTS:
+[[file:./mito/figures/etc.pdf]]
+
+** Inhibitors 
+*** CI 
+- the best-known inhibitor of complex I is rotenone commonly used as
+  an organic pesticide
+  - rotenone binds to the ubiquinone binding site of complex I
+- piericidin A is a potent inhibitor and structural homologue to
+  ubiquinone
+- hydrophobic inhibitors like rotenone or piericidin likely disrupt
+  electron transfer between FeS cluster N2 and ubiquinone
+- bullatacin is the most potent known inhibitor of NADH dehydrogenase
+  (ubiquinone)
+- Complex I is also blocked by adenosine diphosphate
+  ribose
+  - a reversible competitive inhibitor of NADH oxidation
+
+*** CII
+ - there are two distinct classes of inhibitors of complex II:
+   - those that bind in the succinate pocket and those that bind in the ubiquinone pocket
+ - ubiquinone type inhibitors include carboxin and thenoyltrifluoroacetone
+ - succinate-analogue inhibitors include the synthetic compound malonate as well as the TCA cycle intermediates, malate and oxaloacetate
+   - oxaloacetate is one of the most potent inhibitors of Complex II
+*** CIII 
+  - there are three distinct groups of Complex III inhibitors:
+    - antimycin A binds to the Q_i site and inhibits the transfer of electrons in Complex III from heme b_H to oxidized Q (Q_i site inhibitor)
+    - myxothiazol and stigmatellin bind to distinct but overlapping pockets within the Q_o site
+      - myxothiazol binds nearer to cytochrome bL (hence termed a "proximal" inhibitor)
+      - stigmatellin binds farther from heme bL and nearer the Rieske Iron sulfur protein
+      - both inhibit the transfer of electrons from reduced QH_2 to the Rieske Iron sulfur protein
+
+*** CIV
+ - cyanide, azide, and carbon monoxide all bind to cytochrome c
+   oxidase 
+ - nitric oxide and hydrogen sulfide, can also inhibit COX by
+   binding to regulatory sites on the enzyme
+*** CV
+ - Oligomycin A inhibits ATP synthase by blocking its proton channel
+   (F_0 subunit), which is necessary for oxidative phosphorylation of
+   ADP to ATP (energy production)
+ - The inhibition of ATP synthesis by oligomycin A will significantly
+   reduce electron flow through the electron transport chain; however,
+   electron flow is not stopped completely due to a process known as
+   proton leak or mitochondrial uncoupling
+   - This process is due to facilitated diffusion of protons into the
+     mitochondrial matrix through an uncoupling protein such as
+     thermogenin, or UCP1
+
+ - Administering oligomycin to an individual can result in very high
+   levels of lactate accumulating in the blood and urine
+
+* Citrate Synthase
+* CI+III assay
+** Purpose
+- determine the rate of cytochrome c reduction in mitochondria as a
+  result of electron transfer from NADH to cytochrome c (mitochondrial
+  complex I+III) activity
+- Complex I transfers electrons to ubiquinone (coenzyme Q10) through a
+  long series of redox groups
+- Complex III catalyzes electron transfer between ubiquinol and
+  cytochrome c and also translocates protons across the mitochondrial
+  inner membrane
+
+** Principle
+- reduced cytochrome c absorbs light at 550 nm
+- increase of the absorption at 550 nm corresponding to the increased
+  formation of reduced cytochrome c by electrons derived from NADH,
+  which is rotenone sensitive
+- azide is added to inhibit CIV so there is no re-oxidation of reduced cytochrome c
+- rotenone is added to the reference cuvette to inhibit Complex I
+  - assay cuvette :: oxidized cyt c & azide
+  - reference cuvette :: oxidized cyt c & azide & rotenone 
+
+#+BEGIN_EXPORT LaTeX
+{\small\ce{4Fe3+ cytochrome c + NADH + 2H2O ->[CI + CIII] 4Fe2+ cytochrome c + NAD+ + 4H + O2}}
+\ce{oxidized cyt c -> reduced cyt c} 
+#+END_EXPORT
+
+- spectrophotometer subtracts the activity seen in the reference cell
+  from the activity seen in the assay cell, the progress curve you see
+  on the computer screen reflects activity of cytochrome c reduction
+  by electrons passing ONLY through complex I
+
+* CI assay
+** Purpose
+- determining the rate of NADH oxidation in mitochondria as a result
+  of electron transfer from NADH to ubiquinone 
+** Principle 
+- NADH absorbs light at 340 nm
+- the method follows the decrease of the absorption at 340 nm
+  corresponding to the decreased concentration of NADH, which has been
+  oxidized to NAD during the passage of electrons to ubiquinone
+- assay is rotenone sensitive
+- rotenone in the reference cuvette will specifically inhibit Complex
+  I therefore any oxidation of NADH from this cell does not include
+  the contribution of Complex I
+  - assay cuvette :: ubiquinone &  antimycin A
+  - reference cuvette :: ubiquinone &  antimycin A & rotenone 
+
+
+\ce{ubiquinone(CoQ) + NADH ->[CI] ubiquinol(CoQH2) + NAD+} 
+\ce{oxidized CoQ -> reduced CoQ} 
+
+- spectrophotometer subtracts the activity seen in the reference cell
+  from the activity seen in the assay cell, the progress curve seen on
+  the computer screen reflects activity of NADH oxidation ONLY through
+  Complex I
+
+* CII assay
+** Purpose
+- Complex II activity
+** Principle
+- secondary reduction of the dye 2,6-dichlorophenolindophenol (DCPIP)
+  by the ubiquinol formed at 600nm
+- DCPIP assays are very prone to interference from NAD(P)H
+  diaphorases
+- caution is recommended in interpreting results from non-muscle
+  tissue, rich in diaphorase
+  - assay cuvette :: succinate, ubiquinone & DCPIP 
+  - reference cuvette :: ubiquinone & DCPIP
+
+\ce{oxidized DCPIP -> reduced DCPIP} 
+
+* CII + III assay
+** Purpose
+- measure rate of SCR in mitochondria as a result of mitochondrial
+  respiratory complexes II and III activity
+- Complex II performs a key step in the citric acid cycle, in which
+  succinate is dehydrogenated to ubiquinone in the mitochondrial inner
+  membrane
+- Complex II is localized to the matrix side of the mitochondrial
+  inner membrane and it is the only respiratory chain enzyme of which
+  all 4 subunits are coded by the nuclear DNA
+- Complex III catalyzes electron transfer between ubiquinol and
+  cytochrome c and also translocates protons across the mitochondrial
+  inner membrane
+
+** Principle
+- reduced cytochrome c absorbs light at 550 nm
+- the increase of the absorption at 550 nm corresponds to the
+  increased formation of reduced cytochrome c by electrons derived
+  from succinate
+  - assay cuvette :: sample, oxidized cyt c, azide & succinate 
+  - reference cuvette :: oxidized cyt c, azide & succinate
+
+#+BEGIN_EXPORT LaTeX
+{\small\ce{4Fe3+ cytochrome c + succinate + 2H2O ->[CII + CIII] 4Fe2+ cytochrome c + fumarate + 4H + O2}}
+\ce{oxidized cyt c -> reduced cyt c} 
+#+END_EXPORT
+
+* CIV assay
+** Purpose
+- determine the rate of cytochrome C oxidation in mitochondria as a
+  result of cytochrome C oxidase (mitochondrial complex IV, COX)
+  activity
+- COX is a multisubunit assembly in the inner mitochondrial membrane
+  responsible for the terminal event in electron transport in which
+  molecular oxygen is reduced
+- various phenotypic forms of COX deficiency have been recognized, the
+  major varieties involving the degeneration of the brain stem and
+  basal ganglia (Leigh syndrome) and lactic acidemia with or without
+  cardiomyopathy
+
+** Principle
+- reduced cytochrome c absorbs light at 550nm
+- methods follows the decrease in absorbance of reduced cytochrome c
+  at 550 nm
+  - assay cuvette :: sample & reduced cyt c 
+  - reference cuvette :: reduced cyt c
+
+#+BEGIN_EXPORT LaTeX
+{\small\ce{4Fe2+ cytochrome c + NAD+ + 4H + O2 ->[CI + CIII] 4Fe3+ cytochrome c + NADH + 2H2O}}
+\ce{reduced cyt c -> oxidized cyt c}
+#+END_EXPORT
+
+* CV assay
+** Purpose
+- determine the activity of respiratory chain complex V in isolated
+  muscle and fibroblast mitochondria
+
+** Principle
+- ATP hydrolysis by ATPase liberates ADP which is reconverted to ATP
+  by the action of PK, thus maintaining a constant concentration of
+  ATP and a low steady state concentration of ADP
+- pyruvate production from PEP and ADP, catalysed by PK, is monitored
+  as a rate of oxidation of NADH by coupling to LDH
+- ATPase is oligomycyn sensitive
+  - assay cuvette :: LDH, PK, PEP & rotenone
+  - reference cuvette :: LDH, PK, PEP, rotenone & oligomycin
+		     
+
+\ce{ATP <->[ATPase] ADP}
+\ce{PEP + ADP ->[PK] pyruvate}
+\ce{pyruvate + NADH ->[LDH] lactate + NAD+}

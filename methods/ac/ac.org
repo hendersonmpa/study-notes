@@ -3,21 +3,21 @@
 #+DATE: \today
 
 * Introduction
-- Carnitine (\beta{}-hydroxy-\gamma{}-N-trimethylaminobutyric acid) is
+- carnitine (\beta{}-hydroxy-\gamma{}-N-trimethylaminobutyric acid) is
   an endogenous quaternary ammonium compound synthesized from lysine
   and methionine.
 - L-Carnitine has been described as a "conditionally essential"
   nutrient for humans.
-- Populations with an exogenous carnitine requirement include:
+- populations with an exogenous carnitine requirement include:
   - infants (premature and full-term),
   - patients on long-term parenteral nutrition,
   - perhaps children.
-- Exogenous carnitine is required to maintain "normal" (in the
+- exogenous carnitine is required to maintain "normal" (in the
   epidemiologic sense) plasma or serum carnitine concentrations in
   humans of all ages.
-- Primary function is to shuttle long chain fatty acids to the
+- primary function is to shuttle long chain fatty acids to the
   mitochondrial matrix, for \beta{}-oxidation.
-- Acylcarnitines are markers for FAODs and OAs
+- acylcarnitines are markers for FAODs and OAs
 
 \vspace{2em}
 
@@ -29,199 +29,7 @@
 #+END_EXPORT
 
 * Diagnostic FIA-MS/MS
-** Diagnostic FIA-MS/MS schematic
-#+BEGIN_EXPORT LaTeX
-\begin{center}
-\begin{tikzpicture}[node distance=7em]
-% nodes
-\node(ms1)[ms]{MS1: Mass Filter};
-\node(cc)[ms, right of=ms1]{Collision cell};
-\node(ms2)[ms, right of=cc]{MS2: Mass Filter};
-\node(ion)[ms, below of=ms1,yshift=3em]{Ionization};
-\node(lc)[msw, below of=ion,yshift=3em]{Fused silica};
-\node(detector)[ms, below of=ms2, yshift=3em]{Detector};
-% arrows
-\draw[arrow](lc) -- (ion);
-\draw[arrow](ion) -- (ms1);
-\draw[arrow](ms1) -- (cc);
-\draw[arrow](cc) -- (ms2);
-\draw[arrow](ms2) -- (detector);
-\end{tikzpicture}
-\end{center}
-#+END_EXPORT
-- ESI in positive mode
-** Inlet table                                                     :noexport:
-
-#+tblname: data-table
-| Time |  Flow |  %A | %B |
-|------+-------+-----+----|
-|    0 |  1.00 | 100 |  0 |
-|  0.3 | 0.095 | 100 |  0 |
-|  1.2 | 0.100 | 100 |  0 |
-| 1.55 | 0.500 | 100 |  0 |
-| 1.85 | 0.100 | 100 |  0 |
-|  2.5 | 0.100 | 100 |  0 |
-
-** Sample prep
-- Sample Type
-  - Plasma
-    - Diagnostic testing for FAODs and OAs
-    - Monitoring
-  - Urine
-    - Diagnosis of CUD
-- 20 \micro{}L of sample is mixed with 400 \micro{}L of IS in Methanol centrifuge to deproteinize.
-- supernatant is removed and 100 \micro{}L of n-butanol-3M HCL is added
-- dried down
-- reconstituted with 200 \micro{}L 80% acetonitrile.
-- 7.5 \micro{}L injection.
-
-#+begin_src gnuplot :var data=data-table :file ./ac/figures/outletmethod.pdf
-reset
-set title "UPLC Method"
-set key on
-set xlabel "min"
-
-set xrange [0:3]
-
-set ylabel "ml/min"
-set yrange [0:1.2]
-
-plot data u 1:2 w lp lw 2 t "80% ACN"
-
-#+end_src
-
-#+ATTR_LATEX: :width 0.7\textwidth
-#+RESULTS:
-[[file:./ac/figures/outletmethod.pdf]]
-
-** Fragmentation
-#+BEGIN_EXPORT LaTeX
-\definesubmol{x}{-[1,.6]-[7,.6]}
-\centering
- \chemname{\chemfig[][scale=.33]{H_{3}C-N^{+}([2]-CH_3)([6]-CH_{3})-CH_2-C([2]-H)([6]-O-C([0]=O)-{\color{red}R})-CH_2-C([2]=O)-O-CH_2-CH_2-CH_2-CH_3}}{\tiny acylcarnitine, butyl ester}
-
-\vspace{2.5em}
-
- \chemname{\chemfig[][scale=.33]{H_{3}C-N([1]-CH_3)([7]-CH_3)}}{\tiny trimethylamine}
-\hspace{2em}
-\chemname{\chemfig[][scale=.33]{{\color{red}R}-C([1]=O)([7]-OH)}}{\tiny carboxylic acid}
-\hspace{2em}
- \chemname{\chemfig[][scale=.33]{H!x!x}}{\tiny butyl group}
-\hspace{2em}
- \chemname{\chemfig[][scale=.33]{H_{2}C^{+}-HC=CH-C([1]=O)([7]-OH)}}{\tiny 85 m/z}
-#+END_EXPORT
-** Precursor Ion Scan
-#+BEGIN_EXPORT LaTeX
-\begin{center}
-\begin{tikzpicture}
-\node[box](ms1)[]{};
-\node[label](ms1u)[above=of ms1,yshift=-3em]{MS1};
-\node[label](ms1l)[below=of ms1,yshift=3em]{scanning};
-\node[box](cc)[right= of ms1]{};
-\node[label](ccu)[above=of cc,yshift=-3em]{Collision cell};
-\node[label](ccl)[below=of cc,yshift=3em]{fragmentation};
-\node[box](ms2)[right= of cc]{};
-\node[label](ms2u)[above=of ms2,yshift=-3em]{MS2};
-\node[label](ms2l)[below=of ms2,yshift=3em]{85 m/z};
-\draw[->](ms1) -- (cc);
-\draw[->](cc) -- (ms2);
-
-%ms1
-\draw [gray,->, decorate,decoration=snake] (-.8,0.5) -- (.8,0.5);
-\draw [gray,->, decorate,decoration=snake] (-.8,0.25) -- (.8,0.25);
-\draw [blue, ->,decorate,decoration=snake] (-.8, 0) -- (.8,0);
-\draw [gray,->, decorate,decoration=snake] (-.8,-0.25) -- (.8,-0.25);
-\draw [gray,->,decorate,decoration=snake] (-.8,-0.5) -- (.8,-0.5);
-
-%cc
-\draw [blue,->,decorate,decoration=snake] (2.1, 0) -- (2.4,0);
-\fill (2.6,0) circle (0.1); 
-\draw [gray,->,decorate,decoration=snake] (2.8, 0) -- (3.8,0.5);
-\draw [red, ->,decorate,decoration=snake] (2.8, 0) -- (3.8,0);
-\draw [gray,->,decorate,decoration=snake] (2.8, 0) -- (3.8,-0.5);
-
-%ms2
-\draw [red,->,decorate,decoration=snake] (5.1, 0) -- (6.8,0);
-\end{tikzpicture}
-\end{center}
-#+END_EXPORT
-** MRM is used to detected dicarboxylic acylcarnitines
-
-- C0-Bu 218.1 Da \to 103 Da transition is optimal
-- All others benefit from the added sensitivity of MRM mode as compared to parent ion scan
-
-#+CAPTION[]:MRM is used to detected selected acylcarnitines
-#+NAME: tab:mrnac
-| Compound | Reaction        |
-|----------+-----------------|
-| C0       | 218.10 > 103.00 |
-| C0 IS    | 227.10 > 103.00 |
-| C2       | 260.20 > 85.00  |
-| C2 IS    | 263.20 > 85.00  |
-| C3       | 274.20 > 85.00  |
-| C3 IS    | 277.20 > 85.00  |
-| C3DC     | 360.30 > 85.00  |
-| C4DC     | 374.30 > 85.00  |
-| C5DC     | 388.35 > 85.00  |
-| C5DC IS  | 391.35 > 85.00  |
-| C6DC     | 402.45 > 85.00  |
-| C8DC     | 430.45 > 85.00  |
-
-#+CAPTION[]: Quantified Acylcarnitines
-#+NAME: tab:ac
-| C0    | C8     | C16      |
-| C2    | C8:1   | C16:1    |
-| C3    | C10    | C16:1-OH |
-| C3DC  | C10:1  | C16-OH   |
-| C4    | C12    | C18      |
-| C4DC  | C12:1  | C18:1    |
-| C5    | C14    | C18:1-OH |
-| C5:1  | C14:1  | C18:2    |
-| C5DC  | C14:2  | C18-OH   |
-| C5-OH | C14-OH |          |
-| C6    |        |          |
-| C6DC  |        |          |
-
-** Overestimation of Free Carnitine
-
-- Butylated acylcarnitines are converted to butylated carnitine in
-  n-butanol-3M HCl at 65\degree{}C. [fn:johnson]
-
-| Acyl Carnitine | Half-life (min) |
-|----------------+-----------------|
-| C2             |              31 |
-| C10            |             125 |
-| C18            |             172 |
-
-- 65\degree{}C for 15 min.  
-- NSO uses 60\degree{}C for 20 minutes.
-- IMD uses 55\degree{}C for 20 minutes.
-
-- In a sample with low free carnitine and high acetylcarnitine.
-  - 30% of the acetylcarnitine and smaller amounts of higher
-    molecular mass acylcarnitines are converted to carnitine
-  - a low carnitine sample could appear to be normal.
-- "The free carnitine results obtained by this screening method on
-  blood spots with high levels of acylcarnitines should therefore be
-  used with caution." [fn:johnson]
-
-[fn:johnson] Johnson, D. W. (1999). Inaccurate measurement of free
-carnitine by the electrospray tandem mass spectrometry screening
-method for blood spots. Journal of Inherited Metabolic Disease, 22(2),
-201–202. 
-
-** Pros and Cons of Butanol  FIA-MSMS for Aceylcarnitines
-*** Pros
-- Speed
-- Sensitivity
-- Expertise
-- Amino acid measurement
-*** Cons
-- Isobaric compounds
-  - C5DC and C10-OH
-- Overestimation of CO due to hydrolysis
-
-
+- see [[AAAC]]
 * TODO Free and Total Carnitine
 - Method?
 ** Fractional Tubular Re-absorption of Carnitine

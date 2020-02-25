@@ -166,25 +166,9 @@
   #+RESULTS:
   [[file:./oxphos/figures/c1.pdf]]
 
-*** Inhibitors
- - the best-known inhibitor of complex I is rotenone
-   - commonly used as an organic pesticide
- - rotenone binds to the ubiquinone binding site of complex I
-   -  piericidin A a potent inhibitor and structural homologue to ubiquinone
- - hydrophobic inhibitors like rotenone or piericidin likely disrupt electron transfer between FeS cluster N2 and ubiquinone
- - bullatacin is the most potent known inhibitor of NADH dehydrogenase (ubiquinone)
- - Complex I is also blocked by adenosine diphosphate ribose - a reversible competitive inhibitor of NADH oxidation
-
 ** Complex II
 - AKA Succinate Dehydrogenase 
  - see section [[Succinate Dehydrogenase Deficiency]]
-
-***  Inhibitors
- - there are two distinct classes of inhibitors of complex II:
-   - those that bind in the succinate pocket and those that bind in the ubiquinone pocket
- - ubiquinone type inhibitors include carboxin and thenoyltrifluoroacetone
- - succinate-analogue inhibitors include the synthetic compound malonate as well as the TCA cycle intermediates, malate and oxaloacetate
-   - oxaloacetate is one of the most potent inhibitors of Complex II
 
 ** Glycerol-3-phosphate shuttle
  - oxidation of cytoplasmic NADH by the cytosolic form of the enzyme
@@ -228,13 +212,6 @@
   {\small\ce{QH2 + 2Fe^{3+}-cyt c + 2H+_{in} ->[CIII]  Q + 2Fe^{2+}-cyt c + 4H+_{out}}}
   #+END_EXPORT
 
-***  Inhibitors
- - there are three distinct groups of Complex III inhibitors:
-   - antimycin A binds to the Q_i site and inhibits the transfer of electrons in Complex III from heme b_H to oxidized Q (Q_i site inhibitor)
-   - myxothiazol and stigmatellin bind to distinct but overlapping pockets within the Q_o site
-     - myxothiazol binds nearer to cytochrome bL (hence termed a "proximal" inhibitor)
-     - stigmatellin binds farther from heme bL and nearer the Rieske Iron sulfur protein
-     - both inhibit the transfer of electrons from reduced QH_2 to the Rieske Iron sulfur protein
 ** Complex IV
 - AKA Cytochrome c oxidase
 - last enzyme in the respiratory electron transport chain
@@ -262,11 +239,6 @@
   #+ATTR_LaTeX: :width 0.5\textwidth
   [[file:./oxphos/figures/CIV.png]]
 
-*** Inhibitors
- - cyanide, azide, and carbon monoxide all bind to cytochrome c
-   oxidase 
- - nitric oxide and hydrogen sulfide, can also inhibit COX by
-   binding to regulatory sites on the enzyme
 ** Complex V
 - AKA ATP synthase 
 - ATP synthase is a molecular machine that creates the energy storage
@@ -291,21 +263,6 @@
  #+NAME: fig:atps
  #+ATTR_LaTeX: :width 0.5\textwidth
  [[file:./oxphos/figures/atp_synthase.jpg]]
-
-*** Complex V Inhibitors
- - Oligomycin A inhibits ATP synthase by blocking its proton channel
-   (F_0 subunit), which is necessary for oxidative phosphorylation of
-   ADP to ATP (energy production)
- - The inhibition of ATP synthesis by oligomycin A will significantly
-   reduce electron flow through the electron transport chain; however,
-   electron flow is not stopped completely due to a process known as
-   proton leak or mitochondrial uncoupling
-   - This process is due to facilitated diffusion of protons into the
-     mitochondrial matrix through an uncoupling protein such as
-     thermogenin, or UCP1
-
- - Administering oligomycin to an individual can result in very high
-   levels of lactate accumulating in the blood and urine
 
 * Clinical Presentation
 - molecular pathogenesis of OxPhos disorders (Figure [[fig:oxphopath]])
@@ -462,6 +419,13 @@
 - lactate, pyruvate and alanine are the typical products of anaerobic glycolysis
 
 * Diagnostic Tests
+
+#+CAPTION[]: Diagnosis of Mitochondrial Disease
+#+NAME: fig:alg
+#+ATTR_LaTeX: :width 1.2\textwidth
+[[file:./oxphos/figures/algorithm_rot.png]]
+
+
 ** Biochemistry
 - none of the following are specific for oxphos disorders    
 - blood lactate, CSF lactate
@@ -492,6 +456,9 @@
 - FGF-21, GDF15 and creatinine \propto mito disfunction in myopathy
 
 ** TODO Mitochondrial Assays
+- interpretation
+  - i.e normal CII in mtDNA depletion
+
 ** Imaging
 - cranial CT shows cerebral and cerebellar atrophy in many encephalopathic patients
   - basal ganglia calcification may be seen in MELAS

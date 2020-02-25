@@ -17,9 +17,6 @@
 - 24 hour urine offer little advantage
   1) delay diagnosis
   2) increased risk of degradation
-** EQA
-- EPNET http://www.porphyria-europe.com
-  - open to lab throughout the world
 ** Methods for Porphyrin Precursors
 *** Porphobilinogen
 - Ehrlich's reagent
@@ -79,7 +76,6 @@
 - 2\degree causes of increase include: impaired excretion, renal
   failure, cholestasis
 
-
 * Enzyme Measurements
 - rarely required for patients with symptoms
 - can be used for family studies, DNA is better
@@ -91,13 +87,3 @@
   - affected by \prop of retics, and young cells in peripheral blood
   - \uparrow in acute illness, ie acute porphyria
   - \sim 1:800 low HMBS activity in France
-* DNA analysis
-- required for
-  1) family screening
-  2) pattern of inheritance in EPP
-  3) prognosis in CEP
-
-- can be used in patients without current symptoms or biochemical
-  Abnormalities
-- sequencing and gene dosage analysis
-
