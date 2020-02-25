@@ -193,4 +193,4 @@
 
 ** Treatment
 - same as ketogenesis defects above
-- T2 involved in isoleucine met, \therefore \downarrow protein
+- T2 involved in isoleucine met \therefore \downarrow protein

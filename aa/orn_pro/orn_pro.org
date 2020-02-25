@@ -198,17 +198,17 @@
 \ce{proline ->[POX] P5C}
 ** Genetics
 - AR, PRODH
-- aps to 22q11, in the region deleted in the velocardiofacial
+- maps to 22q11, in the region deleted in the velocardiofacial
   syndrome/DiGeorge syndrome
 
 ** Diagnostic Tests
 - \Uparrow plasma proline
-  - usually \le 2000 uM (normal range 100–450 uM)
+  - usually \le 2000 uM (normal range 100-450 uM)
 - \uparrow urine and cerebrospinal fluid (CSF) proline
 - hyperprolinaemia (as high as 1000 μM) is also observed as a
   secondary phenomenon in hyperlactataemia
-- possibly because proline oxidase is inhibited by lactic acid
-
+  - possibly because proline oxidase is inhibited by lactic acid
+  - alanine will also elevated in this situation
 ** Treatment
 - prognosis excellent
 - no treatment needed
@@ -234,7 +234,7 @@
 
 ** Diagnostic Tests
 - \Uparrow plasma proline
-  - usually \gt 2000 uM (normal range 100–450 uM)
+  - usually \gt 2000 uM (normal range 100-450 uM)
 - \uparrow urine and cerebrospinal fluid (CSF) proline
 - \uparrow P5C in urine and plasma 
 
