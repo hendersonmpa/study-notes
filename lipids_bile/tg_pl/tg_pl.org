@@ -106,7 +106,7 @@
   diacylglycerol and a D-myo-inositol head group.
 - inositol ring can be phosphorylated and dephosphorylated by a number
   of kinases and phosphatases to yield seven phosphoinositide
-  derivatives (PI-3P, PI-4P, PI-5P etc...)
+  derivatives (PI-3P, PI-4P, PI-5P etc)
 - arachidonate-rich phosphoinositides are also believed to be another
   source of PLA2-mediated arachidonic acid release for the synthesis
   of prostaglandins and leukotrienes

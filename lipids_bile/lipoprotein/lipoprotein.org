@@ -54,14 +54,15 @@
 #+ATTR_LaTeX: :width 1.0\textwidth
 [[file:./lipoprotein/figures/lipid_met.png]]
 
-* LDL Metabolism Disorders
+* LDL Metabolism
+- see table [[tab:lip]]
 - atherosclerotic process begins in childhood
 - extent and rate of progression has \propto lipid levels
 - healthy lifestyles and a lower saturated fat intake is the
   cornerstone of treatment of lipid disorders in children
 - lipid-lowering therapies are important
 
-- Five genetic disorders:
+- Five genetic disorders
   1) familial hypercholesterolaemia (FH) - LDL receptor
      - heterozygous and more severe homozygous forms
   2) familial ligand defective apo-B (FLDB)
@@ -90,16 +91,17 @@
   - \to pancreatitis and eruptive xanthomas
 - low fat diet (<10% fat)
 - Glybera - LPL gene therapy 
-- Familial lipoprotein lipase deficiency - Type-I hyperlipidaemia
+
+** Familial Lipoprotein Lipase Deficiency - Type-I Hyperlipidaemia
   - consanguinity 1 in 1 million (homozygous)
   - founder effect in French Canadian population in Quebec
     - carrier frequency 1 in 40
 * HDL Metabolism
-- Disorders of HDL are very rare
-- 3 AR inherited disorders described:
-  1) Apolipoprotein A-1 deficiency
-  2) familial hypoalphalipoproteinaemia (Tangier’s disease)
-  3) lecithin:cholesterol acyltranferase (LCAT) deficiency
+- disorders of HDL are very rare
+- 3 AR inherited disorders described
+  1) Apolipoprotein A-1 Deficiency
+  2) Familial Hypoalphalipoproteinaemia (Tangier’s disease)
+  3) Lecithin:Cholesterol Acyltranferase (LCAT) Deficiency
 - \downarrow HDL and Apo A-I
 - \uparrow cholesterol and triglycerides
 - premature atherosclerosis

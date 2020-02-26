@@ -224,7 +224,13 @@
 - glycine and carnitine supplementation
 
 * 3-Methylglutaconic Aciduria
+- defective leucine catabolism
 - primary 3-methylglutaconic aciduria caused by 3-methylglutaconyl-CoA
   hydratase deficiency (AUH mutations) is very rare
+  - \uparrow urine 3-methylglutaconic and 3-methylglutaric acids
+  - \uparrow 3-HIVA differentiates from secondary causes
 - secondary 3-MGC acidurias are a relatively common finding in a
   number of metabolic disorders, particularly mitochondrial disease
+  - phospholipid remodelling
+  - mitochondrial membrane
+  - unknown etiology
