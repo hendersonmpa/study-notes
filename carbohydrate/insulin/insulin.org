@@ -24,10 +24,17 @@
 
 
 
- #+CAPTION[insulin]: Insulin Secretion
+ #+CAPTION[insulin]: Regulation of Insulin Secretion
  #+NAME: fig:insulin
  #+ATTR_LaTeX: :width 0.9\textwidth
  [[file:./insulin/figures/insulin.png]]
+
+
+ #+CAPTION[insulin]: Regulation of Insulin Secretion
+ #+NAME: fig:insulin2
+ #+ATTR_LaTeX: :width 0.9\textwidth
+ [[file:./insulin/figures/Slide11.png]]
+
 
  - activation of insulin receptors results in:
    - \uparrow glucose utilization

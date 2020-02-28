@@ -16,10 +16,15 @@
   multiple intracellular conversions.
 
 
-#+CAPTION[]:Cobalamin (Cbl) endocytosis and intracellular metabolism
+#+CAPTION[]:Cobalamin transport and metabolism
 #+NAME: fig:cbl
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./b12b9/figures/cbl.png]]
+
+#+CAPTION[]:Cobalamin absorption, transport and metabolism
+#+NAME: fig:cbl
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./b12b9/figures/Slide24.png]]
 
 - serum Cbl level is usually low in patients with disorders affecting
   absorption and transport of Cbl
@@ -118,6 +123,7 @@
 - betaine-homocysteine methyltransferase (BHMT) is betaine dependent
 \ce{trimethylglycine + homocysteine ->[BHMT] dimethylglycine + methionine}
 - in the liver, BHMT catalyzes up to 50% of homocysteine metabolism
+- betaine treatment \to \uparrow plasma sarcosine (methlyglycine)
 ** Cobalamin X
 - /cblX/ is caused by mutations in HCFC1
 - same phenotype as /cblC/

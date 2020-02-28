@@ -106,7 +106,7 @@
 ** Treatment
 - no effective treatment is available
 
-* MPI-CDG (CDG 1b)
+* MPI-CDG (CDG Ib)
 ** Clinical Presentation
 - onset in infancy, neonatal
 - cyclic vomiting, profound hypoglycemia, failure to thrive, liver

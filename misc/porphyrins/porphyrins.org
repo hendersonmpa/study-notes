@@ -40,6 +40,11 @@
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./porphyrins/figures/heme_synth.png]]
 
+#+CAPTION[]:Heme Synthesis
+#+NAME: fig:heme2
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./porphyrins/figures/Slide19.png]]
+
 #+CAPTION: Porphyrin names and the corresponding number of carboxyl groups
 #+LABEL: tbl:carboxyl
 | Porphyrin                                | Number of carboxyl groups |
