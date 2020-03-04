@@ -1,7 +1,7 @@
 SHELL=/bin/bash
 OUT_DIR=./notes/
 
-all: $(OUT_DIR)organelles.pdf $(OUT_DIR)mitochondria.pdf $(OUT_DIR)carbohydrate.pdf \
+all: $(OUT_DIR)organelles.pdf $(OUT_DIR)energy.pdf $(OUT_DIR)carbohydrate.pdf \
 $(OUT_DIR)lipids_bile.pdf $(OUT_DIR)misc.pdf $(OUT_DIR)vitamins.pdf $(OUT_DIR)aa.pdf \
 $(OUT_DIR)methods.pdf $(OUT_DIR)conditions.pdf $(OUT_DIR)tnt.pdf clean
 
@@ -19,15 +19,15 @@ $(OUT_DIR)organelles.pdf: ./organelles/organelles.org ./organelles/fabry/fabry.o
 	-f org-latex-export-to-pdf
 	mv -v ./organelles/organelles.pdf $(OUT_DIR)organelles.pdf
 
-$(OUT_DIR)mitochondria.pdf: ./mitochondria/mitochondria.org ./mitochondria/oxphos/oxphos.org \
-./mitochondria/fao/fao.org ./mitochondria/ketones/ketones.org \
-./mitochondria/pyruvate/pyruvate.org ./mitochondria/tca/tca.org ./mitochondria/creatine/creatine.org
+$(OUT_DIR)energy.pdf: ./energy/energy.org ./energy/oxphos/oxphos.org \
+./energy/fao/fao.org ./energy/ketones/ketones.org \
+./energy/pyruvate/pyruvate.org ./energy/tca/tca.org ./energy/creatine/creatine.org
 	emacs -u "$(id -un)" \
 	--batch \
 	--eval '(load user-init-file)' \
-	./mitochondria/mitochondria.org \
+	./energy/energy.org \
 	-f org-latex-export-to-pdf
-	mv -v ./mitochondria/mitochondria.pdf $(OUT_DIR)mitochondria.pdf
+	mv -v ./energy/energy.pdf $(OUT_DIR)energy.pdf
 
 
 $(OUT_DIR)carbohydrate.pdf: ./carbohydrate/carbohydrate.org ./carbohydrate/carbohydrate_metabolism/carbohydrate_metabolism.org \
@@ -93,7 +93,7 @@ $(OUT_DIR)conditions.pdf: ./conditions/conditions.org ./conditions/cancer.org ./
 
 $(OUT_DIR)methods.pdf: ./methods/ac/ac.org ./methods/aa/aa.org ./methods/oa/oa.org \
 ./methods/mito/mito.org ./methods/glyc/glyc.org ./methods/niet/niet.org \
-./methods/porphyrins/porphyrins.org
+./methods/porphyrins/porphyrins.org ./methods/enzymes/enzymes.org
 	emacs -u "$(id -un)" \
 	--batch \
 	--eval '(load user-init-file)' \
