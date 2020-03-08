@@ -3,7 +3,7 @@
 #+DATE: \today
 
 * Introduction
-#+BEGIN_SRC dot :file ./oxphos/figures/etc.pdf :cmdline -Kdot -Tpdf
+#+BEGIN_SRC dot :file ./mito/figures/etc.pdf :cmdline -Kdot -Tpdf
   digraph {
            // graph from left to right
            rankdir=LR;
@@ -142,9 +142,11 @@
   - assay cuvette :: ubiquinone &  antimycin A
   - reference cuvette :: ubiquinone &  antimycin A & rotenone 
 
-
+#+BEGIN_EXPORT LaTeX
 \ce{ubiquinone(CoQ) + NADH ->[CI] ubiquinol(CoQH2) + NAD+} 
+\\
 \ce{oxidized CoQ -> reduced CoQ} 
+#+END_EXPORT
 
 - spectrophotometer subtracts the activity seen in the reference cell
   from the activity seen in the assay cell, the progress curve seen on
@@ -189,7 +191,8 @@
   - reference cuvette :: oxidized cyt c, azide & succinate
 
 #+BEGIN_EXPORT LaTeX
-{\small\ce{4Fe3+ cytochrome c + succinate + 2H2O ->[CII + CIII] 4Fe2+ cytochrome c + fumarate + 4H + O2}}
+{\tiny\ce{4Fe3+ cytochrome c + succinate + 2H2O ->[CII + CIII] 4Fe2+ cytochrome c + fumarate + 4H + O2}}
+\\
 \ce{oxidized cyt c -> reduced cyt c} 
 #+END_EXPORT
 

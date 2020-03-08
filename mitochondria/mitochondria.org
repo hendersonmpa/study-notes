@@ -29,11 +29,10 @@
 #+LaTeX_HEADER: \pagestyle{fancy}
 :END:
 
-* Mitochondrial Redox Reactions
-
-** RedOx State
+* Mitochondrial Redox Rxns
+** Cellular RedOx State
 - NADH and FADH_2 are reducing agents
-  - oxidized in the reduction reaction
+  - oxidized in a reduction reaction
   - \ce{NADH <=>[Ox][Red] NAD+ + H}
   - \ce{FADH2 <=>[Ox][Red] FAD + 2H}
 - \downarrow cellular respiration results in:
@@ -44,7 +43,7 @@
 - PDHC deficiency: n/\downarrow L:P < 25
 - ETC deficiency: \uparrow L:P > 25
 
-** Pyruvate
+** Pyruvate Redox Rxns
  - pyruvate dehydrogenase complex :: oxidized \to acetyl-CoA
       
  \ce{pyruvate + CoA + NAD+ <=>[PDHC] acetyl-CoA + CO2 + NADH + H+}
@@ -53,13 +52,13 @@
 
  \ce{pyruvate + NADH <=>[LDH] lactate + NAD+}
 
-** TCA 
+** TCA Net Reaction
 - Net reaction :: Acetyl-CoA oxidized to 2CO_2
 #+BEGIN_EXPORT LaTeX
 {\tiny\ce{Acetyl-CoA + 3NAD+ + FAD + GDP + Pi + 2H2O -> 2CO2 + CoA + 3NADH + FADH2 + GTP + 2H+}}
 #+END_EXPORT
 
-** ETC
+** ETC Redox Rxns
 - Complex I :: NADH oxidized to NAD^+
  
 \ce{NADH <=>[CI] NAD+ + H}
@@ -69,11 +68,10 @@
  \ce{FADH2 <=>[ETF/ETF-CO] FAD + 2H}
 
 
-** Ketones
+** Ketone Redox Rxn
 - hydroxybutyrate dehydrogenase :: reduced to \beta-hydroxybutyrate
 
  \ce{acetoacetate + NADH <=>[HBDH] \betaHB + NAD+}
-
 
 * Fatty Acid Oxidation
 #+INCLUDE: "./fao/fao.org" :lines "4-"

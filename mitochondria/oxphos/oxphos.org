@@ -455,9 +455,17 @@
   - MNGIE \uparrow thymidine and deoxyuridine
 - FGF-21, GDF15 and creatinine \propto mito disfunction in myopathy
 
-** TODO Mitochondrial Assays
-- interpretation
-  - i.e normal CII in mtDNA depletion
+*** L/P ratio
+    - PHD :: N-\downarrow
+    - PC ::  N-\uparrow
+    - ETC :: \uparrow 
+*** OxPhos subunit activity
+- CII is encoded my nuclear DNA (Table [[tab:subunits]])
+  - \therefore not affected by mtDNA depletion
+- CoQ deficiency results in:
+  - \downarrow CI + CIII
+  - \downarrow CII + CIII
+  - normal CI, CII, and CII
 
 ** Imaging
 - cranial CT shows cerebral and cerebellar atrophy in many encephalopathic patients

@@ -8,7 +8,6 @@
   nonamino functional groups
 
 #+BEGIN_EXPORT LaTeX
-\centering
 \chemfig{X-C(-[2]X)(-[6]X)-C(-[2]X)(-[6]X)-C(-[7]OH)=[1]O}
 #+END_EXPORT
 *** Acylglycines
@@ -34,10 +33,11 @@
 | C10    | Decanoic (capric)     | Sebacic           |
 
 ** Functional Groups
+
 #+BEGIN_EXPORT LaTeX
-\centering
 \chemfig{X-C(-[2]X)(-[6]X)-C(-[2]X)(-[6]X)-C(-[7]OH)=[1]O}
 #+END_EXPORT
+
 #+CAPTION[]:Organic Acid Functional Groups
 #+NAME: tab:func
 | Functional group | Formula            |
@@ -49,10 +49,11 @@
 | side chain       | -(CH$_2$)$_n$      |
 
 ** Side Chains
+
 #+BEGIN_EXPORT LaTeX
-\centering
 \chemfig{X-C(-[2]X)(-[6]X)-C(-[2]X)(-[6]X)-C(-[7]OH)=[1]O}
 #+END_EXPORT
+
 #+CAPTION[]:Organic Acid Side Chains
 #+NAME: tab:side
 | Side chain | Structure                      |
@@ -79,7 +80,7 @@
 - medications
 
 ** Urine organic acids detected in health
-  - Tricarboxylic acid cycle acids
+  - tricarboxylic acid cycle acids
     - citric
   - hydroxyaliphatic acids
     - 3-hydroxybutyric
@@ -114,7 +115,6 @@
   - avoids multiple TMS species due to keto-enol tautomerism
 
 #+BEGIN_EXPORT LaTeX
-\centering
 \schemedebug{false}
 \schemestart
 \chemname{\chemfig[][scale=.5]{R=[1](-[2]OH)-[7]R}}{\tiny enol}
@@ -132,7 +132,6 @@
   - forms organic acid TMS esters
 
 #+BEGIN_EXPORT LaTeX
-\centering
 \schemedebug{false}
 \schemestart
 \chemname{\chemfig[][scale=.5]{F{_3}C-C(-[1]OTMS)=[7]NTMS}}{\tiny BSTFA}

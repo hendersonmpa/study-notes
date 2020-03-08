@@ -34,11 +34,11 @@
 - Method?
 ** Fractional Tubular Re-absorption of Carnitine
 
-#+BEGIN_LaTeX
+#+BEGIN_EXPORT LaTeX
 \begin{equation*}
 FTR_{carnitine}\% = \left( 1 -  \frac{carnitine_{urine} \cdot creatinine_{plasma}}{carnitine_{plasma} \cdot creatinine_{urine}}\right) \cdot 100
 \end{equation*}
-#+END_LaTeX
+#+END_EXPORT
 
 - normally >98%, \Downarrow in CUD
 
