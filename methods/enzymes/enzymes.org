@@ -1,0 +1,101 @@
+#+TITLE: Enzyme Analysis
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+* GALT
+** Beutler Test
+
+#+BEGIN_EXPORT LaTeX
+  \ce{Gal-1-P + UDP-Glu ->[GALT] Glu-1-P + UDP-Gal}
+  \ce{Glu-1-P ->[PGM] Glu-6-P}
+  \ce{Glu-6-P + NADP+ ->[G6PD] 6-glucuranate + NADPH}
+  \ce{6-glucuranate + NADP+ ->[6PGDH] ribulose-5-P + NADPH}
+#+END_EXPORT
+
+- fluorescence of NADPH is measured to determine GALT deficiency
+
+#+CAPTION[]:Beutler Method
+#+NAME: fig:bm
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/beutler.jpg]]
+
+
+** Spotcheck
+
+  #+BEGIN_EXPORT LaTeX
+  \ce{Gal-1-P + UDP-Glu ->[GALT] Glu-1-P + UDP-Gal}
+
+  \ce{Glu-1-P ->[PGM] Glu-6-P}
+
+  \ce{Glu-6-P + NADP+ ->[G6PD] 6-PG + NADPH}
+
+  \ce{NADPH + MTT ->[methoxy PMS] Coloured Formazan + NADP+}
+
+  #+END_EXPORT
+
+* Biotinidase
+
+#+BEGIN_EXPORT LaTeX
+\ce{biotin-PAB ->[BTD][ph 6] biotin + PABA}
+
+\ce{PABA ->[NO2, NH2SO3][NED] purple chromophore}
+
+#+END_EXPORT
+
+* Lysosomal Enzymes
+** Multiplex DBS Assay
+ - the DBS screening assay tests for:
+   - Gaucher
+   - Krabbe
+   - Niemann-Pick-A/B
+   - Pompe
+   - Fabry
+   - MPS-I
+ - a single 3-mm DBS punch, which is incubated in a single-assay
+   cocktail with all substrates and internal standards
+ - after incubation and liquid-liquid extraction, samples are analyzed by flow injection MS/MS
+ - all deuterated internal standards correspond to enzymatically generated products
+
+
+** Hexosamindase
+- testing for Tay-Sachs and Sandhoff diseases occurs by analysis of hexosaminidase A, a heat-labile enzyme, and total hexosaminidase (hexosaminidase A plus hexosaminidase B)
+- an artificial substrate is most commonly used
+- total hexosaminidase is quantified
+  - following this, heat inactivation of hexosaminidase A occurs with a second measurement of the total enzyme level
+  - from this, the percent hexosaminidase A is calculated
+- Tay-Sachs disease is characterized by normal total hexosaminidase with a very low percent hexosaminidase A
+- carriers of Tay-Sachs disease are asymptomatic, but have intermediate percent hexosaminidase A in serum and leukocytes
+- follow-up molecular testing is recommended for all individuals with
+  enzyme results in the carrier or possible carrier ranges to
+  differentiate carriers of a pseudodeficiency allele from those with
+  a disease-causing mutation
+- this allows for the facilitation of prenatal diagnosis for at-risk
+  pregnancies
+
+| Disorder   | Enzyme | Total Hexosamindase | Hex A      | Percent    |
+|------------+--------+---------------------+------------+------------|
+| Tay-Sachs  | HexA   | N                   | \Downarrow | \Downarrow |
+| TS carrier | Hex    | \dowarrow           | \downarrow | \downarrow |
+| Sandhoff   | HexA/B | \Downarrow          | \Downarrow | \uparrow   |
+
+
+*** B1 Variant
+- very small group of patients affected with Tay-Sachs disease have
+  mutations referred to as the B1 variant
+
+- in the presence of an artificial substrate, the B1 variant allows
+  for a heterodimer formation of hexosaminidase A and exhibits
+  activity
+
+  - in vivo the B1 variant hexosaminidase A is inactive on the natural
+    substrate
+
+  - with the artificial substrate, these patients appear to be
+    unaffected.
+
+  - B1 variant of Tay-Sachs disease must be distinguished using a
+    natural substrate assay.
+
+  - patients with at least one B1 variant typically become symptomatic
+    beyond the infantile period
+

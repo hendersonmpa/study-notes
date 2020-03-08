@@ -42,6 +42,7 @@
 #+END_EXPORT 
 
 
+
 * NBS
 #+INCLUDE: "./nbs/nbs.org" :lines "4-"
 * Amino Acids
@@ -54,7 +55,8 @@
 #+INCLUDE: "./mito/mito.org" :lines "4-"
 * TODO VLCFA
 * TODO GAGs and Oligosacarides
-* TODO Enzymes
+* Enzymes
+#+INCLUDE: "./enzymes/enzymes.org" :lines "4-"
 * Glycosylation
 #+INCLUDE: "./glyc/glyc.org" :lines "4-"
 * NIET

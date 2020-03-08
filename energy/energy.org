@@ -1,4 +1,4 @@
-#+TITLE: Mitochondrial Disease
+#+TITLE: Energy Metabolism
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
@@ -83,5 +83,5 @@
 #+INCLUDE: "./oxphos/oxphos.org" :lines "4-"
 * Ketogenesis and Ketolysis 
 #+INCLUDE: "./ketones/ketones.org" :lines "4-"
-* Creatine Deficiency 
+* Creatine
 #+INCLUDE: "./creatine/creatine.org" :lines "4-"
