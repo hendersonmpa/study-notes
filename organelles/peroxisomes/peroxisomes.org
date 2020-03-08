@@ -56,8 +56,7 @@
 
 * X-linked Adrenoleukodystrophy
 ** Clinical Presentation
-- 1:20000
-- two forms:
+- three forms:
   1. childhood cerebral form
      - more severe
      - neurological symptoms between 4-12 years
@@ -69,6 +68,11 @@
      - 65% of adult X-ALD male patients (20-50 years)
      - up to 88% of heterozygous women (\gt40 years)
      - presentation is progressive spastic paraparesis and sensory ataxia
+  3. Addison disease only
+     - primary adrenocortical insufficiency commonly by age 7.5 years
+     - without evidence of neurologic abnormality
+       - some neurologic disability (most commonly AMN) usually
+         develops by middle age
 
 ** Metabolic Derangement
 - deficiency in ALDP a peroxisomal ABC transporter
