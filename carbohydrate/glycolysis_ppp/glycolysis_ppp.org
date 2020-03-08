@@ -5,8 +5,8 @@
 * Introduction
 #+CAPTION[]:Glycolysis and PPP
 #+NAME: fig:glyc_ppp
-#+ATTR_LaTeX: :width 1.2\textwidth
-[[file:./glycolysis_ppp/figures/glyc_ppp.png]]
+#+ATTR_LaTeX: :width 1\textwidth
+[[file:./glycolysis_ppp/figures/glyc_ppp_rot.png]]
 
 ** Glycolysis 
 - glycolysis is an oxygen-independent metabolic pathway

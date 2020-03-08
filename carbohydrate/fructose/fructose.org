@@ -4,7 +4,7 @@
 
 * Introduction
 - fructose is mainly metabolised in the liver, renal cortex and small
-  intestinal mucosa (Figure [[fig:fruct]])
+  intestinal mucosa (Figure [[fig:ms]])
 - pathway composed of fructokinase, aldolase B and triokinase
 - aldolase B is also involved in the glycolytic-gluconeogenic pathway
 

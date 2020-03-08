@@ -1,19 +1,18 @@
-#+TITLE: Quantitative Amino Acid Analysis
+#+TITLE: NBS
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
 * Dried Blood Spot
-  - Collected from free flowing blood spotted onto filter paper
-  - Newborn Screening
-  - Monitoring Therapy/Diet
-  - Each DBS is assume to contain 3.2 \micro{}L of blood
-  - The quantity of blood present in the paper varies by
+  - collected from free flowing blood spotted onto filter paper
+  - used for NBS and monitoring
+  - each DBS is assume to contain 3.2 \micro{}L of blood
+  - the quantity of blood present in the paper varies by
     - hematocrit
     - degree of saturation
     - the cotton fiber paper
-    - the environment  when applying blood (humidity and temperature).
-  - Because of these numerous factors, a dried blood spot is a highly
-    imprecise specimen compared with liquids such as urine, blood, and plasma.
+    - the environment  when applying blood (humidity and temperature)
+  - because of these numerous factors, a dried blood spot is a highly
+    imprecise specimen compared with liquids such as urine, blood, and plasma
 
 * AAAC
 ** FIA-MS/MS schematic
@@ -51,14 +50,14 @@
 
 ** FIA-MS/MS sample 
 
-- Amino acids and Acylcarnitines in the DBS eluate are esterified as butyl esters with butanol-hydrogen chloride.
-- Solvent delivery is via HPLC with no chromatography, called flow injection analysis.
-- 10 \micro{}L of sample extract is injected into a flowing stream operating at ~ 0.15 ml/min.
+- amino acids and acylcarnitines in the DBS eluate are esterified as butyl esters with butanol-hydrogen chloride
+- solvent delivery is via HPLC with no chromatography, called flow injection analysis
+- 10 \micro{}L of sample extract is injected into a flowing stream operating at ~ 0.15 ml/min
 
-- Typical injection rates between samples are 2 min, giving a potential 400-
-  to 600-sample capacity per instrument per day.
+- typical injection rates between samples are 2 min, giving a
+  potential 400-600 sample capacity per instrument per day
   - volume is typically 200-400 specimens per instrument per day
-  - maintenance issues, repeat specimen analysis.
+  - maintenance issues, repeat specimen analysis
 
 #+BEGIN_EXPORT LaTeX
 \centering
@@ -112,19 +111,20 @@ plot data u 1:2 w lp lw 2 t "80% ACN"
 
 #+end_src
 
-#+ATTR_LATEX: :width 0.7\textwidth
+#+CAPTION[]: FIA-MS/MS Method
+#+NAME: fig:
+#+ATTR_LaTeX: :width 0.9\textwidth
 #+RESULTS:
 [[file:./nbs/figures/outletmethod.pdf]]    
 
 ** AA NL Scan
-- Electrospray ionization in positive mode
-- \alpha{}-amino acids fragment to produce the neutral butyl formate molecule (102 Da). 
-- A neutral loss scan is used to identify parent molecules with a NL of 102 Da.
+- electrospray ionization in positive mode
+- \alpha{}-amino acids fragment to produce the neutral butyl formate molecule (102 Da) 
+- neutral loss scan is used to identify parent molecules with a NL of 102 Da
 - MRM is used to detected amino acids with basic functional groups
   - arginine, ornithine and citrulline
 
 #+BEGIN_EXPORT LaTeX
-
 \centering
 \schemedebug{false}
 \schemestart
@@ -136,7 +136,7 @@ plot data u 1:2 w lp lw 2 t "80% ACN"
 \schemestop
 #+END_EXPORT
 ** AA MRM
-- Citrulline contains a labile amino group that fragments together with butyl formate.
+- citrulline contains a labile amino group that fragments together with butyl formate
 - CID results in net neutral fragmentation of butyl formate (102 Da) plus \ce{NH3} (17 Da)
 - [[https://en.wikipedia.org/wiki/Selected_reaction_monitoring][SRM]] Citrulline-Bu 232.15 Da \to 113 Da , loss of 119 Da  
 
@@ -163,7 +163,6 @@ plot data u 1:2 w lp lw 2 t "80% ACN"
 \chemname{\chemfig[][scale=.43]{NH_3}}{\tiny 17 Da}
 \schemestop
 #+END_EXPORT
-- Its name is derived from citrullus, the Latin word for watermelon, from which it was first isolated in 1914 by Koga and Odake. 
 
 #+CAPTION[]:Quantified Amino Acids
 #+NAME: tab:aa
@@ -175,9 +174,9 @@ plot data u 1:2 w lp lw 2 t "80% ACN"
 | Phenylalanine |                             |
 
 ** AC Precursor Ion Scan
-- Electrospray ionization in positive mode
-- Butylated acylcarnitines fragment to produce a characteristic ion with mass of 85 Da. 
-- A precursor ion scan is used to identify molecules that fragment to form a 85 m/z molecule.
+- electrospray ionization in positive mode
+- butylated acylcarnitines fragment to produce a characteristic ion with mass of 85 Da 
+- precursor ion scan is used to identify molecules that fragment to form a 85 m/z molecule
 
 #+BEGIN_EXPORT LaTeX
 \definesubmol{x}{-[1,.6]-[7,.6]}
@@ -231,9 +230,9 @@ plot data u 1:2 w lp lw 2 t "80% ACN"
 #+END_EXPORT
 
 ** AC MRM 
-
 - C0-Bu 218.1 Da \to 103 Da transition is optimal
-- All others benefit from the added sensitivity of MRM mode as compared to parent ion scan
+- all others benefit from the added sensitivity of MRM mode as
+  compared to parent ion scan
 
 #+CAPTION[]:MRM is used to detected selected acylcarnitines
 #+NAME: tab:mrnac
@@ -267,14 +266,18 @@ plot data u 1:2 w lp lw 2 t "80% ACN"
 | C6    |        |          |
 | C6DC  |        |          |
 
-** Why derivatize?
 
+#+CAPTION[]:Rationale for Derivatization
+#+NAME: fig:deriv
+#+ATTR_LaTeX: :width 0.9\textwidth
 [[./nbs/figures/ionization.png]]
 
 ** Overestimation of Free Carnitine
-- Butylated acylcarnitines are converted to butylated carnitine in
+- butylated acylcarnitines are converted to butylated carnitine in
   n-butanol-3M HCl at 65\degree{}C. [fn:johnson]
 
+#+CAPTION[]:Overestimation of Free Carnitine
+#+NAME: tab:c0
 | Acyl Carnitine | Half-life (min) |
 |----------------+-----------------|
 | C2             |              31 |
@@ -285,11 +288,11 @@ plot data u 1:2 w lp lw 2 t "80% ACN"
 - NSO uses 60\degree{}C for 20 minutes.
 - IMD uses 55\degree{}C for 20 minutes.
 
-- In a sample with low free carnitine and high acetylcarnitine.
+- in a sample with low free carnitine and high acetylcarnitine
   - 30% of the acetylcarnitine and smaller amounts of higher
     molecular mass acylcarnitines are converted to carnitine
-  - a low carnitine sample could appear to be normal.
-- "The free carnitine results obtained by this screening method on
+  - a low carnitine sample could appear to be normal
+- "the free carnitine results obtained by this screening method on
   blood spots with high levels of acylcarnitines should therefore be
   used with caution." [fn:johnson]
 
@@ -299,24 +302,24 @@ method for blood spots. Journal of Inherited Metabolic Disease, 22(2),
 201–202. 
 
 ** Pros and Cons of FIA-MS/MS using DBS
-- As compared to AAA and LC-MS/MS 
+- as compared to AAA and LC-MS/MS 
 *** Pros
 - ~ 2 min analysis time
-- Analyte specificity
+- analyte specificity
 - ACs and AAs quantified simultaneously
 
 *** Cons
-- Variability in DBS sample as described above
-- Iso-baric compounds
+- variability in DBS sample as described above
+- iso-baric compounds
   - leucine, Isoleucine, Alloisoleucine
   - C5DC and C10-OH
-- Overestimation of CO due to hydrolysis
-- Fewer AA quantified
+- overestimation of CO due to hydrolysis
+- fewer AA quantified
   - homocystine (free)
   - glutamine
-- Overestimation of CO due to hydrolysis
+
 * Multiplex DBS lysosomal Enzyme Assay
-- The DBS screening assay tests for:
+- the DBS screening assay tests for:
   - Gaucher
   - Krabbe
   - Niemann-Pick-A/B
@@ -324,12 +327,20 @@ method for blood spots. Journal of Inherited Metabolic Disease, 22(2),
   - Fabry
   - MPS-I
 - a single 3-mm DBS punch, which is incubated in a single-assay
-  cocktail with all substrates and internal standards.
-- After incubation and liquid-liquid extraction, samples are analyzed by flow injection MS/MS.
-- All deuterated internal standards correspond to enzymatically generated products.
+  cocktail with all substrates and internal standards
+- after incubation and liquid-liquid extraction, samples are analyzed by flow injection MS/MS
+- all deuterated internal standards correspond to enzymatically generated products
 * Biotinidase
+
+#+BEGIN_EXPORT LaTeX
+\ce{biotin-PAB ->[BTD][ph 6] biotin + PABA}
+
+\ce{PABA ->[NO2, NH2SO3][NED] purple chromophore}
+
+#+END_EXPORT
+
+
 * GALT
-** Spotcheck Method
 
  #+BEGIN_EXPORT LaTeX
  \ce{Gal-1-P + UDP-Glu ->[GALT] Glu-1-P + UDP-Gal}

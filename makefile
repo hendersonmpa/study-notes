@@ -90,7 +90,9 @@ $(OUT_DIR)conditions.pdf: ./conditions/conditions.org ./conditions/cancer.org ./
 	-f org-latex-export-to-pdf
 	mv -v ./conditions/conditions.pdf $(OUT_DIR)conditions.pdf
 
-$(OUT_DIR)methods.pdf: ./methods/ac/ac.org ./methods/aa/aa.org ./methods/oa/oa.org
+$(OUT_DIR)methods.pdf: ./methods/ac/ac.org ./methods/aa/aa.org ./methods/oa/oa.org \
+./methods/mito/mito.org ./methods/glyc/glyc.org ./methods/niet/niet.org \
+./methods/porphyrins/porphyrins.org
 	emacs -u "$(id -un)" \
 	--batch \
 	--eval '(load user-init-file)' \

@@ -1,0 +1,62 @@
+#+TITLE: Glycosylation
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+* Transferrin IEF
+- serum transferrin IEF is the screening method of choice
+  - can detect nearly all known CDG-I types as well as most CDG-II types and many CDG-X cases
+  - N-glycosylation disorders associated with sialic acid deficiency
+- normal serum transferrin is mainly composed of:
+  - tetrasialotransferrin and small amounts of mono-, di-, tri-,
+    penta- and hex-asialotransferrins
+- partial deficiency of sialic acid (-ve charge) causes a
+  cathodal shift
+- two main types of cathodal shift can be recognized:
+  - type 1 or 2 patterns
+
+#+CAPTION[]:Transferrin IEF
+#+NAME: fig:tief
+#+ATTR_LaTeX: :width 1\textwidth
+[[file:./gly/figures/transferrin_ief.png]]
+
+** Type 1 pattern
+ - \uparrow disialo- and asialotransferrin
+ - \downarrow  tetra-, penta-and hexasialotransferrins
+ - defects in the assembly of the dolichol lipid-linked
+   oligosaccharide chain and transfer to the nascent protein
+ - PMM2-CDG or MPI-CDG should be considered first
+ - also seen in secondary glycosylation disorders such as:
+   - chronic alcoholism, hereditary fructose intolerance and galactosaemia
+
+** Type 2 pattern
+  - Type 1 pattern with additional \uparrow tri- \pm
+    monosialotransferrin bands
+  - defects in the trimming and processing of the protein-bound
+    glycans either late in the endoplasmic reticulum or the Golgi
+    compartments
+
+** Transferrin IEF limitations
+- deficiencies of ER-glucosidase I (CDG-IIb) and Golgi GDP-fucose
+  transporter (CDG-IIc) are missed
+- prenatal diagnostics by IEF analysis from fetal blood is not
+  reliable
+- IEF of serum from children \lt 2 weeks may be false-positive
+- heavy alcohol consumption can also result in serum transferrin
+  deficiency in carbohydrate moieties, leading to an abnormal
+  IEF-pattern
+- mutations in the protein backbone of transferrin
+  - desialylation of transferrin by neuraminidase treatment or IEF of
+    an alternative glycoprotein like \alpha 1-antitrypsin should be
+    performed
+
+* Additional Laboratory Investigations
+- protein-linked glycan analysis can be performed to identify the defective step
+  - MALDI-TOF analysis of released N-linked oligosaccharides
+- CDG gene panel analysis or WES
+
+- capillary zone electrophoresis of total serum is a rapid screening
+  test for CDG
+  - An abnormal result should be further investigated by serum
+    transferrin IEF
+- HPLC-UV/Vis
+

@@ -381,18 +381,15 @@
 [[file:./peroxisomes/figures/eicosanoids.png]]
 
 ** Disorders 
-- Primary Hypertrophic Osteoarthropathy
+- Primary Hypertrophic Osteoarthropathy (PHO)
   - Type 1 (PHOAR1): 15-Hydroxy Prostaglandin Dehydrogenase (PGDH) Deficiency
   - Type 2 (PHOAR2): Prostaglandin Transporter (PGT) Deficiency
 
-- Hypertrophic Osteoarthropathy (PHO) is a disorder characterized by
-  changes to the skin and bones
-
-- occurs either in a rare familial, primary form (PHO: primary
-  hypertrophic osteoarthropathy), also called pachydermoperiostosis
-  (PDP) or, more commonly, secondary to other pathologies
-
-- key features include digital clubbing, periostosis with bone and
-  joint enlargement, and skin changes, such as pachydermia, abnormal
-  furrowing, seborrhea, and hyperhidrosis
+- hypertrophic osteoarthropathy is a disorder characterized by changes
+  to the skin and bones occurs as
+  - a rare familial form PHO
+  - more commonly secondary to disease
+  - key features include digital clubbing, periostosis with bone and
+    joint enlargement, and skin changes, such as pachydermia, abnormal
+    furrowing, seborrhea, and hyperhidrosis
 

@@ -4,7 +4,7 @@
 
 * Background
 ** What are urine organic acids?
-- Water soluble compounds containing \ge one carboxyl group(s) and
+- water soluble compounds containing \ge one carboxyl group(s) and
   nonamino functional groups
 
 #+BEGIN_EXPORT LaTeX
@@ -12,7 +12,7 @@
 \chemfig{X-C(-[2]X)(-[6]X)-C(-[2]X)(-[6]X)-C(-[7]OH)=[1]O}
 #+END_EXPORT
 *** Acylglycines
-- Acylglycines are also detected in UOA analysis
+- acylglycines are also detected in UOA analysis
   - conjugation of acyl-CoA species to glycine
   - catalysed by glycine N-acylase
 
@@ -32,7 +32,6 @@
 | C8     | Octanoic (caprylic)   | Suberic           |
 | C9     | Nonanoic (pelargonic) | Azelaic           |
 | C10    | Decanoic (capric)     | Sebacic           |
-
 
 ** Functional Groups
 #+BEGIN_EXPORT LaTeX
@@ -65,7 +64,7 @@
 
 ** Where do they come from?
 *** Endogenous Sources
-- Originate from the intermediate metabolism of all major groups of
+- originate from the intermediate metabolism of all major groups of
   organic cellular components
   - amino acids
   - lipids
@@ -80,7 +79,6 @@
 - medications
 
 ** Urine organic acids detected in health
-
   - Tricarboxylic acid cycle acids
     - citric
   - hydroxyaliphatic acids
@@ -94,17 +92,17 @@
     - hippuric
 
 ** Abnormal Urine Organic acids profiles
-- Elevated concentration of normal metabolites
+- elevated concentration of normal metabolites
   - fumaric acid in fumarase deficiency
   - adipic, suberic, and sebacic acids in MCADD
   - ketones in fasting
     - 3-hydroxybutyric
     - acetoacetic
 
-- Pathological metabolites
+- pathological metabolites
   - succinylacetone, methylcitric acid
 
-- Food, medications, environment
+- food, medications, environment
   - ethosuximide
   - adipic acid
   - cresol
@@ -112,7 +110,7 @@
 
 * Urine Organic Acids by GC-MS
 ** Oximation
-- Oximated with 10% hydroxylamine-HCL
+- oximated with 10% hydroxylamine-HCL
   - avoids multiple TMS species due to keto-enol tautomerism
 
 #+BEGIN_EXPORT LaTeX
@@ -129,8 +127,8 @@
 \schemestop
 #+END_EXPORT
 ** BSTFA Derivatisation
-- Acidified and extracted twice with ethyl ether 
-- Derivatised with BSTFA (N,O-bis(trimethylsilyl)trifluoroacetamide) [fn:stalling]
+- acidified and extracted twice with ethyl ether 
+- derivatised with BSTFA (N,O-bis(trimethylsilyl)trifluoroacetamide) [fn:stalling]
   - forms organic acid TMS esters
 
 #+BEGIN_EXPORT LaTeX

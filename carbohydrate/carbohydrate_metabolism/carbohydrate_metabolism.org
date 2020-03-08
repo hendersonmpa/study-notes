@@ -4,15 +4,15 @@
 
 * Introduction
 
-#+CAPTION[]: Monosaccharide
+#+CAPTION[]: Monosaccharides: A) pentoses B) hexoses
 #+NAME: fig:ms
 #+ATTR_LaTeX: :width 1\textwidth
-https://www.sparknotes.com/health/carbohydrates/section1/
+[[file:./carbohydrate_metabolism/figures/monosaccharides.jpg]]
 
 #+CAPTION[]:Disaccharides
 #+NAME: fig:ds
-#+ATTR_LaTeX: :width 1\textwidth
-https://www.sciencedirect.com/topics/nursing-and-health-professions/glycosidic-bond
+#+ATTR_LaTeX: :width .5\textwidth
+[[file:./carbohydrate_metabolism/figures/disacchardes.png]]
 
 #+CAPTION[]:Carbohydrate metabolism
 #+NAME: fig:cho
