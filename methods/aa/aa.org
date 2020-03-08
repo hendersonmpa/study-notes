@@ -168,15 +168,10 @@
 \end{center}
 #+END_EXPORT
 
-#+CAPTION[]:???
-#+NAME: fig:abc
-#+ATTR_LaTeX: :width 0.5\textwidth
-[[./aa/figures/212.jpg]]
-
 #+CAPTION[]:Amino Acids Analyser
 #+NAME: fig:aaa
 #+ATTR_LaTeX: :width 0.5\textwidth
-[[./figures/aaachrom.png]]
+[[./aa/figures/aaachrom.png]]
 
 ** Pros and Cons of Amino Acid Analysers
 *** Pros
@@ -281,8 +276,7 @@ plot data u 1:3 w lp lw 2 title 'A', \
 | glycine             | \beta{}-alanine     | arginine              |
 |                     |                     | s-sulfocyteine*       |
 
-** Pros and Cons of LC-MS/MS
-- As compared to FIA-MS/MS 
+** Pros and Cons of LC-MS/MS vs FIA-MS/MS 
 *** Pros
 - 43 vs 11 amino acids quantified
   - Leu/Ile/Allo 
@@ -291,8 +285,7 @@ plot data u 1:3 w lp lw 2 title 'A', \
 *** Cons
 - Too slow for NBS
 - Manual peak integration
-
-- As compared to AAA 
+** Pros and Cons of LC-MS/MS vs AAA
 *** Pros
 - ~ 30 min shorter analysis time
 - Analyte specificity

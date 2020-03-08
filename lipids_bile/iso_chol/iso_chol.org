@@ -27,14 +27,14 @@
 
 * Mevalonate Kinase Deficiency
 ** Clinical Presentation
-- autoinflammatory metabolic disorder
+- auto-inflammatory metabolic disorder
 - onset 1st year of life, often triggered by childhood vaccinations
 - lifelong episodes of fever and inflammation triggered by stress
 - episodes last 3-7 days, recur on average every 4-6 weeks associated with:
   - abdominal pain
   - vomiting and diarrhoea,
   - (cervical) lymphadenopathy, hepatosplenomegaly, arthralgia skin rash
-- Two recognized forms in a disease spectrum:
+- two recognized forms in a disease spectrum:
   - classic mevalonic aciduria (MKD-MA) - severe
   - hyper-IgD and periodic fever syndrome (MKD-HIDS) - mild
 
@@ -44,7 +44,7 @@
     FTT, dysmorphic features, high risk of death in early infancy
 
 ** Metabolic Derangement
-- mevalonate kinase deficiency (Figure [[fig:chol]])
+- mevalonate kinase deficiency (Figure [[fig:chol]] , enzyme 4)
 \ce{mevalonate + ATP ->[MK] 5-phosphomevalonate + ADP}
 - synthesis of all isoprenoids will be affected
 - clinical presentation \propto residual MK activity
@@ -80,18 +80,18 @@
   gastrointestinal anomalies
 
 ** Metabolic Derangement
-- 7-dehydrocholesterol reductase deficiency
+- 7-dehydrocholesterol reductase deficiency (Figure [[fig:chol]] , enzyme 19)
   - catalyses the predominant final step in cholesterol biosynthesis
   - reduce 7-dehydrocholesterol C7-C8 double bond \to cholesterol
 
 ** Genetics
 - AR, DHCR7, 1:15,000-60,000
-- *most frequency cholesterol biosynthesis defect*
+- *most frequent cholesterol biosynthesis defect*
 
 ** Diagnostic Tests
 - sterol analysis of plasma or tissues of patients by GC-MS,
   - \uparrow 7-dehydrocholesterol and 8-dehydrocholesterol are diagnostic
-- plasma cholesterol is usually low or low normal
+- \downarrow-N plasma cholesterol
 
 ** Treatment and Prognosis
 - most anomalies occurring in SLOS are due to the unavailability of

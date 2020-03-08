@@ -80,7 +80,7 @@
   decade or beyond.
 ** Metabolic Derangement
 - 3\beta-dehydrogenase catalyses the second reaction in the major
-  pathway of synthesis of bile acid (Figure [[fig:bile]],enyzyme 2)
+  pathway of synthesis of bile acid (Figure [[fig:bile]], enzyme 2)
 - 7\alpha-hydroxycholesterol \to 7\alpha-hydroxycholest-4-en-3-one
 - accumulating 7\alpha-hydroxycholesterol can undergo side-chain
   oxidation with or without 12\alpha-hydroxylation to produce
@@ -105,7 +105,7 @@
   - \Delta^5 double bond
   - 3\beta-hydroxyl/sulphate group
   - 7\alpha-hydroxyl group
-- bile acids with a \Delta^5 double bond and a 7-hydroxy group are acid labile.
+- bile acids with a \Delta^5 double bond and a 7-hydroxy group are acid labile
 - FAB-MS or ESI-MS/MS analysis overcomes this problem
 
 *** Plasma
@@ -155,7 +155,7 @@
 
 ** Metabolic Derangement
 - sterol 27-hydroxylase deficiency (Figure [[fig:bile]], enzyme 4)
-- mitochondrial catalyses first step inside-chain oxidation.
+- mitochondrial catalyses first step inside-chain oxidation
   - required to convert a C27 sterol into a C24 bile acid
 - 5\beta-cholestane-3\alpha,7\alpha,12\alpha-triol cannot be hydroxylated in the C_{27}
   position and accumulates in the liver
@@ -181,7 +181,7 @@
 - major cholanoids are cholestanepentol glucuronides by FAB-MS or ESI-MS/MS
 
 ** Treatment and Prognosis
-- Chenodeoxycholic acid
+- chenodeoxycholic acid
 * \alpha-Methylacyl-CoA racemase deficiency
 
 ** Clinical Presentation

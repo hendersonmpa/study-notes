@@ -17,7 +17,7 @@
 #+CAPTION[]:Transferrin IEF
 #+NAME: fig:tief
 #+ATTR_LaTeX: :width 1\textwidth
-[[file:./gly/figures/transferrin_ief.png]]
+[[file:./glyc/figures/transferrin_ief.png]]
 
 ** Type 1 pattern
  - \uparrow disialo- and asialotransferrin
@@ -48,7 +48,7 @@
   - desialylation of transferrin by neuraminidase treatment or IEF of
     an alternative glycoprotein like \alpha 1-antitrypsin should be
     performed
-
+- galactosemia and HFI may cause false positive patterns
 * Additional Laboratory Investigations
 - protein-linked glycan analysis can be performed to identify the defective step
   - MALDI-TOF analysis of released N-linked oligosaccharides
