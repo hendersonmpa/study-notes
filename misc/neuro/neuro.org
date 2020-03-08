@@ -39,7 +39,7 @@
   - six disorders of monoamine metabolism (section [[Monoamine Metabolism]])
   - see aminoacidopathies for disorders of glycine metabolism
 * GABA catabolism
-- three defects of GABA catabolism have been reported:
+- three defects of \gamma-aminobutyric acid (GABA) catabolism have been reported:
   1) GABA transaminase deficiency (very rare, severe, and untreatable)
   2) succinic semialdehyde dehydrogenase (SSADH) deficiency
   3) homocarnosinosis
@@ -48,6 +48,11 @@
 #+NAME: fig:gaba
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./neuro/figures/gaba.png]]
+
+#+CAPTION[]: \gamma-aminobutryic acid
+#+NAME: fig:gaba2
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./neuro/figures/Slide23.png]]
 
 ** Succinic Semialdehyde Dehydrogenase Deficiency
 - first reported as \gamma-hydroxybutyric aciduria (4-hydroxybutyric
@@ -140,15 +145,20 @@
   pressure, endocrine secretion, appetite, sexual behaviour, movement,
   emesis, and pain.
 
+#+CAPTION[]:Tetrahydrobiopterin metabolism
+#+NAME: fig:bh4
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./neuro/figures/Slide21.png]]
+
+#+CAPTION[]: Biogenic Amines
+#+NAME: fig:amines
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./neuro/figures/Slide22.png]]
+
 #+CAPTION[]:Metabolism of adrenaline, noradrenaline, dopamine and serotonin
 #+NAME: fig:monoamines
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./neuro/figures/monoamines.png]]
-
-#+CAPTION[]:Tetrahydrobiopterin metabolism
-#+NAME: fig:bh4
-#+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./phe/figures/Slide21.png]]
 
 - Six disorders of monoamine metabolism:
   - Tyrosine hydroxylase (TH) deficiency

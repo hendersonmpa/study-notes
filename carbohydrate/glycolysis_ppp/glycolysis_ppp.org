@@ -81,6 +81,11 @@
   and/or Duchenne muscular dystrophy
 
 ** PPP Disorders
+#+CAPTION[]:Pentose Phosphate Pathway
+#+NAME: fig:ppp
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./glycolysis_ppp/figures/Slide10.png]]
+
   - glucose-6-phosphate dehydrogenase deficiency :: an X-linked defect
        in the first irreversible step of the pathway
     - exclusively haematological disorder

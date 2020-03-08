@@ -31,6 +31,11 @@
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./biotin/figures/biotin.png]]
 
+#+CAPTION[]:Biotin cycle
+#+NAME: fig:biotin2
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./biotin/figures/Slide25.png]]
+
 * Biotin-responsive disorders
 - two inherited defects affecting the coenzyme function of biotin:
   1) holocarboxylase synthetase (HCS) deficiency

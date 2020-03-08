@@ -2,6 +2,11 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
+#+CAPTION[]:Purine and Pyrimidine Metabolism
+#+NAME: fig:pp
+#+ATTR_LaTeX: :width 1\textwidth
+[[file:./pp/figures/Slide17.png]]
+
 * Purine Metabolism
 ** Introduction
 - Purine nucleotides are involved in energy transfer, metabolic

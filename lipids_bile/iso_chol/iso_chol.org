@@ -25,6 +25,13 @@
 #+ATTR_LaTeX: :width 1.0\textwidth
 [[file:./iso_chol/figures/iso_chol_synth.png]]
 
+#+CAPTION[]:Isoprenoid/cholesterol synthesis pathway
+#+NAME: fig:chol2
+#+ATTR_LaTeX: :width 1.0\textwidth
+[[file:./iso_chol/figures/Slide18.png]]
+
+
+
 * Mevalonate Kinase Deficiency
 ** Clinical Presentation
 - auto-inflammatory metabolic disorder

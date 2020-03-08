@@ -82,6 +82,11 @@
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./b1b6/figures/pyridoxine.png]]
 
+#+CAPTION[]:Pyridoxine metabolism
+#+NAME: fig:pyr2
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./b1b6/figures/Slide26.png]]
+
 - several mechanisms that lead to an increased requirement for
   pyridoxine and/or PLP:
   1. inborn errors affecting the pathways of B_6 vitamer metabolism
