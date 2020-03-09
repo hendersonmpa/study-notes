@@ -42,7 +42,7 @@
   - short-chain :: C4
 ** Mitochondrial fatty acid oxidation
 
-- involves three processes (Figure [[fig:box]])
+- involves three processes (Figure [[fig:fao]])
   1) entry of fatty acids into mitochondria
      - long-chain fatty acids are activated to coenzyme A (CoA) esters
        in the cytoplasm
@@ -54,29 +54,55 @@
      - medium and short-chain fatty acids enter mitochondria
        independent of carnitine and are activated to CoA esters in the
        matrix
-  2) \beta-oxidation via a spiral pathway
-     - each turn of the spiral shortens the acyl-CoA by two carbons and involves four steps:
-       - two dehydrogenation reactions linked respectively to FAD and NAD
-     - \beta-oxidation is catalysed by enzymes of different chain
-       length specificity
-     - enzymes for long-chain substrates are membrane-bound
-       - three of the reactions are catalysed by the mitochondrial
-         trifunctional protein (MTP)
-       - medium and short-chain enzymes are located in the matrix
+  2) \beta-oxidation via a spiral pathway (Figure [[fig:box]])
+     - the \alpha carbon is right beside a functional group, and the
+       \beta carbon is the next one
+     - it is at the second carbon from the thioester, then, where the
+       action is in \beta-oxidation
+     - reactions are as follows:
+       1) fatty acyl-CoA molecule is first dehydrogenated between the \alpha
+          and the \beta carbon atoms by acyl-CoA dehydrogenase
+	  - FAD accepts the hydrogen abstracted and is reduced to FADH_2
+	  - yields 2-trans-enoyl-CoA
+       2) trans double bond just created is hydrated by enoyl-CoA
+          hydratase, which yields hydroxyacyl-CoA
+	  - \alpha carbon is now once more fully reduced
+       3) \beta-hydroxyl group is converted to a keto group by
+          hydroxyacyl-CoA dehydrogenase
+	  - NAD^+ accepts the hydrogen
+	  - product is β-ketoacyl-CoA
+       4) thiolase introduces a new molecule of coenzyme A to cleave
+          the \beta-ketoacyl-CoA, which releases acetyl-CoA and a new,
+          shortened acyl-CoA that enters the next cycle of
+          \beta-oxidation
+     - the process is repeated until the fatty acid is completely
+       broken down
+     - acyl chains with even numbers of carbons, this will yield
+       acetyl-CoA only, those with odd numbers of carbons will yield
+       one molecule of propionyl-CoA in the final thiolase step
   3) electron transfer
      - electrons are passed to the respiratory chain either directly
        (from NADH to complex I) or via two transfer proteins (from
        FADH_2 to ubiquinone)
 
-#+CAPTION[]:\beta-oxidation
-#+NAME: fig:box
+#+CAPTION[]: Fatty Acid Oxidation
+#+NAME: fig:fao
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[./fao/figures/b_oxidation.png]]
 
-#+CAPTION[]:FA oxidation and ketone body metabolism
+#+CAPTION[]:Fatty Acid Oxidation and Ketone Body Metabolism
 #+NAME: fig:faketone
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./fao/figures/Slide12.png]]
+
+
+#+CAPTION[]:Fatty Acid \beta-Oxidation
+#+NAME: fig:box
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./fao/figures/boxl.png]]
+
+
+
 
  #+CAPTION[]:Acyl-CoA Synthetases: Chain Length Specificity
  #+NAME: tab:syn
@@ -101,11 +127,13 @@
  #+NAME: tab:other
  | Enzyme                            | Length | comment                               |
  |-----------------------------------+--------+---------------------------------------|
- | Enoyl-CoA hydratase,SC            |     >4 | \downarrow activity w \uparrow length |
- | Hydroxyacyl-CoA dehydrogenase, SC |   4-16 | \downarrow activity w \uparrow length |
- | Acetoacetyl-CoA thiolase          |      4 | Acetoacetyl-CoA specific              |
  | Trifunctional protein             |  12-16 | \uparrow activity w \uparrow length   |
+ | Hydroxyacyl-CoA dehydrogenase, SC |   4-16 | \downarrow activity w \uparrow length |
+ | Enoyl-CoA hydratase,SC            |     >4 | \downarrow activity w \uparrow length |
+ | Acetoacetyl-CoA thiolase          |      4 | Acetoacetyl-CoA specific              |
 
+
+*** \beta-oxidation
 ** Common manifestations in FAODs
  - fasting hypoglycaemia is the classic metabolic disturbance in FAODs
    - primarily due to increased peripheral glucose consumption

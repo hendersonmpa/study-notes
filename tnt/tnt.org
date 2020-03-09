@@ -506,7 +506,44 @@ on a clinical diagnosis or suspicion
 * TODO Chapter 11: The Molecular Basis of Genetic Disease
 * TODO Chapter 12: Molecular, Biochemical, and Cellular Basis of Genetic Disease
 * TODO Chapter 13: Treatment
-* TODO Chapter 14: Developmental Genetics
+* STARTED Chapter 14: Developmental Genetics
+** Birth Defects
+*** Malformations 
+- result from intrinsic abnormalities in one or more genetic programs
+  operating in development. An example of a malformation is the extra
+  fingers in the disorder known as Greig cephalopolysyndactyly
+- arise from intrinsic defects in genes that specify a series of
+  developmental steps or programs, and because such programs are often
+  used more than once in different parts of the embryo or fetus at
+  different stages of development, a malformation in one part of the
+  body is often but not always associated with malformations elsewhere
+  as well
+*** Deformations
+- caused by extrinsic factors impinging physically on the fetus during
+  development
+- common during the second trimester of development when the fetus is
+  constrained within the amniotic sac and uterus
+  - for example contractions of the joints of the extremities, known
+    as arthrogryposes, in combination with deformation of the
+    developing skull, occasionally accompany constraint of the fetus
+    due to twin or triplet gestations or prolonged leakage of amniotic
+    fluid
+- most deformations apparent at birth either resolve spontaneously or
+  can be treated by external fixation devices to reverse the effects
+  of the instigating cause
+*** Disruptions
+- result from destruction of irreplaceable normal fetal
+  tissue
+- more difficult to treat than deformations because they involve
+  actual loss of normal tissue
+- may be the result of vascular insufficiency, trauma, or
+  teratogens
+- one example is amnion disruption, the partial amputation of a fetal
+  limb associated with strands of amniotic tissue
+- amnion disruption is often recognized clinically by the presence of
+  partial and irregular digit amputations in conjunction with
+  constriction rings
+
 * Chapter 15: Cancer
 - cancer is not a single disease but rather comes in many forms and
   degrees of malignancy
@@ -575,7 +612,6 @@ on a clinical diagnosis or suspicion
 - second-hit
   - somatic mutation
   - loss of heterozygozity around locus
-
 
 ** Sporadic Cancer
 - activation of oncogenes by point mutation
