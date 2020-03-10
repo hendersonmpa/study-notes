@@ -192,21 +192,20 @@
      - Fecal copro-III :: \uparrow \uparrow
      - Plasma fluorescence scan :: \Uparrow \Uparrow \Uparrow
    
-
 ** Diagnostic Tests
 *** Acute Attack
  - during an acute attack *a normal PBG essentially excludes all acute
-   neuro-visceral porphyrias* (except ADP)
+   neuro-visceral porphyrias*
+   - except ADP
  - patients with cutaneous symptoms (VP,HCP) should also have excessive
    production of porphyrins
- - genetic and/or enzyme studies are rarely helpful for diagnosis
- - urine should be markedly elevated
-   - Use a fresh RANDOM specimen, protect from light
  - when suspicion of an acute porphyria remains high while crisis is
    resolving
    - analysis of fecal and plasma porphyrins and urinary ALA is
      advisable even if PBG is normal
  - elevated PBG and ALA doesn't mean symptoms are caused by AIP
+ - genetic and/or enzyme studies are rarely helpful for diagnosis
+
 *** Non-AIP Acute Porphyrias
  - VP and HCP may not have skin lesions \to fecal porphyrins
    - if normal, w \uparrow PBG, VP & HCP are excluded \to AIP
@@ -215,7 +214,6 @@
      - VP :: protoporphyrin-IX \Uparrow \Uparrow \Uparrow
    - can also be due to diet or GI bleed
    - follow-up with plasma porphyrin emission scan
-
 * Non-Acute Porphyrias 
 ** X-Linked Sideroblastic Anemia
 - ALAS: 5-aminolevulinate synthase
