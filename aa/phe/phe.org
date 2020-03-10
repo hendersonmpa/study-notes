@@ -49,7 +49,6 @@
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./phe/figures/Slide21.png]]
 
-
 * Phenylalanine Hydroxylase Deficiency
 ** Clinical Presentation
 - natural history of PKU is for affected individuals to suffer

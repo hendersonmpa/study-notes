@@ -198,7 +198,7 @@
 
 *** Genetics
 - AR, OCTN2
-*** Diagnostic Testing
+*** Diagnostic Tests
 - \Downarrow plasma total carnitine, \lt 5% of normal
 - \uparrow urine free carnitine
 *** Treatment 
@@ -236,7 +236,7 @@
   - c.1436C>T, P479L 
 - a few of these patients present with hypoglycaemia as neonates or young children
   - most remain asymptomatic
-*** Diagnostic Testing
+*** Diagnostic Tests
 - \uparrow total/free carnitine
 - \uparrow C0
 - \downarrow C16, C18, C18:1
@@ -278,7 +278,7 @@
 
 *** Genetics
 - AR, SLC25A20
-*** Diagnostic Testing
+*** Diagnostic Tests
 - \Downarrow total carnitine
 - \downarrow C0
 - \Uparrow C16,18,C18:1
@@ -316,7 +316,7 @@
   then undergo \beta-oxidation (Figure [[fig:cpt1]])
 *** Genetics
 - AR, CPT2
-*** Diagnostic Testing
+*** Diagnostic Tests
 - \downarrow total carnitine
 - \uparrow (C16 + C18)/C2
 
@@ -351,7 +351,7 @@
 *** Genetics
 - AR, ACADVL
 
-*** Diagnostic Testing
+*** Diagnostic Tests
 - \uparrow C14:1
 - \uparrow C14:1/C12:1
 - \uparrow UOA C3-C14 dicarboxylic acids
@@ -538,7 +538,7 @@
 *** Genetics 
 - AR, ETFA, ETFB, ETFDH
 
-*** Diagnosis 
+*** Diagnostic Tests
 - \uparrow C4-C18
 - \uparrow UOA lactic, glutaric, 2-OH-glutaric, ethylmalonic, dicarboxylic acids
 *** Treatment

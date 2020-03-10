@@ -39,7 +39,7 @@
    oligosaccharides and glycopeptides
  - found in increased amounts in tissues and fluids of affected patients
 
-** Diagnostic Testing
+** Diagnostic Tests
  - test urine samples for both oligosaccharides and glycopeptides
  - definitive diagnosis - measurement of sialidase activity in fresh
    tissue samples, i.e., fibroblasts, cultured amniotic fluid cells,
@@ -113,7 +113,7 @@
 ** Genetics
 - AR GNPTAB
 
-** Diagnostic Testing
+** Diagnostic Tests
 - diagnosis is generally made by assay of lysosomal enzymes
   - \Downarrow in cultured fibroblasts 
   - \Uparrow in the plasma or serum
@@ -140,7 +140,7 @@
 - associated with lysosomal inclusions in a variety of cell types
 ** Genetics
 - AR MCOLN1
-** Diagnostic Testing 
+** Diagnostic Tests 
 - \uparrow blood gastrin levels
   - virtually diagnostic of ML IV given clinical presenation
 - molecular

@@ -18,7 +18,7 @@
   delivers the cofactor to the \alpha-ketoacid dehydrogenases in the
   mitochondrial matrix
 
-#+CAPTION[]:Thiamine transport 
+#+CAPTION[]:Thiamine Transport 
 #+NAME: fig:thiamine
 #+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./b1b6/figures/thiamine.png]]
@@ -34,7 +34,7 @@
 - mitochondrial TPP transporter deficiency - amish lethal microcephaly
 - \uparrow urine \alpha-ketoglutarate
 ** Binding to apo-enzyme
-- PDHC
+- PDHC and KGDH
   - \uparrow lactate
   - normal L/P ratio
 - BCKAD
@@ -45,9 +45,9 @@
 - broad availability from various food sources
 - three vitamers and their phosphorylated esters are absorbed in the
   small intestine:
-  1) pyridoxal
-  2) pyridoxamine
-  3) pyridoxine
+  1) pyridoxal - aldehyde group
+  2) pyridoxamine - amine group
+  3) pyridoxine - hydroxyl group
 
 - phosphorylated forms undergo dephosphorylation for cellular uptake
   by tissue non-specific alkaline phosphatase (TNSAP)
@@ -89,28 +89,29 @@
 
 - several mechanisms that lead to an increased requirement for
   pyridoxine and/or PLP:
-  1. inborn errors affecting the pathways of B_6 vitamer metabolism
+  1. IEMs affecting the pathways of B_6 vitamer metabolism
      - PNPO and alkaline phosphatase defects
-  2. inborn errors that lead to accumulation of small molecules that
+  2. IEMs that lead to accumulation of small molecules that
      react with PLP and inactivate it
      - hyperprolinemia type II
      - antiquitin deficiency (pyridoxine dependent epilepsy)
-  3. inborn errors affecting specific PLP dependent enzymes
+  3. IEMs affecting specific PLP dependent enzymes
      - X-linked sideroblastic anemia
      - classical homocystinuria
      - gyrate atrophy of the choroid
-  4. drugs as D-penicillamine or isozianid thataffect the metabolism of
-     B 6 vitamers or react with PLP
-  5. coeliac disease(malabsorption) or renal dialysis(loss)
-- inborn errors of metabolism \to \downarrow PLP
-  - by inactivation, reduced formation, or reduced cellular uptake of PLP
+  4. drugs that affect the metabolism of B_6 vitamers or react with PLP
+     - D-penicillamine and isozianid
+  5. coeliac disease (malabsorption) or renal dialysis (loss)
+- IEMs \to \downarrow PLP
+  - via inactivation, reduced formation, or reduced cellular uptake of
+    PLP
   - all autosomal recessive
   - seizures are a hallmark of the disease
     - no or incomplete response to common anticonvulsants
     - good response to pyridoxine or PLP
 
 ** Antiquitin deficiency
-- AKA: Pyridoxine responsiove seizures
+- AKA: pyridoxine responsive seizures
 - presents in neonates with myoclonic and tonic seizures or
   status epilepticus
 - onset up to 3 years observed
@@ -119,9 +120,10 @@
   - deficiency results in \uparrow \alpha-aminoadipic acid semialdehyde (AASA)
     - AASA is in equilibrium with piperideine-6-carboxylate (PC6)
     - PC6 inactivates PLP
-- simultaneous determination of sulfocysteine is crucial to exclude
+- simultaneous determination of S-sulfocysteine is crucial to exclude
   molybdenum cofactor and sulfite oxidase deficiency causing secondary
   inhibition of antiquitin
+  - \uparrow S-sulfocysteine inhibits antiquitin
 - most common form of pyridoxine dependent epilepsy (PDE)
 - \uparrow urine AASA (\alpha-aminoadipic acid)
 - \uparrow urine P6C (piperideine-6-carboxylate)
@@ -129,7 +131,7 @@
 - pipecolic acid in plasma, the first described biomarker of PDE, is
   less specific as it can also be found in peroxisomal disease and has
   been found normal in older patients while on pyridoxine
-- treated with pyridoxine
+- treat with pyridoxine
 
 #+CAPTION[]:Lysine degradation and antiquitin deficiency (blue bar)
 #+NAME: fig:lysine
@@ -145,7 +147,7 @@
 - treated with pyridoxine
 
 ** PNPO deficiency
-- AKA: Pyridoxal phosphate responsiove seizures
+- AKA: pyridoxal phosphate responsive seizures
 - clinically indistinguishable from antiquitin deficiency
 - severe (systemic) PLP deficiency and impaired function of PLP
   dependent enzymes
@@ -157,7 +159,7 @@
 ** Congenital Hypophosphatasia
 - severe form \to neonatal seizures
 - osteomalacia
-- Tissue Non Specific Alkaline Phosphatase (TNSAP) deficiency
+- Tissue Non-Specific Alkaline Phosphatase (TNSAP) deficiency
   - impaired dephosphorylation of PLP for cellular uptake
 - \Downarrow plasma alkaline phosphatase
 - \uparrow serum calcium

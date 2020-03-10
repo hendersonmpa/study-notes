@@ -125,6 +125,9 @@
 * Niemann-Pick C
 #+INCLUDE: "./niemann_pick/niemann_pickc.org" :lines "4-"
 
+* Neuronal Ceroid Lipfuscinoses
+#+INCLUDE: "./ncl/ncl.org" :lines "4-"
+
 * Mucopolysaccharidoses
 #+INCLUDE: "./mps/mps.org" :lines "4-"
 

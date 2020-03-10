@@ -5,9 +5,14 @@
 * Introduction
 - biotin is a water-soluble vitamin widely present in small amounts in
   natural food-stuffs, in which it is mostly protein bound
-- classic role of biotin is to function as the coenzyme of five
-  important carboxylases involved in gluconeogenesis, fatty acid
-  synthesis and the catabolism of several amino acids
+- coenzyme for five important carboxylases involved in
+  gluconeogenesis, fatty acid synthesis and the catabolism of several
+  amino acids
+  1) acetyl-CoA carboxylase (ACC)
+  2) propionyl-CoA carboxylase (PCC)
+  3) 3-methylcrotonyl carboxylase (MCC)
+  4) pyruvate carboxylase (PC)
+  5) urea carboxylase (UC)
 - covalent binding of biotin to the inactive apocarboxylases,
   catalysed by holocarboxylase synthetase (HCS), is required to
   generate the active holocarboxylases
@@ -16,22 +21,21 @@
   short biotinyl peptides
 - biotinidase releases biotin 
 - transcription of a large number of genes, including those encoding
-  HCS and the biotin-dependent carboxylases , is regulated by biotin
-- SLC19A3 encoding the thiamine transporter hTHTR2, mutations cause
+  HCS and the biotin-dependent carboxylases, is regulated by biotin
+- mutations in SLC19A3 (thiamine transporter hTHTR2) cause
   biotin-responsive basal ganglia disease
 
-#+CAPTION[]:Biotin dependent carboxylases
+#+CAPTION[]:Biotin Dependent Carboxylases
 #+NAME: fig:carb
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./biotin/figures/carboxylases.png]]
 
-
-#+CAPTION[]:Biotin cycle
+#+CAPTION[]:Biotin Cycle
 #+NAME: fig:biotin
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./biotin/figures/biotin.png]]
 
-#+CAPTION[]:Biotin cycle
+#+CAPTION[]:Biotin Cycle
 #+NAME: fig:biotin2
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./biotin/figures/Slide25.png]]
@@ -74,7 +78,7 @@
   - derivatives of propionyl-CoA
 
 *** HCS Deficiency
-- age of onset varies widely, from a few hours after birth to 8 years
+- age of onset varies widely from a few hours after birth to 8 years
   of age
 - \sim 50% presented acutely in the first days of life with symptoms
   similar to other severe organic acidurias
@@ -85,10 +89,10 @@
 - gradual development of symptoms and episodes of remission
   - remission may be related to increased free biotin in the diet
 - clinical picture has been reported as early as 7 weeks
-- neurological symptoms may occur much earlier, even in neonatal period:
+- neurological symptoms may occur much earlier, even in neonatal period
   - lethargy, muscular hypotonia, grand mal and myoclonic seizures, ataxia
 - many children also have developmental delay, hearing loss,
-  conjunctivitis and visual problems, including optic atrophy
+  conjunctivitis and visual problems including optic atrophy
 - skin rash and/or alopecia are hallmarks but may develop late or not
   at all
 - metabolic acidosis and the characteristic organic aciduria of MCD
@@ -103,7 +107,7 @@
   maximal velocity lead to reduced formation of the five
   holocarboxylases from their corresponding inactive apocarboxylases
   at physiological biotin concentrations
-- increased Km for Biotin
+- increased K_M for Biotin
   - normally 1-6 nmol/L, patients 9-12 nmol/L
 - abnormality of the K_M values correlates well with the time of onset
   and severity of illness
@@ -158,32 +162,26 @@
 ** Genetics
 - HCS :: AR , HLCS
 - Biotinidase :: AR, BTD
-  - one-third of the alleles, are c.98-104del7ins3 and p.R538C
-  - ~ 50% NBS positive are p.Q456H, the double-mutant allele p.A171T +
-    p.D444H, and p.D252G
-  - almost all individuals with partial biotinidase deficiency have
-    the p.D444H mutation in combination with a mutation causing
-    profound biotinidase deficiency on the second allele
 
 ** Diagnostic Tests
-- A characteristic organic aciduria is the key feature of MCD.
+- characteristic organic aciduria is the key feature of MCD
 - unpleasant urine odour (cat’s urine) may even be suggestive of the
   defect
 - MCD is reflected in elevated urinary and plasma concentrations of
   organic acids as follows:
-  - Deficiency of MCC:
+  - \downarrow MCC activity:
     - \Uparrow urine 3-hydroxyisovaleric acid
     - \Uparrow plasma 3-hydroxyisovalerylcarnitine (C5-OH)
     - \uparrow urine 3-methylcrotonylglycine
     - \uparrow plasma tiglylcarnitine (C5:1)
-  - Deficiency of PCC:
+  - \downarrow PCC activity:
     - \uparrow urine methylcitrate
     - \uparrow urine 3-hydroxypropionate
     - \uparrow urine propionylglycine
     - \uparrow urine tiglylglycine
     - \uparrow urine propionic acid
     - \uparrow plasma propionylcarnitine (C3)
-  - Deficiency of PC:
+  - \downarrow PC activity:
     - \Uparrow lactate
     - \downarrow pyruvate
 - above pattern seen in HCS during acute illness
@@ -202,7 +200,7 @@
   - partial deficinecy :: 10-30% of mean normal activity
 
 ** Treatment and Prognosis
-- oral biotin, at pharmacological dose
+- oral pharmacological dose of biotin
 - initiate treatment prior to irreversible neurological damage
   - deafness
 - treatment of partial biotinidase deficiency is recommended

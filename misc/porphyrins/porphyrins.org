@@ -13,14 +13,12 @@
    pyrrole subunits
 - interconnected at their \alpha-carbon atoms via methine bridges
    (=CH−)
-- porphyrins are aromatic
-- Thus porphyrin macrocycles are highly conjugated systems
 - typically have very intense absorption bands in the visible region
   and may be deeply colored
 - biosynthesis:
   - organelle: mitochondria \to cytoplasm \to mitochondria
-    - Starts with succinyl-CoA and glycine in mitochondria
-  - Tissue: 70-80% in bone marrow
+    - starts with succinyl-CoA and glycine in mitochondria
+  - tissue: 70-80% in bone marrow
     - 15% in other tissue ie. liver \to Cyto P450, cytochromes
 
 #+BEGIN_EXPORT LaTeX
@@ -45,59 +43,47 @@
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./porphyrins/figures/Slide19.png]]
 
-#+CAPTION: Porphyrin names and the corresponding number of carboxyl groups
-#+LABEL: tbl:carboxyl
-| Porphyrin                                | Number of carboxyl groups |
-|------------------------------------------+---------------------------|
-| Uroporphyrin (octacarboxyl porphyrin)    |                         8 |
-| Heptacarboxyl porphyrin                  |                         7 |
-| Hexacarboxyl porphyrin                   |                         6 |
-| Pentacarboxyl porphyrin                  |                         5 |
-| Coproporphyrin (tetracarboxyl porphyrin) |                         4 |
-| Harderoporphyrin (tricarboxyl porphyrin) |                         3 |
-| Protoporphyrin (dicarboxyl porphyrin)    |                         2 |
-
 #+CAPTION: Route of excretion dictated by solubility for porphyrin precursors
 #+LABEL: tbl:excrete
 | Porphyrin | Route  |
 |-----------+--------|
-| ALA       | Urine  |
-| PBG       | Urine  |
-| Uro       | Urine  |
-| CI        | >Fecal |
-| CIII      | >Urine |
-| Proto     | Fecal  |
+| ALA       | urine  |
+| PBG       | urine  |
+| Uro       | urine  |
+| CI        | >fecal |
+| CIII      | >urine |
+| Proto     | fecal  |
 
 #+CAPTION[]:Porphyrin Function
 #+NAME: tab:function
 | Protein             | Functions                   |
 |---------------------+-----------------------------|
-| Hemoglobin          | Oxygen transport            |
-| Myoglobin           | Storage of oxygen in muscle |
-| Cytochrome c        | Electron transport          |
-| Cytochrome P450     | Drug Metabolism             |
-| Catalase            | \ce{H2O2} breakdown         |
-| Tryptophan Pyrolase | Oxidation of tryptophan     |
+| hemoglobin          | oxygen transport            |
+| myoglobin           | storage of oxygen in muscle |
+| cytochrome c        | electron transport          |
+| cytochrome P450     | drug metabolism             |
+| catalase            | \ce{H2O2} breakdown         |
+| tryptophan pyrolase | tryptophan oxidation        |
 
 #+CAPTION: Main types of human porphyrias
 #+LABEL: tbl:synthesis
 | Enzyme | Substrate              | Disorder | Clinical |
 |--------+------------------------+----------+----------|
-|        | Glycine + Succinyl CoA |          |          |
+|        | glycine + succinyl CoA |          |          |
 | ALAS   | \downarrow             |          |          |
 |        | \sigma-ALA             |          |          |
 | ALAD   | \downarrow             | ADP      | N        |
 |        | PBG                    |          |          |
 | HMBS   | \downarrow             | AIP      | N        |
-|        | Hydroxymethylbilane    |          |          |
+|        | hydroxymethylbilane    |          |          |
 | UROS   | \downarrow             | CEP      | C        |
-|        | Uroporphyrinogen-III   |          |          |
+|        | uroporphyrinogen-III   |          |          |
 | UROD   | \downarrow             | PCT      | C        |
-|        | Coproporphyrinogen-III |          |          |
+|        | coproporphyrinogen-III |          |          |
 | CPO    | \downarrow             | HCP      | N,C      |
-|        | Protoporphyrinogen-IX  |          |          |
+|        | protoporphyrinogen-IX  |          |          |
 | PPOX   | \downarrow             | VP       | N,C      |
-|        | Protoporphyrin-IX      |          |          |
+|        | protoporphyrin-IX      |          |          |
 | FECH   | \downarrow             | EPP      | C        |
 
 ** Clinical Classification of the Porphyrias
@@ -128,49 +114,14 @@
 | EPP       | FECH   | 1:140,000   | -  | photosensitive,bullae | erythropoietic |
 
 * Acute Porphyrias 
-** ALA Dehydratase Porphyria 
-- ALAD: Aminolevulinic Acid Dehydratase
-  - aka: porphobilinogen synthase
-  - requires zinc, inhibited by lead
-  - ~five cases reported
-    - Urine ALA :: \Uparrow \Uparrow \Uparrow
-    - Urine PBG :: Not elevated
-
-** Acute Intermittent Porphyria
-- HMBS: Hydroxymethylbilane Synthase
-  - aka: PBG deaminase
-  - Four PBGs are combined through deamination
-  - susceptible to allosteric inhibition by CIII and protoporphyrinogen
-  - HMB is unstable \to \uparrow URO I
-    - Urine PBG :: \Uparrow \Uparrow \Uparrow
-    - Urine ALA :: \Uparrow \Uparrow \Uparrow
-  - rule out VP and HCP
-  - \uparrow urine uroporphyrin arises from non-enzymatic
-    condensation of micro-molar concentrations of PBG.
-
-** Hereditary Coproporphyria
-- CPOX: Coproporphyrinogen Oxidase
-  - mitochondrial intermembrane space
-  - inhibited by metals
-  - specific for CIII
-    - Urine PBG :: \Uparrow \Uparrow \Uparrow
-    - Fecal copro III :: \Uparrow \Uparrow \Uparrow
-
-** Varigate Porphyria
-- PPOX: Protoporphyrinogen Oxidase
-  - inner mitochondrial membrane
-    - Urine PBG :: \Uparrow \Uparrow \Uparrow
-    - Fecal copro-III :: \uparrow \uparrow
-    - Plasma fluorescence scan :: \Uparrow \Uparrow \Uparrow
-   
 ** Clinical Features 
-- Life threatening neuroviseral attack occur in AIP,VP and HCP
+- life threatening neuroviseral attack occur in AIP,VP and HCP
   are clinically identical
-- Low clinical penetrance is a promenent feature of all AD acute porphyrias
+- low clinical penetrance is a promenent feature of all AD acute porphyrias
 - 25% of patients with overt acute porphyria have no family history
   - sporadic presentation reflects high prevalence and low penetrance
   - acute porphyria caused by /de novo/ mutation is uncommon
-- Allelic heterogenetity
+- allelic heterogenetity
 
 #+CAPTION: Clinical features of acute neuroviseral attacks
 #+LABEL: tbl:neuroviseral
@@ -205,75 +156,113 @@
 - hypertension
 - primary hepatocellular carcinoma
 
+** Metabolic Derangement
+*** ALA Dehydratase Porphyria 
+ - ALAD: Aminolevulinic Acid Dehydratase
+   - aka: porphobilinogen synthase
+   - requires zinc, inhibited by lead
+   - ~five cases reported
+     - Urine ALA :: \Uparrow \Uparrow \Uparrow
+     - Urine PBG :: Not elevated
+
+*** Acute Intermittent Porphyria
+ - HMBS: Hydroxymethylbilane Synthase
+   - aka: PBG deaminase
+   - four PBGs are combined through deamination
+   - susceptible to allosteric inhibition by CIII and protoporphyrinogen
+   - HMB is unstable \to \uparrow URO I
+     - Urine PBG :: \Uparrow \Uparrow \Uparrow
+     - Urine ALA :: \Uparrow \Uparrow \Uparrow
+   - rule out VP and HCP
+   - \uparrow urine uroporphyrin arises from non-enzymatic
+     condensation of micro-molar concentrations of PBG
+
+*** Hereditary Coproporphyria
+ - CPOX: Coproporphyrinogen Oxidase
+   - mitochondrial intermembrane space
+   - inhibited by metals
+   - specific for CIII
+     - Urine PBG :: \Uparrow \Uparrow \Uparrow
+     - Fecal copro III :: \Uparrow \Uparrow \Uparrow
+
+*** Varigate Porphyria
+ - PPOX: Protoporphyrinogen Oxidase
+   - inner mitochondrial membrane
+     - Urine PBG :: \Uparrow \Uparrow \Uparrow
+     - Fecal copro-III :: \uparrow \uparrow
+     - Plasma fluorescence scan :: \Uparrow \Uparrow \Uparrow
+   
+
 ** Diagnostic Tests
 *** Acute Attack
- - Acute attacks should have excess urinary excretion of or both.
- - Patients with cutaneous symptoms (VP,HCP) should also have excessive
+ - during an acute attack *a normal PBG essentially excludes all acute
+   neuro-visceral porphyrias* (except ADP)
+ - patients with cutaneous symptoms (VP,HCP) should also have excessive
    production of porphyrins
- - *Genetic and/or enzyme studies are rarely helpful for diagnosis*
- - Urine should be *markedly elevated*
+ - genetic and/or enzyme studies are rarely helpful for diagnosis
+ - urine should be markedly elevated
    - Use a fresh RANDOM specimen, protect from light
- - During an acute attack, *a normal PBG essentially excludes all acute
-   neuro-visceral porphyrias* (except ADP).
- - When suspicion of an acute porphyria remains high while crisis is
+ - when suspicion of an acute porphyria remains high while crisis is
    resolving
    - analysis of fecal and plasma porphyrins and urinary ALA is
      advisable even if PBG is normal
- - *NB: Elevated PBG and ALA doesn't mean symptoms are caused by AIP*
+ - elevated PBG and ALA doesn't mean symptoms are caused by AIP
 *** Non-AIP Acute Porphyrias
- - VP and HCP may not have skin lesions \to *fecal porphyrins*
-   - If normal, w \uparrow PBG, VP & HCP are excluded \to *AIP*
-   - If total \uparrow fecal porphyrins \to fractionate by HPLC
-     - HCP :: Coproporphyrin-III \Uparrow \Uparrow \Uparrow
-     - VP :: Protoporphyrin-IX \Uparrow \Uparrow \Uparrow
-   - Can also be due to diet or GI bleed
-   - Follow-up with plasma porphyrin emission scan
+ - VP and HCP may not have skin lesions \to fecal porphyrins
+   - if normal, w \uparrow PBG, VP & HCP are excluded \to AIP
+   - if total \uparrow fecal porphyrins \to fractionate by HPLC
+     - HCP :: coproporphyrin-III \Uparrow \Uparrow \Uparrow
+     - VP :: protoporphyrin-IX \Uparrow \Uparrow \Uparrow
+   - can also be due to diet or GI bleed
+   - follow-up with plasma porphyrin emission scan
 
-* Non-acute Porphyrias 
-** X-linked sideroblastic anemia
-- ALAS: 5-Aminolevulinate Synthase
+* Non-Acute Porphyrias 
+** X-Linked Sideroblastic Anemia
+- ALAS: 5-aminolevulinate synthase
  - mitochondrial
  - rate limiting step under normal conditions
  - microcytic, hypochromic red cells
  - abnormal accumulation of iron in red blood cells \to ring
    sideroblasts
 ** Porphyria Cutanea Tarda
-- UROD: Uroporphyrinogen Decarboxylase
-- last cytoplasmic enzyme, \downarrow polar
-- most common, 2-5/million in UK
-*** Clincal features
+*** Clincal Presentation
 - both sexes
+- most common porphyria
 - onset during 5th and sixth decade
 - lesions on sun-exposed skin: back of hands, forearm, face
 - fragile skin
 - subepidermal bullae, milia, hypertrichosis of the face, patchy pigmentation
-- \uparrow LFTs in 50%
-- Skin lesions with liver damage associated with:
+- skin lesions with liver damage associated with:
   - alcohol abuse
   - estrogens
   - infection with heptotropic viruses, HCV
   - hemochromatosis, iron overload
-*** Pathogenesis and Molecular Genetics
+*** Metabolic Derangement
+- UROD: uroporphyrinogen decarboxylase
+- last cytoplasmic enzyme, \downarrow polar
 - \downarrow activity of UROD in liver \to \uparrow URO
 - 50% \downarrow in UROD activity does not \to overt PCT
   - further inactivation in the liver is required
 - 80% of patients have sporadic (type I)
   - enzyme defect is restricted to the liver
   - typically no family history
-- Famillial (type II)
-  - mutation in one UROD gene \to 1/2 normal activity
-- Exposure to polyhalogenated aromatic hydrocarbons
+- \uparrow LFTs in 50%
 - hepta, hexa and pentacarboxylate formed at the same active site
 - \downarrow UROD \to increase in intermediates and uroporphyrins
-  - Urine Uro I & III: :: \Uparrow \Uparrow \Uparrow
-
+*** Genetics
+- acquired PCT (type I)
+  - exposure to polyhalogenated aromatic hydrocarbons \to 
+- famillial PCT (type II)
+  - mutation in one UROD gene \to 1/2 normal activity
+*** Diagnostic Tests
+- urine porphyrin quantitation
+  - \Uparrow \Uparrow \Uparrow uro I & III
 *** Treatment
 - \downarrow exposure to light
 - iron depletion
 - chloroquine
 ** Congential Erythropoietic Porphyria
-- UROS: Uroporphyrinogen III synthase
-*** Clinical Features
+*** Clinical Presentation
 - varying severity
   - hydrops fetalis
   - onset in infancy of severe skin lesions, transfusion dependent
@@ -285,17 +274,23 @@
 - ongoing destruction of ears, nose and eyelids, alopecia
 - red brown teeth
 - skin changes usually accompanied by hemolytic anemia and splenomegaly
-*** Pathogenesis and Molecular Genetics
-- least common, most severe of the cutaneous porphyrias, < 1:million in UK
-- autosomal recessive, mutations in UROS or rarely GATA1
+*** Metabolic Derangement
+- UROS: uroporphyrinogen III synthase
 - \downarrow UROS \to \uparrow UI
-- usually heteroallelic
   - HMB condensed \to Uro I or III
   - HMB \rightarrow Uro I: spontaneous
   - HMB \rightarrow Uro III: UROS
-    - Urine Uro I: :: \Uparrow \Uparrow \Uparrow
-    - Urine Copro I: :: \Uparrow \Uparrow \Uparrow
-    - Fecal Copro I: :: \Uparrow \Uparrow \Uparrow
+*** Genetics
+- least common, most severe of the cutaneous porphyrias, < 1:million in UK
+- AR, UROS, rarely GATA1
+- usually heteroallelic
+
+*** Diagnostic tests
+- urine porphyrin quantitation
+    - \Uparrow \Uparrow \Uparrow  uro I
+    - \Uparrow \Uparrow \Uparrow Urine Copro I
+- fecal porphyrin quantitation
+    - \Uparrow \Uparrow \Uparrow Copro I
 
 *** Treatment
 - \downarrow UV exposure
@@ -303,35 +298,38 @@
 - investigating gene therapy
 
 ** Erythropoietic Protoporphyria
-- FECH: Ferrochelatase
-- X-linked dominant protoporphyria (XLDPP)
-  - 2% of EPP cases
-  - due to gain of function *ALAS2* mutation
+*** Clinical Features
 - life long acute photosensitivity due to \uparrow protoporphyrin-IX
   in the skin
-- Absence of fragile skin, subepidermal bullae, and hypertrichosis
-  distinguishes it from all other cutaneous porphyrias.
 
-*** Clinical Features
-- acute photosensitivity
 - onset birth \to age 6, median = 1 year
 - both sexes
 - onset after 40 very rare
   - most cases associated with myelodysplasia, caused by aquired
     somatic mutation of FECH.
+- absence of fragile skin, subepidermal bullae, and hypertrichosis
+  distinguishes it from all other cutaneous porphyrias.
+
 - most severe complication is progressive hepatic failure
 - cholelithiasis - gallstones promoted by \uparrow protoporphyri in bile
 - mild microcytic anemia
 
-*** Molecular Pathology and Genetics
-- FECH mutation is autosomal recessive
-- compound heterozygotes
+*** Metabolic Derangement
+- FECH: ferrochelatase
 - threshold FECH activity = 35% \to \uparrow protoporphyrin.
   - inserts ferrous iron into protoporphyrin to form heme
   - aka: heme synthase
   - in iron deficient states forms \to zinc protoporphyrin
 - \uparrow protoporphyrin mainly in bone marrow
-  - RBC free protoporphyrin :: \Uparrow \Uparrow \Uparrow
+
+*** Genetics 
+- AR, FECH 
+- X-linked dominant protoporphyria (XLDPP)
+  - 2% of EPP cases
+  - due to gain of function *ALAS2* mutation
+
+*** Diagnostic Tests
+- \Uparrow \Uparrow \Uparrow RBC free protoporphyrin
 
 *** Treatment
 - avoid sunlight
@@ -339,10 +337,10 @@
 - orthotopic liver transplantation
 - bone marrow transplantation
 
-* Secondary Abnormalities of Porphyrin Metabolism 
-- More common cause of abnormal porphyrin metabolism than porphyria.
+* Secondary Causes
+- more common cause of abnormal porphyrin metabolism than porphyria
 ** Lead and Other Heavy Metals
-- Lead exposure \uparrow urinary ALA and coproporphyrin III excretion
+- lead exposure \uparrow urinary ALA and coproporphyrin III excretion
   and accumulation of ZN-protoporphyrin in erythrocytes
   - inhibition of ALAD, CPOX
   - Pb causes mito deficiency in Fe \to Zn replaces Fe as
@@ -351,7 +349,7 @@
     - caused by lead displacing zinc at catalytic site
     - ALAD2 isoform more susceptible than ALAD1
 ** Secondary Coproporphyrinuria: Hepatobiliary and other Disorders
-- Most common cause of abnormal porphyrin excretion
+- most common cause of abnormal porphyrin excretion
   - alcohol intake :: CIII
   - impaired biliary excretion of CI :: \to urine
     - cholestatic jaundice, hepatitis, and cirrhosis
@@ -369,14 +367,14 @@
   from heme containing proteins from diet or gastrointestinal
   hemorrhage
 - even minor hemorrhage (ie FOBT negative) \uparrow dicarboxylic porphyrins
-- Confusion with EPP may occur when associated iron deficiency
+- confusion with EPP may occur when associated iron deficiency
   \uparrow erythrocyte total porphyrin, and skin lesions for other reasons
 - Confusion with VP when coexisting liver disease causes
   coproporphyrinuria
-- Porphyria is excluded when no porphyrin fluorescence is detectable
+- porphyria is excluded when no porphyrin fluorescence is detectable
   on fluorescence emission spectroscopy of plasma and fecal
   coproporphyrin excretion is normal
-- consumption of Brewers yeast caused profile indistinguishable from
+- consumption of brewers yeast caused profile indistinguishable from
   VP
 
 ** Increase Plasma Porphyrin Concentration: Renal and other Disorders
@@ -392,6 +390,6 @@
   - also sideroblastic megaloblastic, and hemolytic anemias
 ** Hereditary Tyrosinemia Type I
 - \uparrow succinylacetone resembles ALA, inhibits ALAD
-  - \uparrow ALA accumulates in urine.
+  - \uparrow ALA accumulates in urine
 
 

@@ -70,7 +70,7 @@
 - NBS suggests that the proportion of individuals with later-onset
   Krabbe disease is higher than previously thought
 
-* Diagnostic Testing
+* Diagnostic Tests
 - diagnosis of Krabbe disease, suspected in a symptomatic proband
   based on clinical findings and other supportive laboratory,
   neuroimaging, and electrophysiologic findings, is established by:

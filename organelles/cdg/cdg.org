@@ -92,7 +92,7 @@
 ** Genetics
 - AR, PMM2
 
-** Diagnostic Testing
+** Diagnostic Tests
 - \uparrow transaminases
 - \downarrow albumine
 - \downarrow hypocholesterol
@@ -123,7 +123,7 @@
 ** Genetics
 - AR, MPI
 
-** Diagnostic Testing
+** Diagnostic Tests
 - serum transferrin IEF - type I pattern 
 - \downarrow MPI activity WBC, fibroblasts
 
@@ -150,7 +150,7 @@
   - \to second branch in complex glycans
 *** Genetics
 - AR MGAT2
-*** Diagnostic Testing
+*** Diagnostic Tests
 - serum transferrin IEF - type II pattern
 - \downarrow GnT II activity WBC, fibroblasts
 
@@ -169,7 +169,7 @@
 *** Genetics
 - AR SLC35C1
 
-*** Diagnostic Testing
+*** Diagnostic Tests
 - normal transferrin IEF
 - molecular
 *** Treatment

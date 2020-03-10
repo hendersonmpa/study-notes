@@ -3,17 +3,17 @@
 #+DATE: \today
 
 * Cobalamin
-- Cobalamin (Cbl or vitamin B_{12}) is a cobalt-containing
+- cobalamin (Cbl or vitamin B_{12}) is a cobalt-containing
   water-soluble vitamin that is synthesised by lower organisms but not
   by higher plants and animals
 - only source of Cbl in the human diet is animal products
-- Cbl is needed for only two reactions:
-  - MeCbl it is a cofactor of the cytoplasmic enzyme methionine synthase (MTR)
-\ce{HCY + MeCbl + 5-methylTHF ->[MTR] MET + B_12 + THF}
-  - AdoCbl is a cofactor of the mitochondrial enzyme methylmalonyl-coenzyme A mutase (MUT)
-\ce{methylmalonyl-CoA ->[MUT + AdoCbl] succinyl-CoA}
-- its metabolism involves complex absorption and transport systems and
-  multiple intracellular conversions.
+- Cbl is needed for only two reactions
+  1. MeCbl it is a cofactor of the cytoplasmic enzyme methionine synthase (MTR)
+     - \ce{HCY + MeCbl + methyl-THF ->[MTR] MET + B_12 + THF}
+  2. AdoCbl is a cofactor of the mitochondrial enzyme methylmalonyl-coenzyme A mutase (MUT)
+     - \ce{methylmalonyl-CoA ->[MUT + AdoCbl] succinyl-CoA}
+- Cbl metabolism involves complex absorption and transport systems and
+  multiple intracellular conversions
 
 
 #+CAPTION[]:Cobalamin transport and metabolism
@@ -32,7 +32,7 @@
 - patients with disorders of intracellular Cbl metabolism typically
   have serum Cbl levels within the reference range
   - levels may be reduced in the cblF and cblJ disorders
-- disorders of Cbl absorption, transport, MeCbl synthesis result in:
+- disorders of Cbl absorption, transport and MeCbl synthesis result in:
   - homocystinuria, hyperhomocysteinaemia
   - megaloblastic anaemia
   - neurological disorders
@@ -54,7 +54,7 @@
 
 ** Absorption and Transport
 - absorption of dietary Cbl first involves binding to a glyco protein
-  (haptocorrin,R binder) in the saliva
+  (haptocorrin, R binder) in the saliva
 - haptocorrin is digested by proteases in the intestine
   - releases Cbl to bind to intrinsic factor (IF)
 - IF-Cbl binds to receptor cubam and enters the enterocyte
@@ -83,6 +83,7 @@
   differentiated from cblC by complementation analysis
 ** Combined AdoCbl and MeCbl Deficiencies
 - /cblF, cblJ, cblC, cblX, CblD/
+  - F, J, D and X are very rare
 ** Cobalamin C
 *** Clinical Presentation
 - most frequent inborn error of Cbl metabolism
@@ -105,8 +106,6 @@
 
 *** Genetics
 - AR, MMACHC
-- c.271dupA accounts for \ge 40% of disease alleles in patient
-  populations of European origin
 
 *** Diagnostic Tests
 - methylmalonic acidaemia and aciduria are the
@@ -122,14 +121,15 @@
 - oral betaine (trimethylglycine)
 - betaine-homocysteine methyltransferase (BHMT) is betaine dependent
 \ce{trimethylglycine + homocysteine ->[BHMT] dimethylglycine + methionine}
-- in the liver, BHMT catalyzes up to 50% of homocysteine metabolism
-- betaine treatment \to \uparrow plasma sarcosine (methlyglycine)
+- in the liver BHMT catalyzes up to 50% of homocysteine metabolism
+- betaine treatment \to \uparrow sarcosine (methlyglycine) in plasma amino acids
+
 ** Cobalamin X
 - /cblX/ is caused by mutations in HCFC1
 - same phenotype as /cblC/
   - encodes a transcription regulator that affects expression of a
     number of genes, including MMACHC (/cblC/)
-- The metabolic consequences of mutations stem from decreased MMACHC
+- metabolic consequences of mutations stem from decreased MMACHC
   expression leading to decreased synthesis of both AdoCbl and MeCbl
 
 ** Adenosylcobalamin Deficiency
@@ -153,7 +153,7 @@
     - methyl, methylene, methenyl or formyl
 - transfer of this single-carbon unit is essential for the endogenous
   formation of:
-  - methionine
+  - methionine (methionine synthase)
   - thymidylate (dTMP)
   - formylglycineamide ribotide (FGAR) and
     formylaminoimidazolecarboxamide ribotide (FAICAR) two
@@ -162,14 +162,14 @@
 - the predominant folate derivative in blood and in cerebrospinal
   fluid is 5-methyltetrahydrofolate
   - product of the methylenetetrahydrofolate reductase (MTHFR) rxn
+- there are a number of very rare disorders of folate absorption and metabolism
+- severe MTHFR deficiency is the most frequent
 
-#+CAPTION[]:Folate metabolism:1 methionine synthase; 2 methylenetetrahydrofolate reductase; 3 methylenetetrahydrofolate dehydrogenase; 4 methenyltetrahydrofolate cyclohydrolase: 5 formyltetrahydrofolate synthetase; 6 dihydrofolate reductase; 7 glutamate formiminotransferase; 8 formiminotetrahydrofolate cyclodeaminase 
+#+CAPTION[]:Folate Metabolism:1 methionine synthase; 2 methylenetetrahydrofolate reductase; 3 methylenetetrahydrofolate dehydrogenase; 4 methenyltetrahydrofolate cyclohydrolase: 5 formyltetrahydrofolate synthetase; 6 dihydrofolate reductase; 7 glutamate formiminotransferase; 8 formiminotetrahydrofolate cyclodeaminase 
 #+NAME: fig:folate
 #+ATTR_LaTeX: :width 1.0\textwidth
 [[file:./b12b9/figures/folate.png]]
 
-- there are a number of very rare disorders of folate absorption and metabolism
-- severe MTHFR deficiency is the most frequent
 ** Methylenetetrahydrofolate Reductase Deficiency
 - severe form of this deficiency not the polymorphisms associated
   common disease risk
@@ -184,7 +184,8 @@
 
 *** Metabolic Derangement
 - \downarrow methyl-THF 
-- methyl-THF is the methyl donor for the conversion of homocysteine \to methionine
+- methyl-THF is the methyl donor for the conversion of homocysteine
+  \to methionine by methionine synthase
   - \uparrow total plasma homocysteine
   - \downarrow methionine
 - the block in the conversion of methylene-THF to methyl-THF does not
@@ -204,10 +205,10 @@
 - \downarrow plasma methionine
 
 *** Treatment
-- betaine (trimethylglycine)
+- oral betaine (trimethylglycine)
 - betaine-homocysteine methyltransferase (BHMT) is betaine dependent
 \ce{trimethylglycine + homocysteine ->[BHMT] dimethylglycine + methionine}
-- in the liver, BHMT catalyzes up to 50% of homocysteine metabolism
-
+- in the liver BHMT catalyzes up to 50% of homocysteine metabolism
+- betaine treatment \to \uparrow sarcosine (methlyglycine) in plasma amino acids
 
 

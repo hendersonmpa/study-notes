@@ -2,15 +2,14 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
-
 * TMA and Choline
 ** Trimethylamine Metabolism
 - trimethylamine (TMA) is a volatile tertiary amine which smells of rotting fish
-- a bacterial metabolite which is produced by anaerobes resident
-  in the human colon from choline (present in lecithin), carnitine and
-  betaine, and from trimethylamine-N-oxide (TMAO) in salt water fish and shell-fish
+- bacterial metabolite which is produced by anaerobes in the colon
+  from choline (present in lecithin), carnitine, betaine, and from
+  trimethylamine-N-oxide (TMAO) in salt water fish and shell-fish
 - TMA is absorbed from the intestine and oxidised in the liver by
-  flavin-containing monooxygenase 3 (FMO3), a microsomal NADPH-dependent enzyme.
+  flavin-containing monooxygenase 3 (FMO3)
   - product is TMA-N-oxide (TMAO) which is non-odorous and is
     excreted in urine
 - \gt 90% of the absorbed TMA is oxidised
@@ -21,16 +20,18 @@
 [[file:./peptides/figures/tma.png]]
 
 ** Catabolism of Choline
-- occurs within mitochondria
+- choline is an essential nutrient required for synthesis of:
+  - choline phospholipids
+  - acetyl choline
+  - SAM
+- catabolism occurs within mitochondria
   - involves the sequential removal of two methyl groups by:
     - dimethylglycine dehydrogenase (DMGDH)
     - sarcosine dehydrogenase (SDH)
   - flavin enzymes with covalently linked FAD which use folate as co-factor
-- the methyl groups from dimethylglycine and sarcosine are transferred
-  to tetrahydrofolate (THF)
+- methyl groups from dimethylglycine and sarcosine are transferred to
+  tetrahydrofolate (THF)
   - forming 5,10-methylene THF
-- electrons are transferred from FAD \to electron transfer
-  flavoprotein (ETF) \to mito ETC
 
 #+CAPTION[]:Choline catabolism
 #+NAME: fig:chol
@@ -54,25 +55,18 @@
 
 *** Genetics
  - AR, ~1% carrier freq
- - five FMO genes (FMO1-5) and six pseudogenes located in two clusters
-   on chromosome 1 (q23-q25)
- - FMO3 is the main isoform of the enzyme in adult liver and the only
-   isoform which oxidises TMA
 
 *** Diagnostic Tests
- - common causes of abnormal body odour and urine infection are
-   excluded
- - random urine sample is collected if the odour is obvious, if not
+ - common causes of abnormal body odour and UTIs are excluded
+ - random urine sample is collected if the odour is obvious and not
    menstruating
- - otherwise, urine is collected after a high choline meal (for example
-   two eggs and baked beans) or a 300 g marine fish meal
-   - either as a timed 6-8 hour collection, or as a random sample after 2-12 h
+ - otherwise urine is collected after a high choline meal (eggs, baked
+   beans, marine fish)
  - urine is acidified quickly to pH 2.0 and frozen until analysis
-   - NMR spectroscopy or mass spectrometric
+   - NMR spectroscopy or mass spectrometry
    - TMA, TMAO and total TMA
-     - normal :: \lt 10%
-     - mild :: TMA:total TMAO 10–39%
-     - severe :: \ge 40% 
+   - \uparrow urine TMA
+   - \downarrow urine TMAO:TMA
 
 *** Treatment
  - \downarrow choline diet
@@ -80,7 +74,7 @@
 
 * Glutathione
 - glutathione (GSH) is a tripeptide consisting of glutamate, cysteine and glycine
-- one of the most important antioxidants also:
+- one of the most important antioxidants
   - drug metabolism, free-radical scavenging, biosynthesis of DNA and
     proteins as well as amino acid transport
 - synthesized and metabolized in the \gamma-glutamyl cycle (Figure
@@ -128,22 +122,19 @@
 
 *** Metabolic Derangement
 - GS catalyses the last step of GSH synthesis
-- deficiency leads to low cellular GSH and excessive production of
-  \gamma-glutamylcysteine
-  - metabolite before the enzyme defect
-- \downarrow feedback inhibition of \gamma-glutamylcysteine synthetase
-  \to \uparrow \gamma-glutamylcysteine
+- deficiency \to \downarrow cellular GSH and \uparrow \gamma-glutamylcysteine
+  - due to \downarrow feedback inhibition of \gamma-glutamylcysteine synthetase
 - \gamma-glutamylcysteine \to 5-oxoproline by \gamma-glutamyl
   cyclotransferase
 - \Uparrow 5-oxoproline exceeds the capacity of 5-oxoprolinase
 - \uparrow 5-oxoproline \to metabolic acidosis and 5-oxoprolinuria
 
 *** Genetics
-- AR
+- AR, GSS
 
 *** Diagnostic Tests
 - \uparrow urine 5-oxoproline
-- \downarrow rbc GSH
+- \downarrow RBC GSH
 - \downarrow RBC or fibroblast GS activity
   - 1-30% of normal
 - mutation analysis
@@ -154,4 +145,4 @@
   defence against reactive oxygen species
 - bicarbonate in acute acidosis
 - blood trxn for hemolysis
-- vitamin E and C
+- vitamins E and C

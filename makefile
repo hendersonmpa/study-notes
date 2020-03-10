@@ -11,7 +11,7 @@ $(OUT_DIR)organelles.pdf: ./organelles/organelles.org ./organelles/fabry/fabry.o
 ./organelles/mucolipidosis/mucolipidosis.org ./organelles/oligosaccharidoses/oligosaccharidoses.org \
 ./organelles/niemann_pick/niemann_pickab.org ./organelles/niemann_pick/niemann_pickc.org \
 ./organelles/sphingolipid_synthesis/sphingolipid_synthesis.org ./organelles/peroxisomes/peroxisomes.org \
-./organelles/cdg/cdg.org ./organelles/cystinosis/cystinosis.org
+./organelles/cdg/cdg.org ./organelles/cystinosis/cystinosis.org ./organelles/ncl/ncl.org
 	emacs -u "$(id -un)" \
 	--batch \
 	--eval '(load user-init-file)' \

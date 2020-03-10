@@ -35,9 +35,9 @@
   metabolism, receptor and transporter defects:
   - three defects of GABA catabolism have been reported (section [[GABA catabolism]])
   - three receptor defects (section [[Receptors and Transporters of Neurotransmitters]])
-  - three transportopathies are reported section [[Receptors and Transporters of Neurotransmitters]])
+  - three transportopathies are reported (section [[Receptors and Transporters of Neurotransmitters]])
   - six disorders of monoamine metabolism (section [[Monoamine Metabolism]])
-  - see aminoacidopathies for disorders of glycine metabolism
+  - see amino acids for disorders of glycine metabolism
 * GABA catabolism
 - three defects of \gamma-aminobutyric acid (GABA) catabolism have been reported:
   1) GABA transaminase deficiency (very rare, severe, and untreatable)
@@ -84,7 +84,7 @@
 - AR, ALDH5A1
 
 *** Diagnostic Tests
-- \uparrow urine \gamma-hydroxybutyric acid 
+- \uparrow urine \gamma-hydroxybutyric acid (GHB)
 - \uparrow urine 4,5-dihydroxyhexanoic acid
   - both the free and lactone form (threo-, erythro-) in the organic acid profile
     is highly suggestive
@@ -117,33 +117,32 @@
     - dopamine transporter defect
     - vesicular monoamine transporter type 2 defect
 * Monoamine Metabolism
-- the monoamines, adrenaline, noradrenaline, dopamine, and serotonin,
+- the monoamines: adrenaline, noradrenaline, dopamine, and serotonin
   are metabolites of the amino acids tyrosine and tryptophan
 - first step in formation is catalysed by amino-acid-specific
   hydroxylases which require tetrahydrobiopterin (BH_4) as a cofactor
   (Figure [[fig:monoamines]])
-- synthesis from GTP is initiated by the rate-limiting GTP
-  cyclohydrolase-1 (GTPCH-I)
-  - forms dihydroneopterin triphosphate (NH2TP)
+- synthesis of BH_4 from GTP is initiated by the rate-limiting GTP
+  cyclohydrolase (GTPCH)
+  - forms dihydroneopterin triphosphate
 - BH_4 is also a cofactor of phenylalanine hydroxylase
-- L-dopa and  are metabolized by
 - B_6-dependent aromatic L-amino acid decarboxylase (AADC) converts:
-  - L-dopa \to dopamine (the precursor of the catecholamines, adrenaline and
-    noradrenaline)
-  - 5-hydroxytryptophan (5-HTP) to serotonin (5-hydroxytryptamine)
+  - L-dopa \to dopamine, the precursor of the catecholamines,
+    adrenaline and noradrenaline
+  - 5-hydroxytryptophan (5-HTP) to serotonin (AKA 5-hydroxytryptamine)
 - adrenaline and noradrenaline are catabolized into vanillylmandelic
   acid (VMA) and 3-methoxy-4-hydroxyphenylethyleneglycol (MHPG) via
   monoamino oxidase A (MAO-A)
-- MOA-A is also involved in the catabolism of both dopamine into
-  homovanillic acid (HVA) via 3-methoxytyramine, and of serotonin into
-  5-hydroxyindoleacetic acid (5-HIAA)
+- MOA-A is also involved in the catabolism of
+  - dopamine into homovanillic acid (HVA) via 3-methoxytyramine (3-MT)
+  - serotonin into 5-hydroxyindoleacetic acid (5-HIAA)
 - dopaminergic modulation of ion fluxes regulates emotion, activity,
   behaviour, nerve conduction, and the release of a number of hormones
   via G-protein-coupled cell-surface dopamine
-  receptors.
-- Serotoninergic neurotransmission modulates body temperature, blood
+  receptors
+- serotoninergic neurotransmission modulates body temperature, blood
   pressure, endocrine secretion, appetite, sexual behaviour, movement,
-  emesis, and pain.
+  emesis, and pain
 
 #+CAPTION[]:Tetrahydrobiopterin metabolism
 #+NAME: fig:bh4
@@ -160,42 +159,57 @@
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./neuro/figures/monoamines.png]]
 
-- Six disorders of monoamine metabolism:
-  - Tyrosine hydroxylase (TH) deficiency
-    - impairs synthesis of dihydroxyphenylalanine (L-dopa) and causes
-      a neurological disease with prominent extrapyramidal signs, and
-      a variable response to L-dopa.
-    - \uparrow HVA, MHPG, and 5-HIAA in the CSF
-    - The HVA/5HIAA ratio in CSF is the most sensitive marker not only
-      for diagnosis but also to identify the severity of the phenotype
-  - Dopamine \beta-hydroxylase deficiency
-    - severe orthostatic hypotension with sympathetic failure
-    - \Downarrow plasma noradrenaline and adrenaline
-    - \uparrow plasma dopamine
-  - other disorders of monoamine metabolism involve both catecholamine
-    and serotonin metabolism.
-  - Aromatic-amino acid decarboxylase (AADC)
-    - located upstream of the neurotransmitter amines
-    - treatment can be challenging
-    - \downarrow HVA and 5-HIAA in CSF
-    - \uparrow 3-O-methyl-l-dopa and 5-HTP w normal pterin concentrations
-    - \uparrow VLA in urinary organic acid 
-  - Monoamine-oxidase A (MAO-A) deficiency
-    - located downstream, mainly causes behavioral disturbances
-    - no effective treatment is known
-    - \uparrow random urine serotonin, normetanephrine, metanephrine, and 3-MT
-    - abnormal normetanephrine:VMA, normetanephrine:MHPG, HVA:VMA ratios
-  - Dopamine responsive dystonia due to guanosine triphosphate cyclohydrolase-I (GTPCH-I) and
-    sepiapterin reductase (SR) deficiencies
-    - pterin disorders upstream of L-dopa and
-      5-hydroxytryptophan (5-HTP) with normal baseline
-      phenylalaninemia and effective treatment (especially GTPCH-I
-      deficiency)
-    - GTPCH-I labs
-      - normal or \downarrow CSF HVA with
-      - \downarrow CSF 5-HIAA
-    - SR labs
-      - \uparrow CSF biopterin and sepiapterin in CSF
-      - normal CSF neopterin
-      - \Downarrow CSF HVA and 5-HIAA
+
+** Tyrosine hydroxylase (TH) deficiency
+  - impairs synthesis of L-dopa and causes a neurological disease with
+    prominent extrapyramidal signs
+  - variable response to L-dopa
+  - \downarrow CSF HVA 
+  - normal CSF 5-HIAA 
+  - \downarrow CSF HVA/5-HIAA
+    - most sensitive marker
+** Dopamine \beta-Hydroxylase deficiency
+  - severe orthostatic hypotension with sympathetic failure
+  - \Downarrow plasma noradrenaline and adrenaline
+  - \uparrow plasma dopamine
+** Aromatic-amino Acid Decarboxylase (AADC) deficiency
+  - located upstream of the neurotransmitter amines
+  - treatment can be challenging
+  - \downarrow CSF HVA and 5-HIAA
+  - \uparrow CSF 3-O-methyl-l-dopa and 5-HTP 
+  - normal pterin concentrations
+  - \uparrow urine vanillyllactic acid in organic acids
+** Monoamine-oxidase A (MAO-A) deficiency
+  - located downstream, mainly causes behavioural disturbances
+  - no effective treatment is known
+  - \uparrow random urine serotonin, normetanephrine, metanephrine, and 3-MT
+  - abnormal normetanephrine:VMA, normetanephrine:MHPG, HVA:VMA ratios
+** GTPCH and SR deficiency 
+- dopamine responsive dystonia 
+- GTPCH catalyses the first step in BH_4 synthesis
+  \ce{GTP ->[GTPCH] NH2TP}
+- sepiaterin reductase (SR) catalyses the final steps in BH_4 synthesis
+  \ce{PTP ->[SR] BH4}
+- pterin disorders upstream of L-dopa and 5-hydroxytryptophan
+    (5-HTP) with normal baseline phenylalaninemia and effective
+    treatment
+  - GTPCH labs
+    - \downarrow CSF biopterin
+    - \downarrow CSF neopterin
+    - normal or \downarrow CSF HVA
+    - \downarrow CSF 5-HIAA
+    - normal or \uparrow plasma Phe
+  - SR labs
+    - \uparrow CSF biopterin
+    - \uparrow CSF sepiapterin
+    - normal CSF neopterin
+    - \Downarrow CSF HVA
+    - \Downarrow CSF 5-HIAA
+    - normal plasma Phe
+- treatment
+  - L-dopa
+  - 5-OH tryptophan
+  - BH_4
+  - \downarrow Phe
+
 

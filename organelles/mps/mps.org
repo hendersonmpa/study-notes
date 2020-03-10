@@ -192,7 +192,7 @@
 - AR
 - MPS II Hunter is X-linked
 
-** Diagnostic Testing
+** Diagnostic Tests
 - quantitation of urine GAGs (Table [[tab:mps]])
   - dimethylmethylene blue dye binding assay (DMB)
   - followed by two-dimensional electrophoresis for qualification of

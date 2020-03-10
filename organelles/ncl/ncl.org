@@ -1,0 +1,57 @@
+#+TITLE: Neuronal Ceroid Lipofuscinoses
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+* Introduction
+- NCLs are a group of inherited progressive neurodegenerative diseases
+  - among the most frequent in childhood
+- NCL is widely used in Europe, "Batten disease" is common in the USA
+- wide clinical diversity is a result of  wide genetic heterogeneity
+  - 13 different genes identified
+  - five of them encode soluble proteins
+  - others encode transmembrane proteins whose function and possible
+    interactions still remain incompletely understood
+- NCLs are now considered as lysosomal storage diseases, due to the
+  lysosomal accumulation of lipopigments and localisation of several
+  NCL proteins to the lysosome
+
+* Clinical Presentation
+- characterised by progressive psychomotor retardation, seizures,
+  visual loss and early death
+- four main clinical forms based on age of onset and order of
+  appearance of clinical signs
+  1. infantile - common in southern europe
+  2. late infantile - common in southern europe
+  3. juvenile - anglo-saxon
+  4. adult - rare
+- now included classification based on genetic loci
+
+* Metabolic Derangement
+- accumulation of autofluorescent ceroid lipopigments mainly in
+  neural tissues
+  - saposins A and D in infantile forms
+  - subunit c of mitochondrial ATP synthase (SCMAS) in late infantile
+    and juvenile forms
+  - not disease causing, they are secondary markers
+- many CLN proteins
+  - many in lysosome but also mitochondria, ER and vesicular membranes
+- role in autophagy and apoptosis
+  - CLN1 :: S-fatty acylated protein degradation
+  - CLN2 :: lysosomal serine protease
+  - cathepsin D :: endopepidatase
+  - cathepsin F :: peptidase
+
+* Genetics
+- AR
+- adult form is AD
+
+* Diagnostic Tests
+- electrophysiological studies
+- EM tissue biopsy with vacuolated lymphocytes
+- WBC or fibroblast enzyme studies
+
+* Treatment 
+- symptomatic treatment
+- control seizures
+
+
