@@ -1,4 +1,4 @@
-#+TITLE: Organelle Related Disorders
+#+TITLE: Organelles
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
@@ -138,7 +138,7 @@
 
 * Peroxisomes
 #+INCLUDE: "./peroxisomes/peroxisomes.org" :lines "4-"
-* Congenital Disorders of Glycosylation
+* Glycosylation
 #+INCLUDE: "./cdg/cdg.org" :lines "4-"
 * Cystinosis
 #+INCLUDE: "./cystinosis/cystinosis.org" :lines "4-"
