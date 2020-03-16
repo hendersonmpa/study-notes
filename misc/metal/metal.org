@@ -98,8 +98,8 @@
  - \downarrow serum copper 
  - \downarrow serum ceruloplasmin 
    - not specific in 0-3 months of life
- - plasma dopamine/norepinephrine
- - copper retention in cultured fibroblasts
+ - \uparrow plasma dopamine/norepinephrine
+ - \uparrow copper retention in cultured fibroblasts
 
 *** Treatment
  - often fatal < 3 years

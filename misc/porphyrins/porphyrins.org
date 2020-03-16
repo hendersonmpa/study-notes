@@ -214,6 +214,15 @@
      - VP :: protoporphyrin-IX \Uparrow \Uparrow \Uparrow
    - can also be due to diet or GI bleed
    - follow-up with plasma porphyrin emission scan
+** Treatment
+- acute
+  - IV glucose, hematin
+- avoid triggers
+  - adverse drugs
+  - hypoglycemia
+  - smoking, drinking
+  - progesterone 
+
 * Non-Acute Porphyrias 
 ** X-Linked Sideroblastic Anemia
 - ALAS: 5-aminolevulinate synthase

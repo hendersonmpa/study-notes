@@ -9,6 +9,9 @@
 - first step in the irreversible catabolism of Phe is hydroxylation to
   Tyr by PAH
 - PAH requires the active pterin, tetrahydrobiopterin (BH_4)
+  - forms a Fe(II)-O-O-BH_4 bridge during the hydroxylation reaction
+
+
 - BH_4 is formed in three steps from GTP
   - also an obligate co-factor for tyrosine hydroxylase and tryptophan hydroxylase
     - \therefore required for production of dopamine,catecholamines,
@@ -186,16 +189,20 @@
 
 #+CAPTION[]:Results in Biopterin Disorders
 #+NAME: fig:biop
-| Deficiency |      Phe | biopterin[fn:1] | neopterin[fn:1] | primapterin[fn:1] | CSF 5HIAA HVA | DHPR activity |
-|------------+----------+-----------------+-----------------+-------------------+---------------+---------------|
-| PAH        |   \gt120 | \uparrow        | \uparrow        | -                 | N             | N             |
-| GTPCH      |  50-1200 | \Downarrow      | \Downarrow      | -                 | \downarrow    | N             |
-| PTPS       | 240-2500 | \Downarrow      | \Uparrow        | -                 | \downarrow    | N             |
-| DHPR       | 180-2500 | \Downarrow      | N or \uparrow   | -                 | \downarrow    | \downarrow    |
-| PCD        | 180-1200 | \downarrow      | \uparrow        | \Uparrow          |               | N             |
+| Deficiency |      Phe | biopterin[fn:1] | neopterin[fn:1] | primapterin[fn:1] | CSF 5-HIAA HVA | DHPR activity |
+|------------+----------+-----------------+-----------------+-------------------+----------------+---------------|
+| PAH        |   \gt120 | \uparrow        | \uparrow        | -                 | N              | N             |
+| GTPCH      |  50-1200 | \Downarrow      | \Downarrow      | -                 | \downarrow     | N             |
+| PTPS       | 240-2500 | \Downarrow      | \Uparrow        | -                 | \downarrow     | N             |
+| DHPR       | 180-2500 | \Downarrow      | N or \uparrow   | -                 | \downarrow     | \downarrow    |
+| PCD        | 180-1200 | \downarrow      | \uparrow        | \Uparrow          |                | N             |
 
 [fn:1] blood or urine
 
 ** Treatment
 - BH_4
 - CNS amine replacement
+  - L-dopa, 5-OH-tryptophan
+
+
+
