@@ -1,9 +1,9 @@
-#+TITLE: Nonketotic Hyperglycinemia
+#+TITLE: Non-Ketotic Hyperglycinemia
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
 * Introduction
-- nonketotic hyperglycinemia (NKH) is a genetic disorder characterized
+- Non-Ketotic Hyperglycinemia (NKH) is a genetic disorder characterized
   by deficient activity of the glycine cleavage enzyme
 - classic NKH is caused by mutations in genes that encode the protein
   components of the glycine cleavage enzyme system (GCS)
@@ -12,10 +12,10 @@
     - severe classic NKH
     - attenuated classic NKH
 - variant NKH has an overlapping phenotype w classic NKH
-  - is caused by mutations affecting the biosynthesis of the main
-    cofactor lipoic acid
-  - fits into the larger group of the lipoate synthesis
-    disorders
+  - lipoic acid biosynthesis defects
+    - fits into the larger group of the lipoate synthesis
+      disorders
+  - PNPO deficiency
 - lipoate is a cofactor for:
   - GCS
   - pyruvate dehydrogenase (PDH)
@@ -68,8 +68,8 @@
 * Metabolic Derangement
 - glycine is involved in many biochemical reactions
 - GCS breaks down glycine with tetrahydrofolate into carbon dioxide,
-  ammonia, and the generation of 5,10-methylenetetrahydrofolate
-- a four protein complex located in the mitochondrial matrix
+  ammonia, and the generation of methylene-tetrahydrofolate
+- four protein complex located in the mitochondrial matrix
   - H-protein carrying a lipoyl-group as the central core
 - octanoate is synthesized by intramitochondrial fatty acid synthesis
   on the mitochondrial acylcarrier protein and is transferred to apo-H
@@ -91,8 +91,7 @@
   rather than inhibitory
 - glycine is an allosteric activator of the excitatory
   N-methyl-D-aspartate (NMDA) type glutamate receptor NR1/NR2 type
-- increased levels of glycine result in overactivation of this NMDA
-  receptor
+  - \uparrow glycine \to overactivation of this NMDA receptor
 * Genetics
 - classic NKH is AR
   - GLDC encoding the P-protein ~ 80%
@@ -100,7 +99,9 @@
   - no mutations identified in GCSH encoding the H-protein
 - variant NKH is AR
   - genes involved in the synthesis of lipoate
-  - LIAS, BOLA3, GLRX5, NFU1, ISCA2, LIPT1, LIPT2,and IBA57
+    - LIAS, BOLA3, GLRX5, NFU1, ISCA2, LIPT1, LIPT2,and IBA57
+  - PNPO deficiency
+    - PNPO
 * Diagnostic Tests
 - \uparrow glycine are found in plasma, urine, and CSF
   - \uparrow plasma glycine has low specificity
@@ -128,7 +129,7 @@
   consideration given the very poor outcome in severe classic NKH
 - correct distinction between severe and attenuated NKH can aid in
   this decision making
-- reduction of glycine plasma levels by benzoate
+- reduction of glycine plasma levels by benzoate \to hippurate
   - monitor for carnitine deficiency
 - glycine restricted diet
   - dietary glycine has a small contribution to glycine flux

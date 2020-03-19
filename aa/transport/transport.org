@@ -6,6 +6,15 @@
 - epithelial cells in (for example) renal tubules and intestinal
   mucosa utilise several different amino acid transport systems which
   prefer amino acids with certain physicochemical properties
+- inherited defects in amino acid transport at the cell membrane are
+  usually expressed as selective renal aminoaciduria
+  - the concentration of the affected amino acids is high in the urine
+    while it is normal or low in plasma
+- intestinal absorption of the affected amino acids is also almost
+  always impaired
+- clinical symptoms result from excess amounts of certain amino acids
+  in the urine or lack of them in the tissues
+** Dibasic Amino Acids
 - cystine and structurally related dibasic cationic amino acids
   lysine, arginine and ornithine are transported from the intestinal
   or renal tubular lumen into epithelial cells by an apical
@@ -15,38 +24,18 @@
   (system y^+L) in exchange for neutral amino acids and sodium
 - both these transporters are heteromers of a heavy subunit and a
   light subunit linked by a disulfide bridge
-- a third transporter system for neutral amino acids is expressed only
+
+** Neutral  Amino Acids
+- transporter system for neutral amino acids is expressed only
   at the luminal border of epithelial cells
 - it transports neutral amino acids into epithelial cells
   - alanine, asparagine, citrulline, glutamine, histidine, isoleucine,
     leucine, phenylalanine, serine, threonine, tryptophan, tyrosine
     and valine 
+** Dicarboxylic Amino Acids
 - dicarboxylic amino acids (aspartate, glutamate) have a specific
   transporter EAAT3, located at the luminal border
   of epithelial cells and also expressed in neurons
-- cystinuria \to apical cystine/dibasic amino acid transporter
-- lysinuric protein intolerance  \to antiluminal dibasic amino acid transporter
-- Hartnup disorder \to luminal neutral amino acid transporter 
-
-
-- inherited defects in amino acid transport at the cell membrane are
-  usually expressed as selective renal aminoaciduria
-  - the concentration of the affected amino acids is high in the urine
-    while it is normal or low in plasma
-- intestinal absorption of the affected amino acids is also almost
-  always impaired
-- clinical symptoms result from excess amounts of certain amino acids
-  in the urine or lack of them in the tissues
-  - cystinuria :: renal stones may be formed because of high urinary
-    concentration of poorly soluble cystine
-  - LPI :: poor intestinal absorption and urinary loss of arginine,
-           ornithine and lysine
-    - patients develop protein intolerance with hyperammonaemia,
-      growth retardation and skeletal and immunological manifestations
-  - Hartnup disease :: pellagra-like dermatitis and ataxia due to
-       deficiency of tryptophan, the precursor of niacin synthesis
-  - iminoglycinuria and dicarboxylic aciduria :: mostly asymptomatic
-
 
 #+CAPTION[]:Simplified schematic representation of cationic and neutral amino acid transport in epithelial cells
 #+NAME: fig:aatrans
@@ -58,8 +47,8 @@
 - life-long risk of urolithiasis
 - 1-2% of kidney stones in adults
 - 6-8% of kidney stones in children
-- recurrent urinary tract infections, urinary obstruction and,
-  finally, renal failure are possible complications
+- recurrent urinary tract infections urinary obstruction and
+  eventually renal failure are possible complications
 
 ** Metabolic Derangement
 - defect in the high-affinity luminal transporter for cystine and the
@@ -111,11 +100,10 @@
   - impairs amino acid intake \to amino acid deficiencies
 
 ** Metabolic Derangement
-- transport of the dibasic cationic amino acids lysine , arginine and
-  ornithine (system y^+L) is defective at the basolateral membrane of
-  epithelial cells in the renal tubules and small intestine where
-  y^+LAT1 combines with 4F2hc to generate an active amino acid
-  transporter
+- transport of the dibasic cationic amino acids lysine, arginine and
+  ornithine is defective at the basolateral membrane of epithelial
+  cells in the renal tubules and small intestine where y^+LAT1
+  combines with 4F2hc to generate an active amino acid transporter
 - massive amounts of lysine and more moderate amounts of arginine and
   ornithine are lost in the urine
 - intestinal absorption is limited \to low plasma concentrations
@@ -124,8 +112,8 @@
 - hyperammonaemia after protein ingestion and diminished protein
   tolerance in LPI resemble the symptoms of urea cycle enzyme
   deficiencies
-- best explained by functional deficiency of the intermediates
-  arginine and ornithine in hepatocytes
+  - best explained by functional deficiency of the intermediates
+    arginine and ornithine in hepatocytes
 - carnitine deficiency due to:
   - \downarrow meat intake
   - \downarrow endogenous biosynthesis due to lysine deficiency
@@ -153,7 +141,7 @@
   - \uparrow serum LDH
   - \uparrow ferritin
   - \uparrow triglycerides
-- due to secondary haemophagocytic lymphohistiocytosis (HLH)
+  - due to secondary haemophagocytic lymphohistiocytosis (HLH)
 
 ** Treatment
 - principal aims of the treatment are to:

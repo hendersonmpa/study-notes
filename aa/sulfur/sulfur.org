@@ -24,18 +24,20 @@
 - CTH can use cysteine and/or homocysteine to synthesize hydrogen
   sulfide
 - cysteine can be further converted:
-  - in a series of reactions to taurine or
+  - in a series of reactions to taurine
   - via the mitochondrial enzymes, AST and 3-mercaptopyruvate
     sulfurtransferase (MPST), to pyruvate and hydrogen sulfide
 - mitochondrial oxidation of hydrogen sulfide and of cysteine involves
-  several steps yielding thiosulfate , sulfite and finally sulfate
+  several steps yielding thiosulfate (\ce{S2O3^2-}), sulfite
+  (\ce{SO3^2-}) and finally sulfate (\ce{SO4-})
 - inorganic sulfur released from cysteine residues \to mitochondrial
   iron-sulfur (FeS) cluster cofactors
 - availability of cysteine in the neonatal period is limited because
   its endogenous synthesis from methionine by the transsulfuration
   pathway is markedly attenuated
-- activity of the rate limiting enzyme in the pathway, cystathionase ,
-  is very low at birth and increases slowly during the first few months of life
+- activity of the rate limiting enzyme in the pathway cystathionase is
+  very low at birth and increases slowly during the first few months
+  of life
   - cysteine is considered a conditionally essential amino acid, at
     least in preterm infants
 
@@ -45,7 +47,7 @@
   - adenosine or thiosulfate excretion in urine
 
 
-- CBS deficiency – classical homocystinuria – is the most common
+- CBS deficiency (AKA classical homocystinuria) is the most common
   disease in this group
   - severity varies from
     - multisystemic childhood condition with lens dislocation,
@@ -54,7 +56,7 @@
     - isolated thromboembolic disease in adults.
 - CTH deficiency appears to be a biochemical trait with no major
   clinical sequelae
-- Disorders of cysteine and hydrogen sulfide oxidation pathway include:
+- disorders of cysteine and hydrogen sulfide oxidation pathway include:
   - ethylmalonic encephalopathy
   - isolated sulfite oxidase deficiency
   - combined sulfite oxidase deficiency
@@ -71,17 +73,17 @@
 #+ATTR_LaTeX: :width 0.4\textwidth
 [[file:./sulfur/figures/cys.jpg]]
 
-#+CAPTION[]:Sulfur amino acid metabolism
+#+CAPTION[]:Sulfur Amino Acid Metabolism
 #+NAME: fig:sulfur
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./sulfur/figures/sulfuraa.png]]
 
-#+CAPTION[]:Sulfur amino acid metabolism
+#+CAPTION[]:Sulfur Amino Acid Metabolism
 #+NAME: fig:sulfur2
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./sulfur/figures/Slide03.png]]
 
-#+CAPTION[]:Disorders of sulfur amino acid metabolism
+#+CAPTION[]:Disorders of Sulfur Amino Acid Metabolism
 #+NAME: fig:sulfuraa
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./sulfur/figures/sulfaa.png]]
@@ -95,14 +97,13 @@
 ** Metabolic Derangement
 - Methionine S-adenosyltransferase converts methionine to S-adenosylmethionine (SAM) using ATP
 - MAT exists in 3 forms
-- MAT I and III are encoded by the same gene
-  - tetrameric and dimeric forms, respectively
+- MAT I and III tetrameric and dimeric forms encoded MAT1A 
   - liver specific
 - MAT II is encoded by a different gene
   - converts methionine to SAM outside the liver
   - explains why MAT I/III deficiency is relatively benign
 ** Genetics
-- AR, MAT1A
+- AR, MAT1A 
 - some mutation are AD
 ** Diagnostic Tests
 - plasma methionine 50 to \gt 2000 umol/L
@@ -116,6 +117,7 @@
 - methionine restricted diet if met \gt 800 umol/L
 
 * Cystathionine \beta-Synthase Deficiency
+- AKA: Homocystinuria
 ** Clinical Presentation
 - wide spectrum of severity and age at presentation
 - some asymptomatic into adulthood
@@ -127,6 +129,7 @@
   - vascular :: thromboembolism
 ** Metabolic Derangement
 - CBS is a cytosolic tetrameric enzyme
+- \ce{homocysteine ->[CBS] cystathionine}
 - expressed predominantly in liver, pancreas, kidney and brain
 - activity can also be determined in cultured fibroblasts and in plasma
   due to its release from the liver
@@ -143,9 +146,9 @@
 - AR, CBS
 
 ** Diagnostic Tests
-- plasma total homocysteine (tHcy)
-  - \gt 100 umol/L
-  - plasma should be separated from whole blood within one hour of venepuncture
+- \Uparrow plasma total homocysteine (tHcy)
+  - \gt 150 umol/L
+- \uparrow plasma methionine
 - measurement of free homocystine is not recommended
   - low sensitivity
   - complicated pre-analytical requirements
@@ -196,8 +199,8 @@
 - Type C, GPHN, rare
 
 ** Diagnostic Tests
-- plasma urate concentration is initially normal but decreases after a
-  few days and remains low (<0.06 mmol/L)
+- \downarrow plasma urate concentration
+  - initially normal but decreases after a few days and remains low
 - \uparrow urine xanthine
 - sulfite can be detected in fresh urine using dipsticks but false
   positive and negative results occur
@@ -225,14 +228,14 @@
     mediates excitotoxicity
 - sulfite probably causes lens dislocation by disrupting cystine
   cross-linkages in the suspensory ligament
-
+- \uparrow S-sulfocysteine due to inhibition of antiquitin
 ** Genetics
 - AR, SUOX
 
 ** Diagnostic Tests
 - sulfite can be detected in fresh urine using dipsticks
   - not reliable
-- \uparrow urine or blood s-sulfocysteine
+- \uparrow urine or blood S-sulfocysteine
 - \uparrow plasma taurine
 - \downarrow plasma total cysteine and tHcy
 - normal urate and xanthine
@@ -254,10 +257,10 @@
 - most die in early childhood, though some have a milder course
 
 ** Metabolic Derangement
-- deficiency of a mitochondrial sulfur dioxygenase necessary for the
-  detoxification of sulfide
-- hydrogen sulfide (\ce{H2S}) is synthesized endogenously by CBS, CTH
-  and 3-mercaptosulfurtransferase
+- deficiency of a mitochondrial persulfide dioxygenase necessary for the
+  detoxification of hydrogen sulfide (\ce{H2S})
+- \ce{H2S} is synthesized endogenously by CBS, CTH and
+  3-mercaptosulfur transferase
   - also formed by bacterial anaerobes in the large intestine
 - in EE accumulating \ce{H2S} inhibits cytochrome c oxidase and
   short-chain fatty acid oxidation
@@ -272,7 +275,8 @@
 - AR, ETHE1, rare
 
 ** Diagnostic Tests
-- \uparrow urine ethylmalonic acid
+- \uparrow lactate
+- \uparrow urine ethylmalonic and methylsuccinic
 - \uparrow urine C4- and C5-acylglycines
 - \uparrow plasma C4- and C5-acylcarnitines
 - \Uparrow urine thiosulfate is also markedly elevated

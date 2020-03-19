@@ -12,7 +12,7 @@
   cycle on or off
 - required intermediates supplied by:
   - carbonic anhydrase Va (CAVA) \to bicarbonate
-  - aspartate/glutamate mitochondrial antiporter citrin \to aspartate
+  - citrin is the aspartate/glutamate mitochondrial antiporter  \to aspartate
   - \Delta1-pyrroline-5-carboxylate synthetase (P5CS) \to /de novo/ ornithine
 
 #+CAPTION[]:Urea Cycle
@@ -75,7 +75,7 @@
 - failure to incorporate ammonia into carbamoyl phosphate (CP)
   explains the hyperammonaemia of CPS1 and NAGS deficiency
 - in OTC deficiency it may be due to CPS1 inhibition by CP
-  that accumulates in the mitochondria.
+  that accumulates in the mitochondria
 - some CP leaks out of the mitochondria, leading to excessive
   pyrimidine biosynthesis and overproduction of orotic acid and
   uracil
@@ -86,9 +86,9 @@
   - NH_3 freely enters brain and is converted to non-permeable
     \ce{NH4+}
 - \uparrow ammonia + glutamine synthetase \to \uparrow glutamine
-  - increase can occur before, and can persist after, hyperammonaemia
-  - Other non-essential amino acids that can be made from ammonia are increased:
-  - glycine, serine, glutamate and alanine
+  - increase can occur before and can persist after hyperammonaemia
+  - other non-essential amino acids that can be made from ammonia are increased:
+    - glycine, serine, glutamate and alanine
 
 ** Genetics
 - AR, NAGS & CPS1
@@ -98,6 +98,21 @@
 - hallmark is hyperammonaemia, generally in the absence of
   hypoglycaemia, lactic acidosis or ketonuria
 - diagnostic algorithm (Figure [[fig:dd]])
+- plasma amino acids
+  - \uparrow glutamine
+  - N-\downarrow citrulline
+  - N-\downarrow arginine
+  - \uparrow lysine
+*** CPS & NAGS
+- urine organic acids
+  - normal orotic acid
+  - normal uracil
+*** OTC
+- urine organic acids
+  - \uparrow orotic acid
+  - \uparrow uracil
+
+
 
 ** Treatment
 *** Emergency
@@ -120,6 +135,7 @@
   - this begins with the conversion of benzoate by butyrate-CoA ligase
     into an intermediate product, benzoyl-CoA which is then
     metabolized by glycine N-acyltransferase into hippuric acid
+- citruline in OTC & CPS \to elimination of ammonia
 
 #+CAPTION[]:Nitrogen elimination by phenylbutyrate and benzoate
 #+NAME: fig:nh3
@@ -130,10 +146,8 @@
 - presentation during newborn period have high risk of death
 - severe CPS1 and OTC deficiencies are prone to recurrent
   hyperammonaemic crises
-  - low protein diet
-  - avoid catabolism, monitor plasma amino acids
-  - nitrogens scavengers: sodium benzoate, phenylbutyrate
-  - should undergo liver transplantation as soon as it is possible and safe
+  - should undergo liver transplantation as soon as it is possible and
+    safe
 - NAGS deficiency is the only UCD for which drug treatment is almost
   curative
   - N-carbamyl-L-glutamate (also known as carglumic acid ; licensed
@@ -147,7 +161,7 @@
   - ASS and ASL deficiency, each represent \sim 15%
   - ARG1 deficiency representing 3%
 
-** Clinical Presenation
+** Clinical Presentation
 *** Newborns
 - ASS and ASL presentation resembles mitochondrial UCDs
   - hyperammonaemic encephalopathy of similar severity
@@ -159,23 +173,26 @@
 - ASS and ASL similar to mitochondrial UCDs
 - risk of hyperammonaemic decomposition: ASS \gt ASL
 - brittle hair due to trichorrhexis nodosa is almost pathognomonic for ASL deficiency
-  - results from arginine deficiency, responding to arginine
+  - results from arginine deficiency and responds to arginine
     administration
-- ARG1 is differs from ASL/ASS
+- ARG1 differs from ASL/ASS
   - developmental delay with neurological and intellectual impairment
   - growth retardation and spastic cerebral palsy
   - seizures
 
 ** Metabolic Derangement
 - ASS
+  - \ce{citrulline + aspartate ->[ASS] ASA}
   - \Uparrow citrulline
   - \downarrow ASA
   - \downarrow arginine
 - ASL
+  - \ce{ASA ->[ASL] arginine + fumarate}
   - \uparrow citrulline
   - \Uparrow ASA
   - \downarrow arginine
 - ARG1
+  - \ce{arginine ->[ARG1] ornithine + urea}
   - \uparrow citrulline
   - \Uparrow arginine
   - induction in extrahepatic tissues of ARG2 may explain the modest
@@ -184,14 +201,14 @@
 
 
 - citrulline and argininosuccinate include one molecule of ornithine
-  and one(cit) or two(ASA) atoms of waste nitrogen
+  and one or two atoms of waste nitrogen respectively
   - urinary excretion of these intermediates in ASS and ASL
     deficiencies effectively removes waste nitrogen
   - with simultaneous loss of two (ASS) or one (ASL) ornithine
     molecules per urea
-  - \therefore ornithine is essential in waste nitrogen is excretion
-    in ASS and ASL deficiencies
-    - administration of arginine, converted to ornithine upon cleavage by arginase
+  - \therefore ornithine is essential in waste nitrogen excretion in
+    ASS and ASL deficiencies
+    - administration of arginine converted to ornithine upon cleavage by arginase
 
 ** Genetics
 - AR, ASS1, ASL, ARG1
@@ -202,14 +219,14 @@
 
 ** Treatment
 - emergency management the same as mitochondrial UCDs
-  - ASL give arginine
+  - ASL+ASS give arginine
 - maintenance treatment for ASS and ASL deficiencies is the same as
   CPS1 and OTC deficiencies
 - liver transplant should be considered in ASS, ASL and ARG1
 
 * Mitochondrial Transport
 ** HHH Syndrome
-- see section [[Ornithine and Proline]]
+- see Ornithine and Proline (Section [[Ornithine and Proline]])
 ** Citrin Deficiency
 *** Clinical Presentation
  - citrin is the hepatic mitochondrial aspartate/glutamate antiporter
@@ -225,7 +242,7 @@
 *** Metabolic Derangement
  - exchange of mitochondrial aspartate for cytosolic glutamate and
    the malate/aspartate shuttle are both affected
- - insufficient supply of mitochondrial aspartate for ASS within
+ - insufficient supply of aspartate from mitochondria for ASS within
    hepatocytes, and the conversion of the fumarate released by ASL, to
    form aspartate within the cytosol, is impaired, due to the low
    cytosolic NAD resulting from lack of malate-aspartate shuttle
@@ -255,20 +272,20 @@
   - normal or elevated levels of arginine
   - without urinary orotic acid
   - high plasma level of alpha-fetoprotein
-  - and/or increased galactose
+  - \pm increased galactose
 - strongly suggestive of  NICCD
 
 *** Treatment
 - avoid carbohydrate or glycerol infusions \to hyperammonaemia
 - maintenance treatment of NICCD involves the use of lactose-free or
   MCT-enriched formula
-- when introduced, other foods should be proteinrich and fat-rich,
+- when introduced, other foods should be protein rich and fat-rich,
   such as eggs or fish
 * Ancillary Enzymes
 ** P5CS
-- see section [[Ornithine and Proline]]
+- see Ornithine and Proline (Section [[Ornithine and Proline]])
 ** CAVA
-- carbonic anhydrase Va (CAVA) deficiency
+- Carbonic Anhydrase Va (CAVA) Deficiency
 *** Clinical Presentation
 - neonatal symptoms identical to those with neonatal onset UCD
 *** Metabolic Derangement
@@ -305,6 +322,9 @@
 - \downarrow blood glucose
 - \downarrow citrulline 
 - urine organic acids for carboxylase metabolites
+  - pyruvate carboxylase
+  - propionic acid carboxylase
+  - 3-MCC
 - normal plasma acylcarnitines
 
 *** Treatment

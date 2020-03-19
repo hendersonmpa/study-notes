@@ -4,6 +4,7 @@
 
 
 * Introduction
+** Lysine Catabolism
 - lysine, hydroxylysine and tryptophan are thought to be degraded
   within the mitochondrion
 - initially via separate pathways, which converge into a common 
@@ -13,14 +14,14 @@
       catabolism
   - 2-oxoadipic acid
     - tryptophan catabolism
-- the major route of lysine catabolism in most tissues is via the
+- major route of lysine catabolism in most tissues is via the
   bifunctional enzyme, 2-aminoadipic-6-semialdehyde synthase (Figure [[fig:cat]] enzyme 1)
-- small amount of lysine is catabolised via pipecolic acid and the
-  peroxisomal key enzyme, pipecolic acid oxidase (Figure [[fig:cat]] enzyme 2)
+- small amount of lysine is catabolised via pipecolic acid by the
+  peroxisomal enzyme, pipecolic acid oxidase (Figure [[fig:cat]] enzyme 2)
   - this pathway is the major route of lysine catabolism in the
     brain
 - source of pipecolic acid is not yet fully understood
-  - from lysine and 2-aminoadipic-6-semialdehyde shown
+  - from lysine and 2-aminoadipic-6-semialdehyde
   - microbiome
 
 - 2-oxoadipic acid is primarily converted to glutaryl-CoA by the
@@ -50,21 +51,21 @@
   succinate-hydroxymethylglutarate CoA transferase to glutaryl-CoA
   (Figure [[fig:cat]] enzyme 10)
 
-- of the six enzyme deficiencies identified in the degradation of
-  lysine, only four \to neurometabolic disorders:
-  - antiquitin
-  - KGDH
+- six enzyme deficiencies identified in the degradation of lysine,
+  only four \to neurometabolic disorders:
+  - antiquitin - see Vitamin B_6
+  - KGDH - alternative route for lysine catabolism
   - glutaryl-CoA dehydrogenase
   - crotonase 
 
-
+** Cerebral Organic Acidurias
 - a group of organic acid disorders present exclusively with
   progressive neurological symptoms of ataxia, epilepsy, myoclonus,
   extrapyramidal symptoms, metabolic stroke, and macrocephaly
   - glutaric aciduria
   - 2-hydroxyglutaric aciduria
-  - 4-hydroxybutyric aciduria
-  - N-acetylaspartic aciduria
+  - \gamma-hydroxybutyric aciduria
+  - N-acetylaspartic aciduria 
 - in all these disorders the pathological compounds that accumulate
   either are odd-chain dicarboxylic acids
   - 3-hydroxyglutarate, glutarate
@@ -144,7 +145,7 @@
   neurological sequelae
 - emergency treatment during illness
   - \uparrow CHO feeds, carnitine supplementation
-  - lys free amino acids
+  - lysine free amino acids
 - oral supplementation w carnitine and riboflavin
 - lysine-free, tryptophan-reduced and arginine-enriched amino acid
   mixtures aims to minimise the risk of malnutrition
@@ -195,10 +196,10 @@
   lipid synthesis
 
 ** Genetics
-- AR, ASPAragine
+- AR, ASPA
 
 ** Diagnostic Tests
-- \Uparrow N-acetyl-aspartic on UOA
+- \Uparrow N-acetylaspartic on UOA
   - 100x \uparrow is pathognomonic
 - borderline elevation of NAA found in various forms of white matter
   disease
