@@ -185,7 +185,7 @@
   - \uparrow random urine serotonin, normetanephrine, metanephrine, and 3-MT
   - abnormal normetanephrine:VMA, normetanephrine:MHPG, HVA:VMA ratios
 ** GTPCH and SR deficiency 
-- dopamine responsive dystonia 
+- dopamine responsive dystonia (Figure [[fig:bh4]] and Table [[tab:biop]])
 - GTPCH catalyses the first step in BH_4 synthesis
   \ce{GTP ->[GTPCH] NH2TP}
 - sepiaterin reductase (SR) catalyses the final steps in BH_4 synthesis
@@ -212,4 +212,14 @@
   - BH_4
   - \downarrow Phe
 
+#+CAPTION[]:Results in Biopterin Disorders
+#+NAME: tab:biop
+| Deficiency |      Phe | biopterin[fn:1] | neopterin[fn:1] | primapterin[fn:1] | CSF 5-HIAA HVA | DHPR activity |
+|------------+----------+-----------------+-----------------+-------------------+----------------+---------------|
+| PAH        |   \gt120 | \uparrow        | \uparrow        | -                 | N              | N             |
+| GTPCH      |  50-1200 | \Downarrow      | \Downarrow      | -                 | \downarrow     | N             |
+| PTPS       | 240-2500 | \Downarrow      | \Uparrow        | -                 | \downarrow     | N             |
+| DHPR       | 180-2500 | \Downarrow      | N or \uparrow   | -                 | \downarrow     | \downarrow    |
+| PCD        | 180-1200 | \downarrow      | \uparrow        | \Uparrow          |                | N             |
 
+[fn:1] blood or urine

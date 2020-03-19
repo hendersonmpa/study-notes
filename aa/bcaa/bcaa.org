@@ -3,7 +3,7 @@
 #+DATE: \today
 
 * Introduction
-- the three essential BCAAs: leucine, isoleucine and valine, are
+- the three essential BCAAs: leucine, isoleucine and valine are
   initially catabolised by a common pathway
 - the first reaction, occurs primarily in muscle
   - reversible transamination to 2-oxo- (or keto) acids
@@ -29,18 +29,17 @@
 #+ATTR_LaTeX: :width 1\textwidth
 [[file:./bcaa/figures/Slide02.png]]
 
-- branched-chain organic acidurias or organic acidaemias are a group
-  of disorders that result from an abnormality of specific enzymes
-  involving the catabolism of BCAAs
-- most common: MSUD, IVA, PA, and MMA can present clinically as:
+- branched-chain organic acidurias result from an abnormality of
+  specific enzymes involving the catabolism of BCAAs
+- most common are MSUD, IVA, PA, and MMA
 
 * MSUD, IVA, PA and MMA
 ** Clinical Presentation
 - have many clinical and biochemical symptoms in common
 - there are three main clinical presentations:
-  1) a severe neonatal-onset form of metabolic distress
-  2) an acute and intermittent late-onset form
-  3) a chronic progressive form presenting as hypotonia, failure to
+  1) severe neonatal-onset form of metabolic distress
+  2) acute and intermittent late-onset form
+  3) chronic progressive form presenting as hypotonia, failure to
      thrive, and developmental delay
 - NBS has identified asymptomatic forms
 
@@ -71,8 +70,7 @@
 - hyperammonaemia in PA and MMA
 
 *** Acute Intermittent Form
-- quarter of patients, the disease presents after a symptom-free
-  period
+- 25% present after a symptom-free period
   - commonly longer than 1 year and sometimes until adolescence or adulthood
 - neurological presentation: coma, lethargy
 - hepatic: Reye-like syndrome in IVA, PA, MMA
@@ -93,27 +91,26 @@
 - due to the reversibility of the initial transamination step BCAAs
   also accumulate
 - smaller amounts of the respective 2-hydroxy acids are formed
-- alloisoleucine, a diastereomer of isoleucine, is invariably found in
-  the blood of all patients with classic MSUD and in those with
-  variant forms, at least in those still without dietary treatment
-- among the BCAA metabolites, leucine and 2-ketoisocaproic acid appear
-  to be the most neurotoxic
+- alloisoleucine a diastereomer of isoleucine is found in the blood of
+  all patients with classic MSUD and in those with variant forms, at
+  least in those still without dietary treatment
+- leucine and 2-ketoisocaproic acid appear to be the most neurotoxic
 
 *** IVA
 - deficiency of isovaleryl-CoA dehydrogenase (IVD)
-  - an intramitochondrial flavoenzyme which transfers electrons to ETF
+  - intramitochondrial flavoenzyme which transfers electrons to ETF
 - accumulation of derivatives of isovaleryl-CoA including:
   - free isovaleric increased in both plasma and urine
-  - 3-hydroxyisovaleric acid (3-HIVA)
+  - 3-hydroxyisovaleric acid 
   - N-isovalerylglycine
     - major derivative of isovaleryl-CoA
-  - isovalerylcarnitine
+  - C5 (isovalerylcarnitine)
 
 *** PA
 - deficiency of the mitochondrial enzyme propionyl-CoA carboxylase (PCC)
   - one of the five biotin-dependent enzymes
 - \uparrow free propionic acid in blood and urine
-- \uparrow derivatives propionylcarnitine , 3-hydroxypropionate and methylcitrate
+- \uparrow derivatives propionylcarnitine, 3-hydroxypropionate and methylcitrate
   - MCA arises by condensation of propionyl-CoA with oxaloacetate
   - catalysed by citrate synthase
 - during ketotic episodes, 3-HIVA is formed by condensation of
@@ -128,11 +125,11 @@
   - B_12 dependent-enzyme
   - disorders that affect adenosylcobalamin formation cause variant
     forms of MMA
-- \uparrow methylmalonyl-CoA results in \uparrow methylmalonyic acid
+- \uparrow methylmalonyl-CoA results in \uparrow methylmalonic acid
   in urine and blood
 - secondary inhibition of PCC \to \uparrow PA and PA derivatives
 
-*** Secondary Effects Of Elevated Propionyl-CoA
+*** Secondary Effects of Elevated Propionyl-CoA
 - \uparrow propionylcarnitine \to carnitine deficiency
 - \uparrow synthesis of odd numbered LCFAs
 - enzyme inhibition \to
@@ -167,7 +164,8 @@
   - \uparrow Leu/Ala
   - \uparrow alloisoleucine 
 - urine organic acids:
-  - 2-OH-isovaleric, 2-oxoisocaproic
+  - \uparrow 2-OH-isovaleric
+  - \uparrow 2-oxoisocaproic
 
 *** IVA 
 - urine organic acids:
@@ -179,7 +177,6 @@
 - urine organic acids:
   - \Uparrow 3-OH-propionic
   - \uparrow methylcitric
-
 - \uparrow plasma C3 carnitine
 - \uparrow plasma glycine and alanine
 
@@ -193,6 +190,8 @@
 - \uparrow plasma glycine and alanine
 
 ** Treatment
+- acute treatment of hyperammonemia
+  - carbaglu an NAG analog
 - MSUD low BCAA diet
 - IVA low protein diet
   - carnitine and glycine \to acylcarnitine & acylglycine
@@ -204,19 +203,23 @@
 ** Clinical Presentation
 - highly variable: neonatal neurological onset with death \to lack of symptoms
 ** Metabolic Derangement
-- 3-methylcrotonyl-CoA carboxylase(3-MCC) deficiency
-  - \uparrow 3-methylcrotonyl-CoA \to 3-methylcrotonylglycine
-  - 3-methylcrotonic acid
+- 3-methylcrotonyl-CoA carboxylase (3-MCC) deficiency
+  - involved in leucine catabolism
+  - biotin dependant
 - 3-MCC is a heteromeric enzyme consisting of
   \alpha-(biotin-containing) and \beta-subunits
-- 3-hydroxyisovalerate (3-HIVA), another major metabolite, is derived
+- \uparrow 3-methylcrotonyl-CoA \to 3-methylcrotonylglycine and
+  3-methylcrotonic acid
+- 3-hydroxyisovalerate another major metabolite, is derived
   through the action of a crotonase on 3-methylcrotonyl-CoA and the
   subsequent hydrolysis of the CoA-ester
 ** Genetics
 - AR, MCCA and MCCB
 ** Diagnostic Tests
-- \Uparrow 3-HIVA
+- \Uparrow 3-hydroxyisovalerate 
 - \Uparrow 3-methycrotonylglycine
+- \Uparrow 3-methylcrotonic acid
+- \uparrow C5OH
 - without the lactate, methylcitrate, and tiglylglycine found in
   multiple carboxlase deficiency
 

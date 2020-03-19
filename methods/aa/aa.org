@@ -4,18 +4,18 @@
 
 * Introduction
 ** Amino Acids: A Very Short Introduction
-- Amino acids are mono or dicarboxylic acids with one or more amino groups.
-  - Zwitterion at ph 7.45
+- amino acids are mono or dicarboxylic acids with one or more amino groups.
+  - zwitterion at ph 7.45
 
-- Proteinogenic amino acids (22)
+- proteinogenic amino acids (22)
   - 21 amino acids naturally incorportated into polypeptides in humans
   - 20 genetically encoded
   - selenocysteine
 
-- Non-proteinogenic
+- non-proteinogenic
   - post-translational modification
     - hydroxylation of proline \to hydroxyproline
-  - Not found in proteins
+  - not found in proteins
     - gamma-aminobutryic acid
     - ornithine, citrulline
 
@@ -208,7 +208,6 @@
 \end{tikzpicture}
 \end{center}
 #+END_EXPORT
-
 
 
 ** Inlet table                                                     :noexport:
