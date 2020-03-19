@@ -165,3 +165,18 @@
 - \uparrow serum calcium
 - \downarrow serum phosphate
 - \uparrow plasma phosphoethanolamine 
+- AR ALPL
+  - some mutations are AD
+
+** X-Linked Hypophosphatasia
+- AKA: X-Linked Hypophosphatemic Rickets
+- ranges from isolated hypophosphatemia to severe lower-extremity bowing
+- presents first \lte 2 years when lower-extremity bowing becomes
+  evident with the onset of weight bearing
+  - sometimes not until adulthood
+- \uparrow serum calcium
+- \downarrow serum phosphate
+- \uparrow 1,25 hydroxy-vitamin D
+- \Uparrow plasma alkaline phosphatase in children
+- XLD PHEX, phosphate-regulating endopeptidase
+

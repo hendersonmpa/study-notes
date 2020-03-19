@@ -3,11 +3,10 @@
 #+DATE: \today
 
 * Introduction
-
 - tyrosine is a non-essential amino acid derived from diet and hydroxylation of phenylalanine
 - a precursor of DOPA, thyroxine and melanin
 - glucogenic and ketogenic \to catabolism in liver cytosol \to fumarate and acetoacetate
-- Tyr \to 4-hydroxyphenylpyruvate by cytosolic tyrosine aminotransferase
+- tyrosine \to 4-hydroxyphenylpyruvate by cytosolic tyrosine aminotransferase
   - also in liver and other tissues by mitochondrial aspartate aminotransferase
     - minor role under normal conditions
 - penultimate intermediates maleylacetoacetate and fumarylacetoacetate
@@ -145,7 +144,7 @@
 - \Uparrow plasma tyrosine > 1200 umol/L
   - if lower consider Type III
 - urine organic acids
-  - \Uparrow urine 4-hydroxyphenylpyruvate
+  - \Uparrow 4-hydroxyphenylpyruvate
   - \Uparrow 4-hydroxyphenyllactate
   - \Uparrow 4-hydroxyphenylacetate
   - \uparrow N-acetyltyrosine
@@ -167,7 +166,10 @@
 - AR, HPD
 ** Diagnostic Tests
 - \uparrow plasma tyrosine 300-1300 umol/L
-- \uparrow urine 4-hydroxyphenylpyruvate, 4-hydroxyphenyllactate and 4-hydroxyphenylacetate
+- urine organic acids
+  - \uparrow 4-hydroxyphenylpyruvate
+  - \uparrow 4-hydroxyphenyllactate
+  - \uparrow 4-hydroxyphenylacetate
 
 * Alkaptonuria
 ** Clinical Presentation
@@ -192,7 +194,7 @@
 - \uparrow UOA homogentisic acid
 ** Treatment
 - vitamin C
-- nitisinone with \downarrow Phe and Tyr diet
+- nitisinone with \downarrow phenylalanine and tyrosine diet
   - 3-year clinical trial of nitisinone \to 95% \downarrow urine and plasma homogentisic acid
   - no demonstrable effects on clinical symptoms
 
@@ -218,15 +220,19 @@
 
 ** Genetics
 - AD, HPD, A33T
-- mutations that lead to a retention of partial HPD function,
+- mutations that lead to a retention of partial HPD function
   - production of hawkinsin and 4-hydroxycyclohexylacetate
 ** Diagnostic Tests
-- UAO hawkinsin or 4-hydroxycyclohexylacetate is diagnostic
 - may be moderate tyrosinaemia
-- \uparrow urine 4-hydroxyphenylpyruvate and 4-hydroxyphenyllacate,
-  metabolic acidosis and 5-oxoprolinuria during infancy
+- urine organic acids
+  - \uparrow hawkinsin (4-hydroxycyclohexylacetate) is diagnostic
+  - during infancy
+    - \uparrow 4-hydroxyphenylpyruvate
+    - \uparrow 4-hydroxyphenyllactate
+    - \uparrow 5-oxoprolinuria
+    - metabolic acidosis 
 
 ** Treatment
-- return to breastfeeding or low tyr and phe diet
+- return to breastfeeding or low tyrosine and phenylalanine diet
 - asymptomatic after the 1st year of life
 - affected infants are reported to have developed normally

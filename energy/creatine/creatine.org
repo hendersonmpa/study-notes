@@ -8,16 +8,16 @@
      transfer of an amidino group from arginine to glycine, yielding
      guanidinoacetate
   2) guanidinoacetate methyltransferase (GAMT) catalyses the
-     methylation of the amidino group in the guanidino-acetate
+     methylation of the amidino group in the guanidinoacetate
      molecule, yielding creatine
 
 - creatine synthesis occurs mainly, but not exclusively, in the kidney
   and in the pancreas, which have high AGAT activity, and in the
   liver, which has high GAMT activity
 
-- from these organs of synthesis, creatine is transported via the
+- from these organs of synthesis creatine is transported via the
   bloodstream to the organs of utilization, mainly muscle and brain
-  - taken up by a sodium and chloride dependent creatine transporter
+  - taken up by a sodium and chloride dependent Creatine Transporter
     (CRTR)
 
 - most brain creatine is transported from the blood via CRTR expressed
@@ -25,14 +25,10 @@
 - a minor proportion is synthesized in the brain
 
 - part of intracellular creatine is reversibly converted into the
-  high-energy compound creatine-phosphate, by creatine kinase (CK)
-
-- three cytosolic isoforms of CK (brain type BB-CK, muscle type MM-CK
-  and the MB-CK heterodimer), and two mitochondrial isoforms exist
+  high-energy compound creatine-phosphate by creatine kinase (CK)
 
 - creatine and creatine-phosphate are non-enzymatically converted into
-  creatinine, with a constant daily turnover of 1.5% of body
-  creatine
+  creatinine
 
 - creatinine is mainly excreted in urine and its daily excretion is
   directly proportional to total body creatine, and in particular to
@@ -95,16 +91,14 @@
 ** Diagnostic Tests
 - MRS to screen for cerebral creatine deficiency
 - urine guanidinoacetate, creatine and creatinine is an important
-  screening test for all CDS
-  - \downarrow AGAT, \le 10% of LLN
-  - \uparrow GAMT , 10x normal
+  screening test for all CDS (Table [[tab:cdsurine]])
 - CSF guanidinoacetate
   - \uparrow GAMT, 100x normal
-- \uparrow urine creatinine/creatine in CRTR 
 
 
-#+CAPTION[]: Urine findings
-#+NAME: tab:urine
+
+#+CAPTION[]: Urine findings in CDS
+#+NAME: tab:cdsurine
 |      | GAA        | creatine/creatinine |
 |------+------------+---------------------|
 | AGAT | \downarrow | n/\downarrow        |
@@ -115,10 +109,10 @@
 - normal neurodevelopmental outcome has been reported in early treated
   patients with creatine synthesis defects
 - AGAT and GAMT treated with creatine monohydrate
-- in GAMT deficiency, reduction of guanidinoacetate is achieved by
+- GAMT deficiency - reduction of guanidinoacetate is achieved by
   ornithine supplementation \pm dietary arginine restriction
 - CRTC no treatment
-- in CRTR deficiency, creatine, arginine and glycine supplementation
+- CRTR deficiency - creatine, arginine and glycine supplementation
   does not significantly improve outcome, although partial clinical
   improvement has been reported in single patients
 

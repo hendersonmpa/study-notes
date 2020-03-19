@@ -86,10 +86,11 @@
 - cyanide nitroprusside test
   - reacts with cystine \to purple colour
 - urine amino acids
-  - \uparrow cystine
+  - \Uparrow cystine
   - \uparrow arginine
   - \uparrow ornithine
-
+  - \uparrow lysine
+- plasma amino acids are normal
 ** Treatment
 - \uparrow fluid intake
 - alkalinisation of urine
@@ -137,12 +138,19 @@
 ** Diagnostic Tests
 - combination of increased urinary excretion and low plasma
   concentrations of the cationic amino acids, especially lysine
-- \uparrow urine lysine, arginine and ornithine
-- \downarrow plasma lysine, arginine and ornithine
+- urine amino acids
+  - \uparrow lysine
+  - \uparrow arginine
+  - \uparrow ornithine
+  - N-\uparrow citrulline
+- plasma amino acids
+  - \downarrow lysine
+  - \downarrow arginine
+  - \downarrow ornithine
 - \uparrow postprandial plasma ammonia
 - postprandial orotic aciduria
-- nonspecific but almost constant findings include:
-  - \uparrow  serum LDH
+- nonspecific almost constant findings include:
+  - \uparrow serum LDH
   - \uparrow ferritin
   - \uparrow triglycerides
 - due to secondary haemophagocytic lymphohistiocytosis (HLH)

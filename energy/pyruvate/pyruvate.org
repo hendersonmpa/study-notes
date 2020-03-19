@@ -5,16 +5,23 @@
 * Introduction
 - pyruvate is formed from glucose and other monosaccharides, from
   lactate, and from the gluconeogenic amino acid alanine
-- after entering the mitochondrion, pyruvate can be converted into
+- after entering mitochondria pyruvate can be converted into
   acetyl-CoA by the pyruvate dehydrogenase complex, followed by
   further oxidation in the TCA cycle
-- pyruvate can also enter the gluconeogenic pathway by sequential
-  conversion into oxaloacetate by pyruvate carboxylase, followed by
-  conversion to phosphoenolpyruvate by phosphoenolpyruvate
-  carboxykinase
+- pyruvate can also enter the gluconeogenic pathway:
+  - conversion into oxaloacetate by pyruvate carboxylase
+  - conversion to phosphoenolpyruvate by phosphoenolpyruvate carboxykinase
 - acetyl-CoA can also be formed by fatty acid oxidation or used for
   lipogenesis
 
+#+BEGIN_EXPORT LaTeX
+\begin{center}
+\setatomsep{1.8em}
+\chemname{\chemfig{H_3C-[7](=[6]O)-[1](=[2]O)-[7]OH}}{pyruvate}
+\hspace{20}
+\chemname{\chemfig{-[7](=[6]O)-[1](=[2]O)-[7]OH-[,,,,decorate, decoration=snake]-CoA}}{acetyl-CoA}
+\end{center}
+#+END_EXPORT
 ** Disorders of Pyruvate Metabolism
 - Pyruvate Carboxylase Deficiency
 - Phospoenolpyruvate Carboxykinase Deficiency
@@ -60,6 +67,7 @@
 - important role in:
   - gluconeogenesis
     - urea cycle indirectly
+      - oxaloacetate \to aspartate used by ASS
   - anaplerosis
     - \downarrow 2-ketoglutarate \to \downarrow glutamate
     - \downarrow TCA intermediates lowers reducing equivalents
@@ -68,26 +76,25 @@
   - lipogenesis
     - oxaloacetate + acetyl-CoA \to citrate
 
-** Biotin and Bicarbonate
 - PC requires biotin and bicarbonate 
 - metabolic derangements associated with PC are observed in:
   - biotin deficiency and biotinidase deficiency
-  - the three biotin-dependent carboxylases:
-    - Propionyl-CoA carboxylase (PCC)
+  - three important biotin-dependent carboxylases:
+    - propionyl-CoA carboxylase (PCC)
     - 3-methylcrotonyl-CoA carboxylase (3MCC)
-    - Pyruvate carboxylase (PC)
+    - pyruvate carboxylase (PC)
 
   - CA-VA deficiency
     - results in dysfunction of all four enzymes to which CA-VA
       provides bicarbonate as substrate in mitochondria (see Urea Cycle)
 
 ** Clinical Presentation
-- french phenotype (type B), most severe
-  - acute illness 3-48h after birth
+- French phenotype (type B), most severe
+  - acute illness 3-48hrs after birth
   - hypothermia, hypotonia, lethargy, vomiting
   - severe neurological dysfunction
   - death prior to 5 months
-- north American phenotype (type A)
+- American phenotype (type A)
   - severe illness between 2 and 5 months of age
   - progressive hypotonia
   - acute vomiting, dehydration, tachypnoea, metabolic acidosis
@@ -100,27 +107,23 @@
 ** Genetics
 - AR, PC, 1:250000
 - PC is a homo-tetramer 
-- PC protein and mRNA absent in 50% of french phenotype
-- american and benign phenotypes have cross-reacting material
+- PC protein and mRNA absent in 50% of French phenotype
+- American and benign phenotypes have cross-reacting material
 - mosaicism has been observed with prolonged survival
 
 ** Diagnostic Tests
 - PC deficiency should be considered in any child presenting with
   lactic acidosis and neurological abnormalities
-  - with hypoglycemia, hyperammonemia, or ketosis
-- \uparrow L/P with \downarrow BHB/acetoacetate in severely affected patients
+  - hypoglycemia, hyperammonemia, or ketosis
+- N-\uparrow L/P with \downarrow \beta-hydroxybutyrate/acetoacetate in severely affected patients
   - pathognomonic in neonates
-
 - post-prandial ketosis, hypercitrullinemia, hyperammonemia, low glutamine
-
 - CSF lactate, alanine and L/P are elevated, glutamine decreased
-
 - PC activity in cultured skin fibroblasts
   - can not distinguish severity
 
 ** Treatment 
-
-- Currently, no treatment
+- none
 
 * Phospoenolpyruvate Carboxykinase Deficiency
 - PEPCK has cytosolic and mitochondria isoforms
@@ -130,7 +133,7 @@
 
 * Pyruvate Dehydrogenase Complex Deficiency
 - PDHC decarboxylates pyruvate \to acetyl-CoA
-  - thiamine dependent
+  - thiamine dependentp
 - PDHC, KDHC and BCKD have similar structure and mechanism
 - composed of:
   - E1 \alpha-ketoacid dehydrogenase
@@ -143,20 +146,17 @@
 
 #+CAPTION[]:Pyruvate Dehydrogenases Complex
 #+NAME: tab:pdhc
-| Unit     | Name                               | Gene  | Cofactor                     |
-|----------+------------------------------------+-------+------------------------------|
-| E1\alpha | pyruvate dehydrogenase             | PDHA1 | thiamine pyrophosphate (TPP) |
-| E1\beta  |                                    | PDHB  |                              |
-| E2       | dihydrolipoyl  S-acetyltransferase | DLAT  | lipoate, coenzyme A          |
-| E3       | dihydrolipoyl dehydrogenase        | DLD   | FAD, NAD+                    |
-
-
+| Unit     | Name                               | Gene  | Cofactor               |
+|----------+------------------------------------+-------+------------------------|
+| E1\alpha | pyruvate dehydrogenase             | PDHA1 | thiamine pyrophosphate |
+| E1\beta  |                                    | PDHB  |                        |
+| E2       | dihydrolipoyl  S-acetyltransferase | DLAT  | lipoate, CoA           |
+| E3       | dihydrolipoyl dehydrogenase        | DLD   | FAD, NAD^{+}           |
 
 #+CAPTION[pdhe1]: Activation/deactivation of PDHE1
 #+NAME: fig:pdhe1
 #+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./pyruvate/figures/pdhe1_phos.png]]
-
 
 #+CAPTION[pdhc]: Pyruvate Dehydrogenase Complex
 #+NAME: fig:pdhc
@@ -167,7 +167,7 @@
 - metabolism of glucose \to lactate, produces 1/10 ATP compared to
   complete oxidation via TCA and ETC
 - impairs production of NADH but not oxidation 
-- NADH/\ce{NAD+} is normal \therefore normal L/P
+- NADH/\ce{NAD+} is normal \therefore N-\downarrow L/P
   - ETC deficiencies \to \uparrow L/P
 
 ** Clinical Presentation: PDHE1\alpha
@@ -199,6 +199,7 @@
 - all components of PDHC are encoded by nuclear genes
 - autosomal except E1\alpha on Xp22.11
   - \therefore most PDHC deficiency is X-linked
+    - has semi-dominant inheritance
 - no null E1\alpha identified except in a mosaic state
   - suggests E1\alpha is essential
 
@@ -217,7 +218,8 @@
 ** Treatment
 - early adoption of ketogenic diet may have a benefit
 - thiamine responsive forms
-- DCA is a pyruvate analog, inhibits E1 kinase, keeps E1 dephosphorylated (active) (Figure [[fig:pdhe1]])
+- dichloroacetate is a pyruvate analog, inhibits E1 kinase, keeps E1
+  dephosphorylated (active) (Figure [[fig:pdhe1]])
 
 ** Pyruvate Transport Defect
 - MPC1 mutations have been described in 5 patients
@@ -231,12 +233,11 @@
   - PDHC, KDHC, and BCKD
 - combined PDHC, TCA , BCAA defect
   - \uparrow lactate , pyruvate, 
-  - alanine, glutamate, glutamine, BCAA
+  - \uparrow alanine, glutamate, glutamine, BCAA
   - urinary lactic, pyruvic, 2-ketoglutaric, BC 2-hydroxy & 2-ketoacids
 
 ** Genetics and Diagnostic Testing
-- DLD mutations AR
-- 13 unrelated patients revealed 14 unique mutations
+- AR DLD
 - blood lactate, pyruvate
 - plasma amino acids
 - urinary organic acids

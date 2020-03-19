@@ -48,7 +48,7 @@
       
  \ce{pyruvate + CoA + NAD+ <=>[PDHC] acetyl-CoA + CO2 + NADH + H+}
 
- - lactate dehydrogenase :: pyruvate reduced \to lactate
+ - lactate dehydrogenase :: reduced \to lactate
 
  \ce{pyruvate + NADH <=>[LDH] lactate + NAD+}
 
@@ -59,19 +59,19 @@
 #+END_EXPORT
 
 ** ETC Redox Rxns
-- Complex I :: NADH oxidized to NAD^+
- 
+- Complex I :: NADH oxidized to NAD^{+}
+
 \ce{NADH <=>[CI] NAD+ + H}
 
 - ETF/ETF-QO :: FADH_2 oxidized to FAD
 
- \ce{FADH2 <=>[ETF/ETF-CO] FAD + 2H}
+ \ce{FADH2 <=>[ETF/ETF-CO] FAD + 2H+}
 
 
 ** Ketone Redox Rxn
 - hydroxybutyrate dehydrogenase :: reduced to \beta-hydroxybutyrate
 
- \ce{acetoacetate + NADH <=>[HBDH] \betaHB + NAD+}
+ \ce{acetoacetate + NADH <=>[HBDH] \beta{}-hydroxybutyrate + NAD+}
 
 * Fatty Acid Oxidation
 #+INCLUDE: "./fao/fao.org" :lines "4-"

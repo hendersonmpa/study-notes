@@ -167,6 +167,7 @@
 
 *** Acute Intermittent Porphyria
  - HMBS: Hydroxymethylbilane Synthase
+ - AD inheritance HMBS
    - aka: PBG deaminase
    - four PBGs are combined through deamination
    - susceptible to allosteric inhibition by CIII and protoporphyrinogen
@@ -179,7 +180,8 @@
 
 *** Hereditary Coproporphyria
  - CPOX: Coproporphyrinogen Oxidase
-   - mitochondrial intermembrane space
+ - AD inheritance CPOX
+   - mitochondrial inter-membrane space
    - inhibited by metals
    - specific for CIII
      - Urine PBG :: \Uparrow \Uparrow \Uparrow
@@ -187,6 +189,8 @@
 
 *** Varigate Porphyria
  - PPOX: Protoporphyrinogen Oxidase
+ - AD inheritance w reduced penetrance PPOX
+   
    - inner mitochondrial membrane
      - Urine PBG :: \Uparrow \Uparrow \Uparrow
      - Fecal copro-III :: \uparrow \uparrow
@@ -214,6 +218,15 @@
      - VP :: protoporphyrin-IX \Uparrow \Uparrow \Uparrow
    - can also be due to diet or GI bleed
    - follow-up with plasma porphyrin emission scan
+** Treatment
+- acute
+  - IV glucose, hematin
+- avoid triggers
+  - adverse drugs
+  - hypoglycemia
+  - smoking, drinking
+  - progesterone 
+
 * Non-Acute Porphyrias 
 ** X-Linked Sideroblastic Anemia
 - ALAS: 5-aminolevulinate synthase
@@ -251,6 +264,7 @@
 - acquired PCT (type I)
   - exposure to polyhalogenated aromatic hydrocarbons \to 
 - famillial PCT (type II)
+  - AD, UROD w reduced penetrance
   - mutation in one UROD gene \to 1/2 normal activity
 *** Diagnostic Tests
 - urine porphyrin quantitation
@@ -280,8 +294,10 @@
   - HMB \rightarrow Uro III: UROS
 *** Genetics
 - least common, most severe of the cutaneous porphyrias, < 1:million in UK
-- AR, UROS, rarely GATA1
-- usually heteroallelic
+- AR, UROS
+  - usually heteroallelic
+- very rare XL GATA1 mutation
+  - a transcription factor
 
 *** Diagnostic tests
 - urine porphyrin quantitation
@@ -299,22 +315,20 @@
 *** Clinical Features
 - life long acute photosensitivity due to \uparrow protoporphyrin-IX
   in the skin
-
 - onset birth \to age 6, median = 1 year
 - both sexes
 - onset after 40 very rare
   - most cases associated with myelodysplasia, caused by aquired
     somatic mutation of FECH.
 - absence of fragile skin, subepidermal bullae, and hypertrichosis
-  distinguishes it from all other cutaneous porphyrias.
-
+  distinguishes it from all other cutaneous porphyrias
 - most severe complication is progressive hepatic failure
 - cholelithiasis - gallstones promoted by \uparrow protoporphyri in bile
 - mild microcytic anemia
 
 *** Metabolic Derangement
 - FECH: ferrochelatase
-- threshold FECH activity = 35% \to \uparrow protoporphyrin.
+- threshold FECH activity = 35% \to \uparrow protoporphyrin
   - inserts ferrous iron into protoporphyrin to form heme
   - aka: heme synthase
   - in iron deficient states forms \to zinc protoporphyrin

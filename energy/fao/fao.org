@@ -17,9 +17,9 @@
 #+END_EXPORT
 
 - non-systematic historical names most commonly used
-  - Palmitic acid :: C16:0 discovered in palm oil
-  - Stearic acid :: C18:0 from the Greek word "stear", which means tallow
-  - Oleic acid :: C18:1 oleic means related to, or derived from, olive oil  
+  - palmitic acid :: C16:0 discovered in palm oil
+  - stearic acid :: C18:0 from the Greek word "stear", which means tallow
+  - oleic acid :: C18:1 oleic means derived from olive oil  
 - position of a double bond is designated by the number of the carbon in the double bond that is closest to the carboxyl group
 
 #+BEGIN_EXPORT LaTeX
@@ -48,7 +48,7 @@
        in the cytoplasm
      - need to be transferred to carnitine to cross the inner
        mitochondrial membrane
-     - they are transferred back to CoA within the mitochondria
+     - transferred back to CoA within the mitochondria
      - CPT I is the main site for the regulation of fatty acid
        oxidation by cytoplasmic malonyl-CoA
      - medium and short-chain fatty acids enter mitochondria
@@ -127,26 +127,25 @@
  #+NAME: tab:other
  | Enzyme                            | Length | comment                               |
  |-----------------------------------+--------+---------------------------------------|
- | Trifunctional protein             |  12-16 | \uparrow activity w \uparrow length   |
- | Hydroxyacyl-CoA dehydrogenase, SC |   4-16 | \downarrow activity w \uparrow length |
- | Enoyl-CoA hydratase,SC            |     >4 | \downarrow activity w \uparrow length |
- | Acetoacetyl-CoA thiolase          |      4 | Acetoacetyl-CoA specific              |
+ | trifunctional protein             |  12-16 | \uparrow activity w \uparrow length   |
+ | hydroxyacyl-CoA dehydrogenase, SC |   4-16 | \downarrow activity w \uparrow length |
+ | enoyl-CoA hydratase,SC            |     >4 | \downarrow activity w \uparrow length |
+ | acetoacetyl-CoA thiolase          |      4 | acetoacetyl-CoA specific              |
 
 
-*** \beta-oxidation
 ** Common manifestations in FAODs
  - fasting hypoglycaemia is the classic metabolic disturbance in FAODs
    - primarily due to increased peripheral glucose consumption
    - hepatic glucose output is also reduced under some conditions
- - the hypoglycaemia is hypoketotic
+ - hypoglycaemia is hypoketotic
    - ketone bodies can be synthesised
      - medium-or short-chain FAODs or if there is high residual enzyme activity
      - plasma concentrations are lower than expected for hypoglycaemia or the plasma free fatty acid concentrations
  - hyperammonaemia occurs in some severe defects
    - with normal or low glutamine concentrations
-   - decreased acetyl-CoA production reducing the synthesis of N-acetylglutamate
+   - decreased acetyl-CoA production reducing the synthesis of N-acetylglutamate (NAG)
  - lactic acidaemia is seen in long-chain FAODs (LCHAD and MTP deficiencies)
-   - inhibitory effects of metabolites on pyruvate metabolism
+   - inhibitory effects of metabolites on PDH
  - moderate hyperuricaemia - frequent finding during acute attacks
  - secondary hyperprolinaemia occurs in some babies with MAD deficiency
  - accumulating long-chain acylcarnitines may be responsible for
@@ -163,9 +162,9 @@
 * Carnitine Cycle Defects
 - carnitine-mediated transport of fatty acids is rate-limiting in the
   oxidation of fats
-- a defect anywhere in the pathway would be expected to lead to
-  inadequate formation of ketone bodies in response to fasting along
-  with inadequate gluconeogenesis and hypoglycemia.
+- defect anywhere in the pathway leads to inadequate formation of
+  ketone bodies in response to fasting along with inadequate
+  gluconeogenesis and hypoglycemia.
 ** Carnitine Transporter Deficiency
 - AKA: primary carnitine deficiency, carnitine uptake deficiency
 *** Clinical Presentation
@@ -182,10 +181,6 @@
 *** Metabolic Derangement
 - organic cation/carnitine transporter(OCTN2) responsible for
   carnitine uptake (Figure [[fig:trans]])
-  - analysis of carnitine transport in different tissues suggests the
-    presence of heterogeneous transporters
-  - liver and brain have a low-affinity (K_M=2-10 uM), high-capacity transporter
-  - fibroblast, muscle, and heart cells have a high-affinity (K_M=5-10 uM), low-capacity system
 - defects \to primary carnitine deficiency with \uparrow renal loss of carnitine
   - \downarrow plasma concentrations
   - \downarrow intracellular concentrations \to impair fatty acid
@@ -199,7 +194,7 @@
 *** Genetics
 - AR, OCTN2
 *** Diagnostic Tests
-- \Downarrow plasma total carnitine, \lt 5% of normal
+- \Downarrow plasma total carnitine \lt 5% of normal
 - \uparrow urine free carnitine
 *** Treatment 
 - carnitine supplementation
@@ -210,10 +205,10 @@
 - accompanied by hepatomegaly, liver dysfunction and occasionally cholestasis
   - may also be transient lipaemia and renal tubular acidosis
 *** Metabolic Derangement
-- CPT1 is responsible for the formation of acyl carnitines
+- CPT1 is responsible for the formation of acylcarnitines
   - catalyzes transfer of the acyl group of a long-chain fatty
-    acyl-CoA from coenzyme A to l-carnitine
-  - allows for subsequent movement of the acyl carnitine from the
+    acyl-CoA from coenzyme A to L-carnitine
+  - allows for subsequent movement of the acylcarnitine from the
     cytosol into the intermembrane space of mitochondria
 - *CPTIa* liver and kidney
 - *CPTIb*  muscle and heart
@@ -221,9 +216,6 @@
 - only CPTIa deficiency has been identified
 - medium chain and short chain fatty acids pass directly into
   mitochondria and do not require esterification with carnitine
-- CPT II is situated on the inner mitochondrial membrane, catalyzes
-  the regeneration of carnitine and the long chain fatty acyl CoAs,
-  which then undergo \beta-oxidation
 
 #+CAPTION[]:CPT1
 #+NAME: fig:cpt1
@@ -233,7 +225,7 @@
 *** Genetics
 - AR, CPT1A
 - CPTI deficiency is extremely common in the Inuit population of Canada and Greenland
-  - c.1436C>T, P479L 
+  - P479L 
 - a few of these patients present with hypoglycaemia as neonates or young children
   - most remain asymptomatic
 *** Diagnostic Tests
@@ -244,7 +236,8 @@
 - prevent hypoglycaemia
 - low-fat diet
 - medium-chain triglycerides to provide \sim 1/3 total calories
-  - C6-C10 fatty acids do not require the carnitine shuttle for entry into the mitochondrion
+  - C6-C10 fatty acids do not require the carnitine shuttle for entry
+    into mitochondria
 ** Carnitine Acylcarnitine Translocase Deficiency
 *** Clinical Presentation
 - rare disorder usually presents in the neonatal period, with
@@ -293,9 +286,9 @@
    - hypoglycaemia and hyperammonaemia
    - may have cardiomyopathy, arrhythmias and congenital malformations,
      principally renal cysts and neuronal migration defects
- - also an intermediate form of CPT II deficiency that causes
-   episodes of hypoglycaemia and liver dysfunction, sometimes
-   accompanied by cardiomyopathy and arrhythmias
+ -  an intermediate form of CPT II deficiency causes episodes of
+   hypoglycaemia and liver dysfunction, sometimes accompanied by
+   cardiomyopathy and arrhythmias
 
 **** Childhood
  - episodes may be brought on by infections or exercise
@@ -319,7 +312,8 @@
 *** Diagnostic Tests
 - \downarrow total carnitine
 - \uparrow (C16 + C18)/C2
-
+- \uparrow CK
+- \uparrow urine myoglobin
 *** Treatment
 - high-carbohydrate (70%) and low-fat (<20%) diet to provide fuel for glycolysis
 - carnitine to convert potentially toxic long-chain acyl-CoAs to
@@ -340,7 +334,7 @@
 - VLCAD is one of four mitochondrial acyl CoA dehydrogenases that
   catalyze the initial steps in the \beta-oxidation of fatty acids
   (Table [[tab:deh]])
-- optimal substrate is c16, palmitoy-CoA
+- optimal substrate is C16-CoA (palmitoy-CoA)
 - ACAD9 is responsible for production of C14:1-carnitine and
   C12-carnitine in VLCAD deficiency
 #+CAPTION[]:VLCAD reaction 
@@ -372,9 +366,8 @@
   - can present at any age from infancy to adulthood
 - mothers who are heterozygous for LCHAD or MTP deficiency have a high
   risk of illness during pregnancies when carrying an affected fetus
-  - main problems are HELLP syndrome (Haemolysis, Elevated Liver
-    enzymes and Low Platelets) and acute fatty liver of pregnancy
-    (AFLP)
+  - HELLP syndrome (Haemolysis, Elevated Liver enzymes and Low Platelets)
+  - acute fatty liver of pregnancy (AFLP)
 *** Metabolic Derangement
 - MTP a hetero-octamer composed of four \alpha-subunits and four
   \beta-subunits
@@ -397,12 +390,12 @@
 - isolated LCHAD deficiency usually presents acutely before 6 months of age
   - hypoglycaemia, liver dysfunction, lactic acidosis
   - many have cardiomyopathy, some have hypoparathyroidism or ARDS
-- other patients present with chronic symptoms
+- others present with chronic symptoms
   - failure to thrive, hypotonia, occasionally cholestasis or cirrhosis
-- subsequently, episodes of rhabdomyolysis are common
-- many patients develop retinopathy, may start as early as 2 years of age
+- subsequent episodes of rhabdomyolysis are common
+- many develop retinopathy, may start as early as 2 years of age
 - granular pigmentation followed by chorioretinal atrophy w deteriorating central vision
-- some patients develop cataracts
+- some develop cataracts
 *** Metabolic Derangement
 - LCHAD is a component of MTP
 - bound to the inner mitochondrial membrane
@@ -418,8 +411,9 @@
 - AR, HADHA
 
 *** Diagnostic Tests
-- \uparrow lactate, 3-OH-palmitoyl-CoA inhibits PDH
-- \uparrow C14OH, C16OH, C18OH, C18:1OH
+- \uparrow lactate, \because 3-OH-palmitoyl-CoA inhibits PDH
+- \uparrow hydroxy-acylcarnitines
+  - \uparrow C14OH, C16OH, C18OH, C18:1OH
 - \uparrow UOA C6-C14 (hydroxy-)dicarboxylic acids
 
 *** Treatment
@@ -437,7 +431,7 @@
 ** Medium-Chain Acyl-CoA Dehydrogenase Deficiency
 *** Clinical Presentation
 - most common FAOD with an incidence of approximately 1:10,000-20,000
-  in Europe,USA and Australia
+  in Europe, USA and Australia
 - before NBS, presented 4 months to 4 years
   - acute hypoglycaemic encephalopathy and liver dysfunction, not always
   - some deteriorated rapidly and died
@@ -462,13 +456,7 @@
 - MCAD is one of four mitochondrial acyl CoA dehydrogenases that
   catalyze the initial steps in the \beta-oxidation of fatty acids
   (Table [[tab:deh]])
-- MCAD accepts fatty acyl CoAs in which the acid chain length is 6-12
-  carbons in length
-
-#+CAPTION[]:Acyl-CoA Dehydrogenase Reaction
-#+NAME: fig:acad
-#+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./fao/figures/acad.png]]
+- MCAD accepts fatty-acyl-CoAs 6-12 carbons in length
 
 *** Genetics
 - AR, ACADM 
@@ -487,10 +475,10 @@
   - previous association with symptoms due to ascertainment bias
 
 ** 3-Hydroxyacyl-CoA Dehydrogenase Deficiency
-- HADH, previously called SCHAD deficiency, causes hyperinsulinaemic
+- HADH previously called SCHAD deficiency, causes hyperinsulinaemic
   hypoglycaemia
 - role in modulation of ATP production inhibition of GDH
-- see section Congenital Hyperinsulinema
+- see Congenital Hyperinsulinema
 * Electron Transfer Defects 
 ** Multiple Acyl-CoA Dehydrogenase Deficiency 
 - AKA: Glutaric Aciduria Type II
@@ -499,15 +487,15 @@
 - severely affected patients present in the first few days of life
  - hypoglycaemia, hyperammonaemia and acidosis
  - hypotonia and hepatomegaly
-- there is usually an odour of sweaty feet similar to that in IVA
+- usually an odour of sweaty feet similar to that in IVA
 - some patients have congenital anomalies
  - large cystic kidneys, hypospadias and neuronal migration defects and facial dysmorphism
    - low set ears, high forehead and midfacial hypoplasia
-- the malformations resemble those seen in CPTII deficiency but the pathogenesis is unknown
+- malformations resemble those seen in CPTII deficiency but the pathogenesis is unknown
 - most patients with neonatal presentation die within a week of birth
 - others develop cardiomyopathy and die within a few months
 - less severe cases can present at any age from infancy to adulthood
- - with hypoglycaemia, liver dysfunction and weakness
+ - hypoglycaemia, liver dysfunction and weakness
  - usually precipitated by an infection
 - cardiomyopathy is common in infants
 - mildly affected children may have recurrent bouts of vomiting
@@ -518,10 +506,15 @@
 
 *** Metabolic Derangement
 - Electron Transfer Flavoprotein (ETF) and ETF Ubiquinone
-  Oxidoreductase (ETFQO) carry electrons to the respiratory chain from
+  Oxidoreductase (ETF-QO) carry electrons to the respiratory chain from
   multiple FAD-linked dehydrogenases
-- includes enzymes of amino acid, choline metabolism and acyl-CoA
-  dehydrogenases of \beta-oxidation
+- includes enzymes of amino acid, choline, \beta-oxidation, and ETC
+  - isovaleryl-CoA dehydrogenase :: C5-carnitine, 3-hydroxyisovaleric acid 
+  - acyl-CoA dehydrogenases :: C4-C18
+  - CII :: succinate
+  - isobutyryl-CoA dehydrogenase :: C4-carnitine, isobutyrylglycine
+  - glutaryl-CoA dehydrogenase :: C5DC-carnitine, 3-OH-glutaric acid
+
 - GAII less often, a result of defects of riboflavin transport or
   metabolism
 
