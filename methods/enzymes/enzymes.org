@@ -7,8 +7,11 @@
 
 #+BEGIN_EXPORT LaTeX
   \ce{Gal-1-P + UDP-Glu ->[GALT] Glu-1-P + UDP-Gal}
+
   \ce{Glu-1-P ->[PGM] Glu-6-P}
+
   \ce{Glu-6-P + NADP+ ->[G6PD] 6-glucuranate + NADPH}
+
   \ce{6-glucuranate + NADP+ ->[6PGDH] ribulose-5-P + NADPH}
 #+END_EXPORT
 
@@ -17,7 +20,7 @@
 #+CAPTION[]:Beutler Method
 #+NAME: fig:bm
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./figures/beutler.jpg]]
+[[file:./enzymes/figures/beutler.jpg]]
 
 
 ** Spotcheck
