@@ -3,7 +3,7 @@
 #+DATE: \today
 
 * Introduction
-- VLDL are large particles produced in the liver.
+- VLDL are large particles produced in the liver
   - transport endogenously synthesized TG and cholesterol to the peripheral tissue
 - IDL are created with the metabolism of VLDL by lipoprotein lipase
   - may be removed by the liver or converted LDL by hepatic triglyceride lipase

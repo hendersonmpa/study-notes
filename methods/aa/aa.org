@@ -223,7 +223,7 @@
 | 25.0 | 0.65 | 99.8 |  0.5 |
 
 ** LC-MS/MS sample prep
-- 10 \micro{}L of sample is mixed with 990 \micro{}L of IS in 0.5 mM Perfluoroheptanoic acid and centrifuge to deproteinize.
+- 10 \micro{}L of sample is mixed with 990 \micro{}L of IS in 0.5 mM perfluoroheptanoic acid and centrifuge to deproteinize.
 - 200 \micro{}L of supernatant is removed
 - 7.5 \micro{}L is injected onto an octadecylsilyl (C18) stationary phase.
 
