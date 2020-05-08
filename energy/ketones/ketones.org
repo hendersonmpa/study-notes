@@ -146,6 +146,7 @@
 - ketone body utilisation is catalysed by:
   1. succinyl-CoA:3-oxoacid CoA transferase (SCOT)
   2. mitochondrial acetoacetyl-CoA thiolase (T2)
+     - AKA \beta-ketothiolase
 - SCOT, T2 or MCT1 deficiencies present with episodes of ketoacidosis
 
 ** Clinical Presentation
@@ -202,6 +203,7 @@
 - patients with severe SCOT deficiency have persistent ketonuria in
   the fed state, but patients with a mild mutation do not
 - diagnoses are now usually made by mutation analysis
+
 *** T2 Deficiency
 - urine OA
   - \uparrow 2-methylacetoacetate
@@ -213,8 +215,8 @@
 - 2-Methyl-3-hydroxybutyryl-CoA dehydrogenase deficiency causes a
   similar pattern of organic acids but 2-methyacetoacetate is not excreted
 - plasma acylcarnitines
-  - \uparrow 2-methyl-3-hydroxybutyrylcarnitine
-  - \uparrow tiglylcarnitine 
+  - \uparrow 2-methyl-3-hydroxybutyrylcarnitine (C5OH)
+  - \uparrow tiglylcarnitine (C5:1) 
   - may be normal with mild mutations
 - diagnosis must be confirmed by mutation analysis or enzyme assay in fibroblasts
   - assays are complicated by the presence of other thiolases that act

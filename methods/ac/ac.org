@@ -30,6 +30,45 @@
 
 * Diagnostic FIA-MS/MS
 - see [[AAAC]]
+
+** Typical Panel
+- acetylcarnitine (C2)
+- propionylcarnitine (C3)
+- butyryl-/isobutyrylcarnitine (C4)
+- tiglylcarnitine (C5:1)
+- isovaleryl-/2-methylbutyryl-/pivalylcarnitine (C5)
+- hexanoylcarnitine (C6)
+- 3-hydroxyisovaleryl-/2-methyl-3-hydroxybutyrylcarnitine (C5-OH)
+- octenoylcarnitine (C8:1)
+- octanoylcarnitine (C8)
+- malonylcarnitine (C3-DC)
+- decadienoylcarnitine (C10:2)
+- decenoylcarnitine (C10:1)
+- decanoylcarnitine (C10)
+- methylmalonyl-/succinylcarnitine (C4-DC)
+- glutarylcarnitine (C5-DC)
+- dodecenoylcarnitine (C12:1)
+- dodecanoylcarnitine (C12)
+- adipyl-/methylglutarylcarnitine (C6-DC)
+- tetradecadienoylcarnitine (C14:2)
+- tetradecenoylcarnitine (C14:1)
+- myristoylcarnitine (C14)
+- suberylcarnitine (C8-DC)
+- 3-hydroxymyristoylcarnitine (C14-OH)
+- palmitoleylcarnitine (C16:1)
+- palmitoylcarnitine (C16)
+- sebacylcarnitine (C10-DC)
+- 3-hydroxypalmitoleylcarnitine (C16:1-OH)
+- 3-hydroxypalmitoylcarnitine (C16)
+- linoleylcarnitine (C18:2)
+- oleylcarnitine (C18:1)
+- stearoylcarnitine (C18)
+- 3-hydroxylinoleylcarnitine (C18:2-OH)
+- 3-hydroxyoleylcarnitine (C18:1-OH)
+- 3-hydroxystearoylcarnitine (C18-OH)
+- hexadecanedioylcarnitine (C16-DC).
+
+
 * TODO Free and Total Carnitine
 - Method?
 ** Fractional Tubular Re-absorption of Carnitine
