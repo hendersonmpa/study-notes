@@ -41,7 +41,7 @@
 - angiokeratomas (Figure [[fig:skin]])
   - prominent on hip, buttocks and scrotum
 
-#+CAPTION[]:Signs and Symptoms
+#+CAPTION[]:Fabry Signs and Symptoms
 #+NAME: tab:fabss
 | Age         | Signs                                           |
 |-------------+-------------------------------------------------|

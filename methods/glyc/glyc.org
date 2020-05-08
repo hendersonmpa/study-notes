@@ -7,8 +7,8 @@
   - can detect nearly all known CDG-I types as well as most CDG-II types and many CDG-X cases
   - N-glycosylation disorders associated with sialic acid deficiency
 - normal serum transferrin is mainly composed of:
-  - tetrasialotransferrin and small amounts of mono-, di-, tri-,
-    penta- and hex-asialotransferrins
+  - tetrasialotransferrin and small amounts of mono, di, tri, penta
+    and hex-asialotransferrins
 - partial deficiency of sialic acid (-ve charge) causes a
   cathodal shift
 - two main types of cathodal shift can be recognized:
@@ -17,7 +17,7 @@
 #+CAPTION[]:Transferrin IEF
 #+NAME: fig:tief
 #+ATTR_LaTeX: :width 1\textwidth
-[[file:./glyc/figures/transferrin_ief.png]]
+[[file:./glyc/figures/trans1or2.png]]
 
 ** Type 1 pattern
  - \uparrow disialo- and asialotransferrin

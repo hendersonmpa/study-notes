@@ -75,8 +75,8 @@
   mild phenotype - no dysmorphic features, slight intellectual disability 
 
 ** Metabolic Derangement
-- deficiency of PMM2, principal isozyme of PMM
-- phosphomannomutase 2 catalyses the second committed step in the synthesis of GDP-mannose
+- deficiency of phosphomannomutase 2, principal isozyme of PMM
+- PMM2 catalyses the second committed step in the synthesis of GDP-mannose
   - man-6-P \ce{<=>} man-1-P
   - occurs in the cytosol
 - GDP-mannose is used in the ER to assemble the dolichol-pyrophosphate

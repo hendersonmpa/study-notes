@@ -274,7 +274,7 @@
 
 *** Metabolic Derangement
 - hypoxanthine-guanine phosphoribosyltransferase deficiency
-\ce{hypoxanthine + quanine + PRPP->[HPRT] IMP + GMP}
+\ce{hypoxanthine + quanine + PRPP ->[HPRT] IMP + GMP}
 - transfers the 5-phosphoribosyl group from 5-phosphoribosyl
   1-pyrophosphate (PRPP) to the purine
 - HGPRT plays a central role in the generation of purine nucleotides

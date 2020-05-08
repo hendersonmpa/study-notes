@@ -38,6 +38,26 @@
 - 50% due to /de novo/ NF2 pathogenic variant
 - mosaic also possible
 * TODO Smith-Lemli-Opitz syndrome
+** Clinical Characteristics
+- a congenital multiple-anomaly/cognitive impairment syndrome caused
+  by an abnormality in cholesterol metabolism resulting from
+  deficiency of the enzyme 7-dehydrocholesterol (7-DHC) reductase
+- characterized by prenatal and postnatal growth restriction,
+  microcephaly, moderate-to-severe intellectual disability, and
+  multiple major and minor malformations
+- distinctive facial features, cleft palate, cardiac defects,
+  underdeveloped external genitalia in males, postaxial polydactyly,
+  and 2-3 syndactyly of the toes
+- wide clinical spectrum
+** Diagnostic Testing
+- suggestive clinical features
+- elevated 7-dehydrocholesterol level
+- identification of biallelic pathogenic variants in DHCR7
+- serum concentration of cholesterol is usually low
+  - it may be in the normal range in approximately 10% of affected
+    individuals \therefore unreliable for screening and diagnosis
+** Genetic Counseling
+- AR, DHCR7
 * TODO Noonan syndrome
 * TODO Charge syndrome
 * TODO FGFR-related disorders (Craniosynostosis...)
