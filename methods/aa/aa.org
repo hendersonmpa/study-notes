@@ -136,7 +136,7 @@
 \begin{center}
 \begin{tikzpicture}[node distance=9em]
 % nodes
-\node(column)[msw, right of=extraction]{Chromatography};
+\node(column)[msw]{Chromatography};
 \node(derivatization)[msw, right of=column]{Ninhyrin Derivatization};
 \node(detector)[ms, right of=derivatization]{UV Detector};
 % arrows
@@ -146,24 +146,22 @@
 
 \vspace{2em}
 
-\schemedebug{false}
 \schemestart
-\chemfig[][scale=.33]{*6(=*5(-(=O)-(-[6]OH)(-[8]OH)-(=O)-)-=-=-)}
+\chemfig{*6(=*5(-(=O)-(-[6]OH)(-[8]OH)-(=O)-)-=-=-)}
 \+
-\chemfig[][scale=.5]{{\color{red}R}-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]OH}
+\chemfig{{\color{red}R}-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]OH}
 \arrow{-U>[][{\tiny \ce{2H2O}}]}
-\chemfig[][scale=.33]{*6(=*5(-(=O)-(=N-[::-60](-[::-60]{\color{red}R})-[::60](=[::60]O)-[::-60]OH)-(=O)-)-=-=-)}
+\chemfig{*6(=*5(-(=O)-(=N-[::-60](-[::-60]{\color{red}R})-[::60](=[::60]O)-[::-60]OH)-(=O)-)-=-=-)}
 \arrow{->[][]}
-\chemfig[][scale=.33]{*6(=*5(-(=O)-(-N=*5(-(=O)-(*6(-=-=-))--(=O)-))-(=O)-)-=-=-)}
+\chemfig{*6(=*5(-(=O)-(-N=*5(-(=O)-(*6(-=-=-))--(=O)-))-(=O)-)-=-=-)}
 \schemestop
 
-\schemedebug{false}
 \schemestart
-\chemfig[][scale=.33]{*6(=*5(-(=O)-(-[6]OH)(-[8]OH)-(=O)-)-=-=-)}
+\chemfig{*6(=*5(-(=O)-(-[6]OH)(-[8]OH)-(=O)-)-=-=-)}
 \+
-\chemfig[][scale=.33]{H-*5(N----(-COOH)-)}
+\chemfig{H-*5(N----(-COOH)-)}
 \arrow{->[][]}
-\chemfig[][scale=.33]{*6(=*5(-(=O)-(-*5(N-----))-(=O)-)-=-=-)}
+\chemfig{*6(=*5(-(=O)-(-*5(N-----))-(=O)-)-=-=-)}
 \schemestop
 \end{center}
 #+END_EXPORT
@@ -248,7 +246,7 @@ plot data u 1:3 w lp lw 2 title 'A', \
 
 ** Ion-Pairing Chromatography
 #+BEGIN_EXPORT LaTeX
-\chemfig[][scale=.70]{CF_3-{(CF_2)_4}-CF_2-[::30](=[::60]O)-[::-60]OH}
+\chemfig{CF_3-{(CF_2)_4}-CF_2-[::30](=[::60]O)-[::-60]OH}
 \vspace{3em}
 \ce{AA+ + PFHA-  <=> AA+ PFHA-}
 #+END_EXPORT
@@ -259,21 +257,21 @@ plot data u 1:3 w lp lw 2 title 'A', \
 
 #+CAPTION[]: AA Quantified by LC-MS/MS
 #+NAME: tab:aalcms
-| phosphoserine       | alanine             | phenylalanine         |
-| taurine             | citulline           | aminoisobutyric       |
+| phosphoserine        | alanine             | phenylalanine         |
+| taurine              | citulline           | aminoisobutyric       |
 | pphosphoethanolamine | 2-aminobutyric      | \gamma{}-aminobutryic |
-| aspartate           | valine              | ethanolamine          |
-| hydroxyproline      | cystine             | hydroxylysine         |
-| threonine           | saccharopine        | ornithine             |
-| serine              | methionine          | lysine                |
-| asparagine          | alloisoleucine      | 1-methylhistidine     |
-| glutamate           | cystathionine       | histidine             |
-| glutamine           | isoleucine          | tryptophan            |
-| sarcosine           | leucine             | 3-methylhistidine     |
-| aminoadipic         | arginosuccinic acid | anserine              |
-| proline             | tyrosine            | carnosine             |
-| glycine             | \beta{}-alanine     | arginine              |
-|                     |                     | s-sulfocyteine*       |
+| aspartate            | valine              | ethanolamine          |
+| hydroxyproline       | cystine             | hydroxylysine         |
+| threonine            | saccharopine        | ornithine             |
+| serine               | methionine          | lysine                |
+| asparagine           | alloisoleucine      | 1-methylhistidine     |
+| glutamate            | cystathionine       | histidine             |
+| glutamine            | isoleucine          | tryptophan            |
+| sarcosine            | leucine             | 3-methylhistidine     |
+| aminoadipic          | arginosuccinic acid | anserine              |
+| proline              | tyrosine            | carnosine             |
+| glycine              | \beta{}-alanine     | arginine              |
+|                      |                     | s-sulfocyteine*       |
 
 ** Pros and Cons of LC-MS/MS vs FIA-MS/MS 
 *** Pros

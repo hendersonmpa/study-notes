@@ -61,13 +61,12 @@
 
 #+BEGIN_EXPORT LaTeX
 \centering
-\schemedebug{false}
 \schemestart
-\chemname{\chemfig[][scale=.33]{{\color{red}R}-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]OH}}{\tiny \textalpha{}-amino acid}
+\chemname{\chemfig{{\color{red}R}-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]OH}}{\tiny \textalpha{}-amino acid}
 \+
-\chemname{\chemfig[][scale=.33]{HO-[::30]-[::-60]-[::60]-[::-60]}}{\tiny n-butanol}
+\chemname{\chemfig{HO-[::30]-[::-60]-[::60]-[::-60]}}{\tiny n-butanol}
 \arrow{-U>[][{\tiny \ce{H2O}}]}
-\chemname{\chemfig[][scale=.33]{{\color{red}R}-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\tiny AA butyl ester}
+\chemname{\chemfig{{\color{red}R}-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\tiny AA butyl ester}
 \schemestop
 #+END_EXPORT
 
@@ -77,22 +76,20 @@
 \definesubmol{d}{!y!y-[7,.6]{\color{red}COOH}}
 \definesubmol{e}{!y!y}
 \centering
-\schemedebug{false}
 \schemestart
-\chemname{\chemfig[][scale=.33]{-N^{+}([2]-)([6]-)-[1]-[7]([6]-O-([5]=O)!e)-[1]-[7]([7]=O)([1]-O^{-})}}{\tiny C5-carnitine}
+\chemname{\chemfig{-N^{+}([2]-)([6]-)-[1]-[7]([6]-O-([5]=O)!e)-[1]-[7]([7]=O)([1]-O^{-})}}{\tiny C5-carnitine}
 \+
-\chemname{\chemfig[][scale=.33]{HO!x!x}}{\tiny n-butanol}
+\chemname{\chemfig{HO!x!x}}{\tiny n-butanol}
 \arrow{-U>[][{\tiny \ce{H2O}}]}
-\chemname{\chemfig[][scale=.33]{-N^{+}([2]-)([6]-)-[1]-[7]([6]-O-([5]=O)!e)-[1]-[7]([6]=O)-[1,.6]O!y!y}}{\tiny C5-carnitine, butyl ester}
+\chemname{\chemfig{-N^{+}([2]-)([6]-)-[1]-[7]([6]-O-([5]=O)!e)-[1]-[7]([6]=O)-[1,.6]O!y!y}}{\tiny C5-carnitine, butyl ester}
 \schemestop
 \vspace{2em}
-\schemedebug{false}
 \schemestart
-\chemname{\chemfig[][scale=.33]{-N^{+}([2]-)([6]-)-[1]-[7]([6]-O-([5]=O)!d)-[1]-[7]([7]=O)([1]-O^{-})}}{\tiny C6DC-carnitine}
+\chemname{\chemfig{-N^{+}([2]-)([6]-)-[1]-[7]([6]-O-([5]=O)!d)-[1]-[7]([7]=O)([1]-O^{-})}}{\tiny C6DC-carnitine}
 \+
-\chemname{\chemfig[][scale=.33]{HO!x!x}}{\tiny n-butanol}
+\chemname{\chemfig{HO!x!x}}{\tiny n-butanol}
 \arrow{-U>[][{\tiny \ce{2H2O}}]}
-\chemname{\chemfig[][scale=.33]{-N^{+}([2]-)([6]-)-[1]-[7]([6]-O-([5]=O)!e-[7,.6]O!x!x)-[1]-[7]([6]=O)-[1,.6]O!y!y}}{\tiny C6DC-carnitine, butyl ester}
+\chemname{\chemfig{-N^{+}([2]-)([6]-)-[1]-[7]([6]-O-([5]=O)!e-[7,.6]O!x!x)-[1]-[7]([6]=O)-[1,.6]O!y!y}}{\tiny C6DC-carnitine, butyl ester}
 \schemestop 
 #+END_EXPORT
 
@@ -126,13 +123,12 @@ plot data u 1:2 w lp lw 2 t "80% ACN"
 
 #+BEGIN_EXPORT LaTeX
 \centering
-\schemedebug{false}
 \schemestart
-\chemname{\chemfig[][scale=.33]{{\color{red}R}-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\tiny AA butyl ester}
+\chemname{\chemfig{{\color{red}R}-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\tiny AA butyl ester}
 \arrow{->[{\tiny fragmentation}]}
-\chemname{\chemfig[][scale=.33]{{\color{red}R}-[::60]=NH_2^{+}}}{\tiny fragment}
+\chemname{\chemfig{{\color{red}R}-[::60]=NH_2^{+}}}{\tiny fragment}
 \+
-\chemname{\chemfig[][scale=.33]{H-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\tiny butyl formate (102 Da)}
+\chemname{\chemfig{H-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\tiny butyl formate (102 Da)}
 \schemestop
 #+END_EXPORT
 ** AA MRM
@@ -142,25 +138,23 @@ plot data u 1:2 w lp lw 2 t "80% ACN"
 
 #+BEGIN_EXPORT LaTeX
 \centering
-\schemedebug{false}
 \schemestart
-\chemname{\chemfig[][scale=.33]{H_2N-[::30,,2,](=[::60]O)-[::-60]NH-[::60]-[::-60]-[::60]-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]OH}}{\tiny citrulline 175 Da}
+\chemname{\chemfig{H_2N-[::30,,2,](=[::60]O)-[::-60]NH-[::60]-[::-60]-[::60]-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]OH}}{\tiny citrulline 175 Da}
 \+
-\chemname{\chemfig[][scale=.33]{HO-[::30]-[::-60]-[::60]-[::-60]}}{\tiny n-butanol 74 Da}
+\chemname{\chemfig{HO-[::30]-[::-60]-[::60]-[::-60]}}{\tiny n-butanol 74 Da}
 \arrow{-U>[][{\tiny \ce{H2O}}]}
-\chemname{\chemfig[][scale=.33]{H_2N-[::30,,2,](=[::60]O)-[::-60]NH-[::60]-[::-60]-[::60]-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\tiny 232 Da}
+\chemname{\chemfig{H_2N-[::30,,2,](=[::60]O)-[::-60]NH-[::60]-[::-60]-[::60]-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\tiny 232 Da}
 \schemestop
 #+END_EXPORT
 
 #+BEGIN_EXPORT LaTeX
 \centering
-\schemedebug{false}
 \schemestart
-\chemname{\chemfig[][scale=.33]{H_2N-[::60]-[::-60]-[::60]-[::-60]-[::60]N=O=C}}{\tiny 113 Da}
+\chemname{\chemfig{H_2N-[::60]-[::-60]-[::60]-[::-60]-[::60]N=O=C}}{\tiny 113 Da}
 \+
-\chemname{\chemfig[][scale=.33]{H-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\tiny 102 Da}
+\chemname{\chemfig{H-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\tiny 102 Da}
 \+
-\chemname{\chemfig[][scale=.43]{NH_3}}{\tiny 17 Da}
+\chemname{\chemfig{NH_3}}{\tiny 17 Da}
 \schemestop
 #+END_EXPORT
 
@@ -181,17 +175,17 @@ plot data u 1:2 w lp lw 2 t "80% ACN"
 #+BEGIN_EXPORT LaTeX
 \definesubmol{x}{-[1,.6]-[7,.6]}
 \centering
- \chemname{\chemfig[][scale=.33]{H_{3}C-N^{+}([2]-CH_3)([6]-CH_{3})-CH_2-C([2]-H)([6]-O-C([0]=O)-{\color{red}R})-CH_2-C([2]=O)-O-CH_2-CH_2-CH_2-CH_3}}{\tiny acylcarnitine, butyl ester}
+ \chemname{\chemfig{H_{3}C-N^{+}([2]-CH_3)([6]-CH_{3})-CH_2-C([2]-H)([6]-O-C([0]=O)-{\color{red}R})-CH_2-C([2]=O)-O-CH_2-CH_2-CH_2-CH_3}}{\tiny acylcarnitine, butyl ester}
 
 \vspace{2.5em}
 
- \chemname{\chemfig[][scale=.33]{H_{3}C-N([1]-CH_3)([7]-CH_3)}}{\tiny trimethylamine}
+ \chemname{\chemfig{H_{3}C-N([1]-CH_3)([7]-CH_3)}}{\tiny trimethylamine}
 \hspace{2em}
-\chemname{\chemfig[][scale=.33]{{\color{red}R}-C([1]=O)([7]-OH)}}{\tiny carboxylic acid}
+\chemname{\chemfig{{\color{red}R}-C([1]=O)([7]-OH)}}{\tiny carboxylic acid}
 \hspace{2em}
- \chemname{\chemfig[][scale=.33]{H!x!x}}{\tiny butyl group}
+ \chemname{\chemfig{H!x!x}}{\tiny butyl group}
 \hspace{2em}
- \chemname{\chemfig[][scale=.33]{H_{2}C^{+}-HC=CH-C([1]=O)([7]-OH)}}{\tiny 85 m/z}
+ \chemname{\chemfig{H_{2}C^{+}-HC=CH-C([1]=O)([7]-OH)}}{\tiny 85 m/z}
 #+END_EXPORT
 
 #+BEGIN_EXPORT LaTeX

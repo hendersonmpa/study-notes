@@ -115,15 +115,14 @@
   - avoids multiple TMS species due to keto-enol tautomerism
 
 #+BEGIN_EXPORT LaTeX
-\schemedebug{false}
 \schemestart
-\chemname{\chemfig[][scale=.5]{R=[1](-[2]OH)-[7]R}}{\tiny enol}
+\chemname{\chemfig{R=[1](-[2]OH)-[7]R}}{\tiny enol}
 \arrow{<=>}
-\chemname{\chemfig[][scale=.5]{R-[1](=[2]O)-[7]R}}{\tiny ketone}
+\chemname{\chemfig{R-[1](=[2]O)-[7]R}}{\tiny ketone}
 \+
-\chemname{\chemfig[][scale=.5]{N(<:[::-160]H)(<[::-120]H)-O-[1]H}}{\tiny hydroxylamine}
+\chemname{\chemfig{N(<:[::-160]H)(<[::-120]H)-O-[1]H}}{\tiny hydroxylamine}
 \arrow{->}
-\chemname{\chemfig[][scale=.5]{R-[1](=[2]N-[1]OH)-[7]R}}{\tiny ketoxime}
+\chemname{\chemfig{R-[1](=[2]N-[1]OH)-[7]R}}{\tiny ketoxime}
 \schemestop
 #+END_EXPORT
 ** BSTFA Derivatisation
@@ -132,15 +131,14 @@
   - forms organic acid TMS esters
 
 #+BEGIN_EXPORT LaTeX
-\schemedebug{false}
 \schemestart
-\chemname{\chemfig[][scale=.5]{F{_3}C-C(-[1]OTMS)=[7]NTMS}}{\tiny BSTFA}
+\chemname{\chemfig{F{_3}C-C(-[1]OTMS)=[7]NTMS}}{\tiny BSTFA}
 \+
-\chemname{\chemfig[][scale=.5]{R-C(=[1]O)-[7]OH}}{\tiny carboxylic acid}
+\chemname{\chemfig{R-C(=[1]O)-[7]OH}}{\tiny carboxylic acid}
 \arrow{->}
-\chemname{\chemfig[][scale=.5]{R-C(=[1]O)-[7]OTMS}}{\tiny TMS ester}
+\chemname{\chemfig{R-C(=[1]O)-[7]OTMS}}{\tiny TMS ester}
 \+
-\chemname{\chemfig[][scale=.5]{F{_3}C-C(=[1]O)-[7]NTMS}}{\tiny TMS amide}
+\chemname{\chemfig{F{_3}C-C(=[1]O)-[7]NTMS}}{\tiny TMS amide}
 \schemestop
 #+END_EXPORT
 
