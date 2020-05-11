@@ -1,0 +1,248 @@
+#+TITLE: AAAC
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+* Sample
+** Dried Blood Spot
+   - collected from free flowing blood spotted onto filter paper
+   - used for NBS and monitoring
+   - each DBS is assume to contain 3.2 \micro{}L of blood
+   - the quantity of blood present in the paper varies by
+     - hematocrit
+     - degree of saturation
+     - the cotton fiber paper
+     - the environment  when applying blood (humidity and temperature)
+   - because of these numerous factors, a dried blood spot is a highly
+     imprecise specimen compared with liquids such as urine, blood, and plasma
+
+** Sample Preparation
+- amino acids and acylcarnitines in the DBS eluate are esterified as butyl esters with butanol-hydrogen chloride
+- solvent delivery is via HPLC with no chromatography, called flow injection analysis
+- 10 \micro{}L of sample extract is injected into a flowing stream operating at ~ 0.15 ml/min
+
+- typical injection rates between samples are 2 min, giving a
+  potential 400-600 sample capacity per instrument per day
+  - volume is typically 200-400 specimens per instrument per day
+  - maintenance issues, repeat specimen analysis
+
+#+BEGIN_EXPORT LaTeX
+\chemnameinit{}
+\schemestart
+\chemname{\chemfig{{\color{red}R}-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]OH}}{\small \textalpha{}-amino acid}
+\+
+\chemname{\chemfig{HO-[::30]-[::-60]-[::60]-[::-60]}}{\small n-butanol}
+\arrow{-U>[][{\small \ce{H2O}}]}
+\chemname{\chemfig{{\color{red}R}-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\small AA butyl ester}
+\schemestop
+#+END_EXPORT
+
+#+BEGIN_EXPORT LaTeX
+\chemnameinit{}
+\definesubmol{x}{-[1,.6]-[7,.6]}
+\definesubmol{y}{-[7,.6]-[1,.6]}
+\definesubmol{d}{!y!y-[7,.6]{\color{red}COOH}}
+\definesubmol{e}{!y!y}
+\schemestart
+\chemname{\chemfig{-N^{+}([2]-)([6]-)-[1]-[7]([6]-O-([5]=O)!e)-[1]-[7]([7]=O)([1]-O^{-})}}{\small C5-carnitine}
+\+
+\chemname{\chemfig{HO!x!x}}{\small n-butanol}
+\arrow{-U>[][{\small \ce{H2O}}]}
+\chemname{\chemfig{-N^{+}([2]-)([6]-)-[1]-[7]([6]-O-([5]=O)!e)-[1]-[7]([6]=O)-[1,.6]O!y!y}}{\small C5-carnitine, butyl ester}
+\schemestop
+
+\vspace{2em}
+
+\schemestart
+\chemname{\chemfig{-N^{+}([2]-)([6]-)-[1]-[7]([6]-O-([5]=O)!d)-[1]-[7]([7]=O)([1]-O^{-})}}{\small C6DC-carnitine}
+\+
+\chemname{\chemfig{HO!x!x}}{\small n-butanol}
+\arrow{-U>[][{\small \ce{2H2O}}]}
+\chemname{\chemfig{-N^{+}([2]-)([6]-)-[1]-[7]([6]-O-([5]=O)!e-[7,.6]O!x!x)-[1]-[7]([6]=O)-[1,.6]O!y!y}}{\small C6DC-carnitine, butyl ester}
+\schemestop 
+#+END_EXPORT
+
+* FIA-MS/MS 
+
+** FIA-MS/MS Schematic
+#+BEGIN_EXPORT LaTeX
+\begin{center}
+\begin{tikzpicture}[node distance=7em]
+% nodes
+\node(ms1)[ms]{MS1: Mass Filter};
+\node(cc)[ms, right of=ms1]{Collision cell};
+\node(ms2)[ms, right of=cc]{MS2: Mass Filter};
+\node(ion)[ms, below of=ms1,yshift=3em]{Ionization};
+\node(lc)[msw, below of=ion,yshift=3em]{Injection};
+\node(detector)[ms, below of=ms2, yshift=3em]{Detector};
+% arrows
+\draw[arrow](lc) -- (ion);
+\draw[arrow](ion) -- (ms1);
+\draw[arrow](ms1) -- (cc);
+\draw[arrow](cc) -- (ms2);
+\draw[arrow](ms2) -- (detector);
+\end{tikzpicture}
+\end{center}
+#+END_EXPORT
+
+** Amino Acid NL Scan
+- electrospray ionization in positive mode
+- \alpha{}-amino acids fragment to produce the neutral butyl formate molecule (102 Da) 
+- neutral loss scan is used to identify parent molecules with a NL of 102 Da
+- MRM is used to detected amino acids with basic functional groups
+  - arginine, ornithine and citrulline
+
+#+BEGIN_EXPORT LaTeX
+\chemnameinit{}
+\schemestart
+\chemname{\chemfig{{\color{red}R}-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\tiny AA butyl ester}
+\arrow{->[{\tiny fragmentation}]}
+\chemname{\chemfig{{\color{red}R}-[::60]=NH_2^{+}}}{\tiny fragment}
+\+
+\chemname{\chemfig{H-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\tiny butyl formate (102 Da)}
+\schemestop
+#+END_EXPORT
+** Amino Acid MRM
+- citrulline contains a labile amino group that fragments together with butyl formate
+- CID results in net neutral fragmentation of butyl formate (102 Da) plus \ce{NH3} (17 Da)
+- [[https://en.wikipedia.org/wiki/Selected_reaction_monitoring][SRM]] Citrulline-Bu 232.15 Da \to 113 Da , loss of 119 Da  
+
+#+BEGIN_EXPORT LaTeX
+\chemnameinit{}
+\schemestart
+\chemname{\chemfig{H_2N-[::30,,2,](=[::60]O)-[::-60]NH-[::60]-[::-60]-[::60]-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]OH}}{\small citrulline 175 Da}
+\+
+\chemname{\chemfig{HO-[::30]-[::-60]-[::60]-[::-60]}}{\small n-butanol 74 Da}
+\arrow{-U>[][{\small \ce{H2O}}]}
+\chemname{\chemfig{H_2N-[::30,,2,](=[::60]O)-[::-60]NH-[::60]-[::-60]-[::60]-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\small 232 Da}
+\schemestop
+#+END_EXPORT
+
+#+BEGIN_EXPORT LaTeX
+\schemestart
+\chemname{\chemfig{H_2N-[::60]-[::-60]-[::60]-[::-60]-[::60]N=O=C}}{\small 113 Da}
+\+
+\chemname{\chemfig{H-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\small 102 Da}
+\+
+\chemname{\chemfig{NH_3}}{\small 17 Da}
+\schemestop
+#+END_EXPORT
+
+#+CAPTION[]:Quantified Amino Acids
+#+NAME: tab:aa
+| glycine       | tyrosine                    |
+| alanine       | ornithine                   |
+| valine        | citruline                   |
+| leucine       | arginine                    |
+| methionine    | \color{blue}succinylacetone |
+| phenylalanine |                             |
+
+** Acylcarnitine Precursor Ion Scan
+- electrospray ionization in positive mode
+- butylated acylcarnitines fragment to produce a characteristic ion with mass of 85 Da 
+- precursor ion scan is used to identify molecules that fragment to form a 85 m/z molecule
+
+#+BEGIN_EXPORT LaTeX
+\definesubmol{x}{-[1,.6]-[7,.6]}
+ \chemname{\chemfig{H_{3}C-N^{+}([2]-CH_3)([6]-CH_{3})-CH_2-C([2]-H)([6]-O-C([0]=O)-{\color{red}R})-CH_2-C([2]=O)-O-CH_2-CH_2-CH_2-CH_3}}{\small acylcarnitine, butyl ester}
+
+\vspace{2.5em}
+
+ \chemname{\chemfig{H_{3}C-N([1]-CH_3)([7]-CH_3)}}{\small trimethylamine}
+\hspace{2em}
+\chemname{\chemfig{{\color{red}R}-C([1]=O)([7]-OH)}}{\small carboxylic acid}
+\hspace{2em}
+ \chemname{\chemfig{H!x!x}}{\small butyl group}
+\hspace{2em}
+ \chemname{\chemfig{H_{2}C^{+}-HC=CH-C([1]=O)([7]-OH)}}{\small 85 m/z}
+#+END_EXPORT
+
+#+BEGIN_EXPORT LaTeX
+\begin{center}
+\begin{tikzpicture}
+\node[box](ms1)[]{};
+\node[label](ms1u)[above=of ms1,yshift=-3em]{MS1};
+\node[label](ms1l)[below=of ms1,yshift=3em]{scanning};
+\node[box](cc)[right= of ms1]{};
+\node[label](ccu)[above=of cc,yshift=-3em]{Collision cell};
+\node[label](ccl)[below=of cc,yshift=3em]{fragmentation};
+\node[box](ms2)[right= of cc]{};
+\node[label](ms2u)[above=of ms2,yshift=-3em]{MS2};
+\node[label](ms2l)[below=of ms2,yshift=3em]{85 m/z};
+\draw[->](ms1) -- (cc);
+\draw[->](cc) -- (ms2);
+
+%ms1
+\draw [gray,->, decorate,decoration=snake] (-.8,0.5) -- (.8,0.5);
+\draw [gray,->, decorate,decoration=snake] (-.8,0.25) -- (.8,0.25);
+\draw [blue, ->,decorate,decoration=snake] (-.8, 0) -- (.8,0);
+\draw [gray,->, decorate,decoration=snake] (-.8,-0.25) -- (.8,-0.25);
+\draw [gray,->,decorate,decoration=snake] (-.8,-0.5) -- (.8,-0.5);
+
+%cc
+\draw [blue,->,decorate,decoration=snake] (2.1, 0) -- (2.4,0);
+\fill (2.6,0) circle (0.1); 
+\draw [gray,->,decorate,decoration=snake] (2.8, 0) -- (3.8,0.5);
+\draw [red, ->,decorate,decoration=snake] (2.8, 0) -- (3.8,0);
+\draw [gray,->,decorate,decoration=snake] (2.8, 0) -- (3.8,-0.5);
+
+%ms2
+\draw [red,->,decorate,decoration=snake] (5.1, 0) -- (6.8,0);
+\end{tikzpicture}
+\end{center}
+#+END_EXPORT
+
+** Acylcarnitine MRM 
+- C0-Bu 218.1 Da \to 103 Da transition is optimal
+- all others benefit from the added sensitivity of MRM mode as
+  compared to parent ion scan
+
+#+CAPTION[]:MRM is used to detected selected acylcarnitines
+#+NAME: tab:mrnac
+| Compound | Reaction        |
+|----------+-----------------|
+| C0       | 218.10 > 103.00 |
+| C0 IS    | 227.10 > 103.00 |
+| C2       | 260.20 > 85.00  |
+| C2 IS    | 263.20 > 85.00  |
+| C3       | 274.20 > 85.00  |
+| C3 IS    | 277.20 > 85.00  |
+| C3DC     | 360.30 > 85.00  |
+| C4DC     | 374.30 > 85.00  |
+| C5DC     | 388.35 > 85.00  |
+| C5DC IS  | 391.35 > 85.00  |
+| C6DC     | 402.45 > 85.00  |
+| C8DC     | 430.45 > 85.00  |
+
+#+CAPTION[]: Quantified Acylcarnitines
+#+NAME: tab:ac
+| C0    | C8     | C16      |
+| C2    | C8:1   | C16:1    |
+| C3    | C10    | C16:1-OH |
+| C3DC  | C10:1  | C16-OH   |
+| C4    | C12    | C18      |
+| C4DC  | C12:1  | C18:1    |
+| C5    | C14    | C18:1-OH |
+| C5:1  | C14:1  | C18:2    |
+| C5DC  | C14:2  | C18-OH   |
+| C5-OH | C14-OH |          |
+| C6    |        |          |
+| C6DC  |        |          |
+
+** Pros and Cons of FIA-MS/MS using DBS
+- as compared to AAA and LC-MS/MS 
+*** Pros
+- ~ 2 min analysis time
+- analyte specificity
+- ACs and AAs quantified simultaneously
+
+*** Cons
+- variability in DBS sample as described above
+- iso-baric compounds
+  - leucine, Isoleucine, Alloisoleucine
+  - C5DC and C10-OH
+- overestimation of CO due to hydrolysis
+- fewer AA quantified
+  - homocystine (free)
+  - glutamine
+
+

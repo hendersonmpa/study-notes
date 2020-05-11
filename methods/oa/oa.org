@@ -2,14 +2,14 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
-* Background
-** What are urine organic acids?
-- water soluble compounds containing \ge one carboxyl group(s) and
-  nonamino functional groups
+* Introduction
+- organic acids are water soluble compounds containing \ge one
+  carboxyl group(s) and nonamino functional groups
 
 #+BEGIN_EXPORT LaTeX
 \chemfig{X-C(-[2]X)(-[6]X)-C(-[2]X)(-[6]X)-C(-[7]OH)=[1]O}
 #+END_EXPORT
+
 *** Acylglycines
 - acylglycines are also detected in UOA analysis
   - conjugation of acyl-CoA species to glycine
@@ -63,8 +63,8 @@
 | Propyl     | \chemfig{CH_3-CH_2-CH_2-}      |
 | Butyl      | \chemfig{CH_3-CH_2-CH_2-CH_2-} |
 
-** Where do they come from?
-*** Endogenous Sources
+** Sources of Organic Acids
+*** Endogenous 
 - originate from the intermediate metabolism of all major groups of
   organic cellular components
   - amino acids
@@ -81,30 +81,30 @@
 
 ** Urine organic acids detected in health
   - tricarboxylic acid cycle acids
-    - citric
+    - citric acid 
   - hydroxyaliphatic acids
-    - 3-hydroxybutyric
+    - 3-hydroxybutyric acid
   - aliphatic keto acids
-    - pyrvic
+    - pyruvic acid 
   - aliphatic acids
-    - oxalic
+    - oxalic acid
   - aldonic and deoxyaldonic acids (sugar acids)
   - aromatic acids
-    - hippuric
+    - hippuric acid
 
 ** Abnormal Urine Organic acids profiles
 - elevated concentration of normal metabolites
   - fumaric acid in fumarase deficiency
   - adipic, suberic, and sebacic acids in MCADD
   - ketones in fasting
-    - 3-hydroxybutyric
-    - acetoacetic
+    - 3-hydroxybutyric acid
+    - acetoacetic acid
 
 - pathological metabolites
   - succinylacetone, methylcitric acid
 
 - food, medications, environment
-  - ethosuximide
+  - ethosuximide 
   - adipic acid
   - cresol
   - 2-furaldehyde
@@ -147,8 +147,8 @@ reagent for amino acids bis(trimethylsilyl)trifluoroacetamide
 (BSTFA). Biochemical and Biophysical Research Communications. 1968 May
 23;31(4):616-22.
 
-** Gas Chromatography
+** TODO Gas Chromatography
 
-** Mass-spectroscopy
+** TODO Mass-spectroscopy
 
-** Reporting
+** TODO Reporting

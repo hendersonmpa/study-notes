@@ -1,4 +1,4 @@
-% Created 2020-04-07 Tue 20:45
+% Created 2020-05-11 Mon 14:10
 % Intended LaTeX compiler: pdflatex
 \documentclass{scrartcl}
 \usepackage[utf8]{inputenc}
@@ -28,8 +28,12 @@
 \usepackage{tikz}
 \usepackage{wasysym}
 \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
-\usepackage{fancyhdr}
-\pagestyle{fancy}
+\usepackage[automark, autooneside=false, headsepline, footsepline]{scrlayer-scrpage}
+\clearpairofpagestyles
+\ihead{\leftmark}% section on the inner (oneside: right) side
+\ohead{\rightmark}% subsection on the outer (oneside: left) side
+\addtokomafont{pagehead}{\upshape}% header upshape instead of italic
+\pagestyle{scrheadings}
 \author{Matthew Henderson, PhD, FCACB}
 \date{\today}
 \title{Miscellaneous IEM}
@@ -38,7 +42,7 @@
  pdftitle={Miscellaneous IEM},
  pdfkeywords={},
  pdfsubject={},
- pdfcreator={Emacs 26.1 (Org mode 9.1.9)}, 
+ pdfcreator={Emacs 26.3 (Org mode 9.1.9)}, 
  pdflang={English}}
 \begin{document}
 
@@ -48,9 +52,9 @@
 
 
 \section{Neurotransmission}
-\label{sec:org77d2bf5}
+\label{sec:org24051bc}
 \subsection{Introduction}
-\label{sec:orgc2c547e}
+\label{sec:orgb05241d}
 \begin{itemize}
 \item classical neurotransmitter systems involve:
 \begin{itemize}
@@ -68,7 +72,7 @@
 \end{itemize}
 
 \item GABA is formed from glutamic acid by glutamic acid decarboxylase
-(Figure \ref{fig:org464632d})
+(Figure \ref{fig:orge75ba05})
 \item catabolized into succinic acid through the sequential action of two
 mitochondrial enzymes:
 \begin{itemize}
@@ -97,15 +101,15 @@ neuronal pools following extracellular release
 \item inborn errors of neurotransmission include neurotransmitter
 metabolism, receptor and transporter defects:
 \begin{itemize}
-\item three defects of GABA catabolism have been reported (section \ref{sec:org45ac48b})
-\item three receptor defects (section \ref{sec:org15ab21a})
-\item three transportopathies are reported (section \ref{sec:org15ab21a})
-\item six disorders of monoamine metabolism (section \ref{sec:orga5b601a})
+\item three defects of GABA catabolism have been reported (section \ref{sec:orgeb58854})
+\item three receptor defects (section \ref{sec:org6e986dc})
+\item three transportopathies are reported (section \ref{sec:org6e986dc})
+\item six disorders of monoamine metabolism (section \ref{sec:org21a954b})
 \item see amino acids for disorders of glycine metabolism
 \end{itemize}
 \end{itemize}
 \subsection{GABA catabolism}
-\label{sec:org45ac48b}
+\label{sec:orgeb58854}
 \begin{itemize}
 \item three defects of \(\gamma\)-aminobutyric acid (GABA) catabolism have been reported:
 \begin{enumerate}
@@ -118,19 +122,19 @@ metabolism, receptor and transporter defects:
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./neuro/figures/gaba.png}
-\caption{\label{fig:org464632d}
+\caption{\label{fig:orge75ba05}
 Brain metabolism of GABA: 1 glutamic acid decarboxylase; 2 GABA transaminase; 3 succinic semialdehyde dehydrogenase}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./neuro/figures/Slide23.png}
-\caption{\label{fig:org9911e6d}
+\caption{\label{fig:orgac64f25}
 \(\gamma\)-aminobutryic acid}
 \end{figure}
 
 \subsubsection{Succinic Semialdehyde Dehydrogenase Deficiency}
-\label{sec:org7f95e11}
+\label{sec:orgc0f69a5}
 \begin{itemize}
 \item first reported as \(\gamma\)-hydroxybutyric aciduria (4-hydroxybutyric
 aciduria)
@@ -139,7 +143,7 @@ aciduria)
 
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org36d8827}
+\label{sec:orgd684a7f}
 \begin{itemize}
 \item non-specific clinical manifestations including:
 \begin{itemize}
@@ -151,7 +155,7 @@ aciduria)
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:orgad8fa8d}
+\label{sec:org311439e}
 \begin{itemize}
 \item key feature is an accumulation of \(\gamma\)-hydroxybutyrate in urine,
 plasma, and CSF
@@ -170,13 +174,13 @@ neuropharmacologically active compounds
 \end{itemize}
 
 \item Genetics
-\label{sec:org9dd6976}
+\label{sec:org0808cc8}
 \begin{itemize}
 \item AR, ALDH5A1
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org84c467a}
+\label{sec:org8ead317}
 \begin{itemize}
 \item \(\uparrow\) urine \(\gamma\)-hydroxybutyric acid (GHB)
 \item \(\uparrow\) urine 4,5-dihydroxyhexanoic acid
@@ -190,7 +194,7 @@ cataplexy) and illicitly (for induction of euphoria)
 \end{itemize}
 
 \item Treatment and Prognosis
-\label{sec:orgf330e6b}
+\label{sec:orgcdba1f9}
 \begin{itemize}
 \item sudden death can occur in patients often in association with
 epilepsy (sudden unexplained death in epilepsy or SUDEP)
@@ -205,7 +209,7 @@ epilepsy (sudden unexplained death in epilepsy or SUDEP)
 \end{enumerate}
 
 \subsection{Receptors and Transporters of Neurotransmitters}
-\label{sec:org15ab21a}
+\label{sec:org6e986dc}
 \begin{itemize}
 \item receptors defects:
 \begin{itemize}
@@ -233,13 +237,13 @@ and psychiatric disorders
 \end{itemize}
 \end{itemize}
 \subsection{Monoamine Metabolism}
-\label{sec:orga5b601a}
+\label{sec:org21a954b}
 \begin{itemize}
 \item the monoamines: adrenaline, noradrenaline, dopamine, and serotonin
 are metabolites of the amino acids tyrosine and tryptophan
 \item first step in formation is catalysed by amino-acid-specific
 hydroxylases which require tetrahydrobiopterin (BH\(_{\text{4}}\)) as a cofactor
-(Figure \ref{fig:org09f3e39})
+(Figure \ref{fig:org2bb5bda})
 \item synthesis of BH\(_{\text{4}}\) from GTP is initiated by the rate-limiting GTP
 cyclohydrolase (GTPCH)
 \begin{itemize}
@@ -272,27 +276,27 @@ emesis, and pain
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./neuro/figures/Slide21.png}
-\caption{\label{fig:orgf3d4cbc}
+\caption{\label{fig:org25156f1}
 Tetrahydrobiopterin metabolism}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./neuro/figures/Slide22.png}
-\caption{\label{fig:org5553010}
+\caption{\label{fig:org9dee810}
 Biogenic Amines}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./neuro/figures/monoamines.png}
-\caption{\label{fig:org09f3e39}
+\caption{\label{fig:org2bb5bda}
 Metabolism of adrenaline, noradrenaline, dopamine and serotonin}
 \end{figure}
 
 
 \subsubsection{Tyrosine hydroxylase (TH) deficiency}
-\label{sec:org6ca2af0}
+\label{sec:orged9737f}
 \begin{itemize}
 \item impairs synthesis of L-dopa and causes a neurological disease with
 prominent extrapyramidal signs
@@ -305,14 +309,14 @@ prominent extrapyramidal signs
 \end{itemize}
 \end{itemize}
 \subsubsection{Dopamine \(\beta\)-Hydroxylase deficiency}
-\label{sec:org4ef99b5}
+\label{sec:orgc46f0a4}
 \begin{itemize}
 \item severe orthostatic hypotension with sympathetic failure
 \item \(\Downarrow\) plasma noradrenaline and adrenaline
 \item \(\uparrow\) plasma dopamine
 \end{itemize}
 \subsubsection{Aromatic-amino Acid Decarboxylase (AADC) deficiency}
-\label{sec:orgdbc3c00}
+\label{sec:org8c224e3}
 \begin{itemize}
 \item located upstream of the neurotransmitter amines
 \item treatment can be challenging
@@ -322,7 +326,7 @@ prominent extrapyramidal signs
 \item \(\uparrow\) urine vanillyllactic acid in organic acids
 \end{itemize}
 \subsubsection{Monoamine-oxidase A (MAO-A) deficiency}
-\label{sec:org141ea7c}
+\label{sec:org5a5beef}
 \begin{itemize}
 \item located downstream, mainly causes behavioural disturbances
 \item no effective treatment is known
@@ -330,9 +334,9 @@ prominent extrapyramidal signs
 \item abnormal normetanephrine:VMA, normetanephrine:MHPG, HVA:VMA ratios
 \end{itemize}
 \subsubsection{GTPCH and SR deficiency}
-\label{sec:orgcb80b82}
+\label{sec:org61ecc0f}
 \begin{itemize}
-\item dopamine responsive dystonia (Figure \ref{fig:orgf3d4cbc} and Table \ref{tab:org5183b2e})
+\item dopamine responsive dystonia (Figure \ref{fig:org25156f1} and Table \ref{tab:orga4e7888})
 \item GTPCH catalyses the first step in BH\(_{\text{4}}\) synthesis
 \ce{GTP ->[GTPCH] NH2TP}
 \item sepiaterin reductase (SR) catalyses the final steps in BH\(_{\text{4}}\) synthesis
@@ -369,11 +373,11 @@ treatment
 \end{itemize}
 
 \begin{table}[htbp]
-\caption{\label{tab:org5183b2e}
+\caption{\label{tab:orga4e7888}
 Results in Biopterin Disorders}
 \centering
 \begin{tabular}{lrlllll}
-Deficiency & Phe & biopterin\footnotemark & neopterin\textsuperscript{\ref{orgcaaa9a6}} & primapterin\textsuperscript{\ref{orgcaaa9a6}} & CSF 5-HIAA HVA & DHPR activity\\
+Deficiency & Phe & biopterin\footnotemark & neopterin\textsuperscript{\ref{org80deed6}} & primapterin\textsuperscript{\ref{org80deed6}} & CSF 5-HIAA HVA & DHPR activity\\
 \hline
 PAH & \textgreater{}120 & \(\uparrow\) & \(\uparrow\) & - & N & N\\
 GTPCH & 50-1200 & \(\Downarrow\) & \(\Downarrow\) & - & \(\downarrow\) & N\\
@@ -381,13 +385,13 @@ PTPS & 240-2500 & \(\Downarrow\) & \(\Uparrow\) & - & \(\downarrow\) & N\\
 DHPR & 180-2500 & \(\Downarrow\) & N or \(\uparrow\) & - & \(\downarrow\) & \(\downarrow\)\\
 PCD & 180-1200 & \(\downarrow\) & \(\uparrow\) & \(\Uparrow\) &  & N\\
 \end{tabular}
-\end{table}\footnotetext[1]{\label{orgcaaa9a6}blood or urine}
+\end{table}\footnotetext[1]{\label{org80deed6}blood or urine}
 \section{Peptides}
-\label{sec:orgf5a2847}
+\label{sec:orgb9c53e2}
 \subsection{TMA and Choline}
-\label{sec:org6fd5d87}
+\label{sec:org9ef3783}
 \subsubsection{Trimethylamine Metabolism}
-\label{sec:org41a3136}
+\label{sec:orge266e4b}
 \begin{itemize}
 \item trimethylamine (TMA) is a volatile tertiary amine which smells of rotting fish
 \item bacterial metabolite which is produced by anaerobes in the colon
@@ -405,12 +409,12 @@ excreted in urine
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./peptides/figures/tma.png}
-\caption{\label{fig:org59cd03f}
+\caption{\label{fig:orgb8e4ec1}
 TMA}
 \end{figure}
 
 \subsubsection{Catabolism of Choline}
-\label{sec:org24ee0d7}
+\label{sec:org2564d02}
 \begin{itemize}
 \item choline is an essential nutrient required for synthesis of:
 \begin{itemize}
@@ -437,15 +441,15 @@ tetrahydrofolate (THF)
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./peptides/figures/choline.png}
-\caption{\label{fig:org807a434}
+\caption{\label{fig:org868c033}
 Choline catabolism}
 \end{figure}
 
 \subsubsection{Trimethylaminuria (Fish Malodour Syndrome)}
-\label{sec:org282cef3}
+\label{sec:org2f527ea}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:orgb46e2cc}
+\label{sec:org5349d89}
 \begin{itemize}
 \item TMA is excreted in the breath, sweat, urine and vaginal secretions
 \item individuals with trimethylaminuria (TMAU) excrete excessive amounts
@@ -459,7 +463,7 @@ odour of decaying fish
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:org11d3911}
+\label{sec:org34587d2}
 \begin{itemize}
 \item FMO3 deficiency
 \item \(\uparrow\) urine TMA results when the oxidative capacity of FMO3 is
@@ -467,13 +471,13 @@ overwhelmed by TMA substrate
 \end{itemize}
 
 \item Genetics
-\label{sec:org03bcb74}
+\label{sec:org9f45141}
 \begin{itemize}
 \item AR, \textasciitilde{}1\% carrier freq
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org579901e}
+\label{sec:org5ee1a15}
 \begin{itemize}
 \item common causes of abnormal body odour and UTIs are excluded
 \item random urine sample is collected if the odour is obvious and not
@@ -490,7 +494,7 @@ beans, marine fish)
 \end{itemize}
 
 \item Treatment
-\label{sec:orgcc70af4}
+\label{sec:org80ddc31}
 \begin{itemize}
 \item \(\downarrow\) choline diet
 \item \(\uparrow\) folate
@@ -498,7 +502,7 @@ beans, marine fish)
 \end{enumerate}
 
 \subsection{Glutathione}
-\label{sec:org2a365e8}
+\label{sec:org3f3f3d3}
 \begin{itemize}
 \item glutathione (GSH) is a tripeptide consisting of glutamate, cysteine and glycine
 \item one of the most important antioxidants
@@ -507,7 +511,7 @@ beans, marine fish)
 proteins as well as amino acid transport
 \end{itemize}
 \item synthesized and metabolized in the \(\gamma\)-glutamyl cycle (Figure
-\ref{fig:orgdd8222e})
+\ref{fig:orge870656})
 \item six enzymes involved in synthesis and turnover
 \item synthesised from glutamate by sequential actions of
 \(\gamma\)-glutamylcysteine synthetase and glutathione
@@ -536,7 +540,7 @@ the \(\gamma\)-glutamyl cycle
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./peptides/figures/gsh.png}
-\caption{\label{fig:orgdd8222e}
+\caption{\label{fig:orge870656}
 The \(\gamma\)-glutamyl cycle}
 \end{figure}
 
@@ -544,16 +548,16 @@ The \(\gamma\)-glutamyl cycle}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./peptides/figures/Slide08.png}
-\caption{\label{fig:org4753e8d}
+\caption{\label{fig:org96df1c0}
 The \(\gamma\)-glutamyl cycle}
 \end{figure}
 
 
 \subsubsection{Glutathione Synthetase Deficiency}
-\label{sec:orga72f2d9}
+\label{sec:org6cb92f6}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org8ea3401}
+\label{sec:org61bd8f0}
 \begin{itemize}
 \item classified as mild, moderate or severe
 \begin{description}
@@ -566,7 +570,7 @@ and 5-oxoprolinuria
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:orgcf6abaa}
+\label{sec:org6560e65}
 \begin{itemize}
 \item GS catalyses the last step of GSH synthesis
 \item deficiency \(\to\) \(\downarrow\) cellular GSH and \(\uparrow\) \(\gamma\)-glutamylcysteine
@@ -580,13 +584,13 @@ cyclotransferase
 \end{itemize}
 
 \item Genetics
-\label{sec:orgcf4d13a}
+\label{sec:orgcbf1de8}
 \begin{itemize}
 \item AR, GSS
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:orgffb3990}
+\label{sec:org22edd92}
 \begin{itemize}
 \item \(\uparrow\) urine 5-oxoproline
 \item \(\downarrow\) RBC GSH
@@ -598,7 +602,7 @@ cyclotransferase
 \end{itemize}
 
 \item Treatment
-\label{sec:org2175b06}
+\label{sec:org497e5f1}
 \begin{itemize}
 \item management of GS deficient patients is aimed at correction of
 acidosis, prevention of hemolytic crises and support of endogenous
@@ -609,9 +613,9 @@ defence against reactive oxygen species
 \end{itemize}
 \end{enumerate}
 \section{Metal}
-\label{sec:org1dfa846}
+\label{sec:org6862564}
 \subsection{Copper}
-\label{sec:org75b2c7a}
+\label{sec:org5c37294}
 \begin{itemize}
 \item copper is essential for cellular metabolism and toxic at [\(\Uparrow\)]
 \begin{itemize}
@@ -632,15 +636,15 @@ defence against reactive oxygen species
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1\textwidth]{./metal/figures/copper.PNG}
-\caption[copper]{\label{fig:orgd09e3ff}
+\caption[copper]{\label{fig:org510b4d5}
 Copper Metabolism}
 \end{figure}
 
 \subsubsection{Wilson Disease}
-\label{sec:orgf240c7d}
+\label{sec:org31aae4f}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org9ca86aa}
+\label{sec:org8a673c2}
 \begin{itemize}
 \item hepatic symptoms 8-20 years
 \item neurological symptoms 2nd-3rd decade
@@ -659,7 +663,7 @@ Copper Metabolism}
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:org753c579}
+\label{sec:org84ca4d9}
 \begin{itemize}
 \item ATP7B has 6 copper binding domains
 \item expressed predominantly in liver and kidney
@@ -677,7 +681,7 @@ Copper Metabolism}
 \end{itemize}
 
 \item Genetics
-\label{sec:orgcf63a05}
+\label{sec:orgb6a915c}
 \begin{itemize}
 \item AR, ATP7B
 \item 1:30,000 may be higher
@@ -685,7 +689,7 @@ Copper Metabolism}
 \end{itemize}
 
 \item Diagnostic tests
-\label{sec:org83db63f}
+\label{sec:org189c602}
 \begin{itemize}
 \item \(\downarrow\) serum ceruloplasmin
 \item \(\downarrow\) serum copper
@@ -701,7 +705,7 @@ Copper Metabolism}
 \end{itemize}
 
 \item Treatment
-\label{sec:org5bbb7df}
+\label{sec:org88b4a54}
 \begin{itemize}
 \item excellent prognosis if treated before severe damage
 \item penicillamine chelates copper and is excreted in urine
@@ -719,10 +723,10 @@ Copper Metabolism}
 \end{enumerate}
 
 \subsubsection{Menkes Disease}
-\label{sec:org7d38e06}
+\label{sec:org85c4966}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:orgb0e1eca}
+\label{sec:org588a52c}
 \begin{itemize}
 \item male infants 2-3 months
 \item neurodegeneration manifests as:
@@ -737,7 +741,7 @@ Copper Metabolism}
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:org31be94d}
+\label{sec:org3efcc4f}
 \begin{itemize}
 \item defect in ATP7A
 \item normal copper uptake, can not be exported from enterocytes into circulation
@@ -752,14 +756,14 @@ Copper Metabolism}
 \end{itemize}
 
 \item Genetics
-\label{sec:orga850d71}
+\label{sec:org4828e09}
 \begin{itemize}
 \item ATB7A, \textbf{XLR}, 1:250,000 , 1/3 \emph{de novo} mutations
 \item expressed in all tissues except liver
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org7c55760}
+\label{sec:org591d5f8}
 \begin{itemize}
 \item \(\downarrow\) serum copper
 \item \(\downarrow\) serum ceruloplasmin 
@@ -771,7 +775,7 @@ Copper Metabolism}
 \end{itemize}
 
 \item Treatment
-\label{sec:orgc4ee98c}
+\label{sec:org4b676e8}
 \begin{itemize}
 \item often fatal < 3 years
 \begin{itemize}
@@ -787,7 +791,7 @@ residual ATP7A activity
 \end{enumerate}
 
 \subsection{Iron}
-\label{sec:org1a98f6e}
+\label{sec:orgb33e729}
 \begin{itemize}
 \item iron is essential for the synthesis of haem and other
 metalloproteins
@@ -824,22 +828,22 @@ types, including macrophages
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./metal/figures/iron_met.png}
-\caption[iron]{\label{fig:orgfefb6df}
+\caption[iron]{\label{fig:orgb6bcd4e}
 Iron Metabolism}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./metal/figures/fes.png}
-\caption[fes]{\label{fig:org08533c6}
+\caption[fes]{\label{fig:orgdbf6e6c}
 Iron Sulfur Cluster Proteins}
 \end{figure}
 
 \subsubsection{Classic Hereditary Haemochromatosis}
-\label{sec:orgf1a26a5}
+\label{sec:org959074d}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org840ea28}
+\label{sec:orgafbc198}
 \begin{itemize}
 \item also called Type 1 or HFE related haemochromatosis
 \item slow but progressive accumulation of iron in various organs
@@ -860,7 +864,7 @@ pigmentation
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:orga0040c2}
+\label{sec:orga6d1ae3}
 \begin{itemize}
 \item caused by a disturbance in iron homeostasis associated with hepcidin
 deficiency and systemic accumulation of iron
@@ -872,7 +876,7 @@ synthesis
 \end{itemize}
 
 \item Genetics
-\label{sec:org8b7646a}
+\label{sec:orgf418d1f}
 \begin{itemize}
 \item AR, HFE
 \item \textasciitilde{} 0.5\% of the Northern European population are homozygous for the
@@ -884,7 +888,7 @@ develop liver fibrosis or cirrhosis
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org46a93ce}
+\label{sec:org897ab83}
 \begin{itemize}
 \item \(\Uparrow\) transferrin saturation initially
 \item followed by \(\Uparrow\) serum ferritin
@@ -903,7 +907,7 @@ develop liver fibrosis or cirrhosis
 \end{itemize}
 
 \item Treatment and Prognosis
-\label{sec:orga5fa8de}
+\label{sec:org4c9a01a}
 \begin{itemize}
 \item \textgreater{} half male and female C282Y homozygotes have normal serum
 ferritin levels and may never require therapy
@@ -923,10 +927,10 @@ when serum ferritin levels are \textless{} 50 ng/ml
 \end{enumerate}
 
 \subsubsection{Systemic Iron Overload Syndromes}
-\label{sec:org7ccf51a}
+\label{sec:org5644c67}
 \begin{enumerate}
 \item Juvenile Hereditary Haemochromatosis (Type 2)
-\label{sec:orgb066ab8}
+\label{sec:org0eb78eb}
 \begin{itemize}
 \item most severe type of hereditary haemochromatosis
 \begin{itemize}
@@ -950,7 +954,7 @@ if initiated early
 \end{itemize}
 
 \item TFR2-Related Hereditary Haemochromatosis (Type 3)
-\label{sec:orgb189584}
+\label{sec:org8bd1503}
 \begin{itemize}
 \item transferrin receptor 2 is important for sensing the intracellular
 iron status (e.g erythroid cells)
@@ -968,7 +972,7 @@ haemochromatosis
 \end{itemize}
 
 \item Ferroportin Related Hereditary Haemochromatosis (Type 4)
-\label{sec:orga88ae83}
+\label{sec:orga825b40}
 \begin{itemize}
 \item differs in several ways from the other three subtypes of haemochromatosis
 \item AD inheritance and caused by mutations in SLC40A1 encoding ferroportin
@@ -990,7 +994,7 @@ haemochromatosis phenotype
 \end{itemize}
 
 \item Neonatal Haemochromatosis
-\label{sec:orgf815f44}
+\label{sec:org76d3d98}
 \begin{itemize}
 \item once thought to be an AR inherited disorder now recognized as
 acquired
@@ -1025,10 +1029,10 @@ given birth to an affected child is as high as 90\%
 \end{enumerate}
 
 \subsubsection{Iron Deficiency and Distribution Disorders}
-\label{sec:org984474f}
+\label{sec:org2ca556c}
 \begin{enumerate}
 \item Iron-Refractory Iron Deficiency Anaemia (IRIDA)
-\label{sec:orgd169ac3}
+\label{sec:orgc1c1526}
 \begin{itemize}
 \item this disease is caused by a deficiency of matriptase-2 encoded by TMPRSS6
 \item normal cleavage of haemojuvelin is interrupted \(\to\) \(\uparrow\) hepcidin
@@ -1047,7 +1051,7 @@ enterocytes
 \end{itemize}
 
 \item Atransferrinaemia
-\label{sec:org4ae2c05}
+\label{sec:orgccb08ef}
 \begin{itemize}
 \item rare
 \item AR, TF
@@ -1059,18 +1063,18 @@ growth retardation along with signs of haemochromatosis
 \end{itemize}
 \end{enumerate}
 \section{Purine and Pyrimidine Metabolism}
-\label{sec:orgc702732}
+\label{sec:org484ede1}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1\textwidth]{./pp/figures/Slide17.png}
-\caption{\label{fig:org471a731}
+\caption{\label{fig:org3429641}
 Purine and Pyrimidine Metabolism}
 \end{figure}
 
 \subsection{Purine Metabolism}
-\label{sec:orgce4791f}
+\label{sec:orgb611123}
 \subsubsection{Introduction}
-\label{sec:org32943c1}
+\label{sec:org312386d}
 \begin{itemize}
 \item purine nucleotides are involved in energy transfer, metabolic
 regulation, and synthesis of DNA and RNA
@@ -1145,21 +1149,21 @@ these inborn errors are very rare
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./pp/figures/purine_met.png}
-\caption{\label{fig:org57f2951}
+\caption{\label{fig:orgda0cff5}
 Purine Metabolism:1 PRPP synthetase; 2 adenylosuccinase; 3 AICAR transformylase; 4 IMP cyclohydrolase; 5 adenylosuccinate synthetase; 6 AMP deaminase; 7 5‘-nucleotidase; 8 adenosine deaminase; 9 purine nucleoside phosphorylase; 10 hypoxanthine-guanine phosphoribosyltransferase; 11 adenine phosphoribosyltransferase; 12 adenosine kinase; 13 guanosine kinase; 14 xanthine oxidase}
 \end{figure}
 
 \subsubsection{Phosphoribosyl Pyrophosphate Synthetase Superactivity}
-\label{sec:org6b80253}
+\label{sec:orgf33a605}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org731a630}
+\label{sec:org243e27b}
 \begin{itemize}
 \item gouty arthritis and/or uric acid lithiasis in young males
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:org36da6a5}
+\label{sec:orgc51d8a6}
 \begin{itemize}
 \item PRPP is the first intermediate in \emph{de novo} synthesis of purine nucleotides
 \end{itemize}
@@ -1180,13 +1184,13 @@ altered regulatory site
 \end{itemize}
 
 \item Genetics
-\label{sec:org76a1429}
+\label{sec:org99a4e12}
 \begin{itemize}
 \item X-linked, PRPS1
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org43ff8f0}
+\label{sec:orgff94658}
 \begin{itemize}
 \item extensive kinetic studies of the enzyme in erythrocytes and cultured
 fibroblasts is performed in only a few laboratories in the world
@@ -1194,7 +1198,7 @@ fibroblasts is performed in only a few laboratories in the world
 \end{itemize}
 
 \item Treatment
-\label{sec:orgc573d19}
+\label{sec:orga76e6fe}
 \begin{itemize}
 \item treated with allopurinol, which inhibits xanthine oxidase, the last
 enzyme of purine catabolism
@@ -1208,13 +1212,13 @@ replacement by
 \end{enumerate}
 
 \subsubsection{Muscle Adenosine Monophosphate Deaminase 1 Deficiency}
-\label{sec:orge1972ce}
+\label{sec:org550b4bc}
 \begin{itemize}
 \item AKA myoadenylate deaminase deficiency
 \end{itemize}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:orgdebf18d}
+\label{sec:orgfbd14e2}
 \begin{itemize}
 \item present in 1-2\% of the Caucasian population
 \item majority asymptomatic
@@ -1229,7 +1233,7 @@ abnormalities
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:orgf0ac016}
+\label{sec:org3b3e184}
 \begin{itemize}
 \item AMPD, adenylosuccinate synthetase and adenylosuccinase form the
 purine nucleotide cycle
@@ -1237,13 +1241,13 @@ purine nucleotide cycle
 \ce{AMP + H2O ->[AMD1] IMP + NH3}
 
 \item Genetics
-\label{sec:orge946aa7}
+\label{sec:org679fd61}
 \begin{itemize}
 \item AR AMPD1
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org0a18123}
+\label{sec:org8463b3e}
 \begin{itemize}
 \item NIET
 \begin{itemize}
@@ -1253,13 +1257,13 @@ subjects, is absent in AMPD deficiency
 \end{itemize}
 
 \item Treatment
-\label{sec:org928feb6}
+\label{sec:org11e6c01}
 \begin{itemize}
 \item ribose reported to improve muscular strength and endurance
 \end{itemize}
 \end{enumerate}
 \subsubsection{Adenosine Deaminase 1 Deficiency}
-\label{sec:org066b24a}
+\label{sec:org4587bda}
 \begin{itemize}
 \item two isoforms of adenosine deaminase (ADA)
 \begin{itemize}
@@ -1269,7 +1273,7 @@ subjects, is absent in AMPD deficiency
 \end{itemize}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org79fdfec}
+\label{sec:orgbd9db74}
 \begin{itemize}
 \item clinical spectrum is very broad
 \begin{itemize}
@@ -1301,7 +1305,7 @@ sensorineural deafness
 may be found at birth disappear later on
 \end{itemize}
 \item Metabolic Derangement
-\label{sec:orge43ed99}
+\label{sec:orge7d94f7}
 \begin{itemize}
 \item accumulation in body fluids of adenosine and deoxyadenosine
 \begin{itemize}
@@ -1316,7 +1320,7 @@ may be found at birth disappear later on
 \end{itemize}
 
 \item Genetics
-\label{sec:org513a4cf}
+\label{sec:org0bc1461}
 \begin{itemize}
 \item AR, ADA1
 \begin{itemize}
@@ -1325,7 +1329,7 @@ may be found at birth disappear later on
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org6cb6680}
+\label{sec:orgf8fc735}
 \begin{itemize}
 \item SCID can be confirmed by relatively simple laboratory tests:
 \begin{itemize}
@@ -1344,7 +1348,7 @@ when the maternal supply has been exhausted
 \end{itemize}
 
 \item Treatment
-\label{sec:orgf6942ee}
+\label{sec:org3c3844d}
 \begin{itemize}
 \item HSCT
 \item ERT with PEG-ADA1
@@ -1353,10 +1357,10 @@ when the maternal supply has been exhausted
 \end{enumerate}
 
 \subsubsection{Purine Nucleoside Phosphorylase Deficiency}
-\label{sec:org5bdbc0a}
+\label{sec:org7cdf11e}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org6867c37}
+\label{sec:org1972693}
 \begin{itemize}
 \item recurrent infections are usually of later onset
 \item starting from the end of the first year to up to 5-6 years of age
@@ -1374,7 +1378,7 @@ autoimmune neutropenia
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:orgb15cebf}
+\label{sec:org41a2f7d}
 \begin{itemize}
 \item accumulation of four PDP substrates:
 \begin{itemize}
@@ -1394,13 +1398,13 @@ symptoms in its deficiency
 \end{itemize}
 
 \item Genetics
-\label{sec:org72f7bbd}
+\label{sec:orgb773b99}
 \begin{itemize}
 \item AR, PNP
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org5f95b25}
+\label{sec:org76beaf0}
 \begin{itemize}
 \item \(\downarrow\) plasma uric acid
 \item \(\downarrow\) urine uric acid
@@ -1413,7 +1417,7 @@ should be ruled out
 \end{itemize}
 
 \item Treatment
-\label{sec:org0916aed}
+\label{sec:orgf17d7df}
 \begin{itemize}
 \item bone marrow transplantation
 \item repeated transfusions of irradiated erythrocytes
@@ -1421,10 +1425,10 @@ should be ruled out
 \end{enumerate}
 
 \subsubsection{Xanthine Oxidase Deficiency}
-\label{sec:org36ea5ec}
+\label{sec:orge67c9d6}
 \begin{enumerate}
 \item Clinical Picture
-\label{sec:orgdc55f0b}
+\label{sec:orgd5e6e3e}
 \begin{itemize}
 \item three types of deficiencies of xanthine oxidase, all cause
 xanthinuria
@@ -1448,7 +1452,7 @@ xanthinuria
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:org25de7a9}
+\label{sec:orgfc176d8}
 \begin{itemize}
 \item deficiency of XO results in the near total replacement of uric acid,
 in plasma and urine, by hypoxanthine and xanthine as the end
@@ -1469,7 +1473,7 @@ analogues - allopurinol
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org080f12f}
+\label{sec:orgff28477}
 \begin{itemize}
 \item \(\downarrow\) plasma uric acid
 \item \(\downarrow\) urine uric acid
@@ -1477,7 +1481,7 @@ analogues - allopurinol
 \end{itemize}
 
 \item Treatment
-\label{sec:org448f9a8}
+\label{sec:org5b78b4e}
 \begin{itemize}
 \item type I and II XO deficiency are mostly benign
 \begin{itemize}
@@ -1489,10 +1493,10 @@ infusion of cyclic pyranopterin monophosphate (cPMP)
 \end{enumerate}
 
 \subsubsection{Hypoxanthine-Guanine Phosphoribosyltransferase}
-\label{sec:org1b359cf}
+\label{sec:org890c095}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org995dd54}
+\label{sec:org6812e78}
 \begin{itemize}
 \item \textbf{Lesch-Nyhan syndrome} = complete or near-complete deficiency of HPRT
 \item clinical spectrum is very wide and determined by residual enzyme activity
@@ -1517,7 +1521,7 @@ life
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:org0536e3a}
+\label{sec:org251decb}
 \begin{itemize}
 \item hypoxanthine-guanine phosphoribosyltransferase deficiency
 \end{itemize}
@@ -1534,13 +1538,13 @@ through the purine salvage pathway
 \end{itemize}
 
 \item Genetic
-\label{sec:orge7dbdbd}
+\label{sec:org50892b9}
 \begin{itemize}
 \item \textbf{XLR}, HPRT
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org4393630}
+\label{sec:org5cf7da1}
 \begin{itemize}
 \item \(\Uparrow\) urine and plasma uric acid
 \begin{itemize}
@@ -1550,7 +1554,7 @@ through the purine salvage pathway
 \end{itemize}
 
 \item Treatment and Prognosis
-\label{sec:orgc5bb488}
+\label{sec:orgb6484f8}
 \begin{itemize}
 \item allopurinol prevents urate nephropathy
 \begin{itemize}
@@ -1561,9 +1565,9 @@ effect on the neurological symptoms
 \end{enumerate}
 
 \subsection{Pyrimidine Metabolism}
-\label{sec:org369e87c}
+\label{sec:orgadf1e97}
 \subsubsection{Introduction}
-\label{sec:org1558822}
+\label{sec:org962204e}
 \begin{itemize}
 \item metabolism of the pyrimidine nucleotides can be divided into three
 pathways:
@@ -1616,18 +1620,18 @@ dehydrogenase (DPD) dihydropyrimidinase (DHP)
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./pp/figures/pyrimidine_met.png}
-\caption{\label{fig:org04b429e}
+\caption{\label{fig:org8032ffb}
 Pyrimidine Metabolism: 1, carbamoylphosphate synthetase II ; 2, aspartate transcarbamylase ; 3, dihydroorotase (1 to 3 form CAD); 4, dihydroorotate dehydrogenase ; 5, orotate phos- phoribosyltransferase ; 6, orotidine decarboxylase (5 and 6 form UMP synthase); 7, pyrimidine (cytosolic) 5’-nucleotidase; 8, cytidine kinase; 9, uridine kinase ; 10, thymidine kinase ; 11, thymidine phosphorylase ; 12, dihydropyrimidine dehydrogenase ; 13, dihydropyrim- idinase ; 14, ureidopropionase ; 15, cytidine deaminase.}
 \end{figure}
 
 \subsubsection{UMP Synthase Deficiency}
-\label{sec:orgccca96d}
+\label{sec:orgaf9a311}
 \begin{itemize}
 \item AKA: Hereditary Orotic Aciduria
 \end{itemize}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org734274d}
+\label{sec:org66ae55d}
 \begin{itemize}
 \item megaloblastic anaemia a few weeks or months after birth
 \begin{itemize}
@@ -1644,7 +1648,7 @@ psychomotor development
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:orgab2f985}
+\label{sec:org850dde0}
 \begin{itemize}
 \item UMP synthase is a bifunctional enzyme of the \emph{de novo} synthesis of
 pyrimidines
@@ -1666,19 +1670,19 @@ megaloblastic anemia
 \end{itemize}
 
 \item Genetics
-\label{sec:org648d3f2}
+\label{sec:orgcf62d8c}
 \begin{itemize}
 \item AR, UMPS
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org195111b}
+\label{sec:orgacb8c8a}
 \begin{itemize}
 \item \(\Uparrow\) urine orotic acid, 200-1000X
 \end{itemize}
 
 \item Treatment
-\label{sec:orgfe07a95}
+\label{sec:org82344ed}
 \begin{itemize}
 \item enzyme defect can be by-passed by the administration of uridine
 \begin{itemize}
@@ -1688,10 +1692,10 @@ megaloblastic anemia
 \end{enumerate}
 
 \subsubsection{Dihydropyrimidine Dehydrogenase Deficiency}
-\label{sec:org197f2c5}
+\label{sec:orgc6104d8}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:orga42fc84}
+\label{sec:org7d9149e}
 \begin{itemize}
 \item two forms:
 \begin{enumerate}
@@ -1714,7 +1718,7 @@ and stupor
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:orgb42371f}
+\label{sec:org47978e9}
 \begin{itemize}
 \item DPD catalyzes the catabolism of uracil and thymine \(\to\) dihydrouracil
 and dihydrothymine
@@ -1724,13 +1728,13 @@ and dihydrothymine
 \end{itemize}
 
 \item Genetics
-\label{sec:org6e3ca9e}
+\label{sec:org7299835}
 \begin{itemize}
 \item AR, DPYD
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org09b4f9d}
+\label{sec:org8ae24e6}
 \begin{itemize}
 \item \(\Uparrow\) urine uracil
 \item \(\Uparrow\) urine thyamine
@@ -1739,16 +1743,16 @@ exception of erythrocytes
 \end{itemize}
 
 \item Treatment
-\label{sec:org0934659}
+\label{sec:orge702702}
 \begin{itemize}
 \item infantile: none
 \item adult: avoid 5-fluorouracil
 \end{itemize}
 \end{enumerate}
 \section{Porphyrias}
-\label{sec:orgb136f27}
+\label{sec:org4ac749b}
 \subsection{Introduction}
-\label{sec:org6b61b7f}
+\label{sec:orgf8a889e}
 \begin{itemize}
 \item porphyria is a group of disorders caused by abnormalities in the
 chemical steps that lead to heme production
@@ -1788,19 +1792,19 @@ and may be deeply colored
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./porphyrins/figures/heme_synth.png}
-\caption{\label{fig:org5ef9429}
+\caption{\label{fig:org90a9447}
 Heme Synthesis}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./porphyrins/figures/Slide19.png}
-\caption{\label{fig:org70ef7ad}
+\caption{\label{fig:org4421941}
 Heme Synthesis}
 \end{figure}
 
 \begin{table}[htbp]
-\caption{\label{tab:org011f94b}
+\caption{\label{tab:orgf96b409}
 Route of excretion dictated by solubility for porphyrin precursors}
 \centering
 \begin{tabular}{ll}
@@ -1816,7 +1820,7 @@ Proto & fecal\\
 \end{table}
 
 \begin{table}[htbp]
-\caption{\label{tab:org14812d9}
+\caption{\label{tab:orge3c6ca0}
 Porphyrin Function}
 \centering
 \begin{tabular}{ll}
@@ -1832,7 +1836,7 @@ tryptophan pyrolase & tryptophan oxidation\\
 \end{table}
 
 \begin{table}[htbp]
-\caption{\label{tab:org204c308}
+\caption{\label{tab:orgf66db59}
 Main types of human porphyrias}
 \centering
 \begin{tabular}{llll}
@@ -1858,7 +1862,7 @@ FECH & \(\downarrow\) & EPP & C\\
 \end{table}
 
 \subsubsection{Clinical Classification of the Porphyrias}
-\label{sec:org40eee47}
+\label{sec:orgd529ef9}
 \begin{itemize}
 \item Acute \textbf{Neurovisceral attacks}
 \begin{itemize}
@@ -1877,7 +1881,7 @@ FECH & \(\downarrow\) & EPP & C\\
 \end{itemize}
 
 \begin{table}[htbp]
-\caption{\label{tab:orgc22afbf}
+\caption{\label{tab:orgdb85d3d}
 Main types of human porphyrias: Classification by onset}
 \centering
 \begin{tabular}{llllll}
@@ -1899,9 +1903,9 @@ EPP & FECH & 1:140,000 & - & photosensitive,bullae & erythropoietic\\
 \end{table}
 
 \subsection{Acute Porphyrias}
-\label{sec:org4ceb6cb}
+\label{sec:orgc22e4ee}
 \subsubsection{Clinical Features}
-\label{sec:org353578e}
+\label{sec:org587f4e3}
 \begin{itemize}
 \item life threatening neuroviseral attack occur in AIP,VP and HCP
 are clinically identical
@@ -1915,7 +1919,7 @@ are clinically identical
 \end{itemize}
 
 \begin{table}[htbp]
-\caption{\label{tab:orgf0a0e0c}
+\caption{\label{tab:orga361b4e}
 Clinical features of acute neuroviseral attacks}
 \centering
 \begin{tabular}{lr}
@@ -1943,7 +1947,7 @@ Hyponatremia & 37\\
 \end{itemize}
 \begin{enumerate}
 \item Precipitating factors
-\label{sec:org1d87f18}
+\label{sec:orgff16909}
 \begin{enumerate}
 \item drugs
 \item alcohol, especially binge drinking
@@ -1953,13 +1957,13 @@ Hyponatremia & 37\\
 \item stress
 \end{enumerate}
 \item Drugs
-\label{sec:orgeeac2fd}
+\label{sec:org7c0e963}
 \begin{itemize}
 \item barbiturates, sulfonamides, progestogens, anticonvulsants
 \item \url{http://www.drugs-porphyria.org}
 \end{itemize}
 \item Long term complications
-\label{sec:orge934130}
+\label{sec:orgba6915a}
 \begin{itemize}
 \item chronic renal failure
 \item hypertension
@@ -1968,10 +1972,10 @@ Hyponatremia & 37\\
 \end{enumerate}
 
 \subsubsection{Metabolic Derangement}
-\label{sec:org3f72ef5}
+\label{sec:org8b8a1b9}
 \begin{enumerate}
 \item ALA Dehydratase Porphyria
-\label{sec:orgb1c8364}
+\label{sec:org137e4fb}
 \begin{itemize}
 \item ALAD: Aminolevulinic Acid Dehydratase
 \begin{itemize}
@@ -1986,7 +1990,7 @@ Hyponatremia & 37\\
 \end{itemize}
 
 \item Acute Intermittent Porphyria
-\label{sec:orgf4c2e90}
+\label{sec:org8419a44}
 \begin{itemize}
 \item HMBS: Hydroxymethylbilane Synthase
 \item AD inheritance HMBS
@@ -2006,7 +2010,7 @@ condensation of micro-molar concentrations of PBG
 \end{itemize}
 
 \item Hereditary Coproporphyria
-\label{sec:org1ca4ab5}
+\label{sec:orgbe18397}
 \begin{itemize}
 \item CPOX: Coproporphyrinogen Oxidase
 \item AD inheritance CPOX
@@ -2022,7 +2026,7 @@ condensation of micro-molar concentrations of PBG
 \end{itemize}
 
 \item Varigate Porphyria
-\label{sec:org52a5df8}
+\label{sec:org17546a6}
 \begin{itemize}
 \item PPOX: Protoporphyrinogen Oxidase
 \item AD inheritance w reduced penetrance PPOX
@@ -2039,10 +2043,10 @@ condensation of micro-molar concentrations of PBG
 \end{enumerate}
 
 \subsubsection{Diagnostic Tests}
-\label{sec:org0ec0e5f}
+\label{sec:orgfe827f3}
 \begin{enumerate}
 \item Acute Attack
-\label{sec:orgd65716c}
+\label{sec:org85b0e73}
 \begin{itemize}
 \item during an acute attack \textbf{a normal PBG essentially excludes all acute
 neuro-visceral porphyrias}
@@ -2062,7 +2066,7 @@ advisable even if PBG is normal
 \end{itemize}
 
 \item Non-AIP Acute Porphyrias
-\label{sec:org97cbadb}
+\label{sec:org7ae0f05}
 \begin{itemize}
 \item VP and HCP may not have skin lesions \(\to\) fecal porphyrins
 \begin{itemize}
@@ -2078,7 +2082,7 @@ advisable even if PBG is normal
 \end{itemize}
 \end{enumerate}
 \subsubsection{Treatment}
-\label{sec:org68c8b32}
+\label{sec:org69de82e}
 \begin{itemize}
 \item acute
 \begin{itemize}
@@ -2094,9 +2098,9 @@ advisable even if PBG is normal
 \end{itemize}
 
 \subsection{Non-Acute Porphyrias}
-\label{sec:orgfd4ffcb}
+\label{sec:orga41dbbf}
 \subsubsection{X-Linked Sideroblastic Anemia}
-\label{sec:orge828f47}
+\label{sec:org8367ec2}
 \begin{itemize}
 \item ALAS: 5-aminolevulinate synthase
 \begin{itemize}
@@ -2108,10 +2112,10 @@ sideroblasts
 \end{itemize}
 \end{itemize}
 \subsubsection{Porphyria Cutanea Tarda}
-\label{sec:org0c5988e}
+\label{sec:org1d2678c}
 \begin{enumerate}
 \item Clincal Presentation
-\label{sec:org86fb4aa}
+\label{sec:orgda18086}
 \begin{itemize}
 \item both sexes
 \item most common porphyria
@@ -2128,7 +2132,7 @@ sideroblasts
 \end{itemize}
 \end{itemize}
 \item Metabolic Derangement
-\label{sec:org9f0c847}
+\label{sec:org4baef47}
 \begin{itemize}
 \item UROD: uroporphyrinogen decarboxylase
 \item last cytoplasmic enzyme, \(\downarrow\) polar
@@ -2147,7 +2151,7 @@ sideroblasts
 \item \(\downarrow\) UROD \(\to\) increase in intermediates and uroporphyrins
 \end{itemize}
 \item Genetics
-\label{sec:org4797feb}
+\label{sec:org4a3d469}
 \begin{itemize}
 \item acquired PCT (type I)
 \begin{itemize}
@@ -2160,7 +2164,7 @@ sideroblasts
 \end{itemize}
 \end{itemize}
 \item Diagnostic Tests
-\label{sec:org6853846}
+\label{sec:org0b11948}
 \begin{itemize}
 \item urine porphyrin quantitation
 \begin{itemize}
@@ -2168,7 +2172,7 @@ sideroblasts
 \end{itemize}
 \end{itemize}
 \item Treatment
-\label{sec:org6c2ab78}
+\label{sec:orgb36c4e5}
 \begin{itemize}
 \item \(\downarrow\) exposure to light
 \item iron depletion
@@ -2176,10 +2180,10 @@ sideroblasts
 \end{itemize}
 \end{enumerate}
 \subsubsection{Congential Erythropoietic Porphyria}
-\label{sec:org88fce0a}
+\label{sec:orgc4560e7}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org40a7202}
+\label{sec:orgdf3cabb}
 \begin{itemize}
 \item varying severity
 \begin{itemize}
@@ -2198,7 +2202,7 @@ hemolytic anemia
 \item skin changes usually accompanied by hemolytic anemia and splenomegaly
 \end{itemize}
 \item Metabolic Derangement
-\label{sec:org1e35861}
+\label{sec:org1b965b0}
 \begin{itemize}
 \item UROS: uroporphyrinogen III synthase
 \item \(\downarrow\) UROS \(\to\) \(\uparrow\) UI
@@ -2209,7 +2213,7 @@ hemolytic anemia
 \end{itemize}
 \end{itemize}
 \item Genetics
-\label{sec:org041eeab}
+\label{sec:org9f906a4}
 \begin{itemize}
 \item least common, most severe of the cutaneous porphyrias, < 1:million in UK
 \item AR, UROS
@@ -2223,7 +2227,7 @@ hemolytic anemia
 \end{itemize}
 
 \item Diagnostic tests
-\label{sec:orgeedb598}
+\label{sec:org5002b85}
 \begin{itemize}
 \item urine porphyrin quantitation
 \begin{itemize}
@@ -2237,7 +2241,7 @@ hemolytic anemia
 \end{itemize}
 
 \item Treatment
-\label{sec:org21517a2}
+\label{sec:orgd4c0062}
 \begin{itemize}
 \item \(\downarrow\) UV exposure
 \item curative treatment - allogenic bone marrow transplantation
@@ -2246,10 +2250,10 @@ hemolytic anemia
 \end{enumerate}
 
 \subsubsection{Erythropoietic Protoporphyria}
-\label{sec:org1186136}
+\label{sec:orga402228}
 \begin{enumerate}
 \item Clinical Features
-\label{sec:org9bc9bd1}
+\label{sec:orgc646a91}
 \begin{itemize}
 \item life long acute photosensitivity due to \(\uparrow\) protoporphyrin-IX
 in the skin
@@ -2268,7 +2272,7 @@ distinguishes it from all other cutaneous porphyrias
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:org66de7c5}
+\label{sec:orgaa6c41a}
 \begin{itemize}
 \item FECH: ferrochelatase
 \item threshold FECH activity = 35\% \(\to\) \(\uparrow\) protoporphyrin
@@ -2281,7 +2285,7 @@ distinguishes it from all other cutaneous porphyrias
 \end{itemize}
 
 \item Genetics
-\label{sec:orgf11f992}
+\label{sec:orgfc08873}
 \begin{itemize}
 \item AR, FECH
 \item X-linked dominant protoporphyria (XLDPP)
@@ -2292,13 +2296,13 @@ distinguishes it from all other cutaneous porphyrias
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org8079d40}
+\label{sec:orga165bea}
 \begin{itemize}
 \item \(\Uparrow\) \(\Uparrow\) \(\Uparrow\) RBC free protoporphyrin
 \end{itemize}
 
 \item Treatment
-\label{sec:org1daf6ed}
+\label{sec:org02a2980}
 \begin{itemize}
 \item avoid sunlight
 \item annual LFTs
@@ -2308,12 +2312,12 @@ distinguishes it from all other cutaneous porphyrias
 \end{enumerate}
 
 \subsection{Secondary Causes}
-\label{sec:org59ba067}
+\label{sec:orgc322b49}
 \begin{itemize}
 \item more common cause of abnormal porphyrin metabolism than porphyria
 \end{itemize}
 \subsubsection{Lead and Other Heavy Metals}
-\label{sec:orgc7b3175}
+\label{sec:orgb3b6414}
 \begin{itemize}
 \item lead exposure \(\uparrow\) urinary ALA and coproporphyrin III excretion
 and accumulation of ZN-protoporphyrin in erythrocytes
@@ -2329,7 +2333,7 @@ substrate for FECH
 \end{itemize}
 \end{itemize}
 \subsubsection{Secondary Coproporphyrinuria: Hepatobiliary and other Disorders}
-\label{sec:org1627f0c}
+\label{sec:orga159441}
 \begin{itemize}
 \item most common cause of abnormal porphyrin excretion
 \begin{description}
@@ -2348,7 +2352,7 @@ substrate for FECH
 \end{itemize}
 
 \subsubsection{Increased Fecal Porphyrin Concentration}
-\label{sec:orge8d7786}
+\label{sec:orgfa5c976}
 \begin{itemize}
 \item protoporphyrin and other dicarboxylic porphyrins derived from
 bacterial metabolism
@@ -2368,7 +2372,7 @@ VP
 \end{itemize}
 
 \subsubsection{Increase Plasma Porphyrin Concentration: Renal and other Disorders}
-\label{sec:org3bdfc8a}
+\label{sec:orgab1ef60}
 \begin{itemize}
 \item plasma porphyrin concentration increased due to \(\downarrow\) renal or
 hepatobiliary excretion is impaired
@@ -2380,7 +2384,7 @@ hepatobiliary excretion is impaired
 \end{itemize}
 \end{itemize}
 \subsubsection{Hematologic Disorders}
-\label{sec:org404b7a8}
+\label{sec:org702e18b}
 \begin{itemize}
 \item iron deficiency anemia, Zn acts as alternate substrate for FECH
 \begin{itemize}
@@ -2389,7 +2393,7 @@ hepatobiliary excretion is impaired
 \end{itemize}
 \end{itemize}
 \subsubsection{Hereditary Tyrosinemia Type I}
-\label{sec:orgebdf96b}
+\label{sec:orge145f0e}
 \begin{itemize}
 \item \(\uparrow\) succinylacetone resembles ALA, inhibits ALAD
 \begin{itemize}

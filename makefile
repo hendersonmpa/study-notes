@@ -5,12 +5,14 @@ all: $(OUT_DIR)organelles.pdf $(OUT_DIR)energy.pdf $(OUT_DIR)carbohydrate.pdf \
 $(OUT_DIR)lipids_bile.pdf $(OUT_DIR)misc.pdf $(OUT_DIR)vitamins.pdf $(OUT_DIR)aa.pdf \
 $(OUT_DIR)methods.pdf $(OUT_DIR)conditions.pdf $(OUT_DIR)tnt.pdf clean
 
-$(OUT_DIR)organelles.pdf: ./organelles/organelles.org ./organelles/fabry/fabry.org ./organelles/farber/farber.org \
-./organelles/gaucher/gaucher.org ./organelles/GM1_2/gm1.org ./organelles/GM1_2/gm2.org \
-./organelles/krabbe/krabbe.org ./organelles/mld/mld.org ./organelles/mps/mps.org \
+$(OUT_DIR)organelles.pdf: ./organelles/organelles.org ./organelles/fabry/fabry.org \
+./organelles/farber/farber.org ./organelles/gaucher/gaucher.org \
+./organelles/GM1_2/gm1.org ./organelles/GM1_2/gm2.org ./organelles/krabbe/krabbe.org \
+./organelles/mld/mld.org ./organelles/mps/mps.org \
 ./organelles/mucolipidosis/mucolipidosis.org ./organelles/oligosaccharidoses/oligosaccharidoses.org \
 ./organelles/niemann_pick/niemann_pickab.org ./organelles/niemann_pick/niemann_pickc.org \
-./organelles/sphingolipid_synthesis/sphingolipid_synthesis.org ./organelles/peroxisomes/peroxisomes.org \
+./organelles/sphingolipid_synthesis/sphingolipid_synthesis.org \
+./organelles/peroxisomes/peroxisomes.org \
 ./organelles/cdg/cdg.org ./organelles/cystinosis/cystinosis.org ./organelles/ncl/ncl.org
 	emacs -u "$(id -un)" \
 	--batch \
@@ -30,11 +32,13 @@ $(OUT_DIR)energy.pdf: ./energy/energy.org ./energy/oxphos/oxphos.org \
 	mv -v ./energy/energy.pdf $(OUT_DIR)energy.pdf
 
 
-$(OUT_DIR)carbohydrate.pdf: ./carbohydrate/carbohydrate.org ./carbohydrate/carbohydrate_metabolism/carbohydrate_metabolism.org \
-./carbohydrate/galactose/galactose.org ./carbohydrate/hepatic_glycogenoses/hepatic_glycogenoses.org \
-./carbohydrate/muscle_cardiac_glycogenoses/muscle_cardiac_glycogenoses.org \
-./carbohydrate/glycolysis_ppp/glycolysis_ppp.org ./carbohydrate/fructose/fructose.org \
-./carbohydrate/insulin/insulin.org ./carbohydrate/glucose_transport/glucose_transport.org
+$(OUT_DIR)carbohydrate.pdf: ./carbohydrate/carbohydrate.org
+./carbohydrate/carbohydrate_metabolism/carbohydrate_metabolism.org \
+./carbohydrate/galactose/galactose.org ./carbohydrate/fructose/fructose.org \
+./carbohydrate/glycolysis_ppp/glycolysis_ppp.org ./carbohydrate/insulin/insulin.org \
+./carbohydrate/glucose_transport/glucose_transport.org \
+./carbohydrate/hepatic_glycogenoses/hepatic_glycogenoses.org \
+./carbohydrate/muscle_cardiac_glycogenoses/muscle_cardiac_glycogenoses.org
 	emacs -u "$(id -un)" \
 	--batch \
 	--eval '(load user-init-file)' \
@@ -81,9 +85,9 @@ $(OUT_DIR)aa.pdf: ./aa/aa.org ./aa/phe/phe.org ./aa/tyr/tyr.org ./aa/sulfur/sulf
 	-f org-latex-export-to-pdf
 	mv -v ./aa/aa.pdf $(OUT_DIR)aa.pdf
 
-$(OUT_DIR)conditions.pdf: ./conditions/conditions.org ./conditions/cancer.org ./conditions/clinical.org \
-./conditions/complex.org ./conditions/cytogenetics.org ./conditions/metabolics.org \
-./conditions/molecular.org ./conditions/neurogenetics.org
+$(OUT_DIR)conditions.pdf: ./conditions/conditions.org ./conditions/cancer.org \
+./conditions/clinical.org ./conditions/complex.org ./conditions/cytogenetics.org \
+./conditions/metabolics.org ./conditions/molecular.org ./conditions/neurogenetics.org
 	emacs -u "$(id -un)" \
 	--batch \
 	--eval '(load user-init-file)' \
@@ -91,9 +95,10 @@ $(OUT_DIR)conditions.pdf: ./conditions/conditions.org ./conditions/cancer.org ./
 	-f org-latex-export-to-pdf
 	mv -v ./conditions/conditions.pdf $(OUT_DIR)conditions.pdf
 
-$(OUT_DIR)methods.pdf: ./methods/ac/ac.org ./methods/aa/aa.org ./methods/oa/oa.org \
-./methods/mito/mito.org ./methods/glyc/glyc.org ./methods/niet/niet.org \
-./methods/porphyrins/porphyrins.org ./methods/enzymes/enzymes.org
+$(OUT_DIR)methods.pdf: ./methods/methods.org ./methods/aa/aa.org  ./methods/ac/ac.org \
+./methods/aaac/aaac.org ./methods/oa/oa.org ./methods/mito/mito.org \
+./methods/glyc/glyc.org ./methods/niet/niet.org ./methods/porphyrins/porphyrins.org \
+./methods/enzymes/enzymes.org
 	emacs -u "$(id -un)" \
 	--batch \
 	--eval '(load user-init-file)' \

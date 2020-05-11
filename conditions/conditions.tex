@@ -1,4 +1,4 @@
-% Created 2020-04-07 Tue 20:44
+% Created 2020-05-11 Mon 14:12
 % Intended LaTeX compiler: pdflatex
 \documentclass{scrartcl}
 \usepackage[utf8]{inputenc}
@@ -28,8 +28,12 @@
 \usepackage{tikz}
 \usepackage{wasysym}
 \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
-\usepackage{fancyhdr}
-\pagestyle{fancy}
+\usepackage[automark, autooneside=false, headsepline, footsepline]{scrlayer-scrpage}
+\clearpairofpagestyles
+\ihead{\leftmark}% section on the inner (oneside: right) side
+\ohead{\rightmark}% subsection on the outer (oneside: left) side
+\addtokomafont{pagehead}{\upshape}% header upshape instead of italic
+\pagestyle{scrheadings}
 \author{Matthew Henderson, PhD, FCACB}
 \date{\today}
 \title{Genetic Conditions}
@@ -38,7 +42,7 @@
  pdftitle={Genetic Conditions},
  pdfkeywords={},
  pdfsubject={},
- pdfcreator={Emacs 26.1 (Org mode 9.1.9)}, 
+ pdfcreator={Emacs 26.3 (Org mode 9.1.9)}, 
  pdflang={English}}
 \begin{document}
 
@@ -48,12 +52,12 @@
 
 
 \section{Cancer Genetics}
-\label{sec:orgcf73110}
+\label{sec:org5ea1d1f}
 \subsection{Tuberous sclerosis}
-\label{sec:org2481d8b}
+\label{sec:org334b46a}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:orga8b5269}
+\label{sec:org16215e8}
 \begin{itemize}
 \item TSC involves abnormalities of the:
 \begin{description}
@@ -74,7 +78,7 @@ pneumonocyte hyperplasia.
 \end{itemize}
 
 \item Diagnosis
-\label{sec:orge889984}
+\label{sec:org8432676}
 \begin{itemize}
 \item TSC is established in a proband with one of the following:
 \begin{itemize}
@@ -86,7 +90,7 @@ TSC2 by molecular genetic testing
 \end{itemize}
 
 \item Genetic Counseling
-\label{sec:org2e0ac18}
+\label{sec:org275ac3f}
 \begin{itemize}
 \item AD
 \item Two thirds of affected individuals have TSC as the result of a \emph{de novo} pathogenic variant.
@@ -97,7 +101,7 @@ preimplantation genetic diagnosis are possible.
 \end{itemize}
 
 \item Pathophysiology
-\label{sec:org9279e96}
+\label{sec:org5175bc9}
 \begin{itemize}
 \item Tuberin (TSC1) and hamartin (TSC2) are key regulators of the
 AKT/mTOR signaling pathway and to participate in several other
@@ -107,10 +111,10 @@ CDK, autophagy, and cell cycle pathways
 \end{enumerate}
 
 \subsection{Hereditary breast cancer}
-\label{sec:org2baeb8b}
+\label{sec:orge261997}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:orgc101b7b}
+\label{sec:org9de624d}
 \begin{itemize}
 \item BRCA1- and BRCA2-associated hereditary breast and ovarian cancer
 syndrome (HBOC) is characterized by an increased risk for female and
@@ -126,7 +130,7 @@ pathogenic variant
 caused by a BRCA1 or BRCA2 pathogenic variant
 \end{itemize}
 \item Diagnosis
-\label{sec:org5a127e6}
+\label{sec:org21bc1bf}
 \begin{itemize}
 \item The diagnosis of BRCA1 and BRCA2 HBOC is established in a proband by
 identification of a heterozygous germline pathogenic variant in
@@ -134,7 +138,7 @@ BRCA1 or BRCA2 on molecular genetic testing.
 \end{itemize}
 
 \item Genetic Counseling
-\label{sec:orga90a259}
+\label{sec:org73c2112}
 \begin{itemize}
 \item Germline pathogenic variants in BRCA1 and BRCA2 are inherited in an
 autosomal dominant manner
@@ -150,7 +154,7 @@ pathogenic variant have a parent affected with cancer
 \end{itemize}
 
 \item Pathophysiology
-\label{sec:org5430398}
+\label{sec:org7fc65b0}
 \begin{itemize}
 \item BRCA1 interacts with several proteins involved in cellular pathways,
 including cell-cycle progression, gene transcription regulation, DNA
@@ -159,10 +163,10 @@ damage response, and ubiquitination
 \end{itemize}
 \end{enumerate}
 \subsection{Chronic myelogenous leukemia (CML)}
-\label{sec:orgfd27571}
+\label{sec:org383f180}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:org0441db3}
+\label{sec:orgca43549}
 \begin{itemize}
 \item CML is a cancer of the white blood cells
 \item It is a form of leukemia characterized by the increased and
@@ -177,7 +181,7 @@ chromosome
 \end{itemize}
 
 \item Diagnosis
-\label{sec:org83b26de}
+\label{sec:orgea6cf1b}
 \begin{itemize}
 \item CML is often suspected on the basis of a complete blood count,
 \begin{itemize}
@@ -197,7 +201,7 @@ PCR.
 \end{itemize}
 
 \item Pathophysiology
-\label{sec:org0232841}
+\label{sec:orgf34fef7}
 \begin{itemize}
 \item Chromosomal translocation where parts of two chromosomes (the 9th
 and 22nd) switch places.
@@ -211,10 +215,10 @@ product is also a tyrosine kinase
 \end{itemize}
 \end{enumerate}
 \subsection{Familial adenomatous polyposis}
-\label{sec:org570b5b6}
+\label{sec:orge0d1b47}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:org17541fe}
+\label{sec:org43a2c19}
 \begin{itemize}
 \item FAP is a colon cancer predisposition syndrome in which hundreds to
 thousands of adenomatous colonic polyps develop, beginning, on
@@ -232,7 +236,7 @@ colectomy, colon cancer is inevitable.
 \end{itemize}
 
 \item Diagnosis
-\label{sec:org69136b7}
+\label{sec:org99c819e}
 \begin{itemize}
 \item suspected in an individual with suggestive personal and/or family
 history features and confirmed by identification of a heterozygous
@@ -240,7 +244,7 @@ germline pathogenic variant in APC.
 \end{itemize}
 
 \item Genetic Counseling
-\label{sec:orgcb8120a}
+\label{sec:org56bf482}
 \begin{itemize}
 \item AD
 \item \textasciitilde{}75\%-80\% of individuals with an APC-associated polyposis condition
@@ -252,7 +256,7 @@ if a pathogenic variant has been identified in an affected family
 member.
 \end{itemize}
 \item Pathophysiology
-\label{sec:org16aafab}
+\label{sec:orga558947}
 \begin{itemize}
 \item The APC protein product is a tumor suppressor.
 \item APC appears to prevent accumulation of cytosolic beta-catenin and
@@ -261,13 +265,13 @@ probably through its regulation of beta-catenin.
 \end{itemize}
 \end{enumerate}
 \subsection{Hereditary non-polyposis colon cancer (HNPCC)}
-\label{sec:org4853105}
+\label{sec:orgc18b107}
 \begin{itemize}
 \item AKA: Lynch Syndrome
 \end{itemize}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:org95a4e6e}
+\label{sec:org21463d9}
 \begin{itemize}
 \item increased risk for colorectal cancer (CRC) and cancers of the
 endometrium, stomach, ovary, small bowel, hepatobiliary tract,
@@ -287,7 +291,7 @@ substantially increased over general population rates
 \end{itemize}
 
 \item Diagnosis
-\label{sec:orgabb009a}
+\label{sec:org2679969}
 \begin{itemize}
 \item Lynch syndrome is established in a proband by identification of a
 germline heterozygous pathogenic variant in MLH1, MSH2, MSH6, or
@@ -295,7 +299,7 @@ PMS2 or an EPCAM deletion on molecular genetic testing.
 \end{itemize}
 
 \item Genetic Counseling
-\label{sec:org4bc1497}
+\label{sec:orgbe2cb28}
 \begin{itemize}
 \item AD
 \item The majority of individuals diagnosed with Lynch syndrome have
@@ -312,7 +316,7 @@ the pathogenic variant in the family is known.
 \end{itemize}
 
 \item Pathophysiology
-\label{sec:orgfdf802c}
+\label{sec:org589527c}
 \begin{itemize}
 \item EPCAM 2p21	Epithelial cell adhesion molecule
 \begin{itemize}
@@ -331,10 +335,10 @@ Lynch syndrome
 \end{enumerate}
 
 \subsection{Li-Fraumeni syndrome}
-\label{sec:org1586441}
+\label{sec:orgcc28ea1}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:orgd4c9012}
+\label{sec:org89d3e93}
 \begin{itemize}
 \item LFS is a cancer predisposition syndrome associated with the
 development of the following classic tumors:
@@ -352,7 +356,7 @@ survivors have an increased risk for multiple primary cancers.
 \end{itemize}
 
 \item Diagnosis
-\label{sec:org9548def}
+\label{sec:orgbb5b620}
 \begin{itemize}
 \item LFS is diagnosed in individuals meeting established clinical
 criteria or in those who have a germline pathogenic variant in TP53
@@ -363,7 +367,7 @@ far identified in which pathogenic variants are definitively
 associated with LFS.
 \end{itemize}
 \item Genetic Counseling
-\label{sec:org4568251}
+\label{sec:org3105499}
 \begin{itemize}
 \item AD
 \item 7-20\% \emph{de novo} germline TP53 pathogenic variant
@@ -375,7 +379,7 @@ heritable pathogenic variant in the family has been identified.
 \end{itemize}
 
 \item Pathophysiology
-\label{sec:org126fea3}
+\label{sec:org7e5c226}
 \begin{itemize}
 \item TP53 has been called "the guardian of the genome" and its protein
 plays major roles in both the regulation of cell growth and the
@@ -389,10 +393,10 @@ eventually a malignant tumor.
 \end{enumerate}
 
 \subsection{Retinoblastoma}
-\label{sec:org43390b7}
+\label{sec:org759daca}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:orgb05059a}
+\label{sec:orgbc5c25c}
 \begin{itemize}
 \item Retinoblastoma is a malignant tumor of the developing retina that occurs in children, usually before age five years
 \item Retinoblastoma develops from cells that have cancer-predisposing variants in both copies of RB1
@@ -404,7 +408,7 @@ eventually a malignant tumor.
 \end{itemize}
 
 \item Diagnosis
-\label{sec:orga81c089}
+\label{sec:org0e71e4e}
 \begin{itemize}
 \item established by examination of the fundus of the eye using indirect
 ophthalmoscopy
@@ -438,7 +442,7 @@ variant identified in blood
 \end{itemize}
 
 \item Genetic Counseling
-\label{sec:orgceafad4}
+\label{sec:org3d1eba7}
 \begin{itemize}
 \item AD
 \item Individuals with heritable retinoblastoma (H1) have a heterozygous
@@ -451,7 +455,7 @@ member.
 \end{itemize}
 
 \item Pathophysiology
-\label{sec:orgdaac9ed}
+\label{sec:org00be7e5}
 \begin{itemize}
 \item RB1 encodes a ubiquitously expressed nuclear protein that is
 involved in cell cycle regulation (G1 to S transition)
@@ -463,20 +467,20 @@ lost, resulting in the release of cellular proteins.
 \end{enumerate}
 
 \section{Clinical Genetics}
-\label{sec:org8d9a0bc}
+\label{sec:org2b98955}
 \subsection{{\bfseries\sffamily TODO} Duchenne/Becker Muscular Dystrophy}
-\label{sec:orgfc0bf37}
+\label{sec:org70d6a0c}
 \subsection{{\bfseries\sffamily TODO} Osteogenesis Imperfecta}
-\label{sec:orga571ed0}
+\label{sec:org1715f2c}
 \subsection{{\bfseries\sffamily TODO} Long QT syndrome}
-\label{sec:orgc20f29d}
+\label{sec:org2a98449}
 \subsection{{\bfseries\sffamily TODO} Marfan syndrome}
-\label{sec:org3c95e13}
+\label{sec:org8f7b75a}
 \subsection{Neurofibromatosis type I}
-\label{sec:org9ddf072}
+\label{sec:orgce1898c}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:orgf7b1d70}
+\label{sec:orgca76b4d}
 \begin{itemize}
 \item characterized by multiple café au lait spots, axillary and inguinal freckling, multiple cutaneous neurofibromas, iris Lisch nodules, and choroidal freckling
 \item \textasciitilde{} 50\% have plexiform neurofibromas, but most are internal and not suspected clinically
@@ -486,24 +490,24 @@ nervous system gliomas, malignant peripheral nerve sheath tumors,
 scoliosis, tibial dysplasia, and vasculopathy
 \end{itemize}
 \item Diagnostic Testing
-\label{sec:orgc847608}
+\label{sec:org0900867}
 \begin{itemize}
 \item usually based on clinical findings
 \item heterozygous pathogenic variants in NF1 are responsible for neurofibromatosis 1
 \item molecular genetic testing of NF1 is rarely needed for diagnosis
 \end{itemize}
 \item Genetic Counseling
-\label{sec:org8f5df23}
+\label{sec:org56a854b}
 \begin{itemize}
 \item AD, NF1
 \item 50\% due to \emph{de novo} NF1 pathogenic variant
 \end{itemize}
 \end{enumerate}
 \subsection{Neurofibromatosis type II}
-\label{sec:org8fce6e7}
+\label{sec:orga8f5fca}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:orgc0ab5a9}
+\label{sec:org3845adb}
 \begin{itemize}
 \item bilateral vestibular schwannomas with associated symptoms of tinnitus, hearing loss, and balance dysfunction
 \item average age of onset is 18 to 24 years
@@ -512,14 +516,14 @@ schwannomas by age 30 years
 \item NF2 is considered an adult-onset disease
 \end{itemize}
 \item Diagnostic Testing
-\label{sec:org4ba6d0b}
+\label{sec:org59d300e}
 \begin{itemize}
 \item consensus diagnostic criteria and/or by identification of a
 heterozygous pathogenic variant in NF2 on molecular genetic testing
 \end{itemize}
 
 \item Genetic Counseling
-\label{sec:orgb49681e}
+\label{sec:orge3fd3a3}
 \begin{itemize}
 \item AD, NF2
 \item 50\% with affected parent
@@ -528,10 +532,10 @@ heterozygous pathogenic variant in NF2 on molecular genetic testing
 \end{itemize}
 \end{enumerate}
 \subsection{{\bfseries\sffamily TODO} Smith-Lemli-Opitz syndrome}
-\label{sec:org43a67c1}
+\label{sec:org59aafcd}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:org3227e14}
+\label{sec:orgaf8701b}
 \begin{itemize}
 \item a congenital multiple-anomaly/cognitive impairment syndrome caused
 by an abnormality in cholesterol metabolism resulting from
@@ -545,7 +549,7 @@ and 2-3 syndactyly of the toes
 \item wide clinical spectrum
 \end{itemize}
 \item Diagnostic Testing
-\label{sec:org6ed375b}
+\label{sec:orgcde81ad}
 \begin{itemize}
 \item suggestive clinical features
 \item elevated 7-dehydrocholesterol level
@@ -557,28 +561,28 @@ individuals \(\therefore\) unreliable for screening and diagnosis
 \end{itemize}
 \end{itemize}
 \item Genetic Counseling
-\label{sec:org2c39e8b}
+\label{sec:org88a3478}
 \begin{itemize}
 \item AR, DHCR7
 \end{itemize}
 \end{enumerate}
 \subsection{{\bfseries\sffamily TODO} Noonan syndrome}
-\label{sec:org25a53bf}
+\label{sec:org1dd41e4}
 \subsection{{\bfseries\sffamily TODO} Charge syndrome}
-\label{sec:org7d3c5b5}
+\label{sec:org5516b7f}
 \subsection{{\bfseries\sffamily TODO} FGFR-related disorders (Craniosynostosis\ldots{})}
-\label{sec:org6d5f03b}
+\label{sec:org90ebb09}
 \subsection{{\bfseries\sffamily TODO} Factor V Leiden thrombophilia}
-\label{sec:orga95ea82}
+\label{sec:org8903af1}
 \subsection{{\bfseries\sffamily TODO} G6PD deficiency}
-\label{sec:org83169e2}
+\label{sec:orgd9461b4}
 \subsection{{\bfseries\sffamily TODO} Hemoglobinopathies (Sickle cell anemia, Alpha / Beta Thalassemia)}
-\label{sec:orge75c7c6}
+\label{sec:org88ca8a3}
 \subsection{Hemophilia A}
-\label{sec:orgf5663c8}
+\label{sec:org3ab59d0}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:orga4b81a0}
+\label{sec:org6607e8f}
 \begin{itemize}
 \item deficiency in factor VIII clotting activity that results in
 prolonged oozing after injuries, tooth extractions, or surgery, and
@@ -612,7 +616,7 @@ or tooth extractions
 \end{description}
 \end{itemize}
 \item Diagnostic Testing
-\label{sec:org8592cfa}
+\label{sec:orga6fa4e8}
 \begin{itemize}
 \item low factor VIII clotting activity in the presence of a normal,
 functional von Willebrand factor level
@@ -622,7 +626,7 @@ diagnosis.
 confirms the diagnosis.
 \end{itemize}
 \item Genetic Counseling
-\label{sec:orgc1b5ea0}
+\label{sec:orgb9b011d}
 \begin{itemize}
 \item X-linked, F8
 \item risk to sibs of a proband depends on the carrier status of the mother.
@@ -641,16 +645,16 @@ markers have been identified.
 \end{itemize}
 \end{enumerate}
 \subsection{Hemophilia B}
-\label{sec:org3a0470b}
+\label{sec:org544133a}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:orgbff35c5}
+\label{sec:orgd5d7aa6}
 \begin{itemize}
 \item deficiency in factor IX clotting
-\item same as Hemophilia A (section \ref{sec:orgf5663c8})
+\item same as Hemophilia A (section \ref{sec:org3ab59d0})
 \end{itemize}
 \item Diagnostic Testing
-\label{sec:orgb803cd8}
+\label{sec:org886055e}
 \begin{itemize}
 \item low factor IX clotting activity
 \item hemizygous F9 pathogenic variant in a male proband confirms the
@@ -659,17 +663,17 @@ diagnosis.
 confirms the diagnosis.
 \end{itemize}
 \item Genetic Counseling
-\label{sec:org4fe9be2}
+\label{sec:orgebe05e1}
 \begin{itemize}
 \item X-linked, F9
-\item same as Hemophilia A (section \ref{sec:orgf5663c8})
+\item same as Hemophilia A (section \ref{sec:org3ab59d0})
 \end{itemize}
 \end{enumerate}
 \subsection{Hemochromatosis}
-\label{sec:orgd67c3da}
+\label{sec:orga267234}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:org4f76976}
+\label{sec:org427171a}
 \begin{itemize}
 \item inappropriately high absorption of iron by the small intestinal
 mucosa.
@@ -688,12 +692,12 @@ mucosa.
 \end{itemize}
 
 \item Diagnostic Testing
-\label{sec:orgb5a57a8}
+\label{sec:org485f72a}
 \begin{itemize}
 \item biallelic HFE pathogenic variants on molecular genetic testing.
 \end{itemize}
 \item Genetic Counseling
-\label{sec:orgc7b9669}
+\label{sec:org5e02ac8}
 \begin{itemize}
 \item AR, HFE
 \begin{description}
@@ -725,30 +729,30 @@ clinical penetrance.
 \end{enumerate}
 
 \subsection{{\bfseries\sffamily TODO} SRY translocation}
-\label{sec:org0953984}
+\label{sec:orged09430}
 \subsection{{\bfseries\sffamily TODO} Turner syndrome}
-\label{sec:orgfac155d}
+\label{sec:orgb40e19b}
 \subsection{{\bfseries\sffamily TODO} Androgen insensitivity syndrome}
-\label{sec:org47fd9a2}
+\label{sec:org7f639bf}
 \subsection{{\bfseries\sffamily TODO} 21-Hydroxylase deficiency}
-\label{sec:org87e85da}
+\label{sec:org5c2d7b4}
 
 \section{Complex Inheritance}
-\label{sec:org2e35360}
+\label{sec:orgb25c181}
 \subsection{{\bfseries\sffamily TODO} Alzheimer disease}
-\label{sec:orgd52d4bb}
+\label{sec:org1af9db8}
 \subsection{{\bfseries\sffamily TODO} Congenital hearing loss}
-\label{sec:orgc67b0f9}
+\label{sec:orgbb0fdaa}
 \subsection{{\bfseries\sffamily TODO} Diabetes mellitus (insulin vs non-insulin dependent)}
-\label{sec:orga7ac4ae}
+\label{sec:org4b1e7c5}
 
 \section{Cytogenetics}
-\label{sec:orgd9f38aa}
+\label{sec:orgd9b6a8c}
 \subsection{Cri du chat syndrome}
-\label{sec:orgfbf6a7f}
+\label{sec:org545d8b8}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:org0a5054f}
+\label{sec:org96611a7}
 \begin{itemize}
 \item AKA 5p- (5p minus) syndrome
 \item infants often have a high-pitched cry that sounds like that of a
@@ -761,7 +765,7 @@ microcephaly, low birth weight, hypotonia
 \end{itemize}
 
 \item Diagnostic Testing
-\label{sec:org122cd31}
+\label{sec:org2bb74f6}
 \begin{itemize}
 \item CMA, karyotype for a 5p deletion
 \item size of the deletion varies among affected individuals
@@ -770,7 +774,7 @@ developmental delay than smaller deletions
 \end{itemize}
 
 \item Genetic Counseling
-\label{sec:org9b1ece4}
+\label{sec:org6d6ea9b}
 \begin{itemize}
 \item most cases are not inherited, result of a \emph{de novo} deletion
 \item \textasciitilde{} 10 percent of people with cri-du-chat syndrome inherit the
@@ -778,10 +782,10 @@ chromosome abnormality from an unaffected parent with a balanced translocation
 \end{itemize}
 \end{enumerate}
 \subsection{Pallister-Killian syndrome}
-\label{sec:orga7ab8a9}
+\label{sec:org3b34d24}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:orga814ef8}
+\label{sec:orgaaed13c}
 \begin{itemize}
 \item hypotonia in infancy and early childhood
 \item intellectual disability, distinctive facial features, sparse hair,
@@ -789,23 +793,23 @@ areas of unusual pigmentation, and other birth defects
 \end{itemize}
 
 \item Diagnostic Testing
-\label{sec:org4b11407}
+\label{sec:org28c6ef0}
 \begin{itemize}
 \item CMA, karyotype for mosaic isochromosome 12p (i(12p))
 \end{itemize}
 
 \item Genetic Counseling
-\label{sec:org5ddbe46}
+\label{sec:org00ab130}
 \begin{itemize}
 \item not inherited
 \end{itemize}
 \end{enumerate}
 
 \subsection{Triploidy}
-\label{sec:orgd89a248}
+\label{sec:org111ba3b}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:org38d7eda}
+\label{sec:org0d399bd}
 Triploidy can result from either two sperm fertilizing one egg
 (polyspermy) (60\%) or from one sperm fertilizing an egg with two
 copies of every chromosome (40\%)
@@ -826,25 +830,25 @@ meningocele (spina bifida) are also common
 \end{itemize}
 
 \item Diagnostic Testing
-\label{sec:orgbee7b6a}
+\label{sec:orgf72bfa4}
 \begin{itemize}
 \item \(\uparrow\) AFP
 \item RAD, karyotype
 \end{itemize}
 \item Genetic Counseling
-\label{sec:org8f6cfbc}
+\label{sec:org4ce9b77}
 \begin{itemize}
 \item not inherited
 \end{itemize}
 \end{enumerate}
 \subsection{Trisomy 13}
-\label{sec:org6b40f12}
+\label{sec:org7f79c9c}
 \begin{itemize}
 \item AKA Patau syndrome
 \end{itemize}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:orgdf9b182}
+\label{sec:org199cb60}
 \begin{itemize}
 \item severe intellectual disability and physical abnormalities in many parts of the body
 \item heart defects, brain or spinal cord abnormalities
@@ -854,13 +858,13 @@ meningocele (spina bifida) are also common
 \end{itemize}
 
 \item Diagnostic Testing
-\label{sec:orgcf39ce9}
+\label{sec:org5d84311}
 \begin{itemize}
 \item CMD, RAD, karyotype
 \end{itemize}
 
 \item Genetic Counseling
-\label{sec:orgd79f78a}
+\label{sec:org3beba89}
 \begin{itemize}
 \item 1 in 16,000 newborns
 \item women of any age can have a child with trisomy 13
@@ -870,13 +874,13 @@ meningocele (spina bifida) are also common
 \end{itemize}
 \end{enumerate}
 \subsection{Trisomy 18}
-\label{sec:org3a375b8}
+\label{sec:orgba0c8a8}
 \begin{itemize}
 \item AKA Edwards syndrome
 \end{itemize}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:org41b8808}
+\label{sec:org282c5f1}
 \begin{itemize}
 \item IUGR and LBW
 \item heart defects and abnormalities of other organs that develop before birth
@@ -887,13 +891,13 @@ severe intellectual disability
 \end{itemize}
 
 \item Diagnostic Testing
-\label{sec:org296ea1d}
+\label{sec:org666aaf1}
 \begin{itemize}
 \item CMD, RAD, karyotype
 \end{itemize}
 
 \item Genetic Counseling
-\label{sec:org987b24d}
+\label{sec:org9b96e37}
 \begin{itemize}
 \item 1 in 5000 live-born infants
 \item women of any age can have a child with trisomy 18
@@ -904,13 +908,13 @@ severe intellectual disability
 \end{enumerate}
 
 \subsection{Trisomy 21}
-\label{sec:orgd74bd9d}
+\label{sec:orgb2a8d3d}
 \begin{itemize}
 \item AKA Down syndrome
 \end{itemize}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:orgd93d462}
+\label{sec:org5d50c6b}
 \begin{itemize}
 \item intellectual disability, a characteristic facial appearance, hypotonia in infancy
 \begin{itemize}
@@ -919,13 +923,13 @@ severe intellectual disability
 \item \textasciitilde{}50\% have heart defects
 \end{itemize}
 \item Diagnostic Testing
-\label{sec:org661db82}
+\label{sec:org22baef2}
 \begin{itemize}
 \item CMD, RAD, karyotype
 \end{itemize}
 
 \item Genetic Counseling
-\label{sec:orgc547527}
+\label{sec:orge3883c8}
 \begin{itemize}
 \item 1 in 800 newborns
 \item women of any age can have a child with trisomy 21
@@ -935,10 +939,10 @@ severe intellectual disability
 \end{itemize}
 \end{enumerate}
 \subsection{Klinefelter syndrome}
-\label{sec:org074076d}
+\label{sec:orgdfc8f3c}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:org62823d2}
+\label{sec:org2aa26ce}
 \begin{itemize}
 \item boys and men, affects physical and intellectual development
 \item taller than average and infertile
@@ -946,23 +950,23 @@ severe intellectual disability
 \item reduced testosterone
 \end{itemize}
 \item Diagnostic Testing
-\label{sec:org725eee5}
+\label{sec:org4a8383b}
 \begin{itemize}
 \item 47,XXY karyotype
 \item mosaic Klinefelter syndrome 46,XY/47,XXY
 \end{itemize}
 
 \item Genetic Counseling
-\label{sec:orgc6fe96c}
+\label{sec:org07fbde1}
 \begin{itemize}
 \item not inherited
 \end{itemize}
 \end{enumerate}
 \subsection{Fanconi anemia}
-\label{sec:org8efb6e7}
+\label{sec:org62a9d49}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:org62e82bc}
+\label{sec:org5cac064}
 \begin{itemize}
 \item physical abnormalities, bone marrow failure, and increased risk for
 malignancy
@@ -975,7 +979,7 @@ genitourinary tract anomalies
 \end{itemize}
 
 \item Diagnostic Testing
-\label{sec:org2f75a7a}
+\label{sec:orgb92b8af}
 \begin{itemize}
 \item established in a proband with increased chromosome breakage and
 radial forms on cytogenetic testing of lymphocytes with
@@ -991,17 +995,17 @@ cause autosomal recessive FA
 \end{itemize}
 
 \item Genetic Counseling
-\label{sec:orge90f9e8}
+\label{sec:org111c8f3}
 \begin{itemize}
 \item AR, AD (RAD51) or X-linked (FANCB)
 \end{itemize}
 \end{enumerate}
 
 \subsection{Ataxia-telangiectasia}
-\label{sec:org45c58ca}
+\label{sec:org7334e58}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:org5c82696}
+\label{sec:orgec6eceb}
 \begin{itemize}
 \item progressive cerebellar ataxia beginning between ages one and four
 years, oculomotor apraxia, choreoathetosis, telangiectasias of the
@@ -1009,7 +1013,7 @@ conjunctivae, immunodeficiency, frequent infections, and an
 increased risk for malignancy, particularly leukemia and lymphoma
 \end{itemize}
 \item Diagnostic Testing
-\label{sec:orgcae1c8c}
+\label{sec:org961580a}
 \begin{itemize}
 \item diagnosis is established by the presence of biallelic (homozygous or
 compound heterozygous) ATM pathogenic variants or (when available)
@@ -1017,16 +1021,16 @@ by immunoblotting to test for absent or reduced ATM protein
 \end{itemize}
 
 \item Genetic Counseling
-\label{sec:org31e84bc}
+\label{sec:orge3ba02e}
 \begin{itemize}
 \item AR, ATM
 \end{itemize}
 \end{enumerate}
 \subsection{Williams syndrome}
-\label{sec:orgf3938ae}
+\label{sec:org9c2c7d0}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:org216ad52}
+\label{sec:org625ea5f}
 \begin{itemize}
 \item cardiovascular disease :elastin arteriopathy, peripheral pulmonary
 stenosis, supravalvar aortic stenosis, hypertension
@@ -1040,7 +1044,7 @@ attainment of motor milestones
 \end{itemize}
 
 \item Diagnostic Testing
-\label{sec:orga33e26e}
+\label{sec:org19bca9f}
 \begin{itemize}
 \item clinical diagnostic criteria
 \item diagnosis requires detection of a recurrent 7q11.23 contiguous gene deletion of the Williams-Beuren syndrome critical region (WBSCR) that encompasses the elastin gene (ELN)
@@ -1049,7 +1053,7 @@ attainment of motor milestones
 \end{itemize}
 \end{itemize}
 \item Genetic Counseling
-\label{sec:orge580267}
+\label{sec:orge5f406b}
 \begin{itemize}
 \item AD
 \item most \emph{de novo}
@@ -1057,10 +1061,10 @@ attainment of motor milestones
 \end{enumerate}
 
 \subsection{22q11 deletion syndrome}
-\label{sec:org3f7f2bc}
+\label{sec:org95bebba}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:orgad1944a}
+\label{sec:orga3e9afb}
 \begin{itemize}
 \item a contiguous gene deletion syndrome
 \item included phenotypes:
@@ -1087,13 +1091,13 @@ attainment of motor milestones
 \end{itemize}
 
 \item Diagnostic Testing
-\label{sec:org3068aae}
+\label{sec:orge7af08c}
 \begin{itemize}
 \item submicroscopic deletion of chromosome 22 by FISH, MLPA, CMA
 \end{itemize}
 
 \item Genetic Counseling
-\label{sec:orge46c128}
+\label{sec:org503fd0c}
 \begin{itemize}
 \item AD
 \item \textasciitilde{} 93\% \emph{de novo} deletion of 22q11.2
@@ -1102,54 +1106,54 @@ attainment of motor milestones
 \end{enumerate}
 
 \section{Metabolics}
-\label{sec:org3f72250}
+\label{sec:orga60cb73}
 \subsection{{\bfseries\sffamily TODO} Acute intermittent porphyria}
-\label{sec:orgb1bb03d}
+\label{sec:orgd7ba153}
 \subsection{{\bfseries\sffamily TODO} Alpha-1 antitrypsin deficiency}
-\label{sec:org72fc81d}
+\label{sec:orgc29f624}
 \subsection{{\bfseries\sffamily TODO} Canavan disease}
-\label{sec:org2f97222}
+\label{sec:orga4c3437}
 \subsection{{\bfseries\sffamily TODO} Gaucher disease}
-\label{sec:orgbc283d5}
+\label{sec:org5ba06ff}
 \subsection{{\bfseries\sffamily TODO} Homocystinuria (CBS deficiency)}
-\label{sec:org01292c4}
+\label{sec:org116a1b3}
 \subsection{{\bfseries\sffamily TODO} Hurler syndrome}
-\label{sec:orgf4658ff}
+\label{sec:org29e4c9f}
 \subsection{{\bfseries\sffamily TODO} I cell disease}
-\label{sec:org46a4422}
+\label{sec:orgd464af7}
 \subsection{{\bfseries\sffamily TODO} MCAD deficiency}
-\label{sec:org668c8d2}
+\label{sec:orgfc58df1}
 \subsection{{\bfseries\sffamily TODO} Mitochondrial DNA mutations}
-\label{sec:orgd118cf1}
+\label{sec:orgc51b829}
 \begin{itemize}
 \item (MERRF/MELAS/LHON, mtDNA deletion syndromes)
 \end{itemize}
 \subsection{{\bfseries\sffamily TODO} Ornithine transcarbamylase (OTC) deficiency}
-\label{sec:orgf5e9c1e}
+\label{sec:org909c7e6}
 \subsection{{\bfseries\sffamily TODO} Peroxisome biogenesis disorder (Zellweger)}
-\label{sec:org0a3ec77}
+\label{sec:orgb723241}
 \subsection{{\bfseries\sffamily TODO} Phenylketonuria}
-\label{sec:orga23b0b8}
+\label{sec:org5760fb1}
 \subsection{{\bfseries\sffamily TODO} Pompe disease}
-\label{sec:orga5816e6}
+\label{sec:org4b71fe9}
 \subsection{{\bfseries\sffamily TODO} Tay Sachs Disease}
-\label{sec:org7f02050}
+\label{sec:org686bac6}
 \subsection{{\bfseries\sffamily TODO} Tyrosinemia type I}
-\label{sec:orgc43b4d5}
+\label{sec:org556a137}
 \subsection{{\bfseries\sffamily TODO} X-linked Adrenoleukodystrophy}
-\label{sec:orgf45f8f3}
+\label{sec:org993ca91}
 \subsection{{\bfseries\sffamily TODO} Wilson disease}
-\label{sec:org9ea39bd}
+\label{sec:orgad4117a}
 \subsection{{\bfseries\sffamily TODO} Hyperprolinemia type I}
-\label{sec:orga8c0fa7}
+\label{sec:org165240c}
 
 \section{Molecular Genetics}
-\label{sec:orgf8a13ea}
+\label{sec:orge42cb27}
 \subsection{Cystic fibrosis}
-\label{sec:orga9405e7}
+\label{sec:org045f79d}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:org3620154}
+\label{sec:org39c90ff}
 \begin{itemize}
 \item Multisystem disease affecting epithelia of the respiratory tract, exocrine pancreas, intestine, hepatobiliary system, and exocrine sweat glands.
 \item Morbidities include progressive obstructive lung disease with bronchiectasis, frequent hospitalizations for pulmonary disease, pancreatic insufficiency and malnutrition, recurrent sinusitis and bronchitis, and male infertility.
@@ -1159,7 +1163,7 @@ attainment of motor milestones
 \end{itemize}
 
 \item Diagnostic Testing
-\label{sec:orgf179f90}
+\label{sec:org0347898}
 \begin{itemize}
 \item one or more characteristic phenotypic features and evidence of an abnormality in CFTR function
 \begin{itemize}
@@ -1178,7 +1182,7 @@ attainment of motor milestones
 \end{itemize}
 \end{itemize}
 \item Genetic Counseling
-\label{sec:orgc888882}
+\label{sec:org08f5f9b}
 \begin{itemize}
 \item AR , CFTR
 \item At conception, each sib of an affected individual with CF have:
@@ -1191,10 +1195,10 @@ attainment of motor milestones
 \end{itemize}
 \end{enumerate}
 \subsection{Achondroplasia}
-\label{sec:orgaba2409}
+\label{sec:orgc358edd}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:orgd9b70bb}
+\label{sec:org806b3ed}
 \begin{itemize}
 \item Most common cause of disproportionate short stature.
 \item Affected individuals have rhizomelic shortening of the limbs,
@@ -1210,7 +1214,7 @@ dysfunction, kyphosis, and spinal stenosis.
 \end{itemize}
 
 \item Diagnostic Testing
-\label{sec:orgbe679bd}
+\label{sec:org03dbafe}
 \begin{itemize}
 \item Diagnosed by characteristic clinical and radiographic findings in
 most affected individuals.
@@ -1220,7 +1224,7 @@ FGFR3 can establish the diagnosis.
 \end{itemize}
 
 \item Genetic Counseling
-\label{sec:orga88175b}
+\label{sec:org2251e05}
 \begin{itemize}
 \item AD, FGFR3
 \item \textasciitilde{}80\% of individuals with achondroplasia have parents with average
@@ -1248,10 +1252,10 @@ inheriting two dominant skeletal dysplasias.
 \end{itemize}
 \end{enumerate}
 \subsection{Huntington disease}
-\label{sec:org7f46299}
+\label{sec:orgd3a32aa}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:org6271980}
+\label{sec:org4a08cb5}
 \begin{itemize}
 \item a progressive disorder of motor, cognitive, and psychiatric
 disturbances.
@@ -1259,7 +1263,7 @@ disturbances.
 15 to 18 years after onset.
 \end{itemize}
 \item Diagnostic Testing
-\label{sec:org0bc7524}
+\label{sec:orgd08641f}
 \begin{itemize}
 \item diagnosis of HD rests on:
 \begin{itemize}
@@ -1293,7 +1297,7 @@ developing HD in their lifetime.
 \end{description}
 \end{itemize}
 \item Genetic Counseling
-\label{sec:orgb77a346}
+\label{sec:org6ac382c}
 \begin{itemize}
 \item AD, HTT
 \item Offspring of an individual with a pathogenic variant have a 50\% chance of inheriting the disease-causing allele.
@@ -1306,10 +1310,10 @@ developing HD in their lifetime.
 \end{itemize}
 \end{enumerate}
 \subsection{Fragile X}
-\label{sec:org64febf2}
+\label{sec:org6169937}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:org034c6d3}
+\label{sec:org1c6c511}
 \begin{itemize}
 \item Fragile X syndrome occurs in individuals with an FMR1 full mutation
 or other loss-of-function variant.
@@ -1335,7 +1339,7 @@ primary ovarian insufficiency are less severe forms due to smaller
 repeats
 \end{itemize}
 \item Diagnostic Testing
-\label{sec:org97baa8f}
+\label{sec:org3b1cd11}
 \begin{itemize}
 \item alteration in FMR1.
 \item \textgreater{} 99\% of individuals with fragile X syndrome have:
@@ -1350,7 +1354,7 @@ trinucleotide repeats (typically >200)
 \end{itemize}
 \end{itemize}
 \item Genetic Counseling
-\label{sec:orgebb7cb2}
+\label{sec:orgf462714}
 \begin{itemize}
 \item All mothers of individuals with an FMR1 full mutation (expansion
 >200 CGG trinucleotide repeats and abnormal methylation) are
@@ -1367,10 +1371,10 @@ FMR1-related disorder has been confirmed in a family member.
 \end{itemize}
 \end{enumerate}
 \subsection{Friedreich's ataxia}
-\label{sec:org497e3a7}
+\label{sec:org1619c64}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:org8dd5427}
+\label{sec:org7e9ca45}
 \begin{itemize}
 \item characterized by slowly progressive ataxia with onset usually before
 age 25 years (mean 10-15 yrs).
@@ -1386,7 +1390,7 @@ tendon reflexes.
 \end{itemize}
 \end{itemize}
 \item Diagnostic Testing
-\label{sec:org768d246}
+\label{sec:org9d10448}
 \begin{itemize}
 \item established in a proband by detection of biallelic pathogenic
 variants in FXN.
@@ -1410,7 +1414,7 @@ intragenic pathogenic variant on the other allele.
 
 Rare alleles of variant structure. In contrast to the alleles discussed above in which the GAA trinucleotides are perfect repeats, in rare pathogenic alleles the GAA repeats are not in perfect tandem order but rather are interrupted by other nucleotides. Such "interrupted FXN alleles" differ in length and types of nucleotides in the interruption, but they are typically close to the 3' end of the GAA repeat tract (see Molecular Genetics).
 \item Genetic Counseling
-\label{sec:org0cbdafe}
+\label{sec:org367e1f1}
 \begin{itemize}
 \item AR, FXN
 \item Each sib has a 25\% chance of being affected
@@ -1426,10 +1430,10 @@ an affected family member.
 \end{enumerate}
 
 \subsection{Myotonic dystrophy type I}
-\label{sec:orgc01a8f3}
+\label{sec:orge34fc65}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:org3515691}
+\label{sec:org7bc22d9}
 \begin{itemize}
 \item multisystem disorder that affects skeletal and smooth muscle as well
 as the eye, heart, endocrine system, and central nervous system.
@@ -1452,7 +1456,7 @@ early death; intellectual disability is common.
 \end{itemize}
 
 \item Diagnostic Testing
-\label{sec:org8498a9a}
+\label{sec:orgdcf4d9a}
 \begin{itemize}
 \item caused by expansion of a CTG trinucleotide repeat in the noncoding region of DMPK.
 \item molecular genetic testing of DMPK.
@@ -1468,7 +1472,7 @@ of affected individuals.
 \end{itemize}
 
 \item Genetic Counseling
-\label{sec:org9aa83a2}
+\label{sec:org66734b2}
 \begin{itemize}
 \item AD, DMPK
 \item Offspring of an affected individual have a 50\% chance of inheriting the expanded allele.
@@ -1483,10 +1487,10 @@ in an affected family member.
 \end{itemize}
 \end{enumerate}
 \subsection{Angelman syndrome}
-\label{sec:org8a99612}
+\label{sec:org72cfd26}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:orgd354906}
+\label{sec:org001b438}
 \begin{itemize}
 \item Severe developmental delay or intellectual disability, severe speech
 impairment, gait ataxia and/or tremulousness of the limbs
@@ -1501,12 +1505,12 @@ frequent laughing, smiling, and excitability.
 \end{itemize}
 
 \item Diagnostic Testing
-\label{sec:org9eec9a9}
+\label{sec:orgd3abd62}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.6\textwidth]{./figures/aspws.jpg}
-\caption{\label{fig:orgcccbef0}
+\caption{\label{fig:orgc77a10d}
 AS and PWS}
 \end{figure}
 
@@ -1528,7 +1532,7 @@ disorder as a result of an as-yet unidentified genetic mechanism
 \end{itemize}
 \end{itemize}
 \item Genetic Counseling
-\label{sec:org7555e34}
+\label{sec:org5fd5bb0}
 \begin{itemize}
 \item caused by disruption of maternally imprinted UBE3A located within
 the 15q11.2-q13 Angelman syndrome/Prader-Willi syndrome region.
@@ -1547,10 +1551,10 @@ chromosome rearrangement.
 \end{itemize}
 \end{enumerate}
 \subsection{Beckwith-Wiedemann syndrome}
-\label{sec:orge060a7d}
+\label{sec:org7b07380}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:orge9066e0}
+\label{sec:orgba205cf}
 \begin{itemize}
 \item growth disorder variably characterized by neonatal hypoglycemia,
 macrosomia, macroglossia, hemihyperplasia, omphalocele, embryonal
@@ -1566,7 +1570,7 @@ hypoglycemia, cardiomyopathy, macroglossia, or tumors.
 \end{itemize}
 
 \item Diagnostic Testing
-\label{sec:org43e69c2}
+\label{sec:org9e5a562}
 
 \begin{itemize}
 \item Cytogenetically detectable abnormalities involving chromosome 11p15
@@ -1592,12 +1596,12 @@ and 5\%-10\% of cases with no family history of BWS.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./figures/bws.png}
-\caption{\label{fig:org0553df3}
+\caption{\label{fig:org12d08ad}
 BWS Chromosome 11}
 \end{figure}
 
 \item Genetic Counseling
-\label{sec:org0e49ede}
+\label{sec:org7a56a63}
 \begin{itemize}
 \item associated with abnormal regulation of gene transcription in two
 imprinted domains on chromosome 11p15.5.
@@ -1624,10 +1628,10 @@ families in which the molecular mechanism of BWS has been defined
 \end{enumerate}
 
 \subsection{Prader-Willi syndrome}
-\label{sec:org94660b5}
+\label{sec:orgf7081e8}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:org878d0e4}
+\label{sec:orgd9c4474}
 \begin{itemize}
 \item severe hypotonia and feeding difficulties in early infancy
 \item later infancy or early childhood by excessive eating
@@ -1641,7 +1645,7 @@ families in which the molecular mechanism of BWS has been defined
 \end{itemize}
 
 \item Diagnostic Testing
-\label{sec:orgd52af60}
+\label{sec:org77eea93}
 \begin{itemize}
 \item DNA methylation testing to detect abnormal parent-specific
 imprinting within the Prader-Willi critical region (PWCR) on
@@ -1656,7 +1660,7 @@ diagnosis of PWS in all individuals,
 \end{itemize}
 
 \item Genetic Counseling
-\label{sec:org97e686f}
+\label{sec:org4b6f175}
 \begin{itemize}
 \item PWS is caused by an absence of expression of imprinted genes in the
 paternally derived PWS/Angelman syndrome (AS) region (15q11.2-q13)
@@ -1675,10 +1679,10 @@ the underlying genetic mechanism is known.
 \end{itemize}
 \end{enumerate}
 \subsection{Russell-Silver syndrome}
-\label{sec:orgdffdf4a}
+\label{sec:org95d3b9e}
 \begin{enumerate}
 \item Clinical Characteristics
-\label{sec:orgb39439e}
+\label{sec:org6169fce}
 \begin{itemize}
 \item asymmetric gestational growth restriction resulting in affected
 individuals being born small for gestational age, with relative
@@ -1690,7 +1694,7 @@ bossing, and frequently body asymmetry.
 \item The average adult height in untreated individuals is \textasciitilde{}3.1\textpm{}1.4 SD below the mean.
 \end{itemize}
 \item Diagnostic Testing
-\label{sec:org75947da}
+\label{sec:org59054f3}
 \begin{itemize}
 \item a genetically heterogeneous condition.
 \item Genetic testing confirms clinical diagnosis in approximately 60\% of
@@ -1713,12 +1717,12 @@ for SRS have negative molecular and/or cytogenetic testing.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./figures/rss.png}
-\caption{\label{fig:org362c061}
+\caption{\label{fig:orgc282206}
 11p Duplication in RSS}
 \end{figure}
 
 \item Genetic Counseling
-\label{sec:orga0cd4e6}
+\label{sec:org1ef6506}
 \begin{itemize}
 \item SRS has multiple etiologies and typically has a low recurrence
 risk.
@@ -1739,13 +1743,13 @@ identification of the causative genetic mechanism in the proband.
 \end{enumerate}
 
 \section{Neurogenetics}
-\label{sec:orgf2ceb05}
+\label{sec:org8f338da}
 \subsection{{\bfseries\sffamily TODO} Rett syndrome}
-\label{sec:orgf863f98}
+\label{sec:org99a8551}
 \subsection{{\bfseries\sffamily TODO} Charcot-Marie-Tooth disease type IA}
-\label{sec:org1d8cbd8}
+\label{sec:orgcc9c256}
 \subsection{{\bfseries\sffamily TODO} Hereditary neuropathy with pressure palsies}
-\label{sec:org324a129}
+\label{sec:org11559f1}
 \subsection{{\bfseries\sffamily TODO} Spinal muscular atrophy}
-\label{sec:org5bded0c}
+\label{sec:orga195567}
 \end{document}

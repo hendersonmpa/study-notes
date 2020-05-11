@@ -25,8 +25,12 @@
 #+LaTeX_HEADER: \usepackage{tikz}
 #+LaTeX_HEADER: \usepackage{wasysym}
 #+LaTeX_HEADER: \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
-#+LaTeX_HEADER: \usepackage{fancyhdr}
-#+LaTeX_HEADER: \pagestyle{fancy}
+#+LaTeX_HEADER: \usepackage[automark, autooneside=false, headsepline, footsepline]{scrlayer-scrpage}
+#+LaTeX_HEADER: \clearpairofpagestyles
+#+LaTeX_HEADER: \ihead{\leftmark}% section on the inner (oneside: right) side
+#+LaTeX_HEADER: \ohead{\rightmark}% subsection on the outer (oneside: left) side
+#+LaTeX_HEADER: \addtokomafont{pagehead}{\upshape}% header upshape instead of italic
+#+LaTeX_HEADER: \pagestyle{scrheadings}
 :END:
 
 * Sphingolipid Synthesis

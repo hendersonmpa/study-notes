@@ -1,4 +1,4 @@
-% Created 2020-03-19 Thu 15:47
+% Created 2020-05-11 Mon 14:10
 % Intended LaTeX compiler: pdflatex
 \documentclass{scrartcl}
 \usepackage[utf8]{inputenc}
@@ -28,8 +28,12 @@
 \usepackage{tikz}
 \usepackage{wasysym}
 \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
-\usepackage{fancyhdr}
-\pagestyle{fancy}
+\usepackage[automark, autooneside=false, headsepline, footsepline]{scrlayer-scrpage}
+\clearpairofpagestyles
+\ihead{\leftmark}% section on the inner (oneside: right) side
+\ohead{\rightmark}% subsection on the outer (oneside: left) side
+\addtokomafont{pagehead}{\upshape}% header upshape instead of italic
+\pagestyle{scrheadings}
 \author{Matthew Henderson, PhD, FCACB}
 \date{\today}
 \title{Disorders of Carbohydrate Metabolism}
@@ -38,7 +42,7 @@
  pdftitle={Disorders of Carbohydrate Metabolism},
  pdfkeywords={},
  pdfsubject={},
- pdfcreator={Emacs 26.1 (Org mode 9.1.9)}, 
+ pdfcreator={Emacs 26.3 (Org mode 9.1.9)}, 
  pdflang={English}}
 \begin{document}
 
@@ -48,35 +52,35 @@
 
 
 \section{Carbohydrate Metabolism}
-\label{sec:orgf264314}
+\label{sec:org8ae0fac}
 \subsection{Introduction}
-\label{sec:org9994523}
+\label{sec:orgb1383b7}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1\textwidth]{./carbohydrate_metabolism/figures/monosaccharides.jpg}
-\caption{\label{fig:org07f4dac}
+\caption{\label{fig:orgd9f7c2d}
 Monosaccharides: A) pentoses B) hexoses}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.5\textwidth]{./carbohydrate_metabolism/figures/disacchardes.png}
-\caption{\label{fig:org9f1d49e}
+\caption{\label{fig:org9d07d9c}
 Disaccharides}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1\textwidth]{./carbohydrate_metabolism/figures/Slide09.png}
-\caption{\label{fig:org78a8b70}
+\caption{\label{fig:org4d2fe66}
 Carbohydrate metabolism}
 \end{figure}
 
 \section{Galactose}
-\label{sec:org753cc6f}
+\label{sec:orgba97aa8}
 \subsection{Introduction}
-\label{sec:org7a0dc55}
+\label{sec:org2c856a7}
 \begin{itemize}
 \item lactose is the principal carbohydrate in milk
 \item dairy products are largest exogenous source of galactose
@@ -103,7 +107,7 @@ UDP-glcNAc are used for glycoconjugate synthesis
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1.0\textwidth]{./galactose/figures/galmet.png}
-\caption{\label{fig:org97e3856}
+\caption{\label{fig:org8b90638}
 Major reactions of galactose metabolism}
 \end{figure}
 
@@ -117,12 +121,12 @@ Major reactions of galactose metabolism}
 \end{itemize}
 
 \subsection{GALT Deficiency}
-\label{sec:org178f15e}
+\label{sec:org2d0f74f}
 \begin{itemize}
 \item AKA: Classic Galactosemia
 \end{itemize}
 \subsubsection{Clinical Presentation}
-\label{sec:org6650253}
+\label{sec:org622ee10}
 \begin{itemize}
 \item presents in the neonatal period
 \begin{itemize}
@@ -139,7 +143,7 @@ Major reactions of galactose metabolism}
 
 
 \subsubsection{Metabolic Derangement}
-\label{sec:org8aa56bc}
+\label{sec:org07381ff}
 \begin{itemize}
 \item deficient activity of galactose-1-phosphate uridylyltransferase (GALT)
 \item ubiquitous enzyme
@@ -152,7 +156,7 @@ Major reactions of galactose metabolism}
 \end{itemize}
 
 \subsubsection{Genetics}
-\label{sec:orgc5ae030}
+\label{sec:org97cb5e6}
 \begin{itemize}
 \item AR GALT
 \item p.Q188R
@@ -167,7 +171,7 @@ Major reactions of galactose metabolism}
 \end{itemize}
 \begin{enumerate}
 \item Duarte and Los Angles variants
-\label{sec:orgd2d970c}
+\label{sec:orgae41b89}
 \begin{itemize}
 \item Duarte (p.N314D) - 50\% RBC GALT enzyme activity
 \begin{itemize}
@@ -184,7 +188,7 @@ Major reactions of galactose metabolism}
 \end{enumerate}
 
 \subsubsection{Diagnostic Tests}
-\label{sec:orgb069fe8}
+\label{sec:org3a2486a}
 \begin{itemize}
 \item reducing substances in urine - not specific or sensitive
 \item renal tubular damage
@@ -201,7 +205,7 @@ Major reactions of galactose metabolism}
 \end{itemize}
 
 \subsubsection{Treatment and Prognosis}
-\label{sec:orgf6b7e16}
+\label{sec:orgdc8b4e0}
 \begin{itemize}
 \item therapy is life long dietary galactose restriction
 \begin{itemize}
@@ -220,9 +224,9 @@ Major reactions of galactose metabolism}
 \end{itemize}
 
 \subsection{GALE Deficiency}
-\label{sec:org54f2517}
+\label{sec:org29e60c6}
 \subsubsection{Clinical Presentation}
-\label{sec:orgaf51035}
+\label{sec:orgacd6ce6}
 \begin{itemize}
 \item ranges from benign \(\to\) severe:
 \begin{description}
@@ -237,7 +241,7 @@ with GALE deficiency exhibit some residual GALE activity
 \end{itemize}
 
 \subsubsection{Metabolic Derangement}
-\label{sec:orgcba9b78}
+\label{sec:org64265e9}
 \begin{itemize}
 \item uridine diphosphate galactose 4’-epimerase (GALE) deficiency
 \begin{itemize}
@@ -259,13 +263,13 @@ of the disease
 \end{itemize}
 
 \subsubsection{Genetics}
-\label{sec:org33390ec}
+\label{sec:orga4234cd}
 \begin{itemize}
 \item AR GALE
 \end{itemize}
 
 \subsubsection{Diagnostic Tests}
-\label{sec:orgaecfe9f}
+\label{sec:org97530ff}
 \begin{itemize}
 \item \(\uparrow\) galactose in serum, DBS, RBC
 \item \(\uparrow\) gal-1-P in serum, DBS, RBC
@@ -277,7 +281,7 @@ of the disease
 \end{itemize}
 
 \subsubsection{Treatment}
-\label{sec:org74405c7}
+\label{sec:org6398989}
 \begin{itemize}
 \item low galactose formula until the diagnosis can be confirmed or excluded
 \item patients with generalized GALE deficiency should be treated and
@@ -287,9 +291,9 @@ ensure sufficient exogenous galactose for synthesis of
 galactoproteins and galactolipids
 \end{itemize}
 \subsection{GALK Deficiency}
-\label{sec:org0894d65}
+\label{sec:org9bd6d58}
 \subsubsection{Clinical Presentation}
-\label{sec:org3c590d0}
+\label{sec:org2d0f4dd}
 \begin{itemize}
 \item untreated galactokinase deficiency has been considered largely
 benign except for diet-dependent cataracts and in rare cases pseudotumour cerebri
@@ -301,7 +305,7 @@ disability, and hypercholesterolemia
 \end{itemize}
 
 \subsubsection{Metabolic Derangement}
-\label{sec:org6d1f2f8}
+\label{sec:org7e364f9}
 \begin{itemize}
 \item galactokinase (GALK) deficiency
 \begin{itemize}
@@ -315,12 +319,12 @@ disability, and hypercholesterolemia
 \end{itemize}
 
 \subsubsection{Genetics}
-\label{sec:orgb78e737}
+\label{sec:org90d1f58}
 \begin{itemize}
 \item AR GK1
 \end{itemize}
 \subsubsection{Diagnostic Tests}
-\label{sec:org2da6ef6}
+\label{sec:org5592cc5}
 \begin{itemize}
 \item profound GALK deficiency may be discovered by NBS due to elevated total blood galactose
 \item enzyme assay of freshly drawn red cells or another cell type
@@ -329,7 +333,7 @@ the patient is on a high galactose diet
 \end{itemize}
 
 \subsubsection{Treatment}
-\label{sec:orgeef1263}
+\label{sec:org6f8c5f5}
 \begin{itemize}
 \item initial treatment of GALK deficiency involves elimination of milk
 and other high galactose foods from the diet
@@ -339,38 +343,38 @@ are generally allowed
 galactitol should normalize
 \end{itemize}
 \section{Fructose}
-\label{sec:orgceb7201}
+\label{sec:orgf29eacf}
 \subsection{Introduction}
-\label{sec:orgf30674c}
+\label{sec:orgccc5752}
 \begin{itemize}
 \item fructose is mainly metabolised in the liver, renal cortex and small
-intestinal mucosa (Figure \ref{fig:org07f4dac})
+intestinal mucosa (Figure \ref{fig:orgd9f7c2d})
 \item pathway composed of fructokinase, aldolase B and triokinase
 \item aldolase B is also involved in the glycolytic-gluconeogenic pathway
 \end{itemize}
 
 \subsection{Essential Fructosuria}
-\label{sec:org239fbb0}
+\label{sec:org739f899}
 \subsubsection{Clinical Presentation}
-\label{sec:org0072154}
+\label{sec:orgf819883}
 \begin{itemize}
 \item rare non-disease
 \item incidental finding due to positive urine reducing substances
 \item deficiency in fructokinase
 \end{itemize}
 \subsubsection{Metabolic Derangement}
-\label{sec:org53c53d2}
+\label{sec:org0ed659f}
 \begin{itemize}
 \item 10-20\% of ingested fructose is excreted in urine
 \item remainder is slowly metabolised in adipose tissue and muscle
 \end{itemize}
 \subsubsection{Genetics}
-\label{sec:org4cb1eb6}
+\label{sec:orgf255aaf}
 \begin{itemize}
 \item AR KHK
 \end{itemize}
 \subsubsection{Diagnosis and Treatment}
-\label{sec:org588fab7}
+\label{sec:org7857ebc}
 \begin{itemize}
 \item \(\uparrow\) reducing substances in urine
 \item glucose oxidase negative
@@ -380,9 +384,9 @@ intestinal mucosa (Figure \ref{fig:org07f4dac})
 \end{itemize}
 
 \subsection{Hereditary Fructose Intolerance}
-\label{sec:org435530b}
+\label{sec:org601b3b6}
 \subsubsection{Clinical Presentation}
-\label{sec:orgbfdae94}
+\label{sec:org6b6f43a}
 \begin{itemize}
 \item perfectly healthy as long as they do not ingest food containing
 fructose, sucrose and/or sorbitol
@@ -406,7 +410,7 @@ life span
 \end{itemize}
 
 \subsubsection{Metabolic Derangement}
-\label{sec:org1bb3239}
+\label{sec:org8cf0883}
 \begin{itemize}
 \item HFI is caused by aldolase B deficiency
 \begin{itemize}
@@ -435,13 +439,13 @@ in HFI patients due to activity of aldolase A
 \end{itemize}
 
 \subsubsection{Genetics}
-\label{sec:org0f6d3f8}
+\label{sec:org0e1cc1d}
 \begin{itemize}
 \item AR ALDOB
 \end{itemize}
 
 \subsubsection{Diagnostic Testing}
-\label{sec:org81ebcef}
+\label{sec:org50fe999}
 \begin{itemize}
 \item nutritional history
 \item renal tubule damage
@@ -460,7 +464,7 @@ in HFI patients due to activity of aldolase A
 \end{itemize}
 
 \subsubsection{Treatment}
-\label{sec:org9b26f6c}
+\label{sec:orge20779d}
 \begin{itemize}
 \item acute intoxication may require treatment with fresh frozen plasma
 \item remove fructose, sucrose and sorbitol from diet
@@ -469,9 +473,9 @@ life span
 \end{itemize}
 
 \subsection{Fructose-1,6-Bisphosphatase Deficiency}
-\label{sec:org9ea7f92}
+\label{sec:org08d47d5}
 \subsubsection{Clinical Presentation}
-\label{sec:orgb031839}
+\label{sec:org74fc944}
 \begin{itemize}
 \item 50\% present in the first 1-4 days of life
 \begin{itemize}
@@ -489,7 +493,7 @@ life span
 \end{itemize}
 
 \subsubsection{Metabolic Derangement}
-\label{sec:orgd081566}
+\label{sec:org77249ee}
 \begin{itemize}
 \item deficiency of hepatic FBPase, key enzyme in gluconeogenesis
 \begin{itemize}
@@ -501,13 +505,13 @@ intake and degradation of hepatic glycogen
 \item accumulation of the gluconeogenic substrates lactate, pyruvate, alanine, and glycerol
 \end{itemize}
 \subsubsection{Genetics}
-\label{sec:org48e9dd1}
+\label{sec:org2d68e20}
 \begin{itemize}
 \item AR FBP1
 \end{itemize}
 
 \subsubsection{Diagnosis}
-\label{sec:orgbcbcc83}
+\label{sec:orgd8c89bc}
 \begin{itemize}
 \item plasma during acute episodes
 \begin{itemize}
@@ -538,7 +542,7 @@ intake and degradation of hepatic glycogen
 
 \begin{enumerate}
 \item Differential Diagnosis
-\label{sec:org70f1d5f}
+\label{sec:orgcb15bd4}
 \begin{itemize}
 \item other disturbances in gluconeogenesis and pyruvate oxidation should be considered:
 \begin{enumerate}
@@ -557,7 +561,7 @@ of lactic acidosis by glucose infusion
 \end{enumerate}
 
 \subsubsection{Treatment}
-\label{sec:orgd7ec114}
+\label{sec:org99373d5}
 \begin{itemize}
 \item acute life-threatening episodes should be treated with an IV bolus
 of 20\% glucose
@@ -574,18 +578,18 @@ decompensation, individuals with FBPase deficiency are healthy and
 no carbohydrate supplements are needed
 \end{itemize}
 \section{Glycolysis and PPP}
-\label{sec:org863118d}
+\label{sec:orga28105e}
 \subsection{Introduction}
-\label{sec:org32defdd}
+\label{sec:org231559c}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1\textwidth]{./glycolysis_ppp/figures/glyc_ppp_rot.png}
-\caption{\label{fig:org7b3eac5}
+\caption{\label{fig:org107683a}
 Glycolysis and PPP}
 \end{figure}
 
 \subsubsection{Glycolysis}
-\label{sec:org9ca639d}
+\label{sec:orgd965953}
 \begin{itemize}
 \item glycolysis is an oxygen-independent metabolic pathway
 \begin{itemize}
@@ -611,13 +615,13 @@ glycogen derived glucose-1-phosphate
 \end{itemize}
 
 \subsubsection{Pentose Phosphate Pathway}
-\label{sec:org56674f5}
+\label{sec:org6b57610}
 \begin{itemize}
 \item two phases
 \end{itemize}
 \begin{enumerate}
 \item Oxidative Phase
-\label{sec:org5462a23}
+\label{sec:org1177744}
 \begin{itemize}
 \item glucose 6-P \(\to\) NADPH + ribose 5-P
 \item glucose 6-P dehydrogenase catalyses first step
@@ -628,7 +632,7 @@ glycogen derived glucose-1-phosphate
 \end{itemize}
 \end{itemize}
 \item Non-Oxidative Phase
-\label{sec:org4c489cc}
+\label{sec:orgbc81167}
 \begin{itemize}
 \item reversible rxns
 \item convert glycolytic intermediates to 5 carbon sugars
@@ -653,9 +657,9 @@ glycogen derived glucose-1-phosphate
 \end{itemize}
 \end{enumerate}
 \subsection{Disorders}
-\label{sec:org893ed1d}
+\label{sec:org6d283db}
 \subsubsection{Glycolysis Disorders}
-\label{sec:org21090ab}
+\label{sec:org879a976}
 \begin{itemize}
 \item glycolysis is the most important source of energy in erythrocytes
 and in some types of skeletal muscle fibres
@@ -701,11 +705,11 @@ and/or Duchenne muscular dystrophy
 \end{itemize}
 
 \subsubsection{PPP Disorders}
-\label{sec:orgf739a1d}
+\label{sec:org4e8f707}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./glycolysis_ppp/figures/Slide10.png}
-\caption{\label{fig:org52724e9}
+\caption{\label{fig:orgfbd98ef}
 Pentose Phosphate Pathway}
 \end{figure}
 
@@ -728,9 +732,9 @@ and anaemia
 developmental delay and congenital heart defects
 \end{description}
 \section{Insulin}
-\label{sec:org07944f9}
+\label{sec:org36cbcc5}
 \subsection{Introduction}
-\label{sec:org065cf35}
+\label{sec:org57ec27b}
 \begin{itemize}
 \item glucose is transported into the pancreatic \(\beta\)-cell and phosphorylated to G-6-P by glucokinase
 \begin{itemize}
@@ -746,7 +750,7 @@ developmental delay and congenital heart defects
 exocytosis from storage granules
 \end{itemize}
 
-\item other mechanisms regulate the release of insulin (Figure \ref{fig:org12931dd})
+\item other mechanisms regulate the release of insulin (Figure \ref{fig:orgd88fb93})
 \begin{enumerate}
 \item transcription factors HNF1A and HNF4A
 \item metabolic factors which modulate the ATP production
@@ -765,7 +769,7 @@ exocytosis from storage granules
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./insulin/figures/insulin.png}
-\caption[insulin]{\label{fig:org12931dd}
+\caption[insulin]{\label{fig:orgd88fb93}
 Regulation of Insulin Secretion}
 \end{figure}
 
@@ -773,7 +777,7 @@ Regulation of Insulin Secretion}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./insulin/figures/Slide11.png}
-\caption[insulin]{\label{fig:orgab863b4}
+\caption[insulin]{\label{fig:org495d7ac}
 Regulation of Insulin Secretion}
 \end{figure}
 
@@ -797,7 +801,7 @@ neuroglucopenia
 \end{itemize}
 
 \subsection{Congenital Hyperinsulinism}
-\label{sec:orgbfbd685}
+\label{sec:org18141b6}
 \begin{itemize}
 \item CHI includes all genetic causes of hyperinsulinaemic
 hypoglycaemia due to a primary defect of the pancreatic
@@ -812,9 +816,9 @@ hypoglycaemia due to a primary defect of the pancreatic
 \end{itemize}
 
 \subsection{Transient and Syndromic HI}
-\label{sec:orgf8d0f9d}
+\label{sec:orgcfc6fe4}
 \subsubsection{Transient Neonatal HI}
-\label{sec:orga9c658c}
+\label{sec:org60a313e}
 \begin{itemize}
 \item can occur in newborns from diabetic mothers
 \item small for gestational age
@@ -825,7 +829,7 @@ hypoglycaemia due to a primary defect of the pancreatic
 \end{itemize}
 \end{itemize}
 \subsubsection{Syndromic HI}
-\label{sec:orgf32c48c}
+\label{sec:org240b57b}
 \begin{itemize}
 \item HI is part of a developmental syndrome
 \item hypoglycaemia can be the initial manifestation of a number of
@@ -839,7 +843,7 @@ different syndromes during the neonatal period
 \end{itemize}
 
 \subsection{Isolated Congenital HI}
-\label{sec:orgd3c4c6f}
+\label{sec:orgb0a8150}
 \begin{itemize}
 \item CHI is inherited but occurs primarily as an isolated abnormality
 \item hypoglycaemia can reveal the disease in all ages
@@ -848,7 +852,7 @@ different syndromes during the neonatal period
 \end{itemize}
 
 \subsubsection{Metabolic Derangement}
-\label{sec:orga4952e4}
+\label{sec:orgc535f4d}
 \begin{itemize}
 \item functional defect of the pancreatic \(\beta\)-cells
 \item inappropriate secretion of insulin \(\to\) hypoglycaemia
@@ -870,7 +874,7 @@ different syndromes during the neonatal period
 \end{itemize}
 
 \subsubsection{Genetics}
-\label{sec:org6e7c70e}
+\label{sec:org505ad2b}
 \begin{itemize}
 \item AR ABCC8, KCNJ11 and HADH
 \item AD or \emph{de novo} GLUD1, GCK, UCP2, SLC16A1, HNF1A, HNF4A
@@ -880,7 +884,7 @@ different syndromes during the neonatal period
 \end{itemize}
 
 \subsubsection{Diagnosis}
-\label{sec:org619d651}
+\label{sec:org1416c14}
 \begin{itemize}
 \item diagnosis of HI relies on 5 non-essential criteria:
 \begin{enumerate}
@@ -907,12 +911,12 @@ hypoglycaemia
 \item once HI is established molecular studies to identify a gene
 \end{itemize}
 \section{Glucose Transport}
-\label{sec:orgaa93a86}
+\label{sec:org464b6d8}
 \subsection{Introduction}
-\label{sec:orgef82d42}
+\label{sec:orgbc519a6}
 \begin{itemize}
 \item glucose is hydrophilic \(\therefore\) cannot easily cross cell membrane
-\item transporters exist in almost all cell types (Table \ref{fig:org3246e8d})
+\item transporters exist in almost all cell types (Table \ref{fig:org6fc6fbf})
 \item glucose transporter proteins can be divided into two groups:
 \begin{enumerate}
 \item sodium-dependent glucose transporters (SGLTs)
@@ -935,12 +939,12 @@ substrate specificity of the affected transporter
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1.0\textwidth]{./glucose_transport/figures/glut.png}
-\caption[glucose transporters]{\label{fig:org3246e8d}
+\caption[glucose transporters]{\label{fig:org6fc6fbf}
 Glucose Transporters}
 \end{figure}
 
 \begin{table}[htbp]
-\caption[GLUTS]{\label{tab:orga4a2141}
+\caption[GLUTS]{\label{tab:org9c326bf}
 GLUTS}
 \centering
 \begin{tabular}{lll}
@@ -969,7 +973,7 @@ GLUT5 & Intestinal epithelium & fructose transport\\
 \end{table}
 
 \subsection{Congenital Glucose/Galactose Malabsorption}
-\label{sec:org372af51}
+\label{sec:org790839b}
 \begin{itemize}
 \item SGLT1 deficiency
 \item SGLT1 is a high-affinity, low-capacity sodium-dependent transporter
@@ -986,7 +990,7 @@ normal birth and pregnancy
 \end{itemize}
 
 \subsection{Renal Glucosuria}
-\label{sec:orgc4fcbdc}
+\label{sec:org29f43bd}
 \begin{itemize}
 \item SGLT2 deficiency
 \item SGLT2 is the major co-transporter involved in glucose reabsorption in
@@ -1003,7 +1007,7 @@ the kidney
 \end{itemize}
 
 \subsection{GLUT1 Deficiency}
-\label{sec:org4d9f844}
+\label{sec:orgce01dfa}
 \begin{itemize}
 \item GLUT1 is a membrane-spanning, glycosylated protein that facilitates
 glucose transport across the blood-brain barrier
@@ -1024,7 +1028,7 @@ concentration \textless{} 2.5 mmol/L
 \end{itemize}
 
 \subsection{Fanconi-Bickel Syndrome}
-\label{sec:org8dc17ce}
+\label{sec:orga006b2d}
 \begin{itemize}
 \item GLUT2 deficiency
 \item GLUT2 is a high K\(_{\text{M}}\) monosaccharide carrier 
@@ -1051,7 +1055,7 @@ screening test for hepatic glycogen storage disorders including FBS
 \end{itemize}
 
 \subsection{Arterial Tortuosity Syndrome}
-\label{sec:orgbacde1e}
+\label{sec:org7637da5}
 \begin{itemize}
 \item GLUT10 deficiency
 \item GLUT10 function not entirely clear:
@@ -1071,9 +1075,9 @@ increased risk of thromboses
 \item diagnosis is based on molecular genetic methods
 \end{itemize}
 \section{Hepatic GSDs}
-\label{sec:orgdb6e1ec}
+\label{sec:org735c078}
 \subsection{Introduction}
-\label{sec:org0f6971e}
+\label{sec:org7744f57}
 \begin{itemize}
 \item hepatic glycogenoses generally cause hepatomegaly (apart from GSD
 Oa) and fasting hypoglycaemia
@@ -1082,7 +1086,7 @@ cardiomyopathy
 \item clinical phenotypes are extremely heterogeneous
 \end{itemize}
 \begin{table}[htbp]
-\caption{\label{tab:org7da1416}
+\caption{\label{tab:org4866602}
 Hepatic Glycogenoses}
 \centering
 \begin{tabular}{llll}
@@ -1106,21 +1110,21 @@ IXd & phosphorylase kinase \(\alpha\)1 & myopathy & PHKA1\\
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1\textwidth]{./hepatic_glycogenoses/figures/gggmetab_hepatic.png}
-\caption{\label{fig:orgf8aeb21}
+\caption{\label{fig:orga925dd6}
 Hepatic GSDs}
 \end{figure}
 
 \subsection{GSD Type 0}
-\label{sec:org3a2b97c}
+\label{sec:org444caaf}
 \subsubsection{Clinical Presentation}
-\label{sec:org1ae0dc0}
+\label{sec:org2f90efe}
 \begin{itemize}
 \item ketotic hypoglycema with post-prandial hyperglycemia/uria
 \item can have poor growth
 \item no hepatomegaly
 \end{itemize}
 \subsubsection{Metabolic Derangement}
-\label{sec:orgdc68d62}
+\label{sec:org3e8581c}
 \begin{itemize}
 \item deficiency in hepatic glycogen synthase (GS2)
 \item very low liver glycogen
@@ -1132,29 +1136,29 @@ Hepatic GSDs}
 \end{itemize}
 
 \subsubsection{Genetics}
-\label{sec:orgeb9a701}
+\label{sec:org27c260b}
 \begin{itemize}
 \item AR GYS2 encodes liver isoform of GS2
 \end{itemize}
 
 \subsubsection{Diagnostic Tests}
-\label{sec:org6f2cff4}
+\label{sec:org88db56c}
 \begin{itemize}
 \item mutation analysis
 \end{itemize}
 \subsubsection{Treatment}
-\label{sec:org2ba828a}
+\label{sec:org5af84bf}
 \begin{itemize}
 \item avoid fasting
 \item uncooked cornstarch prior to overnight fast and during infections
 \end{itemize}
 \subsection{GSD Type I}
-\label{sec:org10c1f36}
+\label{sec:orgbd2dd78}
 \subsubsection{Clinical Presentation}
-\label{sec:org5eacba6}
+\label{sec:org45293a7}
 \begin{enumerate}
 \item Ia and Ib
-\label{sec:orge5e7fe3}
+\label{sec:org722d288}
 \begin{itemize}
 \item severe fasting hypoglycema, lactic acidosis
 \item seizures
@@ -1163,14 +1167,14 @@ Hepatic GSDs}
 \item doll face, truncal obesity
 \end{itemize}
 \item Ib
-\label{sec:org2f32b47}
+\label{sec:orgc896556}
 \begin{itemize}
 \item neutrophil dysfunction
 \item increased infections
 \end{itemize}
 \end{enumerate}
 \subsubsection{Metabolic Derangement}
-\label{sec:org611c77d}
+\label{sec:org7e18d7b}
 \begin{itemize}
 \item GSD Ia: glucose 6 phosphatase-\(\alpha\)
 \item GSD Ib: glucose 6 phosphate transporter
@@ -1188,7 +1192,7 @@ Hepatic GSDs}
 \end{itemize}
 
 \subsubsection{Genetics}
-\label{sec:org2cb1bf9}
+\label{sec:org7dabfad}
 \begin{itemize}
 \item AR 80\% Ia
 \item GSD Ia: G6PC
@@ -1196,7 +1200,7 @@ Hepatic GSDs}
 \end{itemize}
 
 \subsubsection{Diagnostic Tests}
-\label{sec:orgdaa4a4a}
+\label{sec:orgaed4e90}
 \begin{itemize}
 \item \(\downarrow\) glucose
 \item \(\uparrow\) lactate
@@ -1209,7 +1213,7 @@ Hepatic GSDs}
 \end{itemize}
 
 \subsubsection{Treatment}
-\label{sec:orge2a04f3}
+\label{sec:org1209f75}
 \begin{itemize}
 \item generally fatal if untreated
 \item diet
@@ -1231,9 +1235,9 @@ Hepatic GSDs}
 \end{itemize}
 
 \subsection{GSD Type III}
-\label{sec:orga295b3c}
+\label{sec:orgbfacc10}
 \subsubsection{Clinical Presentation}
-\label{sec:org285b581}
+\label{sec:orgd0cff58}
 \begin{itemize}
 \item hepatic glycogenosis and (in most cases) also myopathic
 \item first year with poor growth, delayed motor milestones and abdominal
@@ -1250,7 +1254,7 @@ distension
 \item \(\uparrow\) CK in myopathic form
 \end{itemize}
 \subsubsection{Metabolic Derangement}
-\label{sec:org3191a5d}
+\label{sec:org91fb5cf}
 \begin{itemize}
 \item glycogen debrancher enzyme (GDE) deficiency
 \item has both glucosidase and transferase activity
@@ -1263,12 +1267,12 @@ distension
 \item gluconeogenesis functions normally
 \end{itemize}
 \subsubsection{Genetics}
-\label{sec:org62157ab}
+\label{sec:org5feefbb}
 \begin{itemize}
 \item AR AGL
 \end{itemize}
 \subsubsection{Diagnostic Tests}
-\label{sec:orgcc6b1d8}
+\label{sec:org4accbe7}
 \begin{itemize}
 \item \(\downarrow\) glucose
 \item \(\uparrow\) transaminases
@@ -1277,7 +1281,7 @@ distension
 \item molecular testing is diagnostic
 \end{itemize}
 \subsubsection{Treatment}
-\label{sec:orgd95452b}
+\label{sec:org49e4b89}
 \begin{itemize}
 \item aim is to maintain normoglycaemia, reduce the hyperlipidaemia and ketosis and
 ensure adequate growth
@@ -1288,9 +1292,9 @@ in GSD I
 with survival into adulthood
 \end{itemize}
 \subsection{GSD Type IV}
-\label{sec:org1d437b6}
+\label{sec:orgd4da6c2}
 \subsubsection{Clinical Presentation}
-\label{sec:org6e97e07}
+\label{sec:orgcbe41d4}
 \begin{itemize}
 \item multiple phenotypes associated with GBE deficiency
 \begin{itemize}
@@ -1300,7 +1304,7 @@ with survival into adulthood
 
 \begin{enumerate}
 \item Liver Disease
-\label{sec:org9ae04c0}
+\label{sec:org6fb750b}
 \begin{itemize}
 \item progressive liver disease in infancy
 \begin{itemize}
@@ -1321,7 +1325,7 @@ myopathy
 \end{itemize}
 
 \item Neuromuscular Disease
-\label{sec:org4a8234e}
+\label{sec:orgba5cb08}
 \begin{itemize}
 \item congenital onset
 \begin{itemize}
@@ -1341,7 +1345,7 @@ myopathy
 \end{itemize}
 \end{enumerate}
 \subsubsection{Metabolic Derangement}
-\label{sec:org9f292ec}
+\label{sec:org9e15ee0}
 \begin{itemize}
 \item GSD IV is caused by deficiency in glycogen brancher enzyme (GBE)
 \item GBE transfers short glucosyl chains to form branch points with an
@@ -1354,7 +1358,7 @@ myopathy
 \end{itemize}
 
 \subsubsection{Genetics}
-\label{sec:org5952a9c}
+\label{sec:orgb9b1cf2}
 \begin{itemize}
 \item AR, GBE1
 \item common mutation in Ashkenazi Jewish pop
@@ -1364,7 +1368,7 @@ myopathy
 \end{itemize}
 
 \subsubsection{Diagnostic Tests}
-\label{sec:org7cb4e85}
+\label{sec:orge10c593}
 
 \begin{itemize}
 \item \(\uparrow\) transaminases in those with hepatic involvement
@@ -1378,15 +1382,15 @@ lymphocytes and muscle
 \end{itemize}
 
 \subsubsection{Treatment}
-\label{sec:org5967a0c}
+\label{sec:orgec5a656}
 \begin{itemize}
 \item liver transplant is the only treatment for the progressive liver form
 \item heart transplant may be considered in those with heart failure caused by cardiomyopathy
 \end{itemize}
 \subsection{GSD Type VI}
-\label{sec:orgfb26a4c}
+\label{sec:org0d57298}
 \subsubsection{Clinical Presentation}
-\label{sec:orgb4caf34}
+\label{sec:orgf4f0ff4}
 \begin{itemize}
 \item GSD VI is generally a mild disorder often diagnosed due to hepatomegaly
 \begin{itemize}
@@ -1394,7 +1398,7 @@ lymphocytes and muscle
 \end{itemize}
 \end{itemize}
 \subsubsection{Metabolic Derangement}
-\label{sec:org1c83a49}
+\label{sec:org71006a4}
 \begin{itemize}
 \item GSD VI is caused by deficiency in hepatic glycogen phosphorylase
 \begin{itemize}
@@ -1407,12 +1411,12 @@ from glycogen forming gluc-1-P
 acidosis can occur
 \end{itemize}
 \subsubsection{Genetics}
-\label{sec:org03f6e34}
+\label{sec:orgd55bcea}
 \begin{itemize}
 \item AR PGYL
 \end{itemize}
 \subsubsection{Diagnostic Tests}
-\label{sec:org869c85e}
+\label{sec:org696b225}
 \begin{itemize}
 \item \(\downarrow\) glucose
 \item \(\uparrow\) lactate
@@ -1428,7 +1432,7 @@ low activity of glycogen phosphorylase
 \item diagnosis confirmed by mutation analysis or
 \end{itemize}
 \subsubsection{Treatment}
-\label{sec:orgd70ab32}
+\label{sec:orgfcd1d3e}
 \begin{itemize}
 \item no treatment required for asymptomatic children
 \item those with growth failure or fasting ketosis benefit from regular
@@ -1439,9 +1443,9 @@ meals and uncooked cornstarch
 \end{itemize}
 \end{itemize}
 \subsection{GSD Type IX}
-\label{sec:org9c605b5}
+\label{sec:org80fbaef}
 \subsubsection{Clinical Presentation}
-\label{sec:org1fcd690}
+\label{sec:org630d092}
 \begin{itemize}
 \item usually a benign disorder with hepatomegaly often detected
 incidentally
@@ -1454,7 +1458,7 @@ raised liver transaminases, cholesterol and triglycerides
 \item GSD IXc can be more severe with an increased risk of hepatic fibrosis and cirrhosis
 \end{itemize}
 \subsubsection{Metabolic Derangement}
-\label{sec:org4136268}
+\label{sec:org0731a98}
 \begin{itemize}
 \item GSD IX is caused by deficiency in hepatic glycogen phosphorylase kinase (PHK)
 \item PHK phosphorylates glycogen phosphatase \emph{b} \(\to\) \emph{a} form
@@ -1472,12 +1476,12 @@ raised liver transaminases, cholesterol and triglycerides
 \end{itemize}
 
 \subsubsection{Genetics}
-\label{sec:org3373790}
+\label{sec:orgb6a6401}
 \begin{itemize}
-\item see table \ref{tab:orgd02a341}
+\item see table \ref{tab:org0a44060}
 \end{itemize}
 \begin{table}[htbp]
-\caption{\label{tab:orgd02a341}
+\caption{\label{tab:org0a44060}
 GSD Type IX Genetics}
 \centering
 \begin{tabular}{lllll}
@@ -1491,7 +1495,7 @@ IXd & PHKA1 & \(\alpha\)1 & AR & muscle\\
 \end{table}
 
 \subsubsection{Diagnostic Tests}
-\label{sec:orgd3fd7bf}
+\label{sec:org7a114b0}
 \begin{itemize}
 \item fasting hypoglycaemia and ketosis
 \item \(\uparrow\) transaminases, cholesterol and triglycerides
@@ -1506,7 +1510,7 @@ to interpret
 \item diagnosis is best achieved by mutation analysis
 \end{itemize}
 \subsubsection{Treatment}
-\label{sec:org51f5c2f}
+\label{sec:orgf1152e9}
 \begin{itemize}
 \item asymptomatic patients may not need treatment
 \item growth failure or symptomatic hypoglycaemia frequent meals and
@@ -1517,9 +1521,9 @@ gluconeogenesis substrate
 hepatomegaly and catch up growth by adulthood
 \end{itemize}
 \section{Muscle GSDs}
-\label{sec:org9e35efb}
+\label{sec:orgfe43dfd}
 \subsection{Introduction}
-\label{sec:orgae6098a}
+\label{sec:org91a467f}
 \begin{itemize}
 \item muscle predominately utilizes fatty acids for energy when at rest
 \begin{itemize}
@@ -1537,7 +1541,7 @@ hypoglycaemia
 \end{itemize}
 
 \begin{table}[htbp]
-\caption{\label{tab:org70a6165}
+\caption{\label{tab:org5058052}
 Muscle and Cardiac Glycogenoses}
 \centering
 \begin{tabular}{llll}
@@ -1555,20 +1559,20 @@ AMPK & AMP-activated protein kinase & cardiomyopathy, \textpm{} skeletal myopath
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1\textwidth]{./muscle_cardiac_glycogenoses/figures/gggmetab_muscle_cardiac.png}
-\caption[Muscle and Cardiac Glycogenoses]{\label{fig:org01faa75}
+\caption[Muscle and Cardiac Glycogenoses]{\label{fig:orgc77d4d6}
 Muscle and Cardiac Glycogenoses}
 \end{figure}
 
 \subsection{GSD Type 0}
-\label{sec:org7037739}
+\label{sec:org83630d3}
 \subsubsection{Clinical Presentation}
-\label{sec:orgb3bf204}
+\label{sec:org68c5efe}
 \begin{itemize}
 \item muscle fatigue
 \item hypertrophic cardiomyopathy
 \end{itemize}
 \subsubsection{Metabolic Derangement}
-\label{sec:org6c62cc2}
+\label{sec:orge99c1b9}
 \begin{itemize}
 \item deficiency in muscle glycogen synthase
 \begin{itemize}
@@ -1576,30 +1580,30 @@ Muscle and Cardiac Glycogenoses}
 \end{itemize}
 \end{itemize}
 \subsubsection{Genetics}
-\label{sec:org83837dd}
+\label{sec:org377488c}
 \begin{itemize}
 \item AR GYS1 encodes muscle isoform of GS
 \end{itemize}
 \subsubsection{Diagnostic Tests}
-\label{sec:org26091b1}
+\label{sec:orge4daea2}
 \begin{itemize}
 \item mutation analysis
 \end{itemize}
 \subsubsection{Treatment}
-\label{sec:org9b2247e}
+\label{sec:orgb9c212f}
 \begin{itemize}
 \item \(\beta_{\text{1}}\)-receptor blockage for cardiac protection
 \end{itemize}
 \subsection{GSD Type II}
-\label{sec:orgc5abf38}
+\label{sec:org18e48f3}
 \begin{itemize}
 \item AKA:Pompe Disease
 \end{itemize}
 \subsubsection{Clinical Presentation}
-\label{sec:org9e735cf}
+\label{sec:org9fccb2d}
 \begin{enumerate}
 \item Infantile
-\label{sec:orgc543851}
+\label{sec:org8a770c4}
 \begin{itemize}
 \item first months of life with hypotonia and hypertrophic cardiomyopathy
 \item dysphagia, smooth muscle dysfunction, enlargement of the tongue and
@@ -1608,7 +1612,7 @@ liver
 failure or aspiration pneumonia prior to one year of age
 \end{itemize}
 \item Juvenile
-\label{sec:org5c1065f}
+\label{sec:org08e8b3f}
 \begin{itemize}
 \item predominant skeletal muscle dysfunction
 \begin{itemize}
@@ -1620,7 +1624,7 @@ dystrophy in boys
 patients may become dependent on a ventilator or wheelchair
 \end{itemize}
 \item Adult
-\label{sec:org331ad65}
+\label{sec:orgf797042}
 \begin{itemize}
 \item 3rd or 4th decade and affects the trunk and proximal limb muscles
 \begin{itemize}
@@ -1634,19 +1638,19 @@ patients may become dependent on a ventilator or wheelchair
 \end{itemize}
 \end{enumerate}
 \subsubsection{Metabolic Derangement}
-\label{sec:org928833a}
+\label{sec:orgab0d1dd}
 \begin{itemize}
 \item acid \(\alpha\)-glucosidase deficiency
 \item accumulation of glycogen within the lysosomes
 \item different critical thresholds depending on the organ
 \end{itemize}
 \subsubsection{Genetics}
-\label{sec:org93edbbe}
+\label{sec:orgeca71a3}
 \begin{itemize}
 \item AR AGL
 \end{itemize}
 \subsubsection{Diagnostic Tests}
-\label{sec:orga5d44f3}
+\label{sec:org7264f06}
 \begin{itemize}
 \item characteristic urine oligosaccharide pattern
 \item acid \(\alpha\)-glucosidase enzyme assay
@@ -1661,7 +1665,7 @@ patients may become dependent on a ventilator or wheelchair
 \item mutation analysis
 \end{itemize}
 \subsubsection{Treatment}
-\label{sec:org79bb014}
+\label{sec:org9c74d24}
 \begin{itemize}
 \item recombinant acid \(\alpha\)-glucosidase (rhGAA)
 \begin{itemize}
@@ -1676,12 +1680,12 @@ patients may become dependent on a ventilator or wheelchair
 \end{itemize}
 
 \subsection{GSD Type V}
-\label{sec:orgebfab54}
+\label{sec:orgc4afd44}
 \begin{itemize}
 \item AKA: McArdle Disease
 \end{itemize}
 \subsubsection{Clinical Presentation}
-\label{sec:orgd44fe95}
+\label{sec:org8f2ad5d}
 \begin{itemize}
 \item exercise intolerance with myalgia and stiffness in exercising muscles
 \begin{itemize}
@@ -1699,7 +1703,7 @@ UI/l during episodes of rhabdomyolysis
 \item risk of acute renal failure
 \end{itemize}
 \subsubsection{Metabolic Derangement}
-\label{sec:orge763d37}
+\label{sec:org2a4fde9}
 \begin{itemize}
 \item GSD V is caused by deficiency in muscle glycogen phosphorylase
 \item catalyses the release and phosphorylation of terminal glucosyl units
@@ -1712,13 +1716,13 @@ from glycogen forming glucose-1-phosphate
 \end{itemize}
 
 \subsubsection{Genetics}
-\label{sec:orge7f5707}
+\label{sec:orgd207a3b}
 \begin{itemize}
 \item AR PYGM
 \end{itemize}
 
 \subsubsection{Diagnostic Tests}
-\label{sec:org3780ff8}
+\label{sec:org0d90f1f}
 \begin{itemize}
 \item ischaemic forearm exercise test was first used by McArdle to
 describe the absence of elevation of lactate during exercise
@@ -1737,7 +1741,7 @@ describe the absence of elevation of lactate during exercise
 \end{itemize}
 
 \subsubsection{Treatment}
-\label{sec:orgc34080a}
+\label{sec:orgc812869}
 \begin{itemize}
 \item no pharmacological treatment
 \item exercise intolerance may be alleviated by:
@@ -1747,7 +1751,7 @@ describe the absence of elevation of lactate during exercise
 \end{itemize}
 \end{itemize}
 \subsection{LAMP 2 Deficiency}
-\label{sec:org472b88d}
+\label{sec:orgb93c25b}
 \begin{itemize}
 \item AKA: Danon Disease
 \item rare X-linked disorder
@@ -1763,9 +1767,9 @@ protein 2 (LAMP2)
 \end{itemize}
 
 \subsection{AMPK Deficiency}
-\label{sec:org30c8233}
+\label{sec:org543947a}
 \subsubsection{Clinical Presentation}
-\label{sec:orgf6d031a}
+\label{sec:org4dbc95e}
 \begin{itemize}
 \item late adolescence with ventricular pre-excitation
 \begin{itemize}
@@ -1777,7 +1781,7 @@ of sudden cardiac death
 \end{itemize}
 
 \subsubsection{Metabolic Derangement}
-\label{sec:orga34e31f}
+\label{sec:org96688cc}
 \begin{itemize}
 \item AMPK is a heterotrimeric complex comprising:
 \begin{itemize}
@@ -1793,7 +1797,7 @@ skeletal muscle, liver, adipose tissues, and pancreatic \(\beta\)-cells
 \item inhibits energy-consuming processes including glucose and lipid production
 \end{itemize}
 \subsubsection{Genetics}
-\label{sec:orgaa1e98d}
+\label{sec:orgde8f433}
 \begin{itemize}
 \item PRKAG2 encodes the \(\gamma\)-subunit of AMPK
 \item mutations in the \(\gamma\)2-subunit of AMPK are transmitted as an
@@ -1801,7 +1805,7 @@ autosomal dominant trait with full penetrance
 \end{itemize}
 
 \subsubsection{Diagnosis \& Treatment}
-\label{sec:orga57bb9e}
+\label{sec:org5385f03}
 \begin{itemize}
 \item differential diagnosis includes Pompe, Danon (LAMP2) and Fabry diseases
 \item diagnosis is based on echocardiography and molecular genetics

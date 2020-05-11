@@ -4,7 +4,7 @@
 
 * Introduction
 ** Amino Acids: A Very Short Introduction
-- amino acids are mono or dicarboxylic acids with one or more amino groups.
+- amino acids are mono or dicarboxylic acids with one or more amino groups
   - zwitterion at ph 7.45
 
 - proteinogenic amino acids (22)
@@ -22,24 +22,24 @@
 - 76 amino acids of biological interest in humans
 
 ** Indications for Measurement of Amino Acids
-- Diagnosis of inborn errors of amino acid metabolism and transport
-- Diet monitoring in patients with known IEM
-- Nutritional assessment of patients with non-metabolic conditions [e.g. short bowel syndrome] 
-- Signs and symptoms:
-  1. Lethargy, coma, seizures or vomiting in a neonate
-  2. Hyperammonaemia
-  3. Ketosis
-  4. Metabolic acidosis or lactic acidaemia
-  5. Alkalosis
-  6. Metabolic decompensation
-  7. Unexplained developmental delay or developmental regression
-  8. Polyuria, polydipsia and dehydration
-  9. Unexplained liver dysfunction
-  10. Unexplained neurological symptoms
-  11. Abnormal amino acid results on newborn screening programme
-  12. Previous sibling with similar clinical presentation
-  13. Clinical presentation specific to an amino acid disorder
-  14. Monitoring treatment and diet.
+- diagnosis of inborn errors of amino acid metabolism and transport
+- diet monitoring in patients with known IEM
+- nutritional assessment of patients with non-metabolic conditions [e.g. short bowel syndrome] 
+- signs and symptoms:
+  1. lethargy, coma, seizures or vomiting in a neonate
+  2. hyperammonaemia
+  3. ketosis
+  4. metabolic acidosis or lactic acidaemia
+  5. alkalosis
+  6. metabolic decompensation
+  7. unexplained developmental delay or developmental regression
+  8. polyuria, polydipsia and dehydration
+  9. unexplained liver dysfunction
+  10. unexplained neurological symptoms
+  11. abnormal amino acid results on newborn screening 
+  12. previous sibling with similar clinical presentation
+  13. clinical presentation specific to an amino acid disorder
+  14. monitoring treatment and diet
 
 #+CAPTION[]: Recommended Plasma AA Profile for Diagnosis of Amino Acid Disorders
 #+NAME: tab:paa
@@ -54,81 +54,86 @@
 [fn:1] Plasma total homocysteine is not detected by routine methods, plasma free homocystine analysis has poor clinical sensitivity.
 [fn:2] Sulphocysteine may not be detectable in plasma using routine methods
 
-** Plasma
-- Patient prep
-  - Fasting (overnight preferred, 4 hours minimum). Infants and children should be
-    drawn just before next feeding (2-3 hours without TPN if possible).
-- Sample
-  - LiHeparin venous plasma
-  - Prompt separation and deproteinisation is essential for accurate measurement of (free) sulphur containing amino acids.
-  - Protein binding: cystine and homocystine
-  - release of arginase from RBCs
-  - store at -20\degree{}C to limit glutamine decomposition
+** Sample Types
+*** Plasma
+ - patient prep
+   - fasting (overnight preferred, 4 hours minimum)
+   - infants and children should be drawn just before next feeding
+     (2-3 hours without TPN if possible)
+ - sample
+   - Li-heparin venous plasma
+ - Pre-analytical
+   - prompt separation and deproteinisation is essential
+     - accurate measurement of (free) sulphur containing amino acids
+     - \downarrow protein binding: cystine and homocystine
+     - \downarrow release of arginase from RBCs
+   - store at -20\degree{}C to limit glutamine decomposition
+   - serum should not be used because there may be deamination
+     (asparagine to aspartic acid and glutamine to glutamic acid), loss
+     of sulphur containing amino acids and release of oligopeptides
+   - EDTA plasma is recommended in some labs as the specimen of
+     choice
+     - older literature reports ninhydrin positive artefacts in EDTA
+       plasma but modern tubes do not seem to have this problem
+   - haemolysis will cause increases in serine, glycine, taurine,
+     phosphoethanolamine, aspartic acid, glutamic acid, ornithine and
+     decreased arginine
+   - delayed separation or leucocyte and platelet contamination will
+     cause increased serine, glycine, taurine, phosphoethanolamine,
+     ornithine, glutamic acid and decreased arginine, homocystine,
+     cystine
+   - phenylalanine and tyrosine increase if specimen separation is
+     delayed 
+   - amino acids are more stable in frozen deproteinised plasma than
+     in frozen native plasma
+   - capillary blood may be used with careful cleaning of the skin prior
+     to specimen collection provided the blood is flowing freely
+   - free tryptophan may be lost when using sulphosalicylic acid as
+     deproteinising agent
+     - trichloroacetic acid is the deproteinising agent of choice for
+       this amino acid
+   - sodium metabisulphite, found in some intravenous preparations as a
+     preservative, can cause the conversion of cystine to sulphocysteine
 
-** Plasma - Pre-analytical
-- Serum should not be used because there may be deamination (asparagine to
-  aspartic acid and glutamine to glutamic acid), loss of sulphur
-  containing amino acids and release of oligopeptides.
-- EDTA plasma is recommended in some labs as the specimen of
-  choice. The older literature reports ninhydrin positive artefacts in
-  EDTA plasma but modern tubes do not seem to have this problem.
-- Haemolysis will cause increases in serine, glycine, taurine,
-  phosphoethanolamine, aspartic acid, glutamic acid, ornithine and
-  decreased arginine.
-- Delayed separation or leucocyte and platelet contamination will
-  cause increased serine, glycine, taurine, phosphoethanolamine,
-  ornithine, glutamic acid and decreased arginine, homocystine,
-  cystine.
-- Phenylalanine and tyrosine increase if specimen separation is
-  delayed 
-- Amino acids are more stable in frozen deproteinised plasma than
-  in frozen native plasma.
-- Capillary blood may be used with careful cleaning of the skin prior
-  to specimen collection provided the blood is flowing freely.
-- Free tryptophan may be lost when using sulphosalicylic acid as
-  deproteinising agent.
-  - trichloroacetic acid is the deproteinising agent of choice for
-    this amino acid.
-- Sodium metabisulphite, found in some intravenous preparations as a
-  preservative, can cause the conversion of cystine to sulphocysteine.
+*** Urine
+   - aminoaciduria is due to overflow and amino acid transport defects
+   - 24 hour or random urine
+   - preservative free bottle
+   - specimen quality is checked by testing for nitrite and pH.
+     - specimen deterioration causes:
+       - \uparrow glycine due to bacteria
+       - \downarrow serine
+       - \uparrow or \downarrow alanine
+       - decarboxylation of glutamic acid \to \gamma-aminobutyric acid
+       - breakdown of phosphoethanolamine \to ethanolamine and phosphate
+       - breakdown of cystathionine \to homocystine
+       - hydrolysis of peptides causing \uparrow proline
+     - fecal contamination causes increased proline, glutamic acid, branched chain amino acids but not hydroxyproline
+     - fecal bacteria can produce \gamma-aminobutyric acid from glutamic acid and b-alanine from aspartic acid
+   - reported in \micro{}mol/g creatinine
 
-** Urine
-- Urine
-  - 24 hour or random urine
-  - preservative free bottle
-  - Specimen quality is checked by testing for nitrite and pH.
-    - Specimen deterioration causes:
-      - \downarrow serine
-      - \uparrow \downarrow alanine
-      - increased glycine
-      - decarboxylation of glutamic acid \to \gamma{}-aminobutyric acid
-      - breakdown of phosphoethanolamine \to ethanolamine and phosphate
-      - breakdown of cystathionine \to homocystine
-      - hydrolysis of peptides causing \uparrow proline
-  - Fecal contamination causes increased proline, glutamic acid, branched chain amino acids but not hydroxyproline.
-  - Faecal bacteria can produce \gamma{}-aminobutyric acid from glutamic acid and b-alanine from aspartic acid
-  - reported in \micro{}mol/g creatinine
-  - Aminoaciduria due to overflow and amino acid transport defects.
 
-** Cerebral Spinal Fluid
-  - free of blood contamination
-  - which tube is used?
-  - investigation of neurological disorders and essential for the
-    diagnosis of non-ketotic hyperglycinaemia.
-  - CSF/Plasma ratio of amino acids is more informative than an isolated CSF sample.
-    - A paired plasma sample should be obtained within two hours.
+*** Cerebral Spinal Fluid
+   - investigation of neurological disorders and essential for the
+     diagnosis of non-ketotic hyperglycinaemia
+   - CSF/plasma ratio of amino acids is more informative than an isolated CSF sample
+     - a paired plasma sample should be obtained within two hours
+   - Li-heparin collection tube
+   - free of blood contamination
+
 ** Sample prep
-- Hydrophillic amino acids require deprotonization with acetonitrile or alcohol
-- Deproteination to release cysteine, homocysteine and tryptophan.
+- hydrophillic amino acids require deprotonization with acetonitrile or alcohol
+- deproteination to release cysteine, homocysteine and tryptophan
 
 * Amino Acid Analyser
-- Cation-exchange chromatography using a lithium buffer system
+
+- cation-exchange chromatography using a lithium buffer system
   followed by post-column derivatization with ninhydrin
-- Samples are de-proteinized with sulfosalicylic acid prior to
+- samples are de-proteinized with sulfosalicylic acid prior to
   injection
-- Utilizes a lithium-based cation-exchange column
-- Eluting amino acids undergo post column reaction with ninhydrin
-- Optical detection in the visible spectrum
+- utilizes a lithium-based cation-exchange column
+- eluting amino acids undergo post column reaction with ninhydrin
+- optical detection in the visible spectrum
   - amino acids: 570nm
   - imino acids 440 nm
 
@@ -145,12 +150,11 @@
 \end{tikzpicture}
 
 \vspace{2em}
-
 \schemestart
 \chemfig{*6(=*5(-(=O)-(-[6]OH)(-[8]OH)-(=O)-)-=-=-)}
 \+
 \chemfig{{\color{red}R}-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]OH}
-\arrow{-U>[][{\tiny \ce{2H2O}}]}
+\arrow{-U>[][{\small \ce{2H2O}}]}
 \chemfig{*6(=*5(-(=O)-(=N-[::-60](-[::-60]{\color{red}R})-[::60](=[::60]O)-[::-60]OH)-(=O)-)-=-=-)}
 \arrow{->[][]}
 \chemfig{*6(=*5(-(=O)-(-N=*5(-(=O)-(*6(-=-=-))--(=O)-))-(=O)-)-=-=-)}
@@ -168,25 +172,27 @@
 
 #+CAPTION[]:Amino Acids Analyser
 #+NAME: fig:aaa
-#+ATTR_LaTeX: :width 0.5\textwidth
+#+ATTR_LaTeX: :width 1\textwidth
 [[./aa/figures/aaachrom.png]]
 
 ** Pros and Cons of Amino Acid Analysers
 *** Pros
-- Standardized and established technology
-- Interpretive experience
+- standardized and established technology
+- interpretive experience
 *** Cons
-- Long run time (90 – 150 minutes)
-- Lack of analyte specificity (identification by retention time)
-  - antibiotics (ampicillin, amoxicillin, and gentamicin), acetaminophen
-- Co-eluting substances cannot be separated and distinguished on a standard IEC chromatogram
-  - Homocitrulline co-elutes with methionine 
+- long run time (90 – 150 minutes/sample)
+- lack of analyte specificity (identification by retention time)
+  - antibiotics (ampicillin, amoxicillin, and gentamicin) and acetaminophen
+- co-eluting substances cannot be separated and distinguished on a standard IEC chromatogram
+  - homocitrulline co-elutes with methionine 
   - ASA co-elutes with leucine
-  - Alloisoleucine co-elutes with cystathionine
-  - Tryptophan co-elutes with histidine
+  - allo-isoleucine co-elutes with cystathionine
+  - tryptophan co-elutes with histidine
+
 
 * LC-MS/MS
 ** LC-MS/MS schematic
+
 #+BEGIN_EXPORT LaTeX
 \begin{center}
 \begin{tikzpicture}[node distance=7em]
@@ -207,7 +213,6 @@
 \end{center}
 #+END_EXPORT
 
-
 ** Inlet table                                                     :noexport:
 #+tblname: data-table
 | Time | Flow |   %A |   %B |
@@ -221,9 +226,9 @@
 | 25.0 | 0.65 | 99.8 |  0.5 |
 
 ** LC-MS/MS sample prep
-- 10 \micro{}L of sample is mixed with 990 \micro{}L of IS in 0.5 mM perfluoroheptanoic acid and centrifuge to deproteinize.
+- 10 \micro{}L of sample is mixed with 990 \micro{}L of IS in 0.5 mM perfluoroheptanoic acid and centrifuge to deproteinize
 - 200 \micro{}L of supernatant is removed
-- 7.5 \micro{}L is injected onto an octadecylsilyl (C18) stationary phase.
+- 7.5 \micro{}L is injected onto an octadecylsilyl (C18) stationary phase
 
 
 #+begin_src gnuplot :var data=data-table :file ./aa/figures/outletmethod.png
@@ -240,14 +245,19 @@ plot data u 1:3 w lp lw 2 title 'A', \
 
 #+end_src
 
+#+CAPTION[]:LC-MS/MS outletmethod
+#+NAME: fig:lcout
 #+ATTR_LATEX: :width 0.7\textwidth
 #+RESULTS:
 [[file:./aa/figures/outletmethod.png]]
 
 ** Ion-Pairing Chromatography
+
 #+BEGIN_EXPORT LaTeX
-\chemfig{CF_3-{(CF_2)_4}-CF_2-[::30](=[::60]O)-[::-60]OH}
+\chemname{\chemfig{CF_3-{(CF_2)_4}-CF_2-[::30](=[::60]O)-[::-60]OH}}{\small perfluoroheptanoic acid}
+
 \vspace{3em}
+
 \ce{AA+ + PFHA-  <=> AA+ PFHA-}
 #+END_EXPORT
 
@@ -276,29 +286,26 @@ plot data u 1:3 w lp lw 2 title 'A', \
 ** Pros and Cons of LC-MS/MS vs FIA-MS/MS 
 *** Pros
 - 43 vs 11 amino acids quantified
-  - Leu/Ile/Allo 
-- Iso-baric compounds resolved
-  - Leucine, Isoleucine, Alloisoleucine
+  - leu/ile/allo 
+- iso-baric compounds resolved
+  - leucine, isoleucine, alloisoleucine
 *** Cons
-- Too slow for NBS
-- Manual peak integration
+- too slow for NBS
+- manual peak integration
+
 ** Pros and Cons of LC-MS/MS vs AAA
 *** Pros
 - ~ 30 min shorter analysis time
-- Analyte specificity
-  - Based on MRM rather than RT and ninhydrin reactivity
+- analyte specificity
+  - based on MRM rather than RT and ninhydrin reactivity
     - gentamycin, acetaminophen, dopamine analogs
-  - Co-eluting substances cannot be separated and distinguished on a
-    standard IEC chromatogram
-    - Homocitrulline co-elutes with methionine
-    - ASA co-elutes with leucine
-    - Alloisoleucine co-elutes with cystathionine
-    - Tryptophan co-elutes with histidine
-- Long term reagent expense
+  - co-eluting substances cannot be separated and distinguished on a
+    standard IEC chromatogram (see above section [[Pros and Cons of Amino Acid Analysers]])
+- long term reagent expense
 
 *** Cons
-- Upfront hardware expense
-- Manual peak integration
-- Lab developed test - not standardized
-- Changing LOQ with equipment age 
+- upfront hardware expense
+- manual peak integration
+- lab developed test - not standardized
+- increased LOQ as equipment ages 
 

@@ -1,4 +1,4 @@
-% Created 2020-04-07 Tue 14:51
+% Created 2020-05-11 Mon 14:09
 % Intended LaTeX compiler: pdflatex
 \documentclass{scrartcl}
 \usepackage[utf8]{inputenc}
@@ -28,8 +28,12 @@
 \usepackage{tikz}
 \usepackage{wasysym}
 \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
-\usepackage{fancyhdr}
-\pagestyle{fancy}
+\usepackage[automark, autooneside=false, headsepline, footsepline]{scrlayer-scrpage}
+\clearpairofpagestyles
+\ihead{\leftmark}% section on the inner (oneside: right) side
+\ohead{\rightmark}% subsection on the outer (oneside: left) side
+\addtokomafont{pagehead}{\upshape}% header upshape instead of italic
+\pagestyle{scrheadings}
 \author{Matthew Henderson, PhD, FCACB}
 \date{\today}
 \title{Organelles}
@@ -38,7 +42,7 @@
  pdftitle={Organelles},
  pdfkeywords={},
  pdfsubject={},
- pdfcreator={Emacs 26.1 (Org mode 9.1.9)}, 
+ pdfcreator={Emacs 26.3 (Org mode 9.1.9)}, 
  pdflang={English}}
 \begin{document}
 
@@ -47,12 +51,12 @@
 
 
 \section{Sphingolipid Synthesis}
-\label{sec:org4818ad0}
+\label{sec:orgc951850}
 \subsection{Introduction}
-\label{sec:org46dfc7a}
+\label{sec:org4799248}
 \begin{enumerate}
 \item Sphingolipids
-\label{sec:org29bc220}
+\label{sec:org58264cb}
 \begin{itemize}
 \item found in all mammalian cell membranes
 \item plasma lipoproteins
@@ -65,7 +69,7 @@
 \end{itemize}
 
 \item Sphingosine and Ceramide
-\label{sec:org42c20a7}
+\label{sec:org59b2fee}
 \begin{itemize}
 \item long chain sphingolipid base
 \item N-acylated by a variety of fatty acids
@@ -79,17 +83,17 @@
 %%\chemfig{!b}
 
 \item Biosynthesis
-\label{sec:org4fc998e}
+\label{sec:org050be17}
 \begin{enumerate}
 \item ER
-\label{sec:orgde899d7}
+\label{sec:org28fc02c}
 \begin{itemize}
 \item condensation of serine and palmitoyl-CoA \(\to\) sphinganine
 \item N-acylation \(\to\) ceramide
 \end{itemize}
 
 \item Golgi
-\label{sec:orgf538d69}
+\label{sec:org3d22b6e}
 \begin{itemize}
 \item stepwise addition of monosaccharides
 \begin{itemize}
@@ -104,7 +108,7 @@
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{./sphingolipid_synthesis/figures/Sphingolipids_general_structures.png}
-\caption[Sphingolipid Structure]{\label{fig:orgfee0b64}
+\caption[Sphingolipid Structure]{\label{fig:org07cc0df}
 Sphingolipid Structure}
 \end{figure}
 
@@ -112,20 +116,20 @@ Sphingolipid Structure}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.8\textwidth]{./sphingolipid_synthesis/figures/synthesis.png}
-\caption[Sphingolipid Biosynthesis]{\label{fig:org0a3f0c9}
+\caption[Sphingolipid Biosynthesis]{\label{fig:org79b970d}
 Sphingolipid Biosynthesis}
 \end{figure}
 \end{enumerate}
 \end{enumerate}
 
 \subsection{Disorders of Sphingolipid Synthesis}
-\label{sec:org35d26c8}
+\label{sec:org11802eb}
 \begin{enumerate}
 \item Classification
-\label{sec:org31c5dbb}
+\label{sec:org5e921bd}
 \begin{enumerate}
 \item Primarily nervous system involvement
-\label{sec:org87211ef}
+\label{sec:orga3e069c}
 \begin{itemize}
 \item serine palmitoyltransferase - peripheral sensory neuropathy
 \item ceramide synthase 1 - myoclonic epilepsy
@@ -137,7 +141,7 @@ Sphingolipid Biosynthesis}
 \end{itemize}
 
 \item Primarily skin involvement
-\label{sec:org5dd871f}
+\label{sec:org3f7fd67}
 \begin{itemize}
 \item ceramide synthase 3 - ichthyosis
 \item ULCFA \(\omega\)-hydrolase - ichthyosis
@@ -145,7 +149,7 @@ Sphingolipid Biosynthesis}
 \end{enumerate}
 
 \item Serine Palmitoyltransferase (Subunit 1 or 2) Deficiency
-\label{sec:orgb744e2f}
+\label{sec:org9f73500}
 \begin{itemize}
 \item defect in first step of sphingolipid biosynthesis
 \item major cause of dominant Hereditary Sensory and Autonomic Neuropathies (HSAN1)
@@ -168,7 +172,7 @@ substrate specificity
 \end{itemize}
 
 \item Ceramide Synthases 1 and 2
-\label{sec:org7f245b3}
+\label{sec:org836f0d4}
 
 \begin{itemize}
 \item six human ceramide synthases
@@ -196,7 +200,7 @@ substrate specificity
 \end{itemize}
 
 \item Fatty Acid 2-Hydroxylase
-\label{sec:orgdec329e}
+\label{sec:org5cd75a4}
 \begin{itemize}
 \item spastic paraplegia
 \begin{itemize}
@@ -220,7 +224,7 @@ substrate specificity
 \end{itemize}
 
 \item GM3 Synthase Deficiency
-\label{sec:org2bd7aca}
+\label{sec:orge3d311d}
 \begin{itemize}
 \item autosomal recessive infantile-onset epilepsy
 \begin{itemize}
@@ -244,7 +248,7 @@ lactosylceramide and Gb4 levels in plasma and cultured cells
 \end{itemize}
 
 \item GM2/GD2 Synthase Deficiency
-\label{sec:org3306e18}
+\label{sec:org8d61f4d}
 \begin{itemize}
 \item slowly progressive complex hereditary spastic paraplegia
 with mild to moderate cognitive impairment
@@ -253,7 +257,7 @@ with an increase of its precursor, GM3
 \end{itemize}
 
 \item Non-Lysosomal \(\beta\)-Glucosidase Deficiency
-\label{sec:orgb40f8fd}
+\label{sec:org0a97a91}
 \begin{itemize}
 \item GBA2 is a membrane-associated protein localised at the ER and Golgi
 \begin{itemize}
@@ -269,7 +273,7 @@ progressive gait disturbances
 \end{itemize}
 
 \item Ceramide Synthase 3 and ULFA \(\omega\)-Hydroxylase
-\label{sec:org6d6cbf4}
+\label{sec:org238da7c}
 \begin{itemize}
 \item ceramides in skin maintain skin barrier homeostasis, prevent water
 loss and protect against microbial infections
@@ -290,10 +294,10 @@ group of disorders of epidermal cornification
 \end{enumerate}
 
 \section{Sphingolipidoses}
-\label{sec:org766533c}
+\label{sec:org6e5e4ce}
 
 \begin{table}[htbp]
-\caption{\label{tab:org188bb95}
+\caption{\label{tab:org637d23e}
 The Sphingolipidoses}
 \centering
 \begin{tabular}{llll}
@@ -313,12 +317,12 @@ Farber & acid ceramidase & ceramides & ASAH1\\
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.8\textwidth]{./figures/sl_degradation.png}
-\caption{\label{fig:org6593684}
+\caption{\label{fig:org06bb845}
 Sphingolipid degradation}
 \end{figure}
 
 \subsection{Protein Trafficking to Lysosomes}
-\label{sec:org3f1e9fb}
+\label{sec:orga1a1cb8}
 \begin{itemize}
 \item lysosomes are composed of soluble and transmembrane proteins that
 are targeted to lysosomes in a signal-dependent manner
@@ -339,20 +343,20 @@ and trafficking of lysosomal membrane proteins
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./figures/protein_trafficking.jpg}
-\caption{\label{fig:org5131b36}
+\caption{\label{fig:org78888fd}
 Protein Trafficking to Lysosome}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.8\textwidth]{./figures/lysosome_trafficking.jpeg}
-\caption[Lysosomal protein trafficking receptors]{\label{fig:org512a6f3}
+\caption[Lysosomal protein trafficking receptors]{\label{fig:orgdf41e9c}
 Lysosomal protein trafficking receptors}
 \end{figure}
 
 \begin{enumerate}
 \item M6P receptors
-\label{sec:orgaf50a78}
+\label{sec:org059cbe8}
 \begin{itemize}
 \item MPRs are transmembrane glycoproteins that target enzymes to lysosomes in vertebrates
 \item MPRs bind newly synthesized lysosomal hydrolases in the TGN and deliver them to pre-lysosomal compartments
@@ -365,7 +369,7 @@ Lysosomal protein trafficking receptors}
 \end{itemize}
 
 \item Sortilin
-\label{sec:org6b02624}
+\label{sec:org72d0915}
 \begin{itemize}
 \item sortilin is a type I transmembrane protein found in lysosomes
 \begin{itemize}
@@ -380,7 +384,7 @@ Lysosomal protein trafficking receptors}
 \end{itemize}
 
 \item LIMP2
-\label{sec:orgcc005e6}
+\label{sec:org2c3c179}
 \begin{itemize}
 \item LIMP-2 in a membrane protein in lysosomes that functions to regulate lysosomal/endosomal transport.
 \item type III glycoprotein that is located primarily in limiting membranes of lysosomes and endosomes.
@@ -388,7 +392,7 @@ Lysosomal protein trafficking receptors}
 \end{itemize}
 
 \item Megalin
-\label{sec:org98a48e0}
+\label{sec:org5088e21}
 \begin{itemize}
 \item a cell surface receptor involved in reabsorption of proteins at the kidney proximal tubule
 \item megalin mediated endocytosis of \(\alpha\)-galactosidase kidney proximal tubule
@@ -397,10 +401,10 @@ Lysosomal protein trafficking receptors}
 \end{enumerate}
 
 \subsection{Gaucher}
-\label{sec:orgf47b4d4}
+\label{sec:orgb111d97}
 \begin{enumerate}
 \item Introduction
-\label{sec:org684db22}
+\label{sec:org15aed2b}
 \begin{itemize}
 \item defect in \textbf{\(\beta\)-glucocerebrosidase (AKA: acid \(\beta\)-glucosidase)}
 \begin{itemize}
@@ -427,19 +431,19 @@ Lysosomal protein trafficking receptors}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./gaucher/figures/glucocerebroside.png}
-\caption{\label{fig:org55e2407}
+\caption{\label{fig:orgbcce658}
 Glucocerebroside the Gaucher Lipid}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./gaucher/figures/glucocerebrosidase.png}
-\caption{\label{fig:org09b8852}
+\caption{\label{fig:orga622bcd}
 \(\beta\)-glucocerebrosidase defective in Gaucher}
 \end{figure}
 
 \item Genetics
-\label{sec:org906d848}
+\label{sec:orgbfd9855}
 \begin{itemize}
 \item AR GBA
 \item most of the >300 disease alleles in Gaucher disease are missense
@@ -458,13 +462,13 @@ expressivity between individuals and ethnic groups
 \end{itemize}
 
 \item Clinical Findings
-\label{sec:orgcf3abdf}
+\label{sec:org0de1e12}
 \begin{itemize}
-\item see table \ref{tab:org6ae41bb}
+\item see table \ref{tab:org9719ef2}
 \end{itemize}
 
 \begin{table}[htbp]
-\caption{\label{tab:org6ae41bb}
+\caption{\label{tab:org9719ef2}
 Gaucher Clinical Variants}
 \centering
 \begin{tabular}{llll}
@@ -483,7 +487,7 @@ Enrichment & Ashkenazi & None & Norrbottnian\\
 
 \begin{enumerate}
 \item Gaucher type 1
-\label{sec:org8797ea5}
+\label{sec:orgd616834}
 \begin{itemize}
 \item no neurological symptoms
 \item clinical manifestations of Gaucher type 1 are linked to macrophages
@@ -507,7 +511,7 @@ to the overall clinical picture
 \end{itemize}
 
 \item Gaucher type 2
-\label{sec:org6696622}
+\label{sec:org62e149b}
 \begin{itemize}
 \item acute neuronopathic
 \item type 2 is the rarer of the two classic neuronopathic variants
@@ -530,7 +534,7 @@ disease
 \end{itemize}
 
 \item Gaucher type 3
-\label{sec:org0fedef5}
+\label{sec:org37b93b2}
 \begin{itemize}
 \item sub-acute or chronic neuronopathic
 \item type 3 disease has a later onset, with slower progression of
@@ -553,17 +557,17 @@ first seen
 \end{enumerate}
 
 \item Laboratory Investigations
-\label{sec:org889afad}
+\label{sec:org2610b76}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.6\textwidth]{./gaucher/figures/Gaucher_Cells_with_Fibrillar_Appearing_Cytoplasm.jpg}
-\caption{\label{fig:orgb579b10}
+\caption{\label{fig:org68ff669}
 Gaucher Cells}
 \end{figure}
 
 \begin{enumerate}
 \item Biochemistry
-\label{sec:org2029549}
+\label{sec:orgc01848f}
 \begin{itemize}
 \item \(\beta\)-glucocerebrosidase activity in:
 \begin{itemize}
@@ -591,7 +595,7 @@ Gaucher Cells}
 \end{itemize}
 
 \item Molecular
-\label{sec:org4d7e194}
+\label{sec:org8fde2b3}
 \begin{itemize}
 \item GBA gene sequencing, >300 disease alleles
 \item patients homozygous for the L444P mutation have severe visceral
@@ -605,10 +609,10 @@ disease, highly predisposed to the development of CNS disease
 \end{enumerate}
 
 \item Treatment
-\label{sec:org1628734}
+\label{sec:org156964d}
 \begin{enumerate}
 \item bone marrow transplantation
-\label{sec:org453872e}
+\label{sec:orgbaceda7}
 \begin{itemize}
 \item curative for Type 1
 \begin{itemize}
@@ -617,7 +621,7 @@ disease, highly predisposed to the development of CNS disease
 \item high risk of mortality
 \end{itemize}
 \item ERT
-\label{sec:org1636f59}
+\label{sec:orgc529350}
 \begin{itemize}
 \item treats: hematological, visceral, and bony disease
 \begin{itemize}
@@ -633,7 +637,7 @@ disease, highly predisposed to the development of CNS disease
 \end{itemize}
 
 \item Substrate reduction therapy
-\label{sec:org4f8b7cf}
+\label{sec:orgbd9b29f}
 \begin{itemize}
 \item ceramide glucoyltransferase inhibitor
 \begin{itemize}
@@ -649,10 +653,10 @@ disease, highly predisposed to the development of CNS disease
 \end{enumerate}
 
 \subsection{Niemann-Pick  A \& B}
-\label{sec:orge4f6e04}
+\label{sec:orgb000b51}
 \begin{enumerate}
 \item Introduction
-\label{sec:org4823824}
+\label{sec:org1f44a7f}
 \begin{itemize}
 \item Niemann-Pick Type A and B are caused by deficiency of \textbf{acid sphingomyelinase (ASM)}
 \begin{itemize}
@@ -679,29 +683,29 @@ sortilin and MPR
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.6\textwidth]{./niemann_pick/figures/sphingomyelin.png}
-\caption{\label{fig:orgdfadfad}
+\caption{\label{fig:org355aa6c}
 Sphingomyelin}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./niemann_pick/figures/sphingomyelinase.png}
-\caption{\label{fig:orgb0e3d42}
+\caption{\label{fig:orgdd2a673}
 Sphingomyelinase}
 \end{figure}
 
 \item Genetics
-\label{sec:orgcd3d4a3}
+\label{sec:org948938a}
 \begin{itemize}
 \item AR, SMPD1
 \item good phenotype-genotype correlation
 \end{itemize}
 
 \item Clinical Findings
-\label{sec:orge05e68f}
+\label{sec:org0f13c2f}
 \begin{enumerate}
 \item Niemann-Pick A symptoms
-\label{sec:org700fbf1}
+\label{sec:orgd87e481}
 \begin{itemize}
 \item fatal 1.5-3 years
 \item hepatosplenomegaly by age 3 months
@@ -714,7 +718,7 @@ Sphingomyelinase}
 \item \textbf{cherry-red spot identified with eye examination (100\%)}
 \end{itemize}
 \item Niemann-Pick B symptoms
-\label{sec:orge09de65}
+\label{sec:org31a59c4}
 \begin{itemize}
 \item normal intelligence and life-span
 \item symptoms outlined under NPA (but less severe)
@@ -725,7 +729,7 @@ Sphingomyelinase}
 \end{enumerate}
 
 \item Diagnostic Tests
-\label{sec:orgefb521b}
+\label{sec:org256a4dc}
 \begin{itemize}
 \item \(\Downarrow\) ASM activity in leukocytes or cultured cells
 \begin{itemize}
@@ -749,18 +753,18 @@ Sphingomyelinase}
 \item \(\uparrow\) cholesterol
 \item \(\uparrow\) LDL cholesterol
 \end{itemize}
-\item foam cells in bone marrow (Figure \ref{fig:orgd1fa2d6})
+\item foam cells in bone marrow (Figure \ref{fig:orge0f9767})
 \end{itemize}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.25\textwidth]{./niemann_pick/figures/foam_cells.png}
-\caption{\label{fig:orgd1fa2d6}
+\caption{\label{fig:orge0f9767}
 Foam cells in bone marrow}
 \end{figure}
 
 \item Treatment
-\label{sec:org0913122}
+\label{sec:org5eb2a58}
 \begin{itemize}
 \item no approved treatments
 \item olipudase alfa, a recombinant human acid sphingomyelinase (ASM),
@@ -772,14 +776,14 @@ Foam cells in bone marrow}
 \end{enumerate}
 
 \subsection{GM1 Gangliosidoses}
-\label{sec:org02bf8c3}
+\label{sec:org934c1ec}
 \begin{enumerate}
 \item Introduction
-\label{sec:orgd784d99}
+\label{sec:org3439874}
 \begin{itemize}
 \item defect in \textbf{\(\beta\)-galactosidase (AKA: \(\beta\)-gangliosidase)}
 \begin{itemize}
-\item removes galactose from GM1, keratin sulfate and some oligosaccharides (Figure \ref{fig:org7006fe0})
+\item removes galactose from GM1, keratin sulfate and some oligosaccharides (Figure \ref{fig:org4906c41})
 \end{itemize}
 \item \textbf{GM1 ganglioside accumulates in the brain and visera}
 \item infantile, juvenile and adult forms
@@ -807,26 +811,26 @@ Foam cells in bone marrow}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.4\textwidth]{./GM1_2/figures/bgalatosidase.png}
-\caption{\label{fig:org7006fe0}
+\caption{\label{fig:org4906c41}
 \(\beta\)-galactosidase}
 \end{figure}
 
 
 \begin{enumerate}
 \item Lysosomal multi-enzyme complex
-\label{sec:org4f86894}
+\label{sec:orgdaacb1b}
 \begin{itemize}
 \item \(\beta\)-galactosidase forms a heterotrimeric complex with cathepsin A
 and neuraminidase
 \item \(\downarrow\) cathepsin A \(\to\) 2\degree  deficiency of neuraminidase
 \begin{itemize}
-\item ML-1 (sialidosis) (section \ref{sec:orgfeae879})
+\item ML-1 (sialidosis) (section \ref{sec:org5e8d07b})
 \end{itemize}
 \end{itemize}
 \end{enumerate}
 
 \item Genetics
-\label{sec:org260f9e0}
+\label{sec:orgddaa90b}
 \begin{itemize}
 \item AR GLB1
 \item \textasciitilde{} 150 mutations in GLB1 have been described
@@ -834,13 +838,13 @@ and neuraminidase
 \end{itemize}
 
 \item Clinical Findings
-\label{sec:org64339fa}
+\label{sec:orgec34dc1}
 \begin{itemize}
-\item see table \ref{tab:orgdd84b5c}
+\item see table \ref{tab:org7209fc1}
 \item a cause of non-immune fetal hydrops
 \end{itemize}
 \begin{table}[htbp]
-\caption[GM1 Signs and Symptoms]{\label{tab:orgdd84b5c}
+\caption[GM1 Signs and Symptoms]{\label{tab:org7209fc1}
 GM1 Signs and Symptoms}
 \centering
 \begin{tabular}{lllll}
@@ -851,13 +855,13 @@ eye findings & CRS & CC\footnotemark & \pmCC & CC\\
 motor abnormalities & + & + & extra pyramidal & \footnotemark\\
 hepatosplenomegaly & + & \textpm{} & - & -\\
 cardiac involvement & \textpm{} & \textpm{} & \textpm{} & +\\
-coarse facial features & \textpm{} & - & - & \textsuperscript{\ref{org01fa64a}}\\
+coarse facial features & \textpm{} & - & - & \textsuperscript{\ref{orgcb9b15f}}\\
 skeletal findings & + & \textpm{} & - & +\\
-urine & \footnotemark & \textsuperscript{\ref{org1db0600}} & \textsuperscript{\ref{org1db0600}} & keratan sulfate \footnotemark\\
+urine & \footnotemark & \textsuperscript{\ref{org3be6453}} & \textsuperscript{\ref{org3be6453}} & keratan sulfate \footnotemark\\
 \end{tabular}
-\end{table}\footnotetext[1]{\label{org064cb48}corneal clouding}\footnotetext[2]{\label{org01fa64a}secondary to bony changes}\footnotetext[3]{\label{org1db0600}oligosacaride with terminal galactose}\footnotetext[4]{\label{orga862ab3}FN have been observed}
+\end{table}\footnotetext[1]{\label{org5661e1a}corneal clouding}\footnotetext[2]{\label{orgcb9b15f}secondary to bony changes}\footnotetext[3]{\label{org3be6453}oligosacaride with terminal galactose}\footnotetext[4]{\label{org2366d28}FN have been observed}
 \item Laboratory Investigations
-\label{sec:org364da16}
+\label{sec:org00cee79}
 \begin{itemize}
 \item \(\beta\)-galactosidase activity: leukocytes and DBS
 \begin{itemize}
@@ -868,16 +872,16 @@ urine & \footnotemark & \textsuperscript{\ref{org1db0600}} & \textsuperscript{\r
 \end{itemize}
 
 \item Treatment
-\label{sec:org085d244}
+\label{sec:org330c398}
 \begin{itemize}
 \item no curative treatment to date
 \end{itemize}
 \end{enumerate}
 \subsection{GM2 Gangliosidoses}
-\label{sec:orgde61a91}
+\label{sec:org93795e3}
 \begin{enumerate}
 \item Introduction
-\label{sec:org14efda2}
+\label{sec:org9b54be3}
 \begin{itemize}
 \item \(\beta\)-hexosaminidase A deficiency 
 \begin{itemize}
@@ -887,12 +891,12 @@ urine & \footnotemark & \textsuperscript{\ref{org1db0600}} & \textsuperscript{\r
 \item functional lysosomal \(\beta\)-hexosaminidase enzymes are dimeric
 \begin{itemize}
 \item three isozymes are produced through the combination of \(\alpha\)
-and \(\beta\) subunits (Table \ref{tab:orgd01457f})
+and \(\beta\) subunits (Table \ref{tab:org2307323})
 \end{itemize}
 \end{itemize}
 
 \begin{table}[htbp]
-\caption{\label{tab:orgd01457f}
+\caption{\label{tab:org2307323}
 Hexoaminidase Isozymes}
 \centering
 \begin{tabular}{lll}
@@ -925,7 +929,7 @@ S & \(\alpha\)/\(\alpha\) & no known physiological function\\
 
 
 \begin{table}[htbp]
-\caption{\label{tab:orgf9850eb}
+\caption{\label{tab:org337aa8f}
 GM2 ganglioside storage diseases}
 \centering
 \begin{tabular}{llrl}
@@ -943,7 +947,7 @@ AB variant & 3-6 months &  & Activator\\
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./GM1_2/figures/hexosaminidasea.png}
-\caption{\label{fig:org4567a07}
+\caption{\label{fig:orgd27bfee}
 Hexosaminidase A: Tay-Sachs}
 \end{figure}
 
@@ -951,12 +955,12 @@ Hexosaminidase A: Tay-Sachs}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./GM1_2/figures/hexosaminidaseab.png}
-\caption{\label{fig:orgea8e9c8}
+\caption{\label{fig:org7491a54}
 Hexosaminidase A \& B:Sandhoff disease}
 \end{figure}
 
 \item Genetics
-\label{sec:org50d0652}
+\label{sec:orgf47352c}
 \begin{itemize}
 \item HEXA, HEXB and GM2A: autosomal recessive
 \item > 130 mutations in HEXA
@@ -969,12 +973,12 @@ Hexosaminidase A \& B:Sandhoff disease}
 \end{itemize}
 
 \item Clinical Findings
-\label{sec:org01448e0}
+\label{sec:orgfd2b380}
 \begin{itemize}
-\item see table \ref{tab:org79115dc}
+\item see table \ref{tab:org40ac14b}
 \end{itemize}
 \begin{table}[htbp]
-\caption{\label{tab:org79115dc}
+\caption{\label{tab:org40ac14b}
 GM2 Signs and Symptoms}
 \centering
 \begin{tabular}{llll}
@@ -989,7 +993,7 @@ neurological & startle response & seizures & psychosis\\
 \end{table}
 
 \item Laboratory Investigations
-\label{sec:org473b00f}
+\label{sec:org235ffcf}
 \begin{itemize}
 \item urine oligosacarides
 \item \emph{in vitro} hexoaminidase activity: leukocytes, fibroblasts
@@ -1023,17 +1027,17 @@ is the method of choice
 
 
 \item Treatment
-\label{sec:org00a822a}
+\label{sec:org4f672bf}
 \begin{itemize}
 \item treat seizures
 \item no curative treatment to date
 \end{itemize}
 \end{enumerate}
 \subsection{Krabbe}
-\label{sec:orgee43ef7}
+\label{sec:orga8f415f}
 \begin{enumerate}
 \item Introduction
-\label{sec:orgc706b38}
+\label{sec:org58e9c01}
 \begin{itemize}
 \item rapidly progressive CNS degenerative disease
 \item Krabbe is both a leukodystrophy, affecting white matter of the central
@@ -1053,7 +1057,7 @@ and peripheral nervous systems, and an LSD
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./krabbe/figures/beta-galactosidase.png}
-\caption{\label{fig:orgab34cb0}
+\caption{\label{fig:org61aa1ff}
 Galactocerebrosidase}
 \end{figure}
 
@@ -1067,7 +1071,7 @@ Galactocerebrosidase}
 
 \begin{enumerate}
 \item Saposin A cofactor deficiency
-\label{sec:orgd191cb1}
+\label{sec:org9a7a8bc}
 \begin{itemize}
 \item atypical Krabbe disease due to saposin A deficiency is caused by mutation in the prosaposin gene (PSAP)
 \item sphingolipid activator proteins (saposins A, B, C and D) are small
@@ -1079,7 +1083,7 @@ short carbohydrate chains
 \end{enumerate}
 
 \item Genetics
-\label{sec:org4611eb6}
+\label{sec:orgcdf29d9}
 \begin{itemize}
 \item AR GALC
 \item recurrent 30 kb deletion extends from intron 10 to intron 17 of the GALC gene
@@ -1089,7 +1093,7 @@ short carbohydrate chains
 \end{itemize}
 
 \item Clinical Findings
-\label{sec:orgd912a29}
+\label{sec:orgbe00523}
 \begin{itemize}
 \item Krabbe disease is a spectrum from infantile to late-onset
 
@@ -1135,7 +1139,7 @@ Krabbe disease is higher than previously thought
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:orgcb4e171}
+\label{sec:orgfc8db1a}
 \begin{itemize}
 \item diagnosis of Krabbe disease, suspected in a symptomatic proband
 based on clinical findings and other supportive laboratory,
@@ -1161,7 +1165,7 @@ early HSCT
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.8\textwidth]{./krabbe/figures/NBS_follow_up.png}
-\caption{\label{fig:orga27eb89}
+\caption{\label{fig:org1d12888}
 NBS follow-up at Mayo}
 \end{figure}
 
@@ -1184,10 +1188,10 @@ cofactor deficiency
 
 \begin{enumerate}
 \item Treatment
-\label{sec:orgdbbfa2d}
+\label{sec:org26d74ec}
 \begin{enumerate}
 \item Treatment of manifestations
-\label{sec:orgcee6256}
+\label{sec:orgfe950cb}
 \begin{itemize}
 \item treatment of a child who is symptomatic before age six months is
 supportive and focused on increasing the quality of life and
@@ -1197,7 +1201,7 @@ disease burden and manifestations
 \end{itemize}
 
 \item Prevention of primary manifestations
-\label{sec:org94920cc}
+\label{sec:org1768be6}
 \begin{itemize}
 \item asymptomatic newborns identified by either prenatal/neonatal
 evaluation because of a positive family history of Krabbe disease
@@ -1210,7 +1214,7 @@ Krabbe disease are candidates for HSCT before age 30 days
 \end{itemize}
 
 \item Surveillance
-\label{sec:org6726709}
+\label{sec:org321737d}
 \begin{itemize}
 \item monitor symptomatic individuals with Krabbe disease for
 development of:
@@ -1224,10 +1228,10 @@ decreased vision, and corneal ulcerations
 \end{enumerate}
 \end{enumerate}
 \subsection{Metachromic Leukodystropy}
-\label{sec:org5cafdad}
+\label{sec:org1feddb9}
 \begin{enumerate}
 \item Introduction
-\label{sec:orgce911e1}
+\label{sec:org7be25a6}
 \begin{itemize}
 \item \textbf{arylsulfatase A deficiency}
 \begin{itemize}
@@ -1249,7 +1253,7 @@ galactocerebroside) and other sulfated glycolipids
 \end{itemize}
 
 \item Genetics
-\label{sec:org5b179b1}
+\label{sec:org3faf3cb}
 \begin{itemize}
 \item AR ARSA or PSAP (sap-B)
 \item relatively good genotype-phenotype correlation
@@ -1263,7 +1267,7 @@ molecular basis of \textbf{ASA pseudodeficiency}
 \end{itemize}
 
 \item Clinical
-\label{sec:org241a244}
+\label{sec:org921d6c1}
 \begin{itemize}
 \item three forms:
 \begin{enumerate}
@@ -1274,12 +1278,12 @@ molecular basis of \textbf{ASA pseudodeficiency}
 \item variants include:
 \begin{itemize}
 \item saposin B deficiency
-\item multiple sulphatase deficiency (Section \ref{sec:org6667fa3})
+\item multiple sulphatase deficiency (Section \ref{sec:orgf56a085})
 \end{itemize}
 \end{itemize}
 \begin{enumerate}
 \item Late-infantile
-\label{sec:orgd5a3ce2}
+\label{sec:org9683e9e}
 \begin{itemize}
 \item onset 1-2 yearas
 \item typical presenting findings include weakness, hypotonia, clumsiness, frequent falls, toe walking, and dysarthria
@@ -1290,7 +1294,7 @@ general unawareness of their surroundings
 \end{itemize}
 
 \item Juvenile
-\label{sec:orge91e204}
+\label{sec:orgd8761cb}
 \begin{itemize}
 \item onset 6-8 years
 \item decline in school performance and emergence of behavioral problems, followed by gait disturbances
@@ -1298,7 +1302,7 @@ general unawareness of their surroundings
 \end{itemize}
 
 \item Adult
-\label{sec:org06b6632}
+\label{sec:org5218c54}
 \begin{itemize}
 \item onset occurs after age 16 years, sometimes not until the fourth or fifth decade
 \item problems in school or job performance, personality changes, emotional lability, or psychosis
@@ -1312,7 +1316,7 @@ predominate
 \end{enumerate}
 
 \item Diagnosis
-\label{sec:org698bd32}
+\label{sec:org4630a91}
 
 \begin{itemize}
 \item ASA activity in leukocytes or fibroblasts
@@ -1356,7 +1360,7 @@ formylglycine-generating enzyme (FGE)encoded by SUMF1
 \end{itemize}
 \end{itemize}
 \item Treatment
-\label{sec:org22ffe0b}
+\label{sec:orga816c9d}
 \begin{itemize}
 \item HSCT has been used
 \item lentiviral hematopoietic stem cell gene therapy tested
@@ -1364,19 +1368,19 @@ formylglycine-generating enzyme (FGE)encoded by SUMF1
 \end{itemize}
 \end{enumerate}
 \subsection{Fabry}
-\label{sec:orgf8c3601}
+\label{sec:org72edfc8}
 \begin{enumerate}
 \item Introduction
-\label{sec:org28e419d}
+\label{sec:orgca7692b}
 \begin{itemize}
 \item AKA: angiokeratoma corporis diffusum universale
 \item second most common LSD
 \item defect in \textbf{\(\alpha\)-galactosidase A (AKA: ceramide trihexosidase)}
 \begin{itemize}
 \item cleaves terminal galactose from globotriaosylceramide (Gb3)
-(Figure \ref{fig:org09b8852})
+(Figure \ref{fig:orga622bcd})
 \item accumulation of Gb3 in blood vessels and other tissues
-\item globotriaosylceramide (Gb3): the Fabry lipid (Figure \ref{fig:org6bde026})
+\item globotriaosylceramide (Gb3): the Fabry lipid (Figure \ref{fig:orge199362})
 \item 3 to 20\% activity in hemizygote males
 \item wide range of symptoms including kidney, heart, and skin symptoms
 \item \(\uparrow\) Gb3 in kidney and blood group B antigenic glycosphingolipid
@@ -1390,19 +1394,19 @@ formylglycine-generating enzyme (FGE)encoded by SUMF1
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.3\textwidth]{./fabry/figures/globotriaosylceramide.png}
-\caption[Globotriaosylceramide]{\label{fig:org6bde026}
+\caption[Globotriaosylceramide]{\label{fig:orge199362}
 Globotriaosylceramide (Gb3): the Fabry lipid}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.4\textwidth]{./fabry/figures/galactosidaseA.png}
-\caption[\(\alpha\)-galactosidase A]{\label{fig:org95f8628}
+\caption[\(\alpha\)-galactosidase A]{\label{fig:orgcbd40ce}
 \(\alpha\)-galactosidase A, located in the lumen of lysosomes}
 \end{figure}
 
 \item Genetics
-\label{sec:orgd9c1803}
+\label{sec:orgab4babe}
 \begin{itemize}
 \item \textbf{XL GLA}
 \item penetrance in female heterozygotes
@@ -1412,9 +1416,9 @@ Globotriaosylceramide (Gb3): the Fabry lipid}
 \end{itemize}
 
 \item Clinical Findings
-\label{sec:org418bb9b}
+\label{sec:org6073e55}
 \begin{itemize}
-\item see table \ref{tab:org37cdcb4}
+\item see table \ref{tab:orgfdbbe50}
 \item postprandial pain or diarrhea
 \begin{itemize}
 \item may be sole complaint
@@ -1422,14 +1426,14 @@ Globotriaosylceramide (Gb3): the Fabry lipid}
 \item degradation of interphalangeal joints
 \item cerebrovascular - stroke, seizures
 \item ocular lesions
-\item angiokeratomas (Figure \ref{fig:org973c9de})
+\item angiokeratomas (Figure \ref{fig:org358145f})
 \begin{itemize}
 \item prominent on hip, buttocks and scrotum
 \end{itemize}
 \end{itemize}
 
 \begin{table}[htbp]
-\caption{\label{tab:org37cdcb4}
+\caption{\label{tab:orgfdbbe50}
 Fabry Signs and Symptoms}
 \centering
 \begin{tabular}{ll}
@@ -1440,20 +1444,20 @@ adolescence & angiokeratomas\\
 adulthood & CNS, myocardial and pulmonary\\
 middle age & renal failure, lymphedema\\
 \end{tabular}
-\end{table}\footnotetext[5]{\label{org6a7ecb8}induced by heat, cold, fatigue or emotional stress
+\end{table}\footnotetext[5]{\label{org8a2a7cd}induced by heat, cold, fatigue or emotional stress
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.6\textwidth]{./fabry/figures/angiokeratomas.png}
-\caption[Angiokeratomas of the skin]{\label{fig:org973c9de}
+\caption[Angiokeratomas of the skin]{\label{fig:org358145f}
 Angiokeratomas of the Skin}
 \end{figure}}
 
 \item Laboratory Investigations
-\label{sec:org702ec37}
+\label{sec:org399f74f}
 \begin{enumerate}
 \item Biochemistry
-\label{sec:org4f7c162}
+\label{sec:org519bccd}
 \begin{itemize}
 \item deficient \(\alpha\)-galactosidase A activity in leukocytes
 \begin{itemize}
@@ -1473,7 +1477,7 @@ Angiokeratomas of the Skin}
 \end{itemize}
 
 \item Pathology
-\label{sec:org584d4a5}
+\label{sec:org87feb25}
 \begin{itemize}
 \item widespread deposition of Gb3
 \item vacuoles seen in variety of cells, \(\uparrow\) endothelium of blood vessels
@@ -1482,13 +1486,13 @@ Angiokeratomas of the Skin}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.4\textwidth]{./fabry/figures/Fabrys-disease.jpg}
-\caption[Fabry EM]{\label{fig:orgc0c80fb}
+\caption[Fabry EM]{\label{fig:orgc00079f}
 EM showing concentric or lamellar structure of lysosomal inclusions in Fabry disease renal biopsy}
 \end{figure}
 \end{enumerate}
 
 \item Treatment
-\label{sec:orgb77ce3e}
+\label{sec:orga3af16a}
 \begin{itemize}
 \item alleviate pain
 \begin{itemize}
@@ -1510,10 +1514,10 @@ EM showing concentric or lamellar structure of lysosomal inclusions in Fabry dis
 \end{itemize}
 \end{enumerate}
 \subsection{Farber}
-\label{sec:orgb35f8fe}
+\label{sec:org3e59e77}
 \begin{enumerate}
 \item Introduction
-\label{sec:orgcb2782b}
+\label{sec:org896b4b3}
 \begin{itemize}
 \item very rare Farber lipogranulomatosis is clinically heterogeneous
 \begin{itemize}
@@ -1527,12 +1531,12 @@ EM showing concentric or lamellar structure of lysosomal inclusions in Fabry dis
 \end{itemize}
 \end{itemize}
 \item Genetics
-\label{sec:org0e15072}
+\label{sec:orgee06e9a}
 \begin{itemize}
 \item AR ASAH1
 \end{itemize}
 \item Clinical
-\label{sec:orge325b82}
+\label{sec:org2ab9738}
 \begin{itemize}
 \item most frequent signs are painful joint swelling, deformation and
 contractures, periarticular subcutaneous nodules and hoarseness due
@@ -1543,7 +1547,7 @@ to laryngeal involvement
 \end{itemize}
 
 \item Diagnosis
-\label{sec:orgaba4b4d}
+\label{sec:orgc429ace}
 \begin{itemize}
 \item ASAH1 genetics
 \item EM of nodule or of a skin biopsy
@@ -1554,15 +1558,15 @@ to laryngeal involvement
 \end{itemize}
 
 \item Treatment
-\label{sec:orgd88fba6}
+\label{sec:org336efb6}
 \begin{itemize}
 \item none
 \end{itemize}
 \end{enumerate}
 \section{Niemann-Pick C}
-\label{sec:org093226f}
+\label{sec:orge2e0c53}
 \subsection{Introduction}
-\label{sec:org825e428}
+\label{sec:org247ea88}
 \begin{itemize}
 \item a fatal, neuro-degenerative disease that affects \textasciitilde{} 1:150,000
 \begin{itemize}
@@ -1588,18 +1592,18 @@ to laryngeal involvement
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.6\textwidth]{./niemann_pick/figures/cholesterol1.jpg}
-\caption{\label{fig:org79ab0e0}
+\caption{\label{fig:orgb2ea8b0}
 Cholesterol Transport}
 \end{figure}
 
 \begin{enumerate}
 \item NPC1 \& NPC2
-\label{sec:orgb4c4305}
+\label{sec:org51181d3}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./niemann_pick/figures/Niemann-Pick-C-Brown-and-Goldstein.png}
-\caption{\label{fig:org2f81073}
+\caption{\label{fig:org6bb1469}
 NPC1 \& NPC2}
 \end{figure}
 
@@ -1611,13 +1615,13 @@ NPC1 \& NPC2}
 \end{enumerate}
 
 \subsection{Genetics}
-\label{sec:org31d505f}
+\label{sec:orgf775639}
 \begin{itemize}
 \item AR NPC1 (95\%) and NPC2 (5\%)
 \end{itemize}
 
 \subsection{Clinical Findings}
-\label{sec:orga3f9750}
+\label{sec:org06127e8}
 \begin{itemize}
 \item onset of the disease can happen at any age
 \begin{itemize}
@@ -1638,10 +1642,10 @@ NPC1 \& NPC2}
 
 \begin{enumerate}
 \item Neurological Forms
-\label{sec:orgfbc55fd}
+\label{sec:org5ad1fc2}
 \begin{enumerate}
 \item Early Infantile
-\label{sec:org57c2e2e}
+\label{sec:org8323930}
 \begin{itemize}
 \item pre-existing hepatosplenomegaly
 \item delay in motor milestones 9m-2yrs
@@ -1649,7 +1653,7 @@ NPC1 \& NPC2}
 \end{itemize}
 
 \item Late Infantile
-\label{sec:orgdaded99}
+\label{sec:org885c1b2}
 \begin{itemize}
 \item classic NPC 60-70\% of cases
 \item language delay
@@ -1658,7 +1662,7 @@ NPC1 \& NPC2}
 \end{itemize}
 
 \item Adult
-\label{sec:org59bbf82}
+\label{sec:org2265230}
 \begin{itemize}
 \item diagnosis 15->60yrs
 \item insidious presentation
@@ -1670,7 +1674,7 @@ NPC1 \& NPC2}
 \end{enumerate}
 
 \subsection{Diagnostic Tests}
-\label{sec:orgc35d326}
+\label{sec:orgeab0769}
 \begin{itemize}
 \item foamy and sea-blue histiocytes may be found in bone marrow aspirates
 \item plasma and DBS
@@ -1695,12 +1699,12 @@ NPC1 \& NPC2}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./niemann_pick/figures/filipin.png}
-\caption{\label{fig:org92744f0}
+\caption{\label{fig:orgd3fa83b}
 Filipin staining (red:filipin, green:CellMask)}
 \end{figure}
 
 \subsection{Treatment}
-\label{sec:orgc161d4f}
+\label{sec:org849fe8e}
 \begin{itemize}
 \item substrate reduction therapy
 \begin{itemize}
@@ -1710,9 +1714,9 @@ Filipin staining (red:filipin, green:CellMask)}
 \end{itemize}
 
 \section{Neuronal Ceroid Lipfuscinoses}
-\label{sec:orga023b2f}
+\label{sec:org0689ab2}
 \subsection{Introduction}
-\label{sec:org4af002f}
+\label{sec:org45c387b}
 \begin{itemize}
 \item NCLs are a group of inherited progressive neurodegenerative diseases
 \begin{itemize}
@@ -1732,7 +1736,7 @@ NCL proteins to the lysosome
 \end{itemize}
 
 \subsection{Clinical Presentation}
-\label{sec:org9dee2d0}
+\label{sec:orgc2c261c}
 \begin{itemize}
 \item characterised by progressive psychomotor retardation, seizures,
 visual loss and early death
@@ -1748,7 +1752,7 @@ appearance of clinical signs
 \end{itemize}
 
 \subsection{Metabolic Derangement}
-\label{sec:org8d320ae}
+\label{sec:org93763a8}
 \begin{itemize}
 \item accumulation of autofluorescent ceroid lipopigments mainly in
 neural tissues
@@ -1772,14 +1776,14 @@ and juvenile forms
 \end{itemize}
 
 \subsection{Genetics}
-\label{sec:orgbfc19b3}
+\label{sec:org40606af}
 \begin{itemize}
 \item AR
 \item adult form is AD
 \end{itemize}
 
 \subsection{Diagnostic Tests}
-\label{sec:org8e84ed5}
+\label{sec:org67fa531}
 \begin{itemize}
 \item electrophysiological studies
 \item EM tissue biopsy with vacuolated lymphocytes
@@ -1787,20 +1791,20 @@ and juvenile forms
 \end{itemize}
 
 \subsection{Treatment}
-\label{sec:orgaf83e52}
+\label{sec:orgf16a7d4}
 \begin{itemize}
 \item symptomatic treatment
 \item control seizures
 \end{itemize}
 
 \section{Mucopolysaccharidoses}
-\label{sec:org6667fa3}
+\label{sec:orgf56a085}
 \subsection{Introduction}
-\label{sec:org079beb0}
+\label{sec:orgca4dba2}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./mps/figures/ch17f01.jpg}
-\caption[Proteoglycans]{\label{fig:org7e18ad8}
+\caption[Proteoglycans]{\label{fig:orge8a6027}
 Proteoglycans}
 \end{figure}
 
@@ -1824,14 +1828,14 @@ proteoglycans
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./mps/figures/ch3f1.jpg}
-\caption[Proteoglycan Synthesis]{\label{fig:orgb77b5b0}
+\caption[Proteoglycan Synthesis]{\label{fig:org4e02532}
 Proteoglycan Synthesis}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.8\textwidth]{./mps/figures/snfg.png}
-\caption[Glycan Nomenclature]{\label{fig:orgdc8e07a}
+\caption[Glycan Nomenclature]{\label{fig:orgcc5b115}
 Symbol Nomenclature for Glycans (SNFG)}
 \end{figure}
 
@@ -1839,19 +1843,19 @@ Symbol Nomenclature for Glycans (SNFG)}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.6\textwidth]{./mps/figures/ch17f02.jpg}
-\caption[Glycosaminoglycans]{\label{fig:org56488fc}
+\caption[Glycosaminoglycans]{\label{fig:org1bbf154}
 Glycosaminoglycans}
 \end{figure}
 
 \begin{itemize}
-\item GAGs are composed of repeating units of disaccharides (Figure \ref{fig:org56488fc})
+\item GAGs are composed of repeating units of disaccharides (Figure \ref{fig:org1bbf154})
 \begin{itemize}
 \item hexosamine and a hexose or hexuronic acid
 \end{itemize}
 \end{itemize}
 \begin{enumerate}
 \item hyaluronan
-\label{sec:org1f78ebb}
+\label{sec:orgecfe3c7}
 \begin{itemize}
 \item not sulfated, not protein bound
 \item forms in the plasma membrane instead of the Golgi
@@ -1860,14 +1864,14 @@ Glycosaminoglycans}
 \end{itemize}
 
 \item chondroitin sulfate
-\label{sec:org5973333}
+\label{sec:orge9a39c9}
 \begin{itemize}
 \item O-xylose-linked to core proteins
 \item structural component of cartilage
 \end{itemize}
 
 \item dermatan sulfate
-\label{sec:org2ac4bd0}
+\label{sec:org4263600}
 \begin{itemize}
 \item O-xylose-linked to core proteins
 \item skin, blood vessels, heart valves, tendons, and lungs.O
@@ -1875,14 +1879,14 @@ Glycosaminoglycans}
 \end{itemize}
 
 \item heparan Sulfate
-\label{sec:orgefda289}
+\label{sec:orgfaf8a02}
 \begin{itemize}
 \item O-xylose-linked to core proteins
 \item developmental processes, angiogenesis, blood coagulation, tumour metastasis
 \end{itemize}
 
 \item keratan sulfate
-\label{sec:org1144c18}
+\label{sec:org357042e}
 \begin{itemize}
 \item KSI was isolated from corneal tissue and KSII from skeletal tissue
 \begin{itemize}
@@ -1898,27 +1902,27 @@ N-acetyl galactosamine
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.6\textwidth]{./mps/figures/ds_degradation_disorders.png}
-\caption[DS Degradation]{\label{fig:org5a000eb}
+\caption[DS Degradation]{\label{fig:org5bee423}
 DS degradation}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.6\textwidth]{./mps/figures/ks_degradation_disorders.png}
-\caption[KS Degradation]{\label{fig:orgca0ef89}
+\caption[KS Degradation]{\label{fig:orgdb13220}
 KS degradation}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./mps/figures/hs_degradation_disorders.png}
-\caption[HS Degradation]{\label{fig:org2a71360}
+\caption[HS Degradation]{\label{fig:org6dc126c}
 HS Degradation}
 \end{figure}
 \end{enumerate}
 
 \subsection{Multiple sulfatase deficiency}
-\label{sec:org8ec042e}
+\label{sec:org197c927}
 \begin{itemize}
 \item mutations in sulfatase modifying factor 1 (SUMF1), leading to a
 deficiency of the FGE (formylglycine-generating enzyme) protein
@@ -1936,10 +1940,10 @@ sulfatases in the endoplasmatic reticulum
 \end{itemize}
 
 \subsection{Mucopolysaccharidoses}
-\label{sec:org491b813}
+\label{sec:orga7e5214}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:orgaf156dc}
+\label{sec:org145622f}
 \begin{itemize}
 \item all chronic, progressive and multisystem disorders
 \item patients generally appear normal at birth
@@ -1967,31 +1971,31 @@ early symptoms such as:
 
 \begin{enumerate}
 \item Dysmorphic Syndrome
-\label{sec:org7479ad3}
+\label{sec:org0cd885a}
 \begin{itemize}
 \item MPS I (Hurler)
 \item MPS II (Hunter)
 \item MPS VI (Maroteaux-Lamy)
 \end{itemize}
 \item Learning Difficulties, Behavioral Disturbances and Dementia
-\label{sec:orgfe5ec37}
+\label{sec:org62b046a}
 \begin{itemize}
 \item MPS III (Sanfilippo)
 \end{itemize}
 \item Severe Skeletal Dysplasia
-\label{sec:org89f7929}
+\label{sec:org9ef2690}
 \begin{itemize}
 \item MPS IV (Morquio)
 \end{itemize}
 \item Rare
-\label{sec:org4280ad0}
+\label{sec:org1406e94}
 \begin{itemize}
 \item MPS VII (Sly)
 \item MPS IX (Natowicz)
 \end{itemize}
 
 \begin{table}[htbp]
-\caption{\label{tab:org91f6ea2}
+\caption{\label{tab:orga2f3991}
 MPS Signs and Symptoms}
 \centering
 \begin{tabular}{llllll}
@@ -2022,11 +2026,11 @@ MSD & Austin & ++ & + & .+++ & ?\\
 \end{enumerate}
 
 \item Metabolic Derangement
-\label{sec:orgbc35af7}
+\label{sec:orge26e514}
 \begin{itemize}
 \item type of lysosomal storage disease
 \item group of metabolic disorders caused by the absence or malfunctioning
-of lysosomal enzymes needed to break down glycosaminoglycans (Table \ref{tab:orgaed9e4b})
+of lysosomal enzymes needed to break down glycosaminoglycans (Table \ref{tab:org878002f})
 \item can be a result of decreased expression, stability, and activity of
 one of the eleven enzymes required for glycosaminoglycans
 degradation
@@ -2045,12 +2049,12 @@ degradation
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.8\textwidth]{./mps/figures/ch16f9.jpg}
-\caption[Glycosaminoglycan Degradation]{\label{fig:org8f3ac2e}
+\caption[Glycosaminoglycan Degradation]{\label{fig:org975fda0}
 Glycosaminoglycan Degradation}
 \end{figure}
 
 \begin{table}[htbp]
-\caption[Mucopolysaccharidoses]{\label{tab:orgaed9e4b}
+\caption[Mucopolysaccharidoses]{\label{tab:org878002f}
 MPS Enzymes and Substrates}
 \centering
 \begin{tabular}{lllll}
@@ -2077,16 +2081,16 @@ MSD & Austin & formylglycine-generating enzyme & HS,DS & WBC\\
 
 
 \item Genetics
-\label{sec:org4e6e284}
+\label{sec:orgaaab9d4}
 \begin{itemize}
 \item AR
 \item MPS II Hunter is X-linked
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org1a73115}
+\label{sec:org877a26b}
 \begin{itemize}
-\item quantitation of urine GAGs (Table \ref{tab:orgaed9e4b})
+\item quantitation of urine GAGs (Table \ref{tab:org878002f})
 \begin{itemize}
 \item dimethylmethylene blue dye binding assay (DMB)
 \item followed by two-dimensional electrophoresis for qualification of
@@ -2111,7 +2115,7 @@ as the cause of the disease
 
 
 \item Treatment
-\label{sec:orgccb09ef}
+\label{sec:orgd9a0d7c}
 \begin{itemize}
 \item symptomatic care
 \item HSCT - MPS I, II, VI
@@ -2127,9 +2131,9 @@ as the cause of the disease
 \end{enumerate}
 
 \section{Oligosaccharidoses}
-\label{sec:org09c87ca}
+\label{sec:org7db0352}
 \subsection{Introduction}
-\label{sec:orgeefec14}
+\label{sec:orgde8eadf}
 
 \begin{itemize}
 \item almost all the secreted and membrane associated proteins of the body
@@ -2164,17 +2168,17 @@ oligosaccharide chains cause oligosaccharidoses
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\textwidth]{./oligosaccharidoses/figures/oligosacch.png}
-\caption{\label{fig:orgf18e8c2}
+\caption{\label{fig:org9ddc4bd}
 Glycoprotein Oligosaccharide Chain}
 \end{figure}
 
 \subsection{Oligosaccharidoses}
-\label{sec:org6126c20}
+\label{sec:org44f96d5}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org9e739bc}
+\label{sec:org53b233d}
 \begin{itemize}
-\item oligosaccharidoses share many features in common with MPS disorders (Table \ref{tab:orge660aa0})
+\item oligosaccharidoses share many features in common with MPS disorders (Table \ref{tab:orga37c284})
 \begin{itemize}
 \item the urine GAG screen is normal or only shows nonspecific
 abnormalities
@@ -2182,7 +2186,7 @@ abnormalities
 \end{itemize}
 
 \begin{table}[htbp]
-\caption{\label{tab:orge660aa0}
+\caption{\label{tab:orga37c284}
 Oligosaccharidoses}
 \centering
 \begin{tabular}{lllllll}
@@ -2198,7 +2202,7 @@ galactosialidosis & PPCA & ++ & ++ & - & + & Fibro \& DNA\\
 
 \begin{enumerate}
 \item Mannosidosis
-\label{sec:org4f3678c}
+\label{sec:orge08eb2e}
 \begin{itemize}
 \item deficiency of \(\alpha\)-mannosidase \(\to\) variable disorder \(\alpha\)-mannosidosis
 \item mild Hurler phenotype
@@ -2221,7 +2225,7 @@ relatively common
 \end{itemize}
 
 \item Fucosidosis
-\label{sec:orga15cf3d}
+\label{sec:org5798ee9}
 \begin{itemize}
 \item lack the typical facial dysmorphism
 \item deficiency of \(\alpha\)-fucosidase \(\to\) variable neurodegenerative disorder
@@ -2230,7 +2234,7 @@ relatively common
 \end{itemize}
 
 \item Galactosialidosis
-\label{sec:org581d78a}
+\label{sec:org6db3afd}
 \begin{itemize}
 \item combined deficiency of the lysosomal enzymes \(\beta\)-galactosidase and
 \(\alpha\)-neuraminidase
@@ -2250,12 +2254,12 @@ difficulties, dysostosis multiplex and corneal opacity
 
 
 \item Genetics
-\label{sec:orgd4d1b64}
+\label{sec:org8a9d835}
 \begin{itemize}
 \item AR
 \end{itemize}
 \item Diagnostic Tests
-\label{sec:orgdc4d893}
+\label{sec:orga97c4b0}
 \begin{itemize}
 \item clinical suspicion
 \item urine oligosaccharide excretion
@@ -2264,19 +2268,19 @@ difficulties, dysostosis multiplex and corneal opacity
 \item treated with orcinol reagent and heated to 100C to visualize
 \end{itemize}
 \item usually normal urine GAGs
-\item enzyme activity assays (Table \ref{tab:orge660aa0})
+\item enzyme activity assays (Table \ref{tab:orga37c284})
 \end{itemize}
 
 \item Treatment
-\label{sec:org658df37}
+\label{sec:org72b6aa8}
 \begin{itemize}
 \item supportive
 \end{itemize}
 \end{enumerate}
 \section{Mucolipidoses}
-\label{sec:orgfeae879}
+\label{sec:org5e8d07b}
 \subsection{Introduction}
-\label{sec:org3755da1}
+\label{sec:org2a35704}
 \begin{itemize}
 \item mucolipidoses derived their name from the similarity in
 presentation to both mucopolysaccharidoses and sphingolipidoses
@@ -2290,7 +2294,7 @@ presentation to both mucopolysaccharidoses and sphingolipidoses
 \end{itemize}
 
 \begin{table}[htbp]
-\caption{\label{tab:org8661438}
+\caption{\label{tab:org81d49e5}
 Mucolipidoses}
 \centering
 \begin{tabular}{lllllll}
@@ -2305,10 +2309,10 @@ ML IV & mucolipin-1 & - & ++ & - & - & DNA\\
 \end{table}
 
 \subsection{ML I (Sialidosis)}
-\label{sec:org54b2c6f}
+\label{sec:orgf7f17db}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org0f81115}
+\label{sec:org3cadae0}
 \begin{itemize}
 \item Type I sialidosis is the milder form of this disorder
 \begin{itemize}
@@ -2325,7 +2329,7 @@ phenotype
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:org03c2bc2}
+\label{sec:org47e7a3e}
 \begin{itemize}
 \item deficiency of \(\alpha\)-neuraminidase that normally cleaves terminal
 \(\alpha\)2 \(\to\) 3 and \(\alpha\)2 \(\to\) 6 sialyl linkages of several
@@ -2334,7 +2338,7 @@ oligosaccharides and glycopeptides
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:orgab710bf}
+\label{sec:orgf0b668e}
 \begin{itemize}
 \item test urine samples for both oligosaccharides and glycopeptides
 \item definitive diagnosis - measurement of sialidase activity in fresh
@@ -2343,24 +2347,24 @@ or white blood cells
 \end{itemize}
 
 \item Treatment
-\label{sec:orge43a2b9}
+\label{sec:orge5f07ab}
 \begin{itemize}
 \item supportive
 \end{itemize}
 \end{enumerate}
 
 \subsection{ML II \& III}
-\label{sec:orgf7a5b76}
+\label{sec:orgbe9f68a}
 \begin{itemize}
 \item ML II AKA: I-Cell Disease
 \item ML III AKA: Pseudo-Hurler
 \end{itemize}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org9c09814}
+\label{sec:orgeb30f8e}
 \begin{enumerate}
 \item ML II
-\label{sec:orgd6a7826}
+\label{sec:orgd4ea569}
 \begin{itemize}
 \item low IQ
 \item short, max 75 cm by 2 y
@@ -2372,7 +2376,7 @@ or white blood cells
 \end{itemize}
 
 \item ML III
-\label{sec:org8f0ccbe}
+\label{sec:orge1b3737}
 \begin{itemize}
 \item pathology of ML-III is not as well documented as that of ML-II
 \begin{itemize}
@@ -2386,7 +2390,7 @@ progression of the disease
 
 
 \item Metabolic Derangement
-\label{sec:org7d4766c}
+\label{sec:orgad9d6d9}
 \begin{itemize}
 \item ML II and ML III result from a deficiency of the enzyme
 N-acetylglucosamine-1-phosphotransferase
@@ -2420,7 +2424,7 @@ glycosaminoglycan inclusions in lysosomes
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1\textwidth]{./mucolipidosis/figures/lysosome_traffic.jpg}
-\caption[Protein trafficking to lysosomes]{\label{fig:org24e72fc}
+\caption[Protein trafficking to lysosomes]{\label{fig:org75f9c99}
 Protein trafficking to lysosomes}
 \end{figure}
 
@@ -2428,25 +2432,25 @@ Protein trafficking to lysosomes}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1\textwidth]{./mucolipidosis/figures/ml_defect.png}
-\caption[N-acetylglucosamine (GlcNAc) phosphotransferase]{\label{fig:org41b9ca7}
+\caption[N-acetylglucosamine (GlcNAc) phosphotransferase]{\label{fig:org943bd0d}
 N-acetylglucosamine (GlcNAc) phosphotransferase}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[height=0.5\textwidth]{./mucolipidosis/figures/icell.png}
-\caption{\label{fig:orgc74082a}
+\caption{\label{fig:orge749554}
 I cell in fibroblast culture}
 \end{figure}
 
 \item Genetics
-\label{sec:org37d78cf}
+\label{sec:orgcad7d50}
 \begin{itemize}
 \item AR GNPTAB
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org4b5c227}
+\label{sec:org9395a73}
 \begin{itemize}
 \item diagnosis is generally made by assay of lysosomal enzymes
 \begin{itemize}
@@ -2461,16 +2465,16 @@ I cell in fibroblast culture}
 \end{itemize}
 
 \item Treatment
-\label{sec:org7626165}
+\label{sec:org805b1b5}
 \begin{itemize}
 \item supportive
 \end{itemize}
 \end{enumerate}
 \subsection{ML IV}
-\label{sec:orge6b7a74}
+\label{sec:org270a24d}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:orga5ac151}
+\label{sec:org0d70e75}
 \begin{itemize}
 \item severe motor developmental delay
 \item iron deficiency anemia
@@ -2484,7 +2488,7 @@ organs such as the liver and the spleen
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:orgac77ccb}
+\label{sec:org04d609b}
 \begin{itemize}
 \item inborn error of intracellular membrane trafficking due to mucolipin-1 deficiency
 \begin{itemize}
@@ -2494,12 +2498,12 @@ organs such as the liver and the spleen
 \item associated with lysosomal inclusions in a variety of cell types
 \end{itemize}
 \item Genetics
-\label{sec:orgeede267}
+\label{sec:orgcf7f0d2}
 \begin{itemize}
 \item AR MCOLN1
 \end{itemize}
 \item Diagnostic Tests
-\label{sec:orgd6bffc9}
+\label{sec:orgb840a45}
 \begin{itemize}
 \item \(\uparrow\) blood gastrin levels
 \begin{itemize}
@@ -2509,16 +2513,16 @@ organs such as the liver and the spleen
 \end{itemize}
 
 \item Treatment
-\label{sec:org058d5b4}
+\label{sec:org2fd44be}
 \begin{itemize}
 \item supportive
 \end{itemize}
 \end{enumerate}
 
 \section{Peroxisomes}
-\label{sec:org6482740}
+\label{sec:org2caaa98}
 \subsection{Introduction}
-\label{sec:orgb954d87}
+\label{sec:org976d7e0}
 \begin{itemize}
 \item peroxisomes are required for \(\beta\)-oxidation of:
 \begin{itemize}
@@ -2544,7 +2548,7 @@ organs such as the liver and the spleen
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{./peroxisomes/figures/non_mito_FA_met.png}
-\caption[Non-mitochondrial FA metabolism]{\label{fig:orgb6ad806}
+\caption[Non-mitochondrial FA metabolism]{\label{fig:org4a63a58}
 Non-mitochondrial FA metabolism}
 \end{figure}
 
@@ -2597,10 +2601,10 @@ Refsum & N & N & \(\uparrow\) & \(\downarrow\) & N\\
 \end{center}
 
 \subsection{X-linked Adrenoleukodystrophy}
-\label{sec:orgb3a799b}
+\label{sec:orgeea90d4}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org13f5131}
+\label{sec:org6ade13e}
 \begin{itemize}
 \item three forms:
 \begin{enumerate}
@@ -2632,7 +2636,7 @@ develops by middle age
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:org6aab544}
+\label{sec:orgb4ea0f7}
 \begin{itemize}
 \item deficiency in ALDP a peroxisomal ABC transporter
 \begin{itemize}
@@ -2650,13 +2654,13 @@ white blood cells and plasma
 \end{itemize}
 
 \item Genetics
-\label{sec:orgda9877f}
+\label{sec:orgadb2773}
 \begin{itemize}
 \item X-linked ABCD1
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org1b1bba7}
+\label{sec:orgb8bade9}
 \begin{itemize}
 \item quantitative VLCFAs including: C22:0, C24:0, and C26:0 in plasma
 \begin{itemize}
@@ -2680,7 +2684,7 @@ species
 \end{itemize}
 
 \item Treatment
-\label{sec:orga76f345}
+\label{sec:org559561d}
 \begin{itemize}
 \item a boy born with X-ALD has a 35\% risk of developing cerebral ALD
 between the age of 4-12 years
@@ -2697,7 +2701,7 @@ performed at a very early stage
 \end{enumerate}
 
 \subsection{Zellweger Spectrum Disorders}
-\label{sec:org5ae6497}
+\label{sec:org83bfa97}
 \begin{itemize}
 \item this group of conditions includes:
 \begin{itemize}
@@ -2714,10 +2718,10 @@ part of the same condition spectrum
 
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org3fe0eef}
+\label{sec:org0881c7c}
 \begin{enumerate}
 \item Zellweger Syndrome
-\label{sec:org8b8fccc}
+\label{sec:org6f853cf}
 \begin{itemize}
 \item presents in newborn period
 \begin{itemize}
@@ -2748,7 +2752,7 @@ part of the same condition spectrum
 \end{itemize}
 
 \item NALD and IRD
-\label{sec:org8ba649a}
+\label{sec:org41fce64}
 \begin{itemize}
 \item less-severe
 \item have more variable features than those with Zellweger syndrome
@@ -2766,7 +2770,7 @@ disability
 \end{enumerate}
 
 \item Metabolic Derangement
-\label{sec:orgebf63aa}
+\label{sec:org11cc860}
 \begin{itemize}
 \item absence or marked deficiency of peroxisomes
 \begin{itemize}
@@ -2785,7 +2789,7 @@ disability
 \end{itemize}
 
 \item Genetics
-\label{sec:orgd45d9ef}
+\label{sec:org6da159d}
 \begin{itemize}
 \item genetic basis of the ZSD is heterogeneous
 \item biallelic mutations identified in:
@@ -2796,7 +2800,7 @@ disability
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org7423d4f}
+\label{sec:orgefb7e06}
 \begin{itemize}
 \item VLCFA analysis is a good initial biochemical test
 \item erythrocyte plasmalogens
@@ -2813,7 +2817,7 @@ peroxisomal protein
 \end{itemize}
 
 \item Treatment
-\label{sec:org97d9279}
+\label{sec:orgcd13f4e}
 \begin{itemize}
 \item no treatment available
 \item supplementation with docosahexaenoic acid (DHA) is not beneficial
@@ -2823,10 +2827,10 @@ toxic bile acid intermediates DHCA and THCA
 \end{enumerate}
 
 \subsection{Refsum Disease}
-\label{sec:orge441277}
+\label{sec:orgdee905a}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org6cc28f4}
+\label{sec:org89e8a2b}
 \begin{itemize}
 \item present in late childhood with:
 \begin{itemize}
@@ -2847,7 +2851,7 @@ conduction disturbances
 \end{itemize}
 
 \item Metabolic derangement
-\label{sec:org8a7cd2f}
+\label{sec:org59687e9}
 \begin{itemize}
 \item phytanoyl-CoA hydroxylase is deficient in Refsum
 \item required for \(\alpha\)-oxidation of phytanic acid
@@ -2859,18 +2863,18 @@ conduction disturbances
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.3\textwidth]{./peroxisomes/figures/alpha.png}
-\caption[oxidation of phytanic]{\label{fig:org0c1bc8b}
+\caption[oxidation of phytanic]{\label{fig:org9f86a04}
 Oxidation of Phytanic Acid}
 \end{figure}
 
 \item Genetics
-\label{sec:orgcde4268}
+\label{sec:org8cb53fb}
 \begin{itemize}
 \item AR PHYH
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:orge4058e3}
+\label{sec:org535649d}
 \begin{itemize}
 \item \(\Uparrow\) plasma phytanic acid
 \item \(\uparrow\) phytanic acid in ZS
@@ -2880,7 +2884,7 @@ Oxidation of Phytanic Acid}
 \end{itemize}
 
 \item Treatment
-\label{sec:org27045b9}
+\label{sec:orgfef65be}
 \begin{itemize}
 \item dietary restriction of phytanic acid 
 \begin{itemize}
@@ -2905,10 +2909,10 @@ lipid apheresis are maintained life-long
 \end{enumerate}
 
 \subsection{Sj\"{o}gren Larsson Syndrome}
-\label{sec:org6d1141a}
+\label{sec:orgc83d9ff}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:orgc4e0d41}
+\label{sec:orgc8e0205}
 \begin{itemize}
 \item classical tetrad of abnormalities in SLS includes:
 \begin{enumerate}
@@ -2922,20 +2926,20 @@ lipid apheresis are maintained life-long
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:orgb6aff4e}
+\label{sec:org9c8af5e}
 \begin{itemize}
 \item enzyme deficient in SLS is fatty aldehyde dehydrogenase (FALDH)
 \item degradation of long-chain fatty alcohols and leukotriene B4
 \end{itemize}
 
 \item Genetics
-\label{sec:org9422d3b}
+\label{sec:orge30fcb0}
 \begin{itemize}
 \item AR ALDH3A2
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org2bf73bf}
+\label{sec:orgcde3346}
 \begin{itemize}
 \item \(\uparrow\) long-chain fatty alcohols in plasma
 \item \(\uparrow\) leukotriene in urine
@@ -2950,7 +2954,7 @@ lipid apheresis are maintained life-long
 \end{itemize}
 
 \item Treatment
-\label{sec:orgaa2eaf4}
+\label{sec:orgbf5f170}
 \begin{itemize}
 \item treatment of SLS patients is focused on the spasticity and
 prevention of contracture development
@@ -2971,10 +2975,10 @@ prevention of contracture development
 \end{enumerate}
 
 \subsection{Disorders of Etherphospholipid (RCDP)}
-\label{sec:orgf2e9c1a}
+\label{sec:org496e44c}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org85012ab}
+\label{sec:org629f0ae}
 \begin{itemize}
 \item Rhizomelic Chondrodysplasia Punctata (RCDP) is the classical
 phenotype of a etherphospholipid biogenesis defect
@@ -3015,10 +3019,10 @@ identified:
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:orge84ea38}
+\label{sec:org4e47a5a}
 \begin{enumerate}
 \item RCDP Type 1
-\label{sec:org10dea12}
+\label{sec:org8724db0}
 \begin{itemize}
 \item RCDP type 1 is caused by mutations in PEX7
 \begin{itemize}
@@ -3044,7 +3048,7 @@ consequences for VLCFA degradation
 \end{itemize}
 
 \item RCDP Type 2
-\label{sec:org261a841}
+\label{sec:orgb8a1f8a}
 \begin{itemize}
 \item Glycerone 3-Phosphate Acyltransferase Deficiency
 \item mutations in GNPAT
@@ -3052,7 +3056,7 @@ consequences for VLCFA degradation
 \end{itemize}
 
 \item RCDP Type 3
-\label{sec:orgea802f3}
+\label{sec:org5311129}
 \begin{itemize}
 \item Alkylglycerone 3-Phosphate Synthase Deficiency
 \item mutations in AGPS
@@ -3062,13 +3066,13 @@ consequences for VLCFA degradation
 \end{enumerate}
 
 \item Diagnostic Tests
-\label{sec:org1bd2925}
+\label{sec:org1a15e29}
 \begin{itemize}
 \item \(\downarrow\) RBC plasmalogens
 \end{itemize}
 \begin{enumerate}
 \item RDCP1
-\label{sec:org1c45e9b}
+\label{sec:org3ecab6c}
 \begin{itemize}
 \item \(\uparrow\) phytanic
 \item \(\downarrow\) pristanic
@@ -3079,14 +3083,14 @@ consequences for VLCFA degradation
 \end{enumerate}
 
 \item Treatment
-\label{sec:org09033be}
+\label{sec:org4b9ce4e}
 \begin{itemize}
 \item phytanic acid restriction
 \end{itemize}
 \end{enumerate}
 
 \subsection{Fatty Acid Chain Elongation Disorders}
-\label{sec:orgcc0653b}
+\label{sec:org7a45232}
 \begin{itemize}
 \item FA from dietary sources or synthesized \emph{de novo} via the FAS complex,
 can be converted into longer-chain fatty acids either saturated,
@@ -3121,7 +3125,7 @@ carbon atoms and involves a four-step pathway mediated by:
 
 \begin{enumerate}
 \item Disorders
-\label{sec:org1866f49}
+\label{sec:org34cb2d1}
 \begin{itemize}
 \item EVOL4 Deficiency
 \item EVOL5 Deficiency
@@ -3131,7 +3135,7 @@ carbon atoms and involves a four-step pathway mediated by:
 \end{enumerate}
 
 \subsection{Disorders of Eicosanoid Metabolism}
-\label{sec:org82371eb}
+\label{sec:orga82d59e}
 \begin{itemize}
 \item eicosanoids constitute a large variety of biologically active
 molecules derived from arachidonic acid after liberation from
@@ -3160,13 +3164,13 @@ pathways:
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./peroxisomes/figures/eicosanoids.png}
-\caption{\label{fig:orgc10be02}
+\caption{\label{fig:org998baab}
 Eicosanoid Metabolism}
 \end{figure}
 
 \begin{enumerate}
 \item Disorders
-\label{sec:orgeaf1e9e}
+\label{sec:orgc2f409b}
 \begin{itemize}
 \item Primary Hypertrophic Osteoarthropathy (PHO)
 \begin{itemize}
@@ -3186,9 +3190,9 @@ furrowing, seborrhea, and hyperhidrosis
 \end{itemize}
 \end{enumerate}
 \section{Glycosylation}
-\label{sec:orga5b3ba7}
+\label{sec:org833698a}
 \subsection{Introduction}
-\label{sec:org16928cd}
+\label{sec:orga6a0122}
 \begin{itemize}
 \item most extracellular proteins, membrane proteins and several
 intracellular proteins (lysosomal enzymes), are glycoproteins
@@ -3212,7 +3216,7 @@ and lipids
 
 \begin{enumerate}
 \item Synthesis of N-glycans
-\label{sec:orgbb06b8b}
+\label{sec:org6fc4af2}
 \begin{enumerate}
 \item formation in the cytosol of nucleotide-linked sugars
 \begin{itemize}
@@ -3237,12 +3241,12 @@ and lipids
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1\textwidth]{./cdg/figures/Slide20.png}
-\caption{\label{fig:org9fb8985}
+\caption{\label{fig:orga9fd3b0}
 CDGs}
 \end{figure}
 
 \item Congenital Disorders of Glycosylation
-\label{sec:orgf86e000}
+\label{sec:org5926268}
 \begin{itemize}
 \item very broad spectrum of clinical manifestations
 \item consider in any unexplained clinical condition
@@ -3254,7 +3258,7 @@ CDGs}
 \item \textbf{NB:} O and GPI-linked CDGs not covered here
 \end{itemize}
 \item CDG classification
-\label{sec:org21c818e}
+\label{sec:org6094bec}
 \begin{itemize}
 \item each CDG type is defined by a specific enzyme defect and the mutation in its underlying gene
 \item most CDG mutations are hypomorphic - allow some glycan synthesis
@@ -3273,16 +3277,16 @@ CDGs}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1\textwidth]{./cdg/figures/cdg_diag.png}
-\caption{\label{fig:org4fa6cc9}
+\caption{\label{fig:org2e74df9}
 CDG diagnosis}
 \end{figure}
 \end{enumerate}
 
 \subsection{PMM2-CDG (CDG Ia)}
-\label{sec:org58a6d95}
+\label{sec:org9aa14e2}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:orgc2c2920}
+\label{sec:org0190940}
 \begin{itemize}
 \item \textasciitilde{}70\% CDGs
 \item nervous system is affected in all patients
@@ -3305,7 +3309,7 @@ mild phenotype - no dysmorphic features, slight intellectual disability
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:org8d41dc3}
+\label{sec:org7a29d92}
 \begin{itemize}
 \item deficiency of phosphomannomutase 2, principal isozyme of PMM
 \item PMM2 catalyses the second committed step in the synthesis of GDP-mannose
@@ -3329,13 +3333,13 @@ antithrombin III, cholinesterase
 \end{itemize}
 
 \item Genetics
-\label{sec:org4516f24}
+\label{sec:org6cd69cf}
 \begin{itemize}
 \item AR, PMM2
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:orgd387493}
+\label{sec:org6010435}
 \begin{itemize}
 \item \(\uparrow\) transaminases
 \item \(\downarrow\) albumine
@@ -3351,17 +3355,17 @@ leukocytes or fibroblasts
 \end{itemize}
 
 \item Treatment
-\label{sec:org5272330}
+\label{sec:orga19510e}
 \begin{itemize}
 \item no effective treatment is available
 \end{itemize}
 \end{enumerate}
 
 \subsection{MPI-CDG (CDG Ib)}
-\label{sec:org3961767}
+\label{sec:org2775ed7}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:orgad6888f}
+\label{sec:org768ac23}
 \begin{itemize}
 \item onset in infancy, neonatal
 \item cyclic vomiting, profound hypoglycemia, failure to thrive, liver
@@ -3375,27 +3379,27 @@ intestinal bleeding of diffuse origin
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:orgad53882}
+\label{sec:org94596f3}
 \begin{itemize}
 \item mannose-6 phosphate isomerase deficiency
 \item F-6-P \ce{<=>} M-6-P
 \end{itemize}
 
 \item Genetics
-\label{sec:org6b2e5c7}
+\label{sec:org94c0407}
 \begin{itemize}
 \item AR, MPI
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:orgbec3dcd}
+\label{sec:orgd68e8f7}
 \begin{itemize}
 \item serum transferrin IEF - type I pattern
 \item \(\downarrow\) MPI activity WBC, fibroblasts
 \end{itemize}
 
 \item Treatment
-\label{sec:org5b58f99}
+\label{sec:org6fab806}
 \begin{itemize}
 \item \textbf{treated effectively with oral mannose supplementation}
 \item can be fatal if untreated
@@ -3404,13 +3408,13 @@ intestinal bleeding of diffuse origin
 \end{enumerate}
 
 \subsection{Type II CDGs}
-\label{sec:orgd9fc8e2}
+\label{sec:orgcc01e46}
 \begin{enumerate}
 \item MGAT2-CDG (CDG IIa)
-\label{sec:org9de57ea}
+\label{sec:org69bda9b}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:orge1ebe9d}
+\label{sec:org8df766a}
 \begin{itemize}
 \item onset in infancy, neonatal
 \item facial dysmorphism: large, posteriorly rotated ears with prominent
@@ -3423,7 +3427,7 @@ aggregation
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:org773ddc9}
+\label{sec:orgffb75f0}
 \begin{itemize}
 \item golgi N-acetylglucosaminyltransferase II deficiency
 \begin{itemize}
@@ -3432,39 +3436,39 @@ aggregation
 \end{itemize}
 \end{itemize}
 \item Genetics
-\label{sec:org0a6500c}
+\label{sec:orgb5288cf}
 \begin{itemize}
 \item AR MGAT2
 \end{itemize}
 \item Diagnostic Tests
-\label{sec:orge53c6e2}
+\label{sec:org335bade}
 \begin{itemize}
 \item serum transferrin IEF - type II pattern
 \item \(\downarrow\) GnT II activity WBC, fibroblasts
 \end{itemize}
 
 \item Treatment
-\label{sec:org396a68a}
+\label{sec:org0db976d}
 \begin{itemize}
 \item none
 \end{itemize}
 \end{enumerate}
 \item SLC35C1-CDG (CDG IIc)
-\label{sec:org2251c07}
+\label{sec:org898dd82}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org9d233af}
+\label{sec:orgc8dfffa}
 \begin{itemize}
 \item severe mental retardation, microcephaly, cortical atrophy, seizures,
 hypotonia, rhizomelic short stature, and recurrent infections with
 neutrophilia
-\item Bombay (hh) blood phenotype (Figure \ref{fig:orgdb576be})
+\item Bombay (hh) blood phenotype (Figure \ref{fig:org6e1cdb6})
 \begin{itemize}
 \item do not express H antigen
 \end{itemize}
 \end{itemize}
 \item Metabolic Derangement
-\label{sec:org207b32e}
+\label{sec:orgf6f7525}
 \begin{itemize}
 \item GDP-fucose transporter 1 defect
 \begin{itemize}
@@ -3472,19 +3476,19 @@ neutrophilia
 \end{itemize}
 \end{itemize}
 \item Genetics
-\label{sec:orgd079e43}
+\label{sec:orgbfd50f1}
 \begin{itemize}
 \item AR SLC35C1
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org8418876}
+\label{sec:orgfa7eb10}
 \begin{itemize}
 \item normal transferrin IEF
 \item molecular
 \end{itemize}
 \item Treatment
-\label{sec:org5d15099}
+\label{sec:org114e58e}
 \begin{itemize}
 \item \textbf{fucose has been used to treat} thought that:
 \begin{itemize}
@@ -3496,15 +3500,15 @@ neutrophilia
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.4\textwidth]{./cdg/figures/Bombay.png}
-\caption[Hh]{\label{fig:orgdb576be}
+\caption[Hh]{\label{fig:org6e1cdb6}
 Hh Blood Group}
 \end{figure}
 \end{enumerate}
 \end{enumerate}
 \section{Cystinosis}
-\label{sec:org568e2a7}
+\label{sec:org2e87141}
 \subsection{Introduction}
-\label{sec:orgedb2204}
+\label{sec:orgf374024}
 \begin{itemize}
 \item intralysosomal cystine is formed by protein catabolism in the organelle
 \item normally exported by a cystine porter which contains the membrane protein cystinosin
@@ -3525,14 +3529,14 @@ Hh Blood Group}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.6\textwidth]{./cystinosis/figures/lysexport.png}
-\caption{\label{fig:org441875d}
+\caption{\label{fig:org3b629ae}
 Lysosomal export of cystine and related compounds. The cross represents the defect in cystinosis}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.2\textwidth]{./cystinosis/figures/cystine.png}
-\caption{\label{fig:orgea78913}
+\caption{\label{fig:org2c749ec}
 Cystine}
 \end{figure}
 
@@ -3545,7 +3549,7 @@ clinical phenotypes:
 \item ocular - presence of cystine crystals in the eye and the bone
 marrow
 \end{enumerate}
-\item nephropathic or infantile form is by far the most frequent (see \ref{sec:org03eb908})
+\item nephropathic or infantile form is by far the most frequent (see \ref{sec:org58bcf52})
 \item late-onset or juvenile form and a benign or adult form are limited to the eyes
 \begin{itemize}
 \item are caused by mutations of the same gene
@@ -3553,13 +3557,13 @@ marrow
 \end{itemize}
 
 \subsection{Infantile Cystinosis}
-\label{sec:org03eb908}
+\label{sec:org58bcf52}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org41a8ffe}
+\label{sec:org59b3eac}
 \begin{enumerate}
 \item First stage
-\label{sec:org3df06ea}
+\label{sec:org597f0b0}
 \begin{itemize}
 \item 3-6 months symptom free
 \item symptoms @ 12 months
@@ -3583,13 +3587,13 @@ hypokalemia, hyponatremia and metabolic acidosis
 \end{itemize}
 
 \item End-stage renal failure
-\label{sec:org735490b}
+\label{sec:org781c451}
 \begin{itemize}
 \item 6-12 years
 \item delayed by cysteamine treatment
 \end{itemize}
 \item Late symptoms
-\label{sec:org15486f5}
+\label{sec:org04d5732}
 \begin{itemize}
 \item cystine accumulation affects:
 \begin{itemize}
@@ -3597,7 +3601,7 @@ hypokalemia, hyponatremia and metabolic acidosis
 \end{itemize}
 \end{itemize}
 \item Late Ocular Complications
-\label{sec:org9db79f9}
+\label{sec:orgc86c15d}
 \begin{itemize}
 \item corneal deposits accumulate progressively
 \item photophobia, watering and blepharospasm may become disabling
@@ -3607,7 +3611,7 @@ hypokalemia, hyponatremia and metabolic acidosis
 \end{itemize}
 
 \item Endocrine Disturbances
-\label{sec:orgef94fb4}
+\label{sec:org1c49a69}
 \begin{itemize}
 \item hypothyroidism
 \item gonadal function - azoospermic
@@ -3623,7 +3627,7 @@ hypokalemia, hyponatremia and metabolic acidosis
 
 
 \item Metabolic Derangement
-\label{sec:orgb028240}
+\label{sec:org53ed2d3}
 \begin{itemize}
 \item defect of cystinosin, transports cystine across the lysosomal
 membrane
@@ -3638,13 +3642,13 @@ brain parenchyma and lymph nodes
 \end{itemize}
 
 \item Genetics
-\label{sec:org718e3bb}
+\label{sec:orgecf946c}
 \begin{itemize}
 \item AR, CTNS
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org1e890a5}
+\label{sec:org09ee09e}
 \begin{itemize}
 \item diagnosis of cystinosis is confirmed by:
 \begin{itemize}
@@ -3658,17 +3662,17 @@ brain parenchyma and lymph nodes
 \end{itemize}
 
 \item Treatment
-\label{sec:org64231c7}
+\label{sec:org927f2c4}
 \begin{enumerate}
 \item Supportive
-\label{sec:orgbfdc4d3}
+\label{sec:orga81d43e}
 \begin{itemize}
 \item treatment of tubular losses
 \item renal replacement therapy
 \item supportive treatment of extrarenal complications
 \end{itemize}
 \item Specific
-\label{sec:org6ed7c2e}
+\label{sec:org91775e1}
 \begin{itemize}
 \item cysteamine
 \begin{itemize}

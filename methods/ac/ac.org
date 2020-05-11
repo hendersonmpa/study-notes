@@ -5,68 +5,252 @@
 * Introduction
 - carnitine (\beta{}-hydroxy-\gamma{}-N-trimethylaminobutyric acid) is
   an endogenous quaternary ammonium compound synthesized from lysine
-  and methionine.
+  and methionine
 - L-Carnitine has been described as a "conditionally essential"
-  nutrient for humans.
-- populations with an exogenous carnitine requirement include:
-  - infants (premature and full-term),
-  - patients on long-term parenteral nutrition,
-  - perhaps children.
-- exogenous carnitine is required to maintain "normal" (in the
-  epidemiologic sense) plasma or serum carnitine concentrations in
-  humans of all ages.
+  nutrient for humans
+- exogenous carnitine is required to maintain plasma carnitine
+  concentrations in humans of all ages especially:
+  - infants (premature and full-term)
+  - patients on long-term parenteral nutrition
+  - children
 - primary function is to shuttle long chain fatty acids to the
-  mitochondrial matrix, for \beta{}-oxidation.
+  mitochondrial matrix, for \beta-oxidation
 - acylcarnitines are markers for FAODs and OAs
 
-\vspace{2em}
-
 #+BEGIN_EXPORT LaTeX
-\chemname{\chemfig{H3C-N^{+}([2]-CH3)([6]-CH3)-CH2-C([2]-H)([6]-OH)-CH_2-C([1]=O)([7]-O^{-})}}{\tiny Carnitine}
+\chemnameinit{}
+\chemname{\chemfig{H3C-N^{+}([2]-CH3)([6]-CH3)-CH2-C([2]-H)([6]-OH)-CH_2-C([1]=O)([7]-O^{-})}}{\small Carnitine}
 \hspace{3em}
-\chemname{\chemfig{H3C-N^{+}([2]-CH3)([6]-CH3)-CH2-C([2]-H)([6]-O-C([0]=O)-{\color{red}R})-CH_2-C([1]=O)([7]-O^{-})}}{\tiny Acylcarnitine}
-%\chemname{\chemfig[][scale=.5]{H3C-N^{+}([2]-CH3)([6]-CH3)-CH2-C([2]-H)([6]-O-C([0]=O)-{\color{red}R})-CH_2-C([2]=O)-O-CH_2-CH_2-CH_2-CH_3}}{\tiny Acylcarnitine, butyl ester}
+\chemname{\chemfig{H3C-N^{+}([2]-CH3)([6]-CH3)-CH2-C([2]-H)([6]-O-C([0]=O)-{\color{red}R})-CH_2-C([1]=O)([7]-O^{-})}}{\small Acylcarnitine}
+%\chemname{\chemfig[][scale=.5]{H3C-N^{+}([2]-CH3)([6]-CH3)-CH2-C([2]-H)([6]-O-C([0]=O)-{\color{red}R})-CH_2-C([2]=O)-O-CH_2-CH_2-CH_2-CH_3}}{\small Acylcarnitine, butyl ester}
 #+END_EXPORT
 
 * Diagnostic FIA-MS/MS
-- see [[AAAC]]
+** Sample Prep
 
-** Typical Panel
-- acetylcarnitine (C2)
-- propionylcarnitine (C3)
-- butyryl-/isobutyrylcarnitine (C4)
-- tiglylcarnitine (C5:1)
-- isovaleryl-/2-methylbutyryl-/pivalylcarnitine (C5)
-- hexanoylcarnitine (C6)
-- 3-hydroxyisovaleryl-/2-methyl-3-hydroxybutyrylcarnitine (C5-OH)
-- octenoylcarnitine (C8:1)
-- octanoylcarnitine (C8)
-- malonylcarnitine (C3-DC)
-- decadienoylcarnitine (C10:2)
-- decenoylcarnitine (C10:1)
-- decanoylcarnitine (C10)
-- methylmalonyl-/succinylcarnitine (C4-DC)
-- glutarylcarnitine (C5-DC)
-- dodecenoylcarnitine (C12:1)
-- dodecanoylcarnitine (C12)
-- adipyl-/methylglutarylcarnitine (C6-DC)
-- tetradecadienoylcarnitine (C14:2)
-- tetradecenoylcarnitine (C14:1)
-- myristoylcarnitine (C14)
-- suberylcarnitine (C8-DC)
-- 3-hydroxymyristoylcarnitine (C14-OH)
-- palmitoleylcarnitine (C16:1)
-- palmitoylcarnitine (C16)
-- sebacylcarnitine (C10-DC)
-- 3-hydroxypalmitoleylcarnitine (C16:1-OH)
-- 3-hydroxypalmitoylcarnitine (C16)
-- linoleylcarnitine (C18:2)
-- oleylcarnitine (C18:1)
-- stearoylcarnitine (C18)
-- 3-hydroxylinoleylcarnitine (C18:2-OH)
-- 3-hydroxyoleylcarnitine (C18:1-OH)
-- 3-hydroxystearoylcarnitine (C18-OH)
-- hexadecanedioylcarnitine (C16-DC).
+- acylcarnitines in the sample are esterified as butyl esters with
+  butanol-hydrogen chloride
+- extraction?
+- solvent delivery is via HPLC with no chromatography, called flow
+  injection analysis
+- 10 \micro{}L of sample extract is injected into a flowing stream
+  operating at ~ 0.15 ml/min
+
+#+BEGIN_EXPORT LaTeX
+\chemnameinit{}
+\definesubmol{x}{-[1,.6]-[7,.6]}
+\definesubmol{y}{-[7,.6]-[1,.6]}
+\definesubmol{d}{!y!y-[7,.6]{\color{red}COOH}}
+\definesubmol{e}{!y!y}
+\schemestart
+\chemname{\chemfig{-N^{+}([2]-)([6]-)-[1]-[7]([6]-O-([5]=O)!e)-[1]-[7]([7]=O)([1]-O^{-})}}{\small C5-carnitine}
+\+
+\chemname{\chemfig{HO!x!x}}{\small n-butanol}
+\arrow{-U>[][{\small \ce{H2O}}]}
+\chemname{\chemfig{-N^{+}([2]-)([6]-)-[1]-[7]([6]-O-([5]=O)!e)-[1]-[7]([6]=O)-[1,.6]O!y!y}}{\small C5-carnitine, butyl ester}
+\schemestop
+
+\vspace{2em}
+
+\schemestart
+\chemname{\chemfig{-N^{+}([2]-)([6]-)-[1]-[7]([6]-O-([5]=O)!d)-[1]-[7]([7]=O)([1]-O^{-})}}{\small C6DC-carnitine}
+\+
+\chemname{\chemfig{HO!x!x}}{\small n-butanol}
+\arrow{-U>[][{\small \ce{2H2O}}]}
+\chemname{\chemfig{-N^{+}([2]-)([6]-)-[1]-[7]([6]-O-([5]=O)!e-[7,.6]O!x!x)-[1]-[7]([6]=O)-[1,.6]O!y!y}}{\small C6DC-carnitine, butyl ester}
+\schemestop 
+#+END_EXPORT
+
+#+CAPTION[]:Rationale for Derivatization
+#+NAME: fig:deriv
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./ac/figures/ionization.png]]
+
+#+begin_src gnuplot :var data=data-table :file ./ac/figures/outletmethod.pdf
+reset
+set title "FIA-MS/MS Method"
+set key on
+set xlabel "min"
+
+set xrange [0:3]
+
+set ylabel "ml/min"
+set yrange [0:1.2]
+
+plot data u 1:2 w lp lw 2 t "80% ACN"
+
+#+end_src
+
+#+CAPTION[]: FIA-MS/MS Method
+#+NAME: fig:acout
+#+ATTR_LaTeX: :width 1.0\textwidth
+#+RESULTS:
+[[file:./ac/figures/outletmethod.pdf]]
+
+** FIA-MS/MS schematic
+#+BEGIN_EXPORT LaTeX
+\begin{center}
+\begin{tikzpicture}[node distance=7em]
+% nodes
+\node(ms1)[ms]{MS1: Mass Filter};
+\node(cc)[ms, right of=ms1]{Collision cell};
+\node(ms2)[ms, right of=cc]{MS2: Mass Filter};
+\node(ion)[ms, below of=ms1,yshift=3em]{Ionization};
+\node(lc)[msw, below of=ion,yshift=3em]{Injection};
+\node(detector)[ms, below of=ms2, yshift=3em]{Detector};
+% arrows
+\draw[arrow](lc) -- (ion);
+\draw[arrow](ion) -- (ms1);
+\draw[arrow](ms1) -- (cc);
+\draw[arrow](cc) -- (ms2);
+\draw[arrow](ms2) -- (detector);
+\end{tikzpicture}
+\end{center}
+#+END_EXPORT
+
+** Inlet table                                                     :noexport:
+
+#+tblname: data-table
+| Time |  Flow |  %A | %B |
+|------+-------+-----+----|
+|    0 |  1.00 | 100 |  0 |
+|  0.3 | 0.095 | 100 |  0 |
+|  1.2 | 0.100 | 100 |  0 |
+| 1.55 | 0.500 | 100 |  0 |
+| 1.85 | 0.100 | 100 |  0 |
+|  2.5 | 0.100 | 100 |  0 |
+
+
+#+CAPTION[]:Typical Acylcarnitine Panel
+#+NAME: tab:acpanel
+| Carbons  | Name                                                    |
+|----------+---------------------------------------------------------|
+| C2       | acetylcarnitine                                         |
+| C3       | propionylcarnitine                                      |
+| C4       | butyryl-/isobutyrylcarnitine                            |
+| C5:1     | tiglylcarnitine                                         |
+| C5       | isovaleryl-/2-methylbutyryl-/pivalylcarnitine           |
+| C6       | hexanoylcarnitine                                       |
+| C5-OH    | 3-hydroxyisovaleryl-/2-methyl-3-hydroxybutyrylcarnitine |
+| C8:1     | octenoylcarnitine                                       |
+| C8       | octanoylcarnitine                                       |
+| C3-DC    | malonylcarnitine                                        |
+| C10:2    | decadienoylcarnitine                                    |
+| C10:1    | decenoylcarnitine                                       |
+| C10      | decanoylcarnitine                                       |
+| C4-DC    | methylmalonyl-/succinylcarnitine                        |
+| C5-DC    | glutarylcarnitine                                       |
+| C12:1    | dodecenoylcarnitine                                     |
+| C12      | dodecanoylcarnitine                                     |
+| C6-DC    | adipyl-/methylglutarylcarnitine                         |
+| C14:2    | tetradecadienoylcarnitine                               |
+| C14:1    | tetradecenoylcarnitine                                  |
+| C14      | myristoylcarnitine                                      |
+| C8-DC    | suberylcarnitine                                        |
+| C14-OH   | 3-hydroxymyristoylcarnitine                             |
+| C16:1    | palmitoleylcarnitine                                    |
+| C16      | palmitoylcarnitine                                      |
+| C10-DC   | sebacylcarnitine                                        |
+| C16:1-OH | 3-hydroxypalmitoleylcarnitine                           |
+| C16      | 3-hydroxypalmitoylcarnitine                             |
+| C18:2    | linoleylcarnitine                                       |
+| C18:1    | oleylcarnitine                                          |
+| C18      | stearoylcarnitine                                       |
+| C18:2-OH | 3-hydroxylinoleylcarnitine                              |
+| C18:1-OH | 3-hydroxyoleylcarnitine                                 |
+| C18-OH   | 3-hydroxystearoylcarnitine                              |
+| C16-DC   | hexadecanedioylcarnitine                                |
+
+
+** Precursor Ion Scan
+- electrospray ionization in positive mode
+- butylated acylcarnitines fragment to produce a characteristic ion with mass of 85 Da 
+- precursor ion scan is used to identify molecules that fragment to form a 85 m/z molecule
+
+#+BEGIN_EXPORT LaTeX
+\chemnameinit{}
+\definesubmol{x}{-[1,.6]-[7,.6]}
+ \chemname{\chemfig{H_{3}C-N^{+}([2]-CH_3)([6]-CH_{3})-CH_2-C([2]-H)([6]-O-C([0]=O)-{\color{red}R})-CH_2-C([2]=O)-O-CH_2-CH_2-CH_2-CH_3}}{\small acylcarnitine, butyl ester}
+
+\vspace{2.5em}
+\chemnameinit{}
+ \chemname{\chemfig{H_{3}C-N([1]-CH_3)([7]-CH_3)}}{\small trimethylamine}
+\hspace{2em}
+\chemname{\chemfig{{\color{red}R}-C([1]=O)([7]-OH)}}{\small carboxylic acid}
+\hspace{2em}
+ \chemname{\chemfig{H!x!x}}{\small butyl group}
+\hspace{2em}
+ \chemname{\chemfig{H_{2}C^{+}-HC=CH-C([1]=O)([7]-OH)}}{\small 85 m/z}
+#+END_EXPORT
+
+
+#+CAPTION[]:Precursor Ion Scan
+#+NAME: fig:pis
+#+ATTR_LaTeX: :width 0.9\textwidth
+#+BEGIN_EXPORT LaTeX
+\begin{center}
+\begin{tikzpicture}
+\node[box](ms1)[]{};
+\node[label](ms1u)[above=of ms1,yshift=-3em]{MS1};
+\node[label](ms1l)[below=of ms1,yshift=3em]{scanning};
+\node[box](cc)[right= of ms1]{};
+\node[label](ccu)[above=of cc,yshift=-3em]{Collision cell};
+\node[label](ccl)[below=of cc,yshift=3em]{fragmentation};
+\node[box](ms2)[right= of cc]{};
+\node[label](ms2u)[above=of ms2,yshift=-3em]{MS2};
+\node[label](ms2l)[below=of ms2,yshift=3em]{85 m/z};
+\draw[->](ms1) -- (cc);
+\draw[->](cc) -- (ms2);
+
+%ms1
+\draw [gray,->, decorate,decoration=snake] (-.8,0.5) -- (.8,0.5);
+\draw [gray,->, decorate,decoration=snake] (-.8,0.25) -- (.8,0.25);
+\draw [blue, ->, decorate,decoration=snake] (-.8, 0) -- (.8,0);
+\draw [gray,->, decorate,decoration=snake] (-.8,-0.25) -- (.8,-0.25);
+\draw [gray,->, decorate,decoration=snake] (-.8,-0.5) -- (.8,-0.5);
+
+%cc
+\draw [blue,->,decorate,decoration=snake] (2.1, 0) -- (2.4,0);
+\fill (2.6,0) circle (0.1); 
+\draw [gray,->,decorate,decoration=snake] (2.8, 0) -- (3.8,0.5);
+\draw [red, ->,decorate,decoration=snake] (2.8, 0) -- (3.8,0);
+\draw [gray,->,decorate,decoration=snake] (2.8, 0) -- (3.8,-0.5);
+
+%ms2
+\draw [red,->,decorate,decoration=snake] (5.1, 0) -- (6.8,0);
+\end{tikzpicture}
+\end{center}
+#+END_EXPORT
+
+
+** Overestimation of Free Carnitine
+- butylated acylcarnitines are converted to butylated carnitine in
+  n-butanol-3M HCl at 65\degree{}C [fn:johnson]
+
+#+CAPTION[]:Overestimation of Free Carnitine
+#+NAME: tab:c0
+| Acyl Carnitine | Half-life (min) |
+|----------------+-----------------|
+| C2             |              31 |
+| C10            |             125 |
+| C18            |             172 |
+
+- 65\degree{}C for 15 min.  
+- NSO uses 60\degree{}C for 20 minutes.
+- IMD uses 55\degree{}C for 20 minutes.
+
+- in a sample with low free carnitine and high acetylcarnitine
+  - 30% of the acetylcarnitine and smaller amounts of higher
+    molecular mass acylcarnitines are converted to carnitine
+  - a low carnitine sample could appear to be normal
+- "the free carnitine results obtained by this screening method on
+  blood spots with high levels of acylcarnitines should therefore be
+  used with caution" [fn:johnson]
+
+[fn:johnson] Johnson, D. W. (1999). Inaccurate measurement of free
+carnitine by the electrospray tandem mass spectrometry screening
+method for blood spots. Journal of Inherited Metabolic Disease, 22(2),
+201–202. 
 
 
 * TODO Free and Total Carnitine
