@@ -31,8 +31,7 @@ $(OUT_DIR)energy.pdf: ./energy/energy.org ./energy/oxphos/oxphos.org \
 	-f org-latex-export-to-pdf
 	mv -v ./energy/energy.pdf $(OUT_DIR)energy.pdf
 
-
-$(OUT_DIR)carbohydrate.pdf: ./carbohydrate/carbohydrate.org
+$(OUT_DIR)carbohydrate.pdf: ./carbohydrate/carbohydrate.org \
 ./carbohydrate/carbohydrate_metabolism/carbohydrate_metabolism.org \
 ./carbohydrate/galactose/galactose.org ./carbohydrate/fructose/fructose.org \
 ./carbohydrate/glycolysis_ppp/glycolysis_ppp.org ./carbohydrate/insulin/insulin.org \

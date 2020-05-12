@@ -10,10 +10,32 @@
 \chemfig{X-C(-[2]X)(-[6]X)-C(-[2]X)(-[6]X)-C(-[7]OH)=[1]O}
 #+END_EXPORT
 
-*** Acylglycines
-- acylglycines are also detected in UOA analysis
-  - conjugation of acyl-CoA species to glycine
-  - catalysed by glycine N-acylase
+#+BEGIN_EXPORT LaTeX
+\chemfig{X-C(-[2]X)(-[6]X)-C(-[2]X)(-[6]X)-C(-[7]OH)=[1]O}
+#+END_EXPORT
+
+#+CAPTION[]:Organic Acid Functional Groups
+#+NAME: tab:func
+| Functional group | Formula            |
+|------------------+--------------------|
+| hydrogen         | -H                 |
+| keto             | .= O               |
+| hydroxyl         | -OH                |
+| carboxyl         | -COOH              |
+| side chain       | -(CH$_2$)$_n$      |
+
+#+BEGIN_EXPORT LaTeX
+\chemfig{X-C(-[2]X)(-[6]X)-C(-[2]X)(-[6]X)-C(-[7]OH)=[1]O}
+#+END_EXPORT
+
+#+CAPTION[]:Organic Acid Side Chains
+#+NAME: tab:side
+| Side chain | Structure                      |
+|------------+--------------------------------|
+| Methyl     | \chemfig{CH_3-}                |
+| Ethyl      | \chemfig{CH_3-CH_2-}           |
+| Propyl     | \chemfig{CH_3-CH_2-CH_2-}      |
+| Butyl      | \chemfig{CH_3-CH_2-CH_2-CH_2-} |
 
 #+CAPTION[]:Organic Acid Nomenclature
 #+NAME: tab:nom
@@ -32,36 +54,38 @@
 | C9     | Nonanoic (pelargonic) | Azelaic           |
 | C10    | Decanoic (capric)     | Sebacic           |
 
-** Functional Groups
+*** Acylglycines
+- acylglycines are also detected in UOA analysis
+  - conjugation of acyl-CoA species to glycine
+  - catalysed by glycine N-acylase
 
-#+BEGIN_EXPORT LaTeX
-\chemfig{X-C(-[2]X)(-[6]X)-C(-[2]X)(-[6]X)-C(-[7]OH)=[1]O}
-#+END_EXPORT
-
-#+CAPTION[]:Organic Acid Functional Groups
-#+NAME: tab:func
-| Functional group | Formula            |
-|------------------+--------------------|
-| hydrogen         | -H                 |
-| keto             | .= O               |
-| hydroxyl         | -OH                |
-| carboxyl         | -COOH              |
-| side chain       | -(CH$_2$)$_n$      |
-
-** Side Chains
-
-#+BEGIN_EXPORT LaTeX
-\chemfig{X-C(-[2]X)(-[6]X)-C(-[2]X)(-[6]X)-C(-[7]OH)=[1]O}
-#+END_EXPORT
-
-#+CAPTION[]:Organic Acid Side Chains
-#+NAME: tab:side
-| Side chain | Structure                      |
-|------------+--------------------------------|
-| Methyl     | \chemfig{CH_3-}                |
-| Ethyl      | \chemfig{CH_3-CH_2-}           |
-| Propyl     | \chemfig{CH_3-CH_2-CH_2-}      |
-| Butyl      | \chemfig{CH_3-CH_2-CH_2-CH_2-} |
+#+CAPTION[]:Pathologic Acylglycines
+#+NAME: tab:pathag
+| Name                     | acyl length | Precusor           | Condition(s)                                 |
+|--------------------------+-------------+--------------------+----------------------------------------------|
+| propionylglycine         | C3          | leu met            | propionic acidemia                           |
+|                          |             | thr val            | methylmalonic acidemias                      |
+| butyrylglycine           | C4          | butyryl-CoA        | SCAD deficiency                              |
+|                          |             | (FAO)              | glutaric acidemia type II                    |
+| isobutyrylglycine        | C4          | val                | isobutyryl-CoA dehydrogenase deficiency      |
+|                          |             |                    | glutaric acidemia type II                    |
+|                          |             |                    | ethylmalonic encephalopathy                  |
+| tiglylglycine            | C5:1        | ile                | propionic acidemia                           |
+|                          |             |                    | methylmalonic acidemias                      |
+|                          |             |                    | ketothiolase deficiency                      |
+| 3-methyl crotonylglycine | C5:1        | leu                | 3-methylcrotonyl-CoA carboxylase deficiency  |
+|                          |             |                    | Multiple carboxylase deficiency              |
+| isovalerylglycine        | C5          | leu                | isovaleric acidemia                          |
+| 2-methylbutyrylglycine   | C5          | ile                | 2-methylbutyryl-CoA dehydrogenase deficiency |
+|                          |             |                    | glutaric acidemia type II                    |
+|                          |             |                    | ethylmalonic encephalopathy                  |
+| hexanoylglycine          | C6          | hexanoyl-CoA (FAO) | MCAD deficiency                              |
+|                          |             |                    | glutaric acidemia type II                    |
+| octanoylglycine          | C8          | octanoyl-CoA (FAO) | MCAD deficiency                              |
+| suberylglycine           | C8          | suberyl-CoA        | MCAD deficiency                              |
+|                          |             |                    | Glutaric acidemia type II                    |
+| phenylpropionylglycine   | C9          | PHE                | MCAD deficiency                              |
+| trans-cinnamoylglycine   | C9:1        | PHE                | no known defect                              |
 
 ** Sources of Organic Acids
 *** Endogenous 
@@ -109,8 +133,44 @@
   - cresol
   - 2-furaldehyde
 
+#+CAPTION[]: Disorders of Organic Acid Metabolism
+#+NAME: tab:oam
+| Disorder                             | Defective Enzyme                             |
+|--------------------------------------+----------------------------------------------|
+| 2-Keto adipic aciduria               | 2-Keto adipic dehydrogenase                  |
+| 2-Keto glutaric aciduria             | 2-Keto glutaric dehydrogenase                |
+| 2-Ketothiolase deficiency            | 2-Methylacetoacetyl-CoA thiolase             |
+| 2-Methyl 3-hydroxy butyric aciduria  | 2-Methyl 3-hydroxy butyryl-CoA dehydrogenase |
+| 2-Methylbutyrylglycinuria            | 2-Methylbutyryl-CoA dehydrogenase            |
+| 3-Hydroxy 3-methyl glutaric aciduria | 3-Hydroxy 3-methyl glutaryl-CoA lyase        |
+| 3-Methylcrotonylglycinuria           | 3-Methylcrotonyl-CoA carboxylase             |
+| 3-Methylglutaconic aciduria          | 3-Methyl glutaconyl-CoA hydratase            |
+| 4-Hydroxy butyric aciduria           | Succinic semialdehyde dehydrogenase          |
+| Alkaptonuria                         | Homogentisic dioxygenase                     |
+| Canavan disease                      | N-Aspartoacylase                             |
+| D-2-Hydroxy glutaric aciduria        | D-2-Hydroxyglutaric dehydrogenase            |
+| Ethylmalonic encephalopathy          | Unknown (ETHE1 gene)                         |
+| Fumaric aciduria                     | Fumarase                                     |
+| Glutaric aciduria type I             | Glutaryl-CoA dehydrogenase                   |
+| Glyceroluria (X-linked)              | Glycerol kinase                              |
+| Hawkinsinuria (autosomal dominant)   | 4-Hydroxy phenylpyruvic acid dioxygenase     |
+| Hyperoxaluria type I                 | Alanine:glyoxylate aminotransferase          |
+| Hyperoxaluria type II                | D-Glyceric dehydrogenase                     |
+| Isobutyrylglycinuria                 | Isobutyryl-CoA dehydrogenase                 |
+| Isovaleric aciduria                  | Isovaleryl-CoA dehydrogenase                 |
+| L-2-Hydroxy glutaric aciduria        | L-2-Hydroxy dehydrogenase (Duranin)          |
+| Malonic aciduria                     | Malonyl-CoA decarboxylase                    |
+| Methylmalonic acidurias              | Methylmalonyl-CoA mutase, other defects      |
+| Mevalonic aciduria                   | Mevalonate kinase                            |
+| Multiple carboxylase deficiency      | Holocarboxylase synthase                     |
+| Propionic aciduria                   | Propionyl-CoA carboxylase                    |
+| Pyroglutamic aciduria                | Glutathione synthase                         |
+
+
 * Urine Organic Acids by GC-MS
 ** Oximation
+- not always done, sometime a reflex when 2-keto acids present
+  - lactic acidemia, ketonuria
 - oximated with 10% hydroxylamine-HCL
   - avoids multiple TMS species due to keto-enol tautomerism
 
@@ -147,8 +207,12 @@ reagent for amino acids bis(trimethylsilyl)trifluoroacetamide
 (BSTFA). Biochemical and Biophysical Research Communications. 1968 May
 23;31(4):616-22.
 
-** TODO Gas Chromatography
+** GC-MS
+- detected by electron impact mass spectrometry performed in the scan mode
+- mass range between m/z 50 and 550
+- identification is achieved by comparison to published spectra of
+  bona fide compounds, or spectra generated by in-house analysis of
+  pure standard compounds
+- quantification is by comparison to calibration of pure standard
+  compounds in ratio to an internal standard
 
-** TODO Mass-spectroscopy
-
-** TODO Reporting

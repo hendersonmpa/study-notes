@@ -30,6 +30,7 @@
 #+LaTeX_HEADER: \ihead{\leftmark}% section on the inner (oneside: right) side
 #+LaTeX_HEADER: \ohead{\rightmark}% subsection on the outer (oneside: left) side
 #+LaTeX_HEADER: \addtokomafont{pagehead}{\upshape}% header upshape instead of italic
+#+LaTeX_HEADER: \ofoot*{\pagemark}% the pagenumber in the center of the foot, also on plain pages
 #+LaTeX_HEADER: \pagestyle{scrheadings}
 
 :END:
