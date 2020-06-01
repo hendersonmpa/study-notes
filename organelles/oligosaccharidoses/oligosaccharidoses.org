@@ -4,14 +4,13 @@
 
 
 * Introduction
-
 - almost all the secreted and membrane associated proteins of the body
   are glycosylated
   - also numerous intracellular such as lysosomal acid hydrolases
 - a variety of oligosaccharide chains are attached to the protein
   backbone via:
-  - the hydroxyl group of serine or threonine (O-linked)
-  - via the amide group of asparagine (N-linked)
+  - hydroxyl group of serine or threonine (O-linked)
+  - amide group of asparagine (N-linked)
 
 - chains usually have a core composed of N-acetylglucosamine and mannose
   - often contain galactose, fucose and N-acetylgalactosamine
@@ -33,7 +32,7 @@
 * Oligosaccharidoses
 ** Clinical Presentation
  - oligosaccharidoses share many features in common with MPS disorders (Table [[tab:oligo]])
-   - the urine GAG screen is normal or only shows nonspecific
+   - urine GAG screen is normal or only shows nonspecific
      abnormalities
 
 #+CAPTION[]:Oligosaccharidoses
@@ -57,10 +56,9 @@
    progression of the disease
 
  - \beta-mannosidosis, deficiency of \beta-mannosidase,
-   - is much less prevalent than \alpha-mannosidosis
-   - and is very variable, but severe learning difficulties,
-     challenging behaviour, deafness and frequent infections are
-     relatively common
+   - much less prevalent than \alpha-mannosidosis
+   - very variable, but severe learning difficulties, challenging
+     behaviour, deafness and frequent infections are relatively common
 
 *** Fucosidosis
  - lack the typical facial dysmorphism
@@ -79,14 +77,13 @@
    - slowly progressive disorder associated with learning
      difficulties, dysostosis multiplex and corneal opacity
 
-
 ** Genetics
  - AR
 ** Diagnostic Tests
 - clinical suspicion
 - urine oligosaccharide excretion
   - 1D TLC
-  - treated with orcinol reagent and heated to 100C to visualize
+  - treated with orcinol reagent and heated to 100\degreeC to visualize
 - usually normal urine GAGs
 - enzyme activity assays (Table [[tab:oligo]])
 

@@ -126,7 +126,6 @@ file:./sphingolipid_synthesis/figures/Sphingolipids_general_structures.png
   with mild to moderate cognitive impairment
 - cultured fibroblasts of patients have shown decreased GM2 levels
   with an increase of its precursor GM3
-
 ** Non-Lysosomal \beta-Glucosidase Deficiency
 - GBA2 is a membrane-associated protein localised at the ER and Golgi
   - hydrolyse glucosylceramide to ceramide and glucose

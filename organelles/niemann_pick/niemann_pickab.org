@@ -35,7 +35,7 @@
 - fatal 1.5-3 years
 - hepatosplenomegaly by age 3 months
 - failure to thrive
-- psychomotor regression at age 1
+- psychomotor regression at 1 year
   - progressive loss of abilities – mental and physical
 - interstitial lung disease resulting in lung infections and lung failure
 - *cherry-red spot identified with eye examination (100%)*
@@ -68,9 +68,9 @@
 
 * Treatment
 - no approved treatments
-- olipudase alfa, a recombinant human acid sphingomyelinase (ASM),
-  - an ERT for the treatment of nonneurologic manifestations of acid sphingomyelinase deficiency (ASMD)
-  - ongoing, open-label, long-term study assessed safety and efficacy
+- olipudase alfa - recombinant human acid sphingomyelinase (ASM) ERT
+  - treatment of nonneurologic manifestations
+  - ongoing study to assessed safety and efficacy
 
 
 

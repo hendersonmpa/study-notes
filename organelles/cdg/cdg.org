@@ -4,7 +4,7 @@
 
 * Introduction
 - most extracellular proteins, membrane proteins and several
-  intracellular proteins (lysosomal enzymes), are glycoproteins
+  intracellular proteins (lysosomal enzymes) are glycoproteins
 
 - glycans are defined by their linkage to the protein:
   - N-glycans are linked to the amide group of asparagine
@@ -24,8 +24,8 @@
    - attachment of glcNAc and Man units to dolichol phosphate
    - flipping into the ER
 2) stepwise assembly in the ER
-   - addition of manose and glucose \to 14-unit oligosaccharide precuror:
-   - dolichol pyrophosphate-glcNac_2-man_9-glu_3
+   - addition of manose and glucose \to 14-unit oligosaccharide precuror
+     - dolichol pyrophosphate-glcNac_2-man_9-glu_3 (AKA: dolichol-P)
 3) transfer of this precursor onto the nascent protein by OST
    - processing of the glycan in the Golgi apparatus
      - trimming and attachment of various sugar units
@@ -36,7 +36,14 @@
 [[file:./cdg/figures/Slide20.png]]
 
 ** Congenital Disorders of Glycosylation
-- very broad spectrum of clinical manifestations
+- very broad spectrum of clinical manifestations:
+  - cerebellar hypotonia
+  - hypoglycemia
+  - psychomotor retardation
+  - seizures
+  - FTT
+  - diarrhea
+  - inverted nipples
 - consider in any unexplained clinical condition
   - particularly in multi-organ disease with neurological involvement
   - when non-specific developmental disability is the only presenting sign
@@ -49,7 +56,6 @@
   - Type 1: ER defects
   - Type 2: Golgi defects
   - ~1500+ cases worldwide
-  - ~300+ cases in the US
     - 70% PMM2-CDG (CDG 1a)
 
 #+CAPTION[]:CDG diagnosis
@@ -65,14 +71,14 @@
   - axial hypotonia, psychomotor disability, ataxia and hyporeflexia
 - other features are:
   - variable dysmorphism, which may include large ears, abnormal
-    subcutaneous adipose tissue distribution, inverted nipples,
+    subcutaneous adipose tissue distribution, inverted nipples
   - mild to moderate hepatomegaly, skeletal abnormalities and hypogonadism
 - cause of non-immune fetal hydrops
-- after infancy, symptoms include retinitis pigmentosa, stroke-like episodes, \pm epilepsy
+- after infancy symptoms include retinitis pigmentosa, stroke-like episodes, \pm epilepsy
 - 1st year variable feeding problems anorexia, vomiting, diarrhoea \to failure to thrive
 - some infants develop a pericardial effusion \pm cardiomyopathy
-- at the other end of the clinical spectrum are patients with a very
-  mild phenotype - no dysmorphic features, slight intellectual disability 
+- other end of the clinical spectrum are patients with very mild
+  phenotype - no dysmorphic features, slight intellectual disability
 
 ** Metabolic Derangement
 - deficiency of phosphomannomutase 2, principal isozyme of PMM
@@ -82,7 +88,7 @@
 - GDP-mannose is used in the ER to assemble the dolichol-pyrophosphate
   oligosaccharide precursor
 - defect leads to hypoglycosylation
-- deficiency and/or dysfunction of numerous glycoproteins, including:
+- deficiency and/or dysfunction of numerous glycoproteins:
   - serum proteins:
     - thyroxin-binding globulin, haptoglobin, clotting factor XI,
       antithrombin III, cholinesterase
@@ -94,11 +100,11 @@
 
 ** Diagnostic Tests
 - \uparrow transaminases
-- \downarrow albumine
-- \downarrow hypocholesterol
+- \downarrow albumin
+- \downarrow cholesterol
 - tubular proteinuria
 - transferrin IEF - type I pattern
-- confirm the diagnosis, the activity of PMM should be measured in
+- activity of PMM should be measured to confirm the diagnosis
   leukocytes or fibroblasts
   - [2-H^3]mannose-6-phosphate
 - PMM activity in fibroblasts can be normal
@@ -108,12 +114,12 @@
 
 * MPI-CDG (CDG Ib)
 ** Clinical Presentation
-- onset in infancy, neonatal
+- onset in neonatal \to infancy
 - cyclic vomiting, profound hypoglycemia, failure to thrive, liver
   fibrosis, gastrointestinal complications
   - protein-losing enteropathy with hypoalbuminaemia, life-threatening
     intestinal bleeding of diffuse origin
-- thrombotic events protein C and S deficiency, low anti-thrombine III levels
+- thrombotic events, protein C and S deficiency, low anti-thrombin III levels
 - neurological development and cognitive capacity is usually normal
 
 ** Metabolic Derangement
@@ -124,7 +130,7 @@
 - AR, MPI
 
 ** Diagnostic Tests
-- serum transferrin IEF - type I pattern 
+- serum transferrin IEF - Type I pattern 
 - \downarrow MPI activity WBC, fibroblasts
 
 ** Treatment
@@ -151,7 +157,7 @@
 *** Genetics
 - AR MGAT2
 *** Diagnostic Tests
-- serum transferrin IEF - type II pattern
+- serum transferrin IEF - Type II pattern
 - \downarrow GnT II activity WBC, fibroblasts
 
 *** Treatment 

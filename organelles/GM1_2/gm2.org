@@ -32,14 +32,14 @@
 
 #+CAPTION[]:GM2 ganglioside storage diseases
 #+NAME: tab:gm2
-| Disorder                     | Onset       | Death (y) | Enzyme    |
-|------------------------------+-------------+-----------+-----------|
-| Tay-Sachs disease            | 3-6 months  |       2-4 | Hex A     |
-| Juvenile GM 2 gangliosidosis | 2-6 years   |      5-15 | Hex A     |
-| Adult GM 2 gangliosidosis    | 2 yrs-adult |  Variable | Hex A     |
-|------------------------------+-------------+-----------+-----------|
-| Sandhoff disease             | 3-6 months  |       2-4 | Hex A&B   |
-| AB variant                   | 3-6 months  |           | Activator |
+| Disorder     | Onset       | Death (y) | Enzyme    | Gene |
+|--------------+-------------+-----------+-----------+------|
+| Tay-Sachs    | 3-6 months  |       2-4 | Hex A     | HEXA |
+| Juvenile GM2 | 2-6 years   |      5-15 | Hex A     | HEXA |
+| Adult GM2    | 2 yrs-adult |  variable | Hex A     | HEXA |
+|--------------+-------------+-----------+-----------+------|
+| Sandhoff     | 3-6 months  |       2-4 | Hex A&B   | HEXB |
+| AB variant   | 3-6 months  |           | Activator | GM2A |
 
 #+CAPTION[]:Hexosaminidase A: Tay-Sachs
 #+NAME: fig:hexa
@@ -47,15 +47,15 @@
 [[file:./GM1_2/figures/hexosaminidasea.png]]
 
 
-#+CAPTION[]:Hexosaminidase A & B:Sandhoff disease
+#+CAPTION[]:Hexosaminidase A & B:Sandhoff disease (GL-3 & 4 AKA Gb3 & 4)
 #+NAME: fig:hexb
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./GM1_2/figures/hexosaminidaseab.png]]
 
 * Genetics
-- HEXA, HEXB and GM2A: autosomal recessive
+- AR HEXA, HEXB and GM2A
 - > 130 mutations in HEXA
-  - > 3 alleles comprise ~95% of Askenazi Jewish disease alleles
+  - ~ 3 alleles comprise ~95% of Askenazi Jewish disease alleles
   - good correlation with phenotype 
 - > 40 mutations in HEXB
 - 6 in GM2A

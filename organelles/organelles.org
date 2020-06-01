@@ -37,17 +37,16 @@
 
 #+CAPTION[]: Sphingolipidoses
 #+NAME: tab:spingo
-| Disease   | Enzyme                   | Sphingolipid                | Gene            |
-|-----------+--------------------------+-----------------------------+-----------------|
-| Gaucher   | \beta-glucocerebrosidase | glucocerebroside            | GBA             |
-| Krabbe    | galactosylceramidase     | galactosylceramide          | GALC            |
-| NPA/B     | acid sphingomyelinase    | sphingomyelin               | SMPD1           |
-| MLD       | arylsulfatase A          | sulfatide                   | ARSA            |
-| Fabry     | \alpha-galactosidase A   | globotriaosylceramide (Gb3) | GLA             |
-| GM1       | \beta-galactosidase      | GM1 ganglioside             | GLB1            |
-| Tay-Sachs | hexosaminidase A         | GM2 ganglioside             | HEXA,HEXB, GM2A |
-| Sandhoff  | hexosaminidase A&B       | Gb4                         | HEXA,HEXB, GM2A |
-| Farber    | acid ceramidase          | ceramides                   | ASAH1           |
+| Disease | Enzyme                   | Sphingolipid                | Gene            |
+|---------+--------------------------+-----------------------------+-----------------|
+| Gaucher | \beta-glucocerebrosidase | glucocerebroside            | GBA             |
+| Krabbe  | galactocerebrosidase     | galactocerebroside          | GALC            |
+| NPA/B   | acid sphingomyelinase    | sphingomyelin               | SMPD1           |
+| MLD     | arylsulfatase A          | sulfatide                   | ARSA            |
+| Fabry   | \alpha-galactosidase A   | globotriaosylceramide (Gb3) | GLA             |
+| GM1     | \beta-galactosidase      | GM1 ganglioside             | GLB1            |
+| GM2     | hexosaminidase A&B       | GM2 ganglioside             | HEXA,HEXB, GM2A |
+| Farber  | acid ceramidase          | ceramides                   | ASAH1           |
 
 #+CAPTION[]:Sphingolipid degradation
 #+NAME: fig:sld
@@ -96,7 +95,7 @@
   - a subset of cell types
   - under stress conditions (e.g. M6P pathway is deficient) 
 
-*** LIMP2
+*** LIMP-2
 - LIMP-2 in a membrane protein in lysosomes that functions to regulate lysosomal/endosomal transport.
 - type III glycoprotein that is located primarily in limiting membranes of lysosomes and endosomes.
 - may participate in membrane transportation and the reorganization of endosomal/lysosomal compartment.

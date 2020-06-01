@@ -9,6 +9,7 @@
   - sulfatide is presented to the enzyme arylsulfatase A (ASA) as a
     1:1 complex with sap-B
   - deficiency of either ASA or sap-B can cause MLD
+  - MPR required for lysosomal trafficking
 - metachromatic leukodystrophy (MLD) incidence between 1:40,000 and 1:170,000
   - specific ethnic groups with higher frequency
 
@@ -27,15 +28,12 @@
   molecular basis of *ASA pseudodeficiency*
 
 * Clinical 
-- three forms:
-  1) late infantile
-  2) juvenille
-  3) adult
+- three forms: late infantile-onset, juvenile and adult
 - variants include:
   - saposin B deficiency
-  - multiple sulphatase deficiency (Section [[Mucopolysaccharidoses]])
+  - multiple sulphatase deficiency (see Section [[Mucopolysaccharidoses]])
 ** Late-infantile
-- onset 1-2 yearas
+- onset 1-2 years
 - typical presenting findings include weakness, hypotonia, clumsiness, frequent falls, toe walking, and dysarthria
 - language, cognitive, and gross and fine motor skills regress
 - later signs include spasticity, pain, seizures, and compromised vision and hearing
@@ -48,13 +46,13 @@
 - progression is similar to but slower than in the late-infantile form
 
 ** Adult
-- onset occurs after age 16 years, sometimes not until the fourth or fifth decade
+- onset occurs \gt 16 years, sometimes not until the fourth or fifth decade
 - problems in school or job performance, personality changes, emotional lability, or psychosis
 - neurologic symptoms (weakness and loss of coordination progressing
   to spasticity and incontinence) or seizures initially
   predominate
 - peripheral neuropathy is common
-- disease course is variable – periods of stability and decline – two to three decades
+- disease course is variable,periods of stability and decline two to three decades
 - final stage is similar to earlier-onset forms
 
 * Diagnosis
@@ -74,7 +72,7 @@
   - within or slightly above the normal range in PD
 - prenatal testing of MLD by DNA analysis is preferred
 - another cause of erroneous interpretation of an ASA deficiency is
-  *multiple sulfatase deficiency (MSD)*, due to a deficiency in the
+  *multiple sulfatase deficiency (MSD)* due to a deficiency in the
   formylglycine-generating enzyme (FGE)encoded by SUMF1
 - *whenever a deficiency of one sulfatase is found, it is mandatory to*
   *systematically measure the activity of another one to exclude MSD*
@@ -82,7 +80,7 @@
 - MLD patients with sap-B deficiency
   - /in vitro/ ASA assay will not show a deficiency
   - sulfatides and globotriaosylceramide (Gb3) in urine are essential
-    - both lipids are elevated - combined MLD and Fabry pattern
+    - both lipids are elevated *combined MLD and Fabry pattern*
   - diagnosis requires PSAP molecular genetics
 * Treatment
 - HSCT has been used

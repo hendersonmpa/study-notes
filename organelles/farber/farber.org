@@ -3,7 +3,7 @@
 #+DATE: \today
 
 * Introduction
-- very rare Farber lipogranulomatosis is clinically heterogeneous
+- Farber lipogranulomatosis is very rare and clinically heterogeneous
   - often presents during infancy causing death within the 1st year
   - later onset cases (up to an adult age) have been described
   - as well as foetal forms

@@ -93,6 +93,7 @@
 - substrate reduction therapy
   - miglustat approved for treatment of neurological manifestations
   - miglustat is an iminosugar, a synthetic analogue of D-glucose
+  - inhibits synthesis of glycosphingolipids
 
 
 

@@ -9,12 +9,12 @@
   - cleaves terminal galactose from globotriaosylceramide (Gb3)
     (Figure [[fig:sidase]])
   - accumulation of Gb3 in blood vessels and other tissues
-  - globotriaosylceramide (Gb3): the Fabry lipid (Figure [[fig:galac]])
+    - Gb3 is the Fabry lipid (Figure [[fig:galac]])
   - 3 to 20% activity in hemizygote males
   - wide range of symptoms including kidney, heart, and skin symptoms
   - \uparrow Gb3 in kidney and blood group B antigenic glycosphingolipid
 - \alpha-galactosidase A uses both sortilin and mannose receptor
-  - not affected in ML II & III
+  - not affected in ML II (I-cell)
 
 #+CAPTION[Globotriaosylceramide]:  Globotriaosylceramide (Gb3): the Fabry lipid
 #+NAME: fig:galac 
@@ -59,11 +59,11 @@
 
 * Laboratory Investigations
 ** Biochemistry
-- deficient \alpha-galactosidase A activity in leukocytes
+- \downarrow \alpha-galactosidase A activity in leukocytes
   - fluorometric 4MU-\alpha-D-galactopyranoside substrate
   - LC-MS/MS
   - unreliable in females
-- \uparrow urine Gb3 and Gb2 LC-MSMS 
+- \uparrow urine Gb3 LC-MSMS 
   - hemizygote males and heterozygote females
 - \uparrow plasma lyso-Gb3 (globotriaosylsphingosine) LC-MSMS
   - sensitive biomarker
@@ -71,7 +71,8 @@
 
 ** Pathology
 - widespread deposition of Gb3
-- vacuoles seen in variety of cells, \uparrow endothelium of blood vessels
+- vacuoles seen in variety of cells
+  - \uparrow endothelium of blood vessels
 
 #+CAPTION[Fabry EM]:EM showing concentric or lamellar structure of lysosomal inclusions in Fabry disease renal biopsy
 #+NAME: fig:biopsy
@@ -83,7 +84,7 @@
   - chronic low dose of diphenylhydantoin
   - carbamazapine, gabapentin
 - dialysis or renal transplantation
-- there is long term experience with ERT
+- long term experience with ERT
   - agalsidase (alpha or beta)
   - reduces left ventricular hypertrophy
   - less effect on renal function

@@ -5,7 +5,7 @@
 * Introduction
 - intralysosomal cystine is formed by protein catabolism in the organelle
 - normally exported by a cystine porter which contains the membrane protein cystinosin
-- defects in cystinosin cause lysosomal accumulation of cystine
+  - defects in cystinosin cause lysosomal accumulation of cystine
 - cysteamine can enter into the lysosome and combine with cystine results in the formation of:
   - cysteine
     - exported by the cysteine porter
@@ -71,9 +71,8 @@
  - myopathy
  - mild neurocognitive abnormalities
 
-
 ** Metabolic Derangement
-- defect of cystinosin, transports cystine across the lysosomal
+- defect of cystinosin - transports cystine across the lysosomal
   membrane
 - efflux of cystine out of cystinotic lysosomes is significantly
   decreased in comparison with normal lysosomes
@@ -87,10 +86,10 @@
 
 ** Diagnostic Tests
 - diagnosis of cystinosis is confirmed by:
-  - leukocyte cystine levels (10–50 times normal values)
+  - leukocyte cystine levels (10-50 times normal values)
     - LC-MS/MS
-  - corneal crystals by the slit lamp examination
-  - genetic analysis of CNTS
+  - corneal crystals on slit lamp examination
+  - molecular analysis
 
 ** Treatment
 *** Supportive

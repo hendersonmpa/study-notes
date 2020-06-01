@@ -37,26 +37,26 @@
 
 - GAGs are composed of repeating units of disaccharides (Figure [[fig:gags]])
   - hexosamine and a hexose or hexuronic acid
-*** hyaluronan 
+*** Hyaluronan 
 - not sulfated, not protein bound
 - forms in the plasma membrane instead of the Golgi
 - connective, epithelial, and neural tissues
 - cell proliferation and migration
 
-*** chondroitin sulfate
+*** Chondroitin Sulfate
 - O-xylose-linked to core proteins
 - structural component of cartilage 
 
-*** dermatan sulfate
+*** Dermatan Sulfate
 - O-xylose-linked to core proteins
-- skin, blood vessels, heart valves, tendons, and lungs.O
+- skin, blood vessels, heart valves, tendons, and lungs.
 - coagulation, cardiovascular disease, carcinogenesis, infection, wound repair, and fibrosis
 
-*** heparan Sulfate
+*** Heparan Sulfate
 - O-xylose-linked to core proteins
 - developmental processes, angiogenesis, blood coagulation, tumour metastasis
 
-*** keratan sulfate
+*** Keratan Sulfate
 - KSI was isolated from corneal tissue and KSII from skeletal tissue
   - KSI is N-linked to specific asparagine amino acids via
     N-acetylglucosamine
@@ -81,12 +81,12 @@
 [[file:./mps/figures/hs_degradation_disorders.png]]
 
 * Multiple sulfatase deficiency
-- mutations in sulfatase modifying factor 1 (SUMF1), leading to a
-  deficiency of the FGE (formylglycine-generating enzyme) protein
-- FGE is involved in the posttranslational activation of all
-  sulfatases in the endoplasmatic reticulum
-- deficiency leads to a deficiency of 17 different sulfatases
-  - all lysomal sulftatases
+- mutations in sulfatase modifying factor 1 (SUMF1) leading to a
+  deficiency in FGE (formylglycine-generating enzyme)
+- FGE is involved in the post-translational activation of all
+  sulfatases in the ER
+- deficiency leads to a deficiency of 17 sulfatases
+  - all lysomal sulfatases
 - MSD is very rare and clinical signs and symptoms are variable, with progressive psychomotor retardation invariably present
 - urine GAG concentrations can be normal
   - requires enzymatic assay of multiple sulfatases
@@ -110,13 +110,13 @@
   - corneal clouding
   - cardiac valve thickening
 
-*** Dysmorphic Syndrome
+*** Dysmorphic syndrome
   - MPS I (Hurler)
   - MPS II (Hunter)
   - MPS VI (Maroteaux-Lamy)
-*** Learning Difficulties, Behavioral Disturbances and Dementia
+*** Learning difficulties, behavioral disturbances and dementia
   - MPS III (Sanfilippo)
-*** Severe Skeletal Dysplasia
+*** Severe skeletal dysplasia
   - MPS IV (Morquio)
 *** Rare
   - MPS VII (Sly)
@@ -125,7 +125,7 @@
   #+CAPTION[]:MPS Signs and Symptoms
 #+NAME: tab:mpsss
 | MPS      | variant        | dysostosis | valvular      | progressive          | spinal cord |
-|          |                | multiple   | heart disease | cognitive impairment | compression |
+|          |                | multiplex  | heart disease | cognitive impairment | compression |
 |----------+----------------+------------+---------------+----------------------+-------------|
 | MPS I    | Hurler         | .+++       | .+++          | .+++                 | .+++        |
 |          | Hurler-Scheie  | ++         | ++            | ++                   | ++          |
@@ -155,11 +155,11 @@
   one of the eleven enzymes required for glycosaminoglycans
   degradation
 - GAGs collect in the cells, blood and connective tissues
-  - the result is permanent, progressive cellular damage which affects:
+  - results in permanent, progressive cellular damage which affects:
     - appearance
     - physical abilities
     - organ and system functioning
-    - in most cases, mental development
+    - mental development in most cases
 
 #+CAPTION[Glycosaminoglycan Degradation]: Glycosaminoglycan Degradation
 #+NAME: fig:degradation
@@ -190,7 +190,7 @@
 
 ** Genetics
 - AR
-- MPS II Hunter is X-linked
+- *MPS II Hunter is XLR*
 
 ** Diagnostic Tests
 - quantitation of urine GAGs (Table [[tab:mps]])
@@ -199,14 +199,12 @@
     the type of excreted GAGs
   - false negatives reported
   - LC-MSMS method favoured
-
 - positive screen is followed by analysis of the relevant enzyme
   activity in leukocytes or cultured skin fibroblasts
   - enzymatic studies are the gold standard necessary to establish a
     final diagnosis
-- the Berry spot test lacks sufficient sensitivity and is generally
-  regarded as obsolete for screening for MPS
-
+- Berry spot test lacks sufficient sensitivity and is obsolete for
+  screening for MPS
 - in a sulfatase deficiency, it is necessary to measure at least one
   other sulfatase, in order to exclude multiple sulfatase deficiency
   as the cause of the disease

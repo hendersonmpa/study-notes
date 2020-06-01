@@ -25,7 +25,7 @@
 * ML I (Sialidosis)
 ** Clinical Presentation  
  - Type I sialidosis is the milder form of this disorder
-   - the development of ocular cherry-red spots and generalized
+   - development of ocular cherry-red spots and generalized
      myoclonus in the second or third decade of life
    - \gt 50% of patients have seizures, hyperreflexia, and ataxia
 
@@ -37,13 +37,13 @@
  - deficiency of \alpha-neuraminidase that normally cleaves terminal
    \alpha2 \to 3 and \alpha2 \to 6 sialyl linkages of several
    oligosaccharides and glycopeptides
- - found in increased amounts in tissues and fluids of affected patients
+   - \uparrow in tissues and fluids of affected patients
 
 ** Diagnostic Tests
  - test urine samples for both oligosaccharides and glycopeptides
  - definitive diagnosis - measurement of sialidase activity in fresh
-   tissue samples, i.e., fibroblasts, cultured amniotic fluid cells,
-   or white blood cells
+   tissue samples
+   - fibroblasts, cultured amniotic fluid cells, or white blood cells
 
 ** Treatment
  - supportive
@@ -62,7 +62,7 @@
 - minimal to no hepatomegaly and splenomegaly
 
 *** ML III
-- pathology of ML-III is not as well documented as that of ML-II
+- pathology of ML-III is not well documented
   - available data indicate the presence of similar but less severe
     findings
 - ML-II and ML-III can be distinguished on clinical criteria and on
@@ -71,13 +71,12 @@
 ** Metabolic Derangement
 - ML II and ML III result from a deficiency of the enzyme
   N-acetylglucosamine-1-phosphotransferase
+  - ML II :: inactivity
+  - ML III :: deficiency
   - \alpha\alpha\beta\beta\gamma\gamma-hexamer
   - phosphorylates target carbohydrate residues on N-linked
     glycoproteins
-  - without this phosphorylation, the glycoproteins are not destined
-    for lysosomes, and are secreted from the cell
-  - ML II :: inactivity
-  - ML III :: deficiency 
+    - required for MPR mediated protein trafficking to lysosomes 
 
 - characterized by deficient activity of a large number of lysosomal enzymes:
   - \beta-glucuronidase
@@ -148,14 +147,13 @@
 
 ** Metabolic Derangement
 - inborn error of intracellular membrane trafficking due to mucolipin-1 deficiency
-  - a transmembrane protein of the transient receptor potential channel family
   - unclear why  mucolipin-1 deficiency causes ML IV
 - associated with lysosomal inclusions in a variety of cell types
 ** Genetics
 - AR MCOLN1
 ** Diagnostic Tests 
 - \uparrow blood gastrin levels
-  - virtually diagnostic of ML IV given clinical presenation
+  - virtually diagnostic of ML IV with consistent clinical presentation
 - molecular
 
 ** Treatment 

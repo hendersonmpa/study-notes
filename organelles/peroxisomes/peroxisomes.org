@@ -11,10 +11,6 @@
   - a range of eicosanoids
 - \alpha-oxidation of phytanoyl-CoA \to pristanoly-CoA
   - \beta-oxidation of pristanoly-CoA
-
-- two acyl-CoA oxidases (ACOX1 & 2)
-- two bifunctional proteins (LBP & DBP)
-- two thiolases (ACAA1 & SCPx). 
 - single enzyme or transport protein defect result in abnormalities in some fatty acids
 
 #+CAPTION[Non-mitochondrial FA metabolism]:Non-mitochondrial FA metabolism
@@ -36,7 +32,7 @@
 - etherphospholipid biosynthesis
   - Rhizomelic Chondrodysplasia Punctata (RCDP) 1-4
 - FA elongation disorders
-  - EVOL4, EVOL5,
+  - EVOL4, EVOL5
   - Trans-2,3-Enoyl-CoA Reductase (TER), 3-Hydroxyacyl-CoA Dehydratase 1 (HACD1)
 - eicosanoid metabolism
   - Primary Hypertrophic Osteoarthropathy Type 1
@@ -45,7 +41,6 @@
 
 #+CAPTION[]:Diagnostic Investigations
 #+NAME: tab:peroxd
-
 
 | Disease | VLCFA    | plasmalogens    | phytanic      | pristanic       | bile acids    |
 |---------+----------+-----------------+---------------+-----------------+---------------|
@@ -94,7 +89,7 @@
   - \uparrow C26:0/C22:0
   - \uparrow C24:0/C22:0
 
-- in females, normal plasma VLCFA does not exclude XALD
+- normal plasma VLCFA does not exclude XALD in heterozygote females
   - mutation analysis is the most reliable method for diagnosis in females
 
 - false-positive results have been reported in:
@@ -113,7 +108,7 @@
   performed at a very early stage
 
 * Zellweger Spectrum Disorders
-- this group of conditions includes:
+- spectrum includes:
   - Zellweger Syndrome
   - Neonatal Adrenoleukodystrophy (NALD)
   - Infantile Refsum Disease
@@ -126,24 +121,25 @@
 ** Clinical Presentation
 *** Zellweger Syndrome
 - presents in newborn period
-  - develop life-threatening problems in other organs and tissues
+  - severe hypotonia, seizures
+  - life-threatening dysfunction in organs and tissues
     - liver, heart, and kidneys
   - may have skeletal abnormalities
     - large space between the bones of the skull (fontanelles)
     - characteristic bone spots known as chondrodysplasia punctata seen on x-ray
 - prototypical ZS:
-  1) typical cranial facial dysmorphia
+  1) profound neurological abnormalities
+  2) typical cranial facial dysmorphia
      - high forehead
      - large interior fontanelle
      - hypoplastic supraorbital ridges
      - epicanthal folds
      - flat nasal bridge
      - deformed ear lobes
-  2) profound neurological abnormalities
 - children with ZS typically do not survive beyond the first year of life
 
 *** NALD and IRD
- - less-severe
+ - less severe
  - have more variable features than those with Zellweger syndrome
  - usually do not develop signs and symptoms of the disease until late
    infancy or early childhood
@@ -156,7 +152,7 @@
 
 ** Metabolic Derangement
 - absence or marked deficiency of peroxisomes
-  - assessed by catalase-staining in fibroblasts
+  - assessed by catalase staining in fibroblasts
   - using immunofluorescence microscopy analysis
 - all peroxisomal functions are impaired
 - classical ZSD abnormalities include:
@@ -168,17 +164,18 @@
 
 ** Genetics
 - genetic basis of the ZSD is heterogeneous
-- biallelic mutations identified in:
+- biallelic mutations identified in genes required for peroxisomal biogenesis
   - PEX1, PEX2, PEX3, PEX5, PEX6, PEX10, PEX12, PEX13, PEX14, PEX16, PEX19, and PEX26
 - all disorders are autosomal recessive
 
 ** Diagnostic Tests
-- VLCFA analysis is a good initial biochemical test
-- erythrocyte plasmalogens
-- pipecolic acid in urine or plasma
+- \uparrow VLCFA is a good initial biochemical test
+- \downarrow erythrocyte plasmalogens
+- \uparrow pipecolic acid in urine or plasma
   - elevations in pipecolic acid also occur in:
     - pyridoxine-dependent epilepsy
     - sulfite oxidase deficiency
+- \uparrow pristanic
 - DNA-panel containing all PEX genes or all genes coding for
   peroxisomal protein
 
@@ -194,14 +191,14 @@
   - progressive loss of night vision
   - decline in visual capacity
   - loose sense of smell (anosmia)
-- after \ge 10 years patients may develop:
+- \ge 10 years patients may develop:
   - deafness, ataxia, polyneuropathy, ichthyosis, fatigue, and cardiac
     conduction disturbances
 - full constellation of features defined by Refsum includes:
   - retinitis pigmentosa, cerebellar ataxia and chronic polyneuropathy
 - rarely seen in single patients with Refsum
 
-** Metabolic derangement
+** Metabolic Derangement
 - phytanoyl-CoA hydroxylase is deficient in Refsum
 - required for \alpha-oxidation of phytanic acid
   - accumulation of phytanic acid 
@@ -216,8 +213,8 @@
 
 ** Diagnostic Tests
 - \Uparrow plasma phytanic acid 
-- \uparrow phytanic acid in ZS
-  - initially called infantile Refsum
+  - phytanic acid is also increased in ZS
+    - initially called infantile Refsum
 
 ** Treatment
 - dietary restriction of phytanic acid 
@@ -288,7 +285,7 @@
        of RCDP with most patients dying in the first decade of life
   3) alkylglycerone 3-phosphate synthase (AGPS) deficiency
      - rare (5 cases)
-     - all of whom showed the severe lethal RCDP phenotype
+     - all had the severe lethal RCDP phenotype
 - recently two additional disorders of EPL biosynthesis have been
   identified:
   - FAR1 deficiency and PEX5L deficiency
@@ -305,17 +302,17 @@
    3) phytanoyl-CoA hydroxylase
  - not imported into peroxisomes in PEX7 deficiency
    - defects in plasmalogen biosynthesis and \alpha-oxidation
- - deficiency of 3-keto acyl-CoA thiolase 1 has no functional
+ - deficiency of 3-keto acyl-CoA thiolase has no functional
    consequences for VLCFA degradation
    - another peroxisomal thiolase (SCPx) can also handle 3-keto-VLCFAs
 
 *** RCDP Type 2
- - Glycerone 3-Phosphate Acyltransferase Deficiency 
+ - glycerone 3-phosphate acyltransferase deficiency 
  - mutations in GNPAT
  - one of the two intraperoxisomal enzymes involved in EPL biosynthesis
 
 *** RCDP Type 3
- - Alkylglycerone 3-Phosphate Synthase Deficiency 
+ - alkylglycerone 3-phosphate synthase deficiency 
  - mutations in AGPS
  - the second intraperoxisomal enzyme involved in EPL-biosynthesis
  - catalyses the formation of the characteristic ether bond in etherphospholipids
@@ -330,7 +327,7 @@
 ** Treatment
 - phytanic acid restriction
 
-* Fatty Acid Chain Elongation Disorders
+* COMMENT Fatty Acid Chain Elongation Disorders
 - FA from dietary sources or synthesized /de novo/ via the FAS complex,
   can be converted into longer-chain fatty acids either saturated,
   mono- or polyunsaturated
