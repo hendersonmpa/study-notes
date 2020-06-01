@@ -68,7 +68,6 @@
 - ML-II and ML-III can be distinguished on clinical criteria and on
   progression of the disease
 
-
 ** Metabolic Derangement
 - ML II and ML III result from a deficiency of the enzyme
   N-acetylglucosamine-1-phosphotransferase
@@ -93,6 +92,20 @@
 
 - I-cells are caused by oligosaccharides, lipids, and
   glycosaminoglycan inclusions in lysosomes
+
+#+CAPTION[]: Lysosomal enzyme receptors
+#+NAME: tab:recep
+| Disease | Enzyme                    | Receptor          |
+|---------+---------------------------+-------------------|
+| Gaucher | \beta-glucocerebrosidase  | LIMP-2            |
+| Fabry   | \alpha-galactosidase A    | sortilin & MPR    |
+| MLD     | arylsulfatase A           | MPR               |
+| GM1     | \beta-galactosidase       | MPR               |
+| GM2     | hexosaminidase A and/or B | MPR               |
+| Krabbe  | galactosylceramidase      | MPR               |
+| NPA/B   | acid sphingomyelinase     | sortilin & MPR    |
+| Farber  | acid ceramidase           |                   |
+
 
 #+CAPTION[Protein trafficking to lysosomes]:Protein trafficking to lysosomes
 #+NAME: fig:traffic

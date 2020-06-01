@@ -18,10 +18,6 @@
 #+LaTeX_header: \usepackage{chemfig}
 #+LaTeX_header: \usepackage{siunitx}
 #+LaTeX_header: \usepackage{gensymb}
-#+LaTex_HEADER: \usepackage[usenames,dvipsnames]{xcolor}
-#+LaTeX_HEADER: \usepackage[T1]{fontenc}
-#+LaTeX_HEADER: \usepackage{lmodern}
-#+LaTeX_HEADER: \usepackage{verbatim}
 #+LaTeX_HEADER: \usepackage{tikz}
 #+LaTeX_HEADER: \usepackage{wasysym}
 #+LaTeX_HEADER: \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
@@ -39,18 +35,19 @@
 
 * Sphingolipidoses
 
-#+CAPTION[]: The Sphingolipidoses
+#+CAPTION[]: Sphingolipidoses
 #+NAME: tab:spingo
-| Disease | Enzyme                    | Sphingolipid                | Gene            |
-|---------+---------------------------+-----------------------------+-----------------|
-| Gaucher | \beta-glucocerebrosidase  | glucocerebroside            | GBA             |
-| Fabry   | \alpha-galactosidase A    | globotriaosylceramide (Gb3) | GLA             |
-| MLD     | arylsulfatase A           | sulfatide                   | ARSA            |
-| GM1     | \beta-galactosidase       | GM1 ganglioside             | GLB1            |
-| Krabbe  | galactosylceramidase      | galactosylceramide          | GALC            |
-| NPA/B   | acid sphingomyelinase     | sphingomyelin               | SMPD1           |
-| GM2     | hexosaminidase A and/or B | GM2 ganglioside             | HEXA,HEXB, GM2A |
-| Farber  | acid ceramidase           | ceramides                   | ASAH1           |
+| Disease   | Enzyme                   | Sphingolipid                | Gene            |
+|-----------+--------------------------+-----------------------------+-----------------|
+| Gaucher   | \beta-glucocerebrosidase | glucocerebroside            | GBA             |
+| Krabbe    | galactosylceramidase     | galactosylceramide          | GALC            |
+| NPA/B     | acid sphingomyelinase    | sphingomyelin               | SMPD1           |
+| MLD       | arylsulfatase A          | sulfatide                   | ARSA            |
+| Fabry     | \alpha-galactosidase A   | globotriaosylceramide (Gb3) | GLA             |
+| GM1       | \beta-galactosidase      | GM1 ganglioside             | GLB1            |
+| Tay-Sachs | hexosaminidase A         | GM2 ganglioside             | HEXA,HEXB, GM2A |
+| Sandhoff  | hexosaminidase A&B       | Gb4                         | HEXA,HEXB, GM2A |
+| Farber    | acid ceramidase          | ceramides                   | ASAH1           |
 
 #+CAPTION[]:Sphingolipid degradation
 #+NAME: fig:sld
