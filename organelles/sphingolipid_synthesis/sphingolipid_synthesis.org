@@ -6,11 +6,10 @@
 ** Sphingolipids
 - found in all mammalian cell membranes
 - plasma lipoproteins
+- grey matter
 - structural role
 - modulate numerous biological functions
   - apoptosis
-- named after the sphinx because of their enigmatic nature
-
 ** Sphingosine and Ceramide
 - long chain sphingolipid base
 - N-acylated by a variety of fatty acids
@@ -95,7 +94,7 @@ file:./sphingolipid_synthesis/figures/Sphingolipids_general_structures.png
 ** Fatty Acid 2-Hydroxylase
 - spastic paraplegia
   - fatty acid hydroxylase associated neurodegeneration (FAHN)
-- 38 patients, most in present in childhood
+- 38 patients, most presented in childhood
 - slowly progressing
   - spastic paraplegia
   - dysarthria
@@ -126,7 +125,7 @@ file:./sphingolipid_synthesis/figures/Sphingolipids_general_structures.png
 - slowly progressive complex hereditary spastic paraplegia
   with mild to moderate cognitive impairment
 - cultured fibroblasts of patients have shown decreased GM2 levels
-  with an increase of its precursor, GM3
+  with an increase of its precursor GM3
 
 ** Non-Lysosomal \beta-Glucosidase Deficiency
 - GBA2 is a membrane-associated protein localised at the ER and Golgi
