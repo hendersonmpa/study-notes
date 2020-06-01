@@ -7,3 +7,5 @@
 *.txt
 *.csv
 /logos/*
+/notes/title.log
+/notes/title.aux
