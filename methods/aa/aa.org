@@ -43,16 +43,16 @@
 
 #+CAPTION[]: Recommended Plasma AA Profile for Diagnosis of Amino Acid Disorders
 #+NAME: tab:paa
-| Alanine               | Glutamine           | Ornithine             |
-| Alloisoleucine        | Glycine             | Phenylalanine         |
-| Arginine              | Histidine           | Proline               |
-| Argininosuccinic acid | Homocysteine [fn:1] | Serine                |
-| Cystine               | Isoleucine          | Sulphocysteine [fn:2] |
-| Citrulline            | Leucine             | Taurine               |
-| Glutamic acid         | Lysine              | Threonine             |
-| Valine                | Methionine          | Tyrosine              |
-[fn:1] Plasma total homocysteine is not detected by routine methods, plasma free homocystine analysis has poor clinical sensitivity.
-[fn:2] Sulphocysteine may not be detectable in plasma using routine methods
+| alanine               | glutamine           | ornithine             |
+| alloisoleucine        | glycine             | phenylalanine         |
+| arginine              | histidine           | proline               |
+| argininosuccinic acid | homocysteine [fn:1] | serine                |
+| cystine               | isoleucine          | sulphocysteine [fn:2] |
+| citrulline            | leucine             | taurine               |
+| glutamic acid         | lysine              | threonine             |
+| valine                | methionine          | tyrosine              |
+[fn:1] plasma total homocysteine is not detected by routine methods, plasma free homocystine analysis has poor clinical sensitivity.
+[fn:2] sulphocysteine may not be detectable in plasma using routine methods
 
 ** Sample Types
 *** Plasma
@@ -141,38 +141,40 @@
 \begin{center}
 \begin{tikzpicture}[node distance=9em]
 % nodes
-\node(column)[msw]{Chromatography};
-\node(derivatization)[msw, right of=column]{Ninhyrin Derivatization};
-\node(detector)[ms, right of=derivatization]{UV Detector};
+\node(column)[msw]{chromatography};
+\node(derivatization)[msw, right of=column]{ninhyrin derivatization};
+\node(detector)[ms, right of=derivatization]{UV detector};
 % arrows
 \draw[arrow](column) -- (derivatization);
 \draw[arrow](derivatization) -- (detector);
 \end{tikzpicture}
 
 \vspace{2em}
+\chemnameinit{}
 \schemestart
-\chemfig{*6(=*5(-(=O)-(-[6]OH)(-[8]OH)-(=O)-)-=-=-)}
+\chemname{\chemfig{*6(=*5(-(=O)-(-[6]OH)(-[8]OH)-(=O)-)-=-=-)}}{\small ninhydrin}
 \+
-\chemfig{{\color{red}R}-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]OH}
+\chemname{\chemfig{{\color{red}R}-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]OH}}{\small \textalpha{}-amino acid}
 \arrow{-U>[][{\small \ce{2H2O}}]}
-\chemfig{*6(=*5(-(=O)-(=N-[::-60](-[::-60]{\color{red}R})-[::60](=[::60]O)-[::-60]OH)-(=O)-)-=-=-)}
-\arrow{->[][]}
-\chemfig{*6(=*5(-(=O)-(-N=*5(-(=O)-(*6(-=-=-))--(=O)-))-(=O)-)-=-=-)}
+\chemname{\chemfig{*6(=*5(-(=O)-(=N-[::-60](-[::-60]{\color{red}R})-[::60](=[::60]O)-[::-60]OH)-(=O)-)-=-=-)}}{\small derivative}
+\arrow{-U>[{\small ninhydrin}][]}
+\chemname{\chemfig{*6(=*5(-(=O)-(-N=*5(-(=O)-(*6(-=-=-))--(=O)-))-(=O)-)-=-=-)}}{\small 570nm}
 \schemestop
 
+\chemnameinit{}
 \schemestart
-\chemfig{*6(=*5(-(=O)-(-[6]OH)(-[8]OH)-(=O)-)-=-=-)}
+\chemname{\chemfig{*6(=*5(-(=O)-(-[6]OH)(-[8]OH)-(=O)-)-=-=-)}}{\small ninhydrin}
 \+
-\chemfig{H-*5(N----(-COOH)-)}
+\chemname{\chemfig{H-*5(N----(-COOH)-)}}{\small imino acids}
 \arrow{->[][]}
-\chemfig{*6(=*5(-(=O)-(-*5(N-----))-(=O)-)-=-=-)}
+\chemname{\chemfig{*6(=*5(-(=O)-(-*5(N-----))-(=O)-)-=-=-)}}{\small 440nm}
 \schemestop
 \end{center}
 #+END_EXPORT
 
 #+CAPTION[]:Amino Acids Analyser
 #+NAME: fig:aaa
-#+ATTR_LaTeX: :width 1\textwidth
+#+ATTR_LaTeX: :width 1.1\textwidth
 [[./aa/figures/aaachrom.png]]
 
 ** Pros and Cons of Amino Acid Analysers
@@ -254,9 +256,11 @@ plot data u 1:3 w lp lw 2 title 'A', \
 ** Ion-Pairing Chromatography
 
 #+BEGIN_EXPORT LaTeX
+
+\chemnameinit{}
 \chemname{\chemfig{CF_3-{(CF_2)_4}-CF_2-[::30](=[::60]O)-[::-60]OH}}{\small perfluoroheptanoic acid}
 
-\vspace{3em}
+\vspace{1em}
 
 \ce{AA+ + PFHA-  <=> AA+ PFHA-}
 #+END_EXPORT
@@ -281,7 +285,8 @@ plot data u 1:3 w lp lw 2 title 'A', \
 | aminoadipic          | arginosuccinic acid | anserine              |
 | proline              | tyrosine            | carnosine             |
 | glycine              | \beta{}-alanine     | arginine              |
-|                      |                     | s-sulfocyteine*       |
+|                      |                     | s-sulfocyteine [fn:3] |
+[fn:3] reported in urine
 
 ** Pros and Cons of LC-MS/MS vs FIA-MS/MS 
 *** Pros

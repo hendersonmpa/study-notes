@@ -96,6 +96,7 @@
 \schemestart
 \chemname{\chemfig{{\color{red}R}-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\tiny AA butyl ester}
 \arrow{->[{\tiny fragmentation}]}
+\chemnameinit{}
 \chemname{\chemfig{{\color{red}R}-[::60]=NH_2^{+}}}{\tiny fragment}
 \+
 \chemname{\chemfig{H-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\tiny butyl formate (102 Da)}
@@ -142,11 +143,14 @@
 - precursor ion scan is used to identify molecules that fragment to form a 85 m/z molecule
 
 #+BEGIN_EXPORT LaTeX
+
+\chemnameinit{}
 \definesubmol{x}{-[1,.6]-[7,.6]}
  \chemname{\chemfig{H_{3}C-N^{+}([2]-CH_3)([6]-CH_{3})-CH_2-C([2]-H)([6]-O-C([0]=O)-{\color{red}R})-CH_2-C([2]=O)-O-CH_2-CH_2-CH_2-CH_3}}{\small acylcarnitine, butyl ester}
 
 \vspace{2.5em}
 
+\chemnameinit{}
  \chemname{\chemfig{H_{3}C-N([1]-CH_3)([7]-CH_3)}}{\small trimethylamine}
 \hspace{2em}
 \chemname{\chemfig{{\color{red}R}-C([1]=O)([7]-OH)}}{\small carboxylic acid}

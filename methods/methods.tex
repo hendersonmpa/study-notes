@@ -1,4 +1,4 @@
-% Created 2020-05-11 Mon 21:30
+% Created 2020-05-12 Tue 10:30
 % Intended LaTeX compiler: pdflatex
 \documentclass{scrartcl}
 \usepackage[utf8]{inputenc}
@@ -64,12 +64,12 @@
 
 
 \section{Amino Acids}
-\label{sec:org47843c8}
+\label{sec:org1936f73}
 \subsection{Introduction}
-\label{sec:org3a12f95}
+\label{sec:org803a5b1}
 \begin{enumerate}
 \item Amino Acids: A Very Short Introduction
-\label{sec:org52a5d5b}
+\label{sec:orgbb5fc94}
 \begin{itemize}
 \item amino acids are mono or dicarboxylic acids with one or more amino groups
 \begin{itemize}
@@ -100,7 +100,7 @@
 \end{itemize}
 
 \item Indications for Measurement of Amino Acids
-\label{sec:orgfa119e3}
+\label{sec:orgb0e4a1e}
 \begin{itemize}
 \item diagnosis of inborn errors of amino acid metabolism and transport
 \item diet monitoring in patients with known IEM
@@ -125,26 +125,26 @@
 \end{itemize}
 
 \begin{table}[htbp]
-\caption{\label{tab:org28ee327}
+\caption{\label{tab:orgd5b399d}
 Recommended Plasma AA Profile for Diagnosis of Amino Acid Disorders}
 \centering
 \begin{tabular}{lll}
-Alanine & Glutamine & Ornithine\\
-Alloisoleucine & Glycine & Phenylalanine\\
-Arginine & Histidine & Proline\\
-Argininosuccinic acid & Homocysteine \footnotemark & Serine\\
-Cystine & Isoleucine & Sulphocysteine \footnotemark\\
-Citrulline & Leucine & Taurine\\
-Glutamic acid & Lysine & Threonine\\
-Valine & Methionine & Tyrosine\\
+alanine & glutamine & ornithine\\
+alloisoleucine & glycine & phenylalanine\\
+arginine & histidine & proline\\
+argininosuccinic acid & homocysteine \footnotemark & serine\\
+cystine & isoleucine & sulphocysteine \footnotemark\\
+citrulline & leucine & taurine\\
+glutamic acid & lysine & threonine\\
+valine & methionine & tyrosine\\
 \end{tabular}
-\end{table}\footnotetext[1]{\label{org8bbf540}Plasma total homocysteine is not detected by routine methods, plasma free homocystine analysis has poor clinical sensitivity.}\footnotetext[2]{\label{orga7e5489}Sulphocysteine may not be detectable in plasma using routine methods}
+\end{table}\footnotetext[1]{\label{orga97b7ca}plasma total homocysteine is not detected by routine methods, plasma free homocystine analysis has poor clinical sensitivity.}\footnotetext[2]{\label{orged1f486}sulphocysteine may not be detectable in plasma using routine methods}
 
 \item Sample Types
-\label{sec:orgea65269}
+\label{sec:orgf6f6f7c}
 \begin{enumerate}
 \item Plasma
-\label{sec:orgf0bde6d}
+\label{sec:org7a74da7}
 \begin{itemize}
 \item patient prep
 \begin{itemize}
@@ -199,7 +199,7 @@ preservative, can cause the conversion of cystine to sulphocysteine
 \end{itemize}
 
 \item Urine
-\label{sec:org0eb6824}
+\label{sec:org205214e}
 \begin{itemize}
 \item aminoaciduria is due to overflow and amino acid transport defects
 \item 24 hour or random urine
@@ -224,7 +224,7 @@ preservative, can cause the conversion of cystine to sulphocysteine
 
 
 \item Cerebral Spinal Fluid
-\label{sec:orgda319bf}
+\label{sec:org071b2b9}
 \begin{itemize}
 \item investigation of neurological disorders and essential for the
 diagnosis of non-ketotic hyperglycinaemia
@@ -238,7 +238,7 @@ diagnosis of non-ketotic hyperglycinaemia
 \end{enumerate}
 
 \item Sample prep
-\label{sec:org7a07cd7}
+\label{sec:orgfce6573}
 \begin{itemize}
 \item hydrophillic amino acids require deprotonization with acetonitrile or alcohol
 \item deproteination to release cysteine, homocysteine and tryptophan
@@ -246,7 +246,7 @@ diagnosis of non-ketotic hyperglycinaemia
 \end{enumerate}
 
 \subsection{Amino Acid Analyser}
-\label{sec:orgf4c064e}
+\label{sec:org3b4a53a}
 
 \begin{itemize}
 \item cation-exchange chromatography using a lithium buffer system
@@ -265,53 +265,55 @@ injection
 \begin{center}
 \begin{tikzpicture}[node distance=9em]
 % nodes
-\node(column)[msw]{Chromatography};
-\node(derivatization)[msw, right of=column]{Ninhyrin Derivatization};
-\node(detector)[ms, right of=derivatization]{UV Detector};
+\node(column)[msw]{chromatography};
+\node(derivatization)[msw, right of=column]{ninhyrin derivatization};
+\node(detector)[ms, right of=derivatization]{UV detector};
 % arrows
 \draw[arrow](column) -- (derivatization);
 \draw[arrow](derivatization) -- (detector);
 \end{tikzpicture}
 
 \vspace{2em}
+\chemnameinit{}
 \schemestart
-\chemfig{*6(=*5(-(=O)-(-[6]OH)(-[8]OH)-(=O)-)-=-=-)}
+\chemname{\chemfig{*6(=*5(-(=O)-(-[6]OH)(-[8]OH)-(=O)-)-=-=-)}}{\small ninhydrin}
 \+
-\chemfig{{\color{red}R}-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]OH}
+\chemname{\chemfig{{\color{red}R}-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]OH}}{\small \textalpha{}-amino acid}
 \arrow{-U>[][{\small \ce{2H2O}}]}
-\chemfig{*6(=*5(-(=O)-(=N-[::-60](-[::-60]{\color{red}R})-[::60](=[::60]O)-[::-60]OH)-(=O)-)-=-=-)}
-\arrow{->[][]}
-\chemfig{*6(=*5(-(=O)-(-N=*5(-(=O)-(*6(-=-=-))--(=O)-))-(=O)-)-=-=-)}
+\chemname{\chemfig{*6(=*5(-(=O)-(=N-[::-60](-[::-60]{\color{red}R})-[::60](=[::60]O)-[::-60]OH)-(=O)-)-=-=-)}}{\small derivative}
+\arrow{-U>[{\small ninhydrin}][]}
+\chemname{\chemfig{*6(=*5(-(=O)-(-N=*5(-(=O)-(*6(-=-=-))--(=O)-))-(=O)-)-=-=-)}}{\small 570nm}
 \schemestop
 
+\chemnameinit{}
 \schemestart
-\chemfig{*6(=*5(-(=O)-(-[6]OH)(-[8]OH)-(=O)-)-=-=-)}
+\chemname{\chemfig{*6(=*5(-(=O)-(-[6]OH)(-[8]OH)-(=O)-)-=-=-)}}{\small ninhydrin}
 \+
-\chemfig{H-*5(N----(-COOH)-)}
+\chemname{\chemfig{H-*5(N----(-COOH)-)}}{\small imino acids}
 \arrow{->[][]}
-\chemfig{*6(=*5(-(=O)-(-*5(N-----))-(=O)-)-=-=-)}
+\chemname{\chemfig{*6(=*5(-(=O)-(-*5(N-----))-(=O)-)-=-=-)}}{\small 440nm}
 \schemestop
 \end{center}
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=1\textwidth]{./aa/figures/aaachrom.png}
-\caption{\label{fig:org2c35a58}
+\includegraphics[width=1.1\textwidth]{./aa/figures/aaachrom.png}
+\caption{\label{fig:org275bd19}
 Amino Acids Analyser}
 \end{figure}
 
 \begin{enumerate}
 \item Pros and Cons of Amino Acid Analysers
-\label{sec:org77ea49e}
+\label{sec:org0d33274}
 \begin{enumerate}
 \item Pros
-\label{sec:orga37de7e}
+\label{sec:org2856a57}
 \begin{itemize}
 \item standardized and established technology
 \item interpretive experience
 \end{itemize}
 \item Cons
-\label{sec:orgd44cc28}
+\label{sec:org8a4d70c}
 \begin{itemize}
 \item long run time (90 – 150 minutes/sample)
 \item lack of analyte specificity (identification by retention time)
@@ -331,10 +333,10 @@ Amino Acids Analyser}
 
 
 \subsection{LC-MS/MS}
-\label{sec:org0cb2e75}
+\label{sec:org14c00dc}
 \begin{enumerate}
 \item LC-MS/MS schematic
-\label{sec:orgb65e7f5}
+\label{sec:orgb9df946}
 
 \begin{center}
 \begin{tikzpicture}[node distance=7em]
@@ -355,7 +357,7 @@ Amino Acids Analyser}
 \end{center}
 
 \item LC-MS/MS sample prep
-\label{sec:orgb966b41}
+\label{sec:orgcdfea2f}
 \begin{itemize}
 \item 10 \textmu{}L of sample is mixed with 990 \textmu{}L of IS in 0.5 mM perfluoroheptanoic acid and centrifuge to deproteinize
 \item 200 \textmu{}L of supernatant is removed
@@ -366,21 +368,23 @@ Amino Acids Analyser}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.7\textwidth]{./aa/figures/outletmethod.png}
-\caption{\label{fig:org3ef79b4}
+\caption{\label{fig:orga4283f0}
 LC-MS/MS outletmethod}
 \end{figure}
 
 \item Ion-Pairing Chromatography
-\label{sec:orgd9bd93b}
+\label{sec:orgfe34e5d}
 
+
+\chemnameinit{}
 \chemname{\chemfig{CF_3-{(CF_2)_4}-CF_2-[::30](=[::60]O)-[::-60]OH}}{\small perfluoroheptanoic acid}
 
-\vspace{3em}
+\vspace{1em}
 
 \ce{AA+ + PFHA-  <=> AA+ PFHA-}
 
 \item LC- MS/MS transitions
-\label{sec:org4277f8f}
+\label{sec:org858f576}
 \begin{itemize}
 \item ESI in positive mode
 \begin{itemize}
@@ -389,7 +393,7 @@ LC-MS/MS outletmethod}
 \end{itemize}
 
 \begin{table}[htbp]
-\caption{\label{tab:org44d901d}
+\caption{\label{tab:org2b1bf27}
 AA Quantified by LC-MS/MS}
 \centering
 \begin{tabular}{lll}
@@ -407,15 +411,15 @@ sarcosine & leucine & 3-methylhistidine\\
 aminoadipic & arginosuccinic acid & anserine\\
 proline & tyrosine & carnosine\\
 glycine & \(\beta\)-alanine & arginine\\
- &  & s-sulfocyteine*\\
+ &  & s-sulfocyteine \footnotemark\\
 \end{tabular}
-\end{table}
+\end{table}\footnotetext[3]{\label{orga414a30}reported in urine}
 
 \item Pros and Cons of LC-MS/MS vs FIA-MS/MS
-\label{sec:org74779b9}
+\label{sec:org01e05b9}
 \begin{enumerate}
 \item Pros
-\label{sec:orgbea5b10}
+\label{sec:orgc88b03c}
 \begin{itemize}
 \item 43 vs 11 amino acids quantified
 \begin{itemize}
@@ -427,7 +431,7 @@ glycine & \(\beta\)-alanine & arginine\\
 \end{itemize}
 \end{itemize}
 \item Cons
-\label{sec:orge05eb74}
+\label{sec:org042271a}
 \begin{itemize}
 \item too slow for NBS
 \item manual peak integration
@@ -435,10 +439,10 @@ glycine & \(\beta\)-alanine & arginine\\
 \end{enumerate}
 
 \item Pros and Cons of LC-MS/MS vs AAA
-\label{sec:org054bb66}
+\label{sec:orgf8ac031}
 \begin{enumerate}
 \item Pros
-\label{sec:orgac954c9}
+\label{sec:org518cf7e}
 \begin{itemize}
 \item \textasciitilde{} 30 min shorter analysis time
 \item analyte specificity
@@ -448,13 +452,13 @@ glycine & \(\beta\)-alanine & arginine\\
 \item gentamycin, acetaminophen, dopamine analogs
 \end{itemize}
 \item co-eluting substances cannot be separated and distinguished on a
-standard IEC chromatogram (see above section \ref{sec:org77ea49e})
+standard IEC chromatogram (see above section \ref{sec:org0d33274})
 \end{itemize}
 \item long term reagent expense
 \end{itemize}
 
 \item Cons
-\label{sec:org7a03d64}
+\label{sec:orgd9f8f9b}
 \begin{itemize}
 \item upfront hardware expense
 \item manual peak integration
@@ -464,9 +468,9 @@ standard IEC chromatogram (see above section \ref{sec:org77ea49e})
 \end{enumerate}
 \end{enumerate}
 \section{Acylcarnitines}
-\label{sec:org4a28068}
+\label{sec:org7356fb6}
 \subsection{Introduction}
-\label{sec:org1ebf95e}
+\label{sec:orgd702504}
 \begin{itemize}
 \item carnitine (\(\beta\)-hydroxy-\(\gamma\)-N-trimethylaminobutyric acid) is
 an endogenous quaternary ammonium compound synthesized from lysine
@@ -487,7 +491,7 @@ mitochondrial matrix, for \(\beta\)-oxidation
 
 
 \begin{table}[htbp]
-\caption{\label{tab:orgc2d27ee}
+\caption{\label{tab:org5c380bf}
 Acylcarnitine Panel}
 \centering
 \begin{tabular}{lll}
@@ -544,7 +548,7 @@ C16-DC & hexadecanedioyl & \\
 
 \begin{enumerate}
 \item Disorders associated with Acylcarnitines
-\label{sec:orgd0599f0}
+\label{sec:org908b547}
 \begin{description}
 \item[{BKT}] beta-ketothiolase
 \item[{CACT}] carnitine-acylcarnitine translocase
@@ -583,10 +587,10 @@ C16-DC & hexadecanedioyl & \\
 \end{enumerate}
 
 \subsection{Diagnostic FIA-MS/MS}
-\label{sec:org3637f18}
+\label{sec:org630efb4}
 \begin{enumerate}
 \item Sample Prep
-\label{sec:org9a1777e}
+\label{sec:orgad1d6c0}
 
 \begin{itemize}
 \item acylcarnitines in the sample are esterified as butyl esters with
@@ -624,19 +628,19 @@ operating at \textasciitilde{} 0.15 ml/min
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./ac/figures/ionization.png}
-\caption{\label{fig:org6f202c4}
+\caption{\label{fig:org5931fd3}
 Rationale for Derivatization}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1.0\textwidth]{./ac/figures/outletmethod.pdf}
-\caption{\label{fig:org99035f6}
+\caption{\label{fig:orge87bd86}
 FIA-MS/MS Method}
 \end{figure}
 
 \item FIA-MS/MS schematic
-\label{sec:org601078f}
+\label{sec:org97940d4}
 \begin{center}
 \begin{tikzpicture}[node distance=7em]
 % nodes
@@ -656,7 +660,7 @@ FIA-MS/MS Method}
 \end{center}
 
 \item Precursor Ion Scan
-\label{sec:orge20bd8a}
+\label{sec:orge12c895}
 \begin{itemize}
 \item electrospray ionization in positive mode
 \item butylated acylcarnitines fragment to produce a characteristic ion with mass of 85 Da
@@ -713,17 +717,17 @@ FIA-MS/MS Method}
 
 
 \item Overestimation of Free Carnitine
-\label{sec:org5481789}
+\label{sec:org390fe10}
 \begin{itemize}
 \item butylated acylcarnitines are converted to butylated carnitine in
 n-butanol-3M HCl at 65\degree{}C \footnote{Johnson, D. W. (1999). Inaccurate measurement of free
 carnitine by the electrospray tandem mass spectrometry screening
 method for blood spots. Journal of Inherited Metabolic Disease, 22(2),
-201–202.\label{org4484c99}}
+201–202.\label{org46759b8}}
 \end{itemize}
 
 \begin{table}[htbp]
-\caption{\label{tab:orgb128bcc}
+\caption{\label{tab:org8e2049a}
 Overestimation of Free Carnitine}
 \centering
 \begin{tabular}{lr}
@@ -748,19 +752,19 @@ molecular mass acylcarnitines are converted to carnitine
 \end{itemize}
 \item "the free carnitine results obtained by this screening method on
 blood spots with high levels of acylcarnitines should therefore be
-used with caution" \textsuperscript{\ref{org4484c99}}
+used with caution" \textsuperscript{\ref{org46759b8}}
 \end{itemize}
 \end{enumerate}
 
 
 \subsection{{\bfseries\sffamily TODO} Free and Total Carnitine}
-\label{sec:orgb8ed1d4}
+\label{sec:org1f3e988}
 \begin{itemize}
 \item Method?
 \end{itemize}
 \begin{enumerate}
 \item Fractional Tubular Re-absorption of Carnitine
-\label{sec:org4437812}
+\label{sec:org5b0d73c}
 
 \begin{equation*}
 FTR_{carnitine}\% = \left( 1 -  \frac{carnitine_{urine} \cdot creatinine_{plasma}}{carnitine_{plasma} \cdot creatinine_{urine}}\right) \cdot 100
@@ -771,7 +775,7 @@ FTR_{carnitine}\% = \left( 1 -  \frac{carnitine_{urine} \cdot creatinine_{plasma
 \end{itemize}
 
 \item Free/Total Carnitine
-\label{sec:orgaff6dab}
+\label{sec:orgcc82667}
 
 \[
 \frac{Free_{carnitine}}{Total_{carnitine}} = \frac{C_0}{\sum_{0}^{18} C_n}
@@ -782,12 +786,12 @@ FTR_{carnitine}\% = \left( 1 -  \frac{carnitine_{urine} \cdot creatinine_{plasma
 \end{itemize}
 \end{enumerate}
 \section{AAAC}
-\label{sec:orgd3e0a93}
+\label{sec:orgd0ab7d9}
 \subsection{Sample}
-\label{sec:orgd5eb83d}
+\label{sec:orgb169606}
 \begin{enumerate}
 \item Dried Blood Spot
-\label{sec:orgd5d5e14}
+\label{sec:orgec2980a}
 \begin{itemize}
 \item collected from free flowing blood spotted onto filter paper
 \item used for NBS and monitoring
@@ -804,7 +808,7 @@ imprecise specimen compared with liquids such as urine, blood, and plasma
 \end{itemize}
 
 \item Sample Preparation
-\label{sec:orgc96a1fc}
+\label{sec:org091d8b3}
 \begin{itemize}
 \item amino acids and acylcarnitines in the DBS eluate are esterified as butyl esters with butanol-hydrogen chloride
 \item solvent delivery is via HPLC with no chromatography, called flow injection analysis
@@ -852,11 +856,11 @@ potential 400-600 sample capacity per instrument per day
 \end{enumerate}
 
 \subsection{FIA-MS/MS}
-\label{sec:org017901e}
+\label{sec:org24fddac}
 
 \begin{enumerate}
 \item FIA-MS/MS Schematic
-\label{sec:org5a2e939}
+\label{sec:org50f2c34}
 \begin{center}
 \begin{tikzpicture}[node distance=7em]
 % nodes
@@ -876,7 +880,7 @@ potential 400-600 sample capacity per instrument per day
 \end{center}
 
 \item Amino Acid NL Scan
-\label{sec:org2b97d70}
+\label{sec:org9c9e718}
 \begin{itemize}
 \item electrospray ionization in positive mode
 \item \(\alpha\)-amino acids fragment to produce the neutral butyl formate molecule (102 Da)
@@ -891,12 +895,13 @@ potential 400-600 sample capacity per instrument per day
 \schemestart
 \chemname{\chemfig{{\color{red}R}-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\tiny AA butyl ester}
 \arrow{->[{\tiny fragmentation}]}
+\chemnameinit{}
 \chemname{\chemfig{{\color{red}R}-[::60]=NH_2^{+}}}{\tiny fragment}
 \+
 \chemname{\chemfig{H-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\tiny butyl formate (102 Da)}
 \schemestop
 \item Amino Acid MRM
-\label{sec:org8c7786e}
+\label{sec:org8f6efac}
 \begin{itemize}
 \item citrulline contains a labile amino group that fragments together with butyl formate
 \item CID results in net neutral fragmentation of butyl formate (102 Da) plus \ce{NH3} (17 Da)
@@ -921,7 +926,7 @@ potential 400-600 sample capacity per instrument per day
 \schemestop
 
 \begin{table}[htbp]
-\caption{\label{tab:org41a3e8b}
+\caption{\label{tab:org4460b43}
 Quantified Amino Acids}
 \centering
 \begin{tabular}{ll}
@@ -935,18 +940,21 @@ phenylalanine & \\
 \end{table}
 
 \item Acylcarnitine Precursor Ion Scan
-\label{sec:org80189ca}
+\label{sec:org180766c}
 \begin{itemize}
 \item electrospray ionization in positive mode
 \item butylated acylcarnitines fragment to produce a characteristic ion with mass of 85 Da
 \item precursor ion scan is used to identify molecules that fragment to form a 85 m/z molecule
 \end{itemize}
 
+
+\chemnameinit{}
 \definesubmol{x}{-[1,.6]-[7,.6]}
  \chemname{\chemfig{H_{3}C-N^{+}([2]-CH_3)([6]-CH_{3})-CH_2-C([2]-H)([6]-O-C([0]=O)-{\color{red}R})-CH_2-C([2]=O)-O-CH_2-CH_2-CH_2-CH_3}}{\small acylcarnitine, butyl ester}
 
 \vspace{2.5em}
 
+\chemnameinit{}
  \chemname{\chemfig{H_{3}C-N([1]-CH_3)([7]-CH_3)}}{\small trimethylamine}
 \hspace{2em}
 \chemname{\chemfig{{\color{red}R}-C([1]=O)([7]-OH)}}{\small carboxylic acid}
@@ -989,7 +997,7 @@ phenylalanine & \\
 \end{center}
 
 \item Acylcarnitine MRM
-\label{sec:orgbea496c}
+\label{sec:org5755fda}
 \begin{itemize}
 \item C0-Bu 218.1 Da \(\to\) 103 Da transition is optimal
 \item all others benefit from the added sensitivity of MRM mode as
@@ -997,7 +1005,7 @@ compared to parent ion scan
 \end{itemize}
 
 \begin{table}[htbp]
-\caption{\label{tab:orga3ea829}
+\caption{\label{tab:org0a1eda7}
 MRM is used to detected selected acylcarnitines}
 \centering
 \begin{tabular}{ll}
@@ -1019,7 +1027,7 @@ C8DC & 430.45 > 85.00\\
 \end{table}
 
 \begin{table}[htbp]
-\caption{\label{tab:orgc1098e8}
+\caption{\label{tab:org185991d}
 Quantified Acylcarnitines}
 \centering
 \begin{tabular}{lll}
@@ -1039,13 +1047,13 @@ C6DC &  & \\
 \end{table}
 
 \item Pros and Cons of FIA-MS/MS using DBS
-\label{sec:org06a4755}
+\label{sec:org347ae3e}
 \begin{itemize}
 \item as compared to AAA and LC-MS/MS
 \end{itemize}
 \begin{enumerate}
 \item Pros
-\label{sec:org10ee60f}
+\label{sec:orga4bdb13}
 \begin{itemize}
 \item \textasciitilde{} 2 min analysis time
 \item analyte specificity
@@ -1053,7 +1061,7 @@ C6DC &  & \\
 \end{itemize}
 
 \item Cons
-\label{sec:org6024722}
+\label{sec:orga589c2c}
 \begin{itemize}
 \item variability in DBS sample as described above
 \item iso-baric compounds
@@ -1071,9 +1079,9 @@ C6DC &  & \\
 \end{enumerate}
 \end{enumerate}
 \section{Organic Acids}
-\label{sec:org3151d7e}
+\label{sec:orga709208}
 \subsection{Introduction}
-\label{sec:org5838051}
+\label{sec:org1b32889}
 \begin{itemize}
 \item organic acids are water soluble compounds containing \(\ge\) one
 carboxyl group(s) and nonamino functional groups
@@ -1084,7 +1092,7 @@ carboxyl group(s) and nonamino functional groups
 \chemfig{X-C(-[2]X)(-[6]X)-C(-[2]X)(-[6]X)-C(-[7]OH)=[1]O}
 
 \begin{table}[htbp]
-\caption{\label{tab:org4e07995}
+\caption{\label{tab:org2e3d0e4}
 Organic Acid Functional Groups}
 \centering
 \begin{tabular}{ll}
@@ -1101,7 +1109,7 @@ side chain & -(CH\(_2\))\(_n\)\\
 \chemfig{X-C(-[2]X)(-[6]X)-C(-[2]X)(-[6]X)-C(-[7]OH)=[1]O}
 
 \begin{table}[htbp]
-\caption{\label{tab:org9e4556a}
+\caption{\label{tab:org97013f2}
 Organic Acid Side Chains}
 \centering
 \begin{tabular}{ll}
@@ -1115,7 +1123,7 @@ Butyl & \chemfig{CH_3-CH_2-CH_2-CH_2-}\\
 \end{table}
 
 \begin{table}[htbp]
-\caption{\label{tab:org06cc622}
+\caption{\label{tab:org0f9b6d3}
 Organic Acid Nomenclature}
 \centering
 \begin{tabular}{lll}
@@ -1138,7 +1146,7 @@ C10 & Decanoic (capric) & Sebacic\\
 
 \begin{enumerate}
 \item Acylglycines
-\label{sec:orge413997}
+\label{sec:org70883bb}
 \begin{itemize}
 \item acylglycines are also detected in UOA analysis
 \begin{itemize}
@@ -1148,7 +1156,7 @@ C10 & Decanoic (capric) & Sebacic\\
 \end{itemize}
 
 \begin{table}[htbp]
-\caption{\label{tab:org97c89da}
+\caption{\label{tab:org29222b6}
 Pathologic Acylglycines}
 \centering
 \begin{tabular}{llll}
@@ -1182,10 +1190,10 @@ trans-cinnamoylglycine & C9:1 & PHE & no known defect\\
 \end{enumerate}
 
 \item Sources of Organic Acids
-\label{sec:org41f9246}
+\label{sec:org8820dda}
 \begin{enumerate}
 \item Endogenous
-\label{sec:org90be207}
+\label{sec:orgb41083e}
 \begin{itemize}
 \item originate from the intermediate metabolism of all major groups of
 organic cellular components
@@ -1200,7 +1208,7 @@ organic cellular components
 \end{itemize}
 
 \item Exogenous
-\label{sec:org31171e4}
+\label{sec:org400a183}
 \begin{itemize}
 \item food
 \item environment
@@ -1209,7 +1217,7 @@ organic cellular components
 \end{enumerate}
 
 \item Urine organic acids detected in health
-\label{sec:org61adae8}
+\label{sec:org2253f3e}
 \begin{itemize}
 \item tricarboxylic acid cycle acids
 \begin{itemize}
@@ -1235,7 +1243,7 @@ organic cellular components
 \end{itemize}
 
 \item Abnormal Urine Organic acids profiles
-\label{sec:orgf356a8e}
+\label{sec:orgab510db}
 \begin{itemize}
 \item elevated concentration of normal metabolites
 \begin{itemize}
@@ -1263,7 +1271,7 @@ organic cellular components
 \end{itemize}
 
 \begin{table}[htbp]
-\caption{\label{tab:orga73d06f}
+\caption{\label{tab:org95082bb}
 Disorders of Organic Acid Metabolism}
 \centering
 \begin{tabular}{ll}
@@ -1303,10 +1311,10 @@ Pyroglutamic aciduria & Glutathione synthase\\
 
 
 \subsection{Urine Organic Acids by GC-MS}
-\label{sec:org179c498}
+\label{sec:org1697b2b}
 \begin{enumerate}
 \item Oximation
-\label{sec:orgdad77ba}
+\label{sec:org2b40e78}
 \begin{itemize}
 \item not always done, sometime a reflex when 2-keto acids present
 \begin{itemize}
@@ -1328,7 +1336,7 @@ Pyroglutamic aciduria & Glutathione synthase\\
 \chemname{\chemfig{R-[1](=[2]N-[1]OH)-[7]R}}{\tiny ketoxime}
 \schemestop
 \item BSTFA Derivatisation
-\label{sec:org2aae901}
+\label{sec:org57fc076}
 \begin{itemize}
 \item acidified and extracted twice with ethyl ether
 \item derivatised with BSTFA (N,O-bis(trimethylsilyl)trifluoroacetamide) \footnote{Stalling DL, Gehrke CW, Zumwalt RW. A new silylation
@@ -1351,7 +1359,7 @@ reagent for amino acids bis(trimethylsilyl)trifluoroacetamide
 \schemestop
 
 \item GC-MS
-\label{sec:orgff68f71}
+\label{sec:orgda4fa02}
 \begin{itemize}
 \item detected by electron impact mass spectrometry performed in the scan mode
 \item mass range between m/z 50 and 550
@@ -1363,22 +1371,22 @@ compounds in ratio to an internal standard
 \end{itemize}
 \end{enumerate}
 \section{Mitochondria}
-\label{sec:orgcf8372e}
+\label{sec:org832205e}
 \subsection{Introduction}
-\label{sec:orgb33baf7}
+\label{sec:org9b8b23c}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{./mito/figures/etc.pdf}
-\caption{\label{fig:orgfa4c6e1}
+\caption{\label{fig:orgb99b5c5}
 Electron Transport Chain}
 \end{figure}
 
 \begin{enumerate}
 \item Inhibitors
-\label{sec:org301986a}
+\label{sec:org0697c4a}
 \begin{enumerate}
 \item CI
-\label{sec:org6530a0b}
+\label{sec:org74edffb}
 \begin{itemize}
 \item the best-known inhibitor of complex I is rotenone commonly used as
 an organic pesticide
@@ -1399,7 +1407,7 @@ ribose
 \end{itemize}
 
 \item CII
-\label{sec:org4116c1e}
+\label{sec:org248b794}
 \begin{itemize}
 \item there are two distinct classes of inhibitors of complex II:
 \begin{itemize}
@@ -1412,7 +1420,7 @@ ribose
 \end{itemize}
 \end{itemize}
 \item CIII
-\label{sec:org8c54e5d}
+\label{sec:org808aeea}
 \begin{itemize}
 \item there are three distinct groups of Complex III inhibitors:
 \begin{itemize}
@@ -1427,7 +1435,7 @@ ribose
 \end{itemize}
 
 \item CIV
-\label{sec:org90e570d}
+\label{sec:org90967d7}
 \begin{itemize}
 \item cyanide, azide, and carbon monoxide all bind to cytochrome c
 oxidase
@@ -1435,7 +1443,7 @@ oxidase
 binding to regulatory sites on the enzyme
 \end{itemize}
 \item CV
-\label{sec:org62271fe}
+\label{sec:orgf4b94cb}
 \begin{itemize}
 \item Oligomycin A inhibits ATP synthase by blocking its proton channel
 (F\(_{\text{0}}\) subunit), which is necessary for oxidative phosphorylation of
@@ -1457,12 +1465,12 @@ levels of lactate accumulating in the blood and urine
 \end{enumerate}
 
 \subsection{Citrate Synthase}
-\label{sec:org5f2baa6}
+\label{sec:org933f748}
 \subsection{CI+III assay}
-\label{sec:orga95cd49}
+\label{sec:org979f0f8}
 \begin{enumerate}
 \item Purpose
-\label{sec:orga2b1678}
+\label{sec:org89164e9}
 \begin{itemize}
 \item determine the rate of cytochrome c reduction in mitochondria as a
 result of electron transfer from NADH to cytochrome c (mitochondrial
@@ -1475,7 +1483,7 @@ inner membrane
 \end{itemize}
 
 \item Principle
-\label{sec:org36e84ca}
+\label{sec:org7caf32c}
 \begin{itemize}
 \item reduced cytochrome c absorbs light at 550 nm
 \item increase of the absorption at 550 nm corresponding to the increased
@@ -1501,16 +1509,16 @@ by electrons passing ONLY through complex I
 \end{enumerate}
 
 \subsection{CI assay}
-\label{sec:orge38ab88}
+\label{sec:org0e7b5e2}
 \begin{enumerate}
 \item Purpose
-\label{sec:org331c101}
+\label{sec:org91d959d}
 \begin{itemize}
 \item determining the rate of NADH oxidation in mitochondria as a result
 of electron transfer from NADH to ubiquinone
 \end{itemize}
 \item Principle
-\label{sec:org7864546}
+\label{sec:org5551ef0}
 \begin{itemize}
 \item NADH absorbs light at 340 nm
 \item the method follows the decrease of the absorption at 340 nm
@@ -1539,15 +1547,15 @@ Complex I
 \end{enumerate}
 
 \subsection{CII assay}
-\label{sec:org6edaf0d}
+\label{sec:org32c2ab9}
 \begin{enumerate}
 \item Purpose
-\label{sec:orgf5fad4e}
+\label{sec:org4ecb2b9}
 \begin{itemize}
 \item Complex II activity
 \end{itemize}
 \item Principle
-\label{sec:org13d9594}
+\label{sec:org0adc417}
 \begin{itemize}
 \item secondary reduction of the dye 2,6-dichlorophenolindophenol (DCPIP)
 by the ubiquinol formed at 600nm
@@ -1565,10 +1573,10 @@ tissue, rich in diaphorase
 \end{enumerate}
 
 \subsection{CII + III assay}
-\label{sec:org7d53a6f}
+\label{sec:orgb5de9dd}
 \begin{enumerate}
 \item Purpose
-\label{sec:orgf266edf}
+\label{sec:org341c4f6}
 \begin{itemize}
 \item measure rate of SCR in mitochondria as a result of mitochondrial
 respiratory complexes II and III activity
@@ -1584,7 +1592,7 @@ inner membrane
 \end{itemize}
 
 \item Principle
-\label{sec:org22ae3f9}
+\label{sec:org6c9792a}
 \begin{itemize}
 \item reduced cytochrome c absorbs light at 550 nm
 \item the increase of the absorption at 550 nm corresponds to the
@@ -1602,10 +1610,10 @@ from succinate
 \end{enumerate}
 
 \subsection{CIV assay}
-\label{sec:org3ca9af7}
+\label{sec:org2d69687}
 \begin{enumerate}
 \item Purpose
-\label{sec:orgd269dab}
+\label{sec:org9f036d9}
 \begin{itemize}
 \item determine the rate of cytochrome C oxidation in mitochondria as a
 result of cytochrome C oxidase (mitochondrial complex IV, COX)
@@ -1620,7 +1628,7 @@ cardiomyopathy
 \end{itemize}
 
 \item Principle
-\label{sec:orgc7cab0c}
+\label{sec:org323e84d}
 \begin{itemize}
 \item reduced cytochrome c absorbs light at 550nm
 \item methods follows the decrease in absorbance of reduced cytochrome c
@@ -1636,17 +1644,17 @@ at 550 nm
 \end{enumerate}
 
 \subsection{CV assay}
-\label{sec:orgea10437}
+\label{sec:org20047d4}
 \begin{enumerate}
 \item Purpose
-\label{sec:org874bef1}
+\label{sec:org2d2427d}
 \begin{itemize}
 \item determine the activity of respiratory chain complex V in isolated
 muscle and fibroblast mitochondria
 \end{itemize}
 
 \item Principle
-\label{sec:orgd500881}
+\label{sec:orga68f722}
 \begin{itemize}
 \item ATP hydrolysis by ATPase liberates ADP which is reconverted to ATP
 by the action of PK, thus maintaining a constant concentration of
@@ -1666,16 +1674,16 @@ as a rate of oxidation of NADH by coupling to LDH
 \ce{pyruvate + NADH ->[LDH] lactate + NAD+}
 \end{enumerate}
 \section{{\bfseries\sffamily TODO} VLCFA}
-\label{sec:org6621225}
+\label{sec:org22fe791}
 \section{{\bfseries\sffamily TODO} GAGs and Oligosacarides}
-\label{sec:orgd1bf9d4}
+\label{sec:org7f2410f}
 \section{Enzymes}
-\label{sec:org0acfc81}
+\label{sec:org0300db6}
 \subsection{GALT}
-\label{sec:orgc99a249}
+\label{sec:orgccd8976}
 \begin{enumerate}
 \item Beutler Test
-\label{sec:orgc3b1d4d}
+\label{sec:org93aa997}
 
 \ce{Gal-1-P + UDP-Glu ->[GALT] Glu-1-P + UDP-Gal}
 
@@ -1692,13 +1700,13 @@ as a rate of oxidation of NADH by coupling to LDH
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./enzymes/figures/beutler.jpg}
-\caption{\label{fig:org2839edd}
+\caption{\label{fig:orgce8859d}
 Beutler Method}
 \end{figure}
 
 
 \item Spotcheck
-\label{sec:orgb47097e}
+\label{sec:org14fac10}
 
 \ce{Gal-1-P + UDP-Glu ->[GALT] Glu-1-P + UDP-Gal}
 
@@ -1710,17 +1718,17 @@ Beutler Method}
 \end{enumerate}
 
 \subsection{Biotinidase}
-\label{sec:org75d0f86}
+\label{sec:orgccfa3e2}
 
 \ce{biotin-PAB ->[BTD][ph 6] biotin + PABA}
 
 \ce{PABA ->[NO2, NH2SO3][NED] purple chromophore}
 
 \subsection{Lysosomal Enzymes}
-\label{sec:orgd871a25}
+\label{sec:orgb3e48d1}
 \begin{enumerate}
 \item Multiplex DBS Assay
-\label{sec:orga8a8282}
+\label{sec:org5fa0a06}
 \begin{itemize}
 \item the DBS screening assay tests for:
 \begin{itemize}
@@ -1739,7 +1747,7 @@ cocktail with all substrates and internal standards
 
 
 \item Hexosamindase
-\label{sec:orgc62c803}
+\label{sec:org379ac13}
 \begin{itemize}
 \item testing for Tay-Sachs and Sandhoff diseases occurs by analysis of hexosaminidase A, a heat-labile enzyme, and total hexosaminidase (hexosaminidase A plus hexosaminidase B)
 \item an artificial substrate is most commonly used
@@ -1771,7 +1779,7 @@ Sandhoff & HexA/B & \(\Downarrow\) & \(\Downarrow\) & \(\uparrow\)\\
 
 \begin{enumerate}
 \item B1 Variant
-\label{sec:orge4ed84a}
+\label{sec:org1842133}
 \begin{itemize}
 \item very small group of patients affected with Tay-Sachs disease have
 mutations referred to as the B1 variant
@@ -1797,9 +1805,9 @@ beyond the infantile period
 \end{enumerate}
 \end{enumerate}
 \section{Glycosylation}
-\label{sec:org46f238d}
+\label{sec:org2f9d2de}
 \subsection{Transferrin IEF}
-\label{sec:org93ea48a}
+\label{sec:orge73ede3}
 \begin{itemize}
 \item serum transferrin IEF is the screening method of choice
 \begin{itemize}
@@ -1822,13 +1830,13 @@ cathodal shift
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1\textwidth]{./glyc/figures/trans1or2.png}
-\caption{\label{fig:org57a9688}
+\caption{\label{fig:org9bce770}
 Transferrin IEF}
 \end{figure}
 
 \begin{enumerate}
 \item Type 1 pattern
-\label{sec:orge8d9b0d}
+\label{sec:org159fda8}
 \begin{itemize}
 \item \(\uparrow\) disialo- and asialotransferrin
 \item \(\downarrow\)  tetra-, penta-and hexasialotransferrins
@@ -1842,7 +1850,7 @@ oligosaccharide chain and transfer to the nascent protein
 \end{itemize}
 
 \item Type 2 pattern
-\label{sec:orgf815879}
+\label{sec:orgd983d0a}
 \begin{itemize}
 \item Type 1 pattern with additional \(\uparrow\) tri- \textpm{}
 monosialotransferrin bands
@@ -1852,7 +1860,7 @@ compartments
 \end{itemize}
 
 \item Transferrin IEF limitations
-\label{sec:org907dd6e}
+\label{sec:orgdf1e13e}
 \begin{itemize}
 \item deficiencies of ER-glucosidase I (CDG-IIb) and Golgi GDP-fucose
 transporter (CDG-IIc) are missed
@@ -1872,7 +1880,7 @@ performed
 \end{itemize}
 \end{enumerate}
 \subsection{Additional Laboratory Investigations}
-\label{sec:org21dae08}
+\label{sec:org8698686}
 \begin{itemize}
 \item protein-linked glycan analysis can be performed to identify the defective step
 \begin{itemize}
@@ -1889,12 +1897,12 @@ transferrin IEF
 \item HPLC-UV/Vis
 \end{itemize}
 \section{NIET}
-\label{sec:org148b0c6}
+\label{sec:orgce58c5e}
 \subsection{Exercising Muscle}
-\label{sec:org8c4052f}
+\label{sec:orgdef9114}
 \begin{enumerate}
 \item Lactate
-\label{sec:orgb9345b8}
+\label{sec:orgbb6322e}
 \begin{itemize}
 \item lactate, ammonia and purine compounds are generated by exercising muscle
 \item exercising muscle generates lactic acid from the anaerobic breakdown
@@ -1908,12 +1916,12 @@ of glycogen to pyruvate
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.4\textwidth]{./niet/figures/Lactate_dehydrogenase_mechanism.png}
-\caption{\label{fig:org75016ec}
+\caption{\label{fig:org41b22cc}
 LDH}
 \end{figure}
 
 \item ATP
-\label{sec:org2d587a9}
+\label{sec:orgea736c3}
 \begin{itemize}
 \item some ATP regeneration is provided by glycolytic metabolism of fuels,
 but this is relatively slow
@@ -1941,7 +1949,7 @@ of AMP
 \end{itemize}
 
 \item Ammonia
-\label{sec:org4470e53}
+\label{sec:orgb437900}
 \begin{itemize}
 \item most ammonia produced by exercising muscle removed by formation of glutamine
 \begin{itemize}
@@ -1958,32 +1966,32 @@ of AMP
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.6\textwidth]{./niet/figures/nitrogen_glutamine.png}
-\caption[gln]{\label{fig:org03d1187}
+\caption[gln]{\label{fig:orga4de90f}
 Glutamine and Ammonia}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.6\textheight]{./niet/figures/niet_results.png}
-\caption[interp]{\label{fig:org1c66145}
+\caption[interp]{\label{fig:org974cee7}
 NIET Results}
 \end{figure}
 \end{enumerate}
 
 
 \subsection{The non-ischemic forearm exercise test}
-\label{sec:orge1b53a4}
+\label{sec:org7fc0572}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./niet/figures/niet_method.png}
-\caption{\label{fig:org8cde938}
+\caption{\label{fig:org53db506}
 NIET Method}
 \end{figure}
 
 
 \begin{table}[htbp]
-\caption{\label{tab:orgeb1d8fd}
+\caption{\label{tab:orgf0d0848}
 NIET in Myopathy}
 \centering
 \begin{tabular}{lll}
@@ -2001,9 +2009,9 @@ Poor effort & N/\(\downarrow\) & N/\(\downarrow\)\\
 \end{tabular}
 \end{table}
 \section{Porphyrins}
-\label{sec:orgf3bad38}
+\label{sec:orga962bcf}
 \subsection{Methods for Metabolites}
-\label{sec:org8b7193f}
+\label{sec:org9e49a94}
 \begin{enumerate}
 \item ALA
 \item PBG
@@ -2013,7 +2021,7 @@ Poor effort & N/\(\downarrow\) & N/\(\downarrow\)\\
 \end{enumerate}
 \begin{enumerate}
 \item Specimen Collection and Stability
-\label{sec:orgb20e847}
+\label{sec:org0f3ef7a}
 \begin{itemize}
 \item Protect from light
 \item Urinary porphyrins and PBG best collected in fresh random urine
@@ -2026,10 +2034,10 @@ not suitable
 \end{enumerate}
 \end{itemize}
 \item Methods for Porphyrin Precursors
-\label{sec:org5083974}
+\label{sec:orgebfee22}
 \begin{enumerate}
 \item Porphobilinogen
-\label{sec:org5173c2b}
+\label{sec:orgc8e877a}
 \begin{itemize}
 \item Ehrlich's reagent
 \begin{itemize}
@@ -2037,24 +2045,24 @@ not suitable
 \end{itemize}
 \end{itemize}
 \item 5-Aminolevulinic Acid
-\label{sec:org9eaf3d1}
+\label{sec:org2b8872f}
 \begin{itemize}
 \item Converted to Ehrlich's reacting pyrrole via condensation with
 acetylacetone
 \end{itemize}
 \item Analysis of Porphyrins in Urine and Feces
-\label{sec:orgc2e3fa1}
+\label{sec:org8d49a10}
 \begin{itemize}
 \item Screening via spectrophotometric scanning of acidified urine or
 fecal extracts for the Soret band
 \end{itemize}
 \item Semiquantitative Method for Total Porphyrin in Urine and Feces
-\label{sec:org5d93cee}
+\label{sec:orga543a8c}
 \begin{itemize}
 \item we do this as a screen
 \end{itemize}
 \item HPLC Fractionation of Porphyrins in Urine and Feces
-\label{sec:org0bcfec8}
+\label{sec:org047307a}
 \begin{itemize}
 \item fluormetric detection recommended
 \end{itemize}
@@ -2062,23 +2070,23 @@ fecal extracts for the Soret band
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./porphyrins/figures/urine.pdf}
-\caption{\label{fig:org9eb95c2}
+\caption{\label{fig:orgd2c8bfa}
 Urine Porphyrins}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{./porphyrins/figures/fecal.pdf}
-\caption{\label{fig:orgf528c63}
+\caption{\label{fig:orgc9a4176}
 Fecal Porphyrins}
 \end{figure}
 \end{enumerate}
 
 \item Methods for Blood Porphyrins
-\label{sec:orga0d63f5}
+\label{sec:org977639c}
 \begin{enumerate}
 \item Determination of Erythrocyte Total Porphyrin
-\label{sec:orgf7723b1}
+\label{sec:org7fcd053}
 \begin{itemize}
 \item increased in:
 \begin{itemize}
@@ -2097,7 +2105,7 @@ between protoporphyrin and ZN-protoporphyrin
 \end{itemize}
 \end{itemize}
 \item Qualitative Determination of ZN-protoporphyrin and Protoporphyrin
-\label{sec:orgb4d2171}
+\label{sec:org7ff3299}
 \begin{itemize}
 \item Emission peaks for ZPP = 587 nm and free protoporphyrin = 630 nm
 \item In EPP the concentration of free protoporphyrin >> ZPP
@@ -2111,10 +2119,10 @@ component.
 \end{enumerate}
 
 \item Analysis of Plasma Porphyrins
-\label{sec:org393a048}
+\label{sec:org9b01084}
 \begin{enumerate}
 \item Fluorescence emision Spectroscopy of Plasma Porphyrins
-\label{sec:org64d86a8}
+\label{sec:org916f5eb}
 \begin{itemize}
 \item Emission spectra of saline diluted plasma excited at 405 nm
 \item In VP the plasma contains porphyrin covalently bound to protein with
@@ -2133,14 +2141,14 @@ failure, cholestasis
 \end{enumerate}
 
 \subsection{Enzyme Measurements}
-\label{sec:org80a8bd9}
+\label{sec:orgd780f56}
 \begin{itemize}
 \item rarely required for patients with symptoms
 \item can be used for family studies, DNA is better
 \end{itemize}
 \begin{enumerate}
 \item Assay of Etythrocyte Hydroxymethylbilane Synthase Activity
-\label{sec:orgaa9c16f}
+\label{sec:org0ee2d9c}
 \begin{itemize}
 \item Measures rate of formation of porphyrinogens from PBG by hemolysed erythrocytes
 \item Discriminates between AIP and unaffected relatives
