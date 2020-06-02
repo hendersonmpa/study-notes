@@ -22,14 +22,14 @@
 #+CAPTION[]: Cholesterol Transport
 #+NAME: fig:
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./niemann_pick/figures/cholesterol1.jpg]]
+[[file:./figures/cholesterol1.jpg]]
 
 ** NPC1 & NPC2
 
 #+CAPTION[]: NPC1 & NPC2
 #+NAME: fig:npc
 #+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./niemann_pick/figures/Niemann-Pick-C-Brown-and-Goldstein.png]]
+[[file:./figures/Niemann-Pick-C-Brown-and-Goldstein.png]]
 
 - NPC1 is a lysosomal membrane protein involved in transport in the endosomal-lysosomal system
 - NPC2 acts in cooperation with the NPC1
@@ -87,7 +87,7 @@
 #+CAPTION[]:Filipin staining (red:filipin, green:CellMask)
 #+NAME: fig:filipin
 #+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./niemann_pick/figures/filipin.png]]
+[[file:./figures/filipin.png]]
 
 * Treatment
 - substrate reduction therapy

@@ -15,12 +15,12 @@
 #+CAPTION[]: Lysosomal export of cystine and related compounds. The cross represents the defect in cystinosis
 #+NAME: fig:lysexport
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./cystinosis/figures/lysexport.png]]
+[[file:./figures/lysexport.png]]
 
 #+CAPTION[]:Cystine
 #+NAME: fig:cys
 #+ATTR_LaTeX: :width 0.2\textwidth
-[[file:./cystinosis/figures/cystine.png]]
+[[file:./figures/cystine.png]]
 
 - cystinosis is a lysosomal storage disease classified into three
   clinical phenotypes:

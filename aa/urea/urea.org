@@ -18,19 +18,19 @@
 #+CAPTION[]:Urea Cycle
 #+NAME: fig:ureacycle
 #+ATTR_LaTeX: :width 1\textwidth
-[[file:./urea/figures/urea_cycle.png]]
+[[file:./figures/urea_cycle.png]]
 
 
 #+CAPTION[]:Urea Cycle
 #+NAME: fig:ureacycle
 #+ATTR_LaTeX: :width 1\textwidth
-[[file:./urea/figures/Slide01.png]]
+[[file:./figures/Slide01.png]]
 
 
 #+CAPTION[]:Diagnostic algorithm that can be applied to any hyperammonaemic patient
 #+NAME: fig:dd
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./urea/figures/ammonia_dd.png]]
+[[file:./figures/ammonia_dd.png]]
 
 * Mitochondrial 
 - CPS, OTC and NAGs deficiency
@@ -140,7 +140,7 @@
 #+CAPTION[]:Nitrogen elimination by phenylbutyrate and benzoate
 #+NAME: fig:nh3
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./urea/figures/nitrogen_elimination.jpg]]
+[[file:./figures/nitrogen_elimination.jpg]]
 
 *** Prognosis
 - presentation during newborn period have high risk of death

@@ -21,12 +21,12 @@
 #+CAPTION[]:Glucocerebroside the Gaucher Lipid
 #+NAME: fig:gluc 
 #+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./gaucher/figures/glucocerebroside.png]]
+[[file:./figures/glucocerebroside.png]]
 
 #+CAPTION[]:\beta-glucocerebrosidase defective in Gaucher
 #+NAME: fig:sidase
 #+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./gaucher/figures/glucocerebrosidase.png]]
+[[file:./figures/glucocerebrosidase.png]]
 
 * Genetics
 - AR GBA 
@@ -104,7 +104,7 @@
 #+CAPTION[]:Gaucher Cells in a bone marrow smear
 #+NAME: fig:cells
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./gaucher/figures/Gaucher_Cells_with_Fibrillar_Appearing_Cytoplasm.jpg]]
+[[file:./figures/Gaucher_Cells_with_Fibrillar_Appearing_Cytoplasm.jpg]]
 
 ** Biochemistry
 - \beta-glucocerebrosidase activity in:

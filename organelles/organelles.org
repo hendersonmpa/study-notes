@@ -11,6 +11,7 @@
 #+PROPERTY: header-args :tangle yes
 #+STARTUP: overview
 #+STARTUP: indent
+#+LaTeX_header: \usepackage{dejavu}
 #+latex_header: \hypersetup{colorlinks,linkcolor=black,urlcolor=blue}
 #+LaTeX_header: \usepackage{textpos}
 #+LaTeX_header: \usepackage{textgreek}
@@ -128,7 +129,6 @@
 
 * Neuronal Ceroid Lipfuscinoses
 #+INCLUDE: "./ncl/ncl.org" :lines "4-"
-
 * Mucopolysaccharidoses
 #+INCLUDE: "./mps/mps.org" :lines "4-"
 

@@ -17,13 +17,13 @@
 #+CAPTION[]:Tyrosine Catabolism:1 Tyrosine aminotransferase; 2 4-hydroxyphenylpyruvate dioxygenase; 3 homogentisate dioxygenase; 4 fumarylacetoacetase; 5 AST; 6 ALAD
 #+NAME: fig:tyr
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./tyr/figures/tyr.png]]
+[[file:./figures/tyr.png]]
 
 
 #+CAPTION[]:Phenylalanine and Tyrosine Metabolism
 #+NAME: fig:phetyr
 #+ATTR_LaTeX: :width 1\textwidth
-[[file:./phe/figures/Slide04.png]]
+[[file:./figures/Slide04.png]]
 
 - five inherited disorders of tyrosine metabolism are known:
   1) Tyrosinemia type I is characterised by progressive

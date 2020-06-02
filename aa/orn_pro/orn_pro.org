@@ -42,17 +42,17 @@
 #+CAPTION[]:Ornithine and Proline Metabolism
 #+NAME: fig:orn_pro
 #+ATTR_LaTeX: :width 1\textwidth
-[[file:./orn_pro/figures/orn_pro.png]]
+[[file:./figures/orn_pro.png]]
 
 #+CAPTION[]:Ornithine and Proline Metabolism
 #+NAME: fig:orn_pro
 #+ATTR_LaTeX: :width 1\textwidth
-[[file:./orn_pro/figures/Slide07.png]]
+[[file:./figures/Slide07.png]]
 
 #+CAPTION[]:Differential Diagnosis of Ornthine and Proline Disorders
 #+NAME: fig:diff
 #+ATTR_LaTeX: :width 1.2\textwidth
-[[file:./orn_pro/figures/op_diff.png]]
+[[file:./figures/op_diff.png]]
 
 * OAT Deficiency
 ** Clinical Presentation

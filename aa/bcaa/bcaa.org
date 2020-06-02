@@ -21,13 +21,13 @@
 #+CAPTION[]:BCAA catabolism
 #+NAME: fig:bcaa
 #+ATTR_LaTeX: :width 1\textwidth
-[[file:./bcaa/figures/bcaa.png]]
+[[file:./figures/bcaa.png]]
 
 
 #+CAPTION[]:BCAA catabolism
 #+NAME: fig:bcaa
 #+ATTR_LaTeX: :width 1\textwidth
-[[file:./bcaa/figures/Slide02.png]]
+[[file:./figures/Slide02.png]]
 
 - branched-chain organic acidurias result from an abnormality of
   specific enzymes involving the catabolism of BCAAs

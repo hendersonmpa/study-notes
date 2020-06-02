@@ -42,17 +42,17 @@
 #+CAPTION[]:Phenylalanine Hydroxylation
 #+NAME: fig:pah
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./phe/figures/pah.png]]
+[[file:./figures/pah.png]]
 
 #+CAPTION[]:Phenylalanine and Tyrosine Metabolism
 #+NAME: fig:phetyr
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./phe/figures/Slide04.png]]
+[[file:./figures/Slide04.png]]
 
 #+CAPTION[]:Tetrahydrobiopterin metabolism
 #+NAME: fig:bh4
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./phe/figures/Slide21.png]]
+[[file:./figures/Slide21.png]]
 
 * Phenylalanine Hydroxylase Deficiency
 ** Clinical Presentataion

@@ -109,18 +109,18 @@
 #+CAPTION[Protein trafficking to lysosomes]:Protein trafficking to lysosomes
 #+NAME: fig:traffic
 #+ATTR_LaTeX: :width 1\textwidth
-[[file:./mucolipidosis/figures/lysosome_traffic.jpg]]
+[[file:./figures/lysosome_traffic.jpg]]
 
 
 #+CAPTION[N-acetylglucosamine (GlcNAc) phosphotransferase]:N-acetylglucosamine (GlcNAc) phosphotransferase
 #+NAME: fig:biochem
 #+ATTR_LaTeX: :width 1\textwidth
-[[file:./mucolipidosis/figures/ml_defect.png]]
+[[file:./figures/ml_defect.png]]
 
 #+CAPTION[]:I cell in fibroblast culture
 #+NAME: fig:icell
 #+ATTR_LaTeX: :height 0.5\textwidth
-[[file:./mucolipidosis/figures/icell.png]]
+[[file:./figures/icell.png]]
 
 ** Genetics
 - AR GNPTAB

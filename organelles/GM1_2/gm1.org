@@ -2,7 +2,6 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
-
 * Introduction
 - defect in *\beta-galactosidase (AKA: \beta-gangliosidase)*
   - removes galactose from GM1, keratin sulfate and some oligosaccharides (Figure [[fig:bgal]])
@@ -23,7 +22,7 @@
 #+CAPTION[]: \beta-galactosidase
 #+NAME: fig:bgal
 #+ATTR_LaTeX: :width 0.4\textwidth
-[[file:./GM1_2/figures/bgalatosidase.png]]
+[[file:./figures/bgalatosidase.png]]
 
 
 ** Lysosomal multi-enzyme complex

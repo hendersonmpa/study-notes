@@ -6,7 +6,7 @@
 #+CAPTION[Proteoglycans]: Proteoglycans
 #+NAME: fig:pg
 #+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./mps/figures/ch17f01.jpg]]
+[[file:./figures/ch17f01.jpg]]
 
 - proteoglycans are structural proteins of the ECM are embedded in gels formed from
   proteoglycans
@@ -22,18 +22,18 @@
 #+CAPTION[Proteoglycan Synthesis]: Proteoglycan Synthesis
 #+NAME: fig:synth
 #+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./mps/figures/ch3f1.jpg]]
+[[file:./figures/ch3f1.jpg]]
 
 #+CAPTION[Glycan Nomenclature]: Symbol Nomenclature for Glycans (SNFG)
 #+NAME: fig:snfg
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./mps/figures/snfg.png]]
+[[file:./figures/snfg.png]]
 
 
 #+CAPTION[Glycosaminoglycans]: Glycosaminoglycans
 #+NAME: fig:gags
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./mps/figures/ch17f02.jpg]]
+[[file:./figures/ch17f02.jpg]]
 
 - GAGs are composed of repeating units of disaccharides (Figure [[fig:gags]])
   - hexosamine and a hexose or hexuronic acid
@@ -68,17 +68,17 @@
 #+CAPTION[DS Degradation]: DS degradation
 #+NAME: fig:dse
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./mps/figures/ds_degradation_disorders.png]]
+[[file:./figures/ds_degradation_disorders.png]]
 
 #+CAPTION[KS Degradation]: KS degradation
 #+NAME: fig:kse
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./mps/figures/ks_degradation_disorders.png]]
+[[file:./figures/ks_degradation_disorders.png]]
 
 #+CAPTION[HS Degradation]: HS Degradation
 #+NAME: fig:hse
 #+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./mps/figures/hs_degradation_disorders.png]]
+[[file:./figures/hs_degradation_disorders.png]]
 
 * Multiple sulfatase deficiency
 - mutations in sulfatase modifying factor 1 (SUMF1) leading to a
@@ -164,29 +164,29 @@
 #+CAPTION[Glycosaminoglycan Degradation]: Glycosaminoglycan Degradation
 #+NAME: fig:degradation
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./mps/figures/ch16f9.jpg]]
+[[file:./figures/ch16f9.jpg]]
+
 
 #+CAPTION[Mucopolysaccharidoses]:MPS Enzymes and Substrates
 #+NAME: tab:mps
-| MPS     | Name           | Enzyme                                     | GAG      | Assay  |
-|---------+----------------+--------------------------------------------+----------+--------|
-| MPS I   | Hurler         | \alpha-iduronidase                         | HS,DS    | WBC    |
-|---------+----------------+--------------------------------------------+----------+--------|
-| MPS II  | Hunter         | iduronate-2-sulfatase                      | HS,DS    | plasma |
-|---------+----------------+--------------------------------------------+----------+--------|
-| MPS III | Sanfilippo A   | heparan-N-sulfatase                        | HS       | WBC    |
-|         | Sanfilippo B   | N-acetyl glucosaminidase                   | HS       | plasma |
-|         | Sanfilippo C   | acetyl-CoA glucosamine N-acetyltransferase | HS       | WBC    |
-|         | Sanfilippo D   | N-acetyl-glucosamine 6-sulfatase           | HS       | WBC    |
-|---------+----------------+--------------------------------------------+----------+--------|
-| MPS IV  | Morquio A      | N-acetylgalactosamine 6-sulfatase          | KS,CS    | WBC    |
-|         | Morquio B      | \beta-galactosidase                        | KS       | WBC    |
-|---------+----------------+--------------------------------------------+----------+--------|
-| MPS VI  | Maroteaux-Lamy | N-acetylgalactosamine 4-sulfatase          | DS       | WBC    |
-| MPS VII | Sly            | \beta-glucuronidase                        | DS,HS,CS | WBC    |
-| MPS IX  |                | hyaluronidase                              | HA       | fibro  |
-| MSD     | Austin         | formylglycine-generating enzyme            | HS,DS    | WBC    |
-
+| MPS     | Name           | Enzyme                                            | GAG      | Assay  |
+|---------+----------------+---------------------------------------------------+----------+--------|
+| MPS I   | Hurler         | \alpha-iduronidase                                | HS,DS    | WBC    |
+|---------+----------------+---------------------------------------------------+----------+--------|
+| MPS II  | Hunter         | iduronate-2-sulfatase                             | HS,DS    | plasma |
+|---------+----------------+---------------------------------------------------+----------+--------|
+| MPS III | Sanfilippo A   | heparan-N-sulfatase                               | HS       | WBC    |
+|         | Sanfilippo B   | N-acetyl glucosaminidase                          | HS       | plasma |
+|         | Sanfilippo C   | \tiny{acetyl-CoA glucosamine N-acetyltransferase} | HS       | WBC    |
+|         | Sanfilippo D   | N-acetyl-glucosamine 6-sulfatase                  | HS       | WBC    |
+|---------+----------------+---------------------------------------------------+----------+--------|
+| MPS IV  | Morquio A      | N-acetylgalactosamine 6-sulfatase                 | KS,CS    | WBC    |
+|         | Morquio B      | \beta-galactosidase                               | KS       | WBC    |
+|---------+----------------+---------------------------------------------------+----------+--------|
+| MPS VI  | Maroteaux-Lamy | N-acetylgalactosamine 4-sulfatase                 | DS       | WBC    |
+| MPS VII | Sly            | \beta-glucuronidase                               | DS,HS,CS | WBC    |
+| MPS IX  |                | hyaluronidase                                     | HA       | fibro  |
+| MSD     | Austin         | formylglycine-generating enzyme                   | HS,DS    | WBC    |
 
 ** Genetics
 - AR

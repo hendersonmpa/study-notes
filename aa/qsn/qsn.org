@@ -42,7 +42,7 @@
 #+CAPTION[]: Serine and Glycine Metabolism
 #+NAME: fig:sergly
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./qsn/figures/Slide06.png]]
+[[file:./figures/Slide06.png]]
 
 ** Disorders
 - four disorders of serine metabolism are known

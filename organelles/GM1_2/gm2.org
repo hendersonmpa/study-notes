@@ -44,13 +44,15 @@
 #+CAPTION[]:Hexosaminidase A: Tay-Sachs
 #+NAME: fig:hexa
 #+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./GM1_2/figures/hexosaminidasea.png]]
+[[file:./figures/hexosaminidasea.png]]
 
 
-#+CAPTION[]:Hexosaminidase A & B:Sandhoff disease (GL-3 & 4 AKA Gb3 & 4)
+#+CAPTION[]:Hexosaminidase A & B:Sandhoff disease [fn:gl]
 #+NAME: fig:hexb
 #+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./GM1_2/figures/hexosaminidaseab.png]]
+[[file:./figures/hexosaminidaseab.png]]
+
+[fn:gl] GL-3 & 4 AKA Gb3 & 4
 
 * Genetics
 - AR HEXA, HEXB and GM2A

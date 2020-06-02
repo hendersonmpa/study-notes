@@ -78,13 +78,13 @@
 #+CAPTION[]:Tryptophan, hydroxylysine and lysine catabolic pathways
 #+NAME: fig:cat
 #+ATTR_LaTeX: :width 1.2\textwidth
-[[file:./lys/figures/cat.png]]
+[[file:./figures/cat.png]]
 
 
 #+CAPTION[]:Tryptophan and lysine catabolic pathways
 #+NAME: fig:trplys
 #+ATTR_LaTeX: :width 1\textwidth
-[[file:./lys/figures/Slide05.png]]
+[[file:./figures/Slide05.png]]
 
 * Glutaric Aciduria Type I
 ** Clinical Presentation

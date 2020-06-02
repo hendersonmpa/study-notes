@@ -2,7 +2,6 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
-
 * Introduction
 - almost all the secreted and membrane associated proteins of the body
   are glycosylated
@@ -27,7 +26,7 @@
 #+CAPTION[]:Glycoprotein Oligosaccharide Chain
 #+NAME: fig:glycanchain
 #+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./oligosaccharidoses/figures/oligosacch.png]]
+[[file:./figures/oligosacch.png]]
 
 * Oligosaccharidoses
 ** Clinical Presentation

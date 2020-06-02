@@ -12,6 +12,7 @@
 #+STARTUP: overview
 #+STARTUP: indent
 #+SEQ_TODO: TODO(t) STARTED(s) | DONE(d) 
+#+LaTeX_header: \usepackage{dejavu}
 #+latex_header: \hypersetup{colorlinks,linkcolor=black,urlcolor=blue}
 #+LaTeX_header: \usepackage{textpos}
 #+LaTeX_header: \usepackage{textgreek}

@@ -16,7 +16,7 @@
 #+CAPTION[]:Galactocerebrosidase
 #+NAME: fig:bgal
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./krabbe/figures/beta-galactosidase.png]]
+[[file:./figures/beta-galactosidase.png]]
 
 - galactocerebrosidase is a lysosomal enzyme
 - hydrolyzes the galactose ester bonds of galactocerebroside, galactosylsphingosine, lactosylceramide, and monogalactosyldiglyceride
@@ -88,7 +88,7 @@
 #+CAPTION[]:NBS follow-up at Mayo
 #+NAME: fig:
 #+ATTR_LaTeX: :width 0.8\textwidth
-[[file:./krabbe/figures/NBS_follow_up.png]]
+[[file:./figures/NBS_follow_up.png]]
 
 - \uparrow CSF protein
 - leukocytes galactocerebrosidase activity 

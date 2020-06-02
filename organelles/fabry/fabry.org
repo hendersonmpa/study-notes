@@ -19,12 +19,12 @@
 #+CAPTION[Globotriaosylceramide]:  Globotriaosylceramide (Gb3): the Fabry lipid
 #+NAME: fig:galac 
 #+ATTR_LaTeX: :width 0.3\textwidth
-[[file:./fabry/figures/globotriaosylceramide.png]]
+[[file:./figures/globotriaosylceramide.png]]
 
 #+CAPTION[\alpha-galactosidase A]:\alpha-galactosidase A, located in the lumen of lysosomes
 #+NAME: fig:sidase
 #+ATTR_LaTeX: :width 0.4\textwidth
-[[file:./fabry/figures/galactosidaseA.png]]
+[[file:./figures/galactosidaseA.png]]
 
 * Genetics
 - *XL GLA*
@@ -50,12 +50,12 @@
 | adulthood   | CNS, myocardial and pulmonary                   |
 | middle age  | renal failure, lymphedema                       |
 
-[fn:1] induced by heat, cold, fatigue or emotional stress
-
-#+CAPTION[Angiokeratomas of the skin]:Angiokeratomas of the Skin
+#+CAPTION[Angiokeratomas of the skin]:Angiokeratomas of the skin
 #+NAME: fig:skin
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./fabry/figures/angiokeratomas.png]]
+[[file:./figures/angiokeratomas.png]]
+
+[fn:1] induced by heat, cold, fatigue or emotional stress
 
 * Laboratory Investigations
 ** Biochemistry
@@ -77,7 +77,7 @@
 #+CAPTION[Fabry EM]:EM showing concentric or lamellar structure of lysosomal inclusions in Fabry disease renal biopsy
 #+NAME: fig:biopsy
 #+ATTR_LaTeX: :width 0.4\textwidth
-[[file:./fabry/figures/Fabrys-disease.jpg]]
+[[file:./figures/Fabrys-disease.jpg]]
 
 * Treatment
 - alleviate pain

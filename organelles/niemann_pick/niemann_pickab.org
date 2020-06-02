@@ -19,12 +19,12 @@
 #+CAPTION[]:Sphingomyelin
 #+NAME: fig:sphingomyelin
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./niemann_pick/figures/sphingomyelin.png]]
+[[file:./figures/sphingomyelin.png]]
 
 #+CAPTION[]: Sphingomyelinase
 #+NAME: fig:sphingomyelinase 
 #+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./niemann_pick/figures/sphingomyelinase.png]]
+[[file:./figures/sphingomyelinase.png]]
 
 * Genetics
 - AR, SMPD1
@@ -64,7 +64,7 @@
 #+CAPTION[]: Foam cells in bone marrow
 #+NAME: fig:foam
 #+ATTR_LaTeX: :width 0.25\textwidth
-[[file:./niemann_pick/figures/foam_cells.png]]
+[[file:./figures/foam_cells.png]]
 
 * Treatment
 - no approved treatments

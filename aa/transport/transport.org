@@ -40,7 +40,7 @@
 #+CAPTION[]:Simplified schematic representation of cationic and neutral amino acid transport in epithelial cells
 #+NAME: fig:aatrans
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./transport/figures/aatrans.png]]
+[[file:./figures/aatrans.png]]
 
 * Cystinuria
 ** Clinical Presentation

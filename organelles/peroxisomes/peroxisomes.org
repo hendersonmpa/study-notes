@@ -16,7 +16,7 @@
 #+CAPTION[Non-mitochondrial FA metabolism]:Non-mitochondrial FA metabolism
 #+NAME: fig:nmfa
 #+ATTR_LaTeX: :width \textwidth
-[[file:./peroxisomes/figures/non_mito_FA_met.png]]
+[[file:./figures/non_mito_FA_met.png]]
 
 - peroxisomal \beta-oxidation disorders
   1) single peroxisomal enzyme or transport protein deficiencies
@@ -206,7 +206,7 @@
 #+CAPTION[oxidation of phytanic]:Oxidation of Phytanic Acid
 #+NAME: fig:oxphy
 #+ATTR_LaTeX: :width 0.3\textwidth
-[[file:./peroxisomes/figures/alpha.png]]
+[[file:./figures/alpha.png]]
 
 ** Genetics
 - AR PHYH
@@ -375,7 +375,7 @@
 #+CAPTION[]:Eicosanoid Metabolism
 #+NAME: fig:eicosanoid
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./peroxisomes/figures/eicosanoids.png]]
+[[file:./figures/eicosanoids.png]]
 
 ** Disorders 
 - Primary Hypertrophic Osteoarthropathy (PHO)

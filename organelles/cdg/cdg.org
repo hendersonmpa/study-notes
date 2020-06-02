@@ -33,7 +33,7 @@
 #+CAPTION[]:CDGs
 #+NAME: fig:cdgs
 #+ATTR_LaTeX: :width 1\textwidth
-[[file:./cdg/figures/Slide20.png]]
+[[file:./figures/Slide20.png]]
 
 ** Congenital Disorders of Glycosylation
 - very broad spectrum of clinical manifestations:
@@ -61,7 +61,7 @@
 #+CAPTION[]:CDG diagnosis
 #+NAME: fig:cdg_diag
 #+ATTR_LaTeX: :width 1\textwidth
-[[file:./cdg/figures/cdg_diag.png]]
+[[file:./figures/cdg_diag.png]]
 
 * PMM2-CDG (CDG Ia)
 ** Clinical Presentation
@@ -186,6 +186,6 @@
 #+CAPTION[Hh]:Hh Blood Group
 #+NAME: fig:hh
 #+ATTR_LaTeX: :width 0.4\textwidth
-[[file:./cdg/figures/Bombay.png]]
+[[file:./figures/Bombay.png]]
 
 
