@@ -5,6 +5,12 @@
 * Introduction
 - tyrosine is a non-essential amino acid derived from diet and hydroxylation of phenylalanine
 - a precursor of DOPA, thyroxine and melanin
+
+#+BEGIN_EXPORT LaTeX
+\chemnameinit{}
+\chemname{\chemfig{HO-[0]*6(-=-(-[1]-[7](<[6]NH_2)-[1](=[2]O)-[7]OH)=-=-)}}{\small tyrosine}
+#+END_EXPORT
+
 - glucogenic and ketogenic \to catabolism in liver cytosol \to fumarate and acetoacetate
 - tyrosine \to 4-hydroxyphenylpyruvate by cytosolic tyrosine aminotransferase
   - also in liver and other tissues by mitochondrial aspartate aminotransferase
@@ -26,12 +32,12 @@
 [[file:./figures/Slide04.png]]
 
 - five inherited disorders of tyrosine metabolism are known:
-  1) Tyrosinemia type I is characterised by progressive
+  1) Tyrosinemia Type I is characterised by progressive
      liver disease and renal tubular dysfunction with rickets
-  2) Tyrosinemia type II presents with keratitis and
+  2) Tyrosinemia Type II presents with keratitis and
      blistering lesions of the palms and soles and neurological
      complications
-  3) Tyrosinemia type III may be asymptomatic or associated with
+  3) Tyrosinemia Type III may be asymptomatic or associated with
      mental retardation
   4) Hawkinsinuria may be asymptomatic or present with failure to
      thrive and metabolic acidosis in infancy
@@ -68,8 +74,8 @@
     paralysis
 
 ** Metabolic Derangement
-- deficiency of the enzyme fumarylacetoacetate hydrolase (FAH)
-\ce{fumarylacetoacetate ->[FAH] fumarate + acetoacetate}
+- deficiency of the enzyme *fumarylacetoacetate hydrolase (FAH)*
+  \ce{fumarylacetoacetate ->[FAH] fumarate + acetoacetate}
 - mainly expressed in the liver and kidney
 - compounds immediately upstream from the FAH reaction,
   maleylacetoacetate (MAA) and fumarylacetoacetate (FAA), and their
@@ -131,11 +137,11 @@
 - usually presents in infancy but can be any age
 
 ** Metabolic Derangement
-- hepatic cytosolic tyrosine aminotransferase
-\ce{tyrosine ->[TAT] 4-hydroxyphenylpyruvate}
+- *hepatic cytosolic tyrosine aminotransferase*
+  \ce{tyrosine ->[TAT] 4-hydroxyphenylpyruvate}
   - \uparrow tyrosine in CSF and serum
 - \uparrow phenolic acids 4-hydroxyphenylpyruvate,
-  4-hydroxyphenyllactate and 4-hydroxyphenylacetate
+  4-hydroxyphenyllactate and 4-hydroxyphenylacetate via AST (Figure [[fig:tyr]])
 
 ** Genetics
 - AR, TAT
@@ -180,7 +186,7 @@
 - significant cardiac disease and urolithiasis may be detected in later years
 ** Metabolic Derangement
 - first identified IEM in 1902 by Garrod
-- homogentisate dioxygenase expressed mainly in the liver and the
+- *homogentisate dioxygenase* expressed mainly in the liver and the
   kidneys
 \ce{homogentisate ->[HGD] maleylacetoacetate}
 - accumulation of homogentisate and its oxidised derivative
@@ -211,7 +217,7 @@
   - 4-hydroxycycloxylacetate
 - thought to derive from in-complete conversion of
   4-hydroxyphenylpyruvate to homogentisate caused by a defect in
-  4-hydroxyphenylpyruvate dioxygenase
+  *4-hydroxyphenylpyruvate dioxygenase*
 \ce{4-hydroxyphenylpyruvate ->[HPD] homogentisate}
 - hawkinsin is product of a reaction of an epoxide intermediate with
   glutathione, which may be depleted

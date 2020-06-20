@@ -5,10 +5,20 @@
 * Introduction
 - the three essential BCAAs: leucine, isoleucine and valine are
   initially catabolised by a common pathway
+
+#+BEGIN_EXPORT LaTeX
+\chemnameinit{}
+\chemname{\chemfig{-[7](-[6])-[1]-[7](<[6]NH_2)-[1](=[2]O)-[7]OH}}{\small leucine}
+\chemnameinit{}
+\chemname{\chemfig{-[7]-[1](-[2])-[7](<[6]NH_2)-[1](=[2]O)-[7]OH}}{\small isoleucine}
+\chemnameinit{}
+\chemname{\chemfig{-[1](-[2])-[7](<[6]NH_2)-[1](=[2]O)-[7]OH}}{\small valine}
+#+END_EXPORT
+
 - the first reaction, occurs primarily in muscle
-  - reversible transamination to 2-oxo- (or keto) acids
+  - reversible transamination to keto-acids [fn:keto]
   - followed by oxidative decarboxylation to coenzyme A (CoA)
-    derivatives by branched-chain oxo- (or keto) acid dehydrogenase
+    derivatives by branched-chain keto-acid dehydrogenase
     (BCKD)
 - BCAA degradation pathways then diverge
 - Leu \to acetoacetate and acetyl-CoA \to TCA cycle
@@ -18,15 +28,11 @@
 - Met, FFA w odd number of carbons, cholesterol side chains, gut
   bacteria \to propionyl-CoA
 
-#+CAPTION[]:BCAA catabolism
-#+NAME: fig:bcaa
-#+ATTR_LaTeX: :width 1\textwidth
-[[file:./figures/bcaa.png]]
-
+[fn:keto] keto is equivalent to 2-oxo
 
 #+CAPTION[]:BCAA catabolism
 #+NAME: fig:bcaa
-#+ATTR_LaTeX: :width 1\textwidth
+#+ATTR_LaTeX: :width 1.1\textwidth
 [[file:./figures/Slide02.png]]
 
 - branched-chain organic acidurias result from an abnormality of
@@ -82,9 +88,15 @@
 
 ** Metabolic Derangement
 *** MSUD
-- branched-chain \alpha-ketoacid dehydrogenase (BCKD) deficiency
+- *branched-chain \alpha-ketoacid dehydrogenase (BCKD)* deficiency
   - E1 or E2 \to MSUD
   - E3 \to dihydrolipamide dehydrogenase deficiency
+
+\ce{keto-isovalerate ->[BCKD] isobutyryl-CoA}
+
+\ce{keto-3-methylvalerate ->[BCKD] 2-methylbutyryl-CoA}
+
+\ce{keto-3-isocaproate ->[BCKD] isovaleryl-CoA}
 
 - marked increases in the branched-chain 2-ketoacids in plasma, urine
   and CSF
@@ -97,20 +109,25 @@
 - leucine and 2-ketoisocaproic acid appear to be the most neurotoxic
 
 *** IVA
-- deficiency of isovaleryl-CoA dehydrogenase (IVD)
+- deficiency of *isovaleryl-CoA dehydrogenase (IVD)*
+
+\ce{isovaleryl-CoA ->[IVD] 3-methylcrotonyl-CoA}
+
   - intramitochondrial flavoenzyme which transfers electrons to ETF
 - accumulation of derivatives of isovaleryl-CoA including:
   - free isovaleric increased in both plasma and urine
   - 3-hydroxyisovaleric acid 
   - N-isovalerylglycine
     - major derivative of isovaleryl-CoA
-  - C5 (isovalerylcarnitine)
+  - C5-carnitine (isovalerylcarnitine)
 
 *** PA
-- deficiency of the mitochondrial enzyme propionyl-CoA carboxylase (PCC)
+- deficiency of the mitochondrial enzyme *propionyl-CoA carboxylase (PCC)*
   - one of the five biotin-dependent enzymes
+\ce{propionyl-CoA ->[PCC] methymalonyl-CoA}
 - \uparrow free propionic acid in blood and urine
-- \uparrow derivatives propionylcarnitine, 3-hydroxypropionate and methylcitrate
+- \uparrow derivatives propionylcarnitine (C3-carnitine),
+  3-hydroxypropionate and methylcitrate
   - MCA arises by condensation of propionyl-CoA with oxaloacetate
   - catalysed by citrate synthase
 - during ketotic episodes, 3-HIVA is formed by condensation of
@@ -121,10 +138,12 @@
     3-hydroxybutyrate and propionylglycine, can also be found
 
 *** MMA
-- deficiency of methylmalonyl-CoA mutase (MCM)
-  - B_12 dependent-enzyme
-  - disorders that affect adenosylcobalamin formation cause variant
+- deficiency of *methylmalonyl-CoA mutase (MCM)*
+  - adenosylcobalamin (B_12) dependent-enzyme
+  - disorders that affect AboCbl formation cause variant
     forms of MMA
+\ce{methylmalonyl-CoA ->[MCM + AdoCbl] succinyl-CoA}
+
 - \uparrow methylmalonyl-CoA results in \uparrow methylmalonic acid
   in urine and blood
 - secondary inhibition of PCC \to \uparrow PA and PA derivatives
@@ -132,30 +151,30 @@
 *** Secondary Effects of Elevated Propionyl-CoA
 - \uparrow propionylcarnitine \to carnitine deficiency
 - \uparrow synthesis of odd numbered LCFAs
-- enzyme inhibition \to
-  - \downarrow glucose
-  - \uparrow lactate
-  - \uparrow ammonia
-    \uparrow glycine
+- enzyme inhibition by PA leads to:
+  - \downarrow glucose - \uparrow insulin 
+  - \uparrow lactate - pyruvate dehydrogenase
+  - \uparrow ammonia - N-acetylglutamate synthase
+  - \uparrow glycine - glycine cleavage system
 
 ** Genetics
-- MSUD :: AR, E1\alpha, E1\beta and E2
-- IVA :: AR, IVD
-- PA :: AR, PCCB
-- MMA :: AR, MUT or cobalamin system (Table [[tab:mma]])
-  - mut^-(\downarrow activity), mut^0 (zero activity)
+- MSUD :: AR E1\alpha, E1\beta and E2
+- IVA :: AR IVD
+- PA :: AR PCCB
+- MMA :: AR MUT or cobalamin system (Table [[tab:mma]])
+  - mut^{-}(\downarrow activity), mut^0 (zero activity)
 
 #+CAPTION[]:Isolated Methylmalonic Acidemia Genes
 #+NAME: tab:mma
-| Gene[fn:1] | Protein                     |
-|------------+-----------------------------|
-| MMUT       | Methylmalonyl-CoA mutase    |
-| MCEE       | Methylmalonyl-CoA epimerase |
-| MMAA       | cblA                        |
-| MMAB       | cblB                        |
-| MMADHC     | cblD                        |
+| Gene            | Protein                     |
+|-----------------+-----------------------------|
+| MMUT            | Methylmalonyl-CoA mutase    |
+| MCEE            | Methylmalonyl-CoA epimerase |
+| MMAA            | cblA                        |
+| MMAB            | cblB                        |
+| MMADHC[fn:cblc] | cblD                        |
 
-[fn:1] deficiency of cblC (MMACHC) causes both MMA and homocysteinemia so not "isolated"
+[fn:cblc] deficiency of cblC (MMACHC) causes both MMA and homocysteinemia so not "isolated"
 
 ** Diagnostic Tests
 *** MSUD
@@ -166,7 +185,8 @@
 - urine organic acids:
   - \uparrow 2-OH-isovaleric
   - \uparrow 2-oxoisocaproic
-
+- FIA-MS used in NBS
+  - leu, ile and hydroxyproline coelute
 *** IVA 
 - urine organic acids:
   - \Uparrow 3-OH-isovaleric
@@ -203,10 +223,13 @@
 ** Clinical Presentation
 - highly variable: neonatal neurological onset with death \to lack of symptoms
 ** Metabolic Derangement
-- 3-methylcrotonyl-CoA carboxylase (3-MCC) deficiency
+- *3-methylcrotonyl-CoA carboxylase (MCC)* deficiency
   - involved in leucine catabolism
   - biotin dependant
-- 3-MCC is a heteromeric enzyme consisting of
+
+\ce{3-methycrotonyl-CoA ->[MCC] 3-methylglutaconyl-CoA}
+
+- MCC is a heteromeric enzyme consisting of
   \alpha-(biotin-containing) and \beta-subunits
 - \uparrow 3-methylcrotonyl-CoA \to 3-methylcrotonylglycine and
   3-methylcrotonic acid
@@ -228,10 +251,11 @@
 
 * 3-Methylglutaconic Aciduria
 - defective leucine catabolism
-- primary 3-methylglutaconic aciduria caused by 3-methylglutaconyl-CoA
-  hydratase deficiency (AUH mutations) is very rare
+- primary 3-methylglutaconic aciduria caused by *3-methylglutaconyl-CoA*
+  *hydratase* deficiency (AUH mutations) is very rare
   - \uparrow urine 3-methylglutaconic and 3-methylglutaric acids
   - \uparrow urine 3-OH-isovaleric differentiates from secondary causes
+\ce{3-methylglutaconyl-CoA ->[MGCH] 3-OH-3-methylglutaryl-CoA}
 - secondary 3-MGC acidurias are a relatively common finding in a
   number of metabolic disorders, particularly mitochondrial disease
   - phospholipid remodelling

@@ -12,8 +12,8 @@
 ** Clinical Presentation
 - rare non-disease
 - incidental finding due to positive urine reducing substances 
-- deficiency in fructokinase
 ** Metabolic Derangement
+- deficiency in *fructokinase*
 - 10-20% of ingested fructose is excreted in urine
 - remainder is slowly metabolised in adipose tissue and muscle
 ** Genetics
@@ -46,7 +46,7 @@
   life span
 
 ** Metabolic Derangement
-- HFI is caused by aldolase B deficiency
+- HFI is caused by *aldolase B* deficiency
   - second enzyme of the fructose pathway
   - splits fructose-1-phosphate (F-1-P) into dihydroxyacetone phosphate (DHA-P) and glyceraldehyde (GAH)
 - high activity of fructokinase after intake of fructose results in
@@ -57,7 +57,7 @@
      - induces a rapid drop in blood glucose
   2. overutilization and diminished regeneration of ATP
      - depletion of ATP results in an increased production of uric acid
-     - a release of magnesium
+     - release of magnesium
      - impaired protein synthesis and ultrastructural lesions \to
        hepatic and renal dysfunction
 - glycolysis and gluconeogenesis are not impaired in the fasted state
@@ -90,12 +90,12 @@
   - severe hyperventilation
     - lactic acidosis
     - hypoglycaemia
-- later irritability, apnoeic spells, tachycardia, muscle hypotonia
+- later irritability, apnoeic spells, tachycardia, muscle hypotonia, hepatomegaly 
 - chronic ingestion of fructose does not lead to gastrointestinal symptoms
   - no aversion to sweet foods or failure to thrive, and only rarely \downarrow liver function
 
 ** Metabolic Derangement
-- deficiency of hepatic FBPase, key enzyme in gluconeogenesis
+- deficiency of *hepatic FBPase* a key enzyme in gluconeogenesis
   - impairs the formation of glucose from all gluconeogenic precursors including dietary fructose
 - normoglycaemia in patients is dependent on glucose and galactose
   intake and degradation of hepatic glycogen
@@ -107,9 +107,9 @@
 ** Diagnosis
 - plasma during acute episodes
   - \Uparrow lactate
+    - \therefore hyperalaninaemia
   - \downarrow pH
   - \Uparrow lactate/pyruvate ratio
-  - hyperalaninaemia
   - \uparrow glycerol which may mimic hypertriglyceridaemia
     - glycerol based trigs assays
   - glucagon-resistant hypoglycaemia

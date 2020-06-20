@@ -5,28 +5,31 @@
 
 * Introduction
 - phenylalanine is an essential aromatic amino acid
+
+
+#+BEGIN_EXPORT LaTeX
+\chemnameinit{}
+\chemname{\chemfig{*6(-=-(-[1]-[7](<[6]NH_2)-[1](=[2]O)-[7]OH)=-=-)}}{\small phenyalanine}
+#+END_EXPORT
+
 - mainly metabolised in the liver by the PHE hydroxylase (PAH) system
 - first step in the irreversible catabolism of phenylalanine is hydroxylation to
   tyrosine by PAH
 - PAH requires the active pterin, tetrahydrobiopterin (BH_4)
+  - BH_4 is formed in three steps from GTP
   - forms a Fe(II)-O-O-BH_4 bridge during the hydroxylation reaction
-
-
-- BH_4 is formed in three steps from GTP
-  - also an obligate co-factor for tyrosine hydroxylase and tryptophan hydroxylase
+  - also an obligate co-factor for tyrosine hydroxylase and tryptophan
+    hydroxylase, alkylglycerol monooxygenase (AGMO) and nitric oxide
+    synthase
     - \therefore required for production of dopamine, catecholamines,
       melanin and serotonin
-  - alkylglycerol monooxygenase (AGMO) and nitric oxide synthase
 
-- defects in PAH and those involving production or recycling of BH_4
-  are associated with hyperphenylalaninaemia (HPA)
 - defects in PAH or production or recycling of BH_4 may result in:
   - hyperphenylalaninaemia (HPA)
   - deficiency of Tyr, L-dopa, dopamine, melanin, catecholamines and 5-hydroxytryptophan (5HT)
 - when hydroxylation to tyrosine is impeded excess phenylalanine is converted to phenylketones
   - phenylalanine can be transaminated to phenylpyruvate which is reduced to
     phenyllactate or decarboxylated to phenylacetate
-
 
 #+CAPTION[]:Phenylalaninemia classification
 #+NAME: fig:
@@ -55,7 +58,7 @@
 [[file:./figures/Slide21.png]]
 
 * Phenylalanine Hydroxylase Deficiency
-** Clinical Presentataion
+** Clinical Presentation
 - natural history of PKU is for affected individuals to suffer
   progressive, irreversible neurological impairment during infancy and
   childhood
@@ -71,6 +74,7 @@
 - clinical phenotype correlates with phenylalanine blood levels
   - reflects the degree of PAH deficiency
 ** Metabolic Derangement
+- *phenylalanine hydroxylase* deficiency
 - pathogenesis of brain damage in PKU is not fully understood
   - causally related to the \uparrow blood phenylalanine
 - tyrosine becomes a semi-essential amino acid
@@ -117,8 +121,11 @@
 - sapropterin dihydrochloride (Kuvan), a synthetic formulation of the
   active 6R-isomer of BH_4 is approved in Europe and the USA for the
   treatment of responsive[fn:2] patients with HPA and PKU, of all
-  ages [fn:2]defined as reduction of \ge30% in blood phenylalanine
-  after a single dose
+  ages 
+
+
+[fn:2] defined as reduction of \ge30% in blood phenylalanine after a
+single dose
 *** Alternative/Experimental
 - liver transplantation
 - phenylalanine ammonia lyase (PAL)
@@ -146,7 +153,7 @@
 - monitoring expecting mothers 2x weekly
 
 * HPA and Disorders of Biopterin Metabolism
-- disorders of BH_4 associated with HPA and biogenic amine deficiency (Figure [[fig:bh4]])
+- disorders of BH_4 metabolism associated with HPA and biogenic amine deficiency (Figure [[fig:bh4]])
   - GTP cyclohydrolase I (GTPCH)
   - 6-pyruvoyl-tetrahydropterin synthase (PTPS)
   - dihydropteridine reductase (DHPR)

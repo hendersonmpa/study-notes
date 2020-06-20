@@ -3,9 +3,24 @@
 #+DATE: \today
 
 * Introduction
+
+#+BEGIN_EXPORT LaTeX
+
+\chemnameinit{}
+\chemname{\chemfig{H_3C-[1]S-[7]-[1]-[7](<[6]NH_2)-[1](=[2]O)-[7]OH}}{\small methionine}
+\chemnameinit{}
+\chemname{\chemfig{HS-[7]-[1]-[7](<[6]NH_2)-[1](=[2]O)-[7]OH}}{\small homocysteine}
+#+END_EXPORT
+
+
+#+CAPTION[]: Cysteine vs Cystine
+#+NAME: fig:cys
+#+ATTR_LaTeX: :width 0.4\textwidth
+[[file:./figures/cys.jpg]]
+
 - methionine is converted by two methionine adenosyltransferases (MAT
   I/III and MATII) to S-adenosylmethionine (SAM)
-- methyl group of SAM is used in numerous methylation reactions,
+- the methyl group of SAM is used in numerous methylation reactions,
   yielding S-adenosylhomocysteine (SAH)
 - excess SAM is removed from the cycle by glycine N-methyltransferas (GNMT)
 - SAH is cleaved by S-adenosylhomocysteine hydrolase (SAHH) to
@@ -68,10 +83,6 @@
 - only molybdenum cofactor deficiency type A can be treated
   successfully, with a synthetic cofactor
 
-#+CAPTION[]: Cysteine vs Cystine
-#+NAME: fig:cys
-#+ATTR_LaTeX: :width 0.4\textwidth
-[[file:./figures/cys.jpg]]
 
 #+CAPTION[]:Sulfur Amino Acid Metabolism
 #+NAME: fig:sulfur

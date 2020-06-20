@@ -20,34 +20,34 @@
  #+CAPTION[glucose transporters]:Glucose Transporters
  #+NAME: tab:glut
  #+ATTR_LaTeX: :width 1.0\textwidth
- [[file:./glucose_transport/figures/glut.png]]
+ [[file:./figures/glut.png]]
 
 #+CAPTION[GLUTS]:GLUTS
 #+NAME: tab:glut
-| Transporter | Distribution          | Comments                               |
-|-------------+-----------------------+----------------------------------------|
-| GLUT1       | erythrocyte           | barrier cells                          |
-|             | brain barrier         | \uparrow affinity transporter          |
-|             | retina barrier        |                                        |
-|             | placenta barrier      |                                        |
-|             | testis barrier        |                                        |
-|-------------+-----------------------+----------------------------------------|
-| GLUT2       | Liver                 | \uparrow capacity, \downarrow affinity |
-|             | Kidney                | may be glucose sensor                  |
-|             | Pancreatic \beta-cell | in pancreas                            |
-|             | intestine             |                                        |
-|-------------+-----------------------+----------------------------------------|
-| GLUT3       | Neurons               | \uparrow affinity  transporter in CNS  |
-|-------------+-----------------------+----------------------------------------|
-| GLUT4       | Adipose               | insulin sensitive transport            |
-|             | Skeletal muscle       | \uparrow insulin \to \uparrow number  |
-|             | Heart muscle          | \uparrow affinity                      |
-|-------------+-----------------------+----------------------------------------|
-| GLUT5       | Intestinal epithelium | fructose transport                     |
-|             | spermatozoa           |                                        |
+| Transporter | Distribution            | Comments                               |
+|-------------+-------------------------+----------------------------------------|
+| GLUT1       | erythrocyte             | barrier cells                          |
+|             | *brain barrier*         | \uparrow affinity transporter          |
+|             | retina barrier          |                                        |
+|             | placenta barrier        |                                        |
+|             | testis barrier          |                                        |
+|-------------+-------------------------+----------------------------------------|
+| GLUT2       | liver                   | \uparrow capacity, \downarrow affinity |
+|             | kidney                  | may be glucose sensor                  |
+|             | *pancreatic \beta-cell* | in pancreas                            |
+|             | intestine               |                                        |
+|-------------+-------------------------+----------------------------------------|
+| GLUT3       | neurons                 | \uparrow affinity transporter in CNS   |
+|-------------+-------------------------+----------------------------------------|
+| GLUT4       | adipose                 | insulin sensitive transport            |
+|             | skeletal muscle         | \uparrow insulin \to \uparrow number   |
+|             | heart muscle            | \uparrow affinity                      |
+|-------------+-------------------------+----------------------------------------|
+| GLUT5       | intestinal epithelium   | fructose transport                     |
+|             | spermatozoa             |                                        |
 
 * Congenital Glucose/Galactose Malabsorption
-- SGLT1 deficiency
+- *SGLT1* deficiency
 - SGLT1 is a high-affinity, low-capacity sodium-dependent transporter
   of the two monosaccharides, at the brush border of enterocytes
 - SGLT1 deficiency \to intestinal glucose-galactose malabsorption
@@ -59,7 +59,7 @@
 - treatment is a glucose and galactose free diet
 
 * Renal Glucosuria
-- SGLT2 deficiency
+- *SGLT2* deficiency
 - SGLT2 is the major co-transporter involved in glucose reabsorption in
   the kidney
 - SGLT2 deficiency results in isolated renal glucosuria
@@ -69,7 +69,7 @@
     - absence of any other signs of renal tubular dysfunction
 
 * GLUT1 Deficiency
-- GLUT1 is a membrane-spanning, glycosylated protein that facilitates
+- *GLUT1* is a membrane-spanning, glycosylated protein that facilitates
   glucose transport across the blood-brain barrier
   - low CSF glucose concentration (hypoglycorrhachia)
 - clinical symptoms include: microcephaly, epileptic encephalopathies,
@@ -83,7 +83,7 @@
 - ketogenic diet is used in treatment
 
 * Fanconi-Bickel Syndrome 
-- GLUT2 deficiency
+- *GLUT2* deficiency
 - GLUT2 is a high K_M monosaccharide carrier 
   - located in hepatocytes
   - basolateral membrane of cells in the proximal tubule
@@ -103,7 +103,7 @@
 - only symptomatic treatment is available
 
 * Arterial Tortuosity Syndrome
-- GLUT10 deficiency
+- *GLUT10* deficiency
 - GLUT10 function not entirely clear:
   - localizes to mitochondria of smooth muscle and insulin-stimulated adipocytes
   - facilitates transport of dehydroascorbic acid (DHA) the

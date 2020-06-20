@@ -7,17 +7,17 @@
 #+CAPTION[]: Monosaccharides: A) pentoses B) hexoses
 #+NAME: fig:ms
 #+ATTR_LaTeX: :width 1\textwidth
-[[file:./carbohydrate_metabolism/figures/monosaccharides.jpg]]
+[[file:./figures/monosaccharides.jpg]]
 
 #+CAPTION[]:Disaccharides
 #+NAME: fig:ds
 #+ATTR_LaTeX: :width .5\textwidth
-[[file:./carbohydrate_metabolism/figures/disacchardes.png]]
+[[file:./figures/disacchardes.png]]
 
 #+CAPTION[]:Carbohydrate metabolism
 #+NAME: fig:cho
 #+ATTR_LaTeX: :width 1\textwidth
-[[file:./carbohydrate_metabolism/figures/Slide09.png]]
+[[file:./figures/Slide09.png]]
 
 * COMMENT Regulation
 ** Major Hormones of Metabolic Homeostasis

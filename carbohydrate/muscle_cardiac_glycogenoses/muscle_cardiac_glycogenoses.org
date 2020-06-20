@@ -15,26 +15,28 @@
 
 #+CAPTION[]:Muscle and Cardiac Glycogenoses
 #+NAME: tab:mnc
-| Type        | Enzyme                        | Phenotype                             | Gene   |
-|-------------+-------------------------------+---------------------------------------+--------|
-| 0           | muscle glycogen synthase      | cardiomyopathy & myopathy             | GYS1   |
-| II (Pompe)  | acid \alpha-glucosidase       | hypotonia, muscle dysfunction         | GAA    |
-| III         | glycogen debrancher           | hypoglycema, hepatomegaly             | AGL    |
-| V (McArdle) | muscle glycogen phosphorylase | exercise intolerance                  | PYGM   |
-| Danon       | LAMP2                         | cardiomyopathy, \pm skeletal myopathy | LAMP2  |
-| AMPK        | AMP-activated protein kinase  | cardiomyopathy, \pm skeletal myopathy | PRKAG2 |
+| Type        | Enzyme                        | Phenotype                             | Gene          |
+|-------------+-------------------------------+---------------------------------------+---------------|
+| 0           | muscle glycogen synthase      | cardiomyopathy & myopathy             | GYS1          |
+| II (Pompe)  | acid \alpha-glucosidase       | hypotonia, muscle dysfunction         | GAA           |
+| III         | glycogen debrancher           | hypoglycema, hepatomegaly             | AGL [fn:agl2] |
+| V (McArdle) | muscle glycogen phosphorylase | exercise intolerance                  | PYGM          |
+| Danon       | LAMP2                         | cardiomyopathy, \pm skeletal myopathy | LAMP2         |
+| AMPK        | AMP-activated protein kinase  | cardiomyopathy, \pm skeletal myopathy | PRKAG2        |
+
+[fn:agl2] hepatic and myopathic
 
 #+CAPTION[Muscle and Cardiac Glycogenoses]:Muscle and Cardiac Glycogenoses
 #+NAME: fig:mcglyc
 #+ATTR_LaTeX: :width 1\textwidth
-[[file:./muscle_cardiac_glycogenoses/figures/gggmetab_muscle_cardiac.png]]
+[[file:./figures/gggmetab_muscle_cardiac.png]]
 
 * GSD Type 0
 ** Clinical Presentation
 - muscle fatigue
 - hypertrophic cardiomyopathy
 ** Metabolic Derangement
-- deficiency in muscle glycogen synthase
+- deficiency in *muscle glycogen synthase*
   - ubiquitously expressed
 ** Genetics
 - AR GYS1 encodes muscle isoform of GS
@@ -43,7 +45,7 @@
 ** Treatment 
 - \beta_1-receptor blockage for cardiac protection
 * GSD Type II 
-- AKA:Pompe Disease
+- AKA Pompe Disease
 ** Clinical Presentation
 *** Infantile
 - first months of life with hypotonia and hypertrophic cardiomyopathy
@@ -65,11 +67,13 @@
   - acute respiratory failure may be the initial symptom in some patients
 - the heart is generally not affected
 ** Metabolic Derangement
-- acid \alpha-glucosidase deficiency
-- accumulation of glycogen within the lysosomes
+- *acid \alpha-glucosidase* deficiency
+- breaks down glycogen in lysosomes
+  - \therefore accumulation of glycogen within lysosomes
 - different critical thresholds depending on the organ
 ** Genetics
-- AR AGL
+- AR GAA
+
 ** Diagnostic Tests
 - characteristic urine oligosaccharide pattern
 - acid \alpha-glucosidase enzyme assay
@@ -82,12 +86,13 @@
 - recombinant acid \alpha-glucosidase (rhGAA)
   - CHO cells (alglucosidase alfa)
 - anti rhGAA IgG antibodies form
-  - CRIM -ve patients at high risk of immune response
-  - CRIM status used to predict response to treatment
+  - prior to treatment cross reacting immunological material (CRIM) is measured
+    - CRIM -ve patients at high risk of immune response
+    - CRIM status used to predict response to treatment
 - better outcome if identified by NBS
 
 * GSD Type V
-- AKA: McArdle Disease
+- AKA McArdle Disease
 ** Clinical Presentation
 - exercise intolerance with myalgia and stiffness in exercising muscles
   - relieved by rest
@@ -100,17 +105,19 @@
   UI/l during episodes of rhabdomyolysis
 - risk of acute renal failure
 ** Metabolic Derangement
-- GSD V is caused by deficiency in muscle glycogen phosphorylase
+- GSD V is caused by deficiency in *muscle glycogen phosphorylase*
 - catalyses the release and phosphorylation of terminal glucosyl units
   from glycogen forming glucose-1-phosphate
 - three isoforms of glycogen phosphorylase
   - brain/heart, liver and muscle - encoded by different genes
-- GSD V is caused by deficient myophosphorylase activity
+  - GSD V is caused by deficient muscle isoform
 
 ** Genetics
 - AR PYGM
 
 ** Diagnostic Tests
+- \uparrow urine myoglobin
+- \uparrow plasma CK and uric acid
 - ischaemic forearm exercise test was first used by McArdle to
   describe the absence of elevation of lactate during exercise
   - no longer used
@@ -127,9 +134,9 @@
   - ingestion of oral sucrose
 * LAMP 2 Deficiency 
 - AKA: Danon Disease
-- rare X-linked disorder
-- caused by a primary deficiency of lysosomal-associated membrane
-  protein 2 (LAMP2)
+- deficiency of *lysosomal-associated membrane protein 2 (LAMP 2)*
+  - required for lysosomal integrity, pH and catabolism
+- rare *X-linked* disorder
 - presents after 1st decade
   - cardiomyopathy all cases
   - mild skeletal myopathy and developmental delay ~70%
@@ -145,6 +152,7 @@
 - glycogen storage typically affects only the heart
 
 ** Metabolic Derangement
+- *AMP activated protein kinase* deficiency
 - AMPK is a heterotrimeric complex comprising:
   - a catalytic subunit (\alpha)
   - two regulatory subunits (\beta and \gamma)

@@ -27,13 +27,13 @@
  #+CAPTION[insulin]: Regulation of Insulin Secretion
  #+NAME: fig:insulin
  #+ATTR_LaTeX: :width 0.9\textwidth
- [[file:./insulin/figures/insulin.png]]
+ [[file:./figures/insulin.png]]
 
 
  #+CAPTION[insulin]: Regulation of Insulin Secretion
  #+NAME: fig:insulin2
  #+ATTR_LaTeX: :width 0.9\textwidth
- [[file:./insulin/figures/Slide11.png]]
+ [[file:./figures/Slide11.png]]
 
 
  - activation of insulin receptors results in:
@@ -103,13 +103,13 @@
       hypoglycaemia
       - potentially missed by a single sample because of pulsatile
         secretion of insulin
-   3. absent/low blood & urine ketones bodies and non-esterified fatty
-      acids (NEFA)
+   3. *absent/low blood & urine ketones bodies and non-esterified fatty*
+      *acids (NEFA)*
       - in some cases ketones bodies and NEFA are not totally
         suppressed
    4. \uparrow blood glucose \gt1.7 mmol/l within 30-40 min after
       SC/IM or IV administration of 1 mg glucagon
-   5. need for a high glucose infusion rate (GIR) to keep blood
+   5. need for a high glucose infusion rate to keep blood
       glucose above 3 mmol/l is characteristic of an insulin related
       hypoglycaemia
 

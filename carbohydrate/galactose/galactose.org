@@ -23,7 +23,7 @@
 #+CAPTION[]:Major reactions of galactose metabolism
 #+NAME: fig:galrxm
 #+ATTR_LaTeX: :width 1.0\textwidth
-[[file:./galactose/figures/galmet.png]]
+[[file:./figures/galmet.png]]
 
 - three inborn errors of galactose metabolism are known:
   1) GALT deficiency - classic galactosemia  
@@ -41,9 +41,8 @@
    - hepatocellular damage, lethargy, and hypotonia
  - may progress to gram negative sepsis
 
-
 ** Metabolic Derangement
- - deficient activity of galactose-1-phosphate uridylyltransferase (GALT)
+ - deficient activity of *galactose-1-phosphate uridylyltransferase (GALT)*
  - ubiquitous enzyme
  - \uparrow  galatactose
  - \uparrow gal-1-p - pathogenic
@@ -100,7 +99,7 @@
 - severe form is extremely rare
 
 ** Metabolic Derangement
-- uridine diphosphate galactose 4’-epimerase (GALE) deficiency
+- *uridine diphosphate galactose 4’-epimerase (GALE)* deficiency
   - GALE deficiency inhibits UDP-glucose regeneration
   - preventing the formation of glu-1-P
   - leading to the accumulation of galactose and gal-1-P
@@ -140,7 +139,7 @@
     disability, and hypercholesterolemia
 
 ** Metabolic Derangement
-- galactokinase (GALK) deficiency
+- *galactokinase (GALK)* deficiency
   - lack the ability to phosphorylate galactose
 - accumulate galactose and galactitol, but not Gal-1P
 - accumulate galactitol in the lens when consuming a high galactose diet

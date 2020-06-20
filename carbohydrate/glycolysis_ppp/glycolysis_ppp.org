@@ -6,7 +6,7 @@
 #+CAPTION[]:Glycolysis and PPP
 #+NAME: fig:glyc_ppp
 #+ATTR_LaTeX: :width 1\textwidth
-[[file:./glycolysis_ppp/figures/glyc_ppp_rot.png]]
+[[file:./figures/glyc_ppp_rot.png]]
 
 ** Glycolysis 
 - glycolysis is an oxygen-independent metabolic pathway
@@ -26,17 +26,14 @@
 ** Pentose Phosphate Pathway
 - two phases
 *** Oxidative Phase
+- produces NADPH
 - glucose 6-P \to NADPH + ribose 5-P
 - glucose 6-P dehydrogenase catalyses first step
-- NADPH is for reducing reactions
+- NADPH is a reducing agent
+  - oxidized in a reduction rxn
   - NADPH/NADP^{+} \gt\gt\gt NADH/NAD^{+}
   - NADH is rapidly converted to NAD^{+} in the ETC
-*** Non-Oxidative Phase
-- reversible rxns
-- convert glycolytic intermediates to 5 carbon sugars
-
-- ribose-5-P required for purine and pyrimidine synthesis
-- NADPH required for detoxification and synthetic reaction
+- NADPH is required for detoxification and synthetic reaction
   - detoxification
     - reduction of oxidized glutathione
     - cytochrome p450 monoxygenases
@@ -46,6 +43,13 @@
     - neurotransmitters
     - deoxynucleotide
     - superoxide
+*** Non-Oxidative Phase
+- produces ribose-5-P
+- reversible rxns
+- convert glycolytic intermediates to 5 carbon sugars
+
+- ribose-5-P required for purine and pyrimidine synthesis
+
 * Disorders
 ** Glycolysis Disorders
 - glycolysis is the most important source of energy in erythrocytes
@@ -84,7 +88,7 @@
 #+CAPTION[]:Pentose Phosphate Pathway
 #+NAME: fig:ppp
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./glycolysis_ppp/figures/Slide10.png]]
+[[file:./figures/Slide10.png]]
 
   - glucose-6-phosphate dehydrogenase deficiency :: an X-linked defect
        in the first irreversible step of the pathway
