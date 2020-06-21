@@ -26,12 +26,13 @@
   light subunit linked by a disulfide bridge
 
 ** Neutral  Amino Acids
-- transporter system for neutral amino acids is expressed only
-  at the luminal border of epithelial cells
+- alanine, asparagine, citrulline, glutamine, histidine, isoleucine,
+  leucine, phenylalanine, serine, threonine, tryptophan, tyrosine
+  and valine 
+- transporter system for neutral amino acids is expressed only at the
+  luminal border of epithelial cells
 - it transports neutral amino acids into epithelial cells
-  - alanine, asparagine, citrulline, glutamine, histidine, isoleucine,
-    leucine, phenylalanine, serine, threonine, tryptophan, tyrosine
-    and valine 
+
 ** Dicarboxylic Amino Acids
 - dicarboxylic amino acids (aspartate, glutamate) have a specific
   transporter EAAT3, located at the luminal border
@@ -165,8 +166,8 @@
 
 ** Metabolic Derangement
 - defective sodium-dependent and chloride-independent neutral amino
-  acid transporter, B(0)AT1 in the apical brush border membrane of
-  renal proximal tubule and intestinal epithelium
+  acid transporter, B^{0}AT1 facing into the lumen of the renal proximal
+  tubule and intestinal epithelium
 - impair intestinal uptake and tubular reabsorption of all the neutral
   amino acids
   - alanine, serine, threonine,valine, leucine, isoleucine,

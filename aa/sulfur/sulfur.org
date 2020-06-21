@@ -26,12 +26,12 @@
 - SAH is cleaved by S-adenosylhomocysteine hydrolase (SAHH) to
   homocysteine and adenosine, which is phosphorylated by adenosine
   kinase (ADK)
-- homocysteine has two metabolic pathways:
-  1. remethylated back to methionine by the remethylation pathway or
+- homocysteine has two metabolic pathways (Figure [[fig:sulfur2]]):
+  1. remethylated back to methionine by the *remethylation pathway* or
      using betaine as a methyl-group donor, in patients treated with
      this drug
   2. irreversibly metabolized to sulfate
-     by the transsulfuration pathway
+     by the *transsulfuration pathway*
      - homocysteine and serine are condensed by cystathionine
        \beta-synthase (CBS) to cystathionine
      - cystathionine is cleaved by cystathionine \gamma-lyase (CTH) to
@@ -64,11 +64,6 @@
 
 - CBS deficiency (AKA classical homocystinuria) is the most common
   disease in this group
-  - severity varies from
-    - multisystemic childhood condition with lens dislocation,
-      osteoporosis, marfanoid features, central nervous system and
-      vascular complications
-    - isolated thromboembolic disease in adults.
 - CTH deficiency appears to be a biochemical trait with no major
   clinical sequelae
 - disorders of cysteine and hydrogen sulfide oxidation pathway include:
@@ -131,8 +126,11 @@
 - AKA: Homocystinuria
 ** Clinical Presentation
 - wide spectrum of severity and age at presentation
-- some asymptomatic into adulthood
-- others have severe multisystem disease
+- severity varies from
+  - multisystemic childhood condition with lens dislocation,
+    osteoporosis, marfanoid features, central nervous system and
+    vascular complications
+  - isolated thromboembolic disease in adults
 - clinical features predominantly involve four organ systems:
   - eye :: lens dislocation
   - skeleton :: excessive growth - Marfanoid but stiff
@@ -194,7 +192,7 @@
        adenylation of molybdopterin and insertion of molybdenum to
        form the cofactor
 - molybdenum cofactor is needed for:
-  - sulfite oxidase
+  - sulfite oxidase, final step in transsulfuration pathway
   - aldehyde oxidase
   - mitochondrial amidoxime reducing component (mARC)
   - xanthine dehydrogenase
@@ -213,11 +211,12 @@
 - \downarrow plasma urate concentration
   - initially normal but decreases after a few days and remains low
 - \uparrow urine xanthine
-- sulfite can be detected in fresh urine using dipsticks but false
+- sulfite (SO_3^{2-}) can be detected in fresh urine using dipsticks but false
   positive and negative results occur
 - \uparrow urine or blood S-sulfocysteine is a more reliable indicator
-- S-sulfocysteine accumulation \to inhibition of antiquitin
-  - secondary elevation of pipecolic acid
+\ce{SO3^{2-} + cystine -> S-sulfocysteine}
+  - S-sulfocysteine accumulation \to inhibition of antiquitin
+    - secondary elevation of pipecolic acid
 - \uparrow plasma taurine and thiosulfate
 - \downarrow plasma total cysteine and tHcy
 - diagnosis is confirmed by mutation analysis
@@ -238,15 +237,17 @@
   - partly due to the production of sulfocysteine, which
     mediates excitotoxicity
 - sulfite probably causes lens dislocation by disrupting cystine
-  cross-linkages in the suspensory ligament
-- \uparrow S-sulfocysteine due to inhibition of antiquitin
+  cross-linkages 
 ** Genetics
-- AR, SUOX
+- AR SUOX
 
 ** Diagnostic Tests
 - sulfite can be detected in fresh urine using dipsticks
   - not reliable
 - \uparrow urine or blood S-sulfocysteine
+\ce{SO3^{2-} + cystine -> S-sulfocysteine}
+  - S-sulfocysteine accumulation \to inhibition of antiquitin
+    - secondary elevation of pipecolic acid
 - \uparrow plasma taurine
 - \downarrow plasma total cysteine and tHcy
 - normal urate and xanthine
@@ -283,7 +284,7 @@
   - production of \ce{H2S} by gut bacteria causes the severe, persistent diarrhea
 
 ** Genetics
-- AR, ETHE1, rare
+- AR ETHE1 rare
 
 ** Diagnostic Tests
 - \uparrow lactate

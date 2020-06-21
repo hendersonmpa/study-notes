@@ -62,7 +62,7 @@
 - PC is a biotinylated mitochondrial matrix enzyme
   - carboxylation of pyruvate to oxaloacetate
 
-  \ce{pyruvate + ATP + CO2 ->[PC] oxaloacetate + ADP +Pi}
+  \ce{pyruvate + ATP + CO2 ->[PC] oxaloacetate + ADP + Pi}
 
 - important role in:
   - gluconeogenesis

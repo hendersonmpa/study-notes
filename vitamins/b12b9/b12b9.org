@@ -7,14 +7,13 @@
   water-soluble vitamin that is synthesised by lower organisms but not
   by higher plants and animals
 - only source of Cbl in the human diet is animal products
-- Cbl is needed for only two reactions
-  1. MeCbl it is a cofactor of the cytoplasmic enzyme methionine synthase (MTR)
-     - \ce{HCY + MeCbl + methyl-THF ->[MTR] MET + B_12 + THF}
-  2. AdoCbl is a cofactor of the mitochondrial enzyme methylmalonyl-coenzyme A mutase (MUT)
+- *Cbl is needed for only two reactions*
+  1. *MeCbl* is a cofactor of the cytoplasmic enzyme methionine synthase (MTR)
+     - \ce{HCY + methyl-THF ->[MTR + MeCbl] MET + THF}
+  2. *AdoCbl* is a cofactor of the mitochondrial enzyme methylmalonyl-coenzyme A mutase (MUT)
      - \ce{methylmalonyl-CoA ->[MUT + AdoCbl] succinyl-CoA}
 - Cbl metabolism involves complex absorption and transport systems and
   multiple intracellular conversions
-
 
 #+CAPTION[]:Cobalamin transport and metabolism
 #+NAME: fig:cbl
@@ -31,7 +30,7 @@
   - with the exception of transcobalamin (TC) deficiency
 - patients with disorders of intracellular Cbl metabolism typically
   have serum Cbl levels within the reference range
-  - levels may be reduced in the cblF and cblJ disorders
+  - levels may be reduced in the CblF and CblJ disorders
 - disorders of Cbl absorption, transport and MeCbl synthesis result in:
   - homocystinuria, hyperhomocysteinaemia
   - megaloblastic anaemia
@@ -80,9 +79,9 @@
   methylmalonyl-Coenzyme A (CoA) mutase or methionine synthase is
   reduced in patient fibroblasts
 - the one exception is the cblX disorder which cannot be
-  differentiated from cblC by complementation analysis
+  differentiated from CblC by complementation analysis
 ** Combined AdoCbl and MeCbl Deficiencies
-- /cblF, cblJ, cblC, cblX, CblD/
+- CblF, CblJ, CblC, CblX, CblD
   - F, J, D and X are very rare
 ** Cobalamin C
 *** Clinical Presentation
@@ -99,13 +98,13 @@
   - as late as 4th decade
 
 *** Metabolic Derangement
-- /cblC/ is caused by defects in MMACHC
-- MMACHC binds Cbl and catalyses removal of upper axial ligands from
-  alkylcobalamins including the methyl group from MeCbl and the
-  adenosyl group from AdoCbl and from CNCbl
+- CblC is caused by defects in MMACHC
+- before the branch point \therefore both MUT and MS activity affected
+  - \uparrow MMA
+  - \uparrow HCY
 
 *** Genetics
-- AR, MMACHC
+- AR MMACHC
 
 *** Diagnostic Tests
 - methylmalonic acidaemia and aciduria are the
@@ -125,30 +124,33 @@
 - betaine treatment \to \uparrow sarcosine (methlyglycine) in plasma amino acids
 
 ** Cobalamin X
-- /cblX/ is caused by mutations in HCFC1
-- same phenotype as /cblC/
-  - encodes a transcription regulator that affects expression of a
-    number of genes, including MMACHC (/cblC/)
+- CblX is caused by mutations in HCFC1
+  - encodes a *transcription regulator* that affects expression of a
+    number of genes, including MMACHC (CblC)
+- same phenotype as CblC
 - metabolic consequences of mutations stem from decreased MMACHC
   expression leading to decreased synthesis of both AdoCbl and MeCbl
 
 ** Adenosylcobalamin Deficiency
-- /cblA and cblB/
-- characterised by methylmalonic aciduria (MMA)
+- CblA and CblB
+- deficient MUT activity
+  - characterized by methylmalonic aciduria (MMA)
 - often Cbl-responsive
 - phenotype resembles methylmalonyl-CoA mutase deficiency
 - treated with protein restriction and OHCbl
 
 ** Methylcobalamin Deficiency
-- /cblE and cblG/
+- CblE and CblG
+- deficient MS activity
 - megaloblastic anaemia and neurological disease
+
 * Folate
 - folic acid (pteroylglutamic acid) is plentiful in foods such as
   liver, leafy vegetables, legumes and some fruits
 - metabolism involves reduction to dihydrofolate (DHF) and
   tetrahydrofolate (THF)
   - followed by addition of a single-carbon unit, which is provided by
-    serine or histidine; this carbon unit occurs in various redox
+    serine or histidine this carbon unit occurs in various redox
     states
     - methyl, methylene, methenyl or formyl
 - transfer of this single-carbon unit is essential for the endogenous
@@ -171,10 +173,11 @@
 [[file:./b12b9/figures/folate.png]]
 
 ** Methylenetetrahydrofolate Reductase Deficiency
-- severe form of this deficiency not the polymorphisms associated
-  common disease risk
-  - neural tube defects
-  - cardiovascular disease
+- disambiguation
+  - severe form of this deficiency
+  - not the polymorphisms associated \uparrow risk of common disease
+    - \uparrow neural tube defects in maternal hyperhomocysteinaemia
+    - \uparrow cardiovascular disease in 3rd or 4th decade of life
 *** Clinical Presentation
 - most diagnosed in infancy
 - \gt 50% present in the 1st year of life
@@ -183,13 +186,15 @@
 - not associated with megaloblastic anaemia
 
 *** Metabolic Derangement
-- \downarrow methyl-THF 
+- *methylenetetrahydrofolate reductase* deficiency
+\ce{5,10-methylene-THF ->[MTHFR] 5-methyl-THF}
+- \downarrow 5-methyl-THF 
 - methyl-THF is the methyl donor for the conversion of homocysteine
   \to methionine by methionine synthase
   - \uparrow total plasma homocysteine
   - \downarrow methionine
-- the block in the conversion of methylene-THF to methyl-THF does not
-  result in the trapping of folates as methyl-THF
+- the block in the conversion of 5,10-methylene-THF to 5-methyl-THF does not
+  result in the trapping of folates as 5-methyl-THF
   - \therefore does not \downarrow reduced folates for purine and
     pyrimidine synthesis
   - contrast to disorders at the level of methionine synthase
@@ -199,7 +204,7 @@
 - AR, MTHFR
 
 *** Diagnostic Tests
-- methyl-THF is the major circulating form of folate
+- 5-methyl-THF is the major circulating form of folate
   - \therefore serum folate levels may sometimes be low
 - \Uparrow plasma homocysteine
 - \downarrow plasma methionine

@@ -31,17 +31,6 @@
   - phenylalanine can be transaminated to phenylpyruvate which is reduced to
     phenyllactate or decarboxylated to phenylacetate
 
-#+CAPTION[]:Phenylalaninemia classification
-#+NAME: fig:
-| Class           | Phe (\micro{}mol/l) | PAH activity |
-|-----------------+---------------------+--------------|
-| Classic         | \ge 1200            | \lt1%        |
-| HPA             | 600-1200            | 1-5%         |
-| MHP [fn:2]      | 120-600             | \gt5%        |
-| BH_4 responsive | \ge 30% decrease    |              |
-
-[fn:2] mild hyperphenylalaninaemia
-
 #+CAPTION[]:Phenylalanine Hydroxylation
 #+NAME: fig:pah
 #+ATTR_LaTeX: :width 0.9\textwidth
@@ -56,6 +45,18 @@
 #+NAME: fig:bh4
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/Slide21.png]]
+
+
+#+CAPTION[]:Phenylalaninemia classification
+#+NAME: fig:
+| Class           | Phe (\micro{}mol/l) | PAH activity |
+|-----------------+---------------------+--------------|
+| Classic         | \ge 1200            | \lt1%        |
+| HPA             | 600-1200            | 1-5%         |
+| MHP [fn:2]      | 120-600             | \gt5%        |
+| BH_4 responsive | \ge 30% decrease    |              |
+
+[fn:2] mild hyperphenylalaninaemia
 
 * Phenylalanine Hydroxylase Deficiency
 ** Clinical Presentation

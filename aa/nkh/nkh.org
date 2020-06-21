@@ -5,30 +5,35 @@
 * Introduction
 - Non-Ketotic Hyperglycinemia (NKH) is a genetic disorder characterized
   by deficient activity of the glycine cleavage enzyme
+
+#+BEGIN_EXPORT LaTeX
+\chemnameinit{}
+\chemname{\chemfig{H_2N-[7]-[1](=[2]O)-[7]OH}}{\small glycine}
+#+END_EXPORT
+
 - classic NKH is caused by mutations in genes that encode the protein
   components of the glycine cleavage enzyme system (GCS)
-  - based on the clinical severity and developmental outcome, classic
+  - based on the clinical severity and developmental outcome classic
     NKH is further divided into:
     - severe classic NKH
     - attenuated classic NKH
 - variant NKH has an overlapping phenotype w classic NKH
-  - lipoic acid biosynthesis defects
-    - fits into the larger group of the lipoate synthesis
-      disorders
-  - PNPO deficiency
-- lipoate is a cofactor for:
-  - GCS
-  - pyruvate dehydrogenase (PDH)
-  - 2-ketoglutarate dehydrogenase (KDH)
-  - branched chain ketoacid dehydrogenase (BCKDH)
-- lipoate disorders are also called multiple mitochondrial dysfunction
-  syndromes
-- pyridox(am)ine 5-phosphate oxidase deficiency \to reduced activity
-  of a large number of pyridoxal-P-dependent reactions including the
-  GCS
-- phenocopies of NKH, historically called transient NKH, are
-  non-genetic secondary causes of elevated plasma and CSF glycine
-  levels
+  - variant NKH is caused by: 
+    1. lipoic acid biosynthesis defects
+       - fits into the larger group of the lipoate synthesis
+	 disorders
+       - lipoate is a cofactor for:
+	 - GCS
+	 - pyruvate dehydrogenase (PDH)
+	 - 2-ketoglutarate dehydrogenase (KDH)
+	 - branched chain ketoacid dehydrogenase (BCKDH)
+       - lipoate disorders are also called multiple mitochondrial dysfunction
+	 syndromes
+    2. pyridox(am)ine 5-phosphate oxidase deficiency
+       - leads to reduced activity of a large number of
+         pyridoxal-P-dependent reactions including the GCS
+- phenocopies of NKH historically called transient NKH are non-genetic
+  secondary causes of elevated plasma and CSF glycine levels
 - atypical NKH is a heterogeneous historic term, which should no
   longer be used
 
@@ -60,7 +65,7 @@
 - lipoate deficiency combines the clinical findings of severe NKH with
   mitochondriopathies, such as leukoencephalopathy, optical atrophy,
   cardiomyopathy, and sometimes episodes of severe lactic acidosis
-- PNPO deficiency may also resembles classic NKH but with a much more
+- PNPO deficiency may also resemble classic NKH but with a much more
   complex metabolic profile that includes a mildly elevated CSF
   glycine
   - symptoms are partly responsive to pyridoxal-P

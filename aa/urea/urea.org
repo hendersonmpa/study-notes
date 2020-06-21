@@ -9,17 +9,17 @@
 \chemnameinit{}
 \chemname{\chemfig{H_2N-[::30,,2,](=[::60]O)-PO_4^{-}}}{\small CPS}
 \chemnameinit{}
-\chemname{\chemfig{H_2N-[::30,,2,]-[::-60]-[::60]-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]OH}}{\small ornithine}
+\chemname{\chemfig{H_2N-[::30,,2,]-[::-60]-[::60]-[::-60](<[::-60]NH_2)-[::60](=[::60]O)-[::-60]OH}}{\small ornithine}
 #+END_EXPORT
 
 #+BEGIN_EXPORT LaTeX
 \chemnameinit{}
-\chemname{\chemfig{H_2N-[::30,,2,](=[::60]O)-[::-60]\chembelow{N}{H}-[::60]-[::-60]-[::60]-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]OH}}{\small citrulline}
+\chemname{\chemfig{H_2N-[::30,,2,](=[::60]O)-[::-60]\chembelow{N}{H}-[::60]-[::-60]-[::60]-[::-60](<[::-60]NH_2)-[::60](=[::60]O)-[::-60]OH}}{\small citrulline}
 #+END_EXPORT
 
 #+BEGIN_EXPORT LaTeX
 \chemnameinit{}
-\chemname{\chemfig{H_2N-[::30,,2,](=[::60]NH_2)-[::-60]\chembelow{N}{H}-[::60]-[::-60]-[::60]-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]OH}}{\small arginine}
+\chemname{\chemfig{H_2N-[::30,,2,](=[::60]NH)-[::-60]\chembelow{N}{H}-[::60]-[::-60]-[::60]-[::-60](<[::-60]NH_2)-[::60](=[::60]O)-[::-60]OH}}{\small arginine}
 \chemnameinit{}
 \chemname{\chemfig{H_2N-[1](=[2]O)-[7]NH_2}}{\small urea}
 #+END_EXPORT

@@ -11,12 +11,13 @@
 - THTR2 is the major transporter in the upper small intestine where
   dietary thiamine is absorbed at the luminal surface
 - THTR1 predominates at the basal surface
-- active cofactor of thiamine, TPP, is formed in the cytoplasm by the
-  enzyme thiamine pyrophosphokinase
+- cofactor thiamine pyrophospate (TPP) is formed in the cytoplasm by
+  the enzyme thiamine pyrophosphokinase
+  - mitochondrial TPP transporter (MTPPT) in the inner mitochondrial membrane
+    delivers the cofactor to the \alpha-ketoacid dehydrogenases in the
+    mitochondrial matrix
 - TPP cofactor is attached directly to the transketolase and 2-hydroxyacyl CoA lyase apoproteins
-- a TPP transporter (MTPPT) in the inner mitochondrial membrane
-  delivers the cofactor to the \alpha-ketoacid dehydrogenases in the
-  mitochondrial matrix
+
 
 #+CAPTION[]:Thiamine Transport 
 #+NAME: fig:thiamine
@@ -26,12 +27,13 @@
 ** Defective Transport
 - THTR1 or 2 deficiency
 ** TPP biosynthesis 
-- Thiamine pyrophosphokinase (TPK1) deficiency
+- *Thiamine Pyrophosphokinase (TPK1)* deficiency
 - \uparrow blood and CSF lactate
 - \uparrow urine \alpha-ketoglutarate
 - \downarrow TPP
 ** Mitochondrial transport 
-- mitochondrial TPP transporter deficiency - amish lethal microcephaly
+- *mitochondrial TPP transporter (MTTPT)* deficiency - amish lethal
+  microcephaly
 - \uparrow urine \alpha-ketoglutarate
 ** Binding to apo-enzyme
 - PDHC and KGDH
@@ -55,7 +57,7 @@
     elucidated
 - within cells vitamers are rephosphorylated by kinases and further oxidised to the
   active cofactor pyridoxal 5’-phosphate (PLP) by pyridox(am)ine
-  5’-phosphate oxidase(PNPO)
+  5’-phosphate oxidase (PNPO)
 - liver seems to be the most important organ of PLP formation
   - PNPO is expressed in various cell types including neurons
 - PLP is one of the most abundant cofactors and participates in over
@@ -92,13 +94,13 @@
   1. IEMs affecting the pathways of B_6 vitamer metabolism
      - PNPO and alkaline phosphatase defects
   2. IEMs that lead to accumulation of small molecules that
-     react with PLP and inactivate it
-     - hyperprolinemia type II
+     react with PLP and sequester it
+     - P5CDH deficiency (hyperprolinemia type II)
      - antiquitin deficiency (pyridoxine dependent epilepsy)
   3. IEMs affecting specific PLP dependent enzymes
-     - X-linked sideroblastic anemia
-     - classical homocystinuria
-     - gyrate atrophy of the choroid
+     - ALAS deficiency (X-linked sideroblastic anemia)
+     - CBS deficiency (classical homocystinuria)
+     - OAT deficiency (gyrate atrophy of the choroid retina)
   4. drugs that affect the metabolism of B_6 vitamers or react with PLP
      - D-penicillamine and isozianid
   5. coeliac disease (malabsorption) or renal dialysis (loss)
@@ -115,20 +117,20 @@
 - presents in neonates with myoclonic and tonic seizures or
   status epilepticus
 - onset up to 3 years observed
-- antiquitin (ALDH7A1) encodes for \alpha-aminoadipic semialdehyde dehydrogenase
-  - involved in lysine degradation
+- antiquitin (ALDH7A1) encodes for *\alpha-aminoadipic semialdehyde dehydrogenase*
+  - involved in lysine degradation (Figure [[fig:lysine]])
+\ce{AASA ->[antiquitin] AAA}
   - deficiency results in \uparrow \alpha-aminoadipic acid semialdehyde (AASA)
-    - AASA is in equilibrium with piperideine-6-carboxylate (PC6)
+    - AASA is in equilibrium with piperideine-6-carboxylate (P6C)
     - PC6 inactivates PLP
-- simultaneous determination of S-sulfocysteine is crucial to exclude
-  molybdenum cofactor and sulfite oxidase deficiency causing secondary
-  inhibition of antiquitin
+- *simultaneous determination of S-sulfocysteine is crucial to exclude*
+  *molybdenum cofactor and sulfite oxidase deficiency causing secondary*
+  *inhibition of antiquitin*
   - \uparrow S-sulfocysteine inhibits antiquitin
 - most common form of pyridoxine dependent epilepsy (PDE)
 - \uparrow urine AASA (\alpha-aminoadipic acid)
 - \uparrow urine P6C (piperideine-6-carboxylate)
-- \uparrow urine P5C (pyroline-5-carboxylate)
-- pipecolic acid in plasma, the first described biomarker of PDE, is
+- \uparrow pipecolic acid in plasma, the first described biomarker of PDE, is
   less specific as it can also be found in peroxisomal disease and has
   been found normal in older patients while on pyridoxine
 - treat with pyridoxine
@@ -139,15 +141,11 @@
 [[file:./b1b6/figures/lysine_deg.png]]
 
 ** Hyperprolinemia Type II
-- attenuated phenotype
-- ~ 50% present with seizures
-- \uparrow inactivating compound P5C due to deficiency of pyrroline-5-carboxylate dehydrogenase
-- \Uparrow plasma proline
-- \uparrow urine P5C
-- treated with pyridoxine
+- see Ornithine and Proline
 
 ** PNPO deficiency
 - AKA: pyridoxal phosphate responsive seizures
+  - does not respond to pyridoxine 
 - clinically indistinguishable from antiquitin deficiency
 - severe (systemic) PLP deficiency and impaired function of PLP
   dependent enzymes
@@ -159,7 +157,7 @@
 ** Congenital Hypophosphatasia
 - severe form \to neonatal seizures
 - osteomalacia
-- Tissue Non-Specific Alkaline Phosphatase (TNSAP) deficiency
+- *tissue non-specific alkaline phosphatase (TNSAP)* deficiency
   - impaired dephosphorylation of PLP for cellular uptake
 - \Downarrow plasma alkaline phosphatase
 - \uparrow serum calcium
@@ -174,9 +172,10 @@
 - presents first \lte 2 years when lower-extremity bowing becomes
   evident with the onset of weight bearing
   - sometimes not until adulthood
+- *phosphate-regulating endopeptidase* deficiency
 - \uparrow serum calcium
 - \downarrow serum phosphate
 - \uparrow 1,25 hydroxy-vitamin D
 - \Uparrow plasma alkaline phosphatase in children
-- XLD PHEX, phosphate-regulating endopeptidase
+- XLD PHEX
 
