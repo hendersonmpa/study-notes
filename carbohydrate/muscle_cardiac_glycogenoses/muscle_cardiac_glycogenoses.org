@@ -13,6 +13,11 @@
   hypoglycaemia
 - clinical phenotypes are extremely heterogeneous
 
+#+CAPTION[Muscle and Cardiac Glycogenoses]:Muscle and Cardiac Glycogenoses
+#+NAME: fig:mcglyc
+#+ATTR_LaTeX: :width 1\textwidth
+[[file:./figures/gggmetab_muscle_cardiac.png]]
+
 #+CAPTION[]:Muscle and Cardiac Glycogenoses
 #+NAME: tab:mnc
 | Type        | Enzyme                        | Phenotype                             | Gene          |
@@ -25,11 +30,6 @@
 | AMPK        | AMP-activated protein kinase  | cardiomyopathy, \pm skeletal myopathy | PRKAG2        |
 
 [fn:agl2] hepatic and myopathic
-
-#+CAPTION[Muscle and Cardiac Glycogenoses]:Muscle and Cardiac Glycogenoses
-#+NAME: fig:mcglyc
-#+ATTR_LaTeX: :width 1\textwidth
-[[file:./figures/gggmetab_muscle_cardiac.png]]
 
 * GSD Type 0
 ** Clinical Presentation

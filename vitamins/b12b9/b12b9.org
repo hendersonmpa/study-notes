@@ -18,12 +18,12 @@
 #+CAPTION[]:Cobalamin transport and metabolism
 #+NAME: fig:cbl
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./b12b9/figures/cbl.png]]
+[[file:./figures/cbl.png]]
 
 #+CAPTION[]:Cobalamin absorption, transport and metabolism
 #+NAME: fig:cbl
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./b12b9/figures/Slide24.png]]
+[[file:./figures/Slide24.png]]
 
 - serum Cbl level is usually low in patients with disorders affecting
   absorption and transport of Cbl
@@ -170,7 +170,7 @@
 #+CAPTION[]:Folate Metabolism:1 methionine synthase; 2 methylenetetrahydrofolate reductase; 3 methylenetetrahydrofolate dehydrogenase; 4 methenyltetrahydrofolate cyclohydrolase: 5 formyltetrahydrofolate synthetase; 6 dihydrofolate reductase; 7 glutamate formiminotransferase; 8 formiminotetrahydrofolate cyclodeaminase 
 #+NAME: fig:folate
 #+ATTR_LaTeX: :width 1.0\textwidth
-[[file:./b12b9/figures/folate.png]]
+[[file:./figures/folate.png]]
 
 ** Methylenetetrahydrofolate Reductase Deficiency
 - disambiguation

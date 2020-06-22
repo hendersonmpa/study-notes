@@ -22,7 +22,7 @@
 #+CAPTION[]:Thiamine Transport 
 #+NAME: fig:thiamine
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./b1b6/figures/thiamine.png]]
+[[file:./figures/thiamine.png]]
 
 ** Defective Transport
 - THTR1 or 2 deficiency
@@ -82,12 +82,12 @@
 #+CAPTION[]:Pyridoxine metabolism
 #+NAME: fig:pyr
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./b1b6/figures/pyridoxine.png]]
+[[file:./figures/pyridoxine.png]]
 
 #+CAPTION[]:Pyridoxine metabolism
 #+NAME: fig:pyr2
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./b1b6/figures/Slide26.png]]
+[[file:./figures/Slide26.png]]
 
 - several mechanisms that lead to an increased requirement for
   pyridoxine and/or PLP:
@@ -123,7 +123,7 @@
   - deficiency results in \uparrow \alpha-aminoadipic acid semialdehyde (AASA)
     - AASA is in equilibrium with piperideine-6-carboxylate (P6C)
     - PC6 inactivates PLP
-- *simultaneous determination of S-sulfocysteine is crucial to exclude*
+- *simpultaneous determination of S-sulfocysteine is crucial to exclude*
   *molybdenum cofactor and sulfite oxidase deficiency causing secondary*
   *inhibition of antiquitin*
   - \uparrow S-sulfocysteine inhibits antiquitin
@@ -138,7 +138,7 @@
 #+CAPTION[]:Lysine degradation and antiquitin deficiency (blue bar)
 #+NAME: fig:lysine
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./b1b6/figures/lysine_deg.png]]
+[[file:./figures/lysine_deg.png]]
 
 ** Hyperprolinemia Type II
 - see Ornithine and Proline

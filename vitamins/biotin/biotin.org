@@ -11,13 +11,13 @@
   1) acetyl-CoA carboxylase (ACC)
   \ce{acetyl-CoA ->[ACC] malonyl-CoA} 
   2) propionyl-CoA carboxylase (PCC)
-  \ce{propionyl-CoA ->[PCC] 
+  \ce{propionyl-CoA ->[PCC] methlymalonyl-CoA}
   3) 3-methylcrotonyl carboxylase (MCC)
   \ce{3-methycrotonyl-CoA ->[MCC] 3-methylglutaconyl-CoA}
   4) pyruvate carboxylase (PC)
   \ce{pyruvate + ATP + CO2 ->[PC] oxaloacetate + ADP + Pi}
   5) urea carboxylase (UC)
-  \ce{ATP + urea + HCO3- ->[UC] ADP + Pi + urea-1-carboxylate
+  \ce{ATP + urea + HCO3- ->[UC] ADP + Pi + urea-1-carboxylate}
 
 - covalent binding of biotin to the inactive apocarboxylases
   catalysed by holocarboxylase synthetase (HCS) is required to
@@ -34,17 +34,17 @@
 #+CAPTION[]:Biotin Dependent Carboxylases
 #+NAME: fig:carb
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./biotin/figures/carboxylases.png]]
+[[file:./figures/carboxylases.png]]
 
 #+CAPTION[]:Biotin Cycle
 #+NAME: fig:biotin
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./biotin/figures/biotin.png]]
+[[file:./figures/biotin.png]]
 
 #+CAPTION[]:Biotin Cycle
 #+NAME: fig:biotin2
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./biotin/figures/Slide25.png]]
+[[file:./figures/Slide25.png]]
 
 * Biotin-responsive disorders
 - two inherited defects affecting the coenzyme function of biotin:
@@ -156,7 +156,7 @@
 #+CAPTION[Kinetics]:Holocarboxylase Synthetase Kinetics
 #+NAME: fig:kinetics
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./biotin/figures/kinetics.png]]
+[[file:./figures/kinetics.png]]
 
 *** Biotinidase Deficiency
  - biotin cannot be released from biocytin and short biotinyl

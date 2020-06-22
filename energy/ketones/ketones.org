@@ -121,11 +121,12 @@
 - urine organic acids
   - \uparrow 3-hydroxy-3-methylglutaric
   - \uparrow 3-hydroxyisovaleric
-  - \uparrow 3-methyl-glutaconic
+  - \uparrow 3-methylglutaconic
   - \uparrow 3-methylglutaric 
-  - 3-methyl-crotonylglycine may also be present
+  - 3-methylcrotonylglycine may also be present
 - plasma acylcarnitines
   - \uparrow C5OH-carnitine (3-hydroxyisovalerylcarnitine) 
+  - \uparrow C6DC-carnitine (3-methylglutarylcarnitine) 
 - diagnosis is confirmed by mutation analysis or measuring HMG-CoA
   lyase activity in leukocytes or cultured fibroblasts
 
@@ -140,7 +141,6 @@
 
 *** HMG-CoA Synthase Deficiency
 - HMG-CoA synthase deficiency has a good prognosis
-
 
 * Ketolysis Defects
 - ketone body utilisation is catalysed by:

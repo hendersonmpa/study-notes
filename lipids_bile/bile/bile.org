@@ -3,66 +3,32 @@
 #+DATE: \today
 
 * Introduction
-
 - bile acids are biological detergents synthesised from cholesterol
   in the liver by modifications of the sterol nucleus and oxidation of
   the side chain
+- the first reaction (7\alpha-hydroxylation) is rate limiting
+  - some steps involve peroxisomal \beta-oxidation
+- the two main bile acids cholic and chenodeoxycholic
+  - are activated to CoA esters
+  - conjugated with either glycine or taurine to form bile salts
+  - excreted in bile
+- bile acids are essential for lipid resorption in the gut
+  - regulate hepatic cholesterol synthesis via inhibition of HMG-CoA reductase
 - synthesis can occur by a number of pathways
   - adults starts with conversion of cholesterol to 7\alpha-hydroxycholesterol
   - infants other pathways are more important
     - one starts with the conversion of cholesterol to 27-hydroxycholesterol
-- two IEMs affect the modifications of cholesterol nucleus in both pathways:
-  1. 3\beta-hydroxy-\Delta^5-C_{27}-steroid dehydrogenase (3\beta-dehydrogenase) deficiency
-  2. \Delta4-3-oxosteroid 5\beta-reductase (5\beta-reductase) deficiency
-- these disorders \to cholestatic liver disease and malabsorption of
-  fat and fat-soluble vitamins
-- onset of symptoms ~ 1st year of life
-- untreated, the liver disease can progress to cirrhosis and liver failure
-- treatment with chenodeoxycholic acid and cholic acid
-  - dramatic improvement in liver disease and malabsorption
-
-- two disorders affecting oxidation of the cholesterol side chain:
-  - sterol 27-hydroxylase deficiency (cerebrotendinous xanthomatosis [CTX])
-  - \alpha-methylacyl-CoA racemase deficiency
-- can present with neonatal cholestatic liver disease
-- commonly present later with neurological disease
-- chenodeoxycholic acid has been shown to halt or even reverse
-  neurological dysfunction in CTX
-- part of a growing list of defects that may present with transient
-  neonatal cholestatic jaundice followed by a late onset
-  neurodegenerative disorder
-- likely that the 27-hydroxycholesterol pathway is important in
-  fuelling bile flow in infancy and production and metabolism of
-  important oxysterols in the brain later in life
-- other inborn errors of bile acid synthesis include:
-  - two bile acid amidation defects
-    - cholestatic liver disease and fat-soluble vitamin malabsorption
-  - cholesterol 7\alpha-hydroxylase deficiency
-    - adults with hyperlipidaemia and gallstones
-- in disorders of peroxisome biogenesis and peroxisomal
-  \beta-oxidation, neurological disease usually predominates
-- a disorder affecting peroxisomal import of CoA esters of DHCA and
-  THCA produces predominantly liver disease
-- most of the known enzyme deficiencies of bile acid synthesis affect
-  both the 27-hydroxycholesterol and the 7\alpha-hydroxycholesterol pathways
-  - exceptions are cholesterol 7\alpha-hydroxylase deficiency and
-    oxysterol 7\alpha-hydroxylase deficiency
 - because of the broad specificity of many of the enzymes, the major
   metabolites are often not those immediately proximal to the block
-- 3\beta-hydroxy \Delta^5-C_{27}-steroid dehydrogenase deficiency the
-  major metabolite is not 7\alpha-hydroxycholesterol
-  - \to unsaturated bile acids with normal bile acid side chain but
-    persistence of the 3\beta, 7\alpha-dihydroxy-\Delta^5 structure of
-    the nucleus
 
 #+CAPTION[]:Major reactions the synthesis of bile acids from cholesterol
 #+NAME: fig:bile
 #+ATTR_LaTeX: :width 1.0\textwidth
-[[file:./bile/figures/bile_synth.png]]
+[[file:./figures/bile_synth.png]]
 
 * 3\beta-dehydrogenase deficiency
-** Clinical presentation
-- present with
+** Clinical Presentation
+- present in childhood with
   - neonatal conjugated hyperbilirubinaemia
   - rickets
   - hepatomegaly
@@ -88,20 +54,19 @@
   - 3\beta,7\alpha,12\alpha-trihydroxy-5-cholenoic acid
 - these unsaturated C_{24} bile acids are sulphated in the C3 position
   - a proportion is conjugated to glycine
-  - can be found in high concentrations in the urine
-- probable that the sulphated \Delta^5 bile acids cannot be secreted
-  into the bile canaliculi and fuel bile flow in the same way as
-  occurs with the normal bile acids
-  - probably inhibit bile acid-dependent bile flow
-- two possible ways this \to hepatocyte damage:
-  1) abnormal toxic metabolites 
-  2) failure of bile acid-dependent bile flow
+  - high concentrations in the urine
+- sulphated \Delta^5 bile acids cannot be secreted into the bile
+  canaliculi and fuel bile flow in the same way as occurs with the
+  normal bile acids
+  - inhibits bile acid-dependent bile flow \to hepatocyte damage:
+    1) abnormal toxic metabolites 
+    2) failure of bile acid-dependent bile flow
 
 ** Genetics
 - AR, HSD3B7
 
 ** Diagnostic Tests
-- characteristic plasma or urine bile acids with a
+- characteristic plasma or urine bile acids with
   - \Delta^5 double bond
   - 3\beta-hydroxyl/sulphate group
   - 7\alpha-hydroxyl group
@@ -117,8 +82,7 @@
   - 3\beta,7\alpha,12\alpha-trihydroxy-5-cholenoic acid (3-sulphate)
 
 *** Urine
-- negative ion FAB-MS or ESI-MS shows the characteristic ions of the
-  diagnostic
+- negative ion FAB-MS or ESI-MS shows diagnostic
   - unsaturated bile acids
   - sulphated \Delta^5 bile acids
   - glycine conjugates of sulphated \Delta^5 bile acids
@@ -155,7 +119,7 @@
 
 ** Metabolic Derangement
 - sterol 27-hydroxylase deficiency (Figure [[fig:bile]], enzyme 4)
-- mitochondrial catalyses first step inside-chain oxidation
+- mitochondrial enzyme catalyses first step inside-chain oxidation
   - required to convert a C27 sterol into a C24 bile acid
 - 5\beta-cholestane-3\alpha,7\alpha,12\alpha-triol cannot be hydroxylated in the C_{27}
   position and accumulates in the liver
@@ -182,6 +146,7 @@
 
 ** Treatment and Prognosis
 - chenodeoxycholic acid
+- statins
 * \alpha-Methylacyl-CoA racemase deficiency
 
 ** Clinical Presentation
@@ -200,8 +165,8 @@
   - 25R isomer of 3\alpha,7\alpha,12\alpha-trihydroxycholestanoyl-CoA [(25R)-THC-CoA]
 - \alpha-oxidation of dietary phytanic acid produces (some):
   - (2R)-pristanoyl-CoA
-- these need to be converted to the S-isomers by AMACR before they can
-  undergo peroxisomal \beta-oxidation 
+- these must be converted to their S-isomers by AMACR before they can
+  undergo peroxisomal \beta-oxidation
 
 ** Genetics
 - AR, AMACR

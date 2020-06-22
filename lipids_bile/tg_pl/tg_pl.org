@@ -6,8 +6,29 @@
 * Introduction
 - acylglycerols and phospholipids (PL) play a myriad of organ-specific
   roles in cell structure, biochemistry and signalling
-- inborn errors of glycerolipid metabolism cause a correspondingly
-  vast array of clinical phenotypes
+- PLs form the bilayer of cell membranes
+  - a phosphate group that constitutes a hydrophilic head, located on the surface of the bilayer
+  - a fatty acid chain that forms a hydrophobic tail, located inside
+- TGs are extremely hydrophobic, and form droplets
+  that are surrounded by a PL monolayer
+- the first steps of TG and of PL synthesis are the same
+- /de novo/ synthesis begins from glycerol-3-phosphate (G3P), which is
+  formed from glycerol or from dihydroxyacetone phosphate (DHAP)
+  - DHAP is an intermediate of both glycolysis and of gluconeogenesis
+- G3P is esterified twice:
+  1) glycerolphosphate acyltransferases (GPATs) to form lysophosphatidic acid (LPA)
+  2) acylglycerol acyltransferases (AGPATs) to form phosphatidic acid (PA)
+- PA can either be converted into
+  - an sn-1,2-diacylglycerol (DG) by phosphatidic acid phosphatases or
+  - CDP-diacylglycerol by phosphatidic acid cytidyltransferase (CDP-DAG synthase)
+- DG is an essential intermediate for synthesis of TGs and three major PLs:
+  1) phosphatidyl choline
+  2) phosphatidyl ethanolamine
+  3) phosphatidyl serine
+
+
+- inborn errors of glycerolipid metabolism cause a vast array of
+  clinical phenotypes
 - molecular analysis is currently the principal diagnostic
   technique
 - NGS \to discovery of several genetic defects of the biosynthesis and
@@ -29,32 +50,20 @@
 #+CAPTION[]:The common pathway, triglyceride synthesis and lipolysis
 #+NAME: fig:tg
 #+ATTR_LaTeX: :width 1.0\textwidth
-[[file:./tg_pl/figures/tg.png]]
+[[file:./figures/tg.png]]
 
+* TG biosynthesis and lipolysis 
 
-- PLs form the bilayer of cell membranes
-  - a phosphate group that constitutes a hydrophilic head, located on the surface of the bilayer
-  - a fatty acid chain that forms a hydrophobic tail, located inside
-- TGs are extremely hydrophobic, and form droplets
-  that are surrounded by a PL monolayer
-- the first steps of TG and of PL synthesis are the same
-- /de novo/ synthesis begins from glycerol-3-phosphate (G3P), which is
-  formed from glycerol or from dihydroxyacetone phosphate (DHAP)
-  - DHAP is an intermediate of both glycolysis and of gluconeogenesis
-- G3P is esterified twice:
-  1) glycerolphosphate acyltransferases (GPATs) to form lysophosphatidic acid (LPA)
-  2) acylglycerol acyltransferases (AGPATs) to form phosphatidic acid (PA)
-- PA can either be converted into
-  - an sn-1,2-diacylglycerol (DG) by phosphatidic acid phosphatases or
-  - CDP-diacylglycerol by phosphatidic acid cytidyltransferase (CDP-DAG synthase)
-- DG is an essential intermediate for synthesis of TGs and three major PLs:
-  1) phosphatidyl choline
-  2) phosphatidyl ethanolamine
-  3) phosphatidyl serine
+** lipin-1 deficiency 
+- recurrent childhood rhabdomyolysis with myoglobinuria
+- accounts for ~10% of patients with severe recurrent childhood
+  rhabdomyolysis
+  - occurring particularly between 2–6 years of age
+  - CK \gt 10,000 after excercise
+- phosphatidic acid phosphatases (PAPs, LPIN1-3) deficiences
+  - catalyse phosphate removal, the first dedicated step of TG
+    synthesis, creating a sn-1,2-diacylglycerol
 
-* TG biosynthesis and lipolysis
- - phosphatidic acid phosphatases (PAPs, LPIN1-3) catalyse phosphate
-   removal, the first dedicated step of TG synthesis, creating a sn-1,2-diacylglycerol
  - one of two diacylglycerol acyltransferases (DGATs) can catalyze TG synthesis
  - TGs accumulate between the leaflets of the ER lipid bilayer
  - budding of lipid droplets (LDs) requires seipin

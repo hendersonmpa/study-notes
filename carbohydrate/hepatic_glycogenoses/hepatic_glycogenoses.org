@@ -8,6 +8,12 @@
 - muscle glycogenoses are associated with skeletal and/or
   cardiomyopathy
 - clinical phenotypes are extremely heterogeneous
+
+#+CAPTION[]:Hepatic Glycogenoses
+#+NAME: fig:hglyc
+#+ATTR_LaTeX: :width 1\textwidth
+[[file:./figures/gggmetab_hepatic.png]]
+
 #+CAPTION[]:Hepatic Glycogenoses
 #+NAME: tab:hep
 | Type | Enzyme                          | Phenotype                                  | Gene         |
@@ -26,11 +32,6 @@
 | IXd  | phosphorylase kinase \alpha1    | myopathy                                   | PHKA1        |
 
 [fn:agl1] hepatic and myopathic
-
-#+CAPTION[]:Hepatic Glycogenoses
-#+NAME: fig:hglyc
-#+ATTR_LaTeX: :width 1\textwidth
-[[file:./figures/gggmetab_hepatic.png]]
 
 * GSD Type 0
 ** Clinical Presentation

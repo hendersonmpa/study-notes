@@ -10,7 +10,7 @@
 ** LDL
 - LDL contain ~45% cholesterol and they are the major carrier of
   cholesterol to peripheral tissues
-- LDL particles are heterogeneous:
+- LDL particles are heterogeneous
   - small dense LDL particles have been associated with increased risk
     for cardiovascular disease
   - \uparrow small dense LDL associated with male gender and diabetes in adults
@@ -22,7 +22,7 @@
 ** HDL
 - HDL are produced by the liver and the gastrointestinal tract, and
   peripheral catabolism of chylomicrons and VLDL particles
-- HDL particles are also heterogeneous:
+- HDL particles are also heterogeneous
   - HDL2 is associated with protection from atherosclerosis
   - HDL3 is a smaller particle
     - \uparrow in alcohol consumption, obesity, diabetes, cigarette
@@ -36,13 +36,13 @@
   protein bound to apoB via a single cysteine-mediated disulphide
   bond
 - plasma levels are regulated independently from LDL
-- risk of coronary heart disease is \Uparrowcreased if both LDL and
-  Lp(a) are elevated
-- the (a) protein is similar to plasminogen, may inhibit the
+- \uparrow risk of coronary heart disease if both LDL and Lp(a) are
+  elevated
+- Lp(a) protein is similar to plasminogen, may inhibit the
   thrombolytic activity of plasminogen \to \uparrow atherosclerosis
-- Inborn errors of lipoprotein metabolism are a group of genetic
+- inborn errors of lipoprotein metabolism are a group of genetic
   disorders exemplified by changes in plasma lipids due to defects in:
-  - the protein lipid-carriers (lipoproteins)
+  - protein lipid-carriers (lipoproteins)
   - lipoprotein receptors
   - enzymes responsible for the hydrolysis and clearance of
     lipoprotein-lipid complexes
@@ -62,7 +62,7 @@
   cornerstone of treatment of lipid disorders in children
 - lipid-lowering therapies are important
 
-- Five genetic disorders
+- five genetic disorders
   1) familial hypercholesterolaemia (FH) - LDL receptor
      - heterozygous and more severe homozygous forms
   2) familial ligand defective apo-B (FLDB)
@@ -74,12 +74,25 @@
 
 #+CAPTION[]:Selected disorders affecting low density lipoprotein metabolism
 #+NAME: tab:lip
-| Disorder                              | Int | Protein              | Profile      | Freq         |
-|---------------------------------------+-----+----------------------+--------------+--------------|
-| AD Familial hypercholesterolemia      | AD  | LDLR (het)           | \uparrow LDL | 1 in 250-500 |
-| AR Familial hypercholesterolemia      | AR  | LDLR (homo/comp het) | \uparrow LDL | 1 in 10^6    |
-| AD Familial hypercholesterolemia      | AD  | PCSK9                | \uparrow LDL |              |
-| Familial ligand defective apo-B, FLBD | AD  | Apo-B                | \uparrow LDL | 1 in 500     |
+| Disorder                         | Int      | Protein              | Profile      | Freq         |
+|----------------------------------+----------+----------------------+--------------+--------------|
+| AD familial hypercholesterolemia | AD       | LDLR (het)           | \uparrow LDL | 1 in 250-500 |
+| AR familial hypercholesterolemia | AR       | LDLR (homo/comp het) | \uparrow LDL | 1 in 10^6    |
+| AD familial hypercholesterolemia | AD       | PCSK9                | \uparrow LDL |              |
+| familial apo-B-100 deficiency    | A semi-D | Apo-B                | \uparrow LDL | 1 in 500     |
+
+** Apolipoprotein B 
+- *Apolipoprotein B* deficiency results in
+  - \downarrow LDL and triglycerides
+
+- familial abetalipoproteinemia
+  - fat malabsorption
+  - microsomal triglyceride transfer protein deficiency
+  - \downarrow production of apoB containing lipoproteins
+
+- familial hypobetalipoproteinemia
+  - milder form of abetalipoproteinemia
+  - apoB dysfunction
 
 * Triglyceride Metabolism
 - may present early in childhood with faltering growth,
@@ -90,23 +103,28 @@
   - TG as high as 250 mmol/L possible
   - \to pancreatitis and eruptive xanthomas
 - low fat diet (<10% fat)
-- Glybera - LPL gene therapy 
+- glybera - LPL gene therapy 
 
-** Familial Lipoprotein Lipase Deficiency - Type-I Hyperlipidaemia
-  - consanguinity 1 in 1 million (homozygous)
-  - founder effect in French Canadian population in Quebec
-    - carrier frequency 1 in 40
+** Familial Lipoprotein Lipase Deficiency 
+- Type-I Hyperlipidaemia
+- consanguinity 1 in 1 million (homozygous)
+- founder effect in French Canadian population in Quebec
+  - carrier frequency 1 in 40
 * HDL Metabolism
 - disorders of HDL are very rare
-- 3 AR inherited disorders described
-  1) Apolipoprotein A-1 Deficiency
+- Three AR inherited disorders described
+  1) *apolipoprotein A-1* deficiency
+     - \downarrow HDL early atherosclerosis
   2) Familial Hypoalphalipoproteinaemia (Tangier’s disease)
-  3) Lecithin:Cholesterol Acyltranferase (LCAT) Deficiency
-- \downarrow HDL and Apo A-I
+     - polyneuropathy, hepatosplenomegaly, CC, CAD
+  3) *lecithin:cholesterol acyltranferase (LCAT)* Deficiency
+     - neuropathy, CC
+- \downarrow HDL and apoAI
 - \uparrow cholesterol and triglycerides
 - premature atherosclerosis
+
 * Sterol Storage
-- Lysosomal Acid Lipase (LAL) Deficiency is a lysosomal storage
+- *lysosomal acid lipase (LAL)* Deficiency is a lysosomal storage
   disorder includes:
   - acute infantile onset form - Wolman disease
     - extreme faltering growth, malabsorption, hepatosplenomegaly,
@@ -118,6 +136,6 @@
 - accumulation of cholesteryl ester in the lysosomes is secondary to a
   deficiency of an esterase that is responsible for hydrolysis of
   esterified cholesterol in the normal lysosome
-- Sebelipase alfa (recombinant LAL) is licensed for Wolman disease and
+- sebelipase alfa (recombinant LAL) is licensed for Wolman disease and
   CESD
 

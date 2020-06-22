@@ -28,8 +28,6 @@
 - Met, FFA w odd number of carbons, cholesterol side chains, gut
   bacteria \to propionyl-CoA
 
-[fn:keto] keto is equivalent to 2-oxo
-
 #+CAPTION[]:BCAA catabolism
 #+NAME: fig:bcaa
 #+ATTR_LaTeX: :width 1.1\textwidth
@@ -38,6 +36,8 @@
 - branched-chain organic acidurias result from an abnormality of
   specific enzymes involving the catabolism of BCAAs
 - most common are MSUD, IVA, PA, and MMA
+
+[fn:keto] keto is equivalent to 2-oxo
 
 * MSUD, IVA, PA and MMA
 ** Clinical Presentation
