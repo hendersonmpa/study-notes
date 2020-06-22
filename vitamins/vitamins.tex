@@ -1,4 +1,4 @@
-% Created 2020-06-02 Tue 14:02
+% Created 2020-06-21 Sun 17:58
 % Intended LaTeX compiler: pdflatex
 \documentclass{scrartcl}
 \usepackage[utf8]{inputenc}
@@ -54,9 +54,9 @@
 
 
 \section{Biotin}
-\label{sec:orgbc96604}
+\label{sec:orgc4b5a56}
 \subsection{Introduction}
-\label{sec:orgf3c4cba}
+\label{sec:orgf80e1e3}
 \begin{itemize}
 \item biotin is a water-soluble vitamin widely present in small amounts in
 natural food-stuffs, in which it is mostly protein bound
@@ -65,13 +65,27 @@ gluconeogenesis, fatty acid synthesis and the catabolism of several
 amino acids
 \begin{enumerate}
 \item acetyl-CoA carboxylase (ACC)
+\end{enumerate}
+\ce{acetyl-CoA ->[ACC] malonyl-CoA} 
+\begin{enumerate}
 \item propionyl-CoA carboxylase (PCC)
+\end{enumerate}
+\ce\{propionyl-CoA ->[PCC] 
+\begin{enumerate}
 \item 3-methylcrotonyl carboxylase (MCC)
+\end{enumerate}
+\ce{3-methycrotonyl-CoA ->[MCC] 3-methylglutaconyl-CoA}
+\begin{enumerate}
 \item pyruvate carboxylase (PC)
+\end{enumerate}
+\ce{pyruvate + ATP + CO2 ->[PC] oxaloacetate + ADP + Pi}
+\begin{enumerate}
 \item urea carboxylase (UC)
 \end{enumerate}
-\item covalent binding of biotin to the inactive apocarboxylases,
-catalysed by holocarboxylase synthetase (HCS), is required to
+\ce\{ATP + urea + HCO3- ->[UC] ADP + Pi + urea-1-carboxylate
+
+\item covalent binding of biotin to the inactive apocarboxylases
+catalysed by holocarboxylase synthetase (HCS) is required to
 generate the active holocarboxylases
 \item recycling of biotin first involves proteolytic degradation of the
 holocarboxylases, yielding biotin bound to lysine (biocytin) or to
@@ -86,32 +100,37 @@ biotin-responsive basal ganglia disease
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{biotin/biotin/figures/carboxylases.png}
-\caption{\label{fig:orgf77e711}Biotin Dependent Carboxylases}
+\caption{\label{fig:org6fda13d}Biotin Dependent Carboxylases}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{biotin/biotin/figures/biotin.png}
-\caption{\label{fig:org68f8393}Biotin Cycle}
+\caption{\label{fig:orge05c874}Biotin Cycle}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{biotin/biotin/figures/Slide25.png}
-\caption{\label{fig:org0d957b1}Biotin Cycle}
+\caption{\label{fig:org5d57fce}Biotin Cycle}
 \end{figure}
 
 \subsection{Biotin-responsive disorders}
-\label{sec:org1435006}
+\label{sec:org89e1dba}
 \begin{itemize}
 \item two inherited defects affecting the coenzyme function of biotin:
 \begin{enumerate}
-\item holocarboxylase synthetase (HCS) deficiency
-\item biotinidase deficiency
+\item \textbf{holocarboxylase synthetase (HCS)} deficiency
+\begin{itemize}
+\item impaired binding of biotin to apocarboxylases
+\end{itemize}
+\item \textbf{biotinidase} deficiency
+\begin{itemize}
+\item biotin depletion
+\end{itemize}
 \end{enumerate}
-\item HCS deficiency \(\to\) impaired binding of biotin to apocarboxylases
-\item biotinidase deficiency \(\to\) biotin depletion
-\item both lead to multiple carboxylase deficiency (MCD) a deficiency of
+
+\item both result in multiple carboxylase deficiency (MCD) a deficiency of
 all biotin-dependent carboxylases:
 \begin{enumerate}
 \item acetyl-CoA carboxylase (ACC)
@@ -123,7 +142,7 @@ all biotin-dependent carboxylases:
 \end{itemize}
 
 \subsubsection{Clinical Presentation}
-\label{sec:orgf396fa9}
+\label{sec:org076508e}
 \begin{itemize}
 \item patients with HCS deficiency commonly present with typical MCD
 \begin{itemize}
@@ -146,19 +165,10 @@ distinguished from biotinidase deficiency
 \begin{itemize}
 \item excessive consumption of raw eggs - avidin
 \end{itemize}
-
-\item deficient activity of biotin-dependent carboxylases in both HCS and
-biotinidase deficiencies results in accumulation of:
-\begin{itemize}
-\item lactic acid
-\item derivatives of 3-methylcrotonyl-CoA
-\item derivatives of propionyl-CoA
 \end{itemize}
-\end{itemize}
-
 \begin{enumerate}
 \item HCS Deficiency
-\label{sec:org60f74f5}
+\label{sec:org843c508}
 \begin{itemize}
 \item age of onset varies widely from a few hours after birth to 8 years
 of age
@@ -171,7 +181,7 @@ similar to other severe organic acidurias
 \end{itemize}
 
 \item Biotinidase Deficiency
-\label{sec:org86284fa}
+\label{sec:orgc63d1cc}
 \begin{itemize}
 \item gradual development of symptoms and episodes of remission
 \begin{itemize}
@@ -197,10 +207,19 @@ elevated
 \end{enumerate}
 
 \subsubsection{Metabolic Derangement}
-\label{sec:org74738ad}
+\label{sec:org2acea76}
+\begin{itemize}
+\item deficient activity of biotin-dependent carboxylases in both HCS and
+biotinidase deficiencies results in accumulation of:
+\begin{itemize}
+\item lactic acid
+\item derivatives of 3-methylcrotonyl-CoA
+\item derivatives of propionyl-CoA
+\end{itemize}
+\end{itemize}
 \begin{enumerate}
 \item HCS Deficiency
-\label{sec:org5082a27}
+\label{sec:org9959405}
 \begin{itemize}
 \item decreased affinity of the enzyme for biotin and/or a decreased
 maximal velocity lead to reduced formation of the five
@@ -232,11 +251,11 @@ dose and residual biochemical and clinical abnormalities persist
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{biotin/biotin/figures/kinetics.png}
-\caption[Kinetics]{\label{fig:org83fbe04}Holocarboxylase Synthetase Kinetics}
+\caption[Kinetics]{\label{fig:orgcfa49a2}Holocarboxylase Synthetase Kinetics}
 \end{figure}
 
-\item Biotinidase deficiency
-\label{sec:org423adf7}
+\item Biotinidase Deficiency
+\label{sec:org0e0b325}
 \begin{itemize}
 \item biotin cannot be released from biocytin and short biotinyl
 peptides
@@ -248,14 +267,14 @@ peptides
 \end{enumerate}
 
 \subsubsection{Genetics}
-\label{sec:org8b6f815}
+\label{sec:org9f70e54}
 \begin{description}
 \item{HCS} AR , HLCS
 \item{Biotinidase} AR, BTD
 \end{description}
 
 \subsubsection{Diagnostic Tests}
-\label{sec:org70b27c6}
+\label{sec:orgaa37cd7}
 \begin{itemize}
 \item characteristic organic aciduria is the key feature of MCD
 \item unpleasant urine odour (cat’s urine) may even be suggestive of the
@@ -287,11 +306,7 @@ organic acids as follows:
 \end{itemize}
 \item above pattern seen in HCS during acute illness
 \item \textbf{NB} a similar organic acid profile can occur in patients with
-hyperammonemia due to carbonic anhydrase VA deficiency
-\end{itemize}
-
-
-\begin{itemize}
+hyperammonemia due to carbonic anhydrase VA deficiency (see section Urea Cycle)
 \item biotindase deficiency often only \(\uparrow\) urine 3-hydroxyisovalerate
 \item \(\downarrow\) biotinidase activity in serum
 \item confirm with molecular testing
@@ -299,7 +314,7 @@ hyperammonemia due to carbonic anhydrase VA deficiency
 
 \begin{enumerate}
 \item Biotinidase Activity
-\label{sec:orgf9b8a7b}
+\label{sec:org51505c6}
 \begin{itemize}
 \item most symptomatic children with biotinidase deficiency were found to
 have 3\% of mean serum biotinidase activity of normal individuals
@@ -311,7 +326,7 @@ have 3\% of mean serum biotinidase activity of normal individuals
 \end{enumerate}
 
 \subsubsection{Treatment and Prognosis}
-\label{sec:org66573e8}
+\label{sec:orgeca2748}
 \begin{itemize}
 \item oral pharmacological dose of biotin
 \item initiate treatment prior to irreversible neurological damage
@@ -322,21 +337,21 @@ have 3\% of mean serum biotinidase activity of normal individuals
 \end{itemize}
 
 \section{Cobalamin and Folate}
-\label{sec:orgbc5f696}
+\label{sec:orga31a8cd}
 \subsection{Cobalamin}
-\label{sec:org4d33fa3}
+\label{sec:orgcff8c23}
 \begin{itemize}
 \item cobalamin (Cbl or vitamin B\textsubscript{12}) is a cobalt-containing
 water-soluble vitamin that is synthesised by lower organisms but not
 by higher plants and animals
 \item only source of Cbl in the human diet is animal products
-\item Cbl is needed for only two reactions
+\item \textbf{Cbl is needed for only two reactions}
 \begin{enumerate}
-\item MeCbl it is a cofactor of the cytoplasmic enzyme methionine synthase (MTR)
+\item \textbf{MeCbl} is a cofactor of the cytoplasmic enzyme methionine synthase (MTR)
 \begin{itemize}
-\item \ce{HCY + MeCbl + methyl-THF ->[MTR] MET + B_12 + THF}
+\item \ce{HCY + methyl-THF ->[MTR + MeCbl] MET + THF}
 \end{itemize}
-\item AdoCbl is a cofactor of the mitochondrial enzyme methylmalonyl-coenzyme A mutase (MUT)
+\item \textbf{AdoCbl} is a cofactor of the mitochondrial enzyme methylmalonyl-coenzyme A mutase (MUT)
 \begin{itemize}
 \item \ce{methylmalonyl-CoA ->[MUT + AdoCbl] succinyl-CoA}
 \end{itemize}
@@ -345,17 +360,16 @@ by higher plants and animals
 multiple intracellular conversions
 \end{itemize}
 
-
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{b12b9/b12b9/figures/cbl.png}
-\caption{\label{fig:org33244aa}Cobalamin transport and metabolism}
+\caption{\label{fig:org4cae1bb}Cobalamin transport and metabolism}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{b12b9/b12b9/figures/Slide24.png}
-\caption{\label{fig:org8f5148f}Cobalamin absorption, transport and metabolism}
+\caption{\label{fig:orgbd8091b}Cobalamin absorption, transport and metabolism}
 \end{figure}
 
 \begin{itemize}
@@ -367,7 +381,7 @@ absorption and transport of Cbl
 \item patients with disorders of intracellular Cbl metabolism typically
 have serum Cbl levels within the reference range
 \begin{itemize}
-\item levels may be reduced in the cblF and cblJ disorders
+\item levels may be reduced in the CblF and CblJ disorders
 \end{itemize}
 \item disorders of Cbl absorption, transport and MeCbl synthesis result in:
 \begin{itemize}
@@ -397,7 +411,7 @@ concentration reverses the metabolic abnormality
 \end{itemize}
 
 \subsubsection{Absorption and Transport}
-\label{sec:org60085f2}
+\label{sec:org91bc8fe}
 \begin{itemize}
 \item absorption of dietary Cbl first involves binding to a glyco protein
 (haptocorrin, R binder) in the saliva
@@ -422,7 +436,7 @@ protein
 \item all are rare
 \end{itemize}
 \subsubsection{Cbl mutants (A-G, J, X)}
-\label{sec:orgc3c6d9f}
+\label{sec:org2b6ac8e}
 \begin{itemize}
 \item a number of disorders of intracellular metabolism of Cbl have been
 classified as cbl mutants (A-G, J, X)
@@ -437,21 +451,21 @@ one of the known classes of inborn error if function of either
 methylmalonyl-Coenzyme A (CoA) mutase or methionine synthase is
 reduced in patient fibroblasts
 \item the one exception is the cblX disorder which cannot be
-differentiated from cblC by complementation analysis
+differentiated from CblC by complementation analysis
 \end{itemize}
 \subsubsection{Combined AdoCbl and MeCbl Deficiencies}
-\label{sec:org7db9ba3}
+\label{sec:org3ff1628}
 \begin{itemize}
-\item \emph{cblF, cblJ, cblC, cblX, CblD}
+\item CblF, CblJ, CblC, CblX, CblD
 \begin{itemize}
 \item F, J, D and X are very rare
 \end{itemize}
 \end{itemize}
 \subsubsection{Cobalamin C}
-\label{sec:orga84a283}
+\label{sec:orge381c32}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org6c8787d}
+\label{sec:org85c9f1e}
 \begin{itemize}
 \item most frequent inborn error of Cbl metabolism
 \item many acutely ill in the 1st month of life
@@ -475,22 +489,24 @@ and coma
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:org760d378}
+\label{sec:org95ec659}
 \begin{itemize}
-\item \emph{cblC} is caused by defects in MMACHC
-\item MMACHC binds Cbl and catalyses removal of upper axial ligands from
-alkylcobalamins including the methyl group from MeCbl and the
-adenosyl group from AdoCbl and from CNCbl
+\item CblC is caused by defects in MMACHC
+\item before the branch point \(\therefore\) both MUT and MS activity affected
+\begin{itemize}
+\item \(\uparrow\) MMA
+\item \(\uparrow\) HCY
+\end{itemize}
 \end{itemize}
 
 \item Genetics
-\label{sec:orgbb2b89c}
+\label{sec:org03f34e6}
 \begin{itemize}
-\item AR, MMACHC
+\item AR MMACHC
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:orgd596dac}
+\label{sec:org91acaed}
 \begin{itemize}
 \item methylmalonic acidaemia and aciduria are the
 biochemical hallmarks of this disease
@@ -504,7 +520,7 @@ biochemical hallmarks of this disease
 \end{itemize}
 
 \item Treatment
-\label{sec:orgdf9b1b0}
+\label{sec:org5762850}
 \begin{itemize}
 \item parenteral OHCbl
 \item oral betaine (trimethylglycine)
@@ -518,36 +534,41 @@ biochemical hallmarks of this disease
 \end{enumerate}
 
 \subsubsection{Cobalamin X}
-\label{sec:org7615005}
+\label{sec:org7c67e81}
 \begin{itemize}
-\item \emph{cblX} is caused by mutations in HCFC1
-\item same phenotype as \emph{cblC}
+\item CblX is caused by mutations in HCFC1
 \begin{itemize}
-\item encodes a transcription regulator that affects expression of a
-number of genes, including MMACHC (\emph{cblC})
+\item encodes a \textbf{transcription regulator} that affects expression of a
+number of genes, including MMACHC (CblC)
 \end{itemize}
+\item same phenotype as CblC
 \item metabolic consequences of mutations stem from decreased MMACHC
 expression leading to decreased synthesis of both AdoCbl and MeCbl
 \end{itemize}
 
 \subsubsection{Adenosylcobalamin Deficiency}
-\label{sec:org06d0d7e}
+\label{sec:org745dd47}
 \begin{itemize}
-\item \emph{cblA and cblB}
-\item characterised by methylmalonic aciduria (MMA)
+\item CblA and CblB
+\item deficient MUT activity
+\begin{itemize}
+\item characterized by methylmalonic aciduria (MMA)
+\end{itemize}
 \item often Cbl-responsive
 \item phenotype resembles methylmalonyl-CoA mutase deficiency
 \item treated with protein restriction and OHCbl
 \end{itemize}
 
 \subsubsection{Methylcobalamin Deficiency}
-\label{sec:org5cb3b97}
+\label{sec:org4c43c04}
 \begin{itemize}
-\item \emph{cblE and cblG}
+\item CblE and CblG
+\item deficient MS activity
 \item megaloblastic anaemia and neurological disease
 \end{itemize}
+
 \subsection{Folate}
-\label{sec:org6fbcb98}
+\label{sec:org1346d56}
 \begin{itemize}
 \item folic acid (pteroylglutamic acid) is plentiful in foods such as
 liver, leafy vegetables, legumes and some fruits
@@ -555,7 +576,7 @@ liver, leafy vegetables, legumes and some fruits
 tetrahydrofolate (THF)
 \begin{itemize}
 \item followed by addition of a single-carbon unit, which is provided by
-serine or histidine; this carbon unit occurs in various redox
+serine or histidine this carbon unit occurs in various redox
 states
 \begin{itemize}
 \item methyl, methylene, methenyl or formyl
@@ -583,22 +604,25 @@ fluid is 5-methyltetrahydrofolate
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1.0\textwidth]{b12b9/b12b9/figures/folate.png}
-\caption{\label{fig:orgc5b3398}Folate Metabolism:1 methionine synthase; 2 methylenetetrahydrofolate reductase; 3 methylenetetrahydrofolate dehydrogenase; 4 methenyltetrahydrofolate cyclohydrolase: 5 formyltetrahydrofolate synthetase; 6 dihydrofolate reductase; 7 glutamate formiminotransferase; 8 formiminotetrahydrofolate cyclodeaminase}
+\caption{\label{fig:orgc271567}Folate Metabolism:1 methionine synthase; 2 methylenetetrahydrofolate reductase; 3 methylenetetrahydrofolate dehydrogenase; 4 methenyltetrahydrofolate cyclohydrolase: 5 formyltetrahydrofolate synthetase; 6 dihydrofolate reductase; 7 glutamate formiminotransferase; 8 formiminotetrahydrofolate cyclodeaminase}
 \end{figure}
 
 \subsubsection{Methylenetetrahydrofolate Reductase Deficiency}
-\label{sec:org80fe39a}
+\label{sec:org7aaf898}
 \begin{itemize}
-\item severe form of this deficiency not the polymorphisms associated
-common disease risk
+\item disambiguation
 \begin{itemize}
-\item neural tube defects
-\item cardiovascular disease
+\item severe form of this deficiency
+\item not the polymorphisms associated \(\uparrow\) risk of common disease
+\begin{itemize}
+\item \(\uparrow\) neural tube defects in maternal hyperhomocysteinaemia
+\item \(\uparrow\) cardiovascular disease in 3rd or 4th decade of life
+\end{itemize}
 \end{itemize}
 \end{itemize}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org915701d}
+\label{sec:org927f77e}
 \begin{itemize}
 \item most diagnosed in infancy
 \item \textgreater{} 50\% present in the 1st year of life
@@ -608,17 +632,21 @@ seizures and microcephaly
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:orgf30c03a}
+\label{sec:orgd6afe7f}
 \begin{itemize}
-\item \(\downarrow\) methyl-THF
+\item \textbf{methylenetetrahydrofolate reductase} deficiency
+\end{itemize}
+\ce{5,10-methylene-THF ->[MTHFR] 5-methyl-THF}
+\begin{itemize}
+\item \(\downarrow\) 5-methyl-THF
 \item methyl-THF is the methyl donor for the conversion of homocysteine
 \(\to\) methionine by methionine synthase
 \begin{itemize}
 \item \(\uparrow\) total plasma homocysteine
 \item \(\downarrow\) methionine
 \end{itemize}
-\item the block in the conversion of methylene-THF to methyl-THF does not
-result in the trapping of folates as methyl-THF
+\item the block in the conversion of 5,10-methylene-THF to 5-methyl-THF does not
+result in the trapping of folates as 5-methyl-THF
 \begin{itemize}
 \item \(\therefore\) does not \(\downarrow\) reduced folates for purine and
 pyrimidine synthesis
@@ -628,15 +656,15 @@ pyrimidine synthesis
 \end{itemize}
 
 \item Genetics
-\label{sec:orgf886bf8}
+\label{sec:orgeaedca6}
 \begin{itemize}
 \item AR, MTHFR
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:orgb75929c}
+\label{sec:orgb7b376d}
 \begin{itemize}
-\item methyl-THF is the major circulating form of folate
+\item 5-methyl-THF is the major circulating form of folate
 \begin{itemize}
 \item \(\therefore\) serum folate levels may sometimes be low
 \end{itemize}
@@ -645,7 +673,7 @@ pyrimidine synthesis
 \end{itemize}
 
 \item Treatment
-\label{sec:orgc60abcf}
+\label{sec:org86fe08e}
 \begin{itemize}
 \item oral betaine (trimethylglycine)
 \item betaine-homocysteine methyltransferase (BHMT) is betaine dependent
@@ -658,9 +686,9 @@ pyrimidine synthesis
 \end{enumerate}
 
 \section{Thiamine and Pyridoxine}
-\label{sec:orga4f620e}
+\label{sec:org83c85f3}
 \subsection{Thiamine}
-\label{sec:orgb77186b}
+\label{sec:orga175a60}
 \begin{itemize}
 \item thiamine (vitamin B\textsubscript{1}) is water soluble
 \item transported across cell membranes by THTR1 and THTR2
@@ -672,41 +700,45 @@ pyrimidine synthesis
 \item THTR2 is the major transporter in the upper small intestine where
 dietary thiamine is absorbed at the luminal surface
 \item THTR1 predominates at the basal surface
-\item active cofactor of thiamine, TPP, is formed in the cytoplasm by the
-enzyme thiamine pyrophosphokinase
-\item TPP cofactor is attached directly to the transketolase and 2-hydroxyacyl CoA lyase apoproteins
-\item a TPP transporter (MTPPT) in the inner mitochondrial membrane
+\item cofactor thiamine pyrophospate (TPP) is formed in the cytoplasm by
+the enzyme thiamine pyrophosphokinase
+\begin{itemize}
+\item mitochondrial TPP transporter (MTPPT) in the inner mitochondrial membrane
 delivers the cofactor to the \(\alpha\)-ketoacid dehydrogenases in the
 mitochondrial matrix
 \end{itemize}
+\item TPP cofactor is attached directly to the transketolase and 2-hydroxyacyl CoA lyase apoproteins
+\end{itemize}
+
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.6\textwidth]{b1b6/b1b6/figures/thiamine.png}
-\caption{\label{fig:org87dd777}Thiamine Transport}
+\caption{\label{fig:org01c4d2f}Thiamine Transport}
 \end{figure}
 
 \subsubsection{Defective Transport}
-\label{sec:org4f10db4}
+\label{sec:org6fa2dcc}
 \begin{itemize}
 \item THTR1 or 2 deficiency
 \end{itemize}
 \subsubsection{TPP biosynthesis}
-\label{sec:orgf9a1214}
+\label{sec:org538fd6a}
 \begin{itemize}
-\item Thiamine pyrophosphokinase (TPK1) deficiency
+\item \textbf{Thiamine Pyrophosphokinase (TPK1)} deficiency
 \item \(\uparrow\) blood and CSF lactate
 \item \(\uparrow\) urine \(\alpha\)-ketoglutarate
 \item \(\downarrow\) TPP
 \end{itemize}
 \subsubsection{Mitochondrial transport}
-\label{sec:org017daa7}
+\label{sec:orgdcb7808}
 \begin{itemize}
-\item mitochondrial TPP transporter deficiency - amish lethal microcephaly
+\item \textbf{mitochondrial TPP transporter (MTTPT)} deficiency - amish lethal
+microcephaly
 \item \(\uparrow\) urine \(\alpha\)-ketoglutarate
 \end{itemize}
 \subsubsection{Binding to apo-enzyme}
-\label{sec:org5716daa}
+\label{sec:org7d45619}
 \begin{itemize}
 \item PDHC and KGDH
 \begin{itemize}
@@ -720,7 +752,7 @@ mitochondrial matrix
 \end{itemize}
 
 \subsection{Pyridoxine}
-\label{sec:org37ad9d8}
+\label{sec:org75dfa22}
 \begin{itemize}
 \item pyridoxine (vitamin B\textsubscript{6}) is water soluble
 \item broad availability from various food sources
@@ -740,7 +772,7 @@ elucidated
 \end{itemize}
 \item within cells vitamers are rephosphorylated by kinases and further oxidised to the
 active cofactor pyridoxal 5’-phosphate (PLP) by pyridox(am)ine
-5’-phosphate oxidase(PNPO)
+5’-phosphate oxidase (PNPO)
 \item liver seems to be the most important organ of PLP formation
 \begin{itemize}
 \item PNPO is expressed in various cell types including neurons
@@ -778,13 +810,13 @@ malnutrition or in association with severe chronic disease
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{b1b6/b1b6/figures/pyridoxine.png}
-\caption{\label{fig:org7dccb7c}Pyridoxine metabolism}
+\caption{\label{fig:org6086a3e}Pyridoxine metabolism}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{b1b6/b1b6/figures/Slide26.png}
-\caption{\label{fig:org960b641}Pyridoxine metabolism}
+\caption{\label{fig:org2f5a258}Pyridoxine metabolism}
 \end{figure}
 
 \begin{itemize}
@@ -796,16 +828,16 @@ pyridoxine and/or PLP:
 \item PNPO and alkaline phosphatase defects
 \end{itemize}
 \item IEMs that lead to accumulation of small molecules that
-react with PLP and inactivate it
+react with PLP and sequester it
 \begin{itemize}
-\item hyperprolinemia type II
+\item P5CDH deficiency (hyperprolinemia type II)
 \item antiquitin deficiency (pyridoxine dependent epilepsy)
 \end{itemize}
 \item IEMs affecting specific PLP dependent enzymes
 \begin{itemize}
-\item X-linked sideroblastic anemia
-\item classical homocystinuria
-\item gyrate atrophy of the choroid
+\item ALAS deficiency (X-linked sideroblastic anemia)
+\item CBS deficiency (classical homocystinuria)
+\item OAT deficiency (gyrate atrophy of the choroid retina)
 \end{itemize}
 \item drugs that affect the metabolism of B\textsubscript{6} vitamers or react with PLP
 \begin{itemize}
@@ -827,32 +859,36 @@ PLP
 \end{itemize}
 
 \subsubsection{Antiquitin deficiency}
-\label{sec:org3f326b4}
+\label{sec:org5fb443d}
 \begin{itemize}
 \item AKA: pyridoxine responsive seizures
 \item presents in neonates with myoclonic and tonic seizures or
 status epilepticus
 \item onset up to 3 years observed
-\item antiquitin (ALDH7A1) encodes for \(\alpha\)-aminoadipic semialdehyde dehydrogenase
+\item antiquitin (ALDH7A1) encodes for \textbf{\(\alpha\)-aminoadipic semialdehyde dehydrogenase}
 \begin{itemize}
-\item involved in lysine degradation
+\item involved in lysine degradation (Figure \ref{fig:orgb9578e0})
+\end{itemize}
+\end{itemize}
+\ce{AASA ->[antiquitin] AAA}
+\begin{itemize}
 \item deficiency results in \(\uparrow\) \(\alpha\)-aminoadipic acid semialdehyde (AASA)
 \begin{itemize}
-\item AASA is in equilibrium with piperideine-6-carboxylate (PC6)
+\item AASA is in equilibrium with piperideine-6-carboxylate (P6C)
 \item PC6 inactivates PLP
 \end{itemize}
 \end{itemize}
-\item simultaneous determination of S-sulfocysteine is crucial to exclude
-molybdenum cofactor and sulfite oxidase deficiency causing secondary
-inhibition of antiquitin
+\begin{itemize}
+\item \textbf{simultaneous determination of S-sulfocysteine is crucial to exclude}
+\textbf{molybdenum cofactor and sulfite oxidase deficiency causing secondary}
+\textbf{inhibition of antiquitin}
 \begin{itemize}
 \item \(\uparrow\) S-sulfocysteine inhibits antiquitin
 \end{itemize}
 \item most common form of pyridoxine dependent epilepsy (PDE)
 \item \(\uparrow\) urine AASA (\(\alpha\)-aminoadipic acid)
 \item \(\uparrow\) urine P6C (piperideine-6-carboxylate)
-\item \(\uparrow\) urine P5C (pyroline-5-carboxylate)
-\item pipecolic acid in plasma, the first described biomarker of PDE, is
+\item \(\uparrow\) pipecolic acid in plasma, the first described biomarker of PDE, is
 less specific as it can also be found in peroxisomal disease and has
 been found normal in older patients while on pyridoxine
 \item treat with pyridoxine
@@ -861,24 +897,22 @@ been found normal in older patients while on pyridoxine
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.9\textwidth]{b1b6/b1b6/figures/lysine_deg.png}
-\caption{\label{fig:orga9861c1}Lysine degradation and antiquitin deficiency (blue bar)}
+\caption{\label{fig:orgb9578e0}Lysine degradation and antiquitin deficiency (blue bar)}
 \end{figure}
 
 \subsubsection{Hyperprolinemia Type II}
-\label{sec:org153d115}
+\label{sec:orgb6b0128}
 \begin{itemize}
-\item attenuated phenotype
-\item \textasciitilde{} 50\% present with seizures
-\item \(\uparrow\) inactivating compound P5C due to deficiency of pyrroline-5-carboxylate dehydrogenase
-\item \(\Uparrow\) plasma proline
-\item \(\uparrow\) urine P5C
-\item treated with pyridoxine
+\item see Ornithine and Proline
 \end{itemize}
 
 \subsubsection{PNPO deficiency}
-\label{sec:orgce26672}
+\label{sec:org80bd674}
 \begin{itemize}
 \item AKA: pyridoxal phosphate responsive seizures
+\begin{itemize}
+\item does not respond to pyridoxine
+\end{itemize}
 \item clinically indistinguishable from antiquitin deficiency
 \item severe (systemic) PLP deficiency and impaired function of PLP
 dependent enzymes
@@ -889,11 +923,11 @@ dependent enzymes
 \end{itemize}
 
 \subsubsection{Congenital Hypophosphatasia}
-\label{sec:org5307b8f}
+\label{sec:org54ef3b2}
 \begin{itemize}
 \item severe form \(\to\) neonatal seizures
 \item osteomalacia
-\item Tissue Non-Specific Alkaline Phosphatase (TNSAP) deficiency
+\item \textbf{tissue non-specific alkaline phosphatase (TNSAP)} deficiency
 \begin{itemize}
 \item impaired dephosphorylation of PLP for cellular uptake
 \end{itemize}
@@ -908,7 +942,7 @@ dependent enzymes
 \end{itemize}
 
 \subsubsection{X-Linked Hypophosphatasia}
-\label{sec:org4f5a8ce}
+\label{sec:org2cd0ccf}
 \begin{itemize}
 \item AKA: X-Linked Hypophosphatemic Rickets
 \item ranges from isolated hypophosphatemia to severe lower-extremity bowing
@@ -917,10 +951,11 @@ evident with the onset of weight bearing
 \begin{itemize}
 \item sometimes not until adulthood
 \end{itemize}
+\item \textbf{phosphate-regulating endopeptidase} deficiency
 \item \(\uparrow\) serum calcium
 \item \(\downarrow\) serum phosphate
 \item \(\uparrow\) 1,25 hydroxy-vitamin D
 \item \(\Uparrow\) plasma alkaline phosphatase in children
-\item XLD PHEX, phosphate-regulating endopeptidase
+\item XLD PHEX
 \end{itemize}
 \end{document}
