@@ -37,25 +37,25 @@
 #+CAPTION[]:Metabolic pathway of creatine/creatine phosphate
 #+NAME: fig:cr
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./creatine/figures/creatine.png]]
+[[file:./figures/creatine.png]]
 
 #+CAPTION[]:Metabolic pathway of creatine/creatine phosphate
 #+NAME: fig:cr2
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./creatine/figures/Slide16.png]]
+[[file:./figures/Slide16.png]]
 
 * Creatine Deficiency Syndromes
 - creatine deficiency syndromes (CDS) are a group of inborn errors of:
 - creatine synthesis
-  - arginine:glycine amidinotransferase (AGAT) deficiency
-  - guanidinoacetate methyltransferase (GAMT) deficiency
+  - *arginine:glycine amidinotransferase (AGAT)* deficiency
+  - *guanidinoacetate methyltransferase (GAMT)* deficiency
 - creatine transport
-  - X-linked creatine transporter CRTR deficiency
+  - X-linked *creatine transporter (CRTR)* deficiency
 - global developmental delay/ intellectual disability along with
   various neurological manifestations
 
 - secondary changes in creatine metabolism have been described in
-  disorders affecting arginine and ornithine metabolism including:
+  disorders affecting arginine, ornithine and methionine metabolism including:
   - ornithine aminotransferase (OAT) deficiency
   - urea cycle defects
   - hyperammonemia, hyperornithinemia, homocitrullinuria (HHH) syndrome
@@ -64,8 +64,8 @@
   - mitochondrial disease
 
 ** Clinical Presentation
-- global developmental delay (GDD) /intellectual disability (ID) with
-  prominent speech delay
+- global developmental delay (GDD) / intellectual disability (ID)
+  - with prominent speech delay
 - GDD or ID ranges from mild to severe and is characteristically
   associated with challenging (hyperactive, autistic) behaviours
 - distinguishing symptoms:

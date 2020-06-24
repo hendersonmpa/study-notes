@@ -7,12 +7,14 @@
   initially catabolised by a common pathway
 
 #+BEGIN_EXPORT LaTeX
+\begin{center}
 \chemnameinit{}
 \chemname{\chemfig{-[7](-[6])-[1]-[7](<[6]NH_2)-[1](=[2]O)-[7]OH}}{\small leucine}
 \chemnameinit{}
 \chemname{\chemfig{-[7]-[1](-[2])-[7](<[6]NH_2)-[1](=[2]O)-[7]OH}}{\small isoleucine}
 \chemnameinit{}
 \chemname{\chemfig{-[1](-[2])-[7](<[6]NH_2)-[1](=[2]O)-[7]OH}}{\small valine}
+\end{center}
 #+END_EXPORT
 
 - the first reaction, occurs primarily in muscle

@@ -3,7 +3,7 @@
 #+DATE: \today
 
 * Introduction
-- bile acids are biological detergents synthesised from cholesterol
+- bile acids are biological detergents synthesized from cholesterol
   in the liver by modifications of the sterol nucleus and oxidation of
   the side chain
 - the first reaction (7\alpha-hydroxylation) is rate limiting
@@ -14,11 +14,11 @@
   - excreted in bile
 - bile acids are essential for lipid resorption in the gut
   - regulate hepatic cholesterol synthesis via inhibition of HMG-CoA reductase
-- synthesis can occur by a number of pathways
+- synthesis can occur by a number of pathways (Figure [[fig:bile]])
   - adults starts with conversion of cholesterol to 7\alpha-hydroxycholesterol
-  - infants other pathways are more important
-    - one starts with the conversion of cholesterol to 27-hydroxycholesterol
-- because of the broad specificity of many of the enzymes, the major
+  - in infants other pathways are more important
+    - e.g. conversion of cholesterol to 27-hydroxycholesterol
+- due to the broad specificity of many of the enzymes, the major
   metabolites are often not those immediately proximal to the block
 
 #+CAPTION[]:Major reactions the synthesis of bile acids from cholesterol
@@ -26,9 +26,9 @@
 #+ATTR_LaTeX: :width 1.0\textwidth
 [[file:./figures/bile_synth.png]]
 
-* 3\beta-dehydrogenase deficiency
+* 3\beta-Dehydrogenase Deficiency
 ** Clinical Presentation
-- present in childhood with
+- presents in childhood with
   - neonatal conjugated hyperbilirubinaemia
   - rickets
   - hepatomegaly
@@ -63,7 +63,7 @@
     2) failure of bile acid-dependent bile flow
 
 ** Genetics
-- AR, HSD3B7
+- AR HSD3B7
 
 ** Diagnostic Tests
 - characteristic plasma or urine bile acids with
@@ -98,14 +98,14 @@
 
 - cholic and chenodeoxycholic acid therapy \to improvement in symptoms
 
-* 5\beta-reductase deficiency
+* 5\beta-Reductase Deficiency
 - 5\beta-reductase deficiency (Figure [[fig:bile]], enzyme 3)
 - excrete 3-oxo-\Delta^4 bile acids as the major urinary bile acids
   - \uparrow 7\alpha-hydroxy-3-oxo-4-cholenoic acid glycine conjugate
   - \uparrow 7\alpha,12\alpha-dihydroxy-4-cholenoic acid glycine conjugate
 - 8 patients
 - treat w chenodeoxycholic acid plus cholic acid
-* Cerebrotendinous xanthomatosis 
+* Cerebrotendinous Xanthomatosis 
 ** Clinical Presentation
 - average age of diagnosis is 35 years w a diagnostic delay of 16 years
   - described as a pediatric disease diagnosed in adulthood
@@ -133,8 +133,7 @@
   neuron damage
 
 ** Genetics
-- AR, CYP27A1
-
+- AR CYP27A1
 ** Diagnostic Tests
 - molecular
 *** Plasma
@@ -147,8 +146,7 @@
 ** Treatment and Prognosis
 - chenodeoxycholic acid
 - statins
-* \alpha-Methylacyl-CoA racemase deficiency
-
+* \alpha-Methylacyl-CoA Racemase Deficiency
 ** Clinical Presentation
 - neurological problems start from childhood to late adult life and
   include:
@@ -169,8 +167,7 @@
   undergo peroxisomal \beta-oxidation
 
 ** Genetics
-- AR, AMACR
-
+- AR AMACR
 ** Diagnostic Tests
 - \uparrow plasma DHCA and THCA by GC-MS
 - \uparrow pristanic acid

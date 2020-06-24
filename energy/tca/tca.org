@@ -13,12 +13,16 @@
   - used to produce ATP in the electron transport chain
 
 #+BEGIN_EXPORT LaTeX
-%%\setchemfig{lewis style=red}
-\centering
-\chemname{\chemfig{\lewis{0.,H}-\lewis{0.2.4.6.,{\color{red}C}}(-[6]\lewis{2.,H})(-[2]\lewis{6.,H})-\lewis{4.,{\color{red}C}}(=[2]O)-[,,,,decorate, decoration=snake]SCoA}}{acetyl-CoA}
+\begin{center}
+\chemnameinit{}
+\chemname{\chemfig{-[7](=[6]O)-[1]S-[,,,,decorate, decoration=snake]CoA}}{acetyl-CoA}
+\end{center}
 #+END_EXPORT
+
 - part of aerobic respiration
-  - ETC regenerates \ce{NAD+} via oxidization of NADH
+  - ETC regenerates
+    - \ce{NAD+} via oxidization of NADH
+    - FAD via oxidization of FADH_2
 - cofactors:
   - niacin (\ce{NAD+})
   - riboflavin (FAD and FMN)
@@ -34,7 +38,7 @@
 #+CAPTION[TCA]: Pyruvate Metabolism and the TCA Cycle
 #+NAME: fig:ptca
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./tca/figures/Slide13.png]]
+[[file:./figures/Slide13.png]]
 
 ** Disorders of the TCA cycle
 
@@ -105,7 +109,7 @@
 #+CAPTION[]:Succinate Dehydrogenase | Complex II
 #+NAME: fig:sdhc
 #+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./tca/figures/SuccDeh.png]]
+[[file:./figures/SuccDeh.png]]
 
 ** Clinical Presentation
 - very rare disorder with highly variable phenotype
@@ -115,7 +119,7 @@
   - Kearns-Sayre syndrome
   - isolated hypertrophic cardiomyopathy
   - combined cardiac and skeletal myopathy
-  - generalized muscle weakness, \uparrow fatiguability
+  - generalized muscle weakness, \uparrow fatigue
   - early onset Leigh encephalopathy
 - also:
   - cerebral ataxia
@@ -146,20 +150,13 @@
   means of diagnosis
   - no clear correlation between residual complex II activity and
     severity or clinical outcome
-
-#+CAPTION[]:Coupled spectrophotometric assay
-#+NAME: fig:
-#+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./tca/figures/gr4.jpg]]
-
 ** Treatment 
 - in some cases treatment with riboflavin may have clinical benefit
   
-
 * Fumarase Deficiency
-- fumarase (AKA:fumarate hydratase) catalyses reversible
+- fumarase (AKA fumarate hydratase) catalyses reversible
   hydration/dehydration of fumarate to malate
-\ce{fumarate + H2O ->[FH] malate}
+\ce{fumarate + H2O <=>[FH] malate}
 - two forms: mitochondrial and cytosolic
   - mitochondrial isoenzyme is involved in the TCA Cycle
   - cytosolic isoenzyme is involved in the metabolism of amino acids and fumarate
@@ -193,7 +190,6 @@
   - IDH1 and IDH2 catalyze the same reaction outside TCA cycle and
     uses \ce{NADP+} as a cofactor
     - localize to the cytosol as well as mitochondria and peroxisomes
-
 \ce{isocitrate + NADP+ ->[IHD1/2] \alpha-ketoglutarate + CO2 + NADPH + H+}
 
 ** Clinical Presentation

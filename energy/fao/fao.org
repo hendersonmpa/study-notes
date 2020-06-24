@@ -18,7 +18,7 @@
 
 - non-systematic historical names most commonly used
   - palmitic acid :: C16:0 discovered in palm oil
-  - stearic acid :: C18:0 from the Greek word "stear", which means tallow
+  - stearic acid :: C18:0 from the Greek word "stear" which means tallow
   - oleic acid :: C18:1 oleic means derived from olive oil  
 - position of a double bond is designated by the number of the carbon in the double bond that is closest to the carboxyl group
 
@@ -40,8 +40,8 @@
   - long-chain :: C12-C20
   - medium-chain :: C6-C12
   - short-chain :: C4
-** Mitochondrial fatty acid oxidation
 
+** Mitochondrial fatty acid oxidation
 - involves three processes (Figure [[fig:fao]])
   1) entry of fatty acids into mitochondria
      - long-chain fatty acids are activated to coenzyme A (CoA) esters
@@ -50,15 +50,16 @@
        mitochondrial membrane
      - transferred back to CoA within the mitochondria
      - CPT I is the main site for the regulation of fatty acid
-       oxidation by cytoplasmic malonyl-CoA
+       oxidation
+       - inhibited by cytoplasmic malonyl-CoA
      - medium and short-chain fatty acids enter mitochondria
        independent of carnitine and are activated to CoA esters in the
        matrix
   2) \beta-oxidation via a spiral pathway (Figure [[fig:box]])
      - the \alpha carbon is right beside a functional group, and the
        \beta carbon is the next one
-     - it is at the second carbon from the thioester, then, where the
-       action is in \beta-oxidation
+       - \therefore the second carbon from the thioester (\beta-carbon) is where
+         \beta-oxidation occurs
      - reactions are as follows:
        1) fatty acyl-CoA molecule is first dehydrogenated between the \alpha
           and the \beta carbon atoms by acyl-CoA dehydrogenase
@@ -69,8 +70,8 @@
 	  - \alpha carbon is now once more fully reduced
        3) \beta-hydroxyl group is converted to a keto group by
           hydroxyacyl-CoA dehydrogenase
-	  - NAD^+ accepts the hydrogen
-	  - product is β-ketoacyl-CoA
+	  - NAD^{+} accepts the hydrogen
+	  - product is \beta-ketoacyl-CoA
        4) thiolase introduces a new molecule of coenzyme A to cleave
           the \beta-ketoacyl-CoA, which releases acetyl-CoA and a new,
           shortened acyl-CoA that enters the next cycle of
@@ -88,20 +89,18 @@
 #+CAPTION[]: Fatty Acid Oxidation
 #+NAME: fig:fao
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[./fao/figures/b_oxidation.png]]
+[[file:./figures/b_oxidation.png]]
 
 #+CAPTION[]:Fatty Acid Oxidation and Ketone Body Metabolism
 #+NAME: fig:faketone
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./fao/figures/Slide12.png]]
+[[file:./figures/Slide12.png]]
 
 
 #+CAPTION[]:Fatty Acid \beta-Oxidation
 #+NAME: fig:box
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./fao/figures/boxl.png]]
-
-
+[[file:./figures/boxl.png]]
 
 
  #+CAPTION[]:Acyl-CoA Synthetases: Chain Length Specificity
@@ -139,32 +138,44 @@
    - hepatic glucose output is also reduced under some conditions
  - hypoglycaemia is hypoketotic
    - ketone bodies can be synthesised
-     - medium-or short-chain FAODs or if there is high residual enzyme activity
+     - from medium-or short-chain FAs (depending on the defect)
+     - or if there is high residual enzyme activity
      - plasma concentrations are lower than expected for hypoglycaemia or the plasma free fatty acid concentrations
  - hyperammonaemia occurs in some severe defects
    - with normal or low glutamine concentrations
-   - decreased acetyl-CoA production reducing the synthesis of N-acetylglutamate (NAG)
+   - *decreased acetyl-CoA production reducing the synthesis of N-acetylglutamate (NAG)*
  - lactic acidaemia is seen in long-chain FAODs (LCHAD and MTP deficiencies)
    - inhibitory effects of metabolites on PDH
  - moderate hyperuricaemia - frequent finding during acute attacks
- - secondary hyperprolinaemia occurs in some babies with MAD deficiency
+ - secondary hyperprolinaemia occurs in some babies with MAD deficiency (GAII)
  - accumulating long-chain acylcarnitines may be responsible for
    arrhythmias and may interfere with surfactant metabolism
  - in LCHAD and MTP deficiencies, long chain hydroxy-acylcarnitine
    concentrations correlate with the severity of retinopathy and may
    cause both this and the peripheral neuropathy
 
- #+CAPTION[]:Common manifestations in FAODs: green frequent, yellow intermediate, red uncommon
- #+NAME: fig:common
- #+ATTR_LaTeX: :width 1.2\textwidth
- [[./fao/figures/Ch101f016.png]]
+ #+CAPTION[]:Common manifestations in FAODs
+ #+NAME: tab:common
+| FAOD  | sudden   | fasting     | skeletal | cardio-  | liver    |
+|       | death    | intolerance | myopathy | myopathy | disease  |
+|-------+----------+-------------+----------+----------+----------|
+| CUD   | \Uparrow | \uparrow    | \uparrow | \Uparrow | \uparrow |
+| CPTI  | \uparrow | \Uparrow    | rare     | rare     | \uparrow |
+| CACT  | \uparrow | \Uparrow    | \uparrow | \Uparrow | \uparrow |
+| CPTII | rare     | rare        | \Uparrow | rare     | rare     |
+| VLCAD | \Uparrow | \Uparrow    | \uparrow | \Uparrow | \uparrow |
+| GAII  | \uparrow | \uparrow    | \uparrow | \uparrow | \uparrow |
+| LCHAD | \Uparrow | \Uparrow    | \uparrow | \Uparrow | \Uparrow |
+| TFP   | \Uparrow | \Uparrow    | \uparrow | \Uparrow | \Uparrow |
+| MCAD  | \Uparrow | \Uparrow    | rare     | rare     | \Uparrow |
 
 * Carnitine Cycle Defects
-- carnitine-mediated transport of fatty acids is rate-limiting in the
-  oxidation of fats
+- carnitine-mediated transport of fatty acids is the rate-limiting
+  step in the oxidation of fats
 - defect anywhere in the pathway leads to inadequate formation of
   ketone bodies in response to fasting along with inadequate
   gluconeogenesis and hypoglycemia.
+
 ** Carnitine Transporter Deficiency
 - AKA: primary carnitine deficiency, carnitine uptake deficiency
 *** Clinical Presentation
@@ -179,17 +190,17 @@
 - adults may suffer fatigue or arrhythmias
 - screening has shown that many subjects with low plasma carnitine remain asymptomatic
 *** Metabolic Derangement
-- organic cation/carnitine transporter(OCTN2) responsible for
+- organic cation/carnitine transporter (OCTN2) responsible for
   carnitine uptake (Figure [[fig:trans]])
 - defects \to primary carnitine deficiency with \uparrow renal loss of carnitine
   - \downarrow plasma concentrations
   - \downarrow intracellular concentrations \to impair fatty acid
     oxidation
 
-#+CAPTION[]:Carnitine Transporter
+#+CAPTION[]:Carnitine Transporter in the Plasma Membrane
 #+NAME: fig:trans
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./fao/figures/transporter.png]]
+[[file:./figures/transporter.png]]
 
 *** Genetics
 - AR, OCTN2
@@ -217,10 +228,10 @@
 - medium chain and short chain fatty acids pass directly into
   mitochondria and do not require esterification with carnitine
 
-#+CAPTION[]:CPT1
+#+CAPTION[]:CPT1 (OMM) & CPTII (IMM)
 #+NAME: fig:cpt1
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./fao/figures/cpt1.png]]
+[[file:./figures/cpt1.png]]
 
 *** Genetics
 - AR, CPT1A
@@ -264,17 +275,17 @@
   from the excretion over time of large amounts of esterified
   carnitine
 
-#+CAPTION[]:Carnitine Translocase
+#+CAPTION[]:Carnitine Acylcarnitine Translocase
 #+NAME: fig:translocase
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./fao/figures/translocase.png]]
+[[file:./figures/translocase.png]]
 
 *** Genetics
 - AR, SLC25A20
 *** Diagnostic Tests
 - \Downarrow total carnitine
 - \downarrow C0
-- \Uparrow C16,18,C18:1
+- \Uparrow C16, C18, C18:1
 *** Treatment
 - prevent hypoglycaemia
 - low-fat diet
@@ -292,7 +303,7 @@
 
 **** Childhood
  - episodes may be brought on by infections or exercise
- - moderate or severe episodes there is myoglobinuria, \uparrow CK
+ - moderate or severe episodes with myoglobinuria & \uparrow CK
    - may lead to acute renal failure
    - CK often normalises between episodes but may remain moderately
      elevated
@@ -323,7 +334,7 @@
 *** Clinical Presentation
 **** Infancy 
  - severely affected patients present in early infancy with
-   cardiomyopathy, in addition to the problems seen in milder patients
+   cardiomyopathy in addition to the problems seen in milder patients
 **** Childhood
  - patients present in childhood with hypoglycaemia but suffer exercise
    or illness induced rhabdomyolysis or chronic weakness at a later age
@@ -331,7 +342,7 @@
  - mildly affected patients present as adolescents or adults with
    exercise-induced rhabdomyolysis
 *** Metabolic Derangement
-- VLCAD is one of four mitochondrial acyl CoA dehydrogenases that
+- VLCAD is one of four mitochondrial acyl-CoA-dehydrogenases that
   catalyze the initial steps in the \beta-oxidation of fatty acids
   (Table [[tab:deh]])
 - optimal substrate is C16-CoA (palmitoy-CoA)
@@ -340,7 +351,7 @@
 #+CAPTION[]:VLCAD reaction 
 #+NAME: fig:vlcad
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./fao/figures/vlcad.png]]
+[[file:./figures/vlcad.png]]
 
 *** Genetics
 - AR, ACADVL
@@ -405,16 +416,16 @@
 #+CAPTION[]:LCHAD reaction
 #+NAME: fig:lchad
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./fao/figures/lchad.png]]
+[[file:./figures/lchad.png]]
 
 *** Genetics
 - AR, HADHA
 
 *** Diagnostic Tests
-- \uparrow lactate, \because 3-OH-palmitoyl-CoA inhibits PDH
+- \uparrow lactate \because 3-OH-palmitoyl-CoA inhibits PDH
 - \uparrow hydroxy-acylcarnitines
   - \uparrow C14OH, C16OH, C18OH, C18:1OH
-- \uparrow UOA C6-C14 (hydroxy-)dicarboxylic acids
+- \uparrow UOA C6-C14 dicarboxylic and hydroxy-dicarboxylic acids
 
 *** Treatment
 - avoid fasting
@@ -459,13 +470,18 @@
 - MCAD accepts fatty-acyl-CoAs 6-12 carbons in length
 
 *** Genetics
-- AR, ACADM 
+- AR ACADM 
 *** Diagnostic Tests
-- \uparrow C8, C6, C10
-- \uparrow C8/C10
-- \uparrow UOA C6-C10 dicarboxylic acids, suberylglycine, hexanolyglyine
-  - MCAD :: C6 > C8 > C10
-  - MCT :: C10 > C8 > C6
+- plasma acylcarnitines
+  - \uparrow C8, C6, C10
+  - \uparrow C8/C10
+- urine OA
+  - \uparrow C6-C10 dicarboxylic acids
+    - MCAD :: C8 > C6 > C10
+    - MCT :: C10 > C8 > C6
+  - \uparrow suberylglycine
+  - \uparrow hexanolyglyine
+
 *** Treatment
 - avoid fasting
 - low fat diet in infants
@@ -509,11 +525,11 @@
   Oxidoreductase (ETF-QO) carry electrons to the respiratory chain from
   multiple FAD-linked dehydrogenases
 - includes enzymes of amino acid, choline, \beta-oxidation, and ETC
-  - isovaleryl-CoA dehydrogenase :: C5-carnitine, 3-hydroxyisovaleric acid 
-  - acyl-CoA dehydrogenases :: C4-C18
-  - CII :: succinate
-  - isobutyryl-CoA dehydrogenase :: C4-carnitine, isobutyrylglycine
-  - glutaryl-CoA dehydrogenase :: C5DC-carnitine, 3-OH-glutaric acid
+  - isovaleryl-CoA dehydrogenase :: \therefore \uparrow C5-carnitine, 3-hydroxyisovaleric acid 
+  - acyl-CoA dehydrogenases :: \therefore \uparrow C4-C18
+  - CII :: \therefore \uparrow succinate 
+  - isobutyryl-CoA dehydrogenase :: \therefore \uparrow C4-carnitine, isobutyrylglycine
+  - glutaryl-CoA dehydrogenase :: \therefore \uparrow C5DC-carnitine, 3-OH-glutaric acid
 
 - GAII less often, a result of defects of riboflavin transport or
   metabolism
@@ -521,19 +537,25 @@
 #+CAPTION[]:Multiple Acyl-CoA Dehydrogenase Deficiency
 #+NAME: fig:madd
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./fao/figures/madd.png]]
+[[file:./figures/madd.png]]
 
 #+CAPTION[]: Role of ETF and ETF-QO
 #+NAME: fig:etf
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./fao/figures/etf.png]]
+[[file:./figures/etf.png]]
 
 *** Genetics 
-- AR, ETFA, ETFB, ETFDH
+- AR ETFA, ETFB, ETFDH
 
 *** Diagnostic Tests
-- \uparrow C4-C18
-- \uparrow UOA lactic, glutaric, 2-OH-glutaric, ethylmalonic, dicarboxylic acids
+- plasma acylcarnitines
+  - \uparrow C4-C18
+- urine OA
+  - \uparrow lactic
+  - \uparrow glutaric
+  - \uparrow 2-OH-glutaric
+  - \uparrow ethylmalonic
+  - \uparrow dicarboxylic acids
 *** Treatment
 - avoid fasting
 - low fat diet

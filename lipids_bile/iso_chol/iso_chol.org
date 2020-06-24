@@ -6,18 +6,19 @@
 - isoprenoids function in a variety of cellular processes including
   - cell growth and differentiation, protein glycosylation, signal
     transduction pathways
-- isoprenoid synthesis starts from acetyl-CoA is converted in 6 steps
-  to isopentenyl-PP
-  - the basic isoprene unit used for the synthesis of subsequent
-    isoprenoids
+- isoprenoid synthesis starts from acetyl-CoA (Figures [[fig:chol2]])
+  - converted in 6 steps to isopentenyl-PP
+  - isopentenyl-PP is the basic isoprene unit used for the synthesis
+    of subsequent isoprenoids
   - first committed intermediate in sterol isoprenoid synthesis is
     squalene
-  - cyclisation \to lanosterol
-  - lanosterol \to cholesterol may occur via two major routes involving
-    the same enzymes
-  - depending on the timing of reduction of the \Delta^24 double bond either:
-    - 7-dehydrocholesterol
-    - desmosterol
+  - undergoes cyclisation \to lanosterol
+  - lanosterol \to cholesterol occurs via two routes (Figures [[fig:chol]])
+    - depending on the timing of reduction of the \Delta^24 double bond
+    - involve the same enzymes
+    - penulimate product is either:
+      - 7-dehydrocholesterol
+      - desmosterol
 
 
 #+CAPTION[]:Isoprenoid/Cholesterol Synthesis Pathway
@@ -29,7 +30,6 @@
 #+NAME: fig:chol2
 #+ATTR_LaTeX: :width 1.0\textwidth
 [[file:./figures/Slide18.png]]
-
 
 * Mevalonate Kinase Deficiency
 ** Clinical Presentation
@@ -48,9 +48,9 @@
   such as:
   - mental retardation, ataxia, cerebellar atrophy, hypotonia, severe
     FTT, dysmorphic features, high risk of death in early infancy
-
+    
 ** Metabolic Derangement
-- *mevalonate kinase* deficiency (Figure [[fig:chol]] , enzyme 4)
+- *mevalonate kinase* deficiency (Figure [[fig:chol2]])
 \ce{mevalonate + ATP ->[MK] 5-phosphomevalonate + ADP}
 - synthesis of all isoprenoids will be affected
 - clinical presentation \propto residual MK activity
@@ -81,23 +81,23 @@
 
 * Smith-Lemli-Opitz Syndrome
 ** Clinical Presentation
-- large and variable spectrum of morphogenic and congenital anomalies
-- clinical and biochemical continuum ranging from hardly recognisable
+- spectrum of morphogenic and congenital anomalies
+- clinical and biochemical continuum ranging from hardly recognizable
   to very severe (lethal in utero)
 - most affected patients have a characteristic craniofacial appearance
 - cutaneous syndactyly of the second and third toes (>97% of cases)
-- genital abnormalities may include hypospadias cryptorchidism and
+- genital abnormalities may include hypospadias, cryptorchidism and
   ambiguous male genitalia
-- congenital heart defects, and renal, adrenal, lung and
-  gastrointestinal anomalies
+- congenital heart defects, renal, adrenal, lung and gastrointestinal
+  anomalies
 
 ** Metabolic Derangement
-- *7-dehydrocholesterol reductase* deficiency (Figure [[fig:chol]] , enzyme 19)
+- *7-dehydrocholesterol reductase* deficiency (Figure [[fig:chol2]])
   - catalyses the predominant final step in cholesterol biosynthesis
-  - reduction of 7-dehydrocholesterol(DHC) C7-C8 double bond \to cholesterol
+    - reduction of 7-dehydrocholesterol(DHC) C7-C8 double bond \to cholesterol
 
 ** Genetics
-- AR, DHCR7, 1:15,000-60,000
+- AR DHCR7 1:15,000-60,000
 - *most frequent cholesterol biosynthesis defect*
 
 ** Diagnostic Tests
@@ -107,6 +107,6 @@
 
 ** Treatment and Prognosis
 - most anomalies occurring in SLOS are due to the unavailability of
-  sufficient cholesterol during (early) embryonic development
+  sufficient cholesterol during early embryonic development
   - \therefore postnatal therapy not feasible
-- sterol supplementation tired w disappointing results
+- sterol supplementation tried w disappointing results

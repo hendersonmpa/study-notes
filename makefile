@@ -5,6 +5,8 @@ all: $(OUT_DIR)organelles.pdf $(OUT_DIR)energy.pdf $(OUT_DIR)carbohydrate.pdf \
 $(OUT_DIR)lipids_bile.pdf $(OUT_DIR)misc.pdf $(OUT_DIR)vitamins.pdf $(OUT_DIR)aa.pdf \
 $(OUT_DIR)methods.pdf $(OUT_DIR)conditions.pdf $(OUT_DIR)tnt.pdf clean
 
+#$(OUT_DIR)energy2.pdf 
+
 $(OUT_DIR)organelles.pdf: ./organelles/organelles.org ./organelles/fabry/fabry.org \
 ./organelles/farber/farber.org ./organelles/gaucher/gaucher.org \
 ./organelles/GM1_2/gm1.org ./organelles/GM1_2/gm2.org ./organelles/krabbe/krabbe.org \
@@ -30,6 +32,11 @@ $(OUT_DIR)energy.pdf: ./energy/energy.org ./energy/oxphos/oxphos.org \
 	./energy/energy.org \
 	-f org-latex-export-to-pdf
 	mv -v ./energy/energy.pdf $(OUT_DIR)energy.pdf
+
+# $(OUT_DIR)energy2.pdf:./energy/energy.tex
+# 	sed -e 's/\\item{\([^}]*\)}/\\item\[\1\]/g' ./energy/energy.tex > ./energy/energy2.tex
+# 	xelatex -8bit -interaction nonstopmode -output-directory $(OUT_DIR) ./energy/energy2.tex
+# 	xelatex -8bit -interaction nonstopmode -output-directory $(OUT_DIR) ./energy/energy2.tex 
 
 $(OUT_DIR)carbohydrate.pdf: ./carbohydrate/carbohydrate.org \
 ./carbohydrate/carbohydrate_metabolism/carbohydrate_metabolism.org \
@@ -125,3 +132,7 @@ clean :
 	rm -f *.toc
 	rm -f *-blx.bib
 	rm -f *.bbl
+
+
+
+

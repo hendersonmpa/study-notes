@@ -168,6 +168,11 @@
 
 \ce{oxidized DCPIP -> reduced DCPIP} 
 
+#+CAPTION[]:Coupled Spectrophotometric Assay
+#+NAME: fig:
+#+ATTR_LaTeX: :width 0.5\textwidth
+[[file:./figures/gr4.jpg]]
+
 * CII + III assay
 ** Purpose
 - measure rate of SCR in mitochondria as a result of mitochondrial

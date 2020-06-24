@@ -50,6 +50,14 @@
 
 
 ** Clinical Presentation
+ #+CAPTION[]:Common Manifestations in Ketogenesis Defects
+ #+NAME: tab:common
+| FAOD  | sudden   | fasting     | skeletal | cardio-  | liver    |
+|       | death    | intolerance | myopathy | myopathy | disease  |
+|-------+----------+-------------+----------+----------+----------|
+| HMGCS | \uparrow | \Uparrow    | rare     | rare     | \Uparrow |
+| HMGCL | rare     | \Uparrow    | \uparrow | \uparrow | rare     |
+
 *** HMG-CoA Synthase Deficiency
 - presents with hypoglycaemia
   - often accompanied by coma and metabolic acidosis
@@ -84,9 +92,9 @@
   acetyl-CoA to form HMG-CoA, which is cleaved by HMG-CoA lyase to
   release acetyl-CoA and acetoacetate
 
-- \ce{acetyl-CoA + acetoacetyl-CoA + H2O <=>[HMGCS] HMG-CoA + CoA}
+ \ce{acetyl-CoA + acetoacetyl-CoA + H2O <=>[HMGCS] HMG-CoA + CoA}
 
-- \ce{HMG-CoA <=>[HMGCL] acetoacetate + acetyl-CoA}
+ \ce{HMG-CoA <=>[HMGCL] acetoacetate + acetyl-CoA}
 
 - HMG-CoA can also be derived from leucine
 - *HMG-CoA synthase and HMG-CoA lyase deficiencies both impair
@@ -97,8 +105,8 @@
   hypoglycaemia during fasting
 
 ** Genetics
-- HMG-CoA synthase (HMGCS2) and HMG-CoA lyase (HMGCL) deficiencies are
-  AR
+- AR HMGCS2
+- AR HMGCL
 
 ** Diagnostic Tests
 - critical sample is important
@@ -134,19 +142,19 @@
 - avoid fasting and maintain  high carbohydrate intake during any
   metabolic stress such as infections
 - IV glucose is required if no oral intake or vomiting
+*** HMG-CoA Synthase Deficiency
+- HMG-CoA synthase deficiency has a good prognosis
+
 *** HMG-CoA Lyase Deficiency
 - IV sodium bicarbonate may be needed if there is severe acidosis
 - moderate protein restriction is usually recommended in HMG-CoA
   lyase deficiency because of its role in leucine catabolism
 
-*** HMG-CoA Synthase Deficiency
-- HMG-CoA synthase deficiency has a good prognosis
-
 * Ketolysis Defects
 - ketone body utilisation is catalysed by:
   1. succinyl-CoA:3-oxoacid CoA transferase (SCOT)
   2. mitochondrial acetoacetyl-CoA thiolase (T2)
-     - AKA \beta-ketothiolase
+     - AKA \beta-ketothiolase or 3-oxothiolase
 - SCOT, T2 or MCT1 deficiencies present with episodes of ketoacidosis
 
 ** Clinical Presentation
@@ -161,14 +169,13 @@
 - KB utilisation occurs in extrahepatic mitochondria, starting with
   the transfer of coenzyme A from succinyl-CoA to acetoacetate,
   catalysed by SCOT
+ \ce{succinyl-CoA + acetoacetate <=>[SCOT] acetoacyl-CoA + succinate}
 - this forms acetoacetyl-CoA, which is converted to acetyl-CoA by T2
 - second reaction can also be catalysed to some extent by
   medium-chain 3-ketoacyl-CoA thiolase (T1)
   - may explain why T2 deficient patients do not have permanent
     ketosis
-
-- \ce{succinyl-CoA + acetoacetate <=>[SCOT] acetoacyl-CoA + succinate}
-- \ce{acetoacetyl-CoA + CoA <=>[T2] 2\cdot acetyl-CoA}
+ \ce{acetoacetyl-CoA + CoA <=>[T2] 2\cdot acetyl-CoA}
 
 - SCOT is not expressed in liver and has no role other than
   ketolysis
@@ -205,23 +212,24 @@
 - diagnoses are now usually made by mutation analysis
 
 *** T2 Deficiency
-- urine OA
+- urine OA - \uparrow leucine metabolites
   - \uparrow 2-methylacetoacetate
+    - 2-methylacetoacetate is unstable 
   - \uparrow 2-methyl-3-hydroxybutyric acid
   - \uparrow tiglylglycine
-  - 2-methylacetoacetate is unstable
+
 - patient with mild mutations may only show abnormalities when they
   are stressed (e.g isoleucine load)
 - 2-Methyl-3-hydroxybutyryl-CoA dehydrogenase deficiency causes a
   similar pattern of organic acids but 2-methyacetoacetate is not excreted
 - plasma acylcarnitines
   - \uparrow 2-methyl-3-hydroxybutyrylcarnitine (C5OH)
+    - isobaric with 3-hydroxyisovalerylcarnitine
   - \uparrow tiglylcarnitine (C5:1) 
   - may be normal with mild mutations
 - diagnosis must be confirmed by mutation analysis or enzyme assay in fibroblasts
   - assays are complicated by the presence of other thiolases that act
     on acetoacetyl-CoA
-
 
 ** Treatment
 - same as ketogenesis defects above

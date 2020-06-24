@@ -4,42 +4,40 @@
 
 * Introduction
 - VLDL are large particles produced in the liver
-  - transport endogenously synthesized TG and cholesterol to the peripheral tissue
-- IDL are created with the metabolism of VLDL by lipoprotein lipase
+  - transport endogenously synthesized TG and cholesterol to peripheral tissue
+- IDL result from metabolism of VLDL by lipoprotein lipase
   - may be removed by the liver or converted LDL by hepatic triglyceride lipase
 ** LDL
-- LDL contain ~45% cholesterol and they are the major carrier of
-  cholesterol to peripheral tissues
+- LDL contain ~45% cholesterol and are the major carrier of
+  cholesterol to peripheral tissue
 - LDL particles are heterogeneous
   - small dense LDL particles have been associated with increased risk
     for cardiovascular disease
   - \uparrow small dense LDL associated with male gender and diabetes in adults
 - LDL is recognized by specific LDL receptors
   - highly expressed in the liver
-- once bound to receptor are internalized into the cell
-- removes ~75% LDL particles
-- remaining LDL are removed by macrophages
+  - once bound to receptor are internalized into the cell
+  - removes ~75% LDL particles
+  - remaining LDL are removed by macrophages
 ** HDL
 - HDL are produced by the liver and the gastrointestinal tract, and
   peripheral catabolism of chylomicrons and VLDL particles
-- HDL particles are also heterogeneous
+- HDL particles are heterogeneous
   - HDL2 is associated with protection from atherosclerosis
   - HDL3 is a smaller particle
     - \uparrow in alcohol consumption, obesity, diabetes, cigarette
       smoking, uraemia and hypertriglyceridemia
-  - HDL particles are involved in reverse transport of free
-    cholesterol from peripheral tissues to the liver 
+- HDL particles are involved in reverse transport of free
+  cholesterol from peripheral tissues to the liver 
 ** Lp(a)
-- Lp(a) has also been found to be associated with the atherosclerotic
-  process
-- Lp(a) is similar to LDL, but with the addition of a large "little a"
+- Lp(a) is similar to LDL, but with the addition of the "little a"
   protein bound to apoB via a single cysteine-mediated disulphide
   bond
-- plasma levels are regulated independently from LDL
-- \uparrow risk of coronary heart disease if both LDL and Lp(a) are
-  elevated
-- Lp(a) protein is similar to plasminogen, may inhibit the
-  thrombolytic activity of plasminogen \to \uparrow atherosclerosis
+  - plasma levels are regulated independently from LDL
+  - \uparrow risk of coronary heart disease if both LDL and Lp(a) are
+    elevated
+  - Lp(a) protein is similar to plasminogen, may inhibit the
+    thrombolytic activity of plasminogen \to \uparrow atherosclerosis
 - inborn errors of lipoprotein metabolism are a group of genetic
   disorders exemplified by changes in plasma lipids due to defects in:
   - protein lipid-carriers (lipoproteins)
@@ -55,13 +53,6 @@
 [[file:./lipoprotein/figures/lipid_met.png]]
 
 * LDL Metabolism
-- see table [[tab:lip]]
-- atherosclerotic process begins in childhood
-- extent and rate of progression has \propto lipid levels
-- healthy lifestyles and a lower saturated fat intake is the
-  cornerstone of treatment of lipid disorders in children
-- lipid-lowering therapies are important
-
 - five genetic disorders
   1) familial hypercholesterolaemia (FH) - LDL receptor
      - heterozygous and more severe homozygous forms
@@ -69,8 +60,14 @@
   3) autosomal recessive hypercholesterolaemia
   4) sitosterolemia
   5) proprotein convertase substilisin-like kexin type 9 (PCSK9)
-- \Uparrow risk of premature atherosclerosis
-- \Uparrow risk of CAD in adulthood
+- see table [[tab:lip]]
+- in affected individuals 
+  - atherosclerotic process begins in childhood
+    - \Uparrow risk of CAD in adulthood
+  - extent and rate of progression has \propto lipid levels
+  - healthy lifestyles and a lower saturated fat intake is the
+    cornerstone of treatment of lipid disorders in children
+  - lipid-lowering therapies are important
 
 #+CAPTION[]:Selected disorders affecting low density lipoprotein metabolism
 #+NAME: tab:lip
@@ -82,23 +79,23 @@
 | familial apo-B-100 deficiency    | A semi-D | Apo-B                | \uparrow LDL | 1 in 500     |
 
 ** Apolipoprotein B 
-- *Apolipoprotein B* deficiency results in
+- *apolipoprotein B* deficiency results in
   - \downarrow LDL and triglycerides
 
 - familial abetalipoproteinemia
-  - fat malabsorption
   - microsomal triglyceride transfer protein deficiency
   - \downarrow production of apoB containing lipoproteins
+  - fat malabsorption
 
 - familial hypobetalipoproteinemia
-  - milder form of abetalipoproteinemia
   - apoB dysfunction
+  - milder form of abetalipoproteinemia
 
 * Triglyceride Metabolism
 - may present early in childhood with faltering growth,
   hepatosplenomegaly and life threatening pancreatitis
 - TG \gt 10 mmol/L is rare in children
-  - associated with lipoprotein lipase or apoCII defects
+  - associated with *lipoprotein lipase or apoCII* defects
   - apoCII activates LPL
   - TG as high as 250 mmol/L possible
   - \to pancreatitis and eruptive xanthomas
@@ -110,21 +107,25 @@
 - consanguinity 1 in 1 million (homozygous)
 - founder effect in French Canadian population in Quebec
   - carrier frequency 1 in 40
+- see above for clinical and biochemical presentation
 * HDL Metabolism
 - disorders of HDL are very rare
-- Three AR inherited disorders described
+- three AR inherited disorders described
   1) *apolipoprotein A-1* deficiency
      - \downarrow HDL early atherosclerosis
-  2) Familial Hypoalphalipoproteinaemia (Tangier’s disease)
+  2) familial hypoalphalipoproteinaemia (Tangier’s disease)
+     - defective *ABCA1 transporter* prevents cholesterol and
+       phospholipid transport out of cells for pickup by apoA1 in the
+       bloodstream
      - polyneuropathy, hepatosplenomegaly, CC, CAD
-  3) *lecithin:cholesterol acyltranferase (LCAT)* Deficiency
+  3) *lecithin:cholesterol acyltranferase (LCAT)* deficiency
      - neuropathy, CC
 - \downarrow HDL and apoAI
 - \uparrow cholesterol and triglycerides
 - premature atherosclerosis
 
 * Sterol Storage
-- *lysosomal acid lipase (LAL)* Deficiency is a lysosomal storage
+- *lysosomal acid lipase (LAL)* deficiency is a lysosomal storage
   disorder includes:
   - acute infantile onset form - Wolman disease
     - extreme faltering growth, malabsorption, hepatosplenomegaly,
@@ -132,10 +133,10 @@
   - cholesteryl ester storage disease (CESD) presenting in childhood/adulthood
     - slow progression w hepatosplenomegaly and microvesicular
       cirrhosis, premature atherosclerosis and hypercholesterolaemia
-      (\uparrow LDL-C, \downarrow HDL-C)
-- accumulation of cholesteryl ester in the lysosomes is secondary to a
-  deficiency of an esterase that is responsible for hydrolysis of
-  esterified cholesterol in the normal lysosome
+- LAL hydrolyses cholesterol esters in lysosomes
+  - \uparrow cholesteryl ester in lysosomes
+  - \uparrow LDL-C
+  - \downarrow HDL-C
 - sebelipase alfa (recombinant LAL) is licensed for Wolman disease and
   CESD
 

@@ -5,7 +5,7 @@
 * Introduction
 - oxidative phosphorylation is the process in which ATP is formed as a
   result of the transfer of electrons from NADH or FADH_2 to O_2 by a
-  series of electron carriers (Figure [[fig:oxpho]])
+  series of electron carriers (Figure [[fig:etc]] and [[fig:oxpho]])
 - responsible for ATP production
 - ETC complexes I-IV
 - OxPhos system complexes I-V
@@ -35,9 +35,9 @@
   - NADH:ubiquinone oxidoreductase (complex I)
   - Coenzyme Q – cytochrome c reductase (complex III)
   - Cytochrome c oxidase (complex IV)
-  - ETF-QO and mitochondrial GPD (not part of ETC)
+  - ETF-QO and mitochondrial glycerol-3-P dehydrogenase (GPD) (not part of ETC)
 
-#+BEGIN_SRC dot :file ./oxphos/figures/etc.pdf :cmdline -Kdot -Tpdf
+#+BEGIN_SRC dot :file ./figures/etc.pdf :cmdline -Kdot -Tpdf
   digraph {
            // graph from left to right
            rankdir=LR;
@@ -73,16 +73,17 @@
            }    
 #+END_SRC
 
-#+CAPTION[]:Electron Transport Chain
+#+CAPTION[]:Flow of electrons in the ETC
 #+NAME: fig:etc
 #+ATTR_LaTeX: :width 1.1\textwidth
 #+RESULTS:
-[[file:./oxphos/figures/etc.pdf]]
+[[file:./figures/etc.pdf]]
 
 - Complex I (NADH coenzyme Q reductase) accepts electrons from the
   Krebs cycle electron carrier NADH
 - passes them to CoQ (ubiquinone)
-- CoQ also receives electrons from complex II (succinate dehydrogenase)
+- CoQ also receives electrons from CII, GDP and ETF-QO
+
 - CoQ passes electrons to complex III (cytochrome bc1 complex) which
   passes them to cytochrome c
 - cytochrome c passes electrons to Complex IV (cytochrome c oxidase)
@@ -99,18 +100,17 @@
 #+CAPTION[ETC]: Oxidative Phosphorylation
 #+NAME: fig:oxpho
 #+ATTR_LaTeX: :width \textwidth
-[[file:./oxphos/figures/Slide14.png]]
+[[file:./figures/Slide14.png]]
 
 #+CAPTION[redox]:Electron flow to O_2 and release free energy
 #+NAME: fig:redox
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./oxphos/figures/potential.png]]
+[[file:./figures/potential.png]]
 
 ** Complex I
 - AKA NADH-ubiquinone oxidoreductase
-- catalyzes the transfer of electrons from NADH to coenzyme Q10
-  (CoQ) and translocates protons across the inner mitochondrial
-  membrane
+- catalyzes the transfer of electrons from NADH to CoQ and
+  translocates protons across the inner mitochondrial membrane
 
 #+BEGIN_EXPORT LaTeX
 {\small\ce{NADH + H+ + CoQ + 4H^{+}_{in} ->[CI] NAD+ + CoQH2 + 4H^{+}_{out}}}
@@ -124,7 +124,7 @@
        change allowing hydrogen ions to pass through four transmembrane
        helix channels
 
-  #+BEGIN_SRC dot :file ./oxphos/figures/c1.pdf :cmdline -Kdot -Tpdf
+  #+BEGIN_SRC dot :file ./figures/c1.pdf :cmdline -Kdot -Tpdf
     digraph {
              // graph from left to right
              rankdir=LR;
@@ -156,7 +156,7 @@
   #+NAME: fig:c1
   #+ATTR_LaTeX: :width 0.9\textwidth
   #+RESULTS:
-  [[file:./oxphos/figures/c1.pdf]]
+  [[file:./figures/c1.pdf]]
 
 ** Complex II
 - AKA Succinate Dehydrogenase 
@@ -172,10 +172,10 @@
  #+CAPTION[g3ps]:Glycerol-3-phosphate shuttle
  #+NAME: fig:g3ps
  #+ATTR_LaTeX: :width 0.6\textwidth
- [[file:./oxphos/figures/GPDH_shuttle.png]]
+ [[file:./figures/GPDH_shuttle.png]]
 
 ** Electron Transferring Flavoprotein/ Dehydrogenase
- - ETFs are heterodimeric proteins composed of an alpha and beta
+ - ETFs are heterodimeric proteins composed of an \alpha and \beta
    subunit (ETFA and ETFB)
    - contain an FAD cofactor and AMP
  - ETQ-QO links the oxidation of fatty acids and some amino acids to
@@ -188,9 +188,9 @@
  #+END_EXPORT
 
  - ETF-QO deficiency results in *Glutaric Acidemia Type II* (AKA MADD)
-   - discussed more in FAODs
+   - see section FAODs
 ** Complex III
-- AKA Coenzyme Q – Cytochrome C Reductase
+- AKA Coenzyme Q Cytochrome C Reductase
 - Complex III is a multi-subunit transmembrane protein encoded by both
   mitochondrial (cytochrome B) and the nuclear genomes (all other
   subunits)
@@ -227,7 +227,7 @@
   #+CAPTION[cIV]:Complex IV | Cytochrome c oxidase
   #+NAME: fig:cIV
   #+ATTR_LaTeX: :width 0.5\textwidth
-  [[file:./oxphos/figures/CIV.png]]
+  [[file:./figures/CIV.png]]
 
 ** Complex V
 - AKA ATP synthase 
@@ -250,29 +250,29 @@
    #+CAPTION[]: Complex V | ATP synthase 
    #+NAME: fig:atps
    #+ATTR_LaTeX: :width 0.5\textwidth
-   [[file:./oxphos/figures/atp_synthase.jpg]]
+   [[file:./figures/atp_synthase.jpg]]
 
 * Clinical Presentation
 - molecular pathogenesis of OxPhos disorders (Figure [[fig:oxphopath]])
-  1) OxPhos complexes or assembly
-  2) mtDNA maintainance
-  3) mitochondrial translation
-  4) coenzyme Q biosynthesis
-  5) mitochondrial protein import
-  6) mitochondrial solute import
-  7) mitochondrial membrane lipid synthesis
-  8) motility of mitochondrial membranes
+  1) OxPhos complexes or assembly - Leigh Syndrome (COX assembly)
+  2) mtDNA maintainance - MDDS, MELAS (POLG)
+  3) mitochondrial translation - MIDD (MT-TL)
+  4) CoQ biosynthesis - CoQ deficiency
+  5) mitochondrial protein import - TOM and TIM 
+  6) mitochondrial solute import - PEO (ANT1)
+  7) mitochondrial membrane lipid synthesis - Barth (TAZ)
+  8) motility of mitochondrial membranes - MEGDEL (SERAC1)
 
 #+CAPTION[ETC]: Pathogenesis of OxPhos Disorders
 #+NAME: fig:oxphopath
 #+ATTR_LaTeX: :width \textwidth
-[[file:./oxphos/figures/Slide15.png]]
+[[file:./figures/Slide15.png]]
 
 
 #+CAPTION[]:mtDNA disorders
 #+NAME: fig:mtdna
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./oxphos/figures/mtDNA_disorders.png]]
+[[file:./figures/mtDNA_disorders.png]]
 
  - clinical diagnosis is extremely challenging
    - can affect any organ system
@@ -355,7 +355,7 @@
 - protein translation defect
 - glutamic acid tRNA
   - mtDNA :: MT-TE
-****  Q_{10} deficiency
+**** *CoQ deficiency*
 - multisystem involvement including neurologic manifestations
   - fatal neonatal encephalopathy with hypotonia
   - late-onset slowly progressive multiple-system atrophy
@@ -382,7 +382,7 @@
   - mtDNA :: MT-ATP6
 **** *LHON*: Leber’s Hereditary Optic Neuropathy
  - most common cause of blindness in otherwise healthy young men
-   - males\gtfemales 4:1
+   - males \gt females 4:1
  - maternally inherited and manifests in late adolescence or early
    adulthood as bilateral sequential visual failure
  - 90% of patients are affected by age 40
@@ -415,13 +415,13 @@
 #+CAPTION[]: Diagnosis of Mitochondrial Disease
 #+NAME: fig:alg
 #+ATTR_LaTeX: :width 1.2\textwidth
-[[file:./oxphos/figures/algorithm_rot.png]]
+[[file:./figures/algorithm_rot.png]]
 
 
 ** Biochemistry
 - none of the following are specific for OxPhos disorders    
 - \uparrow blood lactate, CSF lactate
-- \uparrow L\P at rest, \Uparrow after exercise
+- \uparrow L/P at rest \Uparrow after exercise
 - renal tubular dysfunction: urine anion gap, pH, serum K
 *** plasma amino acids:
  - alanine \propto pyruvate
@@ -448,11 +448,11 @@
 - FGF-21, GDF15 and creatinine \propto mito disfunction in myopathy
 
 *** L/P ratio
-    - PHD :: N-\downarrow
+    - PDHC :: N-\downarrow
     - TCA :: N-\uparrow
     - ETC :: \uparrow 
 *** OxPhos subunit activity
-- CII is encoded my nuclear DNA (Table [[tab:subunits]])
+- CII is encoded by nuclear DNA (Table [[tab:subunits]])
   - \therefore not affected by mtDNA depletion
 - CoQ deficiency results in:
   - \downarrow combined CI + CIII activity
@@ -476,14 +476,15 @@
 #+CAPTION[rrf]:Ragged red fibers - Gomori stain
 #+NAME: fig:rrf
 #+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./oxphos/figures/Ragged_red_fibers_in_MELAS.jpg]]
+[[file:./figures/Ragged_red_fibers_in_MELAS.jpg]]
 
 ** Molecular
 - no strict relation between phenotype and genotype
 - common mutation affect tRNAs, nucleotide metabolism, fusion
+- mtDNA tRNA mutations are most common of the single base change abnormalities
   - MT-TP :: tRNA^{Pro}
   - MT-TL1 :: tRNA^{Leu(UUR)}
-  - MT-TL1 :: tRNA^{Lys}
+  - MT-TK :: tRNA^{Lys}
   - Twinkle :: mtDNA helicase
   - POLG :: polymerase \gamma
   - TYMP :: thymidine phosphorylase
@@ -491,7 +492,7 @@
   - DGUOK :: deoxyguanosine kinase
   - ANT1 :: adenine nucleotide translocase type 1
   - OPA1 :: fusion
-- mtDNA tRNA mutations are most common of the single base change abnormalities
+
 
 * Treatment
 - Coenzyme Q disorders :: high does coenzyme Q

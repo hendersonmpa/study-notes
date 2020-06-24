@@ -1,4 +1,4 @@
-% Created 2020-06-22 Mon 18:41
+% Created 2020-06-23 Tue 11:29
 % Intended LaTeX compiler: pdflatex
 \documentclass{scrartcl}
 \usepackage[utf8]{inputenc}
@@ -14,7 +14,6 @@
 \usepackage{amssymb}
 \usepackage{capt-of}
 \usepackage{hyperref}
-\usepackage{dejavu}
 \hypersetup{colorlinks,linkcolor=black,urlcolor=blue}
 \usepackage{textpos}
 \usepackage{textgreek}
@@ -29,11 +28,10 @@
 \usepackage{tikz}
 \usepackage{wasysym}
 \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
-\usepackage[automark, autooneside=false, headsepline, footsepline]{scrlayer-scrpage}
+\usepackage[automark, autooneside=false, headsepline]{scrlayer-scrpage}
 \clearpairofpagestyles
 \ihead{\leftmark}% section on the inner (oneside: right) side
 \ohead{\rightmark}% subsection on the outer (oneside: left) side
-\addtokomafont{pagehead}{\upshape}% header upshape instead of italic
 \ofoot*{\pagemark}% the pagenumber in the center of the foot, also on plain pages
 \pagestyle{scrheadings}
 \author{Matthew Henderson, PhD, FCACB}
@@ -53,25 +51,25 @@
 
 
 \section{Lipoprotein Metabolism}
-\label{sec:orgaf134ad}
+\label{sec:orgb700c11}
 \subsection{Introduction}
-\label{sec:org4c13cf0}
+\label{sec:org03c8bb8}
 \begin{itemize}
 \item VLDL are large particles produced in the liver
 \begin{itemize}
-\item transport endogenously synthesized TG and cholesterol to the peripheral tissue
+\item transport endogenously synthesized TG and cholesterol to peripheral tissue
 \end{itemize}
-\item IDL are created with the metabolism of VLDL by lipoprotein lipase
+\item IDL result from metabolism of VLDL by lipoprotein lipase
 \begin{itemize}
 \item may be removed by the liver or converted LDL by hepatic triglyceride lipase
 \end{itemize}
 \end{itemize}
 \begin{enumerate}
 \item LDL
-\label{sec:orga40fa88}
+\label{sec:org9e53e0f}
 \begin{itemize}
-\item LDL contain \textasciitilde{}45\% cholesterol and they are the major carrier of
-cholesterol to peripheral tissues
+\item LDL contain \textasciitilde{}45\% cholesterol and are the major carrier of
+cholesterol to peripheral tissue
 \item LDL particles are heterogeneous
 \begin{itemize}
 \item small dense LDL particles have been associated with increased risk
@@ -81,17 +79,17 @@ for cardiovascular disease
 \item LDL is recognized by specific LDL receptors
 \begin{itemize}
 \item highly expressed in the liver
-\end{itemize}
 \item once bound to receptor are internalized into the cell
 \item removes \textasciitilde{}75\% LDL particles
 \item remaining LDL are removed by macrophages
 \end{itemize}
+\end{itemize}
 \item HDL
-\label{sec:orgfd38c4e}
+\label{sec:org4bd3a05}
 \begin{itemize}
 \item HDL are produced by the liver and the gastrointestinal tract, and
 peripheral catabolism of chylomicrons and VLDL particles
-\item HDL particles are also heterogeneous
+\item HDL particles are heterogeneous
 \begin{itemize}
 \item HDL2 is associated with protection from atherosclerosis
 \item HDL3 is a smaller particle
@@ -99,23 +97,23 @@ peripheral catabolism of chylomicrons and VLDL particles
 \item \(\uparrow\) in alcohol consumption, obesity, diabetes, cigarette
 smoking, uraemia and hypertriglyceridemia
 \end{itemize}
+\end{itemize}
 \item HDL particles are involved in reverse transport of free
 cholesterol from peripheral tissues to the liver
 \end{itemize}
-\end{itemize}
 \item Lp(a)
-\label{sec:orgc600ffc}
+\label{sec:orgc0e5a77}
 \begin{itemize}
-\item Lp(a) has also been found to be associated with the atherosclerotic
-process
-\item Lp(a) is similar to LDL, but with the addition of a large "little a"
+\item Lp(a) is similar to LDL, but with the addition of the "little a"
 protein bound to apoB via a single cysteine-mediated disulphide
 bond
+\begin{itemize}
 \item plasma levels are regulated independently from LDL
 \item \(\uparrow\) risk of coronary heart disease if both LDL and Lp(a) are
 elevated
 \item Lp(a) protein is similar to plasminogen, may inhibit the
 thrombolytic activity of plasminogen \(\to\) \(\uparrow\) atherosclerosis
+\end{itemize}
 \item inborn errors of lipoprotein metabolism are a group of genetic
 disorders exemplified by changes in plasma lipids due to defects in:
 \begin{itemize}
@@ -131,20 +129,13 @@ lipoprotein-lipid complexes
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1.0\textwidth]{lipoprotein/lipoprotein/figures/lipid_met.png}
-\caption{\label{fig:orge027ca4}Lipid and Lipoprotein Metabolism}
+\caption{\label{fig:org7a5e953}Lipid and Lipoprotein Metabolism}
 \end{figure}
 \end{enumerate}
 
 \subsection{LDL Metabolism}
-\label{sec:orgf4ec647}
+\label{sec:orgdc3865b}
 \begin{itemize}
-\item see table \ref{tab:orga4ddcc4}
-\item atherosclerotic process begins in childhood
-\item extent and rate of progression has \(\propto\) lipid levels
-\item healthy lifestyles and a lower saturated fat intake is the
-cornerstone of treatment of lipid disorders in children
-\item lipid-lowering therapies are important
-
 \item five genetic disorders
 \begin{enumerate}
 \item familial hypercholesterolaemia (FH) - LDL receptor
@@ -156,12 +147,22 @@ cornerstone of treatment of lipid disorders in children
 \item sitosterolemia
 \item proprotein convertase substilisin-like kexin type 9 (PCSK9)
 \end{enumerate}
-\item \(\Uparrow\) risk of premature atherosclerosis
+\item see table \ref{tab:org33cfe8a}
+\item in affected individuals 
+\begin{itemize}
+\item atherosclerotic process begins in childhood
+\begin{itemize}
 \item \(\Uparrow\) risk of CAD in adulthood
+\end{itemize}
+\item extent and rate of progression has \(\propto\) lipid levels
+\item healthy lifestyles and a lower saturated fat intake is the
+cornerstone of treatment of lipid disorders in children
+\item lipid-lowering therapies are important
+\end{itemize}
 \end{itemize}
 
 \begin{table}[htbp]
-\caption{\label{tab:orga4ddcc4}Selected disorders affecting low density lipoprotein metabolism}
+\caption{\label{tab:org33cfe8a}Selected disorders affecting low density lipoprotein metabolism}
 \centering
 \begin{tabular}{lllll}
 Disorder & Int & Protein & Profile & Freq\\
@@ -175,36 +176,36 @@ familial apo-B-100 deficiency & A semi-D & Apo-B & \(\uparrow\) LDL & 1 in 500\\
 
 \begin{enumerate}
 \item Apolipoprotein B
-\label{sec:org8153b97}
+\label{sec:org1060535}
 \begin{itemize}
-\item \textbf{Apolipoprotein B} deficiency results in
+\item \textbf{apolipoprotein B} deficiency results in
 \begin{itemize}
 \item \(\downarrow\) LDL and triglycerides
 \end{itemize}
 
 \item familial abetalipoproteinemia
 \begin{itemize}
-\item fat malabsorption
 \item microsomal triglyceride transfer protein deficiency
 \item \(\downarrow\) production of apoB containing lipoproteins
+\item fat malabsorption
 \end{itemize}
 
 \item familial hypobetalipoproteinemia
 \begin{itemize}
-\item milder form of abetalipoproteinemia
 \item apoB dysfunction
+\item milder form of abetalipoproteinemia
 \end{itemize}
 \end{itemize}
 \end{enumerate}
 
 \subsection{Triglyceride Metabolism}
-\label{sec:org08dcdca}
+\label{sec:orgb15ba29}
 \begin{itemize}
 \item may present early in childhood with faltering growth,
 hepatosplenomegaly and life threatening pancreatitis
 \item TG \textgreater{} 10 mmol/L is rare in children
 \begin{itemize}
-\item associated with lipoprotein lipase or apoCII defects
+\item associated with \textbf{lipoprotein lipase or apoCII} defects
 \item apoCII activates LPL
 \item TG as high as 250 mmol/L possible
 \item \(\to\) pancreatitis and eruptive xanthomas
@@ -215,7 +216,7 @@ hepatosplenomegaly and life threatening pancreatitis
 
 \begin{enumerate}
 \item Familial Lipoprotein Lipase Deficiency
-\label{sec:org95b6ef5}
+\label{sec:orgf3b7db3}
 \begin{itemize}
 \item Type-I Hyperlipidaemia
 \item consanguinity 1 in 1 million (homozygous)
@@ -223,23 +224,27 @@ hepatosplenomegaly and life threatening pancreatitis
 \begin{itemize}
 \item carrier frequency 1 in 40
 \end{itemize}
+\item see above for clinical and biochemical presentation
 \end{itemize}
 \end{enumerate}
 \subsection{HDL Metabolism}
-\label{sec:orgde28ef1}
+\label{sec:org71092de}
 \begin{itemize}
 \item disorders of HDL are very rare
-\item Three AR inherited disorders described
+\item three AR inherited disorders described
 \begin{enumerate}
 \item \textbf{apolipoprotein A-1} deficiency
 \begin{itemize}
 \item \(\downarrow\) HDL early atherosclerosis
 \end{itemize}
-\item Familial Hypoalphalipoproteinaemia (Tangier’s disease)
+\item familial hypoalphalipoproteinaemia (Tangier’s disease)
 \begin{itemize}
+\item defective \textbf{ABCA1 transporter} prevents cholesterol and
+phospholipid transport out of cells for pickup by apoA1 in the
+bloodstream
 \item polyneuropathy, hepatosplenomegaly, CC, CAD
 \end{itemize}
-\item \textbf{lecithin:cholesterol acyltranferase (LCAT)} Deficiency
+\item \textbf{lecithin:cholesterol acyltranferase (LCAT)} deficiency
 \begin{itemize}
 \item neuropathy, CC
 \end{itemize}
@@ -250,9 +255,9 @@ hepatosplenomegaly and life threatening pancreatitis
 \end{itemize}
 
 \subsection{Sterol Storage}
-\label{sec:orgc68d63e}
+\label{sec:org3af360c}
 \begin{itemize}
-\item \textbf{lysosomal acid lipase (LAL)} Deficiency is a lysosomal storage
+\item \textbf{lysosomal acid lipase (LAL)} deficiency is a lysosomal storage
 disorder includes:
 \begin{itemize}
 \item acute infantile onset form - Wolman disease
@@ -264,39 +269,44 @@ adrenal calcification and death in early infancy
 \begin{itemize}
 \item slow progression w hepatosplenomegaly and microvesicular
 cirrhosis, premature atherosclerosis and hypercholesterolaemia
-(\(\uparrow\) LDL-C, \(\downarrow\) HDL-C)
 \end{itemize}
 \end{itemize}
-\item accumulation of cholesteryl ester in the lysosomes is secondary to a
-deficiency of an esterase that is responsible for hydrolysis of
-esterified cholesterol in the normal lysosome
+\item LAL hydrolyses cholesterol esters in lysosomes
+\begin{itemize}
+\item \(\uparrow\) cholesteryl ester in lysosomes
+\item \(\uparrow\) LDL-C
+\item \(\downarrow\) HDL-C
+\end{itemize}
 \item sebelipase alfa (recombinant LAL) is licensed for Wolman disease and
 CESD
 \end{itemize}
 \section{Isoprenoid and Cholesterol Synthesis}
-\label{sec:org7b60518}
+\label{sec:org57c6529}
 \subsection{Introduction}
-\label{sec:org1111952}
+\label{sec:org56c4841}
 \begin{itemize}
 \item isoprenoids function in a variety of cellular processes including
 \begin{itemize}
 \item cell growth and differentiation, protein glycosylation, signal
 transduction pathways
 \end{itemize}
-\item isoprenoid synthesis starts from acetyl-CoA is converted in 6 steps
-to isopentenyl-PP
+\item isoprenoid synthesis starts from acetyl-CoA (Figures \ref{fig:orgad02241})
 \begin{itemize}
-\item the basic isoprene unit used for the synthesis of subsequent
-isoprenoids
+\item converted in 6 steps to isopentenyl-PP
+\item isopentenyl-PP is the basic isoprene unit used for the synthesis
+of subsequent isoprenoids
 \item first committed intermediate in sterol isoprenoid synthesis is
 squalene
-\item cyclisation \(\to\) lanosterol
-\item lanosterol \(\to\) cholesterol may occur via two major routes involving
-the same enzymes
-\item depending on the timing of reduction of the \(\Delta\)\textsuperscript{24} double bond either:
+\item undergoes cyclisation \(\to\) lanosterol
+\item lanosterol \(\to\) cholesterol occurs via two routes (Figures \ref{fig:orgb3a94a9})
+\begin{itemize}
+\item depending on the timing of reduction of the \(\Delta\)\textsuperscript{24} double bond
+\item involve the same enzymes
+\item penulimate product is either:
 \begin{itemize}
 \item 7-dehydrocholesterol
 \item desmosterol
+\end{itemize}
 \end{itemize}
 \end{itemize}
 \end{itemize}
@@ -305,21 +315,20 @@ the same enzymes
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1.0\textwidth]{iso_chol/figures/iso_chol_synth.png}
-\caption{\label{fig:orgb93bb09}Isoprenoid/Cholesterol Synthesis Pathway}
+\caption{\label{fig:orgb3a94a9}Isoprenoid/Cholesterol Synthesis Pathway}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1.0\textwidth]{iso_chol/figures/Slide18.png}
-\caption{\label{fig:orge649d8a}Isoprenoid/Cholesterol Synthesis Pathway}
+\caption{\label{fig:orgad02241}Isoprenoid/Cholesterol Synthesis Pathway}
 \end{figure}
 
-
 \subsection{Mevalonate Kinase Deficiency}
-\label{sec:orgf830b34}
+\label{sec:org75009a1}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:org98e9f92}
+\label{sec:org545cdf9}
 \begin{itemize}
 \item auto-inflammatory metabolic disorder
 \item onset 1st year of life, often triggered by childhood vaccinations
@@ -345,9 +354,9 @@ FTT, dysmorphic features, high risk of death in early infancy
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:org58a1a47}
+\label{sec:org0c3af69}
 \begin{itemize}
-\item \textbf{mevalonate kinase} deficiency (Figure \ref{fig:orgb93bb09} , enzyme 4)
+\item \textbf{mevalonate kinase} deficiency (Figure \ref{fig:orgad02241})
 \end{itemize}
 \ce{mevalonate + ATP ->[MK] 5-phosphomevalonate + ADP}
 \begin{itemize}
@@ -360,14 +369,14 @@ FTT, dysmorphic features, high risk of death in early infancy
 \end{itemize}
 
 \item Genetics
-\label{sec:orgef63629}
+\label{sec:org45aed85}
 \begin{itemize}
 \item AR, MVK
 \item most patients are compound heterozygotes
 \end{itemize}
 
 \item Diagnostic tests
-\label{sec:org7645cd1}
+\label{sec:org2d24eda}
 \begin{itemize}
 \item urine organic acids
 \begin{itemize}
@@ -391,7 +400,7 @@ FTT, dysmorphic features, high risk of death in early infancy
 \end{itemize}
 
 \item Treatment and Prognosis
-\label{sec:org0701b03}
+\label{sec:org0e081fc}
 \begin{itemize}
 \item no treatment
 \item many MVK-MA die in infancy
@@ -400,41 +409,43 @@ FTT, dysmorphic features, high risk of death in early infancy
 \end{enumerate}
 
 \subsection{Smith-Lemli-Opitz Syndrome}
-\label{sec:orge372b91}
+\label{sec:org0e23a6b}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:orgd9876b4}
+\label{sec:org08c6ca4}
 \begin{itemize}
-\item large and variable spectrum of morphogenic and congenital anomalies
-\item clinical and biochemical continuum ranging from hardly recognisable
+\item spectrum of morphogenic and congenital anomalies
+\item clinical and biochemical continuum ranging from hardly recognizable
 to very severe (lethal in utero)
 \item most affected patients have a characteristic craniofacial appearance
 \item cutaneous syndactyly of the second and third toes (>97\% of cases)
-\item genital abnormalities may include hypospadias cryptorchidism and
+\item genital abnormalities may include hypospadias, cryptorchidism and
 ambiguous male genitalia
-\item congenital heart defects, and renal, adrenal, lung and
-gastrointestinal anomalies
+\item congenital heart defects, renal, adrenal, lung and gastrointestinal
+anomalies
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:org5d7a337}
+\label{sec:orgaefcb8d}
 \begin{itemize}
-\item \textbf{7-dehydrocholesterol reductase} deficiency (Figure \ref{fig:orgb93bb09} , enzyme 19)
+\item \textbf{7-dehydrocholesterol reductase} deficiency (Figure \ref{fig:orgad02241})
 \begin{itemize}
 \item catalyses the predominant final step in cholesterol biosynthesis
+\begin{itemize}
 \item reduction of 7-dehydrocholesterol(DHC) C7-C8 double bond \(\to\) cholesterol
+\end{itemize}
 \end{itemize}
 \end{itemize}
 
 \item Genetics
-\label{sec:org5628d2d}
+\label{sec:orgf585971}
 \begin{itemize}
-\item AR, DHCR7, 1:15,000-60,000
+\item AR DHCR7 1:15,000-60,000
 \item \textbf{most frequent cholesterol biosynthesis defect}
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org5eb70d6}
+\label{sec:org018af0d}
 \begin{itemize}
 \item sterol analysis of plasma or tissues of patients by GC-MS
 \begin{itemize}
@@ -444,22 +455,22 @@ gastrointestinal anomalies
 \end{itemize}
 
 \item Treatment and Prognosis
-\label{sec:orgc89cbfc}
+\label{sec:org686cfde}
 \begin{itemize}
 \item most anomalies occurring in SLOS are due to the unavailability of
-sufficient cholesterol during (early) embryonic development
+sufficient cholesterol during early embryonic development
 \begin{itemize}
 \item \(\therefore\) postnatal therapy not feasible
 \end{itemize}
-\item sterol supplementation tired w disappointing results
+\item sterol supplementation tried w disappointing results
 \end{itemize}
 \end{enumerate}
 \section{Bile Acid Synthesis}
-\label{sec:org4e13c44}
+\label{sec:org585b2c2}
 \subsection{Introduction}
-\label{sec:org3821c35}
+\label{sec:org5c83ab7}
 \begin{itemize}
-\item bile acids are biological detergents synthesised from cholesterol
+\item bile acids are biological detergents synthesized from cholesterol
 in the liver by modifications of the sterol nucleus and oxidation of
 the side chain
 \item the first reaction (7\(\alpha\)-hydroxylation) is rate limiting
@@ -476,31 +487,31 @@ the side chain
 \begin{itemize}
 \item regulate hepatic cholesterol synthesis via inhibition of HMG-CoA reductase
 \end{itemize}
-\item synthesis can occur by a number of pathways
+\item synthesis can occur by a number of pathways (Figure \ref{fig:org7cafbd6})
 \begin{itemize}
 \item adults starts with conversion of cholesterol to 7\(\alpha\)-hydroxycholesterol
-\item infants other pathways are more important
+\item in infants other pathways are more important
 \begin{itemize}
-\item one starts with the conversion of cholesterol to 27-hydroxycholesterol
+\item e.g. conversion of cholesterol to 27-hydroxycholesterol
 \end{itemize}
 \end{itemize}
-\item because of the broad specificity of many of the enzymes, the major
+\item due to the broad specificity of many of the enzymes, the major
 metabolites are often not those immediately proximal to the block
 \end{itemize}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1.0\textwidth]{bile/figures/bile_synth.png}
-\caption{\label{fig:org66eb23b}Major reactions the synthesis of bile acids from cholesterol}
+\caption{\label{fig:org7cafbd6}Major reactions the synthesis of bile acids from cholesterol}
 \end{figure}
 
-\subsection{3\(\beta\)-dehydrogenase deficiency}
-\label{sec:orgfb59cac}
+\subsection{3\(\beta\)-Dehydrogenase Deficiency}
+\label{sec:org7c96e4d}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:orgc2bdcbe}
+\label{sec:orgaf2d224}
 \begin{itemize}
-\item present in childhood with
+\item presents in childhood with
 \begin{itemize}
 \item neonatal conjugated hyperbilirubinaemia
 \item rickets
@@ -522,10 +533,10 @@ chronic hepatitis or even remain asymptomatic, into their second
 decade or beyond.
 \end{itemize}
 \item Metabolic Derangement
-\label{sec:orgad4587a}
+\label{sec:org5e9224a}
 \begin{itemize}
 \item 3\(\beta\)-dehydrogenase catalyses the second reaction in the major
-pathway of synthesis of bile acid (Figure \ref{fig:org66eb23b}, enzyme 2)
+pathway of synthesis of bile acid (Figure \ref{fig:org7cafbd6}, enzyme 2)
 \item 7\(\alpha\)-hydroxycholesterol \(\to\) 7\(\alpha\)-hydroxycholest-4-en-3-one
 \item accumulating 7\(\alpha\)-hydroxycholesterol can undergo side-chain
 oxidation with or without 12\(\alpha\)-hydroxylation to produce
@@ -551,13 +562,13 @@ normal bile acids
 \end{itemize}
 
 \item Genetics
-\label{sec:orgef1e1b3}
+\label{sec:org49ae817}
 \begin{itemize}
-\item AR, HSD3B7
+\item AR HSD3B7
 \end{itemize}
 
 \item Diagnostic Tests
-\label{sec:org42af038}
+\label{sec:org4e970bf}
 \begin{itemize}
 \item characteristic plasma or urine bile acids with
 \begin{itemize}
@@ -571,7 +582,7 @@ normal bile acids
 
 \begin{enumerate}
 \item Plasma
-\label{sec:org79f8aa8}
+\label{sec:orgd2bd682}
 \begin{itemize}
 \item profile of non-sulphated bile acids by FAB-MS, ESI-MS/MS, GC-MS w/o solvolysis:
 \begin{itemize}
@@ -586,7 +597,7 @@ normal bile acids
 \end{itemize}
 
 \item Urine
-\label{sec:orgff93bb7}
+\label{sec:org408d3bb}
 \begin{itemize}
 \item negative ion FAB-MS or ESI-MS shows diagnostic
 \begin{itemize}
@@ -597,7 +608,7 @@ normal bile acids
 \end{itemize}
 
 \item Fibroblasts
-\label{sec:orgaacbd08}
+\label{sec:orga18c8e9}
 \begin{itemize}
 \item \(\downarrow\) 3\(\beta\)-Dehydrogenase activity cultured skin fibroblasts using
 tritiated 7\(\alpha\)-hydroxycholesterol
@@ -605,7 +616,7 @@ tritiated 7\(\alpha\)-hydroxycholesterol
 \end{enumerate}
 
 \item Treatment and Prognosis
-\label{sec:orgd993b16}
+\label{sec:org36ec613}
 \begin{itemize}
 \item emergency treatment of coagulopathy with parenteral vitamin K may be required
 \item long term bile acid replacement therapy corrects all the fat-soluble
@@ -615,10 +626,10 @@ vitamin deficiencies
 \end{itemize}
 \end{enumerate}
 
-\subsection{5\(\beta\)-reductase deficiency}
-\label{sec:org16bb590}
+\subsection{5\(\beta\)-Reductase Deficiency}
+\label{sec:orgc1092f8}
 \begin{itemize}
-\item 5\(\beta\)-reductase deficiency (Figure \ref{fig:org66eb23b}, enzyme 3)
+\item 5\(\beta\)-reductase deficiency (Figure \ref{fig:org7cafbd6}, enzyme 3)
 \item excrete 3-oxo-\(\Delta\)\textsuperscript{4} bile acids as the major urinary bile acids
 \begin{itemize}
 \item \(\uparrow\) 7\(\alpha\)-hydroxy-3-oxo-4-cholenoic acid glycine conjugate
@@ -627,11 +638,11 @@ vitamin deficiencies
 \item 8 patients
 \item treat w chenodeoxycholic acid plus cholic acid
 \end{itemize}
-\subsection{Cerebrotendinous xanthomatosis}
-\label{sec:orgfac061f}
+\subsection{Cerebrotendinous Xanthomatosis}
+\label{sec:org80d488b}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:orgcfe6d08}
+\label{sec:orga5a1e8f}
 \begin{itemize}
 \item average age of diagnosis is 35 years w a diagnostic delay of 16 years
 \begin{itemize}
@@ -651,9 +662,9 @@ vitamin deficiencies
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:org549e4df}
+\label{sec:org1574ad7}
 \begin{itemize}
-\item sterol 27-hydroxylase deficiency (Figure \ref{fig:org66eb23b}, enzyme 4)
+\item sterol 27-hydroxylase deficiency (Figure \ref{fig:org7cafbd6}, enzyme 4)
 \item mitochondrial enzyme catalyses first step inside-chain oxidation
 \begin{itemize}
 \item required to convert a C27 sterol into a C24 bile acid
@@ -667,7 +678,7 @@ position and accumulates in the liver
 \item reduced rate of bile-acid synthesis
 \begin{itemize}
 \item \(\therefore\) the normal feedback inhibition of cholesterol
-7\(\alpha\)-hydroxylase by bile acids is disrupted (Figure \ref{fig:org66eb23b}, enzyme 1)
+7\(\alpha\)-hydroxylase by bile acids is disrupted (Figure \ref{fig:org7cafbd6}, enzyme 1)
 \end{itemize}
 \item symptoms partly due to accumulation of cholestanol and cholesterol
 \item lack of 3\(\beta\),7\(\alpha\)-dihydroxy-5-cholestenoic acid may contribute to motor
@@ -675,44 +686,42 @@ neuron damage
 \end{itemize}
 
 \item Genetics
-\label{sec:org2d916ec}
+\label{sec:orgcad0e2d}
 \begin{itemize}
-\item AR, CYP27A1
+\item AR CYP27A1
 \end{itemize}
-
 \item Diagnostic Tests
-\label{sec:orgd8f2eb1}
+\label{sec:orge3417d9}
 \begin{itemize}
 \item molecular
 \end{itemize}
 \begin{enumerate}
 \item Plasma
-\label{sec:org8cc2110}
+\label{sec:org54e49f4}
 \begin{itemize}
 \item \(\uparrow\) cholestanol by GC or HPLC
 \item \(\uparrow\) cholestanol/cholesterol ratio
 \item \(\downarrow\) 7-hydroxycholesterol
 \end{itemize}
 \item Urine
-\label{sec:org441abc5}
+\label{sec:org6f2012d}
 \begin{itemize}
 \item major cholanoids are cholestanepentol glucuronides by FAB-MS or ESI-MS/MS
 \end{itemize}
 \end{enumerate}
 
 \item Treatment and Prognosis
-\label{sec:org37bc759}
+\label{sec:org2648983}
 \begin{itemize}
 \item chenodeoxycholic acid
 \item statins
 \end{itemize}
 \end{enumerate}
-\subsection{\(\alpha\)-Methylacyl-CoA racemase deficiency}
-\label{sec:orga34d382}
-
+\subsection{\(\alpha\)-Methylacyl-CoA Racemase Deficiency}
+\label{sec:org466c40a}
 \begin{enumerate}
 \item Clinical Presentation
-\label{sec:orgd79b4ee}
+\label{sec:orged0bc49}
 \begin{itemize}
 \item neurological problems start from childhood to late adult life and
 include:
@@ -727,9 +736,9 @@ include:
 \end{itemize}
 
 \item Metabolic Derangement
-\label{sec:org131ed83}
+\label{sec:orgcc67f42}
 \begin{itemize}
-\item \(\alpha\)-methylacyl-CoA racemase deficiency (Figure \ref{fig:org66eb23b}, enzyme 5)
+\item \(\alpha\)-methylacyl-CoA racemase deficiency (Figure \ref{fig:org7cafbd6}, enzyme 5)
 \item side-chain oxidation of cholesterol produces:
 \begin{itemize}
 \item 25R isomer of 3\(\alpha\),7\(\alpha\),12\(\alpha\)-trihydroxycholestanoyl-CoA [(25R)-THC-CoA]
@@ -743,13 +752,12 @@ undergo peroxisomal \(\beta\)-oxidation
 \end{itemize}
 
 \item Genetics
-\label{sec:org0f7102f}
+\label{sec:org61b2269}
 \begin{itemize}
-\item AR, AMACR
+\item AR AMACR
 \end{itemize}
-
 \item Diagnostic Tests
-\label{sec:orgdf7b5ac}
+\label{sec:org1306677}
 \begin{itemize}
 \item \(\uparrow\) plasma DHCA and THCA by GC-MS
 \item \(\uparrow\) pristanic acid
@@ -758,7 +766,7 @@ undergo peroxisomal \(\beta\)-oxidation
 \end{itemize}
 
 \item Treatment and Prognosis
-\label{sec:org041f06b}
+\label{sec:org39155b5}
 \begin{itemize}
 \item vitamin K
 \item cholic acid
@@ -766,12 +774,12 @@ undergo peroxisomal \(\beta\)-oxidation
 \end{itemize}
 \end{enumerate}
 \section{Triglyceride and Phospholid Metabolism}
-\label{sec:org5ce5fe4}
+\label{sec:orgcc20357}
 \subsection{Introduction}
-\label{sec:org93baa4a}
+\label{sec:org2012f58}
 \begin{itemize}
-\item acylglycerols and phospholipids (PL) play a myriad of organ-specific
-roles in cell structure, biochemistry and signalling
+\item acylglycerols and phospholipids (PL) play many organ-specific roles
+in cell structure, biochemistry and signalling
 \item PLs form the bilayer of cell membranes
 \begin{itemize}
 \item a phosphate group that constitutes a hydrophilic head, located on the surface of the bilayer
@@ -779,20 +787,20 @@ roles in cell structure, biochemistry and signalling
 \end{itemize}
 \item TGs are extremely hydrophobic, and form droplets
 that are surrounded by a PL monolayer
-\item the first steps of TG and of PL synthesis are the same
+\item the first steps of TG and of PL synthesis are the same (Figure \ref{fig:orgc1fc324})
 \item \emph{de novo} synthesis begins from glycerol-3-phosphate (G3P), which is
 formed from glycerol or from dihydroxyacetone phosphate (DHAP)
 \begin{itemize}
 \item DHAP is an intermediate of both glycolysis and of gluconeogenesis
 \end{itemize}
-\item G3P is esterified twice:
+\item G3P is esterified by:
 \begin{enumerate}
 \item glycerolphosphate acyltransferases (GPATs) to form lysophosphatidic acid (LPA)
 \item acylglycerol acyltransferases (AGPATs) to form phosphatidic acid (PA)
 \end{enumerate}
 \item PA can either be converted into
 \begin{itemize}
-\item an sn-1,2-diacylglycerol (DG) by phosphatidic acid phosphatases or
+\item diacylglycerol (DG) by phosphatidic acid phosphatases or
 \item CDP-diacylglycerol by phosphatidic acid cytidyltransferase (CDP-DAG synthase)
 \end{itemize}
 \item DG is an essential intermediate for synthesis of TGs and three major PLs:
@@ -820,26 +828,18 @@ identifiable in infancy
 \item metabolic syndrome
 \item type II diabetes
 \end{itemize}
-\item inborn errors of intracellular TG metabolism often affect adipose
-tissue, but non-adipose signs can dominate their clinical
-presentation
-\item inborn errors of PL metabolism often affect the central and
-peripheral nervous systems, but also muscle, eye, skin, bone,
-cartilage, liver, kidney and immune system
 \end{itemize}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1.0\textwidth]{tg_pl/figures/tg.png}
-\caption{\label{fig:orgbbb29b4}The common pathway, triglyceride synthesis and lipolysis}
+\caption{\label{fig:orgc1fc324}The common pathway, triglyceride synthesis and lipolysis}
 \end{figure}
-
-\subsection{TG biosynthesis and lipolysis}
-\label{sec:org5913451}
-
+\subsection{Common Pathway}
+\label{sec:org68d93bc}
 \begin{enumerate}
-\item lipin-1 deficiency
-\label{sec:org999f1c4}
+\item Lipin-1 Deficiency
+\label{sec:org2b1a40e}
 \begin{itemize}
 \item recurrent childhood rhabdomyolysis with myoglobinuria
 \item accounts for \textasciitilde{}10\% of patients with severe recurrent childhood
@@ -848,82 +848,63 @@ rhabdomyolysis
 \item occurring particularly between 2–6 years of age
 \item CK \textgreater{} 10,000 after excercise
 \end{itemize}
-\item phosphatidic acid phosphatases (PAPs, LPIN1-3) deficiences
+\item \textbf{phosphatidic acid phosphatases} (PAPs, LPIN1-3) deficiency
 \begin{itemize}
 \item catalyse phosphate removal, the first dedicated step of TG
-synthesis, creating a sn-1,2-diacylglycerol
-\end{itemize}
-\begin{itemize}
-\item one of two diacylglycerol acyltransferases (DGATs) can catalyze TG synthesis
-\item TGs accumulate between the leaflets of the ER lipid bilayer
-\item budding of lipid droplets (LDs) requires seipin
-\item adipocyte lipolysis is activated during fasting to export fatty
-acids (FAs) and glycerol for fuel
-\item The main TG lipase in adipocytes, adipocyte triglyceride lipase
-(ATGL) is on the LD surface
-\item DGs are hydrolyzed by hormone-sensitive lipase (HSL), producing
-mainly sn-1-MGs
-\item Monoacylglyceride hydrolase(s) liberate glycerol and a FA
-\item Perilipins are found on the surface of all LDs
-\item Perilipin 1 suppresses lipolysis in the fed state; beta adrenergic
-stimulation and low circulating insulin levels favor PLIN1 and HSL
-phosphorylation by protein kinase A (PKA), activating lipolysis
+synthesis, creating a diacylglycerol
 \end{itemize}
 \end{itemize}
 \end{enumerate}
 
-\subsection{Phospholipid biosynthesis and remodelling}
-\label{sec:org4fbe1e0}
+\subsection{TG Biosynthesis and Lipolysis}
+\label{sec:orgb658e34}
+\begin{itemize}
+\item extremely rare
+\item inborn errors of intracellular TG metabolism often affect adipose
+tissue, but non-adipose signs can dominate their clinical
+presentation
+\end{itemize}
+
+\subsection{Phospholipid Biosynthesis and Remodelling}
+\label{sec:orgff0b2e8}
+\begin{itemize}
+\item PLs are a source of bioactive lipids released from
+membranes by a large family of enzymes, called phospholipases
+\item inborn errors of PL metabolism often affect the central and
+peripheral nervous systems, but also muscle, eye, skin, bone,
+cartilage, liver, kidney and immune system 
+
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=1.0\textwidth]{tg_pl/tg_pl/figures/pl.png}
-\caption{\label{fig:orgc883fdf}Phospholipid biosynthesis (top of the figure) and remodelling (bottom of the figure)}
+\includegraphics[width=1.0\textwidth]{tg_pl/figures/pl.png}
+\caption{\label{fig:orgc5f255b}Phospholipid biosynthesis (top of the figure) and remodelling (bottom of the figure)}
 \end{figure}
-
+\end{itemize}
 
 \begin{enumerate}
 \item Inborn Errors of Phospholipid Biosynthesis
-\label{sec:orgbe49219}
+\label{sec:org1ca6acb}
 \begin{itemize}
-\item Seven inherited disorders of de novo PL synthesis have been described:
+\item seven inherited disorders of \emph{de novo} PL synthesis have been described:
 \begin{itemize}
 \item three involve proteins located in the endoplasmic reticulum
-(Figure \ref{fig:orgc883fdf} steps 1,2 and 3)
+(Figure \ref{fig:orgc5f255b} steps 1,2 and 3)
 \item four are proteins of the mitochondrial membrane (Figure
-\ref{fig:orgc883fdf} steps 4, 5 and 6)
+\ref{fig:orgc5f255b} steps 4, 5 and 6)
 \end{itemize}
 \item distinction between \emph{de novo} synthesis and re-modelling defects is
 unclear in some cases
 \end{itemize}
 
 \item Inborn Errors related to Phospholipid Remodeling
-\label{sec:orge592b4b}
+\label{sec:org122833c}
 \begin{itemize}
-\item PLs are a source of bioactive lipids released from
-membranes by a large family of enzymes, called phospholipases
-\item Diacylglycerol can be formed from membrane phospholipids by
-phospholipase C
-\begin{itemize}
-\item converted by diacylglycerol lipase into 2-arachidonoylglycerol
-\item hydrolyzed into arachidonic acid by alpha beta hydrolase 12 (ABHD12)
-\end{itemize}
-\item PLs also hydrolyzed at the sn-2 position by phospholipases A2, such
-as PLA2G6
-\item at the sn-1 position by phospholipases A1, such as DDHD1 and DDHD2,
-releasing free fatty acid and lysophopholipid
-(LysoPC)
-\item lysophospholipids are hydrolyzed by lysophos pholipases, such as
-PNPLA6 (NTE) into phosphoglycerol and fatty acid
-\item archidonic acid released by phospholipases is a precursor of eicosanoids such as
-hydroxy eicosatetraenoic acid (19-HETE and 20-HETE)
-\item phosphatidylinositol (P-Ins) is a membrane phospholipid composed of
-diacylglycerol and a D-myo-inositol head group.
-\item inositol ring can be phosphorylated and dephosphorylated by a number
-of kinases and phosphatases to yield seven phosphoinositide
-derivatives (PI-3P, PI-4P, PI-5P etc)
-\item arachidonate-rich phosphoinositides are also believed to be another
-source of PLA2-mediated arachidonic acid release for the synthesis
-of prostaglandins and leukotrienes
+\item six inborn errors of metabolism linked to hydrolases and lipases
+involved in the remodelling of membrane phos pholipids have been
+described
+\item most present with neurodegenerative features including spastic
+paraplegia, peripheral neuropathy, neuroendocrine and ophthalmologic
+findings
 \end{itemize}
 \end{enumerate}
 \end{document}

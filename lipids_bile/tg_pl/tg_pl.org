@@ -2,24 +2,23 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
-
 * Introduction
-- acylglycerols and phospholipids (PL) play a myriad of organ-specific
-  roles in cell structure, biochemistry and signalling
+- acylglycerols and phospholipids (PL) play many organ-specific roles
+  in cell structure, biochemistry and signalling
 - PLs form the bilayer of cell membranes
   - a phosphate group that constitutes a hydrophilic head, located on the surface of the bilayer
   - a fatty acid chain that forms a hydrophobic tail, located inside
 - TGs are extremely hydrophobic, and form droplets
   that are surrounded by a PL monolayer
-- the first steps of TG and of PL synthesis are the same
+- the first steps of TG and of PL synthesis are the same (Figure [[fig:tg]])
 - /de novo/ synthesis begins from glycerol-3-phosphate (G3P), which is
   formed from glycerol or from dihydroxyacetone phosphate (DHAP)
   - DHAP is an intermediate of both glycolysis and of gluconeogenesis
-- G3P is esterified twice:
+- G3P is esterified by:
   1) glycerolphosphate acyltransferases (GPATs) to form lysophosphatidic acid (LPA)
   2) acylglycerol acyltransferases (AGPATs) to form phosphatidic acid (PA)
 - PA can either be converted into
-  - an sn-1,2-diacylglycerol (DG) by phosphatidic acid phosphatases or
+  - diacylglycerol (DG) by phosphatidic acid phosphatases or
   - CDP-diacylglycerol by phosphatidic acid cytidyltransferase (CDP-DAG synthase)
 - DG is an essential intermediate for synthesis of TGs and three major PLs:
   1) phosphatidyl choline
@@ -40,54 +39,42 @@
 - others are mildly atypical forms of common adult conditions like:
   - metabolic syndrome
   - type II diabetes
-- inborn errors of intracellular TG metabolism often affect adipose
-  tissue, but non-adipose signs can dominate their clinical
-  presentation
-- inborn errors of PL metabolism often affect the central and
-  peripheral nervous systems, but also muscle, eye, skin, bone,
-  cartilage, liver, kidney and immune system 
 
 #+CAPTION[]:The common pathway, triglyceride synthesis and lipolysis
 #+NAME: fig:tg
 #+ATTR_LaTeX: :width 1.0\textwidth
 [[file:./figures/tg.png]]
-
-* TG biosynthesis and lipolysis 
-
-** lipin-1 deficiency 
+* Common Pathway
+** Lipin-1 Deficiency 
 - recurrent childhood rhabdomyolysis with myoglobinuria
 - accounts for ~10% of patients with severe recurrent childhood
   rhabdomyolysis
   - occurring particularly between 2–6 years of age
   - CK \gt 10,000 after excercise
-- phosphatidic acid phosphatases (PAPs, LPIN1-3) deficiences
+- *phosphatidic acid phosphatases* (PAPs, LPIN1-3) deficiency
   - catalyse phosphate removal, the first dedicated step of TG
-    synthesis, creating a sn-1,2-diacylglycerol
+    synthesis, creating a diacylglycerol
 
- - one of two diacylglycerol acyltransferases (DGATs) can catalyze TG synthesis
- - TGs accumulate between the leaflets of the ER lipid bilayer
- - budding of lipid droplets (LDs) requires seipin
- - adipocyte lipolysis is activated during fasting to export fatty
-   acids (FAs) and glycerol for fuel
- - The main TG lipase in adipocytes, adipocyte triglyceride lipase
-   (ATGL) is on the LD surface
- - DGs are hydrolyzed by hormone-sensitive lipase (HSL), producing
-   mainly sn-1-MGs
- - Monoacylglyceride hydrolase(s) liberate glycerol and a FA
- - Perilipins are found on the surface of all LDs
- - Perilipin 1 suppresses lipolysis in the fed state; beta adrenergic
-   stimulation and low circulating insulin levels favor PLIN1 and HSL
-   phosphorylation by protein kinase A (PKA), activating lipolysis
+* TG Biosynthesis and Lipolysis 
+- extremely rare
+- inborn errors of intracellular TG metabolism often affect adipose
+  tissue, but non-adipose signs can dominate their clinical
+  presentation
 
-* Phospholipid biosynthesis and remodelling
+* Phospholipid Biosynthesis and Remodelling
+- PLs are a source of bioactive lipids released from
+  membranes by a large family of enzymes, called phospholipases
+- inborn errors of PL metabolism often affect the central and
+  peripheral nervous systems, but also muscle, eye, skin, bone,
+  cartilage, liver, kidney and immune system 
+
  #+CAPTION[]:Phospholipid biosynthesis (top of the figure) and remodelling (bottom of the figure)
  #+NAME: fig:pl
  #+ATTR_LaTeX: :width 1.0\textwidth
- [[file:./tg_pl/figures/pl.png]]
-
+ [[file:./figures/pl.png]]
 
 ** Inborn Errors of Phospholipid Biosynthesis
-- Seven inherited disorders of de novo PL synthesis have been described:
+- seven inherited disorders of /de novo/ PL synthesis have been described:
   - three involve proteins located in the endoplasmic reticulum
     (Figure [[fig:pl]] steps 1,2 and 3)
   - four are proteins of the mitochondrial membrane (Figure
@@ -96,26 +83,9 @@
   unclear in some cases
 
 ** Inborn Errors related to Phospholipid Remodeling
-- PLs are a source of bioactive lipids released from
-  membranes by a large family of enzymes, called phospholipases
-- Diacylglycerol can be formed from membrane phospholipids by
-  phospholipase C
-  - converted by diacylglycerol lipase into 2-arachidonoylglycerol
-  - hydrolyzed into arachidonic acid by alpha beta hydrolase 12 (ABHD12)
-- PLs also hydrolyzed at the sn-2 position by phospholipases A2, such
-  as PLA2G6
-- at the sn-1 position by phospholipases A1, such as DDHD1 and DDHD2,
-  releasing free fatty acid and lysophopholipid
-  (LysoPC)
-- lysophospholipids are hydrolyzed by lysophos pholipases, such as
-  PNPLA6 (NTE) into phosphoglycerol and fatty acid
-- archidonic acid released by phospholipases is a precursor of eicosanoids such as
-  hydroxy eicosatetraenoic acid (19-HETE and 20-HETE)
-- phosphatidylinositol (P-Ins) is a membrane phospholipid composed of
-  diacylglycerol and a D-myo-inositol head group.
-- inositol ring can be phosphorylated and dephosphorylated by a number
-  of kinases and phosphatases to yield seven phosphoinositide
-  derivatives (PI-3P, PI-4P, PI-5P etc)
-- arachidonate-rich phosphoinositides are also believed to be another
-  source of PLA2-mediated arachidonic acid release for the synthesis
-  of prostaglandins and leukotrienes
+- six inborn errors of metabolism linked to hydrolases and lipases
+  involved in the remodelling of membrane phos pholipids have been
+  described
+- most present with neurodegenerative features including spastic
+  paraplegia, peripheral neuropathy, neuroendocrine and ophthalmologic
+  findings

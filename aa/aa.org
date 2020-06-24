@@ -6,12 +6,8 @@
 #+DRAWERS: PROPERTIES
 #+LaTeX_CLASS: koma-article
 #+OPTIONS: H:3 toc:2 num:t ^:t
-#+PROPERTY: header-args:R :session *R*
-#+PROPERTY: header-args :cache no
-#+PROPERTY: header-args :tangle yes
 #+STARTUP: overview
 #+STARTUP: indent
-#+LaTeX_header: \usepackage{dejavu}
 #+latex_header: \hypersetup{colorlinks,linkcolor=black,urlcolor=blue}
 #+LaTeX_header: \usepackage{textpos}
 #+LaTeX_header: \usepackage{textgreek}
@@ -20,7 +16,6 @@
 #+LaTeX_header: \usepackage{siunitx}
 #+LaTeX_header: \usepackage{gensymb}
 #+LaTex_HEADER: \usepackage[usenames,dvipsnames]{xcolor}
-#+LaTeX_HEADER: \usepackage[T1]{fontenc}
 #+LaTeX_HEADER: \usepackage{lmodern}
 #+LaTeX_HEADER: \usepackage{verbatim}
 #+LaTeX_HEADER: \usepackage{tikz}
@@ -30,6 +25,7 @@
 #+LaTeX_HEADER: \clearpairofpagestyles
 #+LaTeX_HEADER: \ihead{\leftmark}% section on the inner (oneside: right) side
 #+LaTeX_HEADER: \ohead{\rightmark}% subsection on the outer (oneside: left) side
+#+LaTeX_HEADER: \addtokomafont{pagehead}{\upshape}% header upshape instead of italic
 #+LaTeX_HEADER: \ofoot*{\pagemark}% the pagenumber in the center of the foot, also on plain pages
 #+LaTeX_HEADER: \pagestyle{scrheadings}
 :END:

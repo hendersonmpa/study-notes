@@ -3,25 +3,30 @@
 #+DATE: \today
 
 * Introduction
-- pyruvate is formed from glucose and other monosaccharides, from
-  lactate, and from the gluconeogenic amino acid alanine
+- pyruvate is formed from:
+  - glucose and other monosaccharides
+  - lactate
+  - gluconeogenic amino acid alanine
 - after entering mitochondria pyruvate can be converted into
   acetyl-CoA by the pyruvate dehydrogenase complex, followed by
   further oxidation in the TCA cycle
-- pyruvate can also enter the gluconeogenic pathway:
+
+#+BEGIN_EXPORT LaTeX
+\begin{center}
+\setatomsep{1.8em}
+\chemname{\chemfig{-[7](=[6]O)-[1](=[2]O)-[7]OH}}{pyruvate}
+\hspace{20}
+\chemname{\chemfig{-[7](=[6]O)-[1]S-[,,,,decorate, decoration=snake]CoA}}{acetyl-CoA}
+\end{center}
+#+END_EXPORT
+
+- pyruvate can also enter the gluconeogenic pathway by
   - conversion into oxaloacetate by pyruvate carboxylase
   - conversion to phosphoenolpyruvate by phosphoenolpyruvate carboxykinase
 - acetyl-CoA can also be formed by fatty acid oxidation or used for
   lipogenesis
 
-#+BEGIN_EXPORT LaTeX
-\begin{center}
-\setatomsep{1.8em}
-\chemname{\chemfig{H_3C-[7](=[6]O)-[1](=[2]O)-[7]OH}}{pyruvate}
-\hspace{20}
-\chemname{\chemfig{-[7](=[6]O)-[1](=[2]O)-[7]OH-[,,,,decorate, decoration=snake]-CoA}}{acetyl-CoA}
-\end{center}
-#+END_EXPORT
+
 ** Disorders of Pyruvate Metabolism
 - Pyruvate Carboxylase Deficiency
 - Phospoenolpyruvate Carboxykinase Deficiency
@@ -32,15 +37,15 @@
 #+CAPTION[TCA]: Disorders of Pyruvate Metabolism
 #+NAME: fig:tcad
 #+ATTR_LaTeX: :width 0.7\textwidth
-[[file:./pyruvate/figures/pyruvate_disorders.png]]
+[[file:./figures/pyruvate_disorders.png]]
 
 
 #+CAPTION[TCA]: Pyruvate Metabolism and the TCA Cycle
 #+NAME: fig:ptca
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./pyruvate/figures/Slide13.png]]
+[[file:./figures/Slide13.png]]
 
-** Reactions Involving Pyruvate
+** Reactions involving Pyruvate
 
  - pyruvate dehydrogenase complex :: decarboxylation \to acetyl-CoA
       
@@ -71,14 +76,14 @@
   - anaplerosis
     - \downarrow 2-ketoglutarate \to \downarrow glutamate
     - \downarrow TCA intermediates lowers reducing equivalents
-    - redox equilibrium between 3-OH-butyrate and acetoacetate \to acetoacetate
-    - \downarrow 3-OH-butyrate/acetoacetate ratio
+      - redox equilibrium between 3-OH-butyrate and acetoacetate \to acetoacetate
+      - \downarrow 3-OH-butyrate/acetoacetate ratio
   - lipogenesis
     - oxaloacetate + acetyl-CoA \to citrate
 
 - PC requires biotin and bicarbonate 
 - metabolic derangements associated with PC are observed in:
-  - biotin deficiency and biotinidase deficiency
+  - biotin deficiency, biotinidase deficiency and HCS deficiency
   - three important biotin-dependent carboxylases:
     - propionyl-CoA carboxylase (PCC)
     - 3-methylcrotonyl-CoA carboxylase (3MCC)
@@ -89,7 +94,7 @@
       provides bicarbonate as substrate in mitochondria (see Urea Cycle)
 
 ** Clinical Presentation
-- French phenotype (type B), most severe
+- French phenotype (type B) most severe
   - acute illness 3-48hrs after birth
   - hypothermia, hypotonia, lethargy, vomiting
   - severe neurological dysfunction
@@ -105,7 +110,7 @@
   - acute episodes of lactic acidosis and ketoacidosis
   - near normal cognitive and motor development
 ** Genetics
-- AR, PC, 1:250000
+- AR PC 1:250000
 - PC is a homo-tetramer 
 - PC protein and mRNA absent in 50% of French phenotype
 - American and benign phenotypes have cross-reacting material
@@ -114,10 +119,13 @@
 ** Diagnostic Tests
 - PC deficiency should be considered in any child presenting with
   lactic acidosis and neurological abnormalities
+  - \uparrow lactate and pyruvate
   - hypoglycemia, hyperammonemia, or ketosis
-- N-\uparrow L/P with \downarrow \beta-hydroxybutyrate/acetoacetate in severely affected patients
+- N-\uparrow L/P with \downarrow \beta-hydroxybutyrate/acetoacetate
+  seen in severely affected patients
   - pathognomonic in neonates
 - post-prandial ketosis, hypercitrullinemia, hyperammonemia, low glutamine
+  - \because \downarrow TCA, \downarrow AAS and \downarrow \alpha-KG
 - CSF lactate, alanine and L/P are elevated, glutamine decreased
 - PC activity in cultured skin fibroblasts
   - can not distinguish severity
@@ -133,7 +141,7 @@
 
 * Pyruvate Dehydrogenase Complex Deficiency
 - PDHC decarboxylates pyruvate \to acetyl-CoA
-  - thiamine dependentp
+  - thiamine dependent
 - PDHC, KDHC and BCKD have similar structure and mechanism
 - composed of:
   - E1 \alpha-ketoacid dehydrogenase
@@ -156,12 +164,12 @@
 #+CAPTION[pdhe1]: Activation/deactivation of PDHE1
 #+NAME: fig:pdhe1
 #+ATTR_LaTeX: :width 0.6\textwidth
-[[file:./pyruvate/figures/pdhe1_phos.png]]
+[[file:./figures/pdhe1_phos.png]]
 
 #+CAPTION[pdhc]: Pyruvate Dehydrogenase Complex
 #+NAME: fig:pdhc
 #+ATTR_LaTeX: :width 0.7\textwidth
-[[file:./pyruvate/figures/pdhc.png]]
+[[file:./figures/pdhc.png]]
 
 - PDHC deficiency provokes conversion of pyruvate to lactate and alanine rather than acetly-CoA
 - metabolism of glucose \to lactate, produces 1/10 ATP compared to
@@ -198,7 +206,7 @@
 ** Genetics
 - all components of PDHC are encoded by nuclear genes
 - autosomal except E1\alpha on Xp22.11
-  - \therefore most PDHC deficiency is X-linked
+  - *\therefore most PDHC deficiency is X-linked*
     - has semi-dominant inheritance
 - no null E1\alpha identified except in a mosaic state
   - suggests E1\alpha is essential
@@ -207,9 +215,9 @@
 - lactate and pyruvate in blood and CSF
 - CSF lactate is generally \uparrow compared to blood
 - urine organic acids
-  - lactic and pyruvate
+  - \uparrow lactic and pyruvate
 - plasma amino acids
-  - alanine
+  - \uparrow alanine
 - L/P ratio is usually normal
 - skin fibroblasts for PDHC
   - also lymphocytes, separated from EDTA <2days
@@ -231,16 +239,18 @@
 - DLD (E3) is a flavoprotein common to all three mitochondrial
   \alpha-ketoacid dehydrogenase complexes
   - PDHC, KDHC, and BCKD
-- combined PDHC, TCA , BCAA defect
-  - \uparrow lactate , pyruvate, 
-  - \uparrow alanine, glutamate, glutamine, BCAA
-  - urinary lactic, pyruvic, 2-ketoglutaric, BC 2-hydroxy & 2-ketoacids
-
-** Genetics and Diagnostic Testing
+  - combined PDHC, TCA, BCAA defect
+** Genetics 
 - AR DLD
-- blood lactate, pyruvate
-- plasma amino acids
-- urinary organic acids
+** Diagnostic Testing
+- combined PDHC, TCA, BCAA defect
+  - \uparrow lactate , pyruvate 
+  - \uparrow alanine, glutamate, glutamine, BCAA
+  - urine OA
+    - \uparrow lactic, pyruvic
+    - \uparrow 2-ketoglutaric
+    - \uparrow 2-OH-isovaleric
+    - \uparrow 2-oxoisocaproic
 - pattern of abnormalities not seen in all patients at all times
 
 

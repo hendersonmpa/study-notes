@@ -5,13 +5,9 @@
 :PROPERTIES:
 #+DRAWERS: PROPERTIES
 #+LaTeX_CLASS: koma-article
-#+OPTIONS: H:2 toc:t num:t ^:t
-#+PROPERTY: header-args:R :session *R*
-#+PROPERTY: header-args :cache no
-#+PROPERTY: header-args :tangle yes
+#+OPTIONS: H:3 toc:2 num:t ^:t
 #+STARTUP: overview
 #+STARTUP: indent
-#+LaTeX_header: \usepackage{dejavu}
 #+latex_header: \hypersetup{colorlinks,linkcolor=black,urlcolor=blue}
 #+LaTeX_header: \usepackage{textpos}
 #+LaTeX_header: \usepackage{textgreek}
@@ -20,13 +16,12 @@
 #+LaTeX_header: \usepackage{siunitx}
 #+LaTeX_header: \usepackage{gensymb}
 #+LaTex_HEADER: \usepackage[usenames,dvipsnames]{xcolor}
-#+LaTeX_HEADER: \usepackage[T1]{fontenc}
 #+LaTeX_HEADER: \usepackage{lmodern}
 #+LaTeX_HEADER: \usepackage{verbatim}
 #+LaTeX_HEADER: \usepackage{tikz}
 #+LaTeX_HEADER: \usepackage{wasysym}
 #+LaTeX_HEADER: \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
-#+LaTeX_HEADER: \usepackage[automark, autooneside=false, headsepline, footsepline]{scrlayer-scrpage}
+#+LaTeX_HEADER: \usepackage[automark, autooneside=false, headsepline]{scrlayer-scrpage}
 #+LaTeX_HEADER: \clearpairofpagestyles
 #+LaTeX_HEADER: \ihead{\leftmark}% section on the inner (oneside: right) side
 #+LaTeX_HEADER: \ohead{\rightmark}% subsection on the outer (oneside: left) side
@@ -36,9 +31,9 @@
 :END:
 
 * Mitochondrial Redox Rxns
-** Cellular RedOx State
+** Cellular Redox State
 - NADH and FADH_2 are reducing agents
-  - oxidized in a reduction reaction
+  - loose electron(s) (oxidized) in a reduction rxn
   - \ce{NADH <=>[Ox][Red] NAD+ + H}
   - \ce{FADH2 <=>[Ox][Red] FAD + 2H}
 - \downarrow cellular respiration results in:
@@ -50,18 +45,21 @@
 - ETC deficiency: \uparrow L:P > 25
 
 ** Pyruvate Redox Rxns
- - pyruvate dehydrogenase complex :: oxidized \to acetyl-CoA
+
+ - pyruvate dehydrogenase complex :: pyruvate is oxidized \to acetyl-CoA
       
  \ce{pyruvate + CoA + NAD+ <=>[PDHC] acetyl-CoA + CO2 + NADH + H+}
 
- - lactate dehydrogenase :: reduced \to lactate
+ - lactate dehydrogenase :: pyruvate is reduced \to lactate
 
  \ce{pyruvate + NADH <=>[LDH] lactate + NAD+}
 
 ** TCA Net Reaction
-- Net reaction :: Acetyl-CoA oxidized to 2CO_2
+- net reaction :: acetyl-CoA oxidized to 2CO_2
+- net reaction :: 3 NAD^{+} reduced to 3 NADH
+- net reaction :: FAD reduced to FADH_2
 #+BEGIN_EXPORT LaTeX
-{\tiny\ce{Acetyl-CoA + 3NAD+ + FAD + GDP + Pi + 2H2O -> 2CO2 + CoA + 3NADH + FADH2 + GTP + 2H+}}
+{\tiny\ce{acetyl-CoA + 3NAD+ + FAD + GDP + Pi + 2H2O -> 2CO2 + CoA + 3NADH + FADH2 + GTP + 2H+}}
 #+END_EXPORT
 
 ** ETC Redox Rxns
@@ -77,7 +75,7 @@
 ** Ketone Redox Rxn
 - hydroxybutyrate dehydrogenase :: reduced to \beta-hydroxybutyrate
 
- \ce{acetoacetate + NADH <=>[HBDH] \beta{}-hydroxybutyrate + NAD+}
+ \ce{acetoacetate + NADH <=>[HBDH] \beta-hydroxybutyrate + NAD+}
 
 * Fatty Acid Oxidation
 #+INCLUDE: "./fao/fao.org" :lines "4-"
