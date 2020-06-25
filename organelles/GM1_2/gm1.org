@@ -29,12 +29,7 @@
 - \beta-galactosidase forms a heterotrimeric complex with cathepsin A
   and neuraminidase
 - \downarrow cathepsin A \to 2\degree  deficiency of neuraminidase
-  - ML-1 (sialidosis) (section [[Mucolipidoses]])
-
-* Genetics
-- AR GLB1
-- ~ 150 mutations in GLB1 have been described
-- neither the type or location correlate with phenotype
+  - ML-1 (sialidosis) see Mucolipidosis
 
 * Clinical Findings
 - see table [[tab:gm1ss]]
@@ -56,6 +51,11 @@
 [fn:2] secondary to bony changes
 [fn:3] FN have been observed
 [fn:4] corneal clouding
+
+* Genetics
+- AR GLB1
+- ~ 150 mutations in GLB1 have been described
+- neither the type or location correlate with phenotype
 * Laboratory Investigations
 - \beta-galactosidase activity: leukocytes and DBS
   - 4-MU-\beta-d-galactopyranoside

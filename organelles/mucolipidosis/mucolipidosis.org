@@ -37,7 +37,8 @@
  - deficiency of \alpha-neuraminidase that normally cleaves terminal
    \alpha2 \to 3 and \alpha2 \to 6 sialyl linkages of several
    oligosaccharides and glycopeptides
-   - \uparrow in tissues and fluids of affected patients
+   - \therefore \uparrow oligosaccharides and glycopeptides in tissues
+     and fluids of affected patients
 
 ** Diagnostic Tests
  - test urine samples for both oligosaccharides and glycopeptides
@@ -78,14 +79,13 @@
     glycoproteins
     - required for MPR mediated protein trafficking to lysosomes 
 
-- characterized by deficient activity of a large number of lysosomal enzymes:
-  - \beta-glucuronidase
-  - \beta-galactosidase
-  - \alpha-mannosidase
-  - \alpha-fucosidase
-  - N-acetyl-\beta-d-galactosiaminidase
-  - arylsulfatase-A
-  - glycosylasparaginase
+- characterized by deficient activity of a large number of lysosomal enzymes including:
+  - \beta-glucuronidase :: MPS VII 
+  - \beta-galactosidase :: GM1
+  - \alpha-mannosidase :: mannosidosis
+  - \alpha-fucosidase :: fucosidosis
+  - arylsulfatase-A :: MLD
+  - hexosaminidase A :: GM2 
 - activities of the same lysosomal enzymes are high in the medium
   surrounding cultured I-cell fibroblasts
 
@@ -103,7 +103,7 @@
 | GM2     | hexosaminidase A and/or B | MPR               |
 | Krabbe  | galactosylceramidase      | MPR               |
 | NPA/B   | acid sphingomyelinase     | sortilin & MPR    |
-| Farber  | acid ceramidase           |                   |
+
 
 
 #+CAPTION[Protein trafficking to lysosomes]:Protein trafficking to lysosomes
@@ -141,8 +141,8 @@
   - iron deficiency anemia
   - corneal clouding
   - progressive retinal degeneration
-  - achlorhydria
-- notably absent are dysplastic bone abnormalities and enlargement of
+  - achlorhydria (\downarrow gastric secretions)
+  - notably absent are dysplastic bone abnormalities and enlargement of
   organs such as the liver and the spleen
 
 ** Metabolic Derangement

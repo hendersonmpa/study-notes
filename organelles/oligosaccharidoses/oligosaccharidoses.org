@@ -5,12 +5,11 @@
 * Introduction
 - almost all the secreted and membrane associated proteins of the body
   are glycosylated
-  - also numerous intracellular such as lysosomal acid hydrolases
+  - also numerous intracellular proteins such as lysosomal acid hydrolases
 - a variety of oligosaccharide chains are attached to the protein
   backbone via:
   - hydroxyl group of serine or threonine (O-linked)
   - amide group of asparagine (N-linked)
-
 - chains usually have a core composed of N-acetylglucosamine and mannose
   - often contain galactose, fucose and N-acetylgalactosamine
   - frequently terminal sialic acids (N-acetylneuraminic acid)
@@ -36,13 +35,13 @@
 
 #+CAPTION[]:Oligosaccharidoses
 #+NAME: tab:oligo
- | Disease            | enzyme             | dysostosis | progressive | angio-   | hepato         | sample      |
- |                    |                    | multiplex  | cognitive   | keratoma | -splenomegally |             |
- |--------------------+--------------------+------------+-------------+----------+----------------+-------------|
- | \alpha-mannosidase | \alpha-mannosidase | ++         | +           | -        | +              | WBC         |
- | \beta-mannosidase  | \beta-mannosidase  | +          | .+++        | -        | +              | WBC         |
- | fucosidosis        | fucosidase         | +          | ++          | .+++     | -              | WBC         |
- | galactosialidosis  | PPCA               | ++         | ++          | -        | +              | Fibro & DNA |
+ | Disease            | enzyme             | dysostosis | progressive | angio-   | hepato-       | sample    |
+ |                    |                    | multiplex  | cognitive   | keratoma | splenomegally |           |
+ |--------------------+--------------------+------------+-------------+----------+---------------+-----------|
+ | \alpha-mannosidase | \alpha-mannosidase | ++         | +           | -        | +             | WBC       |
+ | \beta-mannosidase  | \beta-mannosidase  | +          | .+++        | -        | +             | WBC       |
+ | fucosidosis        | fucosidase         | +          | ++          | .+++     | -             | WBC       |
+ | galactosialidosis  | PPCA               | ++         | ++          | -        | +             | Fib & DNA |
 
 *** Mannosidosis
  - deficiency of \alpha-mannosidase \to variable disorder \alpha-mannosidosis
@@ -54,7 +53,7 @@
  - complicated by an immune deficiency which can dominate the clinical
    progression of the disease
 
- - \beta-mannosidosis, deficiency of \beta-mannosidase,
+ - \beta-mannosidosis due to deficiency of \beta-mannosidase
    - much less prevalent than \alpha-mannosidosis
    - very variable, but severe learning difficulties, challenging
      behaviour, deafness and frequent infections are relatively common

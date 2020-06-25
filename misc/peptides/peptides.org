@@ -17,7 +17,7 @@
 #+CAPTION[]:TMA
 #+NAME: fig:tma
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./peptides/figures/tma.png]]
+[[file:./figures/tma.png]]
 
 ** Catabolism of Choline
 - choline is an essential nutrient required for synthesis of:
@@ -36,7 +36,7 @@
 #+CAPTION[]:Choline catabolism
 #+NAME: fig:chol
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./peptides/figures/choline.png]]
+[[file:./figures/choline.png]]
 
 ** Trimethylaminuria (Fish Malodour Syndrome)
 *** Clinical Presentation
@@ -46,7 +46,7 @@
    odour of decaying fish
    - Severe TMAU :: null mutation, onset in infancy
    - Mild TMAU :: polymorphisms, adult onset
-   - Transient Childhood :: choline supplementation, mild variants, 2\degree to illness
+   - Transient Childhood :: choline supplementation, mild variants, 2\degree{} to illness
 
 *** Metabolic Derangement
  - FMO3 deficiency
@@ -54,7 +54,7 @@
    overwhelmed by TMA substrate
 
 *** Genetics
- - AR, ~1% carrier freq
+ - AR FMO3 ~1% carrier freq
 
 *** Diagnostic Tests
  - common causes of abnormal body odour and UTIs are excluded
@@ -65,8 +65,8 @@
  - urine is acidified quickly to pH 2.0 and frozen until analysis
    - NMR spectroscopy or mass spectrometry
    - TMA, TMAO and total TMA
-   - \uparrow urine TMA
-   - \downarrow urine TMAO:TMA
+   - \uparrow TMA
+   - \downarrow TMAO:TMA
 
 *** Treatment
  - \downarrow choline diet
@@ -102,13 +102,13 @@
 #+CAPTION[]: The \gamma-glutamyl cycle
 #+NAME: fig:ggc
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./peptides/figures/gsh.png]]
+[[file:./figures/gsh.png]]
 
 
 #+CAPTION[]: The \gamma-glutamyl cycle
 #+NAME: fig:ggc2
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./peptides/figures/Slide08.png]]
+[[file:./figures/Slide08.png]]
 
 
 ** Glutathione Synthetase Deficiency
@@ -130,7 +130,7 @@
 - \uparrow 5-oxoproline \to metabolic acidosis and 5-oxoprolinuria
 
 *** Genetics
-- AR, GSS
+- AR GSS
 
 *** Diagnostic Tests
 - \uparrow urine 5-oxoproline

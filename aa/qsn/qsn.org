@@ -6,8 +6,10 @@
 - glutamine is the most abundant amino acid
 
 #+BEGIN_EXPORT LaTeX
+\begin{center}
 \chemnameinit{}
 \chemname{\chemfig{H_2N-[::30,,2,](=[::60]O)-[::-60]-[::60]-[::-60](<[::-60]NH_2)-[::60](=[::60]O)-[::-60]OH}}{\small glutamine}
+\end{center}
 #+END_EXPORT
 - synthesized /de novo/ from glutamate and ammonia by glutamine synthetase
   - the only way to produce glutamine in the human body
@@ -30,8 +32,10 @@
     hydroxymethyltransferase
 
 #+BEGIN_EXPORT LaTeX
+\begin{center}
 \chemnameinit{}
 \chemname{\chemfig{HO-[::30]-[::-60](<[::-60]NH_2)-[::60](=[::60]O)-[::-60]OH}}{\small serine}
+\end{center}
 #+END_EXPORT
 - precursor of a number of compounds that play an essential role in
   neuronal development and function:
@@ -81,8 +85,10 @@
     a \beta-aspartyl-AMP intermediate
 
 #+BEGIN_EXPORT LaTeX
+\begin{center}
 \chemnameinit{}
 \chemname{\chemfig{H_2N-[::-30](=[6]O)-[1]-[7](<[6]NH_2)-[1](=[2]O)-[7]OH}}{\small asparagine}
+\end{center}
 #+END_EXPORT
 - must be synthesized within the brain because of poor permeability
   across the BBB

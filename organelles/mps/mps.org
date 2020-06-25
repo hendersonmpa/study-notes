@@ -38,32 +38,36 @@
 - GAGs are composed of repeating units of disaccharides (Figure [[fig:gags]])
   - hexosamine and a hexose or hexuronic acid
 *** Hyaluronan 
+- composed of N-acetylglucosamine and glucuronate 
 - not sulfated, not protein bound
 - forms in the plasma membrane instead of the Golgi
 - connective, epithelial, and neural tissues
 - cell proliferation and migration
 
 *** Chondroitin Sulfate
+- composed of N-acetylgalactosamine and glucuronate
 - O-xylose-linked to core proteins
 - structural component of cartilage 
 
 *** Dermatan Sulfate
+- composed of N-acetylgalactosamine, glucuronate and iduronate
 - O-xylose-linked to core proteins
 - skin, blood vessels, heart valves, tendons, and lungs.
 - coagulation, cardiovascular disease, carcinogenesis, infection, wound repair, and fibrosis
 
 *** Heparan Sulfate
+- composed of glucosamine, iduronate, glucuronate and N-acetylglucosamine
 - O-xylose-linked to core proteins
 - developmental processes, angiogenesis, blood coagulation, tumour metastasis
 
 *** Keratan Sulfate
+- composed of N-acetylglucosamine and galactose
 - KSI was isolated from corneal tissue and KSII from skeletal tissue
-  - KSI is N-linked to specific asparagine amino acids via
-    N-acetylglucosamine
-  - KSII is O-linked to specific serine or threonine amino acids via
-    N-acetyl galactosamine
-  - cornea, cartilage, bone, CNS
-
+- KSI is N-linked to specific asparagine amino acids via
+  N-acetylglucosamine
+- KSII is O-linked to specific serine or threonine amino acids via
+  N-acetyl galactosamine
+- cornea, cartilage, bone, CNS
 
 #+CAPTION[DS Degradation]: DS degradation
 #+NAME: fig:dse
@@ -80,14 +84,18 @@
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./figures/hs_degradation_disorders.png]]
 
-* Multiple sulfatase deficiency
+* Multiple Sulfatase Deficiency
 - mutations in sulfatase modifying factor 1 (SUMF1) leading to a
   deficiency in FGE (formylglycine-generating enzyme)
 - FGE is involved in the post-translational activation of all
   sulfatases in the ER
 - deficiency leads to a deficiency of 17 sulfatases
-  - all lysomal sulfatases
-- MSD is very rare and clinical signs and symptoms are variable, with progressive psychomotor retardation invariably present
+  - all lysosomal sulfatases including
+    - arylsulfatase (MLD)
+    - iduronate-2-sulfatase (Hunter)
+    - heparin-N-sulfatase (Sanfilippo A)
+- MSD is very rare and clinical signs and symptoms are variable
+  - progressive psychomotor retardation invariably present
 - urine GAG concentrations can be normal
   - requires enzymatic assay of multiple sulfatases
 
@@ -205,10 +213,10 @@
     final diagnosis
 - Berry spot test lacks sufficient sensitivity and is obsolete for
   screening for MPS
+  - urine applied to paper and stained with toluidine blue
 - in a sulfatase deficiency, it is necessary to measure at least one
   other sulfatase, in order to exclude multiple sulfatase deficiency
   as the cause of the disease
-
 
 ** Treatment
 - symptomatic care

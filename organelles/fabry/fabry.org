@@ -5,7 +5,7 @@
 * Introduction
 - AKA: angiokeratoma corporis diffusum universale
 - second most common LSD
-- defect in *\alpha-galactosidase A (AKA: ceramide trihexosidase)*
+- defect in *\alpha-galactosidase A (AKA ceramide trihexosidase)*
   - cleaves terminal galactose from globotriaosylceramide (Gb3)
     (Figure [[fig:sidase]])
   - accumulation of Gb3 in blood vessels and other tissues
@@ -26,10 +26,6 @@
 #+ATTR_LaTeX: :width 0.4\textwidth
 [[file:./figures/galactosidaseA.png]]
 
-* Genetics
-- *XL GLA*
-- penetrance in female heterozygotes
-  - may be considered X-linked dominant
 
 * Clinical Findings
 - see table [[tab:fabss]]
@@ -41,21 +37,26 @@
 - angiokeratomas (Figure [[fig:skin]])
   - prominent on hip, buttocks and scrotum
 
-#+CAPTION[]:Fabry Signs and Symptoms
-#+NAME: tab:fabss
-| Age         | Signs                                           |
-|-------------+-------------------------------------------------|
-| childhood   | pain in extremities, fever, Fabry crisis [fn:1] |
-| adolescence | angiokeratomas                                  |
-| adulthood   | CNS, myocardial and pulmonary                   |
-| middle age  | renal failure, lymphedema                       |
-
-#+CAPTION[Angiokeratomas of the skin]:Angiokeratomas of the skin
+#+CAPTION[Angiokeratomas of the skin]:Angiokeratomas of the Skin
 #+NAME: fig:skin
 #+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./figures/angiokeratomas.png]]
 
-[fn:1] induced by heat, cold, fatigue or emotional stress
+#+CAPTION[]:Fabry Signs and Symptoms
+#+NAME: tab:fabss
+| Age         | Signs                                            |
+|-------------+--------------------------------------------------|
+| childhood   | pain in extremities, fever, Fabry crisis [fn:fc] |
+| adolescence | angiokeratomas                                   |
+| adulthood   | CNS, myocardial and pulmonary                    |
+| middle age  | renal failure, lymphedema                        |
+
+[fn:fc] induced by heat, cold, fatigue or emotional stress
+
+* Genetics
+- *XL GLA*
+- penetrance in female heterozygotes
+  - may be considered X-linked dominant
 
 * Laboratory Investigations
 ** Biochemistry
@@ -81,7 +82,7 @@
 
 * Treatment
 - alleviate pain
-  - chronic low dose of diphenylhydantoin
+  - chronic low dose of phenytoin
   - carbamazapine, gabapentin
 - dialysis or renal transplantation
 - long term experience with ERT

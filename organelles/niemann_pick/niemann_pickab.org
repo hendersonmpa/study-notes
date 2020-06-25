@@ -26,17 +26,13 @@
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./figures/sphingomyelinase.png]]
 
-* Genetics
-- AR, SMPD1
-- good phenotype-genotype correlation
-
 * Clinical Findings
 ** Niemann-Pick A symptoms
 - fatal 1.5-3 years
 - hepatosplenomegaly by age 3 months
 - failure to thrive
 - psychomotor regression at 1 year
-  - progressive loss of abilities – mental and physical
+  - progressive loss of mental and physical abilities
 - interstitial lung disease resulting in lung infections and lung failure
 - *cherry-red spot identified with eye examination (100%)*
 ** Niemann-Pick B symptoms
@@ -46,6 +42,9 @@
 - short stature
 - *cherry-red spot identified with eye examination (50%)*
 
+* Genetics
+- AR SMPD1
+- good phenotype-genotype correlation
 * Diagnostic Tests
 - \Downarrow ASM activity in leukocytes or cultured cells
   - use of native or radio-labelled substrate preferred to fluorescent substrate

@@ -30,9 +30,9 @@
 - accumulation of autofluorescent ceroid lipopigments mainly in
   neural tissues
   - saposins A and D in infantile forms
-  - subunit c of mitochondrial ATP synthase (SCMAS) in late infantile
-    and juvenile forms
-  - not disease causing, they are secondary markers
+  - subunit c of mitochondrial ATP synthase in late infantile and
+    juvenile forms
+  - not disease causing they are secondary markers
 - many CLN proteins
   - many in lysosome but also mitochondria, ER and vesicular membranes
 - role in autophagy and apoptosis
@@ -44,11 +44,12 @@
 * Genetics
 - AR
 - adult form is AD
-
 * Diagnostic Tests
 - electrophysiological studies
 - EM tissue biopsy with vacuolated lymphocytes
 - WBC or fibroblast enzyme studies
+  - CLN1 or 2
+  - cathepsin D or F
 
 * Treatment 
 - symptomatic treatment

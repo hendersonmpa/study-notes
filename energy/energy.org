@@ -71,7 +71,6 @@
 
  \ce{FADH2 <=>[ETF/ETF-CO] FAD + 2H+}
 
-
 ** Ketone Redox Rxn
 - hydroxybutyrate dehydrogenase :: reduced to \beta-hydroxybutyrate
 

@@ -6,12 +6,8 @@
 #+DRAWERS: PROPERTIES
 #+LaTeX_CLASS: koma-article
 #+OPTIONS: H:3 toc:2 num:t ^:t
-#+PROPERTY: header-args:R :session *R*
-#+PROPERTY: header-args :cache no
-#+PROPERTY: header-args :tangle yes
 #+STARTUP: overview
 #+STARTUP: indent
-#+LaTeX_header: \usepackage{dejavu}
 #+latex_header: \hypersetup{colorlinks,linkcolor=black,urlcolor=blue}
 #+LaTeX_header: \usepackage{textpos}
 #+LaTeX_header: \usepackage{textgreek}
@@ -26,7 +22,7 @@
 #+LaTeX_HEADER: \usepackage{tikz}
 #+LaTeX_HEADER: \usepackage{wasysym}
 #+LaTeX_HEADER: \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
-#+LaTeX_HEADER: \usepackage[automark, autooneside=false, headsepline, footsepline]{scrlayer-scrpage}
+#+LaTeX_HEADER: \usepackage[automark, autooneside=false, headsepline]{scrlayer-scrpage}
 #+LaTeX_HEADER: \clearpairofpagestyles
 #+LaTeX_HEADER: \ihead{\leftmark}% section on the inner (oneside: right) side
 #+LaTeX_HEADER: \ohead{\rightmark}% subsection on the outer (oneside: left) side

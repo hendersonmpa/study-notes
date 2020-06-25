@@ -4,9 +4,15 @@
 
 * Introduction
 - intralysosomal cystine is formed by protein catabolism in the organelle
-- normally exported by a cystine porter which contains the membrane protein cystinosin
+
+#+CAPTION[]:Cystine
+#+NAME: fig:cys
+#+ATTR_LaTeX: :width 0.2\textwidth
+[[file:./figures/cystine.png]]
+
+- normally exported by a cystine porter which contains the membrane protein cystinosin (Figure [[fig:lysexport]])
   - defects in cystinosin cause lysosomal accumulation of cystine
-- cysteamine can enter into the lysosome and combine with cystine results in the formation of:
+- cysteamine can enter into the lysosome and combine with cystine to form:
   - cysteine
     - exported by the cysteine porter
   - cysteine-cysteamine
@@ -17,18 +23,13 @@
 #+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./figures/lysexport.png]]
 
-#+CAPTION[]:Cystine
-#+NAME: fig:cys
-#+ATTR_LaTeX: :width 0.2\textwidth
-[[file:./figures/cystine.png]]
-
 - cystinosis is a lysosomal storage disease classified into three
   clinical phenotypes:
   1) nephropathic or infantile - common form
   2) late-onset - rare milder form
   3) ocular - presence of cystine crystals in the eye and the bone
      marrow
-- nephropathic or infantile form is by far the most frequent (see [[Infantile Cystinosis]])
+- nephropathic or infantile form is by far the most frequent (Section [[Infantile Cystinosis]])
 - late-onset or juvenile form and a benign or adult form are limited to the eyes
   - are caused by mutations of the same gene
 
@@ -36,9 +37,9 @@
 ** Clinical Presentation
 *** First stage
     - 3-6 months symptom free
-    - symptoms @ 12 months
+    - symptoms ~12 months
     - feeding difficulties, anorexia, vomiting, polyuria, constipation
-    - rickets @ 10-18 months
+    - rickets ~10-18 months
     - urine cloudy w glucose and protein \to Fanconi syndrome
     - normoglycemic glycosuria, generalized aminoaciduria, low
       molecular-weight proteinuria
@@ -48,7 +49,7 @@
 	hypokalemia, hyponatremia and metabolic acidosis
       - hypercalciuria may lead to nephrocalcinosis and hypouricemia is constant
       - tubular loss of carnitine may cause carnitine depletion
-    - photophobia @ 2-3 years
+    - photophobia ~2-3 years
       - slit lamp reveals cystine crystals first year of life
 
 *** End-stage renal failure

@@ -5,10 +5,7 @@
 :PROPERTIES:
 #+DRAWERS: PROPERTIES
 #+LaTeX_CLASS: koma-article
-#+OPTIONS: H:2 toc:t num:t ^:t
-#+PROPERTY: header-args:R :session *R*
-#+PROPERTY: header-args :cache no
-#+PROPERTY: header-args :tangle yes
+#+OPTIONS: H:3 toc:2 num:t ^:t
 #+STARTUP: overview
 #+STARTUP: indent
 #+latex_header: \hypersetup{colorlinks,linkcolor=black,urlcolor=blue}
@@ -32,7 +29,6 @@
 
 * Sphingolipid Synthesis
 #+INCLUDE: "./sphingolipid_synthesis/sphingolipid_synthesis.org" :lines "4-"
-
 * Sphingolipidoses
 
 #+CAPTION[]: Sphingolipidoses
@@ -126,7 +122,7 @@
 * Niemann-Pick C
 #+INCLUDE: "./niemann_pick/niemann_pickc.org" :lines "4-"
 
-* Neuronal Ceroid Lipfuscinoses
+* Neuronal Ceroid Lipofuscinoses
 #+INCLUDE: "./ncl/ncl.org" :lines "4-"
 * Mucopolysaccharidoses
 #+INCLUDE: "./mps/mps.org" :lines "4-"

@@ -11,7 +11,7 @@
   - catabolism of galactocerebroside, a major lipid in myelin, kidney, and epithelial cells of the small intestine and colon. 
   - results in accumulation of galactocerebroside in pathognomonic globoid cells
     - multinucleated microglia/macrophages seen in the white matter
-- accumulation of galactosylspingosine (psychosine) in oligodendrocytes and Schwann cells
+- accumulation of psychosine (galactosylspingosine) in oligodendrocytes and Schwann cells
 
 #+CAPTION[]:Galactocerebrosidase
 #+NAME: fig:bgal
@@ -32,14 +32,8 @@
 - they are required for /in vivo/ degradation of sphingolipids with
   short carbohydrate chains
 
-* Genetics
-- AR GALC
-- recurrent 30 kb deletion extends from intron 10 to intron 17
-  - infantile onset disease in homozygotes
-
 * Clinical Findings
 - Krabbe disease is a spectrum from infantile to late-onset
-
 
 - *infantile-onset* (age <12 months)
 
@@ -68,6 +62,11 @@
 - NBS suggests that the proportion of individuals with later-onset
   Krabbe disease is higher than previously thought
 
+* Genetics
+- AR GALC
+- recurrent 30 kb deletion extends from intron 10 to intron 17
+  - infantile onset disease in homozygotes
+
 * Diagnostic Tests
 - diagnosis suspected in a symptomatic proband based on clinical
   findings and other supportive laboratory, neuroimaging, and
@@ -76,9 +75,8 @@
   - abnormal results require follow-up molecular genetic testing of GALC
   - elevated psychosine levels can also help establish the diagnosis
 
-- in an asymptomatic newborn with low GALC enzyme activity
-  on dried blood spot specimens on NBS
-- urgent time-critical measurement of:
+- in an asymptomatic newborn with low GALC enzyme activity on dried
+  blood spot specimens on NBS urgent time-critical measurement of:
   - blood psychosine levels
   - GALC molecular genetic testing
   - necessary to identify, before age 14 days, newborns with evidence
@@ -95,8 +93,8 @@
   - 6-hexadecanoylamino-4-MU-\beta-d-galactopyranoside
 
 - \uparrow DBS psychosine
-  - as an amphipathic molecule, psychosine partitions largely into
-    cellular membranes
+  - an amphipathic lipid that partitions largely into cellular
+    membranes
   - second-tier assay for infants with reduced galactocerebrosidase activity
   - diagnose and monitor patients with Krabbe disease and Saposin A
     cofactor deficiency

@@ -24,7 +24,7 @@
   concentration in the CNS
   - predominantly in the gray matter
 - GABA modulates brain activity by binding to
-  sodium-independent,high-affinity, mostly GABA A receptors
+  sodium-independent high-affinity  mostly GABA A receptors
 - glycine is one of the major inhibitory neurotransmitters in the CNS
 - inhibitory glycine receptors are mostly found in the brain stem
   and spinal cord
@@ -37,7 +37,7 @@
   - three receptor defects (section [[Receptors and Transporters of Neurotransmitters]])
   - three transportopathies are reported (section [[Receptors and Transporters of Neurotransmitters]])
   - six disorders of monoamine metabolism (section [[Monoamine Metabolism]])
-  - see amino acids for disorders of glycine metabolism
+  - see Amino Acids for disorders of glycine metabolism
 * GABA catabolism
 - three defects of \gamma-aminobutyric acid (GABA) catabolism have been reported:
   1) GABA transaminase deficiency (very rare, severe, and untreatable)
@@ -47,12 +47,12 @@
 #+CAPTION[]: Brain metabolism of GABA: 1 glutamic acid decarboxylase; 2 GABA transaminase; 3 succinic semialdehyde dehydrogenase
 #+NAME: fig:gaba
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./neuro/figures/gaba.png]]
+[[file:./figures/gaba.png]]
 
-#+CAPTION[]: \gamma-aminobutryic acid
+#+CAPTION[]: \gamma-aminobutryic acid metabolism
 #+NAME: fig:gaba2
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./neuro/figures/Slide23.png]]
+[[file:./figures/Slide23.png]]
 
 ** Succinic Semialdehyde Dehydrogenase Deficiency
 - first reported as \gamma-hydroxybutyric aciduria (4-hydroxybutyric
@@ -97,9 +97,9 @@
   epilepsy (sudden unexplained death in epilepsy or SUDEP)
 - therapeutic intervention has historically employed vigabatrin
   - an irreversible inhibitor of GABA-transaminase
-- beneficial in some
-- remains to be determined whether enhancing GABA levels in SSADHD
-  (which are already elevated) is prudent
+  - beneficial in some
+  - remains to be determined whether enhancing GABA levels in SSADHD
+    (which are already elevated) is prudent
 
 * Receptors and Transporters of Neurotransmitters
 - receptors defects:
@@ -119,23 +119,6 @@
 * Monoamine Metabolism
 - the monoamines: adrenaline, noradrenaline, dopamine, and serotonin
   are metabolites of the amino acids tyrosine and tryptophan
-- first step in formation is catalysed by amino-acid-specific
-  hydroxylases which require tetrahydrobiopterin (BH_4) as a cofactor
-  (Figure [[fig:monoamines]])
-- synthesis of BH_4 from GTP is initiated by the rate-limiting GTP
-  cyclohydrolase (GTPCH)
-  - forms dihydroneopterin triphosphate
-- BH_4 is also a cofactor of phenylalanine hydroxylase
-- B_6-dependent aromatic L-amino acid decarboxylase (AADC) converts:
-  - L-dopa \to dopamine, the precursor of the catecholamines,
-    adrenaline and noradrenaline
-  - 5-hydroxytryptophan (5-HTP) to serotonin (AKA 5-hydroxytryptamine)
-- adrenaline and noradrenaline are catabolized into vanillylmandelic
-  acid (VMA) and 3-methoxy-4-hydroxyphenylethyleneglycol (MHPG) via
-  monoamino oxidase A (MAO-A)
-- MOA-A is also involved in the catabolism of
-  - dopamine into homovanillic acid (HVA) via 3-methoxytyramine (3-MT)
-  - serotonin into 5-hydroxyindoleacetic acid (5-HIAA)
 - dopaminergic modulation of ion fluxes regulates emotion, activity,
   behaviour, nerve conduction, and the release of a number of hormones
   via G-protein-coupled cell-surface dopamine
@@ -143,21 +126,39 @@
 - serotoninergic neurotransmission modulates body temperature, blood
   pressure, endocrine secretion, appetite, sexual behaviour, movement,
   emesis, and pain
+- first step in formation is catalysed by amino acid specific
+  hydroxylases which require tetrahydrobiopterin (BH_4) as a cofactor
+  (Figure [[fig:amines]])
+- synthesis of BH_4 from GTP is initiated by the rate-limiting GTP
+  cyclohydrolase (GTPCH)
+  - forms dihydroneopterin triphosphate
+  - see Phenylalanine
+- BH_4 is also a cofactor of phenylalanine hydroxylase
+- B_6-dependent aromatic L-amino acid decarboxylase (AADC) converts:
+  - L-dopa \to dopamine, the precursor of the catecholamines,
+    adrenaline and noradrenaline
+  - 5-hydroxytryptophan (5-HTP) to serotonin (AKA 5-hydroxytryptamine)
+- monoamino oxidase A (MAO-A) is involved in the catabolism of
+  - adrenaline to vanillylmandelic acid (VMA)
+  - noradrenaline to 3-methoxy-4-hydroxyphenylethyleneglycol (MHPG)
+  - dopamine to homovanillic acid (HVA) via 3-methoxytyramine (3-MT)
+  - serotonin to 5-hydroxyindoleacetic acid (5-HIAA)
+
 
 #+CAPTION[]:Tetrahydrobiopterin metabolism
 #+NAME: fig:bh4
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./neuro/figures/Slide21.png]]
+[[file:./figures/Slide21.png]]
 
 #+CAPTION[]: Biogenic Amines
 #+NAME: fig:amines
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./neuro/figures/Slide22.png]]
+[[file:./figures/Slide22.png]]
 
 #+CAPTION[]:Metabolism of adrenaline, noradrenaline, dopamine and serotonin
 #+NAME: fig:monoamines
-#+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./neuro/figures/monoamines.png]]
+#+ATTR_LaTeX: :width 1.0\textwidth
+[[file:./figures/monoamines.png]]
 
 
 ** Tyrosine hydroxylase (TH) deficiency
@@ -173,17 +174,17 @@
   - \Downarrow plasma noradrenaline and adrenaline
   - \uparrow plasma dopamine
 ** Aromatic-amino Acid Decarboxylase (AADC) deficiency
-  - located upstream of the neurotransmitter amines
+- located upstream of the neurotransmitter amines
+  - \downarrow synthesis of seratonin and dopamine   
   - treatment can be challenging
-  - \downarrow CSF HVA and 5-HIAA
-  - \uparrow CSF 3-O-methyl-l-dopa and 5-HTP 
-  - normal pterin concentrations
-  - \uparrow urine vanillyllactic acid in organic acids
+- \downarrow CSF HVA and 5-HIAA
+- \uparrow CSF 3-O-methyl-l-dopa and 5-HTP 
+- normal pterin concentrations
+- \uparrow urine vanillyllactic acid in organic acids
 ** Monoamine-oxidase A (MAO-A) deficiency
   - located downstream, mainly causes behavioural disturbances
   - no effective treatment is known
-  - \uparrow random urine serotonin, normetanephrine, metanephrine, and 3-MT
-  - abnormal normetanephrine:VMA, normetanephrine:MHPG, HVA:VMA ratios
+  - \uparrow urine serotonin, normetanephrine, metanephrine and 3-MT
 ** GTPCH and SR deficiency 
 - dopamine responsive dystonia (Figure [[fig:bh4]] and Table [[tab:biop]])
 - GTPCH catalyses the first step in BH_4 synthesis

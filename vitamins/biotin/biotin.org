@@ -8,15 +8,15 @@
 - coenzyme for five important carboxylases involved in
   gluconeogenesis, fatty acid synthesis and the catabolism of several
   amino acids
-  1) acetyl-CoA carboxylase (ACC)
+  - acetyl-CoA carboxylase (ACC)
   \ce{acetyl-CoA ->[ACC] malonyl-CoA} 
-  2) propionyl-CoA carboxylase (PCC)
+  - propionyl-CoA carboxylase (PCC)
   \ce{propionyl-CoA ->[PCC] methlymalonyl-CoA}
-  3) 3-methylcrotonyl carboxylase (MCC)
+  - 3-methylcrotonyl carboxylase (MCC)
   \ce{3-methycrotonyl-CoA ->[MCC] 3-methylglutaconyl-CoA}
-  4) pyruvate carboxylase (PC)
+  - pyruvate carboxylase (PC)
   \ce{pyruvate + ATP + CO2 ->[PC] oxaloacetate + ADP + Pi}
-  5) urea carboxylase (UC)
+  - urea carboxylase (UC)
   \ce{ATP + urea + HCO3- ->[UC] ADP + Pi + urea-1-carboxylate}
 
 - covalent binding of biotin to the inactive apocarboxylases
@@ -165,8 +165,8 @@
  - biotin is lost in the urine, mainly as biocytin
 
 ** Genetics
-- HCS :: AR , HLCS
-- Biotinidase :: AR, BTD
+- HCS :: AR HLCS
+- Biotinidase :: AR BTD
 
 ** Diagnostic Tests
 - characteristic organic aciduria is the key feature of MCD

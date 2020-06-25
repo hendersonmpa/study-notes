@@ -5,7 +5,7 @@
 #+CAPTION[]:Purine and Pyrimidine Metabolism
 #+NAME: fig:pp
 #+ATTR_LaTeX: :width 1\textwidth
-[[file:./pp/figures/Slide17.png]]
+[[file:./figures/Slide17.png]]
 
 * Purine Metabolism
 ** Introduction
@@ -15,7 +15,7 @@
   - biosynthetic pathway often termed /de novo/
     - starts with the formation of phosphoribosyl pyrophosphate (PRPP)
       and leads to the synthesis of IMP
-    - IMP interconversions to AMP and GMP
+    - IMP conversion to AMP and GMP
       - \to di- and triphosphates and deoxyribonucleotides
   - catabolic pathway
     - starts from GMP, IMP and AMP
@@ -42,7 +42,7 @@
     - adenylate kinase (AK)
     - adenosine deaminase (ADA)
     - purine nucleoside phosphorylase (PNP)
-    - xanthine oxidase (XO)
+    - xanthine oxidase (XO, also termed xanthine dehydrogenase
   - purine salvage
     - hypoxanthine-guanine phosphoribosyltransferase (HPRT)
     - adenine phosphoribosyltransferase (APRT)
@@ -59,7 +59,7 @@
 #+CAPTION[]:Purine Metabolism:1 PRPP synthetase; 2 adenylosuccinase; 3 AICAR transformylase; 4 IMP cyclohydrolase; 5 adenylosuccinate synthetase; 6 AMP deaminase; 7 5‘-nucleotidase; 8 adenosine deaminase; 9 purine nucleoside phosphorylase; 10 hypoxanthine-guanine phosphoribosyltransferase; 11 adenine phosphoribosyltransferase; 12 adenosine kinase; 13 guanosine kinase; 14 xanthine oxidase
 #+NAME: fig:pur
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./pp/figures/purine_met.png]]
+[[file:./figures/purine_met.png]]
 
 ** Phosphoribosyl Pyrophosphate Synthetase Superactivity
 *** Clinical Presentation
@@ -78,7 +78,7 @@
   - \uparrow purine synthesis to \uparrow uric acid
 
 *** Genetics
-- X-linked, PRPS1
+- *XL PRPS1*
 
 *** Diagnostic Tests
 - extensive kinetic studies of the enzyme in erythrocytes and cultured
@@ -108,7 +108,7 @@
 *** Metabolic Derangement
 - AMPD, adenylosuccinate synthetase and adenylosuccinase form the
   purine nucleotide cycle
-\ce{AMP + H2O ->[AMD1] IMP + NH3}
+\ce{AMP + H2O ->[AMPD] IMP + NH3}
 
 *** Genetics
 - AR AMPD1
@@ -156,7 +156,7 @@
 - ADA deficiency affects to varying extent bone, brain, lung and liver
 
 *** Genetics
-- AR, ADA1
+- AR ADA1
   - ~ 40% of SCID
 
 *** Diagnostic Tests
@@ -200,13 +200,14 @@
   symptoms in its deficiency
 
 *** Genetics 
-- AR, PNP 
+- AR PNP 
 
 *** Diagnostic Tests
 - \downarrow plasma uric acid
+- \uparrow  plasma guanosine, deoxyguanosine, inosine, deoxyinosine
 - \downarrow urine uric acid
   - other causes of hypouricemia such as xanthine oxidase deficiency,
-    and drug administration (acetylsalicylic acid, thiazide diuretics),
+    and drug administration (acetylsalicylic acid, thiazide diuretics)
     should be ruled out
 - RBC enzyme activity
 
@@ -214,9 +215,11 @@
 - bone marrow transplantation
 - repeated transfusions of irradiated erythrocytes
 
-** Xanthine Oxidase Deficiency
+** Xanthinuria 
+- Xanthine Oxidase Deficiency
+- Xanthine Dehydratase Deficiency
 *** Clinical Picture
-- three types of deficiencies of xanthine oxidase, all cause
+- three types of deficiencies of *xanthine oxidase* all cause
   xanthinuria
   1) type I classical xanthinuria
      - isolated XO deficiency
@@ -232,8 +235,11 @@
 - deficiency of XO results in the near total replacement of uric acid,
   in plasma and urine, by hypoxanthine and xanthine as the end
   products of purine catabolism
-  - \ce{hypoxanthine + H2O + O2 ->[XO] xanthine + H2O2}
-  - \ce{xanthine + H2O + O2 ->[XO] uric acid + H2O2}
+
+\ce{hypoxanthine + H2O + O2 ->[XDH] xanthine + H2O2}
+
+\ce{xanthine + H2O + O2 ->[XDH] uric acid + H2O2}
+
 - plasma hypoxanthine is not or minimally elevated
   - due to reutilization by hypoxanthine-guanine phospho-ribosyltransferase
 - plasma xanthine \uparrow 10x
@@ -241,6 +247,9 @@
   analogues - allopurinol
 - combined XO, AO, and SO deficiency is caused molybdenum cofactor
   (MoCo) deficiency (see Sulfur Amino Acids)
+
+*** Genetics
+- AR XDH 
 
 *** Diagnostic Tests
 - \downarrow plasma uric acid
@@ -265,7 +274,7 @@
   - compulsive self-destructive behaviour involving biting of their
     fingers and lips
   - physical and verbal aggression
-- speech is hampered by athetoid dysarthria
+- speech is hampered by athetoid (writhing) dysarthria 
 - most patients have IQ’s around 60-70, some display normal intelligence
 - form uric acid stones
 - if untreated, the uric acid nephrolithiasis progresses to
@@ -274,7 +283,13 @@
 
 *** Metabolic Derangement
 - hypoxanthine-guanine phosphoribosyltransferase deficiency
-\ce{hypoxanthine + quanine + PRPP ->[HPRT] IMP + GMP}
+
+\ce{hypoxanthine + PRPP ->[HPRT] IMP + P2O2^4-}
+
+\ce{quanine + PRPP ->[HPRT] GMP + P2O2^4-}
+
+\ce{xanthine + PRPP ->[HPRT] XMP + P2O2^4-}
+
 - transfers the 5-phosphoribosyl group from 5-phosphoribosyl
   1-pyrophosphate (PRPP) to the purine
 - HGPRT plays a central role in the generation of purine nucleotides
@@ -283,7 +298,7 @@
   - due to \uparrow /de novo/ purine synthesis
 
 *** Genetic
-- *XLR*, HPRT
+- *XL HPRT*
 
 *** Diagnostic Tests
 - \Uparrow urine and plasma uric acid
@@ -334,7 +349,7 @@
 [[file:./pp/figures/pyrimidine_met.png]]
 
 ** UMP Synthase Deficiency 
-- AKA: Hereditary Orotic Aciduria
+- AKA Hereditary Orotic Aciduria
 *** Clinical Presentation
 - megaloblastic anaemia a few weeks or months after birth
   - usually the first manifestation
@@ -363,7 +378,7 @@
   megaloblastic anemia
 
 *** Genetics
-- AR, UMPS
+- AR UMPS
 
 *** Diagnostic Tests
 - \Uparrow urine orotic acid, 200-1000X
@@ -391,7 +406,7 @@
   - accumulation of uracil and thymine
 
 *** Genetics
-- AR, DPYD 
+- AR DPYD 
 
 *** Diagnostic Tests
 - \Uparrow urine uracil

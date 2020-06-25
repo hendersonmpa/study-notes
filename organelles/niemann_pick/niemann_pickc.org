@@ -35,9 +35,6 @@
 - NPC2 acts in cooperation with the NPC1
 - disruption of transport results in accumulation of cholesterol and glycolipids in lysosomes
 
-* Genetics
-- AR NPC1 (95%) and NPC2 (5%)
-
 * Clinical Findings
 - onset of the disease can happen at any age
   - often school age children
@@ -70,6 +67,8 @@
 - variable cognitive dysfunction
 - vertical gaze palzy common
 
+* Genetics
+- AR NPC1 (95%) and NPC2 (5%)
 * Diagnostic Tests
 - foamy and sea-blue histiocytes may be found in bone marrow aspirates
 - plasma and DBS
@@ -92,8 +91,8 @@
 * Treatment
 - substrate reduction therapy
   - miglustat approved for treatment of neurological manifestations
-  - miglustat is an iminosugar, a synthetic analogue of D-glucose
-  - inhibits synthesis of glycosphingolipids
+    - an iminosugar a synthetic analogue of D-glucose
+    - inhibits synthesis of glycosphingolipids
 
 
 

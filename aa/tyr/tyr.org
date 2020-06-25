@@ -7,8 +7,10 @@
 - a precursor of DOPA, thyroxine and melanin
 
 #+BEGIN_EXPORT LaTeX
+\begin{center}
 \chemnameinit{}
 \chemname{\chemfig{HO-[0]*6(-=-(-[1]-[7](<[6]NH_2)-[1](=[2]O)-[7]OH)=-=-)}}{\small tyrosine}
+\end{center}
 #+END_EXPORT
 
 - glucogenic and ketogenic \to catabolism in liver cytosol \to fumarate and acetoacetate
@@ -75,7 +77,9 @@
 
 ** Metabolic Derangement
 - deficiency of the enzyme *fumarylacetoacetate hydrolase (FAH)*
+
   \ce{fumarylacetoacetate ->[FAH] fumarate + acetoacetate}
+
 - mainly expressed in the liver and kidney
 - compounds immediately upstream from the FAH reaction,
   maleylacetoacetate (MAA) and fumarylacetoacetate (FAA), and their
@@ -95,7 +99,7 @@
 - SA is a potent inhibitor of ALAD
 
 ** Genetics
-- AR, FAH
+- AR FAH
 - most common mutation is c.1062+5G>A
   - is found in about 25% of the alleles worldwide
   - predominant mutation in the French-Canadian population, in which
@@ -138,13 +142,15 @@
 
 ** Metabolic Derangement
 - *hepatic cytosolic tyrosine aminotransferase*
+
   \ce{tyrosine ->[TAT] 4-hydroxyphenylpyruvate}
+
   - \uparrow tyrosine in CSF and serum
 - \uparrow phenolic acids 4-hydroxyphenylpyruvate,
   4-hydroxyphenyllactate and 4-hydroxyphenylacetate via AST (Figure [[fig:tyr]])
 
 ** Genetics
-- AR, TAT
+- AR TAT
 
 ** Diagnostic Tests
 - \Uparrow plasma tyrosine > 1200 umol/L
@@ -165,11 +171,13 @@
 - most common long-term complication is intellectual impairment
 ** Metabolic Derangement
 - 4-hydroxyphenylpyruvate dioxygenase
+
 \ce{4-hydroxyphenylpyruvate ->[HPD] homogentisate}
+
 - \uparrow plasma tyrosine
 - \uparrow urine 4-hydroxyphenylpyruvate, 4-hydroxyphenyllactate and 4-hydroxyphenylacetate
 ** Genetics 
-- AR, HPD
+- AR HPD
 ** Diagnostic Tests
 - \uparrow plasma tyrosine 300-1300 umol/L
 - urine organic acids
@@ -188,11 +196,13 @@
 - first identified IEM in 1902 by Garrod
 - *homogentisate dioxygenase* expressed mainly in the liver and the
   kidneys
+
 \ce{homogentisate ->[HGD] maleylacetoacetate}
+
 - accumulation of homogentisate and its oxidised derivative
   benzoquinone acetic acid (the toxic metabolite) in various tissues
 ** Genetics
-- AR, HGD
+- AR HGD
 - 1:250000-1:1000000
 ** Diagnostic Tests
 - alkalinisation of the urine \to immediate dark brown colour
@@ -218,14 +228,16 @@
 - thought to derive from in-complete conversion of
   4-hydroxyphenylpyruvate to homogentisate caused by a defect in
   *4-hydroxyphenylpyruvate dioxygenase*
+
 \ce{4-hydroxyphenylpyruvate ->[HPD] homogentisate}
+
 - hawkinsin is product of a reaction of an epoxide intermediate with
   glutathione, which may be depleted
 - metabolic acidosis due to 5-oxoproline accumulation secondary to
   glutathione depletion
 
 ** Genetics
-- AD, HPD, A33T
+- AD HPD A33T
 - mutations that lead to a retention of partial HPD function
   - production of hawkinsin and 4-hydroxycyclohexylacetate
 ** Diagnostic Tests

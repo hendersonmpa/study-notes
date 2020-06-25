@@ -38,7 +38,7 @@
 
 #+CAPTION[Sphingolipid Structure]: Sphingolipid Structure
 #+NAME: fig:structure
-#+ATTR_LaTeX: :width \textwidth
+#+ATTR_LaTeX: :width 1.1\textwidth
 file:./figures/Sphingolipids_general_structures.png
 
 
@@ -50,17 +50,17 @@ file:./figures/Sphingolipids_general_structures.png
 * Disorders of Sphingolipid Synthesis
 ** Classification
 *** Primarily nervous system involvement
-- serine palmitoyltransferase - peripheral sensory neuropathy
-- ceramide synthase 1 - myoclonic epilepsy
-- ceramide synthase 2 - myoclonic epilepsy
-- fatty acid 2-hydroxylase - spastic paraplegia
-- non-lysosomal \beta-Glucosidase - spastic paraplegia
-- GM3 synthase deficiency - amish infantile epilepsy
-- GM2/GD2 synthase deficiency - spastic paraplegia
+- serine palmitoyltransferase :: peripheral sensory neuropathy
+- ceramide synthase 1 :: myoclonic epilepsy
+- ceramide synthase 2 :: myoclonic epilepsy
+- fatty acid 2-hydroxylase :: spastic paraplegia
+- non-lysosomal \beta-Glucosidase :: spastic paraplegia
+- GM3 synthase deficiency :: amish infantile epilepsy
+- GM2/GD2 synthase deficiency :: spastic paraplegia
 
 *** Primarily skin involvement
-- ceramide synthase 3 - ichthyosis
-- ULCFA \omega-hydrolase - ichthyosis
+- ceramide synthase 3 :: ichthyosis
+- ULCFA \omega-hydrolase :: ichthyosis
 
 ** Serine Palmitoyltransferase (Subunit 1 or 2) Deficiency
 - defect in first step of sphingolipid biosynthesis 

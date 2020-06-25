@@ -39,9 +39,8 @@
   - LTC4-Synthase Deficiency
 
 
-#+CAPTION[]:Diagnostic Investigations
+#+CAPTION[]:Biochemical Findings in Peroxisomal Disease
 #+NAME: tab:peroxd
-
 | Disease | VLCFA    | plasmalogens    | phytanic      | pristanic       | bile acids    |
 |---------+----------+-----------------+---------------+-----------------+---------------|
 | ZS      | \uparrow | \downarrow or N | \uparrow or N | \uparrow or N   | \uparrow or N |
@@ -59,7 +58,7 @@
      - males may present with ADD or behavioural changes
      - followed by severe visual and hearing impairment, quadriplegia and
        cerebellar ataxia
-  2. adrenomyeloneuropathy
+  2. Adrenomyeloneuropathy (AMN) 
      - 65% of adult X-ALD male patients (20-50 years)
      - up to 88% of heterozygous women (\gt40 years)
      - presentation is progressive spastic paraparesis and sensory ataxia
@@ -70,7 +69,7 @@
          develops by middle age
 
 ** Metabolic Derangement
-- deficiency in ALDP a peroxisomal ABC transporter
+- deficiency in *ALDP a peroxisomal ABC transporter*
   - required for import of VLCFAs (\pm CoA) into peroxisomes
     - \uparrow VLCFA-CoA in cytosol
     - incorporation into a variety of lipids including:
@@ -79,7 +78,7 @@
   white blood cells and plasma
 
 ** Genetics
-- X-linked ABCD1
+- *X-linked ABCD1*
 
 ** Diagnostic Tests
 - quantitative VLCFAs including: C22:0, C24:0, and C26:0 in plasma
@@ -95,7 +94,7 @@
 - false-positive results have been reported in:
   - patients on a ketogenic diet
   - recent ingestion of peanut butter
-
+- see table [[tab:peroxd]]
 ** Treatment
 - a boy born with X-ALD has a 35% risk of developing cerebral ALD
   between the age of 4-12 years
@@ -114,9 +113,9 @@
   - Infantile Refsum Disease
 - once thought to be distinct disorders but are now considered to be
   part of the same condition spectrum
-- Zellweger syndrome is the most severe form of the Zellweger spectrum disorder
-- NALD is intermediate in severity
-- IRD is the least severe form
+  - Zellweger syndrome is the most severe form of the Zellweger spectrum 
+  - NALD is intermediate in severity
+  - IRD is the least severe form
 
 ** Clinical Presentation
 *** Zellweger Syndrome
@@ -175,10 +174,10 @@
   - elevations in pipecolic acid also occur in:
     - pyridoxine-dependent epilepsy
     - sulfite oxidase deficiency
-- \uparrow pristanic
+- \uparrow pristanic and phytanic
 - DNA-panel containing all PEX genes or all genes coding for
   peroxisomal protein
-
+- see table [[tab:peroxd]]
 ** Treatment
 - no treatment available
 - supplementation with docosahexaenoic acid (DHA) is not beneficial
@@ -215,7 +214,7 @@
 - \Uparrow plasma phytanic acid 
   - phytanic acid is also increased in ZS
     - initially called infantile Refsum
-
+- see table [[tab:peroxd]]
 ** Treatment
 - dietary restriction of phytanic acid 
   - critical to minimize ongoing tissue accumulation
@@ -270,20 +269,23 @@
 - Rhizomelic Chondrodysplasia Punctata (RCDP) is the classical
   phenotype of a etherphospholipid biogenesis defect
 - patients with classical RCDP have:
-  - skeletal dysplasia characterized by rhizomelia, chondrodysplasia punctata (stippled calcification in epiphyseal cartilage), bone abnormalities, profound growth retardation and limited joint mobility,
+  - skeletal dysplasia characterized by rhizomelia, chondrodysplasia
+    punctata (stippled calcification in epiphyseal cartilage), bone
+    abnormalities, profound growth retardation and limited joint
+    mobility
   - congenital cataracts
   - facial abnormalities including a high forehead, flat midface and small upturned nose
 - three different disorders of EPL-biosynthesis:
-  1) PEX7 deficiency
+  1) *PEX7* deficiency
      - clinical phenotype associated with mutations in PEX7 is heterogeneous
        - ranging from the classical phenotype as described above to much
 	 milder phenotypes including RCDP without rhizomelia
        - bone dysplasia with only mild intellectual deficiency to a Refsum-like phenotype
-  2) glycerone 3-phosphate: acyltransferase (GNPAT) deficiency
+  2) *glycerone 3-phosphate: acyltransferase (GNPAT)* deficiency
      - rare (10 cases)
      - all presented with the characteristic severe clinical phenotype
        of RCDP with most patients dying in the first decade of life
-  3) alkylglycerone 3-phosphate synthase (AGPS) deficiency
+  3) *alkylglycerone 3-phosphate synthase (AGPS)* deficiency
      - rare (5 cases)
      - all had the severe lethal RCDP phenotype
 - recently two additional disorders of EPL biosynthesis have been
@@ -319,6 +321,7 @@
 
 ** Diagnostic Tests
 - \downarrow RBC plasmalogens
+- see table [[tab:peroxd]]
 *** RDCP1
 - \uparrow phytanic
 - \downarrow pristanic

@@ -8,8 +8,10 @@
   polyamines (e.g. putrescine and spermine)
 
 #+BEGIN_EXPORT LaTeX
+\begin{center}
 \chemnameinit{}
 \chemname{\chemfig{H_2N-[::30,,2,]-[::-60]-[::60]-[::-60](<[::-60]NH_2)-[::60](=[::60]O)-[::-60]OH}}{\small ornithine}
+\end{center}
 #+END_EXPORT
 
 - ornithine-\delta- aminotransferase (OAT) is a pyridoxal
@@ -34,8 +36,10 @@
   - \therefore uses a specific set of enzymes for metabolism
 
 #+BEGIN_EXPORT LaTeX
+\begin{center}
 \chemnameinit{}
 \chemname{\chemfig{*5(-\chembelow{N}{H}-(-(=[1]O)-[7]OH)---)}}{\small proline}
+\end{center}
 #+END_EXPORT
 
 - pyridinoline ring of proline and hydroxyproline contribute to the
@@ -95,7 +99,7 @@
   - inhibition of AGAT by \uparrow ornithine
 
 ** Genetics
-- AR, OAT
+- AR OAT
 
 ** Diagnostic Tests
 - most prominent biochemical abnormality in those ingesting an
@@ -118,8 +122,10 @@
 * HHH Syndrome
 - Hyperornithinaemia, Hyperammonaemia and Homocitrullinuria Syndrome
 #+BEGIN_EXPORT LaTeX
+\begin{center}
 \chemnameinit{}
 \chemname{\chemfig{H_2N-[::-30,,2,](=[::-60]O)-[::60]\chemabove{N}{H}-[::-60]-[::60]-[::-60]-[::60]-[::-60](<[::-60]NH_2)-[::60](=[::60]O)-[::-60]OH}}{\small homocitrulline}
+\end{center}
 #+END_EXPORT
 ** Clinical Presentation
 - broad spectrum, with some related to episodic hyperammonemia
@@ -142,7 +148,7 @@
   - homocitrulline from lysine
   - orotic acid 
 ** Genetics
-- AR, ORNT1 (aka SLC24A15)
+- AR ORNT1 (aka SLC24A15)
 - more frequent in Canada, as a result of a founder mutation in Quebec
 
 ** Diagnostic Tests
@@ -216,7 +222,7 @@
 - deficiency of proline oxidase a mitochondrial inner-membrane enzyme
 \ce{proline ->[POX] P5C}
 ** Genetics
-- AR, PRODH
+- AR PRODH
 - maps to 22q11, in the region deleted in the velocardiofacial
   syndrome/DiGeorge syndrome
 

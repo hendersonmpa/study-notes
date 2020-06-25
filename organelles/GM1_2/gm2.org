@@ -3,7 +3,7 @@
 #+DATE: \today
 
 * Introduction
-- \beta-hexosaminidase A deficiency 
+- *\beta-hexosaminidase A* deficiency 
   - impaired lysosomal catabolism of GM2 ganglioside
 - progressive cerebral degeneration
 - functional lysosomal \beta-hexosaminidase enzymes are dimeric
@@ -23,9 +23,9 @@
 - GM2 activator protein - sortilin
 
 - three genetic and biochemical subtypes
-  - Tay-Sachs disease ::  \alpha-subunit Hex A
-  - Sandhoff disease :: \beta-subunit Hex A&B 
-  - GM2 activator deficiency :: activator AB variant 
+  - Tay-Sachs disease ::  \alpha-subunit \to Hex A deficiency 
+  - Sandhoff disease :: \beta-subunit \to Hex A&B deficiencies
+  - GM2 activator deficiency :: activator \to AB variant 
 - GM2 storage in neurons in Tay-Sachs and Sandhoff
   - Sandhoff \uparrow asialo-GM2 in brain, globoside and oligosacarides in viseral organs
 
@@ -54,14 +54,6 @@
 
 [fn:gl] GL-3 & 4 AKA Gb3 & 4
 
-* Genetics
-- AR HEXA, HEXB and GM2A
-- > 130 mutations in HEXA
-  - ~ 3 alleles comprise ~95% of Askenazi Jewish disease alleles
-  - good correlation with phenotype 
-- > 40 mutations in HEXB
-- 6 in GM2A
-
 * Clinical Findings
 - see table [[tab:gm2ss]]
 #+CAPTION[]:GM2 Signs and Symptoms
@@ -74,19 +66,27 @@
 | neurological      | startle response  | seizures           | psychosis        |
 |                   | seizures          |                    |                  |
 
+* Genetics
+- AR HEXA, HEXB and GM2A
+- > 130 mutations in HEXA
+  - ~ 3 alleles comprise ~95% of Askenazi Jewish disease alleles
+  - good correlation with phenotype 
+- > 40 mutations in HEXB
+- 6 in GM2A
 * Laboratory Investigations
 - urine oligosacarides
 - /in vitro/ hexoaminidase activity: leukocytes, fibroblasts
   - 4-MU-6-sulfo-\beta-glucosaminide
   - specific for the \alpha subunit
 - falsely normal results in Tay-Sachs female carriers
+- the direct assay of hexosaminidase A using the sulfated synthetic
+  substrate (4-MU-6-sulfo-/beta-glucosaminide) specific for the \alpha-subunit
+  is the method of choice
 - total hexosaminidases (A+B) using a synthetic fluorogenic substrate
   allows the diagnosis of Sandhoff disease
 - differential assay of HexA using heat or acid
   inactivation does not identify patients with the B1 variant
-- the direct assay of hexosaminidase A using the sulfated synthetic
-  substrate (4-MU-6-sulfo-β-glucosaminide) specific for the \alpha-subunit
-  is the method of choice
+
 - high residual activity is found in Sandhoff disease
   - excess of hexosaminidase S (\alpha\alpha-dimer)
 - GM2 activator deficiency
@@ -95,7 +95,6 @@
 - electron microscopic examination of a skin or conjunctiva biopsy
   - concentric lamellated bodies in nerve endings
 - \uparrow CSF GM2
-
 
 * Treatment
 - treat seizures

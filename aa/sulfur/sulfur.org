@@ -5,11 +5,12 @@
 * Introduction
 
 #+BEGIN_EXPORT LaTeX
-
+\begin{center}
 \chemnameinit{}
 \chemname{\chemfig{H_3C-[1]S-[7]-[1]-[7](<[6]NH_2)-[1](=[2]O)-[7]OH}}{\small methionine}
 \chemnameinit{}
 \chemname{\chemfig{HS-[7]-[1]-[7](<[6]NH_2)-[1](=[2]O)-[7]OH}}{\small homocysteine}
+\end{center}
 #+END_EXPORT
 
 
@@ -109,7 +110,7 @@
   - converts methionine to SAM outside the liver
   - explains why MAT I/III deficiency is relatively benign
 ** Genetics
-- AR, MAT1A 
+- AR MAT1A 
 - some mutation are AD
 ** Diagnostic Tests
 - plasma methionine 50 to \gt 2000 umol/L
@@ -123,7 +124,7 @@
 - methionine restricted diet if met \gt 800 umol/L
 
 * Cystathionine \beta-Synthase Deficiency
-- AKA: Homocystinuria
+- AKA Homocystinuria
 ** Clinical Presentation
 - wide spectrum of severity and age at presentation
 - severity varies from
@@ -152,7 +153,7 @@
     stress, \Delta protein structure.
 
 ** Genetics
-- AR, CBS
+- AR CBS
 
 ** Diagnostic Tests
 - \Uparrow plasma total homocysteine (tHcy)
@@ -214,7 +215,7 @@
 - sulfite (SO_3^{2-}) can be detected in fresh urine using dipsticks but false
   positive and negative results occur
 - \uparrow urine or blood S-sulfocysteine is a more reliable indicator
-\ce{SO3^{2-} + cystine -> S-sulfocysteine}
+\ce{SO3^2- + cystine -> S-sulfocysteine}
   - S-sulfocysteine accumulation \to inhibition of antiquitin
     - secondary elevation of pipecolic acid
 - \uparrow plasma taurine and thiosulfate
@@ -245,7 +246,7 @@
 - sulfite can be detected in fresh urine using dipsticks
   - not reliable
 - \uparrow urine or blood S-sulfocysteine
-\ce{SO3^{2-} + cystine -> S-sulfocysteine}
+\ce{SO3^2- + cystine -> S-sulfocysteine}
   - S-sulfocysteine accumulation \to inhibition of antiquitin
     - secondary elevation of pipecolic acid
 - \uparrow plasma taurine
@@ -285,12 +286,11 @@
 
 ** Genetics
 - AR ETHE1 rare
-
 ** Diagnostic Tests
 - \uparrow lactate
 - \uparrow urine ethylmalonic and methylsuccinic
-- \uparrow urine C4- and C5-acylglycines
-- \uparrow plasma C4- and C5-acylcarnitines
+- \uparrow urine C4 and C5-acylglycines
+- \uparrow plasma C4 and C5-acylcarnitines
 - \Uparrow urine thiosulfate is also markedly elevated
 - diagnosis is confirmed by mutation analysis
 

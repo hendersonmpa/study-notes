@@ -16,7 +16,7 @@
   and lipids
 - rapidly growing disease family (N, O or GPI linked)
   - ~60 listed on NORD
-  - 1% of HG involved in glycosylation
+  - ~1% of human genome involved in glycosylation
 
 ** Synthesis of N-glycans
 1) formation in the cytosol of nucleotide-linked sugars
@@ -26,7 +26,8 @@
 2) stepwise assembly in the ER
    - addition of manose and glucose \to 14-unit oligosaccharide precuror
      - dolichol pyrophosphate-glcNac_2-man_9-glu_3 (AKA: dolichol-P)
-3) transfer of this precursor onto the nascent protein by OST
+3) transfer of this precursor onto the nascent protein by
+   oligosaccharyltransferase (OST)
    - processing of the glycan in the Golgi apparatus
      - trimming and attachment of various sugar units
 
@@ -63,7 +64,7 @@
 #+ATTR_LaTeX: :width 1\textwidth
 [[file:./figures/cdg_diag.png]]
 
-* PMM2-CDG (CDG Ia)
+* CDG Ia (PMM2-CDG)
 ** Clinical Presentation
 - ~70% CDGs
 - nervous system is affected in all patients
@@ -74,8 +75,8 @@
     subcutaneous adipose tissue distribution, inverted nipples
   - mild to moderate hepatomegaly, skeletal abnormalities and hypogonadism
 - cause of non-immune fetal hydrops
-- after infancy symptoms include retinitis pigmentosa, stroke-like episodes, \pm epilepsy
-- 1st year variable feeding problems anorexia, vomiting, diarrhoea \to failure to thrive
+- after infancy symptoms include retinitis pigmentosa, stroke-like episodes \pm epilepsy
+- 1st year variable feeding problems anorexia, vomiting, diarrhoea \to FTT
 - some infants develop a pericardial effusion \pm cardiomyopathy
 - other end of the clinical spectrum are patients with very mild
   phenotype - no dysmorphic features, slight intellectual disability
@@ -83,7 +84,7 @@
 ** Metabolic Derangement
 - deficiency of phosphomannomutase 2, principal isozyme of PMM
 - PMM2 catalyses the second committed step in the synthesis of GDP-mannose
-  - man-6-P \ce{<=>} man-1-P
+  - man-6-P \ce{<=>[PMM2]} man-1-P
   - occurs in the cytosol
 - GDP-mannose is used in the ER to assemble the dolichol-pyrophosphate
   oligosaccharide precursor
@@ -93,29 +94,30 @@
     - thyroxin-binding globulin, haptoglobin, clotting factor XI,
       antithrombin III, cholinesterase
   - lysosomal enzymes
-  - membranous glycoproteins
+  - membrane bound glycoproteins
 
 ** Genetics
-- AR, PMM2
+- AR PMM2
 
 ** Diagnostic Tests
 - \uparrow transaminases
 - \downarrow albumin
 - \downarrow cholesterol
 - tubular proteinuria
-- transferrin IEF - type I pattern
+- transferrin IEF - Type I pattern
 - activity of PMM should be measured to confirm the diagnosis
   leukocytes or fibroblasts
   - [2-H^3]mannose-6-phosphate
 - PMM activity in fibroblasts can be normal
+- see figure [[fig:cdg_diag]]
 
 ** Treatment
 - no effective treatment is available
 
-* MPI-CDG (CDG Ib)
+* CDG Ib (MPI-CDG)
 ** Clinical Presentation
 - onset in neonatal \to infancy
-- cyclic vomiting, profound hypoglycemia, failure to thrive, liver
+- cyclic vomiting, profound hypoglycemia, FTT, liver
   fibrosis, gastrointestinal complications
   - protein-losing enteropathy with hypoalbuminaemia, life-threatening
     intestinal bleeding of diffuse origin
@@ -124,7 +126,7 @@
 
 ** Metabolic Derangement
 - mannose-6 phosphate isomerase deficiency
-- F-6-P \ce{<=>} M-6-P
+- F-6-P \ce{<=>[MPI]} M-6-P
 
 ** Genetics
 - AR, MPI
@@ -132,14 +134,14 @@
 ** Diagnostic Tests
 - serum transferrin IEF - Type I pattern 
 - \downarrow MPI activity WBC, fibroblasts
-
+- see figure [[fig:cdg_diag]]
 ** Treatment
 - *treated effectively with oral mannose supplementation*
 - can be fatal if untreated
 - Saquenay-Lac Saint-Jean syndrome
 
 * Type II CDGs
-** MGAT2-CDG (CDG IIa)
+** CDG IIa (MGAT2-CDG)
 *** Clinical Presentation
 - onset in infancy, neonatal
 - facial dysmorphism: large, posteriorly rotated ears with prominent
@@ -159,10 +161,10 @@
 *** Diagnostic Tests
 - serum transferrin IEF - Type II pattern
 - \downarrow GnT II activity WBC, fibroblasts
-
+- see figure [[fig:cdg_diag]]
 *** Treatment 
 - none
-** SLC35C1-CDG (CDG IIc)
+** CDG IIc SLC35C1-CDG 
 *** Clinical Presentation
 - severe mental retardation, microcephaly, cortical atrophy, seizures,
   hypotonia, rhizomelic short stature, and recurrent infections with
@@ -176,14 +178,15 @@
 - AR SLC35C1
 
 *** Diagnostic Tests
-- normal transferrin IEF
+- *normal transferrin IEF*
 - molecular
+- see figure [[fig:cdg_diag]]
 *** Treatment
 - *fucose has been used to treat* thought that:
   - K_M mutants - treatable
   - V_{max} mutants - not treatable
 
-#+CAPTION[Hh]:Hh Blood Group
+#+CAPTION[Hh]: Bombay (hh) Blood Group
 #+NAME: fig:hh
 #+ATTR_LaTeX: :width 0.4\textwidth
 [[file:./figures/Bombay.png]]

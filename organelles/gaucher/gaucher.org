@@ -28,15 +28,6 @@
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./figures/glucocerebrosidase.png]]
 
-* Genetics
-- AR GBA 
-- most of the >300 disease alleles in Gaucher disease are missense
-  mutations
-- genotype/phenotype correlations exist for:
-  - Type 1 disease (N370S)
-  - Types 2 and 3 (L444P)
-- within these categories there is variable penetrance and
-  expressivity between individuals and ethnic groups
 
 * Clinical Findings
 - see table [[tab:gtype]]
@@ -57,7 +48,7 @@
 ** Gaucher Type 1
 - no neurological symptoms
 - clinical manifestations of Gaucher Type 1 are linked to macrophages
-  engorged with glucosylceramide
+  engorged with glucocerebroside
 
 - an undefined mechanism results in:
   - enlargement and dysfunction of the liver and spleen
@@ -90,16 +81,25 @@
 - Type 3 disease has a later onset, with slower progression of
   neurologic manifestations and variable degrees of systemic
   involvement
-- phenotype in Gaucher Type 3 disease is considerably more
+- phenotype in Type 3 disease is considerably more
   heterogeneous than that in Type 2
 - onset of symptoms occurs later, and neurologic involvement
   progresses more slowly
 - includes abnormalities in:
   - eye movements, seizures, intellectual deterioration
 - the same systemic manifestations occur as in Type 1 disease
-  - many Type 3 patients may be incorrectly classified as Type 1 when
+  - Type 3 patients may be incorrectly classified as Type 1 when
     first seen
 
+* Genetics
+- AR GBA 
+- most of the >300 disease alleles in Gaucher disease are missense
+  mutations
+- genotype/phenotype correlations exist for:
+  - Type 1 disease (N370S)
+  - Types 2 and 3 (L444P)
+- within these categories there is variable penetrance and
+  expressivity between individuals and ethnic groups
 * Laboratory Investigations
 #+CAPTION[]:Gaucher Cells in a bone marrow smear
 #+NAME: fig:cells

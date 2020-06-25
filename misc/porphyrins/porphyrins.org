@@ -36,12 +36,12 @@
 #+CAPTION[]:Heme Synthesis
 #+NAME: fig:heme
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./porphyrins/figures/heme_synth.png]]
+[[file:./figures/heme_synth.png]]
 
 #+CAPTION[]:Heme Synthesis
 #+NAME: fig:heme2
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./porphyrins/figures/Slide19.png]]
+[[file:./figures/Slide19.png]]
 
 #+CAPTION: Route of excretion dictated by solubility for porphyrin precursors
 #+LABEL: tbl:excrete
@@ -67,28 +67,30 @@
 
 #+CAPTION: Main types of human porphyrias
 #+LABEL: tbl:synthesis
-| Enzyme | Substrate              | Disorder | Clinical |
-|--------+------------------------+----------+----------|
-|        | glycine + succinyl CoA |          |          |
-| ALAS   | \downarrow             |          |          |
-|        | \sigma-ALA             |          |          |
-| ALAD   | \downarrow             | ADP      | N        |
-|        | PBG                    |          |          |
-| HMBS   | \downarrow             | AIP      | N        |
-|        | hydroxymethylbilane    |          |          |
-| UROS   | \downarrow             | CEP      | C        |
-|        | uroporphyrinogen-III   |          |          |
-| UROD   | \downarrow             | PCT      | C        |
-|        | coproporphyrinogen-III |          |          |
-| CPO    | \downarrow             | HCP      | N,C      |
-|        | protoporphyrinogen-IX  |          |          |
-| PPOX   | \downarrow             | VP       | N,C      |
-|        | protoporphyrin-IX      |          |          |
-| FECH   | \downarrow             | EPP      | C        |
+| Enzyme | Substrate              | Disorder | Clinical[fn:clin] |
+|--------+------------------------+----------+-------------------|
+|        | glycine + succinyl CoA |          |                   |
+| ALAS   | \downarrow             | XLSA     | A                 |
+|        | \sigma-ALA             |          |                   |
+| ALAD   | \downarrow             | ADP      | N                 |
+|        | PBG                    |          |                   |
+| HMBS   | \downarrow             | AIP      | N                 |
+|        | hydroxymethylbilane    |          |                   |
+| UROS   | \downarrow             | CEP      | C                 |
+|        | uroporphyrinogen-III   |          |                   |
+| UROD   | \downarrow             | PCT      | C                 |
+|        | coproporphyrinogen-III |          |                   |
+| CPO    | \downarrow             | HCP      | N,C               |
+|        | protoporphyrinogen-IX  |          |                   |
+| PPOX   | \downarrow             | VP       | N,C               |
+|        | protoporphyrin-IX      |          |                   |
+| FECH   | \downarrow             | EPP      | C                 |
+
+[fn:clin] A = anemia, N = neuroviseral, C = cutaneous
 
 ** Clinical Classification of the Porphyrias
 - Acute *Neurovisceral attacks*
-  - AIP, ADP(rare)
+  - AIP, ADP (rare)
 
 - Neuroviseral and/or Cutaneous
   - HCP, VP
@@ -196,12 +198,16 @@
      - Fecal copro-III :: \uparrow \uparrow
      - Plasma fluorescence scan :: \Uparrow \Uparrow \Uparrow
    
+** Genetics
+- AIP :: AR HMBS
+- VP :: AR PPOX
+- HCP :: AR CPO
 ** Diagnostic Tests
 *** Acute Attack
  - during an acute attack *a normal PBG essentially excludes all acute
    neuro-visceral porphyrias*
    - except ADP
- - patients with cutaneous symptoms (VP,HCP) should also have excessive
+ - patients with cutaneous symptoms (VP, HCP) should also have excessive
    production of porphyrins
  - when suspicion of an acute porphyria remains high while crisis is
    resolving
@@ -213,7 +219,7 @@
 *** Non-AIP Acute Porphyrias
  - VP and HCP may not have skin lesions \to fecal porphyrins
    - if normal, w \uparrow PBG, VP & HCP are excluded \to AIP
-   - if total \uparrow fecal porphyrins \to fractionate by HPLC
+   - if \uparrow total fecal porphyrins \to fractionate by HPLC
      - HCP :: coproporphyrin-III \Uparrow \Uparrow \Uparrow
      - VP :: protoporphyrin-IX \Uparrow \Uparrow \Uparrow
    - can also be due to diet or GI bleed
@@ -268,7 +274,7 @@
   - mutation in one UROD gene \to 1/2 normal activity
 *** Diagnostic Tests
 - urine porphyrin quantitation
-  - \Uparrow \Uparrow \Uparrow uro I & III
+  - \Uparrow \Uparrow \Uparrow Uro I & III
 *** Treatment
 - \downarrow exposure to light
 - iron depletion
@@ -294,15 +300,15 @@
   - HMB \rightarrow Uro III: UROS
 *** Genetics
 - least common, most severe of the cutaneous porphyrias, < 1:million in UK
-- AR, UROS
+- AR UROS
   - usually heteroallelic
 - very rare XL GATA1 mutation
   - a transcription factor
 
 *** Diagnostic tests
 - urine porphyrin quantitation
-    - \Uparrow \Uparrow \Uparrow  uro I
-    - \Uparrow \Uparrow \Uparrow Urine Copro I
+    - \Uparrow \Uparrow \Uparrow Uro I
+    - \Uparrow \Uparrow \Uparrow  Copro I
 - fecal porphyrin quantitation
     - \Uparrow \Uparrow \Uparrow Copro I
 
@@ -335,7 +341,7 @@
 - \uparrow protoporphyrin mainly in bone marrow
 
 *** Genetics 
-- AR, FECH 
+- AR FECH 
 - X-linked dominant protoporphyria (XLDPP)
   - 2% of EPP cases
   - due to gain of function *ALAS2* mutation

@@ -6,22 +6,28 @@
 - urea cycle is the main route for ammonia (\ce{NH3}) detoxification
 
 #+BEGIN_EXPORT LaTeX
+\begin{center}
 \chemnameinit{}
 \chemname{\chemfig{H_2N-[::30,,2,](=[::60]O)-PO_4^{-}}}{\small CPS}
 \chemnameinit{}
 \chemname{\chemfig{H_2N-[::30,,2,]-[::-60]-[::60]-[::-60](<[::-60]NH_2)-[::60](=[::60]O)-[::-60]OH}}{\small ornithine}
+\end{center}
 #+END_EXPORT
 
 #+BEGIN_EXPORT LaTeX
+\begin{center}
 \chemnameinit{}
 \chemname{\chemfig{H_2N-[::30,,2,](=[::60]O)-[::-60]\chembelow{N}{H}-[::60]-[::-60]-[::60]-[::-60](<[::-60]NH_2)-[::60](=[::60]O)-[::-60]OH}}{\small citrulline}
+\end{center}
 #+END_EXPORT
 
 #+BEGIN_EXPORT LaTeX
+\begin{center}
 \chemnameinit{}
 \chemname{\chemfig{H_2N-[::30,,2,](=[::60]NH)-[::-60]\chembelow{N}{H}-[::60]-[::-60]-[::60]-[::-60](<[::-60]NH_2)-[::60](=[::60]O)-[::-60]OH}}{\small arginine}
 \chemnameinit{}
 \chemname{\chemfig{H_2N-[1](=[2]O)-[7]NH_2}}{\small urea}
+\begin{center}
 #+END_EXPORT
 
 - defects generally cause hyperammonaemia
@@ -133,7 +139,6 @@
 - urine organic acids
   - \uparrow orotic acid
   - \uparrow uracil
-
 
 
 ** Treatment
@@ -292,7 +297,7 @@
      for UDP-galactose to UDP-glucose conversion
 
 *** Genetics
-- AR, SLC25A13
+- AR SLC25A13
 
 *** Diagnostic Tests
 - newborns with intrahepatic cholestasis the finding of:

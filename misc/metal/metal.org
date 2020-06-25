@@ -4,7 +4,6 @@
 
 * Copper 
 - copper is essential for cellular metabolism and toxic at [\Uparrow]
-  - superoxide dismutase holoenzyme
 - \gt 90% of circulating copper is bound to ceruloplasmin
 - absorbed each day from the intestine
 - removed from portal circulation by hepatocytes
@@ -17,8 +16,45 @@
 #+CAPTION[copper]:Copper Metabolism
 #+NAME: fig:cu
 #+ATTR_LaTeX: :width 1\textwidth
-[[file:./metal/figures/copper.PNG]]
+[[file:./figures/copper.PNG]]
+** Menkes Disease
+*** Clinical Presentation
+ - male infants 2-3 months
+ - neurodegeneration manifests as:
+   - seizures, hypotonia, loss of milestones
+ - non-specific signs at birth:
+   - prematurity, large cephalhaematomas, skin laxity, hypothermia
+   - hair breaks easily, sandpaper feel
 
+*** Metabolic Derangement
+ - defect in *ATP7A*
+ - normal copper uptake, can not be exported from enterocytes into circulation
+ - insufficient copper for incorporation into ~20 cuproenzymes including:
+   - lysloxidase :: collagen cross-linking
+   - tyrosinase :: melanin formation
+   - dopamine \beta-hydroxylase :: catacholamine biosynthesis
+   - peptidyl glycine monooxygenase :: neuropeptide precursors
+   - cytochrome c-oxidase :: ETC
+
+*** Genetics 
+ - *XL ATB7A* 1:250,000
+   - 1/3 /de novo/ mutations
+ - expressed in all tissues except liver
+
+*** Diagnostic Tests
+ - \downarrow serum copper 
+ - \downarrow serum ceruloplasmin 
+   - not specific in 0-3 months of life
+ - \uparrow plasma dopamine/norepinephrine
+ - \uparrow copper retention in cultured fibroblasts
+
+*** Treatment
+ - often fatal < 3 years
+   - infection or vascular complications
+ - parenteral treatment should bypass ATP7A
+   - disappointing results
+   - near normal intellectual and motor development only possible with
+     residual ATP7A activity
 ** Wilson Disease
 *** Clinical Presentation
 - hepatic symptoms 8-20 years
@@ -33,7 +69,7 @@
 - diagnosis often made in siblings of patient
 
 *** Metabolic Derangement
-- ATP7B has 6 copper binding domains
+- *ATP7B* has 6 copper binding domains
 - expressed predominantly in liver and kidney
 - defect in trans-Golgi protein ATP7B
   - required for excretion of copper and incorporation into ceruloplasmin 
@@ -44,7 +80,7 @@
   - secondary accumulation in brain, kidney and eyes
 
 *** Genetics
-- AR, ATP7B
+- AR ATP7B
 - 1:30,000 may be higher
 - \sim 1/90 carriers
 
@@ -71,49 +107,10 @@
   - used when penicillamine is not tolerated
 - combination therapy should be staggered - don't chelate treatment
 
-** Menkes Disease
-*** Clinical Presentation
- - male infants 2-3 months
- - neurodegeneration manifests as:
-   - seizures, hypotonia, loss of milestones
- - non-specific signs at birth:
-   - prematurity, large cephalhaematomas, skin laxity, hypothermia
-   - hair breaks easily, sandpaper feel
-
-*** Metabolic Derangement
- - defect in ATP7A 
- - normal copper uptake, can not be exported from enterocytes into circulation
- - insufficient copper for incorporation into ~20 cuproenzymes including:
-   - lysloxidase :: collagen cross-linking
-   - tyrosinase :: melanin formation
-   - dopamine \beta-hydroxylase :: catacholamine biosynthesis
-   - peptidyl glycine monooxygenase :: neuropeptide precursors
-   - cytochrome c-oxidase :: ETC
-
-*** Genetics 
- - ATB7A, *XLR*, 1:250,000 , 1/3 /de novo/ mutations
- - expressed in all tissues except liver
-
-*** Diagnostic Tests
- - \downarrow serum copper 
- - \downarrow serum ceruloplasmin 
-   - not specific in 0-3 months of life
- - \uparrow plasma dopamine/norepinephrine
- - \uparrow copper retention in cultured fibroblasts
-
-*** Treatment
- - often fatal < 3 years
-   - infection or vascular complications
- - parenteral treatment should bypass ATP7A
-   - disappointing results
-   - near normal intellectual and motor development only possible with
-     residual ATP7A activity
-
 * Iron
 - iron is essential for the synthesis of haem and other
   metalloproteins
-  - iron sulfur protein cluster is very important has acrucial role in
-    mitochondrial metabolism
+  - iron sulfur cluster has a crucial role in mitochondrial metabolism (Figure [[fig:fes]])
 - \gt 20 mg of iron per day is required, only 1–2 mg from intestinal absorption,
   - the remainder is re-used
 - not actively secreted from the body
@@ -121,7 +118,7 @@
   - primarily taken up by the liver, the pancreas and the heart
   - syndromes manifest with cirrhosis, diabetes and cardiomyopathy
 - absorption of iron occurs primarily in the duodenum via the
-  divalent-metal transporter(DMT1)
+  divalent-metal transporter (DMT1)
 - major recycling route for iron is removal from erythrocytic heme by
   hemeoxygenase
   - in macrophages and enterocytes
@@ -129,6 +126,7 @@
 - transferrin can only bind iron in the ferric state 
 - ceruloplasmin catalyses the oxidization of Fe^{2+} into Fe^{3+}
 - transferrin receptor mediates the uptake of transferrin
+- hepcidin inhibits iron absorption by binding to ferroportin
 - iron is released from intracellular transferrin by a specific isoform of DMT1
 - iron can be stored bound to ferritin until needed in several cell
   types, including macrophages
@@ -136,12 +134,12 @@
 #+CAPTION[iron]:Iron Metabolism
 #+NAME: fig:fe
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./metal/figures/iron_met.png]]
+[[file:./figures/iron_met.png]]
 
 #+CAPTION[fes]:Iron Sulfur Cluster Proteins
 #+NAME: fig:fes
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./metal/figures/fes.png]]
+[[file:./figures/fes.png]]
 
 ** Classic Hereditary Haemochromatosis
 *** Clinical Presentation
@@ -164,7 +162,7 @@
      synthesis
 
 *** Genetics
- - AR, HFE
+ - AR HFE
  - ~ 0.5% of the Northern European population are homozygous for the
    C282Y mutation in HFE
    - only 5% of male and <1% of female C282Y homozygotes eventually

@@ -25,6 +25,11 @@
 - both these transporters are heteromers of a heavy subunit and a
   light subunit linked by a disulfide bridge
 
+#+CAPTION[]:Cystine
+#+NAME: fig:cys
+#+ATTR_LaTeX: :width 0.2\textwidth
+[[file:./figures/cystine.png]]
+
 ** Neutral  Amino Acids
 - alanine, asparagine, citrulline, glutamine, histidine, isoleucine,
   leucine, phenylalanine, serine, threonine, tryptophan, tyrosine
@@ -120,7 +125,7 @@
   - \downarrow endogenous biosynthesis due to lysine deficiency
 
 ** Genetics
-- AR, SLC7A7
+- AR SLC7A7
   - y^+LAT-1 the light subunit of the dibasic amino acid
     transporter
 
@@ -180,10 +185,10 @@
 - tryptophan deficiency \to development of clinical symptoms such as
   neuropsychiatric signs
   - precursor of the neurotransmitter serotonin
-  - reduced availability of nicotinic acid, the precursor of NAD(P)H
+  - reduced availability of nicotinic acid, the precursor of NADPH
 
 ** Genetics
-- AR, SLC6A19
+- AR SLC6A19
 
 ** Diagnostic Tests
 - \uparrow urine neutral amino acids

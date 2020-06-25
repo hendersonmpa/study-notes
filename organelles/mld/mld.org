@@ -3,8 +3,8 @@
 #+DATE: \today
 
 * Introduction
-- *arylsulfatase A deficiency*
-  - block in lysosomal degradation of sulfatide (AKA: sulfated
+- *arylsulfatase A* deficiency
+  - block in lysosomal degradation of sulfatide (AKA sulfated
     galactocerebroside) and other sulfated glycolipids
   - sulfatide is presented to the enzyme arylsulfatase A (ASA) as a
     1:1 complex with sap-B
@@ -14,18 +14,10 @@
   - specific ethnic groups with higher frequency
 
 - sulfatide is component of the myelin sheath
-- sulfatide:galactocerebroside ratio \to stability and physiological properties of this membrane
-- \uparrow sulfatides in CNS and PNS \to demyelination
-- \uparrow sulfatide in the kidney \to sulfatide in urine
-
-* Genetics
-- AR ARSA or PSAP (sap-B)
-- relatively good genotype-phenotype correlation
-- two very frequent ARSA polymorphisms 
-  - loss of an N-glycosylation site
-  - loss of a polyadenylation signal
-- result in reduction of the amount of enzyme and constitute the
-  molecular basis of *ASA pseudodeficiency*
+  - sulfatide:galactocerebroside ratio affects stability and
+    physiological properties of this membrane
+  - \uparrow sulfatides in CNS and PNS \to demyelination
+  - \uparrow sulfatide in the kidney \to sulfatide in urine
 
 * Clinical 
 - three forms: late infantile-onset, juvenile and adult
@@ -55,12 +47,20 @@
 - disease course is variable,periods of stability and decline two to three decades
 - final stage is similar to earlier-onset forms
 
-* Diagnosis
+* Genetics
+- AR ARSA or PSAP (sap-B)
+- relatively good genotype-phenotype correlation
+- two very frequent ARSA polymorphisms 
+  - loss of an N-glycosylation site
+  - loss of a polyadenylation signal
+- result in reduction of the amount of enzyme and constitute the
+  molecular basis of *ASA pseudodeficiency*
 
+* Diagnosis
 - ASA activity in leukocytes or fibroblasts
   - p-nitrocatechol-sulfate 
 - pseudodeficiency is a major pitfall
-  - homozygotes for a pd allele (1-2% of the European population)
+  - homozygotes for a PD allele (1-2% of the European population)
   - compound heterozygotes for a disease-causing MLD and a PD allele
     have about 5-15% of normal ASA activity
     - no detectable clinical abnormality or pathology
@@ -73,7 +73,7 @@
 - prenatal testing of MLD by DNA analysis is preferred
 - another cause of erroneous interpretation of an ASA deficiency is
   *multiple sulfatase deficiency (MSD)* due to a deficiency in the
-  formylglycine-generating enzyme (FGE)encoded by SUMF1
+  formylglycine-generating enzyme (FGE) encoded by SUMF1
 - *whenever a deficiency of one sulfatase is found, it is mandatory to*
   *systematically measure the activity of another one to exclude MSD*
   - arylsulfatase B or iduronate-2-sulfatase
