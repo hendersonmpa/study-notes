@@ -135,7 +135,6 @@
 #+RESULTS:
 [[file:./figures/c1c3.pdf]]
 
-
 ** Purpose
 - determine the rate of cytochrome c reduction in mitochondria as a
   result of electron transfer from NADH to cytochrome c (mitochondrial
@@ -247,11 +246,6 @@
   - reference cuvette :: ubiquinone & DCPIP
 
 \ce{CoQH2 + DCPIP_ox -> CoQ + DCPIP_red} 
-
-#+CAPTION[]:Alternative Coupled Spectrophotometric CII Assay
-#+NAME: fig:
-#+ATTR_LaTeX: :width 0.5\textwidth
-[[file:./figures/gr4.jpg]]
 
 * CII & III assay
 #+BEGIN_SRC dot :file ./mito/figures/c2c3.pdf :cmdline -Kdot -Tpdf
