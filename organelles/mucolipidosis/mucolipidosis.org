@@ -12,8 +12,10 @@
   - ML III: pseudo-Hurler polydystropy :: a glycoproteinosis
   - ML IV: ganglioside sialidase deficiency :: gangliosidosis
 
+
 #+CAPTION[]:Mucolipidoses
 #+NAME: tab:muco
+#+ATTR_LATEX: :font \small
 | Disease   | enzyme                   | dysostosis | progressive | angio-   | hepato         | sample |
 |           |                          | multiplex  | cognitive   | keratoma | -splenomegally |        |
 |-----------+--------------------------+------------+-------------+----------+----------------+--------|

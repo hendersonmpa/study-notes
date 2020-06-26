@@ -30,6 +30,10 @@
 #+LaTeX_HEADER: \pagestyle{scrheadings}
 :END:
 
+#+BEGIN_EXPORT LaTeX
+\setchemfig{atom style={scale=0.75}}
+#+END_EXPORT
+
 * Carbohydrate Metabolism
 #+INCLUDE: "./carbohydrate_metabolism/carbohydrate_metabolism.org" :lines "4-"
 * Galactose

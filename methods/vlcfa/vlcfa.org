@@ -1,0 +1,35 @@
+#+TITLE: Very-Long-Chain Fatty Acids
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+
+
+- investigation of peroxisomal disorders (Table [[tab:peroxd]])
+- C22, C24 and C26 fatty acids and their ratios are measured
+
+#+CAPTION[]:VLCFAs in Peroxisomal Disease
+#+NAME: tab:peroxd
+| Disease | VLCFA    | phytanic      | pristanic       |
+|---------+----------+---------------+-----------------|
+| ZS      | \uparrow | N or \uparrow | N or \uparrow   |
+| RCDP    | N        | N or \uparrow | N or \downarrow |
+| XALD    | \uparrow | N             | N               |
+| Refsum  | N        | N/\uparrow    | N/\downarrow    |
+
+
+* Method
+- gas chromatography-mass spectrometry (GC-MS) analysis
+- after derivatisation with N-methyl-N-(tert-butyldimethylsilyl)
+  trifluoroacetamide (MTBSTFA)
+- a robust and reliable method for the quantitative analysis of VLCFA,
+  pristanic acid and phytanic acid
+
+*** Procedure
+- to measure the total pool of VLCFA, pristanic acid and phytanic
+  acid, samples need to be subjected to both acidic and alkaline
+  hydrolysis, followed by extraction into hexane
+- after the hexane phase is washed once more, the sample is dried
+  under nitrogen followed by addition of pyridine and MTBSTFA and
+  heating of the samples at 80°C
+- the sample is dried again under nitrogen and taken up in hexane,
+  followed by GC-MS analysis

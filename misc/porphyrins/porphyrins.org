@@ -242,7 +242,7 @@
  - abnormal accumulation of iron in red blood cells \to ring
    sideroblasts
 ** Porphyria Cutanea Tarda
-*** Clincal Presentation
+*** Clinical Presentation
 - both sexes
 - most common porphyria
 - onset during 5th and sixth decade
@@ -268,7 +268,7 @@
 - \downarrow UROD \to increase in intermediates and uroporphyrins
 *** Genetics
 - acquired PCT (type I)
-  - exposure to polyhalogenated aromatic hydrocarbons \to 
+  - exposure to polyhalogenated aromatic hydrocarbons
 - famillial PCT (type II)
   - AD, UROD w reduced penetrance
   - mutation in one UROD gene \to 1/2 normal activity

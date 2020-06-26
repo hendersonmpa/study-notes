@@ -134,12 +134,14 @@
   - isolated thromboembolic disease in adults
 - clinical features predominantly involve four organ systems:
   - eye :: lens dislocation
-  - skeleton :: excessive growth - Marfanoid but stiff
+  - skeleton :: excessive growth - marfanoid but stiff
   - brain :: learning disabilities
   - vascular :: thromboembolism
 ** Metabolic Derangement
 - CBS is a cytosolic tetrameric enzyme
-- \ce{homocysteine ->[CBS] cystathionine}
+
+\ce{homocysteine ->[CBS] cystathionine}
+
 - expressed predominantly in liver, pancreas, kidney and brain
 - activity can also be determined in cultured fibroblasts and in plasma
   due to its release from the liver
@@ -204,9 +206,9 @@
 
 ** Genetics
 - AR
-- Type A, MOCS1, most common
-- Type B, MOCS2
-- Type C, GPHN, rare
+- Type A :: MOCS1 most common
+- Type B :: MOCS2
+- Type C :: GPHN rare
 
 ** Diagnostic Tests
 - \downarrow plasma urate concentration
@@ -277,8 +279,8 @@
   - also formed by bacterial anaerobes in the large intestine
 - in EE accumulating \ce{H2S} inhibits cytochrome c oxidase and
   short-chain fatty acid oxidation
-  - results in ethylmalonic aciduria, and raised C4- and
-    C5-acylcarnitines in blood
+  - results in ethylmalonic aciduria, and raised C4 and
+    C5 acylcarnitines in blood
 - \ce{H2S} also has vasoactive and vasotoxic effects
   - damage to small blood vessels causes bleeding into the
     skin
@@ -289,8 +291,8 @@
 ** Diagnostic Tests
 - \uparrow lactate
 - \uparrow urine ethylmalonic and methylsuccinic
-- \uparrow urine C4 and C5-acylglycines
-- \uparrow plasma C4 and C5-acylcarnitines
+- \uparrow urine C4 and C5 acylglycines
+- \uparrow plasma C4 and C5 acylcarnitines
 - \Uparrow urine thiosulfate is also markedly elevated
 - diagnosis is confirmed by mutation analysis
 

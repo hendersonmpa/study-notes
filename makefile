@@ -80,7 +80,6 @@ $(OUT_DIR)vitamins.pdf: ./vitamins/vitamins.org ./vitamins/biotin/biotin.org \
 	-f org-latex-export-to-pdf
 	mv -v ./vitamins/vitamins.pdf $(OUT_DIR)vitamins.pdf
 
-## complete
 $(OUT_DIR)aa.pdf: ./aa/aa.org ./aa/phe/phe.org ./aa/tyr/tyr.org ./aa/sulfur/sulfur.org \
 ./aa/orn_pro/orn_pro.org ./aa/lys/lys.org ./aa/nkh/nkh.org ./aa/qsn/qsn.org \
 ./aa/transport/transport.org ./aa/bcaa/bcaa.org ./aa/urea/urea.org
@@ -104,7 +103,8 @@ $(OUT_DIR)conditions.pdf: ./conditions/conditions.org ./conditions/cancer.org \
 $(OUT_DIR)methods.pdf: ./methods/methods.org ./methods/aa/aa.org  ./methods/ac/ac.org \
 ./methods/aaac/aaac.org ./methods/oa/oa.org ./methods/mito/mito.org \
 ./methods/glyc/glyc.org ./methods/niet/niet.org ./methods/porphyrins/porphyrins.org \
-./methods/enzymes/enzymes.org
+./methods/enzymes/enzymes.org ./methods/vlcfa/vlcfa.org ./methods/gags/gags.org \
+./methods/oligos/oligos.org
 	emacs -u "$(id -un)" \
 	--batch \
 	--eval '(load user-init-file)' \

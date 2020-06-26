@@ -106,7 +106,7 @@
   - no mutations identified in GCSH encoding the H-protein
 - variant NKH is AR
   - genes involved in the synthesis of lipoate
-    - LIAS, BOLA3, GLRX5, NFU1, ISCA2, LIPT1, LIPT2,and IBA57
+    - LIAS, BOLA3, GLRX5, NFU1, ISCA2, LIPT1, LIPT2, and IBA57
   - PNPO deficiency
     - PNPO
 * Diagnostic Tests
@@ -114,7 +114,7 @@
   - \uparrow plasma glycine has low specificity
   - \uparrow CSF glycine are highly indicative of NKH
     - avoid blood contamination
-  - \uparrow CSF:plasma glycine
+  - \uparrow CSF glycine:plasma glycine
 - valproate inhibits GCS
 - molecular testing of GCS genes
 - transient NKH is a phenocopy

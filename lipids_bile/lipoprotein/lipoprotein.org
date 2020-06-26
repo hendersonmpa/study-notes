@@ -50,7 +50,7 @@
 #+CAPTION[]:Lipid and Lipoprotein Metabolism
 #+NAME: fig:lipid 
 #+ATTR_LaTeX: :width 1.0\textwidth
-[[file:./lipoprotein/figures/lipid_met.png]]
+[[file:./figures/lipid_met.png]]
 
 * LDL Metabolism
 - five genetic disorders

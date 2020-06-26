@@ -34,7 +34,7 @@
 #+CAPTION[]:Ketogenesis and Ketolysis
 #+NAME: fig:keto 
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./ketones/figures/ketones.png]]
+[[file:./figures/ketones.png]]
 
 - disorders of ketone body metabolism present either in the first few
   days of life or later in childhood, during an infection or some

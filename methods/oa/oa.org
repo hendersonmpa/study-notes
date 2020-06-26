@@ -7,12 +7,12 @@
   carboxyl group(s) and nonamino functional groups
 
 #+BEGIN_EXPORT LaTeX
-\chemfig{X-C(-[2]X)(-[6]X)-C(-[2]X)(-[6]X)-C(-[7]OH)=[1]O}
+\begin{center}
+\chemnameinit{}
+\chemname{\chemfig{X-C(-[2]X)(-[6]X)-C(-[2]X)(-[6]X)-C(-[7]OH)=[1]O}}{organic acid}
+\end{center}
 #+END_EXPORT
 
-#+BEGIN_EXPORT LaTeX
-\chemfig{X-C(-[2]X)(-[6]X)-C(-[2]X)(-[6]X)-C(-[7]OH)=[1]O}
-#+END_EXPORT
 
 #+CAPTION[]:Organic Acid Functional Groups
 #+NAME: tab:func
@@ -24,68 +24,66 @@
 | carboxyl         | -COOH              |
 | side chain       | -(CH$_2$)$_n$      |
 
-#+BEGIN_EXPORT LaTeX
-\chemfig{X-C(-[2]X)(-[6]X)-C(-[2]X)(-[6]X)-C(-[7]OH)=[1]O}
-#+END_EXPORT
+
 
 #+CAPTION[]:Organic Acid Side Chains
 #+NAME: tab:side
-| Side chain | Structure                      |
+| side chain | structure                      |
 |------------+--------------------------------|
-| Methyl     | \chemfig{CH_3-}                |
-| Ethyl      | \chemfig{CH_3-CH_2-}           |
-| Propyl     | \chemfig{CH_3-CH_2-CH_2-}      |
-| Butyl      | \chemfig{CH_3-CH_2-CH_2-CH_2-} |
+| methyl     | \chemfig{CH_3-}                |
+| ethyl      | \chemfig{CH_3-CH_2-}           |
+| propyl     | \chemfig{CH_3-CH_2-CH_2-}      |
+| butyl      | \chemfig{CH_3-CH_2-CH_2-CH_2-} |
 
 #+CAPTION[]:Organic Acid Nomenclature
 #+NAME: tab:nom
-| Length | Monocarboxylic acid   | Dicarboxylic acid |
+| length | monocarboxylic acid   | dicarboxylic acid |
 |--------+-----------------------+-------------------|
-| C2     | Acetic                | Oxalic            |
-| C3     | Propionic             | Malonic           |
-| C4     | Butyric               | Succinic          |
-|        | Isobutyric            |                   |
-| C5     | Valeric               | Glutaric          |
-|        | Isovaleric            |                   |
-|        | 2-Methylbutyric       |                   |
-| C6     | Hexanoic (caprioc)    | Adipic            |
-| C7     | Heptanoic (enanthic)  | Pimelic           |
-| C8     | Octanoic (caprylic)   | Suberic           |
-| C9     | Nonanoic (pelargonic) | Azelaic           |
-| C10    | Decanoic (capric)     | Sebacic           |
+| C2     | acetic                | oxalic            |
+| C3     | propionic             | malonic           |
+| C4     | butyric               | succinic          |
+|        | isobutyric            |                   |
+| C5     | valeric               | glutaric          |
+|        | isovaleric            |                   |
+|        | 2-methylbutyric       |                   |
+| C6     | hexanoic (caprioc)    | adipic            |
+| C7     | heptanoic (enanthic)  | pimelic           |
+| C8     | octanoic (caprylic)   | suberic           |
+| C9     | nonanoic (pelargonic) | azelaic           |
+| C10    | decanoic (capric)     | sebacic           |
 
 *** Acylglycines
 - acylglycines are also detected in UOA analysis
   - conjugation of acyl-CoA species to glycine
   - catalysed by glycine N-acylase
 
-#+CAPTION[]:Pathologic Acylglycines
+#+CAPTION[]:Acylglycines
 #+NAME: tab:pathag
-| Name                     | acyl length | Precusor           | Condition(s)                                 |
-|--------------------------+-------------+--------------------+----------------------------------------------|
-| propionylglycine         | C3          | leu met            | propionic acidemia                           |
-|                          |             | thr val            | methylmalonic acidemias                      |
-| butyrylglycine           | C4          | butyryl-CoA        | SCAD deficiency                              |
-|                          |             | (FAO)              | glutaric acidemia type II                    |
-| isobutyrylglycine        | C4          | val                | isobutyryl-CoA dehydrogenase deficiency      |
-|                          |             |                    | glutaric acidemia type II                    |
-|                          |             |                    | ethylmalonic encephalopathy                  |
-| tiglylglycine            | C5:1        | ile                | propionic acidemia                           |
-|                          |             |                    | methylmalonic acidemias                      |
-|                          |             |                    | ketothiolase deficiency                      |
-| 3-methyl crotonylglycine | C5:1        | leu                | 3-methylcrotonyl-CoA carboxylase deficiency  |
-|                          |             |                    | Multiple carboxylase deficiency              |
-| isovalerylglycine        | C5          | leu                | isovaleric acidemia                          |
-| 2-methylbutyrylglycine   | C5          | ile                | 2-methylbutyryl-CoA dehydrogenase deficiency |
-|                          |             |                    | glutaric acidemia type II                    |
-|                          |             |                    | ethylmalonic encephalopathy                  |
-| hexanoylglycine          | C6          | hexanoyl-CoA (FAO) | MCAD deficiency                              |
-|                          |             |                    | glutaric acidemia type II                    |
-| octanoylglycine          | C8          | octanoyl-CoA (FAO) | MCAD deficiency                              |
-| suberylglycine           | C8          | suberyl-CoA        | MCAD deficiency                              |
-|                          |             |                    | Glutaric acidemia type II                    |
-| phenylpropionylglycine   | C9          | PHE                | MCAD deficiency                              |
-| trans-cinnamoylglycine   | C9:1        | PHE                | no known defect                              |
+| carbons | acylglycine              | precusor     | disorder                          |
+|---------+--------------------------+--------------+-----------------------------------|
+| C3      | propionylglycine         | leu met      | propionic acidemia                |
+|         |                          | thr val      | methylmalonic acidemias           |
+| C4      | butyrylglycine           | butyryl-CoA  | SCAD                              |
+|         |                          |              | GAII                              |
+| C4      | isobutyrylglycine        | val          | isobutyryl-CoA dehydrogenase      |
+|         |                          |              | GAII                              |
+|         |                          |              | ethylmalonic encephalopathy       |
+| C5:1    | tiglylglycine            | ile          | propionic acidemia                |
+|         |                          |              | methylmalonic acidemias           |
+|         |                          |              | ketothiolase deficiency           |
+| C5:1    | 3-methyl crotonylglycine | leu          | 3-methylcrotonyl-CoA carboxylase  |
+|         |                          |              | multiple carboxylase deficiency   |
+| C5      | isovalerylglycine        | leu          | isovaleric acidemia               |
+| C5      | 2-methylbutyrylglycine   | ile          | 2-methylbutyryl-CoA dehydrogenase |
+|         |                          |              | GAII                              |
+|         |                          |              | ethylmalonic encephalopathy       |
+| C6      | hexanoylglycine          | hexanoyl-CoA | MCAD                              |
+|         |                          |              | GAII                              |
+| C8      | octanoylglycine          | octanoyl-CoA | MCAD                              |
+| C8      | suberylglycine           | suberyl-CoA  | MCAD                              |
+|         |                          |              | GAII                              |
+| C9      | phenylpropionylglycine   | phe          | MCAD                              |
+| C9:1    | trans-cinnamoylglycine   | phe          | no known defect                   |
 
 ** Sources of Organic Acids
 *** Endogenous 

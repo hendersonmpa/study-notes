@@ -1,4 +1,4 @@
-#+TITLE: Miscellaneous IEM
+#+TITLE: Miscellaneous
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
@@ -29,6 +29,10 @@
 #+LaTeX_HEADER: \ofoot*{\pagemark}% the pagenumber in the center of the foot, also on plain pages
 #+LaTeX_HEADER: \pagestyle{scrheadings}
 :END:
+
+#+BEGIN_EXPORT LaTeX
+\setchemfig{atom style={scale=0.75}}
+#+END_EXPORT
 
 * Neurotransmission
 #+INCLUDE: "./neuro/neuro.org" :lines "4-"

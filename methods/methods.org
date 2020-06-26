@@ -40,7 +40,7 @@
 \tikzstyle{box} = [rectangle, rounded corners, text width=5em, minimum height=5em,text centered, draw=black, fill=none]
 \tikzstyle{arrow} = [thick,->,>=stealth]
 \tikzstyle{hl-arrow} = [ultra thick,->,>=stealth,draw=red]
-\setchemfig{atom style={scale=0.7}}
+\setchemfig{atom style={scale=0.55}}
 #+END_EXPORT 
 
 * Amino Acids
@@ -53,8 +53,12 @@
 #+INCLUDE: "./oa/oa.org" :lines "4-"
 * Mitochondria
 #+INCLUDE: "./mito/mito.org" :lines "4-"
-* TODO VLCFA
-* TODO GAGs and Oligosacarides
+* VLCFA
+#+INCLUDE: "./vlcfa/vlcfa.org" :lines "4-"
+* Glycosaminoglycans
+#+INCLUDE: "./gags/gags.org" :lines "4-"
+* Oligosacarides
+#+INCLUDE: "./oligos/oligos.org" :lines "4-"
 * Enzymes
 #+INCLUDE: "./enzymes/enzymes.org" :lines "4-"
 * Glycosylation

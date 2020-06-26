@@ -6,6 +6,7 @@
 - serum transferrin IEF is the screening method of choice
   - can detect nearly all known CDG-I types as well as most CDG-II types and many CDG-X cases
   - N-glycosylation disorders associated with sialic acid deficiency
+  - does not detect CDG-IIb or IIc
 - normal serum transferrin is mainly composed of:
   - tetrasialotransferrin and small amounts of mono, di, tri, penta
     and hex-asialotransferrins
@@ -17,14 +18,14 @@
 #+CAPTION[]:Transferrin IEF
 #+NAME: fig:tief
 #+ATTR_LaTeX: :width 1\textwidth
-[[file:./glyc/figures/trans1or2.png]]
+[[file:./figures/trans1or2.png]]
 
 ** Type 1 pattern
  - \uparrow disialo- and asialotransferrin
  - \downarrow  tetra-, penta-and hexasialotransferrins
  - defects in the assembly of the dolichol lipid-linked
    oligosaccharide chain and transfer to the nascent protein
- - PMM2-CDG or MPI-CDG should be considered first
+ - CDG-Ia or CDG-Ib should be considered first
  - also seen in secondary glycosylation disorders such as:
    - chronic alcoholism, hereditary fructose intolerance and galactosaemia
 
@@ -56,7 +57,7 @@
 
 - capillary zone electrophoresis of total serum is a rapid screening
   test for CDG
-  - An abnormal result should be further investigated by serum
+  - an abnormal result should be further investigated by serum
     transferrin IEF
 - HPLC-UV/Vis
 

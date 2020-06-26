@@ -346,7 +346,7 @@
 #+CAPTION[]:Pyrimidine Metabolism: 1, carbamoylphosphate synthetase II ; 2, aspartate transcarbamylase ; 3, dihydroorotase (1 to 3 form CAD); 4, dihydroorotate dehydrogenase ; 5, orotate phos- phoribosyltransferase ; 6, orotidine decarboxylase (5 and 6 form UMP synthase); 7, pyrimidine (cytosolic) 5’-nucleotidase; 8, cytidine kinase; 9, uridine kinase ; 10, thymidine kinase ; 11, thymidine phosphorylase ; 12, dihydropyrimidine dehydrogenase ; 13, dihydropyrim- idinase ; 14, ureidopropionase ; 15, cytidine deaminase.
 #+NAME: fig:pyr
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./pp/figures/pyrimidine_met.png]]
+[[file:./figures/pyrimidine_met.png]]
 
 ** UMP Synthase Deficiency 
 - AKA Hereditary Orotic Aciduria
@@ -381,7 +381,7 @@
 - AR UMPS
 
 *** Diagnostic Tests
-- \Uparrow urine orotic acid, 200-1000X
+- \Uparrow urine orotic acid 200-1000X
 
 *** Treatment
 - enzyme defect can be by-passed by the administration of uridine

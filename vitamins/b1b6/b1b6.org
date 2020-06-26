@@ -123,7 +123,7 @@
   - deficiency results in \uparrow \alpha-aminoadipic acid semialdehyde (AASA)
     - AASA is in equilibrium with piperideine-6-carboxylate (P6C)
     - PC6 inactivates PLP
-- *simpultaneous determination of S-sulfocysteine is crucial to exclude*
+- *simultaneous determination of S-sulfocysteine is crucial to exclude*
   *molybdenum cofactor and sulfite oxidase deficiency causing secondary*
   *inhibition of antiquitin*
   - \uparrow S-sulfocysteine inhibits antiquitin

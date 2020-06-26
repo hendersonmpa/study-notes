@@ -17,6 +17,8 @@
 - ornithine-\delta- aminotransferase (OAT) is a pyridoxal
   phosphate-requiring, mitochondrial matrix enzyme that plays a
   pivotal role in these pathways
+
+ \ce{ornithine + \alpha-KG <->[OAT] P5C + glutamate}
 - OAT reaction is freely reversible:
   - during the neonatal period the net flux is in the direction of
     ornithine and, via the urea cycle, arginine biosynthesis
@@ -45,7 +47,7 @@
 - pyridinoline ring of proline and hydroxyproline contribute to the
   structural stability of proteins particularly collagen
 - P5C is the product or precursor of the OAT reaction
-  - \ce{ ornithine + \alpha-KG <->[OAT] P5C + Glu}
+
 - P5C is precursor and degradation product of proline
 - P5C synthetase is a bifunctional ATP- and NADPH-dependent
   mitochondrial enzyme that is highly active in the gut
@@ -120,7 +122,7 @@
 - \uparrow dose PLP works in subset of responsive patients
 
 * HHH Syndrome
-- Hyperornithinaemia, Hyperammonaemia and Homocitrullinuria Syndrome
+- Hyperornithinaemia, Hyperammonaemia and Homocitrullinuria syndrome
 #+BEGIN_EXPORT LaTeX
 \begin{center}
 \chemnameinit{}
@@ -177,7 +179,7 @@
 - prognosis variable, generally good
 
 * P5CS  Deficiency
-- \Delta1-Pyrroline-5-Carboxylate Synthetase Deficiency
+- \Delta1-Pyrroline-5-Carboxylate Synthetase deficiency
 - Hypoprolinaemia
 ** Clinical Presentation
 - central and peripheral neurological

@@ -8,7 +8,7 @@
 #+BEGIN_EXPORT LaTeX
 \begin{center}
 \chemnameinit{}
-\chemname{\chemfig{H_2N-[::30,,2,](=[::60]O)-PO_4^{-}}}{\small CPS}
+\chemname{\chemfig{H_2N-[::30,,2,](=[::60]O)-PO_4^{-}}}{\small carbamoyl-P}
 \chemnameinit{}
 \chemname{\chemfig{H_2N-[::30,,2,]-[::-60]-[::60]-[::-60](<[::-60]NH_2)-[::60](=[::60]O)-[::-60]OH}}{\small ornithine}
 \end{center}

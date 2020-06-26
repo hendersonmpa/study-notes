@@ -6,10 +6,18 @@
 - carnitine (\beta-hydroxy-\gamma-N-trimethylaminobutyric acid) is
   an endogenous quaternary ammonium compound synthesized from lysine
   and methionine
-- L-Carnitine has been described as a "conditionally essential"
+
+#+BEGIN_EXPORT LaTeX
+\chemnameinit{}
+\chemname{\chemfig{H3C-N^{+}([2]-CH3)([6]-CH3)-CH2-C([2]-H)([6]-OH)-CH_2-C([1]=O)([7]-O^{-})}}{\small carnitine}
+\hspace{3em}
+\chemname{\chemfig{H3C-N^{+}([2]-CH3)([6]-CH3)-CH2-C([2]-H)([6]-O-C([0]=O)-{\color{red}R})-CH_2-C([1]=O)([7]-O^{-})}}{\small acylcarnitine}
+#+END_EXPORT
+
+- carnitine has been described as a "conditionally essential"
   nutrient for humans
 - exogenous carnitine is required to maintain plasma carnitine
-  concentrations in humans of all ages especially:
+  concentrations in humans of all ages especially
   - infants (premature and full-term)
   - patients on long-term parenteral nutrition
   - children
@@ -20,7 +28,7 @@
 
 #+CAPTION[]: Acylcarnitine Panel
 #+NAME: tab:acpanel
-| Carbons  | Acylcarnitine             | Disorder                           |
+| carbons  | acylcarnitine             | disorder                           |
 |----------+---------------------------+------------------------------------|
 | C0       | free                      | CUD                                |
 | C2       | acetyl                    | CUD                                |
@@ -98,14 +106,6 @@
 - TFP :: mitochondrial trifunctional protein
 - VLCAD :: very long-chain acyl-CoA dehydrogenase
 
-
-#+BEGIN_EXPORT LaTeX
-\chemnameinit{}
-\chemname{\chemfig{H3C-N^{+}([2]-CH3)([6]-CH3)-CH2-C([2]-H)([6]-OH)-CH_2-C([1]=O)([7]-O^{-})}}{\small Carnitine}
-\hspace{3em}
-\chemname{\chemfig{H3C-N^{+}([2]-CH3)([6]-CH3)-CH2-C([2]-H)([6]-O-C([0]=O)-{\color{red}R})-CH_2-C([1]=O)([7]-O^{-})}}{\small Acylcarnitine}
-%\chemname{\chemfig[][scale=.5]{H3C-N^{+}([2]-CH3)([6]-CH3)-CH2-C([2]-H)([6]-O-C([0]=O)-{\color{red}R})-CH_2-C([2]=O)-O-CH_2-CH_2-CH_2-CH_3}}{\small Acylcarnitine, butyl ester}
-#+END_EXPORT
 
 * Diagnostic FIA-MS/MS
 ** Sample Prep
@@ -279,10 +279,10 @@ method for blood spots. Journal of Inherited Metabolic Disease, 22(2),
   - avoids hydrolysis of acylcarnitines to free carnitine (C0)
 
 \[
-\frac{Free_{carnitine}}{Total_{carnitine}} = \frac{C_0}{\sum_{0}^{18} C_n}
+\frac{free_{carnitine}}{total_{carnitine}} = \frac{C_0}{\sum_{0}^{18} C_n}
 \]
 
-- \Downarrow in CUD, < 5-10% of normal 
+- \Downarrow in CUD \lt 5-10% of normal 
 
 
 ** Fractional Tubular Re-absorption of Carnitine
@@ -293,5 +293,5 @@ FTR_{carnitine}\% = \left( 1 -  \frac{carnitine_{urine} \cdot creatinine_{plasma
 \end{equation*}
 #+END_EXPORT
 
-- normally >98%, \Downarrow in CUD
+- \Downarrow in CUD normally \gt 98%
 

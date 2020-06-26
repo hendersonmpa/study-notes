@@ -30,6 +30,10 @@
 #+LaTeX_HEADER: \pagestyle{scrheadings}
 :END:
 
+#+BEGIN_EXPORT LaTeX
+\setchemfig{atom style={scale=0.75}}
+#+END_EXPORT
+
 * Mitochondrial Redox Rxns
 ** Cellular Redox State
 - NADH and FADH_2 are reducing agents

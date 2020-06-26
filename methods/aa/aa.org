@@ -171,7 +171,7 @@
 #+CAPTION[]:Amino Acids Analyser
 #+NAME: fig:aaa
 #+ATTR_LaTeX: :width 1.1\textwidth
-[[./aa/figures/aaachrom.png]]
+[[./figures/aaachrom.png]]
 
 ** Pros and Cons of Amino Acid Analysers
 *** Pros
@@ -309,9 +309,12 @@ plot data u 1:3 w lp lw 2 title 'A', \
 - manual peak integration
 
 * Total Homocysteine
-- tHCY is useful in evaluation of potential CBS deficiency, cobalamin
+- there are three forms of homocysteine, total homocysteine (tHcy)is
+  measured (Figure [[fig:hcyforms]])
+- tHcy is useful in evaluation of potential CBS deficiency, cobalamin
   metabolism defects
   - differentiation of mutase and CblC deficiencies
+
 
 #+CAPTION[]:The Three Forms of Homocysteine
 #+NAME: fig:hcyforms
@@ -319,21 +322,21 @@ plot data u 1:3 w lp lw 2 title 'A', \
 [[file:./figures/hcy.png]]
 
 ** Method
-- oxidized Hcy that is bound to protein is reduced to free Hcy
-- Hcy then reacts with S-adenosylmethionine (SAM), to form methionine
-  (Met) and S-adenosyl homocysteine (SAH), catalyzed by a Hcy
-  S-methyl transferase (HMTase)
-- SAH is assessed by coupled enzyme reactions where SAH is hydrolyzed
-  into adenosine and homocysteine by SAH hydrolase, and homocysteine
-  is cycled into the homocysteine conversion reaction to form a
-  reaction cycle that amplifies the detection signal. The formed
-  adenosine is immediately hydrolyzed into inosine and ammonia (NH_3).
-- glutamate dehydrogenase (GLDH) catalyzes the reaction of ammonia
-  with 2-oxoglutarate and NADH to form NAD^+
-- Photometric measurement: the concentration of Hcy in the sample is
-  directly proportional to the amount of NADH converted to NAD + (\delta A340nm).
-
-
+- enzymatic total homocysteine method (Figure [[fig:thcymethod]])
+  1. oxidized Hcy that is bound to protein is reduced to free Hcy
+  2. Hcy then reacts with S-adenosylmethionine (SAM), to form methionine
+     (Met) and S-adenosyl homocysteine (SAH), catalyzed by a Hcy
+     S-methyl transferase (HMTase)
+  3. SAH is assessed by coupled enzyme reactions where SAH is hydrolyzed
+     into adenosine and homocysteine by SAH hydrolase, and homocysteine
+     is cycled into the homocysteine conversion reaction to form a
+     reaction cycle that amplifies the detection signal
+     - the formed adenosine is immediately hydrolyzed into inosine and
+       ammonia (NH_3)
+  4. glutamate dehydrogenase (GLDH) catalyzes the reaction of ammonia
+     with 2-oxoglutarate and NADH to form NAD^+
+  5. concentration of Hcy in the sample is \propto the amount of NADH
+     converted to NAD^{+} (\Delta A340nm)
 
 #+CAPTION[]:Enzymatic Total Homocysteine Method
 #+NAME: fig:thcymethod

@@ -19,8 +19,8 @@
 
 #+CAPTION[]:Beutler Method
 #+NAME: fig:bm
-#+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./enzymes/figures/beutler.jpg]]
+#+ATTR_LaTeX: :width 0.4\textwidth
+[[file:./figures/beutler.jpg]]
 
 
 ** Spotcheck
@@ -39,66 +39,107 @@
 * Biotinidase
 
 #+BEGIN_EXPORT LaTeX
-\ce{biotin-PAB ->[BTD][ph 6] biotin + PABA}
+\ce{biotin-PAB ->[BTD][pH 6] biotin + PABA}
 
 \ce{PABA ->[NO2, NH2SO3][NED] purple chromophore}
 
 #+END_EXPORT
 
 * Lysosomal Enzymes
+- activity assays report rates (umol/L/h)
+
+** 4MU Iduronidase Assay
+- 4-MU-\alpha-L-iduronide is a fluorogenic substrate
+  of \alpha-iduronidase is incubated with whole blood or leukocytes for ~ 20 hours
+  - 5 hours possible
+- 4-MU is quenched when linked to \alpha-L-iduronide
+  - ex=360 and em=445
+
+#+CAPTION[4MUI]:4-Methylumbelliferyl-\alpha-L-Iduronide
+#+NAME: fig:4mui
+#+ATTR_LaTeX: :width 0.4\textwidth
+[[file:./figures/M337643.png]]
+
+*** Known Issues
+**** Psuedodeficiency
+ - Low /in vitro/ \alpha-iduronidase activity with native and 4-MU
+   substrates
+ - Known PD alleles:
+   - p.A300T, p.A79T, p.H82Q, p.D223N, p.V322E
+
+**** Sample quality 
+ - Poor sample quality \to low enzyme activity
+   - measurement of control enzymes useful
+
 ** Multiplex DBS Assay
- - the DBS screening assay tests for:
-   - Gaucher
-   - Krabbe
-   - Niemann-Pick-A/B
-   - Pompe
-   - Fabry
-   - MPS-I
  - a single 3-mm DBS punch, which is incubated in a single-assay
-   cocktail with all substrates and internal standards
+   cocktail with all substrates and internal standards for ~ 20 hours
  - after incubation and liquid-liquid extraction, samples are analyzed by flow injection MS/MS
  - all deuterated internal standards correspond to enzymatically generated products
 
+#+CAPTION[]:Neo-LSD Lysosomal enzyme activities
+#+NAME: tab:
+| enzyme                   | disease | abbreviation |
+|--------------------------+---------+--------------|
+| \alpha-iduronidase       | MPS 1   | IDUA         |
+| \beta-glucocerebrosidase | Gaucher | ABG          |
+| acid \alpha-glucosidase  | Pompe   | GAA          |
+| galactocerebrosidase     | Krabbe  | GALC         |
+| acid sphingomylinase     | NPA/B   | ASM          |
+| \alpha-galactosidase     | Fabry   | GLA          |
 
 ** Hexosamindase
-- testing for Tay-Sachs and Sandhoff diseases occurs by analysis of hexosaminidase A, a heat-labile enzyme, and total hexosaminidase (hexosaminidase A plus hexosaminidase B)
+- total hexosaminidases (A+B) using a synthetic fluorogenic substrate
+  allows the diagnosis of Sandhoff disease
+- differential assay of HexA using heat or acid
+  inactivation does not identify patients with the B1 variant
+- HexA is heat-labile while Hex B is not and total hexosaminidase
 - an artificial substrate is most commonly used
-- total hexosaminidase is quantified
-  - following this, heat inactivation of hexosaminidase A occurs with a second measurement of the total enzyme level
-  - from this, the percent hexosaminidase A is calculated
-- Tay-Sachs disease is characterized by normal total hexosaminidase with a very low percent hexosaminidase A
-- carriers of Tay-Sachs disease are asymptomatic, but have intermediate percent hexosaminidase A in serum and leukocytes
+- total hexosaminidase activity is quantified
+  - following this, heat inactivation of HexA occurs with a second
+    measurement of the total enzyme level
+  - from this, the percent HexA is calculated
+    - HexA = [Prior to Heat] - [After Heat}
+    - HexA = Total - HexB
+- Tay-Sachs disease is characterized by normal total hexosaminidase
+  with a very low percent HexA (Table [[tab:gm2]])
+- carriers of Tay-Sachs disease are asymptomatic, but have
+  intermediate percent HexA in serum and leukocytes
 - follow-up molecular testing is recommended for all individuals with
   enzyme results in the carrier or possible carrier ranges to
   differentiate carriers of a pseudodeficiency allele from those with
   a disease-causing mutation
-- this allows for the facilitation of prenatal diagnosis for at-risk
-  pregnancies
 
-| Disorder   | Enzyme | Total Hexosamindase | Hex A      | Percent    |
-|------------+--------+---------------------+------------+------------|
-| Tay-Sachs  | HexA   | N                   | \Downarrow | \Downarrow |
-| TS carrier | Hex    | \dowarrow           | \downarrow | \downarrow |
-| Sandhoff   | HexA/B | \Downarrow          | \Downarrow | \uparrow   |
+#+CAPTION[]: Biochemical Results in GM2 Gangliosidosis
+#+NAME: tab:gm2
+| Disorder   | Enzyme | HexA + HexB | Hex A      | HexA%      |
+|------------+--------+-------------+------------+------------|
+| Tay-Sachs  | HexA   | N           | \Downarrow | \Downarrow |
+| TS carrier | HexA   | \dowarrow   | \downarrow | \downarrow |
+| Sandhoff   | HexA/B | \Downarrow  | \Downarrow | \uparrow   |
 
+
+*** HexA assay
+- the direct assay of hexosaminidase A using the sulfated synthetic
+  substrate (4-MU-6-sulfo-/beta-glucosaminide) specific for the
+  \alpha-subunit is the method of choice
+- /in vitro/ hexoaminidase activity: leukocytes, fibroblasts
+  - 4-MU-6-sulfo-\beta-glucosaminide
+  - specific for the \alpha subunit
+- falsely normal results in Tay-Sachs female carriers
 
 *** B1 Variant
 - very small group of patients affected with Tay-Sachs disease have
-  mutations referred to as the B1 variant
-
+  mutations referred to as the B1 variant of Hex A
 - in the presence of an artificial substrate, the B1 variant allows
-  for a heterodimer formation of hexosaminidase A and exhibits
+  for a heterodimer formation of HexA and exhibits
   activity
-
-  - in vivo the B1 variant hexosaminidase A is inactive on the natural
+  - /in vivo/ the B1 variant HexA is inactive on the natural
     substrate
-
   - with the artificial substrate, these patients appear to be
-    unaffected.
-
+    unaffected
   - B1 variant of Tay-Sachs disease must be distinguished using a
-    natural substrate assay.
-
+    natural substrate assay
   - patients with at least one B1 variant typically become symptomatic
     beyond the infantile period
 

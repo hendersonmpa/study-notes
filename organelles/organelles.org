@@ -30,6 +30,10 @@
 #+LaTeX_HEADER: \pagestyle{scrheadings}
 :END:
 
+#+BEGIN_EXPORT LaTeX
+\setchemfig{atom style={scale=0.75}}
+#+END_EXPORT
+
 * Sphingolipid Synthesis
 #+INCLUDE: "./sphingolipid_synthesis/sphingolipid_synthesis.org" :lines "4-"
 * Sphingolipidoses
