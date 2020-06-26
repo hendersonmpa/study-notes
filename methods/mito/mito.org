@@ -2,7 +2,6 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
-* Introduction
 #+BEGIN_SRC dot :file ./mito/figures/etc.pdf :cmdline -Kdot -Tpdf
   digraph {
            // graph from left to right
@@ -15,13 +14,13 @@
 	       g3p[label="glycerol-3-phosphate", fillcolor=grey, style=filled];
            gpd[label="GPD", fillcolor=steelblue3, style=filled];
            nadh [label="NADH", fillcolor=grey, style=filled];
-           c1 [label="Complex I", fillcolor=steelblue3, style=filled];
+           c1 [label="CI", fillcolor=steelblue3, style=filled];
            q [label="CoQ", fillcolor=red3, style=filled];    
-           c3 [label="Complex III", fillcolor=steelblue3, style=filled];     
+           c3 [label="CIII", fillcolor=steelblue3, style=filled];     
            cytc [label="Cytochrome C", fillcolor=red, style=filled];     
-           c4 [label="Complex IV", fillcolor=steelblue3, style=filled];     
+           c4 [label="CIV", fillcolor=steelblue3, style=filled];     
            h2o [label="H2O", fillcolor=grey, style=filled];     
-           c2 [label="Complex II", fillcolor=steelblue3, style=filled];     
+           c2 [label="CII", fillcolor=steelblue3, style=filled];     
            s [label="succinate", fillcolor=grey, style=filled];     
            fadh -> etf; 
            etf -> etfd;
@@ -39,13 +38,13 @@
            }    
 #+END_SRC
 
-#+CAPTION[]:Electron Transport Chain
+#+CAPTION[]:Flow of Electrons in the ETC
 #+NAME: fig:etc
 #+ATTR_LaTeX: :width \textwidth
 #+RESULTS:
-[[file:./mito/figures/etc.pdf]]
+[[file:./figures/etc.pdf]]
 
-** Inhibitors 
+** COMMENT Inhibitors 
 *** CI 
 - the best-known inhibitor of complex I is rotenone commonly used as
   an organic pesticide
@@ -95,16 +94,56 @@
    levels of lactate accumulating in the blood and urine
 
 * Citrate Synthase
-* CI+III assay
+** Purpose
+- citrate synthase (CS) is the initial enzyme of the TCA cycle
+- is an exclusive marker of the mitochondrial matrix 
+** Procedure
+- CS catalyzes the reaction between acetyl-CoA and oxaloacetic acid to
+  form citric acid and CoA-SH
+
+\ce{acetyl-CoA + oxaloacetate ->[CS] Citrate + CoA-SH + H+ + H2O} 
+
+- CoA-SH reacts with the 5,5′-Dithiobis-(2-nitrobenzoic acid)(DTNB) in
+  the reaction mixture to form 5-thio-2-nitrobenzoic acid (TNB)
+
+\ce{CoA-SH + DTNB -> TNB + CoA-S-S-TNB}
+
+- absorbance of the yellow product (TNB) is measured at 412 nm
+	
+* CI & III assay
+#+BEGIN_SRC dot :file ./mito/figures/c1c3.pdf :cmdline -Kdot -Tpdf
+  digraph {
+           // graph from left to right
+           rankdir=LR;
+           splines=true;
+           node [shape=oval];
+           nadh [label="NADH", fillcolor=grey, style=filled];
+           c1 [label="CI", fillcolor=steelblue3, style=filled];
+           q [label="CoQ", fillcolor=red3, style=filled];    
+           c3 [label="CIII", fillcolor=steelblue3, style=filled];     
+           cytc [label="Cytochrome C", fillcolor=red, style=filled];     
+           nadh -> c1;
+           c1 -> q;
+           q -> c3;
+           c3 -> cytc; 	 
+           }    
+#+END_SRC
+
+#+CAPTION[]:CI & III assay
+#+NAME: fig:c1c3
+#+ATTR_LaTeX: :width \textwidth
+#+RESULTS:
+[[file:./figures/c1c3.pdf]]
+
+
 ** Purpose
 - determine the rate of cytochrome c reduction in mitochondria as a
   result of electron transfer from NADH to cytochrome c (mitochondrial
   complex I+III) activity
-- Complex I transfers electrons to ubiquinone (coenzyme Q10) through a
+- Complex I transfers electrons to ubiquinone (CoQ) through a
   long series of redox groups
-- Complex III catalyzes electron transfer between ubiquinol and
-  cytochrome c and also translocates protons across the mitochondrial
-  inner membrane
+- Complex III catalyzes electron transfer between ubiquinol(CoQH_2)
+  and cytochrome c and also translocates protons across the MIM
 
 ** Principle
 - reduced cytochrome c absorbs light at 550 nm
@@ -127,6 +166,26 @@
   by electrons passing ONLY through complex I
 
 * CI assay
+#+BEGIN_SRC dot :file ./mito/figures/c1.pdf :cmdline -Kdot -Tpdf
+  digraph {
+           // graph from left to right
+           rankdir=LR;
+           splines=true;
+           node [shape=oval];
+           nadh [label="NADH", fillcolor=grey, style=filled];
+           c1 [label="Complex I", fillcolor=steelblue3, style=filled];
+           q [label="CoQ", fillcolor=red3, style=filled];    
+           nadh -> c1;
+           c1 -> q;
+           }    
+#+END_SRC
+
+#+CAPTION[]:CI assay
+#+NAME: fig:c1
+#+ATTR_LaTeX: :width .7\textwidth
+#+RESULTS:
+[[file:./figures/c1.pdf]]
+
 ** Purpose
 - determining the rate of NADH oxidation in mitochondria as a result
   of electron transfer from NADH to ubiquinone 
@@ -136,48 +195,93 @@
   corresponding to the decreased concentration of NADH, which has been
   oxidized to NAD during the passage of electrons to ubiquinone
 - assay is rotenone sensitive
-- rotenone in the reference cuvette will specifically inhibit Complex
-  I therefore any oxidation of NADH from this cell does not include
-  the contribution of Complex I
+- rotenone in the reference cuvette will specifically inhibit CI
+  therefore any oxidation of NADH from this cell does not include the
+  contribution of CI
   - assay cuvette :: ubiquinone &  antimycin A
   - reference cuvette :: ubiquinone &  antimycin A & rotenone 
 
 #+BEGIN_EXPORT LaTeX
-\ce{ubiquinone(CoQ) + NADH ->[CI] ubiquinol(CoQH2) + NAD+} 
-\\
-\ce{oxidized CoQ -> reduced CoQ} 
+\ce{CoQ + NADH ->[CI] CoQH2 + NAD+} 
+
+
 #+END_EXPORT
 
 - spectrophotometer subtracts the activity seen in the reference cell
   from the activity seen in the assay cell, the progress curve seen on
-  the computer screen reflects activity of NADH oxidation ONLY through
-  Complex I
+  the computer screen reflects NADH oxidation ONLY through CI
 
 * CII assay
+#+BEGIN_SRC dot :file ./mito/figures/c2.pdf :cmdline -Kdot -Tpdf
+  digraph {
+           // graph from left to right
+           rankdir=LR;
+           splines=true;
+           node [shape=oval];
+           q [label="CoQ", fillcolor=red3, style=filled];    
+           dc [label="DCPIP", fillcolor=steelblue3, style=filled];     
+           c2 [label="CII", fillcolor=steelblue3, style=filled];     
+           s [label="succinate", fillcolor=grey, style=filled];     
+           s -> c2;
+           c2 -> q;
+           q -> dc;
+           }    
+#+END_SRC
+
+#+CAPTION[]:CII Assay
+#+NAME: fig:c2
+#+ATTR_LaTeX: :width .7\textwidth
+#+RESULTS:
+[[file:./figures/c2.pdf]]
+
 ** Purpose
 - Complex II activity
 ** Principle
 - secondary reduction of the dye 2,6-dichlorophenolindophenol (DCPIP)
-  by the ubiquinol formed at 600nm
-- DCPIP assays are very prone to interference from NAD(P)H
+  by the CoQH_2 at 600nm
+- DCPIP assays are very prone to interference from NADPH
   diaphorases
 - caution is recommended in interpreting results from non-muscle
   tissue, rich in diaphorase
   - assay cuvette :: succinate, ubiquinone & DCPIP 
   - reference cuvette :: ubiquinone & DCPIP
 
-\ce{oxidized DCPIP -> reduced DCPIP} 
+\ce{CoQH2 + DCPIP_ox -> CoQ + DCPIP_red} 
 
-#+CAPTION[]:Coupled Spectrophotometric Assay
+#+CAPTION[]:Alternative Coupled Spectrophotometric CII Assay
 #+NAME: fig:
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./figures/gr4.jpg]]
 
-* CII + III assay
+* CII & III assay
+#+BEGIN_SRC dot :file ./mito/figures/c2c3.pdf :cmdline -Kdot -Tpdf
+  digraph {
+           // graph from left to right
+           rankdir=LR;
+           splines=true;
+           node [shape=oval];
+           q [label="CoQ", fillcolor=red3, style=filled];    
+           c3 [label="CIII", fillcolor=steelblue3, style=filled];     
+           cytc [label="Cytochrome C", fillcolor=red, style=filled];     
+           c2 [label="CII", fillcolor=steelblue3, style=filled];     
+           s [label="succinate", fillcolor=grey, style=filled];     
+           q -> c3;
+           c3 -> cytc; 	 
+           c2 -> q;
+           s -> c2;
+           }    
+#+END_SRC
+
+#+CAPTION[]:CII & CIII
+#+NAME: fig:c2c3
+#+ATTR_LaTeX: :width \textwidth
+#+RESULTS:
+[[file:./figures/c2c3.pdf]]
+
 ** Purpose
-- measure rate of SCR in mitochondria as a result of mitochondrial
-  respiratory complexes II and III activity
-- Complex II performs a key step in the citric acid cycle, in which
+- measure rate of CII and III activity in mitochondria 
+  - complexes II and III are sometimes called succinate cytochrome c reductase (SCR)
+- Complex II performs a key step in the citric acid cycle in which
   succinate is dehydrogenated to ubiquinone in the mitochondrial inner
   membrane
 - Complex II is localized to the matrix side of the mitochondrial
@@ -196,12 +300,33 @@
   - reference cuvette :: oxidized cyt c, azide & succinate
 
 #+BEGIN_EXPORT LaTeX
-{\tiny\ce{4Fe3+ cytochrome c + succinate + 2H2O ->[CII + CIII] 4Fe2+ cytochrome c + fumarate + 4H + O2}}
+{\small\ce{4Fe3+ cytochrome c + succinate + 2H2O ->[CII + CIII] 4Fe2+ cytochrome c + fumarate + 4H + O2}}
 \\
 \ce{oxidized cyt c -> reduced cyt c} 
 #+END_EXPORT
 
 * CIV assay
+#+BEGIN_SRC dot :file ./mito/figures/c4.pdf :cmdline -Kdot -Tpdf
+  digraph {
+           // graph from left to right
+           rankdir=LR;
+           splines=true;
+           node [shape=oval];
+           cytc [label="Cytochrome C", fillcolor=red, style=filled];     
+           c4 [label="CIV", fillcolor=steelblue3, style=filled];     
+           h2o [label="H2O", fillcolor=grey, style=filled];     
+           c4 -> cytc;
+           h2o -> c4;
+
+           }    
+#+END_SRC
+
+#+CAPTION[]:CIV Assay
+#+NAME: fig:c4
+#+ATTR_LaTeX: :width .7\textwidth
+#+RESULTS:
+[[file:./figures/c4.pdf]]
+
 ** Purpose
 - determine the rate of cytochrome C oxidation in mitochondria as a
   result of cytochrome C oxidase (mitochondrial complex IV, COX)
@@ -222,26 +347,25 @@
   - reference cuvette :: reduced cyt c
 
 #+BEGIN_EXPORT LaTeX
-{\small\ce{4Fe2+ cytochrome c + NAD+ + 4H + O2 ->[CI + CIII] 4Fe3+ cytochrome c + NADH + 2H2O}}
+{\small\ce{4Fe3+ cytochrome c + 2H2O->[CIV] 4Fe2+ cytochrome c 4H + O2}}
 \ce{reduced cyt c -> oxidized cyt c}
 #+END_EXPORT
 
 * CV assay
 ** Purpose
-- determine the activity of respiratory chain complex V in isolated
+- determine the activity of respiratory chain CV in isolated
   muscle and fibroblast mitochondria
 
 ** Principle
-- ATP hydrolysis by ATPase liberates ADP which is reconverted to ATP
-  by the action of PK, thus maintaining a constant concentration of
-  ATP and a low steady state concentration of ADP
+- ATP hydrolysis via the ATPase activity of CV generates ADP which is
+  reconverted to ATP by the action of PK, thus maintaining a constant
+  concentration of ATP and a low steady state concentration of ADP
 - pyruvate production from PEP and ADP, catalysed by PK, is monitored
   as a rate of oxidation of NADH by coupling to LDH
 - ATPase is oligomycyn sensitive
   - assay cuvette :: LDH, PK, PEP & rotenone
   - reference cuvette :: LDH, PK, PEP, rotenone & oligomycin
 		     
-
-\ce{ATP <->[ATPase] ADP}
+\ce{ATP <->[CV] ADP}
 \ce{PEP + ADP ->[PK] pyruvate}
 \ce{pyruvate + NADH ->[LDH] lactate + NAD+}

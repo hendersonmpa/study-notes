@@ -177,7 +177,7 @@
   gluconeogenesis and hypoglycemia.
 
 ** Carnitine Transporter Deficiency
-- AKA: primary carnitine deficiency, carnitine uptake deficiency
+- AKA primary carnitine deficiency, carnitine uptake deficiency
 *** Clinical Presentation
 - cardiomyopathy, cardiac failure, muscle weakness, liver disease
 - precipitated by infection, fasting, pregnancy or antibiotics containing pivalate
@@ -261,6 +261,8 @@
 *** Metabolic Derangement
 - carnitine-acylcarnitine translocase, catalyzes the transfer of the
   acylcarnitines across the inner mitochondrial membrane (Figure [[fig:translocase]])
+  - acylcarnitine in
+  - carnitine out
 - deficiency of carnitine acyl translocase leads to the accumulation
   of the free fatty acids outside the mitochondrial matrix
 - long chain acylcarnitines and short chains are also found, because
@@ -497,7 +499,7 @@
 - see Congenital Hyperinsulinema
 * Electron Transfer Defects 
 ** Multiple Acyl-CoA Dehydrogenase Deficiency 
-- AKA: Glutaric Aciduria Type II
+- AKA Glutaric Aciduria Type II
 *** Clinical Presentation
 - ETF and ETFQO deficiencies \to wide range of clinical severity
 - severely affected patients present in the first few days of life

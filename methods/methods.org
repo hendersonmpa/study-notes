@@ -5,13 +5,9 @@
 :PROPERTIES:
 #+DRAWERS: PROPERTIES
 #+LaTeX_CLASS: koma-article
-#+OPTIONS: H:2 toc:t num:t ^:t
-#+PROPERTY: header-args:R :session *R*
-#+PROPERTY: header-args :cache no
-#+PROPERTY: header-args :tangle yes
+#+OPTIONS: H:3 toc:2 num:t ^:t
 #+STARTUP: overview
 #+STARTUP: indent
-#+LaTeX_header: \usepackage{dejavu}
 #+latex_header: \hypersetup{colorlinks,linkcolor=black,urlcolor=blue}
 #+LaTeX_header: \usepackage{textpos}
 #+LaTeX_header: \usepackage{textgreek}
@@ -20,20 +16,18 @@
 #+LaTeX_header: \usepackage{siunitx}
 #+LaTeX_header: \usepackage{gensymb}
 #+LaTex_HEADER: \usepackage[usenames,dvipsnames]{xcolor}
-#+LaTeX_HEADER: \usepackage[T1]{fontenc}
 #+LaTeX_HEADER: \usepackage{lmodern}
 #+LaTeX_HEADER: \usepackage{verbatim}
 #+LaTeX_HEADER: \usepackage{tikz}
 #+LaTeX_HEADER: \usepackage{wasysym}
 #+LaTeX_HEADER: \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
-#+LaTeX_HEADER: \usepackage[automark, autooneside=false, headsepline, footsepline]{scrlayer-scrpage}
+#+LaTeX_HEADER: \usepackage[automark, autooneside=false, headsepline]{scrlayer-scrpage}
 #+LaTeX_HEADER: \clearpairofpagestyles
 #+LaTeX_HEADER: \ihead{\leftmark}% section on the inner (oneside: right) side
 #+LaTeX_HEADER: \ohead{\rightmark}% subsection on the outer (oneside: left) side
 #+LaTeX_HEADER: \addtokomafont{pagehead}{\upshape}% header upshape instead of italic
 #+LaTeX_HEADER: \ofoot*{\pagemark}% the pagenumber in the center of the foot, also on plain pages
 #+LaTeX_HEADER: \pagestyle{scrheadings}
-
 :END:
 
 #+BEGIN_EXPORT LaTeX
@@ -46,9 +40,8 @@
 \tikzstyle{box} = [rectangle, rounded corners, text width=5em, minimum height=5em,text centered, draw=black, fill=none]
 \tikzstyle{arrow} = [thick,->,>=stealth]
 \tikzstyle{hl-arrow} = [ultra thick,->,>=stealth,draw=red]
-\setchemfig{atom style={scale=0.5}}
+\setchemfig{atom style={scale=0.7}}
 #+END_EXPORT 
-
 
 * Amino Acids
 #+INCLUDE: "./aa/aa.org" :lines "4-"

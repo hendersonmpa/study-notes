@@ -37,7 +37,7 @@
   - Cytochrome c oxidase (complex IV)
   - ETF-QO and mitochondrial glycerol-3-P dehydrogenase (GPD) (not part of ETC)
 
-#+BEGIN_SRC dot :file ./figures/etc.pdf :cmdline -Kdot -Tpdf
+#+BEGIN_SRC dot :file ./oxphos/figures/etc.pdf :cmdline -Kdot -Tpdf
   digraph {
            // graph from left to right
            rankdir=LR;

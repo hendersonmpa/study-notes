@@ -6,9 +6,6 @@
 #+DRAWERS: PROPERTIES
 #+LaTeX_CLASS: koma-article
 #+OPTIONS: H:3 toc:2 num:t ^:t
-#+PROPERTY: header-args:R :session *R*
-#+PROPERTY: header-args :cache no
-#+PROPERTY: header-args :tangle yes
 #+STARTUP: overview
 #+STARTUP: indent
 #+latex_header: \hypersetup{colorlinks,linkcolor=black,urlcolor=blue}

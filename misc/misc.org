@@ -16,7 +16,6 @@
 #+LaTeX_header: \usepackage{siunitx}
 #+LaTeX_header: \usepackage{gensymb}
 #+LaTex_HEADER: \usepackage[usenames,dvipsnames]{xcolor}
-#+LaTeX_HEADER: \usepackage[T1]{fontenc}
 #+LaTeX_HEADER: \usepackage{lmodern}
 #+LaTeX_HEADER: \usepackage{verbatim}
 #+LaTeX_HEADER: \usepackage{tikz}

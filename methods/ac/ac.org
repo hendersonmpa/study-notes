@@ -3,7 +3,7 @@
 #+DATE: \today
 
 * Introduction
-- carnitine (\beta{}-hydroxy-\gamma{}-N-trimethylaminobutyric acid) is
+- carnitine (\beta-hydroxy-\gamma-N-trimethylaminobutyric acid) is
   an endogenous quaternary ammonium compound synthesized from lysine
   and methionine
 - L-Carnitine has been described as a "conditionally essential"
@@ -14,26 +14,27 @@
   - patients on long-term parenteral nutrition
   - children
 - primary function is to shuttle long chain fatty acids to the
-  mitochondrial matrix, for \beta-oxidation
+  mitochondrial matrix for \beta-oxidation
 - acylcarnitines are markers for FAODs and OAs
 
 
 #+CAPTION[]: Acylcarnitine Panel
 #+NAME: tab:acpanel
-| Carbons  | Carnitine                 | Disorder                           |
+| Carbons  | Acylcarnitine             | Disorder                           |
 |----------+---------------------------+------------------------------------|
 | C0       | free                      | CUD                                |
 | C2       | acetyl                    | CUD                                |
-| C3       | propionyl                 | PA,MMA, SUCLA2                     |
-| C4       | butyryl                   | SCAD, IBDH                         |
+| C3       | propionyl                 | PA, MMA, SUCLA2                    |
+| C4       | butyryl                   | SCAD, IBDH, GA2, EE                |
 |          | isobutyryl                |                                    |
-| C5:1     | tiglyl                    | BKT,MCC, MHBD                      |
-| C5       | isovaleryl                | IVA, SBCAD, GA2, EE                |
-|          | 2-methylbutyryl           |                                    |
+| C5:1     | tiglyl                    | BKT, MCC, MHBD                     |
+| C5       | isovaleryl                | IVA, GA2, EE                       |
+|          | 2-methylbutyryl           | SBCAD                              |
 |          | pivalyl                   | antibiotics                        |
 | C4-OH    | 3-hydroxybutyrl           | SCHAD, ketosis                     |
+| C6:1     | 3-methylglutaconyl        | MGA                                |
 | C6       | hexanoyl                  | MCAD, MKAT, GA2                    |
-| C5-OH    | 3-hydroxyisovaleryl       | biotinidase, HMG, MCC, MCD, MGA    |
+| C5-OH    | 3-hydroxyisovaleryl       | biotinidase, HMGCL, MCC, MCD, MGA  |
 |          | 2-methyl-3-hydroxybutyryl | BKT, MHBD                          |
 | C7       | heptanoly                 | heptanoic acid treatment           |
 | C8:1     | octenoyl                  |                                    |
@@ -49,7 +50,7 @@
 | C12:1    | dodecenoyl                |                                    |
 | C12      | dodecanoyl                | GA2                                |
 | C6-DC    | adipyl                    |                                    |
-|          | methylglutaryl            | HMG                                |
+|          | 3-methylglutaryl          | HMGCL                              |
 | C12-OH   | 3-hydroxy dodecanoyl      | LCHAD, TFP                         |
 | C14:2    | tetradecadienoyl          |                                    |
 | C14:1    | tetradecenoyl             | CACT, CPTII, GA2, VLCAD, LCAD, TFP |
@@ -69,32 +70,32 @@
 | C18-OH   | 3-hydroxystearoyl         | LCHAD,TFP                          |
 | C16-DC   | hexadecanedioyl           |                                    |
 
-** Disorders associated with Acylcarnitines
+** Disorders Associated with Abnormal Acylcarnitine Profiles
 - BKT :: beta-ketothiolase
 - CACT :: carnitine-acylcarnitine translocase
 - CPT :: carnitine palmitoyltransferase I and II
-- DCR :: 24-dienoyl-CoA reductase
+- DCR :: 2,4-dienoyl-CoA reductase
 - EE :: ethylmalonic encephalopathy
 - FIGLU :: formiminoglutamate
-- GA1 :: glutaric acidemia type I (glutaryl-CoA dehydrogenase deficiency)
-- GA2 :: glutaric acidemia type II (multiple acyl-CoA dehydrogenase deficiency)
-- HMG :: 3-hydroxy 3-methylglutaryl-CoA lyase
+- GA1 :: glutaric acidemia type I (glutaryl-CoA dehydrogenase)
+- GA2 :: glutaric acidemia type II (multiple acyl-CoA dehydrogenase)
+- HMGCL :: 3-hydroxy 3-methylglutaryl-CoA lyase
 - IBDH :: isobutyryl-CoA dehydrogenase
-- IVA :: isovaleric acidemia (isovaleryl-CoA dehydrogenase deficiency)
+- IVA :: isovaleric acidemia (isovaleryl-CoA dehydrogenase)
 - LCHAD :: long-chain 3-hydroxy acyl-CoA dehydrogenase
 - MCAD :: medium-chain acyl-CoA dehydrogenase
 - MCC :: 3-methylcrotonyl-CoA carboxylase
 - MCD :: multiple carboxylase (holocarboxylase)
-- MGA :: 3-methylglutaconic aciduria type I (3-methylglutaconyl-CoA hydratase deficiency)
+- MGA :: 3-methylglutaconic aciduria type I (3-methylglutaconyl-CoA hydratase)
 - MKAT :: medium-chain 3-ketoacyl-CoA thiolase
-- MMA :: methylmalonic acidemias
+- MMA :: methylmalonic acidemias (MUT, CblC)
 - MHBD :: 2-methyl 3-hydroxy butyryl-CoA dehydrogenase
-- PA :: propionic acidemia (propionyl-CoA carboxylase deficiency)
+- PA :: propionic acidemia (propionyl-CoA carboxylase)
 - SBCAD :: short-branched-chain acyl-CoA dehydrongenase
 - SCAD :: short-chain acyl-CoA dehydrogenase
 - SCHAD :: short-chain 3-hydroxy acyl-CoA dehydrogenase
 - SUCLA2 :: ATP-dependent-proteolysis-factor-formingsuccinyl-CoA synthetase
-- TFP :: mitochondrial trifunctional proteinGlossary
+- TFP :: mitochondrial trifunctional protein
 - VLCAD :: very long-chain acyl-CoA dehydrogenase
 
 
@@ -109,13 +110,14 @@
 * Diagnostic FIA-MS/MS
 ** Sample Prep
 
-- acylcarnitines in the sample are esterified as butyl esters with
-  butanol-hydrogen chloride
-- extraction?
+- acylcarnitines in plasma are extracted into methanol 
+- reconsituted and esterified as butyl esters with butanol-hydrogen
+  chloride
 - solvent delivery is via HPLC with no chromatography, called flow
   injection analysis
 - 10 \micro{}L of sample extract is injected into a flowing stream
   operating at ~ 0.15 ml/min
+  - 3 min integration per sample
 
 #+BEGIN_EXPORT LaTeX
 \chemnameinit{}
@@ -146,27 +148,6 @@
 #+NAME: fig:deriv
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./ac/figures/ionization.png]]
-
-#+begin_src gnuplot :var data=data-table :file ./ac/figures/outletmethod.pdf
-reset
-set title "FIA-MS/MS Method"
-set key on
-set xlabel "min"
-
-set xrange [0:3]
-
-set ylabel "ml/min"
-set yrange [0:1.2]
-
-plot data u 1:2 w lp lw 2 t "80% ACN"
-
-#+end_src
-
-#+CAPTION[]: FIA-MS/MS Method
-#+NAME: fig:acout
-#+ATTR_LaTeX: :width 1.0\textwidth
-#+RESULTS:
-[[file:./ac/figures/outletmethod.pdf]]
 
 ** FIA-MS/MS schematic
 #+BEGIN_EXPORT LaTeX
@@ -292,8 +273,18 @@ method for blood spots. Journal of Inherited Metabolic Disease, 22(2),
 201–202. 
 
 
-* TODO Free and Total Carnitine
-- Method?
+* Free and Total Carnitine
+- acylcarnitine quantitation must be done using a non-derivatized FIA
+  or LC MS/MS method
+  - avoids hydrolysis of acylcarnitines to free carnitine (C0)
+
+\[
+\frac{Free_{carnitine}}{Total_{carnitine}} = \frac{C_0}{\sum_{0}^{18} C_n}
+\]
+
+- \Downarrow in CUD, < 5-10% of normal 
+
+
 ** Fractional Tubular Re-absorption of Carnitine
 
 #+BEGIN_EXPORT LaTeX
@@ -304,10 +295,3 @@ FTR_{carnitine}\% = \left( 1 -  \frac{carnitine_{urine} \cdot creatinine_{plasma
 
 - normally >98%, \Downarrow in CUD
 
-** Free/Total Carnitine
-
-\[
-\frac{Free_{carnitine}}{Total_{carnitine}} = \frac{C_0}{\sum_{0}^{18} C_n}
-\]
-
-- \Downarrow in CUD, < 5-10% of normal 

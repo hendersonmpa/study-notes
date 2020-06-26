@@ -2,6 +2,7 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
+- high-throughput method used in newborn screening
 * Sample
 ** Dried Blood Spot
    - collected from free flowing blood spotted onto filter paper
