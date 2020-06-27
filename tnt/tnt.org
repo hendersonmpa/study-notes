@@ -6,13 +6,8 @@
 #+DRAWERS: PROPERTIES
 #+LaTeX_CLASS: koma-article
 #+OPTIONS: H:2 toc:1 num:t ^:t
-#+PROPERTY: header-args:R :session *R*
-#+PROPERTY: header-args :cache no
-#+PROPERTY: header-args :tangle yes
 #+STARTUP: overview
-#+STARTUP: indent
 #+SEQ_TODO: TODO(t) STARTED(s) | DONE(d) 
-#+LaTeX_header: \usepackage{dejavu}
 #+latex_header: \hypersetup{colorlinks,linkcolor=black,urlcolor=blue}
 #+LaTeX_header: \usepackage{textpos}
 #+LaTeX_header: \usepackage{textgreek}
@@ -21,13 +16,12 @@
 #+LaTeX_header: \usepackage{siunitx}
 #+LaTeX_header: \usepackage{gensymb}
 #+LaTex_HEADER: \usepackage[usenames,dvipsnames]{xcolor}
-#+LaTeX_HEADER: \usepackage[T1]{fontenc}
 #+LaTeX_HEADER: \usepackage{lmodern}
 #+LaTeX_HEADER: \usepackage{verbatim}
 #+LaTeX_HEADER: \usepackage{tikz}
 #+LaTeX_HEADER: \usepackage{wasysym}
 #+LaTeX_HEADER: \usetikzlibrary{shapes.geometric,arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}
-#+LaTeX_HEADER: \usepackage[automark, autooneside=false, headsepline, footsepline]{scrlayer-scrpage}
+#+LaTeX_HEADER: \usepackage[automark, autooneside=false, headsepline]{scrlayer-scrpage}
 #+LaTeX_HEADER: \clearpairofpagestyles
 #+LaTeX_HEADER: \ihead{\leftmark}% section on the inner (oneside: right) side
 #+LaTeX_HEADER: \ohead{\rightmark}% subsection on the outer (oneside: left) side
@@ -36,7 +30,7 @@
 #+LaTeX_HEADER: \pagestyle{scrheadings}
 :END:
 
-* Chapter 2: Human Genome
+* Human Genome
 ** Mitosis
 - Prophase :: condensation of the chromosomes
   - formation of the mitotic spindle,
@@ -86,7 +80,6 @@ aspects of human gen
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/ch2_meiosis.png]]
 
-
 ** Homologous Recombination
 
 - the genetic content of each gamete is unique, because of random
@@ -120,7 +113,7 @@ aspects of human gen
 - Anomalies in somatic recombination are one of the causes of genome
   instability in cancer
 
-* Chapter 3: Gene Structure and Function
+* Gene Structure and Function
 ** Allelic Imbalance in Gene Expression
 - Monoallelic gene expression
   - Somatic rearrangement - T-cell receptors
@@ -135,7 +128,7 @@ aspects of human gen
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/ch3_xist.png]]
 
-* Chapter 4: Human Genetic Diversity
+* Human Genetic Diversity
 ** Inherited variation and polymorphism
 - SNP
 - Indels
@@ -168,7 +161,7 @@ aspects of human gen
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/ch4_mutation.png]]
 
-* Chapter 5: Cytogenetics
+* Cytogenetics
 ** Clinical Indications for Chromosome and Genome Analysis
 *** Problems of early growth and development
   - failure to thrive, developmental delay,dysmorphic facies, multiple
@@ -343,8 +336,7 @@ on a clinical diagnosis or suspicion
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/ch5_trans.png]]
 
-* STARTED Chapter 6: Chromosomal and Genomic basis of Disease
-
+* Chromosomal and Genomic basis of Disease
 - Disorders due to:
   - abnormal chromosome segregation (nondisjunction)
   - recurrent chromosomal syndromes, involving
@@ -434,49 +426,169 @@ on a clinical diagnosis or suspicion
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/ch6_pw_as.png]]
 
-* TODO Chapter 7: Patterns of Single Gene Inheritance
-* TODO Chapter 8: Complex Traits
-* STARTED Chapter 9: Genetic Variation in Populations
-** Hardy-Weinberg
-- The Hardy-Weinberg law states that the frequency of the three
-  genotypes AA, Aa, and aa is given by the terms of the binomial
-  expansion of (p + q)^2 = p^2 + 2pq + q^2
-- p = the frequency of the dominant allele (represented here by A)
-- q = the frequency of the recessive allele (represented here by a)
+- see Conditions: Molecular Genetics
 
-- For a population in genetic equilibrium:
-  - p + q = 1.0 (The sum of the frequencies of both alleles is 100%)
+** Sex Chromosomes and Their Abnormalities
+- SRY found on the Y chromosome is the major testis-determining gene
+- inactivation of an X chromosome depends on the presence of the X
+  inactivation center region (XIC)
+- in females structurally abnormal X chromosomes are almost always inactive
+  - nonrandom inactivation observed in X;autosome translocations
+  - if balanced, the normal X chromosome is preferentially
+    inactivated
+  - the two parts of the translocated chromosome remain active
+  - reflecting selection against cells in which critical autosomal
+    genes have been inactivated
+
+#+CAPTION[]:Sex Chromosome constitution and X inactiviation
+#+NAME: tab:xinactive
+| phenotype | karyotype                     | active X | inactive X |
+|-----------+-------------------------------+----------+------------|
+| \male     | 46,XY; 47,Xyy                 |        1 |          0 |
+|           | 47,XXY (Klinefelter); 48,XXYY |        1 |          1 |
+|           | 48,XXXY; 49,XXXYY             |        1 |          2 |
+|           | 49,XXXXY                      |        1 |          3 |
+|-----------+-------------------------------+----------+------------|
+| \female   | 45,X (Turner)                 |        1 |          0 |
+|           | 46,XX                         |        1 |          1 |
+|           | 47,XXX                        |        1 |          2 |
+|           | 48,XXXX                       |        1 |          3 |
+|           | 49,XXXXX                      |        1 |          4 |
+
+* Patterns of Single Gene Inheritance
+- penetrance :: the probabilty that a mutant allele(s) will have a
+  phenotypic expression
+  - penetrance is all or nothing (affected vs unaffected)
+- expressivity :: the severity of the phenotype among those with the
+  disease causing genotype
+
+#+CAPTION[]:Pedigree symbols
+#+NAME: fig:pedigree
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/ch7_pedigree.png]]
+
+** Autosomal Dominant Inheritance
+  - disorder occurs in every generation
+  - affected person has affected parents
+    - except in /de novo/ mutation
+    - non-penetrant
+  - 50% risk of trait in child of affected parent
+  - significant number of cases due to /de novo/ mutations
+
+  - pure dominant inheritance is rare
+    - generally homozygotes are more severe
+  - achondroplasia is an example of incomplete dominant inheritance
+  - sex limited phenotype in some disorders
+
+** X-linked Inheritance
+- X-linked dominant or recessive depends on phenotype in \female
+  - \sim 1/3 of XL disorders are penetrant in het \female 
+
+** Mosaicism
+- confined placental ::
+- somatic :: somatic cells
+- germline :: germline cells
+- segmental :: mutation affecting morphogenesis, occuring during
+  embryonic development
+#+CAPTION[]:Genotypes and Phenotypes in X-linked Disease
+#+NAME: tab:xlinked
+|         | genotype                   | phenotype            |
+|---------+----------------------------+----------------------|
+| \male   | hemizygous X_H             | unaffected           |
+|         | hemizygous X_h             | affected             |
+|---------+----------------------------+----------------------|
+| \female | homozygous X_H/X_H         | unaffected           |
+|         | heterozygous X_H/X_h       | carrier \pm affected |
+|         | homozygous X_h/X_h         | affected             |
+|         | compound het X_{h1}/X_{h2) | affected             |
+
+** Mitochondrial DNA
+*** Maternal Inheritance
+ - mitochondria and therefore the mtDNA, usually come from the egg
+   - the egg cell contains relatively few mitochondria
+   - these mitochondria divide to populate the cells
+ - sperm mitochondria enter the egg, but do not contribute genetic
+   information to the embryo.
+   - paternal mitochondria are marked with ubiquitin for destruction
+     inside the embryo.
+ - mitochondria are randomly distributed to the daughter cells during
+   the division of the cytoplasm.
+
+
+*** Heteroplasmy
+ - heteroplasmy is the presence of more than one type of organellar
+   genome within a cell or individual
+ - it is an important factor in considering the severity of
+   mitochondrial diseases
+   - can also be beneficial
+ - microheteroplasmy is present in most individuals
+   - hundreds of independent mutations, with each mutation found in
+     about 1–2% of all mitochondrial genomes
+** Genotype Phenotype
+- allelic heterogeneity :: different mutations in a gene cause the same phenotype
+- locus heterogeneity :: mutations in different genes cause the same phenotype
+- phenotypic heterogeneity :: different mutations results in different phenotypes
+
+* Complex Traits
+- qualitative trait :: trait is present or absent
+- quantitative trait :: measurable physiological or biochemical quantity
+
+
+- relative risk ratio \lambda_r is used to measure famillial
+  aggregation of disease in qualitative traits
+
+- \lambda_r = prevalence of disease in relatives/prevalence in population
+
+- H^{2} is heritability
+  - fraction of phenotypic variance of a quantitative trait that is
+    due to allelic variation
+* Genetic Variation in Populations
+** Hardy-Weinberg
+- the Hardy-Weinberg law states that the frequency of the three
+  genotypes AA, Aa, and aa is given by the terms of the binomial
+  expansion of
+  - (p + q)^2 = p^2 + 2pq + q^2
+    - p = the frequency of the dominant allele (represented here by A)
+    - q = the frequency of the recessive allele (represented here by a)
+
+- for a population in genetic equilibrium:
+  - p + q = 1.0 (sum of the frequencies of both alleles is 100%)
   - (p + q)^2 = 1
   - p^2 + 2pq + q^2 = 1
-- The three terms of this binomial expansion indicate the frequencies
+- the three terms of this binomial expansion indicate the frequencies
   of the three genotypes:
-  - p2 = frequency of AA (homozygous dominant)
+  - p^2 = frequency of AA (homozygous dominant)
   - 2pq = frequency of Aa (heterozygous)
-  - q2 = frequency of aa (homozygous recessive)
+  - q^2 = frequency of aa (homozygous recessive)
 
-- The Hardy-Weinberg law rests on these assumptions:
-  - The population under study is large, and matings are random with
+- the Hardy-Weinberg law rests on these assumptions:
+  - the population under study is large and matings are random with
     respect to the locus in question
-  - Allele frequencies remain constant over time because of the
+  - allele frequencies remain constant over time because of the
     following:
-    - There is no appreciable rate of new mutation.• Individuals with
-      all genotypes are equally capable of mating and passing on their
-      genes; that is, there is no selection against any particular
-      genotype
-    - There has been no significant immigration of individuals from a
+    - there is no appreciable rate of new mutation.
+    - individuals with all genotypes are equally capable of mating and
+      passing on their genes
+      - \therefore no selection against	any particular genotype
+    - there has been no significant immigration of individuals from a
       population with allele frequencies very different from the
       endogenous population
-- A population that reasonably appears to meet these assumptions is
+- a population that reasonably appears to meet these assumptions is
   considered to be in Hardy-Weinberg equilibrium
-- Then population genotype frequencies from generation to generation
-  will remain constant, at equilibrium, if the allele frequencies p
-  and q remain constant.
+  - population genotype frequencies from generation to generation
+    will remain constant, at equilibrium, if the allele frequencies p
+    and q remain constant
 
-| Inheritance | Population Freq |                  |
-|-------------+-----------------+------------------|
-| AR          | q^2             | homozygote       |
-| AD          | 2pq             | heterozygotes    |
-| XL          | 1/2 \cdot q^2   | hemizygote males |
+#+CAPTION[]:Population Frequency in Modes of Inheritance
+#+NAME: tab:
+
+
+
+| Inheritance | Population Freq |                   |
+|-------------+-----------------+-------------------|
+| AR          | q^2             | homozygote        |
+| AD          | 2pq             | heterozygotes     |
+| XL          | 1/2 \cdot q^2   | hemizygote \males |
 
 ** Factors That Disturb Hardy-Weinberg Equilibrium
 *** Exceptions to Large Populations with Random Mating
@@ -488,27 +600,117 @@ on a clinical diagnosis or suspicion
 - selection and fitness
   - selection in dominant disease
   - selection in recessive disease - less effect
-- Mutation and Selection Balance in Dominant Disease
+- mutation and selection balance in dominant disease:
   - \mu = sq
+    - \mu = mutation rate per generation
     - q = mutant allele freq
     - s = coefficient of selection
-    - \mu = mutation rate per generation
+- mutation and selection balance in x-linked recessive mutations:
+  - males have one X chromosome and females two, the pool of X-linked
+    alleles in the entire population’s gene pool is partitioned at any
+    given time, with one third of mutant alleles present in males and
+    two thirds in females
+  - if the incidence of a serious X-linked disease is not changing and
+    selection is operating against (and only against) hemizygous males,
+    the mutation rate then \mu, must equal the coefficient of selection, s
+    times q, the allele frequency, adjusted by a factor of 3 because
+    selection is operating only on the third of the mutant alleles in
+    the population that are present in males at any time. 
+    - \mu = sq/3
+    - see 1/3 Rule below
 
-*** Mutation and Selection Balance in X-Linked Recessive Mutations.
-- males have one X chromosome and females two, the pool of X-linked
-  alleles in the entire population’s gene pool is partitioned at any
-  given time, with one third of mutant alleles present in males and
-  two thirds in females
-- if the incidence of a serious X-linked disease is not changing and
-  selection is operating against (and only against) hemizygous males,
-  the mutation rate then µ, must equal the coefficient of selection, s
-  times q, the allele frequency, adjusted by a factor of 3 because
-  selection is operating only on the third of the mutant alleles in
-  the population that are present in males at any time. Thus,
-  - \mu = sq/3
+** 1/3 Rule
+- if the reproductive fitness of a male affected with an X-linked
+  recessive disorder is low or nil, then in a population
+  - *one-third of all affected X chromosomes will be removed from the gene pool every*
+    *generation*
+- if the incidence of the disease is constant, then one-third of
+  cases must be due to mutations arising /de novo/ in a family
+
+  \[
+  p^2 + 2pq + q^2 = 1 
+  \]
+  \[
+  q^2 \sim 0
+  \]
+
+  |   | X  | Y    |
+  |---+----+------|
+  | X | XX | XY   |
+  |---+----+------|
+  | x | xX | *xY* |
 
 
-* TODO Chapter 10: Identifying the Genetic Basis for Human Disease
+*** Haldane Hypothesis 
+ - applies to X-linked recessive traits
+   - a study of fertility rates in hemophillia
+
+ - in a large population of 2N (N \male and N \female)
+ - (1 - f)xN genes removed per generation
+   - x = proportion of affected males in the polulation
+   - f = effective fertility
+
+ - each of N \female has 2X/cell
+ - each of N \male{} has 1X/cell
+ - the mean mutation rate per X-chromosome per generation is: [fn:haldane]
+
+ \[
+ u = 1/3(1 - f)x  
+ \]
+
+[fn:haldane] Haldane JB. The rate of spontaneous mutation of a human gene. 1935. J Genet 2004;83:235-44.
+
+* Identifying the Genetic Basis for Human Disease
+- linkage analysis is family-based
+  - takes advantage of family pedigrees to follow the inheritance of a
+    disease among family members and to test for consistent, repeated
+    coinheritance of the disease with a particular genomic region or
+    even with a specific variant or variants, whenever the disease is
+    passed on in a family
+- association analysis is population-based
+  - does not depend explicitly on pedigrees but instead takes
+    advantage of the entire history of a population to look for
+    increased or decreased frequency of a particular allele or set of
+    alleles in a sample of affected individuals taken from the
+    population, compared with a control set of unaffected people from
+    that same population
+  - particularly useful for complex diseases that do not show a
+    mendelian inheritance pattern
+- direct genome sequencing of affected individuals and their parents
+  and/or other individuals in the family or population
+  - particularly useful for rare mendelian disorders in which linkage
+    analysis is not possible because there are simply not enough such
+    families to do linkage analysis or because the disorder is a
+    genetic lethal that always results from new mutations and is
+    never inherited
+
+- *linkage* is the term used to describe a departure from the
+  independent assortment of two loci
+- analysis of linkage depends on determining the frequency of
+  recombination as a measure of how close two loci are to each other
+  on a chromosome.
+- a common notation for recombination frequency (as a proportion, not
+  a percentage) is \theta
+  - where \theta varies from 0 (no recombination at all) to 0.5 (independent assortment)
+  - if two loci are so close together that \theta = 0 between them they are said to bec ompletely linked
+  - if they are so far apart that θ = 0.5 they are assorting independently and are unlinked
+  - in between these two extremes are various degrees of linkage
+
+- map distance between two loci is a theoretical concept that is based
+  on the extent of observed recombination, \theta, between the
+  loci
+  - measured in units called centimorgans (cM)
+  - defined as the genetic length over which, on average, one
+    crossover occurs in 1% of meioses
+  - \therefore a recombination fraction of 1% (i.e., \theta = 0.01)
+    translates approximately into a map distance of 1 cM
+
+- linkage disequilibrium (LD) is the due to close map distance between loci
+  - frequency of a haplotype, freq(A-S) for example, may not be equal
+    to the product of the frequencies of the individual alleles that
+    make up that haplotype
+  - in this situation, freq(A-S) \neg freq(A) x freq(S)
+    - the alleles are in LD
 * TODO Chapter 11: The Molecular Basis of Genetic Disease
 * TODO Chapter 12: Molecular, Biochemical, and Cellular Basis of Genetic Disease
 * TODO Chapter 13: Treatment
@@ -731,43 +933,3 @@ on a clinical diagnosis or suspicion
 
 
 
-* 1/3 Rule
- If the reproductive fitness of a male affected with an X-linked
- recessive disorder is low or nil, then in a population *one-third of*
- *all affected X chromosomes will be removed from the gene pool every
- generation*. If the incidence of the disease is constant, then
- one-third of cases must be due to mutations arising /de novo/ in a
- family.
-
-
- \[
- p^2 + 2pq + q^2 = 1 
- \]
- \[
- q^2 \sim 0
- \]
-
- |   | X  | Y    |
- |---+----+------|
- | X | XX | XY   |
- |---+----+------|
- | x | xX | *xY* |
-
-
-*** The Haldane Hypothesis 
- - Applies to X-linked recessive traits
-   - A study of fertility rates in hemophillia
-
- - In a large population of 2N (N \male{} and N \female)
- - (1 - f)xN genes removed per generation
-   - x = proportion of affected males in the polulation
-   - f = effective fertility
-
- - Each of N \female{} has 2X/cell, and each of N \male{} has 1X/cell
- - The mean mutation rate per X-chromosome per generation is: [fn:haldane]
-
- \[
- u = 1/3(1 - f)x  
- \]
-
-[fn:haldane] Haldane JB. The rate of spontaneous mutation of a human gene. 1935. J Genet 2004;83:235-44.
