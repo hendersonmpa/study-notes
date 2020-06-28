@@ -33,18 +33,18 @@
 * Human Genome
 ** Mitosis
 - Prophase :: condensation of the chromosomes
-  - formation of the mitotic spindle,
+  - formation of the mitotic spindle
   - formation of a pair of centrosomes, from which microtubules
-    radiate and eventually take up positions at the poles of the cell.
+    radiate and eventually take up positions at the poles of the cell
 - Prometaphase :: nuclear membrane dissolves
   - chromosomes disperse within the cell
   - attach, by their kinetochores, to microtubules of the mitotic
-   spindle.
+   spindle
 - Metaphase :: the chromosomes condensed and line up at the equatorial
-               plane.
+               plane
 - Anaphase ::  chromosomes separate at the centromere
   - sister chromatids of each chromosome now become independent
-    daughter chromosomes, which move to opposite poles of the cell.
+    daughter chromosomes, which move to opposite poles of the cell
 - Telophase :: chromosomes begin to decondense
   - nuclear membrane begins to re-form around each of the two daughter
     nuclei
@@ -63,17 +63,15 @@
 
 ** Meiosis
 
-- Meiosis I is also known as the reduction division because it is the
+- meiosis I is also known as the reduction division because it is the
   division in which the chromosome number is reduced by half through
   the pairing of homologues in prophase and by their segregation to
-  different cells at anaphase of meiosis I.
-- the stage at which genetic recombination (also called meiotic crossing over) occurs.
+  different cells at anaphase of meiosis I
+- the stage at which genetic recombination (also called meiotic crossing over) occurs
   - homologous segments of DNA are exchanged between non-sister
     chromatids of each pair of homologous chromosomes, thus ensuring
     that none of the gametes produced by meiosis will be identical to
-    another.
-- Theconceptual and practical consequences of recombination for many
-aspects of human gen
+    another
 
 #+CAPTION[]:Meiosis
 #+NAME: fig:meiosis
@@ -86,52 +84,53 @@ aspects of human gen
   assortment of the parental chromosomes to shuffle the combination of
   sequence variants between chromosomes and because of homologous
   recombination to shuffle the combination of sequence variants within
-  each and every chromosome.
-- This has significant consequences for patterns of genomic variation
+  each and every chromosome
+- this has significant consequences for patterns of genomic variation
   among and between different populations around the globe and for
-  diagnosis and counseling of many common conditions with complex patterns of inheritance.
-- The amounts and patterns of meiotic recombination are determined by
+  diagnosis and counseling of many common conditions with complex
+  patterns of inheritance
+- the amounts and patterns of meiotic recombination are determined by
   sequence variants in specific genes and at specific “hot spots” and
   differ between individuals, between the sexes, between families, and
   between populations
-- Because recombination involves the physical intertwining of the two
+- \because recombination involves the physical intertwining of the two
   homologues until the appropriate point during meiosis I, it is also
   critical for ensuring proper chromosome segregation during
-  meiosis.
-- Failure to recombine properly can lead to chromosome missegregation
+  meiosis
+- failure to recombine properly can lead to chromosome missegregation
   (nondisjunction) in meiosis I and is a frequent cause of pregnancy
   loss and of chromosome abnormalities like Down syndrome
-- Although homologous recombination is normally precise, areas of
+- although homologous recombination is normally precise, areas of
   repetitive DNA in the genome and genes of variable copy number in
   the population are prone to occasional unequal crossing over during
   meiosis, leading to variations in clinically relevant traits such as
   drug response, to common disorders such as the thalassemias or
   autism, or to abnormalities of sexual differentiation
-- Although homologous recombination is a normal and essential part of
+- although homologous recombination is a normal and essential part of
   meiosis, it also occurs, albeit more rarely, in somatic
-  cells.
-- Anomalies in somatic recombination are one of the causes of genome
+  cells
+- anomalies in somatic recombination are one of the causes of genome
   instability in cancer
 
 * Gene Structure and Function
 ** Allelic Imbalance in Gene Expression
-- Monoallelic gene expression
-  - Somatic rearrangement - T-cell receptors
+- monoallelic gene expression
+  - somatic rearrangement - T-cell receptors
   - random monoallelic expression
   - parent-of-origin imprinting
 - X chromosome inactivation
   - random, X inactivation center
   - ncRNA called XIST
 
-#+CAPTION[]:X inactivation
+#+CAPTION[]:X Inactivation
 #+NAME: fig:xist
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/ch3_xist.png]]
 
 * Human Genetic Diversity
 ** Inherited variation and polymorphism
-- SNP
-- Indels
+- SNPs
+- indels
 - microsatelite
 - mobile element insertion polymorphism
   - retrotranspostion: Alu, LINE
@@ -139,9 +138,10 @@ aspects of human gen
   - related to indels and microsatellites but variation in
     the number of copies of larger segments of the genome
   - 1000 bp to many hundreds of kilobase pairs.
-- Inversion polymorphism
+- inversion polymorphism
   - few base pairs up to several megabase pairs
   - can be present in either of two orientations in the genomes of different individuals
+
 #+CAPTION[]:Polymorphism
 #+NAME: fig:poly
 #+ATTR_LaTeX: :width 0.9\textwidth
@@ -151,10 +151,10 @@ aspects of human gen
 ** Origins and Freq of Mutation types
 - germline
 - somatic
-- Mutations:
-  - Chromosome number
-  - Regional: affecting the structure or regional organization of chromosomes
-  - Gene: base pair substitutions, insertions, and deletions
+- mutations:
+  - chromosome number
+  - regional: affecting the structure or regional organization of chromosomes
+  - gene: base pair substitutions, insertions, and deletions
 
 #+CAPTION[]:Mutation
 #+NAME: fig:mutation
@@ -163,30 +163,30 @@ aspects of human gen
 
 * Cytogenetics
 ** Clinical Indications for Chromosome and Genome Analysis
-*** Problems of early growth and development
+*** problems of early growth and development
   - failure to thrive, developmental delay,dysmorphic facies, multiple
     malformations, short stature, ambiguous genitalia, and
     intellectual disability are frequent findings in children with
     chromosome abnormalities
-*** Stillbirth and neonatal death
+*** stillbirth and neonatal death
 - incidence of chromosome abnormalities is much higher among
   stillbirths (\sim10%) than among live births (\sim0.7%)
 - also elevated among infants who die in the neonatal period (~10%)
 - karyotyping (or other comprehensive ways of scanning the genome) is
-  essential for accurate genetic counseling
-*** Fertility problems
+  essential for accurate genetic counselling
+*** fertility problems
 - chromosome studies are indicated for women presenting with
   amenorrhea and for couples with a history of infertility or recurrent miscarriage
 - chromosome abnormality is seen in one or the other parent in 3% to
   6% of cases in which there is infertility or two or more
   miscarriages
-*** Family history
+*** family history
 - known or suspected chromosome or genome abnormality in a first
   degree relative is an indication for chromosome and genome analysis
-*** Neoplasia
+*** neoplasia
 - virtually all cancers are associated with one or more chromosome
   abnormalities
-- chromosome and genome evaluation in the tumor itself, or in bone
+- chromosome and genome evaluation in the tumour itself, or in bone
   marrow in the case of hematological malignant neoplasms, can offer
   diagnostic or prognostic information
 *** Pregnancy
@@ -201,8 +201,8 @@ aspects of human gen
 - G-banding (Giemsa) is the gold standard for detection and
   characterization of structural and numerical genomic abnormalities
   - both constitutional (postnatal or prenatal) and acquired (cancer)
-  - detection of deletions and duplications \gt 5 to 10 Mb 
-than approximately 5 to 10 Mb anywhere in the genome
+  - detection of deletions and duplications \gt 5 to 10 Mb than
+    approximately 5 to 10 Mb anywhere in the genome
 - three types of chromosomes:
   - metacentric :: central centromere
   - submetacentric :: off center centromere
@@ -215,8 +215,8 @@ than approximately 5 to 10 Mb anywhere in the genome
   chromosomal region /in situ/
 - uses ordered collections of recombinant DNA clones containing DNA
   from around the entire genome
-- limited by the need to target a specific genomic region based
-on a clinical diagnosis or suspicion
+- limited by the need to target a specific genomic region based on a
+  clinical diagnosis or suspicion
 
 ** Microarrays
 - comparative genome hybridization (CGH)
@@ -239,12 +239,12 @@ on a clinical diagnosis or suspicion
   - associated with physical and/or mental abnormalities
 - structural abnormalities are also common
 
-#+CAPTION[]:Incidence of chromosomal abnormalities
+#+CAPTION[]:Incidence of Chromosomal Abnormalities
 #+NAME: fig:freq
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/ch5_freq.png]]
 
-#+CAPTION[]:ISCN for common cytogenetic aberration
+#+CAPTION[]:ISCN for Common Cytogenetic Aberration
 #+NAME: fig:nom
 #+ATTR_LaTeX: :width 1.2\textwidth
 [[file:./figures/ch5_nom.png]]
@@ -308,36 +308,36 @@ on a clinical diagnosis or suspicion
 - present in 1/375 newborns
 - balances or unbalanced
 
-#+CAPTION[]:Structural rearrangements of chromosomes
+#+CAPTION[]:Structural Rearrangements of Chromosomes
 #+NAME: fig:str
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/ch5_struct.png]]
 
 *** Unbalanced rearrangements
-- Delections and Duplications
-- Marker and Ring Chromosomes
+- delections and duplications
+- marker and ring chromosomes
   - very small, unidentified chromosomes
-- Isochromosomes
+- isochromosomes
   - one arm is missing and the other duplicated in a mirror-image
-- Dicentric
+- dicentric
   - two chromosome segments, each with a centromere, fuse end to end
 *** Balanced rearrangements
 - "balanced" depends on resolution
-- Translocations
-  - Reciprocal translocations
-  - Robertsonian translocations
-  - Insertions
-- Inversions
+- translocations
+  - reciprocal translocations
+  - robertsonian translocations
+  - insertions
+- inversions
   - paracentric - outside the centromere
   - pericentric - includes the centromere
 
-#+CAPTION[]:Balanced translocations
+#+CAPTION[]:Balanced Translocations
 #+NAME: fig:trans
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/ch5_trans.png]]
 
 * Chromosomal and Genomic basis of Disease
-- Disorders due to:
+- disorders due to:
   - abnormal chromosome segregation (nondisjunction)
   - recurrent chromosomal syndromes, involving
     deletions or duplications at genomic hot spots
@@ -346,7 +346,7 @@ on a clinical diagnosis or suspicion
   - chromosomal and genomic events that reveal regions
     of genomic imprinting
 
-#+CAPTION[]:Mechanisms of chromosome abnormalities and genomic imbalance
+#+CAPTION[]:Mechanisms of Chromosome Abnormalities and Genomic Imbalance
 #+NAME: fig:mech 
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/ch6_mech.png]]
@@ -386,7 +386,7 @@ on a clinical diagnosis or suspicion
   (usually chromosome 14 or 22)
 - 46,XX or XY,rob(14;21)(q10;q10),+21
 
-#+CAPTION[]:Chromosomes of gametes that theoretically can be produced by a carrier of a Robertsonian translocation, rob(14;21)
+#+CAPTION[]:Chromosomes of Gametes that Theoretically can be Produced by a Carrier of a Robertsonian Translocation, rob(14;21)
 #+NAME: fig:ft
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/ch6_rtgam.png]]
@@ -411,10 +411,10 @@ on a clinical diagnosis or suspicion
   - called contiguous gene syndrome
 
 ** Idiopathic Chromosome Abnormalities 
-- Autosomal deletion syndromes
+- autosomal deletion syndromes
   - cri du chat syndrome, there is either a terminal or interstitial
     deletion of part of the short arm of chromosome 5
-- Balanced translocations with developmental phenotypes
+- balanced translocations with developmental phenotypes
   
 ** Disorders Associated with Genomic Imprinting
 - Prader-Willi
@@ -440,7 +440,7 @@ on a clinical diagnosis or suspicion
   - reflecting selection against cells in which critical autosomal
     genes have been inactivated
 
-#+CAPTION[]:Sex Chromosome constitution and X inactiviation
+#+CAPTION[]:Sex Chromosome Constitution and X Inactiviation
 #+NAME: tab:xinactive
 | phenotype | karyotype                     | active X | inactive X |
 |-----------+-------------------------------+----------+------------|
@@ -462,7 +462,7 @@ on a clinical diagnosis or suspicion
 - expressivity :: the severity of the phenotype among those with the
   disease causing genotype
 
-#+CAPTION[]:Pedigree symbols
+#+CAPTION[]:Pedigree Symbols
 #+NAME: fig:pedigree
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/ch7_pedigree.png]]
@@ -490,6 +490,7 @@ on a clinical diagnosis or suspicion
 - germline :: germline cells
 - segmental :: mutation affecting morphogenesis, occuring during
   embryonic development
+
 #+CAPTION[]:Genotypes and Phenotypes in X-linked Disease
 #+NAME: tab:xlinked
 |         | genotype                   | phenotype            |
@@ -500,8 +501,7 @@ on a clinical diagnosis or suspicion
 | \female | homozygous X_H/X_H         | unaffected           |
 |         | heterozygous X_H/X_h       | carrier \pm affected |
 |         | homozygous X_h/X_h         | affected             |
-|         | compound het X_{h1}/X_{h2) | affected             |
-
+|         | compound het X_{h1}/X_{h2} | affected             |
 ** Mitochondrial DNA
 *** Maternal Inheritance
  - mitochondria and therefore the mtDNA, usually come from the egg
@@ -514,7 +514,6 @@ on a clinical diagnosis or suspicion
  - mitochondria are randomly distributed to the daughter cells during
    the division of the cytoplasm.
 
-
 *** Heteroplasmy
  - heteroplasmy is the presence of more than one type of organellar
    genome within a cell or individual
@@ -524,7 +523,8 @@ on a clinical diagnosis or suspicion
  - microheteroplasmy is present in most individuals
    - hundreds of independent mutations, with each mutation found in
      about 1–2% of all mitochondrial genomes
-** Genotype Phenotype
+
+** Genotype - Phenotype
 - allelic heterogeneity :: different mutations in a gene cause the same phenotype
 - locus heterogeneity :: mutations in different genes cause the same phenotype
 - phenotypic heterogeneity :: different mutations results in different phenotypes
@@ -532,7 +532,6 @@ on a clinical diagnosis or suspicion
 * Complex Traits
 - qualitative trait :: trait is present or absent
 - quantitative trait :: measurable physiological or biochemical quantity
-
 
 - relative risk ratio \lambda_r is used to measure famillial
   aggregation of disease in qualitative traits
@@ -542,6 +541,7 @@ on a clinical diagnosis or suspicion
 - H^{2} is heritability
   - fraction of phenotypic variance of a quantitative trait that is
     due to allelic variation
+
 * Genetic Variation in Populations
 ** Hardy-Weinberg
 - the Hardy-Weinberg law states that the frequency of the three
@@ -556,10 +556,21 @@ on a clinical diagnosis or suspicion
   - (p + q)^2 = 1
   - p^2 + 2pq + q^2 = 1
 - the three terms of this binomial expansion indicate the frequencies
-  of the three genotypes:
-  - p^2 = frequency of AA (homozygous dominant)
-  - 2pq = frequency of Aa (heterozygous)
-  - q^2 = frequency of aa (homozygous recessive)
+  of the three genotypes (Table [[tab:hwfreq]])
+  - p^2 = frequency of AA 
+  - 2pq = frequency of Aa 
+  - q^2 = frequency of aa 
+
+#+CAPTION[]:Population Frequency in Modes of Inheritance
+#+NAME: tab:hwfreq
+| inheritance | frequency     | genotype |                  |
+|-------------+---------------+----------+------------------|
+| AR          | q^2           | aa       | homozygote       |
+| AD          | 2pq           | Aa       | heterozygotes    |
+| XL          | 1/2 \cdot q^2 | X_MY     | hemizygote \male |
+
+
+
 
 - the Hardy-Weinberg law rests on these assumptions:
   - the population under study is large and matings are random with
@@ -579,23 +590,13 @@ on a clinical diagnosis or suspicion
     will remain constant, at equilibrium, if the allele frequencies p
     and q remain constant
 
-#+CAPTION[]:Population Frequency in Modes of Inheritance
-#+NAME: tab:
-
-
-
-| Inheritance | Population Freq |                   |
-|-------------+-----------------+-------------------|
-| AR          | q^2             | homozygote        |
-| AD          | 2pq             | heterozygotes     |
-| XL          | 1/2 \cdot q^2   | hemizygote \males |
 
 ** Factors That Disturb Hardy-Weinberg Equilibrium
-*** Exceptions to Large Populations with Random Mating
+*** exceptions to large populations with random mating
 - stratification
 - assortative mating
 - consaguinity
-*** Exceptions to Constant Allele Frequencies
+*** exceptions to constant allele frequencies
 - mutation
 - selection and fitness
   - selection in dominant disease
@@ -606,12 +607,12 @@ on a clinical diagnosis or suspicion
     - q = mutant allele freq
     - s = coefficient of selection
 - mutation and selection balance in x-linked recessive mutations:
-  - males have one X chromosome and females two, the pool of X-linked
+  - \male have one X chromosome and \female two, the pool of X-linked
     alleles in the entire population’s gene pool is partitioned at any
-    given time, with one third of mutant alleles present in males and
-    two thirds in females
+    given time, with one third of mutant alleles present in \male and
+    two thirds in \female
   - if the incidence of a serious X-linked disease is not changing and
-    selection is operating against (and only against) hemizygous males,
+    selection is operating against (and only against) hemizygous \male,
     the mutation rate then \mu, must equal the coefficient of selection, s
     times q, the allele frequency, adjusted by a factor of 3 because
     selection is operating only on the third of the mutant alleles in
@@ -620,39 +621,28 @@ on a clinical diagnosis or suspicion
     - see 1/3 Rule below
 
 ** 1/3 Rule
-- if the reproductive fitness of a male affected with an X-linked
+- at any given time 1/3 of all X chromosomes are in the \male fraction
+  of the population
+- if the reproductive fitness of a \male affected with an X-linked
   recessive disorder is low or nil, then in a population
   - *one-third of all affected X chromosomes will be removed from the gene pool every*
     *generation*
 - if the incidence of the disease is constant, then one-third of
   cases must be due to mutations arising /de novo/ in a family
+- first proposed by Haldane 
 
-  \[
-  p^2 + 2pq + q^2 = 1 
-  \]
-  \[
-  q^2 \sim 0
-  \]
-
-  |   | X  | Y    |
-  |---+----+------|
-  | X | XX | XY   |
-  |---+----+------|
-  | x | xX | *xY* |
-
-
-*** Haldane Hypothesis 
+*** COMMENT Haldane Hypothesis 
  - applies to X-linked recessive traits
    - a study of fertility rates in hemophillia
 
  - in a large population of 2N (N \male and N \female)
  - (1 - f)xN genes removed per generation
-   - x = proportion of affected males in the polulation
+   - x = proportion of affected males in the population
    - f = effective fertility
 
- - each of N \female has 2X/cell
+ - each of N \female{} has 2X/cell
  - each of N \male{} has 1X/cell
- - the mean mutation rate per X-chromosome per generation is: [fn:haldane]
+ - the mean mutation rate per X-chromosome per generation is: 
 
  \[
  u = 1/3(1 - f)x  
@@ -692,8 +682,10 @@ on a clinical diagnosis or suspicion
 - a common notation for recombination frequency (as a proportion, not
   a percentage) is \theta
   - where \theta varies from 0 (no recombination at all) to 0.5 (independent assortment)
-  - if two loci are so close together that \theta = 0 between them they are said to bec ompletely linked
-  - if they are so far apart that θ = 0.5 they are assorting independently and are unlinked
+  - if two loci are so close together that \theta = 0 between them
+    they are said to be completely linked
+  - if they are so far apart that θ = 0.5 they are assorting
+    independently and are unlinked
   - in between these two extremes are various degrees of linkage
 
 - map distance between two loci is a theoretical concept that is based
@@ -711,22 +703,63 @@ on a clinical diagnosis or suspicion
     make up that haplotype
   - in this situation, freq(A-S) \neg freq(A) x freq(S)
     - the alleles are in LD
-* TODO Chapter 11: The Molecular Basis of Genetic Disease
-* TODO Chapter 12: Molecular, Biochemical, and Cellular Basis of Genetic Disease
-* TODO Chapter 13: Treatment
-* STARTED Chapter 14: Developmental Genetics
-** Birth Defects
-*** Malformations 
-- result from intrinsic abnormalities in one or more genetic programs
-  operating in development. An example of a malformation is the extra
-  fingers in the disorder known as Greig cephalopolysyndactyly
+* Molecular Basis of Genetic Disease
+- effect of mutation on protein function
+  - loss of function :: \downarrow protein function
+  - gain of function :: \uparrow expression or \uparrow activity 
+  - novel property :: i.e. sickle cell
+  - heterochronic expression :: wrong time i.e. hereditary persistence
+    of Hb F
+  - ectopic expression :: wrong place i.e oncogene
+
+* Treatment of Genetic Disease
+
+#+CAPTION[]:Levels of Treatment in Genetic Disease
+#+NAME: fig:treament
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/ch13_treatment.png]]
+
+** Manipulation of Metabolism
+- substrate reduction :: diet in PKU
+- replacement :: T4 in CH
+- diversion :: sodium benzoate in UCD
+- enzyme inhibition :: nitisinone in Tyrosinemia I
+- receptor antagonism :: TGF-\beta in Marfan
+- depletion :: aphoresis in homozygous familial hypercholesterolemia
+
+** Function of Affected Gene or Protein
+- skipping nonsense codons :: CF
+- folding :: CF
+- membrane trafficking :: CF
+- protein augmentation :: hemophilia
+- ERT :: Gaucher Type I, ADA 
+
+** Modulation of Gene Expression
+- DNA methylation :: \uparrow HbF in \beta-thalassemias
+- siRNA :: Huntington
+- exon skipping :: DMD
+- gene editing :: CRISPR/Cas9
+
+** Transplantation
+- HSCT :: Hurler, SCID
+- Liver :: \alpha1AT, UCD
+
+** Gene Therapy Risks
+- adverse response to vector
+- insertional mutagenesis \to malignancy
+- insertional inactivation of essential gene
+
+* Developmental Genetics
+** Malformations 
 - arise from intrinsic defects in genes that specify a series of
   developmental steps or programs, and because such programs are often
   used more than once in different parts of the embryo or fetus at
   different stages of development, a malformation in one part of the
   body is often but not always associated with malformations elsewhere
   as well
-*** Deformations
+- polydactyly (extra fingers or toes) and syndactyly (fused fingers)
+  are malformation
+** Deformations
 - caused by extrinsic factors impinging physically on the fetus during
   development
 - common during the second trimester of development when the fetus is
@@ -739,7 +772,7 @@ on a clinical diagnosis or suspicion
 - most deformations apparent at birth either resolve spontaneously or
   can be treated by external fixation devices to reverse the effects
   of the instigating cause
-*** Disruptions
+** Disruptions
 - result from destruction of irreplaceable normal fetal
   tissue
 - more difficult to treat than deformations because they involve
@@ -752,11 +785,11 @@ on a clinical diagnosis or suspicion
   partial and irregular digit amputations in conjunction with
   constriction rings
 
-* Chapter 15: Cancer
+* Cancer
 - cancer is not a single disease but rather comes in many forms and
   degrees of malignancy
 - there are three main classes of cancer:
-  - sarcomas :: tumor has arisen in mesenchymal tissue, such as bone,
+  - sarcomas :: tumour has arisen in mesenchymal tissue, such as bone,
                 muscle, or connective tissue, or in nervous system
                 tissue
   - carcinomas :: originate in epithelial tissue, such as the cells
@@ -781,7 +814,7 @@ on a clinical diagnosis or suspicion
   *mutations*
 - driver genes fall into two distinct categories
   1) activated oncogenes
-  2) tumor suppressor genes (TSGs)
+  2) tumour suppressor genes (TSGs)
 
 - an activated oncogene is a mutant allele of a proto-oncogene, a
   class of normal cellular protein-coding genes that promotes growth
@@ -792,7 +825,7 @@ on a clinical diagnosis or suspicion
   - proteins in signaling pathways for cell proliferation
   - transcription factors that control the expression of growth-promoting genes
   - inhibitors of programmed cell death machinery
-- A TSG is a gene in which loss of function through mutation or
+- a TSG is a gene in which loss of function through mutation or
   epigenomic silencing directly removes normal regulatory controls on
   cell growth or leads indirectly to such losses through an increased
   mutation rate or aberrant gene expression
@@ -802,20 +835,19 @@ on a clinical diagnosis or suspicion
   - proteins involved in regulating the cell cycle, cellular
     proliferation or contact inhibition
 
-- tumor initiation can be caused by different types of genetic
+- tumour initiation can be caused by different types of genetic
   alterations:
   - activating or gain-of-function mutations
   - ectopic and heterochronic mutations of protooncogenes
   - chromosome translocations that cause misexpression of genes or chimeric genes
   - LOF of both alleles, or a dominant negative mutation of one allele, of TSGs
 
-- tumor progression occurs as a result of accumulating additional
+- tumour progression occurs as a result of accumulating additional
   genetic damage,through mutations or epigenetic silencing, of driver
   genes that encode the machinery that repairs damaged DNA and
   maintains cytogenetic normality
 
 ** Cancer in Families
-
 - germline mutation - inherited
 - second-hit
   - somatic mutation
@@ -832,14 +864,12 @@ on a clinical diagnosis or suspicion
   - results in the synthesis of a novel, chimeric protein, BCR-ABL1 w
     enhanced tyrosine kinase activity
 
-
 #+CAPTION[]: Characteristic Chromosome Translocations in Selected Human Malignant Neoplasms
 #+NAME: fig:trans 
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/ch15_neo.png]]
 
 ** Cytogenetic Changes in Cancer
-
 *** Aneuploidy and Aneusomy
 - when CML, with the 9;22 Philadelphia chromosome, evolves from the
   typically indolent chronic phase to a severe, life-threatening blast
@@ -858,55 +888,88 @@ on a clinical diagnosis or suspicion
   stimulate cell growth, block apoptosis, or both
 
 ** Targeted Cancer Therapy
-- The proof of principle for this approach was established with the
-  development of imatinib, a highly effective inhibitor of a number of
-  tyrosine kinases, including the ABL1 kinase in CML
-- Prolonged remissions of this disease have been seen, in some cases
+- imatinib is a highly effective inhibitor of a number of tyrosine
+  kinases including the ABL1 kinase in CML
+- prolonged remissions of this disease have been seen, in some cases
   with apparently indefinite postponement of the transformation into a
   virulent acute leukemia (blast crisis) that so often meant the end
   of a CML patient’s life
-- Additional kinase inhibitors have been developed to target other
-  activated oncogene driver genes in a variety of tumor types
+- additional kinase inhibitors have been developed to target other
+  activated oncogene driver genes in a variety of tumour types
 - initial results with targeted therapies, although very promising in
   some cases, have not led to permanent cures in most patients because
-  tumors develop resistance to the targeted therapy
-- The outgrowth of resistant tumors because cancer cells are highly
+  tumours develop resistance to the targeted therapy
+- the outgrowth of resistant tumours because cancer cells are highly
   mutable, and their genomes undergo recurrent mutation
-
 
 #+CAPTION[]:Targeted cancer treatment
 #+NAME: fig:target
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/ch15_target.png]]
 
-* STARTED Chapter 16: Risk
-** X linked 
-*** Transmission
-- Daughters always inherit Dad's X
-- Moms transmit one X
-- Sons have phenotype
-- Daughters are carriers
+* Calculation of Genetic Risk 
+- prior probability :: depends on known data or stated scenario
+  - population risk, affected or carrier parents
+- conditional probability :: is based on observed outcomes
+  - i.e. probability of 4 unaffected children
+- joint probability :: probability of outcome given prior
+  - i.e. probability of 4 unaffected children with carrier parent
+\[
+  joint_x = conditional_x \cdot prior_x
+\]
+- posterior probability :: fraction of total joint probability for a scenario
+  - i.e  probability daughter is a carrier with four unaffected sibs
+\[
+ posterior_x = \frac{joint_x}{\sum_{i=1}^n joint_i}
+\]  
+** Approach to Problems
+1. what is the question?
+   - the answer will be the posterior probability for that scenario
+     - i.e risk that daughter is a carrier
+2. what are the scenarios for the unknown components in the problem
+   - these will become the denominator in the posterior probability
+3. what are the prior probabilities for each scenario?
+   - these are either given or are set for that scenario
+     - when an status (affected,carrier,etc) is unknown each option
+       forms a scenario and becomes a prior for that scenario
+4. calculate the conditional probability for each scenario
+   - simple ones are the probability of inheriting
+     - 1/4 for AR
+     - 1/2 from mom in XL
 
-*** Prior probability that female is a carrier of X linked lethal disorder 
-- H is the population frequency of female carriers
-- There are there ways a female can be a carrier:
-  1) inherits from a carrier mother
-     - 1/2  H
-  2) receives a new mutant allele on X from mom
-     - \mu
-  3) receives a new mutant allele on X from dad
-     - \mu
+   - based on evidence such as number of unaffected children
+5. calculate the joint probability for each scenario 
+6. calculate the posterior probability for each scenario
+
+** X linked 
+-transmission
+ - daughters always inherit dad's X
+   - P(transmission) = 1
+ - moms transmit one X
+   - P(transmission) = 1/2
+ - sons have phenotype
+ - daughters are carriers
+
+ - prior probability that female is a carrier of X linked lethal disorder 
+   - H is the population frequency of female carriers
+ - there are three ways a female can be a carrier:
+   1) inherits from a carrier mother
+      - 1/2  H
+   2) receives a new mutant allele on X from mom
+      - \mu
+   3) receives a new mutant allele on X from dad
+      - \mu
 \[H = (1/2 \cdot H) + \mu + \mu \]
 \[H = H/2 +2\mu \]
 \[H = 4\mu \]
 
-- The incidence of carrier females in next generation (C_{n+1}) will
-  be 1/2 the previous generation (C_{n}) plus the mutation rate in
-  females (\mu) plus the mutation rate in males (\nu)
+ - the incidence of carrier females in next generation (C_{n+1}) will
+   be 1/2 the previous generation (C_{n}) plus the mutation rate in
+   females (\mu) plus the mutation rate in males (\nu)
 
 \[C_{n+1} = 1/2 \cdot C_n + \mu + \nu \]
 
-- same as above
+ - same as above
 
 | I-2         | C    | NC  |
 |-------------+------+-----|
@@ -919,17 +982,61 @@ on a clinical diagnosis or suspicion
 - 2/3 inherited from mom
 - 1/3 /de novo/
 
-
-
 [fn:1] Prop of affected son
+
 ** AR
-*** Carrier risk for unaffected sibs of patient w AR disease
-- 2/3
+- carrier risk for unaffected sibs of patient w AR disease
+  - P(sib is carrier) = 2/3
+  - P(parent is carrier) = 1
 
-* TODO Chapter 17: Prenatal
-* TODO Chapter 18: Application
-* TODO Chapter 19: Ethics
+#+CAPTION[]: Punnett Square for AR Disease 
+#+NAME: tab:arps
+|   | A  | a    |
+| A | AA | Aa   |
+| a | Aa | *aa* |
 
+* Prenatal Diagnosis and Screening
+- placental mosaicism can result in CVS karyotype results that do not
+  reflect the fetus (Figure [[fig:pmosaic]])
+  - confined placental mosaicism can lead to incorrect interpretation
+
+#+CAPTION[]:Mosaicism Detected in Prenatal Diagnsosis
+#+NAME: fig:pmosaic
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/ch17_mosaic.png]]
+
+
+#+CAPTION[]:First Trimester Screening Tests
+#+NAME: tab:mss1
+| disorder | NT       | PAPP-A     | \beta-hCG  |
+|----------+----------+------------+------------|
+| T21      | \uparrow | \downarrow | \uparrow   |
+| T18      | \uparrow | \downarrow | \downarrow |
+| T13      | \uparrow | \downarrow | \downarrow |
+| NTD      | -        | -          | -          |
+
+
+#+CAPTION[]:Second Trimester Screening Tests
+#+NAME: tab:mss2
+| disorder | uE_3       | AFP        | hCG        | Inhibin A |
+|----------+------------+------------+------------+-----------|
+| T21      | \downarrow | \downarrow | \uparrow   | \uparrow  |
+| T18      | \downarrow | \downarrow | \downarrow | -         |
+| T13      | \downarrow | \downarrow | \downarrow | -         |
+| NTD      | -          | \Uparrow   | -          | -         |
+
+* Ethics
+
+** Principles of Biomedical Ethics
+- four cardinal principles are frequently considered in any discussion
+  of ethical issues in medicine:
+  - respect for individual autonomy :: safeguarding an individual's
+    rights to control their medical care and medical information, free
+    of coercion
+  - beneficence :: doing good
+  - avoidance of maleficence :: “first of all, do no harm”
+  - justice :: ensuring that all individuals are treated equally and
+    fairly
 
 
 
