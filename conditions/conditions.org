@@ -38,7 +38,7 @@
 * Cancer Genetics
 #+INCLUDE: "./cancer.org" :lines "4-"
 
-* Clinical Genetics
+* TODO Clinical Genetics
 #+INCLUDE: "./clinical.org" :lines "4-"
 
 * Complex Inheritance
@@ -46,9 +46,6 @@
 
 * Cytogenetics
 #+INCLUDE: "./cytogenetics.org" :lines "4-"
-
-* Metabolics
-#+INCLUDE: "./metabolics.org" :lines "4-"
 
 * Molecular Genetics
 #+INCLUDE: "./molecular.org" :lines "4-"

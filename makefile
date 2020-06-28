@@ -5,8 +5,6 @@ all: $(OUT_DIR)organelles.pdf $(OUT_DIR)energy.pdf $(OUT_DIR)carbohydrate.pdf \
 $(OUT_DIR)lipids_bile.pdf $(OUT_DIR)misc.pdf $(OUT_DIR)vitamins.pdf $(OUT_DIR)aa.pdf \
 $(OUT_DIR)methods.pdf $(OUT_DIR)conditions.pdf $(OUT_DIR)tnt.pdf clean
 
-#$(OUT_DIR)energy2.pdf 
-
 $(OUT_DIR)organelles.pdf: ./organelles/organelles.org ./organelles/fabry/fabry.org \
 ./organelles/farber/farber.org ./organelles/gaucher/gaucher.org \
 ./organelles/GM1_2/gm1.org ./organelles/GM1_2/gm2.org ./organelles/krabbe/krabbe.org \
@@ -90,16 +88,6 @@ $(OUT_DIR)aa.pdf: ./aa/aa.org ./aa/phe/phe.org ./aa/tyr/tyr.org ./aa/sulfur/sulf
 	-f org-latex-export-to-pdf
 	mv -v ./aa/aa.pdf $(OUT_DIR)aa.pdf
 
-$(OUT_DIR)conditions.pdf: ./conditions/conditions.org ./conditions/cancer.org \
-./conditions/clinical.org ./conditions/complex.org ./conditions/cytogenetics.org \
-./conditions/metabolics.org ./conditions/molecular.org ./conditions/neurogenetics.org
-	emacs -u "$(id -un)" \
-	--batch \
-	--eval '(load user-init-file)' \
-	./conditions/conditions.org \
-	-f org-latex-export-to-pdf
-	mv -v ./conditions/conditions.pdf $(OUT_DIR)conditions.pdf
-
 $(OUT_DIR)methods.pdf: ./methods/methods.org ./methods/aa/aa.org  ./methods/ac/ac.org \
 ./methods/aaac/aaac.org ./methods/oa/oa.org ./methods/mito/mito.org \
 ./methods/glyc/glyc.org ./methods/niet/niet.org ./methods/porphyrins/porphyrins.org \
@@ -111,6 +99,17 @@ $(OUT_DIR)methods.pdf: ./methods/methods.org ./methods/aa/aa.org  ./methods/ac/a
 	./methods/methods.org \
 	-f org-latex-export-to-pdf
 	mv -v ./methods/methods.pdf $(OUT_DIR)methods.pdf
+
+$(OUT_DIR)conditions.pdf: ./conditions/conditions.org ./conditions/cancer.org \
+./conditions/clinical.org ./conditions/complex.org ./conditions/cytogenetics.org \
+./conditions/molecular.org ./conditions/neurogenetics.org
+	emacs -u "$(id -un)" \
+	--batch \
+	--eval '(load user-init-file)' \
+	./conditions/conditions.org \
+	-f org-latex-export-to-pdf
+	mv -v ./conditions/conditions.pdf $(OUT_DIR)conditions.pdf
+
 
 $(OUT_DIR)tnt.pdf: ./tnt/tnt.org
 	emacs -u "$(id -un)" \

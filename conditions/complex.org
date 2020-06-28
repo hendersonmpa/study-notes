@@ -3,8 +3,48 @@
 #+DATE: \today
 
 
-* TODO Alzheimer disease
-* TODO Congenital hearing loss
-* TODO Diabetes mellitus (insulin vs non-insulin dependent)
+* Alzheimer disease
+** Clinical Characteristics
+- characterized by dementia that typically begins with subtle and
+  poorly recognized failure of memory and slowly becomes more severe
+  and, eventually, incapacitating
+** Diagnostic Testing
+- \sim 20 suseptibility genes including APOE e4 allele
+- early-onset familial alzheimer disease (EOFAD)
+  - pathogenic variantAPP, PSEN1 & 2
+** Genetic Counseling
+- EOFAD in which an individual has a pathogenic variant in APP, PSEN1,
+  or PSEN2 represents an autosomal dominant disease
+* Congenital hearing loss
+** Clinical Characteristics
+- hearing loss present at birth
+** Diagnostic Testing
+- congenital CMV infection
+- GJB2 at exon 1 and 2
+- GJB6 deletions
+- DFNB1 
+** Genetic Counseling
+- GJB2, GJB6 DFNB1 
+* Diabetes Mellitus Type I 
+** Clinical Characteristics
+- very little or no insulin is produced by the pancreas
+- progressive \beta cell destruction leads to dysfunction in the
+  neighboring \alpha cells which secrete glucagon, exacerbating
+  excursions away from euglycemia in both directions; overproduction
+  of glucagon after meals causes sharper hyperglycemia, and failure to
+  stimulate glucagon upon incipient hypoglycemia prevents a
+  glucagon-mediated rescue of glucose levels
+** Diagnostic Testing
+- causes of type 1 diabetes are unknown, although several risk factors
+  have been identified
+- the risk of developing type 1 diabetes is increased by certain
+  variants of the HLA-DQA1, HLA-DQB1, and HLA-DRB1 genes
+- human leukocyte antigen (HLA) complex helps the immune system
+  distinguish the body's own proteins from proteins made by foreign
+  invaders such as viruses and bacteria
+- type 1 diabetes is generally considered to be an autoimmune
+  disorder
 
+** Genetic Counseling
+- HLA-DQA1, HLA-DQB1, and HLA-DRB1
 
