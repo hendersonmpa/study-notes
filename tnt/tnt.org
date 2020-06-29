@@ -1,5 +1,5 @@
 #+TITLE: Thompson & Thompson
-#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+AUTHOR: Matthew Henderson
 #+DATE: \today
 
 :PROPERTIES:
@@ -590,7 +590,6 @@
     will remain constant, at equilibrium, if the allele frequencies p
     and q remain constant
 
-
 ** Factors That Disturb Hardy-Weinberg Equilibrium
 *** exceptions to large populations with random mating
 - stratification
@@ -941,7 +940,7 @@
 5. calculate the joint probability for each scenario 
 6. calculate the posterior probability for each scenario
 
-** X linked 
+** X linked
 -transmission
  - daughters always inherit dad's X
    - P(transmission) = 1
@@ -982,7 +981,7 @@
 - 2/3 inherited from mom
 - 1/3 /de novo/
 
-[fn:1] Prop of affected son
+[fn:1] prop of affected son
 
 ** AR
 - carrier risk for unaffected sibs of patient w AR disease
