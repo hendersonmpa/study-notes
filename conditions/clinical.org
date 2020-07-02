@@ -2,11 +2,117 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
-* TODO Duchenne/Becker Muscular Dystrophy
-* TODO Osteogenesis Imperfecta
-* TODO Long QT syndrome
-* TODO Marfan syndrome
-* Neurofibromatosis type I
+* Duchenne/Becker Muscular Dystrophy
+** Clinical Characteristics
+- The dystrophinopathies cover a spectrum of X-linked muscle disease
+  ranging from mild to severe that includes Duchenne muscular
+  dystrophy (DMD), Becker muscular dystrophy (BMD), and DMD-associated
+  dilated cardiomyopathy (DCM)
+- The mild end of the spectrum includes the phenotypes of asymptomatic
+  increase in serum concentration of creatine phosphokinase (CK) and
+  muscle cramps with myoglobinuria
+- The severe end of the spectrum includes progressive muscle diseases
+  that are classified as Duchenne/Becker muscular dystrophy when
+  skeletal muscle is primarily affected and as DMD-associated dilated
+  cardiomyopathy (DCM) when the heart is primarily affected
+
+*** DMD
+- usually presents in early childhood with delayed motor milestones
+  including delays in walking independently and standing up from a
+  supine position
+- proximal weakness causes a waddling gait and difficulty climbing
+  stairs, running, jumping, and standing up from a squatting
+  position
+- rapidly progressive, with affected children being
+  wheelchair dependent by age 12 years
+- few survive beyond the third decade, with respiratory complications and
+  progressive cardiomyopathy being common causes of death
+
+*** BMD
+- characterized by later-onset skeletal muscle weakness
+- heart failure is a common cause of morbidity and the most common
+  cause of death in BMD
+- mean age of death is in the mid-40s
+*** DCM
+- characterized by left ventricular dilation and congestive heart
+  failure
+- females heterozygous for a DMD pathogenic variant are at increased
+  risk for DCM
+** Diagnostic Testing
+- \Uparrow CK
+- DMD molecular
+  - \male with hemizygous pathogenic variant 
+  - \female with heterozygous pathogenic variant
+** Genetic Counseling
+- X-linked
+- daughters who inherit the pathogenic variant are heterozygous and
+  may have a range of clinical manifestations
+* Osteogenesis Imperfecta
+** Clinical Characteristics
+- characterized by fractures with minimal or absent trauma, variable
+  dentinogenesis imperfecta
+- four types
+  - classic non-deforming OI with blue sclerae
+  - perinatally lethal OI
+  - progressively deforming OI
+  - common variable OI with normal sclerae
+
+** Diagnostic Testing
+- identification of a heterozygous pathogenic or likely pathogenic
+  variant in COL1A1 or COL1A2
+** Genetic Counseling
+- AD 
+* Long QT Syndrome
+** Clinical Characteristics
+- cardiac electrophysiologic disorder, characterized by QT
+  prolongation and T-wave abnormalities on the ECG that are associated
+  with tachyarrhythmias, typically the ventricular tachycardia torsade
+  de pointes (TdP)
+- TdP is usually self-terminating, thus causing a syncopal event, the
+  most common symptom in individuals with LQTS
+- such cardiac events typically occur during exercise and emotional
+  stress, less frequently during sleep, and usually without warning
+- in some instances, TdP degenerates to ventricular fibrillation and
+  causes aborted cardiac arrest (if the individual is defibrillated)
+  or sudden death
+- approximately 50% of untreated individuals with a pathogenic variant
+  in one of the genes associated with LQTS have symptoms, usually one
+  to a few syncopal events
+- cardiac events may occur from infancy through middle age, they are
+  most common from the preteen years through the 20s
+** Diagnostic Testing
+- established by prolongation of the QTc interval in the absence of
+  specific conditions known to lengthen it
+- diagnostic variants in one or more of the 15 genes known to be
+  associated with LQTS
+  - KCNH2 (LQT2), KCNQ1 (LQT1), and SCN5A (LQT3) are the most common
+** Genetic Counseling
+- AD
+* Marfan Syndrome
+** Clinical Characteristics
+- a systemic disorder of connective tissue with a high degree of
+  clinical variability, comprises a broad phenotypic continuum ranging
+  from mild to severe and rapidly progressive neonatal multiorgan
+  disease
+- cardinal manifestations involve the ocular, skeletal, and
+  cardiovascular systems
+- normal life expectancy with proper management
+** Diagnostic Testing
+- one of the following sets of findings:
+
+- FBN1 pathogenic variant known to be associated with Marfan syndrome
+  AND one of the following:
+  - aortic root enlargement
+  - ectopia lentis
+- aortic root enlargement and ectopia lentis OR a
+  defined combination of features throughout the body
+
+** Genetic Counseling
+- AD 
+- \sim 75% of individuals with Marfan syndrome have an affected
+  parent
+- \sim 25% have a /de novo/ FBN1 pathogenic variant
+* Neurofibromatosis Type I
 ** Clinical Characteristics
 - characterized by multiple café au lait spots, axillary and inguinal freckling, multiple cutaneous neurofibromas, iris Lisch nodules, and choroidal freckling
 - ~ 50% have plexiform neurofibromas, but most are internal and not suspected clinically
@@ -21,7 +127,7 @@
 ** Genetic Counseling
 - AD, NF1
 - 50% due to /de novo/ NF1 pathogenic variant
-* Neurofibromatosis type II
+* Neurofibromatosis Type II
 ** Clinical Characteristics
 - bilateral vestibular schwannomas with associated symptoms of tinnitus, hearing loss, and balance dysfunction
 - average age of onset is 18 to 24 years
@@ -37,7 +143,7 @@
 - 50% with affected parent
 - 50% due to /de novo/ NF2 pathogenic variant
 - mosaic also possible
-* TODO Smith-Lemli-Opitz syndrome
+* Smith-Lemli-Opitz Syndrome
 ** Clinical Characteristics
 - a congenital multiple-anomaly/cognitive impairment syndrome caused
   by an abnormality in cholesterol metabolism resulting from
@@ -57,13 +163,185 @@
   - it may be in the normal range in approximately 10% of affected
     individuals \therefore unreliable for screening and diagnosis
 ** Genetic Counseling
-- AR, DHCR7
-* TODO Noonan syndrome
-* TODO Charge syndrome
-* TODO FGFR-related disorders (Craniosynostosis...)
-* TODO Factor V Leiden thrombophilia
-* TODO G6PD deficiency
-* TODO Hemoglobinopathies (Sickle cell anemia, Alpha / Beta Thalassemia)
+- AR DHCR7
+* Noonan Syndrome
+** Clinical Characteristics
+- lentigines, hypertrophic cardiomyopathy, short stature, pectus
+  deformity, and dysmorphic facial features, including widely spaced
+  eyes and ptosis
+- multiple lentigines present as dispersed flat, black-brown macules,
+  mostly on the face, neck and upper part of the trunk
+  - do not appear until age four to five years but then increase to
+    the thousands by puberty
+** Diagnostic Testing
+- clinical findings or, if clinical findings are insufficient, by
+  identification of a heterozygous pathogenic variant in one of four
+  genes
+  - PTPN11, RAF1, BRAF, and MAP2K1
+** Genetic Counseling
+- AD 
+* Charge Syndrome
+** Clinical Characteristics
+- CHARGE is a mnemonic for coloboma, heart defects, choanal atresia,
+  retarded growth and development, genital abnormalities, and ear
+  anomalies
+- neonates with CHARGE syndrome often have multiple life-threatening
+  medical conditions
+- feeding difficulties are a major cause of
+  morbidity in all age groups
+** Diagnostic Testing
+- clinical findings and temporal bone imaging
+- CHD7 encodes chromodomain helicase DNA binding protein
+** Genetic Counseling
+- AD CHD7
+* FGFR Craniosynostosis
+** Clinical Characteristics
+- pectrum of severity ranges from severe prenatal multisuture
+  craniosynostosis with feeding and airway issues to isolated
+  unicoronal craniosynostosis
+** Diagnostic Testing
+- a craniosynostosis multigene panel that includes
+  - FGFR1, FGFR2, FGFR3, TCF12, and TWIST1
+** Genetic Counseling
+- AD
+* Factor V Leiden Thrombophilia
+** Clinical Characteristics
+- characterized by a poor anticoagulant response to activated protein
+  C (APC) and an increased risk for venous thromboembolism (VTE)
+- DVT is the most common VTE, with the legs being the most common
+  site
+** Diagnostic Testing
+- a history of first and recurrent venous thromboembolism (VTE)
+  manifest as deep vein thrombosis (DVT) or pulmonary embolism (PE),
+  especially in women with a history of VTE during pregnancy or in
+  association with use of estrogen-containing contraceptives
+- a family history of recurrent thrombosis
+
+- identification of a heterozygous or homozygous c.1691G>A variant in F5
+  (the factor V Leiden variant)
+  - in conjunction with coagulation tests
+** Genetic Counseling
+- AD F5
+* G6PD deficiency
+** Clinical Characteristics
+- hemolytic anemia
+  - results in paleness, yellowing of the skin and whites of the
+    eyes (jaundice), dark urine, fatigue, shortness of breath, and a
+    rapid heart rate
+- G6PD converts glucose-6-phosphate into
+  6-phosphoglucono-\delta-lactone and is the rate-limiting enzyme of
+  the PP pathway pathway that supplies reducing energy to cells by
+  maintaining the level NADPH
+- NADPH maintains the supply of reduced glutathione in the cells that
+  is used to mop up free radicals that cause oxidative damage
+** Diagnostic Testing
+- CBC, Heinz bodies on film
+- \uparrow LDH in hemolysis
+- \downarrow haptoglobin
+- Beutler spot test
+** Genetic Counseling
+- X-linked recessive G6PD
+
+* Sickle Cell Disease
+** Clinical Characteristics
+- characterized by intermittent vaso-occlusive events and chronic
+  hemolytic anemia
+- vaso-occlusive events result in tissue ischemia leading to acute and
+  chronic pain as well as organ damage that can affect any organ
+  system, including the bones, spleen, liver, brain, lungs, kidneys,
+  and joints
+- dactylitis (pain and/or swelling of the hands or feet) is often the
+  earliest manifestation
+** Diagnostic Testing
+- encompasses a group of disorders characterized by the presence of at
+  least one hemoglobin S allele (HbS; p.Glu6Val in HBB) and a second
+  HBB pathogenic variant resulting in abnormal hemoglobin
+  polymerization
+- Hb S/S (homozygous p.Glu6Val in HBB) accounts for 60-70% of SCD in
+  the United States
+- other forms of SCD result from coinheritance of HbS with other
+  abnormal \beta-globin chain variants
+  - the most common forms being
+    - sickle-hemoglobin C disease (Hb S/C)
+    - two types of sickle \beta-thalassemia
+      - Hb S/\beta^+-thalassemia
+      - Hb S/\beta^0-thalassemia
+  - rarer forms result from coinheritance of other Hb variants such as
+    D-Punjab, O-Arab, and E
+- homozygous hemoglobin S alleles
+  - sickle cell disease (Hb S/S)
+- coinheritance of one hemoglobin S allele and a second HBB pathogenic variant
+  - sickle-hemoglobin C disease (Hb S/C)
+  - sickle \beta-thalassemia (Hb S/\beta^+-thalassemia and Hb S/\beta^0-thalassemia)
+  - sickle-hemoglobin D, O, and E disease (or other beta globin chain variants)
+** Genetic Counseling
+- AR HBB
+* \alpha-Thalassemia
+** Clinical Characteristics
+- two clinically significant forms:
+  - hemoglobin Bart hydrops fetalis (Hb Bart) syndrome, caused by
+    deletion of all four \alpha-globin genes
+    - characterized by fetal onset of generalized edema, pleural and
+      pericardial effusions, and severe hypochromic anemia, in the
+      absence of ABO or Rh blood group incompatibility
+    - additional clinical features include marked hepatosplenomegaly,
+      extramedullary erythropoiesis, hydrocephalus, and cardiac and
+      urogenital defects
+    - death usually occurs in the neonatal period
+  - hemoglobin H (HbH) disease, most frequently caused by deletion of
+    three \alpha-globin genes 
+    - characterized by microcytic hypochromic hemolytic anemia,
+      splenomegaly, mild jaundice, and sometimes thalassemia-like bone
+      changes
+    - individuals with HbH disease may develop gallstones and
+      experience acute episodes of hemolysis in response to oxidant
+      drugs and infections
+** Diagnostic Testing
+- diagnosis of Hb Bart syndrome is established in a fetus with the
+  characteristic radiographic and laboratory features
+  - identification of biallelic pathogenic variants in HBA1 and HBA2
+    that result in deletion or inactivation of all four \alpha-globin
+    alleles confirms the diagnosis
+- diagnosis of HbH disease is established in a proband with the
+  characteristic laboratory and clinical features
+  - identification of biallelic pathogenic variants in HBA1 and HBA2
+    that result in deletion or inactivation of three \alpha-globin
+    alleles confirms the diagnosis
+** Genetic Counseling
+- AR
+
+| Phenotype                         | Genotype                                                                 |
+|-----------------------------------+--------------------------------------------------------------------------|
+| Hb Bart                           | loss of 4 \alpha-globin genes                                            |
+| HbH disease                       | loss of 3 \alpha-globin genes                                            |
+| \alpha-thalassemia trait          | loss of 2 \alpha-globin genes                                            |
+|                                   | in Ci's (--/\alpha\alpha, \alpha0 carrier) or in trans (-\alpha /-\alpha) |
+| \alpha-thalassemia silent carrier | loss of 1 \alpha-globin gene (-\alpha/\alpha\alpha, \alpha+ carrier)     |
+* \beta-Thalassemia
+** Clinical Characteristics
+- characterized by reduced synthesis of the hemoglobin beta chain that
+  results in microcytic hypochromic anemia, an abnormal peripheral
+  blood smear with nucleated red blood cells, and reduced amounts of
+  hemoglobin A (HbA) on hemoglobin analysis
+- individuals with thalassemia major have severe anemia and
+  hepatosplenomegaly
+- usually come to medical attention within the first two years of
+  life
+- without treatment, affected children have severe failure to thrive
+  and shortened life expectancy
+- treatment with a regular transfusion program and chelation therapy,
+  aimed at reducing transfusion iron overload, allows for normal
+  growth and development and may improve the overall prognosis
+** Diagnostic Testing
+- red blood cell indices that reveal microcytic hypochromic anemia,
+  nucleated red blood cells on peripheral blood smear
+- hemoglobin analysis that reveals decreased amounts of HbA and
+  increased amounts of hemoglobin F (HbF) after age 12 months
+- clinical severity of anemia
+- identification of biallelic pathogenic variants in HBB
+** Genetic Counseling
+- AR HBB
+  - carrier thalassemia minor
 * Hemophilia A
 ** Clinical Characteristics
 - deficiency in factor VIII clotting activity that results in
@@ -159,6 +437,18 @@
        clinical penetrance.
 
 * TODO SRY translocation
+** Clinical Characteristics
+** Diagnostic Testing
+** Genetic Counseling
 * TODO Turner syndrome
+** Clinical Characteristics
+** Diagnostic Testing
+** Genetic Counseling
 * TODO Androgen insensitivity syndrome
+** Clinical Characteristics
+** Diagnostic Testing
+** Genetic Counseling
 * TODO 21-Hydroxylase deficiency
+** Clinical Characteristics
+** Diagnostic Testing
+** Genetic Counseling

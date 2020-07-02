@@ -46,7 +46,8 @@
 
 * Cytogenetics
 #+INCLUDE: "./cytogenetics.org" :lines "4-"
-
+* Metabolic
+#+INCLUDE: "./metabolics.org" :lines "4-"
 * Molecular Genetics
 #+INCLUDE: "./molecular.org" :lines "4-"
 

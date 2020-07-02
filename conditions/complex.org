@@ -24,7 +24,7 @@
 - GJB6 deletions
 - DFNB1 
 ** Genetic Counseling
-- GJB2, GJB6 DFNB1 
+- GJB2, GJB6, SLC26A4
 * Diabetes Mellitus Type I 
 ** Clinical Characteristics
 - very little or no insulin is produced by the pancreas
