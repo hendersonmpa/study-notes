@@ -436,19 +436,116 @@
        hemochromatosis is an adult-onset, treatable disorder with low
        clinical penetrance.
 
-* TODO SRY translocation
+* SRY translocation
+- Nonsyndromic 46,XX Testicular Disorders of Sex Development
 ** Clinical Characteristics
+- characterized by the presence of a 46,XX karyotype
+  - male external genitalia ranging from normal to ambiguous
+  - two testicles
+  - azoospermia
+  - absence of müllerian structures
+- \sim 85% of individuals with nonsyndromic 46,XX testicular DSD
+  present after puberty with normal pubic hair and normal penile size
+  but small testes, gynecomastia, and sterility resulting from
+  azoospermia
+- \sim 15% of individuals with nonsyndromic 46,XX testicular DSD
+  present at birth with ambiguous genitalia
+- gender role and gender identity are reported as \male
+- untreated \males with 46,XX testicular DSD experience the
+  consequences of testosterone deficiency
 ** Diagnostic Testing
+- clinical findings, endocrine testing, and cytogenetic testing
+- endocrine studies usually show hypergonadotropic hypogonadism
+  secondary to testicular failure
+- cytogenetic studies at the 550-band level demonstrate a 46,XX
+  karyotype
+- SRY, the gene that encodes the sex-determining region Y protein, is
+  the principal gene known to be associated with 46,XX testicular
+  DSD
+- \sim 80% of individuals with nonsyndromic 46,XX testicular DSD are
+  SRY positive as shown by use of FISH or chromosomal microarray (CMA)
+- rearrangements in or around SOX9 and SOX3 detected by CMA, or rarely
+  karyotype, have recently been reported in a few cases
+  - at least one more unknown gene at another locus is implicated
 ** Genetic Counseling
-* TODO Turner syndrome
+- SRY-positive 46,XX testicular DSD is generally not inherited because
+  it results from /de novo/ abnormal interchange between the Y
+  chromosome and the X chromosome, resulting in the presence of SRY on
+  the X chromosome and infertility
+* Turner syndrome
 ** Clinical Characteristics
+- 45,X, \female is partly or completely missing an X chromosome.
+- signs and symptoms vary, often a short and webbed neck, low-set
+  ears, low hairline at the back of the neck, short stature, and
+  swollen hands and feet are seen at birth.
+- develop menstrual periods and breasts only with hormone treatment,
+  and are unable to have children without reproductive technology
+- heart defects, diabetes, and low thyroid hormone occur more
+  frequently
+- most people with TS have normal intelligence
+- vision and hearing problems occur more often
 ** Diagnostic Testing
+- amniocentesis or chorionic villus sampling
+- abnormal ultrasound findings (i.e., heart defect, kidney
+  abnormality, cystic hygroma, ascites)
+- \uparrow risk of Turner syndrome may also be indicated by abnormal
+  triple or quadruple maternal serum screen
+- later diagnosis is via karyotype
 ** Genetic Counseling
-* TODO Androgen insensitivity syndrome
+- functional X usually from mother
+- usually sporadic
+- exceptions:
+  - presence of a balanced translocation of the X chromosome in a parent
+  - mother has 45,X mosaicism restricted to her germ cells
+* Androgen Insensitivity Syndrome
 ** Clinical Characteristics
+- characterized by evidence of feminization of the external genitalia
+  at birth, abnormal secondary sexual development in puberty, and
+  infertility in individuals with a 46,XY karyotype
+- spectrum of defects in androgen action with three broad phenotypes:
+  - complete androgen insensitivity syndrome with typical
+    female external genitalia
+  - partial androgen insensitivity syndrome with predominantly
+    female, predominantly male, or ambiguous external genitalia
+  - mild androgen insensitivity syndrome with typical male external
+    genitalia
 ** Diagnostic Testing
+- established in an individual with a 46,XY karyotype who has:
+  - undermasculinization of the external genitalia
+  - impaired spermatogenesis with otherwise normal testes
+  - absent or rudimentary müllerian structures
+  - evidence of normal or increased synthesis of testosterone and its
+    normal conversion to dihydrotestosterone
+  - normal or increased luteinizing hormone (LH) production by the
+    pituitary gland
+  - and/or a hemizygous pathogenic variant in AR 
 ** Genetic Counseling
-* TODO 21-Hydroxylase deficiency
+- X-linked
+- affected 46,XY individuals are almost always infertile
+* 21-Hydroxylase deficiency
 ** Clinical Characteristics
+- most common cause of congenital adrenal hyperplasia
+  - a family of autosomal recessive disorders involving impaired
+    synthesis of cortisol from cholesterol by the adrenal cortex
+- excessive adrenal androgen biosynthesis results in virilization in
+  all individuals and salt wasting in some individuals
+  - classic form :: severe enzyme deficiency and prenatal onset of virilization
+    - salt-wasting form :: aldosterone  production is inadequate \ge 75% of classic
+    - simple virilizing form :: \sim 25% of classic
+  - non-classic form :: mild enzyme deficiency and postnatal onset
+- newborns with salt-wasting 21-OHD CAH are at risk for
+  life-threatening salt-wasting crises
+- individuals with the non-classic form of 21-OHD CAH present
+  postnatally with signs of hyperandrogenism
+- \female with the non-classic form are not virilized at birth
 ** Diagnostic Testing
+- classic 21-OHD CAH is established in newborns with characteristic clinical features
+  - \uparrow serum 17-OHP
+  - \uparrow adrenal androgens
+- non-classic 21-OHD is established by comparison of baseline serum
+  17-OHP and ACTH-stimulated serum 17-OHP or early morning elevated
+  17-OHP
+- identification of biallelic pathogenic variants in CYP21A2 confirms
+  the clinical diagnosis and allows for family studies
 ** Genetic Counseling
+- AR CYP21A2
