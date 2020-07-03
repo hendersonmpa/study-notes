@@ -315,7 +315,7 @@
 | Hb Bart                           | loss of 4 \alpha-globin genes                                            |
 | HbH disease                       | loss of 3 \alpha-globin genes                                            |
 | \alpha-thalassemia trait          | loss of 2 \alpha-globin genes                                            |
-|                                   | in Ci's (--/\alpha\alpha, \alpha0 carrier) or in trans (-\alpha /-\alpha) |
+|                                   | in cis (--/\alpha\alpha, \alpha0 carrier) or in trans (-\alpha /-\alpha) |
 | \alpha-thalassemia silent carrier | loss of 1 \alpha-globin gene (-\alpha/\alpha\alpha, \alpha+ carrier)     |
 * \beta-Thalassemia
 ** Clinical Characteristics
