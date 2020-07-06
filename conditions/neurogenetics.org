@@ -71,4 +71,4 @@ AKA Hereditary Neuropathy with Pressure Palsies
 [[file:./figures/sma.png]]
 
 ** Genetic Counseling
--AR SMN1
+- AR SMN1
