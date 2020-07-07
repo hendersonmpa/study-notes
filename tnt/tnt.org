@@ -5,7 +5,7 @@
 :PROPERTIES:
 #+DRAWERS: PROPERTIES
 #+LaTeX_CLASS: koma-article
-#+OPTIONS: H:2 toc:1 num:t ^:t
+#+OPTIONS: H:3 toc:1 num:t ^:t
 #+STARTUP: overview
 #+SEQ_TODO: TODO(t) STARTED(s) | DONE(d) 
 #+latex_header: \hypersetup{colorlinks,linkcolor=black,urlcolor=blue}
@@ -38,7 +38,7 @@
     radiate and eventually take up positions at the poles of the cell
 - Prometaphase :: nuclear membrane dissolves
   - chromosomes disperse within the cell
-  - attach, by their kinetochores, to microtubules of the mitotic
+  - attach by their kinetochores to microtubules of the mitotic
    spindle
 - Metaphase :: the chromosomes condensed and line up at the equatorial
                plane
@@ -62,7 +62,7 @@
 [[file:./figures/ch2_karyotype.png]]
 
 ** Meiosis
-
+*** Meiosis I 
 - meiosis I is also known as the reduction division because it is the
   division in which the chromosome number is reduced by half through
   the pairing of homologues in prophase and by their segregation to
@@ -70,47 +70,54 @@
 - the stage at which genetic recombination (also called meiotic crossing over) occurs
   - homologous segments of DNA are exchanged between non-sister
     chromatids of each pair of homologous chromosomes, thus ensuring
-    that none of the gametes produced by meiosis will be identical to
-    another
+    that none of the gametes produced by meiosis will be identical
+*** Meiosis II 
+- meiosis II is the second meiotic division, and involves equational
+  segregation, or separation of sister chromatids
+- mechanically, the process is similar to mitosis, though its genetic
+  results are fundamentally different
+- the end result is production of four haploid cells (n chromosomes,
+  23 in humans) from the two haploid cells (with n chromosomes, each
+  consisting of two sister chromatids) produced in meiosis I
 
 #+CAPTION[]:Meiosis
 #+NAME: fig:meiosis
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/ch2_meiosis.png]]
 
-** Homologous Recombination
-
-- the genetic content of each gamete is unique, because of random
-  assortment of the parental chromosomes to shuffle the combination of
-  sequence variants between chromosomes and because of homologous
-  recombination to shuffle the combination of sequence variants within
-  each and every chromosome
-- this has significant consequences for patterns of genomic variation
-  among and between different populations around the globe and for
-  diagnosis and counseling of many common conditions with complex
-  patterns of inheritance
-- the amounts and patterns of meiotic recombination are determined by
-  sequence variants in specific genes and at specific “hot spots” and
-  differ between individuals, between the sexes, between families, and
-  between populations
-- \because recombination involves the physical intertwining of the two
-  homologues until the appropriate point during meiosis I, it is also
-  critical for ensuring proper chromosome segregation during
-  meiosis
-- failure to recombine properly can lead to chromosome missegregation
-  (nondisjunction) in meiosis I and is a frequent cause of pregnancy
-  loss and of chromosome abnormalities like Down syndrome
-- although homologous recombination is normally precise, areas of
-  repetitive DNA in the genome and genes of variable copy number in
-  the population are prone to occasional unequal crossing over during
-  meiosis, leading to variations in clinically relevant traits such as
-  drug response, to common disorders such as the thalassemias or
-  autism, or to abnormalities of sexual differentiation
-- although homologous recombination is a normal and essential part of
-  meiosis, it also occurs, albeit more rarely, in somatic
-  cells
-- anomalies in somatic recombination are one of the causes of genome
-  instability in cancer
+*** Homologous Recombination
+ - occurs during meiosis I
+ - the genetic content of each gamete is unique
+ - \because of random assortment of the parental chromosomes to
+   shuffle the combination of sequence variants between chromosomes
+   and homologous recombination to shuffle the combination of sequence
+   variants within each and every chromosome
+ - this has significant consequences for patterns of genomic variation
+   among and between different populations around the globe and for
+   diagnosis and counselling of many common conditions with complex
+   patterns of inheritance
+ - the amounts and patterns of meiotic recombination are determined by
+   sequence variants in specific genes and at specific “hot spots” and
+   differ between individuals, between the sexes, between families, and
+   between populations
+ - \because recombination involves the physical intertwining of the two
+   homologues until the appropriate point during meiosis I, it is also
+   critical for ensuring proper chromosome segregation during
+   meiosis
+ - failure to recombine properly can lead to chromosome missegregation
+   (nondisjunction) in meiosis I and is a frequent cause of pregnancy
+   loss and of chromosome abnormalities like Down syndrome
+ - although homologous recombination is normally precise, areas of
+   repetitive DNA in the genome and genes of variable copy number in
+   the population are prone to occasional unequal crossing over during
+   meiosis, leading to variations in clinically relevant traits such as
+   drug response, to common disorders such as the thalassemias or
+   autism, or to abnormalities of sexual differentiation
+ - although homologous recombination is a normal and essential part of
+   meiosis, it also occurs, albeit more rarely, in somatic
+   cells
+ - anomalies in somatic recombination are one of the causes of genome
+   instability in cancer
 
 * Gene Structure and Function
 ** Allelic Imbalance in Gene Expression
@@ -133,7 +140,7 @@
 - indels
 - microsatelite
 - mobile element insertion polymorphism
-  - retrotranspostion: Alu, LINE
+  - retrotranspostion: Alu elements, long interspersed nucleotide elements (LINE)
 - CNVs
   - related to indels and microsatellites but variation in
     the number of copies of larger segments of the genome
@@ -148,43 +155,44 @@
 [[file:./figures/ch4_polymorphism.png]]
 
 
-** Origins and Freq of Mutation types
-- germline
-- somatic
+** Mutation Types
+- cell type:
+  - germline
+  - somatic
 - mutations:
   - chromosome number
   - regional: affecting the structure or regional organization of chromosomes
   - gene: base pair substitutions, insertions, and deletions
 
-#+CAPTION[]:Mutation
+#+CAPTION[]:Mutation Types and Frequency
 #+NAME: fig:mutation
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/ch4_mutation.png]]
 
 * Cytogenetics
 ** Clinical Indications for Chromosome and Genome Analysis
-*** problems of early growth and development
-  - failure to thrive, developmental delay,dysmorphic facies, multiple
+*** Problems of Early Growth and Development
+  - failure to thrive, developmental delay, dysmorphic facies, multiple
     malformations, short stature, ambiguous genitalia, and
     intellectual disability are frequent findings in children with
     chromosome abnormalities
-*** stillbirth and neonatal death
+*** Stillbirth and Neonatal Death
 - incidence of chromosome abnormalities is much higher among
   stillbirths (\sim10%) than among live births (\sim0.7%)
 - also elevated among infants who die in the neonatal period (~10%)
 - karyotyping (or other comprehensive ways of scanning the genome) is
   essential for accurate genetic counselling
-*** fertility problems
+*** Fertility
 - chromosome studies are indicated for women presenting with
   amenorrhea and for couples with a history of infertility or recurrent miscarriage
 - chromosome abnormality is seen in one or the other parent in 3% to
   6% of cases in which there is infertility or two or more
   miscarriages
-*** family history
+*** Family History
 - known or suspected chromosome or genome abnormality in a first
   degree relative is an indication for chromosome and genome analysis
-*** neoplasia
-- virtually all cancers are associated with one or more chromosome
+*** Neoplasia
+- Virtually all cancers are associated with one or more chromosome
   abnormalities
 - chromosome and genome evaluation in the tumour itself, or in bone
   marrow in the case of hematological malignant neoplasms, can offer
@@ -201,13 +209,13 @@
 - G-banding (Giemsa) is the gold standard for detection and
   characterization of structural and numerical genomic abnormalities
   - both constitutional (postnatal or prenatal) and acquired (cancer)
-  - detection of deletions and duplications \gt 5 to 10 Mb than
-    approximately 5 to 10 Mb anywhere in the genome
+  - detection of deletions and duplications \ge 5 to 10 Mb anywhere in
+    the genome
 - three types of chromosomes:
   - metacentric :: central centromere
   - submetacentric :: off center centromere
   - acrocentric :: centromere at one end
-    - 13,14,15,21,22
+    - 13, 14, 15, 21, 22
 
 ** Fluorescence In Situ Hybridization
 - detecting the presence or absence of a particular DNA sequence or
@@ -231,6 +239,7 @@
   - relative representation and intensity of alleles in different
     regions of the genome indicate if a chromosome or chromosomal
     region is present at the appropriate dosage
+  - loss of heterozygozity
 - probe spacing provides a resolution as high as 250 kb
 ** Chromosome Abnormalities
 - numerical or structural
@@ -282,22 +291,22 @@
 - there is uncertainty about the severity of the phenotype
 
 ** Abnormalities of Chromosome Number
-- heteroploid :: chromosome complement other than 46 is 
-- euploid :: exact multiple of n
-- aneuploid :: non-multiple of n
+- heteroploid :: chromosome number that is neither haploid (n=23) or diploid(2n=46)
+- euploid :: exact multiple of n (e.g. triploid)
+  - triploidy and tetraploidy
+    - most result from fertilization of an egg by two sperm (dispermy)
+    - also failure of one of the meiotic divisions in either sex,
+      resulting in a diploid egg or sperm
+    - maternal source are aborted
+    - paternal source \to degenerative placenta (parital hydatidiform
+      mole) w small fetus
+- aneuploid :: non-multiple of n (e.g. trisomy 21)
+  - most common cause is meiotic nondisjunction in meiosis I or II (Figure [[fig:nondys]])
+    - trisomy :: 21, 18, 13
+    - monosomy :: X (Turner syndrome)
 
-*** Triploidy and tetraploidy
-- most result from fertilization of an egg by two sperm (dispermy)
-- also failure of one of the meiotic divisions in either sex,
-  resulting in a diploid egg or sperm
-- maternal source are aborted
-- paternal source \to degenerative placenta (parital hydatidiform
-  mole) w small fetus
 
-*** Aneuploidy
-- most common cause is meiotic nondisjunction in meiosis I or II (Figure [[fig:nondys]])
-  - trisomy :: 21,18,13
-  - monosomy :: X (Turner syndrome)
+
 
 #+CAPTION[]:Nondisjunction
 #+NAME: fig:nondys 
@@ -306,14 +315,14 @@
 
 ** Abnormalities of Chromosome Structure
 - present in 1/375 newborns
-- balances or unbalanced
+- balanced or unbalanced
 
 #+CAPTION[]:Structural Rearrangements of Chromosomes
 #+NAME: fig:str
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/ch5_struct.png]]
 
-*** Unbalanced rearrangements
+*** Unbalanced Rearrangements
 - delections and duplications
 - marker and ring chromosomes
   - very small, unidentified chromosomes
@@ -321,7 +330,7 @@
   - one arm is missing and the other duplicated in a mirror-image
 - dicentric
   - two chromosome segments, each with a centromere, fuse end to end
-*** Balanced rearrangements
+*** Balanced Rearrangements
 - "balanced" depends on resolution
 - translocations
   - reciprocal translocations
@@ -341,7 +350,7 @@
   - abnormal chromosome segregation (nondisjunction)
   - recurrent chromosomal syndromes, involving
     deletions or duplications at genomic hot spots
-  - idiopathic chromosomal abnormalities, typically de novo
+  - idiopathic chromosomal abnormalities, typically /de novo/
   - unbalanced familial chromosomal abnormalities
   - chromosomal and genomic events that reveal regions
     of genomic imprinting
@@ -351,16 +360,16 @@
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/ch6_mech.png]]
 
-** Lessons From Genomic Disorders
+** Lessons from Genomic Disorders
 - altered gene dosage for any extensive chromosomal or genomic region
   is likely to result in a clinical abnormality, the phenotype of
   which will, in principle, reflect haploinsufficiency for or
   overexpression of one or more genes encoded within the region.
-  - in some cases, the clinical presentation appears to be accounted
+  - in some cases the clinical presentation appears to be accounted
     for by dosage imbalance for just a single gene; in other
     syndromes, however, the phenotype appears to reflect imbalance for
     multiple genes across the region
-- the distribution of these duplication/deletion disorders is not random,
+- the distribution of these duplication/deletion disorders is not random
   - segmental duplications in pericentromeric and subtelomeric
     regions, predisposes particular regions to the unequal
     recombination events that underlie these syndromes
@@ -369,16 +378,16 @@
 
 ** Aneuploidy
 - common mutation in our species involves errors in chromosome segregation
-- only three well-defined nonmosaic chromosome disorders compatible
+- only three well-defined non-mosaic chromosome disorders compatible
   with postnatal survival in which there is an abnormal dose of an
   entire autosome:
   1) trisomy 21 (Down syndrome)
   2) trisomy 18
   3) trisomy 13
-- also have the \downarrow genes among autosomes
+- also have the lowest number of genes among autosomes
 
 *** Down Syndrome
-- see conditions
+- see Conditions
 **** Robertsonian Translocation 
 - \sim4% of Down syndrome patients have 46 chromosomes
 - one of which is a Robertsonian translocation between chromosome
@@ -412,8 +421,8 @@
 
 ** Idiopathic Chromosome Abnormalities 
 - autosomal deletion syndromes
-  - cri du chat syndrome, there is either a terminal or interstitial
-    deletion of part of the short arm of chromosome 5
+  - Cri du Chat syndrome is either a terminal or interstitial deletion
+    of part of the short arm of chromosome 5
 - balanced translocations with developmental phenotypes
   
 ** Disorders Associated with Genomic Imprinting
@@ -426,16 +435,14 @@
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/ch6_pw_as.png]]
 
-- see Conditions: Molecular Genetics
-
+- see Conditions
 ** Sex Chromosomes and Their Abnormalities
 - SRY found on the Y chromosome is the major testis-determining gene
 - inactivation of an X chromosome depends on the presence of the X
   inactivation center region (XIC)
 - in females structurally abnormal X chromosomes are almost always inactive
   - nonrandom inactivation observed in X;autosome translocations
-  - if balanced, the normal X chromosome is preferentially
-    inactivated
+  - if balanced the normal X chromosome is preferentially inactivated
   - the two parts of the translocated chromosome remain active
   - reflecting selection against cells in which critical autosomal
     genes have been inactivated
@@ -485,7 +492,8 @@
   - \sim 1/3 of XL disorders are penetrant in het \female 
 
 ** Mosaicism
-- confined placental ::
+- confined placental :: discrepancy between the chromosomal makeup of
+  the cells in the placenta and the cells in the fetus (Figure [[fig:pmosaic]])
 - somatic :: somatic cells
 - germline :: germline cells
 - segmental :: mutation affecting morphogenesis, occuring during
@@ -527,17 +535,15 @@
 ** Genotype - Phenotype
 - allelic heterogeneity :: different mutations in a gene cause the same phenotype
 - locus heterogeneity :: mutations in different genes cause the same phenotype
-- phenotypic heterogeneity :: different mutations results in different phenotypes
+- phenotypic heterogeneity :: different mutations in the same gene
+  result in different phenotypes
 
 * Complex Traits
-- qualitative trait :: trait is present or absent
-- quantitative trait :: measurable physiological or biochemical quantity
-
+- *qualitative trait* trait is present or absent
+- *quantitative trait* measurable physiological or biochemical quantity
 - relative risk ratio \lambda_r is used to measure famillial
   aggregation of disease in qualitative traits
-
 - \lambda_r = prevalence of disease in relatives/prevalence in population
-
 - H^{2} is heritability
   - fraction of phenotypic variance of a quantitative trait that is
     due to allelic variation
@@ -552,7 +558,7 @@
     - q = the frequency of the recessive allele (represented here by a)
 
 - for a population in genetic equilibrium:
-  - p + q = 1.0 (sum of the frequencies of both alleles is 100%)
+  - p + q = 1 (sum of the frequencies of both alleles is 100%)
   - (p + q)^2 = 1
   - p^2 + 2pq + q^2 = 1
 - the three terms of this binomial expansion indicate the frequencies
@@ -567,7 +573,7 @@
 |-------------+---------------+----------+------------------|
 | AR          | q^2           | aa       | homozygote       |
 | AD          | 2pq           | Aa       | heterozygotes    |
-| XL          | 1/2 \cdot q^2 | X_MY     | hemizygote \male |
+| XL          | 1/2 \cdot q^2 | X_{M}Y   | hemizygote \male |
 
 
 
@@ -577,7 +583,7 @@
     respect to the locus in question
   - allele frequencies remain constant over time because of the
     following:
-    - there is no appreciable rate of new mutation.
+    - there is no appreciable rate of new mutation
     - individuals with all genotypes are equally capable of mating and
       passing on their genes
       - \therefore no selection against	any particular genotype
@@ -586,15 +592,14 @@
       endogenous population
 - a population that reasonably appears to meet these assumptions is
   considered to be in Hardy-Weinberg equilibrium
-  - population genotype frequencies from generation to generation
-    will remain constant, at equilibrium, if the allele frequencies p
-    and q remain constant
+  - population genotype frequencies from generation to generation will
+    remain constant if the allele frequencies p and q remain constant
 
 ** Factors That Disturb Hardy-Weinberg Equilibrium
 *** exceptions to large populations with random mating
-- stratification
-- assortative mating
-- consaguinity
+- stratification :: isolation by distance
+- assortative mating :: social factors
+- consaguinity ::
 *** exceptions to constant allele frequencies
 - mutation
 - selection and fitness
@@ -605,30 +610,27 @@
     - \mu = mutation rate per generation
     - q = mutant allele freq
     - s = coefficient of selection
-- mutation and selection balance in x-linked recessive mutations:
-  - \male have one X chromosome and \female two, the pool of X-linked
+- mutation and selection balance in X-linked recessive mutations
+  - 1/3 rule
+
+** 1/3 Rule
+  - \male have one X chromosome and \female{} two, the pool of X-linked
     alleles in the entire population’s gene pool is partitioned at any
-    given time, with one third of mutant alleles present in \male and
+    given time, with one third of mutant alleles present in \male{} and
     two thirds in \female
+  - if the reproductive fitness of a \male affected with an X-linked
+    recessive disorder is low or nil, then in a population
+    - *one-third of all affected X chromosomes will be removed from
+      the gene pool every* *generation*
   - if the incidence of a serious X-linked disease is not changing and
     selection is operating against (and only against) hemizygous \male,
-    the mutation rate then \mu, must equal the coefficient of selection, s
+    the mutation rate \mu, must equal the coefficient of selection, s
     times q, the allele frequency, adjusted by a factor of 3 because
     selection is operating only on the third of the mutant alleles in
     the population that are present in males at any time. 
     - \mu = sq/3
-    - see 1/3 Rule below
-
-** 1/3 Rule
-- at any given time 1/3 of all X chromosomes are in the \male fraction
-  of the population
-- if the reproductive fitness of a \male affected with an X-linked
-  recessive disorder is low or nil, then in a population
-  - *one-third of all affected X chromosomes will be removed from the gene pool every*
-    *generation*
-- if the incidence of the disease is constant, then one-third of
-  cases must be due to mutations arising /de novo/ in a family
-- first proposed by Haldane 
+  - *if the incidence of the disease is constant, then one-third of
+    cases must be due to mutations arising /de novo/ in a family*
 
 *** COMMENT Haldane Hypothesis 
  - applies to X-linked recessive traits
@@ -678,8 +680,7 @@
 - analysis of linkage depends on determining the frequency of
   recombination as a measure of how close two loci are to each other
   on a chromosome.
-- a common notation for recombination frequency (as a proportion, not
-  a percentage) is \theta
+- a common notation for recombination frequency is \theta
   - where \theta varies from 0 (no recombination at all) to 0.5 (independent assortment)
   - if two loci are so close together that \theta = 0 between them
     they are said to be completely linked
@@ -693,19 +694,21 @@
   - measured in units called centimorgans (cM)
   - defined as the genetic length over which, on average, one
     crossover occurs in 1% of meioses
-  - \therefore a recombination fraction of 1% (i.e., \theta = 0.01)
+  - \therefore a recombination fraction of 1% (\theta = 0.01)
     translates approximately into a map distance of 1 cM
 
 - linkage disequilibrium (LD) is the due to close map distance between loci
   - frequency of a haplotype, freq(A-S) for example, may not be equal
     to the product of the frequencies of the individual alleles that
     make up that haplotype
-  - in this situation, freq(A-S) \neg freq(A) x freq(S)
+  - in this situation, freq(A-S) \neq freq(A) x freq(S)
     - the alleles are in LD
 * Molecular Basis of Genetic Disease
 - effect of mutation on protein function
-  - loss of function :: \downarrow protein function
-  - gain of function :: \uparrow expression or \uparrow activity 
+  - loss of function :: \downarrow protein function (i.e. CF)
+    - almost always recessive
+  - gain of function :: \uparrow expression or \uparrow activity (i.e BCR-ABL)
+    - almost always dominant
   - novel property :: i.e. sickle cell
   - heterochronic expression :: wrong time i.e. hereditary persistence
     of Hb F
@@ -780,19 +783,18 @@
   teratogens
 - one example is amnion disruption, the partial amputation of a fetal
   limb associated with strands of amniotic tissue
-- amnion disruption is often recognized clinically by the presence of
-  partial and irregular digit amputations in conjunction with
-  constriction rings
+  - amnion disruption is often recognized clinically by the presence of
+    partial and irregular digit amputations in conjunction with
+    constriction rings
 
 * Cancer
 - cancer is not a single disease but rather comes in many forms and
   degrees of malignancy
 - there are three main classes of cancer:
   - sarcomas :: tumour has arisen in mesenchymal tissue, such as bone,
-                muscle, or connective tissue, or in nervous system
-                tissue
+    muscle, connective tissue or nervous system
   - carcinomas :: originate in epithelial tissue, such as the cells
-                  lining the intestine, bronchi, or mammary ducts
+    lining the intestine, bronchi, or mammary ducts
   - hematopoietic and lymphoid :: leukemia and lymphoma which spread
        throughout the bone marrow, lymphatic system, and peripheral
        blood
@@ -870,6 +872,8 @@
 
 ** Cytogenetic Changes in Cancer
 *** Aneuploidy and Aneusomy
+- aneuploidy - abnormal chromosome number
+- aneusomy - cells with different numbers of chromosomes
 - when CML, with the 9;22 Philadelphia chromosome, evolves from the
   typically indolent chronic phase to a severe, life-threatening blast
   crisis, there may be several additional cytogenetic abnormalities,
@@ -882,17 +886,17 @@
   - *double minutes* (very small accessory chromosomes)
   - *homogeneously staining regions* that do not band normally and
     contain multiple, amplified copies of a particular DNA segment
-- known to include extra copies of proto-oncogenes such as the genes
-  encoding Myc, Ras, and epithelial growth factor receptor, which
-  stimulate cell growth, block apoptosis, or both
+  - known to include extra copies of proto-oncogenes such as the genes
+    encoding Myc, Ras, and epithelial growth factor receptor, which
+    stimulate cell growth, block apoptosis, or both
 
 ** Targeted Cancer Therapy
 - imatinib is a highly effective inhibitor of a number of tyrosine
   kinases including the ABL1 kinase in CML
-- prolonged remissions of this disease have been seen, in some cases
-  with apparently indefinite postponement of the transformation into a
-  virulent acute leukemia (blast crisis) that so often meant the end
-  of a CML patient’s life
+  - prolonged remissions of this disease have been seen, in some cases
+    with apparently indefinite postponement of the transformation into a
+    virulent acute leukemia (blast crisis) that so often meant the end
+    of a CML patient’s life
 - additional kinase inhibitors have been developed to target other
   activated oncogene driver genes in a variety of tumour types
 - initial results with targeted therapies, although very promising in
@@ -901,7 +905,7 @@
 - the outgrowth of resistant tumours because cancer cells are highly
   mutable, and their genomes undergo recurrent mutation
 
-#+CAPTION[]:Targeted cancer treatment
+#+CAPTION[]:Targeted Cancer Treatment
 #+NAME: fig:target
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/ch15_target.png]]
@@ -923,13 +927,16 @@
 \]  
 ** Approach to Problems
 1. what is the question?
-   - the answer will be the posterior probability for that scenario
+   - the answer is posterior probability for that scenario
      - i.e risk that daughter is a carrier
 2. what are the scenarios for the unknown components in the problem
    - these will become the denominator in the posterior probability
+     - mom carrier, daughter carrier
+     - mom carrier, daughter non-carrier
+     - mom non-carrier, daughter non-carrier
 3. what are the prior probabilities for each scenario?
    - these are either given or are set for that scenario
-     - when an status (affected,carrier,etc) is unknown each option
+     - when an status (affected, carrier, etc) is unknown each option
        forms a scenario and becomes a prior for that scenario
 4. calculate the conditional probability for each scenario
    - simple ones are the probability of inheriting
@@ -941,25 +948,26 @@
 6. calculate the posterior probability for each scenario
 
 ** X linked
--transmission
- - daughters always inherit dad's X
-   - P(transmission) = 1
- - moms transmit one X
-   - P(transmission) = 1/2
- - sons have phenotype
- - daughters are carriers
-
- - prior probability that female is a carrier of X linked lethal disorder 
-   - H is the population frequency of female carriers
- - there are three ways a female can be a carrier:
-   1) inherits from a carrier mother
-      - 1/2  H
-   2) receives a new mutant allele on X from mom
-      - \mu
-   3) receives a new mutant allele on X from dad
-      - \mu
+- transmission
+  - daughters always inherit dad's X
+    - P(transmission) = 1
+  - moms transmit one of 2 Xs
+    - P(transmission) = 1/2
+  - sons have phenotype
+  - daughters are carriers (X-linked recessive)
+  - prior probability that female is a carrier of X linked lethal disorder 
+    - H is the population frequency of female carriers
+  - there are three ways a female can be a carrier:
+    1) inherits from a carrier mother
+       - 1/2  H
+    2) receives a new mutant allele on X from mom
+       - \mu
+    3) receives a new mutant allele on X from dad
+       - \nu
+       - often simplified as \nu = \mu
 \[H = (1/2 \cdot H) + \mu + \mu \]
 \[H = H/2 +2\mu \]
+\[2H = H +4\mu \]
 \[H = 4\mu \]
 
  - the incidence of carrier females in next generation (C_{n+1}) will

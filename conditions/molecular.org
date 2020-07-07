@@ -20,7 +20,7 @@
   - identification of biallelic CFTR pathogenic variants or
   - an elevated sweat chloride.
     - quantitative pilocarpine iontophoresis sweat chloride values (>60 mmol/L in infants age > 6 months) 
-** Genetic Counseling
+** Genetic Counselling
 - AR , CFTR
 - At conception, each sib of an affected individual with CF have:
   - a 25% chance of being affected
@@ -48,7 +48,7 @@
   findings, identification of a heterozygous pathogenic variant in
   FGFR3 can establish the diagnosis.
 
-** Genetic Counseling
+** Genetic Counselling
 - AD, FGFR3
 - ~80% of individuals with achondroplasia have parents with average
   stature and have achondroplasia as the result of a /de novo/
@@ -66,7 +66,7 @@
 
 - If the proband and the proband's reproductive partner are affected
   with different dominantly inherited skeletal dysplasias, genetic
-  counseling becomes more complicated because of the risk of
+  counselling becomes more complicated because of the risk of
   inheriting two dominant skeletal dysplasias.
 * Huntington disease
 ** Clinical Characteristics
@@ -95,10 +95,10 @@
     - HD-causing alleles are further classified as:
       - Reduced-penetrance HD-causing alleles :: 36-39 CAG 
       - Full-penetrance HD-causing alleles :: \ge 40 CAG 
-** Genetic Counseling
+** Genetic Counselling
 - AD, HTT
 - Offspring of an individual with a pathogenic variant have a 50% chance of inheriting the disease-causing allele.
-- Predictive testing in asymptomatic adults at risk is available but requires careful thought (including pre- and post-test genetic counseling) as there is currently no cure for the disorder.
+- Predictive testing in asymptomatic adults at risk is available but requires careful thought (including pre- and post-test genetic counselling) as there is currently no cure for the disorder.
   - asymptomatic individuals at risk may be eligible to participate in clinical trials.
 - Predictive testing is not considered appropriate for asymptomatic at-risk individuals younger than age 18 years.
 - Prenatal testing by molecular genetic testing is possible.
@@ -128,7 +128,7 @@
   - accompanied by aberrant methylation of FMR1
 - Other pathogenic variants include:
   - deletions and single-nucleotide variants.
-** Genetic Counseling
+** Genetic Counselling
 - All mothers of individuals with an FMR1 full mutation (expansion
   >200 CGG trinucleotide repeats and abnormal methylation) are
   carriers of an FMR1 pathogenic variant.
@@ -170,7 +170,7 @@
   - Full-penetrance (disease-causing expanded) alleles :: 66-1,300 GAA repeats
 
 Rare alleles of variant structure. In contrast to the alleles discussed above in which the GAA trinucleotides are perfect repeats, in rare pathogenic alleles the GAA repeats are not in perfect tandem order but rather are interrupted by other nucleotides. Such "interrupted FXN alleles" differ in length and types of nucleotides in the interruption, but they are typically close to the 3' end of the GAA repeat tract (see Molecular Genetics).
-** Genetic Counseling
+** Genetic Counselling
 - AR, FXN
 - Each sib has a 25% chance of being affected
   - 50% chance of being an asymptomatic carrier
@@ -210,7 +210,7 @@ Rare alleles of variant structure. In contrast to the alleles discussed above in
   - Mutable normal (premutation) alleles :: 35-49 CTG repeats
   - Full-penetrance alleles ::  \ge 50 CTG repeats
 
-** Genetic Counseling
+** Genetic Counselling
 - AD, DMPK
 - Offspring of an affected individual have a 50% chance of inheriting the expanded allele.
 - Pathogenic alleles may expand in length during gametogenesis
@@ -248,7 +248,7 @@ Rare alleles of variant structure. In contrast to the alleles discussed above in
 - Remaining 10% with classic phenotypic features of AS have the
   disorder as a result of an as-yet unidentified genetic mechanism
   - not amenable to diagnostic testing
-** Genetic Counseling
+** Genetic Counselling
 - caused by disruption of maternally imprinted UBE3A located within
   the 15q11.2-q13 Angelman syndrome/Prader-Willi syndrome region.
 - The risk to sibs of a proband depends on the genetic mechanism
@@ -299,7 +299,7 @@ Rare alleles of variant structure. In contrast to the alleles discussed above in
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./figures/bws.png]]
 
-** Genetic Counseling
+** Genetic Counselling
 - associated with abnormal regulation of gene transcription in two
   imprinted domains on chromosome 11p15.5.
 - Most individuals with BWS are reported to have normal chromosome
@@ -342,7 +342,7 @@ Rare alleles of variant structure. In contrast to the alleles discussed above in
    - DNA methylation-specific testing is important to confirm the
      diagnosis of PWS in all individuals,
 
-** Genetic Counseling
+** Genetic Counselling
 - PWS is caused by an absence of expression of imprinted genes in the
   paternally derived PWS/Angelman syndrome (AS) region (15q11.2-q13)
   of chromosome 15:
@@ -384,7 +384,7 @@ Rare alleles of variant structure. In contrast to the alleles discussed above in
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./figures/rss.png]]
 
-** Genetic Counseling
+** Genetic Counselling
 - SRS has multiple etiologies and typically has a low recurrence
   risk.
 - In most families, a proband with SRS represents a simplex case (a single affected family member) and has

@@ -43,7 +43,7 @@
 - DMD molecular
   - \male with hemizygous pathogenic variant 
   - \female with heterozygous pathogenic variant
-** Genetic Counseling
+** Genetic Counselling
 - X-linked
 - daughters who inherit the pathogenic variant are heterozygous and
   may have a range of clinical manifestations
@@ -60,7 +60,7 @@
 ** Diagnostic Testing
 - identification of a heterozygous pathogenic or likely pathogenic
   variant in COL1A1 or COL1A2
-** Genetic Counseling
+** Genetic Counselling
 - AD 
 * Long QT Syndrome
 ** Clinical Characteristics
@@ -86,7 +86,7 @@
 - diagnostic variants in one or more of the 15 genes known to be
   associated with LQTS
   - KCNH2 (LQT2), KCNQ1 (LQT1), and SCN5A (LQT3) are the most common
-** Genetic Counseling
+** Genetic Counselling
 - AD
 * Marfan Syndrome
 ** Clinical Characteristics
@@ -107,7 +107,7 @@
 - aortic root enlargement and ectopia lentis OR a
   defined combination of features throughout the body
 
-** Genetic Counseling
+** Genetic Counselling
 - AD 
 - \sim 75% of individuals with Marfan syndrome have an affected
   parent
@@ -124,7 +124,7 @@
 - usually based on clinical findings
 - heterozygous pathogenic variants in NF1 are responsible for neurofibromatosis 1
 - molecular genetic testing of NF1 is rarely needed for diagnosis
-** Genetic Counseling
+** Genetic Counselling
 - AD, NF1
 - 50% due to /de novo/ NF1 pathogenic variant
 * Neurofibromatosis Type II
@@ -138,7 +138,7 @@
 -  consensus diagnostic criteria and/or by identification of a
   heterozygous pathogenic variant in NF2 on molecular genetic testing
 
-** Genetic Counseling
+** Genetic Counselling
 - AD, NF2
 - 50% with affected parent
 - 50% due to /de novo/ NF2 pathogenic variant
@@ -162,7 +162,7 @@
 - serum concentration of cholesterol is usually low
   - it may be in the normal range in approximately 10% of affected
     individuals \therefore unreliable for screening and diagnosis
-** Genetic Counseling
+** Genetic Counselling
 - AR DHCR7
 * Noonan Syndrome
 ** Clinical Characteristics
@@ -178,7 +178,7 @@
   identification of a heterozygous pathogenic variant in one of four
   genes
   - PTPN11, RAF1, BRAF, and MAP2K1
-** Genetic Counseling
+** Genetic Counselling
 - AD 
 * Charge Syndrome
 ** Clinical Characteristics
@@ -192,7 +192,7 @@
 ** Diagnostic Testing
 - clinical findings and temporal bone imaging
 - CHD7 encodes chromodomain helicase DNA binding protein
-** Genetic Counseling
+** Genetic Counselling
 - AD CHD7
 * FGFR Craniosynostosis
 ** Clinical Characteristics
@@ -202,7 +202,7 @@
 ** Diagnostic Testing
 - a craniosynostosis multigene panel that includes
   - FGFR1, FGFR2, FGFR3, TCF12, and TWIST1
-** Genetic Counseling
+** Genetic Counselling
 - AD
 * Factor V Leiden Thrombophilia
 ** Clinical Characteristics
@@ -220,7 +220,7 @@
 - identification of a heterozygous or homozygous c.1691G>A variant in F5
   (the factor V Leiden variant)
   - in conjunction with coagulation tests
-** Genetic Counseling
+** Genetic Counselling
 - AD F5
 * G6PD deficiency
 ** Clinical Characteristics
@@ -239,7 +239,7 @@
 - \uparrow LDH in hemolysis
 - \downarrow haptoglobin
 - Beutler spot test
-** Genetic Counseling
+** Genetic Counselling
 - X-linked recessive G6PD
 
 * Sickle Cell Disease
@@ -274,7 +274,7 @@
   - sickle-hemoglobin C disease (Hb S/C)
   - sickle \beta-thalassemia (Hb S/\beta^+-thalassemia and Hb S/\beta^0-thalassemia)
   - sickle-hemoglobin D, O, and E disease (or other beta globin chain variants)
-** Genetic Counseling
+** Genetic Counselling
 - AR HBB
 * \alpha-Thalassemia
 ** Clinical Characteristics
@@ -307,7 +307,7 @@
   - identification of biallelic pathogenic variants in HBA1 and HBA2
     that result in deletion or inactivation of three \alpha-globin
     alleles confirms the diagnosis
-** Genetic Counseling
+** Genetic Counselling
 - AR
 
 | Phenotype                         | Genotype                                                                 |
@@ -339,7 +339,7 @@
   increased amounts of hemoglobin F (HbF) after age 12 months
 - clinical severity of anemia
 - identification of biallelic pathogenic variants in HBB
-** Genetic Counseling
+** Genetic Counselling
 - AR HBB
   - carrier thalassemia minor
 * Hemophilia A
@@ -373,7 +373,7 @@
   diagnosis.
 - a heterozygous F8 pathogenic variant in a symptomatic female
   confirms the diagnosis.
-** Genetic Counseling
+** Genetic Counselling
 - X-linked, F8
 - risk to sibs of a proband depends on the carrier status of the mother.
 - Carrier females have a 50% chance of transmitting the F8 pathogenic
@@ -396,7 +396,7 @@
   diagnosis.
 - heterozygous F9 pathogenic variant on in a symptomatic female
   confirms the diagnosis.
-** Genetic Counseling
+** Genetic Counselling
 - X-linked, F9
 - same as Hemophilia A (section [[Hemophilia A]])
 * Hemochromatosis
@@ -414,7 +414,7 @@
 
 ** Diagnostic Testing
 - biallelic HFE pathogenic variants on molecular genetic testing.
-** Genetic Counseling
+** Genetic Counselling
 - AR, HFE
   - Risk to sibs :: when both parents of a person with hemochromatosis
                     are heterozygous for an HFE p.Cys282Tyr variant,
@@ -467,7 +467,7 @@
 - rearrangements in or around SOX9 and SOX3 detected by CMA, or rarely
   karyotype, have recently been reported in a few cases
   - at least one more unknown gene at another locus is implicated
-** Genetic Counseling
+** Genetic Counselling
 - SRY-positive 46,XX testicular DSD is generally not inherited because
   it results from /de novo/ abnormal interchange between the Y
   chromosome and the X chromosome, resulting in the presence of SRY on
@@ -491,7 +491,7 @@
 - \uparrow risk of Turner syndrome may also be indicated by abnormal
   triple or quadruple maternal serum screen
 - later diagnosis is via karyotype
-** Genetic Counseling
+** Genetic Counselling
 - functional X usually from mother
 - usually sporadic
 - exceptions:
@@ -519,7 +519,7 @@
   - normal or increased luteinizing hormone (LH) production by the
     pituitary gland
   - and/or a hemizygous pathogenic variant in AR 
-** Genetic Counseling
+** Genetic Counselling
 - X-linked
 - affected 46,XY individuals are almost always infertile
 * 21-Hydroxylase deficiency
@@ -547,5 +547,5 @@
   17-OHP
 - identification of biallelic pathogenic variants in CYP21A2 confirms
   the clinical diagnosis and allows for family studies
-** Genetic Counseling
+** Genetic Counselling
 - AR CYP21A2

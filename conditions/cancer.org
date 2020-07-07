@@ -27,7 +27,7 @@
   - identification of a heterozygous pathogenic variant in TSC1 or
     TSC2 by molecular genetic testing
 
-** Genetic Counseling
+** Genetic Counselling
 - AD TSC1 TSC2 
 - two thirds of affected individuals have TSC as the result of a /de novo/ pathogenic variant
 
@@ -54,7 +54,7 @@
   identification of a heterozygous germline pathogenic variant in
   BRCA1 or BRCA2 on molecular genetic testing
 
-** Genetic Counseling
+** Genetic Counselling
 - germline pathogenic variants in BRCA1 and BRCA2 are inherited in an
   autosomal dominant manner
 - majority of individuals with a BRCA1 or BRCA2 pathogenic variant
@@ -125,7 +125,7 @@
   history features and confirmed by identification of a heterozygous
   germline pathogenic variant in APC
 
-** Genetic Counseling
+** Genetic Counselling
 - AD
 - ~75%-80% of individuals with an APC-associated polyposis condition
   have an affected parent
@@ -156,7 +156,7 @@
   germline heterozygous pathogenic variant in MLH1, MSH2, MSH6, or
   PMS2 or an EPCAM deletion on molecular genetic testing
 
-** Genetic Counseling
+** Genetic Counselling
 - AD MLH1 MSH2 MSH6 PMS2 EPCAM 
 - majority of individuals diagnosed with Lynch syndrome have
   inherited the condition from a parent
@@ -200,7 +200,7 @@
 - \ge 70% of individuals diagnosed clinically have an identifiable
   germline pathogenic variant in TP53, the only gene so far identified
   in which pathogenic variants are definitively associated with LFS
-** Genetic Counseling
+** Genetic Counselling
 - AD TP53
 - 7-20% /de novo/ germline TP53 pathogenic variant
 
@@ -255,7 +255,7 @@
           tumor), family history of retinoblastoma, or RB1 pathogenic
           variant identified in blood
 
-** Genetic Counseling
+** Genetic Counselling
 - AD RB
 - individuals with heritable retinoblastoma (H1) have a heterozygous
   /de novo/ or inherited germline RB1 pathogenic variant
