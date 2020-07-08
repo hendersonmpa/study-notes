@@ -237,13 +237,13 @@
 
 * Retinoblastoma
 ** Clinical Characteristics
-- Retinoblastoma is a malignant tumor of the developing retina that occurs in children, usually before age five years
-- Retinoblastoma develops from cells that have cancer-predisposing variants in both copies of RB1
-- Retinoblastoma may be unifocal or multifocal.
+- a malignant tumor of the developing retina that occurs in children, usually before age five years
+- develops from cells that have cancer-predisposing variants in both copies of RB1
+- may be unifocal or multifocal
 - \sim 60% of affected individuals have unilateral retinoblastoma with a mean age of diagnosis of 24 months
 - \sim 40% have bilateral retinoblastoma with a mean age of diagnosis of 15 months
-- Heritable retinoblastoma is an autosomal dominant susceptibility for retinoblastoma
-- Individuals with heritable retinoblastoma are also at increased risk of developing non-ocular tumors
+- heritable retinoblastoma is an autosomal dominant susceptibility for retinoblastoma
+- individuals with heritable retinoblastoma are also at increased risk of developing non-ocular tumors
 
 ** Diagnosis
 - established by examination of the fundus of the eye using indirect
@@ -274,18 +274,15 @@
 
 ** Genetic Counseling
 - AD
-- Individuals with heritable retinoblastoma (H1) have a heterozygous
-  /de novo/ or inherited germline RB1 pathogenic variant.
-- Offspring of H1 individuals have a 50% chance of inheriting the
-  pathogenic variant.
-- Prenatal testing for pregnancies at increased risk is possible if
-  the RB1 pathogenic variant has been identified in an affected family
-  member.
-
+- individuals with heritable retinoblastoma have a heterozygous /de
+  novo/ or inherited germline RB1 pathogenic variant
+- susceptibility is AD mode of action is AR
+  - inheritance of a single mutant allele "first hit" 
+  - a somatic mutation "second hit" is required
 ** Pathophysiology
 - RB1 encodes a ubiquitously expressed nuclear protein that is
   involved in cell cycle regulation (G1 to S transition)
-- The RB protein is phosphorylated by members of the cyclin-dependent kinase
+- the RB protein is phosphorylated by members of the cyclin-dependent kinase
   (cdk) system prior to the entry into S-phase
-- On phosphorylation, the binding activity of the pocket domain is
-  lost, resulting in the release of cellular proteins.
+- on phosphorylation, the binding activity of the pocket domain is
+  lost, resulting in the release of cellular proteins
