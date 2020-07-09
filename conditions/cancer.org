@@ -216,29 +216,17 @@
 
 * Retinoblastoma
 ** Clinical Characteristics
-a<<<<<<< variant A
-- a malignant tumor of the developing retina that occurs in children, usually before age five years
-- develops from cells that have cancer-predisposing variants in both copies of RB1
->>>>>>> variant B
 - retinoblastoma is a malignant tumor of the developing retina that
   occurs in children, usually before age five years
 - develops from cells that have cancer-predisposing variants in both
   copies of RB1
-======= end
 - may be unifocal or multifocal
-<<<<<<< variant A
-- \sim 60% of affected individuals have unilateral retinoblastoma with a mean age of diagnosis of 24 months
-- \sim 40% have bilateral retinoblastoma with a mean age of diagnosis of 15 months
-- heritable retinoblastoma is an autosomal dominant susceptibility for retinoblastoma
-- individuals with heritable retinoblastoma are also at increased risk of developing non-ocular tumors
->>>>>>> variant B
 - \sim 60% of affected individuals have unilateral retinoblastoma with
   a mean age of diagnosis of 24 months
 - \sim 40% have bilateral retinoblastoma with a mean age of diagnosis
   of 15 months
 - individuals with heritable retinoblastoma are also at increased risk
   of developing non-ocular tumors
-======= end
 
 ** Diagnosis
 - established by examination of the fundus of the eye using indirect
@@ -267,7 +255,6 @@ a<<<<<<< variant A
           tumor), family history of retinoblastoma, or RB1 pathogenic
           variant identified in blood
 
-<<<<<<< variant A
 ** Genetic Counseling
 - AD
 - individuals with heritable retinoblastoma have a heterozygous /de
@@ -275,15 +262,10 @@ a<<<<<<< variant A
 - susceptibility is AD mode of action is AR
   - inheritance of a single mutant allele "first hit" 
   - a somatic mutation "second hit" is required
-
 ** Pathophysiology
 - RB1 encodes a ubiquitously expressed nuclear protein that is
   involved in cell cycle regulation (G1 to S transition)
-<<<<<<< variant A
 - the RB protein is phosphorylated by members of the cyclin-dependent kinase
->>>>>>> variant B
-- RB protein is phosphorylated by members of the cyclin-dependent kinase
-======= end
   (cdk) system prior to the entry into S-phase
 - on phosphorylation, the binding activity of the pocket domain is
   lost, resulting in the release of cellular proteins
