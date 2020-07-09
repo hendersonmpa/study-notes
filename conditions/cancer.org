@@ -22,28 +22,24 @@
 
 ** Diagnosis
 - TSC is established in a proband with one of the following:
-  - Two major clinical features
-  - One major clinical feature and two or more minor features
-  - Identification of a heterozygous pathogenic variant in TSC1 or
+  - two major clinical features
+  - one major clinical feature and two or more minor features
+  - identification of a heterozygous pathogenic variant in TSC1 or
     TSC2 by molecular genetic testing
 
-** Genetic Counseling
-- AD
-- Two thirds of affected individuals have TSC as the result of a /de novo/ pathogenic variant.
-- The offspring of an affected individual are at a 50% risk of inheriting the pathogenic variant.
-- If the pathogenic variant has been identified in an affected family
-  member, prenatal testing for pregnancies at increased risk and
-  preimplantation genetic diagnosis are possible.
+** Genetic Counselling
+- AD TSC1 TSC2 
+- two thirds of affected individuals have TSC as the result of a /de novo/ pathogenic variant
 
 ** Pathophysiology
-- Tuberin (TSC1) and hamartin (TSC2) are key regulators of the
+- tuberin (TSC1) and hamartin (TSC2) are key regulators of the
   AKT/mTOR signaling pathway and to participate in several other
   signaling pathways including the MAPK, AMPK, b-catenin, calmodulin,
   CDK, autophagy, and cell cycle pathways
 
 * Hereditary breast cancer
 ** Clinical Characteristics
-- BRCA1- and BRCA2-associated hereditary breast and ovarian cancer
+- BRCA1 and BRCA2-associated hereditary breast and ovarian cancer
   syndrome (HBOC) is characterized by an increased risk for female and
   male:
   - breast cancer
@@ -51,31 +47,28 @@
   - to a lesser extent other cancers: prostate cancer, pancreatic
     cancer, and melanoma primarily in individuals with a BRCA2
     pathogenic variant
-- The exact cancer risks differ slightly depending on whether HBOC is
+- the exact cancer risks differ slightly depending on whether HBOC is
   caused by a BRCA1 or BRCA2 pathogenic variant
 ** Diagnosis
-- The diagnosis of BRCA1 and BRCA2 HBOC is established in a proband by
+- diagnosis of BRCA1 and BRCA2 HBOC is established in a proband by
   identification of a heterozygous germline pathogenic variant in
-  BRCA1 or BRCA2 on molecular genetic testing.
+  BRCA1 or BRCA2 on molecular genetic testing
 
-** Genetic Counseling
-- Germline pathogenic variants in BRCA1 and BRCA2 are inherited in an
+** Genetic Counselling
+- germline pathogenic variants in BRCA1 and BRCA2 are inherited in an
   autosomal dominant manner
-- The vast majority of individuals with a BRCA1 or BRCA2 pathogenic
-  variant have inherited it from a parent
-- Because of incomplete penetrance, variable age of cancer
-  development, cancer risk reduction resulting from prophylactic
-  surgery, or early death, not all individuals with a BRCA1 or BRCA2
-  pathogenic variant have a parent affected with cancer
-- Offspring of an individual with a BRCA1 or BRCA2 germline pathogenic variant have a 50% chance of inheriting the variant
-- Prenatal testing is possible for pregnancies at increased risk if the cancer-predisposing variant in the family is known
-- requests for prenatal diagnosis of adult-onset diseases are uncommon and require careful genetic counseling
+- majority of individuals with a BRCA1 or BRCA2 pathogenic variant
+  have inherited it from a parent
+- \because incomplete penetrance, variable age of cancer development,
+  cancer risk reduction resulting from prophylactic surgery, or early
+  death, not all individuals with a BRCA1 or BRCA2 pathogenic variant
+  have a parent affected with cancer
 
 ** Pathophysiology
 - BRCA1 interacts with several proteins involved in cellular pathways,
   including cell-cycle progression, gene transcription regulation, DNA
   damage response, and ubiquitination
-- BRCA2 appears to be involved in the DNA repair process. 
+- BRCA2 appears to be involved in the DNA repair process
 * Chronic myelogenous leukemia (CML)
 ** Clinical Characteristics
 - CML is a cancer of the white blood cells
@@ -91,37 +84,38 @@
 
 ** Diagnosis
 - CML is often suspected on the basis of a complete blood count,
-  - increased granulocytes of all types, typically including mature myeloid cells.
-  - Basophils and eosinophils are almost universally increased; this feature may help differentiate CML from a leukemoid reaction.
-- A bone marrow biopsy is often performed as part of the evaluation for CML
+  - increased granulocytes of all types, typically including mature myeloid cells
+  - Basophils and eosinophils are almost universally increased; this feature may help differentiate CML from a leukemoid reaction
+- bone marrow biopsy is often performed as part of the evaluation for CML
 - CML is diagnosed by cytogenetics that detects the translocation t(9;22)(q34;q11.2) which involves the ABL1 gene in chromosome 9 and the BCR gene in chromosome 22.
-- As a result of this translocation, the chromosome looks smaller than
-  its homologue chromosome, and this appearance is known as the
-  Philadelphia chromosome chromosomal abnormality.
+  - \because of this translocation, the chromosome looks smaller than
+    its homologue chromosome, and this appearance is known as the
+    Philadelphia chromosome chromosomal abnormality
   - can be detected by routine cytogenetics
   - involved genes BCR-ABL1 can be detected by FISH, as well as by
-    PCR.
+    PCR
 
 ** Pathophysiology
-- Chromosomal translocation where parts of two chromosomes (the 9th
-  and 22nd) switch places.
+- chromosomal translocation where parts of two chromosomes (the 9th
+  and 22nd) switch places
 - part of the BCR ("breakpoint cluster region") gene from chromosome
-  22 is fused with the ABL gene on chromosome 9.
+  22 is fused with the ABL gene on chromosome 9
 - abl carries a tyrosine kinase, \therfore the bcr-abl fusion gene
   product is also a tyrosine kinase
-- The fused BCR-ABL protein interacts with the interleukin 3beta(c) receptor subunit.
-- The BCR-ABL transcript is continuously active and does not require activation by other cellular messaging proteins.
-- In turn, BCR-ABL activates a cascade of proteins that control the cell cycle, speeding up cell division.
+- fused BCR-ABL protein interacts with the interleukin 3beta(c) receptor subunit.
+- BCR-ABL transcript is continuously active and does not require activation by other cellular messaging proteins.
+  - BCR-ABL activates a cascade of proteins that control the cell
+    cycle, speeding up cell division
 * Familial adenomatous polyposis
 ** Clinical Characteristics
 - FAP is a colon cancer predisposition syndrome in which hundreds to
   thousands of adenomatous colonic polyps develop, beginning, on
-  average, at age 16 years (range 7-36 years).
-- By age 35 years, 95% of individuals with FAP have polyps; without
-  colectomy, colon cancer is inevitable.
-- The mean age of colon cancer diagnosis in untreated individuals is
-  39 years (range 34-43 years).
-- Extracolonic manifestations are variably present and include:
+  average, at age 16 years (range 7-36 years)
+- by age 35 years, 95% of individuals with FAP have polyps; without
+  colectomy, colon cancer is inevitable
+- mean age of colon cancer diagnosis in untreated individuals is
+  39 years (range 34-43 years)
+- extracolonic manifestations are variably present and include:
   - polyps of the gastric fundus and duodenum, osteomas, dental anomalies,
   - congenital hypertrophy of the retinal pigment epithelium (CHRPE)
   - soft tissue tumors, desmoid tumors, and associated cancers
@@ -129,57 +123,48 @@
 ** Diagnosis
 - suspected in an individual with suggestive personal and/or family
   history features and confirmed by identification of a heterozygous
-  germline pathogenic variant in APC.
+  germline pathogenic variant in APC
 
-** Genetic Counseling
+** Genetic Counselling
 - AD
 - ~75%-80% of individuals with an APC-associated polyposis condition
   have an affected parent
-- Offspring of an affected individual are at a 50% risk of inheriting
-  the pathogenic variant in APC.
-- Prenatal testing and preimplantation genetic diagnosis are possible
-  if a pathogenic variant has been identified in an affected family
-  member.
 ** Pathophysiology
-- The APC protein product is a tumor suppressor. 
+- the APC protein product is a tumor suppressor. 
 - APC appears to prevent accumulation of cytosolic beta-catenin and
   maintain normal apoptosis and may also decrease cell proliferation,
-  probably through its regulation of beta-catenin.
+  probably through its regulation of beta-catenin
 * Hereditary non-polyposis colon cancer (HNPCC)
 - AKA: Lynch Syndrome
 ** Clinical Characteristics
 - increased risk for colorectal cancer (CRC) and cancers of the
   endometrium, stomach, ovary, small bowel, hepatobiliary tract,
-  urinary tract, brain, and skin.
+  urinary tract, brain, and skin
 
-- In individuals with Lynch syndrome the following lifetime risks for
+- individuals with Lynch syndrome the following lifetime risks for
   cancer are seen:
   - CRC :: 52%-82% (mean age at diagnosis 44-61 years)
   - Endometrial cancer in females :: 25%-60% (mean age at diagnosis 48-62 years)
   - Gastric cancer :: 6%-13% (mean age at diagnosis 56 years)
   - Ovarian cancer :: 4%-12% (mean age at diagnosis 42.5 years; ~30% are diagnosed < age 40 years).
 
-- The risk for other Lynch syndrome-related cancers is lower, though
+- risk for other Lynch syndrome-related cancers is lower, though
   substantially increased over general population rates
 
 ** Diagnosis
 - Lynch syndrome is established in a proband by identification of a
   germline heterozygous pathogenic variant in MLH1, MSH2, MSH6, or
-  PMS2 or an EPCAM deletion on molecular genetic testing.
+  PMS2 or an EPCAM deletion on molecular genetic testing
 
-** Genetic Counseling
-- AD
-- The majority of individuals diagnosed with Lynch syndrome have
-  inherited the condition from a parent.
+** Genetic Counselling
+- AD MLH1 MSH2 MSH6 PMS2 EPCAM 
+- majority of individuals diagnosed with Lynch syndrome have
+  inherited the condition from a parent
 - because of incomplete penetrance, variable age of cancer
   development, cancer risk reduction as a result of screening or
   prophylactic surgery, or early death, not all individuals with a
   pathogenic variant in one of the genes associated with Lynch
-  syndrome have a parent who had cancer.
-- Each child of an individual with Lynch syndrome has a 50% chance of
-  inheriting the pathogenic variant.
-- Prenatal diagnosis for pregnancies at increased risk is possible if
-  the pathogenic variant in the family is known.
+  syndrome have a parent who had cancer
   
 ** Pathophysiology
 - EPCAM 2p21	Epithelial cell adhesion molecule
@@ -203,47 +188,57 @@
   - pre-menopausal breast cancer
   - brain tumors
   - adrenocortical carcinoma (ACC)
-  - leukemias.
-- In addition, a variety of other neoplasms may occur.
+  - leukemias
+- a variety of other neoplasms may occur
 - LFS-related cancers often occur in childhood or young adulthood and
-  survivors have an increased risk for multiple primary cancers.
+  survivors have an increased risk for multiple primary cancers
 
 ** Diagnosis
 - LFS is diagnosed in individuals meeting established clinical
   criteria or in those who have a germline pathogenic variant in TP53
-  regardless of family cancer history.
-- At least 70% of individuals diagnosed clinically have an
-  identifiable germline pathogenic variant in TP53, the only gene so
-  far identified in which pathogenic variants are definitively
-  associated with LFS.
-**  Genetic Counseling
-- AD
+  regardless of family cancer history
+- \ge 70% of individuals diagnosed clinically have an identifiable
+  germline pathogenic variant in TP53, the only gene so far identified
+  in which pathogenic variants are definitively associated with LFS
+** Genetic Counselling
+- AD TP53
 - 7-20% /de novo/ germline TP53 pathogenic variant
-- Offspring of an affected individual have a 50% chance of inheriting
-  the pathogenic variant.
-- Predisposition testing for at-risk family members and prenatal
-  testing for pregnancies at increased risk are possible if the
-  heritable pathogenic variant in the family has been identified.
 
 ** Pathophysiology
 - TP53 has been called "the guardian of the genome" and its protein
   plays major roles in both the regulation of cell growth and the
   maintenance of homeostasis
-- The loss of this important tumor suppressor gene decreases the
+- loss of this important tumor suppressor gene decreases the
   likelihood that cells with genetic errors will be flagged for DNA
-  repair or apoptosis. These DNA-damaged cells can go on to further
-  proliferate, which can lead to a colony of abnormal cells and
-  eventually a malignant tumor.
+  repair or apoptosis
+- DNA-damaged cells can go on to further proliferate, which can lead
+  to a colony of abnormal cells and eventually a malignant tumor
 
 * Retinoblastoma
 ** Clinical Characteristics
+a<<<<<<< variant A
 - a malignant tumor of the developing retina that occurs in children, usually before age five years
 - develops from cells that have cancer-predisposing variants in both copies of RB1
+>>>>>>> variant B
+- retinoblastoma is a malignant tumor of the developing retina that
+  occurs in children, usually before age five years
+- develops from cells that have cancer-predisposing variants in both
+  copies of RB1
+======= end
 - may be unifocal or multifocal
+<<<<<<< variant A
 - \sim 60% of affected individuals have unilateral retinoblastoma with a mean age of diagnosis of 24 months
 - \sim 40% have bilateral retinoblastoma with a mean age of diagnosis of 15 months
 - heritable retinoblastoma is an autosomal dominant susceptibility for retinoblastoma
 - individuals with heritable retinoblastoma are also at increased risk of developing non-ocular tumors
+>>>>>>> variant B
+- \sim 60% of affected individuals have unilateral retinoblastoma with
+  a mean age of diagnosis of 24 months
+- \sim 40% have bilateral retinoblastoma with a mean age of diagnosis
+  of 15 months
+- individuals with heritable retinoblastoma are also at increased risk
+  of developing non-ocular tumors
+======= end
 
 ** Diagnosis
 - established by examination of the fundus of the eye using indirect
@@ -272,6 +267,7 @@
           tumor), family history of retinoblastoma, or RB1 pathogenic
           variant identified in blood
 
+<<<<<<< variant A
 ** Genetic Counseling
 - AD
 - individuals with heritable retinoblastoma have a heterozygous /de
@@ -279,10 +275,15 @@
 - susceptibility is AD mode of action is AR
   - inheritance of a single mutant allele "first hit" 
   - a somatic mutation "second hit" is required
+
 ** Pathophysiology
 - RB1 encodes a ubiquitously expressed nuclear protein that is
   involved in cell cycle regulation (G1 to S transition)
+<<<<<<< variant A
 - the RB protein is phosphorylated by members of the cyclin-dependent kinase
+>>>>>>> variant B
+- RB protein is phosphorylated by members of the cyclin-dependent kinase
+======= end
   (cdk) system prior to the entry into S-phase
 - on phosphorylation, the binding activity of the pocket domain is
   lost, resulting in the release of cellular proteins

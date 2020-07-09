@@ -2,7 +2,6 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
-
 * Rett syndrome
 ** Clinical Characteristics
 - \female Classic Rett syndrome :: a progressive neurodevelopmental
@@ -21,7 +20,7 @@
   genetic testing in a female proband with suggestive findings and a
   heterozygous MECP2 pathogenic variant, and in a male proband with
   suggestive findings and a hemizygous MECP2 pathogenic variant.
-** Genetic Counseling
+** Genetic Counselling
 - XL MECP2
 - \gt 99% are simplex cases (i.e., a single occurrence in a family),
   resulting from a /de novo/ pathogenic variant or possibly from
@@ -45,7 +44,7 @@ AKA Hereditary Neuropathy with Pressure Palsies
 - a contiguous gene deletion of chromosome 17p11.2 that includes PMP22
   is present in approximately 80% of affected individuals; the
   remaining 20% have a pathogenic variant in PMP22
-** Genetic Counseling
+** Genetic Counselling
 - AD PMP22
 * Spinal muscular atrophy
 ** Clinical Characteristics
@@ -70,5 +69,5 @@ AKA Hereditary Neuropathy with Pressure Palsies
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/sma.png]]
 
-** Genetic Counseling
--AR SMN1
+** Genetic Counselling
+- AR SMN1

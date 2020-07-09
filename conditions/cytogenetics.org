@@ -19,7 +19,7 @@
 - larger deletions \to more severe intellectual disability and
   developmental delay than smaller deletions
 
-** Genetic Counseling
+** Genetic Counselling
 - most cases are not inherited, result of a /de novo/ deletion
 - ~ 10 percent of people with cri-du-chat syndrome inherit the
   chromosome abnormality from an unaffected parent with a balanced translocation
@@ -32,7 +32,7 @@
 ** Diagnostic Testing
 - CMA, karyotype for mosaic isochromosome 12p (i(12p))
 
-** Genetic Counseling
+** Genetic Counselling
 - not inherited
 
 * Triploidy
@@ -55,7 +55,7 @@ copies of every chromosome (40%)
 ** Diagnostic Testing
 - \uparrow AFP
 - RAD, karyotype
-** Genetic Counseling
+** Genetic Counselling
 - not inherited
 * Trisomy 13
 - AKA Patau syndrome
@@ -69,7 +69,7 @@ copies of every chromosome (40%)
 ** Diagnostic Testing
 - CMD, RAD, karyotype
 
-** Genetic Counseling
+** Genetic Counselling
 - 1 in 16,000 newborns
 - women of any age can have a child with trisomy 13
   - increases with maternal age
@@ -86,7 +86,7 @@ copies of every chromosome (40%)
 ** Diagnostic Testing
 - CMD, RAD, karyotype
 
-** Genetic Counseling
+** Genetic Counselling
 - 1 in 5000 live-born infants
 - women of any age can have a child with trisomy 18
   - increases with maternal age 
@@ -100,7 +100,7 @@ copies of every chromosome (40%)
 ** Diagnostic Testing
 - CMD, RAD, karyotype
 
-** Genetic Counseling
+** Genetic Counselling
 - 1 in 800 newborns
 - women of any age can have a child with trisomy 21
   - increases with maternal age 
@@ -114,7 +114,7 @@ copies of every chromosome (40%)
 - 47,XXY karyotype
 - mosaic Klinefelter syndrome 46,XY/47,XXY
 
-** Genetic Counseling
+** Genetic Counselling
 - not inherited
 * Fanconi anemia
 ** Clinical Characteristics
@@ -136,7 +136,7 @@ copies of every chromosome (40%)
   - heterozygous pathogenic variant in RAD51, known to cause autosomal dominant FA
   - hemizygous pathogenic variant in FANCB, known to cause X-linked FA
 
-** Genetic Counseling
+** Genetic Counselling
 - AR, AD (RAD51) or X-linked (FANCB)
 
 * Ataxia-telangiectasia
@@ -150,7 +150,7 @@ copies of every chromosome (40%)
   compound heterozygous) ATM pathogenic variants or (when available)
   by immunoblotting to test for absent or reduced ATM protein
 
-** Genetic Counseling
+** Genetic Counselling
 - AR, ATM
 * Williams syndrome
 ** Clinical Characteristics
@@ -168,7 +168,7 @@ copies of every chromosome (40%)
 - clinical diagnostic criteria
 - diagnosis requires detection of a recurrent 7q11.23 contiguous gene deletion of the Williams-Beuren syndrome critical region (WBSCR) that encompasses the elastin gene (ELN)
   - can be detected using FISH and/or deletion/duplication testing
-** Genetic Counseling
+** Genetic Counselling
 - AD
 - most /de novo/
 
@@ -194,7 +194,7 @@ copies of every chromosome (40%)
 ** Diagnostic Testing
 - submicroscopic deletion of chromosome 22 by FISH, MLPA, CMA
 
-** Genetic Counseling
+** Genetic Counselling
 - AD
 - ~ 93% /de novo/ deletion of 22q11.2
 - ~ 7% inherited the 22q11.2 deletion

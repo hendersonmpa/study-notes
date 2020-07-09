@@ -12,7 +12,7 @@
 - \sim 20 suseptibility genes including APOE e4 allele
 - early-onset familial alzheimer disease (EOFAD)
   - pathogenic variantAPP, PSEN1 & 2
-** Genetic Counseling
+** Genetic Counselling
 - EOFAD in which an individual has a pathogenic variant in APP, PSEN1,
   or PSEN2 represents an autosomal dominant disease
 * Congenital hearing loss
@@ -23,7 +23,7 @@
 - GJB2 at exon 1 and 2
 - GJB6 deletions
 - DFNB1 
-** Genetic Counseling
+** Genetic Counselling
 - GJB2, GJB6, SLC26A4
 * Diabetes Mellitus Type I 
 ** Clinical Characteristics
@@ -45,6 +45,6 @@
 - type 1 diabetes is generally considered to be an autoimmune
   disorder
 
-** Genetic Counseling
+** Genetic Counselling
 - HLA-DQA1, HLA-DQB1, and HLA-DRB1
 
