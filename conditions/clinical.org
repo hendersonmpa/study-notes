@@ -4,16 +4,15 @@
 
 * Duchenne/Becker Muscular Dystrophy
 ** Clinical Characteristics
-- The dystrophinopathies cover a spectrum of X-linked muscle disease
+- the dystrophinopathies cover a spectrum of X-linked muscle disease
   ranging from mild to severe that includes Duchenne muscular
   dystrophy (DMD), Becker muscular dystrophy (BMD), and DMD-associated
   dilated cardiomyopathy (DCM)
-- The mild end of the spectrum includes the phenotypes of asymptomatic
-  increase in serum concentration of creatine phosphokinase (CK) and
-  muscle cramps with myoglobinuria
-- The severe end of the spectrum includes progressive muscle diseases
-  that are classified as Duchenne/Becker muscular dystrophy when
-  skeletal muscle is primarily affected and as DMD-associated dilated
+- mild end of the spectrum includes the phenotypes of asymptomatic
+  increase in CK, muscle cramps with myoglobinuria
+- severe end of the spectrum includes progressive muscle diseases that
+  are classified as Duchenne/Becker muscular dystrophy when skeletal
+  muscle is primarily affected and as DMD-associated dilated
   cardiomyopathy (DCM) when the heart is primarily affected
 
 *** DMD
@@ -32,7 +31,7 @@
 - characterized by later-onset skeletal muscle weakness
 - heart failure is a common cause of morbidity and the most common
   cause of death in BMD
-- mean age of death is in the mid-40s
+- mean age of death in mid-40s
 *** DCM
 - characterized by left ventricular dilation and congestive heart
   failure
@@ -41,10 +40,10 @@
 ** Diagnostic Testing
 - \Uparrow CK
 - DMD molecular
-  - \male with hemizygous pathogenic variant 
-  - \female with heterozygous pathogenic variant
+  - \male{} with hemizygous pathogenic variant 
+  - \female{} with heterozygous pathogenic variant
 ** Genetic Counselling
-- X-linked
+- X-linked DMD
 - daughters who inherit the pathogenic variant are heterozygous and
   may have a range of clinical manifestations
 * Osteogenesis Imperfecta
@@ -61,7 +60,7 @@
 - identification of a heterozygous pathogenic or likely pathogenic
   variant in COL1A1 or COL1A2
 ** Genetic Counselling
-- AD 
+- AD COL1A1 COL1A2
 * Long QT Syndrome
 ** Clinical Characteristics
 - cardiac electrophysiologic disorder, characterized by QT
@@ -101,11 +100,9 @@
 - one of the following sets of findings:
 
 - FBN1 pathogenic variant known to be associated with Marfan syndrome
-  AND one of the following:
+  and one of the following:
   - aortic root enlargement
-  - ectopia lentis
-- aortic root enlargement and ectopia lentis OR a
-  defined combination of features throughout the body
+  - ectopia lentis - lens dislocation
 
 ** Genetic Counselling
 - AD 
@@ -117,29 +114,27 @@
 - characterized by multiple café au lait spots, axillary and inguinal freckling, multiple cutaneous neurofibromas, iris Lisch nodules, and choroidal freckling
 - ~ 50% have plexiform neurofibromas, but most are internal and not suspected clinically
 - learning disabilities in ~ 50%
-- Less common manifestations include optic nerve and other central
-  nervous system gliomas, malignant peripheral nerve sheath tumors,
-  scoliosis, tibial dysplasia, and vasculopathy
+
 ** Diagnostic Testing
-- usually based on clinical findings
 - heterozygous pathogenic variants in NF1 are responsible for neurofibromatosis 1
 - molecular genetic testing of NF1 is rarely needed for diagnosis
+  - usually based on clinical findings
 ** Genetic Counselling
-- AD, NF1
+- AD NF1
 - 50% due to /de novo/ NF1 pathogenic variant
 * Neurofibromatosis Type II
 ** Clinical Characteristics
+- considered an adult-onset disease
 - bilateral vestibular schwannomas with associated symptoms of tinnitus, hearing loss, and balance dysfunction
 - average age of onset is 18 to 24 years
-- almost all affected individuals develop bilateral vestibular
-  schwannomas by age 30 years
-- NF2 is considered an adult-onset disease
+- \sim 100% develop bilateral vestibular schwannomas by 30 year
+
 ** Diagnostic Testing
 -  consensus diagnostic criteria and/or by identification of a
   heterozygous pathogenic variant in NF2 on molecular genetic testing
 
 ** Genetic Counselling
-- AD, NF2
+- AD NF2
 - 50% with affected parent
 - 50% due to /de novo/ NF2 pathogenic variant
 - mosaic also possible
@@ -222,7 +217,7 @@
   - in conjunction with coagulation tests
 ** Genetic Counselling
 - AD F5
-* G6PD deficiency
+* G6PD Deficiency
 ** Clinical Characteristics
 - hemolytic anemia
   - results in paleness, yellowing of the skin and whites of the
@@ -230,17 +225,16 @@
     rapid heart rate
 - G6PD converts glucose-6-phosphate into
   6-phosphoglucono-\delta-lactone and is the rate-limiting enzyme of
-  the PP pathway pathway that supplies reducing energy to cells by
-  maintaining the level NADPH
-- NADPH maintains the supply of reduced glutathione in the cells that
-  is used to mop up free radicals that cause oxidative damage
+  the PP pathway that supplies reducing energy to cells by maintaining
+  the level NADPH
+  - NADPH maintains the supply of reduced glutathione in RBCs
 ** Diagnostic Testing
 - CBC, Heinz bodies on film
 - \uparrow LDH in hemolysis
 - \downarrow haptoglobin
 - Beutler spot test
 ** Genetic Counselling
-- X-linked recessive G6PD
+- X-linked G6PD
 
 * Sickle Cell Disease
 ** Clinical Characteristics
@@ -257,23 +251,16 @@
   least one hemoglobin S allele (HbS; p.Glu6Val in HBB) and a second
   HBB pathogenic variant resulting in abnormal hemoglobin
   polymerization
-- Hb S/S (homozygous p.Glu6Val in HBB) accounts for 60-70% of SCD in
-  the United States
+- Hb S/S accounts for 60-70% of SCD in the United States
 - other forms of SCD result from coinheritance of HbS with other
   abnormal \beta-globin chain variants
   - the most common forms being
     - sickle-hemoglobin C disease (Hb S/C)
     - two types of sickle \beta-thalassemia
-      - Hb S/\beta^+-thalassemia
+      - Hb S/\beta^{+}-thalassemia
       - Hb S/\beta^0-thalassemia
   - rarer forms result from coinheritance of other Hb variants such as
     D-Punjab, O-Arab, and E
-- homozygous hemoglobin S alleles
-  - sickle cell disease (Hb S/S)
-- coinheritance of one hemoglobin S allele and a second HBB pathogenic variant
-  - sickle-hemoglobin C disease (Hb S/C)
-  - sickle \beta-thalassemia (Hb S/\beta^+-thalassemia and Hb S/\beta^0-thalassemia)
-  - sickle-hemoglobin D, O, and E disease (or other beta globin chain variants)
 ** Genetic Counselling
 - AR HBB
 * \alpha-Thalassemia
@@ -308,15 +295,17 @@
     that result in deletion or inactivation of three \alpha-globin
     alleles confirms the diagnosis
 ** Genetic Counselling
-- AR
+- AR HBA1 HBA2 
 
-| Phenotype                         | Genotype                                                                 |
-|-----------------------------------+--------------------------------------------------------------------------|
-| Hb Bart                           | loss of 4 \alpha-globin genes                                            |
-| HbH disease                       | loss of 3 \alpha-globin genes                                            |
-| \alpha-thalassemia trait          | loss of 2 \alpha-globin genes                                            |
-|                                   | in cis (--/\alpha\alpha, \alpha0 carrier) or in trans (-\alpha /-\alpha) |
-| \alpha-thalassemia silent carrier | loss of 1 \alpha-globin gene (-\alpha/\alpha\alpha, \alpha+ carrier)     |
+| Phenotype                 | Genotype                                            |
+|---------------------------+-----------------------------------------------------|
+| Hb Bart                   | loss of 4 \alpha-globin genes                       |
+| HbH disease               | loss of 3 \alpha-globin genes                       |
+| \alpha-thalassemia trait  | loss of 2 \alpha-globin genes                       |
+|                           | in cis (--/\alpha\alpha)                            |
+|                           | in trans (-\alpha /-\alpha)                         |
+| \alpha-thalassemia silent | loss of 1 \alpha-globin gene (-\alpha/\alpha\alpha) |
+
 * \beta-Thalassemia
 ** Clinical Characteristics
 - characterized by reduced synthesis of the hemoglobin beta chain that
@@ -333,15 +322,15 @@
   aimed at reducing transfusion iron overload, allows for normal
   growth and development and may improve the overall prognosis
 ** Diagnostic Testing
-- red blood cell indices that reveal microcytic hypochromic anemia,
-  nucleated red blood cells on peripheral blood smear
+- RBC indices that reveal microcytic hypochromic anemia, nucleated red
+  blood cells on peripheral blood smear
 - hemoglobin analysis that reveals decreased amounts of HbA and
-  increased amounts of hemoglobin F (HbF) after age 12 months
+  increased amounts HbF after age 12 months
 - clinical severity of anemia
 - identification of biallelic pathogenic variants in HBB
 ** Genetic Counselling
 - AR HBB
-  - carrier thalassemia minor
+  - carrier = thalassemia minor
 * Hemophilia A
 ** Clinical Characteristics
 - deficiency in factor VIII clotting activity that results in

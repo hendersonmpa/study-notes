@@ -3,7 +3,7 @@
 #+DATE: \today
 
 
-* Tuberous sclerosis
+* Tuberous Sclerosis
 ** Clinical Characteristics
 - TSC involves abnormalities of the:
   - skin :: hypomelanotic macules, confetti skin lesions, facial
@@ -37,13 +37,13 @@
   signaling pathways including the MAPK, AMPK, b-catenin, calmodulin,
   CDK, autophagy, and cell cycle pathways
 
-* Hereditary breast cancer
+* Hereditary Breast & Ovarian Cancer
 ** Clinical Characteristics
 - BRCA1 and BRCA2-associated hereditary breast and ovarian cancer
   syndrome (HBOC) is characterized by an increased risk for female and
   male:
   - breast cancer
-  - ovarian cancer (includes fallopian tube and primary peritoneal cancers)
+  - ovarian cancer includes fallopian tube and primary peritoneal cancers
   - to a lesser extent other cancers: prostate cancer, pancreatic
     cancer, and melanoma primarily in individuals with a BRCA2
     pathogenic variant
@@ -69,50 +69,51 @@
   including cell-cycle progression, gene transcription regulation, DNA
   damage response, and ubiquitination
 - BRCA2 appears to be involved in the DNA repair process
-* Chronic myelogenous leukemia (CML)
+* Chronic Myelogenous Leukemia (CML)
 ** Clinical Characteristics
 - CML is a cancer of the white blood cells
-- It is a form of leukemia characterized by the increased and
-  unregulated growth of myeloid cells in the bone marrow and the
-  accumulation of these cells in the blood
+- a form of leukemia characterized by the increased and unregulated
+  growth of myeloid cells in the bone marrow and the accumulation of
+  these cells in the blood
 - CML is a clonal bone marrow stem cell disorder in which a
   proliferation of mature granulocytes (neutrophils, eosinophils and
   basophils) and their precursors is found
-- It is a type of myeloproliferative neoplasm associated with a
-  characteristic chromosomal translocation called the Philadelphia
-  chromosome
+- a myeloproliferative neoplasm associated with a characteristic
+  chromosomal translocation called the Philadelphia chromosome
 
 ** Diagnosis
-- CML is often suspected on the basis of a complete blood count,
+- CML is often suspected on the basis of a complete blood count
   - increased granulocytes of all types, typically including mature myeloid cells
-  - Basophils and eosinophils are almost universally increased; this feature may help differentiate CML from a leukemoid reaction
+  - basophils and eosinophils are almost universally increased; this
+    feature may help differentiate CML from a leukemoid reaction
 - bone marrow biopsy is often performed as part of the evaluation for CML
-- CML is diagnosed by cytogenetics that detects the translocation t(9;22)(q34;q11.2) which involves the ABL1 gene in chromosome 9 and the BCR gene in chromosome 22.
+- CML is diagnosed by cytogenetics that detects the translocation
+  t(9;22)(q34;q11.2) which involves the ABL1 gene in chromosome 9 and
+  the BCR gene in chromosome 22.
   - \because of this translocation, the chromosome looks smaller than
-    its homologue chromosome, and this appearance is known as the
-    Philadelphia chromosome chromosomal abnormality
+    its homologue chromosome, and is known as the Philadelphia
+    chromosome
   - can be detected by routine cytogenetics
-  - involved genes BCR-ABL1 can be detected by FISH, as well as by
-    PCR
+  - BCR-ABL1 fusion can be detected by FISH, as well as by PCR
 
 ** Pathophysiology
 - chromosomal translocation where parts of two chromosomes (the 9th
   and 22nd) switch places
-- part of the BCR ("breakpoint cluster region") gene from chromosome
-  22 is fused with the ABL gene on chromosome 9
+- part of the BCR (breakpoint cluster region) gene from chromosome
+  22 is fused with the ABL proto-oncogene on chromosome 9
 - abl carries a tyrosine kinase, \therfore the bcr-abl fusion gene
   product is also a tyrosine kinase
-- fused BCR-ABL protein interacts with the interleukin 3beta(c) receptor subunit.
-- BCR-ABL transcript is continuously active and does not require activation by other cellular messaging proteins.
+- BCR-ABL transcript is continuously active and does not require
+  activation by other cellular messaging proteins
   - BCR-ABL activates a cascade of proteins that control the cell
     cycle, speeding up cell division
-* Familial adenomatous polyposis
+* Familial Adenomatous Polyposis
 ** Clinical Characteristics
 - FAP is a colon cancer predisposition syndrome in which hundreds to
   thousands of adenomatous colonic polyps develop, beginning, on
   average, at age 16 years (range 7-36 years)
-- by age 35 years, 95% of individuals with FAP have polyps; without
-  colectomy, colon cancer is inevitable
+- by age 35 years, 95% of individuals with FAP have polyps
+  - *without colectomy colon cancer is inevitable*
 - mean age of colon cancer diagnosis in untreated individuals is
   39 years (range 34-43 years)
 - extracolonic manifestations are variably present and include:
@@ -130,11 +131,11 @@
 - ~75%-80% of individuals with an APC-associated polyposis condition
   have an affected parent
 ** Pathophysiology
-- the APC protein product is a tumor suppressor. 
+- APC protein product is a tumor suppressor 
 - APC appears to prevent accumulation of cytosolic beta-catenin and
   maintain normal apoptosis and may also decrease cell proliferation,
   probably through its regulation of beta-catenin
-* Hereditary non-polyposis colon cancer (HNPCC)
+* Hereditary Non-Polyposis Colon Cancer (HNPCC)
 - AKA: Lynch Syndrome
 ** Clinical Characteristics
 - increased risk for colorectal cancer (CRC) and cancers of the
@@ -146,7 +147,8 @@
   - CRC :: 52%-82% (mean age at diagnosis 44-61 years)
   - Endometrial cancer in females :: 25%-60% (mean age at diagnosis 48-62 years)
   - Gastric cancer :: 6%-13% (mean age at diagnosis 56 years)
-  - Ovarian cancer :: 4%-12% (mean age at diagnosis 42.5 years; ~30% are diagnosed < age 40 years).
+  - Ovarian cancer :: 4%-12% (mean age at diagnosis 42.5 years; ~30%
+    are diagnosed < age 40 years)
 
 - risk for other Lynch syndrome-related cancers is lower, though
   substantially increased over general population rates
@@ -167,19 +169,18 @@
   syndrome have a parent who had cancer
   
 ** Pathophysiology
-- EPCAM 2p21	Epithelial cell adhesion molecule
-  - EPCAM is not a mismatch repair gene, recurrent germline deletions
-    of the 3' region result in silencing of the adjacent downstream
-    MSH2 by hypermethylation
-  - The adjacent MSH2 allele itself is not mutated
-  - Sequence analysis of EPCAM is not appropriate for diagnosis of
+- EPCAM 2p21 :: Epithelial cell adhesion molecule
+  - recurrent germline deletions of the 3' region result in silencing
+    of the adjacent downstream MSH2 by hypermethylation
+  - the adjacent MSH2 allele itself is not mutated
+  - sequence analysis of EPCAM is not appropriate for diagnosis of
     Lynch syndrome
-- MLH1	3p22​.2	DNA mismatch repair protein
-- MSH2	2p21-p16 DNA mismatch repair protein
-- MSH6	2p16​.3	DNA mismatch repair protein
-- PMS2	7p22​.1	Mismatch repair endonuclease
+- MLH1 3p22​.2 :: DNA mismatch repair protein
+- MSH2 2p21-p16 :: DNA mismatch repair protein
+- MSH6 2p16​.3 :: DNA mismatch repair protein
+- PMS2 7p22​.1 :: Mismatch repair endonuclease
 
-* Li-Fraumeni syndrome
+* Li-Fraumeni Syndrome
 ** Clinical Characteristics
 - LFS is a cancer predisposition syndrome associated with the
   development of the following classic tumors:
@@ -208,7 +209,7 @@
 - TP53 has been called "the guardian of the genome" and its protein
   plays major roles in both the regulation of cell growth and the
   maintenance of homeostasis
-- loss of this important tumor suppressor gene decreases the
+- loss of this important *tumor suppressor gene* decreases the
   likelihood that cells with genetic errors will be flagged for DNA
   repair or apoptosis
 - DNA-damaged cells can go on to further proliferate, which can lead
@@ -231,26 +232,26 @@
 ** Diagnosis
 - established by examination of the fundus of the eye using indirect
   ophthalmoscopy
-- Imaging studies can be used to support the diagnosis and stage the tumor
-- The diagnosis of heritable retinoblastoma is established in a
-  proband with:
+- imaging studies can be used to support the diagnosis and stage the tumor
+- diagnosis of heritable retinoblastoma is established in a proband
+  with:
   - retinoblastoma or retinoma and a family history of retinoblastoma or
-  - identification of a heterozygous germline pathogenic variant in RB1.
+  - identification of a heterozygous germline pathogenic variant in RB1
 
-- The following staging has been recommended for individuals with
+- the following staging has been recommended for individuals with
   retinoblastoma and/or risk of heritable retinoblastoma to include
   "H" to describe the genetic risk for an individual to have a
   germline pathogenic variant in RB1:
 
-  - HX :: Unknown or insufficient evidence of a constitutional
+  - HX :: unknown or insufficient evidence of a constitutional
           (germline) RB1 pathogenic variant
 
-  - H0 :: Normal RB1 alleles in blood tested with demonstrated
+  - H0 :: normal RB1 alleles in blood tested with demonstrated
           high-sensitivity assays
 
-  - H0* :: Normal RB1 in blood with <1% residual risk for mosaicism
+  - H0* :: normal RB1 in blood with <1% residual risk for mosaicism
 
-  - H1 :: Bilateral retinoblastoma, trilateral retinoblastoma
+  - H1 :: bilateral retinoblastoma, trilateral retinoblastoma
           (retinoblastoma with intracranial CNS midline embryonic
           tumor), family history of retinoblastoma, or RB1 pathogenic
           variant identified in blood
@@ -259,13 +260,10 @@
 - AD
 - individuals with heritable retinoblastoma have a heterozygous /de
   novo/ or inherited germline RB1 pathogenic variant
-- susceptibility is AD mode of action is AR
+- susceptibility is AD mode of action similar to AR
   - inheritance of a single mutant allele "first hit" 
   - a somatic mutation "second hit" is required
 ** Pathophysiology
 - RB1 encodes a ubiquitously expressed nuclear protein that is
   involved in cell cycle regulation (G1 to S transition)
-- the RB protein is phosphorylated by members of the cyclin-dependent kinase
-  (cdk) system prior to the entry into S-phase
-- on phosphorylation, the binding activity of the pocket domain is
-  lost, resulting in the release of cellular proteins
+
