@@ -2,44 +2,40 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
-* Cystic fibrosis
+* Cystic Fibrosis
 ** Clinical Characteristics
-- Multisystem disease affecting epithelia of the respiratory tract, exocrine pancreas, intestine, hepatobiliary system, and exocrine sweat glands.
-- Morbidities include progressive obstructive lung disease with bronchiectasis, frequent hospitalizations for pulmonary disease, pancreatic insufficiency and malnutrition, recurrent sinusitis and bronchitis, and male infertility.
-- Pulmonary disease is the major cause of morbidity and mortality in CF.
-- Meconium ileus occurs at birth in 15%-20% of newborns with CF.
-- More than 95% of males with CF are infertile.
+- multisystem disease affecting epithelia of the respiratory tract, exocrine pancreas, intestine, hepatobiliary system, and exocrine sweat glands
+- morbidities include progressive obstructive lung disease with bronchiectasis, frequent hospitalizations for pulmonary disease, pancreatic insufficiency and malnutrition, recurrent sinusitis and bronchitis, and male infertility
+- pulmonary disease is the major cause of morbidity and mortality in CF
+- meconium ileus occurs at birth in 15%-20% of newborns with CF
+- \gt 95% of males with CF are infertile
 
 ** Diagnostic Testing
 - one or more characteristic phenotypic features and evidence of an abnormality in CFTR function
   - 2 elevated sweat chloride values or
   - biallelic CFTR pathogenic variants or 
   - transepithelial nasal potential difference measurement characteristic of CF
-- Diagnosis of CF is established in an infant with:
+- diagnosis of CF is established in an infant with:
   - elevated NBS IRT and
   - identification of biallelic CFTR pathogenic variants or
   - an elevated sweat chloride.
     - quantitative pilocarpine iontophoresis sweat chloride values (>60 mmol/L in infants age > 6 months) 
 ** Genetic Counselling
-- AR , CFTR
-- At conception, each sib of an affected individual with CF have:
-  - a 25% chance of being affected
-  - a 50% chance of being an asymptomatic carrier
-  - a 25% chance of being unaffected and not a carrier.
-- Carrier testing for at-risk relatives and prenatal testing for pregnancies at increased risk are possible if the CFTR pathogenic variants in the family are known.
+- AR CFTR
+
 * Achondroplasia
 ** Clinical Characteristics
-- Most common cause of disproportionate short stature.
-- Affected individuals have rhizomelic shortening of the limbs,
+- most common cause of disproportionate short stature
+- affected individuals have rhizomelic shortening of the limbs,
   macrocephaly, and characteristic facial features with frontal
-  bossing and midface retrusion.
-- In infancy, hypotonia is typical, and acquisition of developmental
+  bossing and midface retrusion
+- in infancy, hypotonia is typical, and acquisition of developmental
   motor milestones is often both aberrant in pattern and delayed
-- Intelligence and life span are usually near normal, although
+- intelligence and life span are usually near normal, although
   craniocervical junction compression increases the risk of death in
-  infancy.
-- Additional complications include obstructive sleep apnea, middle ear
-  dysfunction, kyphosis, and spinal stenosis.
+  infancy
+- additional complications include obstructive sleep apnea, middle ear
+  dysfunction, kyphosis, and spinal stenosis
 
 ** Diagnostic Testing
 - Diagnosed by characteristic clinical and radiographic findings in
@@ -55,180 +51,160 @@
   pathogenic variant.
   - these parents have a very low risk of having another child with
     achondroplasia.
-- An individual with achondroplasia who has a reproductive partner
-  with average stature is at 50% risk in each pregnancy of having a
-  child with achondroplasia.
-- When both parents have achondroplasia the risk to their offspring of
-  having:
-  - average stature is 25%
-  - achondroplasia is 50%
-  - homozygous achondroplasia (a lethal condition) is 25%.
 
-- If the proband and the proband's reproductive partner are affected
-  with different dominantly inherited skeletal dysplasias, genetic
-  counselling becomes more complicated because of the risk of
-  inheriting two dominant skeletal dysplasias.
-* Huntington disease
+* Huntington Disease
 ** Clinical Characteristics
 - a progressive disorder of motor, cognitive, and psychiatric
- disturbances.
+  disturbances
 - mean age of onset is 35 to 44 years and the median survival time is
-  15 to 18 years after onset.
+  15 to 18 years after onset
 ** Diagnostic Testing
 - diagnosis of HD rests on:
   - positive family history
   - characteristic clinical findings
-  - detection of an expansion of 36 or more CAG trinucleotide repeats in HTT.
-
-- All individuals with HD have an expansion in the number of CAG
+  - detection of an expansion of \ge 36 CAG trinucleotide repeats in HTT
+- all individuals with HD have an expansion in the number of CAG
   trinucleotide repeats that encode glutamine amino acids in exon 1 of
-  HTT.
-  - Normal alleles :: 26 or fewer CAG trinucleotide repeats
+  HTT
+  - Normal alleles :: \le 26 CAG trinucleotide repeats
   - Intermediate alleles :: 27-35 CAG trinucleotide repeats
-    - An individual with an allele in this range is not at risk of
+    - an individual with an allele in this range is not at risk of
       developing symptoms of HD but, because of instability in the CAG
       tract, may be at risk of having a child with an allele in the
       HD-causing range
   - HD-causing alleles :: \ge 36 CAG trinucleotide repeats
-    - Persons who have an HD-causing allele are considered at risk of
-      developing HD in their lifetime.
+    - at risk of developing HD in their lifetime
     - HD-causing alleles are further classified as:
       - Reduced-penetrance HD-causing alleles :: 36-39 CAG 
       - Full-penetrance HD-causing alleles :: \ge 40 CAG 
 ** Genetic Counselling
-- AD, HTT
-- Offspring of an individual with a pathogenic variant have a 50% chance of inheriting the disease-causing allele.
-- Predictive testing in asymptomatic adults at risk is available but requires careful thought (including pre- and post-test genetic counselling) as there is currently no cure for the disorder.
-  - asymptomatic individuals at risk may be eligible to participate in clinical trials.
-- Predictive testing is not considered appropriate for asymptomatic at-risk individuals younger than age 18 years.
-- Prenatal testing by molecular genetic testing is possible.
+- AD HTT
+- offspring of an individual with a pathogenic variant have a 50%
+  chance of inheriting the disease-causing allele
+- predictive testing in asymptomatic adults at risk is available but
+  requires careful thought (including pre- and post-test genetic
+  counselling) as there is currently no cure for the disorder
+  - asymptomatic individuals at risk may be eligible to participate in
+    clinical trials
+- predictive testing is not considered appropriate for asymptomatic
+  at-risk individuals younger than age 18 years
+- prenatal testing by molecular genetic testing is possible
 * Fragile X
 ** Clinical Characteristics
 - Fragile X syndrome occurs in individuals with an FMR1 full mutation
-  or other loss-of-function variant.
-- Males: moderate intellectual disability
-- Females: mild intellectual disability
+  or other loss-of-function variant
+  - \male{} moderate intellectual disability
+  - \female{} mild intellectual disability
 - FMR1 pathogenic variants are complex alterations involving non-classic
   gene-disrupting alterations (trinucleotide repeat expansion) and
-  abnormal gene methylation,
-  - \therefore affected individuals occasionally have an atypical presentation with an IQ above 70,
-    - the traditional  demarcation denoting intellectual disability.
-- Males with an FMR1 full mutation accompanied by aberrant methylation may have a characteristic appearance:
+  abnormal gene methylation
+  - \therefore affected individuals occasionally have an atypical
+    presentation with an IQ above 70
+    - the traditional  demarcation denoting intellectual disability
+- \male{} with an FMR1 full mutation accompanied by aberrant
+  methylation may have a characteristic appearance:
   - large head, long face, prominent forehead and chin, protruding ears
-  - connective tissue findings (joint laxity), and large testes after puberty.
-  - Behavioral abnormalities, sometimes including autism spectrum disorder, are common.
-- fragile X-associated tremor/ataxia syndrome, and FMR1-related
-  primary ovarian insufficiency are less severe forms due to smaller
-  repeats
+  - connective tissue findings (joint laxity), and large testes after puberty
+  - behavioral abnormalities, sometimes including autism spectrum disorder, are common
+- fragile X-associated tremor/ataxia syndrome (FXTAS), and
+  FMR1-related primary ovarian insufficiency (FXPOI) are less severe
+  forms due to smaller repeats
 ** Diagnostic Testing
-- alteration in FMR1.
+- alteration in FMR1
 - \gt 99% of individuals with fragile X syndrome have:
-  - lof variant of FMR1 caused by an increased number of CGG
-    trinucleotide repeats (typically >200)
+  - LOF variant of FMR1 caused by an increased number of CGG
+    trinucleotide repeats (typically \gt200)
   - accompanied by aberrant methylation of FMR1
-- Other pathogenic variants include:
-  - deletions and single-nucleotide variants.
+- other pathogenic variants include:
+  - deletions and single-nucleotide variants
 ** Genetic Counselling
-- All mothers of individuals with an FMR1 full mutation (expansion
+- all mothers of individuals with an FMR1 full mutation (expansion
   >200 CGG trinucleotide repeats and abnormal methylation) are
-  carriers of an FMR1 pathogenic variant.
-- Mothers and their female relatives who are premutation carriers are
-  at increased risk for FXTAS and POI;
-- those with a full mutation may have findings of fragile X syndrome.
-- All are at increased risk of having offspring with fragile X syndrome, FXTAS, and POI.
-- Males with premutations are at increased risk for FXTAS.
-- Males with FXTAS will transmit their FMR1 premutation expansion to none of their sons and to all of their daughters, who will be premutation carriers.
-- Carrier testing for at-risk relatives and prenatal testing for
+  carriers of an FMR1 pathogenic variant
+- mothers and their female relatives who are premutation carriers are
+  at increased risk for FXTAS and POI
+  - at increased risk of having offspring with fragile X syndrome, FXTAS, and POI
+  - those with a full mutation may have findings of fragile X syndrome.
+- \male{} with premutations are at increased risk for FXTAS
+- \male{} with FXTAS will transmit their FMR1 premutation expansion to
+  none of their sons and to all of their daughters, who will be
+  premutation carriers
+- carrier testing for at-risk relatives and prenatal testing for
   pregnancies at increased risk are possible if the diagnosis of an
-  FMR1-related disorder has been confirmed in a family member.
-* Friedreich's ataxia
+  FMR1-related disorder has been confirmed in a family member
+* Friedreich's Ataxia
 ** Clinical Characteristics
 - characterized by slowly progressive ataxia with onset usually before
-  age 25 years (mean 10-15 yrs).
+  age 25 years (mean 10-15 yrs)
 - FRDA is typically associated with dysarthria, muscle weakness,
   spasticity particularly in the lower limbs, scoliosis, bladder
   dysfunction, absent lower-limb reflexes, and loss of position and
-  vibration sense.
+  vibration sense
   - ~2/3 have cardiomyopathy
   - ~30% have diabetes mellitus,
   - ~25% have an "atypical" presentation with later onset or retained
-    tendon reflexes.
+    tendon reflexes
 ** Diagnostic Testing
 - established in a proband by detection of biallelic pathogenic
-  variants in FXN.
+  variants in FXN
 - An abnormally expanded GAA repeat in intron 1 of FXN observed on
   both alleles in ~96% with FRDA
 - remaining are compound heterozygotes for abnormally expanded GAA
   repeat in the disease-causing range on one allele and another
-  intragenic pathogenic variant on the other allele.
-
-
-- Four classes of alleles are recognized for the GAA repeat sequence in intron 1 of FXN
+  intragenic pathogenic variant on the other allele
+- four classes of alleles are recognized for the GAA repeat sequence in intron 1 of FXN
   - Normal alleles :: 5-33 GAA repeats
   - Mutable normal (premutation) alleles :: 34-65 GAA repeats
-  - Borderline alleles :: 44-66 GAA repeats. The shortest repeat length associated with disease 
+  - Borderline alleles :: 44-66 GAA repeats
+    -  the shortest repeat length associated with disease 
   - Full-penetrance (disease-causing expanded) alleles :: 66-1,300 GAA repeats
 
-Rare alleles of variant structure. In contrast to the alleles discussed above in which the GAA trinucleotides are perfect repeats, in rare pathogenic alleles the GAA repeats are not in perfect tandem order but rather are interrupted by other nucleotides. Such "interrupted FXN alleles" differ in length and types of nucleotides in the interruption, but they are typically close to the 3' end of the GAA repeat tract (see Molecular Genetics).
 ** Genetic Counselling
-- AR, FXN
-- Each sib has a 25% chance of being affected
-  - 50% chance of being an asymptomatic carrier
-  - 25% chance of having no pathogenic variant.
-- Carrier testing of at-risk relatives, prenatal testing for
-  pregnancies at increased risk, and pre-implantation genetic diagnosis
-  are possible if both FXN pathogenic variants have been identified in
-  an affected family member.
+- AR FXN
 
-* Myotonic dystrophy type I
+* Myotonic Dystrophy Type I
 ** Clinical Characteristics
 - multisystem disorder that affects skeletal and smooth muscle as well
-  as the eye, heart, endocrine system, and central nervous system.
+  as the eye, heart, endocrine system, and central nervous system
 
 - clinical findings, from mild to severe:
-
   - Mild DM1 :: cataract and mild myotonia (sustained muscle
                 contraction) life span is normal
-
   - Classic DM1 :: muscle weakness and wasting, myotonia, cataract,
                    and often cardiac conduction abnormalities; adults
                    may become physically disabled and may have a
-                   shortened life span.
-
+                   shortened life span
   - Congenital DM1 :: hypotonia and severe generalized weakness at
                       birth, often with respiratory insufficiency and
-                      early death; intellectual disability is common.
-
+                      early death; intellectual disability is common
 ** Diagnostic Testing
-- caused by expansion of a CTG trinucleotide repeat in the noncoding region of DMPK.
-- molecular genetic testing of DMPK.
-- CTG repeat length exceeding 34 repeats is abnormal.
-- Molecular genetic testing detects pathogenic variants in nearly 100%
-  of affected individuals.
+- caused by expansion of a CTG trinucleotide repeat in the noncoding region of DMPK
+- molecular genetic testing of DMPK
+- CTG repeat length exceeding 34 repeats is abnormal
+- molecular genetic testing detects pathogenic variants in nearly 100%
+  of affected individuals
 
   - Normal alleles :: 5-34 CTG repeats
   - Mutable normal (premutation) alleles :: 35-49 CTG repeats
   - Full-penetrance alleles ::  \ge 50 CTG repeats
 
 ** Genetic Counselling
-- AD, DMPK
-- Offspring of an affected individual have a 50% chance of inheriting the expanded allele.
-- Pathogenic alleles may expand in length during gametogenesis
+- AD DMPK
+- offspring of an affected individual have a 50% chance of inheriting
+  the expanded allele
+- pathogenic alleles may expand in length during gametogenesis
   - \to transmission of longer trinucleotide repeat alleles
   -  \to earlier onset and more severe disease the parent
-- Prenatal testing is possible for pregnancies at increased risk when
-  the diagnosis of DM1 has been confirmed by molecular genetic testing
-  in an affected family member.
-* Angelman syndrome
+* Angelman Syndrome
 ** Clinical Characteristics
-- Severe developmental delay or intellectual disability, severe speech
+- severe developmental delay or intellectual disability, severe speech
   impairment, gait ataxia and/or tremulousness of the limbs
 - unique behavior with an inappropriate happy demeanor that includes
-  frequent laughing, smiling, and excitability.
-- Microcephaly and seizures are also common.
-- Developmental delays are first noted at around age six months
+  frequent laughing, smiling, and excitability
+- microcephaly and seizures are also common
+- developmental delays are first noted at around age six months
 - clinical features of AS do not become manifest until after age one year
-  - can take several years before the correct clinical diagnosis is obvious.
+  - can take several years before the correct clinical diagnosis is obvious
 
 ** Diagnostic Testing
 
@@ -237,62 +213,98 @@ Rare alleles of variant structure. In contrast to the alleles discussed above in
 #+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./figures/aspws.jpg]]
 
-- molecular genetic testing deficient expression or function of the
-  maternally inherited UBE3A allele.
+- molecular genetic testing for deficient expression or function of
+  the *maternally inherited UBE3A allele* (Figure [[fig:as_pws]])
 - parent-specific DNA methylation imprints in the 15q11.2-q13 chromosome region detects approximately 80%
   - including deletion, uniparental disomy (UPD), imprinting defect (ID)
-- \lt 1% have a cytogenetically visible chromosome rearrangement (i.e., translocation or inversion).
-- UBE3A sequence analysis detects pathogenic variants ~11% of individuals.
+- \lt 1% have a cytogenetically visible chromosome rearrangement (i.e., translocation or inversion)
+- UBE3A sequence analysis detects pathogenic variants ~11% of individuals
 - molecular genetic testing (methylation analysis and UBE3A sequence
-  analysis) ~90% of individuals.
-- Remaining 10% with classic phenotypic features of AS have the
+  analysis) ~90% of individuals
+- remaining 10% with classic phenotypic features of AS have the
   disorder as a result of an as-yet unidentified genetic mechanism
   - not amenable to diagnostic testing
 ** Genetic Counselling
-- caused by disruption of maternally imprinted UBE3A located within
+- caused by disruption of *maternally imprinted UBE3A* located within
   the 15q11.2-q13 Angelman syndrome/Prader-Willi syndrome region.
-- The risk to sibs of a proband depends on the genetic mechanism
-  leading to the loss of UBE3A function
+- risk to sibs of a proband depends on the genetic mechanism leading
+  to the loss of UBE3A function
   - typically less than 1% risk for probands with a deletion or UPD
-  - as high as 50% for probands with an ID or a pathogenic variant of UBE3A.
-- Members of the mother's extended family are also at increased risk
-  when an ID or a UBE3A pathogenic variant is present.
-- Cytogepnetically visible chromosome rearrangements may be inherited,usually /de novo/.
-- Prenatal testing is possible when the underlying genetic mechanism
+  - as high as 50% for probands with an ID or a pathogenic variant of UBE3A
+- members of the mother's extended family are also at increased risk
+  when an ID or a UBE3A pathogenic variant is present
+- cytogenetically visible chromosome rearrangements may be
+  inherited, usually /de novo/
+- prenatal testing is possible when the underlying genetic mechanism
   is a deletion, UPD, an ID, a UBE3A pathogenic variant, or a
-  chromosome rearrangement.
-* Beckwith-Wiedemann syndrome
+  chromosome rearrangement
+* Prader-Willi Syndrome
+** Clinical Characteristics
+- severe hypotonia and feeding difficulties in early infancy
+- excessive eating later infancy or early childhood
+  - gradual development of morbid obesity
+- motor milestones and language development are delayed
+- all individuals have some degree of cognitive impairment
+- a distinctive behavioral phenotype (with temper tantrums,
+  stubbornness, manipulative behavior, and obsessive-compulsive
+  characteristics) is common
+- hypogonadism is present in both males and females and manifests as
+  genital hypoplasia, incomplete pubertal development, and, in most,
+  infertility
+- short stature is common (if not treated with growth hormone)
+- characteristic facial features, strabismus, and scoliosis are often
+  present
+
+** Diagnostic Testing
+ - DNA methylation testing to detect abnormal parent-specific
+   imprinting within the Prader-Willi critical region (PWCR) on
+   chromosome 15 (Figure [[fig:as_pws]])
+ - testing determines whether the region is maternally inherited only
+   - the paternally contributed region is absent
+   - detects more than 99% of affected individuals
+   - DNA methylation-specific testing is important to confirm the
+     diagnosis of PWS in all individuals,
+
+** Genetic Counselling
+- PWS is caused by an *absence of expression of imprinted genes in the*
+  *paternally derived PWS/Angelman syndrome (AS) region (15q11.2-q13)*
+  *of chromosome 15*:
+  - paternal deletion, maternal uniparental disomy 15 and rarely an imprinting defect
+- risk to the sibs depends on the genetic mechanism
+  - \lt 1% if the affected child has a deletion or uniparental disomy
+  - up to 50% if the affected child has an imprinting defect
+  - up to 25% if a parental chromosome translocation is present
+
+* Beckwith-Wiedemann Syndrome
 ** Clinical Characteristics
 - growth disorder variably characterized by neonatal hypoglycemia,
   macrosomia, macroglossia, hemihyperplasia, omphalocele, embryonal
   tumors (e.g., Wilms tumor, hepatoblastoma, neuroblastoma, and
   rhabdomyosarcoma), visceromegaly, adrenocortical cytomegaly, renal
   abnormalities (e.g., medullary dysplasia, nephrocalcinosis,
-  medullary sponge kidney, and nephromegaly), and ear creases/pits.
+  medullary sponge kidney, and nephromegaly), and ear creases/pits
 
-- a clinical spectrum, may have many of these features or only one or two.
+- a clinical spectrum, may have many of these features or only one or two
 
-- Early death may occur from complications of prematurity,
-  hypoglycemia, cardiomyopathy, macroglossia, or tumors.
+- early death may occur from complications of prematurity,
+  hypoglycemia, cardiomyopathy, macroglossia, or tumors
 
 ** Diagnostic Testing
 
 - Cytogenetically detectable abnormalities involving chromosome 11p15
-  are found in 1% or fewer of affected individuals.
-
-- Molecular genetic testing can identify epigenetic and genomic
+  are found in 1% or fewer of affected individuals
+- molecular genetic testing can identify epigenetic and genomic
   alterations of chromosome 11p15 in individuals with BWS:
-  - Loss of methylation on the maternal chromosome at imprinting
+  - loss of methylation on the maternal chromosome at imprinting
     center 2 (IC2) in 50% of affected individuals;
-  - Paternal uniparental disomy for chromosome 11p15 in 20%
-  - Gain of methylation on the maternal chromosome at imprinting
-    center 1 (IC1) in 5%.
-- Methylation alterations associated with deletions or duplications in
-  this region have high heritability.
-
-- Sequence analysis of CDKN1C identifies a heterozygous maternally
+  - paternal uniparental disomy for chromosome 11p15 in 20%
+  - gain of methylation on the maternal chromosome at imprinting
+    center 1 (IC1) in 5%
+- methylation alterations associated with deletions or duplications in
+  this region have high heritability
+- sequence analysis of CDKN1C identifies a heterozygous maternally
   inherited pathogenic variant in approximately 40% of familial cases
-  and 5%-10% of cases with no family history of BWS.
+  and 5%-10% of cases with no family history of BWS
 
 #+CAPTION[]:BWS Chromosome 11
 #+NAME: fig:bws
@@ -301,83 +313,49 @@ Rare alleles of variant structure. In contrast to the alleles discussed above in
 
 ** Genetic Counselling
 - associated with abnormal regulation of gene transcription in two
-  imprinted domains on chromosome 11p15.5.
-- Most individuals with BWS are reported to have normal chromosome
-  studies or karyotypes.
+  imprinted domains on chromosome 11p15.5
+- most individuals with BWS are reported to have normal chromosome
+  studies or karyotypes
 - ~85% of individuals with BWS have no family history of BWS
 - ~15% have a family history consistent with parent-of-origin
-  autosomal dominant transmission.
-- Children of subfertile parents conceived by assisted reproductive
-  technology (ART) may be at increased risk for imprinting disorders,
-  including BWS.
-- Identification of the underlying genetic mechanism causing BWS
-  permits better estimation of recurrence risk.
-- Prenatal screening for pregnancies in the general population that
+  autosomal dominant transmission
+- children of subfertile parents conceived by assisted reproductive
+  technology may be at increased risk for imprinting disorders,
+  including BWS
+- identification of the underlying genetic mechanism causing BWS
+  permits better estimation of recurrence risk
+- prenatal screening for pregnancies in the general population that
   identifies findings suggestive of a diagnosis of BWS may lead to the
-  consideration of
-  - chromosome analysis, chromosomal microarray, and/or molecular genetic testing.
-- prenatal testing by chromosome analysis for families with an
-  inherited chromosome abnormality or by molecular genetic testing for
-  families in which the molecular mechanism of BWS has been defined
+  consideration of chromosome analysis, chromosomal microarray, and/or
+  molecular genetic testing
 
-* Prader-Willi syndrome
-** Clinical Characteristics
-- severe hypotonia and feeding difficulties in early infancy
-- later infancy or early childhood by excessive eating
-- gradual development of morbid obesity
-- Motor milestones and language development are delayed.
-- All individuals have some degree of cognitive impairment.
-- A distinctive behavioral phenotype (with temper tantrums, stubbornness, manipulative behavior, and obsessive-compulsive characteristics) is common.
-- Hypogonadism is present in both males and females and manifests as genital hypoplasia, incomplete pubertal development, and, in most, infertility.
-- Short stature is common (if not treated with growth hormone);
-- characteristic facial features, strabismus, and scoliosis are often present.
-
-** Diagnostic Testing
- - DNA methylation testing to detect abnormal parent-specific
-   imprinting within the Prader-Willi critical region (PWCR) on
-   chromosome 15
- - testing determines whether the region is maternally inherited only
-   - the paternally contributed region is absent
-   - detects more than 99% of affected individuals
-   - DNA methylation-specific testing is important to confirm the
-     diagnosis of PWS in all individuals,
-
-** Genetic Counselling
-- PWS is caused by an absence of expression of imprinted genes in the
-  paternally derived PWS/Angelman syndrome (AS) region (15q11.2-q13)
-  of chromosome 15:
-  - paternal deletion, maternal uniparental disomy 15 and rarely an imprinting defect.
-- The risk to the sibs depends on the genetic mechanism.
-  - \lt 1% if the affected child has a deletion or uniparental disomy
-  - up to 50% if the affected child has an imprinting defect
-  - up to 25% if a parental chromosome translocation is present
-- Prenatal testing is possible for pregnancies at increased risk if
-  the underlying genetic mechanism is known.
-* Russell-Silver syndrome
+* Russell-Silver Syndrome
 ** Clinical Characteristics
 - asymmetric gestational growth restriction resulting in affected
   individuals being born small for gestational age, with relative
-  macrocephaly at birth (head circumference \le1.5 SD above birth
-  weight and/or length), prominent forehead usually with frontal
-  bossing, and frequently body asymmetry.
-- This is followed by postnatal growth failure, and in some cases progressive limb length discrepancy and feeding difficulties.
-- Additional clinical features include triangular facies, fifth-finger clinodactyly, and micrognathia with narrow chin.
-- The average adult height in untreated individuals is ~3.1\pm1.4 SD below the mean.
+  macrocephaly at birth,prominent forehead usually with frontal
+  bossing, and frequently body asymmetry
+  - followed by postnatal growth failure, and in some cases progressive
+    limb length discrepancy and feeding difficulties
+- additional clinical features include triangular facies, fifth-finger
+  clinodactyly, and micrognathia with narrow chin
+- the average adult height in untreated individuals is ~3 SD below the
+  mean
 ** Diagnostic Testing
-- a genetically heterogeneous condition.
-- Genetic testing confirms clinical diagnosis in approximately 60% of
-  affected individuals.
+- a genetically heterogeneous condition
+- genetic testing confirms clinical diagnosis in approximately 60% of
+  affected individuals
   - hypomethylation of the imprinted control region 1 (ICR1) at
-    11p15.5 causes SRS in 35%-50% of individuals
-  - maternal uniparental disomy (mUPD7) causes SRS in 7%-10% of individuals.
-  - a small number of individuals with SRS who have duplications,
-    deletions or translocations involving the imprinting centers at
-    11p15.5 or duplications, deletions, or translocations involving
-    chromosome 7.
+    11p15.5 in 35%-50% of individuals
+  - maternal uniparental disomy (mUPD7) in 7%-10% of
+    individuals
+  - a small number of individuals have duplications, deletions or
+    translocations involving the imprinting centers at 11p15.5 or
+    duplications, deletions, or translocations involving chromosome 7
   - rarely, affected individuals with pathogenic variants in CDKN1C,
-    IGF2, PLAG1, and HMGA2 have been described.
+    IGF2, PLAG1, and HMGA2 have been described
   - approximately 40% of individuals who meet NH-CSS clinical criteria
-    for SRS have negative molecular and/or cytogenetic testing.
+    for RSS have negative molecular and/or cytogenetic testing.
 
 #+CAPTION[]:11p Duplication in RSS
 #+NAME: fig:rss
@@ -385,15 +363,16 @@ Rare alleles of variant structure. In contrast to the alleles discussed above in
 [[file:./figures/rss.png]]
 
 ** Genetic Counselling
-- SRS has multiple etiologies and typically has a low recurrence
-  risk.
-- In most families, a proband with SRS represents a simplex case (a single affected family member) and has
-  SRS as the result of an apparent /de novo/ epigenetic or genetic alteration
+- multiple etiologies and typically has a low recurrence risk
+- in most families, a proband with RSS represents a simplex case (a
+  single affected family member) and has RSS as the result of an
+  apparent /de novo/ epigenetic or genetic alteration
   - loss of paternal methylation at the 11p15 ICR1 H19/IGF2 imprinting center 1 or
-  - maternal uniparental disomy for chromosome 7.
-- SRS may also occur as the result of a genetic alteration associated with up to a 50% recurrence risk
+  - maternal uniparental disomy for chromosome
+- RSS may also occur as the result of a genetic alteration associated
+  with up to a 50% recurrence risk
   - copy number variant on chromosome 7 or 11 or
-  - an intragenic pathogenic  variant in CDKN1C, IGF2, PLAG2, or HMGA2
-- Accurate assessment of SRS recurrence therefore requires
-  identification of the causative genetic mechanism in the proband.
+  - an intragenic pathogenic variant in CDKN1C, IGF2, PLAG2, or HMGA2
+- accurate assessment of recurrence therefore requires
+  identification of the causative genetic mechanism in the proband
 

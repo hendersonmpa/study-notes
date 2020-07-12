@@ -178,7 +178,7 @@
      - >200 ng/ml in adult females
      - >300 ng/ml in adult males
 
-***  Treatment and Prognosis
+*** Treatment and Prognosis
  - \gt half male and female C282Y homozygotes have normal serum
    ferritin levels and may never require therapy
  - many have moderately elevated serum ferritin levels

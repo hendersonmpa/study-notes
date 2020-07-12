@@ -7,14 +7,13 @@
 ** Clinical Characteristics
 - characterized by dementia that typically begins with subtle and
   poorly recognized failure of memory and slowly becomes more severe
-  and, eventually, incapacitating
+  and eventually incapacitating
 ** Diagnostic Testing
 - \sim 20 suseptibility genes including APOE e4 allele
 - early-onset familial alzheimer disease (EOFAD)
-  - pathogenic variantAPP, PSEN1 & 2
+  - pathogenic variants in
 ** Genetic Counselling
-- EOFAD in which an individual has a pathogenic variant in APP, PSEN1,
-  or PSEN2 represents an autosomal dominant disease
+- AD APP PSEN1 PSEN2
 * Congenital hearing loss
 ** Clinical Characteristics
 - hearing loss present at birth
@@ -29,11 +28,10 @@
 ** Clinical Characteristics
 - very little or no insulin is produced by the pancreas
 - progressive \beta cell destruction leads to dysfunction in the
-  neighboring \alpha cells which secrete glucagon, exacerbating
-  excursions away from euglycemia in both directions; overproduction
-  of glucagon after meals causes sharper hyperglycemia, and failure to
-  stimulate glucagon upon incipient hypoglycemia prevents a
-  glucagon-mediated rescue of glucose levels
+  neighboring \alpha cells which secrete glucagon
+  - overproduction of glucagon after meals causes sharper hyperglycemia
+  - failure to stimulate glucagon upon incipient hypoglycemia prevents
+    a glucagon-mediated rescue of glucose levels
 ** Diagnostic Testing
 - causes of type 1 diabetes are unknown, although several risk factors
   have been identified

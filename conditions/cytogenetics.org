@@ -31,24 +31,26 @@
 
 ** Diagnostic Testing
 - CMA, karyotype for mosaic isochromosome 12p (i(12p))
+  - loss of q arm duplication of p arm
 
 ** Genetic Counselling
 - not inherited
 
 * Triploidy
 ** Clinical Characteristics
-Triploidy can result from either two sperm fertilizing one egg
-(polyspermy) (60%) or from one sperm fertilizing an egg with two
-copies of every chromosome (40%)
-
-- Many organ systems are affected by triploidy, but the central
-  nervous system and skeleton are the most severely affected:
-  - holoprosencephaly, hydrocephalus, ventriculomegaly, Arnold–Chiari
+- triploidy can result from
+  - two sperm fertilizing one egg (polyspermy) (60%)
+  - one sperm fertilizing an egg with two copies of every chromosome
+    (40%)
+- most fetuses do not survive to birth
+- many organ systems are affected by triploidy, but the central
+  nervous system and skeleton are the most severely affected
+  - holoprosencephaly, hydrocephalus, ventriculomegaly, Arnold-Chiari
     malformation, agenesis of the corpus callosum and neural tube
     defects
-- Skeletal manifestations include cleft lip/palate, hypertelorism,
+- skeletal manifestations include cleft lip/palate, hypertelorism,
   club foot and syndactyly of fingers three and four
-- Congenital heart defects, hydronephrosis, omphalocele and
+- congenital heart defects, hydronephrosis, omphalocele and
   meningocele (spina bifida) are also common
 - IUGR
 
@@ -67,7 +69,7 @@ copies of every chromosome (40%)
 - often die within their first days or weeks of life
 
 ** Diagnostic Testing
-- CMD, RAD, karyotype
+- CMA, RAD, karyotype
 
 ** Genetic Counselling
 - 1 in 16,000 newborns
@@ -84,7 +86,7 @@ copies of every chromosome (40%)
   severe intellectual disability
 
 ** Diagnostic Testing
-- CMD, RAD, karyotype
+- CMA, RAD, karyotype
 
 ** Genetic Counselling
 - 1 in 5000 live-born infants
@@ -98,13 +100,13 @@ copies of every chromosome (40%)
   - intellectual disability is usually mild to moderate
 - ~50% have heart defects
 ** Diagnostic Testing
-- CMD, RAD, karyotype
+- CMA, RAD, karyotype
 
 ** Genetic Counselling
 - 1 in 800 newborns
 - women of any age can have a child with trisomy 21
   - increases with maternal age 
-* Klinefelter syndrome
+* Klinefelter Syndrome
 ** Clinical Characteristics
 - boys and men, affects physical and intellectual development
 - taller than average and infertile
@@ -116,7 +118,7 @@ copies of every chromosome (40%)
 
 ** Genetic Counselling
 - not inherited
-* Fanconi anemia
+* Fanconi Anemia
 ** Clinical Characteristics
 - physical abnormalities, bone marrow failure, and increased risk for
   malignancy
@@ -127,9 +129,7 @@ copies of every chromosome (40%)
 
 ** Diagnostic Testing
 - established in a proband with increased chromosome breakage and
-  radial forms on cytogenetic testing of lymphocytes with
-  diepoxybutane (DEB) and mitomycin C (MMC)
-
+  radial forms on cytogenetic testing of lymphocytes
 - diagnosis is confirmed by identification of one of the following:
   - biallelic pathogenic variants in one of the 19 genes known to
     cause autosomal recessive FA
@@ -139,22 +139,24 @@ copies of every chromosome (40%)
 ** Genetic Counselling
 - AR, AD (RAD51) or X-linked (FANCB)
 
-* Ataxia-telangiectasia
+* Ataxia-Telangiectasia
 ** Clinical Characteristics
 - progressive cerebellar ataxia beginning between ages one and four
   years, oculomotor apraxia, choreoathetosis, telangiectasias of the
-  conjunctivae, immunodeficiency, frequent infections, and an
-  increased risk for malignancy, particularly leukemia and lymphoma
+  conjunctivae (enlarged capillaries just below surface)
+- immunodeficiency, frequent infections, and an increased risk for
+  malignancy, particularly leukemia and lymphoma
+- genome instability syndrome
 ** Diagnostic Testing
 - diagnosis is established by the presence of biallelic (homozygous or
   compound heterozygous) ATM pathogenic variants or (when available)
   by immunoblotting to test for absent or reduced ATM protein
-
+- cytogenetic evidence of genome instability 
 ** Genetic Counselling
-- AR, ATM
+- AR ATM
 * Williams syndrome
 ** Clinical Characteristics
-- cardiovascular disease :elastin arteriopathy, peripheral pulmonary
+- cardiovascular disease elastin arteriopathy, peripheral pulmonary
   stenosis, supravalvar aortic stenosis, hypertension
 - distinctive facies, connective tissue abnormalities, intellectual
   disability (usually mild)
@@ -176,7 +178,7 @@ copies of every chromosome (40%)
 ** Clinical Characteristics
 - a contiguous gene deletion syndrome
 - included phenotypes:
-  - DiGeorge syndrome
+  - *DiGeorge syndrome*
   - Velocardiofacial syndrome
   - Conotruncal anomaly face syndrome
   - Autosomal dominant Opitz G/BBB syndrome

@@ -2,24 +2,24 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
-* Rett syndrome
+* Rett Syndrome
 ** Clinical Characteristics
-- \female Classic Rett syndrome :: a progressive neurodevelopmental
+- \female{} Classic Rett syndrome :: a progressive neurodevelopmental
   disorder primarily affecting girls, is characterized by apparently
   normal psychomotor development during the first six to 18 months of
   life, followed by a short period of developmental stagnation, then
   rapid regression in language and motor skills, followed by long-term
   stability
-- \male Severe neonatal-onset encephalopathy :: the most common
+- \male{} Severe neonatal-onset encephalopathy :: the most common
   phenotype in affected males, is characterized by a relentless
   clinical course that follows a metabolic-degenerative type of
   pattern, abnormal tone, involuntary movements, severe seizures, and
-  breathing abnormalities. Death often occurs before age two years.
+  breathing abnormalities. Death often occurs before age two years
 ** Diagnostic Testing
-- the diagnosis of a MECP2 disorder is established by molecular
-  genetic testing in a female proband with suggestive findings and a
+- diagnosis of a MECP2 disorder is established by molecular genetic
+  testing in a female proband with suggestive findings and a
   heterozygous MECP2 pathogenic variant, and in a male proband with
-  suggestive findings and a hemizygous MECP2 pathogenic variant.
+  suggestive findings and a hemizygous MECP2 pathogenic variant
 ** Genetic Counselling
 - XL MECP2
 - \gt 99% are simplex cases (i.e., a single occurrence in a family),
@@ -32,8 +32,9 @@ AKA Hereditary Neuropathy with Pressure Palsies
 - characterized by repeated focal pressure neuropathies such as carpal
   tunnel syndrome and peroneal palsy with foot drop
 - first attack usually occurs in the second or third decade
-- recovery from acute neuropathy is often complete; when recovery is
-  not complete, the resulting disability is usually mild
+- recovery from acute neuropathy is often complete
+  - when recovery is not complete, the resulting disability is usually
+    mild
 - some affected individuals also have signs of a mild to moderate
   peripheral neuropathy
 ** Diagnostic Testing
@@ -42,11 +43,11 @@ AKA Hereditary Neuropathy with Pressure Palsies
   autosomal dominant inheritance
 - PMP22 is the only gene known to be associated with HNPP
 - a contiguous gene deletion of chromosome 17p11.2 that includes PMP22
-  is present in approximately 80% of affected individuals; the
-  remaining 20% have a pathogenic variant in PMP22
+  is present in approximately 80% of affected individuals
+  - the remaining 20% have a pathogenic variant in PMP22
 ** Genetic Counselling
 - AD PMP22
-* Spinal muscular atrophy
+* Spinal Muscular Atrophy
 ** Clinical Characteristics
 - characterized by muscle weakness and atrophy resulting from
   progressive degeneration and irreversible loss of the anterior horn
@@ -62,7 +63,7 @@ AKA Hereditary Neuropathy with Pressure Palsies
   reflexes, evidence of motor unit disease
 - identification of biallelic pathogenic variants in SMN1 on
   molecular genetic testing
-- increases in SMN2 copy number often modify the phenotype
+- increases in SMN2 copy number often moderate the phenotype
 
 #+CAPTION[]:Algorithm for SMA
 #+NAME: fig:sma

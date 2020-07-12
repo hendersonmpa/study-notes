@@ -3,23 +3,23 @@
 #+DATE: \today
 
 
-- Acute intermittent porphyria
-- Alpha-1 antitrypsin deficiency
-- Canavan disease
-- Gaucher disease
-- Homocystinuria (CBS deficiency)
-- Hurler syndrome
-- I cell disease
-- MCAD deficiency 
-- Mitochondrial DNA mutations
-  - MERRF/MELAS/LHON, mtDNA deletion syndromes
-- Ornithine transcarbamylase (OTC) deficiency
-- Peroxisome biogenesis disorder (Zellweger)
+- Acute Intermittent Porphyria
+- Alpha-1 Antitrypsin Deficiency
+- Canavan Disease
+- Gaucher Disease
+- Homocystinuria (CBS Deficiency)
+- Hurler Syndrome
+- I-Cell Disease
+- MCAD Deficiency 
+- Mitochondrial DNA Mutations
+  - MERRF/MELAS/LHON, mtDNA Deletion Syndromes
+- Ornithine Transcarbamylase (OTC) Deficiency
+- Zellweger Syndrome
 - Phenylketonuria
-- Pompe disease
+- Pompe Disease
 - Tay Sachs Disease
-- Tyrosinemia type I
+- Tyrosinemia Type I
 - X-linked Adrenoleukodystrophy
-- Wilson disease
-- Hyperprolinemia type I
+- Wilson Disease
+- Hyperprolinemia Type I
 
