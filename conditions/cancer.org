@@ -10,12 +10,12 @@
             angiofibromas, shagreen patches, fibrous cephalic plaques,
             ungual fibromas
   - brain :: subependymal nodules, cortical dysplasias, and
-             subependymal giant cell astrocytomas [SEGAs], seizures,
+             subependymal giant cell astrocytomas (SEGAs), seizures,
              intellectual disability / developmental delay,
              psychiatric illness
   - kidney :: angiomyolipomas, cysts, renal cell carcinomas
   - heart :: rhabdomyomas, arrhythmias
-  - lungs :: lymphangioleiomyomatosis [LAM], multifocal micronodular
+  - lungs :: lymphangioleiomyomatosis (LAM), multifocal micronodular
              pneumonocyte hyperplasia.
 - CNS tumors are the leading cause of morbidity and mortality
 - renal disease is the second leading cause of early death.
@@ -56,7 +56,7 @@
 
 ** Genetic Counselling
 - germline pathogenic variants in BRCA1 and BRCA2 are inherited in an
-  autosomal dominant manner
+  *autosomal dominant* manner
 - majority of individuals with a BRCA1 or BRCA2 pathogenic variant
   have inherited it from a parent
 - \because incomplete penetrance, variable age of cancer development,
@@ -89,7 +89,7 @@
 - bone marrow biopsy is often performed as part of the evaluation for CML
 - CML is diagnosed by cytogenetics that detects the translocation
   t(9;22)(q34;q11.2) which involves the ABL1 gene in chromosome 9 and
-  the BCR gene in chromosome 22.
+  the BCR gene in chromosome 22
   - \because of this translocation, the chromosome looks smaller than
     its homologue chromosome, and is known as the Philadelphia
     chromosome
@@ -127,7 +127,7 @@
   germline pathogenic variant in APC
 
 ** Genetic Counselling
-- AD
+- AD APC
 - ~75%-80% of individuals with an APC-associated polyposis condition
   have an affected parent
 ** Pathophysiology
@@ -169,7 +169,7 @@
   syndrome have a parent who had cancer
   
 ** Pathophysiology
-- EPCAM 2p21 :: Epithelial cell adhesion molecule
+- EPCAM 2p21 :: epithelial cell adhesion molecule
   - recurrent germline deletions of the 3' region result in silencing
     of the adjacent downstream MSH2 by hypermethylation
   - the adjacent MSH2 allele itself is not mutated
@@ -178,7 +178,7 @@
 - MLH1 3p22​.2 :: DNA mismatch repair protein
 - MSH2 2p21-p16 :: DNA mismatch repair protein
 - MSH6 2p16​.3 :: DNA mismatch repair protein
-- PMS2 7p22​.1 :: Mismatch repair endonuclease
+- PMS2 7p22​.1 :: mismatch repair endonuclease
 
 * Li-Fraumeni Syndrome
 ** Clinical Characteristics
@@ -256,8 +256,8 @@
           tumor), family history of retinoblastoma, or RB1 pathogenic
           variant identified in blood
 
-** Genetic Counseling
-- AD
+** Genetic Counselling
+- AD RB1
 - individuals with heritable retinoblastoma have a heterozygous /de
   novo/ or inherited germline RB1 pathogenic variant
 - susceptibility is AD mode of action similar to AR

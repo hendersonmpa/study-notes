@@ -3,7 +3,7 @@
 #+DATE: \today
 
 
-* Alzheimer disease
+* Alzheimer Disease
 ** Clinical Characteristics
 - characterized by dementia that typically begins with subtle and
   poorly recognized failure of memory and slowly becomes more severe
@@ -14,7 +14,7 @@
   - pathogenic variants in
 ** Genetic Counselling
 - AD APP PSEN1 PSEN2
-* Congenital hearing loss
+* Congenital Hearing Loss
 ** Clinical Characteristics
 - hearing loss present at birth
 ** Diagnostic Testing
@@ -45,4 +45,5 @@
 
 ** Genetic Counselling
 - HLA-DQA1, HLA-DQB1, and HLA-DRB1
-
+- a predisposition to develop type 1 diabetes is passed through
+  generations in families, but the inheritance pattern is unknown
