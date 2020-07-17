@@ -1,0 +1,63 @@
+#+TITLE: Oxalate
+#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+DATE: \today
+
+
+* Primary Hyperoxalouria 
+- the three known types of primary hyperoxaluria (PH) are
+  - PH1 (due to mutation of AGXT)
+  - PH2 (mutation of GRHPR)
+  - PH3 (mutation of HOGA1)
+- each gene encodes an enzyme for different metabolic pathways
+  relevant for the metabolism of glyoxylate
+- of the primary hyperoxalurias, approximately
+  - 70% PH1
+  - 10% PH2
+  - 10% PH3
+  - 10% do not have an identified genetic cause
+- the clinical manifestations of the three known types of
+  PH overlap considerably
+** Clinical Presentation
+- risk for recurrent
+  - nephrolithiasis - deposition of calcium oxalate in the renal pelvis and urinary tract
+  - nephrocalcinosis - deposition of calcium oxalate in the renal parenchyma
+  - end-stage renal disease (ESRD)
+- age at onset of symptoms ranges from infancy to the sixth decade
+- systemic calcium oxalate deposition (systemic oxalosis) not observed in PH3
+** Metabolic Derangement
+*** PH1
+- deficiency of *liver peroxisomal enzyme alanine:glyoxylate-aminotransferase (AGT)*
+  - conversion of glyoxylate to glycine
+- when AGT activity is absent, glyoxylate is converted to oxalate,
+  which forms insoluble calcium oxalate crystals that accumulate in
+  the kidney and other organs
+*** PH2
+- deficiency of  *glyoxylate reductase/hydroxypyruvate reductase (GR/HPR)*
+  - reduction of glyoxylate to glycolate, using the cofactor NADH or NADPH
+*** PH3
+- deficiency of *4-hydroxy-2-oxoglutarate aldolase*
+  - conversion of 4-hydroxy-2-oxoglutarate to pyruvate and glyoxylate
+** Genetics
+- PH1 :: AR AGXT
+- PH2 :: AR GRHPR
+- PH3 :: AR HOGA1
+** Diagnostic Tests
+- differences in urinary metabolites other than oxalate can provide
+  clues regarding the most likely type of PH
+
+  - \uparrow urinary glycolate in PH1 or occasionally in PH3
+  - \uparrow urine glycerate in most individuals with PH2
+  - \uparrow 4-hydroxy-2-oxoglutarate (HOG) in PH3
+    -  undetectable in PH1 and PH2
+
+#+CAPTION[]:Diagnosis of Primary Hyperoxaluria
+#+NAME: fig:phdiag
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/phdiag.png]]
+
+** Treatment
+- \uparrow fluid intake
+- alkalinization of urine with potassium citrate
+- limit oxalate intake may be helpful
+  - oxalate excess is due to endogenous formation
+- prevent kidney injury
