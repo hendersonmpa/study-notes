@@ -2,7 +2,7 @@
 #+AUTHOR: Matthew Henderson, PhD, FCACB
 #+DATE: \today
 
-* Cri du chat syndrome
+* Cri du Chat Syndrome
 ** Clinical Characteristics
 - AKA 5p- (5p minus) syndrome
 - infants often have a high-pitched cry that sounds like that of a
@@ -23,7 +23,7 @@
 - most cases are not inherited, result of a /de novo/ deletion
 - ~ 10 percent of people with cri-du-chat syndrome inherit the
   chromosome abnormality from an unaffected parent with a balanced translocation
-* Pallister-Killian syndrome
+* Pallister-Killian Syndrome
 ** Clinical Characteristics
 - hypotonia in infancy and early childhood
 - intellectual disability, distinctive facial features, sparse hair,
@@ -154,7 +154,7 @@
 - cytogenetic evidence of genome instability 
 ** Genetic Counselling
 - AR ATM
-* Williams syndrome
+* Williams Syndrome
 ** Clinical Characteristics
 - cardiovascular disease elastin arteriopathy, peripheral pulmonary
   stenosis, supravalvar aortic stenosis, hypertension
@@ -174,7 +174,7 @@
 - AD
 - most /de novo/
 
-* 22q11 deletion syndrome
+* 22q11 Deletion Syndrome
 ** Clinical Characteristics
 - a contiguous gene deletion syndrome
 - included phenotypes:

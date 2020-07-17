@@ -86,7 +86,7 @@
   associated with LQTS
   - KCNH2 (LQT2), KCNQ1 (LQT1), and SCN5A (LQT3) are the most common
 ** Genetic Counselling
-- AD
+- AD KCNH2 KCNQ1 SCN5A
 * Marfan Syndrome
 ** Clinical Characteristics
 - a systemic disorder of connective tissue with a high degree of
@@ -105,7 +105,7 @@
   - ectopia lentis - lens dislocation
 
 ** Genetic Counselling
-- AD 
+- AD FBN1
 - \sim 75% of individuals with Marfan syndrome have an affected
   parent
 - \sim 25% have a /de novo/ FBN1 pathogenic variant
@@ -174,7 +174,7 @@
   genes
   - PTPN11, RAF1, BRAF, and MAP2K1
 ** Genetic Counselling
-- AD 
+- AD PTPN11 RAF1 BRAF MAP2K1
 * Charge Syndrome
 ** Clinical Characteristics
 - CHARGE is a mnemonic for coloboma, heart defects, choanal atresia,
@@ -198,7 +198,7 @@
 - a craniosynostosis multigene panel that includes
   - FGFR1, FGFR2, FGFR3, TCF12, and TWIST1
 ** Genetic Counselling
-- AD
+- AD FGFR1 FGFR2 FGFR3 TCF12 TWIST1
 * Factor V Leiden Thrombophilia
 ** Clinical Characteristics
 - characterized by a poor anticoagulant response to activated protein
@@ -376,7 +376,7 @@
 - heterozygous F9 pathogenic variant on in a symptomatic female
   confirms the diagnosis.
 ** Genetic Counselling
-- X-linked, F9
+- X-linked F9
 
 * Hemochromatosis
 ** Clinical Characteristics
@@ -404,7 +404,7 @@
   is an adult-onset, treatable disorder with low clinical
   penetrance
 
-* SRY translocation
+* SRY Translocation
 - Nonsyndromic 46,XX Testicular Disorders of Sex Development
 ** Clinical Characteristics
 - characterized by the presence of a 46,XX karyotype
@@ -488,7 +488,7 @@
     pituitary gland
   - and/or a hemizygous pathogenic variant in AR 
 ** Genetic Counselling
-- X-linked
+- X-linked AR
 - affected 46,XY individuals are almost always infertile
 * 21-Hydroxylase Deficiency
 ** Clinical Characteristics

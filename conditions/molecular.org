@@ -18,7 +18,7 @@
 - diagnosis of CF is established in an infant with:
   - elevated NBS IRT and
   - identification of biallelic CFTR pathogenic variants or
-  - an elevated sweat chloride.
+  - an elevated sweat chloride
     - quantitative pilocarpine iontophoresis sweat chloride values (>60 mmol/L in infants age > 6 months) 
 ** Genetic Counselling
 - AR CFTR
@@ -45,12 +45,12 @@
   FGFR3 can establish the diagnosis.
 
 ** Genetic Counselling
-- AD, FGFR3
+- AD FGFR3
 - ~80% of individuals with achondroplasia have parents with average
   stature and have achondroplasia as the result of a /de novo/
-  pathogenic variant.
+  pathogenic variant
   - these parents have a very low risk of having another child with
-    achondroplasia.
+    achondroplasia
 
 * Huntington Disease
 ** Clinical Characteristics
