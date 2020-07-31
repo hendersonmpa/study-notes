@@ -31,13 +31,12 @@
 [[file:./figures/cystine.png]]
 
 ** Neutral  Amino Acids
-- alanine, asparagine, citrulline, glutamine, histidine, isoleucine,
-  leucine, phenylalanine, serine, threonine, tryptophan, tyrosine
-  and valine 
 - transporter system for neutral amino acids is expressed only at the
   luminal border of epithelial cells
 - it transports neutral amino acids into epithelial cells
-
+- alanine, asparagine, citrulline, glutamine, histidine, isoleucine,
+  leucine, phenylalanine, serine, threonine, tryptophan, tyrosine
+  and valine 
 ** Dicarboxylic Amino Acids
 - dicarboxylic amino acids (aspartate, glutamate) have a specific
   transporter EAAT3, located at the luminal border
@@ -57,13 +56,11 @@
   eventually renal failure are possible complications
 
 ** Metabolic Derangement
-- defect in the high-affinity luminal transporter for cystine and the
-  dibasic amino acids at the apical side of the epithelial cells of
-  the proximal renal tubule and in jejunal mucosa 
-  - system b^{0,+} consisting of two protein subunits rBAT and b^{0,+}AT
-- absorption of cystine in the intestine and its reabsorption in the
-  kidney is reduced
-- normally 99% of filtered cystine is reabsorbed
+- defective *cystine and the dibasic amino acids transporter system*
+  *b^{0,+}* from the intestine or renal tubule into epithelial cells
+- \downarrow absorption of cystine in the intestine and \downarrow
+  reabsorption in the kidney
+  - normally 99% of filtered cystine is reabsorbed
 - cystine is poorly soluble at neutral or low pH
 
 ** Genetics
@@ -80,7 +77,7 @@
 - cystine stones IR-spectroscopy
 - cyanide nitroprusside test
   - reacts with cystine \to purple colour
-- urine amino acids
+- urine amino acids ("COLA")
   - \Uparrow cystine
   - \uparrow arginine
   - \uparrow ornithine
@@ -89,6 +86,7 @@
 ** Treatment
 - \uparrow fluid intake
 - alkalinisation of urine
+- cysteine chelation with penicillamine
 
 * Lysinuric Protein Intolerance
 ** Clinical Presentation
@@ -106,18 +104,17 @@
   - impairs amino acid intake \to amino acid deficiencies
 
 ** Metabolic Derangement
-- transport of the dibasic cationic amino acids lysine, arginine and
-  ornithine is defective at the basolateral membrane of epithelial
-  cells in the renal tubules and small intestine where y^+LAT1
-  combines with 4F2hc to generate an active amino acid transporter
-- massive amounts of lysine and more moderate amounts of arginine and
-  ornithine are lost in the urine
+- defective *dibasic cationic amino acid transporter y^{+}LAT1* in the
+  basolateral membrane of epithelial cells in the renal tubules and
+  small intestine
+  - massive amounts of lysine and more moderate amounts of arginine and
+    ornithine are lost in the urine
 - intestinal absorption is limited \to low plasma concentrations
 - glutamine, glycine and alanine concentrations are often elevated due
   to malfunction of the urea cycle
-- hyperammonaemia after protein ingestion and diminished protein
-  tolerance in LPI resemble the symptoms of urea cycle enzyme
-  deficiencies
+- *hyperammonaemia after protein ingestion and diminished protein*
+  *tolerance in LPI resemble urea cycle disorders*
+
   - best explained by functional deficiency of the intermediates
     arginine and ornithine in hepatocytes
 - carnitine deficiency due to:
@@ -126,13 +123,11 @@
 
 ** Genetics
 - AR SLC7A7
-  - y^+LAT-1 the light subunit of the dibasic amino acid
-    transporter
 
 ** Diagnostic Tests
 - combination of increased urinary excretion and low plasma
-  concentrations of the cationic amino acids, especially lysine
-- urine amino acids
+  concentrations of the dibasic amino acids, especially lysine
+- urine amino acids ("OLA")
   - \uparrow lysine
   - \uparrow arginine
   - \uparrow ornithine
@@ -166,12 +161,12 @@
 - classical symptoms of Hartnup disease are pellagra-like dermatitis,
   intermittent ataxia and neuropsychiatric abnormalities
   - resembles nutritional niacin deficiency
-- identified by newborn urine amino acid screening
+- can be identified by newborn urine amino acid screening
   - most remain asymptomatic
 
 ** Metabolic Derangement
-- defective sodium-dependent and chloride-independent neutral amino
-  acid transporter, B^{0}AT1 facing into the lumen of the renal proximal
+- defective *sodium-dependent and chloride-independent neutral amino*
+  *acid transporter, B^{0}AT1* facing into the lumen of the renal proximal
   tubule and intestinal epithelium
 - impair intestinal uptake and tubular reabsorption of all the neutral
   amino acids

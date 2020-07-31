@@ -5,7 +5,7 @@
 
 * Introduction
 - lysine, hydroxylysine and tryptophan are thought to be degraded
-  within the mitochondrion
+  within mitochondria
 
 #+BEGIN_EXPORT LaTeX
 \begin{center}
@@ -47,15 +47,15 @@
     acids
 - 3-hydroxybutyryl-CoA is then converted to acetoacetyl-CoA by
   3-hydroxyacyl-CoA dehydrogenase (Figure [[fig:cat]] enzyme 9)
-- glutaric acid which may derive from the intestinal microbiome,
-  spontaneous disintegration of glutaryl-CoA or other sources, is
-  normally reactivated by succinyl-CoA-dependent conversion of
-  succinate-hydroxymethylglutarate CoA transferase to glutaryl-CoA
-  (Figure [[fig:cat]] enzyme 10)
+- glutaric acid is derived from the intestinal microbiome, spontaneous
+  disintegration of glutaryl-CoA or other sources
+  - normally reactivated by succinyl-CoA-dependent conversion via
+    succinate-hydroxymethylglutarate CoA transferase to glutaryl-CoA
+    (Figure [[fig:cat]] enzyme 10)
 
 - six enzyme deficiencies identified in the degradation of lysine,
   only four \to neurometabolic disorders:
-  - antiquitin (see section Vitamin B_6)
+  - antiquitin (Section Vitamin B_6)
   - KGDH - alternative route for lysine catabolism
   - glutaryl-CoA dehydrogenase
   - crotonase 
@@ -66,16 +66,15 @@
   extrapyramidal symptoms, metabolic stroke, and macrocephaly
   - glutaric aciduria
   - 2-hydroxyglutaric aciduria
-  - \gamma-hydroxybutyric aciduria (see section GABA)
+  - \gamma-hydroxybutyric aciduria (Section Neurotransmitters)
   - N-acetylaspartic aciduria 
 - in all these disorders the pathological compounds that accumulate
   either are odd-chain dicarboxylic acids
-  - 3-hydroxyglutarate, glutarate
+  - 2-hydroxyglutarate, 3-hydroxyglutarate, glutarate, N-acetylaspartate
     - sharing the same carbon backbone with the excitatory amino acid
       glutamate (2-amino-glutarate)
   - or neurotransmitters/negative modulators
     - \gamma-hydroxybutyrate
-    - N-acetylaspartylglutamate
 
 #+CAPTION[]:Tryptophan, hydroxylysine and lysine catabolic pathways
 #+NAME: fig:cat
@@ -99,7 +98,7 @@
   - usually associated with an upper respiratory and/or
     gastrointestinal infection
 ** Metabolic Derangement
-- deficiency of glutaryl-CoA dehydrogenase a mitochondrial
+- deficiency of *glutaryl-CoA dehydrogenase* a mitochondrial
   FAD-requiring enzyme
 - catalyses the dehydrogenation of glutaryl-CoA and subsequent
   decarboxylation of glutaconyl-CoA to crotonyl-CoA
@@ -117,7 +116,7 @@
 
 - impaired brain energy metabolism induced by accumulating glutaric
   acid, 3-hydroxyglutaric acid and glutaryl-CoA:
-  - glutaryl-CoA inhibits 2-oxoglutarate dehydrogenase complex
+  - glutaryl-CoA inhibits \alpha-ketoglutarate dehydrogenase complex (KGDH)
   - glutaric acid impairs the dicarboxylic acid shuttle between
     astrocytes and neurons
   - 3-hydroxyglutaric acid weakly activates glutamatergic neurotransmission
@@ -133,12 +132,12 @@
 ** Diagnostic Tests
 - low excretors: deficiency of glutaryl-CoA dehydrogenase and severe
   characteristic neurological disease but with only slight or
-  inconsistent elevations of glutaric acid or glutarylcarnitine
+  inconsistent elevations of glutaric acid or glutaryl-carnitine
 - \uparrow glutaric acid and 3-OH glutaric acid by UOA
   - 3-OH glutaric acid in urine has a high sensitivity including
     - low-excretor phenotype
     - secondary carnitine depletion
-- \uparrow glutarylcarnitine (C5DC)
+- \uparrow glutaryl-carnitine (C5DC)
 - \downarrow plasma carnitine
 - \Uparrow acylcarnitines:free carnitine in urine and plasma
 
@@ -149,7 +148,7 @@
   - \uparrow CHO feeds, carnitine supplementation
   - lysine free amino acids
 - oral supplementation w carnitine and riboflavin
-- lysine-free, tryptophan-reduced and arginine-enriched amino acid
+- lysine free, tryptophan reduced and arginine enriched amino acid
   mixtures aims to minimise the risk of malnutrition
 
 * L or D 2-Hydroxyglutaric Aciduria
@@ -159,11 +158,13 @@
  - D2 :: more variable than L2
 
 ** Metabolic Derangement
- - L2 :: FAD-linked 2-hydroxyglutarate dehydrogenase
-   - mitochondrial enzyme converts L-2-hydroxyglutarate to
-     2-oxoglutarate
- - D2 :: D-2-hydroxyglutarate dehydrogenase
-   - enzyme converts D-2-hydroxyglutarate to 2-oxoglutarate
+- 2-hydroxyglutarate is a glutaric acid metabolite 
+  - L2 :: FAD-linked 2-hydroxyglutarate dehydrogenase
+    - mitochondrial enzyme converts L-2-hydroxyglutarate to
+      2-oxoglutarate
+    - affected in multiple acyl-CoA dehydrogenase deficiency (MADD/GA2)
+  - D2 :: D-2-hydroxyglutarate dehydrogenase
+    - enzyme converts D-2-hydroxyglutarate to 2-oxoglutarate
 
 ** Genetics
  - L2 :: AR L2HGDH
@@ -190,12 +191,16 @@
 
 ** Metabolic Derangement
 - aspartoacylase deficiency
+
 \ce{N-acetyl-L-aspartate + H2O <=>[ASPA] carboxylate + L-aspartate}
+
 - in the brain, aspartoacylase is located in oligodendrocytes
   - hydrolyses NAA which is formed in neurons from L-aspartate and
     L-acetate
-- defective NAA catabolism \to reduced brain acetate levels and myelin
-  lipid synthesis
+- \uparrow NAA results in
+  - \downarrow brain acetate levels
+  - \downarrow myelin lipid synthesis
+  - altered cerebral fluid balance
 
 ** Genetics
 - AR ASPA

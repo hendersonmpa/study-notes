@@ -10,11 +10,13 @@
 \chemname{\chemfig{H_3C-[1]S-[7]-[1]-[7](<[6]NH_2)-[1](=[2]O)-[7]OH}}{\small methionine}
 \chemnameinit{}
 \chemname{\chemfig{HS-[7]-[1]-[7](<[6]NH_2)-[1](=[2]O)-[7]OH}}{\small homocysteine}
+\chemnameinit{}
+\chemname{\chemfig{HS-[1]-[7](<[6]NH_2)-[1](=[2]O)-[7]OH}}{\small cysteine}
 \end{center}
 #+END_EXPORT
 
 
-#+CAPTION[]: Cysteine vs Cystine
+#+CAPTION[]: Cysteine and Cystine
 #+NAME: fig:cys
 #+ATTR_LaTeX: :width 0.4\textwidth
 [[file:./figures/cys.jpg]]
@@ -35,7 +37,7 @@
      by the *transsulfuration pathway*
      - homocysteine and serine are condensed by cystathionine
        \beta-synthase (CBS) to cystathionine
-     - cystathionine is cleaved by cystathionine \gamma-lyase (CTH) to
+     - cystathionine is cleaved by cystathionine \gamma-lyase (CTH, AKA cystathionase) to
        form cysteine and \alpha-ketobutyrate
 - CTH can use cysteine and/or homocysteine to synthesize hydrogen
   sulfide
@@ -43,7 +45,7 @@
   - in a series of reactions to taurine
   - via the mitochondrial enzymes, AST and 3-mercaptopyruvate
     sulfurtransferase (MPST), to pyruvate and hydrogen sulfide
-- mitochondrial oxidation of hydrogen sulfide and of cysteine involves
+- mitochondrial oxidation of hydrogen sulfide (\ce{H2S}) and of cysteine involves
   several steps yielding thiosulfate (\ce{S2O3^2-}), sulfite
   (\ce{SO3^2-}) and finally sulfate (\ce{SO4-})
 - inorganic sulfur released from cysteine residues \to mitochondrial
@@ -51,9 +53,9 @@
 - availability of cysteine in the neonatal period is limited because
   its endogenous synthesis from methionine by the transsulfuration
   pathway is markedly attenuated
-- activity of the rate limiting enzyme in the pathway cystathionase is
-  very low at birth and increases slowly during the first few months
-  of life
+- activity of the rate limiting enzyme in the pathway cytathione
+  \gamma-lyase is very low at birth and increases slowly during the
+  first few months of life
   - cysteine is considered a conditionally essential amino acid, at
     least in preterm infants
 
@@ -78,7 +80,7 @@
     urolithiasis
 - only molybdenum cofactor deficiency type A can be treated
   successfully, with a synthetic cofactor
-
+- for methionine synthase see Cobalamin and Folate
 
 #+CAPTION[]:Sulfur Amino Acid Metabolism
 #+NAME: fig:sulfur
@@ -102,7 +104,7 @@
 - neurological abnormalities occur in most patients with plasma methionine \gt 800 μmol/l
   - rare in subjects with lower levels
 ** Metabolic Derangement
-- Methionine S-adenosyltransferase converts methionine to S-adenosylmethionine (SAM) using ATP
+- methionine S-adenosyltransferase (MAT) converts methionine to S-adenosylmethionine (SAM) using ATP
 - MAT exists in 3 forms
 - MAT I and III tetrameric and dimeric forms encoded MAT1A 
   - liver specific
@@ -143,14 +145,14 @@
 \ce{homocysteine ->[CBS] cystathionine}
 
 - expressed predominantly in liver, pancreas, kidney and brain
-- activity can also be determined in cultured fibroblasts and in plasma
-  due to its release from the liver
+  - activity can also be determined in cultured fibroblasts and in plasma
+    due to its release from the liver
 - catalytic domain binds heme, PLP and substrates
 - regulatory domain binds the allosteric activator SAM
 - pathophysiology is not fully understood
   - \uparrow SAH impairs methylation reaction
   - \uparrow homocysteine \to ER stress, vascular disease
-  - enhanced remethylation methionine
+  - enhanced remethylation \to \uparrow methionine
   - depletion of cystathionine and cysteine \to apoptosis, oxidative
     stress, \Delta protein structure.
 
@@ -187,7 +189,8 @@
   renal stones can develop later
 
 ** Metabolic Derangement
-- molybdenum cofactor (MoCo) synthesis involves three steps:
+- molybdenum cofactor (MoCo) is a molybdenum containing ptern,
+  synthesis involves three steps:
   - MoCo deficiency type A :: affects the conversion of GTP to cyclic
        pyranopterin monophosphate (cPMP)
   - MoCo deficiency type B ::  cannot convert cPMP to molybdopterin
@@ -217,7 +220,9 @@
 - sulfite (SO_3^{2-}) can be detected in fresh urine using dipsticks but false
   positive and negative results occur
 - \uparrow urine or blood S-sulfocysteine is a more reliable indicator
-\ce{SO3^2- + cystine -> S-sulfocysteine}
+
+\ce{SO3^2- + cystine ->[unknown] S-sulfocysteine}
+
   - S-sulfocysteine accumulation \to inhibition of antiquitin
     - secondary elevation of pipecolic acid
 - \uparrow plasma taurine and thiosulfate
@@ -234,11 +239,15 @@
 ** Clinical Presentation
 - resembles MoCo deficiency
 ** Metabolic Derangement
-- sulfite derived from cysteine is normally oxidised to form
-  sulfate
-- in sulfite oxidase deficiency, accumulating sulfite damages the brain
+- in *sulfite oxidase* deficiency accumulating sulfite damages the
+  brain
   - partly due to the production of sulfocysteine, which
     mediates excitotoxicity
+
+\ce{SO3^2- + cystine ->[unknown] S-sulfocysteine}
+
+- sulfite derived from cysteine is normally oxidised to form
+  sulfate
 - sulfite probably causes lens dislocation by disrupting cystine
   cross-linkages 
 ** Genetics
@@ -248,7 +257,6 @@
 - sulfite can be detected in fresh urine using dipsticks
   - not reliable
 - \uparrow urine or blood S-sulfocysteine
-\ce{SO3^2- + cystine -> S-sulfocysteine}
   - S-sulfocysteine accumulation \to inhibition of antiquitin
     - secondary elevation of pipecolic acid
 - \uparrow plasma taurine
@@ -272,15 +280,15 @@
 - most die in early childhood, though some have a milder course
 
 ** Metabolic Derangement
-- deficiency of a mitochondrial persulfide dioxygenase necessary for the
-  detoxification of hydrogen sulfide (\ce{H2S})
+- deficiency of a *mitochondrial persulfide dioxygenase* necessary for
+  the detoxification of hydrogen sulfide (\ce{H2S})
 - \ce{H2S} is synthesized endogenously by CBS, CTH and
   3-mercaptosulfur transferase
   - also formed by bacterial anaerobes in the large intestine
 - in EE accumulating \ce{H2S} inhibits cytochrome c oxidase and
   short-chain fatty acid oxidation
-  - results in ethylmalonic aciduria, and raised C4 and
-    C5 acylcarnitines in blood
+  - results in ethylmalonic aciduria, and raised butyrl-carnitine (C4)
+    and isovaleryl-carnintine (C5) in blood
 - \ce{H2S} also has vasoactive and vasotoxic effects
   - damage to small blood vessels causes bleeding into the
     skin
@@ -291,8 +299,8 @@
 ** Diagnostic Tests
 - \uparrow lactate
 - \uparrow urine ethylmalonic and methylsuccinic
-- \uparrow urine C4 and C5 acylglycines
-- \uparrow plasma C4 and C5 acylcarnitines
+- \uparrow urine butyrlglycine isovalerylglycine
+- \uparrow plasma butyrl-carnitine (C4) and isovaleryl-carnintine (C5)
 - \Uparrow urine thiosulfate is also markedly elevated
 - diagnosis is confirmed by mutation analysis
 

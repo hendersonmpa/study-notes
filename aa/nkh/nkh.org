@@ -4,7 +4,7 @@
 
 * Introduction
 - Non-Ketotic Hyperglycinemia (NKH) is a genetic disorder characterized
-  by deficient activity of the glycine cleavage enzyme
+  by deficient activity of the *glycine cleavage system (GCS)*
 
 #+BEGIN_EXPORT LaTeX
 \begin{center}
@@ -14,7 +14,7 @@
 #+END_EXPORT
 
 - classic NKH is caused by mutations in genes that encode the protein
-  components of the glycine cleavage enzyme system (GCS)
+  components of the GCS
   - based on the clinical severity and developmental outcome classic
     NKH is further divided into:
     - severe classic NKH
@@ -27,24 +27,24 @@
        - lipoate is a cofactor for:
 	 - GCS
 	 - pyruvate dehydrogenase (PDH)
-	 - 2-ketoglutarate dehydrogenase (KDH)
+	 - \alpha-ketoglutarate dehydrogenase (KGDH)
 	 - branched chain ketoacid dehydrogenase (BCKDH)
        - lipoate disorders are also called multiple mitochondrial dysfunction
 	 syndromes
-    2. pyridox(am)ine 5-phosphate oxidase deficiency
+    2. pyridox(am)ine 5-phosphate oxidase (PNPO) deficiency
        - leads to reduced activity of a large number of
-         pyridoxal-P-dependent reactions including the GCS
+         pyridoxal-P dependent reactions including the GCS
 - phenocopies of NKH historically called transient NKH are non-genetic
   secondary causes of elevated plasma and CSF glycine levels
 - atypical NKH is a heterogeneous historic term, which should no
   longer be used
 
-#+CAPTION[]:Glycine cleavage enzyme
+#+CAPTION[]:Glycine Cleavage System
 #+NAME: fig:glyc
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./figures/gce.png]]
 
-#+CAPTION[]:Lipoate
+#+CAPTION[]:Activation of Lipoate Dependant Enzymes
 #+NAME: fig:lip
 #+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./figures/lip.png]]
@@ -75,7 +75,7 @@
 * Metabolic Derangement
 - glycine is involved in many biochemical reactions
 - GCS breaks down glycine with tetrahydrofolate into carbon dioxide,
-  ammonia, and the generation of methylene-tetrahydrofolate
+  ammonia and methylene-tetrahydrofolate
 - four protein complex located in the mitochondrial matrix
   - H-protein carrying a lipoyl-group as the central core
 - octanoate is synthesized by intramitochondrial fatty acid synthesis
@@ -85,13 +85,14 @@
   iron-sulfur cluster to build lipoyl-H
 - lipoyltransferase 1 (LIPT1) transfers the lipoate group from
   H-protein to the E2 component of four 2-ketodehydrogenases
-- LIPT1 deficiency causes dysfunction of the E2 components
+- LIPT1 deficiency causes dysfunction of the E2 subunits of PDH, KGDH,
+  and BCKDH (Figure [[fig:lip]])
 - LIPT2 and LIAS add deficiency of the GCS
 - some disorders of iron-sulfur cluster biogenesis genes add deficient
   activity of complexes I and II of the respiratory chain and
   aconitase, which carry iron sulfur clusters
 - in NKH glycine accumulates particularly in the brain
-- glycine is an inhibitory neurotransmitter on the glycinergic
+- glycine is an inhibitory neurotransmitter for the glycinergic
   receptors in the brain stem and spinal cord
   - possibly contributing to apnea and hypotonia
 - in neuronal stem cells, the glycinergic receptor may be excitatory
@@ -112,7 +113,7 @@
 * Diagnostic Tests
 - \uparrow glycine are found in plasma, urine, and CSF
   - \uparrow plasma glycine has low specificity
-  - \uparrow CSF glycine are highly indicative of NKH
+  - \uparrow CSF glycine is highly indicative of NKH
     - avoid blood contamination
   - \uparrow CSF glycine:plasma glycine
 - valproate inhibits GCS

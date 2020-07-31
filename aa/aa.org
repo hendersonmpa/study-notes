@@ -55,7 +55,7 @@
 * Lysine and Cerebral OA Disorders
 #+INCLUDE: "./lys/lys.org" :lines "4-"
 
-* Nonketotic Hyperglycinemia
+* Non-Ketotic Hyperglycinemia
 #+INCLUDE: "./nkh/nkh.org" :lines "4-"
 
 * Glutamine, Serine and Asparagine

@@ -3,6 +3,7 @@
 #+DATE: \today
 
 * Introduction
+** Ornitine
 - ornithine is an intermediate in metabolic pathways involving the
   urea cycle, proline metabolism and the biosynthesis of creatine and
   polyamines (e.g. putrescine and spermine)
@@ -20,19 +21,22 @@
 
  \ce{ornithine + \alpha-KG <->[OAT] P5C + glutamate}
 - OAT reaction is freely reversible:
-  - during the neonatal period the net flux is in the direction of
-    ornithine and, via the urea cycle, arginine biosynthesis
-  - \gt few months of age the net flux reverses to favour arginine
-    disposal via the synthesis of \Delta1-pyrroline-5-carboxylate
-    (P5C), an intermediate in proline and glutamate synthesis
+  - *during the neonatal period the net flux is in the direction of*
+    *ornithine and, via the urea cycle, arginine biosynthesis*
+  - *\gt few months of age the net flux reverses to favour arginine*
+    *disposal via the synthesis of \Delta1-pyrroline-5-carboxylate*
+    *(P5C), an intermediate in proline and glutamate synthesis*
 - ornithine also plays an essential role as the substrate for urea assembly
 - ornithine produced in the cytoplasm from arginine is transported
   into the mitochondrial matrix by an energy-requiring transport
   system involving ORNT1
   - an antiporter in the inner mitochondrial membrane, which exchanges
     cytosolic ornithine with mitochondrial citrulline
+  - defective in HHH syndrome (Section [[HHH Syndrome]])
 - in the cytoplasm ornithine is decarboxylated to putrescine which is
   then converted to spermine
+
+** Proline
 - proline unlike all other amino acids (except hydroxyproline) has
   no primary amino group \therefore an imino acid
   - \therefore uses a specific set of enzymes for metabolism
@@ -46,10 +50,9 @@
 
 - pyridinoline ring of proline and hydroxyproline contribute to the
   structural stability of proteins particularly collagen
-- P5C is the product or precursor of the OAT reaction
-
-- P5C is precursor and degradation product of proline
-- P5C synthetase is a bifunctional ATP- and NADPH-dependent
+- P5C is the product/precursor of the OAT reaction
+- P5C is precursor/degradation product of proline
+- P5C synthetase is a bifunctional ATP and NADPH-dependent
   mitochondrial enzyme that is highly active in the gut
   - also expressed in brain catalyses the reduction of glutamate to
     P5C
@@ -112,7 +115,7 @@
   - \uparrow urine ornithine, lysine, arginine, cystine
   - secondary to competitive inhibition of shared dibasic aa renal transporter
 - differentiated from HHH by lack of homocitrulline in urine
-- difficult to distinguish *neonatal OAT* from *OTC* in both disorders:
+- *difficult to distinguish neonatal OAT from OTC* in both disorders:
   - \downarrow plasma ornithine, arginine, and citrulline
   - \uparrow urine orotic acid
 - molecular and enzyme confirmation
@@ -146,9 +149,12 @@
   - \Uparrow plasma ornithine
   - \Uparrow plasma ammonia
 - \downarrow intramitochondrial ornithine \to utilisation of
-  carbamoylphosphate by other pathways with formation of:
+  carbamoyl-phosphate by other pathways with formation of:
   - homocitrulline from lysine
   - orotic acid 
+
+\ce{carbamoyl-P + lysine -> homocitrulline}
+
 ** Genetics
 - AR ORNT1 (aka SLC24A15)
 - more frequent in Canada, as a result of a founder mutation in Quebec
@@ -156,7 +162,7 @@
 ** Diagnostic Tests
 - can be differentiated from other hyperammonaemic syndromes by laboratory findings
 - \Uparrow plasma ornithine
-- \Uparrow plasma ammonaemia
+- \Uparrow plasma ammonia
 - \uparrow urine homocitrulline
 - above triad is pathognomonic
 - plasma ornithine concentration is elevated to 3 to 10 fold
@@ -179,7 +185,6 @@
 - prognosis variable, generally good
 
 * P5CS  Deficiency
-- \Delta1-Pyrroline-5-Carboxylate Synthetase deficiency
 - Hypoprolinaemia
 ** Clinical Presentation
 - central and peripheral neurological
@@ -189,10 +194,14 @@
 - see figure [[fig:diff]] for details
 
 ** Metabolic Derangement
+- *\Delta1-Pyrroline-5-Carboxylate Synthetase (P5CS)* deficiency
+- P5CS catalyses an essential step in synthesis of proline, ornithine
+  and arginine from glutamate
+
+\ce{glutamate ->[P5CS] P5C}
+
 - pattern of metabolic abnormalities consistent with impaired proline
-  and ornithine synthesis due to deficiency of P5CS
-  - catalyses an essential step in synthesis of proline, ornithine and
-    arginine from glutamate
+  and ornithine synthesis 
 - hypoornithinaemia, hypocitrullinaemia, hypoargininaemia,
   hypoprolinaemia and mild hyperammonaemia
 
@@ -217,12 +226,15 @@
 - Hyperprolinaemia Type I
 ** Clinical Presentation
 - well tolerated in some individuals
-- in others may contribute to risk for schizophrenia or other
-  psychiatric, cognitive or behavioural abnormalities
+- may contribute to risk for schizophrenia or other psychiatric,
+  cognitive or behavioural abnormalities
 
 ** Metabolic Derangement
-- deficiency of proline oxidase a mitochondrial inner-membrane enzyme
+- deficiency of *proline oxidase* a mitochondrial inner-membrane
+  enzyme
+
 \ce{proline ->[POX] P5C}
+
 ** Genetics
 - AR PRODH
 - maps to 22q11, in the region deleted in the velocardiofacial
@@ -240,9 +252,8 @@
 - prognosis excellent
 - no treatment needed
 
-* P5CDH
+* P5CDH Deficiency
 - Hyperprolinaemia Type II
-- \Delta1-Pyrroline-5-Carboxylate Dehydrogenase Deficiency
 
 ** Clinical Presentation
 - relatively benign disorder
@@ -252,7 +263,9 @@
 - *pyrroline 5-carboxylate (P5C) dehydrogenase* deficiency
   - mitochondrial inner-membrane enzyme involved in the conversion of
     proline into glutamate
-  - \ce{P5C ->[P5CDH] Glu}
+
+  \ce{P5C ->[P5CDH] glutamate}
+
 - accumulating P5C is a vitamin B_6 antagonist due to adduct
   formation
 - seizures may be due to vitamin B_6 inactivation
@@ -261,11 +274,9 @@
 - AR ALDH4A1
 
 ** Diagnostic Tests
-- \Uparrow plasma proline
-  - usually \gt 2000 uM (normal range 100-450 uM)
-- \uparrow urine and cerebrospinal fluid (CSF) proline
-- \uparrow P5C in urine and plasma 
-
+- \Uparrow plasma proline and P5C
+  - proline \gt 2000 uM (normal range 100-450 uM)
+- \uparrow urine and CSF proline and P5C
 ** Treatment
 - seizures are pyridoxine (B_6) responsive
 
@@ -281,7 +292,7 @@
 - this is due to a deficiency of the exopeptidase prolidase (or
   peptidase D)
 ** Genetics
-- AR, PEPD
+- AR PEPD
 ** Diagnostic Tests
 - hyperimidodipeptiduria
 - low or absent prolidase activity in haemolysates or in homogenates
