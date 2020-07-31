@@ -21,7 +21,7 @@
 - due to the broad specificity of many of the enzymes, the major
   metabolites are often not those immediately proximal to the block
 
-#+CAPTION[]:Major reactions the synthesis of bile acids from cholesterol
+#+CAPTION[]:Synthesis of Bile Acids from Cholesterol
 #+NAME: fig:bile
 #+ATTR_LaTeX: :width 1.0\textwidth
 [[file:./figures/bile_synth.png]]

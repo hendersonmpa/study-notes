@@ -58,7 +58,7 @@
   - 1-10% in MKD-HIDS
 
 ** Genetics
-- AR, MVK
+- AR MVK
 - most patients are compound heterozygotes
 
 ** Diagnostic tests
@@ -94,7 +94,7 @@
 ** Metabolic Derangement
 - *7-dehydrocholesterol reductase* deficiency (Figure [[fig:chol2]])
   - catalyses the predominant final step in cholesterol biosynthesis
-    - reduction of 7-dehydrocholesterol(DHC) C7-C8 double bond \to cholesterol
+    - reduction of 7-dehydrocholesterol(7-DHC) C7-C8 double bond \to cholesterol
 
 ** Genetics
 - AR DHCR7 1:15,000-60,000

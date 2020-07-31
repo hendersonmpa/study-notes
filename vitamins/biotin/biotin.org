@@ -25,9 +25,9 @@
 - recycling of biotin first involves proteolytic degradation of the
   holocarboxylases, yielding biotin bound to lysine (biocytin) or to
   short biotinyl peptides
-- biotinidase releases biotin 
+  - biotinidase releases biotin 
 - transcription of a large number of genes, including those encoding
-  HCS and the biotin-dependent carboxylases, is regulated by biotin
+  HCS and the biotin-dependent carboxylases are regulated by biotin
 - mutations in SLC19A3 (thiamine transporter hTHTR2) cause
   biotin-responsive basal ganglia disease
 
@@ -46,7 +46,7 @@
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/Slide25.png]]
 
-* Biotin-responsive disorders
+* Biotin-Responsive Disorders
 - two inherited defects affecting the coenzyme function of biotin:
   1) *holocarboxylase synthetase (HCS)* deficiency
      - impaired binding of biotin to apocarboxylases
@@ -112,51 +112,17 @@
   maximal velocity lead to reduced formation of the five
   holocarboxylases from their corresponding inactive apocarboxylases
   at physiological biotin concentrations
-- increased K_M for Biotin
-  - normally 1-6 nmol/L, patients 9-12 nmol/L
-- abnormality of the K_M values correlates well with the time of onset
-  and severity of illness
-  - \uparrow K_M \to early onset, severe disease
+  - increased K_M for biotin
+    - normally 1-6 nmol/L, patients 9-12 nmol/L
+  - abnormality of the K_M values correlates well with the time of onset
+    and severity of illness
+    - \uparrow K_M \to early onset, severe disease
 
-- mutations outside the biotin-binding site in the N-terminal region
-  are associated with virtually normal K_M but decreased V_{max}
+- mutations outside the biotin-binding site are associated with
+  virtually normal K_M but decreased V_{max}
   - most patients with V_{max} mutation respond to a higher biotin
     dose and residual biochemical and clinical abnormalities persist
   - response likely due to \uparrow HLCS mRNA transcription
-
-#+begin_src gnuplot :file ./figures/kinetics.png
-  reset
-  set title "HCS Kinetics"
-  set xlabel "Substrate [S]"
-  set xrange [0:100]
-  set ylabel "Velocity (V)"
-  set yrange [0:60]
-  f(vmax,km,x) = (vmax*x)/(x + km)
-  v(vmax,km,x) = vmax * x/(x + km) 
-  vmax1 = 50 
-  km1 = 15
-  vmax2 = 48
-  km2 = 42
-
-  set arrow from 0,vmax1 to 100,vmax1 lw 2 nohead  lc 1
-  set label 1 at 3,(vmax1 +1.5) "Vmax" front
-  set arrow from 0,vmax2 to 100,vmax2 lw 2 nohead  lc 2
-  set label 2 at (km1 + 0.5),7 "Km WT" front
-  set label 3 at (km2 + 0.5),7 "Km MCD" front
-  set arrow from km1,0 to km1,f(vmax1,km1,km1) lw 2 nohead
-  set arrow from 0,v(vmax1,km1,km1) to km1,v(vmax1,km1,km1) lw 2 nohead
-  set arrow from km2,0 to km2,f(vmax2,km2,km2) lw 2 nohead
-  set arrow from 0,v(vmax2,km2,km2) to km2,v(vmax2,km2,km2) lw 2 nohead
-
-  plot f(vmax1,km1,x) with lines lw 2 title 'WT',\
-       f(vmax2,km2,x) with lines lw 2 title 'MCD'
-
-#+end_src
-
-#+CAPTION[Kinetics]:Holocarboxylase Synthetase Kinetics
-#+NAME: fig:kinetics
-#+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./figures/kinetics.png]]
 
 *** Biotinidase Deficiency
  - biotin cannot be released from biocytin and short biotinyl
@@ -176,31 +142,32 @@
   organic acids as follows:
   - \downarrow MCC activity:
     - \Uparrow urine 3-hydroxyisovaleric acid
-    - \Uparrow plasma 3-hydroxyisovalerylcarnitine (C5-OH)
     - \uparrow urine 3-methylcrotonylglycine
-    - \uparrow plasma tiglylcarnitine (C5:1)
+    - \Uparrow plasma 3-hydroxyisovaleryl-carnitine (C5-OH)
+    - \uparrow plasma tiglyl-carnitine (C5:1)
   - \downarrow PCC activity:
     - \uparrow urine methylcitrate
     - \uparrow urine 3-hydroxypropionate
     - \uparrow urine propionylglycine
     - \uparrow urine tiglylglycine
     - \uparrow urine propionic acid
-    - \uparrow plasma propionylcarnitine (C3)
+    - \uparrow plasma propionyl-carnitine (C3)
   - \downarrow PC activity:
     - \Uparrow lactate
     - \downarrow pyruvate
 - above pattern seen in HCS during acute illness
 - *NB* a similar organic acid profile can occur in patients with
-  hyperammonemia due to carbonic anhydrase VA deficiency (see section Urea Cycle)
+  hyperammonemia due to carbonic anhydrase VA deficiency (Section Urea Cycle)
+  - supplies bicarbonate to carboxylases
 - biotindase deficiency often only \uparrow urine 3-hydroxyisovalerate
 - \downarrow biotinidase activity in serum
 - confirm with molecular testing 
 
-*** Biotinidase Activity
-- most symptomatic children with biotinidase deficiency were found to
-  have 3% of mean serum biotinidase activity of normal individuals
-  - profound deficiency :: \lt 10% of mean normal activity
-  - partial deficinecy :: 10-30% of mean normal activity
+- biotinidase activity measurement
+  - most symptomatic children with biotinidase deficiency were found to
+    have 3% of mean serum biotinidase activity of normal individuals
+    - profound deficiency :: \lt 10% of mean normal activity
+    - partial deficinecy :: 10-30% of mean normal activity
 
 ** Treatment and Prognosis
 - oral pharmacological dose of biotin

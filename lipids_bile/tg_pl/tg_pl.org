@@ -40,10 +40,11 @@
   - metabolic syndrome
   - type II diabetes
 
-#+CAPTION[]:The common pathway, triglyceride synthesis and lipolysis
+#+CAPTION[]:Triglyceride Synthesis and Lipolysis
 #+NAME: fig:tg
 #+ATTR_LaTeX: :width 1.0\textwidth
 [[file:./figures/tg.png]]
+
 * Common Pathway
 ** Lipin-1 Deficiency 
 - recurrent childhood rhabdomyolysis with myoglobinuria
@@ -68,7 +69,7 @@
   peripheral nervous systems, but also muscle, eye, skin, bone,
   cartilage, liver, kidney and immune system 
 
- #+CAPTION[]:Phospholipid biosynthesis (top of the figure) and remodelling (bottom of the figure)
+ #+CAPTION[]:Phospholipid Biosynthesis and Remodelling
  #+NAME: fig:pl
  #+ATTR_LaTeX: :width 1.0\textwidth
  [[file:./figures/pl.png]]

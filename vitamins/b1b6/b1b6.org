@@ -16,6 +16,7 @@
   - mitochondrial TPP transporter (MTPPT) in the inner mitochondrial membrane
     delivers the cofactor to the \alpha-ketoacid dehydrogenases in the
     mitochondrial matrix
+    - PDH, KGDH and BCKDH
 - TPP cofactor is attached directly to the transketolase and 2-hydroxyacyl CoA lyase apoproteins
 
 
@@ -27,7 +28,7 @@
 ** Defective Transport
 - THTR1 or 2 deficiency
 ** TPP biosynthesis 
-- *Thiamine Pyrophosphokinase (TPK1)* deficiency
+- *thiamine pyrophosphokinase (TPK1)* deficiency
 - \uparrow blood and CSF lactate
 - \uparrow urine \alpha-ketoglutarate
 - \downarrow TPP
@@ -35,11 +36,11 @@
 - *mitochondrial TPP transporter (MTTPT)* deficiency - amish lethal
   microcephaly
 - \uparrow urine \alpha-ketoglutarate
-** Binding to apo-enzyme
-- PDHC and KGDH
+** Binding to Apo-Enzymes
+- PDH and KGDH
   - \uparrow lactate
   - normal L/P ratio
-- BCKAD
+- BCKDH
   - \uparrow BCAAs
 
 * Pyridoxine
@@ -51,10 +52,21 @@
   2) pyridoxamine - amine group
   3) pyridoxine - hydroxyl group
 
-- phosphorylated forms undergo dephosphorylation for cellular uptake
-  by tissue non-specific alkaline phosphatase (TNSAP)
-  - transport mechanism of B_6 vitamers across cell membranes not
-    elucidated
+#+BEGIN_EXPORT LaTeX
+\begin{center}
+\chemnameinit{}
+\chemname{\chemfig{R-[1]C(=[2]O)-[7]H}}{aldehyde}
+\chemnameinit{}
+\chemname{\chemfig{R-NH_2}}{amine}
+\chemnameinit{}
+\chemname{\chemfig{R-OH}}{hydroxyl}
+\end{center}
+#+END_EXPORT
+
+- phosphorylated forms undergo dephosphorylation by tissue
+  non-specific alkaline phosphatase (TNSAP) prior to cellular uptake
+    - transport mechanism of B_6 vitamers across cell membranes not
+      elucidated
 - within cells vitamers are rephosphorylated by kinases and further oxidised to the
   active cofactor pyridoxal 5’-phosphate (PLP) by pyridox(am)ine
   5’-phosphate oxidase (PNPO)
@@ -63,7 +75,7 @@
 - PLP is one of the most abundant cofactors and participates in over
   140 reactions in amino acid and neurotransmitter metabolism
 - functions include:
-  - neurotransitter biosynthesis
+  - neurotransmitter biosynthesis
     - serotonin, dopamine, epinephrine, norepinephrine, GABA
   - amino acids metabolism
     - proline, transamination (i.e. alanine), serine, tryptophan
@@ -79,12 +91,12 @@
     malnutrition or in association with severe chronic disease
 
 
-#+CAPTION[]:Pyridoxine metabolism
+#+CAPTION[]:Pyridoxine Metabolism
 #+NAME: fig:pyr
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/pyridoxine.png]]
 
-#+CAPTION[]:Pyridoxine metabolism
+#+CAPTION[]:Pyridoxine Metabolism
 #+NAME: fig:pyr2
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/Slide26.png]]
@@ -117,12 +129,12 @@
 - presents in neonates with myoclonic and tonic seizures or
   status epilepticus
 - onset up to 3 years observed
-- antiquitin (ALDH7A1) encodes for *\alpha-aminoadipic semialdehyde dehydrogenase*
+- antiquitin (ALDH7A1) encodes *\alpha-aminoadipic semialdehyde dehydrogenase*
   - involved in lysine degradation (Figure [[fig:lysine]])
 \ce{AASA ->[antiquitin] AAA}
   - deficiency results in \uparrow \alpha-aminoadipic acid semialdehyde (AASA)
     - AASA is in equilibrium with piperideine-6-carboxylate (P6C)
-    - PC6 inactivates PLP
+    - P6C inactivates PLP
 - *simultaneous determination of S-sulfocysteine is crucial to exclude*
   *molybdenum cofactor and sulfite oxidase deficiency causing secondary*
   *inhibition of antiquitin*
@@ -130,12 +142,11 @@
 - most common form of pyridoxine dependent epilepsy (PDE)
 - \uparrow urine AASA (\alpha-aminoadipic acid)
 - \uparrow urine P6C (piperideine-6-carboxylate)
-- \uparrow pipecolic acid in plasma, the first described biomarker of PDE, is
-  less specific as it can also be found in peroxisomal disease and has
-  been found normal in older patients while on pyridoxine
+- \uparrow pipecolic acid in plasma, the first described biomarker of PDE
+  - less specific as it can also be found in peroxisomal disease
 - treat with pyridoxine
 
-#+CAPTION[]:Lysine degradation and antiquitin deficiency (blue bar)
+#+CAPTION[]:Lysine Degradation and Antiquitin Deficiency (blue bar)
 #+NAME: fig:lysine
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/lysine_deg.png]]
@@ -144,6 +155,7 @@
 - see Ornithine and Proline
 
 ** PNPO deficiency
+- *pyridox(am)ine 5’-phosphate oxidase (PNPO)* deficiency
 - AKA: pyridoxal phosphate responsive seizures
   - does not respond to pyridoxine 
 - clinically indistinguishable from antiquitin deficiency
@@ -173,6 +185,7 @@
   evident with the onset of weight bearing
   - sometimes not until adulthood
 - *phosphate-regulating endopeptidase* deficiency
+  - involved in bone and tooth mineralization and renal phosphate retention
 - \uparrow serum calcium
 - \downarrow serum phosphate
 - \uparrow 1,25 hydroxy-vitamin D
