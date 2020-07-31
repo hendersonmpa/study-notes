@@ -47,7 +47,6 @@
 - produces ribose-5-P
 - reversible rxns
 - convert glycolytic intermediates to 5 carbon sugars
-
 - ribose-5-P required for purine and pyrimidine synthesis
 
 * Disorders

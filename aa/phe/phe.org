@@ -13,13 +13,13 @@
 \end{center}
 #+END_EXPORT
 
-- mainly metabolised in the liver by the PHE hydroxylase (PAH) system
+- mainly metabolised in the liver by the phenylalanine hydroxylase (PAH) system
 - first step in the irreversible catabolism of phenylalanine is hydroxylation to
   tyrosine by PAH
 - PAH requires the active pterin, tetrahydrobiopterin (BH_4)
   - BH_4 is formed in three steps from GTP
   - forms a Fe(II)-O-O-BH_4 bridge during the hydroxylation reaction
-  - also an obligate co-factor for tyrosine hydroxylase and tryptophan
+  - also an obligate co-factor for tyrosine hydroxylase, tryptophan
     hydroxylase, alkylglycerol monooxygenase (AGMO) and nitric oxide
     synthase
     - \therefore required for production of dopamine, catecholamines,
@@ -27,7 +27,8 @@
 
 - defects in PAH or production or recycling of BH_4 may result in:
   - hyperphenylalaninaemia (HPA)
-  - deficiency of Tyr, L-dopa, dopamine, melanin, catecholamines and 5-hydroxytryptophan (5HT)
+  - deficiency of tyrosine, L-dopa, dopamine, melanin, catecholamines
+    and 5-hydroxytryptophan (5HT)
 - when hydroxylation to tyrosine is impeded excess phenylalanine is converted to phenylketones
   - phenylalanine can be transaminated to phenylpyruvate which is reduced to
     phenyllactate or decarboxylated to phenylacetate
@@ -42,22 +43,22 @@
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/Slide04.png]]
 
-#+CAPTION[]:Tetrahydrobiopterin metabolism
+#+CAPTION[]:Tetrahydrobiopterin Metabolism
 #+NAME: fig:bh4
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/Slide21.png]]
 
 
-#+CAPTION[]:Phenylalaninemia classification
+#+CAPTION[]:Phenylalaninemia Classification
 #+NAME: fig:
 | Class           | Phe (\micro{}mol/l) | PAH activity |
 |-----------------+---------------------+--------------|
 | Classic         | \ge 1200            | \lt1%        |
 | HPA             | 600-1200            | 1-5%         |
-| MHP [fn:2]      | 120-600             | \gt5%        |
+| MHP [fn:mhp]    | 120-600             | \gt5%        |
 | BH_4 responsive | \ge 30% decrease    |              |
 
-[fn:2] mild hyperphenylalaninaemia
+[fn:mhp] mild hyperphenylalaninaemia
 
 * Phenylalanine Hydroxylase Deficiency
 ** Clinical Presentation
@@ -94,7 +95,7 @@
   phenylalanine levels and dietary phenylalanine tolerance
 
 ** Diagnostic Tests
-- NBS for phenylalanine and Phe/Tyr
+- NBS for phenylalanine and phenyalanine/tyrosine
 - exclude cofactor defects via pterins in blood or urine and
   dihydropteridine reductase (DHPR) in blood
 - HPA may be found in preterm and sick babies particularly
@@ -106,7 +107,7 @@
 - plasma amino acids:
   - \uparrow phenylalanine
   - \downarrow or normal tyrosine
-- phenylketones on urine organic acids:
+- phenylketones in urine organic acids:
   - \uparrow phenylpyruvate
   - \uparrow phenyllactate
   - \uparrow phenylacetate
@@ -122,18 +123,18 @@
   in some patients with PKU
 - sapropterin dihydrochloride (Kuvan), a synthetic formulation of the
   active 6R-isomer of BH_4 is approved in Europe and the USA for the
-  treatment of responsive[fn:2] patients with HPA and PKU, of all
+  treatment of responsive[fn:bh4] patients with HPA and PKU, of all
   ages 
 
 
-[fn:2] defined as reduction of \ge30% in blood phenylalanine after a
+[fn:bh4] defined as reduction of \ge30% in blood phenylalanine after a
 single dose
 *** Alternative/Experimental
 - liver transplantation
 - phenylalanine ammonia lyase (PAL)
   - converts phenylalanine \to harmless transcinnamic acid
 - large neutral amino acids
-  - tyr, trp, leu, ile, val compete with phe for the same transport at
+  - tyr, trp, leu, ile, val compete with phe for the same LNAA transporter at
     the blood brain barrier
 
 * Maternal PKU
@@ -147,7 +148,7 @@ single dose
 - maternal phenylalanine \lt 360 umol/l \to no deleterious effect on the foetus
 - maternal phenylalanine \gt 360 μmol/l \to developmental indices
   decreased by about three points for every 60 umol/l rise in average
-  maternal Phe
+  maternal phenylalanine
 - \uparrow CHD \ge 900 umol/l
 ** Prevention
 - plan pregnancy 

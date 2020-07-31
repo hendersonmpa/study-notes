@@ -5,7 +5,7 @@
 * Introduction
 - hepatic glycogenoses generally cause hepatomegaly (apart from GSD
   Oa) and fasting hypoglycaemia
-- muscle glycogenoses are associated with skeletal and/or
+- muscle glycogenoses are associated with skeletal myopathy and/or
   cardiomyopathy
 - clinical phenotypes are extremely heterogeneous
 
@@ -49,6 +49,7 @@
 - AR GYS2 encodes liver isoform of glycogen synthase
 - GYS1 encodes the muscle isoform \to myopathy
 ** Diagnostic Tests
+- \uparrow lactate after glucose challenge
 - mutation analysis
 ** Treatment 
 - avoid fasting
@@ -72,9 +73,9 @@
 - failure of glucose dephosphorylation inhibits hepatic glycogen breakdown
 - hyperlactatemia occurs due to lack of gluconeogenesis
   - protective
-- hyperlipidemia and hyperuricemia due to \uparrow G6P
-  - \uparrow G6P \to /de novo/ lipogenesis and flux through pentose phosphate pathway
-- G6P transporter required for normal neutrophil function
+- hyperlipidemia and hyperuricemia due to \uparrow glu-6-P
+  - \uparrow glu-6-P \to /de novo/ lipogenesis and flux through pentose phosphate pathway
+- glu-6-P transporter required for normal neutrophil function
 
 ** Genetics
 - AR 80% Ia
@@ -116,8 +117,8 @@
 - fasting ketosis is prominent
 - gluconeogenesis is normal \therefore no fasting hyperlactataemia
 - moderate post-prandial \uparrow lactate
-- hyperlipdaemia
-- \uparrow \uparrow \uparrow liver transaminases
+- hyperlipidaemia
+- \Uparrow liver transaminases
 - \uparrow CK in myopathic form 
 ** Metabolic Derangement
 - *glycogen debrancher enzyme (GDE)* deficiency
@@ -131,7 +132,7 @@
 - AR AGL
 ** Diagnostic Tests
 - \downarrow glucose
-- \uparrow transaminases
+- \Uparrow transaminases
 - \uparrow cholesterol
 - \downarrow DBE activity in leukocytes
 - molecular testing is diagnostic
@@ -189,8 +190,8 @@
 - liver and muscle histology show swollen hepatocytes that contain
   periodic acid-Schiff (PAS)-positive and diastase resistance
   inclusions and evidence of interstitial fibrosis
-- GBE activity in liver tissue, cultured skin fibroblast, peripheral
-  lymphocytes and muscle
+- \downarrow GBE activity in liver tissue, cultured skin fibroblast,
+  peripheral lymphocytes and muscle
 - confirmed by GBE1 mutation analysis
 
 ** Treatment
@@ -203,7 +204,11 @@
 ** Metabolic Derangement
 - GSD VI is caused by deficiency in *hepatic glycogen phosphorylase*
   - catalyses the release and phosphorylation of terminal glucosyl units
-    from glycogen forming gluc-1-P
+    from glycogen forming glu-1-P
+- three isoforms of glycogen phosphorylase
+  - brain/heart, liver and muscle - encoded by different genes
+  - GSD VI is caused by deficient hepatic isoform
+  - GSD V is caused by deficient muscle isoform
 - ketosis with or without hypoglycaemia may occur with fasting
 - plasma lipids may be raised
 - severe variants recurrent hypoglycaemia and post-prandial lactic
@@ -216,11 +221,10 @@
 - \uparrow transaminases
 - enzyme deficiency in hepatic tissue, erythrocytes, and leukocytes
   - enzyme activity may not always be reduced in blood and even in liver
-    tissue may be difficult to interpret due to residual activity and
-    the effect of other factors
+    tissue may be difficult to interpret due to residual activity
   - deficiency of glycogen phosphorylase kinase will cause
     low activity of glycogen phosphorylase
-- diagnosis confirmed by mutation analysis or
+- diagnosis confirmed by mutation analysis
 ** Treatment
 - no treatment required for asymptomatic children
 - those with growth failure or fasting ketosis benefit from regular
@@ -237,10 +241,10 @@
 - usually resolution of signs and symptoms by adulthood
 - GSD IXc can be more severe with an increased risk of hepatic fibrosis and cirrhosis
 ** Metabolic Derangement
-- GSD IX is caused by deficiency in hepatic glycogen phosphorylase kinase (PHK)
+- GSD IX is caused by deficiency in *hepatic glycogen phosphorylase kinase (PHK)*
 - PHK phosphorylates glycogen phosphatase /b/ \to /a/ form
   - inactive /b/ \to  active /a/
-- \downarrow PHK activity \to \downarrow G1P release from glycogen
+- \downarrow PHK activity \to \downarrow glu-1-P release from glycogen
 - PHK is homotetramer in which each subunit is itself a tetramer
   - \alpha, \beta, \gamma and \delta subunits
 - \gamma subunit is catalytic and the other subunits regulatory
@@ -277,3 +281,4 @@
 - the outcome for most patients is good with resolution of
   hepatomegaly and catch up growth by adulthood
 
+  

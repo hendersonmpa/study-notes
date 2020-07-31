@@ -7,7 +7,7 @@
   - uses blood glucose during sub-maximal exercise
 - energy is supplied by glycogenolysis during intense exercise
   - glycogenolysis supplies glucose for anaerobic glycolysis
-- muscle disorders are associated with skeletal and/or
+- muscle disorders are associated with skeletal myopathy and/or
   cardiomyopathy
 - hepatic glycogenosis are associated with hepatomegaly and fasting
   hypoglycaemia
@@ -20,14 +20,14 @@
 
 #+CAPTION[]:Muscle and Cardiac Glycogenoses
 #+NAME: tab:mnc
-| Type        | Enzyme                        | Phenotype                             | Gene          |
-|-------------+-------------------------------+---------------------------------------+---------------|
-| 0           | muscle glycogen synthase      | cardiomyopathy & myopathy             | GYS1          |
-| II (Pompe)  | acid \alpha-glucosidase       | hypotonia, muscle dysfunction         | GAA           |
-| III         | glycogen debrancher           | hypoglycema, hepatomegaly             | AGL [fn:agl2] |
-| V (McArdle) | muscle glycogen phosphorylase | exercise intolerance                  | PYGM          |
-| Danon       | LAMP2                         | cardiomyopathy, \pm skeletal myopathy | LAMP2         |
-| AMPK        | AMP-activated protein kinase  | cardiomyopathy, \pm skeletal myopathy | PRKAG2        |
+| Type           | Enzyme                        | Phenotype                             | Gene   |
+|----------------+-------------------------------+---------------------------------------+--------|
+| 0              | muscle glycogen synthase      | cardiomyopathy & myopathy             | GYS1   |
+| II (Pompe)     | acid \alpha-glucosidase       | hypotonia, muscle dysfunction         | GAA    |
+| III[fn:agl2]   | glycogen debrancher           | hypoglycema, hepatomegaly             | AGL    |
+| V (McArdle)    | muscle glycogen phosphorylase | exercise intolerance                  | PYGM   |
+| Danon          | LAMP2                         | cardiomyopathy, \pm skeletal myopathy | LAMP2  |
+| AMPK           | AMP-activated protein kinase  | cardiomyopathy, \pm skeletal myopathy | PRKAG2 |
 
 [fn:agl2] hepatic and myopathic
 
@@ -81,6 +81,7 @@
   - juvenile and adult forms \le 30% activity
 - skin fibroblasts are best tissue
   - lower biochemical interference from neutral \alpha-glucosidases
+  - acarbose is used to inhibit neutral \alpha-glucosidases in DBS assay 
 - mutation analysis
 ** Treatment
 - recombinant acid \alpha-glucosidase (rhGAA)
@@ -111,6 +112,7 @@
 - three isoforms of glycogen phosphorylase
   - brain/heart, liver and muscle - encoded by different genes
   - GSD V is caused by deficient muscle isoform
+  - GSD VI is caused by deficient hepatic isoform
 
 ** Genetics
 - AR PYGM
@@ -156,11 +158,11 @@
 - AMPK is a heterotrimeric complex comprising:
   - a catalytic subunit (\alpha)
   - two regulatory subunits (\beta and \gamma)
-- three isoforms of the gamma subunits are known (\gamma1, \gamma2 and \gamma3) with different tissue
+- three isoforms of the \gamma subunit are known (\gamma1, \gamma2 and \gamma3) with different tissue
   expression
 - AMPK controls whole-body glucose homeostasis by regulating metabolism in multiple peripheral tissues, such as
   skeletal muscle, liver, adipose tissues, and pancreatic \beta-cells
-- activated \uparrow AMP/ATP ratio
+- activated by \uparrow AMP/ATP ratio
 - stimulates glucose uptake and lipid oxidation to produce energy
 - inhibits energy-consuming processes including glucose and lipid production
 ** Genetics

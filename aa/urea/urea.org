@@ -17,6 +17,13 @@
 #+BEGIN_EXPORT LaTeX
 \begin{center}
 \chemnameinit{}
+\chemname{\chemfig{O=[::-30](-[::-60]OH)-[::60]-[::-60](<[::-60]NH_2)-[::60](=[::60]O)-[::-60]OH}}{\small aspartate}
+\end{center}
+#+END_EXPORT
+
+#+BEGIN_EXPORT LaTeX
+\begin{center}
+\chemnameinit{}
 \chemname{\chemfig{H_2N-[::30,,2,](=[::60]O)-[::-60]\chembelow{N}{H}-[::60]-[::-60]-[::60]-[::-60](<[::-60]NH_2)-[::60](=[::60]O)-[::-60]OH}}{\small citrulline}
 \end{center}
 #+END_EXPORT
@@ -38,8 +45,11 @@
   cycle on or off
 - required intermediates supplied by:
   - carbonic anhydrase Va (CAVA) \to bicarbonate
+    - required by CPS
   - citrin is the aspartate/glutamate mitochondrial antiporter  \to aspartate
+    - required by ASS
   - \Delta1-pyrroline-5-carboxylate synthetase (P5CS) \to /de novo/ ornithine
+    - required by OTC
 
 #+CAPTION[]:Urea Cycle
 #+NAME: fig:ureacycle
@@ -53,12 +63,12 @@
 [[file:./figures/Slide01.png]]
 
 
-#+CAPTION[]:Diagnostic algorithm that can be applied to any hyperammonaemic patient
+#+CAPTION[]:Diagnostic Algorithm that can be Applied to any Hyperammonaemic Patient
 #+NAME: fig:dd
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/ammonia_dd.png]]
 
-* Mitochondrial 
+* Mitochondrial UCDs 
 - *carbamoyl-phosphate synthase (CPS), ornithine trancarbamylase (OTC) and N-acetylglutamate synthetase (NAGS)* deficiency
 - exclusive role of NAGS is to produce NAG the essential activator of CPS1
   - \therefore NAGS deficiency is clinically indistinguishable from
@@ -161,9 +171,11 @@
   - this begins with the conversion of benzoate by butyrate-CoA ligase
     into an intermediate product, benzoyl-CoA which is then
     metabolized by glycine N-acyltransferase into hippuric acid
-- citrulline in OTC & CPS \to elimination of ammonia
+- citrulline in OTC & CPS \to elimination of nitrogen from aspartate
 
-#+CAPTION[]:Nitrogen elimination by phenylbutyrate and benzoate
+\ce{citrulline + aspartate ->[ASS] ASA}
+
+#+CAPTION[]:Nitrogen Elimination by Phenylbutyrate and Benzoate
 #+NAME: fig:nh3
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/nitrogen_elimination.jpg]]
@@ -176,12 +188,11 @@
     safe
 - NAGS deficiency is the only UCD for which drug treatment is almost
   curative
-  - N-carbamyl-L-glutamate (also known as carglumic acid ; licensed
-    drug Carbaglu )
+  - N-carbamyl-L-glutamate (carbaglu)
   - a synthetic analogue of the physiological activator of CPS1, NAG,
     given orally activates CPS1 and thereby urea cycle function
 
-* Cytosolic
+* Cytosolic UCDs
 - *arginosuccinic synthase (ASS), arginosuccinic lyase (ASL) and arginase (ARG1)* deficiencies
 - second most frequent among the UCDs
   - ASS and ASL deficiency, each represent \sim 15%
@@ -248,7 +259,7 @@
 
 ** Treatment
 - emergency management the same as mitochondrial UCDs
-  - ASL+ASS give arginine
+  - give arginine in ASL and ASS 
 - maintenance treatment for ASS and ASL deficiencies is the same as
   CPS1 and OTC deficiencies
 - liver transplant should be considered in ASS, ASL and ARG1
@@ -274,7 +285,9 @@
 
 \ce{malate + NAD^+ ->[MDH] oxaloacetate + NADH}
 
-\ce{oxaloacetate + glu + NADH ->[AST] \alpha-ketoglutarate + asp}
+\ce{oxaloacetate + glu + NADH ->[AST] \alpha-ketoglutarate + aspartate}
+
+\ce{citrulline + aspartate ->[ASS] ASA}
 
  - insufficient supply of aspartate from mitochondria for ASS within
    hepatocytes, and the conversion of the fumarate released by ASL, to
@@ -347,18 +360,18 @@
    - metabolic acidosis
    - plasma:
      - \uparrow ammonia
-     - \downarrow  citrulline
+     - \downarrow citrulline
      - \uparrow lactate
      - \downarrow glucose
      - normal acylcarnitines
    - urine
      - absence of orotic acid
      - \uparrow ketone bodies
-     - UOA contains carboxylase-related metabolites (see multiple
-       carboxylase deficiency)
+     - urine organic acids contain carboxylase-related metabolites
+       (see multiple carboxylase deficiency)
        - pyruvate carboxylase - \uparrow lactate & pyruvate
        - propionic acid carboxylase
-       - 3-MCC
+       - 3-methylcrotonyl-CoA carboxylase 
 
 *** Treatment
 - emergency management for CAVA deficiency is mainly symptomatic

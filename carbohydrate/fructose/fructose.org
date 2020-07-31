@@ -4,7 +4,7 @@
 
 * Introduction
 - fructose is mainly metabolised in the liver, renal cortex and small
-  intestinal mucosa (Figure [[fig:ms]])
+  intestinal mucosa 
 - pathway composed of fructokinase, aldolase B and triokinase
 - aldolase B is also involved in the glycolytic-gluconeogenic pathway
 
@@ -14,6 +14,10 @@
 - incidental finding due to positive urine reducing substances 
 ** Metabolic Derangement
 - deficiency in *fructokinase*
+  - AKA ketokexokinase
+
+\ce{fructose + ATP ->[KHK] fuctose-1-P + ADP}
+
 - 10-20% of ingested fructose is excreted in urine
 - remainder is slowly metabolised in adipose tissue and muscle
 ** Genetics
@@ -48,9 +52,11 @@
 ** Metabolic Derangement
 - HFI is caused by *aldolase B* deficiency
   - second enzyme of the fructose pathway
-  - splits fructose-1-phosphate (F-1-P) into dihydroxyacetone phosphate (DHA-P) and glyceraldehyde (GAH)
+
+\ce{fructose-1-P ->[ALDOB] dihydroxyacetone-P + glyceraldehyde}
+
 - high activity of fructokinase after intake of fructose results in
-  accumulation of F-1-P and trapping of phosphate
+  accumulation of fructose-1-P and trapping of phosphate
 - two major effects:
   1. inhibition of glucose production by blockage of gluconeogenesis
      (inhibition of aldolase A) and glycogenolysis (inhibition of glycogen phosphorylase A)
@@ -96,7 +102,10 @@
 
 ** Metabolic Derangement
 - deficiency of *hepatic FBPase* a key enzyme in gluconeogenesis
-  - impairs the formation of glucose from all gluconeogenic precursors including dietary fructose
+  - impairs the formation of glucose from all gluconeogenic precursors
+    including dietary fructose
+
+\ce{fructose-1,6-bisphosphate ->[FBPase] fructose-6-P}
 - normoglycaemia in patients is dependent on glucose and galactose
   intake and degradation of hepatic glycogen
 - hypoglycaemia occurs when glycogen reserves are limited (newborns, fasting)

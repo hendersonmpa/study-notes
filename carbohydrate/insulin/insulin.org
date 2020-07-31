@@ -3,7 +3,7 @@
 #+DATE: \today
 
 * Introduction
- - glucose is transported into the pancreatic \beta-cell and phosphorylated to G-6-P by glucokinase
+ - glucose is transported into the pancreatic \beta-cell and phosphorylated to glu-6-P by glucokinase
    - GCK K_M \sim [glucose] in blood
    - functions as a glucose sensor
  - \uparrow glycolysis \to \uparrow ATP
@@ -102,17 +102,17 @@
    2. inappropriate plasma insulin levels and c-peptide at the time of
       hypoglycaemia
       - potentially missed by a single sample because of pulsatile
-        secretion of insulin
+	secretion of insulin
    3. *absent/low blood & urine ketones bodies and non-esterified fatty*
       *acids (NEFA)*
+      - insulin inhibits lipase and acetyl-CoA carboxylase
       - in some cases ketones bodies and NEFA are not totally
-        suppressed
+	suppressed
    4. \uparrow blood glucose \gt1.7 mmol/l within 30-40 min after
       SC/IM or IV administration of 1 mg glucagon
    5. need for a high glucose infusion rate to keep blood
       glucose above 3 mmol/l is characteristic of an insulin related
       hypoglycaemia
-
  - once HI is established molecular studies to identify a gene
 
 

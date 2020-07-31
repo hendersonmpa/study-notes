@@ -9,14 +9,15 @@
 - lactose is hydrolysed by lactase \to galactose and glucose
 - galactose is then absorbed using a sodium/glucose-galactose cotransporter (SGLT1)
 - liver is the major organ responsible for galactose metabolism
- - galactose functions:
-   - energy source in pre-weaning infants
-   - glycosylation
-   - glycolipid synthesis
+  - galactose functions:
+    - energy source in pre-weaning infants
+    - glycosylation
+    - glycolipid synthesis
 
-- UDPgal is used for synthesis of glycoconjugates, including
+- UDP-gal is used for synthesis of glycoconjugates, including
   glycoproteins, glycolipids and glycosaminoglycans, and their
   subsequent degradation
+  - uridinediphospate (UDP)
 - all four substrates of GALE: UDP-gal, UDP-glc, UDP-galNAc, and
   UDP-glcNAc are used for glycoconjugate synthesis
 
@@ -43,9 +44,12 @@
 
 ** Metabolic Derangement
  - deficient activity of *galactose-1-phosphate uridylyltransferase (GALT)*
+
+\ce{UPD-glucose + gal-1-P <=>[GALT] glucose-1-P + UDP-galactose}
+
  - ubiquitous enzyme
  - \uparrow  galatactose
- - \uparrow gal-1-p - pathogenic
+ - \uparrow gal-1-P - pathogenic
  - \uparrow galactitol \to cataracts
  - \uparrow galactonate
  - \downarrow UPD-gal \to disordered glycosylation, glycolipids
@@ -75,7 +79,7 @@
    - \uparrow galactose
    - \uparrow galactitol
  - RBC GALT activity
-   - classic galactosemia - \le 1% of controls
+   - classic galactosemia \le 1% of controls
 
 ** Treatment and Prognosis
  - therapy is life long dietary galactose restriction
@@ -84,8 +88,7 @@
    - cognitive impairment
    - cataracts
    - ovarian insufficiency
- - dairy restrictions
-   - bone health 
+ - dairy restrictions \to \downarrow bone health 
 
 * GALE Deficiency
 ** Clinical Presentation
@@ -100,11 +103,14 @@
 
 ** Metabolic Derangement
 - *uridine diphosphate galactose 4’-epimerase (GALE)* deficiency
+
+\ce{UPD-galactose <=>[GALE] UDP-glucose}
+
   - GALE deficiency inhibits UDP-glucose regeneration
   - preventing the formation of glu-1-P
   - leading to the accumulation of galactose and gal-1-P
-- when exposed to milk accumulate galactose, galactitol, gal-1P, and
-  UDPgal in blood
+- when exposed to milk accumulate galactose, galactitol, gal-1-P, and
+  UDP-gal in blood
   - may also show abnormal glycosylation of proteins in blood
 - RBC GALE activity does not correlate well with that seen in
   other tissues such as lymphoblasts
@@ -117,10 +123,10 @@
 ** Diagnostic Tests
 - \uparrow galactose in serum, DBS, RBC
 - \uparrow gal-1-P in serum, DBS, RBC
-- may be detected by NBS with \uparrow total galactose or Gal-1P and normal GALT activity
+- may be detected by NBS with \uparrow total galactose or gal-1-P and normal GALT activity
 - GALE activity in fresh erythrocytes or other cells
 - GALE activity in transformed lymphoblasts
-- red cell Gal-1P or urinary galactitol measured with and without dietary galactose
+- red cell gal-1-P or urinary galactitol measured with and without dietary galactose
 - molecular
 
 ** Treatment
@@ -133,7 +139,8 @@
 * GALK Deficiency
 ** Clinical Presentation
 - untreated galactokinase deficiency has been considered largely
-  benign except for diet-dependent cataracts and in rare cases pseudotumour cerebri
+  benign except for diet-dependent cataracts and in rare cases
+  pseudotumour cerebri (\uparrow pressure in the skull)
 - symptoms in severe deficiency may include:
   - hypoglycaemia, failure to thrive, microcephaly, intellectual
     disability, and hypercholesterolemia
@@ -141,7 +148,10 @@
 ** Metabolic Derangement
 - *galactokinase (GALK)* deficiency
   - lack the ability to phosphorylate galactose
-- accumulate galactose and galactitol, but not Gal-1P
+
+\ce{galactose <=>[GALK] gal-1-P}
+
+- accumulate galactose and galactitol, but not gal-1-P
 - accumulate galactitol in the lens when consuming a high galactose diet
   - causing osmotic swelling, denaturation of proteins, and cataracts
 

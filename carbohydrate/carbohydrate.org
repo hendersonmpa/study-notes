@@ -48,5 +48,5 @@
 #+INCLUDE: "./glucose_transport/glucose_transport.org" :lines "4-"
 * Hepatic GSDs
 #+INCLUDE: "./hepatic_glycogenoses/hepatic_glycogenoses.org" :lines "4-"
-* Muscle GSDs
+* Muscle and Cardiac GSDs
 #+INCLUDE: "./muscle_cardiac_glycogenoses/muscle_cardiac_glycogenoses.org" :lines "4-"

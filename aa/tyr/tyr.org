@@ -74,6 +74,7 @@
 - acute neurological crisis can occur
   - painful paresthesias and autonomic signs that may progress to
     paralysis
+  - ALAD inhibition by succinylacetone \to AIP symptoms
 
 ** Metabolic Derangement
 - deficiency of the enzyme *fumarylacetoacetate hydrolase (FAH)*
@@ -170,7 +171,7 @@
 - very rare, 13 cases described
 - most common long-term complication is intellectual impairment
 ** Metabolic Derangement
-- 4-hydroxyphenylpyruvate dioxygenase
+- *4-hydroxyphenylpyruvate dioxygenase* deficiency
 
 \ce{4-hydroxyphenylpyruvate ->[HPD] homogentisate}
 
@@ -193,14 +194,14 @@
 - most prominent symptoms relate to joint and connective tissue involvement
 - significant cardiac disease and urolithiasis may be detected in later years
 ** Metabolic Derangement
-- first identified IEM in 1902 by Garrod
-- *homogentisate dioxygenase* expressed mainly in the liver and the
-  kidneys
+- *homogentisate dioxygenase* deficiency 
 
 \ce{homogentisate ->[HGD] maleylacetoacetate}
-
+- expressed mainly in the liver and the kidneys
 - accumulation of homogentisate and its oxidised derivative
   benzoquinone acetic acid (the toxic metabolite) in various tissues
+- first identified IEM in 1902 by Garrod
+
 ** Genetics
 - AR HGD
 - 1:250000-1:1000000
@@ -231,6 +232,7 @@
 
 \ce{4-hydroxyphenylpyruvate ->[HPD] homogentisate}
 
+- same enzyme deficiency in Tyrosinemia Type III
 - hawkinsin is product of a reaction of an epoxide intermediate with
   glutathione, which may be depleted
 - metabolic acidosis due to 5-oxoproline accumulation secondary to
