@@ -5,12 +5,12 @@
 * Introduction
 - oxidative phosphorylation is the process in which ATP is formed as a
   result of the transfer of electrons from NADH or FADH_2 to O_2 by a
-  series of electron carriers (Figure [[fig:etc]] and [[fig:oxpho]])
+  series of electron carriers (Figures [[fig:etc]] and [[fig:oxpho]])
 - responsible for ATP production
 - ETC complexes I-IV
 - OxPhos system complexes I-V
 - ~ 90 subunits
-- 13 subunits of Complexes I, III, IV and V encoded by mtDNA (Table [[tab:subunits]])
+- 13 subunits of complexes I, III, IV and V encoded by mtDNA (Table [[tab:subunits]])
 - \gt 1500 proteins in the human mitochondrial proteome
 - up to 10% of human proteome may have role in maintaining mitochondrial function
 - OxPhos requires mitochondrial functions for:
@@ -32,45 +32,45 @@
   - ATP synthase uses flow of \ce{H+} through the enzyme back into the
     matrix to generate ATP from ADP and Pi
 - three energy-transducing enzymes in the electron transport chain:
-  - NADH:ubiquinone oxidoreductase (complex I)
-  - Coenzyme Q – cytochrome c reductase (complex III)
-  - Cytochrome c oxidase (complex IV)
-  - ETF-QO and mitochondrial glycerol-3-P dehydrogenase (GPD) (not part of ETC)
+  - NADH:ubiquinone oxidoreductase (CI)
+  - Coenzyme Q – cytochrome c reductase (CIII)
+  - Cytochrome c oxidase (CIV)
+
 
 #+BEGIN_SRC dot :file ./oxphos/figures/etc.pdf :cmdline -Kdot -Tpdf
   digraph {
-           // graph from left to right
-           rankdir=LR;
-           splines=true;
-           node [shape=oval];
-           fadh [label="FADH2", fillcolor=grey, style=filled];
-           etf[label="ETF", fillcolor=steelblue3, style=filled];
-           etfd[label="ETF-QO", fillcolor=steelblue3, style=filled];
-	       g3p[label="glycerol-3-phosphate", fillcolor=grey, style=filled];
-           gpd[label="GPD", fillcolor=steelblue3, style=filled];
-           nadh [label="NADH", fillcolor=grey, style=filled];
-           c1 [label="Complex I", fillcolor=steelblue3, style=filled];
-           q [label="CoQ", fillcolor=red3, style=filled];    
-           c3 [label="Complex III", fillcolor=steelblue3, style=filled];     
-           cytc [label="Cytochrome C", fillcolor=red, style=filled];     
-           c4 [label="Complex IV", fillcolor=steelblue3, style=filled];     
-           h2o [label="H2O", fillcolor=grey, style=filled];     
-           c2 [label="Complex II", fillcolor=steelblue3, style=filled];     
-           s [label="succinate", fillcolor=grey, style=filled];     
-           fadh -> etf; 
-           etf -> etfd;
-           etfd -> q;
-           g3p -> gpd;
-           gpd -> q;
-           nadh -> c1;
-           c1 -> q;
-           q -> c3;
-           c3 -> cytc; 	 
-           cytc -> c4;
-           c4 -> h2o;
-           c2 -> q;
-           s -> c2;
-           }    
+	   // graph from left to right
+	   rankdir=LR;
+	   splines=true;
+	   node [shape=oval];
+	   fadh [label="FADH2", fillcolor=grey, style=filled];
+	   etf[label="ETF", fillcolor=steelblue3, fontcolor=white, style=filled];
+	   etfd[label="ETF-QO", fillcolor=steelblue3, fontcolor=white, style=filled];
+           g3p[label="glycerol-3-phosphate",fillcolor=grey, style=filled];
+	   gpd[label="GPD", fillcolor=steelblue3,fontcolor=white, style=filled];
+	   nadh [label="NADH", fillcolor=grey, style=filled];
+	   c1 [label="CI", fillcolor=steelblue3,fontcolor=white, style=filled];
+	   q [label="CoQ", fillcolor=black,fontcolor=white, style=filled];    
+	   c3 [label="CIII", fillcolor=steelblue3, fontcolor=white,style=filled];     
+	   cytc [label="Cytochrome C", fillcolor=black, fontcolor=white,style=filled];     
+	   c4 [label="CIV", fillcolor=steelblue3, fontcolor=white,style=filled];     
+	   h2o [label="H2O", fillcolor=grey, style=filled];     
+	   c2 [label="CII", fillcolor=steelblue3, fontcolor=white,style=filled];     
+	   s [label="succinate", fillcolor=grey, style=filled];     
+	   fadh -> etf; 
+	   etf -> etfd;
+	   etfd -> q;
+	   g3p -> gpd;
+	   gpd -> q;
+	   nadh -> c1;
+	   c1 -> q;
+	   q -> c3;
+	   c3 -> cytc; 	 
+	   cytc -> c4;
+	   c4 -> h2o;
+	   c2 -> q;
+	   s -> c2;
+	   }    
 #+END_SRC
 
 #+CAPTION[]:Flow of electrons in the ETC
@@ -90,12 +90,15 @@
   which uses the electrons and hydrogen ions to reduce molecular
   oxygen to water
 
-#+CAPTION[]:Location of DNA encoding OxPhos Complex Subunits 
+- ETF-QO and mitochondrial glycerol-3-P dehydrogenase (GPD) are part of ETC (Figure [[fig:etc]])
+  - pass electrons to CoQ 
+
+#+CAPTION[]:Location of DNA Encoding OxPhos Complex Subunits 
 #+NAME: tab:subunits
 |       | CI | CII | CIII | CIV | CV |
 |-------+----+-----+------+-----+----|
-| mtDNA |  7 |   0 |    1 |   3 |  2 |
-| nDNA  | 39 |   4 |   10 |  10 | 14 |
+| mtDNA |  7 | *0* |    1 |   3 |  2 |
+| nDNA  | 39 | 4   |   10 |  10 | 14 |
 
 #+CAPTION[ETC]: Oxidative Phosphorylation
 #+NAME: fig:oxpho
@@ -124,7 +127,7 @@
        change allowing hydrogen ions to pass through four transmembrane
        helix channels
 
-  #+BEGIN_SRC dot :file ./figures/c1.pdf :cmdline -Kdot -Tpdf
+  #+BEGIN_SRC dot :file ./oxphos/figures/c1.pdf :cmdline -Kdot -Tpdf
     digraph {
              // graph from left to right
              rankdir=LR;
@@ -162,7 +165,7 @@
 - AKA Succinate Dehydrogenase 
  - see section [[Succinate Dehydrogenase Deficiency]]
 
-** Glycerol-3-phosphate shuttle
+** Glycerol-3-Phosphate Shuttle
  - oxidation of cytoplasmic NADH by the cytosolic form of the enzyme
    creates glycerol-3-phosphate from dihydroxyacetone phosphate
  - glycerol-3-phosphate diffuses into IMM and is oxidised by mitochondrial glycerol-3-phosphate dehydrogenase
@@ -187,7 +190,7 @@
  {\small\ce{Acyl-CoA + FAD ->[ACAD] FADH2 + ETF ->[ETF-QO] CoQ ->[CIII] CytC}}
  #+END_EXPORT
 
- - ETF-QO deficiency results in *Glutaric Acidemia Type II* (AKA MADD)
+ - ETF-QO deficiency results in *Glutaric Acidemia Type 2* (AKA MADD)
    - see section FAODs
 ** Complex III
 - AKA Coenzyme Q Cytochrome C Reductase
@@ -307,7 +310,7 @@
  | GI              | pancreatic failure                 |
  |                 | villous atrophy                    |
  | Ear             | *sensorineural deafness*           |
- | Eye             | *CPEO*, ptosis, RP                 |
+ | Eye             | *PEO*, ptosis, RP                  |
  | Systemic        | *lactic acidosis*, hypoglycemia    |
  |                 | IUGR, FTT                          |
 
@@ -321,15 +324,17 @@
 **** *Leigh Syndrome*
 - AKA: subacute necrotising encephalopathy
 - most frequent presentation of MD in childhood
+- degeneration of CNS
+- bilateral symetrical lesions on MRI
 - GDD, growth retardation
 - hypo/er-ventilation, spasticity, dystonia, ataxia, tremor, optic atrophy
 - cardiomyopathy, renal tubulopathy, GI disfunction
 - \gt 75 genes(mt and nuclear)
   - mtDNA :: MT-ATP6 and other
-  - AR :: SURF1, SDHA, COX assemmbly, CI
-  - XL :: PDHA1
+  - AR :: SURF1, SDHA, COX assembly, CI
+  - XL :: PDHA1 (PDHC E1\alpha subunit)
 - Saguenay-Lac-St-Jean type incidence 1/2000, carriers 1/23
-- several biochemical defects including: PDH, OxPhos
+- several biochemical defects including: PDHC, OxPhos
 - \uparrow lactate blood and CSF
 **** *MEGDEL*: 3-Methylglutaconic aciduria, Deafness, Encephalopathy and Leigh-like Disease
 - phosphatidylglycerol remodeling protein found at the interface of
@@ -346,7 +351,9 @@
 **** *MDDS*: mitochondrial DNA depletion syndrome
 - hepatocerebral disease
 - progressive myopathy
-  - AR :: POLG, DGUOK, Twinkle, SUCLA2, TK
+- \downarrow CI, CIII, and CIV activity (mtDNA)
+- N/\uparrow CII activity (nDNA)
+  - AR :: POLG, DGUOK, twinkle, SUCLA2, TK
 **** *Alpers syndrome*
 - progressive neuronal degradation of childhood
 - seizures
@@ -362,8 +369,8 @@
     - mtDNA :: COQ genes
 *** Childhood and Adolescent Presentation
 **** *Kearns-Sayre Syndrome* 
-- subtype of CPEO w earlier onset
-- onset \lt 20
+- subtype of CPEO w earlier onset \lt 20
+- progressive external opthalmoplegia (PEO)
 - pigmentary retinopathy
 - cardiac conduction defect
 - ataxia, \uparrow CSF protein
@@ -395,8 +402,10 @@
 *** Adult Presentation
 **** *MIDD*: maternally inherited diabetes and deafness
 - mtDNA :: MT-TL1
-**** *PEO*: Progressive External Ophthalmoplegia 
-- ptosis
+**** *CPEO*: Chronic Progressive External Ophthalmoplegia 
+- progressive external ophthalmoplegia
+  - inability to move eyes and eyebrows
+- ptosis - drooping or falling eyelids
 - mtDNA quantitation in muscle biopsy is diagnostic
   - mtDNA :: deletions \pm duplications
   - AR :: POLG, ANT1, twinkle
@@ -492,7 +501,6 @@
   - DGUOK :: deoxyguanosine kinase
   - ANT1 :: adenine nucleotide translocase type 1
   - OPA1 :: fusion
-
 
 * Treatment
 - Coenzyme Q disorders :: high does coenzyme Q

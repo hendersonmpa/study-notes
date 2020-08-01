@@ -81,7 +81,7 @@
   - juvenile and adult forms \le 30% activity
 - skin fibroblasts are best tissue
   - lower biochemical interference from neutral \alpha-glucosidases
-  - acarbose is used to inhibit neutral \alpha-glucosidases in DBS assay 
+  - acarbose is used to inhibit neutral \alpha-glucosidases in DBS and leukocyte assays
 - mutation analysis
 ** Treatment
 - recombinant acid \alpha-glucosidase (rhGAA)

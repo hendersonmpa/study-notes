@@ -32,7 +32,7 @@
 - TCA net reaction
 
 #+BEGIN_EXPORT LaTeX
-{\tiny\ce{Acetyl-CoA + 3NAD+ + FAD + GDP + Pi + 2H2O -> 2CO2 + CoA + 3NADH + FADH2 + GTP + 2H+}}
+{\scriptsize\ce{Acetyl-CoA + 3NAD+ + FAD + GDP + Pi + 2H2O -> 2CO2 + CoA + 3NADH + FADH2 + GTP + 2H+}}
 #+END_EXPORT
 
 #+CAPTION[TCA]: Pyruvate Metabolism and the TCA Cycle
@@ -176,7 +176,7 @@
 - inactivity of both cytosolic and mitochondrial forms of fumarase are
   potential causes
 ** Genetics
-- AR, FH encoded by nuclear DNA
+- AR FH encoded by nuclear DNA
 - single gene and mRNA encode mito and cyto isoforms
 ** Diagnostic Tests
 - isolated increased concentration of fumaric acid on urine organic

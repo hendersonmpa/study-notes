@@ -45,8 +45,10 @@
   - \uparrow lactate:pyruvate \because \uparrow NADH 
   - \uparrow \beta-hydroxybutyrate  \because \uparrow NADH 
 
-- PDHC deficiency: n/\downarrow L:P < 25
+- PDHC deficiency: N/\downarrow L:P < 25
+  - \because \downarrow TCA \therefore \downarrow NADH
 - ETC deficiency: \uparrow L:P > 25
+  - \because \uparrow NADH
 
 ** Pyruvate Redox Rxns
 
@@ -63,7 +65,7 @@
 - net reaction :: 3 NAD^{+} reduced to 3 NADH
 - net reaction :: FAD reduced to FADH_2
 #+BEGIN_EXPORT LaTeX
-{\tiny\ce{acetyl-CoA + 3NAD+ + FAD + GDP + Pi + 2H2O -> 2CO2 + CoA + 3NADH + FADH2 + GTP + 2H+}}
+{\scriptsize\ce{acetyl-CoA + 3NAD+ + FAD + GDP + Pi + 2H2O -> 2CO2 + CoA + 3NADH + FADH2 + GTP + 2H+}}
 #+END_EXPORT
 
 ** ETC Redox Rxns
@@ -76,7 +78,7 @@
  \ce{FADH2 <=>[ETF/ETF-CO] FAD + 2H+}
 
 ** Ketone Redox Rxn
-- hydroxybutyrate dehydrogenase :: reduced to \beta-hydroxybutyrate
+- hydroxybutyrate dehydrogenase :: acetoacetate reduced to \beta-hydroxybutyrate
 
  \ce{acetoacetate + NADH <=>[HBDH] \beta-hydroxybutyrate + NAD+}
 

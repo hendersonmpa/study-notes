@@ -13,9 +13,10 @@
 
 #+BEGIN_EXPORT LaTeX
 \begin{center}
-\setatomsep{1.8em}
+\chemnameinit{}
 \chemname{\chemfig{-[7](=[6]O)-[1](=[2]O)-[7]OH}}{pyruvate}
 \hspace{20}
+\chemnameinit{}
 \chemname{\chemfig{-[7](=[6]O)-[1]S-[,,,,decorate, decoration=snake]CoA}}{acetyl-CoA}
 \end{center}
 #+END_EXPORT
@@ -86,12 +87,13 @@
   - biotin deficiency, biotinidase deficiency and HCS deficiency
   - three important biotin-dependent carboxylases:
     - propionyl-CoA carboxylase (PCC)
-    - 3-methylcrotonyl-CoA carboxylase (3MCC)
+    - 3-methylcrotonyl-CoA carboxylase (MCC)
     - pyruvate carboxylase (PC)
 
-  - CA-VA deficiency
-    - results in dysfunction of all four enzymes to which CA-VA
-      provides bicarbonate as substrate in mitochondria (see Urea Cycle)
+  - CAVA deficiency
+    - results in dysfunction of all four enzymes (three above and
+      CPS1) to which CAVA provides bicarbonate as substrate in
+      mitochondria (see Urea Cycle)
 
 ** Clinical Presentation
 - French phenotype (type B) most severe
@@ -161,7 +163,7 @@
 | E2       | dihydrolipoyl  S-acetyltransferase | DLAT  | lipoate, CoA           |
 | E3       | dihydrolipoyl dehydrogenase        | DLD   | FAD, NAD^{+}           |
 
-#+CAPTION[pdhe1]: Activation/deactivation of PDHE1
+#+CAPTION[pdhe1]: Activation/deactivation of PDH E1
 #+NAME: fig:pdhe1
 #+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./figures/pdhe1_phos.png]]
@@ -178,30 +180,30 @@
 - NADH/\ce{NAD+} is normal \therefore N-\downarrow L/P
   - ETC deficiencies \to \uparrow L/P
 
-** Clinical Presentation: PDHE1\alpha
+** Clinical Presentation: PDH E1\alpha
 - majority of cases involve the X encoded \alpha-subunit of the dehydrogenase (E1)
-  - PDHE1\alpha deficiency
+  - PDH E1\alpha deficiency
   - developmental delay, hypotonia, seizures and ataxia
 
 - common presentations in hemizygous males:
   1. neonatal lactic acidosis
      - most severe
-  2. Leigh's encephalopathy
+  2. *Leigh's encephalopathy*
      - most common
      - present in first 5 years
   3. intermittent ataxia
      - rare
      - ataxia after carbohydrate rich meals \to Leigh's syndrome 
 
-- females with PDHE1\alpha, uniform presentation, variable severity
+- females with PDH E1\alpha, uniform presentation, variable severity
   - dismorphic features
   - moderate to severe intellectual disability
   - seizures common
   - severe neonatal lactic acidosis can be present
 
-** Clinical Presentation: PDHE1\beta
+** Clinical Presentation: PDH E1\beta
 - very rare
-- similar to PDHE1\alpha
+- similar to PDH E1\alpha
 
 ** Genetics
 - all components of PDHC are encoded by nuclear genes
@@ -212,8 +214,8 @@
   - suggests E1\alpha is essential
 
 ** Diagnostic Tests
-- lactate and pyruvate in blood and CSF
-- CSF lactate is generally \uparrow compared to blood
+- \uparrow lactate and pyruvate in blood and CSF
+  - CSF lactate \gt blood lactate
 - urine organic acids
   - \uparrow lactic and pyruvate
 - plasma amino acids
@@ -243,14 +245,14 @@
 ** Genetics 
 - AR DLD
 ** Diagnostic Testing
-- combined PDHC, TCA, BCAA defect
-  - \uparrow lactate , pyruvate 
+- combined PDHC, KDHC, BCKDH defect
+  - \uparrow lactate, pyruvate 
   - \uparrow alanine, glutamate, glutamine, BCAA
   - urine OA
-    - \uparrow lactic, pyruvic
-    - \uparrow 2-ketoglutaric
-    - \uparrow 2-OH-isovaleric
-    - \uparrow 2-oxoisocaproic
+    - \uparrow lactic, pyruvic (PDH)
+    - \uparrow 2-ketoglutaric (KGDH)
+    - \uparrow 2-hydroxyisovaleric (BCKDH)
+    - \uparrow 2-oxoisocaproic (BCKDH)
 - pattern of abnormalities not seen in all patients at all times
 
 
