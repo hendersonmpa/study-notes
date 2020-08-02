@@ -9,6 +9,7 @@
 \begin{center}
 \chemnameinit{}
 \chemname{\chemfig{H_2N-[::30,,2,](=[::60]O)-PO_4^{-}}}{\small carbamoyl-P}
+\hspace{20}
 \chemnameinit{}
 \chemname{\chemfig{H_2N-[::30,,2,]-[::-60]-[::60]-[::-60](<[::-60]NH_2)-[::60](=[::60]O)-[::-60]OH}}{\small ornithine}
 \end{center}
@@ -32,6 +33,7 @@
 \begin{center}
 \chemnameinit{}
 \chemname{\chemfig{H_2N-[::30,,2,](=[::60]NH)-[::-60]\chembelow{N}{H}-[::60]-[::-60]-[::60]-[::-60](<[::-60]NH_2)-[::60](=[::60]O)-[::-60]OH}}{\small arginine}
+\hspace{20}
 \chemnameinit{}
 \chemname{\chemfig{H_2N-[1](=[2]O)-[7]NH_2}}{\small urea}
 \begin{center}

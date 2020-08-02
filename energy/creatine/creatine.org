@@ -17,7 +17,7 @@
 
 - from these organs of synthesis creatine is transported via the
   bloodstream to the organs of utilization, mainly muscle and brain
-  - taken up by a sodium and chloride dependent Creatine Transporter
+  - taken up by a sodium and chloride dependent creatine transporter
     (CRTR)
 
 - most brain creatine is transported from the blood via CRTR expressed
@@ -34,12 +34,12 @@
   directly proportional to total body creatine, and in particular to
   muscle mass 
 
-#+CAPTION[]:Metabolic pathway of creatine/creatine phosphate
+#+CAPTION[]:Metabolic Pathway of Creatine/Creatine Phosphate
 #+NAME: fig:cr
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/creatine.png]]
 
-#+CAPTION[]:Metabolic pathway of creatine/creatine phosphate
+#+CAPTION[]:Metabolic Pathway of Creatine/Creatine Phosphate
 #+NAME: fig:cr2
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/Slide16.png]]
@@ -64,7 +64,7 @@
   - mitochondrial disease
 
 ** Clinical Presentation
-- global developmental delay (GDD) / intellectual disability (ID)
+- global developmental delay (GDD) or intellectual disability (ID)
   - with prominent speech delay
 - GDD or ID ranges from mild to severe and is characteristically
   associated with challenging (hyperactive, autistic) behaviours
@@ -80,20 +80,20 @@
   brain in CRTR deficiency
 - low intracellular creatine and creatine-phosphate result in reduced
   production of creatinine
-  - \therefore \low urine and plasma creatinine
+  - \therefore \downarrow urine and plasma creatinine
 - guanidinoacetate is neurotoxic \to CNS
   - \downarrow AGAT deficiency
   - \uparrow GAMT deficiency
 
 ** Genetics
-- AR, AGAT (GATM) and GAMT (GAMT)
-- X-linked, CRTC (SLC6A8)
+- AR GATM (AGAT)  and GAMT (GAMT)
+- X-linked SLC6A8 (CRTC)
 ** Diagnostic Tests
 - MRS to screen for cerebral creatine deficiency
 - urine guanidinoacetate, creatine and creatinine is an important
   screening test for all CDS (Table [[tab:cdsurine]])
 - CSF guanidinoacetate
-  - \uparrow GAMT, 100x normal
+  - \uparrow in GAMT \sim 100x normal
 
 
 
@@ -101,9 +101,9 @@
 #+NAME: tab:cdsurine
 |      | GAA        | creatine/creatinine |
 |------+------------+---------------------|
-| AGAT | \downarrow | n/\downarrow        |
-| GAMT | \uparrow   | \downarrow          |
-| CRTR | n          | \uparrow            |
+| AGAT | \downarrow | N/\downarrow        |
+| GAMT | \Uparrow   | \downarrow          |
+| CRTR | N          | \uparrow            |
 
 ** Treatment
 - normal neurodevelopmental outcome has been reported in early treated
@@ -111,6 +111,7 @@
 - AGAT and GAMT treated with creatine monohydrate
 - GAMT deficiency - reduction of guanidinoacetate is achieved by
   ornithine supplementation \pm dietary arginine restriction
+  - arginase ERT to \downarrow arginine and \uparrow ornithine
 - CRTC no treatment
 - CRTR deficiency - creatine, arginine and glycine supplementation
   does not significantly improve outcome, although partial clinical

@@ -10,8 +10,10 @@
 \begin{center}
 \chemnameinit{}
 \chemname{\chemfig{-[1](-[2])-[7](<[6]NH_2)-[1](=[2]O)-[7]OH}}{\small valine}
+\hspace{20}
 \chemnameinit{}
 \chemname{\chemfig{-[7](-[6])-[1]-[7](<[6]NH_2)-[1](=[2]O)-[7]OH}}{\small leucine}
+\hspace{20}
 \chemnameinit{}
 \chemname{\chemfig{-[7]-[1](-[2])-[7](<[6]NH_2)-[1](=[2]O)-[7]OH}}{\small isoleucine}
 \end{center}

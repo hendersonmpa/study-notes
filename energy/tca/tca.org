@@ -86,7 +86,8 @@
 ** Treatment
 - none
 * Succinate Dehydrogenase Deficiency
-- four subunits compose Complex II of the mitochondrial respiratory chain
+- four subunits compose Complex II of the mitochondrial respiratory
+  chain (Table [[tab:sdd]])
 
 #+CAPTION[]:Succinate Dehydrogenase | Complex II
 #+NAME: tab:sdd

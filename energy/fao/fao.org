@@ -387,9 +387,11 @@
 *** Metabolic Derangement
 - MTP a hetero-octamer composed of four \alpha-subunits and four
   \beta-subunits
-- \alpha-subunit has long-chain enoyl-CoA hydratase (LCEH) and LCHAD
+- \alpha-subunit encoded by HADHA has long-chain enoyl-CoA hydratase
+  (LCEH) and long-chain 3-hydroxyacyl-CoA dehydrogenase (LCHAD)
   activities
-- \beta-subunit has long-chain ketoacyl-CoA thiolase (LCKAT) activity
+- \beta-subunit encoded by HADHB has long-chain ketoacyl-CoA thiolase
+  (LCKAT) activity
 - MTP deficiency is characterized by decreased activity of all 3 enzymes
   - can result from mutations that affect the assembly of and/or
     degradation of the hetero-octomeric holoenzyme
@@ -398,13 +400,11 @@
     - AR HADHA, HADHB
 
 *** Diagnostic Tests
-- similar to LCHAD
+- plasma acylcarnitines and UOA similar to LCHAD
 - \uparrow lactate \because 3-OH-palmitoyl-CoA inhibits PDH
 - \uparrow hydroxy-acylcarnitines
   - \uparrow C14OH, C16OH, C18OH, C18:1OH
 - \uparrow UOA C6-C14 dicarboxylic and hydroxy-dicarboxylic acids
-- can have increased unsaturated hydroxy-acylcarnitine compared to LCHAD
-  - \uparrow C16:1OH, C18:1OH, C18:2OH
 - molecular
 
 *** Treatment 

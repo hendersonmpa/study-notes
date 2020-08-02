@@ -14,11 +14,13 @@
 
 #+BEGIN_EXPORT LaTeX
 \begin{center}
-\setatomsep{1.8em}
-\chemname{\chemfig{H_3C-[1](=[2]O)-[7]CH3}}{acetone}
+\chemnameinit{}
+\chemname{\chemfig{H_3C-[1](=[2]O)-[7]CH_3}}{acetone}
 \hspace{20}
+\chemnameinit{}
 \chemname{\chemfig{H_3C-[1](=[2]O)-[7]-[1](=[2]O)-[7]OH}}{acetoacetate}
 \hspace{20}
+\chemnameinit{}
 \chemname{\chemfig{H_3C-[1](-[2]OH)-[7]-[1](=[2]O)-[7]OH}}{$\beta$-hydroxybutyrate}
 \end{center}
 #+END_EXPORT
@@ -45,9 +47,8 @@
 
 * Ketogenesis Defects
 - there are two defects of ketogenesis:
-  1. Mitochondrial HMG-CoA synthase deficiency
-  2. HMG-CoA lyase deficiency
-
+  1. 3-hydroxy-3-methylglutaryl-CoA (HMG-CoA) synthase deficiency
+  2. 3-hydroxy-3-methylglutaryl-CoA (HMG-CoA) lyase deficiency
 
 ** Clinical Presentation
  #+CAPTION[]:Common Manifestations in Ketogenesis Defects
@@ -77,10 +78,10 @@
   may be markedly elevated, particularly in neonatal onset cases
 - often hyperammonaemia, hepatomegaly and abnormal liver function tests and
   may develop pancreatitis or cardiomyopathy
-- neurological sequelae included:
+- neurological sequelae include:
   - epilepsy, intellectual handicap, hemiplegia or cerebral visual loss
   - magnetic resonance imaging (MRI) shows diffuse mild signal changes
-    in the cerebral white matter on T 2 -weighted images with multiple
+    in the cerebral white matter on T2-weighted images with multiple
     foci of more severe signal abnormality
 - myelination may be impaired because KB are a substrate for the
   synthesis of myelin cholesterol
@@ -96,7 +97,8 @@
 
  \ce{HMG-CoA <=>[HMGCL] acetoacetate + acetyl-CoA}
 
-- HMG-CoA can also be derived from leucine
+- HMG-CoA can also be derived from the leucine metabolite
+  3-methylglutaconyl-CoA
 - *HMG-CoA synthase and HMG-CoA lyase deficiencies both impair
   ketogenesis*
   - *HMG-CoA lyase deficiency also causes the accumulation of
@@ -126,15 +128,15 @@
 - diagnosis is confirmed by mutation analysis
 
 *** HMG-CoA Lyase Deficiency
-- urine organic acids
-  - \uparrow 3-hydroxy-3-methylglutaric
+- urine organic acids contain leucine metabolites
+  - \uparrow 3-hydroxy-3-methylglutaric (HMG)
   - \uparrow 3-hydroxyisovaleric
   - \uparrow 3-methylglutaconic
   - \uparrow 3-methylglutaric 
   - 3-methylcrotonylglycine may also be present
 - plasma acylcarnitines
-  - \uparrow C5OH-carnitine (3-hydroxyisovalerylcarnitine) 
-  - \uparrow C6DC-carnitine (3-methylglutarylcarnitine) 
+  - \uparrow 3-hydroxyisovaleryl-carnitine (C5OH)
+  - \uparrow 3-methylglutaryl-carnitine (C6DC)
 - diagnosis is confirmed by mutation analysis or measuring HMG-CoA
   lyase activity in leukocytes or cultured fibroblasts
 
@@ -169,7 +171,9 @@
 - KB utilisation occurs in extrahepatic mitochondria, starting with
   the transfer of coenzyme A from succinyl-CoA to acetoacetate,
   catalysed by SCOT
+
  \ce{succinyl-CoA + acetoacetate <=>[SCOT] acetoacyl-CoA + succinate}
+
 - this forms acetoacetyl-CoA, which is converted to acetyl-CoA by T2
 - second reaction can also be catalysed to some extent by
   medium-chain 3-ketoacyl-CoA thiolase (T1)
@@ -186,7 +190,7 @@
   degradation pathway
   - T2 deficiency \to \uparrow isoleucine-derived acyl-CoA esters
   - these may be responsible for neurodevelopmental abnormalities
-- ketoacidosis in patients with MCT1 deficiency \to transporters are
+- ketoacidosis in patients with MCT1 deficiency \to transporters
   facilitate rapid entry of KB at times of stress
 - MCT1 transporters are important for lactate transport
   - expressed in the brain, particularly on oligodendroglia
@@ -194,7 +198,7 @@
   absence of MCT1 in the brain
 
 ** Genetics
-- AR - SCOT (OXCT1), T2 (ACAT1) and MCT1 (SLC16A1)
+- AR  OXCT1 (SCOT), ACAT1 (T2) and SLC16A1 (MCT1)
 - heterozygous SLC16A1 and OXCT1 mutations have been found in several
   patients investigated for ketoacidosis, suggesting that they can
   cause problems if subjects are exposed to sufficient stress

@@ -73,7 +73,7 @@
 	   }    
 #+END_SRC
 
-#+CAPTION[]:Flow of electrons in the ETC
+#+CAPTION[]:Flow of Electrons in the ETC
 #+NAME: fig:etc
 #+ATTR_LaTeX: :width 1.1\textwidth
 #+RESULTS:
@@ -105,7 +105,7 @@
 #+ATTR_LaTeX: :width \textwidth
 [[file:./figures/Slide14.png]]
 
-#+CAPTION[redox]:Electron flow to O_2 and release free energy
+#+CAPTION[redox]:Electron Flow to O_2 and Release of Free Energy
 #+NAME: fig:redox
 #+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./figures/potential.png]]
@@ -155,7 +155,7 @@
              }    
   #+END_SRC
 
-  #+CAPTION[c1]:Complex I | NADH-ubiquinone oxidoreductase
+  #+CAPTION[c1]:Complex I | NADH-Ubiquinone Oxidoreductase
   #+NAME: fig:c1
   #+ATTR_LaTeX: :width 0.9\textwidth
   #+RESULTS:
@@ -172,7 +172,7 @@
    - uses quinone as an oxidant and FAD as a co-factor
  - maintains the cytoplasmic NAD^{+}/NADH ratio
 
- #+CAPTION[g3ps]:Glycerol-3-phosphate shuttle
+ #+CAPTION[g3ps]:Glycerol-3-Phosphate Shuttle
  #+NAME: fig:g3ps
  #+ATTR_LaTeX: :width 0.6\textwidth
  [[file:./figures/GPDH_shuttle.png]]
@@ -227,7 +227,7 @@
     molecules
   - translocates another four protons across the membrane
 
-  #+CAPTION[cIV]:Complex IV | Cytochrome c oxidase
+  #+CAPTION[cIV]:Complex IV | Cytochrome C Oxidase
   #+NAME: fig:cIV
   #+ATTR_LaTeX: :width 0.5\textwidth
   [[file:./figures/CIV.png]]
@@ -250,7 +250,7 @@
 - ATP synthase consists of two main subunits, F_0 and F_1,
   - a rotational motor mechanism \to ATP production
 
-   #+CAPTION[]: Complex V | ATP synthase 
+   #+CAPTION[]: Complex V | ATP Synthase 
    #+NAME: fig:atps
    #+ATTR_LaTeX: :width 0.5\textwidth
    [[file:./figures/atp_synthase.jpg]]
@@ -272,7 +272,7 @@
 [[file:./figures/Slide15.png]]
 
 
-#+CAPTION[]:mtDNA disorders
+#+CAPTION[]:mtDNA Disorders
 #+NAME: fig:mtdna
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/mtDNA_disorders.png]]
@@ -434,10 +434,10 @@
 - renal tubular dysfunction: urine anion gap, pH, serum K
 *** plasma amino acids:
  - alanine \propto pyruvate
-   - \uparrow alaine \gt 450 uM
+   - \uparrow alanine \gt 450 uM
    - \uparrow alanine/lysine \gt 3:1
    - \uparrow alanine/(phenylalanine + tyrosine) \gt 4:1
- - \uparrow glyine in lipoic acid biosynthesis defects
+ - \uparrow glycine in lipoic acid biosynthesis defects
  - \uparrow proline due to \downarrow proline oxidase activity
  - \downarrow citrulline and arginine in Leigh, NARP, MELAS and Pearson
 *** urine amino acids:
@@ -475,14 +475,18 @@
 - symmetrical changes in the basal ganglia and brainstem observed in Leigh syndrome
 
 ** Histology
-- muscle biopsy is diagnostic
+- biopsy of affected muscle is diagnostic
   - mitochondrial myopathy due to mtDNA mutations and LHON may have normal biopsies
+- immunohistochemistry for COX (complex IV), SDH, complex V
 - ragged red fibres on Gomori trichrome staining, due to mitochondrial proliferation
-- fibres stain strongly for succinate dehydrogenase
-- fibres often negative for COX (complex IV) in CPEO, KSS, or MERRF but positive in MELAS
-- Leigh syndrome patients may have no ragged red fibres and  COX-negative fibres only
+  - suggests mtDNA mutation
+  - fibres stain strongly for succinate dehydrogenase
+  - fibres often negative for COX (complex IV) in CPEO, KSS, and MERRF
+    but positive in MELAS
+  - Leigh syndrome patients may have no ragged red fibres and
+    COX-negative fibres only
 
-#+CAPTION[rrf]:Ragged red fibers - Gomori stain
+#+CAPTION[rrf]:Ragged Red Fibers - Gomori Stain
 #+NAME: fig:rrf
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./figures/Ragged_red_fibers_in_MELAS.jpg]]
@@ -503,7 +507,7 @@
   - OPA1 :: fusion
 
 * Treatment
-- Coenzyme Q disorders :: high does coenzyme Q
+- Coenzyme Q disorders :: high dose coenzyme Q
 - CI deficiency :: some are riboflavin responsive
 - vitamin and cofactor cocktails have limited evidence:
   - coenzyme Q

@@ -9,8 +9,10 @@
 \chemnameinit{}
 \chemname{\chemfig{H_3C-[1]S-[7]-[1]-[7](<[6]NH_2)-[1](=[2]O)-[7]OH}}{\small methionine}
 \chemnameinit{}
+\hspace{20}
 \chemname{\chemfig{HS-[7]-[1]-[7](<[6]NH_2)-[1](=[2]O)-[7]OH}}{\small homocysteine}
 \chemnameinit{}
+\hspace{20}
 \chemname{\chemfig{HS-[1]-[7](<[6]NH_2)-[1](=[2]O)-[7]OH}}{\small cysteine}
 \end{center}
 #+END_EXPORT
