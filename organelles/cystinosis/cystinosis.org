@@ -83,8 +83,7 @@
     brain parenchyma and lymph nodes
 
 ** Genetics
-- AR, CTNS
-
+- AR CTNS
 ** Diagnostic Tests
 - diagnosis of cystinosis is confirmed by:
   - leukocyte cystine levels (10-50 times normal values)

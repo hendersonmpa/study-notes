@@ -10,7 +10,7 @@
     - aminoacidergic :: aspartate and glutamate
     - cholinergic :: acetylcholine
     - monoaminergic :: adrenaline, noradrenaline, dopamine, and serotonin
-    - purinergic :: adenosine and adenosine mono-, di-, and triphosphate
+    - purinergic :: adenosine and adenosine mono, di, and triphosphate
 
 - GABA is formed from glutamic acid by glutamic acid decarboxylase
   (Figure [[fig:gaba]])
@@ -20,15 +20,15 @@
 - glutamic acid decarboxylase and GABA transaminase require PLP as a coenzyme
   - PLP also participates in the synthesis of dopamine and serotonin
   - many other pathways including the glycine cleavage system
-- GABA is a major inhibitory neurotransmitter present in high
+- *GABA is a major inhibitory neurotransmitter* present in high
   concentration in the CNS
   - predominantly in the gray matter
 - GABA modulates brain activity by binding to
   sodium-independent high-affinity  mostly GABA A receptors
-- glycine is one of the major inhibitory neurotransmitters in the CNS
+- *glycine is one of the major inhibitory neurotransmitters* in the CNS
 - inhibitory glycine receptors are mostly found in the brain stem
   and spinal cord
-- glutamate is the major excitatory neurotransmitter in the brain
+- *glutamate is the major excitatory neurotransmitter* in the brain
   - requires rapid uptake to replenish intracellular
     neuronal pools following extracellular release
 - inborn errors of neurotransmission include neurotransmitter
@@ -44,12 +44,12 @@
   2) succinic semialdehyde dehydrogenase (SSADH) deficiency
   3) homocarnosinosis
 
-#+CAPTION[]: Brain metabolism of GABA: 1 glutamic acid decarboxylase; 2 GABA transaminase; 3 succinic semialdehyde dehydrogenase
+#+CAPTION[]: Brain Metabolism of GABA: 1 glutamic acid decarboxylase; 2 GABA transaminase; 3 succinic semialdehyde dehydrogenase
 #+NAME: fig:gaba
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/gaba.png]]
 
-#+CAPTION[]: \gamma-aminobutryic acid metabolism
+#+CAPTION[]: \gamma-Aminobutryic Acid Metabolism
 #+NAME: fig:gaba2
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/Slide23.png]]
@@ -81,7 +81,7 @@
 - \downarrow glutathione, the major intracellular antioxidant
 
 *** Genetics
-- AR, ALDH5A1
+- AR ALDH5A1
 
 *** Diagnostic Tests
 - \uparrow urine \gamma-hydroxybutyric acid (GHB)
@@ -89,8 +89,8 @@
   - both the free and lactone form (threo-, erythro-) in the organic acid profile
     is highly suggestive
 - molecular diagnosis via sequencing of ALDH5A1
-- GHB is also employed clinically (Xyrem R (sodium saltof GHB); for
-  cataplexy) and illicitly (for induction of euphoria)
+- GHB is also employed clinically (Xyrem R) for cataplexy and
+  illicitly for induction of euphoria
 
 *** Treatment and Prognosis
 - sudden death can occur in patients often in association with
@@ -145,7 +145,7 @@
   - serotonin to 5-hydroxyindoleacetic acid (5-HIAA)
 
 
-#+CAPTION[]:Tetrahydrobiopterin metabolism
+#+CAPTION[]:Tetrahydrobiopterin Metabolism
 #+NAME: fig:bh4
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/Slide21.png]]
@@ -155,13 +155,13 @@
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/Slide22.png]]
 
-#+CAPTION[]:Metabolism of adrenaline, noradrenaline, dopamine and serotonin
+#+CAPTION[]:Metabolism of Adrenaline, Noradrenaline, Dopamine and Serotonin
 #+NAME: fig:monoamines
 #+ATTR_LaTeX: :width 1.0\textwidth
 [[file:./figures/monoamines.png]]
 
 
-** Tyrosine hydroxylase (TH) deficiency
+** Tyrosine Hydroxylase (TH) Deficiency
   - impairs synthesis of L-dopa and causes a neurological disease with
     prominent extrapyramidal signs
   - variable response to L-dopa
@@ -169,11 +169,11 @@
   - normal CSF 5-HIAA 
   - \downarrow CSF HVA/5-HIAA
     - most sensitive marker
-** Dopamine \beta-Hydroxylase deficiency
+** Dopamine \beta-Hydroxylase Deficiency
   - severe orthostatic hypotension with sympathetic failure
   - \Downarrow plasma noradrenaline and adrenaline
   - \uparrow plasma dopamine
-** Aromatic-amino Acid Decarboxylase (AADC) deficiency
+** Aromatic-Amino Acid Decarboxylase (AADC) Deficiency
 - located upstream of the neurotransmitter amines
   - \downarrow synthesis of seratonin and dopamine   
   - treatment can be challenging
@@ -181,11 +181,11 @@
 - \uparrow CSF 3-O-methyl-l-dopa and 5-HTP 
 - normal pterin concentrations
 - \uparrow urine vanillyllactic acid in organic acids
-** Monoamine-oxidase A (MAO-A) deficiency
+** Monoamine-Oxidase A (MAO-A) Deficiency
   - located downstream, mainly causes behavioural disturbances
   - no effective treatment is known
   - \uparrow urine serotonin, normetanephrine, metanephrine and 3-MT
-** GTPCH and SR deficiency 
+** GTPCH and SR Deficiency 
 - dopamine responsive dystonia (Figure [[fig:bh4]] and Table [[tab:biop]])
 - GTPCH catalyses the first step in BH_4 synthesis
   \ce{GTP ->[GTPCH] NH2TP}
@@ -215,12 +215,12 @@
 
 #+CAPTION[]:Results in Biopterin Disorders
 #+NAME: tab:biop
-| Deficiency |      Phe | biopterin[fn:1] | neopterin[fn:1] | primapterin[fn:1] | CSF 5-HIAA HVA | DHPR activity |
-|------------+----------+-----------------+-----------------+-------------------+----------------+---------------|
-| PAH        |   \gt120 | \uparrow        | \uparrow        | -                 | N              | N             |
-| GTPCH      |  50-1200 | \Downarrow      | \Downarrow      | -                 | \downarrow     | N             |
-| PTPS       | 240-2500 | \Downarrow      | \Uparrow        | -                 | \downarrow     | N             |
-| DHPR       | 180-2500 | \Downarrow      | N or \uparrow   | -                 | \downarrow     | \downarrow    |
-| PCD        | 180-1200 | \downarrow      | \uparrow        | \Uparrow          |                | N             |
-
-[fn:1] blood or urine
+| Deficiency |      Phe | biopterin[fn:matrix] | neopterin[fn:matrix] | primapterin[fn:matrix] | CSF 5-HIAA HVA | DHPR activity |
+|------------+----------+----------------------+----------------------+------------------------+----------------+---------------|
+| PAH        |   \gt120 | \uparrow             | \uparrow             | -                      | N              | N             |
+| GTPCH      |  50-1200 | \Downarrow           | \Downarrow           | -                      | \downarrow     | N             |
+| PTPS       | 240-2500 | \Downarrow           | \Uparrow             | -                      | \downarrow     | N             |
+| DHPR       | 180-2500 | \Downarrow           | N or \uparrow        | -                      | \downarrow     | \downarrow    |
+| PCD        | 180-1200 | \downarrow           | \uparrow             | \Uparrow               |                | N             |
+| SR         |        N | N                    | N                    | N                      | \Downarrow     | N             |
+[fn:matrix] blood or urine

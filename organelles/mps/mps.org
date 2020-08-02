@@ -91,13 +91,14 @@
   sulfatases in the ER
 - deficiency leads to a deficiency of 17 sulfatases
   - all lysosomal sulfatases including
-    - arylsulfatase (MLD)
+    - arylsulfatase A (MLD)
     - iduronate-2-sulfatase (Hunter)
     - heparin-N-sulfatase (Sanfilippo A)
 - MSD is very rare and clinical signs and symptoms are variable
   - progressive psychomotor retardation invariably present
 - urine GAG concentrations can be normal
-  - requires enzymatic assay of multiple sulfatases
+  - \uparrow urine sulfatides
+  - \downarrow measured /in vitro/ enzyme activity for multiple sulfatases
 
 * Mucopolysaccharidoses  
 ** Clinical Presentation
@@ -118,6 +119,31 @@
   - corneal clouding
   - cardiac valve thickening
 
+#+CAPTION[]:MPS Signs and Symptoms
+#+NAME: tab:mpsss
+| MPS      | variant        | dysostosis | valvular      | progressive          | spinal cord |
+|          |                | multiplex  | heart disease | cognitive impairment | compression |
+|----------+----------------+------------+---------------+----------------------+-------------|
+| MPS I    | Hurler         | =+++=      | =+++=         | =+++=                | =+++=       |
+|          | Hurler-Scheie  | =++=       | =++=          | =++=                 | =++=        |
+|          | Scheie         | =++=       | =++=          | -                    | =++=        |
+|----------+----------------+------------+---------------+----------------------+-------------|
+| MPS II   | neuronopathic  | =++=       | =++=          | =+++=                | =++=        |
+|          | attenuated     | =++=       | =++=          | \pm                  | =++=        |
+|----------+----------------+------------+---------------+----------------------+-------------|
+| MPS IIIA | Sanfilippo A   | =+=        | \pm           | =+++=                | -           |
+| MPS IIIB | Sanfilippo B   | =+=        | \pm           | =+++=                | -           |
+| MPS IIIC | Sanfilippo C   | =+=        | \pm           | =+++=                | -           |
+| MPS IIID | Sanfilippo D   | ?          | ?             | =+++=                | -           |
+|----------+----------------+------------+---------------+----------------------+-------------|
+| MPS IVA  | Morquio A      | =+++=      | =+=           | -                    | =+++=       |
+| MPS IVB  | Morquio B      | =+++=      | =+=           | -                    | =+++=       |
+|----------+----------------+------------+---------------+----------------------+-------------|
+| MPS VI   | Maroteaux-Lamy | =+++=      | =+++=         | -                    | =+++=       |
+| MPS VII  | Sly            | =+++=      | =++=          | =+++=                | =+=         |
+| MPS IX   |                | ?          | ?             | ?                    | ?           |
+| MSD      | Austin         | =++=       | =+=           | =+++=                | ?           |
+
 *** Dysmorphic syndrome
   - MPS I (Hurler)
   - MPS II (Hunter)
@@ -129,31 +155,6 @@
 *** Rare
   - MPS VII (Sly)
   - MPS IX (Natowicz)
-
-  #+CAPTION[]:MPS Signs and Symptoms
-#+NAME: tab:mpsss
-| MPS      | variant        | dysostosis | valvular      | progressive          | spinal cord |
-|          |                | multiplex  | heart disease | cognitive impairment | compression |
-|----------+----------------+------------+---------------+----------------------+-------------|
-| MPS I    | Hurler         | .+++       | .+++          | .+++                 | .+++        |
-|          | Hurler-Scheie  | ++         | ++            | ++                   | ++          |
-|          | Scheie         | ++         | ++            | -                    | ++          |
-|----------+----------------+------------+---------------+----------------------+-------------|
-| MPS II   | neuronopathic  | ++         | ++            | .+++                 | ++          |
-|          | attenuated     | ++         | ++            | \pm                  | ++          |
-|----------+----------------+------------+---------------+----------------------+-------------|
-| MPS IIIA | Sanfilippo A   | +          | \pm           | .+++                 | -           |
-| MPS IIIB | Sanfilippo B   | +          | \pm           | .+++                 | -           |
-| MPS IIIC | Sanfilippo C   | +          | \pm           | .+++                 | -           |
-| MPS IIID | Sanfilippo D   | ?          | ?             | .+++                 | -           |
-|----------+----------------+------------+---------------+----------------------+-------------|
-| MPS IVA  | Morquio A      | .+++       | +             | -                    | .+++        |
-| MPS IVB  | Morquio B      | .+++       | +             | -                    | .+++        |
-|----------+----------------+------------+---------------+----------------------+-------------|
-| MPS VI   | Maroteaux-Lamy | .+++       | .+++          | -                    | .+++        |
-| MPS VII  | Sly            | .+++       | ++            | .+++                 | +           |
-| MPS IX   |                | ?          | ?             | ?                    | ?           |
-| MSD      | Austin         | ++         | +             | .+++                 | ?           |
 
 ** Metabolic Derangement
 - type of lysosomal storage disease
@@ -177,34 +178,36 @@
 
 #+CAPTION[Mucopolysaccharidoses]:MPS Enzymes and Substrates
 #+NAME: tab:mps
-| MPS     | Name           | Enzyme                                            | GAG      | Assay  |
-|---------+----------------+---------------------------------------------------+----------+--------|
-| MPS I   | Hurler         | \alpha-iduronidase                                | HS,DS    | WBC    |
-|---------+----------------+---------------------------------------------------+----------+--------|
-| MPS II  | Hunter         | iduronate-2-sulfatase                             | HS,DS    | plasma |
-|---------+----------------+---------------------------------------------------+----------+--------|
-| MPS III | Sanfilippo A   | heparan-N-sulfatase                               | HS       | WBC    |
-|         | Sanfilippo B   | N-acetyl glucosaminidase                          | HS       | plasma |
-|         | Sanfilippo C   | \tiny{acetyl-CoA glucosamine N-acetyltransferase} | HS       | WBC    |
-|         | Sanfilippo D   | N-acetyl-glucosamine 6-sulfatase                  | HS       | WBC    |
-|---------+----------------+---------------------------------------------------+----------+--------|
-| MPS IV  | Morquio A      | N-acetylgalactosamine 6-sulfatase                 | KS,CS    | WBC    |
-|         | Morquio B      | \beta-galactosidase                               | KS       | WBC    |
-|---------+----------------+---------------------------------------------------+----------+--------|
-| MPS VI  | Maroteaux-Lamy | N-acetylgalactosamine 4-sulfatase                 | DS       | WBC    |
-| MPS VII | Sly            | \beta-glucuronidase                               | DS,HS,CS | WBC    |
-| MPS IX  |                | hyaluronidase                                     | HA       | fibro  |
-| MSD     | Austin         | formylglycine-generating enzyme                   | HS,DS    | WBC    |
+| MPS     | Name             | Enzyme                                            | GAG      | Assay  |
+|---------+------------------+---------------------------------------------------+----------+--------|
+| MPS I   | Hurler           | \alpha-iduronidase                                | HS,DS    | WBC    |
+|---------+------------------+---------------------------------------------------+----------+--------|
+| MPS II  | Hunter           | iduronate-2-sulfatase                             | HS,DS    | plasma |
+|---------+------------------+---------------------------------------------------+----------+--------|
+| MPS III | Sanfilippo A     | heparan-N-sulfatase                               | HS       | WBC    |
+|         | Sanfilippo B     | N-acetyl glucosaminidase                          | HS       | plasma |
+|         | Sanfilippo C     | \tiny{acetyl-CoA glucosamine N-acetyltransferase} | HS       | WBC    |
+|         | Sanfilippo D     | N-acetyl-glucosamine 6-sulfatase                  | HS       | WBC    |
+|---------+------------------+---------------------------------------------------+----------+--------|
+| MPS IV  | Morquio A        | N-acetylgalactosamine 6-sulfatase                 | KS,CS    | WBC    |
+|         | Morquio B[fn:mb] | \beta-galactosidase                               | KS       | WBC    |
+|---------+------------------+---------------------------------------------------+----------+--------|
+| MPS VI  | Maroteaux-Lamy   | N-acetylgalactosamine 4-sulfatase                 | DS       | WBC    |
+| MPS VII | Sly              | \beta-glucuronidase                               | DS,HS,CS | WBC    |
+| MPS IX  |                  | hyaluronidase                                     | HA       | fibro  |
+| MSD     | Austin           | formylglycine-generating enzyme                   | HS,DS    | WBC    |
+
+[fn:mb] \beta-galactosidase deficiency also causes GM1 gangliosidosis
 
 ** Genetics
 - AR
 - *MPS II Hunter is XLR*
-
+- see table [[tab:mps]]
 ** Diagnostic Tests
-- quantitation of urine GAGs (Table [[tab:mps]])
-  - dimethylmethylene blue dye binding assay (DMB)
-  - followed by two-dimensional electrophoresis for qualification of
-    the type of excreted GAGs
+- fractionation of urine GAGs (Table [[tab:mps]])
+  - dimethylmethylene blue dye binding assay (DMB) for total GAGs
+    quantitation
+  - two-dimensional electrophoresis for fractionation excreted GAGs
   - false negatives reported
   - LC-MSMS method favoured
 - positive screen is followed by analysis of the relevant enzyme
@@ -214,9 +217,9 @@
 - Berry spot test lacks sufficient sensitivity and is obsolete for
   screening for MPS
   - urine applied to paper and stained with toluidine blue
-- in a sulfatase deficiency, it is necessary to measure at least one
-  other sulfatase, in order to exclude multiple sulfatase deficiency
-  as the cause of the disease
+- *in a sulfatase deficiency, it is necessary to measure at least one*
+  *other sulfatase, in order to exclude multiple sulfatase deficiency*
+  *as the cause of the disease*
 
 ** Treatment
 - symptomatic care

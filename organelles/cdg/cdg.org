@@ -54,91 +54,149 @@
 - each CDG type is defined by a specific enzyme defect and the mutation in its underlying gene
 - most CDG mutations are hypomorphic - allow some glycan synthesis
 - N-Glycan CDGs
-  - Type 1: ER defects
-  - Type 2: Golgi defects
-  - ~1500+ cases worldwide
-    - 70% PMM2-CDG (CDG 1a)
+  - ~1500+ cases worldwide, 70% PMM2-CDG (CDG Ia)
+    - Type 1 :: ER defects that impair lipid-linked oligosaccharide (LLO)
+      assembly and transfer
+    - Type 2 :: Golgi defects that affect trimming of the
+      protein-bound oligosaccharide or the addition of sugars to it
 
-#+CAPTION[]:CDG diagnosis
+#+CAPTION[]:CDG Diagnosis
 #+NAME: fig:cdg_diag
 #+ATTR_LaTeX: :width 1\textwidth
 [[file:./figures/cdg_diag.png]]
 
-* CDG Ia (PMM2-CDG)
-** Clinical Presentation
-- ~70% CDGs
-- nervous system is affected in all patients
-  - alternating internal strabismus and other abnormal eye movements
-  - axial hypotonia, psychomotor disability, ataxia and hyporeflexia
-- other features are:
-  - variable dysmorphism, which may include large ears, abnormal
-    subcutaneous adipose tissue distribution, inverted nipples
-  - mild to moderate hepatomegaly, skeletal abnormalities and hypogonadism
-- cause of non-immune fetal hydrops
-- after infancy symptoms include retinitis pigmentosa, stroke-like episodes \pm epilepsy
-- 1st year variable feeding problems anorexia, vomiting, diarrhoea \to FTT
-- some infants develop a pericardial effusion \pm cardiomyopathy
-- other end of the clinical spectrum are patients with very mild
-  phenotype - no dysmorphic features, slight intellectual disability
+*** Treatable CDGs
+ - CDG IB :: oral mannose
+ - CDG IT :: oral galactose
+ - CDG IIC :: oral frucose
 
-** Metabolic Derangement
-- deficiency of phosphomannomutase 2, principal isozyme of PMM
-- PMM2 catalyses the second committed step in the synthesis of GDP-mannose
-  - man-6-P \ce{<=>[PMM2]} man-1-P
-  - occurs in the cytosol
-- GDP-mannose is used in the ER to assemble the dolichol-pyrophosphate
-  oligosaccharide precursor
-- defect leads to hypoglycosylation
-- deficiency and/or dysfunction of numerous glycoproteins:
-  - serum proteins:
-    - thyroxin-binding globulin, haptoglobin, clotting factor XI,
-      antithrombin III, cholinesterase
-  - lysosomal enzymes
-  - membrane bound glycoproteins
+* Type I CDGs
+** CDG IA (PMM2-CDG)
+*** Clinical Presentation
+ - ~70% CDGs
+ - nervous system is affected in all patients
+   - global developmental delay
+   - alternating internal strabismus and other abnormal eye movements
+   - axial hypotonia, psychomotor disability, *ataxia* and hyporeflexia
+ - other features are:
+   - variable dysmorphism, which may include large ears, abnormal
+     subcutaneous adipose tissue distribution, inverted nipples
+   - mild to moderate hepatomegaly, skeletal abnormalities and hypogonadism
+ - *cause of non-immune fetal hydrops*
+ - after infancy symptoms include retinitis pigmentosa, stroke-like episodes \pm epilepsy
+ - 1st year variable feeding problems anorexia, vomiting, diarrhoea \to FTT
+ - some infants develop a pericardial effusion \pm cardiomyopathy
+ - other end of the clinical spectrum are patients with very mild
+   phenotype - no dysmorphic features, slight intellectual disability
 
-** Genetics
-- AR PMM2
+*** Metabolic Derangement
+ - deficiency of *phosphomannomutase 2* principal isozyme of PMM
+ - PMM2 catalyses the second committed step in the synthesis of GDP-mannose
+   - occurs in the cytosol
 
-** Diagnostic Tests
-- \uparrow transaminases
-- \downarrow albumin
-- \downarrow cholesterol
-- tubular proteinuria
+   \ce{mannose-6-P <=>[PMM2] mannose-1-P}
+
+ - GDP-mannose is used in the ER to assemble the dolichol-pyrophosphate
+   oligosaccharide precursor
+ - defect leads to hypoglycosylation
+ - deficiency and/or dysfunction of numerous glycoproteins:
+   - serum proteins:
+     - thyroxin-binding globulin, haptoglobin, clotting factor XI,
+       antithrombin III, cholinesterase
+   - lysosomal enzymes
+   - membrane bound glycoproteins
+
+*** Genetics
+ - AR PMM2
+
+*** Diagnostic Tests
+ - \uparrow transaminases
+ - \downarrow albumin
+ - \downarrow cholesterol
+ - tubular proteinuria
+ - transferrin IEF - Type I pattern
+ - activity of PMM should be measured to confirm the diagnosis
+   leukocytes or fibroblasts
+   - [2-H^3]mannose-6-phosphate
+   - PMM activity in fibroblasts can be normal
+ - see figure [[fig:cdg_diag]]
+
+*** Treatment
+ - no effective treatment is available
+
+** CDG IB (MPI-CDG)
+ - AKA Saquenay-Lac Saint-Jean syndrome
+*** Clinical Presentation
+ - onset in neonatal \to infancy
+ - cyclic vomiting, profound hypoglycemia, FTT, liver
+   fibrosis, gastrointestinal complications
+   - protein-losing enteropathy with hypoalbuminaemia, life-threatening
+     intestinal bleeding of diffuse origin
+ - thrombotic events, protein C and S deficiency, low anti-thrombin III levels
+ - neurological development and cognitive capacity is usually normal
+
+*** Metabolic Derangement
+ - *mannose-6 phosphate isomerase* deficiency
+
+ \ce{fructose-6-P <=>[MPI] mannose-6-P}
+
+*** Genetics
+ - AR, MPI
+
+*** Diagnostic Tests
+ - serum transferrin IEF - Type I pattern 
+ - \downarrow MPI activity WBC, fibroblasts
+ - see figure [[fig:cdg_diag]]
+*** Treatment
+ - *treated effectively with oral mannose supplementation*
+ - can be fatal if untreated
+
+** CDG IC (ALGA6-CDG)
+*** Clinical Presentation
+- second most common CDG
+- psychomotor retardation with delayed walking and speech, hypotonia,
+   seizures, and sometimes protein-losing enteropathy
+- clinical picture is milder than CDG-Ia
+*** Metabolic Derangement
+- *\alpha-1,3-glucosyltransferase* deficiency 
+- required for the attachment in the ER of the firstof three glucose
+ molecules to the dolichol-linked mannose_{9}-N-acetylglucosamine_{2}
+ intermediate
+- causes hypoglycosylation of serum proteins
+  - concentration of blood glycoproteins are very low as a result
+*** Genetics 
+- AR ALG6
+*** Diagnostic Tests
 - transferrin IEF - Type I pattern
-- activity of PMM should be measured to confirm the diagnosis
-  leukocytes or fibroblasts
-  - [2-H^3]mannose-6-phosphate
-- PMM activity in fibroblasts can be normal
-- see figure [[fig:cdg_diag]]
+- activity of PMM2 and MPI should be measured to rule out 
+- molecular
 
-** Treatment
-- no effective treatment is available
+*** Treatment
+- none
 
-* CDG Ib (MPI-CDG)
-** Clinical Presentation
-- onset in neonatal \to infancy
-- cyclic vomiting, profound hypoglycemia, FTT, liver
-  fibrosis, gastrointestinal complications
-  - protein-losing enteropathy with hypoalbuminaemia, life-threatening
-    intestinal bleeding of diffuse origin
-- thrombotic events, protein C and S deficiency, low anti-thrombin III levels
-- neurological development and cognitive capacity is usually normal
+** CDG IT (PGM1-CDG)
+*** Clinical Presentation
+- common features include cleft lip and bifid uvula, apparent at
+  birth
+- followed by hepatopathy, intermittent hypoglycemia, short stature,
+  and exercise intolerance, often accompanied by increased serum
+  creatine kinase
+- less common features include rhabdomyolysis, dilated cardiomyopathy,
+  and hypogonadotropic hypogonadism
 
-** Metabolic Derangement
-- mannose-6 phosphate isomerase deficiency
-- F-6-P \ce{<=>[MPI]} M-6-P
+*** Metabolic Derangement
+- *phosphoglucomutase 1* deficiency
 
-** Genetics
-- AR, MPI
+\ce{glucose-1-P <=>[PGM1] glucose-6-P}
 
-** Diagnostic Tests
-- serum transferrin IEF - Type I pattern 
-- \downarrow MPI activity WBC, fibroblasts
-- see figure [[fig:cdg_diag]]
-** Treatment
-- *treated effectively with oral mannose supplementation*
-- can be fatal if untreated
-- Saquenay-Lac Saint-Jean syndrome
+*** Diagnostic Tests
+- \uparrow transaminases
+- transferrin IEF - *mixed Type I/II pattern*
+- modified Beutler test using glucose-1-phosphate can be used to screen for PGM1 deficiency
+- molecular
+
+*** Treatment
+- galactose supplementation may be an effective treatment
 
 * Type II CDGs
 ** CDG IIa (MGAT2-CDG)
@@ -153,7 +211,7 @@
   aggregation
 
 *** Metabolic Derangement
-- golgi N-acetylglucosaminyltransferase II deficiency
+- *golgi N-acetylglucosaminyltransferase II* deficiency
   - transfer glcNAc \to free terminal mannose of core N-linked glycan chain
   - \to second branch in complex glycans
 *** Genetics
@@ -172,7 +230,7 @@
 - Bombay (hh) blood phenotype (Figure [[fig:hh]])
   - do not express H antigen 
 *** Metabolic Derangement
-- GDP-fucose transporter 1 defect
+- *GDP-fucose transporter 1* defect
   - transports GDP-fucose into Golgi
 *** Genetics
 - AR SLC35C1

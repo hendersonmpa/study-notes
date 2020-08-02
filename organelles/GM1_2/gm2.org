@@ -47,12 +47,11 @@
 [[file:./figures/hexosaminidasea.png]]
 
 
-#+CAPTION[]:Hexosaminidase A & B:Sandhoff disease [fn:gl]
+#+CAPTION[]:Hexosaminidase A & B:Sandhoff disease (GL-3 & 4 equivalent to Gb3 & 4)
 #+NAME: fig:hexb
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./figures/hexosaminidaseab.png]]
 
-[fn:gl] GL-3 & 4 AKA Gb3 & 4
 
 * Clinical Findings
 - see table [[tab:gm2ss]]
@@ -74,28 +73,26 @@
 - > 40 mutations in HEXB
 - 6 in GM2A
 * Laboratory Investigations
-- urine oligosacarides
 - /in vitro/ hexoaminidase activity: leukocytes, fibroblasts
   - 4-MU-6-sulfo-\beta-glucosaminide
   - specific for the \alpha subunit
 - falsely normal results in Tay-Sachs female carriers
 - the direct assay of hexosaminidase A using the sulfated synthetic
-  substrate (4-MU-6-sulfo-/beta-glucosaminide) specific for the \alpha-subunit
+  substrate (4-MU-6-sulfo-\beta-glucosaminide) specific for the \alpha-subunit
   is the method of choice
 - total hexosaminidases (A+B) using a synthetic fluorogenic substrate
   allows the diagnosis of Sandhoff disease
-- differential assay of HexA using heat or acid
-  inactivation does not identify patients with the B1 variant
-
+- differential assay of HexA using heat or acid inactivation does not
+  identify patients with the B1 variant (see Methods)
 - high residual activity is found in Sandhoff disease
   - excess of hexosaminidase S (\alpha\alpha-dimer)
 - GM2 activator deficiency
   - normal /in vitro/ hexosaminidase A activity
   - definitive diagnosis requires GM2A sequencing
+- urine oligosacarides
+- \uparrow CSF GM2 ganglioside
 - electron microscopic examination of a skin or conjunctiva biopsy
   - concentric lamellated bodies in nerve endings
-- \uparrow CSF GM2
-
 * Treatment
 - treat seizures
 - no curative treatment to date

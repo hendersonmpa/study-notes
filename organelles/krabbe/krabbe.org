@@ -6,6 +6,7 @@
 - rapidly progressive CNS degenerative disease
 - Krabbe is both a *leukodystrophy* affecting white matter of the central
   and peripheral nervous systems, and an LSD
+  - hypomyelinating leukodystrophy (degeneration of white matter)
 - incidence of 1:100,000 births
 - deficiency in *galactocerebrosidase (AKA:galactosylceramidase)* 
   - catabolism of galactocerebroside, a major lipid in myelin, kidney, and epithelial cells of the small intestine and colon. 
@@ -24,8 +25,9 @@
 - lysosomal trafficking of galactocerebrosidase by the M6P receptor
   - enzyme is secreted in ML II (I cell disease)
 
-** Saposin A cofactor deficiency
-- atypical Krabbe disease due to saposin A deficiency is caused by mutation in the prosaposin gene (PSAP)
+** Saposin A Cofactor Deficiency
+- atypical Krabbe disease due to *saposin A (Sap-A)* deficiency is
+  caused by mutation in the prosaposin gene (PSAP)
 - sphingolipid activator proteins (saposins A, B, C and D) are small
   homologous glycoproteins derived from a common precursor protein
   (prosaposin) encoded by a single gene
@@ -63,7 +65,7 @@
   Krabbe disease is higher than previously thought
 
 * Genetics
-- AR GALC
+- AR GALC or rarely PSAP (sap-A)
 - recurrent 30 kb deletion extends from intron 10 to intron 17
   - infantile onset disease in homozygotes
 
@@ -83,7 +85,7 @@
     of infantile-onset Krabbe disease who are candidates for early
     HSCT
 
-#+CAPTION[]:NBS follow-up at Mayo
+#+CAPTION[]:NBS Follow-up at Mayo
 #+NAME: fig:
 #+ATTR_LaTeX: :width 0.8\textwidth
 [[file:./figures/NBS_follow_up.png]]

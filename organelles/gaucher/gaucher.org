@@ -4,7 +4,7 @@
 
 * Introduction
 - defect in *\beta-glucocerebrosidase (AKA: acid \beta-glucosidase)*
-  - extremely rare *SAP-C deficiency*
+  - extremely rare *SAP-C* deficiency
 - located in the lumen of lysosomes
 - LIMP-2 is responsible for MPR independent lysosomal targeting of
   \beta-glucocerebrosidase
@@ -23,11 +23,10 @@
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./figures/glucocerebroside.png]]
 
-#+CAPTION[]:\beta-glucocerebrosidase defective in Gaucher
+#+CAPTION[]:\beta-glucocerebrosidase Defective in Gaucher
 #+NAME: fig:sidase
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./figures/glucocerebrosidase.png]]
-
 
 * Clinical Findings
 - see table [[tab:gtype]]
@@ -92,7 +91,7 @@
     first seen
 
 * Genetics
-- AR GBA 
+- AR GBA or rarely PSAP (sap-C)
 - most of the >300 disease alleles in Gaucher disease are missense
   mutations
 - genotype/phenotype correlations exist for:
@@ -101,7 +100,7 @@
 - within these categories there is variable penetrance and
   expressivity between individuals and ethnic groups
 * Laboratory Investigations
-#+CAPTION[]:Gaucher Cells in a bone marrow smear
+#+CAPTION[]:Gaucher Cells in a Bone Marrow Smear
 #+NAME: fig:cells
 #+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./figures/Gaucher_Cells_with_Fibrillar_Appearing_Cytoplasm.jpg]]
@@ -143,8 +142,11 @@
     - VPRIV (velaglucerase) :: human fibroblasts, 2010 
 
 ** Substrate reduction therapy
-- miglustate is a ceramide glucoyltransferase inhibitor
-  - N-butyldeoxynojirimycin 
+- miglustat an iminosugar a synthetic analogue of D-glucose
+  - inhibits ceramide glucoyltransferase required for synthesis of
+    glycosphingolipids
+  - also used in Niemann-Pick C
+
 - isofagomine is a chaperone to stabilize missense mutation
 
 

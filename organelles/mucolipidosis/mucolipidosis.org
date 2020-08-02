@@ -19,10 +19,10 @@
 | Disease   | enzyme                   | dysostosis | progressive | angio-   | hepato         | sample |
 |           |                          | multiplex  | cognitive   | keratoma | -splenomegally |        |
 |-----------+--------------------------+------------+-------------+----------+----------------+--------|
-| ML I      | \alpha-neuraminidase     | ++         | ++          | -        | +              | fibro  |
-| ML II&III | UDP-N-acetylglucosamine- | .+++       | +           | -        | -              | plasma |
+| ML I      | \alpha-neuraminidase     | =++=       | =++=        | -        | =+=            | fibro  |
+| ML II&III | UDP-N-acetylglucosamine- | =+++=      | =+=         | -        | -              | plasma |
 |           | 1-phosphotransferase     |            |             |          |                |        |
-| ML IV     | mucolipin-1              | -          | ++          | -        | -              | DNA    |
+| ML IV     | mucolipin-1              | -          | =++=        | -        | -              | DNA    |
 
 * ML I (Sialidosis)
 ** Clinical Presentation  

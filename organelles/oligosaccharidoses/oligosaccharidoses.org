@@ -38,10 +38,10 @@
  | Disease            | enzyme             | dysostosis | progressive | angio-   | hepato-       | sample    |
  |                    |                    | multiplex  | cognitive   | keratoma | splenomegally |           |
  |--------------------+--------------------+------------+-------------+----------+---------------+-----------|
- | \alpha-mannosidase | \alpha-mannosidase | ++         | +           | -        | +             | WBC       |
- | \beta-mannosidase  | \beta-mannosidase  | +          | .+++        | -        | +             | WBC       |
- | fucosidosis        | fucosidase         | +          | ++          | .+++     | -             | WBC       |
- | galactosialidosis  | PPCA               | ++         | ++          | -        | +             | Fib & DNA |
+ | \alpha-mannosidase | \alpha-mannosidase | =++=       | =+=         | -        | =+=           | WBC       |
+ | \beta-mannosidase  | \beta-mannosidase  | =+=        | =+++=       | -        | =+=           | WBC       |
+ | fucosidosis        | fucosidase         | =+=        | =++=        | =+++=    | -             | WBC       |
+ | galactosialidosis  | PPCA               | =++=       | =++=        | -        | =+=           | Fib & DNA |
 
 *** Mannosidosis
  - deficiency of \alpha-mannosidase \to variable disorder \alpha-mannosidosis

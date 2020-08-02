@@ -7,14 +7,14 @@
 - trimethylamine (TMA) is a volatile tertiary amine which smells of rotting fish
 - bacterial metabolite which is produced by anaerobes in the colon
   from choline (present in lecithin), carnitine, betaine, and from
-  trimethylamine-N-oxide (TMAO) in salt water fish and shell-fish
+  trimethylamine-N-oxide (TMAO) in marine fish and shellfish
 - TMA is absorbed from the intestine and oxidised in the liver by
   flavin-containing monooxygenase 3 (FMO3)
   - product is TMA-N-oxide (TMAO) which is non-odorous and is
     excreted in urine
 - \gt 90% of the absorbed TMA is oxidised
 
-#+CAPTION[]:TMA
+#+CAPTION[]:Trimethlyamine Metabolism
 #+NAME: fig:tma
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/tma.png]]
@@ -33,7 +33,7 @@
   tetrahydrofolate (THF)
   - forming 5,10-methylene THF
 
-#+CAPTION[]:Choline catabolism
+#+CAPTION[]:Choline Catabolism
 #+NAME: fig:chol
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/choline.png]]
@@ -73,7 +73,8 @@
  - \uparrow folate
 
 * Glutathione
-- glutathione (GSH) is a tripeptide consisting of glutamate, cysteine and glycine
+- glutathione is a tripeptide consisting of glutamate, cysteine and
+  glycine
 - one of the most important antioxidants
   - drug metabolism, free-radical scavenging, biosynthesis of DNA and
     proteins as well as amino acid transport
@@ -94,18 +95,18 @@
   5-oxoprolinase
 - a dipeptidase splits cysteinylglycine, which is formed in the
   transpeptidation reaction, into glycine and cysteine
-- biosynthesis of GSH is feedback regulated
-  - GSH inhibits of \gamma-glutamylcysteine synthetase
+- biosynthesis of glutathione is feedback regulated
+  - glutathione inhibits of \gamma-glutamylcysteine synthetase
 - genetic defects have been described in five of the six enzymes of
   the \gamma-glutamyl cycle
 
-#+CAPTION[]: The \gamma-glutamyl cycle
+#+CAPTION[]: The \gamma-Glutamyl Cycle
 #+NAME: fig:ggc
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/gsh.png]]
 
 
-#+CAPTION[]: The \gamma-glutamyl cycle
+#+CAPTION[]: The \gamma-Glutamyl Cycle
 #+NAME: fig:ggc2
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/Slide08.png]]
@@ -121,8 +122,8 @@
   - severe :: above plus progressive CNS symptoms
 
 *** Metabolic Derangement
-- GS catalyses the last step of GSH synthesis
-- deficiency \to \downarrow cellular GSH and \uparrow \gamma-glutamylcysteine
+- *glutathione synthetase (GS)* catalyses the last step of glutathione synthesis
+- deficiency \to \downarrow cellular glutathione and \uparrow \gamma-glutamylcysteine
   - due to \downarrow feedback inhibition of \gamma-glutamylcysteine synthetase
 - \gamma-glutamylcysteine \to 5-oxoproline by \gamma-glutamyl
   cyclotransferase
@@ -134,7 +135,7 @@
 
 *** Diagnostic Tests
 - \uparrow urine 5-oxoproline
-- \downarrow RBC GSH
+- \downarrow RBC glutathione
 - \downarrow RBC or fibroblast GS activity
   - 1-30% of normal
 - mutation analysis
@@ -144,5 +145,5 @@
   acidosis, prevention of hemolytic crises and support of endogenous
   defence against reactive oxygen species
 - bicarbonate in acute acidosis
-- blood trxn for hemolysis
+- blood transfusion for hemolysis
 - vitamins E and C

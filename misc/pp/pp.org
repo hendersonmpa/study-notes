@@ -19,7 +19,7 @@
       - \to di- and triphosphates and deoxyribonucleotides
   - catabolic pathway
     - starts from GMP, IMP and AMP
-    - produces uric acid , a poorly soluble compound, which tends to
+    - produces uric acid, a poorly soluble compound, which tends to
       crystallize once its plasma \ge 0.4 mmol/L
   - salvage pathway
     - utilizes the purine bases guanine, hypoxanthine and adenine
@@ -42,7 +42,7 @@
     - adenylate kinase (AK)
     - adenosine deaminase (ADA)
     - purine nucleoside phosphorylase (PNP)
-    - xanthine oxidase (XO, also termed xanthine dehydrogenase
+    - xanthine oxidase (XO, also termed xanthine dehydrogenase)
   - purine salvage
     - hypoxanthine-guanine phosphoribosyltransferase (HPRT)
     - adenine phosphoribosyltransferase (APRT)
@@ -189,7 +189,7 @@
     autoimmune neutropenia
 
 *** Metabolic Derangement
-- accumulation of four PDP substrates:
+- accumulation of four PDP purine nucleoside substrates:
   - guanosine, deoxyguanosine, inosine, deoxyinosine
 \ce{purine nucleoside + phosphate ->[PNP] purine + \alpha-D-ribose 1-phosphate}
 - \downarrow formation of uric acid
@@ -216,8 +216,7 @@
 - repeated transfusions of irradiated erythrocytes
 
 ** Xanthinuria 
-- Xanthine Oxidase Deficiency
-- Xanthine Dehydratase Deficiency
+- AKA Xanthine Oxidase Deficiency, Xanthine Dehydratase Deficiency
 *** Clinical Picture
 - three types of deficiencies of *xanthine oxidase* all cause
   xanthinuria
@@ -232,9 +231,9 @@
 - myopathy w pain stiffness
 
 *** Metabolic Derangement
-- deficiency of XO results in the near total replacement of uric acid,
-  in plasma and urine, by hypoxanthine and xanthine as the end
-  products of purine catabolism
+- deficiency of XO results in the near total replacement of uric acid
+  in plasma and urine by hypoxanthine and xanthine as the end products
+  of purine catabolism
 
 \ce{hypoxanthine + H2O + O2 ->[XDH] xanthine + H2O2}
 
@@ -244,7 +243,7 @@
   - due to reutilization by hypoxanthine-guanine phospho-ribosyltransferase
 - plasma xanthine \uparrow 10x
 - deficiency of AO \to inability to metabolize synthetic purine
-  analogues - allopurinol
+  analogues (e.g. allopurinol)
 - combined XO, AO, and SO deficiency is caused molybdenum cofactor
   (MoCo) deficiency (see Sulfur Amino Acids)
 
@@ -259,13 +258,13 @@
 *** Treatment
 - type I and II XO deficiency are mostly benign
   - \downarrow purine diet w \uparrow fluid intake to prevent renal stones
-- prognosis of combined XO,AO and SO deficiency improved by daily
+- prognosis of combined XO, AO and SO deficiency improved by daily
   infusion of cyclic pyranopterin monophosphate (cPMP)
 
 ** Hypoxanthine-Guanine Phosphoribosyltransferase
 *** Clinical Presentation
-- *Lesch-Nyhan syndrome* = complete or near-complete deficiency of HPRT
 - clinical spectrum is very wide and determined by residual enzyme activity
+- *Lesch-Nyhan syndrome* = complete or near-complete deficiency of HPRT
 - affected children generally appear normal during the first months of
   life
 - \sim 3-6 months a neurological syndrome evolves
@@ -286,7 +285,7 @@
 
 \ce{hypoxanthine + PRPP ->[HPRT] IMP + P2O2^4-}
 
-\ce{quanine + PRPP ->[HPRT] GMP + P2O2^4-}
+\ce{guanine + PRPP ->[HPRT] GMP + P2O2^4-}
 
 \ce{xanthine + PRPP ->[HPRT] XMP + P2O2^4-}
 
@@ -303,7 +302,8 @@
 *** Diagnostic Tests
 - \Uparrow urine and plasma uric acid
   - uric acid/creatinine
--  RBC HPRT activity is nearly undetectable
+- \uparrow hypoxanthine and xanthine
+- RBC HPRT activity is nearly undetectable
 
 *** Treatment and Prognosis
 - allopurinol prevents urate nephropathy
@@ -382,7 +382,7 @@
 
 *** Diagnostic Tests
 - \Uparrow urine orotic acid 200-1000X
-
+  
 *** Treatment
 - enzyme defect can be by-passed by the administration of uridine
   - converted into UMP by uridine kinase

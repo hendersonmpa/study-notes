@@ -71,19 +71,18 @@
 - AR NPC1 (95%) and NPC2 (5%)
 * Diagnostic Tests
 - foamy and sea-blue histiocytes may be found in bone marrow aspirates
+  (Figure [[fig:foam]])
 - plasma and DBS
   - lysosphingomylin 
   - lysosphingomylin-509
-
-
-- filipin test
-  - streptomyces filipinensis - anti-fungal
+- filipin staining in cultured fibroblasts
   - culture fibroblasts in an LDL-enriched medium
   - pathognomonic free cholesterol accumulation in lysosomes
-  - fluorescence microscopy after filipin staining
-  - unequivocal results in ~ 85% of patients
+  - \uparrow fluorescence from filipin staining of cholesterol in lysosomes 
+    - unequivocal results in ~ 85% of patients
 
-#+CAPTION[]:Filipin staining (red:filipin, green:CellMask)
+
+#+CAPTION[]:Filipin Staining (red:filipin stains cholesterol in lysosomes), green:CellMask)
 #+NAME: fig:filipin
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./figures/filipin.png]]
@@ -92,7 +91,10 @@
 - substrate reduction therapy
   - miglustat approved for treatment of neurological manifestations
     - an iminosugar a synthetic analogue of D-glucose
-    - inhibits synthesis of glycosphingolipids
+  - inhibits ceramide glucoyltransferase required for synthesis of
+    glycosphingolipids
+  - also used in Gaucher
+
 
 
 

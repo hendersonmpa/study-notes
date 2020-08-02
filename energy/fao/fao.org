@@ -179,7 +179,7 @@
   gluconeogenesis and hypoglycemia
 
 ** Carnitine Uptake Deficiency
-- AKA primary carnitine deficiency, carnitine transporter deficiency
+- AKA Primary Carnitine Deficiency, Carnitine Transporter Deficiency
 *** Clinical Presentation
 - cardiomyopathy, cardiac failure, muscle weakness, liver disease
 - precipitated by infection, fasting, pregnancy or antibiotics containing pivalate

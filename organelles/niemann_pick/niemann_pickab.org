@@ -60,7 +60,7 @@
   - \uparrow LDL cholesterol
 - foam cells in bone marrow (Figure [[fig:foam]])
 
-#+CAPTION[]: Foam cells in bone marrow
+#+CAPTION[]: Foam Cells in Bone Marrow in NP A,B and C
 #+NAME: fig:foam
 #+ATTR_LaTeX: :width 0.25\textwidth
 [[file:./figures/foam_cells.png]]

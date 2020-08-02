@@ -29,17 +29,16 @@
 * Metabolic Derangement
 - accumulation of autofluorescent ceroid lipopigments mainly in
   neural tissues
-  - saposins A and D in infantile forms
+  - saposins A and C in infantile forms
   - subunit c of mitochondrial ATP synthase in late infantile and
     juvenile forms
   - not disease causing they are secondary markers
 - many CLN proteins
   - many in lysosome but also mitochondria, ER and vesicular membranes
 - role in autophagy and apoptosis
-  - CLN1 :: S-fatty acylated protein degradation
-  - CLN2 :: lysosomal serine protease
-  - cathepsin D :: endopepidatase
-  - cathepsin F :: peptidase
+  - CLN1 :: palmitoyl protein thioesterase - S-fatty acylated protein degradation 
+  - CLN2 :: tripeptide peptidase - lysosomal serine protease
+  - CLN10 :: cathepsin D - endopepidatase
 
 * Genetics
 - AR
@@ -49,7 +48,7 @@
 - EM tissue biopsy with vacuolated lymphocytes
 - WBC or fibroblast enzyme studies
   - CLN1 or 2
-  - cathepsin D or F
+  - cathepsin D
 
 * Treatment 
 - symptomatic treatment

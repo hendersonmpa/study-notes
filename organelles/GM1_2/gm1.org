@@ -36,21 +36,22 @@
 - a cause of non-immune fetal hydrops
 #+CAPTION[GM1 Signs and Symptoms]:GM1 Signs and Symptoms
 #+NAME: tab:gm1ss
-| Finding                | Infantile | Juvenile   | Adult           | MPS IVB                |
-|------------------------+-----------+------------+-----------------+------------------------|
-| onset of symptoms      | <1 year   | 1-10 years | 10+ years       | 3-5 years              |
-| eye findings           | CRS       | CC[fn:4]   | \pmCC           | CC                     |
-| motor abnormalities    | +         | +          | extra pyramidal | [fn:2]                 |
-| hepatosplenomegaly     | +         | \pm        | -               | -                      |
-| cardiac involvement    | \pm       | \pm        | \pm             | +                      |
-| coarse facial features | \pm       | -          | -               | [fn:2]                 |
-| skeletal findings      | +         | \pm        | -               | +                      |
-| urine                  | [fn:1]    | [fn:1]     | [fn:1]          | keratan sulfate [fn:3] |
+| Finding                | Infantile  | Juvenile   | Adult           | MPS IVB                 |
+|------------------------+------------+------------+-----------------+-------------------------|
+| onset of symptoms      | <1 year    | 1-10 years | 10+ years       | 3-5 years               |
+| eye findings           | CRS        | CC[fn:cc]  | \pmCC           | CC                      |
+| motor abnormalities    | +          | +          | extra pyramidal | [fn:bone]               |
+| hepatosplenomegaly     | +          | \pm        | -               | -                       |
+| cardiac involvement    | \pm        | \pm        | \pm             | +                       |
+| coarse facial features | \pm        | -          | -               | [fn:bone]               |
+| skeletal findings      | +          | \pm        | -               | +                       |
+| urine                  | [fn:oligo] | [fn:oligo] | [fn:oligo]      | keratan sulfate [fn:ks] |
+|                        |            |            |                 |                         |
 
-[fn:1] oligosacaride with terminal galactose
-[fn:2] secondary to bony changes
-[fn:3] FN have been observed
-[fn:4] corneal clouding
+[fn:oligo] oligosacaride with terminal galactose
+[fn:bone] secondary to bony changes
+[fn:ks] FN have been observed
+[fn:cc] corneal clouding
 
 * Genetics
 - AR GLB1

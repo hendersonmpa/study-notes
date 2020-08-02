@@ -88,6 +88,8 @@
   - CHO cells (alglucosidase alfa)
 - anti rhGAA IgG antibodies form
   - prior to treatment cross reacting immunological material (CRIM) is measured
+    - via western blot or presence of antibodies against
+      acid-\alpha-glucosidase
     - CRIM -ve patients at high risk of immune response
     - CRIM status used to predict response to treatment
 - better outcome if identified by NBS

@@ -8,6 +8,8 @@
 - defect in *\alpha-galactosidase A (AKA ceramide trihexosidase)*
   - cleaves terminal galactose from globotriaosylceramide (Gb3)
     (Figure [[fig:sidase]])
+  - requires sap-B for activity
+    - sap-B deficiency is a form of metachromatic leukodystrophy
   - accumulation of Gb3 in blood vessels and other tissues
     - Gb3 is the Fabry lipid (Figure [[fig:galac]])
   - 3 to 20% activity in hemizygote males
@@ -16,12 +18,12 @@
 - \alpha-galactosidase A uses both sortilin and mannose receptor
   - not affected in ML II (I-cell)
 
-#+CAPTION[Globotriaosylceramide]:  Globotriaosylceramide (Gb3): the Fabry lipid
+#+CAPTION[Globotriaosylceramide]:  Globotriaosylceramide (Gb3): The Fabry lipid
 #+NAME: fig:galac 
 #+ATTR_LaTeX: :width 0.3\textwidth
 [[file:./figures/globotriaosylceramide.png]]
 
-#+CAPTION[\alpha-galactosidase A]:\alpha-galactosidase A, located in the lumen of lysosomes
+#+CAPTION[\alpha-galactosidase A]:\alpha-galactosidase A, located in the Lumen of Lysosomes
 #+NAME: fig:sidase
 #+ATTR_LaTeX: :width 0.4\textwidth
 [[file:./figures/galactosidaseA.png]]
@@ -57,7 +59,7 @@
 - *XL GLA*
 - penetrance in female heterozygotes
   - may be considered X-linked dominant
-
+- AR PSAP(B) required for enzyme activity 
 * Laboratory Investigations
 ** Biochemistry
 - \downarrow \alpha-galactosidase A activity in leukocytes

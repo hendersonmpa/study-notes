@@ -18,7 +18,7 @@
     physiological properties of this membrane
   - \uparrow sulfatides in CNS and PNS \to demyelination
   - \uparrow sulfatide in the kidney \to sulfatide in urine
-
+- demyelinating leukodystrophy (degeneration of white matter)
 * Clinical 
 - three forms: late infantile-onset, juvenile and adult
 - variants include:
@@ -44,11 +44,11 @@
   to spasticity and incontinence) or seizures initially
   predominate
 - peripheral neuropathy is common
-- disease course is variable,periods of stability and decline two to three decades
+- disease course is variable, periods of stability and decline two to three decades
 - final stage is similar to earlier-onset forms
 
 * Genetics
-- AR ARSA or PSAP (sap-B)
+- AR ARSA or rarely PSAP (sap-B)
 - relatively good genotype-phenotype correlation
 - two very frequent ARSA polymorphisms 
   - loss of an N-glycosylation site
@@ -64,8 +64,8 @@
   - compound heterozygotes for a disease-causing MLD and a PD allele
     have about 5-15% of normal ASA activity
     - no detectable clinical abnormality or pathology
-- deficient ASA activity is not diagnostic
-- sulfatides in the urinary sediment circumvents the problem
+  - \therefore deficient ASA activity is not diagnostic
+- *sulfatides in the urinary sediment circumvents the PD problem*
 - MLD and MSD patients excrete sulfatides
   - \Uparrow late infantile and juvenile patients 
   - \uparrow adult-onset type
