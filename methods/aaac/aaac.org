@@ -27,6 +27,7 @@
   - maintenance issues, repeat specimen analysis
 
 #+BEGIN_EXPORT LaTeX
+\begin{center}
 \chemnameinit{}
 \schemestart
 \chemname{\chemfig{{\color{red}R}-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]OH}}{\small \textalpha{}-amino acid}
@@ -35,9 +36,7 @@
 \arrow{-U>[][{\small \ce{H2O}}]}
 \chemname{\chemfig{{\color{red}R}-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\small AA butyl ester}
 \schemestop
-#+END_EXPORT
-
-#+BEGIN_EXPORT LaTeX
+\vspace{2em}
 \chemnameinit{}
 \definesubmol{x}{-[1,.6]-[7,.6]}
 \definesubmol{y}{-[7,.6]-[1,.6]}
@@ -60,6 +59,7 @@
 \arrow{-U>[][{\small \ce{2H2O}}]}
 \chemname{\chemfig{-N^{+}([2]-)([6]-)-[1]-[7]([6]-O-([5]=O)!e-[7,.6]O!x!x)-[1]-[7]([6]=O)-[1,.6]O!y!y}}{\small C6DC-carnitine, butyl ester}
 \schemestop 
+\end{center}
 #+END_EXPORT
 
 * FIA-MS/MS 
@@ -93,22 +93,64 @@
   - arginine, ornithine and citrulline
 
 #+BEGIN_EXPORT LaTeX
+\begin{center}
 \chemnameinit{}
 \schemestart
-\chemname{\chemfig{{\color{red}R}-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\tiny AA butyl ester}
-\arrow{->[{\tiny fragmentation}]}
+\chemname{\chemfig{{\color{red}R}-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\small AA butyl ester}
+\arrow{->[{\small fragmentation}]}
 \chemnameinit{}
-\chemname{\chemfig{{\color{red}R}-[::60]=NH_2^{+}}}{\tiny fragment}
+\chemname{\chemfig{{\color{red}R}-[::60]=NH_2^{+}}}{\small fragment}
 \+
-\chemname{\chemfig{H-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\tiny butyl formate (102 Da)}
+\chemname{\chemfig{H-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\small butyl formate (102 Da)}
 \schemestop
+\end{center}
 #+END_EXPORT
+
+
+#+BEGIN_EXPORT LaTeX
+\begin{center}
+\begin{tikzpicture}
+\node[box](ms1)[]{};
+\node[label](ms1u)[above=of ms1,yshift=-2em]{MS1};
+\node[label](ms1l)[below=of ms1,yshift=2em]{scanning};
+\node[box](cc)[right= of ms1]{};
+\node[label](ccu)[above=of cc,yshift=-2em]{Collision Cell};
+\node[label](ccl)[below=of cc,yshift=2em]{fragmentation};
+\node[box](ms2)[right= of cc]{};
+\node[label](ms2u)[above=of ms2,yshift=-2em]{MS2};
+\node[label](ms2l)[below=of ms2,yshift=2em]{scan for NL of 102};
+\draw[->](ms1) -- (cc);
+\draw[->](cc) -- (ms2);
+
+%ms1
+\draw [gray,->, decorate,decoration=snake] (-.8,0.5) -- (.8,0.5);
+\draw [gray,->, decorate,decoration=snake] (-.8,0.25) -- (.8,0.25);
+\draw [blue, ->,decorate,decoration=snake] (-.8, 0) -- (.8,0);
+\draw [gray,->, decorate,decoration=snake] (-.8,-0.25) -- (.8,-0.25);
+\draw [gray,->,decorate,decoration=snake] (-.8,-0.5) -- (.8,-0.5);
+
+%cc
+\draw [blue,->,decorate,decoration=snake] (2.1, 0) -- (2.4,0);
+\fill (2.6,0) circle (0.1); 
+\draw [red,->,decorate,decoration=snake] (2.8, 0) -- (3.8,0.5);
+\draw [red, ->,decorate,decoration=snake] (2.8, 0) -- (3.8,0);
+\draw [red,->,decorate,decoration=snake] (2.8, 0) -- (3.8,-0.5);
+
+%ms2
+\draw [red,->,decorate,decoration=snake] (6.0, 0.5) -- (7.7,0.5);
+\draw [red,->,decorate,decoration=snake] (6.0, 0) -- (7.7,0);
+\draw [red,->,decorate,decoration=snake] (6.0, -0.5) -- (7.7,-0.5);
+\end{tikzpicture}
+\end{center}
+#+END_EXPORT
+
 ** Amino Acid MRM
 - citrulline contains a labile amino group that fragments together with butyl formate
 - CID results in net neutral fragmentation of butyl formate (102 Da) plus \ce{NH3} (17 Da)
-- [[https://en.wikipedia.org/wiki/Selected_reaction_monitoring][SRM]] Citrulline-Bu 232.15 Da \to 113 Da , loss of 119 Da  
+- [[https://en.wikipedia.org/wiki/Selected_reaction_monitoring][SRM]] citrulline-Bu 232.15 Da \to 113 Da , loss of 119 Da  
 
 #+BEGIN_EXPORT LaTeX
+\begin{center}
 \chemnameinit{}
 \schemestart
 \chemname{\chemfig{H_2N-[::30,,2,](=[::60]O)-[::-60]NH-[::60]-[::-60]-[::60]-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]OH}}{\small citrulline 175 Da}
@@ -117,9 +159,10 @@
 \arrow{-U>[][{\small \ce{H2O}}]}
 \chemname{\chemfig{H_2N-[::30,,2,](=[::60]O)-[::-60]NH-[::60]-[::-60]-[::60]-[::-60](<[::-60]NH_3^+)-[::60](=[::60]O)-[::-60]O-[::60]-[::-60]-[::60]-[::-60]}}{\small 232 Da}
 \schemestop
-#+END_EXPORT
 
-#+BEGIN_EXPORT LaTeX
+\vspace{20}
+
+\chemnameinit{}
 \schemestart
 \chemname{\chemfig{H_2N-[::60]-[::-60]-[::60]-[::-60]-[::60]N=O=C}}{\small 113 Da}
 \+
@@ -127,6 +170,7 @@
 \+
 \chemname{\chemfig{NH_3}}{\small 17 Da}
 \schemestop
+\end{center}
 #+END_EXPORT
 
 #+CAPTION[]:Quantified Amino Acids
@@ -144,13 +188,12 @@
 - precursor ion scan is used to identify molecules that fragment to form a 85 m/z molecule
 
 #+BEGIN_EXPORT LaTeX
-
+\begin{center}
 \chemnameinit{}
 \definesubmol{x}{-[1,.6]-[7,.6]}
  \chemname{\chemfig{H_{3}C-N^{+}([2]-CH_3)([6]-CH_{3})-CH_2-C([2]-H)([6]-O-C([0]=O)-{\color{red}R})-CH_2-C([2]=O)-O-CH_2-CH_2-CH_2-CH_3}}{\small acylcarnitine, butyl ester}
-
+\\
 \vspace{2.5em}
-
 \chemnameinit{}
  \chemname{\chemfig{H_{3}C-N([1]-CH_3)([7]-CH_3)}}{\small trimethylamine}
 \hspace{2em}
@@ -159,20 +202,21 @@
  \chemname{\chemfig{H!x!x}}{\small butyl group}
 \hspace{2em}
  \chemname{\chemfig{H_{2}C^{+}-HC=CH-C([1]=O)([7]-OH)}}{\small 85 m/z}
+\end{center}
 #+END_EXPORT
 
 #+BEGIN_EXPORT LaTeX
 \begin{center}
 \begin{tikzpicture}
 \node[box](ms1)[]{};
-\node[label](ms1u)[above=of ms1,yshift=-3em]{MS1};
-\node[label](ms1l)[below=of ms1,yshift=3em]{scanning};
+\node[label](ms1u)[above=of ms1,yshift=-2em]{MS1};
+\node[label](ms1l)[below=of ms1,yshift=2em]{scanning};
 \node[box](cc)[right= of ms1]{};
-\node[label](ccu)[above=of cc,yshift=-3em]{Collision cell};
-\node[label](ccl)[below=of cc,yshift=3em]{fragmentation};
+\node[label](ccu)[above=of cc,yshift=-2em]{Collision Cell};
+\node[label](ccl)[below=of cc,yshift=2em]{fragmentation};
 \node[box](ms2)[right= of cc]{};
-\node[label](ms2u)[above=of ms2,yshift=-3em]{MS2};
-\node[label](ms2l)[below=of ms2,yshift=3em]{85 m/z};
+\node[label](ms2u)[above=of ms2,yshift=-2em]{MS2};
+\node[label](ms2l)[below=of ms2,yshift=2em]{85 m/z};
 \draw[->](ms1) -- (cc);
 \draw[->](cc) -- (ms2);
 
@@ -191,7 +235,7 @@
 \draw [gray,->,decorate,decoration=snake] (2.8, 0) -- (3.8,-0.5);
 
 %ms2
-\draw [red,->,decorate,decoration=snake] (5.1, 0) -- (6.8,0);
+\draw [red,->,decorate,decoration=snake] (6.0, 0) -- (7.7,0);
 \end{tikzpicture}
 \end{center}
 #+END_EXPORT

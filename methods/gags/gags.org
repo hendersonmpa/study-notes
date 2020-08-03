@@ -41,23 +41,23 @@
 
 
 * Spectrophotometric 
+- total GAGs
 - urine sample
 - 1,9-dimethylene blue (DMB) forms a complex with sulfated GAGs
   present in urine that can be measured at 520 nm
-
 
 * Fractionation 
 - TLC or electrophoresis used to fractionate urine GAGs (Figures [[fig:tlc]] and [[fig:gel]])
 - stained with alcian blue
 
 
-#+CAPTION[]:TLC for urine GAGs
+#+CAPTION[]:TLC for Urine GAGs
 #+NAME: fig:tlc
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/tlc.png]]
 
 
-#+CAPTION[]:Electrophoresis for urine GAGs: LZ loading zone
+#+CAPTION[]:Electrophoresis for Urine GAGs: LZ loading zone
 #+NAME: fig:gel
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/gel.png]]

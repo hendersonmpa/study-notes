@@ -59,31 +59,31 @@
 
 #+CAPTION[]:Acylglycines
 #+NAME: tab:pathag
-| carbons | acylglycine              | precusor     | disorder                          |
-|---------+--------------------------+--------------+-----------------------------------|
-| C3      | propionylglycine         | leu met      | propionic acidemia                |
-|         |                          | thr val      | methylmalonic acidemias           |
-| C4      | butyrylglycine           | butyryl-CoA  | SCAD                              |
-|         |                          |              | GAII                              |
-| C4      | isobutyrylglycine        | val          | isobutyryl-CoA dehydrogenase      |
-|         |                          |              | GAII                              |
-|         |                          |              | ethylmalonic encephalopathy       |
-| C5:1    | tiglylglycine            | ile          | propionic acidemia                |
-|         |                          |              | methylmalonic acidemias           |
-|         |                          |              | ketothiolase deficiency           |
-| C5:1    | 3-methyl crotonylglycine | leu          | 3-methylcrotonyl-CoA carboxylase  |
-|         |                          |              | multiple carboxylase deficiency   |
-| C5      | isovalerylglycine        | leu          | isovaleric acidemia               |
-| C5      | 2-methylbutyrylglycine   | ile          | 2-methylbutyryl-CoA dehydrogenase |
-|         |                          |              | GAII                              |
-|         |                          |              | ethylmalonic encephalopathy       |
-| C6      | hexanoylglycine          | hexanoyl-CoA | MCAD                              |
-|         |                          |              | GAII                              |
-| C8      | octanoylglycine          | octanoyl-CoA | MCAD                              |
-| C8      | suberylglycine           | suberyl-CoA  | MCAD                              |
-|         |                          |              | GAII                              |
-| C9      | phenylpropionylglycine   | phe          | MCAD                              |
-| C9:1    | trans-cinnamoylglycine   | phe          | no known defect                   |
+| carbons | acylglycine             | precusor     | disorder                          |
+|---------+-------------------------+--------------+-----------------------------------|
+| C3      | propionylglycine        | leu met      | propionic acidemia                |
+|         |                         | thr val      | methylmalonic acidemias           |
+| C4      | butyrylglycine          | butyryl-CoA  | SCAD                              |
+|         |                         |              | GA2                               |
+| C4      | isobutyrylglycine       | val          | isobutyryl-CoA dehydrogenase      |
+|         |                         |              | GA2                               |
+|         |                         |              | ethylmalonic encephalopathy       |
+| C5:1    | tiglylglycine           | ile          | propionic acidemia                |
+|         |                         |              | methylmalonic acidemias           |
+|         |                         |              | ketothiolase deficiency           |
+| C5:1    | 3-methylcrotonylglycine | leu          | 3-methylcrotonyl-CoA carboxylase  |
+|         |                         |              | multiple carboxylase deficiency   |
+| C5      | isovalerylglycine       | leu          | isovaleric acidemia               |
+| C5      | 2-methylbutyrylglycine  | ile          | 2-methylbutyryl-CoA dehydrogenase |
+|         |                         |              | GA2                               |
+|         |                         |              | ethylmalonic encephalopathy       |
+| C6      | hexanoylglycine         | hexanoyl-CoA | MCAD                              |
+|         |                         |              | GA2                               |
+| C8      | octanoylglycine         | octanoyl-CoA | MCAD                              |
+| C8      | suberylglycine          | suberyl-CoA  | MCAD                              |
+|         |                         |              | GA2                               |
+| C9      | phenylpropionylglycine  | phe          | MCAD                              |
+| C9:1    | trans-cinnamoylglycine  | phe          | no known defect                   |
 
 ** Sources of Organic Acids
 *** Endogenous 
@@ -135,34 +135,33 @@
 #+NAME: tab:oam
 | Disorder                             | Defective Enzyme                             |
 |--------------------------------------+----------------------------------------------|
-| 2-Keto adipic aciduria               | 2-Keto adipic dehydrogenase                  |
-| 2-Keto glutaric aciduria             | 2-Keto glutaric dehydrogenase                |
-| 2-Ketothiolase deficiency            | 2-Methylacetoacetyl-CoA thiolase             |
-| 2-Methyl 3-hydroxy butyric aciduria  | 2-Methyl 3-hydroxy butyryl-CoA dehydrogenase |
-| 2-Methylbutyrylglycinuria            | 2-Methylbutyryl-CoA dehydrogenase            |
-| 3-Hydroxy 3-methyl glutaric aciduria | 3-Hydroxy 3-methyl glutaryl-CoA lyase        |
-| 3-Methylcrotonylglycinuria           | 3-Methylcrotonyl-CoA carboxylase             |
-| 3-Methylglutaconic aciduria          | 3-Methyl glutaconyl-CoA hydratase            |
-| 4-Hydroxy butyric aciduria           | Succinic semialdehyde dehydrogenase          |
-| Alkaptonuria                         | Homogentisic dioxygenase                     |
-| Canavan disease                      | N-Aspartoacylase                             |
-| D-2-Hydroxy glutaric aciduria        | D-2-Hydroxyglutaric dehydrogenase            |
-| Ethylmalonic encephalopathy          | Unknown (ETHE1 gene)                         |
-| Fumaric aciduria                     | Fumarase                                     |
-| Glutaric aciduria type I             | Glutaryl-CoA dehydrogenase                   |
-| Glyceroluria (X-linked)              | Glycerol kinase                              |
-| Hawkinsinuria (autosomal dominant)   | 4-Hydroxy phenylpyruvic acid dioxygenase     |
-| Hyperoxaluria type I                 | Alanine:glyoxylate aminotransferase          |
-| Hyperoxaluria type II                | D-Glyceric dehydrogenase                     |
-| Isobutyrylglycinuria                 | Isobutyryl-CoA dehydrogenase                 |
-| Isovaleric aciduria                  | Isovaleryl-CoA dehydrogenase                 |
-| L-2-Hydroxy glutaric aciduria        | L-2-Hydroxy dehydrogenase (Duranin)          |
-| Malonic aciduria                     | Malonyl-CoA decarboxylase                    |
-| Methylmalonic acidurias              | Methylmalonyl-CoA mutase, other defects      |
-| Mevalonic aciduria                   | Mevalonate kinase                            |
-| Multiple carboxylase deficiency      | Holocarboxylase synthase                     |
-| Propionic aciduria                   | Propionyl-CoA carboxylase                    |
-| Pyroglutamic aciduria                | Glutathione synthase                         |
+| 2-keto adipic aciduria               | 2-keto adipic dehydrogenase                  |
+| 2-keto glutaric aciduria             | 2-keto glutaric dehydrogenase                |
+| 2-ketothiolase deficiency            | 2-methylacetoacetyl-coa thiolase             |
+| 2-methyl 3-hydroxy butyric aciduria  | 2-methyl 3-hydroxy butyryl-coa dehydrogenase |
+| 2-methylbutyrylglycinuria            | 2-methylbutyryl-coa dehydrogenase            |
+| 3-hydroxy 3-methyl glutaric aciduria | 3-hydroxy 3-methyl glutaryl-coa lyase        |
+| 3-methylcrotonylglycinuria           | 3-methylcrotonyl-coa carboxylase             |
+| 3-methylglutaconic aciduria          | 3-methyl glutaconyl-coa hydratase            |
+| 4-hydroxy butyric aciduria           | succinic semialdehyde dehydrogenase          |
+| alkaptonuria                         | homogentisic dioxygenase                     |
+| Canavan disease                      | N-aspartoacylase                             |
+| d-2-hydroxy glutaric aciduria        | D-2-hydroxyglutaric dehydrogenase            |
+| ethylmalonic encephalopathy          | unknown (ETHE1 gene)                         |
+| fumaric aciduria                     | fumarase                                     |
+| glutaric aciduria type 1             | glutaryl-coa dehydrogenase                   |
+| glyceroluria (X-linked)              | glycerol kinase                              |
+| hawkinsinuria (autosomal dominant)   | 4-hydroxy phenylpyruvic acid dioxygenase     |
+| hyperoxaluria type I                 | alanine:glyoxylate aminotransferase          |
+| hyperoxaluria type II                | D-glyceric dehydrogenase                     |
+| isobutyrylglycinuria                 | isobutyryl-coa dehydrogenase                 |
+| isovaleric aciduria                  | isovaleryl-coa dehydrogenase                 |
+| L-2-hydroxy glutaric aciduria        | L-2-hydroxy dehydrogenase (Duranin)          |
+| malonic aciduria                     | malonyl-coa decarboxylase                    |
+| methylmalonic acidurias              | methylmalonyl-coa mutase, other defects      |
+| mevalonic aciduria                   | mevalonate kinase                            |
+| multiple carboxylase deficiency      | holocarboxylase synthase                     |
+| propionic aciduria                   | propionyl-coa carboxylase                    |
 
 
 * Urine Organic Acids by GC-MS
@@ -173,15 +172,17 @@
   - avoids multiple TMS species due to keto-enol tautomerism
 
 #+BEGIN_EXPORT LaTeX
+\begin{center}
 \schemestart
-\chemname{\chemfig{R=[1](-[2]OH)-[7]R}}{\tiny enol}
+\chemname{\chemfig{R=[1](-[2]OH)-[7]R}}{\small enol}
 \arrow{<=>}
-\chemname{\chemfig{R-[1](=[2]O)-[7]R}}{\tiny ketone}
+\chemname{\chemfig{R-[1](=[2]O)-[7]R}}{\small ketone}
 \+
-\chemname{\chemfig{N(<:[::-160]H)(<[::-120]H)-O-[1]H}}{\tiny hydroxylamine}
+\chemname{\chemfig{N(<:[::-160]H)(<[::-120]H)-O-[1]H}}{\small hydroxylamine}
 \arrow{->}
-\chemname{\chemfig{R-[1](=[2]N-[1]OH)-[7]R}}{\tiny ketoxime}
+\chemname{\chemfig{R-[1](=[2]N-[1]OH)-[7]R}}{\small ketoxime}
 \schemestop
+\end{center}
 #+END_EXPORT
 ** BSTFA Derivatisation
 - acidified and extracted twice with ethyl ether 
@@ -189,15 +190,17 @@
   - forms organic acid TMS esters
 
 #+BEGIN_EXPORT LaTeX
+\begin{center}
 \schemestart
-\chemname{\chemfig{F{_3}C-C(-[1]OTMS)=[7]NTMS}}{\tiny BSTFA}
+\chemname{\chemfig{F{_3}C-C(-[1]OTMS)=[7]NTMS}}{\small BSTFA}
 \+
-\chemname{\chemfig{R-C(=[1]O)-[7]OH}}{\tiny carboxylic acid}
+\chemname{\chemfig{R-C(=[1]O)-[7]OH}}{\small carboxylic acid}
 \arrow{->}
-\chemname{\chemfig{R-C(=[1]O)-[7]OTMS}}{\tiny TMS ester}
+\chemname{\chemfig{R-C(=[1]O)-[7]OTMS}}{\small TMS ester}
 \+
-\chemname{\chemfig{F{_3}C-C(=[1]O)-[7]NTMS}}{\tiny TMS amide}
+\chemname{\chemfig{F{_3}C-C(=[1]O)-[7]NTMS}}{\small TMS amide}
 \schemestop
+\end{center}
 #+END_EXPORT
 
 [fn:stalling] Stalling DL, Gehrke CW, Zumwalt RW. A new silylation
@@ -213,4 +216,16 @@ reagent for amino acids bis(trimethylsilyl)trifluoroacetamide
   pure standard compounds
 - quantification is by comparison to calibration of pure standard
   compounds in ratio to an internal standard
+
+#+CAPTION[]:Important Co-Eluting Organic Acids
+#+NAME: tab:cooa
+
+| Enzyme                                    | Marker                      | Overlapping Compound     |
+|-------------------------------------------+-----------------------------+--------------------------|
+| methylmalonate semialdehyde dehydrogenase | 3-hydroxyisobutyric         | 3-hydroxybutyric         |
+| succinic semialdehyde dehydrogenase       | 4-hydroxybutyric            | urea                     |
+| ETHE gene                                 | ethylmalonic                | phosphoric               |
+| 3-methylglutaconyl-CoA hydratase          | 3-methylglutaconic (peak 2) | 3-hydroxy adipic lactone |
+| MCAD/GA2                                  | hexanoylglycine             | 4-hydroxy phenylacetic   |
+| UCDs                                      | orotic                      | cis-aconitic             |
 

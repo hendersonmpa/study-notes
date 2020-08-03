@@ -30,6 +30,6 @@
   hydrolysis, followed by extraction into hexane
 - after the hexane phase is washed once more, the sample is dried
   under nitrogen followed by addition of pyridine and MTBSTFA and
-  heating of the samples at 80°C
+  heating of the samples at 80C
 - the sample is dried again under nitrogen and taken up in hexane,
   followed by GC-MS analysis

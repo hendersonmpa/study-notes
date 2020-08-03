@@ -6,14 +6,14 @@
 * Methods for Metabolites
 1) ALA
 2) PBG
-3) Urinary Porphyrins
-4) Fecal Porphyrins
-5) Blood Porphyrins
+3) urinary porphyrins
+4) fecal porphyrins
+5) blood porphyrins
 ** Specimen Collection and Stability
 - protect from light
 - urinary porphyrins and PBG best collected in fresh random urine
-  without preservative. Very dilute urine (creatinine <2 mmol/L) is
-  not suitable
+  without preservative
+- very dilute urine (creatinine <2 mmol/L) is not suitable
 ** Methods for Porphyrin Precursors
 *** Porphobilinogen
 - ehrlich's reagent

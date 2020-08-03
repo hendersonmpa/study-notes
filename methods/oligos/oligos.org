@@ -6,7 +6,7 @@
 - TLC is used to fractionate urine oligosaccharides (Figure [[fig:tlco]])
 - stained with orcinol
 
-#+CAPTION[]: TLC of urinary oligos:control, \alpha-mannosidosis, fucosidosis, Sandhoff and aspartylglucosaminuria
+#+CAPTION[]: TLC of Urinary Oligosacarides: control, \alpha-mannosidosis, fucosidosis, Sandhoff and aspartylglucosaminuria
 #+NAME: fig:tlco
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/tlc.png]]

@@ -6,13 +6,21 @@
 ** Beutler Test
 
 #+BEGIN_EXPORT LaTeX
+\begin{center}
   \ce{Gal-1-P + UDP-Glu ->[GALT] Glu-1-P + UDP-Gal}
+
+\vspace{20}
 
   \ce{Glu-1-P ->[PGM] Glu-6-P}
 
+\vspace{20}
+
   \ce{Glu-6-P + NADP+ ->[G6PD] 6-glucuranate + NADPH}
 
+\vspace{20}
+
   \ce{6-glucuranate + NADP+ ->[6PGDH] ribulose-5-P + NADPH}
+\end{center}
 #+END_EXPORT
 
 - fluorescence of NADPH is measured to determine GALT deficiency
@@ -26,23 +34,33 @@
 ** Spotcheck
 
   #+BEGIN_EXPORT LaTeX
+\begin{center}
   \ce{Gal-1-P + UDP-Glu ->[GALT] Glu-1-P + UDP-Gal}
+
+\vspace{20}
 
   \ce{Glu-1-P ->[PGM] Glu-6-P}
 
+\vspace{20}
+
   \ce{Glu-6-P + NADP+ ->[G6PD] 6-PG + NADPH}
 
-  \ce{NADPH + MTT ->[methoxy PMS] Coloured Formazan + NADP+}
+\vspace{20}
 
+  \ce{NADPH + MTT ->[methoxy PMS] Coloured Formazan + NADP+}
+\end{center}
   #+END_EXPORT
 
 * Biotinidase
 
 #+BEGIN_EXPORT LaTeX
+\begin{center}
 \ce{biotin-PAB ->[BTD][pH 6] biotin + PABA}
 
-\ce{PABA ->[NO2, NH2SO3][NED] purple chromophore}
+\vspace{20}
 
+\ce{PABA ->[NO2, NH2SO3][NED] purple chromophore}
+\end{center}
 #+END_EXPORT
 
 * Lysosomal Enzymes
@@ -58,17 +76,17 @@
 #+CAPTION[4MUI]:4-Methylumbelliferyl-\alpha-L-Iduronide
 #+NAME: fig:4mui
 #+ATTR_LaTeX: :width 0.4\textwidth
-[[file:./figures/M337643.png]]
+[[file:./figures/19543.png]]
 
 *** Known Issues
-**** Psuedodeficiency
- - Low /in vitro/ \alpha-iduronidase activity with native and 4-MU
+**** Pseudodeficiency
+ - low /in vitro/ \alpha-iduronidase activity with native and 4-MU
    substrates
- - Known PD alleles:
+ - known PD alleles:
    - p.A300T, p.A79T, p.H82Q, p.D223N, p.V322E
 
-**** Sample quality 
- - Poor sample quality \to low enzyme activity
+**** Sample Quality 
+ - poor sample quality \to low enzyme activity
    - measurement of control enzymes useful
 
 ** Multiplex DBS Assay
@@ -77,7 +95,7 @@
  - after incubation and liquid-liquid extraction, samples are analyzed by flow injection MS/MS
  - all deuterated internal standards correspond to enzymatically generated products
 
-#+CAPTION[]:Neo-LSD Lysosomal enzyme activities
+#+CAPTION[]:Neo-LSD Lysosomal Enzyme Activities
 #+NAME: tab:
 | enzyme                   | disease | abbreviation |
 |--------------------------+---------+--------------|
@@ -93,13 +111,13 @@
   allows the diagnosis of Sandhoff disease
 - differential assay of HexA using heat or acid
   inactivation does not identify patients with the B1 variant
-- HexA is heat-labile while Hex B is not and total hexosaminidase
+- HexA is heat-labile while Hex B is not
 - an artificial substrate is most commonly used
 - total hexosaminidase activity is quantified
   - following this, heat inactivation of HexA occurs with a second
     measurement of the total enzyme level
   - from this, the percent HexA is calculated
-    - HexA = [Prior to Heat] - [After Heat}
+    - HexA = [Prior to Heat] - [After Heat]
     - HexA = Total - HexB
 - Tay-Sachs disease is characterized by normal total hexosaminidase
   with a very low percent HexA (Table [[tab:gm2]])
@@ -119,9 +137,9 @@
 | Sandhoff   | HexA/B | \Downarrow  | \Downarrow | \uparrow   |
 
 
-*** HexA assay
+*** HexA Assay
 - the direct assay of hexosaminidase A using the sulfated synthetic
-  substrate (4-MU-6-sulfo-/beta-glucosaminide) specific for the
+  substrate (4-MU-6-sulfo-\beta-glucosaminide) specific for the
   \alpha-subunit is the method of choice
 - /in vitro/ hexoaminidase activity: leukocytes, fibroblasts
   - 4-MU-6-sulfo-\beta-glucosaminide

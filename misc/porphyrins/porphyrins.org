@@ -80,7 +80,7 @@
 |        | uroporphyrinogen-III   |          |                   |
 | UROD   | \downarrow             | PCT      | C                 |
 |        | coproporphyrinogen-III |          |                   |
-| CPO    | \downarrow             | HCP      | N,C               |
+| CPOX   | \downarrow             | HCP      | N,C               |
 |        | protoporphyrinogen-IX  |          |                   |
 | PPOX   | \downarrow             | VP       | N,C               |
 |        | protoporphyrin-IX      |          |                   |
@@ -160,7 +160,7 @@
 
 ** Metabolic Derangement
 *** ALA Dehydratase Porphyria 
- - ALAD: Aminolevulinic Acid Dehydratase
+ - *aminolevulinic acid dehydratase (ALAD)* 
    - aka: porphobilinogen synthase
    - requires zinc, inhibited by lead
    - ~five cases reported
@@ -168,40 +168,37 @@
      - Urine PBG :: Not elevated
 
 *** Acute Intermittent Porphyria
- - HMBS: Hydroxymethylbilane Synthase
- - AD inheritance HMBS
-   - aka: PBG deaminase
-   - four PBGs are combined through deamination
-   - susceptible to allosteric inhibition by CIII and protoporphyrinogen
-   - HMB is unstable \to \uparrow URO I
-     - Urine PBG :: \Uparrow \Uparrow \Uparrow
-     - Urine ALA :: \Uparrow \Uparrow \Uparrow
-   - rule out VP and HCP
-   - \uparrow urine uroporphyrin arises from non-enzymatic
-     condensation of micro-molar concentrations of PBG
+ - *hydroxymethylbilane synthase (HMBS)* 
+ - aka: PBG deaminase
+ - four PBGs are combined through deamination
+ - susceptible to allosteric inhibition by CIII and protoporphyrinogen
+ - HMB is unstable \to \uparrow URO I
+   - Urine PBG :: \Uparrow \Uparrow \Uparrow
+   - Urine ALA :: \Uparrow \Uparrow \Uparrow
+ - rule out VP and HCP
+ - \uparrow urine uroporphyrin arises from non-enzymatic
+   condensation of micro-molar concentrations of PBG
 
 *** Hereditary Coproporphyria
- - CPOX: Coproporphyrinogen Oxidase
- - AD inheritance CPOX
-   - mitochondrial inter-membrane space
-   - inhibited by metals
-   - specific for CIII
-     - Urine PBG :: \Uparrow \Uparrow \Uparrow
-     - Fecal copro III :: \Uparrow \Uparrow \Uparrow
+ - *coproporphyrinogen oxidase (CPOX)*
+ - mitochondrial inter-membrane space
+ - inhibited by metals
+ - specific for CIII
+   - Urine PBG :: \Uparrow \Uparrow \Uparrow
+   - Fecal copro III :: \Uparrow \Uparrow \Uparrow
 
 *** Varigate Porphyria
- - PPOX: Protoporphyrinogen Oxidase
- - AD inheritance w reduced penetrance PPOX
-   
-   - inner mitochondrial membrane
-     - Urine PBG :: \Uparrow \Uparrow \Uparrow
-     - Fecal copro-III :: \uparrow \uparrow
-     - Plasma fluorescence scan :: \Uparrow \Uparrow \Uparrow
+ - *Protoporphyrinogen Oxidase (PPOX)*
+ - inner mitochondrial membrane
+ - Urine PBG :: \Uparrow \Uparrow \Uparrow
+   - Fecal copro-III :: \uparrow \uparrow
+   - Plasma fluorescence scan :: \Uparrow \Uparrow \Uparrow
    
 ** Genetics
-- AIP :: AR HMBS
-- VP :: AR PPOX
-- HCP :: AR CPO
+- ALAD :: AR ALAD
+- AIP :: AD HMBS
+- VP :: AD PPOX with reduced penetrance
+- HCP :: AD CPOX
 ** Diagnostic Tests
 *** Acute Attack
  - during an acute attack *a normal PBG essentially excludes all acute
@@ -235,12 +232,13 @@
 
 * Non-Acute Porphyrias 
 ** X-Linked Sideroblastic Anemia
-- ALAS: 5-aminolevulinate synthase
- - mitochondrial
- - rate limiting step under normal conditions
- - microcytic, hypochromic red cells
- - abnormal accumulation of iron in red blood cells \to ring
-   sideroblasts
+- *\Delta-aminolevulinate synthase 2 (ALAS2)*
+- X-linked ALAS2
+- mitochondrial
+- rate limiting step under normal conditions
+- microcytic, hypochromic red cells
+- abnormal accumulation of iron in red blood cells \to ring
+  sideroblasts
 ** Porphyria Cutanea Tarda
 *** Clinical Presentation
 - both sexes
@@ -255,7 +253,7 @@
   - infection with heptotropic viruses, HCV
   - hemochromatosis, iron overload
 *** Metabolic Derangement
-- UROD: uroporphyrinogen decarboxylase
+- *uroporphyrinogen decarboxylase (UROD)* 
 - last cytoplasmic enzyme, \downarrow polar
 - \downarrow activity of UROD in liver \to \uparrow URO
 - 50% \downarrow in UROD activity does not \to overt PCT
@@ -267,11 +265,11 @@
 - hepta, hexa and pentacarboxylate formed at the same active site
 - \downarrow UROD \to increase in intermediates and uroporphyrins
 *** Genetics
-- acquired PCT (type I)
-  - exposure to polyhalogenated aromatic hydrocarbons
-- famillial PCT (type II)
-  - AD, UROD w reduced penetrance
+- famillial PCT
+  - AD UROD w reduced penetrance
   - mutation in one UROD gene \to 1/2 normal activity
+- acquired PCT 
+  - exposure to polyhalogenated aromatic hydrocarbons
 *** Diagnostic Tests
 - urine porphyrin quantitation
   - \Uparrow \Uparrow \Uparrow Uro I & III
@@ -293,7 +291,7 @@
 - red brown teeth
 - skin changes usually accompanied by hemolytic anemia and splenomegaly
 *** Metabolic Derangement
-- UROS: uroporphyrinogen III synthase
+- *uroporphyrinogen III synthase (UROS)* 
 - \downarrow UROS \to \uparrow UI
   - HMB condensed \to Uro I or III
   - HMB \rightarrow Uro I: spontaneous
@@ -302,9 +300,8 @@
 - least common, most severe of the cutaneous porphyrias, < 1:million in UK
 - AR UROS
   - usually heteroallelic
-- very rare XL GATA1 mutation
+- X-linked GATA1 very rare
   - a transcription factor
-
 *** Diagnostic tests
 - urine porphyrin quantitation
     - \Uparrow \Uparrow \Uparrow Uro I
@@ -333,7 +330,7 @@
 - mild microcytic anemia
 
 *** Metabolic Derangement
-- FECH: ferrochelatase
+- *ferrochelatase (FECH)* 
 - threshold FECH activity = 35% \to \uparrow protoporphyrin
   - inserts ferrous iron into protoporphyrin to form heme
   - aka: heme synthase
@@ -344,7 +341,7 @@
 - AR FECH 
 - X-linked dominant protoporphyria (XLDPP)
   - 2% of EPP cases
-  - due to gain of function *ALAS2* mutation
+  - due to gain of function ALAS2 mutation
 
 *** Diagnostic Tests
 - \Uparrow \Uparrow \Uparrow RBC free protoporphyrin

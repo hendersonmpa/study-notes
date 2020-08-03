@@ -55,7 +55,7 @@
 - most CDG mutations are hypomorphic - allow some glycan synthesis
 - N-Glycan CDGs
   - ~1500+ cases worldwide, 70% PMM2-CDG (CDG Ia)
-    - Type 1 :: ER defects that impair lipid-linked oligosaccharide (LLO)
+    - Type 1 :: ER defects that impair lipid-linked oligosaccharide
       assembly and transfer
     - Type 2 :: Golgi defects that affect trimming of the
       protein-bound oligosaccharide or the addition of sugars to it

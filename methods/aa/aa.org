@@ -130,7 +130,7 @@
 - utilizes a lithium-based cation-exchange column
 - eluting amino acids undergo post column reaction with ninhydrin
 - optical detection in the visible spectrum
-  - amino acids: 570nm
+  - amino acids 570nm
   - imino acids 440 nm
 
 #+BEGIN_EXPORT LaTeX
@@ -243,7 +243,7 @@ plot data u 1:3 w lp lw 2 title 'A', \
 
 #+end_src
 
-#+CAPTION[]:LC-MS/MS outletmethod
+#+CAPTION[]:LC-MS/MS Outlet Method
 #+NAME: fig:lcout
 #+ATTR_LATEX: :width 0.7\textwidth
 #+RESULTS:
@@ -252,11 +252,16 @@ plot data u 1:3 w lp lw 2 title 'A', \
 ** Ion-Pairing Chromatography
 
 #+BEGIN_EXPORT LaTeX
+\begin{center}
 \chemnameinit{}
 \chemname{\chemfig{CF_3-{(CF_2)_4}-CF_2-[::30](=[::60]O)-[::-60]OH}}{\small perfluoroheptanoic acid}
+\\
+\vspace{20}
+\ce{AA+ + PFHA- <=> AA+PFHA-}
+\end{center}
 #+END_EXPORT
 
-\ce{AA+ + PFHA- <=> AA+PFHA-}
+
 
 ** LC- MS/MS transitions
 - ESI in positive mode
@@ -309,7 +314,7 @@ plot data u 1:3 w lp lw 2 title 'A', \
 - manual peak integration
 
 * Total Homocysteine
-- there are three forms of homocysteine, total homocysteine (tHcy)is
+- there are three forms of homocysteine, total homocysteine (tHcy) is
   measured (Figure [[fig:hcyforms]])
 - tHcy is useful in evaluation of potential CBS deficiency, cobalamin
   metabolism defects
@@ -334,9 +339,9 @@ plot data u 1:3 w lp lw 2 title 'A', \
      - the formed adenosine is immediately hydrolyzed into inosine and
        ammonia (NH_3)
   4. glutamate dehydrogenase (GLDH) catalyzes the reaction of ammonia
-     with 2-oxoglutarate and NADH to form NAD^+
+     with 2-oxoglutarate and NADH to form NAD^{+}
   5. concentration of Hcy in the sample is \propto the amount of NADH
-     converted to NAD^{+} (\Delta A340nm)
+     converted to NAD^{+} (\Delta{}A340nm)
 
 #+CAPTION[]:Enzymatic Total Homocysteine Method
 #+NAME: fig:thcymethod

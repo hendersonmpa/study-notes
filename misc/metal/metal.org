@@ -257,9 +257,10 @@
 
 ** Iron Deficiency and Distribution Disorders
 *** Iron-Refractory Iron Deficiency Anaemia (IRIDA)
- - this disease is caused by a deficiency of matriptase-2 encoded by TMPRSS6
+ - caused by a deficiency of *matriptase-2*
+ - AR TMPRSS6
  - normal cleavage of haemojuvelin is interrupted \to \uparrow hepcidin
- - presesents in youth
+ - presents in youth
    - iron deficiency
    - \downarrow transferrin saturation (<10%)
    - microcytic anaemia 
@@ -270,7 +271,7 @@
 
 *** Atransferrinaemia
  - rare
- - AR, TF
+ - AR TF
  - presents with moderate to severe hypochromic microcytic anaemia and
    growth retardation along with signs of haemochromatosis
  - \downarrow serum transferrin

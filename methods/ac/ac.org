@@ -8,10 +8,12 @@
   and methionine
 
 #+BEGIN_EXPORT LaTeX
+\begin{center}
 \chemnameinit{}
 \chemname{\chemfig{H3C-N^{+}([2]-CH3)([6]-CH3)-CH2-C([2]-H)([6]-OH)-CH_2-C([1]=O)([7]-O^{-})}}{\small carnitine}
 \hspace{3em}
 \chemname{\chemfig{H3C-N^{+}([2]-CH3)([6]-CH3)-CH2-C([2]-H)([6]-O-C([0]=O)-{\color{red}R})-CH_2-C([1]=O)([7]-O^{-})}}{\small acylcarnitine}
+\end{center}
 #+END_EXPORT
 
 - carnitine has been described as a "conditionally essential"
@@ -188,6 +190,7 @@
 - precursor ion scan is used to identify molecules that fragment to form a 85 m/z molecule
 
 #+BEGIN_EXPORT LaTeX
+\begin{center}
 \chemnameinit{}
 \definesubmol{x}{-[1,.6]-[7,.6]}
  \chemname{\chemfig{H_{3}C-N^{+}([2]-CH_3)([6]-CH_{3})-CH_2-C([2]-H)([6]-O-C([0]=O)-{\color{red}R})-CH_2-C([2]=O)-O-CH_2-CH_2-CH_2-CH_3}}{\small acylcarnitine, butyl ester}
@@ -201,6 +204,7 @@
  \chemname{\chemfig{H!x!x}}{\small butyl group}
 \hspace{2em}
  \chemname{\chemfig{H_{2}C^{+}-HC=CH-C([1]=O)([7]-OH)}}{\small 85 m/z}
+\end{center}
 #+END_EXPORT
 
 
@@ -211,14 +215,14 @@
 \begin{center}
 \begin{tikzpicture}
 \node[box](ms1)[]{};
-\node[label](ms1u)[above=of ms1,yshift=-3em]{MS1};
-\node[label](ms1l)[below=of ms1,yshift=3em]{scanning};
+\node[label](ms1u)[above=of ms1,yshift=-2em]{MS1};
+\node[label](ms1l)[below=of ms1,yshift=2em]{scanning};
 \node[box](cc)[right= of ms1]{};
-\node[label](ccu)[above=of cc,yshift=-3em]{Collision cell};
-\node[label](ccl)[below=of cc,yshift=3em]{fragmentation};
+\node[label](ccu)[above=of cc,yshift=-2em]{Collision Cell};
+\node[label](ccl)[below=of cc,yshift=2em]{fragmentation};
 \node[box](ms2)[right= of cc]{};
-\node[label](ms2u)[above=of ms2,yshift=-3em]{MS2};
-\node[label](ms2l)[below=of ms2,yshift=3em]{85 m/z};
+\node[label](ms2u)[above=of ms2,yshift=-2em]{MS2};
+\node[label](ms2l)[below=of ms2,yshift=2em]{85 m/z};
 \draw[->](ms1) -- (cc);
 \draw[->](cc) -- (ms2);
 
@@ -237,7 +241,7 @@
 \draw [gray,->,decorate,decoration=snake] (2.8, 0) -- (3.8,-0.5);
 
 %ms2
-\draw [red,->,decorate,decoration=snake] (5.1, 0) -- (6.8,0);
+\draw [red,->,decorate,decoration=snake] (6.0, 0) -- (7.7,0);
 \end{tikzpicture}
 \end{center}
 #+END_EXPORT
@@ -276,7 +280,7 @@ method for blood spots. Journal of Inherited Metabolic Disease, 22(2),
 * Free and Total Carnitine
 - acylcarnitine quantitation must be done using a non-derivatized FIA
   or LC MS/MS method
-  - avoids hydrolysis of acylcarnitines to free carnitine (C0)
+  - avoids acid hydrolysis of acylcarnitines to free carnitine (C0)
 
 \[
 \frac{free_{carnitine}}{total_{carnitine}} = \frac{C_0}{\sum_{0}^{18} C_n}
@@ -294,4 +298,5 @@ FTR_{carnitine}\% = \left( 1 -  \frac{carnitine_{urine} \cdot creatinine_{plasma
 #+END_EXPORT
 
 - \Downarrow in CUD normally \gt 98%
+
 

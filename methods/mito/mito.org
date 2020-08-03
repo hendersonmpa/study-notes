@@ -4,38 +4,38 @@
 
 #+BEGIN_SRC dot :file ./mito/figures/etc.pdf :cmdline -Kdot -Tpdf
   digraph {
-           // graph from left to right
-           rankdir=LR;
-           splines=true;
-           node [shape=oval];
-           fadh [label="FADH2", fillcolor=grey, style=filled];
-           etf[label="ETF", fillcolor=steelblue3, style=filled];
-           etfd[label="ETF-QO", fillcolor=steelblue3, style=filled];
-	       g3p[label="glycerol-3-phosphate", fillcolor=grey, style=filled];
-           gpd[label="GPD", fillcolor=steelblue3, style=filled];
-           nadh [label="NADH", fillcolor=grey, style=filled];
-           c1 [label="CI", fillcolor=steelblue3, style=filled];
-           q [label="CoQ", fillcolor=red3, style=filled];    
-           c3 [label="CIII", fillcolor=steelblue3, style=filled];     
-           cytc [label="Cytochrome C", fillcolor=red, style=filled];     
-           c4 [label="CIV", fillcolor=steelblue3, style=filled];     
-           h2o [label="H2O", fillcolor=grey, style=filled];     
-           c2 [label="CII", fillcolor=steelblue3, style=filled];     
-           s [label="succinate", fillcolor=grey, style=filled];     
-           fadh -> etf; 
-           etf -> etfd;
-           etfd -> q;
-           g3p -> gpd;
-           gpd -> q;
-           nadh -> c1;
-           c1 -> q;
-           q -> c3;
-           c3 -> cytc; 	 
-           cytc -> c4;
-           c4 -> h2o;
-           c2 -> q;
-           s -> c2;
-           }    
+	   // graph from left to right
+	   rankdir=LR;
+	   splines=true;
+	   node [shape=oval];
+	   fadh [label="FADH2", fillcolor=grey, style=filled];
+	   etf[label="ETF", fillcolor=steelblue3, fontcolor=white, style=filled];
+	   etfd[label="ETF-QO", fillcolor=steelblue3, fontcolor=white, style=filled];
+           g3p[label="glycerol-3-phosphate",fillcolor=grey, style=filled];
+	   gpd[label="GPD", fillcolor=steelblue3,fontcolor=white, style=filled];
+	   nadh [label="NADH", fillcolor=grey, style=filled];
+	   c1 [label="CI", fillcolor=steelblue3,fontcolor=white, style=filled];
+	   q [label="CoQ", fillcolor=black,fontcolor=white, style=filled];    
+	   c3 [label="CIII", fillcolor=steelblue3, fontcolor=white,style=filled];     
+	   cytc [label="Cytochrome C", fillcolor=black, fontcolor=white,style=filled];     
+	   c4 [label="CIV", fillcolor=steelblue3, fontcolor=white,style=filled];     
+	   h2o [label="H2O", fillcolor=grey, style=filled];     
+	   c2 [label="CII", fillcolor=steelblue3, fontcolor=white,style=filled];     
+	   s [label="succinate", fillcolor=grey, style=filled];     
+	   fadh -> etf; 
+	   etf -> etfd;
+	   etfd -> q;
+	   g3p -> gpd;
+	   gpd -> q;
+	   nadh -> c1;
+	   c1 -> q;
+	   q -> c3;
+	   c3 -> cytc; 	 
+	   cytc -> c4;
+	   c4 -> h2o;
+	   c2 -> q;
+	   s -> c2;
+	   }    
 #+END_SRC
 
 #+CAPTION[]:Flow of Electrons in the ETC
@@ -103,7 +103,7 @@
 
 \ce{acetyl-CoA + oxaloacetate ->[CS] Citrate + CoA-SH + H+ + H2O} 
 
-- CoA-SH reacts with the 5,5′-Dithiobis-(2-nitrobenzoic acid)(DTNB) in
+- CoA-SH reacts with the 5,5-dithiobis-2-nitrobenzoic acid (DTNB) in
   the reaction mixture to form 5-thio-2-nitrobenzoic acid (TNB)
 
 \ce{CoA-SH + DTNB -> TNB + CoA-S-S-TNB}
@@ -118,10 +118,10 @@
            splines=true;
            node [shape=oval];
            nadh [label="NADH", fillcolor=grey, style=filled];
-           c1 [label="CI", fillcolor=steelblue3, style=filled];
-           q [label="CoQ", fillcolor=red3, style=filled];    
+           c1 [label="CI", fillcolor=steelblue3,fontcolor=white, style=filled];
+           q [label="CoQ", fillcolor=black, fontcolor=white,style=filled];    
            c3 [label="CIII", fillcolor=steelblue3, style=filled];     
-           cytc [label="Cytochrome C", fillcolor=red, style=filled];     
+           cytc [label="Cytochrome C", fillcolor=black,fontcolor=white, style=filled];     
            nadh -> c1;
            c1 -> q;
            q -> c3;
@@ -156,6 +156,9 @@
 
 #+BEGIN_EXPORT LaTeX
 {\small\ce{4Fe3+ cytochrome c + NADH + 2H2O ->[CI + CIII] 4Fe2+ cytochrome c + NAD+ + 4H + O2}}
+
+\vspace{20}
+
 \ce{oxidized cyt c -> reduced cyt c} 
 #+END_EXPORT
 
@@ -172,8 +175,8 @@
            splines=true;
            node [shape=oval];
            nadh [label="NADH", fillcolor=grey, style=filled];
-           c1 [label="Complex I", fillcolor=steelblue3, style=filled];
-           q [label="CoQ", fillcolor=red3, style=filled];    
+           c1 [label="CI", fillcolor=steelblue3, fontcolor=white, style=filled];
+           q [label="CoQ", fillcolor=black, fontcolor=white, style=filled];    
            nadh -> c1;
            c1 -> q;
            }    
@@ -217,9 +220,9 @@
            rankdir=LR;
            splines=true;
            node [shape=oval];
-           q [label="CoQ", fillcolor=red3, style=filled];    
-           dc [label="DCPIP", fillcolor=steelblue3, style=filled];     
-           c2 [label="CII", fillcolor=steelblue3, style=filled];     
+           q [label="CoQ", fillcolor=black, fontcolor=white, style=filled];    
+           dc [label="DCPIP", fillcolor=steelblue3, fontcolor=white, style=filled];     
+           c2 [label="CII", fillcolor=steelblue3, fontcolor=white, style=filled];     
            s [label="succinate", fillcolor=grey, style=filled];     
            s -> c2;
            c2 -> q;
@@ -245,7 +248,11 @@
   - assay cuvette :: succinate, ubiquinone & DCPIP 
   - reference cuvette :: ubiquinone & DCPIP
 
-\ce{CoQH2 + DCPIP_ox -> CoQ + DCPIP_red} 
+#+BEGIN_EXPORT LaTeX
+\ce{CoQH2 + DCPIP$_{ox}$ -> CoQ + DCPIP$_{red}$} 
+#+END_EXPORT
+
+
 
 * CII & III assay
 #+BEGIN_SRC dot :file ./mito/figures/c2c3.pdf :cmdline -Kdot -Tpdf
@@ -254,10 +261,10 @@
            rankdir=LR;
            splines=true;
            node [shape=oval];
-           q [label="CoQ", fillcolor=red3, style=filled];    
-           c3 [label="CIII", fillcolor=steelblue3, style=filled];     
-           cytc [label="Cytochrome C", fillcolor=red, style=filled];     
-           c2 [label="CII", fillcolor=steelblue3, style=filled];     
+           q [label="CoQ", fillcolor=black, fontcolor=white, style=filled];    
+           c3 [label="CIII", fillcolor=steelblue3, fontcolor=white, style=filled];     
+           cytc [label="Cytochrome C", fillcolor=black, fontcolor=white, style=filled];     
+           c2 [label="CII", fillcolor=steelblue3, fontcolor=white, style=filled];     
            s [label="succinate", fillcolor=grey, style=filled];     
            q -> c3;
            c3 -> cytc; 	 
@@ -294,8 +301,10 @@
   - reference cuvette :: oxidized cyt c, azide & succinate
 
 #+BEGIN_EXPORT LaTeX
-{\small\ce{4Fe3+ cytochrome c + succinate + 2H2O ->[CII + CIII] 4Fe2+ cytochrome c + fumarate + 4H + O2}}
-\\
+{\footnotesize\ce{4Fe3+ cytochrome c + succinate + 2H2O ->[CII + CIII] 4Fe2+ cytochrome c + fumarate + 4H + O2}}
+
+\vspace{20}
+
 \ce{oxidized cyt c -> reduced cyt c} 
 #+END_EXPORT
 
@@ -306,8 +315,8 @@
            rankdir=LR;
            splines=true;
            node [shape=oval];
-           cytc [label="Cytochrome C", fillcolor=red, style=filled];     
-           c4 [label="CIV", fillcolor=steelblue3, style=filled];     
+           cytc [label="Cytochrome C", fillcolor=black, fontcolor=white, style=filled];     
+           c4 [label="CIV", fillcolor=steelblue3, fontcolor=white, style=filled];     
            h2o [label="H2O", fillcolor=grey, style=filled];     
            c4 -> cytc;
            h2o -> c4;

@@ -40,7 +40,7 @@
 - most ATP regeneration relys on creatine kinase catalysed transfer of
   phosphate from phosphocreatine
 
-\ce{phosphocreatine + ADP ->[CK] creatine + ATP}
+ \ce{phosphocreatine + ADP ->[CK] creatine + ATP}
 
 - adenylatekinase transphosphorylates ATP to be regenerated with the formation
   of AMP
@@ -49,7 +49,7 @@
 
 - AMP deaminase
 
-\ce{AMP ->[AMPD] IMP + NH4+}
+ \ce{AMP ->[AMPD] IMP + NH4+}
 
 - IMP degraded to hypoxanthine
 - recycled back to AMP in the purine nucleotide cycle

@@ -61,7 +61,8 @@ $(OUT_DIR)lipids_bile.pdf: ./lipids_bile/lipids_bile.org ./lipids_bile/bile/bile
 	mv -v ./lipids_bile/lipids_bile.pdf $(OUT_DIR)lipids_bile.pdf
 
 $(OUT_DIR)misc.pdf: ./misc/misc.org ./misc/pp/pp.org ./misc/porphyrins/porphyrins.org \
-./misc/metal/metal.org ./misc/peptides/peptides.org ./misc/neuro/neuro.org
+./misc/metal/metal.org ./misc/peptides/peptides.org ./misc/neuro/neuro.org \
+./misc/oxalate/oxalate.org
 	emacs -u "$(id -un)" \
 	--batch \
 	--eval '(load user-init-file)' \
