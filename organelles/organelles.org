@@ -120,7 +120,7 @@
 #+INCLUDE: "./GM1_2/gm2.org" :lines "4-"
 ** Krabbe
 #+INCLUDE: "./krabbe/krabbe.org" :lines "4-"
-** Metachromic Leukodystropy
+** Metachromatic Leukodystropy
 #+INCLUDE: "./mld/mld.org" :lines "4-"
 ** Fabry
 #+INCLUDE: "./fabry/fabry.org" :lines "4-"

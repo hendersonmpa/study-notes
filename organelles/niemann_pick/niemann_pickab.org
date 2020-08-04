@@ -21,7 +21,7 @@
 #+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./figures/sphingomyelin.png]]
 
-#+CAPTION[]: Sphingomyelinase
+#+CAPTION[]: Acid Sphingomyelinase: NP A & B
 #+NAME: fig:sphingomyelinase 
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./figures/sphingomyelinase.png]]
@@ -60,7 +60,7 @@
   - \uparrow LDL cholesterol
 - foam cells in bone marrow (Figure [[fig:foam]])
 
-#+CAPTION[]: Foam Cells in Bone Marrow in NP A,B and C
+#+CAPTION[]: Foam Cells in Bone Marrow in NP A, B and C
 #+NAME: fig:foam
 #+ATTR_LaTeX: :width 0.25\textwidth
 [[file:./figures/foam_cells.png]]

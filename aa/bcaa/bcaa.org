@@ -32,7 +32,7 @@
 - methionine, FFA w odd number of carbons, cholesterol side chains,
   gut bacteria \to propionyl-CoA
 
-#+CAPTION[]:BCAA catabolism
+#+CAPTION[]:BCAA Catabolism
 #+NAME: fig:bcaa
 #+ATTR_LaTeX: :width 1.1\textwidth
 [[file:./figures/Slide02.png]]
@@ -269,4 +269,4 @@
   - phospholipid remodelling
   - mitochondrial membrane
   - unknown etiology
-n
+

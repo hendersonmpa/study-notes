@@ -42,7 +42,7 @@
   transporter EAAT3, located at the luminal border
   of epithelial cells and also expressed in neurons
 
-#+CAPTION[]:Simplified schematic representation of cationic and neutral amino acid transport in epithelial cells
+#+CAPTION[]:Cationic and Neutral Amino Acid Transport in Epithelial Cells
 #+NAME: fig:aatrans
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/aatrans.png]]

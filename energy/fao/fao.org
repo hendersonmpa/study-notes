@@ -13,7 +13,9 @@
 \definesubmol{y}{!x!x!x!x!x!x!x!x}
 \definesubmol{b}{!x!x!x!x!x!x!x!a}
 %\chemfig{H{_3}C!y-[1]C(=[1]O)-[7]O{^-}}
+\begin{center}
 \chemname{\chemfig{\omega{}!b-[1]C(=[1]O)-[7]O{^-}}}{stearic acid 18:0}
+\end{center}
 #+END_EXPORT
 
 - non-systematic historical names most commonly used
@@ -27,7 +29,9 @@
 \definesubmol{y}{-[7,.6]-[1,.6]}
 \definesubmol{d}{=[0,.6](-[7,0.25,,,draw=none]\scriptstyle\color{red}9)-[1,.6]}
 \definesubmol{e}{!x!x!x!x!d!y!y!y}
+\begin{center}
 \chemname{\chemfig{\omega{}(-[3,0.25,,,draw=none]\scriptstyle\color{red}18)!e(-[2,0.25,,,draw=none]\scriptstyle\color{red}2)-[7,.6]COOH}}{\small Oleic acid 18:1,\Delta{}$^9$}
+\end{center}
 #+END_EXPORT
 - oleic acid - 18:1,\Delta^9
   - 18:1 - 18 carbons and 1 double bond
@@ -41,7 +45,7 @@
   - medium-chain :: C6-C12
   - short-chain :: C4
 
-** Mitochondrial fatty acid oxidation
+** Mitochondrial Fatty Acid \beta-oxidation
 - involves three processes (Figure [[fig:fao]])
   1) entry of fatty acids into mitochondria
      - long-chain fatty acids are activated to fatty-acyl coenzyme A (CoA) esters
@@ -86,12 +90,12 @@
        (from NADH to complex I) or via two transfer proteins (from
        FADH_2 to ubiquinone)
 
-#+CAPTION[]: Fatty Acid Oxidation
+#+CAPTION[]: Fatty Acid \beta-Oxidation
 #+NAME: fig:fao
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/b_oxidation.png]]
 
-#+CAPTION[]:Fatty Acid Oxidation and Ketone Body Metabolism
+#+CAPTION[]:Fatty Acid \beta-Oxidation and Ketone Body Metabolism
 #+NAME: fig:faketone
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/Slide12.png]]
@@ -133,7 +137,7 @@
  | acetoacetyl-CoA thiolase          |      4 | acetoacetyl-CoA specific              |
 
 
-** Common manifestations in FAODs
+** Common Manifestations in FAODs
  - fasting hypoglycaemia is the classic metabolic disturbance in FAODs
    - primarily due to increased peripheral glucose consumption
    - hepatic glucose output is also reduced under some conditions
@@ -156,8 +160,8 @@
    cause both this and the peripheral neuropathy
 - summarized in table [[tab:common]]
 
- #+CAPTION[]:Common manifestations in FAODs
- #+NAME: tab:common
+#+CAPTION[]:Common Manifestations in FAODs
+#+NAME: tab:common
 | FAOD  | sudden   | fasting     | skeletal | cardio-  | liver    |
 |       | death    | intolerance | myopathy | myopathy | disease  |
 |-------+----------+-------------+----------+----------+----------|
@@ -353,7 +357,7 @@
 - ACAD9 is responsible for production of C14:1-carnitine and
   C12-carnitine in VLCAD deficiency
 
-#+CAPTION[]:VLCAD reaction 
+#+CAPTION[]:VLCAD Reaction 
 #+NAME: fig:vlcad
 #+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./figures/vlcad.png]]
@@ -408,7 +412,8 @@
 - molecular
 
 *** Treatment 
-- see LCHAD
+- avoid fasting
+- low fat diet with MCT
 
 ** Long-Chain 3-Hydroxyacyl-CoA Dehydrogenase
 *** Clinical Presentation
@@ -455,7 +460,7 @@
 - the substrate specificity of LCAD overlaps with that of
   VLCAD and MCAD
   - role  in  human  metabolism  is unclear
-- no human disease-causing mutations have been identified
+- no human disease causing mutations have been identified
 
 ** Medium-Chain Acyl-CoA Dehydrogenase Deficiency
 *** Clinical Presentation
@@ -473,7 +478,7 @@
 - MCAD deficiency only presents clinically if exposed to an
   appropriate environmental stress
   - prior to NBS ~ 30-50% remained asymptomatic
-- with NBS and preventative measures, hypoglycaemia is rare
+- with NBS and preventative measures hypoglycaemia is rare
   - patients do not develop cardiomyopathy or myopathy and few present
     initially as adults
 - healty MCAD deficient children > 1 year can fast for 12-14 hours without problems

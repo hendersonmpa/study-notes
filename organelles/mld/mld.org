@@ -19,6 +19,12 @@
   - \uparrow sulfatides in CNS and PNS \to demyelination
   - \uparrow sulfatide in the kidney \to sulfatide in urine
 - demyelinating leukodystrophy (degeneration of white matter)
+
+#+CAPTION[]:Arylsulfatase A: Metachromatic Leukodystrophy
+#+NAME: fig:
+#+ATTR_LaTeX: :width 0.7\textwidth
+[[file:./figures/asa.png]]
+
 * Clinical 
 - three forms: late infantile-onset, juvenile and adult
 - variants include:

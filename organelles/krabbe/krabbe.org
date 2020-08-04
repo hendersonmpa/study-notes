@@ -14,7 +14,7 @@
     - multinucleated microglia/macrophages seen in the white matter
 - accumulation of psychosine (galactosylspingosine) in oligodendrocytes and Schwann cells
 
-#+CAPTION[]:Galactocerebrosidase
+#+CAPTION[]:Galactocerebrosidase: Krabbe
 #+NAME: fig:bgal
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/beta-galactosidase.png]]

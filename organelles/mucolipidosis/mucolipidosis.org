@@ -16,7 +16,7 @@
 #+CAPTION[]:Mucolipidoses
 #+NAME: tab:muco
 #+ATTR_LATEX: :font \small
-| Disease   | enzyme                   | dysostosis | progressive | angio-   | hepato         | sample |
+| Disease   | Enzyme                   | dysostosis | progressive | angio-   | hepato         | sample |
 |           |                          | multiplex  | cognitive   | keratoma | -splenomegally |        |
 |-----------+--------------------------+------------+-------------+----------+----------------+--------|
 | ML I      | \alpha-neuraminidase     | =++=       | =++=        | -        | =+=            | fibro  |
@@ -36,12 +36,14 @@
    - visceromegaly, dysostosis multiplex, and mental retardation
 
 ** Metabolic Derangement
- - deficiency of \alpha-neuraminidase that normally cleaves terminal
+ - deficiency of *\alpha-neuraminidase* that normally cleaves terminal
    \alpha2 \to 3 and \alpha2 \to 6 sialyl linkages of several
    oligosaccharides and glycopeptides
    - \therefore \uparrow oligosaccharides and glycopeptides in tissues
      and fluids of affected patients
 
+** Genetics
+- AR NEU1 
 ** Diagnostic Tests
  - test urine samples for both oligosaccharides and glycopeptides
  - definitive diagnosis - measurement of sialidase activity in fresh
@@ -94,7 +96,7 @@
 - I-cells are caused by oligosaccharides, lipids, and
   glycosaminoglycan inclusions in lysosomes
 
-#+CAPTION[]: Lysosomal enzyme receptors
+#+CAPTION[]: Lysosomal Enzyme Receptors
 #+NAME: tab:recep
 | Disease | Enzyme                    | Receptor          |
 |---------+---------------------------+-------------------|
@@ -108,18 +110,18 @@
 
 
 
-#+CAPTION[Protein trafficking to lysosomes]:Protein trafficking to lysosomes
+#+CAPTION[Protein trafficking to lysosomes]:Protein Trafficking to Lysosomes
 #+NAME: fig:traffic
 #+ATTR_LaTeX: :width 1\textwidth
 [[file:./figures/lysosome_traffic.jpg]]
 
 
-#+CAPTION[N-acetylglucosamine (GlcNAc) phosphotransferase]:N-acetylglucosamine (GlcNAc) phosphotransferase
+#+CAPTION[N-acetylglucosamine (GlcNAc) phosphotransferase]:N-acetylglucosamine (GlcNAc) Phosphotransferase
 #+NAME: fig:biochem
 #+ATTR_LaTeX: :width 1\textwidth
 [[file:./figures/ml_defect.png]]
 
-#+CAPTION[]:I cell in fibroblast culture
+#+CAPTION[]:I-Cell in Fibroblast Culture
 #+NAME: fig:icell
 #+ATTR_LaTeX: :height 0.5\textwidth
 [[file:./figures/icell.png]]

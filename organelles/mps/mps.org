@@ -69,17 +69,17 @@
   N-acetyl galactosamine
 - cornea, cartilage, bone, CNS
 
-#+CAPTION[DS Degradation]: DS degradation
+#+CAPTION[DS Degradation]: Dermatan Sulfate Degradation
 #+NAME: fig:dse
 #+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./figures/ds_degradation_disorders.png]]
 
-#+CAPTION[KS Degradation]: KS degradation
+#+CAPTION[KS Degradation]: Keratan Sulfate Degradation
 #+NAME: fig:kse
 #+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./figures/ks_degradation_disorders.png]]
 
-#+CAPTION[HS Degradation]: HS Degradation
+#+CAPTION[HS Degradation]: Heparan Sulfate Degradation
 #+NAME: fig:hse
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./figures/hs_degradation_disorders.png]]

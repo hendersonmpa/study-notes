@@ -25,12 +25,14 @@
       \definesubmol{P}{-[::-60]-[::60](=[::60]O)-[::-60]OH}
       \definesubmol{M}{CH_3}
       \definesubmol{V}{=[::-60]CH_2}
+\begin{center}
       \chemname{\chemfig[]{?[a]=[::+72]*5(-N?[b]=(-=[::-72]*5(-N?[c]
           (-[::-33,1.5,,,draw=none]{\color{red}Fe}?[b]?[c]?[d]?[e])-(=-[::-36]*5(=N?[d]-(=-[::-72]*5(-N?[e]-?[a]
           =(-!{M})-(-!{P})=))
           -(-!{P})=(-!{M})-))
           -(-!{V})=(-!{M})-))
-          -(-!{V})=(-!{M})-)}}{Heme}
+          -(-!{V})=(-!{M})-)}}{heme}
+\end{center}
 #+END_EXPORT
 
 #+CAPTION[]:Heme Synthesis
@@ -43,7 +45,7 @@
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/Slide19.png]]
 
-#+CAPTION: Route of excretion dictated by solubility for porphyrin precursors
+#+CAPTION: Route of Excretion of Porphyrin Precursors
 #+LABEL: tbl:excrete
 | Porphyrin | Route  |
 |-----------+--------|
@@ -65,7 +67,9 @@
 | catalase            | \ce{H2O2} breakdown         |
 | tryptophan pyrolase | tryptophan oxidation        |
 
-#+CAPTION: Main types of human porphyrias
+** Clinical Classification of the Porphyrias
+
+#+CAPTION: Main Types of Human Porphyrias
 #+LABEL: tbl:synthesis
 | Enzyme | Substrate              | Disorder | Clinical[fn:clin] |
 |--------+------------------------+----------+-------------------|
@@ -88,17 +92,17 @@
 
 [fn:clin] A = anemia, N = neuroviseral, C = cutaneous
 
-** Clinical Classification of the Porphyrias
-- Acute *Neurovisceral attacks*
+
+- *acute neurovisceral attacks*
   - AIP, ADP (rare)
 
-- Neuroviseral and/or Cutaneous
+- *neuroviseral and/or cutaneous*
   - HCP, VP
 
-- Cutaneous *photo-sensitivity, bullae, skin fragility*
+- *cutaneous photo-sensitivity, bullae, skin fragility*
   - PCT, CEP, HEP, EPP
 
-#+CAPTION: Main types of human porphyrias: Classification by onset
+#+CAPTION: Main Types of Human Porphyrias: Classification by Onset
 #+LABEL: tbl:onset
 | Disorder  | Enzyme | Prevalence  | NV | Lesions               | Site           |
 |-----------+--------+-------------+----+-----------------------+----------------|
@@ -125,7 +129,7 @@
   - acute porphyria caused by /de novo/ mutation is uncommon
 - allelic heterogenetity
 
-#+CAPTION: Clinical features of acute neuroviseral attacks
+#+CAPTION: Clinical Features of Acute Neuroviseral Attacks
 #+LABEL: tbl:neuroviseral
 | Symptom/Sign                     | Percent |
 |----------------------------------+---------|
@@ -141,19 +145,19 @@
 | Tachycardia (>80/min)            |      65 |
 | Hyponatremia                     |      37 |
 
-- persistent psychiatric illness is not a feature of acute porphyrias.
+- persistent psychiatric illness is not a feature of acute porphyrias
   - disappears with remission
-*** Precipitating factors
+*** Precipitating Factors
 1) drugs
+   - barbiturates, sulfonamides, progestogens, anticonvulsants
+   - http://www.drugs-porphyria.org
 2) alcohol, especially binge drinking
 3) the menstrual cycle
 4) calorie restriction
 5) infection
 6) stress
-*** Drugs
-- barbiturates, sulfonamides, progestogens, anticonvulsants
-- http://www.drugs-porphyria.org
-*** Long term complications
+
+*** Long Term Complications
 - chronic renal failure
 - hypertension
 - primary hepatocellular carcinoma
@@ -164,8 +168,8 @@
    - aka: porphobilinogen synthase
    - requires zinc, inhibited by lead
    - ~five cases reported
-     - Urine ALA :: \Uparrow \Uparrow \Uparrow
-     - Urine PBG :: Not elevated
+     - urine ALA :: \Uparrow \Uparrow \Uparrow
+     - urine PBG :: Not elevated
 
 *** Acute Intermittent Porphyria
  - *hydroxymethylbilane synthase (HMBS)* 
@@ -173,8 +177,8 @@
  - four PBGs are combined through deamination
  - susceptible to allosteric inhibition by CIII and protoporphyrinogen
  - HMB is unstable \to \uparrow URO I
-   - Urine PBG :: \Uparrow \Uparrow \Uparrow
-   - Urine ALA :: \Uparrow \Uparrow \Uparrow
+   - urine PBG :: \Uparrow \Uparrow \Uparrow
+   - urine ALA :: \Uparrow \Uparrow \Uparrow
  - rule out VP and HCP
  - \uparrow urine uroporphyrin arises from non-enzymatic
    condensation of micro-molar concentrations of PBG
@@ -184,15 +188,15 @@
  - mitochondrial inter-membrane space
  - inhibited by metals
  - specific for CIII
-   - Urine PBG :: \Uparrow \Uparrow \Uparrow
-   - Fecal copro III :: \Uparrow \Uparrow \Uparrow
+   - urine PBG :: \Uparrow \Uparrow \Uparrow
+   - fecal copro III :: \Uparrow \Uparrow \Uparrow
 
 *** Varigate Porphyria
- - *Protoporphyrinogen Oxidase (PPOX)*
+ - *protoporphyrinogen oxidase (PPOX)*
  - inner mitochondrial membrane
- - Urine PBG :: \Uparrow \Uparrow \Uparrow
-   - Fecal copro-III :: \uparrow \uparrow
-   - Plasma fluorescence scan :: \Uparrow \Uparrow \Uparrow
+ - urine PBG :: \Uparrow \Uparrow \Uparrow
+   - fecal copro-III :: \uparrow \uparrow
+   - plasma fluorescence scan :: \Uparrow \Uparrow \Uparrow
    
 ** Genetics
 - ALAD :: AR ALAD

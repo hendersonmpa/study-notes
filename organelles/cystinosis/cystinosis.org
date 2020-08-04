@@ -18,7 +18,7 @@
   - cysteine-cysteamine
     - exported by the lysine porter due to its structural analogy
 
-#+CAPTION[]: Lysosomal export of cystine and related compounds. The cross represents the defect in cystinosis
+#+CAPTION[]: Lysosomal Export of Cystine and Related Compounds. The cross represents the defect in cystinosis
 #+NAME: fig:lysexport
 #+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./figures/lysexport.png]]

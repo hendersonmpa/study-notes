@@ -23,7 +23,7 @@
 #+ATTR_LaTeX: :width 0.3\textwidth
 [[file:./figures/globotriaosylceramide.png]]
 
-#+CAPTION[\alpha-galactosidase A]:\alpha-galactosidase A, located in the Lumen of Lysosomes
+#+CAPTION[\alpha-galactosidase A]:\alpha-Galactosidase A: Fabry
 #+NAME: fig:sidase
 #+ATTR_LaTeX: :width 0.4\textwidth
 [[file:./figures/galactosidaseA.png]]
@@ -77,7 +77,7 @@
 - vacuoles seen in variety of cells
   - \uparrow endothelium of blood vessels
 
-#+CAPTION[Fabry EM]:EM showing concentric or lamellar structure of lysosomal inclusions in Fabry disease renal biopsy
+#+CAPTION[Fabry EM]:EM Showing Lamellar Structure of Lysosomal Inclusions in Fabry Disease Renal Biopsy
 #+NAME: fig:biopsy
 #+ATTR_LaTeX: :width 0.4\textwidth
 [[file:./figures/Fabrys-disease.jpg]]

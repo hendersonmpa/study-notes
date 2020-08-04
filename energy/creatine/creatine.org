@@ -97,7 +97,7 @@
 
 
 
-#+CAPTION[]: Urine findings in CDS
+#+CAPTION[]: Urine Findings in CDS
 #+NAME: tab:cdsurine
 |      | GAA        | creatine/creatinine |
 |------+------------+---------------------|

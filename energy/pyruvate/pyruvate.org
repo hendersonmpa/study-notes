@@ -163,7 +163,7 @@
 | E2       | dihydrolipoyl  S-acetyltransferase | DLAT  | lipoate, CoA           |
 | E3       | dihydrolipoyl dehydrogenase        | DLD   | FAD, NAD^{+}           |
 
-#+CAPTION[pdhe1]: Activation/deactivation of PDH E1
+#+CAPTION[pdhe1]: Activation/Deactivation of PDH E1
 #+NAME: fig:pdhe1
 #+ATTR_LaTeX: :width 0.6\textwidth
 [[file:./figures/pdhe1_phos.png]]

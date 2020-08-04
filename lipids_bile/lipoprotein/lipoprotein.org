@@ -69,7 +69,7 @@
     cornerstone of treatment of lipid disorders in children
   - lipid-lowering therapies are important
 
-#+CAPTION[]:Selected disorders affecting low density lipoprotein metabolism
+#+CAPTION[]:Selected Disorders Affecting Low Density Lipoprotein Metabolism
 #+NAME: tab:lip
 | Disorder                         | Int      | Protein              | Profile      | Freq         |
 |----------------------------------+----------+----------------------+--------------+--------------|

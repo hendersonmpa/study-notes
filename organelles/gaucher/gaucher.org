@@ -23,7 +23,7 @@
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./figures/glucocerebroside.png]]
 
-#+CAPTION[]:\beta-glucocerebrosidase Defective in Gaucher
+#+CAPTION[]:\beta-Glucocerebrosidase: Gaucher
 #+NAME: fig:sidase
 #+ATTR_LaTeX: :width 0.5\textwidth
 [[file:./figures/glucocerebrosidase.png]]

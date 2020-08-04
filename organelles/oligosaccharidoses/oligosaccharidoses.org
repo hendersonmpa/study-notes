@@ -35,16 +35,16 @@
 
 #+CAPTION[]:Oligosaccharidoses
 #+NAME: tab:oligo
- | Disease            | enzyme             | dysostosis | progressive | angio-   | hepato-       | sample    |
+ | Disease            | Enzyme             | dysostosis | progressive | angio-   | hepato-       | sample    |
  |                    |                    | multiplex  | cognitive   | keratoma | splenomegally |           |
  |--------------------+--------------------+------------+-------------+----------+---------------+-----------|
  | \alpha-mannosidase | \alpha-mannosidase | =++=       | =+=         | -        | =+=           | WBC       |
  | \beta-mannosidase  | \beta-mannosidase  | =+=        | =+++=       | -        | =+=           | WBC       |
  | fucosidosis        | fucosidase         | =+=        | =++=        | =+++=    | -             | WBC       |
- | galactosialidosis  | PPCA               | =++=       | =++=        | -        | =+=           | Fib & DNA |
+ | galactosialidosis  | cathepsin A        | =++=       | =++=        | -        | =+=           | Fib & DNA |
 
 *** Mannosidosis
- - deficiency of \alpha-mannosidase \to variable disorder \alpha-mannosidosis
+ - deficiency of *\alpha-mannosidase* \to variable disorder \alpha-mannosidosis
  - mild Hurler phenotype
    - variable learning difficulties
    - hepatosplenomegaly
@@ -53,21 +53,21 @@
  - complicated by an immune deficiency which can dominate the clinical
    progression of the disease
 
- - \beta-mannosidosis due to deficiency of \beta-mannosidase
+ - \beta-mannosidosis due to deficiency of *\beta-mannosidase*
    - much less prevalent than \alpha-mannosidosis
    - very variable, but severe learning difficulties, challenging
      behaviour, deafness and frequent infections are relatively common
 
 *** Fucosidosis
  - lack the typical facial dysmorphism
- - deficiency of \alpha-fucosidase \to variable neurodegenerative disorder
+ - deficiency of *\alpha-fucosidase* \to variable neurodegenerative disorder
  - often with seizures and mild dysostosis
  - often exhibit prominent and widespread angiokeratomas, progress with age
 
 *** Galactosialidosis
  - combined deficiency of the lysosomal enzymes \beta-galactosidase and
    \alpha-neuraminidase
- - results from a defect in protective protein/cathepsin A (PPCA)
+ - results from a defect in *protective protein/cathepsin A (PPCA)*
    - an intralysosomal protein which protects these enzymes from
      premature proteolytic processing
  - presentation varies from:
@@ -77,6 +77,16 @@
 
 ** Genetics
  - AR
+
+#+CAPTION[]:Oligosaccharidoses Genetics
+#+NAME: tab:oligogen
+| Disease            | Enzyme             | Gene   |
+|--------------------+--------------------+--------|
+| \alpha-mannosidase | \alpha-mannosidase | MAN2B1 |
+| \beta-mannosidase  | \beta-mannosidase  | MANBA  |
+| fucosidosis        | fucosidase         | FUCA1  |
+| galactosialidosis  | cathepsin A        | PPCA   |
+
 ** Diagnostic Tests
 - clinical suspicion
 - urine oligosaccharide excretion

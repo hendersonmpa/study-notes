@@ -78,13 +78,13 @@
   - or neurotransmitters/negative modulators
     - \gamma-hydroxybutyrate
 
-#+CAPTION[]:Tryptophan, hydroxylysine and lysine catabolic pathways
+#+CAPTION[]:Tryptophan, Hydroxylysine and Lysine Catabolic Pathways
 #+NAME: fig:cat
 #+ATTR_LaTeX: :width 1.2\textwidth
 [[file:./figures/cat.png]]
 
 
-#+CAPTION[]:Tryptophan and lysine catabolic pathways
+#+CAPTION[]:Tryptophan and Lysine Catabolic Pathways
 #+NAME: fig:trplys
 #+ATTR_LaTeX: :width 1\textwidth
 [[file:./figures/Slide05.png]]

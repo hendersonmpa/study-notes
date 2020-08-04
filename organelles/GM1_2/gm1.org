@@ -19,7 +19,7 @@
     - normal intelligence
   - prevalence of MPS IVB has been reported as 1:250,000 - 1,000,000
 
-#+CAPTION[]: \beta-galactosidase
+#+CAPTION[]: \beta-Galactosidase: GM1 Gangliosidosis
 #+NAME: fig:bgal
 #+ATTR_LaTeX: :width 0.4\textwidth
 [[file:./figures/bgalatosidase.png]]

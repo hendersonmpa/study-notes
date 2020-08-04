@@ -56,8 +56,10 @@
 \begin{center}
 \chemnameinit{}
 \chemname{\chemfig{R-[1]C(=[2]O)-[7]H}}{aldehyde}
+\hspace{20}
 \chemnameinit{}
 \chemname{\chemfig{R-NH_2}}{amine}
+\hspace{20}
 \chemnameinit{}
 \chemname{\chemfig{R-OH}}{hydroxyl}
 \end{center}

@@ -31,7 +31,7 @@
    - processing of the glycan in the Golgi apparatus
      - trimming and attachment of various sugar units
 
-#+CAPTION[]:CDGs
+#+CAPTION[]:Congenital Disorders of Glycosylation
 #+NAME: fig:cdgs
 #+ATTR_LaTeX: :width 1\textwidth
 [[file:./figures/Slide20.png]]
@@ -60,7 +60,7 @@
     - Type 2 :: Golgi defects that affect trimming of the
       protein-bound oligosaccharide or the addition of sugars to it
 
-#+CAPTION[]:CDG Diagnosis
+#+CAPTION[]:Diagnosis of Congenital Disorders of Glycosylation 
 #+NAME: fig:cdg_diag
 #+ATTR_LaTeX: :width 1\textwidth
 [[file:./figures/cdg_diag.png]]
