@@ -19,7 +19,7 @@
 | Disease                  | Protein                                            | Accumulation           | Biomarker           | Diagnostic             | Gene        |
 |--------------------------+----------------------------------------------------+------------------------+---------------------+------------------------+-------------|
 | *Mucopolysaccharidoses*  |                                                    |                        |                     |                        |             |
-| MPS I (H, H/S,S)         | \alpha-Iduronidase                                 | DS, HS                 | GAGs(U)             | E(L,F)Pd, M            | /IDUA/      |
+| MPS I (H, H/S, S)        | \alpha-Iduronidase                                 | DS, HS                 | GAGs(U)             | E(L,F)Pd, M            | /IDUA/      |
 | MPS II (Hunter)          | Iduronate sulfatase                                | DS, HS                 | GAGs(U)             | E(L,F,P), M            | /IDS/(XL)   |
 | MPS III A (Sanfilippo A) | Heparan sulfatase                                  | HS                     | GAGs(U)             | E(F), M                | /SGSH/      |
 | MPS III B (Sanfilippo B) | Acetyl-\alpha-glucosaminidase                      | HS                     | GAGs(U)             | E(L,F,S), M            | /NAGLU/     |
