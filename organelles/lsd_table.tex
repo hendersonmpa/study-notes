@@ -1,4 +1,4 @@
-% Created 2020-08-24 Mon 16:53
+% Created 2020-08-26 Wed 15:26
 % Intended LaTeX compiler: pdflatex
 \documentclass[landscape]{article}
 \usepackage[utf8]{inputenc}
@@ -15,7 +15,7 @@
 \usepackage{capt-of}
 \usepackage{hyperref}
 \usepackage{longtable}
-\usepackage[margin=0.43in]{geometry}
+\usepackage[margin=0.45in]{geometry}
 \date{}
 \title{Lysosomal Storage Disorders}
 \hypersetup{
@@ -28,7 +28,7 @@
 \begin{document}
 
 \begin{longtable}{llllll}
-\caption{\label{tab:org330cebf}Lysosomal Storage Disorders}
+\caption{\label{tab:org3db5f8f}Lysosomal Storage Disorder Biochemistry}
 \\
 Disease & Protein & Accumulation & Biomarker & Diagnostic & Gene\\
 \hline
@@ -46,30 +46,39 @@ Disease & Protein & Accumulation & Biomarker & Diagnostic & Gene \\
 \hline
 \textbf{Mucopolysaccharidoses} &  &  &  &  & \\
 MPS I (H, H/S, S) & \(\alpha\)-Iduronidase & DS, HS & GAGs(U) & E(L,F)Pd, M & \emph{IDUA}\\
-MPS II (Hunter) & Iduronate sulfatase & DS, HS & GAGs(U) & E(L,F,P), M & /IDS/(XL)\\
+MPS II (Hunter) & Iduronate sulfatase & DS, HS & GAGs(U) & E(L,F,P), M & \emph{IDS} (XL)\\
 MPS III A (Sanfilippo A) & Heparan sulfatase & HS & GAGs(U) & E(F), M & \emph{SGSH}\\
 MPS III B (Sanfilippo B) & Acetyl-\(\alpha\)-glucosaminidase & HS & GAGs(U) & E(L,F,S), M & \emph{NAGLU}\\
 MPS III C (Sanfilippo C) & \small{Acetyl-CoA:glucosamine N-acetyltransferase} & HS & GAGs(U) & E(L,F), M & \emph{HGSNAT}\\
 MPS III D (Sanfilippo D) & N-acetyl-glucosamine-6-sulfatase & HS & GAGs(U) & E(L,F), M & \emph{GNS}\\
 MPS IVA (Morquio A) & N-acetyl-galactosamine-6-sulfatase & KS, CS & GAGs(U) & E(L,F), M & \emph{GALNS}\\
-MPS IV B (Morquio B) & \(\beta\)-Galactosidase & KS & GAGs(U) & E(L,F), M & \emph{GLB1}\\
-MPS VI (Maroteaux-Lamy) & Arylsulphatase B & DS & GAGs(U) & E(L,F)\footnotemark, M & \emph{ARSB}\\
+MPS IV B (Morquio B) & \(\beta\)-Galactosidase\footnotemark & KS & GAGs(U) & E(L,F,)Pd, M & \emph{GLB1}\\
+MPS VI (Maroteaux-Lamy) & Arylsulfatase B & DS & GAGs(U) & E(L,F)\footnotemark, M & \emph{ARSB}\\
 MPS VII (Sly) & \(\beta\)-Glucuronidase & DS, HS, CS & GAGs(U) & E(L,F)Pd, M & \emph{GUSB}\\
 MPS IX (Natowicz) & Hyaluronidase & Hyluronic acid & - & E(L,F), M & \emph{HYAL1}\\
 \hline
 \textbf{Sphingolipidoses} &  &  &  &  & \\
-Fabry & \(\alpha\)-Galactosidase A & Gb3 & Lyso-Gb3(S) & E(L,F,S)Pd, M & /GLA/(XL)\\
+Fabry & \(\alpha\)-Galactosidase A & Gb3 & Gb3(U) & E(L,F,S)Pd, M & \emph{GLA} (XL)\\
 Farber & Acid ceramidase & Ceramide & - & E(L,F), M & \emph{ASAH1}\\
-GM1 & \(\beta\)-Galactosidase & GM1 ganglioside, KS, & Oligos(U) & E(L,F)Pd, M & \emph{GLB1}\\
- &  & oligos, glycolipids &  &  & \\
-GM2 Tay-Sachs & \(\beta\)-Hexosaminidase A & GM2 ganglioside & - & E(L,F,S)Pd, M & \emph{HEXA}\\
-GM2 Sandhoff & \(\beta\)-Hexosaminidase A \& B & GM2 ganglioside,oligos & Oligos(U) & E(L,F)Pd, M & \emph{HEXAB}\\
+GM1 & \(\beta\)-Galactosidase\textsuperscript{\ref{orgff49c04}} & GM1 ganglioside, KS, & Oligos(U) & E(L,F)Pd, M & \emph{GLB1}\\
+ &  & oligos, glycolipids & GAGs(U) &  & \\
+GM2 Tay-Sachs & \(\beta\)-Hexosaminidase A (\(\alpha\) subunit) & GM2 ganglioside & - & E(L,F,S)Pd, M & \emph{HEXA}\\
+GM2 Sandhoff & \(\beta\)-Hexosaminidase A \& B (\(\beta\) subunit) & GM2 ganglioside, oligos & Oligos(U) & E(L,F)Pd, M & \emph{HEXAB}\\
 Gaucher & \(\beta\)-Glucocerebrosidase & Glucocerebroside & Chito\footnotemark(S) & E(L,F), M, BM & \emph{GBA}\\
 Krabbe & Galactocerebrosidase & Galactocerebroside & Psychosine(B) & E(L,F), M & \emph{GALC}\\
-MLD & Arylsulphatase A & Sulphatides & Sulphatides(U) & E(L,F)Pd\textsuperscript{\ref{org56a5c33}}, M & \emph{ARSA}\\
-Niemann-Pick A \& B & Sphingomyelinase & Sphingomyelin & Chito\textsuperscript{\ref{org476279d}}(S) & E(F), M, BM & \emph{SMPD1}\\
+MLD & Arylsulfatase A & Sulfatides & Sulfatides(U) & E(L,F)Pd\textsuperscript{\ref{orgfb290b0}}, M & \emph{ARSA}\\
+Niemann-Pick A \& B & Sphingomyelinase & Sphingomyelin & Chito\textsuperscript{\ref{org6d95a1b}}(S) & E(F), M, BM & \emph{SMPD1}\\
 \hline
-\textbf{Olygosaccharidoses} &  &  &  &  & \\
+\textbf{Activators} &  &  &  &  & \\
+GM2 AB variant & GM2 activator protein & GM2 ganglioside, oligos & Oligos(U) & M & \emph{GM2A}\\
+MLD/Fabry & Saposin B & Sulfatides, Gb3 & Sulfatides(U), Gb3(U) & M & \emph{PSAP}\\
+Krabbe & Saposin A & Galactocerebroside & Psychosine(B) & M & \emph{PSAP}\\
+Gaucher & Saposin C & Glucocerebroside & Chito\textsuperscript{\ref{org6d95a1b}}(S) & M & \emph{PSAP}\\
+\hline
+\textbf{Glycogenoses} &  &  &  &  & \\
+GSD II (Pompe) & Acid \(\alpha\)-glucosidase & Glycogen & CK(S) & E(L\footnotemark,F), M & \emph{GAA}\\
+\hline
+\textbf{Oligosaccharidoses} &  &  &  &  & \\
 Aspartylglicosaminuria & Glycosylasparaginase & Aspartylglucosamine & Oligos(U) & E, M & \emph{AGA}\\
 Fucosidosis & \(\alpha\)-Fucosidase & Glycoproteins, & Oligos(U) & E(L,F)Pd, M & \emph{FUCA1}\\
  &  & glycolipids, &  &  & \\
@@ -80,42 +89,32 @@ Schindler & N-acetylgalactosaminidase & Sialylated & Oligos(U) & E(L,F), M & \em
  &  & asialoglycopeptides, &  &  & \\
  &  & glycolipids &  &  & \\
 ML-1 Sialidosis & \(\alpha\)-Neuraminidase & Oligos, glycopeptides & Bound SA(U), & E(F), M & \emph{NEU1}\\
- &  &  & Oligos(U) &  & \\
-\hline
-\textbf{Glycogenoses} &  &  &  &  & \\
-Glycogenosis II/Pompe & Acid \(\alpha\)-glucosidase & Glycogen & CK(S) & E(L\footnotemark,F), M & \emph{GAA}\\
+ &  &  & oligos(U) &  & \\
 \hline
 \textbf{Lipidoses} &  &  &  &  & \\
 Wolman/CESD & Acid lipase & Cholesterol esters & - & E(L,F), M & \emph{LIPA}\\
 \hline
-\textbf{Non-enzymatic defect} &  &  &  &  & \\
-GM2 AB variant & GM2 activator protein & GM2 ganglioside, oligos & Oligos(U) & M & \emph{GM2A}\\
-MLD/Fabry & Saposin B & Sulphatides, Gb3 & Sulphatides(U), & M & \emph{PSAP}\\
- &  &  & lyso-Gb3(S) &  & \\
-Krabbe & Saposin A & Galactosylceramide & Psychosine(B) & M & \emph{PSAP}\\
-Gaucher & Saposin C & Glucosylceramide & Chito\textsuperscript{\ref{org476279d}}(S) & M & \emph{PSAP}\\
-\hline
 \textbf{TMP defect} &  &  &  &  & \\
 \textbf{Transporters} &  &  &  &  & \\
 Sialuria (Salla) & Sialin & Sialic acid & Free SA(U) & M & \emph{SLC17A5}\\
-Cystinosis & Cystinosin & Cystine & corneal crystals & M & \emph{CTNS}\\
-Niemann-Pick C & NPC1 or NPC2 & Cholesterol and & Chito\textsuperscript{\ref{org476279d}}(S) & Filipin, M, BM & \emph{NPC1},\\
+Cystinosis & Cystinosin & Cystine & Cystine(L) & M & \emph{CTNS}\\
+Niemann-Pick C & NPC1 or NPC2 & Cholesterol, & Chito\textsuperscript{\ref{org6d95a1b}}(S) & Filipin, M, BM & \emph{NPC1},\\
  &  & sphingolipids &  &  & \emph{NPC2}\\
 \textbf{Structural Proteins} &  &  &  &  & \\
-Danon & LAMP-2 & Cytoplasmic debris, & - & M & /LAMP2/(XL)\\
+Danon & LAMP-2 & Cytoplasmic debris, & - & M & \emph{LAMP2} (XL)\\
  &  & glycogen &  &  & \\
 Mucolipidosis IV & Mucolipin & Lipids & - & M & \emph{MCOLN1}\\
 \hline
 \textbf{Protection Defect} &  &  &  &  & \\
 Galactosialidosis & Protective protein cathepsin A & Sialyloligosaccharides & Bound SA(U), & E(F,L)\footnotemark, M & \emph{CTSA}\\
- &  &  & Oligos(U) &  & \\
+ &  &  & oligos(U) &  & \\
 \hline
 \textbf{PTP defect} &  &  &  &  & \\
-MSD & Formylglycine-generating enzyme & Sulphatides, & Sulphatides(U), & E\footnotemark, M & \emph{SUMF1}\\
+MSD & Formylglycine-generating enzyme & Sulfatides, & Sulfatides(U), & E\footnotemark, M & \emph{SUMF1}\\
  &  & glycolipids, GAGs & GAGs(U) &  & \\
 \hline
 \textbf{Trafficking defect} &  &  &  &  & \\
-ML-II/III & GlcNAc-1-P transferase & Oligos, GAGs, lipids & Oligos(U) & E\footnotemark, M & \emph{GNPTAB},\\
+ML-II/III & GlcNAc-1-P transferase & Oligos, GAGs, lipids & Oligos(U), GAGs(U) & E\footnotemark, M & \emph{GNPTAB},\\
 (I-cell/Pseudo Hurler) &  &  &  &  & \emph{GNPT}\\
 \hline
 \textbf{Degradation defect} &  &  &  &  & \\
@@ -130,21 +129,19 @@ NCL 6 & CLN6, ER TMP & CV(c) & EM of skin & M & \emph{CLN6}\\
 NCL 7 & CLC7, lysosomal chloride & CV(c) & EM of skin & M & \emph{MFSD8}\\
 NCL 8 & CLN8, ER TMP & CV(c) & EM of skin & M & \emph{CLN8}\\
 NCL 10 & Cathepsin D & Saposins A and D & EM of skin & M & \emph{CTSD}\\
-\end{longtable}\footnotetext[1]{\label{org56a5c33}p-nitrocatecol sulfate is used for \(\alpha\)(MLD) and
+\end{longtable}\footnotetext[1]{\label{orgff49c04}GM1 and MPS-IVB appear to be a continuum of phenotypes}\footnotetext[2]{\label{orgfb290b0}p-nitrocatecol sulfate is used for \(\alpha\)(MLD) and
 \(\beta\)(Maroteaux-Lamy) arylsulfatase assays. \(\beta\) is inactivated with
-0.25M sodium pyrophosphate. \(\alpha\) is inactivated with barium}\footnotetext[2]{\label{org476279d}Note that 5-7 per cent of the population have a AR defect in the
-chitotriosidase gene, which leads to false-negative values}\footnotetext[3]{\label{org438e85a}GAA measurement in leukocytes is unreliable due to
-neutral \(\alpha\)-glucosidase that can be active in acidic pH. Acarbose
-can be used to inactivate competitor enzymes in leukocytes}\footnotetext[4]{\label{org55e43d1}Leads to \(\beta\)-galactosidase and neuraminidase deficiency}\footnotetext[5]{\label{org3eb7748}Decrease in some lysosomal and non-lysosomal sulphatases}\footnotetext[6]{\label{org87efc4f}In I-cell some lysosomal hydrolase activities are elevated in plasma and
-decreased in cultured fibroblasts}
-
+0.25M sodium pyrophosphate. \(\alpha\) is inactivated with barium}\footnotetext[3]{\label{org6d95a1b}5-7\% of the population have an AR defect in the
+chitotriosidase gene, which leads to false-negative values}\footnotetext[4]{\label{orgba045ab}GAA measurement in leukocytes is unreliable due to
+neutral \(\alpha\)-glucosidase activity in acidic conditions. Acarbose can
+be used to inhibit neutral \(\alpha\)-glucosidase activity in leukocytes}\footnotetext[5]{\label{org681cffa}Leads to \(\beta\)-galactosidase and neuraminidase deficiency}\footnotetext[6]{\label{orgd484b25}Decreased activity of multiple sulfatases}\footnotetext[7]{\label{org21dc58e}Activity of MPR targeted lysosomal hydrolases is elevated in
+plasma and decreased in cultured fibroblasts}
 \begin{description}
-\item[{Abbreviations}] PTP post-translational processing, TMP
+\item[{Abbreviations}] PTP, post-translational processing, TMP,
 transmembrane protein; MSD, multiple sulfatase deficiency; SA,
-sialic acid; CV(c) subunit c of ATP synthase; Chito,
+sialic acid; CV(c), Subunit c of ATP synthase; Chito,
 chitotriosidase; EM, electron microscopy; U, urine; B, blood; BM,
 bone marrow biopsy; L, leukocytes; F, fibroblasts; S, serum; P,
 plasma; Pd, pseudodeficiency
-\item[{Source}] \url{https://humgenomics.biomedcentral.com/articles/10.1186/1479-7364-5-3-156}
 \end{description}
 \end{document}

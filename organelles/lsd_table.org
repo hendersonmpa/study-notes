@@ -3,127 +3,123 @@
 #+latex_class: article
 #+latex_class_options:[landscape]
 #+latex_header: \usepackage{longtable}
-#+latex_header: \usepackage[margin=0.43in]{geometry}
+#+latex_header: \usepackage[margin=0.45in]{geometry}
 #+latex_header:
 #+latex_header_extra:
 #+description:
 #+keywords:
 #+subtitle:
 
-
-
-
-#+CAPTION[]:Lysosomal Storage Disorders
+#+CAPTION[]:Lysosomal Storage Disorder Biochemistry
 #+NAME: tab:lsd
 #+ATTR_LATEX: :environment longtable :float sideways
-| Disease                  | Protein                                            | Accumulation            | Biomarker          | Diagnostic             | Gene        |
-|--------------------------+----------------------------------------------------+-------------------------+--------------------+------------------------+-------------|
-| *Mucopolysaccharidoses*  |                                                    |                         |                    |                        |             |
-| MPS I (H, H/S, S)        | \alpha-Iduronidase                                 | DS, HS                  | GAGs(U)            | E(L,F)Pd, M            | /IDUA/      |
-| MPS II (Hunter)          | Iduronate sulfatase                                | DS, HS                  | GAGs(U)            | E(L,F,P), M            | /IDS/(XL)   |
-| MPS III A (Sanfilippo A) | Heparan sulfatase                                  | HS                      | GAGs(U)            | E(F), M                | /SGSH/      |
-| MPS III B (Sanfilippo B) | Acetyl-\alpha-glucosaminidase                      | HS                      | GAGs(U)            | E(L,F,S), M            | /NAGLU/     |
-| MPS III C (Sanfilippo C) | \small{Acetyl-CoA:glucosamine N-acetyltransferase} | HS                      | GAGs(U)            | E(L,F), M              | /HGSNAT/    |
-| MPS III D (Sanfilippo D) | N-acetyl-glucosamine-6-sulfatase                   | HS                      | GAGs(U)            | E(L,F), M              | /GNS/       |
-| MPS IVA (Morquio A)      | N-acetyl-galactosamine-6-sulfatase                 | KS, CS                  | GAGs(U)            | E(L,F), M              | /GALNS/     |
-| MPS IV B (Morquio B)     | \beta-Galactosidase                                | KS                      | GAGs(U)            | E(L,F), M              | /GLB1/      |
-| MPS VI (Maroteaux-Lamy)  | Arylsulphatase B                                   | DS                      | GAGs(U)            | E(L,F)[fn:ncs], M      | /ARSB/      |
-| MPS VII (Sly)            | \beta-Glucuronidase                                | DS, HS, CS              | GAGs(U)            | E(L,F)Pd, M            | /GUSB/      |
-| MPS IX (Natowicz)        | Hyaluronidase                                      | Hyluronic acid          | -                  | E(L,F), M              | /HYAL1/     |
-|--------------------------+----------------------------------------------------+-------------------------+--------------------+------------------------+-------------|
-| *Sphingolipidoses*       |                                                    |                         |                    |                        |             |
-| Fabry                    | \alpha-Galactosidase A                             | Gb3                     | Lyso-Gb3(S)        | E(L,F,S)Pd, M          | /GLA/(XL)   |
-| Farber                   | Acid ceramidase                                    | Ceramide                | -                  | E(L,F), M              | /ASAH1/     |
-| GM1                      | \beta-Galactosidase                                | GM1 ganglioside, KS,    | Oligos(U)          | E(L,F)Pd, M            | /GLB1/      |
-|                          |                                                    | oligos, glycolipids     |                    |                        |             |
-| GM2 Tay-Sachs            | \beta-Hexosaminidase A                             | GM2 ganglioside         | -                  | E(L,F,S)Pd, M          | /HEXA/      |
-| GM2 Sandhoff             | \beta-Hexosaminidase A & B                         | GM2 ganglioside,oligos  | Oligos(U)          | E(L,F)Pd, M            | /HEXAB/     |
-| Gaucher                  | \beta-Glucocerebrosidase                           | Glucocerebroside        | Chito[fn:chito](S) | E(L,F), M, BM          | /GBA/       |
-| Krabbe                   | Galactocerebrosidase                               | Galactocerebroside      | Psychosine(B)      | E(L,F), M              | /GALC/      |
-| MLD                      | Arylsulphatase A                                   | Sulphatides             | Sulphatides(U)     | E(L,F)Pd[fn:ncs], M    | /ARSA/      |
-| Niemann-Pick A & B       | Sphingomyelinase                                   | Sphingomyelin           | Chito[fn:chito](S) | E(F), M, BM            | /SMPD1/     |
-|--------------------------+----------------------------------------------------+-------------------------+--------------------+------------------------+-------------|
-| *Olygosaccharidoses*     |                                                    |                         |                    |                        |             |
-| Aspartylglicosaminuria   | Glycosylasparaginase                               | Aspartylglucosamine     | Oligos(U)          | E, M                   | /AGA/       |
-| Fucosidosis              | \alpha-Fucosidase                                  | Glycoproteins,          | Oligos(U)          | E(L,F)Pd, M            | /FUCA1/     |
-|                          |                                                    | glycolipids,            |                    |                        |             |
-|                          |                                                    | fucoside-rich oligos    |                    |                        |             |
-| \alpha-Mannosidosis      | \alpha-Mannosidase                                 | Mannose-rich oligos     | Oligos(U)          | E(L,F), M              | /MAN2B1/    |
-| \beta-Mannosidosis       | \beta-Mannosidase                                  | Man(\beta1-4)GlnNAc     | Oligos(U)          | E(L,F), M              | /MANBA/     |
-| Schindler                | N-acetylgalactosaminidase                          | Sialylated              | Oligos(U)          | E(L,F), M              | /NAGA/      |
-|                          |                                                    | asialoglycopeptides,    |                    |                        |             |
-|                          |                                                    | glycolipids             |                    |                        |             |
-| ML-1 Sialidosis          | \alpha-Neuraminidase                               | Oligos, glycopeptides   | Bound SA(U),       | E(F), M                | /NEU1/      |
-|                          |                                                    |                         | Oligos(U)          |                        |             |
-|--------------------------+----------------------------------------------------+-------------------------+--------------------+------------------------+-------------|
-| *Glycogenoses*           |                                                    |                         |                    |                        |             |
-| Glycogenosis II/Pompe    | Acid \alpha-glucosidase                            | Glycogen                | CK(S)              | E(L[fn:acarbose],F), M | /GAA/       |
-|--------------------------+----------------------------------------------------+-------------------------+--------------------+------------------------+-------------|
-| *Lipidoses*              |                                                    |                         |                    |                        |             |
-| Wolman/CESD              | Acid lipase                                        | Cholesterol esters      | -                  | E(L,F), M              | /LIPA/      |
-|--------------------------+----------------------------------------------------+-------------------------+--------------------+------------------------+-------------|
-| *Non-enzymatic defect*   |                                                    |                         |                    |                        |             |
-| GM2 AB variant           | GM2 activator protein                              | GM2 ganglioside, oligos | Oligos(U)          | M                      | /GM2A/      |
-| MLD/Fabry                | Saposin B                                          | Sulphatides, Gb3        | Sulphatides(U),    | M                      | /PSAP/      |
-|                          |                                                    |                         | lyso-Gb3(S)        |                        |             |
-| Krabbe                   | Saposin A                                          | Galactosylceramide      | Psychosine(B)      | M                      | /PSAP/      |
-| Gaucher                  | Saposin C                                          | Glucosylceramide        | Chito[fn:chito](S) | M                      | /PSAP/      |
-|--------------------------+----------------------------------------------------+-------------------------+--------------------+------------------------+-------------|
-| *TMP defect*             |                                                    |                         |                    |                        |             |
-| *Transporters*           |                                                    |                         |                    |                        |             |
-| Sialuria (Salla)         | Sialin                                             | Sialic acid             | Free SA(U)         | M                      | /SLC17A5/   |
-| Cystinosis               | Cystinosin                                         | Cystine                 | corneal crystals   | M                      | /CTNS/      |
-| Niemann-Pick C           | NPC1 or NPC2                                       | Cholesterol and         | Chito[fn:chito](S) | Filipin, M, BM         | /NPC1/,     |
-|                          |                                                    | sphingolipids           |                    |                        | /NPC2/      |
-| *Structural Proteins*    |                                                    |                         |                    |                        |             |
-| Danon                    | LAMP-2                                             | Cytoplasmic debris,     | -                  | M                      | /LAMP2/(XL) |
-|                          |                                                    | glycogen                |                    |                        |             |
-| Mucolipidosis IV         | Mucolipin                                          | Lipids                  | -                  | M                      | /MCOLN1/    |
-|--------------------------+----------------------------------------------------+-------------------------+--------------------+------------------------+-------------|
-| *Protection Defect*      |                                                    |                         |                    |                        |             |
-| Galactosialidosis        | Protective protein cathepsin A                     | Sialyloligosaccharides  | Bound SA(U),       | E(F,L)[fn:ppca], M     | /CTSA/      |
-|                          |                                                    |                         | Oligos(U)          |                        |             |
-|--------------------------+----------------------------------------------------+-------------------------+--------------------+------------------------+-------------|
-| *PTP defect*             |                                                    |                         |                    |                        |             |
-| MSD                      | Formylglycine-generating enzyme                    | Sulphatides,            | Sulphatides(U),    | E[fn:msd], M           | /SUMF1/     |
-|                          |                                                    | glycolipids, GAGs       | GAGs(U)            |                        |             |
-|--------------------------+----------------------------------------------------+-------------------------+--------------------+------------------------+-------------|
-| *Trafficking defect*     |                                                    |                         |                    |                        |             |
-| ML-II/III                | GlcNAc-1-P transferase                             | Oligos, GAGs, lipids    | Oligos(U)          | E[fn:icell], M         | /GNPTAB/,   |
-| (I-cell/Pseudo Hurler)   |                                                    |                         |                    |                        | /GNPT/      |
-|--------------------------+----------------------------------------------------+-------------------------+--------------------+------------------------+-------------|
-| *Degradation defect*     |                                                    |                         |                    |                        |             |
-| Pycnodysostosis          | Cathepsin K                                        | Bone proteins           | X-ray              | M                      | /CTSK/      |
-|--------------------------+----------------------------------------------------+-------------------------+--------------------+------------------------+-------------|
-| *NCLs*                   |                                                    |                         |                    |                        |             |
-| NCL 1                    | Palmitoyl protein thioesterase                     | Saposins A and D        | EM of skin         | E, M                   | /PPT1/      |
-| NCL 2                    | Tripeptidyl peptidase 1                            | CV(c)                   | EM of skin         | E, M                   | /TPP1/      |
-| NCL 3                    | CLN3, lysosomal TMP                                | CV(c)                   | EM of skin         | M                      | /CLN3/      |
-| NCL 5                    | CLN5, soluble lysosomal protein                    | CV(c)                   | EM of skin         | M                      | /CLN5/      |
-| NCL 6                    | CLN6, ER TMP                                       | CV(c)                   | EM of skin         | M                      | /CLN6/      |
-| NCL 7                    | CLC7, lysosomal chloride                           | CV(c)                   | EM of skin         | M                      | /MFSD8/     |
-| NCL 8                    | CLN8, ER TMP                                       | CV(c)                   | EM of skin         | M                      | /CLN8/      |
-| NCL 10                   | Cathepsin D                                        | Saposins A and D        | EM of skin         | M                      | /CTSD/      |
-
-- Abbreviations :: PTP post-translational processing, TMP
+| Disease                  | Protein                                            | Accumulation            | Biomarker             | Diagnostic             | Gene         |
+|--------------------------+----------------------------------------------------+-------------------------+-----------------------+------------------------+--------------|
+| *Mucopolysaccharidoses*  |                                                    |                         |                       |                        |              |
+| MPS I (H, H/S, S)        | \alpha-Iduronidase                                 | DS, HS                  | GAGs(U)               | E(L,F)Pd, M            | /IDUA/       |
+| MPS II (Hunter)          | Iduronate sulfatase                                | DS, HS                  | GAGs(U)               | E(L,F,P), M            | /IDS/ (XL)   |
+| MPS III A (Sanfilippo A) | Heparan sulfatase                                  | HS                      | GAGs(U)               | E(F), M                | /SGSH/       |
+| MPS III B (Sanfilippo B) | Acetyl-\alpha-glucosaminidase                      | HS                      | GAGs(U)               | E(L,F,S), M            | /NAGLU/      |
+| MPS III C (Sanfilippo C) | \small{Acetyl-CoA:glucosamine N-acetyltransferase} | HS                      | GAGs(U)               | E(L,F), M              | /HGSNAT/     |
+| MPS III D (Sanfilippo D) | N-acetyl-glucosamine-6-sulfatase                   | HS                      | GAGs(U)               | E(L,F), M              | /GNS/        |
+| MPS IVA (Morquio A)      | N-acetyl-galactosamine-6-sulfatase                 | KS, CS                  | GAGs(U)               | E(L,F), M              | /GALNS/      |
+| MPS IV B (Morquio B)     | \beta-Galactosidase[fn:glb1]                       | KS                      | GAGs(U)               | E(L,F,)Pd, M           | /GLB1/       |
+| MPS VI (Maroteaux-Lamy)  | Arylsulfatase B                                    | DS                      | GAGs(U)               | E(L,F)[fn:ncs], M      | /ARSB/       |
+| MPS VII (Sly)            | \beta-Glucuronidase                                | DS, HS, CS              | GAGs(U)               | E(L,F)Pd, M            | /GUSB/       |
+| MPS IX (Natowicz)        | Hyaluronidase                                      | Hyluronic acid          | -                     | E(L,F), M              | /HYAL1/      |
+|--------------------------+----------------------------------------------------+-------------------------+-----------------------+------------------------+--------------|
+| *Sphingolipidoses*       |                                                    |                         |                       |                        |              |
+| Fabry                    | \alpha-Galactosidase A                             | Gb3                     | Gb3(U)                | E(L,F,S)Pd, M          | /GLA/ (XL)   |
+| Farber                   | Acid ceramidase                                    | Ceramide                | -                     | E(L,F), M              | /ASAH1/      |
+| GM1                      | \beta-Galactosidase[fn:glb1]                       | GM1 ganglioside, KS,    | Oligos(U)             | E(L,F)Pd, M            | /GLB1/       |
+|                          |                                                    | oligos, glycolipids     | GAGs(U)               |                        |              |
+| GM2 Tay-Sachs            | \beta-Hexosaminidase A (\alpha subunit)            | GM2 ganglioside         | -                     | E(L,F,S)Pd, M          | /HEXA/       |
+| GM2 Sandhoff             | \beta-Hexosaminidase A & B (\beta subunit)         | GM2 ganglioside, oligos | Oligos(U)             | E(L,F)Pd, M            | /HEXAB/      |
+| Gaucher                  | \beta-Glucocerebrosidase                           | Glucocerebroside        | Chito[fn:chito](S)    | E(L,F), M, BM          | /GBA/        |
+| Krabbe                   | Galactocerebrosidase                               | Galactocerebroside      | Psychosine(B)         | E(L,F), M              | /GALC/       |
+| MLD                      | Arylsulfatase A                                    | Sulfatides              | Sulfatides(U)         | E(L,F)Pd[fn:ncs], M    | /ARSA/       |
+| Niemann-Pick A & B       | Sphingomyelinase                                   | Sphingomyelin           | Chito[fn:chito](S)    | E(F), M, BM            | /SMPD1/      |
+|--------------------------+----------------------------------------------------+-------------------------+-----------------------+------------------------+--------------|
+| *Activators*             |                                                    |                         |                       |                        |              |
+| GM2 AB variant           | GM2 activator protein                              | GM2 ganglioside, oligos | Oligos(U)             | M                      | /GM2A/       |
+| MLD/Fabry                | Saposin B                                          | Sulfatides, Gb3         | Sulfatides(U), Gb3(U) | M                      | /PSAP/       |
+| Krabbe                   | Saposin A                                          | Galactocerebroside      | Psychosine(B)         | M                      | /PSAP/       |
+| Gaucher                  | Saposin C                                          | Glucocerebroside        | Chito[fn:chito](S)    | M                      | /PSAP/       |
+|--------------------------+----------------------------------------------------+-------------------------+-----------------------+------------------------+--------------|
+| *Glycogenoses*           |                                                    |                         |                       |                        |              |
+| GSD II (Pompe)           | Acid \alpha-glucosidase                            | Glycogen                | CK(S)                 | E(L[fn:acarbose],F), M | /GAA/        |
+|--------------------------+----------------------------------------------------+-------------------------+-----------------------+------------------------+--------------|
+| *Oligosaccharidoses*     |                                                    |                         |                       |                        |              |
+| Aspartylglicosaminuria   | Glycosylasparaginase                               | Aspartylglucosamine     | Oligos(U)             | E, M                   | /AGA/        |
+| Fucosidosis              | \alpha-Fucosidase                                  | Glycoproteins,          | Oligos(U)             | E(L,F)Pd, M            | /FUCA1/      |
+|                          |                                                    | glycolipids,            |                       |                        |              |
+|                          |                                                    | fucoside-rich oligos    |                       |                        |              |
+| \alpha-Mannosidosis      | \alpha-Mannosidase                                 | Mannose-rich oligos     | Oligos(U)             | E(L,F), M              | /MAN2B1/     |
+| \beta-Mannosidosis       | \beta-Mannosidase                                  | Man(\beta1-4)GlnNAc     | Oligos(U)             | E(L,F), M              | /MANBA/      |
+| Schindler                | N-acetylgalactosaminidase                          | Sialylated              | Oligos(U)             | E(L,F), M              | /NAGA/       |
+|                          |                                                    | asialoglycopeptides,    |                       |                        |              |
+|                          |                                                    | glycolipids             |                       |                        |              |
+| ML-1 Sialidosis          | \alpha-Neuraminidase                               | Oligos, glycopeptides   | Bound SA(U),          | E(F), M                | /NEU1/       |
+|                          |                                                    |                         | oligos(U)             |                        |              |
+|--------------------------+----------------------------------------------------+-------------------------+-----------------------+------------------------+--------------|
+| *Lipidoses*              |                                                    |                         |                       |                        |              |
+| Wolman/CESD              | Acid lipase                                        | Cholesterol esters      | -                     | E(L,F), M              | /LIPA/       |
+|--------------------------+----------------------------------------------------+-------------------------+-----------------------+------------------------+--------------|
+| *TMP defect*             |                                                    |                         |                       |                        |              |
+| *Transporters*           |                                                    |                         |                       |                        |              |
+| Sialuria (Salla)         | Sialin                                             | Sialic acid             | Free SA(U)            | M                      | /SLC17A5/    |
+| Cystinosis               | Cystinosin                                         | Cystine                 | Cystine(L)            | M                      | /CTNS/       |
+| Niemann-Pick C           | NPC1 or NPC2                                       | Cholesterol,            | Chito[fn:chito](S)    | Filipin, M, BM         | /NPC1/,      |
+|                          |                                                    | sphingolipids           |                       |                        | /NPC2/       |
+| *Structural Proteins*    |                                                    |                         |                       |                        |              |
+| Danon                    | LAMP-2                                             | Cytoplasmic debris,     | -                     | M                      | /LAMP2/ (XL) |
+|                          |                                                    | glycogen                |                       |                        |              |
+| Mucolipidosis IV         | Mucolipin                                          | Lipids                  | -                     | M                      | /MCOLN1/     |
+|--------------------------+----------------------------------------------------+-------------------------+-----------------------+------------------------+--------------|
+| *Protection Defect*      |                                                    |                         |                       |                        |              |
+| Galactosialidosis        | Protective protein cathepsin A                     | Sialyloligosaccharides  | Bound SA(U),          | E(F,L)[fn:ppca], M     | /CTSA/       |
+|                          |                                                    |                         | oligos(U)             |                        |              |
+|--------------------------+----------------------------------------------------+-------------------------+-----------------------+------------------------+--------------|
+| *PTP defect*             |                                                    |                         |                       |                        |              |
+| MSD                      | Formylglycine-generating enzyme                    | Sulfatides,             | Sulfatides(U),        | E[fn:msd], M           | /SUMF1/      |
+|                          |                                                    | glycolipids, GAGs       | GAGs(U)               |                        |              |
+|--------------------------+----------------------------------------------------+-------------------------+-----------------------+------------------------+--------------|
+| *Trafficking defect*     |                                                    |                         |                       |                        |              |
+| ML-II/III                | GlcNAc-1-P transferase                             | Oligos, GAGs, lipids    | Oligos(U), GAGs(U)    | E[fn:icell], M         | /GNPTAB/,    |
+| (I-cell/Pseudo Hurler)   |                                                    |                         |                       |                        | /GNPT/       |
+|--------------------------+----------------------------------------------------+-------------------------+-----------------------+------------------------+--------------|
+| *Degradation defect*     |                                                    |                         |                       |                        |              |
+| Pycnodysostosis          | Cathepsin K                                        | Bone proteins           | X-ray                 | M                      | /CTSK/       |
+|--------------------------+----------------------------------------------------+-------------------------+-----------------------+------------------------+--------------|
+| *NCLs*                   |                                                    |                         |                       |                        |              |
+| NCL 1                    | Palmitoyl protein thioesterase                     | Saposins A and D        | EM of skin            | E, M                   | /PPT1/       |
+| NCL 2                    | Tripeptidyl peptidase 1                            | CV(c)                   | EM of skin            | E, M                   | /TPP1/       |
+| NCL 3                    | CLN3, lysosomal TMP                                | CV(c)                   | EM of skin            | M                      | /CLN3/       |
+| NCL 5                    | CLN5, soluble lysosomal protein                    | CV(c)                   | EM of skin            | M                      | /CLN5/       |
+| NCL 6                    | CLN6, ER TMP                                       | CV(c)                   | EM of skin            | M                      | /CLN6/       |
+| NCL 7                    | CLC7, lysosomal chloride                           | CV(c)                   | EM of skin            | M                      | /MFSD8/      |
+| NCL 8                    | CLN8, ER TMP                                       | CV(c)                   | EM of skin            | M                      | /CLN8/       |
+| NCL 10                   | Cathepsin D                                        | Saposins A and D        | EM of skin            | M                      | /CTSD/       |
+- Abbreviations :: PTP, post-translational processing, TMP,
   transmembrane protein; MSD, multiple sulfatase deficiency; SA,
-  sialic acid; CV(c) subunit c of ATP synthase; Chito,
+  sialic acid; CV(c), Subunit c of ATP synthase; Chito,
   chitotriosidase; EM, electron microscopy; U, urine; B, blood; BM,
   bone marrow biopsy; L, leukocytes; F, fibroblasts; S, serum; P,
   plasma; Pd, pseudodeficiency
-- Source :: https://humgenomics.biomedcentral.com/articles/10.1186/1479-7364-5-3-156
+# Source :: https://humgenomics.biomedcentral.com/articles/10.1186/1479-7364-5-3-156
 
+[fn:glb1]GM1 and MPS-IVB appear to be a continuum of phenotypes
 [fn:ncs]p-nitrocatecol sulfate is used for \alpha(MLD) and
 \beta(Maroteaux-Lamy) arylsulfatase assays. \beta is inactivated with
 0.25M sodium pyrophosphate. \alpha is inactivated with barium
 [fn:acarbose]GAA measurement in leukocytes is unreliable due to
-neutral \alpha-glucosidase that can be active in acidic pH. Acarbose
-can be used to inactivate competitor enzymes in leukocytes
+neutral \alpha-glucosidase activity in acidic conditions. Acarbose can
+be used to inhibit neutral \alpha-glucosidase activity in leukocytes
 [fn:ppca]Leads to \beta-galactosidase and neuraminidase deficiency
-[fn:msd]Decrease in some lysosomal and non-lysosomal sulphatases
-[fn:icell]In I-cell some lysosomal hydrolase activities are elevated in plasma and
-decreased in cultured fibroblasts
-[fn:chito]Note that 5-7 per cent of the population have a AR defect in the
+[fn:msd]Decreased activity of multiple sulfatases
+[fn:icell]Activity of MPR targeted lysosomal hydrolases is elevated in
+plasma and decreased in cultured fibroblasts
+[fn:chito]5-7% of the population have an AR defect in the
 chitotriosidase gene, which leads to false-negative values
 
 
@@ -166,7 +162,7 @@ chitotriosidase gene, which leads to false-negative values
 |             |                            | somatic features in mild form        |                             |                                 |                                    |
 |-------------+----------------------------+--------------------------------------+-----------------------------+---------------------------------+------------------------------------|
 | MPS-II      | iduronate-2-sulfatase      | Similar features as MPS-I: coarse    | Dermatan sulfate,           | 4-MU-1-iduronide-2-             | Umbelliferyl-\alpha-L-iduronide-2- |
-| (Hunter)    | IDS                        | facial features, stiff joints, short | heparan sulfate in all      | sulphate                        | sulfate attached to a five         |
+| (Hunter)    | IDS                        | facial features, stiff joints, short | heparan sulfate in all      | sulfate                         | sulfate attached to a five         |
 |             |                            | statue, progressive cognitive        | organs, specifically CNS,   |                                 | carbon linker with terminal        |
 |             |                            | deterioration, dysostosis            | joint/skeletal, heart, eye, |                                 | /t/-butyloxycarbamido group        |
 |             |                            | multiplex. No corneal clouding.      | liver and spleen            |                                 |                                    |
@@ -207,4 +203,5 @@ chitotriosidase gene, which leads to false-negative values
 |             |                            | Late-onset form: Progressive         |                             |                                 |                                    |
 |             |                            | muscle weakness.                     |                             |                                 |                                    |
 
-- Source :: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4902264/
+
+# Source :: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4902264/
