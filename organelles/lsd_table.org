@@ -59,7 +59,7 @@
 | Schindler                | N-acetylgalactosaminidase                                | Sialylated              | Oligos(U)              | E(L,F), M              | /NAGA/       |
 |                          |                                                          | asialoglycopeptides,    |                        |                        |              |
 |                          |                                                          | glycolipids             |                        |                        |              |
-| ML-1 (Sialidosis)        | \alpha-Neuraminidase                                     | Oligos, glycopeptides   | Bound SA(U), oligos(U) | E(F), M                | /NEU1/       |
+| ML-I (Sialidosis)        | \alpha-Neuraminidase                                     | Oligos, glycopeptides   | Bound SA(U), oligos(U) | E(F), M                | /NEU1/       |
 |--------------------------+----------------------------------------------------------+-------------------------+------------------------+------------------------+--------------|
 | *Lipidoses*              |                                                          |                         |                        |                        |              |
 | Wolman & CESD            | Acid lipase                                              | Cholesterol esters      | -                      | E(L,F), M              | /LIPA/       |
@@ -84,7 +84,7 @@
 |                          |                                                          | glycolipids, GAGs       | GAGs(U)                |                        |              |
 |--------------------------+----------------------------------------------------------+-------------------------+------------------------+------------------------+--------------|
 | *Trafficking defect*     |                                                          |                         |                        |                        |              |
-| ML II & III              | GlcNAc-1-P transferase                                   | Oligos, GAGs, lipids    | Oligos(U), GAGs(U)     | E[fn:icell], M         | /GNPTAB/,    |
+| ML II & III[fn:all]      | GlcNAc-1-P transferase                                   | Oligos, GAGs, lipids    | Oligos(U), GAGs(U)     | E[fn:icell], M         | /GNPTAB/,    |
 | (I-cell & Pseudo Hurler) |                                                          |                         |                        |                        | /GNPT/       |
 |--------------------------+----------------------------------------------------------+-------------------------+------------------------+------------------------+--------------|
 | *Degradation defect*     |                                                          |                         |                        |                        |              |
@@ -112,7 +112,7 @@
 ARSB(MPS-VI) arylsulfatase assays. ARSB is inactivated with
 0.25M sodium pyrophosphate. ARSA is inactivated with barium
 [fn:b1]Patients with the B1 variant produce Hex A, which is normal
-when tested with artificial substrates, but defective natural
+when tested with artificial substrates, but defective with natural
 substrates
 [fn:acarbose]GAA measurement in leukocytes is unreliable due to
 neutral \alpha-glucosidase activity in acidic conditions. Acarbose can
@@ -123,7 +123,7 @@ be used to inhibit neutral \alpha-glucosidase activity in leukocytes
 plasma and decreased in cultured fibroblasts
 [fn:chito]5-7% of the population have an AR defect in the
 chitotriosidase gene, which leads to false-negative values
-
+[fn:all]ML-II & III are allelic, extremes in a spectrum of severity
 
 * COMMENT NBS table
 
