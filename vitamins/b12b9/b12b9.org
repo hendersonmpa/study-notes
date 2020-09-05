@@ -148,7 +148,7 @@
 - megaloblastic anaemia and neurological disease
   - accumulation of methyl-THF causes depletion of THF required for
     purine and pyrimidine synthesis
-
+- treat with hydroxycobalamin
 * Folate
 - folic acid (pteroylglutamic acid) is plentiful in foods such as
   liver, leafy vegetables, legumes and some fruits
