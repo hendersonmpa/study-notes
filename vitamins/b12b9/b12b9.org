@@ -144,7 +144,7 @@
 - CblE and CblG
 - deficient MS activity
   - \uparrow homocysteine
-  - \down arrow methionine
+  - \downarrow methionine
 - megaloblastic anaemia and neurological disease
   - accumulation of methyl-THF causes depletion of THF required for
     purine and pyrimidine synthesis
