@@ -99,7 +99,7 @@
 | NCL 7                    | CLC7, lysosomal chloride                                 | CV(c)                   | EM of skin             | M                      | /MFSD8/      |
 | NCL 8                    | CLN8, ER TMP                                             | CV(c)                   | EM of skin             | M                      | /CLN8/       |
 | NCL 10                   | Cathepsin D                                              | Saposins A and D        | EM of skin             | M                      | /CTSD/       |
-- Abbreviations :: PTP, post-translational processing, TMP,
+- Abbreviations :: PTP, post-translational processing; TMP,
   transmembrane protein; MSD, multiple sulfatase deficiency; SA,
   sialic acid; CV(c), Subunit c of ATP synthase; Chito,
   chitotriosidase; EM, electron microscopy; U, urine; B, blood; BM,

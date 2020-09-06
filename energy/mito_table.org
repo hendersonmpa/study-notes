@@ -1,0 +1,145 @@
+#+Title: Mitochondria Disease
+#+options: title:nil toc:nil num:nil author:nil date:nil
+#+latex_class: article
+#+latex_class_options:[landscape]
+#+latex_header: \usepackage{longtable}
+#+latex_header: \usepackage[margin=0.45in]{geometry}
+#+latex_header:
+#+latex_header_extra:
+#+description:
+#+keywords:
+#+subtitle:
+
+#+CAPTION[]: Mitochondrial Disease
+#+NAME: tab:mtdna
+#+ATTR_LATEX: :environment longtable :float sideways
+| Syndrome      | Phenotype                                           | Onset        | Molecular                           | Labs                                          |
+|---------------+-----------------------------------------------------+--------------+-------------------------------------+-----------------------------------------------|
+| CoQ           | Multi-system with neurologic manifestations         | Neonatal     | AR :: 10 CoQ and assembly genes     | \uparrow L/P(B,C)                             |
+|               | fatal neonatal encephalopathy, hypotonia            |              |                                     | \downarrow CoQ(T)                             |
+|               | late-onset slowly progressive                       | Childhood    |                                     | \downarrow combined CI + CIII activity(T,F)   |
+|               | multiple-system atrophy                             |              |                                     | \downarrow combined CII + CIII activity(T,F)  |
+|               |                                                     |              |                                     | N individual CI, CII, CII activity(T,F)       |
+|---------------+-----------------------------------------------------+--------------+-------------------------------------+-----------------------------------------------|
+| MDDS          | hepatocerebral disease, progressive myopathy        | Neonatal     | AR :: POLG, twinkle, TK2, DGUOK,    | \uparrow L/P(B,C), \uparrow MMA[fn:mma]       |
+|               |                                                     | Infancy      | SUCLA2, SUCLG1                      | \uparrow thymidine, deoxyuridine(U,P)[fn:tk2] |
+|               |                                                     |              |                                     | \downarrow mtDNA(T)                           |
+|               |                                                     |              |                                     | \downarrow CI, CIII, CIV activity (T,F)       |
+|               |                                                     |              |                                     | N/\uparrow CII activity (T,F)                 |
+|---------------+-----------------------------------------------------+--------------+-------------------------------------+-----------------------------------------------|
+| Pearson       | Exocrine pancreatic dysfunction,                    | Infancy      | mtDNA :: deletion                   | \uparrow L/P(B,C)                             |
+|               | sideroblastic anemia                                |              |                                     | mtDNA del/dup(T,U)                            |
+|               |                                                     |              |                                     | \downarrow CI, CIII, CIV activity (T,F)       |
+|               |                                                     |              |                                     | RRF, COX -ve, SDH +ve(T)                      |
+|---------------+-----------------------------------------------------+--------------+-------------------------------------+-----------------------------------------------|
+| MEGDEL        | 3-Methylglutaconic aciduria, deafness,              | Infancy      | AR :: SERAC1                        | \uparrow L/P(B)                               |
+|               | encephalopathy and Leigh-like disease               |              |                                     | \uparrow 3-MGA, 3-MGC(U)                      |
+|---------------+-----------------------------------------------------+--------------+-------------------------------------+-----------------------------------------------|
+| KSS           | Ophthalmoplegia, RP,                                | Childhood    | mtDNA :: deletion                   | \uparrow L/P(B,C)                             |
+|               | cardiac conduction block,                           |              |                                     | mtDNA del/dup(T,U)                            |
+|               | diabetes, short stature, myopathy                   |              |                                     | \downarrow CI, CIII, CIV activity (T,F)       |
+|               |                                                     |              |                                     | RRF, COX -ve, SDH +ve(T)                      |
+|---------------+-----------------------------------------------------+--------------+-------------------------------------+-----------------------------------------------|
+| Leigh         | Psychomotor delay, dystonia, seizures,              | Infancy      | mtDNA :: MT-ATP6 and others         | \uparrow/N L/P(B,C)[fn:pdh]                   |
+|               | subacute necrotising encephalopathy,                | Childhood    | AR :: SURF1, SDHA, COX assembly, CI | mtDNA del/dup(T,U)                            |
+|               | bilateral symetrical lesions on MRI,                |              | XL :: PDHA1 (PDHC E1\alpha subunit) | N\downarrow CI, CIII,CIV activity (T,F)       |
+|               | hypotonia, ataxia, optic  atrophy,                  |              | mtDNA :: deletion                   | RRF,COX -ve, SDH +ve(T)                       |
+|               | short stature, respiratory abnormalities            |              |                                     |                                               |
+| NARP[fn:narp] | Peripheral neuropathy, ataxia, RP                   | Childhood    | mtDNA :: MT-ATP6                    |                                               |
+|---------------+-----------------------------------------------------+--------------+-------------------------------------+-----------------------------------------------|
+| MNGIE         | Neuro-gastrointestinal encephalopathy               | Childhood    | AR :: TYMP                          | \uparrow L/P(B,C)                             |
+|               |                                                     |              |                                     | \uparrow thymidine, deoxyuridine(U,P)         |
+|---------------+-----------------------------------------------------+--------------+-------------------------------------+-----------------------------------------------|
+| MELAS         | Metabolic stroke, seizures, psychomotor regression, | 2-40 yrs     | mtDNA :: MT-TL1, MT-ND5             | \uparrow L/P(B,C)                             |
+|               | cortical blindness, sensorineural hearing loss,     |              |                                     | \downarrow CI activity (T,F)                  |
+|               | muscle weakness, short stature                      |              |                                     | RRF, COX +ve, SDH +ve(T)                      |
+|---------------+-----------------------------------------------------+--------------+-------------------------------------+-----------------------------------------------|
+| LHON          | Optic neuropathy                                    | Adolescence- | mtDNA :: MT-ND1, MT-ND4, MT-ND6     | \uparrow L/P(B,C)                             |
+|               |                                                     | Adult        |                                     | \downarrow CI activity (T,F)                  |
+|---------------+-----------------------------------------------------+--------------+-------------------------------------+-----------------------------------------------|
+| MIDD          | Diabetes, sensorineural hearing loss                | Adolescence- | mtDNA :: MT-TL1                     | \uparrow L/P(B,C)                             |
+|               |                                                     | Adult        |                                     |                                               |
+|---------------+-----------------------------------------------------+--------------+-------------------------------------+-----------------------------------------------|
+| MERRF         | Seizures, ataxia, myoclonus, muscle weakness        | Adolescence- | mtDNA :: MT-TK                      | \uparrow L/P(B,C)                             |
+|               | sensorineural hearing loss,  lipomatosis            | Adult        |                                     |                                               |
+|---------------+-----------------------------------------------------+--------------+-------------------------------------+-----------------------------------------------|
+| CPEO          | Ophthalmoplegia, ptosis                             | Adult        | mtDNA :: deletion                   | \uparrow L/P(B,C)                             |
+|               |                                                     |              |                                     | mtDNA del/dup(T,U)                            |
+|               |                                                     |              |                                     | \downarrow CI, CIII, CIV activity (T,F)       |
+|               |                                                     |              |                                     | RRF, COX -ve, SDH +ve(T)                      |
+|---------------+-----------------------------------------------------+--------------+-------------------------------------+-----------------------------------------------|
+
+- Abbreviations :: RP, retinitis pigmentosa; U, urine; UOA, urine organic acids; P, plasma; B, blood; C, CSF; T, tissue; F, fibroblasts
+- Genes
+  - MT-TP :: tRNA^{Pro}
+  - MT-TL1 :: tRNA^{Leu(UUR)}
+  - MT-TK :: tRNA^{Lys}
+  - MT-ND1 - MT-ND6 :: CI
+  - MT-ATP6 :: CV
+  - SURF1 :: regulation of cytochrome c oxidase assembly
+  - Twinkle :: mtDNA helicase
+  - POLG :: polymerase \gamma
+  - TYMP :: thymidine phosphorylase
+  - TK2 :: thymidine kinase
+  - DGUOK :: deoxyguanosine kinase
+  - SUCLA2/SUCLG1 :: succinyl-CoA ligase 
+  - RRM2B :: ribonucleotide reductase
+  - ANT1 :: adenine nucleotide translocase type 1
+  - OPA1 :: fusion
+  - SERAC1 :: phosphatidylglycerol remodeling
+
+[fn:narp] mtDNA-associated Leigh syndrome and NARP are part of a
+continuum of progressive neurodegenerative disorders caused by
+abnormalities of mitochondrial energy generation
+[fn:pdh] Normal L/P ratio in PDH deficiency
+[fn:mma] SUCLA2 and SUCLG1 deficiency
+[fn:tk2] TK2 deficiency
+
+* COMMENT Maintainance
+#+CAPTION[]:Nuclear Gene Involved in Mitochondrial Maintainance
+#+NAME: tab:ndna
+#+ATTR_LATEX: :environment longtable :float sideways
+| Gene                                   | Phenotype                                      | Inheritance |
+|----------------------------------------+------------------------------------------------+-------------|
+| *DNA replication/repair*               |                                                |             |
+| POLG                                   | MCHS, Alpers–Huttenlocher, ANS, adCPEO, arCPEO | AD, AR      |
+| C10orf2                                | adCPEO, IOSCA, Epileptic encephalopathy        | AD, AR      |
+| POLG2                                  | adCPEO, arCPEO                                 | AD          |
+| DNA2                                   | adCPEO                                         | AD          |
+| MGME1                                  | arCPEO, Myopathy                               | AR          |
+| APTX                                   | Ataxia, Oculomotor apraxia                     |             |
+|----------------------------------------+------------------------------------------------+-------------|
+| *dNTP pools*                           |                                                |             |
+| TYMP                                   | MNGIE                                          | AR          |
+| DGUOK                                  | Hepatocerebral syndrome                        | AR          |
+| TK2                                    | Myopathy, arCPEO, SMA phenocopy                | AR          |
+| RRM2B*                                 | adCPEO, arCPEO, Myopathy, Tubulopathy          | AD, AR      |
+| SUCLA2                                 | Encephalomyopathy (Leigh syndrome-like)        | AR          |
+| SUCLG1                                 | Encephalomyopathy (Leigh syndrome-like)        | AR          |
+| DUK1*                                  | Myopathy, hepatopathy                          | AR          |
+| MPV17                                  | Encephalohepatopathy, Navajo neuroheptaopthy   | AR          |
+|                                        | arCPEO                                         |             |
+| ABAT                                   | Psychomotor retardation, seizures              | AR          |
+|----------------------------------------+------------------------------------------------+-------------|
+| *Mito network dynamics*                |                                                |             |
+| OPA1                                   | Opticatrophy                                   | AD          |
+| MFN2                                   | Peripheral neuropathy, optic neuropathy        | AR          |
+|----------------------------------------+------------------------------------------------+-------------|
+| *Mito transcription*                   |                                                |             |
+| TRAM                                   | Hepatopathy, myopathy                          | AR          |
+| *Mito protein synthesis & maintenance* |                                                |             |
+| SPG7                                   | arCPEO                                         | AR          |
+| AFG3L2                                 | arCPEO, ataxia                                 | AR          |
+| *Mito protein import*                  |                                                |             |
+| GFER                                   | Cataract, myopathy, sensorineural hearing loss | AR          |
+| *Mito carrier transporters*            |                                                |             |
+| SLC25A4                                | adCPEO, arCPEO, Myopathy, Cardiomyopathy       | AD, AR      |
+| *Unclear functions*                    |                                                |             |
+| FBXL4                                  | Encephalomyopathy,facialdysmorphism            | AR          |
+
+- Abbreviations :: adCPEO, autosomal dominant chronic progressive
+  external ophthalmoplegia; arCPEO, autosomal recessive chronic
+  progressive external ophthalmoplegia; ANS, ataxia, neuropathy
+  syndrome; IOSCA, infantile-onset spinocerebellar ataxia; MCHS,
+  myocerebrohepatopathy syndrome; MNGIE, mitochondrial
+  neurogastrointestinal encephalopathy; SMA, spinal motor atrophy.

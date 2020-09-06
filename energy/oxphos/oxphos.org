@@ -341,7 +341,6 @@
   mitochondria and ER
 - mediates phospholipid exchange
   - AR :: SERAC1
-
 **** *Pearson's marrow-pancreas syndrome*
  - transfusion dependent sideroblastic anemia/pancytopenia
  - exocrine pancreas failure
@@ -408,7 +407,6 @@
 - ptosis - drooping or falling eyelids
 - mtDNA quantitation in muscle biopsy is diagnostic
   - mtDNA :: deletions \pm duplications
-  - AR :: POLG, ANT1, twinkle
 
 **** *SANDO*: Sensory Ataxic Neuropathy, dysarthria and opthalmoparesis
 - AR :: POLG
