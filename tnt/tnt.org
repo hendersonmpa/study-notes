@@ -1049,7 +1049,6 @@
   - justice :: ensuring that all individuals are treated equally and
     fairly
 
-
 * Nomenclature
 ** General Recommendations
 - all variants should be described at the most basic level, the DNA
@@ -1111,8 +1110,8 @@
 
   - "+" (plus) is used in nucleotide numbering; c.123+45A>G
   - "-" (minus) is used in nucleotide numbering; c.124-56C>T
-  - "*" (asterisk) is used in nucleotide numbering and to indicate a
-    translation termination (stop) codon; c.*32G>A and P.Trp41*
+  - "\ast{}" (asterisk) is used in nucleotide numbering and to indicate a
+    translation termination (stop) codon; c.*32G>A and P.Trp41\ast{}
   - "\textunderscore" (underscore) is used to indicate a range; g.12345\textunderscore12678del
   - "[ ]" (square brackets) are used for alleles, which includes
     multiple inserted sequences at one position and insertions from a

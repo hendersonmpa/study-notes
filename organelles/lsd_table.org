@@ -101,10 +101,10 @@
 | NCL 10                   | Cathepsin D                                              | Saposins A and D        | EM of skin             | M                      | /CTSD/       |
 - Abbreviations :: PTP, post-translational processing; TMP,
   transmembrane protein; MSD, multiple sulfatase deficiency; SA,
-  sialic acid; CV(c), Subunit c of ATP synthase; Chito,
-  chitotriosidase; EM, electron microscopy; U, urine; B, blood; BM,
-  bone marrow biopsy; L, leukocytes; F, fibroblasts; S, serum; P,
-  plasma; Pd, pseudodeficiency
+  sialic acid; CV(c), ATP synthase subunit c; Chito, chitotriosidase;
+  EM, electron microscopy; U, urine; B, blood; BM, bone marrow; L,
+  leukocytes; F, fibroblasts; S, serum; P, plasma; Pd,
+  pseudodeficiency
 # Source :: https://humgenomics.biomedcentral.com/articles/10.1186/1479-7364-5-3-156
 
 [fn:glb1]GM1 and MPS-IVB appear to be a continuum of phenotypes
