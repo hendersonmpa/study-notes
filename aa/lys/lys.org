@@ -153,24 +153,30 @@
 - lysine free, tryptophan reduced and arginine enriched amino acid
   mixtures aims to minimise the risk of malnutrition
 
-* L or D 2-Hydroxyglutaric Aciduria
+* L and/or D 2-Hydroxyglutaric Aciduria
 ** Clinical Presentation
  - L2 :: progressive neurological disease
    - IQ in adolescence \sim 40-50
  - D2 :: more variable than L2
+ - L2 & D2 :: neonatal-onset encephalopathy with severe muscular
+   weakness, intractable seizures, respiratory distress, and lack of
+   psychomotor development resulting in early death
 
 ** Metabolic Derangement
-- 2-hydroxyglutarate is a glutaric acid metabolite 
+- 2-hydroxyglutarate is a "nonsense metabolite" of glutaric acid
+- error in "metabolite repair"
   - L2 :: FAD-linked 2-hydroxyglutarate dehydrogenase
     - mitochondrial enzyme converts L-2-hydroxyglutarate to
       2-oxoglutarate
     - affected in multiple acyl-CoA dehydrogenase deficiency (MADD/GA2)
   - D2 :: D-2-hydroxyglutarate dehydrogenase
     - enzyme converts D-2-hydroxyglutarate to 2-oxoglutarate
+  - L2 & D2 :: mitochondrial citrate transport protein
 
 ** Genetics
  - L2 :: AR L2HGDH
  - D2 :: AR D2HGDH but may be genetically heterogeneous
+ - L2 & D2 :: AR SLC25A1
 
 ** Diagnostic Tests
 - L-2- and D-2-hydroxyglutaric acid cannot be differentiated by

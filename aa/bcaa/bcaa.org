@@ -166,7 +166,7 @@
 ** Genetics
 - MSUD :: AR E1\alpha, E1\beta and E2
 - IVA :: AR IVD
-- PA :: AR PCCB
+- PA :: AR PCCB & PCCB
 - MMA :: AR MUT or cobalamin system (Table [[tab:mma]])
   - mut^{-}(\downarrow activity), mut^0 (zero activity)
 
