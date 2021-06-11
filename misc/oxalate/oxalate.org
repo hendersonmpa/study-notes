@@ -17,6 +17,12 @@
   - 10% do not have an identified genetic cause
 - the clinical manifestations of the three known types of
   PH overlap considerably
+
+#+CAPTION[]:Glyoxylate Metabolism
+#+NAME: fig:
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/F1.large.jpg]]
+
 ** Clinical Presentation
 - risk for recurrent
   - nephrolithiasis - deposition of calcium oxalate in the renal pelvis and urinary tract
