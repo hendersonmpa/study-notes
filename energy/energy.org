@@ -60,6 +60,8 @@
 
  \ce{pyruvate + NADH <=>[LDH] lactate + NAD+}
 
+ - normal lactate/pyruvate < 20
+
 ** TCA Net Reaction
 - net reaction :: acetyl-CoA oxidized to 2CO_2
 - net reaction :: 3 NAD^{+} reduced to 3 NADH

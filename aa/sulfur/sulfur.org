@@ -180,6 +180,13 @@
 
 ** Treatment 
 - pyridoxine, betaine and a methionine-restricted diet
+- oral betaine (trimethylglycine)
+  - betaine-homocysteine methyltransferase (BHMT) is betaine dependent
+
+\ce{trimethylglycine + homocysteine ->[BHMT] dimethylglycine + methionine}
+
+ - in the liver BHMT catalyzes up to 50% of homocysteine metabolism
+ - betaine treatment \to \uparrow sarcosine (methlyglycine) in plasma amino acids
 
 * Molybdenum Cofactor Deficiency
 ** Clinical Presentation
