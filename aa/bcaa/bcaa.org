@@ -210,7 +210,7 @@
 *** MMA
 - urine organic acids:
   - \uparrow methylmalonic 
-  - \uparrow 3-OH-propionic
+  - \uparrow 3-hydroxypropionic
   - \uparrow methylcitric
 - \uparrow plasma propionyl-carnitine (C3) \pm methylmalonyl-carnitine (C4DC)
 - \uparrow plasma glycine and alanine
