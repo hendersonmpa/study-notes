@@ -164,8 +164,8 @@
 - severe (systemic) PLP deficiency and impaired function of PLP
   dependent enzymes
 - \uparrow urine vanillactate
-- \uparrow pyridoxamine
-- \uparrow pyridoxamine/pyridoxic acids
+- \uparrow plasma pyridoxamine and pyridoxamine/pyridoxic acids
+- \uparrow CSF alanine, threonine and glycine   
 - treat with oral PLP
 
 ** Congenital Hypophosphatasia

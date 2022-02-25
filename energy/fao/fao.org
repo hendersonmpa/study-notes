@@ -505,6 +505,9 @@
   - \uparrow suberylglycine
   - \uparrow hexanolyglyine
 
+  - The detection of phenylpropionylglycine in urine after an oral
+    load of phenylpropionic acid can be used to diagnose MCADD
+
 *** Treatment
 - avoid fasting
 - low fat diet in infants
