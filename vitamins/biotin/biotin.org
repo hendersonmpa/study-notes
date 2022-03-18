@@ -36,6 +36,51 @@
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/carboxylases.png]]
 
+#+BEGIN_SRC  dot :file ./figures/cycle.pdf :cmdline -Kdot -Tpdf
+      digraph {
+	    edge [fontname="Helvetica-Bold"];
+    // substrate and product nodes
+	  node [fontname=helvetica,style=filled, color=lightgrey];
+	      diet[label= "Dietary Free\nBiotin"];
+	      free[label= "Free Biotin"];
+	      atp[label="ATP"];
+	      apo[label="Apocarboxylases"];
+	      amp[label="AMP"];
+	      hc[label="Holocarboxylases"];
+	      biocytin[label="Biocytin",shape="oval"];
+	      lysine[label="Lysine",shape="oval"];
+
+     //enzyme nodes
+	  node [shape=point, style=filled, color=black];
+	      hcs[];
+	      biotinidase[];
+	      protease;
+     // function nodes
+	   node [shape=octagon, style=filled, color=whitesmoke];
+	      functions[label="Fatty Acid Metabolism\nGluconeogenesis\nAmino Acid Metabolism"];
+
+     // connections
+	      diet -> free[label="Biotin \n transport"];
+	      free -> hcs[arrowhead="none"];
+	      atp -> hcs[arrowhead="none"];
+	      apo -> hcs[arrowhead="none"];
+	      hcs -> hc[taillabel="Holocarboxylase \n Synthetase"];
+	      hcs -> amp;
+	      hc -> functions[style="dotted"];
+	      hc -> protease[headlabel="Proteases",arrowhead="none"];
+	      protease -> biocytin;
+	      biocytin -> biotinidase[arrowhead="none"];
+	      biotinidase -> free[taillabel="Biotinidase"];
+	      biotinidase -> lysine;
+      }
+#+END_SRC
+
+#+CAPTION[]: The Biotin Cycle adapted from [cite:@Strovel2017]. Grey ovals contain substrates and products. Labelled black points represent enzymes. Metabolic functions of holocarboxylases are listed in the light grey octagon. 
+#+NAME: fig:cycle
+#+ATTR_LaTeX: :width .8\textwidth
+#+RESULTS:
+[[file:./figures/cycle.pdf]]
+
 #+CAPTION[]:Biotin Cycle
 #+NAME: fig:biotin
 #+ATTR_LaTeX: :width 0.9\textwidth

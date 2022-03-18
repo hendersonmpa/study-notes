@@ -173,7 +173,8 @@
   - this begins with the conversion of benzoate by butyrate-CoA ligase
     into an intermediate product, benzoyl-CoA which is then
     metabolized by glycine N-acyltransferase into hippuric acid
-- citrulline in OTC & CPS \to elimination of nitrogen from aspartate
+- arginine and/or citrulline supplementation in OTC & CPS \to elimination of nitrogen from aspartate
+- N-carbamylglutamate replaces the CPS1 activator N-acetylglutamate in NAGS deficiency
 
 \ce{citrulline + aspartate ->[ASS] ASA}
 
