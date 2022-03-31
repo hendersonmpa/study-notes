@@ -44,6 +44,11 @@
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/Slide16.png]]
 
+#+CAPTION[]:Creatine Synthesis
+#+NAME: fig:cr3
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/Creatinesynthesis.png]]
+
 * Creatine Deficiency Syndromes
 - creatine deficiency syndromes (CDS) are a group of inborn errors of:
 - creatine synthesis

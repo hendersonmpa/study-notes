@@ -25,7 +25,7 @@
 
 - fluorescence of NADPH is measured to determine GALT deficiency
 
-#+CAPTION[]:Beutler Method
+#+CAPTION[]:Beutler Method, the modified method is used to assay G6PD activity
 #+NAME: fig:bm
 #+ATTR_LaTeX: :width 0.4\textwidth
 [[file:./figures/beutler.jpg]]
