@@ -176,7 +176,7 @@
 - \Downarrow plasma alkaline phosphatase
 - \uparrow serum calcium
 - \downarrow serum phosphate
-- \uparrow plasma phosphoethanolamine 
+- \uparrow urine and plasma phosphoethanolamine 
 - AR ALPL
   - some mutations are AD
 
