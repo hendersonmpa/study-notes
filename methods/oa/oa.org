@@ -4,15 +4,16 @@
 
 * Introduction
 - organic acids are water soluble compounds containing \ge one
-  carboxyl group(s) and nonamino functional groups
+  carboxyl group(s) and non-amino functional groups
 
 #+BEGIN_EXPORT LaTeX
 \begin{center}
 \chemnameinit{}
 \chemname{\chemfig{X-C(-[2]X)(-[6]X)-C(-[2]X)(-[6]X)-C(-[7]OH)=[1]O}}{organic acid}
+\hspace{2em}
 \chemname{\chemfig{H-C(-[2]H)(-[6]H)-C(-[7]OH)=[1]O}}{acetic acid}
-\chemname{\chemfig{H0-[1]C(=[7]0)(-[6]H)-C(-[7]OH)=[1]O}}{oxalic acid}
-
+\hspace{2em}
+\chemname{\chemfig{0=[1]C(-[3]HO)-C(-[7]OH)=[1]O}}{oxalic acid}
 \end{center}
 #+END_EXPORT
 
