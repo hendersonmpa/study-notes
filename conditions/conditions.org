@@ -1,5 +1,5 @@
 #+TITLE: Genetic Conditions
-#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+AUTHOR: Matthew Henderson, PhD, FCACB, FCCMG
 #+DATE: \today
 
 :PROPERTIES:

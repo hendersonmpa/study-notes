@@ -10,6 +10,9 @@
 \begin{center}
 \chemnameinit{}
 \chemname{\chemfig{X-C(-[2]X)(-[6]X)-C(-[2]X)(-[6]X)-C(-[7]OH)=[1]O}}{organic acid}
+\chemname{\chemfig{H-C(-[2]H)(-[6]H)-C(-[7]OH)=[1]O}}{acetic acid}
+\chemname{\chemfig{H0-[1]C(=[7]0)(-[6]H)-C(-[7]OH)=[1]O}}{oxalic acid}
+
 \end{center}
 #+END_EXPORT
 

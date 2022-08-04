@@ -67,6 +67,18 @@
   - Transcobalamin Deficiency
   - Transcobalamin Receptor Deficiency
 - all are rare
+*** Transcobalamin II Deficiency
+- Transcobalamin II deficiency is an autosomal recessive disorder with
+  onset in early infancy characterized by failure to thrive,
+  megaloblastic anemia, and pancytopenia.
+  - caused by homozygous or compound heterozygous mutation in the gene encoding
+    transcobalamin II (TCN2)
+- other features include methylmalonic aciduria, recurrent infections,
+  and vomiting and diarrhea.
+- treatment with cobalamin results in clinical improvement, but the
+  untreated disorder may result in mental retardation and neurologic
+  abnormalities.
+
 ** Cbl Complementation Groups
 - a number of disorders of intracellular metabolism of Cbl have been
   classified as Cbl complementation groups (A-G, J, X)

@@ -22,6 +22,20 @@
   - decarboxylation to succinylacetone
   - succinylacetone is the most potent known inhibitor of the heme biosynthetic enzyme ALAD
 
+- Vitamin C is involved in the oxidative degradation (which normally
+  proceeds completely to CO2 and water) of tyrosine via two
+  mixed-function oxidases that are dependent on the presence of
+  ascorbic acid.
+  1. The first is 4-hydroxyphenylpyruvate dioxygenase, which catalyzes
+     the oxidation and decarboxylation of the intermediate of tyrosine
+     degradation, 4-hydroxylphenylpyruvic acid, to homogentisic
+     acid.
+  2. The second ascorbate-requiring enzyme catalyzes the next
+     step in tyrosine degradation, homogentisate 1,2-dioxygenase.
+- By impairing both reactions, vitamin C deficiency can result in
+  tyrosinemia and the excretion of tyrosine metabolites in the
+  urine; both conditions respond to vitamin C supplements.
+
 #+CAPTION[]:Tyrosine Catabolism:1 Tyrosine aminotransferase; 2 4-hydroxyphenylpyruvate dioxygenase; 3 homogentisate dioxygenase; 4 fumarylacetoacetase; 5 AST; 6 ALAD
 #+NAME: fig:tyr
 #+ATTR_LaTeX: :width 0.9\textwidth

@@ -40,12 +40,18 @@
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/Slide13.png]]
 
+
+#+CAPTION[TCA]: Pyruvate Metabolism and the TCA Cycle
+#+NAME: fig:ptca2
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/tca.png]]
+
 ** Disorders of the TCA cycle
 
 - \alpha-Ketoglutarate Dehydrogenase Complex Deficiency
 - Succinate Dehydrogenase Deficiency
 - Fumarase Deficiency
-
+- Isocitrate Dehydrogenase
 * \alpha-Ketoglutarate Dehydrogenase Complex Deficiency
 - KDHC is a \alpha-ketoacid dehydrogenase analogous to PDHC and BCKD
 
@@ -197,3 +203,18 @@
 - IDH3 deficiency is associated with retinitis pigmentosa
 - IDH1/2 mutations linked to malignant gliomas and acute myeloid leukemia
 
+* Aconitase Deficiency
+- two isozymes
+  - aconitase 1, soluble
+  - aconitase 2, mitochondria
+
+- deficient aconitase activity may be caused by a deficiency in
+  iron-sulfur cluster scaffold protein (ISCU)
+  - helps build the Fe-S cluster required for aconitase activity
+- main symptoms are myopathy and exercise intolerance
+  - physical strain is lethal for some patients because it can lead to
+    circulatory shock
+- There are no known treatments for this form of aconitase deficiency
+
+- Pathogenic mutations in ACO2 can cause infantile cerebellar-retinal degeneration (ICRD)
+  

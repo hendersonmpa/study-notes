@@ -116,6 +116,7 @@
 - reduce the blood phenylalanine concentration sufficiently to prevent the
   neuropathological effects but also to fulfil age-dependent
   requirements for protein synthesis
+  - general therapeutic guidelines are to maintain phenylalanine at 120-360 umol
 - blood phenylalanine is primarily a function of residual PAH activity and phenylalanine
   intake
 *** BH_4
@@ -220,5 +221,5 @@ single dose
 - CNS amine replacement
   - L-dopa, 5-OH-tryptophan
 
-
+    
 

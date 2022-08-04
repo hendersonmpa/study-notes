@@ -116,6 +116,11 @@
   - \uparrow CSF glycine is highly indicative of NKH
     - avoid blood contamination
   - \uparrow CSF glycine:plasma glycine
+  - additional CSF findings (presented by Johan Van Hove @ HSC rounds)
+    - \downarrow serine can be observed
+      - \therefore \uparrow glycine:serine
+    - \uparrow threonine
+      - \therefore \downarrow serine:threonine
 - valproate inhibits GCS
 - molecular testing of GCS genes
 - transient NKH is a phenocopy

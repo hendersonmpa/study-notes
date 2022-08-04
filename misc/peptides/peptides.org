@@ -139,7 +139,9 @@
 - \downarrow RBC or fibroblast GS activity
   - 1-30% of normal
 - mutation analysis
-
+- markers of hemolytic anemia include:
+  - \uparrow reticulocytes, an indicator of marrow compensatory response, elevated lactate dehydrogenase, a marker of intravascular hemolysis, reduced haptoglobin, and unconjugated hyperbilirubinemia. 
+  
 *** Treatment
 - management of GS deficient patients is aimed at correction of
   acidosis, prevention of hemolytic crises and support of endogenous

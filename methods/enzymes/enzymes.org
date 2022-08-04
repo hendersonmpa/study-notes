@@ -137,6 +137,29 @@
 | Sandhoff   | HexA/B | \Downarrow  | \Downarrow | \uparrow   |
 
 
+#+CAPTION[]: HSC Percent Hex B interpretation
+#+NAME: tab:hschexb
+|                 %Hex B | Interpretation    |
+|------------------------+-------------------|
+|                  30-45 | Normal            |
+|                  50-60 | Carrier           |
+|                 85-100 | Tay-Sachs disease |
+|                    0-5 | Sandhoff disease  |
+| 18-24 (total Hex <500) | Sandhoff carrier  |
+
+
+#+CAPTION[]: HSC Total Hex reference intervals
+#+NAME: tab:hschextotal
+| Specimen    | RI                              |
+|-------------+---------------------------------|
+| Serum       | 439-1300 mmol/h/mL              |
+| Fibroblasts | 4900-21625 nmol/h/mg of protein |
+| Leukocytes  | 761-1576 nmol/h/mg of protein   |
+
+
+
+
+
 *** HexA Assay
 - the direct assay of hexosaminidase A using the sulfated synthetic
   substrate (4-MU-6-sulfo-\beta-glucosaminide) specific for the

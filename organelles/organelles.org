@@ -1,5 +1,5 @@
 #+TITLE: Organelles
-#+AUTHOR: Matthew Henderson, PhD, FCACB
+#+AUTHOR: Matthew Henderson, PhD, FCACB, FCCMG
 #+DATE: \today
 
 :PROPERTIES:
