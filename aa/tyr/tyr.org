@@ -36,7 +36,7 @@
   tyrosinemia and the excretion of tyrosine metabolites in the
   urine; both conditions respond to vitamin C supplements.
 
-#+CAPTION[]:Tyrosine Catabolism:1 Tyrosine aminotransferase; 2 4-hydroxyphenylpyruvate dioxygenase; 3 homogentisate dioxygenase; 4 fumarylacetoacetase; 5 AST; 6 ALAD
+#+CAPTION[]:Tyrosine Catabolism: 1 Tyrosine aminotransferase; 2 4-hydroxyphenylpyruvate dioxygenase; 3 homogentisate dioxygenase; 4 fumarylacetoacetate hydrolase; 5 AST; 6 ALAD
 #+NAME: fig:tyr
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/tyr.png]]
@@ -199,6 +199,17 @@
   - \uparrow 4-hydroxyphenylpyruvate
   - \uparrow 4-hydroxyphenyllactate
   - \uparrow 4-hydroxyphenylacetate
+
+* Maleylacetoacetate isomerase deficiency
+
+\ce{4-maleylacetoacetate ->[isomerase] 2-fumarylacetoacetate}
+- mutation in the gene GSTZ1
+- 4-maleylacetoacetate isomerase deficiency results in accumulation of
+  fumarylacetoacetate and succinylacetone in the urine, but
+  individuals were otherwise healthy.
+- It is likely that there exists an alternate nonenzymatic bypass that
+  allows the catabolism of 4-maleylacetoacetate in the absence of
+  4-maleylacetoacetate isomerase.
 
 * Alkaptonuria
 ** Clinical Presentation

@@ -194,8 +194,8 @@
 *** Varigate Porphyria
  - *protoporphyrinogen oxidase (PPOX)*
  - inner mitochondrial membrane
- - urine PBG :: \Uparrow \Uparrow \Uparrow
-   - fecal copro-III :: \uparrow \uparrow
+   - urine PBG :: \Uparrow \Uparrow \Uparrow
+   - fecal proto-IX :: \Uparrow \Uparrow \Uparrow
    - plasma fluorescence scan :: \Uparrow \Uparrow \Uparrow
    
 ** Genetics

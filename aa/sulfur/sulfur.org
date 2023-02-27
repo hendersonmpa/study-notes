@@ -188,6 +188,15 @@
  - in the liver BHMT catalyzes up to 50% of homocysteine metabolism
  - betaine treatment \to \uparrow sarcosine (methlyglycine) in plasma amino acids
 
+* Cystathionase Deficiency
+- mutation in CTH
+- two forms:
+  - vitamin B6 unresponsive, is thought to be due to lack cystathionase synthesis
+  - vitamin B6 – responsive, is thought to be due to altered B6 binding 
+- Urine amino acids
+  - \uparrow cystathionine
+- benign condition with out pathogenic relevance
+
 * Molybdenum Cofactor Deficiency
 ** Clinical Presentation
 - usually present soon after birth with poor feeding, hypotonia,

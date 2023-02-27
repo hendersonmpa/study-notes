@@ -270,3 +270,12 @@
   - mitochondrial membrane
   - unknown etiology
 
+* Short/Branched Chain Acyl-CoA Dehydrogenase Deficiency
+- \uparrow  urine 2-methylbutyrylglycine (AKA 3-OH-2-ethylpropanoate)
+- \uparrow  plasma C5-carnitine (2-methylbutyrylcarnitine) 
+
+*  2-Methyl-3-Hydroxybutyryl-CoA Dehydrogenase/HSD10 Disease
+- \uparrow urine 3-hydroxy-2-methylbutyrate and tiglylglycine without elevation of 2-methylacetoacetate.
+- \uparrow urine 2-ethylhydracrylic, 2-keto-3-methylvaleric, and 3-hydroxyisobutyric acids,
+- biochemical evidence of mitochondrial dysfunction such as elevated
+  lactate concentrations is a constant finding in male patients.

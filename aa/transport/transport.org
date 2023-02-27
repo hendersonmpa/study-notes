@@ -14,6 +14,12 @@
   always impaired
 - clinical symptoms result from excess amounts of certain amino acids
   in the urine or lack of them in the tissues
+
+#+CAPTION[]: Amino Acid Classes
+#+NAME: fig:aaclasses
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/aaclasses.png]]
+
 ** Dibasic Amino Acids
 - cystine and structurally related dibasic cationic amino acids
   lysine, arginine and ornithine are transported from the intestinal
@@ -46,6 +52,7 @@
 #+NAME: fig:aatrans
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/aatrans.png]]
+
 
 * Cystinuria
 ** Clinical Presentation

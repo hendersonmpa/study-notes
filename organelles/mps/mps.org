@@ -202,7 +202,8 @@
 ** Genetics
 - AR
 - *MPS II Hunter is XLR*
-- see table [[tab:mps]]
+- see Lysosomal Storage Disorder Biochemistry table 
+
 ** Diagnostic Tests
 - fractionation of urine GAGs (Table [[tab:mps]])
   - dimethylmethylene blue dye binding assay (DMB) for total GAGs

@@ -62,6 +62,12 @@
 
  - normal lactate/pyruvate < 20
 
+** \beta-oxidation Redox Rxn
+- Acyl-CoA Deydrogenase :: FAD reduced to FADH_2
+\ce{Acyl-CoA + FAD <=>[ACD] 2,3-enoyl-CoA + FADH2}
+- Hydroxyacyl-CoA Deydrogenase :: NAD+ reduced to NADH
+\ce{3-hydroxyacyl-CoA + NAD+ <=>[HAD] 3-Ketoacyl-CoA + NADH}
+
 ** TCA Net Reaction
 - net reaction :: acetyl-CoA oxidized to 2CO_2
 - net reaction :: 3 NAD^{+} reduced to 3 NADH
@@ -75,14 +81,14 @@
 
 \ce{NADH <=>[CI] NAD+ + H}
 
-- ETF/ETF-QO :: FADH_2 oxidized to FAD
+- ETF dehydrogenase :: FADH_2 oxidized to FAD
 
- \ce{FADH2 <=>[ETF/ETF-CO] FAD + 2H+}
+ \ce{FADH2 <=>[ETF DH] FAD + 2H+}
 
 ** Ketone Redox Rxn
-- hydroxybutyrate dehydrogenase :: acetoacetate reduced to \beta-hydroxybutyrate
+- hydroxybutyrate dehydrogenase :: \beta-hydroxybutyrate oxidized to acetoacetate
 
- \ce{acetoacetate + NADH <=>[HBDH] \beta-hydroxybutyrate + NAD+}
+ \ce{ \beta-hydroxybutyrate + NAD+ <=>[HBDH] acetoacetate + NADH}
 
 * Fatty Acid Oxidation
 #+INCLUDE: "./fao/fao.org" :lines "4-"

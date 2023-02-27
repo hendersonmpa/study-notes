@@ -62,6 +62,17 @@
   - glutaryl-CoA dehydrogenase
   - crotonase 
 
+#+CAPTION[]:Tryptophan, Hydroxylysine and Lysine Catabolic Pathways
+#+NAME: fig:cat
+#+ATTR_LaTeX: :width 1.2\textwidth
+[[file:./figures/cat.png]]
+
+
+#+CAPTION[]:Tryptophan and Lysine Catabolic Pathways
+#+NAME: fig:trplys
+#+ATTR_LaTeX: :width 1\textwidth
+[[file:./figures/Slide05.png]]
+
 ** Cerebral Organic Acidurias
 - a group of organic acid disorders present exclusively with
   progressive neurological symptoms of ataxia, epilepsy, myoclonus,
@@ -77,17 +88,6 @@
       glutamate (2-amino-glutarate)
   - or neurotransmitters/negative modulators
     - \gamma-hydroxybutyrate
-
-#+CAPTION[]:Tryptophan, Hydroxylysine and Lysine Catabolic Pathways
-#+NAME: fig:cat
-#+ATTR_LaTeX: :width 1.2\textwidth
-[[file:./figures/cat.png]]
-
-
-#+CAPTION[]:Tryptophan and Lysine Catabolic Pathways
-#+NAME: fig:trplys
-#+ATTR_LaTeX: :width 1\textwidth
-[[file:./figures/Slide05.png]]
 
 * Glutaric Aciduria Type I
 ** Clinical Presentation
