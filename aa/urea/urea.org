@@ -152,7 +152,6 @@
   - \uparrow orotic acid
   - \uparrow uracil
 
-
 ** Treatment
 *** Emergency
 - stop natural protein intake
@@ -174,9 +173,10 @@
     into an intermediate product, benzoyl-CoA which is then
     metabolized by glycine N-acyltransferase into hippuric acid
 - arginine and/or citrulline supplementation in OTC & CPS \to elimination of nitrogen from aspartate
-- N-carbamylglutamate replaces the CPS1 activator N-acetylglutamate in NAGS deficiency
+  - \ce{citrulline + aspartate ->[ASS] ASA}
+- N-carbamylglutamate (carbaglu) replaces the CPS1 activator N-acetylglutamate in NAGS deficiency
 
-\ce{citrulline + aspartate ->[ASS] ASA}
+
 
 #+CAPTION[]:Nitrogen Elimination by Phenylbutyrate and Benzoate
 #+NAME: fig:nh3
@@ -318,12 +318,27 @@
 *** Diagnostic Tests
 - newborns with intrahepatic cholestasis the finding of:
   - increased plasma citrulline
-  - without significant hyperammonaemia
   - normal or elevated levels of arginine
+  - increases methionine, phenylalanine, tyrosine, threonine, and threonine/serine ratio.
+  - without significant hyperammonaemia
+
   - without urinary orotic acid
   - high plasma level of alpha-fetoprotein
   - \pm increased galactose
 - strongly suggestive of  NICCD
+
+
+
+#+CAPTION[]:Biochemical findings in citrin deficiency by phenotype [Adapted from Saheki & Song 2005] [fn:citrin]
+#+NAME: tab:citrin
+| Phenotype          | Ammonia     | Citrulline  | Arginine | Threonine/Serine Ratio | Pancreatic Secretory Trypsin Inhibitor (ng/mL) |
+|--------------------+-------------+-------------+----------+------------------------+------------------------------------------------|
+| Control            | 18-47*      | 17-43*      | 54-130*  |                   1.10 | 4.6-20*                                        |
+| NICCD (0-6 months) | 60          | 300         | 205      |                   2.29 | 30                                             |
+| FTTDCD             | N/ \uparrow | N/ \uparrow | N        |                Unknown | Unknown                                        |
+| CTLN2              | 152         | 418         | 198      |                   2.32 | 71                                             |
+
+[fn:citrin] https://citrinfoundation.org/what-is-citrin-deficiency/diagnosis/
 
 *** Treatment
 - avoid carbohydrate or glycerol infusions \to hyperammonaemia
