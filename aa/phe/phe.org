@@ -93,7 +93,6 @@
 - R408W mutation \sim 30% of alleles in Europeans with PKU
 - genotypes correlate well with biochemical phenotypes, pre-treatment
   phenylalanine levels and dietary phenylalanine tolerance
-
 ** Diagnostic Tests
 - NBS for phenylalanine and phenyalanine/tyrosine
 - exclude cofactor defects via pterins in blood or urine and
@@ -156,7 +155,7 @@ single dose
 - start diet before conception
 - monitoring expecting mothers 2x weekly
 
-* HPA and Disorders of Biopterin Metabolism
+* Disorders of Biopterin Metabolism
 - disorders of BH_4 metabolism associated with HPA and biogenic amine deficiency (Figure [[fig:bh4]])
   - GTP cyclohydrolase I (GTPCH)
   - 6-pyruvoyl-tetrahydropterin synthase (PTPS)
@@ -222,4 +221,10 @@ single dose
   - L-dopa, 5-OH-tryptophan
 
     
+
+* DNAJC12 Deficiency
+- Associated with non-BH4 deficient hyperphenylalaninaemia
+- AR DNAJC12
+- Encodes a chaperone in the DnaJ/HSP40 family 
+
 
