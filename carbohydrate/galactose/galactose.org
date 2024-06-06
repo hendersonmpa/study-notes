@@ -8,6 +8,8 @@
 - endogenous galactose production is also significant
 - lactose is hydrolysed by lactase \to galactose and glucose
 - galactose is then absorbed using a sodium/glucose-galactose cotransporter (SGLT1)
+- in the first step of the Leloir pathway, \beta-d-galactose is epimerized to \alpha-d-galactose by galactose mutarotase.
+  - deficiency of galactose mutarotase is very rare.
 - liver is the major organ responsible for galactose metabolism
   - galactose functions:
     - energy source in pre-weaning infants
@@ -30,6 +32,7 @@
   1) GALT deficiency - classic galactosemia  
   2) GALE deficiency
   3) GALK deficiency
+
 
 * GALT Deficiency
 - AKA: Classic Galactosemia

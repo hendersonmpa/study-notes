@@ -149,7 +149,7 @@
 #+CAPTION[]:Rationale for Derivatization
 #+NAME: fig:deriv
 #+ATTR_LaTeX: :width 0.9\textwidth
-[[file:./ac/figures/ionization.png]]
+[[file:./figures/ionization.png]]
 
 ** FIA-MS/MS schematic
 #+BEGIN_EXPORT LaTeX

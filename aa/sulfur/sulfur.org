@@ -130,6 +130,10 @@
 * Cystathionine \beta-Synthase Deficiency
 - AKA Homocystinuria
 ** Clinical Presentation
+- there are 2 main variants of homocystinuria:
+  - pyridoxine (B6) responsive
+    - cofactor of cystathionine beta-synthase
+  - non-responsive usually has more pronounced symptoms. 
 - wide spectrum of severity and age at presentation
 - severity varies from
   - multisystemic childhood condition with lens dislocation,

@@ -37,6 +37,11 @@
 
 - GAGs are composed of repeating units of disaccharides (Figure [[fig:gags]])
   - hexosamine and a hexose or hexuronic acid
+
+- Online resource: Essentials of Glycobiology, 4th edition
+  - Chapter 44 : Genetic Disorders of Glycan Degradation
+  - 
+- https://www-ncbi-nlm-nih-gov.proxy.bib.uottawa.ca/books/NBK579918/
 *** Hyaluronan 
 - composed of N-acetylglucosamine and glucuronate 
 - not sulfated, not protein bound

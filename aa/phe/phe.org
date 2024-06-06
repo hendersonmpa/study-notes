@@ -223,8 +223,44 @@ single dose
     
 
 * DNAJC12 Deficiency
-- Associated with non-BH4 deficient hyperphenylalaninaemia
+
+DNAJC12, a 40 kDa heat-shock protein (HSP40) that functions as a
+co-chaperone with HSP70, is required for the correct protein folding
+of the aromatic amino acid hydroxylases phenylalanine hydroxylase
+(PAH), tyrosine hydroxylase (TH) and tryptophan hydroxylases 1 and 2
+(TPH1 and TPH2). Pathogenic variants of DNAJC12 that cause misfolding
+of PAH result in a phenotype known as mild non-BH4-deficient
+hyperphenylalaninemia (HPANBH4; OMIM#617384).
+
+Mild non-BH4-deficient hyperphenylalaninemia is an autosomal recessive
+disorder characterized by increased serum phenylalanine (a.k.a
+hyperphenylalaninemia, HPA) and associated with highly variable
+neurologic defects, including movement abnormalities, such as
+dystonia, and variably impaired intellectual development. Laboratory
+analysis shows dopamine and serotonin deficiencies in the
+cerebrospinal fluid, and normal tetrahydrobiopterin (BH4) metabolism.
+
+The phenotype is highly variable: some patients may present with later
+onset of juvenile or young adult nonprogressive dopa-responsive
+parkinsonism reminiscent of early-onset Parkinson disease. DNAJC12 has
+been described as a “cerebral palsy mimic”, a term used to describe a
+number of neurogenetic disorders that may present with motor symptoms
+in early childhood, resulting in a misdiagnosis of cerebral palsy.
+
+- non-BH4 deficient hyperphenylalaninaemia
+- A rare inborn error of metabolism characterized by:
+  - increased serum phenylalanine
+  - variable neurological symptoms ranging from mild autistic features or hyperactivity to severe
+    intellectual disability, dystonia, and parkinsonism.
+- Laboratory analyses show
+  - normal tetrahydrobiopterin (BH4) metabolism
+  - low levels of the CSF monoamine neurotransmitter metabolites homovanillic acid and 5-hydroxyindoleacetic acid
+
 - AR DNAJC12
-- Encodes a chaperone in the DnaJ/HSP40 family 
+  - Encodes a chaperone in the DnaJ/HSP40 family 
+
+
+
+
 
 

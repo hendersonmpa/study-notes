@@ -39,7 +39,6 @@
 #+ATTR_LaTeX: :width 0.9\textwidth
 [[file:./figures/berryspot.png]]
 
-
 * Spectrophotometric 
 - total GAGs
 - urine sample
@@ -66,3 +65,86 @@
 
 
 
+* COMMENT Non-reducing ends and Internal Disacchararides
+
+- Eliminative depolymerization of a heparan sulfate oligosaccharide
+  with heparan lyase results in the release of internal disaccharide
+  residues (dashed arrows) that contain an unsaturated uronic acid
+  moiety (dotted circles).
+
+
+- Because of its terminal location, the nonreducing end liberated from
+  the left end of the chain as drawn lacks the \delta 4,5-double bond and is
+  18 amu larger than a corresponding internal disaccharide.
+
+
+- Reductive amination with aniline ([12C6]An) facilitates separation
+  of the various disaccharides by LC/MS, yielding the m/z values for
+  the molecular ions indicated within the parentheses.
+
+
+#+CAPTION[]: Scheme for determining non-reducing ends and internal disaccharides
+#+NAME: fig:nreids
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/nihms335437f1.jpg]]
+
+
+ - The defective enzyme for each MPS subclass is displayed along with
+   the liberated NRE carbohydrates characteristic of MPS I, II, IIIA,
+   IIIB, IIIC, IIID, VI and VII using geometric symbols.
+ - The matrices show all NRE carbohydrates that are theoretically
+   possible for each MPS subclass.
+ - The boxes with a black background and whiteface font depict
+   structures that were detected and whose identities were confirmed
+   by their cochromatography and identical mass spectra as standards,
+   as well as their sensitivity to exoglycosidases or propionic acid
+   anhydride.
+ - Suspected structures shown in boxes with a gray background are
+   implied from the liquid chromatography/mass spectra data,
+   - i.e. their size and content of sulfate and acetate groups are
+     consistent with the proposed structures.
+ - The structures in boxes with a white background are theoretically
+   possible, but have not been observed.
+ - The m/z values for both the free molecular ions and adduction ions
+   formed with the ion pairing reagent dibutylamine (DBA) are listed
+
+#+CAPTION[]:MPS Non-reducing end carbohydrates
+#+NAME: fig:mpsnres
+#+ATTR_LaTeX: :width 0.9\textwidth
+[[file:./figures/nihms335437f2.jpg]]
+
+
+- Source:: doi:10.1038/nchembio.766
+
+
+- Glycobiology textbook 
+https://www.ncbi.nlm.nih.gov/books/NBK579918/
+
+- Symbol Nomenclature for Glycans (SNFG)
+https://www.ncbi.nlm.nih.gov/glycans/snfg.html
+
+** Endogenous NRE GAG: UA-HNAc(1S)
+- Endogenous enzymes present in human tissues can also cleave GAG
+  chains, and an endogenous disaccharide biomarker was reported to be
+  elevated in urine from MPS-I patients.
+- This biomarker contains a uronic acid (iduronic acid or glucuronic
+  acid) linked to N-acetyl-hexosamine (contains a uronic acid
+  (iduronic acid or glucuronic acid) linked to N-acetyl-hexosamine
+  (GlcNAc or GalNAc) and contains a single sulfate.
+-  Its exact structure is unknown, and we refer to it as UA-HNAc(1S)
+  (presumably UA is iduronic acid rather than glucuronic acid, but
+  this was not proven).
+
+
+| Analyte           | Role       | Parent | Product |  RT |
+|-------------------+------------+--------+---------+-----|
+| ΔUA-GalNAc4S      | IS         |  788.1 |   534.1 | 4.6 |
+| UA-HNAc(1S)-Early | MPS-I NRE  |  806.3 |   294.9 | 4.6 |
+| UA-HNAc(1S)-Late  | MPS-II NRE |  806.3 |   294.9 | 5.0 |
+
+
+#+BEGIN_EXPORT LaTeX
+\begin{equation}
+apparent fmole/punch = \frac{P}{IS} \cdot \frac{10000 fmole}{2 punches}
+\end{equation}
+#+END_EXPORT
